@@ -11,9 +11,11 @@ const express = require('express');
 const webpack = require('webpack');
 const proxyMiddleware = require('http-proxy-middleware');
 const webpackConfig = require('../webpack.config.example.js');
-console.log('fuck')
+
 const Ora = require('ora');
 const local_dirname = path.join(__dirname,'..','..');
+console.log(path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`))
+console.log('fuck')
 
 const port = process.env.PORT || config.dev.port;
 
@@ -27,20 +29,20 @@ const devMiddleware = require('webpack-dev-middleware')(compiler, {
   path: '/__webpack_hmr',
   quiet: true,
   stats: {
-    colors: false,
+    colors: true,
     hash: false,
     version: false,
-    timings: false,
+    timings: true,
     assets: false,
     chunks: false,
     modules: false,
     reasons: false,
-    children: false,
+    children: true,
     source: false,
     errors: true,
     errorDetails: true,
     warnings: true,
-    publicPath: false
+    publicPath: true
   },
   watchOptions: {
     aggregateTimeout: 300,

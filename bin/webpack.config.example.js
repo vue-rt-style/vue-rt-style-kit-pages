@@ -4,16 +4,13 @@ const HtmlWebpackPlugin = require(`html-webpack-plugin`);
 const webpack = require('webpack');
 
 const local_dirname = path.join(__dirname,'..');
-const vueLoaderConfig = require('./vue-loader.config');
+
 
 const config = {
   entry: {
     app:[path.join(local_dirname, `src`,`example-pages`,`index.js`)],
   },
   mode: 'development',
-  output: {
-    publicPath: `/`,
-  },
   optimization: {
     splitChunks: {
       chunks: `all`
@@ -21,8 +18,15 @@ const config = {
   },
   devtool: false,
   resolve: {
+    symlinks: false,
     alias: {
-      'vue$': 'vue/dist/vue.esm.js'
+      'vue$': 'vue/dist/vue.esm.js',
+      '@vue-rt-style-kit-atoms-local': path.join(local_dirname,'src','atoms'),
+      '@vue-rt-style-kit-molecules-local': path.join(local_dirname,'src','molecules'),
+      '@vue-rt-style-kit-icons-local': path.join(local_dirname,'src','molecules'),
+      '@projectAtoms': path.join(local_dirname,'src','projectsJsons','atoms.json'),
+      '@projectMolecules': path.join(local_dirname,'src','projectsJsons','molecules.json'),
+      '@projectIcons': path.join(local_dirname,'src','projectsJsons','icons.json'),
     },
   },
   module: {
@@ -34,14 +38,19 @@ const config = {
             loader: "vue-loader"
           },
         ],
+        include: [path.join(local_dirname, `src`),
+                path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`)
+        ],
       },
       {
         test: /\.html$/,
-        use: 'raw-loader'
+        use: 'raw-loader',
+        include: [path.join(local_dirname, `src`),path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`)],
       },
       {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
+        include: [path.join(local_dirname, `src`),path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`)],
         use: [
           {loader:`babel-loader`},
           {loader:`ts-loader`}]
@@ -57,7 +66,7 @@ const config = {
         test: /\.js$/,
         loader: `babel-loader`,
         exclude: /node_modules/,
-        include: [path.join(local_dirname, `src`)],
+        include: [path.join(local_dirname, `src`),path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`)],
       },
       {
         test: /\.styl/,

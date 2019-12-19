@@ -22,7 +22,8 @@ import {
     ColorLineText,
     Ussd,
     Spinner
-} from '../../../vue-rt-style-kit-atoms/src/index'
+} from '@vue-rt-style-kit-atoms-local'
+
 
 import {
     ScrollTabs,
@@ -94,8 +95,26 @@ import {
     GalleryCarouselItem,
     CountdownTimer,
     StickyBottomLine
-} from 'vue-rt-style-kit-molecules'
+} from '@vue-rt-style-kit-molecules-local'
 
+
+
+
+
+//
+// console.info('test',test)
+// console.info('test',test)
+// console.info('test',test)
+// console.info('test',test)
+// console.info('test',test)
+// console.info('test',test)
+// console.info('test',test)
+// import {
+//     PreComponent,
+//     PreComponentEditor,
+//     DocumentationBuilder
+// } from "./components";
+// import {PreComponent, PreComponentEditor, DocumentationBuilder} from "../develover-lib/components/index";
 
 import {
     Logo,
@@ -103,6 +122,11 @@ import {
     Icon,
     ValidationIcon
 } from 'vue-rt-style-kit-icons'
+// console.info('PreComponent\n' +
+//     'PreComponentEditor\n' +
+//     'DocumentationBuilder',PreComponent,
+//     PreComponentEditor,
+//     DocumentationBuilder)
 import AppMenu from "./components/AppMenu.vue";
 
 const componentsList = {};
@@ -165,6 +189,8 @@ componentsList[SlideContentDottedContent.name] = SlideContentDottedContent.compo
 componentsList[SlideContentDottedHeader.name] = SlideContentDottedHeader.component;
 componentsList[AppMenu.name] = AppMenu;
 componentsList[Icon.name] = Icon;
+componentsList[LogoCoBranding.name] = LogoCoBranding.component;
+componentsList[ValidationIcon.name] = ValidationIcon.component;
 componentsList[Pattern.name] = Pattern;
 componentsList[Logo.name] = Logo.component;
 componentsList[Swiper.name] = Swiper;
@@ -193,4 +219,9 @@ componentsList[CheckboxTabs.name] = CheckboxTabs;
 componentsList[CountdownTimer.name] = CountdownTimer;
 componentsList[StickyBottomLine.name] = StickyBottomLine;
 
+
+// componentsList[PreComponent.name] = PreComponent;
+// componentsList[PreComponentEditor.name] = PreComponentEditor;
+// componentsList[DocumentationBuilder.name] = DocumentationBuilder;
+console.info(')()()',componentsList)
 export default {...componentsList};

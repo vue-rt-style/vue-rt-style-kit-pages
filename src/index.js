@@ -58,7 +58,7 @@ if (settingsKey) {
     if (!window[settingsKey].segment) window[settingsKey].segment = Global.defaultSegment
     window[settingsKey].version = version;
 }
-
+ */
 // @Deprecated
 window.RTK_STYLE_VER = version;
 VueRtStyle.version = version;

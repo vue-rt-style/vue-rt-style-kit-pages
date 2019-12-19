@@ -11,11 +11,18 @@
 <script type="text/jsx">
   import componentsMenu from "./componentsMenu.json";
   import componentsList from "../componentsList";
+  let components = {};
+  console.info('componentsList **s',componentsList);
+  import {Logo} from "../../icons";
+
+  components = {...componentsList}
+  components[Logo.name] = Logo;
+  console.info('components',components)
   import RtInput from "vue-rt-style-kit-atoms";
 
   export default {
     name: "AppMenu",
-    components: { RtInput },
+    components: { components },
     props: {
       showMenu: {
         type: Boolean,

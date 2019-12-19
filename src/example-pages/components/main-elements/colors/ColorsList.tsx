@@ -1,8 +1,7 @@
 import Vue, { CreateElement, VNode } from "vue";
 import { Component } from "vue-property-decorator";
 import ColorItem from "./ColorsListItem.tsx";
-import colors from "vue-rt-style-kit-atoms/src/color.json";
-
+import colors from "vue-rt-style-kit-atoms/src/colorFullDocs.json";
 import { IColorList } from "./IColorList";
 import colorListSettings from "./colorListSettings.json";
 
@@ -24,14 +23,18 @@ class ColorsList extends Vue {
       this.colorsSettingsArray[item.index] = key;
     });
     this.colorsSettingsArray[1] = "icon";
-    Object.keys(this.colors).map((key) => {
+
+    Object.keys(this.colors).forEach((key) => {
+      console.info(key,Object.keys(this.colors))
       const color = this.colors[key];
+      console.info('color',color);
       this.createColorsParams(color);
     });
     this.$set(this, "colors", { ...this.colors });
   }
 
   private createColorsParams(color): void {
+    console.info('-->>', color)
     if (color.value[0] === "#") {
       color.hex = color.value.substr(1);
       color.rgba = this.convertHexToRGBA(color.hex);

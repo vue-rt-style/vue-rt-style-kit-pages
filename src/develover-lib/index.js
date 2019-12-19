@@ -2,9 +2,9 @@ import Vue from "vue";
 // import styles from './css/vue-rt-style-develop.less';
 // import mainStyles from './css/vue-rt-style-develop.less';
 import {
-  PreComponent,
-  PreComponentEditor,
-  DocumentationBuilder
+    PreComponent,
+    PreComponentEditor,
+    DocumentationBuilder
 } from "./components";
 
 // import VueRtStyle from '../lib'
@@ -18,7 +18,6 @@ const VueRtDevStyle = {
   }
 };
 
-const version = "0.0.33";
-VueRtDevStyle.version = version;
 
 export default VueRtDevStyle;
+export {PreComponent, PreComponentEditor, DocumentationBuilder};
