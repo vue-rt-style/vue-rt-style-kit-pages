@@ -1,0 +1,1495 @@
+<style>
+  .sticked.app-sticked{
+    top: 0!important;
+  }
+  .scroll-wrapper .rt-space-left {
+    padding-left: 10px;
+  }
+
+  .rt-annotation + .rt-annotation {
+    border-top: none;
+  }
+
+  .rt-annotation {
+    padding-left: 10px;
+  }
+
+  .rt-annotation__content {
+    color: #000;
+    padding-left: 0;
+  }
+
+  .rt-price__option-value.rt-price__value {
+    font-weight: 500;
+  }
+
+  .first-price .rt-price__option-value.rt-price__value {
+    font-weight: inherit;
+  }
+
+  .rt-card__border-content {
+    border-top: none;
+  }
+
+  .rt-scroll-tab-header {
+    display: flex !important;
+  }
+
+  .tab-wrapper {
+    text-align: center;
+  }
+
+  .tooltip-wrapper {
+    z-index: 11;
+  }
+
+  .first-price {
+    padding-bottom: 17px;
+    border-bottom: 1px solid rgba(16, 24, 40, 0.1);
+  }
+
+  .advantages-wrapper {
+    background-color: #fff;
+  }
+
+  .phone__container {
+    background-image: url(/sites/default/files/img/smarthome/2_o-servise.png);
+    background-position: center bottom;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-width: 549px;
+    min-height: 500px;
+  }
+
+  @media screen and (min-width: 1025px) {
+    .rt-carousel__navi-arrows.rt-container {
+      display: none;
+    }
+
+    .rt-carousel__spacer {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1120px) {
+    .phone__container {
+      min-width: 470px;
+      min-height: 470px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .color-line.color-line--is-paragraph.rt-space-bottom {
+      padding-bottom: 0;
+    }
+
+    .rt-font-banner-label .color-line-text {
+      padding: inherit;
+    }
+
+    .color-line-wrapper {
+      padding-bottom: 0;
+    }
+
+    .rt-col-6.flex-center-center.rt-md-space-vertical2.rt-col-md-3 {
+      order: 1;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .phone__container {
+      min-width: 360px;
+      min-height: 330px;
+    }
+  }
+
+  .list {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #f1f3f5;
+  }
+
+  .list:last-child {
+    padding-bottom: 20px;
+    border-bottom: none;
+  }
+
+  .alignment-right {
+    margin-left: auto;
+    margin-right: 0px;
+  }
+
+  .alignment-center {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .rt-space10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .img-size {
+    max-width: 100%;
+  }
+
+  .icon-size {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  }
+
+  .house {
+    background: url("/sites/default/files/img/smarthome/001-BW.svg") center
+    no-repeat;
+  }
+
+  .fire {
+    background: url("/sites/default/files/img/smarthome/006-BW.svg") center
+    no-repeat;
+  }
+
+  .door {
+    background: url("/sites/default/files/img/smarthome/007-BW.svg") center
+    no-repeat;
+  }
+
+  .drops {
+    background: url("/sites/default/files/img/smarthome/008-BW.svg") center
+    no-repeat;
+  }
+
+  .human {
+    background: url("/sites/default/files/img/smarthome/009-BW.svg") center
+    no-repeat;
+  }
+
+  .lamp {
+    background: url("/sites/default/files/img/smarthome/184-BW.svg") center
+    no-repeat;
+  }
+
+  .socket {
+    background: url("/sites/default/files/img/smarthome/185-BW.svg") center
+    no-repeat;
+  }
+
+  .icon-file {
+    display: block;
+    width: 20px;
+    height: 16px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath d='M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48z'/%3E%3C/svg%3E")
+    center no-repeat;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .list-smart-house {
+      min-height: 330px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .video-control {
+      min-height: 315px;
+    }
+
+    .list-smart-house {
+      min-height: 350px;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    .video-control {
+      min-height: 250px;
+    }
+
+    .list-smart-house {
+      min-height: 435px;
+    }
+  }
+
+  @media screen and (min-width: 1124px) {
+    .video-control {
+      min-height: 265px;
+    }
+
+    .list-smart-house {
+      min-height: 370px;
+    }
+  }
+</style>
+
+<style>
+  @media screen and (max-width: 400px) {
+    .tooltip .tooltip-content {
+      min-width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .tooltip .tooltip-content::before {
+      left: 0;
+    }
+
+    .tooltip .tooltip-content {
+      left: 0;
+    }
+
+    .tooltip {
+      width: 20px;
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 840px) {
+    .tooltip .tooltip-content {
+      left: -220px;
+    }
+
+    .tooltip .tooltip-content::before {
+      left: calc(50% + 20%);
+    }
+  }
+
+  .tooltip {
+    position: relative;
+    z-index: 9;
+  }
+
+  .icon-tooltip {
+    font-style: normal;
+    font-weight: 500;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #f1f3f5;
+  }
+
+  .tooltip-content {
+    top: 33px;
+    left: -155px;
+    position: absolute;
+    min-width: 320px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 rgba(16, 24, 40, 0.2);
+  }
+
+  .tooltip-content::before {
+    top: -7px;
+    left: calc(50% - 4px);
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 8px 8px 8px;
+    border-color: transparent transparent #fff transparent;
+  }
+</style>
+
+<style>
+  .ptabs {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .ptabs {
+      padding: 20px 0;
+    }
+
+    .ptabs.rt-font-h4 {
+      font-size: 16px;
+    }
+  }
+
+  .ptabs > div {
+    display: flex;
+    border: solid 2px #7700ff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .ptabs .ptabs_btn {
+    padding: 10px 20px;
+    z-index: 1000;
+    position: relative;
+  }
+
+  .ptabs .ptabs_btn:hover {
+    cursor: pointer;
+  }
+
+  .ptabs .ptabs_btn.active {
+    background-color: #7700ff;
+    color: #ffffff;
+  }
+
+  .ptabs_tab {
+    display: none;
+  }
+
+  .ptabs_tab.active {
+    display: block;
+  }
+
+  .low > .rt-price__value {
+    font-size: 36px;
+  }
+
+  .sticked {
+    z-index: 22;
+  }
+
+  .transparent {
+    background-color: transparent;
+  }
+
+  @media (max-width: 767px) {
+    .transparent {
+      background-color: #57d9b7;
+    }
+  }
+
+  .color-line-paragraph-icon {
+    display: none;
+  }
+
+  .rt-l-bottom-scroll-arrow {
+    cursor: pointer;
+  }
+</style>
+
+<div class="wc-inline">
+  <rt-banner has-custom-height="100vh" :without-empty-column="true" class="fullscreen-banner">
+    <rt-banner-item background-image="/sites/default/files/img/smarthome_header.png" :is-white-color="true"
+                    content-mobile-min-height="100vh" background-color="green">
+      <p class="rt-font-label-uppercase color-white rt-space-bottom">
+        Система умный дом
+      </p>
+      <rt-color-line-text>
+        <template slot="label">Ваш дом всегда перед глазами</template>
+      </rt-color-line-text>
+      <p class="rt-space-top rt-space-bottom2">
+        Контролируйте происходящее дома с&nbsp;Видеонаблюдением и&nbsp;датчиками
+        Умного дома
+      </p>
+      <a href="#buy">
+        <rt-button class="rt-button-orange">К тарифам</rt-button>
+      </a>
+    </rt-banner-item>
+  </rt-banner>
+
+  <div class="rt-container">
+    <div class="rt-col">
+      <div class="rt-l-bottom-scroll-arrow-wrapper">
+        <svg width="62px" height="32px" viewBox="0 0 62 32" version="1.1" xmlns="http://www.w3.org/2000/svg" class="rt-l-bottom-scroll-arrow">
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="553-LP_Igrovoi_v1" transform="translate(-703.000000, -744.000000)" fill="#FFFFFF" fill-rule="nonzero">
+              <polygon id="Path-3" points="703 744.090964 733.885222 775.112818 764.995496 744 762.183171 744 733.885222 772.305037 705.599095 744"></polygon>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="transparent color-white rt-space-horizontal sticked app-sticked">
+    <rt-scroll-tabs tabs-classname="rt-scroll-tab-header__item"
+                    :top-padding="0" :hideIfNotInViewport="true">
+      <div class="rt-col rt-space-top rt-md-space-vertical">
+        <div class="flex-end-center">
+          <a class="rt-scroll-tab-header__item" href="#buy">
+            <rt-button class="rt-button-small rt-button-orange">Подключить</rt-button>
+          </a>
+        </div>
+      </div>
+    </rt-scroll-tabs>
+  </div>
+
+  <div class="main-wrapper">
+    <div class="rt-container">
+      <div class="rt-col">
+        <div class="row">
+          <div class="rt-col-6 flex-center-center rt-md-space-vertical2 rt-col-md-3">
+            <div>
+              <h3 class="rt-font-h2 rt-font-bold rt-space-bottom">
+                О&nbsp;сервисе
+              </h3>
+              <p class="rt-font-paragraph rt-space10 color-main">
+                Умный дом&nbsp;— это безопасный и&nbsp;комфортный дом. Узнавайте
+                обо&nbsp;всём, что&nbsp;в&nbsp;нём происходит, с&nbsp;помощью
+                удобного мобильного приложения.
+              </p>
+              <p class="rt-font-paragraph color-main">
+                Видеонаблюдение поможет проследить за&nbsp;квартирой
+                или&nbsp;дачей, когда вы&nbsp;далеко, а&nbsp;система датчиков
+                и&nbsp;устройств моментально уведомит о&nbsp;любых
+                происшествиях.
+              </p>
+            </div>
+          </div>
+          <div class="rt-col-6 rt-space-top05 flex-end-bottom flex-md-center rt-col-md-3 rt-md-space-top">
+            <div class="rt-space-horizontal flex-md-center" style="overflow: hidden;">
+              <div class="phone__container"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="advantages-wrapper">
+    <div class="rt-container">
+      <div class="rt-col">
+        <h3 class="rt-font-h2 rt-font-bold rt-space-top3">Преимущества</h3>
+      </div>
+    </div>
+    <div class="rt-space-bottom2">
+      <rt-benefit-block :columns-quantity="4" :swiper-on-mobile="true">
+        <rt-benefit-item>
+          <template slot="description">
+            <img src="/sites/default/files/img/smarthome/message.svg" />
+            <h3 class="rt-font-h4 rt-font-bold rt-space-top">
+              Вы всегда в курсе всего, что происходит дома
+            </h3>
+            <p class="rt-font-small-paragraph rt-space-top color-main05">
+              Система пришлет уведомление на смартфон и электронную почту, а
+              если рядом нет интернета — вы узнаете о происшествии по смс.
+            </p>
+          </template>
+        </rt-benefit-item>
+        <rt-benefit-item>
+          <template slot="description">
+            <img src="/sites/default/files/img/smarthome/house-green.svg" />
+            <h3 class="rt-font-h4 rt-font-bold rt-space-top">
+              Установить систему просто
+            </h3>
+            <p class="rt-font-small-paragraph rt-space-top color-main05">
+              Чтобы подключить камеру и датчики, не придется сверлить стены и
+              портить ремонт, а при переезде устройства легко взять с собой.
+            </p>
+          </template>
+        </rt-benefit-item>
+        <rt-benefit-item>
+          <template slot="description">
+            <img src="/sites/default/files/img/smarthome/cloud.svg" />
+            <h3 class="rt-font-h4 rt-font-bold rt-space-top">
+              Доступ из любой точки мира
+            </h3>
+            <p class="rt-font-small-paragraph rt-space-top color-main05">
+              Присматривайте за домом отовсюду — для доступа к приложению
+              понадобится только интернет.
+            </p>
+          </template>
+        </rt-benefit-item>
+        <rt-benefit-item>
+          <template slot="description">
+            <img src="/sites/default/files/img/smarthome/rt-house.png" />
+            <h3 class="rt-font-h4 rt-font-bold rt-space-top">
+              Приложение легко настроить под себя
+            </h3>
+            <p class="rt-font-small-paragraph rt-space-top color-main05">
+              Задавайте свои сценарии управления датчиками, просматривайте
+              записи видео, получайте уведомления тем способом, который удобен
+              вам.
+            </p>
+          </template>
+        </rt-benefit-item>
+      </rt-benefit-block>
+    </div>
+  </div>
+
+  <rt-banner has-custom-height="500px" :without-empty-column="true">
+    <rt-banner-item background-image="/sites/default/files/img/smarthome_01.png" :is-white-color="true"
+                    content-mobile-min-height="500px" background-color="orange">
+      <rt-color-line-text :is-white-color="true" fill-color="purple-high">
+        <template slot="label">Вернулись в&nbsp;город с дачи?</template>
+      </rt-color-line-text>
+      <p class="rt-space-vertical05">
+        Если на&nbsp;участок проникнут посторонние, датчик движения отправит
+        уведомление на&nbsp;ваш&nbsp;смартфон, а&nbsp;камера наружного
+        видеонаблюдения запишет событие в&nbsp;облако. Кроме того, теперь можно
+        спокойно оставить на&nbsp;даче бригаду строителей и&nbsp;следить
+        за&nbsp;их&nbsp;работой в&nbsp;прямом эфире&nbsp;— с&nbsp;помощью
+        Видеонаблюдения от&nbsp;Ростелекома.
+      </p>
+      <span id="buy">&nbsp;</span>
+    </rt-banner-item>
+    <rt-banner-item background-image="/sites/default/files/img/smarthome_02.png" :is-white-color="true"
+                    content-mobile-min-height="500px" background-color="green">
+      <rt-color-line-text :is-white-color="true" fill-color="purple-high">
+        <template slot="label">Отправились в&nbsp;отпуск?</template>
+      </rt-color-line-text>
+      <p class="rt-space-vertical05">
+        Установите датчики открытия на&nbsp;окна и&nbsp;двери, чтобы
+        не&nbsp;волноваться о&nbsp;сохранности вашего имущества. Если кто-то
+        попытается проникнуть в&nbsp;квартиру, система тут&nbsp;же вас уведомит,
+        и&nbsp;вы&nbsp;сможете оперативно отреагировать на&nbsp;происшествие.
+      </p>
+    </rt-banner-item>
+    <rt-banner-item background-image="/sites/default/files/img/smarthome_03.png" :is-white-color="true"
+                    content-mobile-min-height="500px" background-color="light-blue">
+      <rt-color-line-text :is-white-color="true" fill-color="purple-high">
+        <template slot="label">Уехали на&nbsp;дачу?</template>
+      </rt-color-line-text>
+      <p class="rt-space-vertical05">
+        Не&nbsp;думайте о&nbsp;том, закрыли&nbsp;ли вы&nbsp;кран в&nbsp;квартире
+        и&nbsp;не&nbsp;случится&nbsp;ли в&nbsp;ваше отсутствие затопление.
+        Датчик протечки сработает даже при&nbsp;небольшом повышении уровня
+        влажности и&nbsp;моментально отправит уведомление на&nbsp;ваш смартфон.
+      </p>
+    </rt-banner-item>
+  </rt-banner>
+</div>
+
+<!-- Фрейм Onlime -->
+<div id="tariff">
+  <div class="rt-container">
+    <div class="rt-col">
+      <div class="rt-space-top">
+        <iframe src="https://www.onlime.ru/frame/tp/rt/msk/10/" id="vitrina_id" style="border: none;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  iframe {
+    width: 1px;
+    min-width: 100%;
+  }
+</style>
+
+<script type="text/javascript">
+  !(function (a) {
+    "use strict";
+    function b(a, b, c) {
+      "addEventListener" in window
+        ? a.addEventListener(b, c, !1)
+        : "attachEvent" in window && a.attachEvent("on" + b, c);
+    }
+    function c(a, b, c) {
+      "removeEventListener" in window
+        ? a.removeEventListener(b, c, !1)
+        : "detachEvent" in window && a.detachEvent("on" + b, c);
+    }
+    function d() {
+      var a,
+        b = ["moz", "webkit", "o", "ms"];
+      for (a = 0; a < b.length && !P; a += 1)
+        P = window[b[a] + "RequestAnimationFrame"];
+      P || h("setup", "RequestAnimationFrame not supported");
+    }
+    function e(a) {
+      var b = "Host page: " + a;
+      return (
+        window.top !== window.self &&
+        (b =
+          window.parentIFrame && window.parentIFrame.getId
+            ? window.parentIFrame.getId() + ": " + a
+            : "Nested host page: " + a),
+          b
+      );
+    }
+    function f(a) {
+      return M + "[" + e(a) + "]";
+    }
+    function g(a) {
+      return R[a] ? R[a].log : I;
+    }
+    function h(a, b) {
+      k("log", a, b, g(a));
+    }
+    function i(a, b) {
+      k("info", a, b, g(a));
+    }
+    function j(a, b) {
+      k("warn", a, b, !0);
+    }
+    function k(a, b, c, d) {
+      !0 === d && "object" == typeof window.console && console[a](f(b), c);
+    }
+    function l(a) {
+      function d() {
+        function a() {
+          t(U), q(V), I("resizedCallback", U);
+        }
+        f("Height"), f("Width"), u(a, U, "init");
+      }
+      function e() {
+        var a = S.substr(N).split(":");
+        return {
+          iframe: R[a[0]] && R[a[0]].iframe,
+          id: a[0],
+          height: a[1],
+          width: a[2],
+          type: a[3]
+        };
+      }
+      function f(a) {
+        var b = Number(R[V]["max" + a]),
+          c = Number(R[V]["min" + a]),
+          d = a.toLowerCase(),
+          e = Number(U[d]);
+        h(V, "Checking " + d + " is in range " + c + "-" + b),
+        c > e && ((e = c), h(V, "Set " + d + " to min value")),
+        e > b && ((e = b), h(V, "Set " + d + " to max value")),
+          (U[d] = "" + e);
+      }
+      function g() {
+        function b() {
+          function a() {
+            var a = 0,
+              b = !1;
+            for (
+              h(V, "Checking connection is from allowed list of origins: " + d);
+              a < d.length;
+              a++
+            )
+              if (d[a] === c) {
+                b = !0;
+                break;
+              }
+            return b;
+          }
+          function b() {
+            var a = R[V] && R[V].remoteHost;
+            return h(V, "Checking connection is from: " + a), c === a;
+          }
+          return d.constructor === Array ? a() : b();
+        }
+        var c = a.origin,
+          d = R[V] && R[V].checkOrigin;
+        if (d && "" + c != "null" && !b())
+          throw new Error(
+            "Unexpected message received from: " +
+            c +
+            " for " +
+            U.iframe.id +
+            ". Message was: " +
+            a.data +
+            ". This error can be disabled by setting the checkOrigin: false option or by providing of array of trusted domains."
+          );
+        return !0;
+      }
+      function k() {
+        return M === ("" + S).substr(0, N) && S.substr(N).split(":")[0] in R;
+      }
+      function l() {
+        var a = U.type in { true: 1, false: 1, undefined: 1 };
+        return a && h(V, "Ignoring init message from meta parent page"), a;
+      }
+      function n(a) {
+        return S.substr(S.indexOf(":") + L + a);
+      }
+      function x(a) {
+        h(
+          V,
+          "MessageCallback passed: {iframe: " +
+          U.iframe.id +
+          ", message: " +
+          a +
+          "}"
+        ),
+          I("messageCallback", { iframe: U.iframe, message: JSON.parse(a) }),
+          h(V, "--");
+      }
+      function y() {
+        var a = document.body.getBoundingClientRect(),
+          b = U.iframe.getBoundingClientRect();
+        return JSON.stringify({
+          iframeHeight: b.height,
+          iframeWidth: b.width,
+          clientHeight: Math.max(
+            document.documentElement.clientHeight,
+            window.innerHeight || 0
+          ),
+          clientWidth: Math.max(
+            document.documentElement.clientWidth,
+            window.innerWidth || 0
+          ),
+          offsetTop: parseInt(b.top - a.top, 10),
+          offsetLeft: parseInt(b.left - a.left, 10),
+          scrollTop: window.pageYOffset,
+          scrollLeft: window.pageXOffset
+        });
+      }
+      function A(a, b) {
+        function c() {
+          v("Send Page Info", "pageInfo:" + y(), a, b);
+        }
+        z(c, 32, b);
+      }
+      function B() {
+        function a(a, b) {
+          function c() {
+            R[f] ? A(R[f].iframe, f) : d();
+          }
+          ["scroll", "resize"].forEach(function (d) {
+            h(f, a + d + " listener for sendPageInfo"), b(window, d, c);
+          });
+        }
+        function d() {
+          a("Remove ", c);
+        }
+        function e() {
+          a("Add ", b);
+        }
+        var f = V;
+        e(), R[f] && (R[f].stopPageInfo = d);
+      }
+      function C() {
+        R[V] &&
+        R[V].stopPageInfo &&
+        (R[V].stopPageInfo(), delete R[V].stopPageInfo);
+      }
+      function D() {
+        var a = !0;
+        return (
+          null === U.iframe &&
+          (j(V, "IFrame (" + U.id + ") not found"), (a = !1)),
+            a
+        );
+      }
+      function E(a) {
+        var b = a.getBoundingClientRect();
+        return (
+          p(V),
+            {
+              x: Math.floor(Number(b.left) + Number(O.x)),
+              y: Math.floor(Number(b.top) + Number(O.y))
+            }
+        );
+      }
+      function F(a) {
+        function b() {
+          (O = f), G(), h(V, "--");
+        }
+        function c() {
+          return { x: Number(U.width) + e.x, y: Number(U.height) + e.y };
+        }
+        function d() {
+          window.parentIFrame
+            ? window.parentIFrame["scrollTo" + (a ? "Offset" : "")](f.x, f.y)
+            : j(
+            V,
+            "Unable to scroll to requested position, window.parentIFrame not found"
+            );
+        }
+        var e = a ? E(U.iframe) : { x: 0, y: 0 },
+          f = c();
+        h(
+          V,
+          "Reposition requested from iFrame (offset x:" +
+          e.x +
+          " y:" +
+          e.y +
+          ")"
+        ),
+          window.top !== window.self ? d() : b();
+      }
+      function G() {
+        !1 !== I("scrollCallback", O) ? q(V) : r();
+      }
+      function H(a) {
+        function b() {
+          var a = E(f);
+          h(
+            V,
+            "Moving to in page link (#" + d + ") at x: " + a.x + " y: " + a.y
+          ),
+            (O = { x: a.x, y: a.y }),
+            G(),
+            h(V, "--");
+        }
+        function c() {
+          window.parentIFrame
+            ? window.parentIFrame.moveToAnchor(d)
+            : h(
+            V,
+            "In page link #" +
+            d +
+            " not found and window.parentIFrame not found"
+            );
+        }
+        var d = a.split("#")[1] || "",
+          e = decodeURIComponent(d),
+          f = document.getElementById(e) || document.getElementsByName(e)[0];
+        f
+          ? b()
+          : window.top !== window.self
+          ? c()
+          : h(V, "In page link #" + d + " not found");
+      }
+      function I(a, b) {
+        return m(V, a, b);
+      }
+      function J() {
+        switch ((R[V] && R[V].firstRun && Q(), U.type)) {
+          case "close":
+            R[V].closeRequestCallback
+              ? m(V, "closeRequestCallback", R[V].iframe)
+              : o(U.iframe);
+            break;
+          case "message":
+            x(n(6));
+            break;
+          case "scrollTo":
+            F(!1);
+            break;
+          case "scrollToOffset":
+            F(!0);
+            break;
+          case "pageInfo":
+            A(R[V] && R[V].iframe, V), B();
+            break;
+          case "pageInfoStop":
+            C();
+            break;
+          case "inPageLink":
+            H(n(9));
+            break;
+          case "reset":
+            s(U);
+            break;
+          case "init":
+            d(), I("initCallback", U.iframe);
+            break;
+          default:
+            d();
+        }
+      }
+      function K(a) {
+        var b = !0;
+        return (
+          R[a] ||
+          ((b = !1),
+            j(U.type + " No settings for " + a + ". Message was: " + S)),
+            b
+        );
+      }
+      function P() {
+        for (var a in R)
+          v("iFrame requested init", w(a), document.getElementById(a), a);
+      }
+      function Q() {
+        R[V] && (R[V].firstRun = !1);
+      }
+      var S = a.data,
+        U = {},
+        V = null;
+      "[iFrameResizerChild]Ready" === S
+        ? P()
+        : k()
+        ? ((U = e()),
+          (V = T = U.id),
+        R[V] && (R[V].loaded = !0),
+        !l() && K(V) && (h(V, "Received: " + S), D() && g() && J()))
+        : i(V, "Ignored: " + S);
+    }
+    function m(a, b, c) {
+      var d = null,
+        e = null;
+      if (R[a]) {
+        if (((d = R[a][b]), "function" != typeof d))
+          throw new TypeError(b + " on iFrame[" + a + "] is not a function");
+        e = d(c);
+      }
+      return e;
+    }
+    function n(a) {
+      var b = a.id;
+      delete R[b];
+    }
+    function o(a) {
+      var b = a.id;
+      h(b, "Removing iFrame: " + b);
+      try {
+        a.parentNode && a.parentNode.removeChild(a);
+      } catch (c) { }
+      m(b, "closedCallback", b), h(b, "--"), n(a);
+    }
+    function p(b) {
+      null === O &&
+      ((O = {
+        x:
+          window.pageXOffset !== a
+            ? window.pageXOffset
+            : document.documentElement.scrollLeft,
+        y:
+          window.pageYOffset !== a
+            ? window.pageYOffset
+            : document.documentElement.scrollTop
+      }),
+        h(b, "Get page position: " + O.x + "," + O.y));
+    }
+    function q(a) {
+      null !== O &&
+      (window.scrollTo(O.x, O.y),
+        h(a, "Set page position: " + O.x + "," + O.y),
+        r());
+    }
+    function r() {
+      O = null;
+    }
+    function s(a) {
+      function b() {
+        t(a), v("reset", "reset", a.iframe, a.id);
+      }
+      h(
+        a.id,
+        "Size reset requested by " +
+        ("init" === a.type ? "host page" : "iFrame")
+      ),
+        p(a.id),
+        u(b, a, "reset");
+    }
+    function t(a) {
+      function b(b) {
+        (a.iframe.style[b] = a[b] + "px"),
+          h(a.id, "IFrame (" + e + ") " + b + " set to " + a[b] + "px");
+      }
+      function c(b) {
+        J ||
+        "0" !== a[b] ||
+        ((J = !0),
+          h(e, "Hidden iFrame detected, creating visibility listener"),
+          A());
+      }
+      function d(a) {
+        b(a), c(a);
+      }
+      var e = a.iframe.id;
+      R[e] && (R[e].sizeHeight && d("height"), R[e].sizeWidth && d("width"));
+    }
+    function u(a, b, c) {
+      c !== b.type && P ? (h(b.id, "Requesting animation frame"), P(a)) : a();
+    }
+    function v(a, b, c, d, e) {
+      function f() {
+        var e = R[d] && R[d].targetOrigin;
+        h(
+          d,
+          "[" +
+          a +
+          "] Sending msg to iframe[" +
+          d +
+          "] (" +
+          b +
+          ") targetOrigin: " +
+          e
+        ),
+          c.contentWindow.postMessage(M + b, e);
+      }
+      function g() {
+        j(d, "[" + a + "] IFrame(" + d + ") not found");
+      }
+      function i() {
+        c && "contentWindow" in c && null !== c.contentWindow ? f() : g();
+      }
+      function k() {
+        function a() {
+          !R[d] ||
+          R[d].loaded ||
+          l ||
+          ((l = !0),
+            j(
+              d,
+              "IFrame has not responded within " +
+              R[d].warningTimeout / 1e3 +
+              " seconds. Check iFrameResizer.contentWindow.js has been loaded in iFrame. This message can be ignored if everything is working, or you can set the warningTimeout option to a higher value or zero to suppress this warning."
+            ));
+        }
+        e &&
+        R[d] &&
+        R[d].warningTimeout &&
+        (R[d].msgTimeout = setTimeout(a, R[d].warningTimeout));
+      }
+      var l = !1;
+      (d = d || c.id), R[d] && (i(), k());
+    }
+    function w(a) {
+      return (
+        a +
+        ":" +
+        R[a].bodyMarginV1 +
+        ":" +
+        R[a].sizeWidth +
+        ":" +
+        R[a].log +
+        ":" +
+        R[a].interval +
+        ":" +
+        R[a].enablePublicMethods +
+        ":" +
+        R[a].autoResize +
+        ":" +
+        R[a].bodyMargin +
+        ":" +
+        R[a].heightCalculationMethod +
+        ":" +
+        R[a].bodyBackground +
+        ":" +
+        R[a].bodyPadding +
+        ":" +
+        R[a].tolerance +
+        ":" +
+        R[a].inPageLinks +
+        ":" +
+        R[a].resizeFrom +
+        ":" +
+        R[a].widthCalculationMethod
+      );
+    }
+    function x(c, d) {
+      function e() {
+        function a(a) {
+          1 / 0 !== R[y][a] &&
+          0 !== R[y][a] &&
+          ((c.style[a] = R[y][a] + "px"),
+            h(y, "Set " + a + " = " + R[y][a] + "px"));
+        }
+        function b(a) {
+          if (R[y]["min" + a] > R[y]["max" + a])
+            throw new Error(
+              "Value for min" + a + " can not be greater than max" + a
+            );
+        }
+        b("Height"),
+          b("Width"),
+          a("maxHeight"),
+          a("minHeight"),
+          a("maxWidth"),
+          a("minWidth");
+      }
+      function f() {
+        var a = (d && d.id) || U.id + H++;
+        return null !== document.getElementById(a) && (a += H++), a;
+      }
+      function g(a) {
+        return (
+          (T = a),
+          "" === a &&
+          ((c.id = a = f()),
+            (I = (d || {}).log),
+            (T = a),
+            h(a, "Added missing iframe ID: " + a + " (" + c.src + ")")),
+            a
+        );
+      }
+      function i() {
+        switch (
+          (h(
+            y,
+            "IFrame scrolling " +
+            (R[y] && R[y].scrolling ? "enabled" : "disabled") +
+            " for " +
+            y
+          ),
+            (c.style.overflow =
+              !1 === (R[y] && R[y].scrolling) ? "hidden" : "auto"),
+          R[y] && R[y].scrolling)
+          ) {
+          case !0:
+            c.scrolling = "yes";
+            break;
+          case !1:
+            c.scrolling = "no";
+            break;
+          default:
+            c.scrolling = R[y] ? R[y].scrolling : "no";
+        }
+      }
+      function k() {
+        ("number" == typeof (R[y] && R[y].bodyMargin) ||
+          "0" === (R[y] && R[y].bodyMargin)) &&
+        ((R[y].bodyMarginV1 = R[y].bodyMargin),
+          (R[y].bodyMargin = "" + R[y].bodyMargin + "px"));
+      }
+      function l() {
+        var a = R[y] && R[y].firstRun,
+          b = R[y] && R[y].heightCalculationMethod in Q;
+        !a && b && s({ iframe: c, height: 0, width: 0, type: "init" });
+      }
+      function m() {
+        Function.prototype.bind &&
+        R[y] &&
+        (R[y].iframe.iFrameResizer = {
+          close: o.bind(null, R[y].iframe),
+          removeListeners: n.bind(null, R[y].iframe),
+          resize: v.bind(null, "Window resize", "resize", R[y].iframe),
+          moveToAnchor: function (a) {
+            v("Move to anchor", "moveToAnchor:" + a, R[y].iframe, y);
+          },
+          sendMessage: function (a) {
+            (a = JSON.stringify(a)),
+              v("Send Message", "message:" + a, R[y].iframe, y);
+          }
+        });
+      }
+      function p(d) {
+        function e() {
+          v("iFrame.onload", d, c, a, !0), l();
+        }
+        b(c, "load", e), v("init", d, c, a, !0);
+      }
+      function q(a) {
+        if ("object" != typeof a)
+          throw new TypeError("Options is not an object");
+      }
+      function r(a) {
+        for (var b in U)
+          U.hasOwnProperty(b) && (R[y][b] = a.hasOwnProperty(b) ? a[b] : U[b]);
+      }
+      function t(a) {
+        return "" === a || "file://" === a ? "*" : a;
+      }
+      function u(a) {
+        (a = a || {}),
+          (R[y] = {
+            firstRun: !0,
+            iframe: c,
+            remoteHost: c.src
+              .split("/")
+              .slice(0, 3)
+              .join("/")
+          }),
+          q(a),
+          r(a),
+        R[y] &&
+        (R[y].targetOrigin =
+          !0 === R[y].checkOrigin ? t(R[y].remoteHost) : "*");
+      }
+      function x() {
+        return y in R && "iFrameResizer" in c;
+      }
+      var y = g(c.id);
+      x()
+        ? j(y, "Ignored iFrame, already setup.")
+        : (u(d), i(), e(), k(), p(w(y)), m());
+    }
+    function y(a, b) {
+      null === S &&
+      (S = setTimeout(function () {
+        (S = null), a();
+      }, b));
+    }
+    function z(a, b, c) {
+      V[c] ||
+      (V[c] = setTimeout(function () {
+        (V[c] = null), a();
+      }, b));
+    }
+    function A() {
+      function a() {
+        function a(a) {
+          function b(b) {
+            return "0px" === (R[a] && R[a].iframe.style[b]);
+          }
+          function c(a) {
+            return null !== a.offsetParent;
+          }
+          R[a] &&
+          c(R[a].iframe) &&
+          (b("height") || b("width")) &&
+          v("Visibility change", "resize", R[a].iframe, a);
+        }
+        for (var b in R) a(b);
+      }
+      function b(b) {
+        h("window", "Mutation observed: " + b[0].target + " " + b[0].type),
+          y(a, 16);
+      }
+      function c() {
+        var a = document.querySelector("body"),
+          c = {
+            attributes: !0,
+            attributeOldValue: !1,
+            characterData: !0,
+            characterDataOldValue: !1,
+            childList: !0,
+            subtree: !0
+          },
+          e = new d(b);
+        e.observe(a, c);
+      }
+      var d = window.MutationObserver || window.WebKitMutationObserver;
+      d && c();
+    }
+    function B(a) {
+      function b() {
+        D("Window " + a, "resize");
+      }
+      h("window", "Trigger event: " + a), y(b, 16);
+    }
+    function C() {
+      function a() {
+        D("Tab Visable", "resize");
+      }
+      "hidden" !== document.visibilityState &&
+      (h("document", "Trigger event: Visiblity change"), y(a, 16));
+    }
+    function D(a, b) {
+      function c(a) {
+        return (
+          R[a] &&
+          "parent" === R[a].resizeFrom &&
+          R[a].autoResize &&
+          !R[a].firstRun
+        );
+      }
+      for (var d in R) c(d) && v(a, b, document.getElementById(d), d);
+    }
+    function E() {
+      b(window, "message", l),
+        b(window, "resize", function () {
+          B("resize");
+        }),
+        b(document, "visibilitychange", C),
+        b(document, "-webkit-visibilitychange", C),
+        b(window, "focusin", function () {
+          B("focus");
+        }),
+        b(window, "focus", function () {
+          B("focus");
+        });
+    }
+    function F() {
+      function b(a, b) {
+        function c() {
+          if (!b.tagName)
+            throw new TypeError("Object is not a valid DOM element");
+          if ("IFRAME" !== b.tagName.toUpperCase())
+            throw new TypeError(
+              "Expected <IFRAME> tag, found <" + b.tagName + ">"
+            );
+        }
+        b && (c(), x(b, a), e.push(b));
+      }
+      function c(a) {
+        a &&
+        a.enablePublicMethods &&
+        j(
+          "enablePublicMethods option has been removed, public methods are now always available in the iFrame"
+        );
+      }
+      var e;
+      return (
+        d(),
+          E(),
+          function (d, f) {
+            switch (((e = []), c(d), typeof f)) {
+              case "undefined":
+              case "string":
+                Array.prototype.forEach.call(
+                  document.querySelectorAll(f || "iframe"),
+                  b.bind(a, d)
+                );
+                break;
+              case "object":
+                b(d, f);
+                break;
+              default:
+                throw new TypeError("Unexpected data type (" + typeof f + ")");
+            }
+            return e;
+          }
+      );
+    }
+    function G(a) {
+      a.fn
+        ? a.fn.iFrameResize ||
+        (a.fn.iFrameResize = function (a) {
+          function b(b, c) {
+            x(c, a);
+          }
+          return this.filter("iframe")
+            .each(b)
+            .end();
+        })
+        : i("", "Unable to bind to jQuery, it is not fully loaded.");
+    }
+    if ("undefined" != typeof window) {
+      var H = 0,
+        I = !1,
+        J = !1,
+        K = "message",
+        L = K.length,
+        M = "[iFrameSizer]",
+        N = M.length,
+        O = null,
+        P = window.requestAnimationFrame,
+        Q = { max: 1, scroll: 1, bodyScroll: 1, documentElementScroll: 1 },
+        R = {},
+        S = null,
+        T = "Host Page",
+        U = {
+          autoResize: !0,
+          bodyBackground: null,
+          bodyMargin: null,
+          bodyMarginV1: 8,
+          bodyPadding: null,
+          checkOrigin: !0,
+          inPageLinks: !1,
+          enablePublicMethods: !0,
+          heightCalculationMethod: "bodyOffset",
+          id: "iFrameResizer",
+          interval: 32,
+          log: !1,
+          maxHeight: 1 / 0,
+          maxWidth: 1 / 0,
+          minHeight: 0,
+          minWidth: 0,
+          resizeFrom: "parent",
+          scrolling: !1,
+          sizeHeight: !0,
+          sizeWidth: !1,
+          warningTimeout: 5e3,
+          tolerance: 0,
+          widthCalculationMethod: "scroll",
+          closedCallback: function () { },
+          initCallback: function () { },
+          messageCallback: function () {
+            j("MessageCallback function not defined");
+          },
+          resizedCallback: function () { },
+          scrollCallback: function () {
+            return !0;
+          }
+        },
+        V = {};
+      window.jQuery && G(window.jQuery),
+        "function" == typeof define && define.amd
+          ? define([], F)
+          : "object" == typeof module && "object" == typeof module.exports
+          ? (module.exports = F())
+          : (window.iFrameResize = window.iFrameResize || F());
+    }
+  })();
+  iFrameResize({ log: false }, "#vitrina_id");
+</script>
+<!-- end Фрейм Onlime -->
+
+<!-- Скрипт для iFrame Onlime -->
+<script>
+  try {
+    var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent", eventer = window[eventMethod], messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+    eventer(messageEvent, function (e) {
+      if (!window.dataLayer) { window.dataLayer = []; }
+      var postM = 'dataLayer.push(', str = e.data, rpS;
+      if (str && typeof str === 'string') {
+        if (str.indexOf(postM+"{'event':'order'") > -1)
+          rpS = true
+        else if (str.indexOf(postM+"{\"event\":\"order\"") > -1)
+          rpS = false
+        if (rpS !== undefined) {
+          var s = str.substr(postM.length), e = s.substr(0, s.length - 1);
+          if (rpS === true) e = decodeURIComponent(encodeURIComponent(e).replace(/'%3A/g, "'%3A'").replace(/%3A%D0/g, "%3A'%D0").replace(/'%3A''/g, "'%3A'").replace(/%2C/g, "'%2C").replace(/''%2C/g, "'%2C").replace(/%7D/g, "'%7D").replace(/''%7D/g, "'%7D")).replace(/'/g, '"')
+          dataLayer.push(JSON.parse(e))
+        }
+      }
+    }, false);
+  } catch (e) { }
+</script>
+
+<div class="wc-inline">
+  <div class="rt-container rt-space-vertical2 color-main07">
+    <div class="rt-col">
+      <rt-annotation label="Примечание">
+        <template slot="content">
+          <p class="rt-annotation-item rt-font-label color-main07">
+            Видео за 350 (Акция 1) и Умный дом: Безопасность (New) (Акция 2) –
+            возможность для физ. лиц при техн. возможности на условиях Акций
+            подключить до 15.09.2019: по Акции 1 - Видеонаблюдение (Услуга 1)
+            или Пакет 1 (видеокамера (ВК) в рассрочку + Услуга 1 без доплат на
+            24 мес. (подарок)) от 350 руб./мес. с НДС. При покупке ВК по Базовым
+            тарифам Услуга 1 на Промо-период до 6 мес. предоставляется без
+            доплат (подарок), далее по Спец. тарифам Акции 1. По Акции 2 - Умный
+            дом (Услуга 2) или Пакет 2 (оборудование для Услуги 2 в рассрочку +
+            Услуга 2 без доплат на 24 мес. (подарок)) от 600 руб./мес. С НДС при
+            первоначальном взносе 1300 р., далее по Спец. тарифам Акции 2.
+            Доступ в Интернет не входит в состав Услуг/Пакетов. Подробнее об
+            Акциях, Услугах, тарифах, тер-ии проведения, организаторе ПАО
+            «Ростелеком» по 8 800 100 0 800 и на RT.RU. 18+
+          </p>
+        </template>
+      </rt-annotation>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.ptabs = {
+    btn1: document.getElementById("ptabsBtn1"),
+    btn2: document.getElementById("ptabsBtn2"),
+    tab1: document.getElementById("ptabsTab1"),
+    tab2: document.getElementById("ptabsTab2")
+  };
+  window.ptabs.btn1.onclick = function () {
+    window.ptabs.btn1.classList.add("active");
+    window.ptabs.tab1.classList.add("active");
+    window.ptabs.btn2.classList.remove("active");
+    window.ptabs.tab2.classList.remove("active");
+  };
+  ptabs.btn2.onclick = function () {
+    window.ptabs.btn1.classList.remove("active");
+    window.ptabs.tab1.classList.remove("active");
+    window.ptabs.btn2.classList.add("active");
+    window.ptabs.tab2.classList.add("active");
+  };
+</script>
+
+<script>
+  if (!window.RTK_WIDGET_CONFIG) window.RTK_WIDGET_CONFIG = [];
+  window.RTK_WIDGET_CONFIG.push({
+    elementId: "sh-summer-stock", // указанный выше id элемента
+    themeProperty: "default",
+    productType: "shSummer",
+    innerHtml: true,
+    custom: {
+      stockMode: true,
+      scope: 'stock-form'
+    }
+  });
+
+  window.RTK_WIDGET_CONFIG.push({
+    elementId: "sh-summer-fullprice", // указанный выше id элемента
+    themeProperty: "default",
+    productType: "shSummer",
+    innerHtml: true,
+    custom: {
+      stockMode: false,
+      scope: 'fullprice-form'
+    }
+  });
+</script>
+
+<script>
+  window.addEventListener("load", function () {
+    document
+      .querySelector(".rt-l-bottom-scroll-arrow")
+      .addEventListener("click", function (e) {
+        var coordY = e.target.parentNode.getBoundingClientRect().top;
+        window.scrollBy({
+          top: coordY,
+          left: 0,
+          behavior: "smooth"
+        });
+      });
+  });
+</script>
