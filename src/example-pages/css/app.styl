@@ -1,0 +1,571 @@
+@font-face
+  font-family "RT Code"
+  font-weight 200
+  font-style normal
+  src url("./app-fonts/Menlo-Regular.eot")
+  src url("./app-fonts/Menlo-Regular.eot?#iefix") format("embedded-opentype"), url("./app-fonts/Menlo-Regular.woff") format("woff"), url("./app-fonts/Menlo-Regular.woff2") format("woff2"), url("./app-fonts/Menlo-Regular.ttf") format("ttf")
+
+@import "../../develover-lib/css/editor"
+.app-is-main-component
+  &:after
+    content 'Основной компонент'
+    display: block
+    text-align: right
+    padding-top: 10px
+    text-transform: uppercase
+    font-size 11px
+    color b2c-purple-low
+.app-header
+  height: 50px
+  background-color: main-color
+  color white
+  position: fixed
+  left: 0
+  right: 0
+  display: flex
+  z-index: 1000
+  @media (max-width: mobile-upper-limit)
+    display: block
+    .app--has-open-menu &
+      left: inherit
+      right: -100vw
+  .rt-tabs-navigation
+    padding-left: 100px
+    height: 100%
+    align-items center
+    border-bottom-color transparent
+    &:after
+      display none
+  .rt-tabs-navigation__item-name
+    height: 48px
+    &:before
+      background-color: transparent
+      border-bottom-color #fff
+
+.app-header__left-panel
+  flex: 1
+  white-space nowrap
+
+.app-header__right-panel
+  padding-right: 20px
+  @media (max-width: mobile-upper-limit)
+    opacity: 0
+    visibility: hidden
+    padding-right: 0
+    left: 0
+    position: fixed
+    width: 0
+    top: 45px
+    left: -100vw
+    transition-timing-function ease-in-out
+    transition-duration .3s
+    transition-property left
+    .app--has-open-menu &
+      left 0
+      top: 45px
+      opacity: 1
+      width: 100vw
+      visibility: visible
+.app-wrapper
+  display: flex
+  min-height: 100vh
+
+.app__content
+  flex: 1
+  min-height: 100%
+  transition-timing-function ease-in-out
+  transition-duration .3s
+  transition-property width, min-width, max-width, flex, max-width, left
+  width: 100vw
+  //overflow: hidden
+  //@media (max-width: mobile-upper-limit)
+  //  padding-top: 50px
+  .app--has-open-menu &
+    width: calc(100vw - 200px)
+    @media (max-width: mobile-upper-limit)
+      flex: 0
+      width: 0
+      overflow: hidden
+      height: 0
+      max-width: 0vw
+      min-width: 0vw
+.app-menu-trigger
+  position: absolute
+  left: 0px
+  top: 0
+  bottom: 0
+  margin-top: auto
+  margin-bottom: auto
+  height: 50px
+  width: 50px
+  background-color: #2B333E
+  padding-top: 11px
+  padding-bottom: 11px
+  cursor: pointer
+  transition-timing-function ease-in-out
+  transition-duration .3s
+  transition-property background-color, left, right
+  z-index 8
+  &:hover,
+  &:focus
+    background-color: main-color
+  &:before
+    content: ''
+    display: block
+    height: 3px
+    position: absolute
+    left: 0
+    width: 24px
+    right: 0
+    margin-left: auto
+    margin-right: auto
+    z-index: 2
+    top: 14px
+    background-color: #fff
+    transition-timing-function ease-in-out
+    transition-duration .3s
+    transition-property transform, top
+  &:after
+    content: ''
+    z-index: 2
+    display: block
+    height: 3px
+    width: 24px
+    left: 0
+    right: 0
+    margin-left: auto
+    margin-right: auto
+    position: absolute
+    bottom: 13px
+    background-color: #fff
+    transition-timing-function ease-in-out
+    transition-duration .3s
+    transition-property transform, bottom
+.app-menu-trigger__line
+  position: absolute
+  bottom: 0
+  top: 0
+  margin-left: auto
+  margin-right: auto
+  margin-top: auto
+  margin-bottom: auto
+  height: 3px
+  width: 24px
+  background-color: #fff
+  left: 0px
+  right: 0
+.app--has-open-menu
+  .app-menu-trigger__line
+    width: 0
+    height: 0
+    transition-timing-function ease-in-out
+    transition-duration .3s
+    transition-property width, height
+  .app-menu-trigger
+    @media (max-width: mobile-upper-limit)
+      position: fixed
+      bottom: inherit
+      left: inherit
+      background-color: transparent
+      right: 0
+    &:before
+      top: 24px
+      transform rotate(45deg)
+    &:after
+      bottom: 23px
+      transform rotate(-45deg)
+
+.app
+  &--hide-scroll
+    @media (max-width: mobile-upper-limit)
+      overflow hidden
+
+  &-title
+    margin-bottom 25px
+    padding-top 40px
+
+    .{newAppName}-font-hero
+      font-weight: 500
+
+  &-row
+    &+&
+      margin-top 40px
+
+  &-content
+    flex 1
+    padding-top 50px
+    padding-bottom 30px
+
+  &-col-fill
+    min-height 40px
+    color main-color
+    font-size 15px
+    line-height 40px
+    text-align center
+    position relative
+
+    &__text
+      position relative
+      z-index 2
+
+    &:before
+      content ""
+      height 100%
+      background-color rgba(255, 192, 203, .5)
+      position absolute
+      left 10px
+      right 10px
+      z-index 1
+
+.menu-trigger
+  color b2c-red
+  text-decoration underline
+  position absolute
+  top 20px
+  left 20px
+  z-index 900
+  cursor pointer
+.aside-menu__item
+  max-width: 100%
+  overflow: hidden
+  display: block
+
+.app-aside-menu
+  min-height: 100%
+  box-sizing border-box
+  font-size 14px
+  background-color main-color
+  color white
+  left: 0
+  width: 0
+  top 0
+  text-overflow ellipsis
+  bottom 0
+  z-index 1000
+  transition-timing-function ease-in-out
+  transition-duration .3s
+  transition-property width
+  white-space nowrap
+
+
+  .app--has-open-menu &
+    min-width: 200px
+    @media (max-width: mobile-upper-limit)
+      width 100vw
+.app-aside-menu__wrapper
+  overflow-x: hidden
+  position: sticky
+  top: 0
+.app-aside-menu__search
+  position: sticky
+  top: 0
+  background-color: main-color
+  z-index: 1
+  @media (min-width: mobile-upper-limit)
+    padding-bottom: 20px
+    padding-top: 10px
+.app-aside-menu__inner
+  //position: sticky
+  bottom: 0
+  //align-self: flex-end
+  width: calc(100% + 20px)
+  padding-right: 20px
+  max-height: 100vh
+  padding-right: 20px
+  @media (min-width: mobile-upper-limit)
+    max-height: 100vh
+    overflow: auto
+  @media (max-width: mobile-upper-limit)
+    padding-right: 0
+    width: 100%
+.aside
+  &-menu
+    .{newAppName}-dark-theme &
+      background-color main-color
+
+
+
+    &__submenu-title
+      border-bottom 1px solid b2c-cool-grey
+      margin-top 16px
+      margin-left 25px
+      margin-right 15px
+      padding-bottom 5px
+
+    &__link
+      display inline-block
+      text-decoration none !important
+      padding-top 2px
+      padding-bottom 2px
+      margin-top: 5px
+      margin-bottom: 5px
+      padding-left 7px
+      margin-left: 14px
+      padding-right 7px
+      position relative
+      cursor pointer
+      transition-timing-function ease-in-out
+      transition-duration .3s
+      transition-property background, color
+
+      .{newAppName}-dark-theme &
+        color white
+
+      &:hover,
+      &:focus
+        color main-color
+
+        .{newAppName}-dark-theme &
+          color white
+
+      .aside-menu__item--active &,
+      .aside-menu__item:hover>&,
+      .aside-menu__item:focus>&
+        background-color: b2c-purple
+
+  &-sub-menu
+    margin-left 20px
+    padding-top vertical-space
+
+    @media (max-width: mobile-upper-limit)
+      margin-left 0
+
+.dark-theme-switcher
+  position absolute
+  top 20px
+  right 20px
+
+.{newAppName}-code
+  display inline-block
+  color b2c-red-high
+  font-family "RT Code"
+
+  &--fill
+    background-color rgba(#E2C892, .3)
+    border-radius 5px
+    margin-top 3px
+    margin-bottom 3px
+    margin-left -5px
+    margin-right 6px
+    padding-top 3px
+    padding-bottom 3px
+    padding-left 5px
+    padding-right 5px
+
+    .app-documentation__warning &
+      margin-left 0
+      margin-right 0
+
+  &--component
+    color b2c-green-low
+    background-color rgba(#aaaaaa, .3)
+    border-radius 5px
+    margin-bottom 5px
+    margin-left -5px
+    padding-top 3px
+    padding-bottom 3px
+    padding-left 5px
+    padding-right 5px
+
+.app-documentation
+  font-family "RT Code"
+  font-size 12px
+  line-height 1.5
+
+  em
+    font-style italic
+
+  code
+    display inline-block
+    color #d16464 !important
+    font-size 100%
+    white-space pre-wrap
+    background #f7f7f7
+    border 1px solid #e4e4e4
+    border-radius 2px
+    margin-top 2px
+    margin-bottom 2px
+    padding 1px 4px
+
+  &__warning
+    display inline-block
+    text-decoration underline
+    margin-bottom 5px
+    text-decoration-color #0c8cd1
+    text-decoration-style double
+
+    &:before
+      content "! "
+      color #0c8cd1
+
+    &:after
+      content " !"
+      color #0c8cd1
+
+  &__row
+    display flex
+    flex-direction row
+
+    &+&
+      border-top 1px solid rgba(#aaaaaa, .3)
+
+    &.rt-font-bold
+      font-size 14px
+      text-transform uppercase
+
+    &.rt-font-bold + &
+      border-top-width 0
+
+.grid-switcher
+  position absolute
+  top 20px
+  right 20px
+
+.code-switcher
+  position absolute
+  top 20px
+  left 40px
+
+.grid
+  pointer-events none
+
+  height 0
+  opacity: 0
+  margin-left auto
+  margin-right auto
+  //position sticky
+  position fixed
+  top 0
+  bottom 100vh
+  left 0
+  right 0
+  z-index 200
+  transition-timing-function ease-in-out
+  transition-duration .3s
+  transition-property height, bottom, opacity, left
+  .app--has-open-menu &
+    left: 200px
+  &--active
+    //height 0vh
+    bottom 0
+    opacity: 1
+    height 100vh
+
+  @media (max-width: tablet-upper-limit)
+    left 0px
+    right 0px
+    position: fixed
+
+  .row
+    height 100vh
+
+  .demo-col
+    &:before
+      content ""
+      box-sizing border-box
+      background-color rgba(#7700FF, .04)
+      border-left 1px solid rgba(b2c-orange, .3)
+      border-right 1px solid rgba(b2c-orange, .3)
+      position absolute
+      top 0
+      bottom 0
+      left 10px
+      right 10px
+
+      .{newAppName}-dark-theme &
+        background-color rgba(#fff, 3%)
+
+    &:after
+      content ""
+      box-sizing border-box
+      border-left 1px solid rgba(b2c-red, .35)
+      border-right 1px solid rgba(b2c-red, .35)
+      position absolute
+      top 0
+      bottom 0
+      left 30px
+      right 30px
+
+.app-sticked
+  top 0
+
+.section-switcher
+  max-width fit-content
+  max-height fit-content
+  overflow hidden
+  font-size 12px
+  background-color white
+  border 1px solid main-color05
+  padding-top 5px
+  padding-bottom 5px
+  padding-left 10px
+  padding-right 10px
+  position fixed
+  top 60px
+  right 20px
+  z-index 10
+  transition-timing-function ease-in-out
+  transition-duration .3s
+  transition-property max-width, max-height, padding
+
+  .radio-button
+    display block
+    max-height 0
+    padding 0
+    opacity 0
+    visibility hidden
+    transition-timing-function ease-in-out
+    transition-duration .3s
+    transition-property max-height, padding, opacity, visibility, box-shadow
+
+  &:hover
+    max-width 200px
+    max-height 200px
+    box-shadow 0 0 3px rgba(0, 0, 0, .3), 3px 0 5px rgba(0, 0, 0, .1)
+    padding 10px 10px 10px 20px
+
+    .radio-button+.radio-button
+      padding-top 5px
+
+    .section-switcher__label
+      max-height 0
+      opacity 0
+      visibility hidden
+
+    .radio-button
+      max-height 100px
+      margin-top 10px
+      margin-bottom 10px
+      opacity 1
+      visibility visible
+
+.section-switcher__label
+  max-height 100px
+  overflow hidden
+  text-align center
+  opacity 1
+  visibility visible
+  transition-timing-function ease-in-out
+  transition-duration .3s
+  transition-property opacity, visibility, max-height
+
+.section-switcher__label-value
+  color b2c-purple
+  font-style italic
+  padding-right 5px
+
+.is-b2b,
+.is-b2c
+  display none
+  margin-top 50px
+
+.show-b2b
+  .is-b2b
+    display block
+
+.show-b2c
+  .is-b2c
+    display block
+.app-color-cube
+  width: 16px
+  height: 16px

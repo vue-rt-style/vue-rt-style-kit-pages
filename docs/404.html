@@ -1,0 +1,1716 @@
+<style>
+  .sticked.app-sticked{
+    top: 0!important;
+  }
+  #sh-summer-fullprice,#sh-summer-stock{
+    text-align: left;
+    padding-top:20px
+  }
+  .rt-tabs--centered .rt-tabs-navigation-wrapper{
+    height: 60px;
+  }
+  .scroll-wrapper .rt-space-left {
+    padding-left: 10px;
+  }
+
+  .rt-annotation+.rt-annotation {
+    border-top: none;
+  }
+
+  .rt-annotation {
+    padding-left: 10px;
+  }
+
+  .rt-annotation__content {
+    color: #000;
+    padding-left: 0;
+  }
+
+  .rt-price__option-value.rt-price__value {
+    font-weight: 500;
+  }
+
+  .first-price .rt-price__option-value.rt-price__value {
+    font-weight: inherit;
+  }
+
+  .rt-card__border-content {
+    border-top: none;
+  }
+
+  .rt-scroll-tab-header {
+    display: flex !important;
+  }
+
+  .tab-wrapper {
+    text-align: center;
+  }
+
+  .tooltip-wrapper {
+    z-index: 11;
+  }
+
+  .first-price {
+    padding-bottom: 17px;
+    border-bottom: 1px solid rgba(16, 24, 40, 0.1);
+  }
+
+  .advantages-wrapper {
+    background-color: #fff;
+  }
+
+  .phone__container {
+    background-image: url(/sites/default/files/img/smarthome/2_o-servise.png);
+    background-position: center bottom;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-width: 549px;
+    min-height: 500px;
+  }
+
+
+  @media screen and (max-width: 1120px) {
+    .phone__container {
+      min-width: 470px;
+      min-height: 470px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .color-line.color-line--is-paragraph.rt-space-bottom {
+      padding-bottom: 0;
+    }
+
+    .rt-font-banner-label .color-line-text {
+      padding: inherit;
+    }
+
+    .color-line-wrapper {
+      padding-bottom: 0;
+    }
+
+    .rt-col-6.flex-center-center.rt-md-space-vertical2.rt-col-md-3 {
+      order: 1;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .phone__container {
+      min-width: 360px;
+      min-height: 330px;
+    }
+  }
+
+  .list {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #f1f3f5;
+  }
+
+  .list:last-child {
+    padding-bottom: 20px;
+    border-bottom: none;
+  }
+
+  .alignment-right {
+    margin-left: auto;
+    margin-right: 0px;
+  }
+
+  .alignment-center {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .rt-space10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .img-size {
+    max-width: 100%;
+  }
+
+  .icon-size {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  }
+
+  .house {
+    background: url('/sites/default/files/img/smarthome/001-BW.svg') center no-repeat;
+  }
+
+  .fire {
+    background: url('/sites/default/files/img/smarthome/006-BW.svg') center no-repeat;
+  }
+
+  .door {
+    background: url('/sites/default/files/img/smarthome/007-BW.svg') center no-repeat;
+  }
+
+  .drops {
+    background: url('/sites/default/files/img/smarthome/008-BW.svg') center no-repeat;
+  }
+
+  .human {
+    background: url('/sites/default/files/img/smarthome/009-BW.svg') center no-repeat;
+  }
+
+  .lamp {
+    background: url('/sites/default/files/img/smarthome/184-BW.svg') center no-repeat;
+  }
+
+  .socket {
+    background: url('/sites/default/files/img/smarthome/185-BW.svg') center no-repeat;
+  }
+
+  .icon-file {
+    display: block;
+    width: 20px;
+    height: 16px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath d='M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48z'/%3E%3C/svg%3E") center no-repeat;
+  }
+
+  .list-smart-house {
+    min-height: 462px;
+  }
+  @media screen and (max-width: 375px) {
+    .camera .rt-card__bottom-list {
+      min-height: 360px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .video-control {
+      min-height: 315px;
+    }
+
+    .list-smart-house {
+      min-height: 350px;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    .video-control {
+      min-height: 250px;
+    }
+
+    .list-smart-house {
+      min-height: 435px;
+    }
+  }
+
+  @media screen and (min-width: 1124px) {
+    .video-control {
+      min-height: 265px;
+    }
+
+    .list-smart-house {
+      min-height: 370px;
+    }
+  }
+</style>
+
+<style>
+  @media screen and (max-width: 400px) {
+    .tooltip .tooltip-content {
+      min-width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .tooltip .tooltip-content::before {
+      left: 0;
+    }
+
+    .tooltip .tooltip-content {
+      left: 0;
+    }
+
+    .tooltip {
+      width: 20px;
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 840px) {
+    .tooltip .tooltip-content {
+      left: -220px;
+    }
+
+    .tooltip .tooltip-content::before {
+      left: calc(50% + 20%);
+    }
+  }
+
+  .tooltip {
+    position: relative;
+    z-index: 9;
+  }
+
+  .icon-tooltip {
+    font-style: normal;
+    font-weight: 500;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #f1f3f5;
+  }
+
+  .tooltip-content {
+    top: 33px;
+    left: -155px;
+    position: absolute;
+    min-width: 320px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 rgba(16, 24, 40, 0.2);
+  }
+
+  .tooltip-content::before {
+    top: -7px;
+    left: calc(50% - 4px);
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 8px 8px 8px;
+    border-color: transparent transparent #fff transparent;
+  }
+  .shs-card-name {
+    min-height: 55px;
+  }
+  .shs-card-desc {
+    min-height: 90px;
+    padding-top: 10px;
+  }
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    .shs-card-desc {
+      min-height: 155px;
+    }
+  }
+</style>
+
+<style>
+  /*.ptabs {*/
+  /*  display: flex;*/
+  /*  justify-content: center;*/
+  /*  padding: 20px;*/
+  /*}*/
+
+  /*@media screen and (max-width: 767px) {*/
+  /*  .ptabs {*/
+  /*    padding: 20px 0;*/
+  /*  }*/
+
+  /*  .ptabs.rt-font-h4 {*/
+  /*    font-size: 16px;*/
+  /*  }*/
+  /*}*/
+
+  /*.ptabs>div {*/
+  /*  display: flex;*/
+  /*  border: solid 2px #7700ff;*/
+  /*  border-radius: 10px;*/
+  /*  overflow: hidden;*/
+  /*}*/
+
+  /*.ptabs .ptabs_btn {*/
+  /*  padding: 10px 20px;*/
+  /*}*/
+
+  /*.ptabs .ptabs_btn:hover {*/
+  /*  cursor: pointer;*/
+  /*}*/
+
+  /*.ptabs .ptabs_btn.active {*/
+  /*  background-color: #7700ff;*/
+  /*  color: #ffffff;*/
+  /*}*/
+
+  /*.ptabs_tab {*/
+  /*  display: none;*/
+  /*}*/
+
+  /*.ptabs_tab.active {*/
+  /*  display: block;*/
+  /*}*/
+
+  .low>.rt-price__value {
+    font-size: 36px;
+  }
+
+  .sticked {
+    z-index: 22;
+  }
+
+  .transparent {
+    background-color: transparent;
+  }
+
+  @media (max-width:767px) {
+    .transparent {
+      background-color: #57D9B7;
+    }
+  }
+
+  .color-line-paragraph-icon {
+    display: none;
+  }
+
+  .rt-l-bottom-scroll-arrow {
+    cursor: pointer;
+  }
+</style>
+
+
+<div class="wc-inline">
+  <rt-banner has-custom-height="100vh" :without-empty-column="true" class="fullscreen-banner">
+    <rt-banner-item background-image="/sites/default/files/img/smarthome_header.png" :is-white-color="true"
+                    content-mobile-min-height="100vh" background-color="green">
+      <p class="rt-font-label-uppercase color-white rt-space-bottom">Система умный дом</p>
+      <rt-color-line-text>
+        <template slot="label">Ваш дом всегда перед глазами</template>
+      </rt-color-line-text>
+      <p class="rt-space-top rt-space-bottom2">Контролируйте происходящее дома с&nbsp;Видеонаблюдением
+        и&nbsp;датчиками
+        Умного дома</p>
+      <a href="#buy">
+        <rt-button class="rt-button-orange">Купить</rt-button>
+      </a>
+
+    </rt-banner-item>
+  </rt-banner>
+
+  <div class="rt-container">
+    <div class="rt-col">
+      <div class="rt-l-bottom-scroll-arrow-wrapper">
+        <svg width="62px" height="32px" viewBox="0 0 62 32" version="1.1" xmlns="http://www.w3.org/2000/svg" class="rt-l-bottom-scroll-arrow">
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="553-LP_Igrovoi_v1" transform="translate(-703.000000, -744.000000)" fill="#FFFFFF" fill-rule="nonzero">
+              <polygon id="Path-3" points="703 744.090964 733.885222 775.112818 764.995496 744 762.183171 744 733.885222 772.305037 705.599095 744"></polygon>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="transparent color-white rt-space-horizontal sticked app-sticked">
+    <rt-scroll-tabs tabs-classname="rt-scroll-tab-header__item"
+                    :top-padding="0">
+      <div class="rt-col rt-space-top rt-md-space-vertical">
+        <div class="flex-end-center">
+          <a class="rt-scroll-tab-header__item" href="#buy">
+            <rt-button class="rt-button-small rt-button-orange">Выбрать устройство</rt-button>
+          </a>
+        </div>
+      </div>
+    </rt-scroll-tabs>
+  </div>
+
+  <div class="main-wrapper">
+    <div class="rt-container">
+      <div class="rt-col">
+        <div class="row">
+          <div class="rt-col-6 flex-center-center rt-md-space-vertical2 rt-col-md-3">
+            <div>
+              <h3 class="rt-font-h2 rt-font-bold rt-space-bottom">О&nbsp;сервисе</h3>
+              <p class="rt-font-paragraph rt-space10 color-main">Умный дом&nbsp;— это безопасный
+                и&nbsp;комфортный дом.
+                Узнавайте
+                обо&nbsp;всём, что&nbsp;в&nbsp;нём происходит, с&nbsp;помощью удобного мобильного
+                приложения.</p>
+              <p class="rt-font-paragraph color-main">Видеонаблюдение поможет проследить
+                за&nbsp;квартирой
+                или&nbsp;дачей,
+                когда
+                вы&nbsp;далеко, а&nbsp;система датчиков и&nbsp;устройств моментально уведомит
+                о&nbsp;любых
+                происшествиях.</p>
+            </div>
+          </div>
+          <div class="rt-col-6 rt-space-top05 flex-end-bottom flex-md-center rt-col-md-3 rt-md-space-top">
+            <div class="rt-space-horizontal flex-md-center" style="overflow: hidden;">
+              <div class="phone__container"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="advantages-wrapper">
+    <div class="rt-container">
+      <div class="rt-col">
+        <h3 class="rt-font-h2 rt-font-bold rt-space-top3">Преимущества</h3>
+      </div>
+    </div>
+    <div class="rt-space-bottom2">
+      <rt-benefit-block :columns-quantity="4" :swiper-on-mobile="true">
+        <rt-benefit-item>
+          <template slot="description">
+            <img src="/sites/default/files/img/smarthome/message.svg">
+            <h3 class="rt-font-h4 rt-font-bold rt-space-top">Вы всегда в курсе всего, что происходит дома</h3>
+            <p class="rt-font-small-paragraph rt-space-top color-main05">Система пришлет уведомление на
+              смартфон и
+              электронную почту, а если рядом нет интернета — вы узнаете о происшествии по смс.</p>
+          </template>
+        </rt-benefit-item>
+        <rt-benefit-item>
+          <template slot="description">
+            <img src="/sites/default/files/img/smarthome/house-green.svg">
+            <h3 class="rt-font-h4 rt-font-bold rt-space-top">Установить систему просто </h3>
+            <p class="rt-font-small-paragraph rt-space-top color-main05">Чтобы подключить камеру и датчики,
+              не придется
+              сверлить стены и портить ремонт, а при переезде устройства легко взять с собой.</p>
+          </template>
+        </rt-benefit-item>
+        <rt-benefit-item>
+          <template slot="description">
+            <img src="/sites/default/files/img/smarthome/cloud.svg">
+            <h3 class="rt-font-h4 rt-font-bold rt-space-top">Доступ из любой точки мира</h3>
+            <p class="rt-font-small-paragraph rt-space-top color-main05">Присматривайте за домом отовсюду —
+              для доступа
+              к приложению понадобится только интернет.</p>
+          </template>
+        </rt-benefit-item>
+        <rt-benefit-item>
+          <template slot="description">
+            <img src="/sites/default/files/img/smarthome/rt-house.png">
+            <h3 class="rt-font-h4 rt-font-bold rt-space-top">Приложение легко настроить под себя</h3>
+            <p class="rt-font-small-paragraph rt-space-top color-main05">Задавайте свои сценарии управления
+              датчиками,
+              просматривайте записи видео, получайте уведомления тем способом, который удобен вам.</p>
+          </template>
+        </rt-benefit-item>
+      </rt-benefit-block>
+    </div>
+  </div>
+
+  <rt-banner has-custom-height="500px" :without-empty-column="true">
+    <rt-banner-item background-image="/sites/default/files/img/smarthome_01.png" :is-white-color="true"
+                    content-mobile-min-height="500px" background-color="orange">
+      <rt-color-line-text :is-white-color="true" fill-color="purple-high">
+        <template slot="label">Вернулись в&nbsp;город с дачи?</template>
+      </rt-color-line-text>
+      <p class="rt-space-vertical05">Если на&nbsp;участок проникнут посторонние, датчик движения отправит
+        уведомление на&nbsp;ваш&nbsp;смартфон, а&nbsp;камера наружного видеонаблюдения запишет событие
+        в&nbsp;облако.
+        Кроме
+        того, теперь
+        можно спокойно оставить на&nbsp;даче бригаду строителей и&nbsp;следить за&nbsp;их&nbsp;работой
+        в&nbsp;прямом
+        эфире&nbsp;— с&nbsp;помощью
+        Видеонаблюдения от&nbsp;Ростелекома.</p>
+      <span id="buy">&nbsp;</span>
+    </rt-banner-item>
+    <rt-banner-item background-image="/sites/default/files/img/smarthome_02.png" :is-white-color="true"
+                    content-mobile-min-height="500px" background-color="green">
+      <rt-color-line-text :is-white-color="true" fill-color="purple-high">
+        <template slot="label">Отправились в&nbsp;отпуск?</template>
+      </rt-color-line-text>
+      <p class="rt-space-vertical05">Установите датчики открытия на&nbsp;окна и&nbsp;двери, чтобы
+        не&nbsp;волноваться
+        о&nbsp;сохранности вашего имущества. Если кто-то попытается проникнуть в&nbsp;квартиру, система
+        тут&nbsp;же вас
+        уведомит, и&nbsp;вы&nbsp;сможете оперативно отреагировать на&nbsp;происшествие.</p>
+    </rt-banner-item>
+    <rt-banner-item background-image="/sites/default/files/img/smarthome_03.png" :is-white-color="true"
+                    content-mobile-min-height="500px" background-color="light-blue">
+      <rt-color-line-text :is-white-color="true" fill-color="purple-high">
+        <template slot="label">Уехали на&nbsp;дачу?</template>
+      </rt-color-line-text>
+      <p class="rt-space-vertical05">Не&nbsp;думайте о&nbsp;том, закрыли&nbsp;ли вы&nbsp;кран в&nbsp;квартире
+        и&nbsp;не&nbsp;случится&nbsp;ли в&nbsp;ваше
+        отсутствие затопление. Датчик протечки сработает даже при&nbsp;небольшом повышении уровня влажности
+        и&nbsp;моментально
+        отправит уведомление на&nbsp;ваш смартфон.</p>
+    </rt-banner-item>
+  </rt-banner>
+</div>
+
+<div class="rt-container rt-space-top">
+  <div class="wc-inline">
+    <rt-tabs :round-tablet-view='true' :position-center="true"  :round-tablet-view-max-width='true'>
+      <template slot="navigation">
+        <rt-tabs-nav-item  :remove-base-tag="true" name="one99">Акция</rt-tabs-nav-item>
+        <rt-tabs-nav-item :remove-base-tag="true" name="two99">Полная стоимость</rt-tabs-nav-item>
+      </template>
+      <template slot="content">
+        <rt-tabs-content-item name="one99">
+
+          <!--  <div class="ptabs rt-font-h4">-->
+          <!--    <div>-->
+          <!--      <div id="ptabsBtn1" class="ptabs_btn active">Акция</div>-->
+          <!--      <div id="ptabsBtn2" class="ptabs_btn">Полная стоимость</div>-->
+          <!--    </div>-->
+          <!--  </div>-->
+
+
+
+          <div id="sh-summer-stock" class="rt-col-12">
+            <div class="rt-col-12">
+              <div class="row">
+                <div class="rt-col-12">
+                  <h3 class="rt-font-h3 rt-font-bold">Камера</h3>
+                </div>
+              </div>
+
+              <div class="row tooltip-wrapper">
+                <div class="rt-col-12">
+                  <p class="rt-font-paragraph color-main07" style="display: inline-block;">При покупке камеры
+                    получите 24
+                    месяца сервиса «Видеонаблюдение» в подарок</p>
+                  <Tooltip>
+                    <p class="rt-font-control">Сервис «Видеонаблюдение» позволяет хранить записи в облаке в
+                      течение 7 дней,
+                      гибко настраивать и получать уведомления.<br>
+                      с 25 месяца абонентская плата за сервис «Видеонаблюдение» составит 350 рублей в месяц,
+                      а камера
+                      перейдёт в вашу собственность.</p>
+                  </Tooltip>
+                </div>
+              </div>
+
+              <div class='camera'>
+                <rt-carousel slides-classes="rt-col-4 rt-col-td-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+
+                  <rt-carousel-slide>
+                    <rt-card>
+                      <template slot="header">
+                        <img class="rt-card__headeremitSelectedData__image alignment-center img-size" src="/sites/default/files/img/smarthome/5_kamera_img-1.png" />
+                      </template>
+
+                      <template slot="bottom-list">
+                        <div class="video-control rt-card-list rt-space-bottom2">
+                          <div class="rt-card-list__item">
+                            <div class="rt-card-list__name shs-card-name">
+                              <p class="rt-font-paragraph rt-font-bold">Внутренняя Wi-Fi HD
+                                видеокамера</p>
+                            </div>
+                          </div>
+
+                          <div class="shs-card-desc">
+                            <div class="rt-card-list__name">
+                              <p class="rt-font-small-paragraph color-main05">Широкоугольная Wi-Fi
+                                Full HD видеокамера,
+                                фиксирует звук и движение</p>
+                            </div>
+                          </div>
+
+                          <rt-annotation label="Характеристики" class="rt-space-vertical-half">
+                            <template slot="content">
+                              <ul>
+                                <li class="list"><span class="rt-font-control color-main05">Разрешение
+                                                            видео</span> <span class="rt-font-control alignment-right">1280
+                                                            х 720</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Угол
+                                                            обзора</span> <span class="rt-font-control alignment-right">111°</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Ночная
+                                                            съемка</span> <span class="rt-font-control alignment-right">есть</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Встроенный
+                                                            микрофон</span> <span class="rt-font-control alignment-right">есть</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Wi-Fi</span>
+                                  <span class="rt-font-control alignment-right">есть</span></li>
+                              </ul>
+                              <!-- <div class="rt-card-list__item" style="align-items: center;"><i class="icon-file"></i>
+                <div class="rt-card-list__name"><a href="#" class="rt-font-paragraph"><b>Характеристики
+                      камеры</b> <span class="color-main05">1,5 Мб</span></a></div>
+              </div> -->
+                            </template>
+                          </rt-annotation>
+                        </div>
+                      </template>
+
+                      <template slot="content-without-wrapper">
+                        <div class="rt-card__border-content">
+                          <div class="rt-col-12 flex-end-center rt-space-top first-price">
+                            <p class="color-main05" style="margin-right: auto;">Стартовый<br>взнос</p>
+                            <rt-price :value="0" :only-price='true' class="low"></rt-price>
+                          </div>
+                          <div class="rt-col-12 flex-end-center rt-space-top">
+                            <rt-price :value="350"></rt-price>
+                          </div>
+                          <div class="rt-space-top05">
+                            <sh-summer-button :item="{
+                                            codeName: 'InternalCam',
+                                            name: 'Внутренняя Wi-Fi HD видеокамера',
+                                            type: 'cam',
+                                            startPrice: 0,
+                                            monthPrice: 350
+                                          }"></sh-summer-button>
+                          </div>
+                        </div>
+                      </template>
+                    </rt-card>
+                  </rt-carousel-slide>
+
+                  <rt-carousel-slide>
+                    <rt-card>
+                      <template slot="header">
+                        <img class="rt-card__headeremitSelectedData__image alignment-center img-size" src="/sites/default/files/img/smarthome/5_kamera_img-2.png" />
+                      </template>
+
+                      <template slot="bottom-list">
+                        <div class="video-control rt-card-list rt-space-bottom2">
+                          <div class="rt-card-list__item">
+                            <div class="rt-card-list__name shs-card-name">
+                              <p class="rt-font-paragraph rt-font-bold">Внешняя купольная HD
+                                видеокамера</p>
+                            </div>
+                          </div>
+
+                          <div class="shs-card-desc">
+                            <div class="rt-card-list__name">
+                              <p class="rt-font-small-paragraph color-main05">Антивандальная HD
+                                видеокамера с возможностью
+                                фиксации движения</p>
+                            </div>
+                          </div>
+
+                          <rt-annotation label="Характеристики" class="rt-space-vertical-half">
+                            <template slot="content">
+                              <ul>
+                                <li class="list"><span class="rt-font-control color-main05">Разрешение
+                                                            видео</span> <span class="rt-font-control alignment-right">1280
+                                                            х 960</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Угол
+                                                            обзора</span> <span class="rt-font-control alignment-right">92,5°</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Ночная
+                                                            съемка</span> <span class="rt-font-control alignment-right">есть</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Встроенный
+                                                            микрофон</span> <span class="rt-font-control alignment-right">нет</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Wi-Fi</span>
+                                  <span class="rt-font-control alignment-right">нет</span></li>
+                              </ul>
+                              <!-- <div class="rt-card-list__item" style="align-items: center;"><i class="icon-file"></i>
+                <div class="rt-card-list__name"><a href="#" class="rt-font-paragraph"><b>Характеристики
+                      камеры</b> <span class="color-main05">1,5 Мб</span></a></div>
+              </div> -->
+                            </template>
+                          </rt-annotation>
+                        </div>
+                      </template>
+
+                      <template slot="content-without-wrapper">
+                        <div class="rt-card__border-content">
+                          <div class="rt-col-12 flex-end-center rt-space-top first-price">
+                            <p class="color-main05" style="margin-right: auto;">Стартовый<br>взнос</p>
+                            <rt-price :value="1800" :only-price='true' class="low"></rt-price>
+                          </div>
+                          <div class="rt-col-12 flex-end-center rt-space-top">
+                            <rt-price :value="350"></rt-price>
+                          </div>
+                          <div class="rt-space-top05">
+                            <sh-summer-button :item="{
+                                            codeName: 'ExternalDomeCam',
+                                            name: 'Внешняя купольная HD видеокамера',
+                                            type: 'cam',
+                                            startPrice: 1800,
+                                            monthPrice: 350
+                                          }"></sh-summer-button>
+                          </div>
+                        </div>
+                      </template>
+                    </rt-card>
+                  </rt-carousel-slide>
+
+                  <rt-carousel-slide>
+                    <rt-card>
+                      <template slot="header">
+                        <img class="rt-card__headeremitSelectedData__image alignment-center img-size" src="/sites/default/files/img/smarthome/5_kamera_img-3.png" />
+                      </template>
+
+                      <template slot="bottom-list">
+                        <div class="video-control rt-card-list rt-space-bottom2">
+                          <div class="rt-card-list__item">
+                            <div class="rt-card-list__name shs-card-name">
+                              <p class="rt-font-paragraph rt-font-bold">Внешняя цилиндрическая HD
+                                видеокамера</p>
+                            </div>
+                          </div>
+
+                          <div class="shs-card-desc">
+                            <div class="rt-card-list__name">
+                              <p class="rt-font-small-paragraph color-main05">Антивандальная HD
+                                видеокамера с возможностью
+                                фиксации движения</p>
+                            </div>
+                          </div>
+
+                          <rt-annotation label="Характеристики" class="rt-space-vertical-half">
+                            <template slot="content">
+                              <ul>
+                                <li class="list"><span class="rt-font-control color-main05">Разрешение
+                                                            видео</span> <span class="rt-font-control alignment-right">1280
+                                                            х 960</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Угол
+                                                            обзора</span> <span class="rt-font-control alignment-right">73,1°</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Ночная
+                                                            съемка</span> <span class="rt-font-control alignment-right">есть</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Встроенный
+                                                            микрофон</span> <span class="rt-font-control alignment-right">нет</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Wi-Fi</span>
+                                  <span class="rt-font-control alignment-right">нет</span></li>
+                              </ul>
+                              <!-- <div class="rt-card-list__item" style="align-items: center;"><i class="icon-file"></i>
+                <div class="rt-card-list__name"><a href="#" class="rt-font-paragraph"><b>Характеристики
+                      камеры</b> <span class="color-main05">1,5 Мб</span></a></div>
+              </div> -->
+                            </template>
+                          </rt-annotation>
+                        </div>
+                      </template>
+
+                      <template slot="content-without-wrapper">
+                        <div class="rt-card__border-content">
+                          <div class="rt-col-12 flex-end-center rt-space-top first-price">
+                            <p class="color-main05" style="margin-right: auto;">Стартовый<br>взнос</p>
+                            <rt-price :value="1800" :only-price='true' class="low"></rt-price>
+                          </div>
+                          <div class="rt-col-12 flex-end-center rt-space-top">
+                            <rt-price :value="350"></rt-price>
+                          </div>
+                          <div class="rt-space-top05">
+                            <sh-summer-button :item="{
+                                            codeName: 'ExternalCylindricalCam',
+                                            name: 'Внешняя цилиндрическая HD видеокамера',
+                                            type: 'cam',
+                                            startPrice: 1800,
+                                            monthPrice: 350
+                                          }"></sh-summer-button>
+                          </div>
+                        </div>
+                      </template>
+                    </rt-card>
+                  </rt-carousel-slide>
+
+                </rt-carousel>
+              </div>
+
+
+
+              <div class="row rt-space-top2">
+                <div class="rt-col-12">
+                  <h3 class="rt-font-h3 rt-font-bold">Комплекты</h3>
+                </div>
+              </div>
+
+              <div class="row tooltip-wrapper">
+                <div class="rt-col-12">
+                  <p class="rt-font-paragraph color-main07" style="display: inline-block;">При покупке комплекта
+                    датчиков
+                    получите 24 месяца сервиса «Умный дом» в подарок</p>
+                  <Tooltip>
+                    <p class="rt-font-control">Сервис «Умный дом» позволяет настраивать сценарии в личном
+                      кабинете, получать
+                      уведомления о событиях и добавлять устройства в систему.<br>
+                      С 25 месяца абонентская плата за сервис «Умный дом» составит 350 рублей в месяц, а
+                      комплект датчиков
+                      перейдёт в вашу собственность.</p>
+                  </Tooltip>
+                </div>
+              </div>
+
+              <div>
+                <rt-carousel slides-classes="rt-col-4 rt-col-td-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+
+                  <rt-carousel-slide>
+                    <rt-card>
+                      <template slot="header">
+                        <img class="rt-card__headeremitSelectedData__image img-size" src="/sites/default/files/img/smarthome/5_Komplekt_img-1.png" />
+                      </template>
+
+                      <template slot="bottom-list">
+                        <div class="rt-card-list rt-space-bottom2">
+                          <div class="rt-card-list__item">
+                            <div class="rt-card-list__name shs-card-name">
+                              <p class="rt-font-paragraph rt-font-bold">Базовый комплект</p>
+                            </div>
+                          </div>
+
+                          <div class="shs-card-desc">
+                            <div class="rt-card-list__name">
+                              <p class="rt-font-small-paragraph color-main05">Комплект самых
+                                необходимых датчиков для
+                                ознакомления с системой «Умный дом».</p>
+                            </div>
+                          </div>
+
+                          <div class="rt-card-list__name rt-space10">
+                            <ul class="list-smart-house">
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon house"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Контроллер</p>
+                                  <p class="rt-font-control color-main05">Необходим для
+                                    управления и настройки устройств</p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon door"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    открытия дверей и окон </p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon human"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    движения</p>
+                                  <p class="rt-font-control color-main05">Фиксирует движение,
+                                    температуру и освещенность</p>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </template>
+
+                      <template slot="content-without-wrapper">
+                        <div class="rt-card__border-content">
+                          <div class="rt-col-12 flex-end-center rt-space-top first-price">
+                            <p class="color-main05" style="margin-right: auto;">Стартовый<br>взнос</p>
+                            <rt-price :value="1300" :only-price='true' class="low"></rt-price>
+                          </div>
+                          <div class="rt-col-12 flex-end-center rt-space-top">
+                            <rt-price :value="600"></rt-price>
+                          </div>
+                          <div class="rt-space-top05">
+                            <sh-summer-button :item="{
+                                            codeName: 'BasicSet',
+                                            name: 'Базовый комплект',
+                                            type: 'set',
+                                            startPrice: 1300,
+                                            monthPrice: 600
+                                          }"></sh-summer-button>
+                          </div>
+                        </div>
+                      </template>
+                    </rt-card>
+                  </rt-carousel-slide>
+
+                  <rt-carousel-slide>
+                    <rt-card>
+                      <template slot="header">
+                        <img class="rt-card__headeremitSelectedData__image img-size" src="/sites/default/files/img/smarthome/5_Komplekt_img-2.png" />
+                      </template>
+
+                      <template slot="bottom-list">
+                        <div class="rt-card-list rt-space-bottom2">
+                          <div class="rt-card-list__item">
+                            <div class="rt-card-list__name shs-card-name">
+                              <p class="rt-font-paragraph rt-font-bold">Расширенный комплект</p>
+                            </div>
+                          </div>
+
+                          <div class="shs-card-desc">
+                            <div class="rt-card-list__name">
+                              <p class="rt-font-small-paragraph color-main05">Расширенный комплект
+                                датчиков для обеспечения
+                                безопасности дома.</p>
+                            </div>
+                          </div>
+
+                          <div class="rt-card-list__name rt-space10">
+                            <ul class="list-smart-house">
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon house"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Контроллер</p>
+                                  <p class="rt-font-control color-main05">Необходим для
+                                    управления и настройки устройств</p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon door"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    открытия дверей и окон </p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon human"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    движения</p>
+                                  <p class="rt-font-control color-main05">Фиксирует движение,
+                                    температуру и освещенность</p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon fire"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    дыма</p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon drops"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    протечки</p>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </template>
+
+                      <template slot="content-without-wrapper">
+                        <div class="rt-card__border-content">
+                          <div class="rt-col-12 flex-end-center rt-space-top first-price">
+                            <p class="color-main05" style="margin-right: auto;">Стартовый<br>взнос</p>
+                            <rt-price :value="1300" :only-price='true' class="low"></rt-price>
+                          </div>
+                          <div class="rt-col-12 flex-end-center rt-space-top">
+                            <rt-price :value="900"></rt-price>
+                          </div>
+                          <div class="rt-space-top05">
+                            <sh-summer-button :item="{
+                                            codeName: 'AdvancedSet',
+                                            name: 'Расширенный комплект',
+                                            type: 'set',
+                                            startPrice: 1300,
+                                            monthPrice: 900
+                                          }"></sh-summer-button>
+                          </div>
+                        </div>
+                      </template>
+                    </rt-card>
+                  </rt-carousel-slide>
+
+                  <rt-carousel-slide>
+                    <rt-card>
+                      <template slot="header">
+                        <img class="rt-card__headeremitSelectedData__image img-size" src="/sites/default/files/img/smarthome/5_Komplekt_img-3.png" />
+                      </template>
+
+                      <template slot="bottom-list">
+                        <div class="rt-card-list rt-space-bottom2">
+                          <div class="rt-card-list__item">
+                            <div class="rt-card-list__name shs-card-name">
+                              <p class="rt-font-paragraph rt-font-bold">Управление комплект</p>
+                            </div>
+                          </div>
+
+                          <div class="shs-card-desc">
+                            <div class="rt-card-list__name">
+                              <p class="rt-font-small-paragraph color-main05">Комплект датчиков для
+                                обеспечения безопасности
+                                и комфорта вашего дома.</p>
+                            </div>
+                          </div>
+
+                          <div class="rt-card-list__name rt-space10">
+                            <ul class="list-smart-house">
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon house"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Контроллер</p>
+                                  <p class="rt-font-control color-main05">Необходим для
+                                    управления и настройки устройств</p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon door"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    открытия дверей и окон </p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon human"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    движения</p>
+                                  <p class="rt-font-control color-main05">Фиксирует движение,
+                                    температуру и освещенность</p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon lamp"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Умная
+                                    лампочка</p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon socket"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Умная
+                                    розетка</p>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </template>
+
+                      <template slot="content-without-wrapper">
+                        <div class="rt-card__border-content">
+                          <div class="rt-col-12 flex-end-center rt-space-top first-price">
+                            <p class="color-main05" style="margin-right: auto;">Стартовый<br>взнос</p>
+                            <rt-price :value="1300" :only-price='true' class="low"></rt-price>
+                          </div>
+                          <div class="rt-col-12 flex-end-center rt-space-top">
+                            <rt-price :value="900"></rt-price>
+                          </div>
+                          <div class="rt-space-top05">
+                            <sh-summer-button :item="{
+                                            codeName: 'ControlSet',
+                                            name: 'Управление комплект',
+                                            type: 'set',
+                                            startPrice: 1300,
+                                            monthPrice: 900
+                                          }"></sh-summer-button>
+                          </div>
+                        </div>
+                      </template>
+                    </rt-card>
+                  </rt-carousel-slide>
+
+                </rt-carousel>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </rt-tabs-content-item>
+
+        <rt-tabs-content-item name="two99">
+
+          <div id="sh-summer-fullprice">
+            <div class="rt-col-12">
+              <div class="row">
+                <div class="rt-col-12">
+                  <h3 class="rt-font-h3 rt-font-bold">Камера</h3>
+                </div>
+              </div>
+
+              <div class="row tooltip-wrapper">
+                <div class="rt-col-12">
+                  <p class="rt-font-paragraph color-main07" style="display: inline-block;">При покупке камеры
+                    получите 6
+                    месяцев сервиса «Видеонаблюдение» в подарок</p>
+                  <Tooltip>
+                    <p class="rt-font-control">Сервис «Видеонаблюдение» позволяет хранить записи в облаке в
+                      течение 7 дней,
+                      гибко настраивать и
+                      получать уведомления.</p>
+                  </Tooltip>
+                </div>
+              </div>
+
+              <div class='camera'>
+                <rt-carousel slides-classes="rt-col-4 rt-col-td-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+
+                  <rt-carousel-slide>
+                    <rt-card>
+                      <template slot="header">
+                        <img class="rt-card__headeremitSelectedData__image alignment-center img-size" src="/sites/default/files/img/smarthome/5_kamera_img-1.png" />
+                      </template>
+
+                      <template slot="bottom-list">
+                        <div class="video-control rt-card-list rt-space-bottom2">
+                          <div class="rt-card-list__item">
+                            <div class="rt-card-list__name shs-card-name">
+                              <p class="rt-font-paragraph rt-font-bold">Внутренняя Wi-Fi HD
+                                видеокамера</p>
+                            </div>
+                          </div>
+
+                          <div class="shs-card-desc">
+                            <div class="rt-card-list__name">
+                              <p class="rt-font-small-paragraph color-main05">Широкоугольная Wi-Fi
+                                Full HD видеокамера,
+                                фиксирует звук и движение</p>
+                            </div>
+                          </div>
+
+                          <rt-annotation label="Характеристики" class="rt-space-vertical-half">
+                            <template slot="content">
+                              <ul>
+                                <li class="list"><span class="rt-font-control color-main05">Разрешение
+                                                            видео</span> <span class="rt-font-control alignment-right">1280
+                                                            х 720</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Угол
+                                                            обзора</span> <span class="rt-font-control alignment-right">111°</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Ночная
+                                                            съемка</span> <span class="rt-font-control alignment-right">есть</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Встроенный
+                                                            микрофон</span> <span class="rt-font-control alignment-right">есть</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Wi-Fi</span>
+                                  <span class="rt-font-control alignment-right">есть</span></li>
+                              </ul>
+                              <!-- <div class="rt-card-list__item" style="align-items: center;"><i class="icon-file"></i>
+                <div class="rt-card-list__name"><a href="#" class="rt-font-paragraph"><b>Характеристики
+                      камеры</b> <span class="color-main05">1,5 Мб</span></a></div>
+              </div> -->
+                            </template>
+                          </rt-annotation>
+                        </div>
+                      </template>
+
+                      <template slot="content-without-wrapper">
+                        <div class="rt-card__border-content">
+                          <!-- <div class="rt-col-12 flex-end-center rt-space-top first-price">
+                            <p class="color-main05" style="margin-right: auto;">Стартовый<br>взнос</p>
+                            <rt-price :value="0" :only-price='true'></rt-price>
+                          </div> -->
+                          <div class="rt-col-12 flex-end-center rt-space-top">
+                            <rt-price :value="4990" :only-price='true'></rt-price>
+                          </div>
+                          <div class="rt-space-top05">
+                            <sh-summer-button :item="{
+                                              codeName: 'InternalCam',
+                                              name: 'Внутренняя Wi-Fi HD видеокамера',
+                                              type: 'cam',
+                                              buyPrice: 4990
+                                            }"></sh-summer-button>
+                          </div>
+                        </div>
+                      </template>
+                    </rt-card>
+                  </rt-carousel-slide>
+
+                  <rt-carousel-slide>
+                    <rt-card>
+                      <template slot="header">
+                        <img class="rt-card__headeremitSelectedData__image alignment-center img-size" src="/sites/default/files/img/smarthome/5_kamera_img-2.png" />
+                      </template>
+
+                      <template slot="bottom-list">
+                        <div class="video-control rt-card-list rt-space-bottom2">
+                          <div class="rt-card-list__item">
+                            <div class="rt-card-list__name shs-card-name">
+                              <p class="rt-font-paragraph rt-font-bold">Внешняя купольная HD
+                                видеокамера</p>
+                            </div>
+                          </div>
+
+                          <div class="shs-card-desc">
+                            <div class="rt-card-list__name">
+                              <p class="rt-font-small-paragraph color-main05">Антивандальная HD
+                                видеокамера с возможностью
+                                фиксации движения</p>
+                            </div>
+                          </div>
+
+                          <rt-annotation label="Характеристики" class="rt-space-vertical-half">
+                            <template slot="content">
+                              <ul>
+                                <li class="list"><span class="rt-font-control color-main05">Разрешение
+                                                            видео</span> <span class="rt-font-control alignment-right">1280
+                                                            х 960</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Угол
+                                                            обзора</span> <span class="rt-font-control alignment-right">92,5°</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Ночная
+                                                            съемка</span> <span class="rt-font-control alignment-right">есть</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Встроенный
+                                                            микрофон</span> <span class="rt-font-control alignment-right">нет</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Wi-Fi</span>
+                                  <span class="rt-font-control alignment-right">нет</span></li>
+                              </ul>
+                              <!-- <div class="rt-card-list__item" style="align-items: center;"><i class="icon-file"></i>
+                <div class="rt-card-list__name"><a href="#" class="rt-font-paragraph"><b>Характеристики
+                      камеры</b> <span class="color-main05">1,5 Мб</span></a></div>
+              </div> -->
+                            </template>
+                          </rt-annotation>
+                        </div>
+                      </template>
+
+                      <template slot="content-without-wrapper">
+                        <div class="rt-card__border-content">
+                          <!-- <div class="rt-col-12 flex-end-center rt-space-top first-price">
+                            <p class="color-main05" style="margin-right: auto;">Стартовый<br>взнос</p>
+                            <rt-price :value="1800" :only-price='true'></rt-price>
+                          </div> -->
+                          <div class="rt-col-12 flex-end-center rt-space-top">
+                            <rt-price :value="6690" :only-price='true'></rt-price>
+                          </div>
+                          <div class="rt-space-top05">
+                            <sh-summer-button :item="{
+                                              codeName: 'ExternalDomeCam',
+                                              name: 'Внешняя купольная HD видеокамера',
+                                              type: 'cam',
+                                              buyPrice: 6690
+                                            }"></sh-summer-button>
+                          </div>
+                        </div>
+                      </template>
+                    </rt-card>
+                  </rt-carousel-slide>
+
+                  <rt-carousel-slide>
+                    <rt-card>
+                      <template slot="header">
+                        <img class="rt-card__headeremitSelectedData__image alignment-center img-size" src="/sites/default/files/img/smarthome/5_kamera_img-3.png" />
+                      </template>
+
+                      <template slot="bottom-list">
+                        <div class="video-control rt-card-list rt-space-bottom2">
+                          <div class="rt-card-list__item">
+                            <div class="rt-card-list__name shs-card-name">
+                              <p class="rt-font-paragraph rt-font-bold">Внешняя цилиндрическая HD
+                                видеокамера</p>
+                            </div>
+                          </div>
+
+                          <div class="shs-card-desc">
+                            <div class="rt-card-list__name">
+                              <p class="rt-font-small-paragraph color-main05">Антивандальная HD
+                                видеокамера с возможностью
+                                фиксации движения</p>
+                            </div>
+                          </div>
+
+                          <rt-annotation label="Характеристики" class="rt-space-vertical-half">
+                            <template slot="content">
+                              <ul>
+                                <li class="list"><span class="rt-font-control color-main05">Разрешение
+                                                            видео</span> <span class="rt-font-control alignment-right">1280
+                                                            х 960</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Угол
+                                                            обзора</span> <span class="rt-font-control alignment-right">73,1°</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Ночная
+                                                            съемка</span> <span class="rt-font-control alignment-right">есть</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Встроенный
+                                                            микрофон</span> <span class="rt-font-control alignment-right">нет</span></li>
+                                <li class="list"><span class="rt-font-control color-main05">Wi-Fi</span>
+                                  <span class="rt-font-control alignment-right">нет</span></li>
+                              </ul>
+                              <!-- <div class="rt-card-list__item" style="align-items: center;"><i class="icon-file"></i>
+                <div class="rt-card-list__name"><a href="#" class="rt-font-paragraph"><b>Характеристики
+                      камеры</b> <span class="color-main05">1,5 Мб</span></a></div>
+              </div> -->
+                            </template>
+                          </rt-annotation>
+                        </div>
+                      </template>
+
+                      <template slot="content-without-wrapper">
+                        <div class="rt-card__border-content">
+                          <!-- <div class="rt-col-12 flex-end-center rt-space-top first-price">
+                            <p class="color-main05" style="margin-right: auto;">Стартовый<br>взнос</p>
+                            <rt-price :value="1800" :only-price='true'></rt-price>
+                          </div> -->
+                          <div class="rt-col-12 flex-end-center rt-space-top">
+                            <rt-price :value="6690" :only-price='true'></rt-price>
+                          </div>
+                          <div class="rt-space-top05">
+                            <sh-summer-button :item="{
+                                              codeName: 'ExternalCylindricalCam',
+                                              name: 'Внешняя цилиндрическая HD видеокамера',
+                                              type: 'cam',
+                                              buyPrice: 6690
+                                            }"></sh-summer-button>
+                          </div>
+                        </div>
+                      </template>
+                    </rt-card>
+                  </rt-carousel-slide>
+                </rt-carousel>
+              </div>
+
+
+              <div class="row rt-space-top2">
+                <div class="rt-col-12">
+                  <h3 class="rt-font-h3 rt-font-bold">Комплекты</h3>
+                </div>
+              </div>
+
+              <div class="row tooltip-wrapper">
+                <div class="rt-col-12">
+                  <p class="rt-font-paragraph color-main07" style="display: inline-block;">При покупке комплекта
+                    датчиков
+                    получите 6 месяцев сервиса «Умный дом» в подарок</p>
+                  <Tooltip>
+                    <p class="rt-font-control">Сервис «Умный дом» позволяет настраивать сценарии в личном
+                      кабинете, получать
+                      уведомления о событиях и
+                      добавлять устройства в систему.</p>
+                  </Tooltip>
+                </div>
+              </div>
+
+              <div>
+                <rt-carousel slides-classes="rt-col-4 rt-col-td-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+
+                  <rt-carousel-slide>
+                    <rt-card>
+                      <template slot="header">
+                        <img class="rt-card__headeremitSelectedData__image img-size" src="/sites/default/files/img/smarthome/5_Komplekt_img-1.png" />
+                      </template>
+
+                      <template slot="bottom-list">
+                        <div class="rt-card-list rt-space-bottom2">
+                          <div class="rt-card-list__item">
+                            <div class="rt-card-list__name shs-card-name">
+                              <p class="rt-font-paragraph rt-font-bold">Базовый комплект</p>
+                            </div>
+                          </div>
+
+                          <div class="shs-card-desc">
+                            <div class="rt-card-list__name">
+                              <p class="rt-font-small-paragraph color-main05">Комплект самых
+                                необходимых датчиков для
+                                ознакомления с системой «Умный дом».</p>
+                            </div>
+                          </div>
+
+                          <div class="rt-card-list__name rt-space10">
+                            <ul class="list-smart-house">
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon house"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Контроллер</p>
+                                  <p class="rt-font-control color-main05">Необходим для
+                                    управления и настройки устройств</p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon door"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    открытия дверей и окон </p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon human"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    движения</p>
+                                  <p class="rt-font-control color-main05">Фиксирует движение,
+                                    температуру и освещенность</p>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </template>
+
+                      <template slot="content-without-wrapper">
+                        <div class="rt-card__border-content">
+                          <div class="rt-col-12 flex-end-center rt-space-top">
+                            <rt-price :value="11590" :only-price='true'></rt-price>
+                          </div>
+                          <div class="rt-space-top05">
+                            <sh-summer-button :item="{
+                                              codeName: 'BasicSet',
+                                              name: 'Базовый комплект',
+                                              type: 'set',
+                                              buyPrice: 11590
+                                            }"></sh-summer-button>
+                          </div>
+                        </div>
+                      </template>
+                    </rt-card>
+                  </rt-carousel-slide>
+
+                  <rt-carousel-slide>
+                    <rt-card>
+                      <template slot="header">
+                        <img class="rt-card__headeremitSelectedData__image img-size" src="/sites/default/files/img/smarthome/5_Komplekt_img-2.png" />
+                      </template>
+
+                      <template slot="bottom-list">
+                        <div class="rt-card-list rt-space-bottom2">
+                          <div class="rt-card-list__item">
+                            <div class="rt-card-list__name shs-card-name">
+                              <p class="rt-font-paragraph rt-font-bold">Расширенный комплект</p>
+                            </div>
+                          </div>
+
+                          <div class="shs-card-desc">
+                            <div class="rt-card-list__name">
+                              <p class="rt-font-small-paragraph color-main05">Расширенный комплект
+                                датчиков для обеспечения
+                                безопасности дома.</p>
+                            </div>
+                          </div>
+
+                          <div class="rt-card-list__name rt-space10">
+                            <ul class="list-smart-house">
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon house"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Контроллер</p>
+                                  <p class="rt-font-control color-main05">Необходим для
+                                    управления и настройки устройств</p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon door"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    открытия дверей и окон </p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon human"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    движения</p>
+                                  <p class="rt-font-control color-main05">Фиксирует движение,
+                                    температуру и освещенность</p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon fire"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    дыма</p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon drops"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    протечки</p>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </template>
+
+                      <template slot="content-without-wrapper">
+                        <div class="rt-card__border-content">
+                          <div class="rt-col-12 flex-end-center rt-space-top">
+                            <rt-price :value="16990" :only-price='true'></rt-price>
+                          </div>
+                          <div class="rt-space-top05">
+                            <sh-summer-button :item="{
+                                              codeName: 'AdvancedSet',
+                                              name: 'Расширенный комплект',
+                                              type: 'set',
+                                              buyPrice: 16990
+                                            }"></sh-summer-button>
+                          </div>
+                        </div>
+                      </template>
+                    </rt-card>
+                  </rt-carousel-slide>
+
+                  <rt-carousel-slide>
+                    <rt-card>
+                      <template slot="header">
+                        <img class="rt-card__headeremitSelectedData__image img-size" src="/sites/default/files/img/smarthome/5_Komplekt_img-3.png" />
+                      </template>
+
+                      <template slot="bottom-list">
+                        <div class="rt-card-list rt-space-bottom2">
+                          <div class="rt-card-list__item">
+                            <div class="rt-card-list__name shs-card-name">
+                              <p class="rt-font-paragraph rt-font-bold">Управление комплект</p>
+                            </div>
+                          </div>
+
+                          <div class="shs-card-desc">
+                            <div class="rt-card-list__name">
+                              <p class="rt-font-small-paragraph color-main05">Комплект датчиков для
+                                обеспечения безопасности
+                                и комфорта вашего дома.</p>
+                            </div>
+                          </div>
+
+                          <div class="rt-card-list__name rt-space10">
+                            <ul class="list-smart-house">
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon house"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Контроллер</p>
+                                  <p class="rt-font-control color-main05">Необходим для
+                                    управления и настройки устройств</p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon door"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    открытия дверей и окон </p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon human"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Датчик
+                                    движения</p>
+                                  <p class="rt-font-control color-main05">Фиксирует движение,
+                                    температуру и освещенность</p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon lamp"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Умная
+                                    лампочка</p>
+                                </div>
+                              </li>
+                              <li class="rt-space10" style="display: flex;">
+                                <div class="icon-size"><i class="icon socket"></i></div>
+                                <div style="align-self: center;">
+                                  <p class="rt-font-control rt-font-bold alignment-right">Умная
+                                    розетка</p>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </template>
+
+                      <template slot="content-without-wrapper">
+                        <div class="rt-card__border-content">
+                          <div class="rt-col-12 flex-end-center rt-space-top">
+                            <rt-price :value="16990" :only-price='true'></rt-price>
+                          </div>
+                          <div class="rt-space-top05">
+                            <sh-summer-button :item="{
+                                              codeName: 'ControlSet',
+                                              name: 'Управление комплект',
+                                              type: 'set',
+                                              buyPrice: 16990
+                                            }"></sh-summer-button>
+                          </div>
+                        </div>
+                      </template>
+                    </rt-card>
+                  </rt-carousel-slide>
+
+                </rt-carousel>
+              </div>
+            </div>
+          </div>
+
+        </rt-tabs-content-item>
+      </template>
+    </rt-tabs>
+  </div>
+  <div class="wc-inline">
+    <div class="rt-container rt-space-vertical2 color-main07">
+      <div class="rt-col">
+        <rt-annotation label="Примечание">
+          <template slot="content">
+            <p class="rt-annotation-item rt-font-label color-main07">Видео за 350 (Акция 1) и Умный дом:
+              Безопасность
+              (New)
+              (Акция 2) – возможность для физ. лиц при техн. возможности на условиях Акций подключить до
+              15.09.2019: по
+              Акции 1
+              - Видеонаблюдение (Услуга 1) или Пакет 1 (видеокамера (ВК) в рассрочку + Услуга 1 без доплат на
+              24 мес.
+              (подарок)) от 350 руб./мес. с НДС. При покупке ВК по Базовым тарифам Услуга 1 на Промо-период
+              до 6 мес.
+              предоставляется без доплат (подарок), далее по Спец. тарифам Акции 1. По Акции 2 - Умный дом
+              (Услуга 2) или
+              Пакет
+              2 (оборудование для Услуги 2 в рассрочку + Услуга 2 без доплат на 24 мес. (подарок)) от 600
+              руб./мес. С НДС
+              при
+              первоначальном взносе 1300 р., далее по Спец. тарифам Акции 2. Доступ в Интернет не входит в
+              состав
+              Услуг/Пакетов. Подробнее об Акциях, Услугах, тарифах, тер-ии проведения, организаторе ПАО
+              «Ростелеком» по 8
+              800
+              100 0 800 и на RT.RU. 18+</p>
+          </template>
+        </rt-annotation>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    window.ptabs = {
+      btn1: document.getElementById('ptabsBtn1'),
+      btn2: document.getElementById('ptabsBtn2'),
+      tab1: document.getElementById('ptabsTab1'),
+      tab2: document.getElementById('ptabsTab2'),
+      initCarousel: function(id){
+        var tab=window.ptabs['tab'+id],cls=tab?tab.querySelectorAll('.rt-carousel'):null
+        if(cls){
+          cls.forEach(function(c){
+            c.__vue__.createMoves()
+          })
+        }
+      }
+    }
+    window.ptabs.btn1.onclick = function () {
+      window.ptabs.btn1.classList.add('active')
+      window.ptabs.tab1.classList.add('active')
+      window.ptabs.btn2.classList.remove('active')
+      window.ptabs.tab2.classList.remove('active')
+      window.ptabs.initCarousel(1)
+    }
+    ptabs.btn2.onclick = function () {
+      window.ptabs.btn1.classList.remove('active')
+      window.ptabs.tab1.classList.remove('active')
+      window.ptabs.btn2.classList.add('active')
+      window.ptabs.tab2.classList.add('active')
+      window.ptabs.initCarousel(2)
+    }
+  </script>
+
+  <script>
+    if (!window.RTK_WIDGET_CONFIG) window.RTK_WIDGET_CONFIG = []
+    window.RTK_WIDGET_CONFIG.push(
+      {
+        elementId: 'sh-summer-stock', // указанный выше id элемента
+        themeProperty: 'default',
+        productType: 'shSummer',
+        innerHtml: true,
+        custom: {
+          stockMode: true,
+          scope: 'stock-form'
+        }
+      }
+    );
+
+    window.RTK_WIDGET_CONFIG.push(
+      {
+        elementId: 'sh-summer-fullprice', // указанный выше id элемента
+        themeProperty: 'default',
+        productType: 'shSummer',
+        innerHtml: true,
+        custom: {
+          stockMode: false,
+          scope: 'fullprice-form'
+        }
+      }
+    );
+  </script>
+
+  <script>
+    window.addEventListener('load', function(){
+      document.querySelector('.rt-l-bottom-scroll-arrow').addEventListener('click', function(e){
+        if(e.target && e.target.parentNode) {
+          var coordY = e.target.parentNode.getBoundingClientRect().top;
+          window.scrollBy({
+            top: coordY,
+            left: 0,
+            behavior: 'smooth'
+          });
+        }
+      })
+    })
+  </script>
