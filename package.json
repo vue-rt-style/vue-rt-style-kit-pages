@@ -5,7 +5,8 @@
   "main": "lib/vue-rt-style-kit-atoms.js",
   "scripts": {
     "start": "node bin/local/index.js",
-    "build": "cross-env NODE_ENV=production webpack --config ./bin/webpack.config.lib.js"
+    "build": "cross-env NODE_ENV=production webpack --config ./bin/webpack.config.lib.js",
+    "build:docs": "cross-env NODE_ENV=production webpack --config ./bin/webpack.config.docs.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "element-ui": "^2.13.0",
     "express": "^4.17.1",
     "file-loader": "^5.0.2",
+    "gulp-cli": "^2.2.0",
     "js-beautify": "^1.10.2",
     "nodelist-foreach-polyfill": "^1.2.0",
     "normalize.css": "^8.0.1",
@@ -63,6 +65,8 @@
     "debounce": "^1.2.0",
     "element-closest-polyfill": "^1.0.0",
     "element-remove": "^1.0.4",
+    "gulp": "^4.0.2",
+    "gulp-shell": "^0.7.1",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0",
     "nib": "^1.1.2",
