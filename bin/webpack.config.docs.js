@@ -8,7 +8,7 @@ const local_dirname = path.join(__dirname,'..');
 
 const config = {
   entry: {
-    app:[path.join(local_dirname, `src`,`example-pages`,`index.js`)],
+    main:[path.join(local_dirname, `src`,`example-pages`,`index.js`)],
   },
   mode: 'development',
   optimization: {
@@ -101,11 +101,9 @@ const config = {
 
 
 
-config.entry.app.unshift('webpack-hot-middleware/client');
 config.plugins.push(
     new VueLoaderPlugin(),
-    new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.NamedModulesPlugin()
 );
 
 module.exports = config;

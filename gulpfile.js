@@ -23,11 +23,7 @@ gulp.task(
     "ls",
     "perl -pi -w -e 's/src=\\//src=/g' ./docs/index.html",
     "perl -pi -w -e 's/src=\\//src=/g' ./docs/index.html" ,
-    "perl -p -i -e 's/cs\\/\"vendo/cs\\/vendo/g' ./docs/index.html",
-    "perl -p -i -e 's/ocs\\/\"ap/ocs\\/ap/g' ./docs/index.html",
-
-
-      'perl -pi -w -e \'s/"\\/"/""/\' ./docs/main.js',
+    'perl -pi -w -e \'s/"\\/"/""/\' ./docs/main.js',
     "perl -pi -w -e 's/\\/static\\/example-images\\//\\/vue-stylekit\\/static\\/example-images\\//g' ./docs/main.js\n",
     "perl -pi -w -e 's/\\/static\\/images\\//\\/vue-stylekit\\/static\\/images\\//g' ./docs/main.js\n",
     "perl -pi -w -e 's/path:\\\"\\//path:\\\"\\/vue\\-stylekit\\/docs\\//g' ./docs/main.js\n",
@@ -36,6 +32,8 @@ gulp.task(
     "perl -pi -w -e 's/vue-stylekit\\/docs\\/vue-stylekit\\/static\\/images/vue-stylekit\\/static\\/images/g' ./docs/main.js\n",
     // "perl -pi -w -e 's/BasisGrotesqu/docs\\/BasisGrotesqu/g' ./docs/main.js",
     'perl -pi -w -e \'s/\\<\\/script\\>\\<\\/head\\>/\\<\\/script\\>\\<link rel\\=\\"stylesheet\\" href\\=\\"\\/vue\\-stylekit\\/docs\\/fonts.css\\"\\/\\>\\<\\/head\\>/g\' ./docs/index.html\n',
+    "perl -p -i -e 's/docs\\/\"vendors/docs\\/vendors/g' ./docs/index.html",
+    "perl -p -i -e 's/docs\\/\"main/docs\\/main/g' ./docs/index.html",
     "rm -rf ./dist",
     "git commit -a -m'deploy docs'\n",
     "git push",
