@@ -26,7 +26,7 @@ gulp.task(
     'perl -pi -w -e \'s/"\\/"/""/\' ./docs/main.js',
     "perl -pi -w -e 's/\\/static\\/example-images\\//\\/vue-rt-style-kit-pages\\/static\\/example-images\\//g' ./docs/main.js\n",
     "perl -pi -w -e 's/\\/static\\/images\\//\\/vue-rt-style-kit-pages\\/static\\/images\\//g' ./docs/main.js\n",
-    "perl -pi -w -e 's/path:\\\"\\//path:\\\"\\/vue-rt-style-kit-pages\\/docs\\//g' ./docs/main.js\n",
+    "perl -p -i -e 's/path: \"\\//path: \"\\/vue-rt-style-kit-pages\\//g' ./docs/main.js ",
     "perl -pi -w -e 's/to\\:\\\"\\//to\\:\\\"\\/vue-rt-style-kit-pages\\/docs\\//g' ./docs/main.js\n",
     "perl -pi -w -e 's/src=/src=\\/vue-rt-style-kit-pages\\/docs\\//g' ./docs/index.html",
     "perl -pi -w -e 's/vue-rt-style-kit-pages\\/docs\\/vue-rt-style-kit-pages\\/static\\/images/vue-rt-style-kit-pages\\/static\\/images/g' ./docs/main.js\n",
