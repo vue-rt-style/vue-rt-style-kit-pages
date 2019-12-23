@@ -22,7 +22,12 @@ gulp.task(
     "cp ./static/fonts.css ./docs/",
     "ls",
     "perl -pi -w -e 's/src=\\//src=/g' ./docs/index.html",
-    'perl -pi -w -e \'s/"\\/"/""/\' ./docs/main.js',
+    "perl -pi -w -e 's/src=\\//src=/g' ./docs/index.html" ,
+    "perl -p -i -e 's/cs\\/\"vendo/cs\\/vendo/g' ./docs/index.html",
+    "perl -p -i -e 's/ocs\\/\"ap/ocs\\/ap/g' ./docs/index.html",
+
+
+      'perl -pi -w -e \'s/"\\/"/""/\' ./docs/main.js',
     "perl -pi -w -e 's/\\/static\\/example-images\\//\\/vue-stylekit\\/static\\/example-images\\//g' ./docs/main.js\n",
     "perl -pi -w -e 's/\\/static\\/images\\//\\/vue-stylekit\\/static\\/images\\//g' ./docs/main.js\n",
     "perl -pi -w -e 's/path:\\\"\\//path:\\\"\\/vue\\-stylekit\\/docs\\//g' ./docs/main.js\n",
