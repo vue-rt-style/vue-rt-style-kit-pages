@@ -65,6 +65,7 @@
     "debounce": "^1.2.0",
     "element-closest-polyfill": "^1.0.0",
     "element-remove": "^1.0.4",
+    "filewatcher-webpack-plugin": "^1.2.0",
     "gulp": "^4.0.2",
     "gulp-shell": "^0.7.1",
     "html-webpack-plugin": "^3.2.0",
