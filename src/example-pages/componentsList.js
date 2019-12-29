@@ -21,7 +21,8 @@ import {
     Annotation,
     ColorLineText,
     Ussd,
-    Spinner
+    Spinner,
+    GridRow
 } from '@vue-rt-style-kit-atoms-local'
 
 
@@ -130,6 +131,8 @@ import {
 import AppMenu from "./components/AppMenu.vue";
 
 const componentsList = {};
+
+componentsList[GridRow.name] = GridRow;
 componentsList[Button.name] = Button;
 componentsList[ButtonRippleWithoutJs.name] = ButtonRippleWithoutJs;
 componentsList[ButtonWithoutRipple.name] = ButtonWithoutRipple;
@@ -218,7 +221,7 @@ componentsList[GalleryCarouselItem.name] = GalleryCarouselItem.component;
 componentsList[CheckboxTabs.name] = CheckboxTabs;
 componentsList[CountdownTimer.name] = CountdownTimer;
 componentsList[StickyBottomLine.name] = StickyBottomLine;
-
+console.info('** componentsList',componentsList)
 
 // componentsList[PreComponent.name] = PreComponent;
 // componentsList[PreComponentEditor.name] = PreComponentEditor;
