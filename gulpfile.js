@@ -2,11 +2,6 @@ const gulp = require("gulp");
 const shell = require("gulp-shell");
 // const imagemin = require("gulp-imagemin");
 // var tiny = require("gulp-tinypng-nokey-plus");
-console.log('fuck')
-console.log('fuck')
-console.log('fuck')
-console.log('fuck')
-console.log('fuck')
 gulp.task(
     "copy",
     shell.task([
