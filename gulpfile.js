@@ -8,34 +8,38 @@ console.log('fuck')
 console.log('fuck')
 console.log('fuck')
 gulp.task(
-  "copy",
-  shell.task([
-      // 'ls'
-    "git checkout gh-pages",
-    "rm -rf ./docs",
-    "mkdir docs",
-    "mkdir docs/promo",
-    "git merge master -m'update branch'",
-    "npm run build:docs",
-    "cp -R ./dist/* ./docs",
-    "cp docs/RostelecomBasis*.* docs/promo/",
-    "cp ./static/fonts.css ./docs/",
-    "ls",
-    "perl -pi -w -e 's/src=\\//src=/g' ./docs/index.html",
-    'perl -pi -w -e \'s/"\\/"/""/\' ./docs/main.js',
-    "perl -pi -w -e 's/\\/static\\/example-images\\//\\/vue-stylekit\\/static\\/example-images\\//g' ./docs/main.js\n",
-    "perl -pi -w -e 's/\\/static\\/images\\//\\/vue-stylekit\\/static\\/images\\//g' ./docs/main.js\n",
-    "perl -pi -w -e 's/path:\\\"\\//path:\\\"\\/vue\\-stylekit\\/docs\\//g' ./docs/main.js\n",
-    "perl -pi -w -e 's/to\\:\\\"\\//to\\:\\\"\\/vue\\-stylekit\\/docs\\//g' ./docs/main.js\n",
-    "perl -pi -w -e 's/src=/src=\\/vue\\-stylekit\\/docs\\//g' ./docs/index.html",
-    "perl -pi -w -e 's/vue-stylekit\\/docs\\/vue-stylekit\\/static\\/images/vue-stylekit\\/static\\/images/g' ./docs/main.js\n",
-    // "perl -pi -w -e 's/BasisGrotesqu/docs\\/BasisGrotesqu/g' ./docs/main.js",
-    'perl -pi -w -e \'s/\\<\\/script\\>\\<\\/head\\>/\\<\\/script\\>\\<link rel\\=\\"stylesheet\\" href\\=\\"\\/vue\\-stylekit\\/docs\\/fonts.css\\"\\/\\>\\<\\/head\\>/g\' ./docs/index.html\n',
-    "rm -rf ./dist",
-    "git commit -a -m'deploy docs'\n",
-    "git push",
-    "git checkout master"
-  ])
+    "copy",
+    shell.task([
+        // 'ls'
+        "git checkout gh-pages",
+        "rm -rf ./docs",
+        "mkdir docs",
+        "mkdir docs/promo",
+        "git merge master -m'update branch'",
+        "npm run build:docs",
+        "cp -R ./dist/* ./docs",
+        "cp docs/RostelecomBasis*.* docs/promo/",
+        "cp ./static/fonts.css ./docs/",
+        "ls",
+        "perl -pi -w -e 's/src=\\//src=/g' ./docs/index.html",
+        "perl -pi -w -e 's/src=\\//src=/g' ./docs/index.html" ,
+        'perl -pi -w -e \'s/"\\/"/""/\' ./docs/main.js',
+        "perl -pi -w -e 's/\\/static\\/example-images\\//\\/vue-rt-style-kit-pages\\/static\\/example-images\\//g' ./docs/main.js\n",
+        "perl -pi -w -e 's/\\/static\\/images\\//\\/vue-rt-style-kit-pages\\/static\\/images\\//g' ./docs/main.js\n",
+        "perl -p -i -e 's/path: \"\\//path: \"\\/vue-rt-style-kit-pages\\/docs\\//g' ./docs/main.js\n",
+        "perl -pi -w -e 's/to\\:\\\"\\//to\\:\\\"\\/vue-rt-style-kit-pages\\/docs\\//g' ./docs/main.js\n",
+        "perl -pi -w -e 's/src=/src=\\/vue-rt-style-kit-pages\\/docs\\//g' ./docs/index.html\n",
+        "perl -pi -w -e 's/vue-rt-style-kit-pages\\/docs\\/vue-rt-style-kit-pages\\/static\\/images/vue-rt-style-kit-pages\\/static\\/images/g' ./docs/main.js\n",
+        // "perl -pi -w -e 's/BasisGrotesqu/docs\\/BasisGrotesqu/g' ./docs/main.js",
+        'perl -pi -w -e \'s/\\<\\/script\\>\\<\\/head\\>/\\<\\/script\\>\\<link rel\\=\\"stylesheet\\" href\\=\\"\\/vue-rt-style-kit-pages\\/docs\\/fonts.css\\"\\/\\>\\<\\/head\\>/g\' ./docs/index.html\n',
+        "perl -p -i -e 's/docs\\/\"vendors/docs\\/vendors/g' ./docs/index.html\n",
+        "perl -p -i -e 's/docs\\/\"main/docs\\/main/g' ./docs/index.html\n",
+        "perl -p -i -e 's/src=\\/vue-rt-style-kit-pages/src=\"\\/vue-rt-style-kit-pages/g' ./docs/index.html\n",
+        "rm -rf ./dist\n",
+        "git commit -a -m'deploy docs'\n",
+        "git push\n",
+        "git checkout master"
+    ])
 );
 // todo need to update this tasks for gulp 4
 // gulp.task("start", shell.task(["npm start"]));
