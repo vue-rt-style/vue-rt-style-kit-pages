@@ -2,6 +2,14 @@
   "version" : "0.0.01",
   "list": [
     {
+      "name" : "grid component",
+      "title" : "Grid Component",
+      "url" : "/grid_component",
+      "list_child" : [],
+      "for_b2b" : true,
+      "for_b2c" : true
+    },
+    {
       "name" : "colors",
       "title" : "Colors",
       "url" : "/colors",

@@ -1,4 +1,4 @@
-<template>
+  <template>
   <div id="editor" ref="editor" class="code-editor__container" />
 </template>
 

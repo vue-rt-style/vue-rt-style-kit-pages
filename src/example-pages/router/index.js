@@ -67,6 +67,7 @@ import CheckboxTabs from "../components/main-elements/CheckboxTabs.vue";
 import StickyBottomLine from "../components/main-elements/StickyBottomLine.vue";
 
 import GameArrows from '../components/game-ui/gameArrows.vue'
+import AtomGrid from "../components/Atoms/Grid/AtomGrid.vue";
 const index = [
   { path: "/grid", name: "app-grid", component: GridElements },
   { path: "/space", name: "app-grid", component: SpaceElements },
@@ -164,6 +165,7 @@ const index = [
   { path: "/unwrapper", name: "unWrapper", component: UnWrapper },
   { path: "/popup", name: "realPopup", component: RealPopup },
   { path: "/benefit", name: "benefit", component: BenefitBlock },
+  { path: "/grid_component", name: "grid component", component: AtomGrid },
 
   { path: "/game-arrows", name: "AppGameArrows", component: GameArrows },
   { path: "", name: "default" }
