@@ -9,9 +9,10 @@
                 </div>
             </div>
             <div class="app-body">
-                <pre-code text='<div>
+                <pre-code text='
+                <div>
                 <rt-row top="20">
-                    <div class="rt-col-1 app-col-fill rt-col-td-1 rt-col-md-1">
+                    <rt-col size="1" tablet-size="1" mobile-size="1" class="app-col-fill">
                         <p class="app-col-fill__text td-d-none d-inline">
                             rt-col-1
                         </p>
@@ -21,8 +22,8 @@
                         <p class="app-col-fill__text td-d-none md-d-inline d-none">
                             rt-col-md-1
                         </p>
-                    </div>
-                    <div class="rt-col-1 app-col-fill rt-col-td-1 rt-col-md-1">
+                    </rt-col>
+                    <rt-col size="1" tablet-size="1" mobile-size="1" class="app-col-fill">
                         <p class="app-col-fill__text td-d-none d-inline">
                             rt-col-1
                         </p>
@@ -32,8 +33,8 @@
                         <p class="app-col-fill__text td-d-none md-d-inline d-none">
                             rt-col-md-1
                         </p>
-                    </div>
-                    <div class="rt-col-1 app-col-fill rt-col-td-1 rt-col-md-1">
+                    </rt-col>
+                    <rt-col size="1" tablet-size="1" mobile-size="1" class="app-col-fill">
                         <p class="app-col-fill__text td-d-none d-inline">
                             rt-col-1
                         </p>
@@ -43,61 +44,61 @@
                         <p class="app-col-fill__text td-d-none md-d-inline d-none">
                             rt-col-md-1
                         </p>
-                    </div>
-                    <div class="rt-col-1 app-col-fill rt-col-td-1 md-d-none">
+                    </rt-col>
+                    <rt-col size="1" tablet-size="1" class="app-col-fill" mobile-display="none">
                         <p class="app-col-fill__text td-d-none d-inline">
                             rt-col-1
                         </p>
                         <p class="app-col-fill__text md-d-none d-none td-d-block">
                             rt-col-td-1
                         </p>
-                    </div>
-                    <div class="rt-col-1 app-col-fill rt-col-td-1 md-d-none">
+                    </rt-col>
+                    <rt-col size="1" tablet-size="1" class="app-col-fill" mobile-display="none">
                         <p class="app-col-fill__text td-d-none d-inline">
                             rt-col-1
                         </p>
                         <p class="app-col-fill__text md-d-none d-none td-d-block">
                             rt-col-td-1
                         </p>
-                    </div>
-                    <div class="rt-col-1 app-col-fill rt-col-td-1 md-d-none">
+                    </rt-col>
+                    <rt-col size="1" tablet-size="1" class="app-col-fill" mobile-display="none">
                         <p class="app-col-fill__text td-d-none d-inline">
                             rt-col-1
                         </p>
                         <p class="app-col-fill__text md-d-none d-none td-d-block">
                             rt-col-td-1
                         </p>
-                    </div>
-                    <div class="rt-col-1 app-col-fill rt-col-td-1 td-d-none">
+                    </rt-col>
+                    <rt-col size="1" class="app-col-fill" tablet-display="none">
                         <p class="app-col-fill__text td-d-none d-inline">
                             rt-col-1
                         </p>
-                    </div>
-                    <div class="rt-col-1 app-col-fill td-d-none">
+                    </rt-col>
+                    <rt-col size="1" class="app-col-fill" tablet-display="none">
                         <p class="app-col-fill__text td-d-none d-inline">
                             rt-col-1
                         </p>
-                    </div>
-                    <div class="rt-col-1 app-col-fill td-d-none">
+                    </rt-col>
+                    <rt-col size="1" class="app-col-fill" tablet-display="none">
                         <p class="app-col-fill__text td-d-none d-inline">
                             rt-col-1
                         </p>
-                    </div>
-                    <div class="rt-col-1 app-col-fill td-d-none">
+                    </rt-col>
+                    <rt-col size="1" class="app-col-fill" tablet-display="none">
                         <p class="app-col-fill__text td-d-none d-inline">
                             rt-col-1
                         </p>
-                    </div>
-                    <div class="rt-col-1 app-col-fill td-d-none">
+                    </rt-col>
+                    <rt-col size="1" class="app-col-fill" tablet-display="none">
                         <p class="app-col-fill__text td-d-none d-inline">
                             rt-col-1
                         </p>
-                    </div>
-                    <div class="rt-col-1 app-col-fill td-d-none">
+                    </rt-col>
+                    <rt-col size="1" class="app-col-fill" tablet-display="none">
                         <p class="app-col-fill__text td-d-none d-inline">
                             rt-col-1
                         </p>
-                    </div>
+                    </rt-col>
                 </rt-row>
 
 
@@ -500,7 +501,8 @@
                     </p>
                 </div>
             </rt-row>
-                </div>'></pre-code>
+                </div>
+                '></pre-code>
 
 
             </div>

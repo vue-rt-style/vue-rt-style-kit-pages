@@ -22,7 +22,8 @@ import {
     ColorLineText,
     Ussd,
     Spinner,
-    GridRow
+    GridRow,
+    GridColumn
 } from '@vue-rt-style-kit-atoms-local'
 
 
@@ -133,6 +134,7 @@ import AppMenu from "./components/AppMenu.vue";
 const componentsList = {};
 
 componentsList[GridRow.name] = GridRow;
+componentsList[GridColumn.name] = GridColumn;
 componentsList[Button.name] = Button;
 componentsList[ButtonRippleWithoutJs.name] = ButtonRippleWithoutJs;
 componentsList[ButtonWithoutRipple.name] = ButtonWithoutRipple;
