@@ -75,7 +75,6 @@
 <script>
 
   import componentsList from "../componentsList";
-  console.info('P{DP:{PD',componentsList);
   import variables from "vue-rt-style-kit-atoms/src/variables.json";
 
 

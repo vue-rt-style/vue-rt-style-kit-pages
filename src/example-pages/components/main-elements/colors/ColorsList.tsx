@@ -34,7 +34,6 @@ class ColorsList extends Vue {
   }
 
   private createColorsParams(color): void {
-    console.info('-->>', color)
     if (color.value[0] === "#") {
       color.hex = color.value.substr(1);
       color.rgba = this.convertHexToRGBA(color.hex);
