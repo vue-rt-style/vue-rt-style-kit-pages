@@ -1,7 +1,5 @@
 import {
     Button,
-    ButtonRippleWithoutJs,
-    ButtonWithoutRipple,
     Checkbox,
     CheckboxContainer,
     Input,
@@ -136,8 +134,6 @@ const componentsList = {};
 componentsList[GridRow.name] = GridRow;
 componentsList[GridColumn.name] = GridColumn;
 componentsList[Button.name] = Button;
-componentsList[ButtonRippleWithoutJs.name] = ButtonRippleWithoutJs;
-componentsList[ButtonWithoutRipple.name] = ButtonWithoutRipple;
 componentsList[Checkbox.name] = Checkbox;
 componentsList[CheckboxContainer.name] = CheckboxContainer;
 componentsList[Input.name] = Input;
