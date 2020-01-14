@@ -1,26 +1,14 @@
-<!--<template>-->
-<!---->
 
-<rt-switch
-  :checked="isDarkTheme"
-  class="dark-theme-switcher"
-  @change="switchTheme">Dark theme
-</rt-switch>
-<!--</template>-->
 
 <script type="text/jsx">
   import componentsMenu from "./componentsMenu.json";
   import componentsList from "../componentsList";
-  let components = {};
-  import {Logo} from "../../icons";
 
-  components = {...componentsList}
-  components[Logo.name] = Logo;
-  import RtInput from "vue-rt-style-kit-atoms";
+
 
   export default {
     name: "AppMenu",
-    components: { components },
+    components: componentsList,
     props: {
       showMenu: {
         type: Boolean,
@@ -72,7 +60,7 @@
         }
       }
     },
-    render() {
+    render(h) {
 
       const renderList = (itemList) => itemList.filter((item) => {
         const reg = new RegExp(this.searchValue, "gi");
@@ -115,18 +103,11 @@
       return <div class="app-aside-menu rt-dark-theme">
         <div class="app-aside-menu__wrapper">
           <div class="app-aside-menu__inner">
-            <div class="rt-space-horizontal rt-space-top05">
-              <rt-logo
-                width="18px"
-                english-theme="true"
-                show-text="true"
-                color="#ffffff"
-                height="32px"
-              />
-            </div>
 
 
-            <div class="rt-space-top rt-md-space-top25">
+
+            <div class="rt-space-top3 rt-md-space-top25">
+                {this.$slots.default}
               <div class="rt-space-horizontal rt-space-bottom app-aside-menu__search">
                 <rt-input ref="input" placeholder="Seacrh" onInput={this.changeSearchParams} onKeydown={this.checkKeydown}></rt-input>
               </div>
