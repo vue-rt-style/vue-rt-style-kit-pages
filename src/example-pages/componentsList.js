@@ -99,34 +99,13 @@ import {
 
 
 
-
-
-//
-// console.info('test',test)
-// console.info('test',test)
-// console.info('test',test)
-// console.info('test',test)
-// console.info('test',test)
-// console.info('test',test)
-// console.info('test',test)
-// import {
-//     PreComponent,
-//     PreComponentEditor,
-//     DocumentationBuilder
-// } from "./components";
-// import {PreComponent, PreComponentEditor, DocumentationBuilder} from "../develover-lib/components/index";
-
 import {
     Logo,
     LogoCoBranding,
     Icon,
     ValidationIcon
 } from 'vue-rt-style-kit-icons'
-// console.info('PreComponent\n' +
-//     'PreComponentEditor\n' +
-//     'DocumentationBuilder',PreComponent,
-//     PreComponentEditor,
-//     DocumentationBuilder)
+
 import AppMenu from "./components/AppMenu.vue";
 
 const componentsList = {};
