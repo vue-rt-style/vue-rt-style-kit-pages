@@ -184,7 +184,8 @@
                 '.rt-card-b2o'
               ]" class="row rt-space-top">
             <div class="rt-col-3">
-              <rt-card-b2o target="_blank" href="https://google.com" :is-blue-card="true" :has-hidden-footer="true">
+              <pre-code
+                      text='<rt-card-b2o target="_blank" href="https://google.com" :is-blue-card="true" :has-hidden-footer="true">
                 <template slot="content">
                   <div class="rt-space-top6">
                   <svg width="50px" height="60px" viewBox="0 0 50 60" version="1.1" xmlns="http://www.w3.org/2000/svg" class="rt-card-b2o-icon-fill">
@@ -207,10 +208,11 @@
                 <template slot="footer">
                   <rt-button class="rt-button-white rt-button-small rt-button--is-block">Подключить</rt-button>
                 </template>
-              </rt-card-b2o>
+              </rt-card-b2o>'></pre-code>
             </div>
             <div class="rt-col-3">
-              <rt-card-b2o target="_blank" href="https://google.com" :is-blue-card="true"  :has-hidden-footer="true">
+              <pre-code
+                      text='<rt-card-b2o target="_blank" href="https://google.com" :is-blue-card="true"  :has-hidden-footer="true">
                 <template slot="content">
                   <div class="rt-space-top6">
                   <svg width="60px" height="56px" viewBox="0 0 60 56" version="1.1" xmlns="http://www.w3.org/2000/svg"  class="rt-card-b2o-icon-fill">
@@ -239,10 +241,11 @@
                 <template slot="footer">
                   <rt-button class="rt-button-white rt-button-small rt-button--is-block">Подключить</rt-button>
                 </template>
-              </rt-card-b2o>
+              </rt-card-b2o>'></pre-code>
             </div>
             <div class="rt-col-3">
-              <rt-card-b2o target="_blank" href="https://google.com" :is-blue-card="true" :has-hidden-footer="true">
+              <pre-code
+                      text='<rt-card-b2o target="_blank" href="https://google.com" :is-blue-card="true" :has-hidden-footer="true">
                 <template slot="content">
                   <div class="rt-space-top6">
                   <svg width="60px" height="46px" viewBox="0 0 60 46" version="1.1" xmlns="http://www.w3.org/2000/svg" class="rt-card-b2o-icon-fill">
@@ -272,11 +275,12 @@
                 <template slot="footer">
                   <rt-button class="rt-button-white rt-button-small rt-button--is-block">Подключить</rt-button>
                 </template>
-              </rt-card-b2o>
+              </rt-card-b2o>'></pre-code>
             </div>
 
             <div class="rt-col-3">
-              <rt-card-b2o target="_blank" href="https://google.com" :is-blue-card="true" :has-hidden-footer="true">
+              <pre-code
+                      text='<rt-card-b2o target="_blank" href="https://google.com" :is-blue-card="true" :has-hidden-footer="true">
                 <template slot="content">
                   <div class="rt-space-top6">
 
@@ -304,29 +308,32 @@
                 <template slot="footer">
                   <rt-button class="rt-button-white rt-button-small rt-button--is-block">Подключить</rt-button>
                 </template>
-              </rt-card-b2o>
+              </rt-card-b2o>'></pre-code>
             </div>
             <div class="row rt-space-top">
             <div class="rt-col-4">
-              <rt-card-b2o :has-bottom-content="true">
+              <pre-code
+                      text='<rt-card-b2o :has-bottom-content="true">
                 <template slot="content">
                   IP-транзит
                 </template>
-              </rt-card-b2o>
+              </rt-card-b2o>'></pre-code>
             </div>
               <div class="rt-col-4">
-              <rt-card-b2o :has-bottom-content="true">
+                <pre-code
+                        text='<rt-card-b2o :has-bottom-content="true">
                 <template slot="content">
                   Аренда каналов
                 </template>
-              </rt-card-b2o>
+              </rt-card-b2o>'></pre-code>
             </div>
               <div class="rt-col-4">
-              <rt-card-b2o :has-bottom-content="true">
+                <pre-code
+                        text='<rt-card-b2o :has-bottom-content="true">
                 <template slot="content">
                   VPN
                 </template>
-              </rt-card-b2o>
+              </rt-card-b2o>'></pre-code>
             </div>
           </div>
           </rt-resize-content-height>
