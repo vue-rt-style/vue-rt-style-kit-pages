@@ -10,6 +10,10 @@
       <div class="rt-container">
         <div class="rt-col-12 rt-col-td-6 rt-col-md-3">
 
+          <pre-code
+                  text='
+
+
           <rt-options-list hash="123" :has-star="true">
             <template slot="icon">
               <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -31,6 +35,9 @@
             </template>
             <template slot="moreinfo">Подробнее</template>
           </rt-options-list>
+          '></pre-code>
+          <pre-code
+                  text='
           <rt-options-list hash="321">
             <template slot="icon">
               <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -92,6 +99,9 @@
               </rt-options-list>
             </template>
           </rt-options-list>
+          '></pre-code>
+          <pre-code
+                  text='
           <rt-options-list hash="3212">
             <template slot="icon">
               <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -149,6 +159,7 @@
               </rt-options-list>
             </template>
           </rt-options-list>
+          '></pre-code>
         </div>
       </div>
     </div>
