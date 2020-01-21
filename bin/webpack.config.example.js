@@ -5,7 +5,7 @@ const webpack = require('webpack');
 const filewatcherPlugin = require("filewatcher-webpack-plugin");
 
 const local_dirname = path.join(__dirname,'..');
-
+console.info(path.join(local_dirname,'src','projectsJsons','atoms.json'))
 
 const config = {
   entry: {

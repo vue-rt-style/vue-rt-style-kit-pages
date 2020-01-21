@@ -25,9 +25,9 @@ class ColorsList extends Vue {
     this.colorsSettingsArray[1] = "icon";
 
     Object.keys(this.colors).forEach((key) => {
-      console.info(key,Object.keys(this.colors))
+      // console.info(key,Object.keys(this.colors))
       const color = this.colors[key];
-      console.info('color',color);
+      // console.info('color',color);
       this.createColorsParams(color);
     });
     this.$set(this, "colors", { ...this.colors });

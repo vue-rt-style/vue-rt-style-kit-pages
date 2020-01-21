@@ -58,6 +58,9 @@
           this.$refs.input.$refs.input.value = '';
           this.$refs.input.$refs.input.dispatchEvent(new Event('input'));
         }
+        else{
+            console.info('e',e);
+        }
       }
     },
     render(h) {
@@ -103,9 +106,6 @@
       return <div class="app-aside-menu rt-dark-theme">
         <div class="app-aside-menu__wrapper">
           <div class="app-aside-menu__inner">
-
-
-
             <div class="rt-space-top3 rt-md-space-top25">
                 {this.$slots.default}
               <div class="rt-space-horizontal rt-space-bottom app-aside-menu__search">
