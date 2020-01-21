@@ -1851,19 +1851,17 @@
               </div>
             </template>
             <template slot="side-text">
-              <div class="rt-col-3 rt-col-td-6 rt-col-md-3 rt-space-top">
-                <div class="rtb-card__description__row">
-                  <p class="rt-font-paragraph ">до 650 Мбит/</p>
-                </div>
-                <div class="rtb-card__description__row">
-                  <p class="rt-font-paragraph ">4 антенны</p>
-                </div>
-                <div class="rtb-card__description__row">
-                  <p class="rt-font-paragraph color-main025">Авторизация через СМС</p>
-                </div>
-                <div class="rtb-card__description__row">
-                  <p class="rt-font-paragraph color-main025">Защита роутера</p>
-                </div>
+              <div class="rtb-card__description__row">
+                <p class="rt-font-paragraph ">до 650 Мбит/</p>
+              </div>
+              <div class="rtb-card__description__row">
+                <p class="rt-font-paragraph ">4 антенны</p>
+              </div>
+              <div class="rtb-card__description__row">
+                <p class="rt-font-paragraph color-main025">Авторизация через СМС</p>
+              </div>
+              <div class="rtb-card__description__row">
+                <p class="rt-font-paragraph color-main025">Защита роутера</p>
               </div>
             </template>
           </rt-card-layout>
@@ -1988,19 +1986,17 @@
                 </div>
               </template>
               <template slot="side-text">
-                <div class="rt-col-3 rt-col-ld-12 rt-col-td-6 rt-col-md-3 rt-space-top">
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">до 650 Мбит/</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">4 антенны</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Авторизация через СМС</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Защита роутера</p>
-                  </div>
+                <div class="rtb-card__description__row">
+                  <p class="rt-font-paragraph ">до 650 Мбит/</p>
+                </div>
+                <div class="rtb-card__description__row">
+                  <p class="rt-font-paragraph ">4 антенны</p>
+                </div>
+                <div class="rtb-card__description__row">
+                  <p class="rt-font-paragraph color-main025">Авторизация через СМС</p>
+                </div>
+                <div class="rtb-card__description__row">
+                  <p class="rt-font-paragraph color-main025">Защита роутера</p>
                 </div>
               </template>
             </rt-card-layout>
