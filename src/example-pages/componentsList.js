@@ -198,10 +198,10 @@ componentsList[GalleryCarouselItem.name] = GalleryCarouselItem.component;
 componentsList[CheckboxTabs.name] = CheckboxTabs;
 componentsList[CountdownTimer.name] = CountdownTimer;
 componentsList[StickyBottomLine.name] = StickyBottomLine;
-console.info('** componentsList',componentsList)
+// console.info('** componentsList',componentsList)
 
 // componentsList[PreComponent.name] = PreComponent;
 // componentsList[PreComponentEditor.name] = PreComponentEditor;
 // componentsList[DocumentationBuilder.name] = DocumentationBuilder;
-console.info(')()()',componentsList)
+// console.info(')()()',componentsList)
 export default {...componentsList};
