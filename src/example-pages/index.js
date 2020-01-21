@@ -6,10 +6,10 @@ import VueRtStyleMolecules from "@vue-rt-style-kit-molecules-local/index";
 import VueRtDevStyle from "../develover-lib/index";
 import routes from "./router";
 import RootPage from "./components/App.vue";
-import stylesAtoms from "../../../vue-rt-style-kit-atoms/src/css/vue-rt-style-atoms.styl";
-import stylesMolecules from "../../..//vue-rt-style-kit-molecules/src/css/vue-rt-style-kit-molecules.styl";
+import stylesAtoms from "../../../newUIKit-atoms/src/css/vue-rt-style-atoms.styl";
+import stylesMolecules from "../../../newUIKit-molecules/src/css/vue-rt-style-kit-molecules.styl";
 import appStyles from './css/index.styl'
-import Global from "vue-rt-style-kit-atoms/src/variables.json";
+import Global from "../atoms/variables.json";
 import * as svgicon from 'vue-svgicon';
 
 // import Rx from 'rxjs';
