@@ -66,6 +66,7 @@
                         <div id="four2" class="color-block--black" style="height: 50vh; margin-top: 1000px"></div>
 
                         <rt-sticky-header-line top-offset-height-elemement-selector=".app-header"
+                                               background-color="yellow"
                                                :start-stop-points="['one','two','tree','four']"
                                                :delta-between-blocks="50">
                             <div class="d-flex flex-center-center">
