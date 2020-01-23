@@ -65,6 +65,7 @@ import BenefitBlock from "../components/main-elements/BenefitBlock.vue";
 import GallaryCarousel from "../components/main-elements/GallaryCarousel.vue";
 import CheckboxTabs from "../components/main-elements/CheckboxTabs.vue";
 import StickyBottomLine from "../components/main-elements/StickyBottomLine.vue";
+import StickyHeaderLine from "../components/main-elements/StickyHeaderLine.vue";
 
 import GameArrows from '../components/game-ui/gameArrows.vue'
 import AtomGrid from "../components/Atoms/Grid/AtomGrid.vue";
@@ -110,6 +111,11 @@ const index = [
     path: "/gallery-carousel",
     name: "gallary-carousel",
     component: GallaryCarousel
+  },
+  {
+    path: "/sticky-header-line",
+    name: "Sticky Header Line",
+    component: StickyHeaderLine
   },
   {
     path: "/sticky-bottom-line",
