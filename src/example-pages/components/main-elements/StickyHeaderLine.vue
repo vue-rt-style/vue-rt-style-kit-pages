@@ -19,7 +19,7 @@
                                                        top-offset-height-elemement-selector=".app-header"
                                                        :start-stop-points="['one2','two2','tree2','four2']"
                                                        :delta-between-blocks="50">
-                                    <div class="rt-space-top">
+                                    <div class="rt-space-top nowrap">
                                         <rt-button class="rt-button-orange rt-button-small">Оставить заявку</rt-button>
                                     </div>
                                 </rt-sticky-header-line>
