@@ -51,7 +51,8 @@
                         <div id="tree2" class="color-block--black" style="height: 100vh; margin-top: 1000px">
                             <div class="rt-space-horizontal rt-space-vertical">
                                 <rt-button class="rt-button-orange rt-button-small">Оставить заявку</rt-button>
-                                <p class="color-purple-high05 rt-space-top2 ">— Ой, всё чудесится и чудесится! — закричала Алиса. (Она
+                                <p class="color-purple-high05 rt-space-top2 ">— Ой, всё чудесится и чудесится! —
+                                    закричала Алиса. (Она
                                     была в таком изумлении, что ей уже не хватало обыкновенных слов, и она начала
                                     придумывать свои.) — Теперь из меня получается не то что подзорная труба, а целый
                                     телескоп! Прощайте, пяточки! (Это она взглянула на свои ноги, а они были уже где-то
@@ -76,18 +77,66 @@
                     </div>
                 </div>
                 <div class="app-content rt-col-12 rt-col-md-3 rt-space-top3">
-                    <pre style="color:#a9b7c6;font-family:'Menlo'"><span style="color:#e8bf6a;">&lt;rt-sticky-bottom-line </span><span
-                            style="color:#bababa;">:start-stop-points</span><span style="color:#a5c261;">="</span>['one','two','tree','tree2']<span
-                            style="color:#a5c261;">" </span><span
-                            style="color:#bababa;">:delta-between-blocks</span><span
+                    <pre style="font-family: Menlo;"><span
+                            style="color:#e8bf6a;">&lt;rt-sticky-header-line </span><span style="color:#bababa;">top-offset-height-elemement-selector</span><span
+                            style="color:#a5c261;">=".app-header"<br></span><span
+                            style="color:#a5c261;">                       </span><span style="color:#bababa;">background-color</span><span
+                            style="color:#a5c261;">="yellow"<br></span><span
+                            style="color:#a5c261;">                       </span><span style="color:#bababa;">:start-stop-points</span><span
+                            style="color:#a5c261;">="</span>['one','two','tree','four']<span
+                            style="color:#a5c261;">"<br></span><span
+                            style="color:#a5c261;">                       </span><span style="color:#bababa;">:delta-between-blocks</span><span
                             style="color:#a5c261;">="</span>50<span style="color:#a5c261;">"</span><span
-                            style="color:#e8bf6a;">&gt;<br></span><span style="color:#e8bf6a;">  &lt;div </span><span
+                            style="color:#e8bf6a;">&gt;<br></span><span style="color:#e8bf6a;">    &lt;div </span><span
                             style="color:#bababa;">class</span><span
                             style="color:#a5c261;">="d-flex flex-center-center"</span><span
-                            style="color:#e8bf6a;">&gt;<br></span><span style="color:#e8bf6a;">    &lt;rt-button </span><span
+                            style="color:#e8bf6a;">&gt;<br></span><span
+                            style="color:#e8bf6a;">        &lt;rt-button </span><span
                             style="color:#bababa;">class</span><span style="color:#a5c261;">="rt-button-orange rt-button-small"</span><span
                             style="color:#e8bf6a;">&gt;</span>Оставить заявку<span style="color:#e8bf6a;">&lt;/rt-button&gt;<br></span><span
-                            style="color:#e8bf6a;">  &lt;/div&gt;<br></span><span style="color:#e8bf6a;">&lt;/rt-sticky-bottom-line&gt;</span></pre>
+                            style="color:#e8bf6a;">    &lt;/div&gt;<br></span><span style="color:#e8bf6a;">&lt;/rt-sticky-header-line&gt;</span></pre>
+                    <documentation-builder :json="documentation" type="components"/>
+                </div>
+                <div class="app-content rt-col-12 rt-col-md-3 rt-space-top3">
+                    <pre style="color:#a9b7c6;font-family:'Menlo';font-size:9,0pt;"><span style="color:#e8bf6a;">&lt;rt-sticky-header-line </span><span
+                            style="color:#bababa;">:is-invisible</span><span style="color:#a5c261;">="</span>true<span
+                            style="color:#a5c261;">"<br></span><span
+                            style="color:#a5c261;">                       </span><span style="color:#bababa;">:right-content</span><span
+                            style="color:#a5c261;">="</span>true<span style="color:#a5c261;">"<br></span><span
+                            style="color:#a5c261;">                       </span><span style="color:#bababa;">top-offset-height-elemement-selector</span><span
+                            style="color:#a5c261;">=".app-header"<br></span><span
+                            style="color:#a5c261;">                       </span><span style="color:#bababa;">:start-stop-points</span><span
+                            style="color:#a5c261;">="</span>['one2','two2','tree2','four2']<span style="color:#a5c261;">"<br></span><span
+                            style="color:#a5c261;">                       </span><span style="color:#bababa;">:delta-between-blocks</span><span
+                            style="color:#a5c261;">="</span>50<span style="color:#a5c261;">"</span><span
+                            style="color:#e8bf6a;">&gt;<br></span><span style="color:#e8bf6a;">    &lt;div </span><span
+                            style="color:#bababa;">class</span><span
+                            style="color:#a5c261;">="rt-space-top nowrap"</span><span
+                            style="color:#e8bf6a;">&gt;<br></span><span
+                            style="color:#e8bf6a;">        &lt;rt-button </span><span
+                            style="color:#bababa;">class</span><span style="color:#a5c261;">="rt-button-orange rt-button-small"</span><span
+                            style="color:#e8bf6a;">&gt;</span>Оставить заявку<span style="color:#e8bf6a;">&lt;/rt-button&gt;<br></span><span
+                            style="color:#e8bf6a;">    &lt;/div&gt;<br></span><span style="color:#e8bf6a;">&lt;/rt-sticky-header-line&gt;</span></pre>
+                </div>
+                <div class="app-content rt-col-12 rt-col-md-3 rt-space-top3">
+                    <pre style="font-family: Menlo;"><span
+                            style="color:#e8bf6a;">&lt;rt-sticky-header-line </span><span style="color:#bababa;">top-offset-height-elemement-selector</span><span
+                            style="color:#a5c261;">=".app-header"<br></span><span
+                            style="color:#a5c261;">                       </span><span style="color:#bababa;">background-color</span><span
+                            style="color:#a5c261;">="yellow"<br></span><span
+                            style="color:#a5c261;">                       </span><span style="color:#bababa;">:start-stop-points</span><span
+                            style="color:#a5c261;">="</span>['one','two','tree','four']<span
+                            style="color:#a5c261;">"<br></span><span
+                            style="color:#a5c261;">                       </span><span style="color:#bababa;">:delta-between-blocks</span><span
+                            style="color:#a5c261;">="</span>50<span style="color:#a5c261;">"</span><span
+                            style="color:#e8bf6a;">&gt;<br></span><span style="color:#e8bf6a;">    &lt;div </span><span
+                            style="color:#bababa;">class</span><span
+                            style="color:#a5c261;">="d-flex flex-center-center"</span><span
+                            style="color:#e8bf6a;">&gt;<br></span><span
+                            style="color:#e8bf6a;">        &lt;rt-button </span><span
+                            style="color:#bababa;">class</span><span style="color:#a5c261;">="rt-button-orange rt-button-small"</span><span
+                            style="color:#e8bf6a;">&gt;</span>Оставить заявку<span style="color:#e8bf6a;">&lt;/rt-button&gt;<br></span><span
+                            style="color:#e8bf6a;">    &lt;/div&gt;<br></span><span style="color:#e8bf6a;">&lt;/rt-sticky-header-line&gt;</span></pre>
                     <documentation-builder :json="documentation" type="components"/>
                 </div>
             </div>
@@ -96,7 +145,7 @@
 </template>
 
 <script>
-    import documentation from "vue-rt-style-kit-molecules/src/components/StickyBottomLine/docs/index.json";
+    import documentation from "@vue-rt-style-kit-molecules-local/components/StickyHeaderLine/docs/index.json";
 
     import componentsList from "../../componentsList";
 
