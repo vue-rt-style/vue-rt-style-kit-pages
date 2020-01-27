@@ -14,8 +14,6 @@ const webpackConfig = require('../webpack.config.example.js');
 
 const Ora = require('ora');
 const local_dirname = path.join(__dirname,'..','..');
-console.log(path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`))
-console.log('fuck')
 
 const port = process.env.PORT || config.dev.port;
 
@@ -28,6 +26,7 @@ const compiler = webpack(webpackConfig);
 const devMiddleware = require('webpack-dev-middleware')(compiler, {
   path: '/__webpack_hmr',
   quiet: true,
+  log: console.log,
   stats: {
     colors: true,
     hash: false,
