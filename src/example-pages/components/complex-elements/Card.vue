@@ -15,7 +15,7 @@
             <div class="rt-container">
                 <div class="rt-col is-b2c">
                     <div class="relative">
-                        <rt-resize-content-height :query-selectors-names="['.rt-card-b2o']">
+<!--                        <rt-resize-content-height :query-selectors-names="['.rt-card-b2o']">-->
                             <rt-card-carousel>
                                 <rt-card-b2o :is-white-color="true" class="carousel-card carousel-card--active">
                                     <template slot="content">
@@ -206,7 +206,7 @@
                                     </template>
                                 </rt-card-b2o>
                             </rt-card-carousel>
-                        </rt-resize-content-height>
+<!--                        </rt-resize-content-height>-->
                     </div>
                     <rt-resize-content-height
                             :query-selectors-names="[
