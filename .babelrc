@@ -1,20 +1,13 @@
 {
   "presets": [
     [
-      "@babel/preset-env",
-      {
-        "modules": false,
-        "targets": { "node": "current" }
-      }
+      "@babel/preset-env"
     ]
   ],
   "plugins": [
-    ["@babel/plugin-transform-runtime"],
     "@babel/plugin-transform-regenerator",
-    "@babel/plugin-transform-modules-commonjs",
     "@babel/plugin-proposal-class-properties",
     "@babel/plugin-syntax-dynamic-import",
     "transform-vue-jsx"
-
   ]
 }
