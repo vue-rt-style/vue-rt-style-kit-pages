@@ -8,15 +8,17 @@
 
     </div>
     <div class="app-content  rt-col-12 rt-col-md-3">
-
+      <span v-on:click="resize">
+      <rt-button  class="rt-button-orange rt-button-small" style="position: fixed; top:140px; z-index: 999; right: 40px">resize</rt-button>
+      </span>
       <pre-code
         text='<div>
       <div
-        class="color-block--red color-white rt-space-horizontal sticked app-sticked"
+        class="color-block--red color-white"
       >
         <rt-scroll-tabs
           :has-fixed-js-node="true"
-          class="rt-contaner rt-scroll-tab-header"
+          class="rt-contaner rt-scroll-tab-header rt-space-horizontal"
           active-tabs-classname="rt-scroll-tab-header__item--active"
           tabs-classname="rt-scroll-tab-header__item"
           :top-padding="40"
@@ -120,6 +122,10 @@
     },
     created() {
     },
-    methods: {}
+    methods: {
+      resize() {
+        window.dispatchEvent(new Event("resize"));
+      }
+    }
   };
 </script>
