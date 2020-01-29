@@ -8,6 +8,7 @@
         name: "App",
         components: componentsList,
         data: () => ({
+            options: ['showGrid', 'isDarkTheme', 'codeViewer', 'siteStatus'],
             showMenu: false,
             isPromo: false,
             showGrid: false,
@@ -29,7 +30,9 @@
                 this.isPromo = true;
             }
         },
-        mounted() {},
+        mounted() {
+            this.getOptions();
+        },
         computed: {
             appClasses() {
                 const classes = ['app'];
@@ -53,7 +56,7 @@
                         break;
                     case this.siteStatus === 'joint':
                         clasess.push('show-b2c');
-                        clasess.push('show-b2b')
+                        clasess.push('show-b2b');
                         break;
                 }
                 return clasess.join(' ')
@@ -68,6 +71,27 @@
             }
         },
         methods: {
+            saveOptions() {
+                const options = {};
+                this.options.forEach((key) => {
+                    console.info(key);
+                    options[key] = this[key]
+                });
+                localStorage.setItem('appOption', JSON.stringify(options));
+            },
+            getOptions() {
+                let options = localStorage.getItem('appOption');
+                console.info('options', options)
+                if (options) {
+                    options = JSON.parse(options);
+
+                    this.options.forEach((key) => {
+                        this[key] = options[key]
+                    });
+                    this.switchTheme(null, true);
+                    this.codeViewerToggle(null,true)
+                }
+            },
             toggleMenu() {
                 if (this.showMenu) {
                     this.closeMenu()
@@ -97,9 +121,16 @@
             },
             gridToggle() {
                 this.showGrid = !this.showGrid;
+                this.saveOptions();
             },
-            codeViewerToggle(event) {
-                const isChecked = !this.codeViewer;
+            codeViewerToggle(event, isInit) {
+                let isChecked;
+                if(isInit) {
+                    isChecked = this.codeViewer;
+                }else{
+                    isChecked = !this.codeViewer;
+                }
+                console.info('isInit',isInit,isChecked)
                 if (isChecked) {
                     localStorage.setItem("rt-code-viewer", 1);
                     document.body.classList.add("rt-code-viewer");
@@ -108,10 +139,17 @@
                     document.body.classList.remove("rt-code-viewer");
                 }
                 this.codeViewer = isChecked;
+                this.saveOptions();
             },
 
-            switchTheme(event) {
-                const isChecked = !this.isDarkTheme;
+            switchTheme(event, isInit) {
+                let isChecked;
+                if (isInit) {
+                    isChecked = this.isDarkTheme
+                } else {
+                    isChecked = !this.isDarkTheme
+                }
+
                 const bodyClassList = document.body.classList.value.split(" ");
                 if (isChecked) {
                     bodyClassList.push("rt-dark-theme");
@@ -123,9 +161,11 @@
                     this.isDarkTheme = false;
                 }
                 document.body.classList = bodyClassList.join(" ");
+                this.saveOptions();
             },
             setStatusView(typeView) {
                 this.siteStatus = typeView;
+                this.saveOptions();
             }
 
         },
@@ -164,13 +204,15 @@
                             grid-toggle={this.gridToggle}
                         >
 
-                          <div class="rt-space-left"> <rt-logo
-                                  width="30px"
-                                  english-theme="true"
-                                  show-text="true"
-                                  color="#ffffff"
-                                  height="42px"
-                          /></div>
+                            <div class="rt-space-left">
+                                <rt-logo
+                                    width="30px"
+                                    english-theme="true"
+                                    show-text="true"
+                                    color="#ffffff"
+                                    height="42px"
+                                />
+                            </div>
                         </app-menu>
                     </div>
 
