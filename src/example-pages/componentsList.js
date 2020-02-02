@@ -105,7 +105,7 @@ import {
     LogoCoBranding,
     Icon,
     ValidationIcon
-} from 'vue-rt-style-kit-icons'
+} from '@vue-rt-style-kit-icons-local'
 
 import AppMenu from "./components/AppMenu.vue";
 
