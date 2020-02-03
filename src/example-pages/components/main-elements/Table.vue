@@ -25,7 +25,7 @@
                 </rt-template>
                 <rt-template slot=&quot;body&quot;>
                   <rt-table-row>
-                    <rt-table-item>Архангельская и Мурманская
+                    <rt-table-item rowspan='2'>Архангельская и Мурманская
                       область Республика Карелия</rt-table-item>
                     <rt-table-item  colspan='3'>Домашний интернет,
                       Домашний телефон
