@@ -1,5 +1,7 @@
 # vue-rt-style-kit-pages
 
+[DEMO-стенд](https://vue-rt-style.github.io/vue-rt-style-kit-pages/docs/)
+
 Простой запуск проекта:
 
 ````
