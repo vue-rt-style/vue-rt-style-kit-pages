@@ -23,7 +23,7 @@
 
 <script>
 
-    import documentation from "@vue-rt-style-kit-atoms-local/components/Grid/docs/docsGridRow.json";
+    import documentation from "@vue-rt-style-kit-atoms-local/src/components/Grid/docs/docsGridRow.json";
 
     export default {
         name: "AppAtomGrid",

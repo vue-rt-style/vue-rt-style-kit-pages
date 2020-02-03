@@ -45,6 +45,16 @@
                     <rt-table-item>30 дней</rt-table-item>
                     <rt-table-item>7 руб./в день</rt-table-item>
                   </rt-table-row>
+                  <rt-table-row>
+                    <rt-table-item>Республика Коми, Вологодская, Калининградская, Новгородская, Псковская и Ленинградская области и город Санкт-Петербург</rt-table-item>
+                    <rt-table-item colspan='3'>Домашний интернет,
+                      Домашний телефон
+                      Интерактивное ТВ</rt-table-item>
+                    <rt-table-item>60 дней</rt-table-item>
+                    <rt-table-item>3 дня</rt-table-item>
+                    <rt-table-item>30 дней</rt-table-item>
+                    <rt-table-item>7 руб./в день</rt-table-item>
+                  </rt-table-row>
                 </rt-template>
               </rt-table>
               "
