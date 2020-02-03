@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/vue-rt-style/vue-rt-style-kit-atoms/issues"
   },
-  "homepage": "https://github.com/vue-rt-style/vue-rt-style-kit-atoms",
+  "homepage": "https://github.com/vue-rt-style/vue-rt-style-kit-pages",
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "@babel/runtime": "^7.5.5",
