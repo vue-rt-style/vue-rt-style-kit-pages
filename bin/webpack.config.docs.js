@@ -1,26 +1,24 @@
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
 const path = require(`path`);
-const HtmlWebpackPlugin = require(`html-webpack-plugin`);
-const webpack = require('webpack');
 
+const HtmlWebpackPlugin = require(`html-webpack-plugin`);
+const MiniCssExtractPlugin = require(`mini-css-extract-plugin`);
+const webpack = require('webpack');
 const local_dirname = path.join(__dirname,'..');
+const env = process.env.NODE_ENV;
 function resolve(cmp) {
   return `vue-rt-style-kit-${cmp}`;
 }
 
 const config = {
   entry: {
-    main:[path.join(local_dirname, `src`,`example-pages`,`index.js`)],
+    'main':[path.join(local_dirname, `src`, `index.js`)],
   },
-  mode: 'development',
-  optimization: {
-    splitChunks: {
-      chunks: `all`
-    },
+  mode: env,
+  output: {
+    publicPath: `/`,
   },
-  devtool: false,
   resolve: {
-    symlinks: false,
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@vue-rt-style-kit-atoms-local': resolve('atoms'),
@@ -28,31 +26,38 @@ const config = {
       '@vue-rt-style-kit-icons-local': resolve('icons')
     },
   },
+  optimization: {
+    splitChunks: {
+      chunks: `all`
+    },
+  },
+  devtool:  undefined,
   module: {
     rules: [
+      {
+        test: /\.tsx$/,
+        loader: 'babel-loader!ts-loader',
+        exclude: /node_modules/,
+
+      },
+      {
+        test: /\.ts$/,
+        loader: 'babel-loader!ts-loader',
+        exclude: /node_modules/,
+
+      },
       {
         test: /\.vue$/,
         use: [
           {
-            loader: "vue-loader"
+            loader: `vue-loader`,
+            options: {
+              transformAssetUrls: {
+                source: './src/',
+              },
+            },
           },
         ],
-        include: [path.join(local_dirname, `src`),
-                path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`)
-        ],
-      },
-      {
-        test: /\.html$/,
-        use: 'raw-loader',
-        include: [path.join(local_dirname, `src`),path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`)],
-      },
-      {
-        test: /\.(ts|tsx)$/,
-        exclude: /node_modules/,
-        include: [path.join(local_dirname, `src`),path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`)],
-        use: [
-          {loader:`babel-loader`},
-          {loader:`ts-loader`}]
       },
       {
         test: /\.css$/,
@@ -60,12 +65,10 @@ const config = {
           {loader:`css-loader`},
         ],
       },
-
       {
         test: /\.js$/,
         loader: `babel-loader`,
-        exclude: /node_modules/,
-        include: [path.join(local_dirname, `src`),path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`)],
+        include: [path.join(local_dirname, `src`)],
       },
       {
         test: /\.styl/,
@@ -90,19 +93,23 @@ const config = {
     ],
   },
   plugins: [
+    new VueLoaderPlugin(),
     new HtmlWebpackPlugin({
-      filename: `index.html`,
+      filename: path.join(local_dirname, `dist`, `index.html`),
       template: path.join(local_dirname, `static`, `index.html`),
       inject: true,
+      minify:{
+          removeComments: true,
+          collapseWhitespace: true,
+          removeAttributeQuotes: true,
+        }
     }),
   ]
 };
 
 
 
-config.plugins.push(
-    new VueLoaderPlugin(),
-    new webpack.NamedModulesPlugin()
-);
+config.plugins.push(new MiniCssExtractPlugin());
+
 
 module.exports = config;
