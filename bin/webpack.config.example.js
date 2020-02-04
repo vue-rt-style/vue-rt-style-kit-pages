@@ -15,6 +15,9 @@ const config = {
     app:[path.join(local_dirname, `src`,`example-pages`,`index.js`)],
   },
   mode: 'development',
+  output: {
+    publicPath: `/`,
+  },
   optimization: {
     splitChunks: {
       chunks: `all`
@@ -38,20 +41,15 @@ const config = {
           {
             loader: "vue-loader"
           },
-        ],
-        include: [path.join(local_dirname, `src`),
-                path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`)
-        ],
+        ]
       },
       {
         test: /\.html$/,
         use: 'raw-loader',
-        include: [path.join(local_dirname, `src`),path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`)],
       },
       {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
-        include: [path.join(local_dirname, `src`),path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`)],
         use: [
           {loader:`babel-loader`},
           {loader:`ts-loader`}]
@@ -67,7 +65,7 @@ const config = {
         test: /\.js$/,
         loader: `babel-loader`,
         exclude: /node_modules/,
-        include: [path.join(local_dirname, `src`),path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`)],
+        include: [path.join(local_dirname, `src`)],
       },
       {
         test: /\.styl/,
