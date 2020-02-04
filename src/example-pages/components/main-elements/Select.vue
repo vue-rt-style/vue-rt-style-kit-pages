@@ -287,7 +287,9 @@ export default {
       "Ярославская обл"
     ]
   }),
-  mounted() {},
+  mounted() {
+    console.info('done')
+  },
   created() {},
   methods: {}
 };
