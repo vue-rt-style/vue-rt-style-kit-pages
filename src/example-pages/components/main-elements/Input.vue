@@ -123,10 +123,11 @@
         <rt-input insert-type="number"
                   type="number"
                   value=""
-                  :max-length="2"
-                  placeholder="Ваше любимое число до 99"
+                  :max-length="3"
+                  placeholder="Ваше любимое число до 999"
                   :min-number="0"
-                  :max-number="99"
+                  :max-number="999"
+                  :is-integer="true"
         />
         <rt-input insert-type="string"
                   value=""
@@ -238,7 +239,7 @@
 </template>
 
 <script>
-import documentation from "../../../atoms/components/Input/docs/index.json";
+import documentation from "@vue-rt-style-kit-atoms-local/src/components/Input/docs/index.json";
 import componentsList from "../../componentsList";
 
 export default {

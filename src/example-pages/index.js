@@ -1,16 +1,13 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import VueRtStyleAtoms from "@vue-rt-style-kit-atoms-local/index";
-import VueRtStyleIcons from "@vue-rt-style-kit-icons-local/index";
-import VueRtStyleMolecules from "@vue-rt-style-kit-molecules-local/index";
+import VueRtStyleAtoms from "@vue-rt-style-kit-atoms-local";
+import VueRtStyleIcons from "@vue-rt-style-kit-icons-local";
+import VueRtStyleMolecules from "@vue-rt-style-kit-molecules-local";
 import VueRtDevStyle from "../develover-lib/index";
 import routes from "./router";
 import RootPage from "./components/App.vue";
-import stylesAtoms from "@vue-rt-style-kit-atoms-local/css/vue-rt-style-atoms.styl";
-import stylesMolecules from "@vue-rt-style-kit-molecules-local/css/vue-rt-style-kit-molecules.styl";
 import appStyles from './css/index.styl'
-import Global from "../atoms/variables.json";
-import * as svgicon from 'vue-svgicon';
+import Global from "@vue-rt-style-kit-atoms-local/src/variables.json";
 
 // import Rx from 'rxjs';
 // import VueRx from 'vue-rx';
@@ -25,7 +22,6 @@ Vue.use(VueRtDevStyle);
 Vue.use(VueRtStyleAtoms);
 Vue.use(VueRtStyleIcons);
 Vue.use(VueRtStyleMolecules);
-Vue.use(svgicon);
 // Vue.use(VueRtDevStyle);
 // Vue.use(VueRtStyleAtoms);
 // Vue.use(VueRtStyleMolecules);

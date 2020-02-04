@@ -1,7 +1,7 @@
 <script type="text/jsx">
 
     import componentsList from "../componentsList";
-    import variables from "vue-rt-style-kit-atoms/src/variables.json";
+    import variables from "@vue-rt-style-kit-atoms-local/src/variables.json";
 
 
     export default {
@@ -74,14 +74,12 @@
             saveOptions() {
                 const options = {};
                 this.options.forEach((key) => {
-                    console.info(key);
                     options[key] = this[key]
                 });
                 localStorage.setItem('appOption', JSON.stringify(options));
             },
             getOptions() {
                 let options = localStorage.getItem('appOption');
-                console.info('options', options)
                 if (options) {
                     options = JSON.parse(options);
 
@@ -130,7 +128,6 @@
                 }else{
                     isChecked = !this.codeViewer;
                 }
-                console.info('isInit',isInit,isChecked)
                 if (isChecked) {
                     localStorage.setItem("rt-code-viewer", 1);
                     document.body.classList.add("rt-code-viewer");
