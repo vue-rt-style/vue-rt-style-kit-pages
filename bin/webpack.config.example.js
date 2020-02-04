@@ -5,7 +5,11 @@ const webpack = require('webpack');
 const filewatcherPlugin = require("filewatcher-webpack-plugin");
 
 const local_dirname = path.join(__dirname,'..');
-console.info(path.join(local_dirname,'src','projectsJsons','atoms.json'))
+console.info(__dirname, path.join(local_dirname,'src','projectsJsons','atoms.json'))
+
+function resolve(cmp) {
+  return path.join(__dirname, `../node_modules/vue-rt-style-kit-${cmp}`);
+}
 
 const config = {
   entry: {
@@ -22,12 +26,9 @@ const config = {
     symlinks: false,
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@vue-rt-style-kit-atoms-local': path.join(local_dirname,'src','atoms'),
-      '@vue-rt-style-kit-molecules-local': path.join(local_dirname,'src','molecules'),
-      '@vue-rt-style-kit-icons-local': path.join(local_dirname,'src','molecules'),
-      '@projectAtoms': path.join(local_dirname,'src','projectsJsons','atoms.json'),
-      '@projectMolecules': path.join(local_dirname,'src','projectsJsons','molecules.json'),
-      '@projectIcons': path.join(local_dirname,'src','projectsJsons','icons.json'),
+      '@vue-rt-style-kit-atoms-local': resolve('atoms'),
+      '@vue-rt-style-kit-molecules-local': resolve('molecules'),
+      '@vue-rt-style-kit-icons-local': resolve('icons')
     },
   },
   module: {

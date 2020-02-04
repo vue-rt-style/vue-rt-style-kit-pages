@@ -238,7 +238,7 @@
 </template>
 
 <script>
-import documentation from "../../../atoms/components/Input/docs/index.json";
+import documentation from "@vue-rt-style-kit-atoms-local/src/components/Input/docs/index.json";
 import componentsList from "../../componentsList";
 
 export default {
