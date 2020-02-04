@@ -37743,7 +37743,7 @@ module.exports = JSON.parse("[\"001-bw\",\"001-c\",\"001-g\",\"001\",\"004-C\",\
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/silrage/apps/pages/src/example-pages/index.js */"./src/example-pages/index.js");
+module.exports = __webpack_require__(/*! /Users/cryingjoker/rostel/ui-kit/vue-rt-style-kit-pages/src/example-pages/index.js */"./src/example-pages/index.js");
 
 
 /***/ })
