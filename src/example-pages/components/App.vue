@@ -1,7 +1,7 @@
 <script type="text/jsx">
 
     import componentsList from "../componentsList";
-    import variables from "@vue-rt-style-kit-atoms-local/src/variables.json";
+    import variables from "@vue-rt-style-kit-atoms-local/variables.json";
 
 
     export default {
