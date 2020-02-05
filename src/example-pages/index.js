@@ -18,6 +18,7 @@ Vue.use(VueRouter);
 if (!window[Global.globalSettingsKey]) window[Global.globalSettingsKey] = {}
 // Use validator only demo-stand for provide validation
 window[Global.globalSettingsKey].useValidator = true
+
 Vue.use(VueRtDevStyle);
 Vue.use(VueRtStyleAtoms);
 Vue.use(VueRtStyleIcons);
