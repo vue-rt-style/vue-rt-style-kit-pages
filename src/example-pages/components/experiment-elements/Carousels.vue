@@ -855,7 +855,7 @@
 </template>
 
 <script>
-import documentation from "@vue-rt-style-kit-molecules-local/src/components/Carousel/docs/index.json";
+import documentation from "@vue-rt-style-kit-molecules-local/components/Carousel/docs/index.json";
 import componentsList from "../../componentsList";
 
 export default {

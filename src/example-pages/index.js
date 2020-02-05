@@ -7,7 +7,7 @@ import VueRtDevStyle from "../develover-lib/index";
 import routes from "./router";
 import RootPage from "./components/App.vue";
 import appStyles from './css/index.styl'
-import Global from "@vue-rt-style-kit-atoms-local/src/variables.json";
+import Global from "@vue-rt-style-kit-atoms-local/variables.json";
 
 // import Rx from 'rxjs';
 // import VueRx from 'vue-rx';

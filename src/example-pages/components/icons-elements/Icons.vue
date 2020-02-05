@@ -616,7 +616,7 @@
 </template>
 
 <script>
-import documentation from "@vue-rt-style-kit-icons-local/src/components/Icon/docs/index.json";
+import documentation from "@vue-rt-style-kit-icons-local/components/Icon/docs/index.json";
 import listIcons from "../../../../static/list-icons.json"
 
 const componentsList = {};

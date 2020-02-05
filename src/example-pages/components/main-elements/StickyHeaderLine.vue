@@ -145,7 +145,7 @@
 </template>
 
 <script>
-    import documentation from "@vue-rt-style-kit-molecules-local/src/components/StickyHeaderLine/docs/index.json";
+    import documentation from "@vue-rt-style-kit-molecules-local/components/StickyHeaderLine/docs/index.json";
 
     import componentsList from "../../componentsList";
 

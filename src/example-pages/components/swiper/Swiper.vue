@@ -672,7 +672,7 @@
 </template>
 
 <script>
-import documentation from "@vue-rt-style-kit-molecules-local/src/components/Swiper/docs/index.json";
+import documentation from "@vue-rt-style-kit-molecules-local/components/Swiper/docs/index.json";
 import componentsList from "../../componentsList";
 
 export default {

@@ -1443,7 +1443,7 @@
 
 
 <script>
-  import documentation from "@vue-rt-style-kit-molecules-local/src/components/Tabs/docs/index.json";
+  import documentation from "@vue-rt-style-kit-molecules-local/components/Tabs/docs/index.json";
   import componentsList from "../../componentsList";
 
   export default {
