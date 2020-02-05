@@ -631,7 +631,7 @@ export default {
   name: "AppIcons",
   components: componentsList,
   data: () => ({
-    documentation: {},
+    documentation: documentation,
     findedIcons: [],
     filteredIcons: [],
     newIcons: {},
@@ -681,9 +681,6 @@ export default {
       }
     })
     this.filterList()
-  },
-  mounted() {
-    this.documentation = documentation
   },
   created() {},
   methods: {

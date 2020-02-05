@@ -2,23 +2,17 @@
   <div>
     <div class="rt-container">
       <div class="app-content rt-col-12 rt-col-md-3">
-        <div class="app-title">
-          <div class="row">
-            <h1 class="rt-font-hero rt-col">
-              Carousel 3.0
-            </h1>
-          </div>
-        </div>
+        <div class="app-title"><h1 class="rt-font-hero">Carousel 3.0</h1></div>
       </div>
     </div>
 
     <div>
       <pre-code text='
+      <div>
         <div class="rt-container">
-          <div class="app-content rt-col-12 rt-col-md-3">
+          <div class="rt-col-12 rt-col-md-3">
             <h3>Carousel in Tabs</h3>
-            <div class="app-body">
-              <div class="app-row row">
+          </div>
                 <div class="rt-col-12 rt-space-bottom3">
                   <rt-tabs :round-tablet-view="true">
                     <template slot="navigation">
@@ -62,6 +56,7 @@
                             >
                               <div
                                 style="
+                                  background-size: cover;
                                   border-radius: 8px;
                                   height: 300px;
                                   position: relative;
@@ -90,10 +85,9 @@
               </div>
             </div>
           </div>
-        </div>
       ' />
     </div>
-
+    
     <div>
       <pre-code text='
         <rt-carousel :hide-arrows="true" slides-classes="rt-col-4 rt-col-md-2 rt-col-td-3">
@@ -433,7 +427,6 @@
       </div>'
       />
     </div>
-
 
     <div class="rt-space-top5">
       <pre-code text='
@@ -861,13 +854,10 @@ import componentsList from "../../componentsList";
 export default {
   name: "AppCarousel",
   components: componentsList,
-  data: () => {
-    return ({
-      documentation: {}
-    });
-  },
-  mounted() {
-    this.documentation = documentation;
+  data() {
+    return {
+      documentation
+    }
   },
   created() {},
   methods: {}
