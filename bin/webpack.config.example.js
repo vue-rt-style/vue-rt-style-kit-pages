@@ -4,11 +4,12 @@ const HtmlWebpackPlugin = require(`html-webpack-plugin`);
 const webpack = require('webpack');
 const filewatcherPlugin = require("filewatcher-webpack-plugin");
 
-const local_dirname = path.join(__dirname,'..');
-console.info(__dirname, path.join(local_dirname,'src','projectsJsons','atoms.json'))
-
-function resolve(cmp) {
-  return path.join(__dirname, `../node_modules/vue-rt-style-kit-${cmp}`);
+const local_dirname = path.join(__dirname, '..')
+function include () {
+  return [
+    path.join(local_dirname, `src`),
+    path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`)
+  ]
 }
 
 const config = {
@@ -17,7 +18,7 @@ const config = {
   },
   mode: 'development',
   output: {
-    publicPath: `/`,
+    publicPath: '/'
   },
   optimization: {
     splitChunks: {
@@ -28,6 +29,8 @@ const config = {
   resolve: {
     symlinks: false,
     alias: {
+      'vue$': 'vue/dist/vue.esm.js',
+      // Симлинки
       '@vue-rt-style-kit-atoms-local': path.join(local_dirname,'src','atoms'),
       '@vue-rt-style-kit-molecules-local': path.join(local_dirname,'src','molecules'),
       '@vue-rt-style-kit-icons-local': path.join(local_dirname,'src','icons'),
@@ -44,19 +47,22 @@ const config = {
           {
             loader: "vue-loader"
           },
-        ]
+        ],
+        include: include(),
       },
       {
         test: /\.html$/,
         use: 'raw-loader',
+        include: include(),
       },
       {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
+        include: include(),
         use: [
           {loader:`babel-loader`},
           {loader:`ts-loader`}]
-      },
+        },
       {
         test: /\.css$/,
         use: [
@@ -68,7 +74,7 @@ const config = {
         test: /\.js$/,
         loader: `babel-loader`,
         exclude: /node_modules/,
-        include: [path.join(local_dirname, `src`)],
+        include: include(),
       },
       {
         test: /\.styl/,
