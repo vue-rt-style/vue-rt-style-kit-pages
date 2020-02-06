@@ -30,6 +30,12 @@ libs/
 # Test coverage
 coverage
 
+#Symlinks
+/src/atoms
+/src/molecules
+/src/icons
+/src/projectsJsons
+
 /package-lock.json
 /main-vue-libraries/
 /src/main-vue-libraries/
