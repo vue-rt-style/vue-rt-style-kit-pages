@@ -3,27 +3,27 @@ const path = require(`path`);
 
 const HtmlWebpackPlugin = require(`html-webpack-plugin`);
 const MiniCssExtractPlugin = require(`mini-css-extract-plugin`);
-const webpack = require('webpack');
 const local_dirname = path.join(__dirname,'..');
 const env = process.env.NODE_ENV;
-function resolve(dir) {
-  return path.join(__dirname, dir);
+function include () {
+  return [
+    path.join(local_dirname, `src`),
+    path.join(local_dirname,'..','vue-rt-style-kit-atoms', `src`)
+  ]
 }
 
 const config = {
   entry: {
-    'main':[path.join(local_dirname, `src`, `index.js`)],
+    main:[path.join(local_dirname, `src`,`example-pages`,`index.js`)],
   },
   mode: env,
-  output: {
-    publicPath: `/`,
-  },
   resolve: {
+    symlinks: false,
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@vue-rt-style-kit-atoms-local': path.join(local_dirname,'src','atoms'),
       '@vue-rt-style-kit-molecules-local': path.join(local_dirname,'src','molecules'),
-      '@vue-rt-style-kit-icons-local': path.join(local_dirname,'src','molecules'),
+      '@vue-rt-style-kit-icons-local': path.join(local_dirname,'src','icons'),
       '@projectAtoms': path.join(local_dirname,'src','projectsJsons','atoms.json'),
       '@projectMolecules': path.join(local_dirname,'src','projectsJsons','molecules.json'),
       '@projectIcons': path.join(local_dirname,'src','projectsJsons','icons.json'),
@@ -34,21 +34,9 @@ const config = {
       chunks: `all`
     },
   },
-  devtool:  undefined,
+  devtool:  false,
   module: {
     rules: [
-      {
-        test: /\.tsx$/,
-        loader: 'babel-loader!ts-loader',
-        exclude: /node_modules/,
-
-      },
-      {
-        test: /\.ts$/,
-        loader: 'babel-loader!ts-loader',
-        exclude: /node_modules/,
-
-      },
       {
         test: /\.vue$/,
         use: [
@@ -61,6 +49,18 @@ const config = {
             },
           },
         ],
+        include: include()
+      },
+      {
+        test: /\.html$/,
+        use: 'raw-loader',
+        include: include()
+      },
+      {
+        test: /\.(ts|tsx)$/,
+        loader: 'babel-loader!ts-loader',
+        exclude: /node_modules/,
+        include: include()
       },
       {
         test: /\.css$/,
@@ -72,6 +72,7 @@ const config = {
         test: /\.js$/,
         loader: `babel-loader`,
         include: [path.join(local_dirname, `src`)],
+        include: include()
       },
       {
         test: /\.styl/,
