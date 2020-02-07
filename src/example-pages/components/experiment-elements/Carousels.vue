@@ -811,10 +811,15 @@
     </div>
 
     <div class="rt-space-top5">
-      <rt-carousel :debug="true" :scroll-on-click="true">
+      <div class="rt-container">
+        <div class="rt-col-3 rt-space-bottom2">
+          <rt-input insert-type="number" v-model="showSlideNmb" label="Перейти к слайду" @change="goToSlide"></rt-input>
+        </div>
+      </div>
+      <rt-carousel :debug="true" :scroll-on-click="true" ref="carouselEl">
         <rt-carousel-slide v-for="i in 17" :key="i">
           <div class="rt-space-horizontal05">
-            <h2>Слайд {{ i }}</h2>
+            <h2>Слайд {{ i - 1 }}</h2>
             <rt-row-list>
               <rt-row-list-item v-for="ir in 3" :key="ir">
                 <template slot="option">
@@ -856,10 +861,16 @@ export default {
   components: componentsList,
   data() {
     return {
-      documentation
+      documentation,
+      showSlideNmb: '0'
     }
   },
   created() {},
-  methods: {}
+  methods: {
+    goToSlide () {
+      if (this.showSlideNmb)
+        this.$refs.carouselEl.moveTo(this.showSlideNmb)
+    }
+  }
 };
 </script>
