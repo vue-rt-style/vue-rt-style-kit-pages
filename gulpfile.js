@@ -6,7 +6,7 @@ gulp.task(
     "copy",
     shell.task([
         // 'ls'
-        "git checkout gh-pages",
+        // "git checkout gh-pages",
         "rm -rf ./docs",
         "mkdir docs",
         "mkdir docs/promo",
@@ -33,7 +33,7 @@ gulp.task(
         "rm -rf ./dist\n",
         "git commit -a -m'deploy docs'\n",
         "git push\n",
-        "git checkout master"
+        // "git checkout master"
     ])
 );
 // todo need to update this tasks for gulp 4
