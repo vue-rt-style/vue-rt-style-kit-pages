@@ -217,7 +217,7 @@
                         <div class={this.gridClasses}>
                             <div class="rt-col-12">
                                 <div class="row">
-                                    <div class="rt-col-1 rt-col-td-1 rt-col-md-1 demo-col"/>
+                                    <div class="rt-col-1 rt-col-td-1 rt-col-md-1 demo-col test"/>
                                     <div class="rt-col-1 rt-col-td-1 rt-col-md-1 demo-col"/>
                                     <div class="rt-col-1 rt-col-td-1 rt-col-md-1 demo-col"/>
                                     <div class="rt-col-1 rt-col-td-1 demo-col md-d-none"/>
