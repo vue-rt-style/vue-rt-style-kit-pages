@@ -47,7 +47,7 @@
       }
     },
     mounted() {
-      this.preUrl = location.protocol.search("https") >= 0 ? "/vue-stylekit/docs" : "";
+      this.preUrl = location.protocol.search("https") >= 0 ? "/vue-rt-style-kit-pages" : "";
     },
     methods: {
       changeSearchParams(e) {
