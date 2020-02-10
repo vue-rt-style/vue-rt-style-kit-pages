@@ -13,6 +13,7 @@ gulp.task(
         "git merge master -m'update branch'",
         "npm run build:docs",
         "cp -R ./dist/* ./docs",
+        "cp -R ./404.html ./docs/",
         // "cp docs/RostelecomBasis*.* docs/promo/",
         // "cp ./static/fonts.css ./docs/",
         "ls",
