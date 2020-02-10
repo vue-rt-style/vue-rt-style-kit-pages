@@ -30,6 +30,7 @@ gulp.task(
         "perl -p -i -e 's/docs\\/\"vendors/docs\\/vendors/g' ./docs/index.html\n",
         "perl -p -i -e 's/docs\\/\"main/docs\\/main/g' ./docs/index.html\n",
         // "perl -p -i -e 's/src=\\/vue-rt-style-kit-pages/src=\"\\/vue-rt-style-kit-pages/g' ./docs/index.html\n",
+        'perl -p -i -e \'s/\\{path:\"\\//\\{path:\\"\\/vue\\-rt\\-style\\-kit\\-pages\\//g\' ./main.js \n',
         "rm -rf ./dist\n",
         "git commit -a -m'deploy docs'\n",
         "git push\n",
