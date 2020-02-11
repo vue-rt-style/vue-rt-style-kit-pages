@@ -11,6 +11,58 @@
 
             <div class="app-body">
                 <pre-code
+                        text='<rt-row top="20" :mobile-reverse-direction="true">
+                    <rt-col size="3" tablet-size="6" mobile-size="3" class="app-col-fill">
+                        1
+                    </rt-col>
+                    <rt-col size="3" tablet-size="6" mobile-size="3" class="app-col-fill">x
+                        2
+                    </rt-col>
+                    <rt-col size="3" tablet-size="6" mobile-size="3" class="app-col-fill">
+                        3
+                    </rt-col>
+                </rt-row>'></pre-code>
+                <pre-code
+                        text='<rt-row top="20" :tablet-only-reverse-direction="true">
+                    <rt-col size="3" tablet-size="6" mobile-size="3" class="app-col-fill">
+                        1
+                    </rt-col>
+                    <rt-col size="3" tablet-size="6" mobile-size="3" class="app-col-fill">
+                        2
+                    </rt-col>
+                    <rt-col size="3" tablet-size="6" mobile-size="3" class="app-col-fill">
+                        3
+                    </rt-col>
+                </rt-row>'></pre-code>
+                <pre-code
+                        text='<rt-row top="20" :tablet-only-reverse-direction="true">
+                    <rt-col size="3" tablet-size="2" mobile-size="3" class="app-col-fill">
+                        1
+                    </rt-col>
+                    <rt-col size="3" tablet-size="2" mobile-size="3" class="app-col-fill">
+                        2
+                    </rt-col>
+                    <rt-col size="3" tablet-size="2" mobile-size="3" class="app-col-fill">
+                        3
+                    </rt-col>
+                </rt-row>'></pre-code>
+
+                <pre-code
+                        text='<rt-row top="20" :tablet-reverse-direction="true">
+                    <rt-col size="3" tablet-size="6" mobile-size="3" class="app-col-fill">
+                        1
+                    </rt-col>
+                    <rt-col size="3" tablet-size="6" mobile-size="3" class="app-col-fill">
+                        2
+                    </rt-col>
+                    <rt-col size="3" tablet-size="6" mobile-size="3" class="app-col-fill">
+                        3
+                    </rt-col>
+                </rt-row>'></pre-code>
+
+                <pre-code
+                        text='<rt-row top="120">123</rt-row>'></pre-code>
+                <pre-code
                         text='<rt-row top="120">123</rt-row>'></pre-code>
                 <div class="rt-space-top25">
                     <documentation-builder :json="documentation" type="components"/>
