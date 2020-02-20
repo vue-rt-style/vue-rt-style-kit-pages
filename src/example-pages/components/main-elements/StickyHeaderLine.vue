@@ -68,11 +68,18 @@
 
                         <rt-sticky-header-line top-offset-height-elemement-selector=".app-header"
                                                background-color="yellow"
+                                               :show-second-header-content-after="200"
+                                               :stock-id="'two'"
                                                :start-stop-points="['one','two','tree','four']"
                                                :delta-between-blocks="50">
-                            <div class="d-flex flex-center-center">
+
+                            <div class="rt-sticky-header-line--switched-content">
                                 <rt-button class="rt-button-orange rt-button-small">Оставить заявку</rt-button>
                             </div>
+                            <div class="rt-sticky-header-line--switched-content">
+                                <rt-logo color="#00717F" type="world-of-tanks"></rt-logo>
+                            </div>
+
                         </rt-sticky-header-line>
                     </div>
                 </div>
