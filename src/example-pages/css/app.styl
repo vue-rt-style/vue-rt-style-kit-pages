@@ -569,3 +569,55 @@
 .app-color-cube
   width: 16px
   height: 16px
+.point-space
+  overflow: hidden;
+  max-width 100%
+.space-row
+  display flex
+.space-point
+  min-width: 15px
+  min-height: 15px
+  position: relative;
+  transition-timing-function ease-in-out
+  transition-duration .1s
+  transition-property opacity, margin, left, right, top, bottom
+  &:before
+    content attr(value)
+    width: 3px
+    height: 3px
+    position: absolute;
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    margin auto
+    font-size 5px
+    line-height: 5px
+    background-color: #fff
+    opacity: 0.1
+    transition-timing-function ease-in-out
+    transition-duration .1s
+    transition-property width, height, opacity
+    border-radius 50%
+//.space-point-2
+//  &:before
+//    //width: 8px
+//    //height: 8px
+//    opacity: 0.3
+//.space-point-3
+//  &:before
+//    //width: 11px
+//    //height: 11px
+//    opacity: 0.4
+//.space-point-4
+//  &:before
+//    //width: 14px
+//    //height: 14px
+//    opacity: 0.8
+//.space-point-5
+//  &:before
+//    //width: 17px
+//    //height: 17px
+//    opacity: 0.9
+
+
