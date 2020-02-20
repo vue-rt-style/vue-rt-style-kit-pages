@@ -22,17 +22,20 @@
                 init: function () {
                     this.hasFirstDraw = false;
                     this.matrix = [];
-                    this.pointRadius = 1.5;
+                    this.pointRadius = 1;
+                    this.circleRadiusStartStep = 3;
                     this.minPointRadius = 0.2;
-                    this.startOpacity = 0.2
+                    this.startOpacity = 0.5
                     this.maxPointRadius = 1;
                     this.maxDelraCoord = 20;
-                    this.matrixWidth = 130;
-                    this.matrixHeight = 60;
+                    var delta = 1.5;
+                    this.matrixWidth = 45*delta;
+                    this.matrixHeight = 25*delta;
                     this.circleRadiusStart = [];
                     this.circleRadiusEnd = [];
                     this.liveSteps = []
-                    this.liveSize = 350;
+                    this.randomRadiusDelta = 1
+                    this.liveSize = 150;
                     this.radius = 1;
                     this.startsPoint = [];
                     this.radiusDeflection = 600;
@@ -45,12 +48,15 @@
                     this.context.scale(1, 1);
                     this.mouseX = 0;
                     this.mouseY = 0;
-                    // this.redColor = 119;
-                    // this.greenColor = 1;
-                    // this.blueColor = 255;
-                    this.redColor = 255;
-                    this.greenColor = 255;
+                    this.redColor = 119;
+                    this.greenColor = 1;
                     this.blueColor = 255;
+                    this.startRedColor = parseInt(255*Math.random());
+                    this.startGreenColor = parseInt(255*Math.random());
+                    this.startBlueColor = parseInt(255*Math.random());
+                    // this.redColor = 255;
+                    // this.greenColor = 255;
+                    // this.blueColor = 255;
 
                     this.canvas.addEventListener('mousemove', function (event) {
                         this.mouseX = event.pageX - this.canvas.offsetLeft;
@@ -71,6 +77,7 @@
                         this.matrix.forEach(function (row) {
                             row.forEach(function (item) {
                                 ctx.beginPath();
+                                // ctx.fillStyle = 'rgba('+item.red+','+item.green+','+item.blue+',' + item.opacity + ')';
                                 ctx.fillStyle = 'rgba('+item.red+','+item.green+','+item.blue+',' + item.opacity + ')';
                                 ctx.arc(item.x, item.y, item.radius, 0, 2 * Math.PI, false);
                                 ctx.fill();
@@ -91,9 +98,12 @@
                                 beforeX: this.matrixStep * j,
                                 beforeY: this.matrixStep * i,
                                 msToGoBack: 0,
-                                red: this.redColor,
-                                green: this.greenColor,
-                                blue: this.blueColor
+                                // red: this.startRedColor,
+                                // green: this.startGreenColor,
+                                // blue: this.startBlueColor
+                                red: parseInt(Math.random()*255),
+                                green: parseInt(Math.random()*255),
+                                blue: parseInt(Math.random()*255)
                             })
                         }
                         this.matrix.push(row)
@@ -102,7 +112,8 @@
                     this.animate()
                 },
                 checkCircle(x, y, a, b, radius) {
-                    return (x - a) ** 2 + (y - b) ** 2 <= radius ** 2
+                    this.randomRadiusDelta = Math.random()*10 - Math.random()*10
+                    return (x - a + this.randomRadiusDelta) ** 2 + (y - b + this.randomRadiusDelta) ** 2 <= (radius) ** 2
                 },
 
                 animate: function () {
@@ -112,7 +123,7 @@
                 },
                 stepWave: function () {
                     this.circleRadiusStart.forEach(function (item, index) {
-                        this.circleRadiusStart[index]++
+                        this.circleRadiusStart[index] += this.circleRadiusStartStep
                     }.bind(this))
                     this.circleRadiusEnd.forEach(function (item, index) {
                         this.circleRadiusEnd[index]--;
@@ -125,16 +136,16 @@
                         if (this.liveSteps[index] > 0) {
                             for (var i = startPos.y - this.circleRadiusStart[index]; i < startPos.y + this.circleRadiusStart[index]; i++) {
                                 for (var j = startPos.x - this.circleRadiusStart[index]; j < startPos.x + this.circleRadiusStart[index]; j++) {
-                                    if (this.matrix[i] && this.matrix[i][j] && this.checkCircle(j, i, this.startsPoint[index].x, this.startsPoint[index].y, this.circleRadiusStart[index])) {
+                                    if (this.matrix[i] && this.matrix[i][j] && this.checkCircle(j+parseInt(Math.random()*20), i+parseInt(Math.random()*20), this.startsPoint[index].x, this.startsPoint[index].y, this.circleRadiusStart[index]+parseInt(Math.random()*20))) {
                                         if (this.matrix[i][j].msToGoBack) {
                                             this.matrix[i][j].msToGoBack--;
-                                            this.matrix[i][j].opacity += (1 - this.matrix[i][j].opacity) / this.matrix[i][j].msToGoBack;
-                                            this.matrix[i][j].radius += (this.pointRadius - this.matrix[i][j].radius)/this.pointRadius / this.matrix[i][j].msToGoBack
-                                            this.matrix[i][j].x -= (this.matrix[i][j].x - this.matrix[i][j].beforeX)/this.matrix[i][j].msToGoBack
-                                            this.matrix[i][j].y -= (this.matrix[i][j].y - this.matrix[i][j].beforeY)/this.matrix[i][j].msToGoBack
-                                            this.matrix[i][j].red -= (this.matrix[i][j].red - this.redColor)/this.matrix[i][j].msToGoBack*30
-                                            this.matrix[i][j].green -= (this.matrix[i][j].green - this.greenColor)/this.matrix[i][j].msToGoBack*30
-                                            this.matrix[i][j].blue -= (this.matrix[i][j].blue - this.blueColor)/this.matrix[i][j].msToGoBack*30
+                                            this.matrix[i][j].opacity += (1 - this.matrix[i][j].opacity) / this.liveSteps[index];
+                                            this.matrix[i][j].radius += (this.pointRadius - this.matrix[i][j].radius)/this.pointRadius / (this.liveSteps[index] /4)
+                                            this.matrix[i][j].x -= (this.matrix[i][j].x - this.matrix[i][j].beforeX)/(this.liveSteps[index]/4)
+                                            this.matrix[i][j].y -= (this.matrix[i][j].y - this.matrix[i][j].beforeY)/(this.liveSteps[index]/4)
+                                            this.matrix[i][j].red -= (this.matrix[i][j].red - this.redColor)/this.liveSteps[index]*30
+                                            this.matrix[i][j].green -= (this.matrix[i][j].green - this.greenColor)/this.liveSteps[index]*30
+                                            this.matrix[i][j].blue -= (this.matrix[i][j].blue - this.blueColor)/this.liveSteps[index]*30
                                         } else {
                                             if (this.liveSteps > 1) {
                                                 this.matrix[i][j].msToGoBack = this.liveSteps[index];
@@ -160,12 +171,12 @@
                                                     this.matrix[i][j].blue = 100;
                                                     deltaX *= 100;
                                                     deltaY *= 100;
-                                                    if(deltaX > this.maxDelraCoord){
-                                                        deltaX = this.maxDelraCoord
-                                                    }
-                                                    if(deltaY > this.maxDelraCoord){
-                                                        deltaY = this.maxDelraCoord
-                                                    }
+                                                    // if(deltaX > this.maxDelraCoord){
+                                                    //     deltaX = this.maxDelraCoord
+                                                    // }
+                                                    // if(deltaY > this.maxDelraCoord){
+                                                    //     deltaY = this.maxDelraCoord
+                                                    // }
                                                     this.matrix[i][j].x -= deltaX;
                                                     this.matrix[i][j].y -= deltaY;
                                                 // }
@@ -181,7 +192,7 @@
                         }
                     }.bind(this))
                     for (var i = indexForRemove.length - 1; i >= 0; i--) {
-                        console.info('!', i)
+                        // console.info('!', i)
                         this.liveSteps.splice(i, 1)
                         console.info('this.liveSteps after', this.liveSteps);
                         this.circleRadiusStart.splice(i, 1)
@@ -198,7 +209,7 @@
                         for (var j = 0; j < this.matrixWidth; j++) {
                             if (this.checkCircle(this.matrix[i][j].x, this.matrix[i][j].y, x, y)) {
                                 this.matrix[i][j].opacity = 0.3;
-                                this.matrix[i][j].msToGoBack = 10;
+                                this.matrix[i][j].msToGoBack = this.liveSteps[0];
                             }
                         }
                     }

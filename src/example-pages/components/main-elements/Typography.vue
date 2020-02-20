@@ -170,7 +170,7 @@
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">bold 100%</h4>
           </div>
           <div class="rt-col-5 rt-col-md-3">
-            <p class="rt-font-smal rt-td-space-top2l-paragraph rt-font-bold">Логотип и знак ПАО «Ростелеком» <br/> –  основа фирменного стиля. </p>
+            <p class="rt-td-space-top2 rt-font-small-paragraph rt-font-bold">Логотип и знак ПАО «Ростелеком» <br/> –  основа фирменного стиля. </p>
             <div class="rt-font-label">
               <span class="rt-code">.rt-font-small-paragraph.rt-font-bold</span>
             </div>
