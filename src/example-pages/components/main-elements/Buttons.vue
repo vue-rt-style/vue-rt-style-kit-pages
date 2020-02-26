@@ -143,7 +143,7 @@
             <div class="app-row row rt-space-top">
                 <div class="rt-col-2 rt-col-md-3 flex-column d-flex rt-md-space-top">
                     <pre-code
-                            text='<rt-button is-active="true" active-class="rt-button-purple" not-active-class="rt-button-purple-border" :checkboxBehavior="true">
+                            text='<rt-button :is-active="true" active-class="rt-button-purple" not-active-class="rt-button-purple-border" :checkboxBehavior="true">
               <template slot="not_active">Подключить</template>
               <template slot="active">Подключено</template>
               </rt-button>'
@@ -182,12 +182,24 @@
             </div>
           </div>
         </div>
+      <div class="app-row row rt-space-top">
+          <div class="rt-col">
+            <div class="row">
+              <div class="rt-col-2">
+                <rt-button :smaller-padding="true" class="rt-button-orange rt-button-small" href="https://google.com">Перейти на сайт</rt-button>
+              </div>
+              <div class="rt-col-2">
+                <rt-button  class="rt-button-orange" href="https://google.com">Перейти на сайт</rt-button>
+              </div>
+
+            </div>
+          </div>
+        </div>
         <div class="rt-space-top25">
           <documentation-builder :json="documentation" type="components"/>
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
