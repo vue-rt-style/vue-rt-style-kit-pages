@@ -8,34 +8,7 @@
           </h1>
         </div>
       </div>
-      <div class="app-body rt-space-bottom">
-        <div class="app-row row rt-space-top">
-          <div class="rt-col-2 rt-col-md-3 flex-column d-flex rt-md-space-top">
-            <pre-code
-                    text='<rt-button is-active="true" active-class="rt-button-purple" not-active-class="rt-button-purple-border" :checkboxBehavior="true">
-              <template slot="not_active">Подключить</template>
-              <template slot="active">Подключено</template>
-              </rt-button>'
-            />
-          </div>
-          <div class="rt-col-2 rt-col-md-3 flex-column d-flex rt-md-space-top">
-            <pre-code
-                    text='<rt-button active-class="rt-button-purple" not-active-class="rt-button-purple-border" :checkboxBehavior="true">
-              <template slot="not_active">Подключить</template>
-              <template slot="active">Подключено</template>
-              </rt-button>'
-            />
-          </div>
-          <div class="rt-col-2 rt-col-md-3 flex-column d-flex rt-md-space-top">
-            <pre-code
-                    text='<rt-button active-class="rt-button-purple" not-active-class="rt-button-purple-border" :checkboxBehavior="true">
-              <template slot="not_active">Подключить</template>
-              <template slot="active">Подключено</template>
-              </rt-button>'
-            />
-          </div>
-        </div>
-      </div>
+
         <div class="app-row row">
           <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-td-space-top">
             <pre-code
@@ -115,7 +88,7 @@
         </div>
         <div class="app-row row">
           <div class="d-inline-block rt-space-right">
-            <pre-code
+              <pre-code
               text=" <rt-button :has-icon='true' class='rt-button rt-button-cool-grey-border'>
                 <template slot='icon'>
                   <rt-icon type='user-silhouette' width='16' height='16' color='101828'/>
@@ -166,32 +139,36 @@
             <rt-button class='rt-button-vertical rt-button-purple'>Подключить</rt-button>
           </div>"
         />
+        <div class="app-body rt-space-bottom">
+            <div class="app-row row rt-space-top">
+                <div class="rt-col-2 rt-col-md-3 flex-column d-flex rt-md-space-top">
+                    <pre-code
+                            text='<rt-button is-active="true" active-class="rt-button-purple" not-active-class="rt-button-purple-border" :checkboxBehavior="true">
+              <template slot="not_active">Подключить</template>
+              <template slot="active">Подключено</template>
+              </rt-button>'
+                    />
+                </div>
+                <div class="rt-col-2 rt-col-md-3 flex-column d-flex rt-md-space-top">
+                    <pre-code
+                            text='<rt-button active-class="rt-button-purple" not-active-class="rt-button-purple-border" :checkboxBehavior="true">
+              <template slot="not_active">Подключить</template>
+              <template slot="active">Подключено</template>
+              </rt-button>'
+                    />
+                </div>
+                <div class="rt-col-2 rt-col-md-3 flex-column d-flex rt-md-space-top">
+                    <pre-code
+                            text='<rt-button active-class="rt-button-purple" not-active-class="rt-button-purple-border" :checkboxBehavior="true">
+              <template slot="not_active">Подключить</template>
+              <template slot="active">Подключено</template>
+              </rt-button>'
+                    />
+                </div>
+            </div>
+        </div>
         <div class="app-row row rt-space-top">
-          <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-md-space-top">
-            <pre-code
-              text="<rt-button button-class-list='rt-button-purple-border' :checkbox-behavior='true'>
-              <span class='original-text'>Подключить</span>
-              <span class='checked-text'>Подключено</span>
-              </rt-button>"
-            />
-          </div>
-          <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-md-space-top">
-            <pre-code
-              text="<rt-button button-class-list='rt-button-purple-border' :checkbox-behavior='true'>
-              <span class='original-text'>Подключить</span>
-              <span class='checked-text'>Подключено</span>
-              </rt-button>"
-            />
-          </div>
-          <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-md-space-top">
-            <pre-code
-              text="<rt-button button-class-list='rt-button-purple-border' :checkbox-behavior='true'>
-              <span class='original-text'>Подключить</span>
-              <span class='checked-text'>Подключено</span>
-              </rt-button>"
-            />
-          </div>
-          <div class="rt-col rt-space-top2">
+          <div class="rt-col">
             <div class="row">
               <div class="rt-col-2">
                 <rt-button :smaller-padding="true" class="rt-button-orange">seartsert</rt-button>
