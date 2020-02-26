@@ -141,7 +141,7 @@
         />
         <div class="app-body rt-space-bottom">
             <div class="app-row row rt-space-top">
-                <div class="rt-col-2 rt-col-md-3 flex-column d-flex rt-md-space-top">
+                <div class="rt-col-2 rt-col-md-3 rt-col-td-2 flex-column d-flex rt-md-space-top">
                     <pre-code
                             text='<rt-button :is-active="true" active-class="rt-button-purple" not-active-class="rt-button-purple-border" :checkboxBehavior="true">
               <template slot="not_active">Подключить</template>
@@ -149,7 +149,7 @@
               </rt-button>'
                     />
                 </div>
-                <div class="rt-col-2 rt-col-md-3 flex-column d-flex rt-md-space-top">
+                <div class="rt-col-2 rt-col-md-3 rt-col-td-2 flex-column d-flex rt-md-space-top">
                     <pre-code
                             text='<rt-button active-class="rt-button-purple" not-active-class="rt-button-purple-border" :checkboxBehavior="true">
               <template slot="not_active">Подключить</template>
@@ -157,7 +157,7 @@
               </rt-button>'
                     />
                 </div>
-                <div class="rt-col-2 rt-col-md-3 flex-column d-flex rt-md-space-top">
+                <div class="rt-col-2 rt-col-md-3 rt-col-td-2 flex-column d-flex rt-md-space-top">
                     <pre-code
                             text='<rt-button active-class="rt-button-purple" not-active-class="rt-button-purple-border" :checkboxBehavior="true">
               <template slot="not_active">Подключить</template>
@@ -170,13 +170,13 @@
         <div class="app-row row rt-space-top">
           <div class="rt-col">
             <div class="row">
-              <div class="rt-col-2 rt-col-md-3 rt-md-space-top">
+              <div class="rt-col-2 rt-col-md-3 rt-col-td-2 rt-md-space-top">
                 <rt-button :smaller-padding="true" class="rt-button-orange">seartsert</rt-button>
               </div>
-              <div class="rt-col-2 rt-col-md-3 rt-md-space-top">
+              <div class="rt-col-2 rt-col-md-3 rt-col-td-2 rt-md-space-top">
                 <rt-button :smaller-padding="true" class="rt-button-md-small rt-button-orange-border">seartsert</rt-button>
               </div>
-              <div class="rt-col-2 rt-col-md-3 rt-md-space-top">
+              <div class="rt-col-2 rt-col-md-3 rt-col-td-2 rt-md-space-top">
                 <rt-button :smaller-padding="true" class="rt-button-small rt-button-purple">seartsert</rt-button>
               </div>
             </div>
@@ -184,10 +184,10 @@
         </div>
       <div class="app-row row rt-space-top">
 
-              <div class="rt-col-2 rt-col-md-3 rt-md-space-top">
+              <div class="rt-col-2 rt-col-md-3 rt-col-td-2 rt-md-space-top">
                 <rt-button :smaller-padding="true" class="rt-button-orange rt-button-small" href="https://google.com">Перейти на сайт</rt-button>
               </div>
-              <div class="rt-col-2 rt-col-md-3 rt-md-space-top">
+              <div class="rt-col-2 rt-col-md-3 rt-col-td-2 rt-md-space-top">
                 <rt-button  class="rt-button-orange" href="https://google.com">Перейти на сайт</rt-button>
               </div>
       </div>
