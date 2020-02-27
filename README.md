@@ -12,3 +12,6 @@
 ````
 npm start
 ````
+
+
+[Как конвертировать иконки](https://github.com/vue-rt-style/vue-rt-style-kit-icons/blob/master/src/components/Icon/generator/ReadMe.md)
