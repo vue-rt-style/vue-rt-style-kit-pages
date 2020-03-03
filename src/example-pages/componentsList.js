@@ -11,7 +11,6 @@ import {
     RippleWihoutJs,
     Select,
     SelectOption,
-    SelectWithoutJs,
     Switch,
     SwitchContainer,
     Textarea,
@@ -125,7 +124,6 @@ componentsList[Ripple.name] = Ripple;
 componentsList[RippleWihoutJs.name] = RippleWihoutJs;
 componentsList[Select.name] = Select;
 componentsList[SelectOption.name] = SelectOption;
-componentsList[SelectWithoutJs.name] = SelectWithoutJs;
 componentsList[Spinner.name] = Spinner;
 componentsList[Switch.name] = Switch;
 componentsList[SwitchContainer.name] = SwitchContainer;
