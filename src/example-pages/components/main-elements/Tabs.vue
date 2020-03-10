@@ -6,17 +6,16 @@
                     Tabs
                 </h1>
             </div>
-            <div class="wc-inline">
-                <div class="rt-container">
-                    <div class="app-row row">
-                        <div class="rt-col-6 rt-space-bottom15"><p>Описание на 6 колонок или какие-то комментарии к
-                            данному инпуту.
-                            Выбор сразу
-                            нескольких элементов в списке</p>
-                        </div>
 
-                        <div class="rt-col-12 rt-space-bottom3">
-                            <pre-code text='<rt-tabs :round-tablet-view="true">
+            <div class="app-row row">
+                <div class="rt-col-6 rt-space-bottom15"><p>Описание на 6 колонок или какие-то комментарии к
+                    данному инпуту.
+                    Выбор сразу
+                    нескольких элементов в списке</p>
+                </div>
+
+                <div class="rt-col-12 rt-space-bottom3">
+                    <pre-code text='<rt-tabs :round-tablet-view="true">
                                 <template slot="navigation">
                                     <rt-tabs-nav-item anchor="ready!" :remove-base-tag="true" name="one99">Готов
                                     </rt-tabs-nav-item>
@@ -95,7 +94,7 @@
                                 </template>
                             </rt-tabs>
                             '></pre-code>
-                            <pre-code text='<div class="rt-space-top5">
+                    <pre-code text='<div class="rt-space-top5">
                                 <rt-tabs :round-tablet-view="true" :round-tablet-view-max-width="true">
                                     <template slot="navigation">
                                         <rt-tabs-nav-item anchor="ready!" :remove-base-tag="true" name="one991">Готов
@@ -174,13 +173,13 @@
                                                 (специалистов) участие в формировании
                                                 форм развития.</p></rt-tabs-content-item>
                                     </template>
-                                </rt-tabs>
+                                </rt-tabs></div>
                                 '></pre-code>
-                            </div>
-                        </div>
-                        <div class="rt-col-12">
-                            <div class="rt-space-bottom5">
-                                <pre-code text='<rt-tabs :reverse-view="true" :show-as-tags="true">
+                </div>
+            </div>
+            <div class="rt-col-12">
+                <div class="rt-space-bottom5">
+                    <pre-code text='<rt-tabs :reverse-view="true" :show-as-tags="true">
                                     <template slot="navigation">
                                         <rt-tabs-nav-item :scroll-on-top="true" anchor="read2y!" :remove-base-tag="true"
                                                           name="2one">Телефония
@@ -238,69 +237,69 @@
                                         </rt-tabs-content-item>
                                     </template>
                                 </rt-tabs>'></pre-code>
-                            </div>
-                            <div class="rt-space-bottom5">
-                                <rt-tabs :show-as-tags='true'>
-                                    <template slot="navigation">
-                                        <rt-tabs-nav-item anchor="read1y!" :remove-base-tag="true" name="1one">
-                                            Телефония
-                                        </rt-tabs-nav-item>
-                                        <rt-tabs-nav-item anchor="hell1o" :remove-base-tag="true" name="1two">Интернет
-                                        </rt-tabs-nav-item>
-                                    </template>
-                                    <template slot="content">
-                                        <rt-tabs-content-item name="1one">
-                                            <div class='rt-space-top3'>
-                                                <h1>TEST</h1>
-                                            </div>
-                                        </rt-tabs-content-item>
-                                        <rt-tabs-content-item name="1two">
-                                            <div class='rt-space-top3'>
-                                                <p class="rt-font-h1">Смысл сайта</p>
-                                                <p class="rt-font-paragraph">Повседневная практика показывает, что
-                                                    консультация с широким активом
-                                                    представляет собой интересный эксперимент проверки позиций,
-                                                    занимаемых участниками в отношении
-                                                    поставленных задач. Равным образом консультация с широким активом
-                                                    влечет за собой процесс внедрения
-                                                    и модернизации форм развития. Повседневная практика показывает, что
-                                                    консультация с широким активом
-                                                    обеспечивает широкому кругу (специалистов) участие в формировании
-                                                    соответствующий условий
-                                                    активизации. С другой стороны новая модель организационной
-                                                    деятельности позволяет оценить значение
-                                                    новых предложений. Не следует, однако забывать, что рамки и место
-                                                    обучения кадров требуют от нас
-                                                    анализа новых предложений. Идейные соображения высшего порядка, а
-                                                    также реализация намеченных
-                                                    плановых заданий обеспечивает широкому кругу (специалистов) участие
-                                                    в формировании позиций,
-                                                    занимаемых участниками в отношении поставленных задач.</p>
-                                                <p class="rt-font-paragraph">Идейные соображения высшего порядка, а
-                                                    также постоянное
-                                                    информационно-пропагандистское обеспечение нашей деятельности в
-                                                    значительной степени обуславливает
-                                                    создание существенных финансовых и административных условий. С
-                                                    другой стороны постоянный
-                                                    количественный рост и сфера нашей активности позволяет выполнять
-                                                    важные задания по разработке
-                                                    существенных финансовых и административных условий. Таким образом
-                                                    консультация с широким активом
-                                                    влечет за собой процесс внедрения и модернизации форм развития. С
-                                                    другой стороны сложившаяся
-                                                    структура организации требуют определения и уточнения системы
-                                                    обучения кадров, соответствует
-                                                    насущным потребностям. Товарищи! рамки и место обучения кадров
-                                                    представляет собой интересный
-                                                    эксперимент проверки направлений прогрессивного развития.</p>
-                                            </div>
-                                        </rt-tabs-content-item>
-                                    </template>
-                                </rt-tabs>
+                </div>
+                <div class="rt-space-bottom5">
+                    <rt-tabs :show-as-tags='true'>
+                        <template slot="navigation">
+                            <rt-tabs-nav-item anchor="read1y!" :remove-base-tag="true" name="1one">
+                                Телефония
+                            </rt-tabs-nav-item>
+                            <rt-tabs-nav-item anchor="hell1o" :remove-base-tag="true" name="1two">Интернет
+                            </rt-tabs-nav-item>
+                        </template>
+                        <template slot="content">
+                            <rt-tabs-content-item name="1one">
+                                <div class='rt-space-top3'>
+                                    <h1>TEST</h1>
+                                </div>
+                            </rt-tabs-content-item>
+                            <rt-tabs-content-item name="1two">
+                                <div class='rt-space-top3'>
+                                    <p class="rt-font-h1">Смысл сайта</p>
+                                    <p class="rt-font-paragraph">Повседневная практика показывает, что
+                                        консультация с широким активом
+                                        представляет собой интересный эксперимент проверки позиций,
+                                        занимаемых участниками в отношении
+                                        поставленных задач. Равным образом консультация с широким активом
+                                        влечет за собой процесс внедрения
+                                        и модернизации форм развития. Повседневная практика показывает, что
+                                        консультация с широким активом
+                                        обеспечивает широкому кругу (специалистов) участие в формировании
+                                        соответствующий условий
+                                        активизации. С другой стороны новая модель организационной
+                                        деятельности позволяет оценить значение
+                                        новых предложений. Не следует, однако забывать, что рамки и место
+                                        обучения кадров требуют от нас
+                                        анализа новых предложений. Идейные соображения высшего порядка, а
+                                        также реализация намеченных
+                                        плановых заданий обеспечивает широкому кругу (специалистов) участие
+                                        в формировании позиций,
+                                        занимаемых участниками в отношении поставленных задач.</p>
+                                    <p class="rt-font-paragraph">Идейные соображения высшего порядка, а
+                                        также постоянное
+                                        информационно-пропагандистское обеспечение нашей деятельности в
+                                        значительной степени обуславливает
+                                        создание существенных финансовых и административных условий. С
+                                        другой стороны постоянный
+                                        количественный рост и сфера нашей активности позволяет выполнять
+                                        важные задания по разработке
+                                        существенных финансовых и административных условий. Таким образом
+                                        консультация с широким активом
+                                        влечет за собой процесс внедрения и модернизации форм развития. С
+                                        другой стороны сложившаяся
+                                        структура организации требуют определения и уточнения системы
+                                        обучения кадров, соответствует
+                                        насущным потребностям. Товарищи! рамки и место обучения кадров
+                                        представляет собой интересный
+                                        эксперимент проверки направлений прогрессивного развития.</p>
+                                </div>
+                            </rt-tabs-content-item>
+                        </template>
+                    </rt-tabs>
 
-                            </div>
-                            <div class="rt-space-bottom5">
-                                <pre-code text='<rt-tabs :fill-Content="true">
+                </div>
+                <div class="rt-space-bottom5">
+                    <pre-code text='<rt-tabs :fill-Content="true">
                                     <template slot="navigation">
                                         <rt-tabs-nav-item anchor="one22" :remove-base-tag="true" name="Aone266">Второй
                                             пункт
@@ -402,11 +401,11 @@
                                     </template>
                                 </rt-tabs>
                                 '></pre-code>
-                            </div>
-                        </div>
-                        <div class="rt-col-12">
-                            <div class="rt-space-bottom5">
-                                <pre-code text='<rt-tabs>
+                </div>
+            </div>
+            <div class="rt-col-12">
+                <div class="rt-space-bottom5">
+                    <pre-code text='<rt-tabs>
                                     <template slot="navigation">
                                         <rt-tabs-nav-item anchor="ready!" :remove-base-tag="true" name="one">Пример
                                         </rt-tabs-nav-item>
@@ -463,9 +462,9 @@
                                     </template>
                                 </rt-tabs>
                                 '></pre-code>
-                            </div>
-                            <div class="rt-space-bottom5">
-                                <pre-code text='<rt-tabs :fill-content="true">
+                </div>
+                <div class="rt-space-bottom5">
+                    <pre-code text='<rt-tabs :fill-content="true">
                                     <template slot="navigation">
                                         <rt-tabs-nav-item anchor="one1" :remove-base-tag="true" name="one166">Первый
                                             пункт
@@ -650,12 +649,12 @@
                                     </template>
                                 </rt-tabs>
                                 '></pre-code>
-                            </div>
-                        </div>
-                        <div class="row rt-space-bottom5">
-                            <div class="rt-col-3"></div>
-                            <div class="rt-col-6 ">
-                                <pre-code text='<rt-tabs :fill-content="true" :justify-all-width="true">
+                </div>
+            </div>
+            <div class="row rt-space-bottom5">
+                <div class="rt-col-3"></div>
+                <div class="rt-col-6 ">
+                    <pre-code text='<rt-tabs :fill-content="true" :justify-all-width="true">
                                     <template slot="navigation">
                                         <rt-tabs-nav-item anchor="ready!!" :remove-base-tag="true" name="one1">Готов
                                         </rt-tabs-nav-item>
@@ -740,11 +739,11 @@
                                     </template>
                                 </rt-tabs>
                                 '></pre-code>
-                            </div>
-                        </div>
-                        <div class="rt-col-8 rt-col-td-6 rt-col-md-3 rt-space-bottom2">
-                            <h3 class="rt-font-bold rt-space-bottom15">Инструкции по настройке VoIP</h3>
-                            <pre-code text='<rt-tabs>
+                </div>
+            </div>
+            <div class="rt-col-8 rt-col-td-6 rt-col-md-3 rt-space-bottom2">
+                <h3 class="rt-font-bold rt-space-bottom15">Инструкции по настройке VoIP</h3>
+                <pre-code text='<rt-tabs>
                                 <template slot="navigation">
                                     <rt-tabs-nav-item anchor="one" :remove-base-tag="true" name="apps">Программы
                                     </rt-tabs-nav-item>
@@ -912,9 +911,9 @@
                                     </rt-tabs-content-item>
                                 </template>
                             </rt-tabs>'></pre-code>
-                        </div>
-                        <div class="rt-col-12">
-                            <pre-code text='<rt-tabs :position-center="true">
+            </div>
+            <div class="rt-col-12">
+                <pre-code text='<rt-tabs :position-center="true">
                                 <template slot="navigation">
                                     <rt-tabs-nav-item anchor="one" name="marketing">Маркетингу</rt-tabs-nav-item>
                                     <rt-tabs-nav-item anchor="two" name="humanResources">Кадрам</rt-tabs-nav-item>
@@ -1084,9 +1083,9 @@
                                     </rt-tabs-content-item>
                                 </template>
                             </rt-tabs>'></pre-code>
-                        </div>
-                        <div class="rt-col-12 rt-space-top3">
-                            <pre-code text='<rt-tabs :position-center="true">
+            </div>
+            <div class="rt-col-12 rt-space-top3">
+                <pre-code text='<rt-tabs :position-center="true">
                                 <template slot="navigation">
                                     <rt-tabs-nav-item anchor="alnfg" name="analytics22">Видеоаналитика
                                     </rt-tabs-nav-item>
@@ -1217,9 +1216,9 @@
                                 </template>
                             </rt-tabs>
                             '></pre-code>
-                        </div>
-                        <div class="rt-col-12 rt-space-top3">
-                            <pre-code text='<rt-tabs>
+            </div>
+            <div class="rt-col-12 rt-space-top3">
+                <pre-code text='<rt-tabs>
                                 <template slot="navigation">
                                     <rt-tabs-nav-item anchor="test1" name="test1">Веб-камеры</rt-tabs-nav-item>
                                     <rt-tabs-nav-item anchor="test2" name="test2">Плееры</rt-tabs-nav-item>
@@ -1317,271 +1316,269 @@
                                     </rt-tabs-content-item>
                                 </template>
                             </rt-tabs>'></pre-code>
-                        </div>
-                        <div class="rt-col-12 rt-space-top4">
-                            <rt-tabs>
-                                <template slot="navigation">
-                                    <rt-tabs-nav-item anchor="asdfasdasdfasdfasdfad" name="asdfasdasdfasdfasdfad">
-                                        321321
-                                    </rt-tabs-nav-item>
-                                    <rt-tabs-nav-item anchor="asdfasdfasdfasdfasfasdf" name="asdfasdfasdfasdfasfasdf">
-                                        3213211
-                                    </rt-tabs-nav-item>
-                                </template>
-                                <template slot="content">
-                                    <rt-tabs-content-item name="asdfasdasdfasdfasdfad">
-                                        <rt-card-layout :swiper-on-mobile="true" :width="9" :single-row="true">
-                                            <template slot="cards">
-                                                <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top"
-                                                     v-for="i in 3" :key="i">
-                                                    <rt-card>
-                                                        <template slot="header">
-                                                            <p class="rt-font-h2 rt-font-bold rt-space-bottom">Тариф {{i}}</p>
-                                                        </template>
-                                                        <template slot="content">
-                                                            <div class="rtb-card__description__row" v-for="j in 3"
-                                                                 :key="j">
-                                                                <p class="rt-font-paragraph">
-                                                                    Какая-то инфа {{ j }}
-                                                                </p>
-                                                            </div>
-                                                        </template>
-                                                        <template slot="footer">
-                                                            <div class="rtb-card__cost">
-                                                                <rt-price
-                                                                        :value="i * 500"
-                                                                        :is-option="false"
-                                                                        currency="₽"
-                                                                        :b2b-price="true"
-                                                                        time-interval="в месяц"
-                                                                        :is-time-interval-bottom="true"
-                                                                />
-                                                            </div>
-                                                            <a href="#">
-                                                                <rt-button
-                                                                        class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
-                                                                    Выбрать {{ i }}
-                                                                </rt-button>
-                                                            </a>
-                                                        </template>
-                                                    </rt-card>
-                                                </div>
-                                            </template>
-                                            <template slot="side-text">
-                                                <div class="rt-col-3 rt-col-td-6 rt-col-md-3 rt-space-vertical">
-                                                    <p class="rt-font-bold rt-font-paragraph">Когда много
-                                                        пользователей</p>
-                                                    <p class="rt-font-small-paragraph">Для большого количества
-                                                        пользователей и трафика, можно
-                                                        использовать и 
-                                                        в помещении, и на улице. Безлимитная авторизация через портал
-                                                        государственных услуг
-                                                        и по номеру 8 800.</p>
-                                                </div>
-                                            </template>
-                                        </rt-card-layout>
-                                    </rt-tabs-content-item>
-                                    <rt-tabs-content-item name="asdfasdfasdfasdfasfasdf">
-                                        <rt-card-layout :swiper-on-mobile="true" :width="6">
-                                            <template slot="cards">
-                                                <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top"
-                                                     v-for="i in 4" :key="i">
-                                                    <rt-card>
-                                                        <template slot="header">
-                                                            <p class="rt-font-h2 rt-font-bold rt-space-bottom">Тариф {{
-                                                                i }}</p>
-                                                        </template>
-                                                        <template slot="content">
-                                                            <div class="rtb-card__description__row" v-for="j in 3"
-                                                                 :key="j">
-                                                                <p class="rt-font-paragraph">
-                                                                    Какая-то инфа {{ j }}
-                                                                </p>
-                                                            </div>
-                                                        </template>
-                                                        <template slot="footer">
-                                                            <div class="rtb-card__cost">
-                                                                <rt-price
-                                                                        :value="i * 500"
-                                                                        :is-option="false"
-                                                                        currency="₽"
-                                                                        :b2b-price="true"
-                                                                        time-interval="в месяц"
-                                                                        :is-time-interval-bottom="true"
-                                                                />
-                                                            </div>
-                                                            <a href="#">
-                                                                <rt-button
-                                                                        class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
-                                                                    Выбрать {{ i }}
-                                                                </rt-button>
-                                                            </a>
-                                                        </template>
-                                                    </rt-card>
-                                                </div>
-                                            </template>
-                                            <template slot="side-text">
-                                                <div class="rt-col-3 rt-col-td-6 rt-col-md-3 rt-space-vertical">
-                                                    <p class="rt-font-bold rt-font-paragraph">Когда много
-                                                        пользователей</p>
-                                                    <p class="rt-font-small-paragraph">Для большого количества
-                                                        пользователей и трафика, можно
-                                                        использовать и 
-                                                        в помещении, и на улице. Безлимитная авторизация через портал
-                                                        государственных услуг
-                                                        и по номеру 8 800.</p>
-                                                </div>
-                                            </template>
-                                        </rt-card-layout>
-                                    </rt-tabs-content-item>
-                                </template>
-                            </rt-tabs>
-                        </div>
-
-                        <div class="rt-col-12 rt-space-top2">
-                            <rt-tabs>
-                                <template slot="navigation">
-                                    <rt-tabs-nav-item anchor="tab1" name="tab1">Веб-камеры</rt-tabs-nav-item>
-                                    <rt-tabs-nav-item anchor="tab2" name="tab2">Веб-камеры</rt-tabs-nav-item>
-                                </template>
-                                <template slot="content">
-                                    <rt-tabs-content-item name="tab1">
-                                        <div class="rt-space-top">
-                                            <rt-carousel :scroll-on-click="true" :hide-navigation="true">
-                                                <rt-carousel-slide v-for="i in 3" :key="i" class="rt-space-right15">
-                                                    <h2>Слайд {{ i }}</h2>
-                                                    <rt-row-list>
-                                                        <rt-row-list-item v-for="i in 3" :key="i">
-                                                            <template slot="option">
-                                                                <div class="d-flex flex-row">
-                                                                    <div>
-                                                                        <p>Антивирус</p>
-                                                                        <p class="color-main05">
-                                                                            Kaspersky Internet Security, месяц в подарок
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                            </template>
-                                                        </rt-row-list-item>
-                                                    </rt-row-list>
-                                                    <rt-price
-                                                            class="rt-space-vertical"
-                                                            time-interval="мес"
-                                                            is-option
-                                                            :value="i * 1000"
-                                                    />
-                                                    <rt-button class="rt-button-orange">
-                                                        Подключить
-                                                    </rt-button>
-                                                </rt-carousel-slide>
-                                            </rt-carousel>
-
-                                        </div>
-                                    </rt-tabs-content-item>
-                                    <rt-tabs-content-item name="tab2">
-                                        <div class="rt-col rt-space-bottom rt-space-top">
-                                            <div class="row">
-                                                <rt-button class="rt-button-transparent-purple popupButton">Попап
-                                                </rt-button>
-                                            </div>
-                                        </div>
-                                        <rt-real-popup :position-bottom="true">
-                                            <template>
-                                                <rt-tabs>
-                                                    <template slot="navigation">
-                                                        <rt-tabs-nav-item anchor="innertab1" name="innertab1">
-                                                            Веб-камеры
-                                                        </rt-tabs-nav-item>
-                                                        <rt-tabs-nav-item anchor="innertab2" name="innertab2"
-                                                                          :active-tab="true">Веб-камеры
-                                                        </rt-tabs-nav-item>
-                                                    </template>
-                                                    <template slot="content">
-                                                        <rt-tabs-content-item name="innertab1">
-                                                            <h2>Слайд</h2>
-                                                            <rt-row-list>
-                                                                <rt-row-list-item>
-                                                                    <template slot="option">
-                                                                        <div class="d-flex flex-row">
-                                                                            <p>Антивирус</p>
-                                                                            <p class="color-main05">Kaspersky Internet
-                                                                                Security, месяц в подарок</p>
-                                                                        </div>
-                                                                    </template>
-                                                                </rt-row-list-item>
-                                                            </rt-row-list>
-                                                            <rt-price class="rt-space-vertical"
-                                                                      time-interval="мес"
-                                                                      is-option
-                                                                      :value="1000"/>
-                                                            <rt-button class="rt-button-orange">Подключить</rt-button>
-                                                            <h2>Слайд</h2>
-                                                            <rt-row-list>
-                                                                <rt-row-list-item>
-                                                                    <template slot="option">
-                                                                        <div class="d-flex flex-row">
-                                                                            <p>Антивирус</p>
-                                                                            <p class="color-main05">Kaspersky Internet
-                                                                                Security, месяц в подарок</p>
-                                                                        </div>
-                                                                    </template>
-                                                                </rt-row-list-item>
-                                                            </rt-row-list>
-                                                            <rt-price class="rt-space-vertical"
-                                                                      time-interval="мес"
-                                                                      is-option
-                                                                      :value="1000"/>
-                                                            <rt-button class="rt-button-orange">Подключить</rt-button>
-                                                            <h2>Слайд</h2>
-                                                            <rt-row-list>
-                                                                <rt-row-list-item>
-                                                                    <template slot="option">
-                                                                        <div class="d-flex flex-row">
-                                                                            <p>Антивирус</p>
-                                                                            <p class="color-main05">Kaspersky Internet
-                                                                                Security, месяц в подарок</p>
-                                                                        </div>
-                                                                    </template>
-                                                                </rt-row-list-item>
-                                                            </rt-row-list>
-                                                            <rt-price class="rt-space-vertical"
-                                                                      time-interval="мес"
-                                                                      is-option
-                                                                      :value="1000"/>
-                                                            <rt-button class="rt-button-orange">Подключить</rt-button>
-                                                        </rt-tabs-content-item>
-                                                        <rt-tabs-content-item name="innertab2">
-                                                            <h2>Слайд2</h2>
-                                                            <rt-row-list>
-                                                                <rt-row-list-item>
-                                                                    <template slot="option">
-                                                                        <div class="d-flex flex-row">
-                                                                            <p>Антивирус</p>
-                                                                            <p class="color-main05">Kaspersky Internet
-                                                                                Security, месяц в подарок</p>
-                                                                        </div>
-                                                                    </template>
-                                                                </rt-row-list-item>
-                                                            </rt-row-list>
-                                                            <rt-price class="rt-space-vertical"
-                                                                      time-interval="мес"
-                                                                      is-option
-                                                                      :value="1000"/>
-                                                            <rt-button class="rt-button-orange">Подключить</rt-button>
-                                                        </rt-tabs-content-item>
-                                                    </template>
-                                                </rt-tabs>
-                                            </template>
-                                        </rt-real-popup>
-                                    </rt-tabs-content-item>
-                                </template>
-                            </rt-tabs>
-                        </div>
-                    </div>
-                </div>
             </div>
-            <documentation-builder :json="documentation" type="components"/>
+            <div class="rt-col-12 rt-space-top4">
+                <rt-tabs>
+                    <template slot="navigation">
+                        <rt-tabs-nav-item anchor="asdfasdasdfasdfasdfad" name="asdfasdasdfasdfasdfad">
+                            321321
+                        </rt-tabs-nav-item>
+                        <rt-tabs-nav-item anchor="asdfasdfasdfasdfasfasdf" name="asdfasdfasdfasdfasfasdf">
+                            3213211
+                        </rt-tabs-nav-item>
+                    </template>
+                    <template slot="content">
+                        <rt-tabs-content-item name="asdfasdasdfasdfasdfad">
+                            <rt-card-layout :swiper-on-mobile="true" :width="9" :single-row="true">
+                                <template slot="cards">
+                                    <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top"
+                                         v-for="i in 3" :key="i">
+                                        <rt-card>
+                                            <template slot="header">
+                                                <p class="rt-font-h2 rt-font-bold rt-space-bottom">Тариф {{i}}</p>
+                                            </template>
+                                            <template slot="content">
+                                                <div class="rtb-card__description__row" v-for="j in 3"
+                                                     :key="j">
+                                                    <p class="rt-font-paragraph">
+                                                        Какая-то инфа {{ j }}
+                                                    </p>
+                                                </div>
+                                            </template>
+                                            <template slot="footer">
+                                                <div class="rtb-card__cost">
+                                                    <rt-price
+                                                            :value="i * 500"
+                                                            :is-option="false"
+                                                            currency="₽"
+                                                            :b2b-price="true"
+                                                            time-interval="в месяц"
+                                                            :is-time-interval-bottom="true"
+                                                    />
+                                                </div>
+                                                <a href="#">
+                                                    <rt-button
+                                                            class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
+                                                        Выбрать {{ i }}
+                                                    </rt-button>
+                                                </a>
+                                            </template>
+                                        </rt-card>
+                                    </div>
+                                </template>
+                                <template slot="side-text">
+                                    <div class="rt-col-3 rt-col-td-6 rt-col-md-3 rt-space-vertical">
+                                        <p class="rt-font-bold rt-font-paragraph">Когда много
+                                            пользователей</p>
+                                        <p class="rt-font-small-paragraph">Для большого количества
+                                            пользователей и трафика, можно
+                                            использовать и 
+                                            в помещении, и на улице. Безлимитная авторизация через портал
+                                            государственных услуг
+                                            и по номеру 8 800.</p>
+                                    </div>
+                                </template>
+                            </rt-card-layout>
+                        </rt-tabs-content-item>
+                        <rt-tabs-content-item name="asdfasdfasdfasdfasfasdf">
+                            <rt-card-layout :swiper-on-mobile="true" :width="6">
+                                <template slot="cards">
+                                    <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top"
+                                         v-for="i in 4" :key="i">
+                                        <rt-card>
+                                            <template slot="header">
+                                                <p class="rt-font-h2 rt-font-bold rt-space-bottom">Тариф {{
+                                                    i }}</p>
+                                            </template>
+                                            <template slot="content">
+                                                <div class="rtb-card__description__row" v-for="j in 3"
+                                                     :key="j">
+                                                    <p class="rt-font-paragraph">
+                                                        Какая-то инфа {{ j }}
+                                                    </p>
+                                                </div>
+                                            </template>
+                                            <template slot="footer">
+                                                <div class="rtb-card__cost">
+                                                    <rt-price
+                                                            :value="i * 500"
+                                                            :is-option="false"
+                                                            currency="₽"
+                                                            :b2b-price="true"
+                                                            time-interval="в месяц"
+                                                            :is-time-interval-bottom="true"
+                                                    />
+                                                </div>
+                                                <a href="#">
+                                                    <rt-button
+                                                            class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
+                                                        Выбрать {{ i }}
+                                                    </rt-button>
+                                                </a>
+                                            </template>
+                                        </rt-card>
+                                    </div>
+                                </template>
+                                <template slot="side-text">
+                                    <div class="rt-col-3 rt-col-td-6 rt-col-md-3 rt-space-vertical">
+                                        <p class="rt-font-bold rt-font-paragraph">Когда много
+                                            пользователей</p>
+                                        <p class="rt-font-small-paragraph">Для большого количества
+                                            пользователей и трафика, можно
+                                            использовать и 
+                                            в помещении, и на улице. Безлимитная авторизация через портал
+                                            государственных услуг
+                                            и по номеру 8 800.</p>
+                                    </div>
+                                </template>
+                            </rt-card-layout>
+                        </rt-tabs-content-item>
+                    </template>
+                </rt-tabs>
+            </div>
+
+            <div class="rt-col-12 rt-space-top2">
+                <rt-tabs>
+                    <template slot="navigation">
+                        <rt-tabs-nav-item anchor="tab1" name="tab1">Веб-камеры</rt-tabs-nav-item>
+                        <rt-tabs-nav-item anchor="tab2" name="tab2">Веб-камеры</rt-tabs-nav-item>
+                    </template>
+                    <template slot="content">
+                        <rt-tabs-content-item name="tab1">
+                            <div class="rt-space-top">
+                                <rt-carousel :scroll-on-click="true" :hide-navigation="true">
+                                    <rt-carousel-slide v-for="i in 3" :key="i" class="rt-space-right15">
+                                        <h2>Слайд {{ i }}</h2>
+                                        <rt-row-list>
+                                            <rt-row-list-item v-for="i in 3" :key="i">
+                                                <template slot="option">
+                                                    <div class="d-flex flex-row">
+                                                        <div>
+                                                            <p>Антивирус</p>
+                                                            <p class="color-main05">
+                                                                Kaspersky Internet Security, месяц в подарок
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </template>
+                                            </rt-row-list-item>
+                                        </rt-row-list>
+                                        <rt-price
+                                                class="rt-space-vertical"
+                                                time-interval="мес"
+                                                is-option
+                                                :value="i * 1000"
+                                        />
+                                        <rt-button class="rt-button-orange">
+                                            Подключить
+                                        </rt-button>
+                                    </rt-carousel-slide>
+                                </rt-carousel>
+
+                            </div>
+                        </rt-tabs-content-item>
+                        <rt-tabs-content-item name="tab2">
+                            <div class="rt-col rt-space-bottom rt-space-top">
+                                <div class="row">
+                                    <rt-button class="rt-button-transparent-purple popupButton">Попап
+                                    </rt-button>
+                                </div>
+                            </div>
+                            <rt-real-popup :position-bottom="true">
+                                <template>
+                                    <rt-tabs>
+                                        <template slot="navigation">
+                                            <rt-tabs-nav-item anchor="innertab1" name="innertab1">
+                                                Веб-камеры
+                                            </rt-tabs-nav-item>
+                                            <rt-tabs-nav-item anchor="innertab2" name="innertab2"
+                                                              :active-tab="true">Веб-камеры
+                                            </rt-tabs-nav-item>
+                                        </template>
+                                        <template slot="content">
+                                            <rt-tabs-content-item name="innertab1">
+                                                <h2>Слайд</h2>
+                                                <rt-row-list>
+                                                    <rt-row-list-item>
+                                                        <template slot="option">
+                                                            <div class="d-flex flex-row">
+                                                                <p>Антивирус</p>
+                                                                <p class="color-main05">Kaspersky Internet
+                                                                    Security, месяц в подарок</p>
+                                                            </div>
+                                                        </template>
+                                                    </rt-row-list-item>
+                                                </rt-row-list>
+                                                <rt-price class="rt-space-vertical"
+                                                          time-interval="мес"
+                                                          is-option
+                                                          :value="1000"/>
+                                                <rt-button class="rt-button-orange">Подключить</rt-button>
+                                                <h2>Слайд</h2>
+                                                <rt-row-list>
+                                                    <rt-row-list-item>
+                                                        <template slot="option">
+                                                            <div class="d-flex flex-row">
+                                                                <p>Антивирус</p>
+                                                                <p class="color-main05">Kaspersky Internet
+                                                                    Security, месяц в подарок</p>
+                                                            </div>
+                                                        </template>
+                                                    </rt-row-list-item>
+                                                </rt-row-list>
+                                                <rt-price class="rt-space-vertical"
+                                                          time-interval="мес"
+                                                          is-option
+                                                          :value="1000"/>
+                                                <rt-button class="rt-button-orange">Подключить</rt-button>
+                                                <h2>Слайд</h2>
+                                                <rt-row-list>
+                                                    <rt-row-list-item>
+                                                        <template slot="option">
+                                                            <div class="d-flex flex-row">
+                                                                <p>Антивирус</p>
+                                                                <p class="color-main05">Kaspersky Internet
+                                                                    Security, месяц в подарок</p>
+                                                            </div>
+                                                        </template>
+                                                    </rt-row-list-item>
+                                                </rt-row-list>
+                                                <rt-price class="rt-space-vertical"
+                                                          time-interval="мес"
+                                                          is-option
+                                                          :value="1000"/>
+                                                <rt-button class="rt-button-orange">Подключить</rt-button>
+                                            </rt-tabs-content-item>
+                                            <rt-tabs-content-item name="innertab2">
+                                                <h2>Слайд2</h2>
+                                                <rt-row-list>
+                                                    <rt-row-list-item>
+                                                        <template slot="option">
+                                                            <div class="d-flex flex-row">
+                                                                <p>Антивирус</p>
+                                                                <p class="color-main05">Kaspersky Internet
+                                                                    Security, месяц в подарок</p>
+                                                            </div>
+                                                        </template>
+                                                    </rt-row-list-item>
+                                                </rt-row-list>
+                                                <rt-price class="rt-space-vertical"
+                                                          time-interval="мес"
+                                                          is-option
+                                                          :value="1000"/>
+                                                <rt-button class="rt-button-orange">Подключить</rt-button>
+                                            </rt-tabs-content-item>
+                                        </template>
+                                    </rt-tabs>
+                                </template>
+                            </rt-real-popup>
+                        </rt-tabs-content-item>
+                    </template>
+                </rt-tabs>
+            </div>
         </div>
+        <documentation-builder :json="documentation" type="components"/>
+    </div>
 </template>
 
 
