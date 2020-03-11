@@ -174,7 +174,7 @@
                                                 (специалистов) участие в формировании
                                                 форм развития.</p></rt-tabs-content-item>
                                     </template>
-                                </rt-tabs>
+                                </rt-tabs></div>
                                 '></pre-code>
                             </div>
                         </div>
