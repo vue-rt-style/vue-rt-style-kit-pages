@@ -115,7 +115,7 @@
       </rt-banner>"
     />
     <pre-code
-      text="<rt-banner :sleep-time='10000' content-tablet-min-height='300px'
+      text="<rt-banner :sleep-time='10000'
     content-mobile-min-height='100px'
     content-tablet-height='300px'
     content-tablet-min-height='300px'
@@ -123,7 +123,6 @@
     content-height='600px'
     content-min-height='300px'>
         <rt-banner-item background-image='/static/example-images/banerBackground1.jpg' :is-white-color='true'background-color='dark-state'
-        content-tablet-min-height='300px'
     content-mobile-min-height='100px'
     content-tablet-height='300px'
     content-tablet-min-height='300px'
