@@ -41,7 +41,7 @@
     "reset-css": "^4.0.1",
     "vue-fragment": "^1.5.1",
     "vue-router": "^3.1.1",
-    "vue-rt-style-kit-atoms": "^0.2.12",
+    "vue-rt-style-kit-atoms": "^0.2.19",
     "vue-rt-style-kit-icons": "^0.2.1",
     "vue-rt-style-kit-molecules": "^0.2.2",
     "vue-svgicon": "^3.2.6",
