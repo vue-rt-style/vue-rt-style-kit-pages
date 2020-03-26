@@ -7,8 +7,7 @@
     "start": "node bin/local/index.js",
     "build": "cross-env NODE_ENV=production webpack --config ./bin/webpack.config.lib.js",
     "build:docs": "cross-env NODE_ENV=production webpack --config ./bin/webpack.config.docs.js",
-    "build:icons": "npx vsvg -s ./src/icons/components/Icon/generator/svg -t ./static/icons --tpl ./src/icons/components/Icon/generator/icon-tpl.js",
-    "create-symlinks": "node create-symlinks.js"
+    "build:icons": "npx vsvg -s ./src/icons/components/Icon/generator/svg -t ./static/icons --tpl ./src/icons/components/Icon/generator/icon-tpl.js"
   },
   "repository": {
     "type": "git",
