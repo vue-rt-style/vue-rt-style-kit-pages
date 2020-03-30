@@ -6,8 +6,6 @@
       </div>
     </div>
 
-    <div>
-      <pre-code text='
       <div>
         <div class="rt-container">
           <div class="rt-col-12 rt-col-md-3">
@@ -21,10 +19,24 @@
                     </template>
                     <template slot="content">
                       <rt-tabs-content-item name="one">
+                        <rt-button @click="setLoaderType">changeLoader</rt-button>
+                        <template v-if="loaderType !== 'spinner'">
+                          config:
+                          <input class="d-inline-block" style="width:20px" v-model="configLoaderCount" title="карточек (count)" type="number" />
+                          <input class="d-inline-block" style="width:20px" v-model="configLoaderRows" title="строк (rows)" type="number" />
+                          <input class="d-inline-block" style="width:20px" v-model="configLoaderSub" title="подстрок (sub)" type="number" />
+                        </template>
+                         waitTime: {{ waitTime / 1000 }}s
+                        <rt-button @click="reCreate">reCreate list</rt-button>
+                        {{ slidesList }}
                         <div class="area">
-                          <rt-carousel :debug="true">
+                          <rt-carousel
+                            :debug="true"
+                            :loader="loaderType"
+                            :loaded="slidesList.length > 0"
+                          >
                             <rt-carousel-slide
-                              v-for="i in 17"
+                              v-for="i in slidesList"
                               :key="i"
                             >
                               <div
@@ -83,11 +95,8 @@
                   </rt-tabs>
                 </div>
               </div>
-            </div>
-          </div>
-      ' />
-    </div>
-    
+      </div><!-- ::Carousel in Tabs -->
+
     <div>
       <pre-code text='
         <rt-carousel :hide-arrows="true" slides-classes="rt-col-4 rt-col-md-2 rt-col-td-3">
@@ -856,20 +865,71 @@
 import documentation from "@vue-rt-style-kit-molecules-local/components/Carousel/docs/index.json";
 import componentsList from "../../componentsList";
 
+const defaultLoaderType = 'spinner'
+const skeletonLoader = {
+  type: 'skeleton',
+  count: 4,
+  rows: 2,
+  sub: 1
+}
+
 export default {
   name: "AppCarousel",
   components: componentsList,
   data() {
     return {
+      slidesList: [],
+      loaderType: skeletonLoader,
       documentation,
+      waitTime: this.getRandomNumberFromRange(3,15)*1000,
       showSlideNmb: '0'
     }
   },
-  created() {},
+  computed: {
+    configLoaderCount: {
+      get () {
+        return this.loaderType !== defaultLoaderType ? this.loaderType.count : skeletonLoader.count
+      },
+      set (val) {
+        this.loaderType.count = +val
+      }
+    },
+    configLoaderRows: {
+      get () {
+        return this.loaderType !== defaultLoaderType ? this.loaderType.rows : skeletonLoader.rows
+      },
+      set (val) {
+        this.loaderType.rows = +val
+      }
+    },
+    configLoaderSub: {
+      get () {
+        return this.loaderType !== defaultLoaderType ? this.loaderType.sub : skeletonLoader.sub
+      },
+      set (val) {
+        this.loaderType.sub = +val
+      }
+    }
+  },
+  created () {
+    this.reCreate()
+  },
   methods: {
+    reCreate () {
+      this.slidesList = []
+      setTimeout(() => {
+        this.slidesList = [...Array(this.getRandomNumberFromRange(2,17)).keys()]
+      }, this.waitTime)
+    },
+    setLoaderType () {
+      this.loaderType = this.loaderType === defaultLoaderType ? skeletonLoader : defaultLoaderType
+    },
     goToSlide () {
       if (this.showSlideNmb)
         this.$refs.carouselEl.moveTo(this.showSlideNmb)
+    },
+    getRandomNumberFromRange (min, max) {
+      return Math.round(Math.random()*(max-min)+min,10)
     }
   }
 };

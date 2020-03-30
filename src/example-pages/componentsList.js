@@ -32,6 +32,7 @@ import {
     TabsContentItem,
     Card,
     CardB2o,
+    CardSkeleton,
     ProductCard,
     TariffCard,
     CardBuy,
@@ -145,6 +146,7 @@ componentsList[CardB2o.name] = CardB2o;
 componentsList[CardBuy.name] = CardBuy;
 componentsList[CardImage.name] = CardImage;
 componentsList[CardImageList.name] = CardImageList;
+componentsList[CardSkeleton.name] = CardSkeleton;
 componentsList[FullscreenImage.name] = FullscreenImage;
 componentsList[RowList.name] = RowList;
 componentsList[RowListItem.name] = RowListItem;
