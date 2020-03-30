@@ -2,7 +2,7 @@ import Vue, { CreateElement, VNode } from "vue";
 import { Component } from "vue-property-decorator";
 import ColorItem from "./ColorsListItem.tsx";
 import colors from "vue-rt-style-kit-atoms/src/colorFullDocs.json";
-import { IColorList } from "./IColorList";
+import { IColorList } from "./IColorList.ts";
 import colorListSettings from "./colorListSettings.json";
 
 const componentsList = {};

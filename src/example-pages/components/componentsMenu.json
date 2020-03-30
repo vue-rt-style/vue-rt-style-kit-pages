@@ -1,147 +1,84 @@
 {
-  "version" : "0.0.01",
+  "version" : "0.3.0",
   "list": [
+
     {
-      "name" : "grid component",
-      "title" : "Grid Component",
-      "url" : "/grid_component",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "colors",
-      "title" : "Colors",
-      "url" : "/colors",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "logo",
-      "title" : "Logo",
-      "url" : "/logo",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "icons",
-      "title" : "Icons",
-      "url" : "/icons",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "buttons",
-      "title" : "Buttons",
-      "url" : "/buttons",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "typography",
-      "title" : "Typography",
-      "url" : "/typography",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "grid",
-      "title" : "Grid",
-      "url" : "/grid",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "space",
-      "title" : "Space",
-      "url" : "/space",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "opacity",
-      "title" : "Opacity",
-      "url" : "/opacity",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "row-list",
-      "title" : "Row list",
-      "url" : "/row-list",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "options-list",
-      "title" : "Options list",
-      "url" : "/options-list",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "ussd",
-      "title" : "Ussd",
-      "url" : "/ussd",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "gallery carousel",
-      "title" : "GalleryCarousel",
-      "url" : "/gallery-carousel",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Sticky Header Line",
-      "title" : "StickyHeaderLine",
-      "url" : "/sticky-header-line",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Sticky Bottom Line",
-      "title" : "StickyBottomLine",
-      "url" : "/sticky-bottom-line",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "inline-dropdown",
-      "title" : "Inline dropdown",
-      "url" : "/inline-dropdown",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "annotation",
-      "title" : "Annotation",
-      "url" : "/annotation",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Forms",
-      "title" : "Forms",
+      "name" : "main",
+      "title" : "Основное",
       "url" : "",
       "list_child" : [
+        {
+          "name" : "typography",
+          "title" : "Typography",
+          "url" : "/typography",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "colors",
+          "title" : "Colors",
+          "url" : "/colors",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "space",
+          "title" : "Space",
+          "url" : "/space",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "grid",
+          "title" : "Grid",
+          "url" : "/grid",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "grid component",
+          "title" : "Grid Component",
+          "url" : "/grid_component",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        }
+      ]
+    },
+
+    {
+      "name" : "form",
+      "title" : "Формы",
+      "url" : "",
+      "list_child" : [
+        {
+          "name" : "buttons",
+          "title" : "Buttons",
+          "url" : "/buttons",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "input",
+          "title" : "Input",
+          "url" : "/input",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "textarea",
+          "title" : "Textarea",
+          "url" : "/textarea",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
         {
           "name" : "checkbox",
           "title" : "Checkbox",
@@ -167,132 +104,235 @@
           "for_b2c" : true
         },
         {
-          "name" : "input",
-          "title" : "Input",
-          "url" : "/input",
-          "list_child" : [],
-          "for_b2b" : true,
-          "for_b2c" : true
-        },
-        {
-          "name" : "textarea",
-          "title" : "Textarea",
-          "url" : "/textarea",
-          "list_child" : [],
-          "for_b2b" : true,
-          "for_b2c" : true
-        },
-        {
           "name" : "select",
           "title" : "Select",
           "url" : "/select",
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
+        },
+        {
+          "name" : "Tags",
+          "title" : "Tags",
+          "url" : "/tags",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
         }
-      ],
-      "for_b2b" : true,
-      "for_b2c" : true
+      ]
     },
+
     {
-      "name" : "List elements",
-      "title" : "List elements",
-      "url" : "/list",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
+      "name": "simple",
+      "title": "Простое",
+      "url": "",
+      "list_child" : [
+        {
+          "name" : "logo",
+          "title" : "Logo",
+          "url" : "/logo",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "icons",
+          "title" : "Icons",
+          "url" : "/icons",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Spinner",
+          "title" : "Spinner",
+          "url" : "/spinner",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Real Popup",
+          "title" : "Real Popup",
+          "url" : "/popup",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "opacity",
+          "title" : "Opacity",
+          "url" : "/opacity",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Color Line Text",
+          "title" : "Color Line Text",
+          "url" : "/color-line-text",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Sticky Header Line",
+          "title" : "StickyHeaderLine",
+          "url" : "/sticky-header-line",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Sticky Bottom Line",
+          "title" : "StickyBottomLine",
+          "url" : "/sticky-bottom-line",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "ussd",
+          "title" : "Ussd",
+          "url" : "/ussd",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "inline-dropdown",
+          "title" : "Inline dropdown",
+          "url" : "/inline-dropdown",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Price",
+          "title" : "Price",
+          "url" : "/price",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Checkbox Tabs",
+          "title" : "Checkbox Tabs",
+          "url" : "/checkbox-tabs",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Fullscreen Image",
+          "title" : "Fullscreen Image",
+          "url" : "/fullscreen",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Download content",
+          "title" : "Download content",
+          "url" : "/download-content",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Use Case",
+          "title" : "Use Case",
+          "url" : "/use-case",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Slide Content",
+          "title" : "Slide Content",
+          "url" : "/slide-content",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        }
+      ]
     },
+
     {
-      "name" : "Scroll Tabs",
-      "title" : "Scroll Tabs",
-      "url" : "/scroll-tabs",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
+      "name" : "group",
+      "title" : "Группы",
+      "url" : "",
+      "list_child" : [
+        {
+          "name" : "List elements",
+          "title" : "List elements",
+          "url" : "/list",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Table",
+          "title" : "Table",
+          "url" : "/table",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "annotation",
+          "title" : "Annotation",
+          "url" : "/annotation",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "row-list",
+          "title" : "Row list",
+          "url" : "/row-list",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "options-list",
+          "title" : "Options list",
+          "url" : "/options-list",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Tabs",
+          "title" : "Tabs",
+          "url" : "/tabs",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Scroll Tabs",
+          "title" : "Scroll Tabs",
+          "url" : "/scroll-tabs",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Benefit",
+          "title" : "Benefit",
+          "url" : "/benefit",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        }
+      ]
     },
+
     {
-      "name" : "Tags",
-      "title" : "Tags",
-      "url" : "/tags",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Color Line Text",
-      "title" : "Color Line Text",
-      "url" : "/color-line-text",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Spinner",
-      "title" : "Spinner",
-      "url" : "/spinner",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Price",
-      "title" : "Price",
-      "url" : "/price",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Tabs",
-      "title" : "Tabs",
-      "url" : "/tabs",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Checkbox Tabs",
-      "title" : "Checkbox Tabs",
-      "url" : "/checkbox-tabs",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Table",
-      "title" : "Table",
-      "url" : "/table",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Fullscreen Image",
-      "title" : "Fullscreen Image",
-      "url" : "/fullscreen",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Download content",
-      "title" : "Download content",
-      "url" : "/download-content",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Benefit",
-      "title" : "Benefit",
-      "url" : "/benefit",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Complex elements",
-      "title" : "Complex elements",
+      "name" : "complex",
+      "title" : "Комлексные",
       "url" : "",
       "list_child" : [
         {
@@ -329,46 +369,37 @@
           "for_b2c" : true
         },
         {
-          "name" : "Opportunity",
-          "title" : "Opportunity",
-          "url" : "/opportunity",
+          "name" : "Banners",
+          "title" : "Banners",
+          "url" : "/banners",
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
         },
         {
-          "name" : "Help main",
-          "title" : "Help main",
-          "url" : "/help-main",
+          "name" : "Carousels",
+          "title" : "Carousels",
+          "url" : "/carousels",
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
         },
         {
-          "name" : "Un-wrapper",
-          "title" : "Un-wrapper",
-          "url" : "/unwrapper",
+          "name" : "gallery carousel",
+          "title" : "GalleryCarousel",
+          "url" : "/gallery-carousel",
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
         },
         {
-          "name" : "Real Popup",
-          "title" : "Real Popup",
-          "url" : "/popup",
+          "name" : "swiper",
+          "title" : "Swiper",
+          "url" : "/swiper",
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
-        }
-      ],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Experiment elements",
-      "title" : "Experiment elements",
-      "url" : "",
-      "list_child" : [
+        },
         {
           "name" : "Youtube Player",
           "title" : "Youtube Player",
@@ -384,30 +415,13 @@
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
-        } ,
-        {
-          "name" : "Use Case",
-          "title" : "Use Case",
-          "url" : "/use-case",
-          "list_child" : [],
-          "for_b2b" : true,
-          "for_b2c" : true
-        },
-        {
-          "name" : "Slide Content",
-          "title" : "Slide Content",
-          "url" : "/slide-content",
-          "list_child" : [],
-          "for_b2b" : true,
-          "for_b2c" : true
         }
-      ],
-      "for_b2b" : true,
-      "for_b2c" : true
+      ]
     },
+
     {
-      "name" : "Game UI",
-      "title" : "Game UI",
+      "name" : "pages",
+      "title" : "Собранные страницы",
       "url" : "",
       "list_child" : [
         {
@@ -418,55 +432,6 @@
           "for_b2b" : true,
           "for_b2c" : true
         },
-        {
-          "name" : "Filters",
-          "title" : "Filters",
-          "url" : "/filter",
-          "list_child" : [],
-          "for_b2b" : true,
-          "for_b2c" : true
-        } ,
-        {
-          "name" : "Use Case",
-          "title" : "Use Case",
-          "url" : "/use-case",
-          "list_child" : [],
-          "for_b2b" : true,
-          "for_b2c" : true
-        },
-        {
-          "name" : "Slide Content",
-          "title" : "Slide Content",
-          "url" : "/slide-content",
-          "list_child" : [],
-          "for_b2b" : true,
-          "for_b2c" : true
-        }
-      ],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Banners",
-      "title" : "Banners",
-      "url" : "/banners",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Carousels",
-      "title" : "Carousels",
-      "url" : "/carousels",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "Promo pages",
-      "title" : "Promo pages",
-      "url" : "",
-      "list_child" : [
         {
           "name" : "TV",
           "title" : "TV",
@@ -522,18 +487,32 @@
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
+        },
+        {
+          "name" : "Opportunity",
+          "title" : "Opportunity",
+          "url" : "/opportunity",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Help main",
+          "title" : "Help main",
+          "url" : "/help-main",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "Un-wrapper",
+          "title" : "Un-wrapper",
+          "url" : "/unwrapper",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
         }
-      ],
-      "for_b2b" : true,
-      "for_b2c" : true
-    },
-    {
-      "name" : "swiper",
-      "title" : "Swiper",
-      "url" : "/swiper",
-      "list_child" : [],
-      "for_b2b" : true,
-      "for_b2c" : true
+      ]
     }
   ]
 
