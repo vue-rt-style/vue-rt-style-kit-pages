@@ -36,7 +36,7 @@
 <script>
   // const componentsList = {};
   import componentsList from "../../componentsList";
-  import documentation from "vue-rt-style-kit-atoms/src/components/Ussd/docs/index.json";
+  import documentation from "@vue-rt-style-kit-atoms-local/components/Ussd/docs/index.json";
   export default {
     name: "AppSwitch",
     components: componentsList,

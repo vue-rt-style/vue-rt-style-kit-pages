@@ -245,7 +245,7 @@
 
 <script>
 // const componentsList = {};
-import documentation from "vue-rt-style-kit-atoms/src/components/Annotation/docs/index.json";
+import documentation from "@vue-rt-style-kit-atoms-local/components/Annotation/docs/index.json";
 import componentsList from "../../componentsList";
 
 export default {

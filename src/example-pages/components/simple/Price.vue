@@ -87,7 +87,7 @@
 </template>
 
 <script>
-  import documentation from "vue-rt-style-kit-atoms/src/components/Price/docs/index.json";
+  import documentation from "@vue-rt-style-kit-atoms-local/components/Price/docs/index.json";
 
   const componentsList = {};
   export default {

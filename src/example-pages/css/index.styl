@@ -1,4 +1,35 @@
+@require "~nib/lib/nib/reset.styl"
+p(global-reset)
 
+global-reset()
+*
+  box-sizing border-box
+
+a
+  text-decoration none
+
+body
+  word-break break-word
+
+ol
+  list-style decimal
+
+select,
+button,
+input,
+textarea
+  font-size inherit
+
+button
+  color inherit
+  background-color transparent
+  border-width 0
+  outline none
+  padding 0
+
+
+@require "../../atoms/css/vue-rt-style-atoms.styl"
+@require "../../molecules/css/vue-rt-style-kit-molecules.styl"
 @require "font-face"
 @require "../../develover-lib/css/vue-rt-style-develop"
 @require "app"

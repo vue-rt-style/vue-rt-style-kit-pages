@@ -54,7 +54,7 @@
 
 <script>
   const componentsList = {};
-  import variables from "vue-rt-style-kit-atoms/src/variables.json";
+  import variables from "@vue-rt-style-kit-atoms-local/variables.json";
   export default {
     name: "AppGridElements",
     components: componentsList,
