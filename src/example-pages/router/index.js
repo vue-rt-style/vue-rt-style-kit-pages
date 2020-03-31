@@ -1,7 +1,7 @@
 const index = [
   // main
   { path: "/typography", name: "app-typography", component: () => import("../components/main/Typography.vue") },
-  { path: "/colors", name: "app-colors", component: () => import("../components/main/Colors.vue") },
+  { path: "/colors", name: "app-colors", component: () => import("../components/main/colors/ColorsList.vue") },
   { path: "/space", name: "app-grid", component: () => import("../components/main/SpaceClassElements.vue") },
   { path: "/grid", name: "app-grid", component: () => import("../components/main/Grid.vue") },
   { path: "/grid_component", name: "grid component", component: () => import("../components/main/GridComponent.vue") },
