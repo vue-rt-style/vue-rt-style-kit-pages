@@ -49,7 +49,7 @@ import InlineDropdown from "../components/main-elements/InlineDropdown.vue";
 import Annotation from "../components/main-elements/Annotation.vue";
 import Tags from "../components/main-elements/Tags.vue";
 import Youtube from "../components/main-elements/Youtube.vue";
-import Colors from "../components/main-elements/colors/ColorsList.tsx";
+import Colors from "../components/main-elements/colors/ColorsList.vue";
 import List from "../components/main-elements/List.vue";
 import Logo from "../components/main-elements/Logo.vue";
 // import WarFace from "../components/promo/game-warface.vue";
@@ -104,7 +104,7 @@ const index = [
   { path: "/tags", name: "app-tags", component: Tags },
   { path: "/youtube", name: "app-youtube", component: Youtube },
   { path: "/filter", name: "app-filter", component: FilterElements },
-  { path: "/colors", name: "app-colors", component: Colors.component },
+  { path: "/colors", name: "app-colors", component: Colors },
   { path: "/list", name: "app-list", component: List },
   { path: "/logo", name: "app-logo", component: Logo },
   {

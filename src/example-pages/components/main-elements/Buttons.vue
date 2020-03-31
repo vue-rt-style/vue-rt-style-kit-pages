@@ -201,7 +201,7 @@
 </template>
 
 <script>
-  import documentation from "vue-rt-style-kit-atoms/src/components/Button/docs/index.json";
+  import documentation from "@vue-rt-style-kit-atoms-local/components/Button/docs/index.json";
   import componentsList from "../../componentsList";
   export default {
     name: "AppButtons",

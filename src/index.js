@@ -4,9 +4,9 @@ import Project from "../package.json";
 // import {} from "./components";
 
 // console.info('OptionsList',OptionsList)
-import 'element-closest-polyfill';
-import 'nodelist-foreach-polyfill';
-import 'element-remove';
+// import 'element-closest-polyfill';
+// import 'nodelist-foreach-polyfill';
+// import 'element-remove';
 
 const VueRtStyle = {
     install(Vue, config) {
