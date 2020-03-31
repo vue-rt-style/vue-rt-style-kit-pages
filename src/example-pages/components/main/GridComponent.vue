@@ -78,7 +78,7 @@
     import documentation from "@vue-rt-style-kit-atoms-local/components/Grid/docs/docsGridRow.json";
 
     export default {
-        name: "AppAtomGrid",
+        name: "GridComponent",
         components: {},
         data: () => ({
             documentation: {}
