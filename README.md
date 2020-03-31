@@ -8,7 +8,7 @@ MacOS/Linix
 ````
 ./create-symlinks.sh
 ````
-Windows
+Windows, потребуются права админа (запись файлов)
 ````
 .\create-symlinks.bat
 ````
