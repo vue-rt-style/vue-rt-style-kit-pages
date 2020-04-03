@@ -48,6 +48,7 @@
     />
     <pre-code
       text="<rt-banner :no-triangle='true'
+                       :resize-query-selectors-names='[&quot;.rt-font-bold&quot;,&quot;.p1&quot;]'
                        :without-empty-column='true'
                        :without-second-empty-column='true'
                        :transparent-background-image='true'
