@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import VueRtStyleAtoms from "@vue-rt-style-kit-atoms-local";
+import {Price} from "@vue-rt-style-kit-atoms-local";
 import VueRtStyleIcons from "@vue-rt-style-kit-icons-local";
 import VueRtStyleMolecules from "@vue-rt-style-kit-molecules-local";
 import VueRtDevStyle from "../develover-lib/index";
@@ -19,6 +20,8 @@ Vue.use(VueRouter);
 if (!window[Global.globalSettingsKey]) window[Global.globalSettingsKey] = {}
 // Use validator only demo-stand for provide validation
 window[Global.globalSettingsKey].useValidator = true
+console.info('VueRtStyleAtoms',Price);
+
 Vue.use(VueRtDevStyle);
 Vue.use(VueRtStyleAtoms);
 Vue.use(VueRtStyleIcons);
