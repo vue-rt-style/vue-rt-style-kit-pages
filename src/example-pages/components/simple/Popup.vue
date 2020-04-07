@@ -110,7 +110,7 @@
             <rt-real-popup :position-bottom="true" :popup-type="1" trigger-element-class="popupButton" main-wrapper-class="app">
               <div class="popup-content"></div>
             </rt-real-popup>
-            <rt-real-popup :position-bottom="true" :popup-type="2" trigger-element-class="new-vats-popup-button" mainWrapperClass="app">
+            <rt-real-popup :position-bottom="true" :popup-type="2" trigger-element-class="new-vats-popup-button" main-wrapper-class="app">
               <div class="popup-content"></div>
             </rt-real-popup>
             <!--'/>-->
