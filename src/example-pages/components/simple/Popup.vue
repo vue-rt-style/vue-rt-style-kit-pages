@@ -12,7 +12,7 @@
         <div class="app-row">
           <div class="rt-col rt-space-bottom rt-space-top">
             <div class="row">
-              <rt-button class="rt-button-transparent-purple popupButton" :popup-button="true">Попап</rt-button>
+              <rt-button class="rt-button-transparent-purple popupButton" :popup-button="true" target-popup="rtb-popup-type-1">Попап</rt-button>
             </div>
           </div>
           <div class="rt-col-12">
@@ -36,7 +36,7 @@
                     <rt-button
                       class="rt-button-purple-border rt-button-small rt-space-horizontal new-vats-popup-button"
                       :popup-button="true"
-                      target-popup="rtb-popup-type-1">
+                      target-popup="rtb-popup-type-2">
                       Подробнее</rt-button>
                   </template>
                   <template slot="popup-special-benefits">
@@ -107,10 +107,10 @@
             </div>
           </div>
           <!--<pre-code text='-->
-            <rt-real-popup :position-bottom="true" :popup-type="1">
+            <rt-real-popup :position-bottom="true" :popup-type="1" trigger-element-class="popupButton" main-wrapper-class="app">
               <div class="popup-content"></div>
             </rt-real-popup>
-            <rt-real-popup :position-bottom="true" :popup-type="2">
+            <rt-real-popup :position-bottom="true" :popup-type="2" trigger-element-class="new-vats-popup-button" mainWrapperClass="app">
               <div class="popup-content"></div>
             </rt-real-popup>
             <!--'/>-->
@@ -125,11 +125,7 @@
   export default {
     name: "AppPopup",
     components: componentsList,
-    mounted() {
-//      document.querySelector(".popupButton").addEventListener("click", () => {
-//        document.querySelector(".rtb-popup-wrapper").classList.add('rtb-popup-wrapper--active');
-//      });
-    },
+    mounted() {},
     created() {},
     methods: {}
   };

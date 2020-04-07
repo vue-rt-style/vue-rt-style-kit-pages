@@ -102,21 +102,21 @@
               />
             </div>
             <pre-code
-              text="<rt-table class=&quot;rt-space-bottom2&quot;>
-                <rt-template slot=&quot;label&quot;>
+              text="<rt-table class='rt-space-bottom2'>
+                <rt-template slot='label'>
                   Звонки
                 </rt-template>
-                <rt-template slot=&quot;columns&quot;>
-                  <rt-table-col :column-width=&quot;true&quot; :width-in-cols-desktop=&quot;6&quot;></rt-table-col>
-                  <rt-table-col :column-width=&quot;true&quot; :width-in-cols-desktop=&quot;4&quot;></rt-table-col>
-                  <rt-table-col :column-width=&quot;true&quot; :width-in-cols-desktop=&quot;2&quot;></rt-table-col>
+                <rt-template slot='columns'>
+                  <rt-table-col :width-in-cols-desktop='6'></rt-table-col>
+                  <rt-table-col :width-in-cols-desktop='4'></rt-table-col>
+                  <rt-table-col :width-in-cols-desktop='2'></rt-table-col>
                 </rt-template>
-                <rt-template slot=&quot;header&quot;>
+                <rt-template slot='header'>
                   <rt-table-head-item>Услуга</rt-table-head-item>
                   <rt-table-head-item>С опцией</rt-table-head-item>
                   <rt-table-head-item>Без опции</rt-table-head-item>
                 </rt-template>
-                <rt-template slot=&quot;body&quot;>
+                <rt-template slot='body'>
                   <rt-table-row>
                     <rt-table-item>Все входящие звонки по России</rt-table-item>
                     <rt-table-item>0 руб./мин.</rt-table-item>
@@ -129,12 +129,12 @@
                   </rt-table-row>
                   <rt-table-row>
                     <rt-table-item>Исходящие звонки в Европу</rt-table-item>
-                    <rt-table-item :inactive=&quot;true&quot;>49 руб./мин.</rt-table-item>
+                    <rt-table-item :inactive='true'>49 руб./мин.</rt-table-item>
                     <rt-table-item>49 руб./мин.</rt-table-item>
                   </rt-table-row>
                   <rt-table-row>
                     <rt-table-item>Исходящие звонки в остальные страны</rt-table-item>
-                    <rt-table-item :inactive=&quot;true&quot;>69 руб./мин.</rt-table-item>
+                    <rt-table-item :inactive='true'>69 руб./мин.</rt-table-item>
                     <rt-table-item>69 руб./мин.</rt-table-item>
                   </rt-table-row>
                 </rt-template>
