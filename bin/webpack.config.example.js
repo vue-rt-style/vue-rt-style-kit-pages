@@ -2,6 +2,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const path = require(`path`);
 const HtmlWebpackPlugin = require(`html-webpack-plugin`);
 const webpack = require('webpack');
+const filewatcherPlugin = require("filewatcher-webpack-plugin");
 
 const local_dirname = path.join(__dirname, '..')
 function include () {
@@ -119,7 +120,18 @@ config.entry.app.unshift('webpack-hot-middleware/client');
 config.plugins.push(
     new VueLoaderPlugin(),
     new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
+    new filewatcherPlugin({watchFileRegex: [
+        '../../vue-rt-style-kit-atoms/**/*.js',
+        '../../vue-rt-style-kit-atoms/**/*.vue',
+        '../../vue-rt-style-kit-atoms/**/*.styl',
+        '../../vue-rt-style-kit-molecules/**/*.js',
+        '../../vue-rt-style-kit-molecules/**/*.vue',
+        '../../vue-rt-style-kit-molecules/**/*.styl',
+        '../../vue-rt-style-kit-icons/**/*.js',
+        '../../vue-rt-style-kit-icons/**/*.vue',
+        '../../vue-rt-style-kit-icons/**/*.styl'
+      ]})
 );
 
 module.exports = config;

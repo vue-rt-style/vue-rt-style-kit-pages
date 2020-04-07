@@ -1,39 +1,42 @@
 import Global from "./variables.json";
 import Project from "../package.json";
 
-// import {} from "./components";
+import {} from "./components";
 
 // console.info('OptionsList',OptionsList)
-// import 'element-closest-polyfill';
-// import 'nodelist-foreach-polyfill';
-// import 'element-remove';
+import 'element-closest-polyfill';
+import 'nodelist-foreach-polyfill';
+import 'element-remove';
+import stylesAtoms from "./atoms/css/vue-rt-style-atoms.styl";
+import stylesMolecules from "./molecules/css/vue-rt-style-kit-molecules.styl";
+import stylesIcons from "./icons/css/vue-rt-style-kit-icons.styl";
 
 const VueRtStyle = {
     install(Vue, config) {
-        // if (!Vue.RtStyleAtoms) {
-        //     Vue.component(Button.name, Button);
-        //     Vue.component(Checkbox.name, Checkbox);
-        //     Vue.component(CheckboxContainer.name, CheckboxContainer);
-        //     Vue.component(Input.name, Input);
-        //     Vue.component(InputWithoutJs.name, InputWithoutJs);
-        //     Vue.component(Price.name, Price);
-        //     Vue.component(RadioButton.name, RadioButton);
-        //     Vue.component(RadioButtonContainer.name, RadioButtonContainer);
-        //     Vue.component(Ripple.name, Ripple);
-        //     Vue.component(RippleWihoutJs.name, RippleWihoutJs);
-        //     Vue.component(Select.name, Select);
-        //     Vue.component(SelectOption.name, SelectOption);
-        //     Vue.component(SelectWithoutJs.name, SelectWithoutJs);
-        //     Vue.component(Switch.name, Switch);
-        //     Vue.component(SwitchContainer.name, SwitchContainer);
-        //     Vue.component(Textarea.name, Textarea);
-        //     Vue.component(TextareaStatic.name, TextareaStatic);
-        //     Vue.component(CheckboxTabs.name, CheckboxTabs);
-        //     Vue.component(Annotation.name, Annotation);
-        //     Vue.component(ColorLineText.name, ColorLineText);
-        //     Vue.component(Ussd.name, Ussd);
-        //     Vue.RtStyleAtoms = true;
-        // }
+        if (!Vue.RtStyleAtoms) {
+            Vue.component(Button.name, Button);
+            Vue.component(Checkbox.name, Checkbox);
+            Vue.component(CheckboxContainer.name, CheckboxContainer);
+            Vue.component(Input.name, Input);
+            Vue.component(InputWithoutJs.name, InputWithoutJs);
+            Vue.component(Price.name, Price);
+            Vue.component(RadioButton.name, RadioButton);
+            Vue.component(RadioButtonContainer.name, RadioButtonContainer);
+            Vue.component(Ripple.name, Ripple);
+            Vue.component(RippleWihoutJs.name, RippleWihoutJs);
+            Vue.component(Select.name, Select);
+            Vue.component(SelectOption.name, SelectOption);
+            Vue.component(SelectWithoutJs.name, SelectWithoutJs);
+            Vue.component(Switch.name, Switch);
+            Vue.component(SwitchContainer.name, SwitchContainer);
+            Vue.component(Textarea.name, Textarea);
+            Vue.component(TextareaStatic.name, TextareaStatic);
+            Vue.component(CheckboxTabs.name, CheckboxTabs);
+            Vue.component(Annotation.name, Annotation);
+            Vue.component(ColorLineText.name, ColorLineText);
+            Vue.component(Ussd.name, Ussd);
+            Vue.RtStyleAtoms = true;
+        }
     }
 };
 // VueRtStyle.directives = { SwipeLeft, SwipeRight, OutsideClickDirective, FilterCallerDirective};
