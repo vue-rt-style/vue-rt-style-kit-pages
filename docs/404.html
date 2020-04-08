@@ -22,14 +22,17 @@
     // Otherwise, leave pathPrefix as false.
     var pathPrefix = false;
     var l = window.location;
-    console.info('404')
-    l.replace(
-            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-            l.pathname.split('/').slice(0, 2).join('/') + '/?p=/' +
-            l.pathname.slice(1).split('/').slice(2).join('/').replace(/&/g, '~and~') +
-            (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-            l.hash
-    );
+    var href = l.href+'';
+    href = href.replace('?','%%%').replace("pages/docs/",'pages/docs?p=')
+      l.replace(href)
+    // console.info('404')
+    // l.replace(
+    //         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+    //         l.pathname.split('/').slice(0, 2).join('/') + '/?p=/' +
+    //         l.pathname.slice(1).split('/').slice(2).join('/').replace(/&/g, '~and~') +
+    //         (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+    //         l.hash
+    // );
   </script>
 </head>
 <body>
