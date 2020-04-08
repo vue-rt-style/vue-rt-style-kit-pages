@@ -23,7 +23,7 @@ const config = {
       'vue$': 'vue/dist/vue.esm.js',
       '@vue-rt-style-kit-atoms-local': path.join(local_dirname,'src','atoms'),
       '@vue-rt-style-kit-molecules-local': path.join(local_dirname,'src','molecules'),
-      '@vue-rt-style-kit-icons-local': path.join(local_dirname,'src','molecules'),
+      '@vue-rt-style-kit-icons-local': path.join(local_dirname,'src','icons'),
       '@projectAtoms': path.join(local_dirname,'src','projectsJsons','atoms.json'),
       '@projectMolecules': path.join(local_dirname,'src','projectsJsons','molecules.json'),
       '@projectIcons': path.join(local_dirname,'src','projectsJsons','icons.json'),
