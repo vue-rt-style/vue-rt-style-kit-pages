@@ -5100,7 +5100,7 @@ var _componentsMenu_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/_
     }
   },
   mounted: function mounted() {
-    this.preUrl = location.protocol.search("https") >= 0 ? "/vue-rt-style-kit-pages/docs" : "";
+    this.preUrl = location.protocol.search("https") >= 0 ? "/vue-rt-style-kit-pages" : "";
   },
   methods: {
     changeSearchParams: function changeSearchParams(e) {
