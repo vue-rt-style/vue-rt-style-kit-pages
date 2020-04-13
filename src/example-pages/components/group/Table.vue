@@ -11,19 +11,19 @@
           <div class="rt-col rt-font-hypnens-off">
             <pre-code
               text="
-              <rt-table class=&quot;rt-space-bottom2&quot; :tablet-list-type=&quot;true&quot;>
-                <rt-template slot=&quot;label&quot;>
+              <rt-table class='rt-space-bottom2' :tablet-list-type='true'>
+                <rt-template slot='label'>
                   Тарифы на добровольную блокировку
                 </rt-template>
 
-                <rt-template slot=&quot;header&quot;>
+                <rt-template slot='header'>
                   <rt-table-head-item>Территория</rt-table-head-item>
                   <rt-table-head-item :colspan='4'>Наименование услуги</rt-table-head-item>
                   <rt-table-head-item>Мораторий на блокировку</rt-table-head-item>
                   <rt-table-head-item>Минимальный период блокировки</rt-table-head-item>
                   <rt-table-head-item>Стоимость добровольной блокировки в базовый период</rt-table-head-item>
                 </rt-template>
-                <rt-template slot=&quot;body&quot;>
+                <rt-template slot='body'>
                   <rt-table-row>
                     <rt-table-item rowspan='2'>Архангельская и Мурманская
                       область Республика Карелия</rt-table-item>
@@ -63,12 +63,12 @@
             <div class="rt-space-top2">
               <pre-code
                 text="
-                <rt-table class=&quot;rt-space-bottom2&quot; :tablet-list-type=&quot;true&quot;>
-                  <rt-template slot=&quot;label&quot;>
+                <rt-table class='rt-space-bottom2' :tablet-list-type='true'>
+                  <rt-template slot='label'>
                     Тарифы на добровольную блокировку
                   </rt-template>
 
-                  <rt-template slot=&quot;header&quot;>
+                  <rt-template slot='header'>
                     <rt-table-head-item>Территория</rt-table-head-item>
                     <rt-table-head-item>Наименование услуги</rt-table-head-item>
                     <rt-table-head-item>Бесплатный период</rt-table-head-item>
@@ -76,7 +76,7 @@
                     <rt-table-head-item>Минимальный период блокировки</rt-table-head-item>
                     <rt-table-head-item>Стоимость добровольной блокировки в базовый период</rt-table-head-item>
                   </rt-template>
-                  <rt-template slot=&quot;body&quot;>
+                  <rt-template slot='body'>
                     <rt-table-row>
                       <rt-table-item>Архангельская и Мурманская
                         область Республика Карелия</rt-table-item>
@@ -142,13 +142,13 @@
             />
             <pre-code
               text='
-                <rt-table class="rt-space-bottom4">
+                <rt-table class="rt-space-bottom4" :column-width="true">
                   <rt-template slot="label">
                     Интернет
                   </rt-template>
                   <rt-template slot="columns">
-                    <rt-table-col />
-                    <rt-table-col width="200px" />
+                    <rt-table-col :width-in-cols-desktop="10" :width-in-cols-tablet="4" :width-in-cols-mobile="3"/>
+                    <rt-table-col :width-in-cols-desktop="2" :width-in-cols-tablet="2" :width-in-cols-mobile="3"/>
                   </rt-template>
                   <rt-template slot="header">
                     <rt-table-head-item>Услуга</rt-table-head-item>

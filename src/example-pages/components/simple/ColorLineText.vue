@@ -14,62 +14,39 @@
                         </rt-color-line-text>
                     </div>
                 </div>
-                <pre-code
-                        text='<div class="app-row row color-block--dark-blue"><div class="rt-space-horizontal rt-space-vertical rt-col"><rt-color-line-text label-color="blue" :hide-arrow="true"><template slot="label">Будьте спокойны за своих близких</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>'
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row color-block--dark-blue&quot;><div class=&quot;rt-space-horizontal rt-space-vertical rt-col&quot;><rt-color-line-text><template slot=&quot;label&quot;>Будьте спокойны за своих близких</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row color-block--purple-high&quot;><div class=&quot;rt-space-horizontal rt-space-vertical&quot;><rt-color-line-text color-icon=&quot;purple&quot;><template slot=&quot;label&quot;>Мама мыла раму!</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row color-block--dark-blue&quot;><div class=&quot;rt-space-horizontal rt-space-vertical&quot;><rt-color-line-text color-icon=&quot;red&quot;><template slot=&quot;label&quot;>Мама мыла раму!</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row color-block--yellow&quot;><div class=&quot;rt-space-horizontal rt-space-vertical&quot;><rt-color-line-text color-icon=&quot;dark-blue&quot;><template slot=&quot;label&quot;>Мама мыла раму!</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row color-block--dark-blue&quot;><div class=&quot;rt-space-horizontal rt-space-vertical&quot;><rt-color-line-text color-icon=&quot;light-blue&quot;><template slot=&quot;label&quot;>Мама мыла раму!</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row color-block--dark-blue&quot;><div class=&quot;rt-space-horizontal rt-space-vertical&quot;><rt-color-line-text color-icon=&quot;yellow&quot;><template slot=&quot;label&quot;>Мама мыла раму!</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row color-block--dark-blue&quot;><div class=&quot;rt-space-horizontal rt-space-vertical&quot;><rt-color-line-text color-icon=&quot;pink&quot;><template slot=&quot;label&quot;>Мама мыла раму!</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row color-block--dark-blue&quot;><div class=&quot;rt-space-horizontal rt-space-vertical&quot;><rt-color-line-text color-icon=&quot;green&quot;><template slot=&quot;label&quot;>Мама мыла раму!</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row color-block--dark-blue&quot;><div class=&quot;rt-space-horizontal rt-space-vertical&quot;><rt-color-line-text :is-white-color=&quot;true&quot; color-icon=&quot;green&quot; fill-color=&quot;purple&quot;><template slot=&quot;label&quot;>Мама мыла раму!</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row&quot;><div class=&quot;rt-space-horizontal rt-space-vertical&quot;><rt-color-line-text :is-white-color=&quot;true&quot; color-icon=&quot;green&quot; fill-color=&quot;red&quot;><template slot=&quot;label&quot;>Мама мыла раму!</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row&quot;><div class=&quot;rt-space-horizontal rt-space-vertical&quot;><rt-color-line-text :is-white-color=&quot;true&quot; color-icon=&quot;green&quot; fill-color=&quot;dark-blue&quot;><template slot=&quot;label&quot;>Мама мыла раму!</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row&quot;><div class=&quot;rt-space-horizontal rt-space-vertical&quot;><rt-color-line-text :is-white-color=&quot;true&quot; color-icon=&quot;green&quot; fill-color=&quot;light-blue&quot;><template slot=&quot;label&quot;>Мама мыла раму!</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row&quot;><div class=&quot;rt-space-horizontal rt-space-vertical&quot;><rt-color-line-text :is-white-color=&quot;true&quot; color-icon=&quot;green&quot; fill-color=&quot;yellow&quot;><template slot=&quot;label&quot;>Мама мыла раму!</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row&quot;><div class=&quot;rt-space-horizontal rt-space-vertical&quot;><rt-color-line-text :is-white-color=&quot;true&quot; color-icon=&quot;green&quot; fill-color=&quot;pink&quot;><template slot=&quot;label&quot;>Мама мыла раму!</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
-                <pre-code
-                        text="<div class=&quot;app-row row&quot;><div class=&quot;rt-space-horizontal rt-space-vertical&quot;><rt-color-line-text :is-white-color=&quot;true&quot; color-icon=&quot;red&quot; fill-color=&quot;green&quot;><template slot=&quot;label&quot;>Смотри кино <br/>  и получай бонусы  <br/> от Сбербанка</template><template slot=&quot;content&quot;>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"
-                />
+                <pre-code text='<div class="app-row row color-block--dark-blue"><div class="rt-space-horizontal rt-space-vertical rt-col"><rt-color-line-text label-color="blue" :hide-arrow="true"><template slot="label">Будьте спокойны за своих близких</template><template slot="content">Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>'/>
+                <pre-code text="<div class='app-row row color-block--dark-blue'><div class='rt-space-horizontal rt-space-vertical rt-col'><rt-color-line-text><template slot='label'>Будьте спокойны за своих близких</template><template slot='content'>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+                <pre-code text="<div class='app-row row color-block--purple-high'><div class='rt-space-horizontal rt-space-vertical'><rt-color-line-text color-icon='purple'><template slot='label'>Мама мыла раму!</template><template slot='content'>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+                <pre-code text="<div class='app-row row color-block--dark-blue'><div class='rt-space-horizontal rt-space-vertical'><rt-color-line-text color-icon='red'><template slot='label'>Мама мыла раму!</template><template slot='content'>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+                <pre-code text="<div class='app-row row color-block--yellow'><div class='rt-space-horizontal rt-space-vertical'><rt-color-line-text color-icon='dark-blue'><template slot='label'>Мама мыла раму!</template><template slot='content'>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+                <pre-code text="<div class='app-row row color-block--dark-blue'><div class='rt-space-horizontal rt-space-vertical'><rt-color-line-text color-icon='light-blue'><template slot='label'>Мама мыла раму!</template><template slot='content'>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+                <pre-code text="<div class='app-row row color-block--dark-blue'><div class='rt-space-horizontal rt-space-vertical'><rt-color-line-text color-icon='yellow'><template slot='label'>Мама мыла раму!</template><template slot='content'>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+                <pre-code text="<div class='app-row row color-block--dark-blue'><div class='rt-space-horizontal rt-space-vertical'><rt-color-line-text color-icon='pink'><template slot='label'>Мама мыла раму!</template><template slot='content'>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+                <pre-code text="<div class='app-row row color-block--dark-blue'><div class='rt-space-horizontal rt-space-vertical'><rt-color-line-text color-icon='green'><template slot='label'>Мама мыла раму!</template><template slot='content'>Ваш дом всегда под контролем,  <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+                <pre-code text="<div class='app-row row color-block--dark-blue'><div class='rt-space-horizontal rt-space-vertical'><rt-color-line-text :is-white-color='true' color-icon='green' fill-color='purple'><template slot='label'>Мама мыла раму!</template><template slot='content'>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+                <pre-code text="<div class='app-row row'><div class='rt-space-horizontal rt-space-vertical'><rt-color-line-text :is-white-color='true' color-icon='green' fill-color='red'><template slot='label'>Мама мыла раму!</template><template slot='content'>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+                <pre-code text="<div class='app-row row'><div class='rt-space-horizontal rt-space-vertical'><rt-color-line-text :is-white-color='true' color-icon='green' fill-color='dark-blue'><template slot='label'>Мама мыла раму!</template><template slot='content'>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+                <pre-code text="<div class='app-row row'><div class='rt-space-horizontal rt-space-vertical'><rt-color-line-text :is-white-color='true' color-icon='green' fill-color='light-blue'><template slot='label'>Мама мыла раму!</template><template slot='content'>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+                <pre-code text="<div class='app-row row'><div class='rt-space-horizontal rt-space-vertical'><rt-color-line-text :is-white-color='true' color-icon='green' fill-color='yellow'><template slot='label'>Мама мыла раму!</template><template slot='content'>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+                <pre-code text="<div class='app-row row'><div class='rt-space-horizontal rt-space-vertical'><rt-color-line-text :is-white-color='true' color-icon='green' fill-color='pink'><template slot='label'>Мама мыла раму!</template><template slot='content'>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+                <pre-code text="<div class='app-row row'><div class='rt-space-horizontal rt-space-vertical'><rt-color-line-text :is-white-color='true' color-icon='red' fill-color='green'><template slot='label'>Смотри кино <br/>  и получай бонусы  <br/> от Сбербанка</template><template slot='content'>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template></rt-color-line-text></div></div>"/>
+
+                <div class="row">
+                    <div class="rt-col-4 rt-col-td-3 rt-col-md-3">
+                        <rt-color-line-text :is-advertise='true' :is-white-color='true' fill-color='purple'>
+                            <template slot="label">Мобильная связь <br>за счет интернета</template>
+                            <template slot="content"></template>
+                        </rt-color-line-text>
+                        <p class="rt-font-paragraph rt-space-bottom-half">и услуги с 50% скидкой</p>
+                        <rt-button class="rt-button-small rt-button-purple-border">Подробнее</rt-button>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="rt-space-top25">
             <div class="rt-col-12">
                 <div class="app-documentation">
-                    <div
-                            class="app-documentation__label rt-font-h4 rt-space-left05 rt-space-bottom2"
-                    >
+                    <div class="app-documentation__label rt-font-h4 rt-space-left05 rt-space-bottom2">
                         Possible options
                     </div>
                     <div class="app-documentation__row rt-font-bold rt-space-bottom05">
@@ -79,9 +56,7 @@
                         <div class="app-documentation__name rt-col-3">
                             component property
                         </div>
-                        <div
-                                class="app-documentation__value app-documentation__row rt-col-7"
-                        >
+                        <div class="app-documentation__value app-documentation__row rt-col-7">
                             <div class="app-documentation__value-item rt-col-3">
                                 property type
                             </div>
@@ -100,13 +75,9 @@
                         <div class="app-documentation__name rt-col-3">
                             :is-white-color
                         </div>
-                        <div
-                                class="app-documentation__value app-documentation__row rt-col-7"
-                        >
+                        <div class="app-documentation__value app-documentation__row rt-col-7">
                             <div class="app-documentation__value-item rt-col-3">
-                <span class="rt-code rt-font-label rt-code--component"
-                >Boolean</span
-                >
+                                <span class="rt-code rt-font-label rt-code--component">Boolean</span>
                             </div>
                             <div class="app-documentation__value-item rt-col-6">
                                 Указатель белого цвета
@@ -123,13 +94,9 @@
                         <div class="app-documentation__name rt-col-3">
                             fill-color
                         </div>
-                        <div
-                                class="app-documentation__value app-documentation__row rt-col-7"
-                        >
+                        <div class="app-documentation__value app-documentation__row rt-col-7">
                             <div class="app-documentation__value-item rt-col-3">
-                <span class="rt-code rt-font-label rt-code--component"
-                >String</span
-                >
+                                <span class="rt-code rt-font-label rt-code--component">String</span>
                             </div>
                             <div class="app-documentation__value-item rt-col-6">
                                 Цвет обводки текста <br>
@@ -154,13 +121,9 @@
                         <div class="app-documentation__name rt-col-3">
                             color-icon
                         </div>
-                        <div
-                                class="app-documentation__value app-documentation__row rt-col-7"
-                        >
+                        <div class="app-documentation__value app-documentation__row rt-col-7">
                             <div class="app-documentation__value-item rt-col-3">
-                <span class="rt-code rt-font-label rt-code--component"
-                >String</span
-                >
+                                <span class="rt-code rt-font-label rt-code--component">String</span>
                             </div>
                             <div class="app-documentation__value-item rt-col-6">
                                 Цвет заливки корешка <br>
@@ -191,10 +154,8 @@
         name: "AppColorLineText",
         components: componentsList,
 
-        mounted() {
-        },
-        created() {
-        },
+        mounted() {},
+        created() {},
         methods: {}
     };
 </script>
