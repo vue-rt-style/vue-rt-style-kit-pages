@@ -1,6 +1,6 @@
 # vue-rt-style-kit-pages
 
-[DEMO-стенд](https://vue-rt-style.github.io/vue-rt-style-kit-pages/docs/)
+[DEMO-стенд](https://vue-rt-style.github.io/vue-rt-style-kit-pages/)
 
 Для работы потребуются симлинки. Чтобы их создать запустите:
 
