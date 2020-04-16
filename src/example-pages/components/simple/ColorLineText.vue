@@ -35,7 +35,6 @@
                     <div class="rt-col-4 rt-col-td-3 rt-col-md-3">
                         <rt-color-line-text :is-advertise='true' :is-white-color='true' fill-color='purple'>
                             <template slot="label">Мобильная связь <br>за счет интернета</template>
-                            <template slot="content"></template>
                         </rt-color-line-text>
                         <p class="rt-font-paragraph rt-space-bottom-half">и услуги с 50% скидкой</p>
                         <rt-button class="rt-button-small rt-button-purple-border">Подробнее</rt-button>

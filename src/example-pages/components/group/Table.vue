@@ -147,8 +147,8 @@
                     Интернет
                   </rt-template>
                   <rt-template slot="columns">
-                    <rt-table-col :width-in-cols-desktop="10" :width-in-cols-tablet="4" :width-in-cols-mobile="3"/>
-                    <rt-table-col :width-in-cols-desktop="2" :width-in-cols-tablet="2" :width-in-cols-mobile="3"/>
+                    <rt-table-col :width-in-cols-desktop="10" :width-in-cols-tablet="4"/>
+                    <rt-table-col :width-in-cols-desktop="2" :width-in-cols-tablet="2"/>
                   </rt-template>
                   <rt-template slot="header">
                     <rt-table-head-item>Услуга</rt-table-head-item>
