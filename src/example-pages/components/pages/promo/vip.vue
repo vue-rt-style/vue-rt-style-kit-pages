@@ -1,8 +1,51 @@
 <template>
     <div class="wc-inline rt-space-top5">
-        <div class="rt-container">
-            <canvas class="point-space"></canvas>
+        <div class="rt-space-top4 rt-space-bottom4 color-block--forgame">
+            <div class="rt-container">
+                <div class="d-flex">
+                    <div class="rt-col-6 flex-start-center">
+                        <p class="rt-font-bold rt-font-h1 rt-space-bottom">Акция</p>
+                        <p class="color-white07">Специальные бонусы для абонентов  тарифа Игровой на период  с 5 апреля по 5 мая 2020 года!</p>
+                    </div>
+                    <div class="rt-col-6">
+                        <p class="rt-font-h3  rt-font-bold">При подключении</p>
+                        <div class="d-flex flex-start-center rt-space-top md-flex-start-top">
+                            <img src="/sites/default/files/img/forgame/4game-action-1-1.png" alt="">
+                            <div class="rt-space-left05">
+                                <p class="rt-font-label-uppercase color-white07">1 штука</p>
+                                <p>Уникальный скин «Милитари-Тарантула»</p>
+                            </div>
+                        </div>
+                        <p class="rt-font-h3  rt-font-bold rt-space-top-2">На 10 день</p>
+                        <div class="d-flex flex-start-center rt-space-top md-flex-start-top">
+                            <img src="/sites/default/files/img/forgame/4game-action-1-2.png" alt="">
+                            <div class="rt-space-left05">
+                                <p class="rt-font-label-uppercase color-white07">на 7 дней</p>
+                                <p>Клык динозавра Возрождение</p>
+                            </div>
+                        </div>
+                        <p class="rt-font-h3  rt-font-bold rt-space-top-2">На 20 день</p>
+                        <div class="d-flex flex-start-center rt-space-top md-flex-start-top">
+                            <img src="/sites/default/files/img/forgame/4game-action-1-3.png" alt="">
+                            <div class="rt-space-left05">
+                                <p class="rt-font-label-uppercase color-white07">на 7 дней</p>
+                                <p>P90 Возрождение </p>
+                            </div>
+                        </div>
+                        <p class="rt-font-h3  rt-font-bold rt-space-top-2">На 30 день</p>
+                        <div class="d-flex flex-start-center rt-space-top md-flex-start-top">
+                            <img src="/sites/default/files/img/forgame/4game-action-1-4.png" alt="">
+                            <div class="rt-space-left05">
+                                <p class="rt-font-label-uppercase color-white07">на 7 дней</p>
+                                <p>SC 2010 Возрождение </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
+
 
     </div>
     <!-- Описание -->
