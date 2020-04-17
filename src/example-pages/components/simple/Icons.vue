@@ -84,10 +84,12 @@
                       @click="() => { detailCopyType = iconType.type }"
                       :key="key"
                     >
-                      <div class="detail-type__el">
-                        <rt-icon :type="iconType.type" :size="iconType.style.substr(2,2)" />
+                      <div v-if="iconType.type">
+                        <div class="detail-type__el">
+                          <rt-icon :type="iconType.type" :size="iconType.style.substr(2,2)" />
+                        </div>
+                        <div class="detail-type__name">{{iconType.style.substr(1)}}</div>
                       </div>
-                      <div class="detail-type__name">{{iconType.style.substr(1)}}</div>
                     </div>
                   </div>
                 </div>
@@ -106,7 +108,6 @@
 
         <rt-annotation
           label="Пакет старых иконок"
-          :open="true"
           class="rt-space-top rt-space-bottom3"
         >
           <template slot="content">
@@ -701,20 +702,18 @@ export default {
       if (!iconEl) return
       if (this.selectedIcon === icon) {
         return this.detailIconClose()
-      } else if (this.detailViewEl) {
+      } else {
         this.detailIconClose()
+        this.$nextTick(() => {
+          this.detailCopyType = this.previewType(icon)
+          this.selectedIcon = icon
+          this.detailIconAppend(iconEl)
+        })
       }
-
-      this.detailCopyType = this.previewType(icon)
-      this.selectedIcon = icon
-
-      this.$nextTick(() => {
-        this.detailIconAppend(iconEl)
-      })
     },
     detailIconClose() {
       this.selectedIcon = null
-      if (this.detailViewEl && this.detailViewEl.parentElement) {
+      if (this.detailViewEl && this.detailViewEl.parentElement && this.detailViewReady) {
         this.detailViewEl.parentElement.removeChild(this.detailViewEl)
         this.detailViewEl = null
         this.detailViewReady = false
@@ -729,13 +728,15 @@ export default {
 
       this.detailViewEl = document.createElement('DIV')
       this.detailViewEl.className = 'rt-col-12 detail__view'
-      this.detailViewEl.style.height = `${this.$refs.detailEl.clientHeight}px`
       if (parent.contains(appendBeforeEl)) {
         parent.insertBefore(this.detailViewEl, appendBeforeEl)
       } else {
         parent.append(this.detailViewEl)
       }
-      this.detailViewReady = true
+      this.$nextTick(() => {
+        this.detailViewEl.style.height = `${this.$refs.detailEl.clientHeight}px`
+        this.detailViewReady = true
+      })
     },
     doSearch (e) {
       if (e !== this.searched) {
@@ -797,7 +798,7 @@ export default {
     margin-right 20px
     position absolute
     &__view
-      position absolute
+      position relative
     &__name
       background selectedBg
       padding space
@@ -806,7 +807,7 @@ export default {
       top space
       right space
     &__el
-      padding-left space
+      padding-left space * 3
       padding-top space * 2
     &__code
       padding-top 30px
