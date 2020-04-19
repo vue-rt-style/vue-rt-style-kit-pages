@@ -1,5 +1,5 @@
 <template>
-  <div class="vcod">
+  <div class="vcod is-b2b">
     <rt-banner has-custom-height="500px"
                content-mobile-height="400px">
       <rt-banner-item background-color="green-low">

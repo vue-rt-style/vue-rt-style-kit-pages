@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class=" is-b2c">
     <div
       class="half-color-block half-color-block--black-white half-color-block--full-height"
     >

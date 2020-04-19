@@ -8,7 +8,7 @@
           </div>
         </div>
 
-        <div class="rt-col-12 rt-col-td-6 rt-col-md-3">
+        <div class="rt-col-12 rt-col-td-6 rt-col-md-3 is-b2b">
           <div class="rt-space-bottom2 rt-td-space-bottom">
             <h1 class="rt-font-bold rt-space-bottom5">Помощь и поддержка</h1>
             <rt-row-list :is-help-block="true" class="rt-font-left">
@@ -112,7 +112,7 @@
             </div>
           </div>
         </div>
-        <div class="rt-col-12 rt-col-td-6 rt-col-md-3">
+        <div class="rt-col-12 rt-col-td-6 rt-col-md-3 is-b2b">
           <h3 class="rt-font-bold rt-space-bottom2 rt-td-space-bottom rt-md-space-top25">Не нашли что искали? Свяжитесь с нами</h3>
           <rt-row-list :is-help-block="true" class="rt-font-left">
             <rt-row-list-item icon="/static/images/B2B/help7.svg">

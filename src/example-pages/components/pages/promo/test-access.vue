@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper is-b2b">
     <div class="rt-space-top35">
       <pre-code
         text="<div class=&quot;test-access color-block--green-low color-white&quot;>

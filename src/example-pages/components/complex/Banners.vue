@@ -8,7 +8,7 @@
         </div>
       </div>
     </div>
-    <div class="rt-container">
+    <div class="rt-container is-b2b">
       <pre-code
         text='<div class="rt-col-12 rt-space-bottom2">
         <rt-banner
@@ -30,7 +30,7 @@
             </div>
           </rt-banner-item>
         </rt-banner>
-      </div>'></pre-code>
+      </div>'/>
     </div>
 
     <pre-code
@@ -105,16 +105,18 @@
       </rt-banner-item>
     </rt-banner>"
     />
-    <pre-code
-      text="<rt-banner :is-fullscreen-image='true' bannerLogo='/static/example-images/Logo.svg'
-                       content-height='100vh'>
-        <rt-banner-item background-image='/static/example-images/banerBackground1.jpg' :is-white-color='true'background-color='dark-state'>
-          <p class='rt-font-banner-label'>Виртуальная <br> телефония</p>
-          <p class='rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br> возможностьпользоваться из любой точки мира <br> и ни одного пропущенного звонка клиента</p>
-          <rt-button class='rt-button-orange'>Подробнее</rt-button>
-        </rt-banner-item>
-      </rt-banner>"
-    />
+    <div class="is-b2c">
+      <pre-code
+        text="<rt-banner :is-fullscreen-image='true' bannerLogo='/static/example-images/Logo.svg'
+                         content-height='100vh'>
+          <rt-banner-item background-image='/static/example-images/banerBackground1.jpg' :is-white-color='true'background-color='dark-state'>
+            <p class='rt-font-banner-label'>Виртуальная <br> телефония</p>
+            <p class='rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br> возможностьпользоваться из любой точки мира <br> и ни одного пропущенного звонка клиента</p>
+            <rt-button class='rt-button-orange'>Подробнее</rt-button>
+          </rt-banner-item>
+        </rt-banner>"
+      />
+    </div>
     <pre-code
       text="<rt-banner :sleep-time='10000'
     content-mobile-min-height='100px'
@@ -196,76 +198,76 @@
         </rt-banner-item>
       </rt-banner>
     "/>
-    <pre-code
-      text="<rt-banner :switch-off-timer='true'
-                       :fixed-image='true'
-                       :is-fullscreen-image='true'
-                       content-height='600px'
-                       :without-empty-column='true'
-                       :without-second-empty-column='true'
-                       justify='left'
-                       content-mobile-height='500px'>
-      <rt-banner-item background-image='/static/images/windows.jpg'
-                      :is-white-color='true'>
-          <p class='tagline color-orange rt-space-bottom05'>сервис или продукт</p>
-          <rt-color-line-text color-icon='orange' fill-color='dark-blue'>
-            <template slot='label'>Виртуальная <br> телефония</template>
-            <template slot='content'>Быстрое подключение без трат на оборудование,<br>
-      возможность пользоваться из любой точки мира <br> и ни одного пропущенного звонка клиента</template>
-    </rt-color-line-text>
-    <rt-button class='rt-button-orange'>Подробнее</rt-button>
-    </rt-banner-item>
-    </rt-banner>
-    "/>
-    <div class="rt-space-bottom95-half">
+    <div class="rt-space-vertical is-b2c">
+      <pre-code
+        text="<rt-banner :switch-off-timer='true'
+                         :fixed-image='true'
+                         :is-fullscreen-image='true'
+                         content-height='600px'
+                         :without-empty-column='true'
+                         :without-second-empty-column='true'
+                         justify='left'
+                         content-mobile-height='500px'>
+        <rt-banner-item background-image='/static/images/windows.jpg'
+                        :is-white-color='true'>
+            <p class='tagline color-orange rt-space-bottom05'>сервис или продукт</p>
+            <rt-color-line-text color-icon='orange' fill-color='dark-blue'>
+              <template slot='label'>Виртуальная <br> телефония</template>
+              <template slot='content'>Быстрое подключение без трат на оборудование,<br>
+        возможность пользоваться из любой точки мира <br> и ни одного пропущенного звонка клиента</template>
+      </rt-color-line-text>
+      <rt-button class='rt-button-orange'>Подробнее</rt-button>
+      </rt-banner-item>
+      </rt-banner>
+      "/>
       <div class="rt-space-bottom95-half">
-        <div class="rt-space-bottom4">
-          <rt-banner :sleep-time="30000" :is-fullscreen-image="true" content-height="470px" :is-background-banner="true"
-                     :has-custom-content="true">
-            <rt-banner-item is-game-banner-item background-video="/static/video/Trailer_Warface_Annoucement_20180628_4000.mp4"
-                            :is-white-color="true" background-color="dark-state"
-            />
-          </rt-banner>
+        <div class="rt-space-bottom95-half">
+          <div class="rt-space-bottom4">
+            <rt-banner :sleep-time="30000" :is-fullscreen-image="true" content-height="470px" :is-background-banner="true"
+                       :has-custom-content="true">
+              <rt-banner-item is-game-banner-item background-video="/static/video/Trailer_Warface_Annoucement_20180628_4000.mp4"
+                              :is-white-color="true" background-color="dark-state"
+              />
+            </rt-banner>
+          </div>
         </div>
       </div>
+      <pre-code text="<rt-banner :is-fullscreen-image='true' :sleep-time='30000' content-height='100vh' content-mobile-min-height='100vh' content-mobile-height='400px'>
+      <rt-banner-item background-video='https://qq.webrtc.win/tv/Pear-Demo-Yosemite_National_Park.mp4'
+                      :slide-time='50000'
+                      link-target='_blank'
+                      link='https://www.google.co.uk/search?q=yosemite+national+park'
+                      :is-white-color='true' background-color='dark-state'>
+        <rt-color-line-text label-color='red' content-color='red'>
+          <template slot='label'>Расширяя границы</template>
+          <template slot='content'>Высокоскоростной интернет теперь повсюду</template>
+        </rt-color-line-text>
+        <rt-button class='rt-button-orange'>Подробнее</rt-button>
+      </rt-banner-item>
+      <rt-banner-item background-color='yellow'
+                      background-image='/static/example-images/banerBackground2.jpg'
+                      :slide-time='2000'>
+        <rt-color-line-text>
+          <template slot='label'>Помогаем бизнесу <br> экономить</template>
+          <template slot='content'>Цифровые сервисы и технологии по выгодным ценам для среднего и малогобизнеса
+          </template>
+        </rt-color-line-text>
+        <rt-button class='rt-button-orange'>Подробнее</rt-button>
+      </rt-banner-item>
+      <rt-banner-item link='https://www.google.co.uk/search?q=ElephantsDream'
+                      background-video='http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'
+                      :is-white-color='true'
+                      background-color='orange'
+                      :slide-time='30000'>
+        <rt-color-line-text color-icon='purple'>
+          <template slot='label'>Wink</template>
+          <template slot='content'>Более 200 ТВ-каналов, тысячи фильмов и сериалов в одном приложении</template>
+        </rt-color-line-text>
+        <rt-button class='rt-button-purple'>Подробнее</rt-button>
+      </rt-banner-item>
+    </rt-banner>"/>
     </div>
-    <pre-code
-    text="
-      <rt-banner :is-fullscreen-image='true' :sleep-time='30000' content-height='100vh' content-mobile-min-height='100vh' content-mobile-height='400px'>
-        <rt-banner-item background-video='https://qq.webrtc.win/tv/Pear-Demo-Yosemite_National_Park.mp4'
-                        :slide-time='50000'
-                        link-target='_blank'
-                        link='https://www.google.co.uk/search?q=yosemite+national+park'
-                        :is-white-color='true' background-color='dark-state'>
-          <rt-color-line-text label-color='red' content-color='red'>
-            <template slot='label'>Расширяя границы</template>
-            <template slot='content'>Высокоскоростной интернет теперь повсюду</template>
-          </rt-color-line-text>
-          <rt-button class='rt-button-orange'>Подробнее</rt-button>
-        </rt-banner-item>
-        <rt-banner-item background-color='yellow'
-                        background-image='/static/example-images/banerBackground2.jpg'
-                        :slide-time='2000'>
-          <rt-color-line-text>
-            <template slot='label'>Помогаем бизнесу <br> экономить</template>
-            <template slot='content'>Цифровые сервисы и технологии по выгодным ценам для среднего и малогобизнеса
-            </template>
-          </rt-color-line-text>
-          <rt-button class='rt-button-orange'>Подробнее</rt-button>
-        </rt-banner-item>
-        <rt-banner-item link='https://www.google.co.uk/search?q=ElephantsDream'
-                        background-video='http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'
-                        :is-white-color='true'
-                        background-color='orange'
-                        :slide-time='30000'>
-          <rt-color-line-text color-icon='purple'>
-            <template slot='label'>Wink</template>
-            <template slot='content'>Более 200 ТВ-каналов, тысячи фильмов и сериалов в одном приложении</template>
-          </rt-color-line-text>
-          <rt-button class='rt-button-purple'>Подробнее</rt-button>
-        </rt-banner-item>
-      </rt-banner>
-    "/>
+
     <rt-banner :is-fullscreen-image="true" content-height="500px">
       <rt-banner-item :is-white-color="true"
                       background-image="/static/images/B2B/ArtboardCopy.png"
@@ -283,7 +285,7 @@
                   :is-option="true"
                   time-interval="в минуту"
                   class='color-white'
-                  show-float='true'
+                  :show-float='true'
                   :is-time-interval-bottom="true"/>
         <div class="rt-md-space-bottom"/>
       </rt-banner-item>

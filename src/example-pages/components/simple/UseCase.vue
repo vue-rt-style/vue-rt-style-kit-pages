@@ -6,7 +6,7 @@
           Spinning Cards
         </h1>
       </div>
-      <div class="app-body">
+      <div class="app-body is-b2b">
         <rt-real-popup>
           <template>
             <div class="row">

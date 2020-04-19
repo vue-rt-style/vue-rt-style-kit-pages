@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="app-body">
-        <div class="row">
+        <div class="row is-b2c">
           <div class="rt-col-12">
             <div id="one" class="color-block--red" style="height: 100vh; margin-top: 100vh"></div>
             <div id="two" class="color-block--pink" style="height: 100vh;"></div>

@@ -13,7 +13,7 @@
             <pre-code
               text='<rt-checkbox-tabs>
               <template slot="label">
-                  <span>Я являюсь клиентов данной организации</span>
+                  <span>Я являюсь клиентом данной организации</span>
               </template>
               <template slot="content">
                 <div class="rt-space-top2">
@@ -31,7 +31,7 @@
             <pre-code
               text='<rt-checkbox-tabs :hide-not-active="true">
               <template slot="label">
-                  <span>Я являюсь клиентов данной организации</span>
+                  <span>Я являюсь клиентом данной организации</span>
               </template>
               <template slot="content">
                 <div class="rt-space-top2">

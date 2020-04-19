@@ -9,7 +9,7 @@
         </div>
       </div>
     </div>
-    <div class="app-body">
+    <div class="app-body is-b2c">
 
       <pre-code
         text='

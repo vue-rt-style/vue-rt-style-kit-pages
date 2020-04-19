@@ -1,5 +1,5 @@
 <template>
-    <div class="wc-inline rt-space-top5">
+    <div class="wc-inline rt-space-top5 is-b2c">
         <div class="rt-space-top4 rt-space-bottom4 color-block--forgame">
             <div class="rt-container">
                 <div class="d-flex">

@@ -66,7 +66,7 @@
 }
 </style>
 <template>
-  <div>
+  <div class=" is-b2c">
     <div class="wc-inline">
       <rt-banner
         :is-fullscreen-image="true"

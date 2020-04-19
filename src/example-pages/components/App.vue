@@ -44,22 +44,21 @@
                 return classes.join(' ')
             },
             appWrapperClasses() {
-                const clasess = ['app-wrapper']
+                const classes = ['app-wrapper'];
                 switch (true) {
 
                     case this.siteStatus === 'b2c':
-                        clasess.push('show-b2c');
-
+                        classes.push('show-b2c');
                         break;
                     case this.siteStatus === 'b2b':
-                        clasess.push('show-b2b')
+                        classes.push('show-b2b');
                         break;
                     case this.siteStatus === 'joint':
-                        clasess.push('show-b2c');
-                        clasess.push('show-b2b');
+                        classes.push('show-b2c');
+                        classes.push('show-b2b');
                         break;
                 }
-                return clasess.join(' ')
+                return classes.join(' ')
             },
             gridClasses() {
                 const classes = ["grid", "app-container", "rt-container"];

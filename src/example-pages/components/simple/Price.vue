@@ -6,70 +6,53 @@
         <div class="is-b2c">
           <div class="row">
             <div class="rt-col-4 rt-col-md-3">
-              <pre-code
-                text="<rt-price :value='750.2' :old-value='666.2234' currency='$' />"
-              />
+              <pre-code text="<rt-price :value='750.2' :old-value='666.2234' currency='$'/>"/>
             </div>
             <div class="rt-col-4 rt-col-md-3 rt-md-space-top">
-              <pre-code
-                text="<rt-price :value='750.231' :old-value='123.2' />"
-              />
+              <pre-code text="<rt-price :value='750.231' :old-value='123.2'/>"/>
             </div>
             <div class="rt-col-4 rt-col-md-3 rt-md-space-top">
-              <pre-code
-                text="<rt-price :show-float='true' :value='18750.32' :old-value='123.2' />"
-              />
+              <pre-code text="<rt-price :show-float='true' :value='18750.32' :old-value='123.2'/>"/>
             </div>
             <div class="rt-col-4 rt-col-md-3 rt-md-space-top">
-              <pre-code text="<rt-price :value='750.231' />" />
+              <pre-code text="<rt-price :value='750.231'/>"/>
             </div>
           </div>
 
           <div class="row rt-space-top">
             <div class="rt-col-4 rt-col-md-3">
-              <pre-code
-                text="<rt-price :value='69' option-label='До' :is-option='true' currency='€' />"
-              />
+              <pre-code text="<rt-price :value='69' option-label='До' :is-option='true' currency='€'/>"/>
             </div>
             <div class="rt-col-4 rt-col-md-3 rt-md-space-top">
-              <pre-code
-                text="<rt-price :value='750.231' time-interval='час.' />"
-              />
+              <pre-code text="<rt-price :value='750.231' time-interval='час.'/>"/>
             </div>
           </div>
           <div class="row rt-space-top">
             <div class="rt-col-16 rt-col-md-3">
-              <pre-code
-                text="<rt-price :value='1231223169' :is-option='true' currency='€' />"
-              />
+              <pre-code text="<rt-price :value='1231223169' :is-option='true' currency='€'/>"/>
             </div>
           </div>
           <div class="row rt-space-top">
             <div class="rt-col-8 rt-col-md-3">
-              <pre-code
-                text="<rt-price :value='1231223169' :only-price='true' currency='€' />"
-              />
+              <pre-code text="<rt-price :value='1231223169' :only-price='true' currency='€'/>"/>
             </div>
             <div class="rt-col-8 rt-col-md-3">
-              <pre-code
-                text="<rt-price :value='1231223169' :old-value='666' :only-price='true' currency='€' />"
-              />
+              <pre-code text="<rt-price :value='1231223169' :old-value='666' :only-price='true' currency='€'/>"/>
             </div>
           </div>
           <div class="row rt-space-top">
             <div class="rt-col-16 rt-col-md-3">
-              <pre-code
-                text="<div><rt-price :for-game='true' class='color-orange' :value='800' time-interval='сек' currency='Мбит' /><rt-price :bold-option='true' class='color-white' :for-game='true' :value='800' time-interval='сек' currency='Мбит' /></div>"
-              />
+              <pre-code text="<div>
+                <rt-price :for-game='true' class='color-orange' :value='800' time-interval='сек' currency='Мбит'/>
+                <rt-price :bold-option='true' class='color-white' :for-game='true' :value='800' time-interval='сек' currency='Мбит'/>
+              </div>"/>
             </div>
           </div>
         </div>
         <div class="is-b2b">
           <div class="row rt-space-top">
             <div class="rt-col-4 rt-col-md-3">
-              <pre-code
-                text="<rt-price old-price-color='red' :old-value='2500' :value='400.30' :is-option='false' currency='₽' :b2bPrice='true' time-interval='в месяц' class='color-main09' show-float='true' :trim-hundredth='true'/>"
-              />
+              <pre-code text="<rt-price old-price-color='red' :old-value='2500' :value='400.30' :is-option='false' currency='₽' :b2bPrice='true' time-interval='в месяц' class='color-main09' :show-float='true' :trim-hundredth='true'/>"/>
             </div>
           </div>
           <div class="row rt-space-top">

@@ -8,7 +8,7 @@
         </div>
       </div>
     </div>
-    <div class="rt-container">
+    <div class="rt-container is-b2c">
       <div class="rt-col-12 rt-space-bottom2">
         <pre-code text='<rt-slide-content>
           <template slot="label">

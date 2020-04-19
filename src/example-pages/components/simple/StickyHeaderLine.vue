@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="app-body">
-                <div class="row">
+                <div class="row  is-b2c">
                     <div class="rt-col-12">
                         <div class="flex-end-center">
                             <div class="d-inline-block">
@@ -83,7 +83,7 @@
                         </rt-sticky-header-line>
                     </div>
                 </div>
-                <div class="app-content rt-col-12 rt-col-md-3 rt-space-top3">
+                <div class="app-content rt-col-12 rt-col-md-3 rt-space-top3 is-b2c">
                     <pre style="font-family: Menlo;"><span
                             style="color:#e8bf6a;">&lt;rt-sticky-header-line </span><span style="color:#bababa;">top-offset-height-elemement-selector</span><span
                             style="color:#a5c261;">=".app-header"<br></span><span
@@ -104,7 +104,7 @@
                             style="color:#e8bf6a;">    &lt;/div&gt;<br></span><span style="color:#e8bf6a;">&lt;/rt-sticky-header-line&gt;</span></pre>
                     <documentation-builder :json="documentation" type="components"/>
                 </div>
-                <div class="app-content rt-col-12 rt-col-md-3 rt-space-top3">
+                <div class="app-content rt-col-12 rt-col-md-3 rt-space-top3 is-b2c">
                     <pre style="color:#a9b7c6;font-family:'Menlo';font-size:9,0pt;"><span style="color:#e8bf6a;">&lt;rt-sticky-header-line </span><span
                             style="color:#bababa;">:is-invisible</span><span style="color:#a5c261;">="</span>true<span
                             style="color:#a5c261;">"<br></span><span
@@ -125,17 +125,19 @@
                             style="color:#e8bf6a;">&gt;</span>Оставить заявку<span style="color:#e8bf6a;">&lt;/rt-button&gt;<br></span><span
                             style="color:#e8bf6a;">    &lt;/div&gt;<br></span><span style="color:#e8bf6a;">&lt;/rt-sticky-header-line&gt;</span></pre>
                 </div>
-                <rt-card background-image='/static/example-images/cardBackground5.png' background-position='bottom-right' :col-size='2'>
-                    <rt-template slot='content'>
-                        <p class='rt-font-label'>стоимость покупки</p>
-                        <rt-price :value='1480' :only-price='true' />
-                    </rt-template>
-                    <rt-template slot='footer'>
-                        <p class='rt-font-paragraph rt-font-bold'>Звоните по новому</p>
-                        <p class='rt-font-paragraph rt-space-top05 rt-space-bottom'>Беспроцентная рассрочка на смартфоны Samsung Galaxy S8 для абонентов Ростелекома</p>
-                        <p class='rt-space-top'>Условия акции</p>
-                    </rt-template>
-                </rt-card>
+                <div class="is-b2c">
+                    <rt-card background-image='/static/example-images/cardBackground5.png' background-position='bottom-right' :col-size='2'>
+                        <rt-template slot='content'>
+                            <p class='rt-font-label'>стоимость покупки</p>
+                            <rt-price :value='1480' :only-price='true' />
+                        </rt-template>
+                        <rt-template slot='footer'>
+                            <p class='rt-font-paragraph rt-font-bold'>Звоните по новому</p>
+                            <p class='rt-font-paragraph rt-space-top05 rt-space-bottom'>Беспроцентная рассрочка на смартфоны Samsung Galaxy S8 для абонентов Ростелекома</p>
+                            <p class='rt-space-top'>Условия акции</p>
+                        </rt-template>
+                    </rt-card>
+                </div>
                 <div class="app-content rt-col-12 rt-col-md-3 rt-space-top3">
                     <pre style="font-family: Menlo;"><span
                             style="color:#e8bf6a;">&lt;rt-sticky-header-line </span><span style="color:#bababa;">top-offset-height-elemement-selector</span><span

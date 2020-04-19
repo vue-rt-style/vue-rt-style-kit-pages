@@ -12,65 +12,47 @@
         <div class="rt-row rt-space-bottom">
           <pre-code
             text="<rt-logo-co-branding>
-              <template slot=&quot;firstLogo&quot;><rt-logo width=&quot;38px&quot; height=&quot;64px&quot; tablet-width=&quot;5vw&quot; mobile-width=&quot;100px&quot;></rt-logo></template>
-              <template slot=&quot;secondLogo&quot;><rt-logo width=&quot;121px&quot; height=&quot;auto&quot; tablet-width=&quot;5vw&quot; type=&quot;dr-web&quot; mobile-width=&quot;100px&quot; color=&quot;#69B548&quot;></rt-logo></template>
+              <template slot='firstLogo'><rt-logo width='38px' height='64px' tablet-width='5vw' mobile-width='100px'></rt-logo></template>
+              <template slot='secondLogo'><rt-logo width='121px' height='auto' tablet-width='5vw' type='dr-web' mobile-width='100px' color='#69B548'></rt-logo></template>
             </rt-logo-co-branding>"
           />
         </div>
 
         <div class="rt-row">
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo show-text="true" width="9px" height="16px" />'></pre-code>
+            <pre-code text='<rt-logo show-text="true" width="9px" height="16px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="14px" show-text="true" height="24px" />'></pre-code>
+            <pre-code text='<rt-logo width="14px" show-text="true" height="24px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="19px" show-text="true" height="32px" />'></pre-code>
+            <pre-code text='<rt-logo width="19px" show-text="true" height="32px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="24px" show-text="true" height="40px" />'></pre-code>
+            <pre-code text='<rt-logo width="24px" show-text="true" height="40px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="30px" show-text="true" height="50px" />'></pre-code>
+            <pre-code text='<rt-logo width="30px" show-text="true" height="50px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo
-              width="36px"
-              show-text="true"
-              tablet-width="5vw"
-              type="dr-web"
-              mobile-width="100px"
-              height="60px"
-            />'></pre-code>
+            <pre-code text='<rt-logo width="36px" show-text="true" tablet-width="5vw" type="dr-web" mobile-width="100px" height="60px"/>'/>
           </div>
         </div>
         <div class="rt-row">
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo only-text="true" width="9px" height="16px" />'></pre-code>
+            <pre-code text='<rt-logo only-text="true" width="9px" height="16px" />'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="14px" only-text="true" height="24px" />'></pre-code>
+            <pre-code text='<rt-logo width="14px" only-text="true" height="24px" />'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="19px" only-text="true" height="32px" />'></pre-code>
+            <pre-code text='<rt-logo width="19px" only-text="true" height="32px" />'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="24px" only-text="true" height="40px" />'></pre-code>
+            <pre-code text='<rt-logo width="24px" only-text="true" height="40px" />'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="30px" only-text="true" height="50px" />'></pre-code>
+            <pre-code text='<rt-logo width="30px" only-text="true" height="50px" />'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
@@ -80,8 +62,7 @@
               tablet-width="5vw"
               type="dr-web"
               mobile-width="100px"
-              height="60px"
-            />'></pre-code>
+              height="60px"/>'/>
           </div>
         </div>
 
@@ -92,8 +73,7 @@
               english-theme="true"
               show-text="true"
               width="9px"
-              height="16px"
-            />'></pre-code>
+              height="16px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
@@ -101,8 +81,7 @@
               width="14px"
               english-theme="true"
               show-text="true"
-              height="24px"
-            />'></pre-code>
+              height="24px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
@@ -110,8 +89,7 @@
               width="19px"
               english-theme="true"
               show-text="true"
-              height="32px"
-            />'></pre-code>
+              height="32px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
@@ -119,8 +97,7 @@
               width="24px"
               english-theme="true"
               show-text="true"
-              height="40px"
-            />'></pre-code>
+              height="40px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
@@ -128,8 +105,7 @@
               width="30px"
               english-theme="true"
               show-text="true"
-              height="50px"
-            />'></pre-code>
+              height="50px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
@@ -140,8 +116,7 @@
               tablet-width="5vw"
               type="dr-web"
               mobile-width="100px"
-              height="60px"
-            />'></pre-code>
+              height="60px"/>'/>
           </div>
         </div>
         <div class="rt-row">
@@ -151,8 +126,7 @@
               english-theme="true"
               only-text="true"
               width="9px"
-              height="16px"
-            />'></pre-code>
+              height="16px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
@@ -160,8 +134,7 @@
               width="14px"
               english-theme="true"
               only-text="true"
-              height="24px"
-            />'></pre-code>
+              height="24px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
@@ -169,8 +142,7 @@
               width="19px"
               english-theme="true"
               only-text="true"
-              height="32px"
-            />'></pre-code>
+              height="32px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
@@ -178,8 +150,7 @@
               width="24px"
               english-theme="true"
               only-text="true"
-              height="40px"
-            />'></pre-code>
+              height="40px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
@@ -187,8 +158,7 @@
               width="30px"
               english-theme="true"
               only-text="true"
-              height="50px"
-            />'></pre-code>
+              height="50px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
@@ -199,46 +169,36 @@
               tablet-width="5vw"
               type="dr-web"
               mobile-width="100px"
-              height="60px"
-            />'></pre-code>
+              height="60px"/>'/>
           </div>
         </div>
         <div class="rt-row">
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="9px" height="16px" />'></pre-code>
+            <pre-code text='<rt-logo width="9px" height="16px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="14px" height="24px" />'></pre-code>
+            <pre-code text='<rt-logo width="14px" height="24px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="19px" height="32px" />'></pre-code>
+            <pre-code text='<rt-logo width="19px" height="32px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="24px" height="40px" />'></pre-code>
+            <pre-code text='<rt-logo width="24px" height="40px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="30px" height="50px" />'></pre-code>
+            <pre-code text='<rt-logo width="30px" height="50px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="36px" height="60px" />'></pre-code>
+            <pre-code text='<rt-logo width="36px" height="60px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="38px" height="64px" />'></pre-code>
+            <pre-code text='<rt-logo width="38px" height="64px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="60px" height="100px" />'></pre-code>
+            <pre-code text='<rt-logo width="60px" height="100px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo width="121px" height="200px" />'></pre-code>
+            <pre-code text='<rt-logo width="121px" height="200px"/>'/>
           </div>
         </div>
         <div class="rt-row rt-space-top">
@@ -247,12 +207,10 @@
               text='<rt-logo
               top-fill-color="b2c-purple-high"
               width="9px"
-              height="16px"
-            />'></pre-code>
+              height="16px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo top-fill-color="b2c-pink" width="14px" height="24px" />'></pre-code>
+            <pre-code text='<rt-logo top-fill-color="b2c-pink" width="14px" height="24px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
@@ -260,8 +218,7 @@
               top-fill-color="b2c-pink"
               bottom-fill-color="b2c-purple-low"
               width="19px"
-              height="32px"
-            />'></pre-code>
+              height="32px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
@@ -269,8 +226,7 @@
               top-fill-color="b2c-light-blue"
               bottom-fill-color="b2c-green"
               width="24px"
-              height="40px"
-            />'></pre-code>
+              height="40px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
@@ -278,201 +234,148 @@
               top-fill-color="b2c-light-blue"
               bottom-fill-color="b2c-green"
               width="30px"
-              height="50px"
-            />'></pre-code>
+              height="50px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
               text='<rt-logo
-              top-fill-color="b2b-state"
+              top-fill-color="b2c-slate"
               bottom-fill-color="b2c-green"
               width="36px"
               height="60px"
-            />'></pre-code>
+            />'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
               text='<rt-logo
-              top-fill-color="b2b-state"
+              top-fill-color="b2c-slate"
               bottom-fill-color="b2c-green"
               width="38px"
-              height="64px"
-            />'></pre-code>
+              height="64px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
               text='<rt-logo
-              top-fill-color="b2b-state"
+              top-fill-color="b2c-slate"
               bottom-fill-color="b2c-green"
               width="60px"
-              height="100px"
-            />'></pre-code>
+              height="100px"/>'/>
           </div>
           <div class="d-inline-block rt-space-right">
             <pre-code
               text='<rt-logo
-              top-fill-color="b2b-state"
+              top-fill-color="b2c-slate"
               bottom-fill-color="b2c-green"
               width="121px"
-              height="200px"
-            />'></pre-code>
+              height="200px"/>'/>
           </div>
         </div>
         <div class="rt-row rt-space-top">
           <div class="d-inline-block rt-space-right">
-            <pre-code text="<rt-logo></rt-logo>" />
+            <pre-code text="<rt-logo></rt-logo>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo  top-fill-color=&quot;b2b-state&quot;  bottom-fill-color=&quot;b2c-green&quot;  width=&quot;121px&quot; height=&quot;200px&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo top-fill-color='b2c-slate' bottom-fill-color='b2c-green' width='121px' height='200px'/>"/>
           </div>
         </div>
 
-        <div class="rt-row rt-space-top">
+        <div class="rt-row rt-space-top is-b2c">
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text='<rt-logo type="dr-web" />'></pre-code>
-            <pre-code text="<rt-logo type=&quot;dr-web&quot;></rt-logo>">
-</pre-code>
+            <pre-code text='<rt-logo type="dr-web"/>'/>
+            <pre-code text="<rt-logo type='dr-web'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo background=&quot;#ffffff&quot; color=&quot;#69B548&quot; type=&quot;dr-web&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo background='#ffffff' color='#69B548' type='dr-web'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo background=&quot;#69B548&quot; color=&quot;#ffffff&quot; type=&quot;dr-web&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo background='#69B548' color='#ffffff' type='dr-web'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo background=&quot;#020303&quot; color=&quot;#ffffff&quot; type=&quot;dr-web&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo background='#020303' color='#ffffff' type='dr-web'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo background=&quot;none&quot; color=&quot;#020303&quot; type=&quot;dr-web&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo background='none' color='#020303' type='dr-web'/>"/>
           </div>
         </div>
 
-        <div class="rt-row rt-space-top">
+        <div class="rt-row rt-space-top is-b2c">
           <div class="d-inline-block rt-space-right">
-            <pre-code text="<rt-logo type=&quot;eset&quot;></rt-logo>">
-</pre-code>
+            <pre-code text="<rt-logo type='eset'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo background=&quot;#ffffff&quot; color=&quot;#69B548&quot; type=&quot;eset&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo background='#ffffff' color='#69B548' type='eset'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo background=&quot;none&quot; color=&quot;#00717F&quot; type=&quot;eset&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo background='none' color='#00717F' type='eset'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo background=&quot;none&quot; color=&quot;#020303&quot; type=&quot;eset&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo background='none' color='#020303' type='eset'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo background=&quot;none&quot; color=&quot;#0096A1&quot; center-color=&quot;#006C7A&quot; bottom-color=&quot;#fff000&quot; type=&quot;eset&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo background='none' color='#0096A1' center-color='#006C7A' bottom-color='#fff000' type='eset'/>"/>
           </div>
         </div>
 
-        <div class="rt-row rt-space-top">
+        <div class="rt-row rt-space-top is-b2c">
           <div class="d-inline-block rt-space-right">
-            <pre-code text="<rt-logo type=&quot;wargaming&quot;></rt-logo>">
-</pre-code>
+            <pre-code text="<rt-logo type='wargaming'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo color=&quot;#00717F&quot; type=&quot;wargaming&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo color='#00717F' type='wargaming'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo color=&quot;#020303&quot; type=&quot;wargaming&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo color='#020303' type='wargaming'/>"/>
           </div>
         </div>
-        <div class="rt-row rt-space-top">
+        <div class="rt-row rt-space-top is-b2c">
           <div class="d-inline-block rt-space-right">
-            <pre-code text="<rt-logo type=&quot;world-of-tanks&quot;></rt-logo>">
+            <pre-code text="<rt-logo type='world-of-tanks'/>"/>
+          </div>
+          <div class="d-inline-block rt-space-right">
+            <pre-code text="<rt-logo color='#00717F' type='world-of-tanks'/>"/>
+          </div>
+          <div class="d-inline-block rt-space-right">
+            <pre-code text="<rt-logo color='#020303' type='world-of-tanks'/>"/>
+          </div>
+        </div>
+
+        <div class="rt-row rt-space-top is-b2c">
+          <div class="d-inline-block rt-space-right">
+            <pre-code text="<rt-logo type='world-of-warships'/>">
             </pre-code>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo color=&quot;#00717F&quot; type=&quot;world-of-tanks&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo color='#00717F' type='world-of-warships'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo color=&quot;#020303&quot; type=&quot;world-of-tanks&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo color='#020303' type='world-of-warships'/>"/>
           </div>
         </div>
-
-        <div class="rt-row rt-space-top">
+        <div class="rt-row rt-space-top is-b2c">
           <div class="d-inline-block rt-space-right">
-            <pre-code text="<rt-logo type=&quot;world-of-warships&quot;></rt-logo>">
-            </pre-code>
+            <pre-code text="<rt-logo type='world-of-warplanets'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo color=&quot;#00717F&quot; type=&quot;world-of-warships&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo color='#00717F' type='world-of-warplanets'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo color=&quot;#020303&quot; type=&quot;world-of-warships&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo color='#020303' type='world-of-warplanets'/>"/>
           </div>
         </div>
-        <div class="rt-row rt-space-top">
+        <div class="rt-row rt-space-top is-b2c">
           <div class="d-inline-block rt-space-right">
-            <pre-code text="<rt-logo type=&quot;world-of-warplanets&quot;></rt-logo>">
-            </pre-code>
+            <pre-code text="<rt-logo type='4-game-main'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo color=&quot;#00717F&quot; type=&quot;world-of-warplanets&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo color='#00717F' type='4-game-main'/>"/>
           </div>
           <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo color=&quot;#020303&quot; type=&quot;world-of-warplanets&quot;></rt-logo>"
-            />
-          </div>
-        </div>
-        <div class="rt-row rt-space-top">
-          <div class="d-inline-block rt-space-right">
-            <pre-code text="<rt-logo type=&quot;4-game-main&quot;></rt-logo>">
-</pre-code>
-          </div>
-          <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo color=&quot;#00717F&quot; type=&quot;4-game-main&quot;></rt-logo>"
-            />
-          </div>
-          <div class="d-inline-block rt-space-right">
-            <pre-code
-              text="<rt-logo color=&quot;#020303&quot; type=&quot;4-game-main&quot;></rt-logo>"
-            />
+            <pre-code text="<rt-logo color='#020303' type='4-game-main'/>"/>
           </div>
           <div class="color-block--black rt-space-vertical">
             <div class="d-inline-block rt-space-right">
-              <pre-code
-                text="<rt-logo color=&quot;#FFFFFF&quot; type=&quot;game-logo&quot;></rt-logo>"
-              />
-              <pre-code
-                text="<rt-logo color=&quot;#FFFFFF&quot; type=&quot;warface&quot;></rt-logo>"
-              />
+              <pre-code text="<rt-logo color='#FFFFFF' type='game-logo'/>"/>
+              <pre-code text="<rt-logo color='#FFFFFF' type='warface'/>"/>
             </div>
           </div>
         </div>

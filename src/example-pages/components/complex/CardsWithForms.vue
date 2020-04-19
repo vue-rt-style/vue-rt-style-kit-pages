@@ -10,7 +10,7 @@
       </div>
       <div class="app-body">
         <div class="row">
-          <div class="rt-col-12">
+          <div class="rt-col-12 is-b2c">
             <rt-card-buy
               v-rt-slide-content-vertical="{
                 scrollWhenActive: true,
@@ -36,12 +36,8 @@
                           alt=""
                         />
                       </div>
-                      <div
-                        class="flex-center-bottom flex-fill md-d-block rt-font-center"
-                      >
-                        <p
-                          class="rt-font-center color-main03 rt-font-label rt-space-top05"
-                        >
+                      <div class="flex-center-bottom flex-fill md-d-block rt-font-center">
+                        <p class="rt-font-center color-main03 rt-font-label rt-space-top05">
                           Необходим контроллер
                         </p>
                       </div>
@@ -203,7 +199,7 @@
             </rt-card-buy>
           </div>
         </div>
-        <div class="rt-space-top">
+        <div class="rt-space-top is-b2c">
           <div class="row">
             <div class="rt-col-6">
               <rt-card-buy>

@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="app-body">
-        <div class="row">
+        <div class="row is-b2c">
           <div class="rt-col-12">
             <h4 class="rt-font-h3  rt-space-top25">
               Simple tags
@@ -42,7 +42,7 @@
             </h4>
             <!-- <pre-code text=' -->
             <rt-filter>
-              <rt-tag-list class="row">
+              <rt-tag-list class="row ">
                 <rt-filter-caller option="device-type" :clear-value="true">
                   <rt-tag :is-active="true">
                     Все

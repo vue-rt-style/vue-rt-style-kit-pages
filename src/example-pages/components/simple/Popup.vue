@@ -4,12 +4,12 @@
       <div class="app-title">
         <div class="row">
           <h1 class="rt-font-hero rt-col">
-            Popup <span class="rt-code rt-font-h3 rt-col"> .rtb-popup</span>
+            Popup <span class="rt-code rt-font-h3 rt-col">.rtb-popup</span>
           </h1>
         </div>
       </div>
       <div class="app-body">
-        <div class="app-row">
+        <div class="app-row is-b2b">
           <div class="rt-col rt-space-bottom rt-space-top">
             <div class="row">
               <rt-button class="rt-button-transparent-purple popupButton" :popup-button="true" target-popup="rtb-popup-type-1">Попап</rt-button>
@@ -106,15 +106,14 @@
               </div>
             </div>
           </div>
-          <!--<pre-code text='-->
-            <rt-real-popup :position-bottom="true" :popup-type="1" trigger-element-class="popupButton" main-wrapper-class="app">
-              <div class="popup-content"></div>
-            </rt-real-popup>
-            <rt-real-popup :position-bottom="true" :popup-type="2" trigger-element-class="new-vats-popup-button" main-wrapper-class="app">
-              <div class="popup-content"></div>
-            </rt-real-popup>
-            <!--'/>-->
+          <rt-real-popup :position-bottom="true" :popup-type="1" trigger-element-class="popupButton" main-wrapper-class="app">
+            <div class="popup-content"></div>
+          </rt-real-popup>
+          <rt-real-popup :position-bottom="true" :popup-type="2" trigger-element-class="new-vats-popup-button" main-wrapper-class="app">
+            <div class="popup-content"></div>
+          </rt-real-popup>
         </div>
+        <div class="app-row"></div>
       </div>
     </div>
   </div>

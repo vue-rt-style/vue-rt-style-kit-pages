@@ -8,7 +8,7 @@
           </h1>
         </div>
       </div>
-      <div class="app-body">
+      <div class="app-body is-b2c">
         <div class="rt-font-center rt-space-bottom15">
           <rt-button
             class="rt-button-small filterButton rt-button-purple-border d-none td-d-inline"

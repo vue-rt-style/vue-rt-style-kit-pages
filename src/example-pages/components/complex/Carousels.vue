@@ -7,94 +7,86 @@
     </div>
 
       <div>
-        <div class="rt-container">
+        <div class="rt-container is-b2c">
           <div class="rt-col-12 rt-col-md-3">
             <h3>Carousel in Tabs</h3>
           </div>
-                <div class="rt-col-12 rt-space-bottom3">
-                  <rt-tabs :round-tablet-view="true">
-                    <template slot="navigation">
-                      <rt-tabs-nav-item :remove-base-tag="true" name="one">Демо-карточки</rt-tabs-nav-item>
-                      <rt-tabs-nav-item :remove-base-tag="true" name="two">С фоновым изображением</rt-tabs-nav-item>
-                    </template>
-                    <template slot="content">
-                      <rt-tabs-content-item name="one">
-                        <rt-button @click="setLoaderType">changeLoader</rt-button>
-                        <template v-if="loaderType !== 'spinner'">
-                          config:
-                          <input class="d-inline-block" style="width:20px" v-model="configLoaderCount" title="карточек (count)" type="number" />
-                          <input class="d-inline-block" style="width:20px" v-model="configLoaderRows" title="строк (rows)" type="number" />
-                          <input class="d-inline-block" style="width:20px" v-model="configLoaderSub" title="подстрок (sub)" type="number" />
-                        </template>
-                         waitTime: {{ waitTime / 1000 }}s
-                        <rt-button @click="reCreate">reCreate list</rt-button>
-                        {{ slidesList }}
-                        <div class="area">
-                          <rt-carousel
-                            :debug="true"
-                            :loader="loaderType"
-                            :loaded="slidesList.length > 0"
-                          >
-                            <rt-carousel-slide
-                              v-for="i in slidesList"
-                              :key="i"
-                            >
-                              <div
-                                style="
-                                  align-content: center;
-                                  border-radius: 8px;
-                                  border: 2px solid;
-                                  display: flex;
-                                  flex-flow: wrap;
-                                  font-size: 150px;
-                                  justify-content: center;
-                                  height: 450px;
-                                "
-                                :style="`border-color: rgb(${177-i*0.6},${255/10+i},${i*15});`"
-                                v-text="i"
-                              ></div>
-                            </rt-carousel-slide>
-                          </rt-carousel>
+          <div class="rt-col-12 rt-space-bottom3">
+            <rt-tabs :round-tablet-view="true">
+              <template slot="navigation">
+                <rt-tabs-nav-item :remove-base-tag="true" name="one">Демо-карточки</rt-tabs-nav-item>
+                <rt-tabs-nav-item :remove-base-tag="true" name="two">С фоновым изображением</rt-tabs-nav-item>
+              </template>
+              <template slot="content">
+                <rt-tabs-content-item name="one">
+                  <rt-button @click="setLoaderType">changeLoader</rt-button>
+                  <template v-if="loaderType !== 'spinner'">
+                    config:
+                    <input class="d-inline-block" style="width:20px" v-model="configLoaderCount" title="карточек (count)" type="number" />
+                    <input class="d-inline-block" style="width:20px" v-model="configLoaderRows" title="строк (rows)" type="number" />
+                    <input class="d-inline-block" style="width:20px" v-model="configLoaderSub" title="подстрок (sub)" type="number" />
+                  </template>
+                   waitTime: {{ waitTime / 1000 }}s
+                  <rt-button @click="reCreate">reCreate list</rt-button>
+                  {{ slidesList }}
+                  <div class="area">
+                    <rt-carousel
+                      :debug="true"
+                      :loader="loaderType"
+                      :loaded="slidesList.length > 0">
+                      <rt-carousel-slide
+                        v-for="i in slidesList"
+                        :key="i">
+                        <div
+                          style="
+                            align-content: center;
+                            border-radius: 8px;
+                            border: 2px solid;
+                            display: flex;
+                            flex-flow: wrap;
+                            font-size: 150px;
+                            justify-content: center;
+                            height: 450px;
+                          "
+                          :style="`border-color: rgb(${177-i*0.6},${255/10+i},${i*15});`"
+                          v-text="i"/>
+                      </rt-carousel-slide>
+                    </rt-carousel>
+                  </div>
+                </rt-tabs-content-item>
+                <rt-tabs-content-item name="two">
+                  <div class="area">
+                    <rt-carousel :navs-pos-end="144">
+                      <rt-carousel-slide
+                        v-for="i in 15"
+                        :key="i">
+                        <div
+                          style="
+                            background-size: cover;
+                            border-radius: 8px;
+                            height: 300px;
+                            position: relative;
+                          "
+                          :style="`background: url(https://picsum.photos/300/300?getForId=${i})`">
+                          <div
+                            style="
+                              background-color: black;
+                              color: white;
+                              position: absolute;
+                              bottom: 0;
+                              right: 0;
+                              padding: 0 10px;
+                            "
+                            v-text="i"/>
                         </div>
-                      </rt-tabs-content-item>
-                      <rt-tabs-content-item name="two">
-                        <div class="area">
-                          <rt-carousel
-                            :navs-pos-end="144"
-                          >
-                            <rt-carousel-slide
-                              v-for="i in 15"
-                              :key="i"
-                            >
-                              <div
-                                style="
-                                  background-size: cover;
-                                  border-radius: 8px;
-                                  height: 300px;
-                                  position: relative;
-                                "
-                                :style="`background: url(https://picsum.photos/300/300?getForId=${i})`"
-                              >
-                                <div
-                                  style="
-                                    background-color: black;
-                                    color: white;
-                                    position: absolute;
-                                    bottom: 0;
-                                    right: 0;
-                                    padding: 0 10px;
-                                  "
-                                  v-text="i"
-                                ></div>
-                              </div>
-                            </rt-carousel-slide>
-                          </rt-carousel>
-                        </div>
-                      </rt-tabs-content-item>
-                    </template>
-                  </rt-tabs>
-                </div>
-              </div>
+                      </rt-carousel-slide>
+                    </rt-carousel>
+                  </div>
+                </rt-tabs-content-item>
+              </template>
+            </rt-tabs>
+          </div>
+        </div>
       </div><!-- ::Carousel in Tabs -->
 
     <div>
@@ -819,7 +811,7 @@
         </rt-carousel>'/>
     </div>
 
-    <div class="rt-space-top5">
+    <div class="rt-space-top5 is-b2c">
       <div class="rt-container">
         <div class="rt-col-3 rt-space-bottom2">
           <rt-input insert-type="number" v-model="showSlideNmb" label="Перейти к слайду" @change="goToSlide"></rt-input>

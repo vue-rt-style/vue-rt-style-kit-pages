@@ -1,9 +1,9 @@
 <template>
-  <div class="business-drive">
+  <div class="business-drive is-b2b">
     <div class="business-drive__header color-block--white">
       <div class="rt-container">
         <div class="rt-col">
-          <rt-logo height="40px" width="24px" top-fill-color="b2b-state" />
+          <rt-logo height="40px" width="24px" top-fill-color="b2c-slate" />
           <div class="mobile-burger-wrapper">
             <div class="mobile-burger"/>
           </div>
