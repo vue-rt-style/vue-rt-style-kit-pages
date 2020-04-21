@@ -67,7 +67,7 @@
         </div>
         <div class="app-row row">
           <div class="rt-col-3 rt-col-md-3">
-            <span class="rt-font-label flex-fill rt-space-bottom05">input in 3 col !!</span>
+            <span class="rt-font-label flex-fill rt-space-bottom05">input in 3 col</span>
             <rt-input value=""
                       placeholder="Электронная почта"
                       validate="required|email"
@@ -80,7 +80,7 @@
           </div>
           <div class="rt-col-1 rt-col-md-1 rt-md-space-top">
             <span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 1 c</span>
-            <rt-input value="" placeholder="Дом" :has-error="true">
+            <rt-input value="" placeholder="Дом" :has-error="true" error-message="dasd asdas asdsad sadsad">
               <rt-validation-icon status="error" mobile-hint-orient="left" hint-text="Есть техническая возможность" />
             </rt-input>
           </div>
