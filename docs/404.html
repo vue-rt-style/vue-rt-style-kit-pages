@@ -1,37 +1,115 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>vue-stylekit</title>
-  <script type="text/javascript">
-    // Single Page Apps for GitHub Pages
-    // https://github.com/rafrex/spa-github-pages
-    // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
-    // ----------------------------------------------------------------------
-    // This script takes the current url and converts the path and query
-    // string into just a query string, and then redirects the browser
-    // to the new url with only a query string and hash fragment,
-    // e.g. http://www.foo.tld/one/two?a=b&c=d#qwe, becomes
-    // http://www.foo.tld/?p=/one/two&q=a=b~and~c=d#qwe
-    // Note: this 404.html file must be at least 512 bytes for it to work
-    // with Internet Explorer (it is currently > 512 bytes)
-    // If you're creating a Project Pages site and NOT using a custom domain,
-    // then set pathPrefix = true. This way the repo name will remain in the path:
-    // https://username.github.io/repo-name/one/two?a=b&c=d#qwe becomes
-    // https://username.github.io/repo-name/?p=/one/two&q=a=b~and~c=d#qwe
-    // Otherwise, leave pathPrefix as false.
-    var pathPrefix = false;
-    var l = window.location;
-    console.info('404',l.pathname,l.pathname.split('/'))
-    l.replace(
-            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-            l.pathname.split('/').slice(0, 2).join('/') + '/?p=/' +
-            l.pathname.slice(1).split('/').slice(1).join('/').replace(/&/g, '~and~') +
-            (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-            l.hash
-    );
-  </script>
-</head>
-<body>
-</body>
-</html>
+<style>
+  #pageFooter {
+    z-index: 3;
+    position: relative
+  }
+
+  @media (max-width: 1024px) {
+    .rt-tabs-navigation--uniq-m {
+      width: 100%;
+    }
+
+    .td-space-between {
+      -webkit-box-pack: space-between;
+      -moz-box-pack: space-between;
+      -o-box-pack: space-between;
+      -ms-flex-pack: space-between;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+    }
+  }
+
+  .m-tabs {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+</style>
+
+<script>
+  window.addEventListener('scroll', function (e) {
+    e.stopPropagation();
+    var wrap = document.querySelector('.m-tabs-container');
+    var pos = wrap.getBoundingClientRect()
+    var line = document.querySelector('.m-tabs');
+    var height = line.clientHeight
+    var wink = document.querySelector('#wink').getBoundingClientRect()
+    var music = document.querySelector('#music').getBoundingClientRect()
+    var smart = document.querySelector('#smart').getBoundingClientRect()
+    var children = document.querySelector('#children').getBoundingClientRect()
+    var nature = document.querySelector('#nature').getBoundingClientRect()
+    var form = document.querySelector('#form').getBoundingClientRect()
+    if (pos.top > 0 || window.innerWidth < 768 || form.top < 0) {
+      line.style.position = 'absolute'
+    } else {
+      line.style.position = 'fixed'
+      if (document.querySelector('.rt-tabs-navigation__item--is-active')) {
+        document.querySelector('.rt-tabs-navigation__item--is-active').classList.remove('rt-tabs-navigation__item--is-active');
+      }
+      switch (true) {
+        case nature.top <= 0 + height:
+          document.querySelector('.rt-tabs-navigation__item[href="#nature"]').classList.add('rt-tabs-navigation__item--is-active')
+          break
+        case children.top <= 0 + height:
+          document.querySelector('.rt-tabs-navigation__item[href="#children"]').classList.add('rt-tabs-navigation__item--is-active')
+          break
+        case smart.top <= 0 + height:
+          document.querySelector('.rt-tabs-navigation__item[href="#smart"]').classList.add('rt-tabs-navigation__item--is-active')
+          break
+        case music.top <= 0 + height:
+          document.querySelector('.rt-tabs-navigation__item[href="#music"]').classList.add('rt-tabs-navigation__item--is-active')
+          break
+        case wink.top <= 0 + height:
+          document.querySelector('.rt-tabs-navigation__item[href="#wink"]').classList.add('rt-tabs-navigation__item--is-active')
+          break
+      }
+    }
+
+  }, true)
+</script>
+
+<div class="wc-inline rt-space-horizontal05">
+  <div class="d-block relative m-tabs-container">
+    <section class="color-block--white md-d-none m-tabs" style="z-index: 2">
+      <div class="rt-space-top15  rt-space-bottom15 background-white">
+        <div class="rt-container">
+          <div class="rt-space-horizontal05">
+            <div class="row">
+              <div class="rt-col-9 flex-center-center rt-col-td-6">
+                <div class="rt-tabs rt-tabs-pc">
+                  <div class="rt-tabs-navigation-wrapper">
+                    <div class="rt-tabs-navigation rt-tabs-navigation--uniq-m  td-space-between">
+                      <a class="rt-tabs-navigation__item" v-rt-scroll-to-on-click='{"scrollToId": "wink"}' href="#wink">
+                        <span class="d-inline-block rt-tabs-navigation__item-name" tabindex="-1">Видеосервис Wink</span>
+                      </a>
+                      <a class="rt-tabs-navigation__item" v-rt-scroll-to-on-click='{"scrollToId": "music-link"}'
+                         href="#music">
+                        <span class="d-inline-block rt-tabs-navigation__item-name" tabindex="-1">Музыка</span>
+                      </a>
+                      <a class="rt-tabs-navigation__item" v-rt-scroll-to-on-click='{"scrollToId": "smart-link"}'
+                         href="#smart">
+                        <span class="d-inline-block rt-tabs-navigation__item-name" tabindex="-1">Умный дом</span>
+                      </a>
+                      <a class="rt-tabs-navigation__item" v-rt-scroll-to-on-click='{"scrollToId": "children"}'
+                         href="#children">
+                        <span class="d-inline-block rt-tabs-navigation__item-name" tabindex="-1">Дети</span>
+                      </a>
+                      <a class="rt-tabs-navigation__item" v-rt-scroll-to-on-click='{"scrollToId": "nature-link"}'
+                         href="#nature">
+                        <span class="d-inline-block rt-tabs-navigation__item-name" tabindex="-1">Характер Маруси</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rt-col-3 flex-end-center td-d-none">
+                <rt-button v-rt-scroll-to-on-click="{ scrollToId : 'order' }" class="rt-button-orange-border">Купить
+                </rt-button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
