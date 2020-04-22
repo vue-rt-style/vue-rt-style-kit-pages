@@ -1,4 +1,4 @@
-<template>
+ <template>
   <div>
     <div class="rt-container">
       <div class="grid-center"/>
@@ -16,13 +16,12 @@
           :round-angles="true"
           :has-custom-content="true">
           <rt-banner-item
-            background-image="/static/images/B2B/banner-img.png"
+            background-image="https://www.apple.com/v/home/ek/images/heroes/airpods-film/hero__dvsxv8smkkgi_mediumtall_2x.jpg"
             background-image-tablet="https://www.apple.com/v/home/ek/images/heroes/airpods-film/hero__dvsxv8smkkgi_mediumtall_2x.jpg"
             background-image-mobile="https://www.apple.com/v/apple-arcade/c/images/overview/game_poster_thepathless__qvjhsw7g0h26_medium_2x.jpg"
-            :is-white-color="true"
-            background-color="b2b-dark-state">
+            background-color="b2b-dark-slate">
             <div class="rtb-banner__text-content">
-              <h3 class="rt-font-bold rt-space-bottom05">Скидка 50% на Wi-Fi для бизнеса  при подключении интернета</h3>
+              <h3 class="rt-font-bold rt-space-bottom05">!!!Скидка 50% на Wi-Fi для бизнеса  при подключении интернета</h3>
               <p class="rt-font-small-paragraph">Пакет «Быть в плюсе»</p>
             </div>
             <div v-rt-scroll-to-on-click="{ scrollToId : &#39;test&#39; }">
@@ -33,19 +32,7 @@
       </div>'/>
     </div>
 
-    <pre-code
-      text='<rt-banner content-height="500px"
-                       content-mobile-height="400px"
-                       :has-image-on-mobile="true">
-      <rt-banner-item :is-white-color="true"
-                      content-mobile-height="400px">
-        <h1 class="rt-font-banner-label">Виртуальная <br> телефония</h1>
-        <p class="p1 rt-space-top rt-space-bottom15">Быстрое подключение без трат на оборудование,<br class="md-d-none">
-          возможность пользоваться из любой точки мира <br class="md-d-none"> и ни одного пропущенного звонка клиента</p>
-        <rt-button class="rt-button-orange">Подробнее</rt-button>
-      </rt-banner-item>
-    </rt-banner>'
-    />
+
     <pre-code
       text="<rt-banner :no-triangle='true'
                        :resize-query-selectors-names='[&quot;.rt-font-bold&quot;,&quot;.p1&quot;]'
@@ -57,7 +44,7 @@
                        :has-image-on-mobile='true'>
       <rt-banner-item :is-white-color='true'
                       background-color='green'
-                      background-image='/static/images/B2B/big-internet-slide-1.png'>
+                      background-image='https://photos.gurushots.com/unsafe/0x0/71310af3b26cac188987af3ae44caa82/3_a718c2caeeb62161282204f20ccfb10a.jpg '>
         <h2 class='rt-font-bold'>Легко обмениваться большими объемами информации</h2>
         <p class='p1 rt-space-top rt-space-bottom25'>Отправляйте объемные
           фото и видео, работайте с облачными сервисами и большими базами данных — скорости интернета хватит на всё</p>
@@ -90,7 +77,7 @@
                       :is-white-color='true'
                       content-mobile-min-height='80vh'
                       content-mobile-height='200px'
-                      background-color='dark-state'
+                      background-color='dark-slate'
                       :has-image-on-mobile='true'>
         <p class='rt-font-banner-label'>Виртуальная <br> телефония</p>
         <p class='rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br>
@@ -109,7 +96,7 @@
       <pre-code
         text="<rt-banner :is-fullscreen-image='true' bannerLogo='/static/example-images/Logo.svg'
                          content-height='100vh'>
-          <rt-banner-item background-image='/static/example-images/banerBackground1.jpg' :is-white-color='true'background-color='dark-state'>
+          <rt-banner-item background-image='https://photos.gurushots.com/unsafe/0x0/71310af3b26cac188987af3ae44caa82/3_a718c2caeeb62161282204f20ccfb10a.jpg' :is-white-color='true'background-color='dark-slate'>
             <p class='rt-font-banner-label'>Виртуальная <br> телефония</p>
             <p class='rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br> возможностьпользоваться из любой точки мира <br> и ни одного пропущенного звонка клиента</p>
             <rt-button class='rt-button-orange'>Подробнее</rt-button>
@@ -125,7 +112,7 @@
     content-mobile-height='300px'
     content-height='600px'
     content-min-height='300px'>
-        <rt-banner-item background-image='/static/example-images/banerBackground1.jpg' :is-white-color='true'background-color='dark-state'
+        <rt-banner-item background-image='/static/example-images/banerBackground1.jpg' :is-white-color='true'background-color='dark-slate'
     content-mobile-min-height='100px'
     content-tablet-height='300px'
     content-tablet-min-height='300px'
@@ -146,19 +133,20 @@
     />
     <pre-code
       text="<rt-banner :switch-off-timer='true'
+      :without-empty-column='true'
                        :background-image-left='true'>
-        <rt-banner-item :has-image-on-mobile='true'>
+        <rt-banner-item :has-image-on-mobile='true' background-image='https://photos.gurushots.com/unsafe/0x0/71310af3b26cac188987af3ae44caa82/3_465b9d026f5bcdd1429a50313d3dfe63.jpg'>
           <p class='tagline rt-space-bottom05'>сервис или продукт</p>
-          <h1 class='rt-font-banner-label'>Виртуальная <br> телефония</h1>
+          <h1 class='rt-font-banner-label'>Виртуальная ++<br> телефония</h1>
           <p class='p1 rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br>
             возможность пользоваться из любой точки мира <br> и ни одного пропущенного звонка клиента</p>
           <rt-button class='rt-button-orange'>Подробнее</rt-button>
         </rt-banner-item>
-        <rt-banner-item background-image='/static/images/B2B/test-image-half.png'
-                        background-color='green-low'
-                        :has-image-on-mobile='true'>
-          <rt-color-line-text color-icon='yellow'
-                              fill-color='pink-low'>
+
+        <rt-banner-item background-image='https://photos.gurushots.com/unsafe/0x0/71310af3b26cac188987af3ae44caa82/3_a718c2caeeb62161282204f20ccfb10a.jpg'
+                        :has-image-on-mobile='true' background-color='dark-slate'>
+          <rt-color-line-text color-icon='orange'
+                              fill-color='white'>
             <template slot='label'>Мама мыла раму!</template>
             <template slot='content'>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template>
           </rt-color-line-text>
@@ -225,19 +213,19 @@
           <div class="rt-space-bottom4">
             <rt-banner :sleep-time="30000" :is-fullscreen-image="true" content-height="470px" :is-background-banner="true"
                        :has-custom-content="true">
-              <rt-banner-item is-game-banner-item background-video="/static/video/Trailer_Warface_Annoucement_20180628_4000.mp4"
-                              :is-white-color="true" background-color="dark-state"
+              <rt-banner-item is-game-banner-item background-video="https://www.apple.com/105/media/us/iphone-se/2020/90024c0f-285a-4bf5-af04-2c38de97b06e/anim/4k-video/large_2x.mp4"
+                              :is-white-color="true" background-color="dark-slate"
               />
             </rt-banner>
           </div>
         </div>
       </div>
       <pre-code text="<rt-banner :is-fullscreen-image='true' :sleep-time='30000' content-height='100vh' content-mobile-min-height='100vh' content-mobile-height='400px'>
-      <rt-banner-item background-video='https://qq.webrtc.win/tv/Pear-Demo-Yosemite_National_Park.mp4'
+      <rt-banner-item background-video='https://www.apple.com/105/media/us/iphone-se/2020/90024c0f-285a-4bf5-af04-2c38de97b06e/anim/4k-video/large_2x.mp4'
                       :slide-time='50000'
                       link-target='_blank'
                       link='https://www.google.co.uk/search?q=yosemite+national+park'
-                      :is-white-color='true' background-color='dark-state'>
+                      :is-white-color='true' background-color='dark-slate'>
         <rt-color-line-text label-color='red' content-color='red'>
           <template slot='label'>Расширяя границы</template>
           <template slot='content'>Высокоскоростной интернет теперь повсюду</template>

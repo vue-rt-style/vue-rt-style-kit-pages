@@ -240,7 +240,7 @@
           <rt-banner-item
             background-image="/static/images/B2B/banner-img.png"
             :is-white-color="true"
-            background-color="b2b-dark-state">
+            background-color="b2b-dark-slate">
             <div class="rtb-banner__text-content">
               <h2 class="rt-font-bold rt-space-bottom05">Скидка 50% на Wi-Fi для бизнеса  при подключении интернета</h2>
               <p class="rt-font-paragraph">Пакет «Быть в плюсе»</p>
