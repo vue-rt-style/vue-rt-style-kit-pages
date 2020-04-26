@@ -1480,7 +1480,8 @@
                                         <span class="rt-font-paragraph rt-font-bold">300 минут</span>
                                         <rt-hint :simple-tool-tip="true">
                                             <slot>
-                                                Это всё что угодно,<br>но не адрес электронной почты
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolore magna aliqmagna aliq
                                             </slot>
                                         </rt-hint>
                                         <p class="rt-font-small-paragraph color-main025">
@@ -1545,9 +1546,7 @@
                                         Видеонаблюдение 500
                                       </span>
                                         <rt-hint :simple-tool-tip="true">
-                                            <slot>
-                                                Это всё что угодно,<br>но не адрес электронной почты
-                                            </slot>
+                                            <slot>Это всё что угодно, но не адре</slot>
                                         </rt-hint>
                                     </div>
                                 </template>

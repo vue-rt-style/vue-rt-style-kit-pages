@@ -274,7 +274,8 @@
                   time-interval="в минуту"
                   class='color-white'
                   :show-float='true'
-                  :is-time-interval-bottom="true"/>
+                  :is-time-interval-bottom="true"
+                  color-value="white"/>
         <div class="rt-md-space-bottom"/>
       </rt-banner-item>
     </rt-banner>
