@@ -28,9 +28,8 @@ gulp.task(
         "perl -pi -w -e 's/vue-rt-style-kit-pages\\/docs\\/vue-rt-style-kit-pages\\/static\\/images/vue-rt-style-kit-pages\\/static\\/images/g' ./docs/main.js\n",
         // "perl -pi -w -e 's/BasisGrotesqu/docs\\/BasisGrotesqu/g' ./docs/main.js",
         'perl -pi -w -e \'s/\\<\\/script\\>\\<\\/head\\>/\\<\\/script\\>\\<link rel\\=\\"stylesheet\\" href\\=\\"\\/vue-rt-style-kit-pages\\/fonts.css\\"\\/\\>\\<\\/head\\>/g\' ./docs/index.html\n',
-        "perl -p -i -e 's/pages\\/\"vendors/docs\\/vendors/g' ./docs/index.html\n",
-
-        "perl -p -i -e 's/pages\\/\"main/docs\\/main/g' ./docs/index.html\n",
+        "perl -p -i -e 's/docs\\/\"vendors/docs\\/vendors/g' ./docs/index.html\n",
+        "perl -p -i -e 's/docs\\/\"main/docs\\/main/g' ./docs/index.html\n",
         // "perl -p -i -e 's/src=\\/vue-rt-style-kit-pages/src=\"\\/vue-rt-style-kit-pages/g' ./docs/index.html\n",
             "perl -p -i -e 's/path: \"\\//path: \"\\/vue-rt-style-kit-pages\\//g' ./docs/main.js\n",
         'perl -p -i -e \'s/\\{path:\"\\//\\{path:\\"\\/vue\\-rt\\-style\\-kit\\-pages\\//g\' ./docs/main.js \n',
