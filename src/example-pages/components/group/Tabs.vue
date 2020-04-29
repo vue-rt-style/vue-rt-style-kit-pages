@@ -14,7 +14,8 @@
                 <!--</div>-->
 
                 <div class="rt-col-12 rt-space-bottom3 is-b2c">
-                    <pre-code text='<rt-tabs :round-tablet-view="true">
+                    <pre-code text='
+                    <rt-tabs :round-tablet-view="true">
                         <template slot="navigation">
                             <rt-tabs-nav-item anchor="ready!" :remove-base-tag="true" name="one99">Готов
                             </rt-tabs-nav-item>
@@ -298,7 +299,8 @@
 
                 </div>
                 <div class="rt-space-bottom5">
-                    <pre-code text='<rt-tabs :fill-Content="true">
+                    <pre-code text='
+                    <rt-tabs :fill-Content="true">
                         <template slot="navigation">
                             <rt-tabs-nav-item anchor="one22" :remove-base-tag="true" name="Aone266">Второй
                                 пункт

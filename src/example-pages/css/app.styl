@@ -619,5 +619,30 @@
 //    //width: 17px
 //    //height: 17px
 //    opacity: 0.9
+.rt-tabs--sensor
+  width: 100%
+.rt-tabs-navigation__item--empty-tab
+  opacity: 0
+  visibility: hidden
+  flex 1 1 0
 
-
+.rt-tabs--sensor-tags .rt-tabs-navigation
+  width: 100%
+.rt-tabs-navigation__item--pseudo-tabs
+  margin-left: 0!important
+  .rt-tag
+    background-color: main-color04
+    color white
+    &:hover
+      background-color: b2c-purple
+  .rt-tabs-navigation__item-name
+    &:before
+      display: none
+.rt-tabs--sensor-tags
+  .rt-tabs-navigation
+    flex-direction: row-reverse;
+  .rt-tabs-navigation__item
+    position: relative;
+    top: -43px
+.rt-sensor-img
+  max-height 100px
