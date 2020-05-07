@@ -26,14 +26,17 @@ Vue.use(VueRtDevStyle);
 Vue.use(VueRtStyleAtoms);
 Vue.use(VueRtStyleIcons);
 Vue.use(VueRtStyleMolecules);
-// Vue.use(VueRtDevStyle);
-// Vue.use(VueRtStyleAtoms);
-// Vue.use(VueRtStyleMolecules);
+let href = location.href
+if(href.search('vue-rt-style-kit-pages')>0) {
+  routes.routes.forEach((r) => {
+    r.path = '/vue-rt-style-kit-pages' + r.path;
+  })
+}
 const router = new VueRouter({
   mode: "history",
   routes: routes.routes
-});
 
+});
 
 
 const App = new Vue({

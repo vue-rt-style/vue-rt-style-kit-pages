@@ -89,8 +89,8 @@ const config = {
           {
             loader: `stylus-loader`,
             options: {
+              imports: [path.resolve(__dirname, '../', 'node_modules/nib/lib/nib/index.styl')],
               use: [require('nib')()],
-              import: ['~nib/lib/nib/index.styl']
             },
           },
         ],

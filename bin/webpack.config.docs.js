@@ -1,9 +1,28 @@
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
-const path = require(`path`);
+const path = require('path');
 const HtmlWebpackPlugin = require(`html-webpack-plugin`);
 const webpack = require('webpack');
-
+const fs = require('fs');
 const local_dirname = path.join(__dirname,'..');
+const pathSettings = require('./pathSettings')
+
+
+
+class setSrcScripts {
+  apply (compiler) {
+    compiler.hooks.compilation.tap('MyPlugin', (compilation) => {
+      console.log('The compiler is starting a new compilation...')
+      HtmlWebpackPlugin.getHooks(compilation).beforeEmit.tapAsync(
+          'setSrcScripts',
+          (data, cb) => {
+            data.html = data.html.replace(/script\ src=\"/g,'script src="/vue-rt-style-kit-pages/');
+            cb(null, data)
+          }
+      )
+    })
+  }
+}
+
 
 
 const config = {
@@ -21,12 +40,12 @@ const config = {
     symlinks: false,
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@vue-rt-style-kit-atoms-local': path.join(local_dirname,'src','atoms'),
-      '@vue-rt-style-kit-molecules-local': path.join(local_dirname,'src','molecules'),
-      '@vue-rt-style-kit-icons-local': path.join(local_dirname,'src','icons'),
-      '@projectAtoms': path.join(local_dirname,'src','projectsJsons','atoms.json'),
-      '@projectMolecules': path.join(local_dirname,'src','projectsJsons','molecules.json'),
-      '@projectIcons': path.join(local_dirname,'src','projectsJsons','icons.json'),
+      '@vue-rt-style-kit-atoms-local': pathSettings.atoms,
+      '@vue-rt-style-kit-molecules-local': pathSettings.molecules,
+      '@vue-rt-style-kit-icons-local': pathSettings.icons,
+      '@projectAtoms': pathSettings.atomsJson,
+      '@projectMolecules': pathSettings.moleculesJson,
+      '@projectIcons': pathSettings.iconsJson,
     },
   },
   module: {
@@ -95,7 +114,9 @@ const config = {
       filename: `index.html`,
       template: path.join(local_dirname, `static`, `index.html`),
       inject: true,
+      excludeChunks: [ 'dev-helper' ]
     }),
+
   ]
 };
 
@@ -103,7 +124,8 @@ const config = {
 
 config.plugins.push(
     new VueLoaderPlugin(),
-    new webpack.NamedModulesPlugin()
+    new webpack.NamedModulesPlugin(),
+    new setSrcScripts()
 );
 
 module.exports = config;
