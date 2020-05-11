@@ -872,9 +872,10 @@
                             </rt-fullscreen-image>
                         </rt-resize-content-height>
                     </div>
+                    <pre-code text='
                     <div class="row">
                         <div class="rt-col-4 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
-                            <rt-card-image card-image="/static/images/cardImage3.jpg">
+                            <rt-card-image card-image="https://photos.gurushots.com/unsafe/0x0/77e899d08c46ba8d7166dd844cce4766/3_516990c05691c438a53704679beda608.jpg">
                                 <template slot="body">
                                     <p class="rt-font-paragraph rt-font-bold">
                                         Headstone
@@ -919,7 +920,7 @@
                                     :is-white-color="true"
                                     :col-size="2"
                                     background-color-type="light-blue"
-                                    card-image="/static/images/cardImage3.jpg">
+                                    card-image="https://photos.gurushots.com/unsafe/0x0/5423acb21d95b9d47df689fd2af3cbcb/3_9d7ceccead184f0210b7d84d83278027.jpg">
                                 <template slot="body">
                                     <p class="rt-font-paragraph rt-font-bold">
                                         Headstone
@@ -936,7 +937,7 @@
                                     :is-white-color="true"
                                     :col-size="2"
                                     background-color-type="light-blue"
-                                    card-image="/static/images/cardImage3.jpg">
+                                    card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
                                 <template slot="body">
                                     <p class="rt-font-paragraph rt-font-bold">
                                         Headstone
@@ -949,6 +950,7 @@
                             </rt-card-image>
                         </div>
                     </div>
+                    '></pre-code>
                     <div class="row">
                         <div class="rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
                             <rt-card-image

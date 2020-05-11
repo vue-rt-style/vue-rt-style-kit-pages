@@ -11,7 +11,6 @@ const pathSettings = require('./pathSettings')
 class setSrcScripts {
   apply (compiler) {
     compiler.hooks.compilation.tap('MyPlugin', (compilation) => {
-      console.log('The compiler is starting a new compilation...')
       HtmlWebpackPlugin.getHooks(compilation).beforeEmit.tapAsync(
           'setSrcScripts',
           (data, cb) => {
