@@ -53,7 +53,7 @@
         <div class="app-row row">
           <div class="rt-col-4  rt-col-md-2 rt-md-space-top d-flex flex-column">
             <span class="rt-font-label flex-fill rt-space-bottom05">dynamic textarea</span>
-            <rt-textarea :value="'sadas\nd\nas\ndas\n'" placeholder="Textarea" ></rt-textarea>
+            <rt-textarea :value="'sadas\nd\nas\ndas'" placeholder="Textarea!!" ></rt-textarea>
             <pre-code
                     text='<rt-textarea value="sadas\nd\nas\ndas\n" placeholder="Textarea" ></rt-textarea>'></pre-code>
           </div>
