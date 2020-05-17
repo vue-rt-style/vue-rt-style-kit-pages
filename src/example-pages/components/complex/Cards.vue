@@ -2009,9 +2009,6 @@
                     </div>
                 </div>
             </div>
-            <div class="is-b2b">
-                <rt-hint-body/>
-            </div>
         </div>
         <div class="rt-container rt-space-top25">
             <documentation-builder :json="documentation" type="components"/>

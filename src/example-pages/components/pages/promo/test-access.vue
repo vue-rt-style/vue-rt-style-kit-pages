@@ -1,289 +1,1038 @@
 <template>
   <div class="wrapper is-b2b">
-    <div class="wc-inline">
-      <rt-banner :without-empty-column='true' :without-second-empty-column='true' :is-fullscreen-image='true' content-height='500px' content-mobile-height='400px'>
-        <rt-banner-item :has-image-on-mobile='true' background-image="/static/images/B2B/AKS_1920x500.jpg">
-          <rt-color-line-text>
-            <rt-template slot='label'>Аудиоконференция</rt-template>
-            <rt-template slot='content'>Услышать друг друга, где бы вы ни находились</rt-template>
-          </rt-color-line-text>
-          <rt-button class='rt-button-orange'>Оставить заявку</rt-button>
-        </rt-banner-item>
-      </rt-banner>
-    </div>
-    <div class="custom-pattern-block">
-      <div class="rt-container rt-space-vertical4">
-        <div class="rt-col-7">
-          <h2 class="rt-font-h2 rt-font-bold color-white">Ваша компания легко организует голосовое совещание через
-            аудиоконференцию вне офиса даже во время карантина</h2>
-        </div>
-      </div>
-    </div>
-    <div class="rt-space-vertical3">
-      <div class="rt-container">
-        <div class="rt-col-7">
-          <h2 class="rt-font-h2 rt-font-bold rt-space-bottom">Оставайтесь дома. <br>Пользуйтесь цифровыми сервисами</h2>
-        </div>
-      </div>
-      <div class="wc-inline">
-        <rt-benefit-block :columns-quantity="3" :has-icon="true" icon-size="80px">
-          <rt-benefit-item>
-            <template slot="image">
-              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
-                <g fill="none" fill-rule="evenodd">
-                  <circle cx="40" cy="40" r="40" fill="#101828"/>
-                  <g fill="#FFF" fill-rule="nonzero">
-                    <path d="M41.96 22.5c.367 0 .735.105 1.137.297.473.753 1.523 2.608 2.1 4.936.123.472.14.962.053 1.452l-1.19 6.702a1.97 1.97 0 00.438 1.628c.384.455.944.718 1.522.718h11.935c.595 0 1.12.384 1.242.91.035.174.053.384.053.595 0 .717-.245 1.154-.822 1.452-.63.315-1.068.91-1.173 1.61-.105.7.14 1.4.648 1.89.385.367.385.717.385.84 0 .455-.42.945-.823 1.242a2.02 2.02 0 00-.788 1.418c-.052.56.14 1.12.508 1.54.105.122.297.385.297.857 0 .49-.507 1.068-.857 1.278a2.21 2.21 0 00-.665 3.01c.123.193.332.612.332 1.278 0 .665-.892 1.364-1.732 1.364H33.91l-2.66-1.312v-14.14l1.627-1.225c.175-.14.333-.28.49-.455 1.348-1.54 5.81-6.86 6.948-10.623.087-.28.122-.577.122-.892v-5.722c0-.053.053-.106.07-.123.473-.35.963-.525 1.453-.525zm0-1.75c-1.068 0-1.925.455-2.485.858-.49.367-.788.927-.788 1.522v5.74c0 .123-.017.263-.052.385-1.068 3.552-5.845 9.117-6.598 9.975-.07.07-.14.14-.21.192l-1.767 1.33c-.35.263-.56.666-.56 1.103v14.577c0 .526.297 1.015.787 1.243l2.923 1.418c.192.104.42.14.63.14h20.72c1.697 0 3.482-1.383 3.482-3.115 0-1.068-.332-1.803-.595-2.206-.122-.21-.087-.472.123-.612.7-.455 1.645-1.505 1.645-2.747 0-1.033-.455-1.716-.735-2.03-.105-.123-.087-.316.035-.403.49-.385 1.505-1.33 1.505-2.643 0-1.015-.508-1.715-.928-2.117a.406.406 0 01.105-.665c.718-.367 1.785-1.207 1.785-3.01 0-.367-.035-.682-.105-.98-.297-1.347-1.54-2.275-2.94-2.275H46.004a.247.247 0 01-.245-.28l1.19-6.703a5.367 5.367 0 00-.07-2.17c-.666-2.695-1.89-4.795-2.38-5.53a1.474 1.474 0 00-.543-.49 4.278 4.278 0 00-1.996-.507z"/>
-                    <path d="M29.5 40.42V57.5h-8.75V40.42h8.75zm0-1.75h-8.75c-.963 0-1.75.787-1.75 1.75V57.5c0 .962.787 1.75 1.75 1.75h8.75c.963 0 1.75-.788 1.75-1.75V40.42c0-.963-.787-1.75-1.75-1.75z"/>
-                  </g>
-                  <path d="M12 12h56v56H12z"/>
-                </g>
-              </svg>
-            </template>
-            <template slot="description">
-              <h4 class="rt-font-h4 rt-font-bold rt-space-bottom05">Без затрат</h4>
-              <p class="rt-font-small-paragraph color-main07">Подключайтесь и участвуйте  в аудиоконференции не
-                выходя из дома. Совещайтесь с вашими коллегами  из разных городов удалённо  и без командировок</p>
-            </template>
-          </rt-benefit-item>
-          <rt-benefit-item>
-            <template slot="image">
-              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
-                <g fill="none" fill-rule="evenodd">
-                  <circle cx="40" cy="40" r="40" fill="#101828"/>
-                  <path fill="#FFF" fill-rule="nonzero" d="M59.25 25.75v3.5c0 5.477-1.138 13.633-3.028 17.815-2.607 5.74-7.507 13.3-16.222 17.045-8.715-3.745-13.633-11.305-16.223-17.045-1.89-4.183-3.027-12.355-3.027-17.815v-3.5h38.5zM61 24H19v5.25c0 5.18 1.05 13.808 3.185 18.532C25.107 54.24 30.48 62.185 40 66c9.52-3.815 14.892-11.76 17.815-18.218C59.95 43.058 61 34.43 61 29.25V24z"/>
-                  <path d="M12 17h56v56H12z"/>
-                </g>
-              </svg>
-            </template>
-            <template slot="description">
-              <h4 class="rt-font-h4 rt-font-bold rt-space-bottom05">Под защитой</h4>
-              <p class="rt-font-small-paragraph color-main07">Добавляйтесь по паролю, приглашению  или звонку в
-                конференцию, защищённую  от несанкционированного доступа. Бесконтактные совещания безопасны</p>
-            </template>
-          </rt-benefit-item>
-          <rt-benefit-item>
-            <template slot="image">
-              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
-                <g fill="none" fill-rule="evenodd">
-                  <circle cx="40" cy="40" r="40" fill="#101828"/>
-                  <path fill="#FFF" fill-rule="nonzero" d="M59.25 26l.017 22.75-38.517.017L20.732 26H59.25zm.017-1.75H20.733c-.944 0-1.732.787-1.732 1.732V48.75c0 .962.787 1.75 1.732 1.75H59.25c.962 0 1.733-.788 1.733-1.733V25.982c.017-.944-.77-1.732-1.715-1.732z"/>
-                  <path fill="#FFF" fill-rule="nonzero" d="M20.75 43.5h38.5v1.75h-38.5zm21 7h1.75v5.25h-1.75zm-5.25 0h1.75v5.25H36.5z"/>
-                  <path fill="#FFF" fill-rule="nonzero" d="M33.035 54H47v1.75H33.035zM40 47.858a.878.878 0 00.875-.875c0-.49-.385-.875-.875-.875s-.875.385-.875.875.402.875.875.875M28.608 36.517a.859.859 0 010 1.716.86.86 0 010-1.716zm0-1.75c-1.436 0-2.608 1.173-2.608 2.608s1.172 2.608 2.608 2.608c1.434 0 2.607-1.173 2.607-2.608s-1.172-2.608-2.607-2.608zm22.75-3.5a.86.86 0 01-.001 1.716.86.86 0 01.001-1.716zm0-1.75c-1.435 0-2.608 1.173-2.608 2.608s1.172 2.608 2.608 2.608a2.615 2.615 0 002.607-2.608 2.603 2.603 0 00-2.608-2.608z"/>
-                  <path fill="#FFF" fill-rule="nonzero" d="M49.17 32.23l-7.788 3.92-1.75-5.25-9.572 4.83c.42.402.7.962.77 1.575l7.788-3.938 1.75 5.25 9.572-4.812c-.42-.42-.7-.962-.77-1.575z"/>
-                  <path d="M12 12h56v56H12z"/>
-                </g>
-              </svg>
-            </template>
-            <template slot="description">
-              <h4 class="rt-font-h4 rt-font-bold rt-space-bottom05">Со статистикой</h4>
-              <p class="rt-font-small-paragraph color-main07">Отслеживайте статистику о проведённых конференциях,
-                следите за отчётами, где отображается информация о дате, времени и количестве участников</p>
-            </template>
-          </rt-benefit-item>
-        </rt-benefit-block>
-      </div>
-    </div>
-    <div class="rt-space-vertical3 custom-bg-color">
-      <div class="rt-container">
-        <div class="rt-col-8 rt-font-h2 rt-font-bold rt-space-bottom2">Заголовок про шаги</div>
-      </div>
-      <div class="wc-inline">
-        <rt-carousel :hide-arrows="true">
-          <rt-carousel-slide slide-classes="rt-col-4 d-flex">
-            <rt-card :equal-padding="true"
-                     background-image="/static/images/B2B/img-1.jpg"
-                     :full-width-top-image="true"
-                     :has-gradient-over-image="true">
-              <template slot="content">
-                <p class="rt-font-paragraph rt-font-bold rt-space-top">Зарегистрируйтесь</p>
-                <p class="rt-font-small-paragraph rt-space-bottom color-main05 rt-space-top05">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              </template>
-            </rt-card>
-          </rt-carousel-slide>
-          <rt-carousel-slide slide-classes="rt-col-4 d-flex">
-            <rt-card :equal-padding="true"
-                     background-image="/static/images/B2B/img-2.jpg"
-                     :full-width-top-image="true"
-                     :has-gradient-over-image="true">
-              <template slot="content">
-                <p class="rt-font-paragraph rt-font-bold rt-space-top">Создайте конференцию</p>
-                <p class="rt-font-small-paragraph rt-space-bottom3 color-main05 rt-space-top05">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              </template>
-            </rt-card>
-          </rt-carousel-slide>
-          <rt-carousel-slide slide-classes="rt-col-4 d-flex">
-            <rt-card :equal-padding="true"
-                     background-image="/static/images/B2B/img.jpg"
-                     :full-width-top-image="true"
-                     :has-gradient-over-image="true">
-              <template slot="content">
-                <p class="rt-font-paragraph rt-font-bold rt-space-top">Добавляйте участников</p>
-                <p class="rt-font-small-paragraph rt-space-bottom3 color-main05 rt-space-top05">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              </template>
-            </rt-card>
-          </rt-carousel-slide>
-          <rt-carousel-slide slide-classes="rt-col-4 d-flex">
-            <rt-card :equal-padding="true"
-                     background-image="/static/images/B2B/img456.png"
-                     :full-width-top-image="true"
-                     :has-gradient-over-image="true">
-              <template slot="content">
-                <p class="rt-font-paragraph rt-font-bold rt-space-top">Проводите совещание</p>
-                <p class="rt-font-small-paragraph rt-space-bottom3 color-main05 rt-space-top05">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              </template>
-            </rt-card>
-          </rt-carousel-slide>
-          <rt-carousel-slide slide-classes="rt-col-4 d-flex">
-            <rt-card :equal-padding="true"
-                     background-image="/static/images/B2B/img-1.jpg"
-                     :full-width-top-image="true"
-                     :has-gradient-over-image="true">
-              <template slot="content">
-                <p class="rt-font-paragraph rt-font-bold rt-space-top">Демонстрируйте файлы</p>
-                <p class="rt-font-small-paragraph rt-space-bottom3 color-main05 rt-space-top05">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              </template>
-            </rt-card>
-          </rt-carousel-slide>
-          <rt-carousel-slide slide-classes="rt-col-4 d-flex">
-            <rt-card :equal-padding="true"
-                     background-image="/static/images/B2B/img-1.jpg"
-                     :full-width-top-image="true"
-                     :has-gradient-over-image="true">
-              <template slot="content">
-                <p class="rt-font-paragraph rt-font-bold rt-space-top">Выгружайте документы</p>
-                <p class="rt-font-small-paragraph rt-space-bottom3 color-main05 rt-space-top05">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              </template>
-            </rt-card>
-          </rt-carousel-slide>
-          <rt-carousel-slide slide-classes="rt-col-4 d-flex">
-            <rt-card :equal-padding="true"
-                     background-image="/static/images/B2B/img-1.jpg"
-                     :full-width-top-image="true"
-                     :has-gradient-over-image="true">
-              <template slot="content">
-                <p class="rt-font-paragraph rt-font-bold rt-space-top">Анализируйте статистику</p>
-                <p class="rt-font-small-paragraph rt-space-bottom3 color-main05 rt-space-top05">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              </template>
-            </rt-card>
-          </rt-carousel-slide>
-        </rt-carousel>
-      </div>
-    </div>
-    <div class="wc-inline">
-      <div class="rt-container rt-container--mobile-full-width">
-        <div class="rt-col">
-          <div class="row">
-            <div class="rt-col-2 td-d-none"></div>
-            <div class="rt-col-8 rt-col-td-6 rt-col-md-3">
-              <h2 class="rt-font-center rt-space-top4 rt-space-bottom rt-font-bold">Преимущества сервиса</h2>
-              <p class="rt-font-center rt-font-paragraph rt-space-bottom3">Человек усваивает 10% текста, 20% на слух,
-                30% глазами и 50% из того, что видит  и слышит одновременно. При выборе аудиоконференции в качестве
-                формата проведения совещаний ― максимально эффективное восприятие информации</p>
+    <div class="rt-space-top35">
+      <pre-code
+        text="<div class=&quot;test-access color-block--green-low color-white&quot;>
+      <div class=&quot;test-access__image mobile-none&quot;></div>
+      <div class=&quot;rt-container rt-col-12 rt-col-td-3 rt-col-md-3 rt-space-top25 d-flex rt-space-bottom25&quot;>
+        <div class=&quot;rt-col-5 rt-col-td-3 rt-col-md-3 flex-column&quot;>
+          <h3 class=&quot;rt-space-bottom rt-font-bold&quot;>Тестовый доступ</h3>
+          <div class=&quot;rt-col-10 rt-col-td-6 rt-col-md-3&quot;>
+            <p class=&quot;rt-font-paragraph rt-space-bottom&quot;>Бесплатный доступ ко всем возможностям сервиса на 7 дней:</p>
+          </div>
+          <ul class=&quot;rt-numeric-list rt-space-bottom color-white&quot;>
+            <li class=&quot;rt-ordered-list__item rt-font-paragraph&quot;>Гостевой доступ к личному кабинету с возможностью полного управления, чтобы
+              изучить его удобство  и функциональность</li>
+            <li class=&quot;rt-ordered-list__item rt-font-paragraph&quot;>Неограниченную входящую связь на выбранный городской номер</li>
+            <li class=&quot;rt-ordered-list__item rt-font-paragraph&quot;>50 минут исходящей связи</li>
+            <li class=&quot;rt-ordered-list__item rt-font-paragraph&quot;>Оформить коммерческий тариф и желаемые дополнительные услуги необходимо до
+              конца тестового периода</li>
+          </ul>
+          <div class=&quot;stretcher&quot;>
+            <rt-button class=&quot;rt-button rt-button-orange&quot;>Попробовать</rt-button>
+          </div>
+          <a href=&quot;#&quot;>
+            <div class=&quot;download-button--dashed&quot;>
+              <span class=&quot;rt-font-small-paragraph text--underlined&quot;>Руководство пользователя для тестового периода</span>
+              <p class=&quot;rt-font-control&quot;>pdf, 1,3 Мб</p>
             </div>
-            <div class="rt-col-2 td-d-none"></div>
-          </div>
-          <div class="row">
-            <rt-card-carousel>
-              <rt-card background-color-type="" :background-blur="5" :is-white-color="true" class="carousel-card carousel-card--active custom-color">
-                <template slot="content">
-                  <div class="rt-space-top15 rt-space-bottom">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
-                      <path fill="#FFF" fill-rule="evenodd" d="M65.333 53.8c5.734 1.5 10 6.667 10 12.867V80H72V66.667c0-4.334-2.8-8-6.667-9.4zm-30-7.133v4.066L32 52.933V52.9l-4.767 3.2-.833.567H8.667v16.666H32V56.667h3.333v16.7c0 1.833-1.5 3.333-3.333 3.333H8.667a3.343 3.343 0 01-3.334-3.333v-16.7c0-1.834 1.5-3.334 3.334-3.334h16.7l9.966-6.666zM13.667 63.333a1.667 1.667 0 11-.002 3.334 1.667 1.667 0 01.002-3.334zm6.666 0a1.668 1.668 0 010 3.334 1.667 1.667 0 010-3.334zm6.667 0a1.668 1.668 0 11-.002 3.336A1.668 1.668 0 0127 63.333zM45.333 0c7.234 0 13.867 3.3 18.2 9.033 1.95 2.572 3.085 5.143 3.386 7.633H67c2.767 0 5 2 5 4.434v11.1c0 2.467-2.267 4.467-5.033 4.467H67C67 47.9 62.533 60 52.733 60h-7.4C43.5 59.967 42 57.733 42 55l.004-.243c.085-2.653 1.55-4.757 3.33-4.757h6.633c1.833 0 3.333 2.233 3.333 5l-.004.243c-.01.343-.045.677-.1.999 5.587-2.012 8.47-10.845 8.47-19.575h-1.014c-3.462 5.975-9.926 10-17.319 10-7.392 0-13.856-4.025-17.318-10h-4.348c-2.767 0-5-2-5-4.434v-11.1c0-2.466 2.233-4.466 5-4.466h.08c.301-2.49 1.437-5.062 3.386-7.634C31.467 3.3 38.1 0 45.333 0zm6.234 53.333h-5.834c-.166.3-.4.867-.4 1.667s.234 1.367.4 1.633l5.834.034c.166-.3.4-.867.4-1.667s-.234-1.4-.4-1.667zM45.333 10c-9.2 0-16.666 7.467-16.666 16.667 0 9.2 7.466 16.666 16.666 16.666S62 35.867 62 26.667 54.533 10 45.333 10zM25.3 20h-1.633C22.7 20 22 20.6 22 21.133v11.1c0 .5.7 1.1 1.667 1.1H25.3V20zM67 20h-1.667v13.333h1.634c.966 0 1.7-.6 1.7-1.133V21.1c0-.5-.7-1.1-1.667-1.1zM45.333 3.333c-6.166 0-11.833 2.8-15.533 7.7-1.49 1.943-2.386 3.844-2.686 5.633h.9c3.463-5.974 9.927-10 17.32-10 7.392 0 13.856 4.026 17.318 10h.9c-.3-1.78-1.196-3.664-2.685-5.633-3.7-4.9-9.367-7.7-15.534-7.7z"/>
-                    </svg>
-                  </div>
-                  <p class="rt-font-label">1/5</p>
-                  <h4 class="rt-font-h4 rt-font-bold rt-space-top">Организуйте совещание</h4>
-                  <ul class="rt-ordered-list rt-space-top color-white">
-                    <li class="rt-ordered-list__item rt-font-paragraph">Бронируйте конференции в удобное время</li>
-                    <li class="rt-ordered-list__item rt-font-paragraph">Отправляйте приглашения через e-mail и sms</li>
-                  </ul>
-                </template>
-              </rt-card>
-              <rt-card background-color-type="slate" :background-blur="5" :is-white-color="true" class="carousel-card">
-                <template slot="content">
-                  <div class="rt-space-top15 rt-space-bottom">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
-                      <path fill="#FFF" fill-rule="evenodd" d="M61.667 38.667C71.8 38.667 80 46.867 80 57s-8.2 18.333-18.333 18.333c-10.134 0-18.334-8.2-18.334-18.333s8.2-18.333 18.334-18.333zm0 3.333c-8.267 0-15 6.733-15 15s6.733 15 15 15c8.266 0 15-6.733 15-15s-6.734-15-15-15zm1.666 6.667v6.666H70v3.334h-6.667v6.666H60v-6.666h-6.667v-3.334H60v-6.666h3.333zM70 25.333c3.667 0 6.667 3 6.667 6.667v6.667h-3.334V32c0-1.833-1.5-3.333-3.333-3.333H56.033A10.65 10.65 0 0054 25.333zm-46.667 0C27 25.333 30 28.333 30 32v6.667h-3.333V32c0-1.833-1.5-3.333-3.334-3.333H6.667A3.343 3.343 0 003.333 32v6.667H0V32c0-3.667 3-6.667 6.667-6.667zm23.334 0c3.666 0 6.666 3 6.666 6.667v5a21.993 21.993 0 00-3.166 1.667H50V32c0-1.833-1.5-3.333-3.333-3.333H32.7a10.686 10.686 0 00-2.033-3.334zm15-20c4.6 0 8.333 3.734 8.333 8.334S66.267 22 61.667 22s-8.334-3.733-8.334-8.333 3.734-8.334 8.334-8.334zm-23.334 0c4.6 0 8.334 3.734 8.334 8.334S42.933 22 38.333 22 30 18.267 30 13.667s3.733-8.334 8.333-8.334zM15 5.333c4.6 0 8.333 3.734 8.333 8.334S19.6 22 15 22s-8.333-3.733-8.333-8.333S10.4 5.333 15 5.333zm46.667 3.334c-2.767 0-5 2.233-5 5 0 2.766 2.233 5 5 5 2.766 0 5-2.234 5-5 0-2.767-2.234-5-5-5zm-23.334 0c-2.766 0-5 2.233-5 5 0 2.766 2.234 5 5 5 2.767 0 5-2.234 5-5 0-2.767-2.233-5-5-5zM15 8.667c-2.767 0-5 2.233-5 5 0 2.766 2.233 5 5 5s5-2.234 5-5c0-2.767-2.233-5-5-5z"/>
-                    </svg>
-                  </div>
-                  <p class="rt-font-label">2/5</p>
-                  <h4 class="rt-font-h4 rt-font-bold rt-space-top">Добавляйте участников</h4>
-                  <ul class="rt-ordered-list rt-space-top color-white">
-                    <li class="rt-ordered-list__item rt-font-paragraph">Подключайте к конференц-связи за 1 минуту</li>
-                    <li class="rt-ordered-list__item rt-font-paragraph">Добавляйте к конференции до 500 человек</li>
-                  </ul>
-                </template>
-              </rt-card>
-              <rt-card background-color-type="green-high" :background-blur="5" :is-white-color="true" class="carousel-card">
-                <template slot="content">
-                  <div class="rt-space-top15 rt-space-bottom">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
-                      <path fill="#FFF" fill-rule="evenodd" d="M40.3 70c2.156 0 4 1.39 4.684 3.333h21.683v3.334H44.984C44.3 78.61 42.456 80 40.3 80s-4-1.39-4.684-3.333h-21.95v-3.334h21.95C36.3 71.39 38.144 70 40.3 70zm.033 3.333c-.9 0-1.666.734-1.666 1.667s.733 1.667 1.666 1.667c.934 0 1.667-.734 1.667-1.667s-.767-1.667-1.667-1.667zm-5.133-16.7c2.15 0 3.992 1.404 4.68 3.334h26.787V63.3H39.884c-.684 1.944-2.528 3.333-4.684 3.333s-4-1.389-4.684-3.333h-16.85v-3.333h16.85c.684-1.945 2.528-3.334 4.684-3.334zm.033 3.334a1.67 1.67 0 00-1.666 1.666 1.67 1.67 0 001.666 1.667 1.65 1.65 0 001.667-1.667c0-.933-.767-1.666-1.667-1.666zm4.9-16.667a4.979 4.979 0 014.696 3.333h21.838v3.334h-21.85c-.683 1.944-2.528 3.333-4.684 3.333-2.155 0-4-1.39-4.683-3.333H13.667v-3.334H35.45c.683-1.944 2.528-3.333 4.683-3.333zm.067 3.333c-.933 0-1.667.767-1.667 1.667 0 .933.767 1.667 1.667 1.667.933 0 1.667-.734 1.667-1.667s-.767-1.667-1.667-1.667zm-.067-26.766c3.634 0 7.067 1.433 9.634 4.033l1.166 1.2-2.366 2.333-1.167-1.166c-3.9-3.967-10.733-3.934-14.633.066L31.633 27.5l-2.366-2.333 1.166-1.2a13.487 13.487 0 019.7-4.1zm.034-10c6.6 0 12.8 2.6 17.466 7.333l1.167 1.167-2.333 2.366-1.167-1.166c-4.033-4.1-9.4-6.334-15.1-6.334-5.767 0-11.167 2.3-15.233 6.434L23.8 20.833 21.433 18.5l1.167-1.2c4.667-4.8 10.933-7.433 17.567-7.433zM39.933 0C49.467 0 58.467 3.767 65.2 10.6l1.167 1.167-2.334 2.366-1.166-1.166c-6.134-6.2-14.267-9.634-22.934-9.634-8.733 0-16.933 3.467-23.1 9.8L15.7 14.3l-2.367-2.333 1.167-1.2C21.267 3.833 30.3 0 39.933 0z"/>
-                    </svg>
-                  </div>
-                  <p class="rt-font-label">3/5</p>
-                  <h4 class="rt-font-h4 rt-font-bold rt-space-top">Модерируйте выступления</h4>
-                  <ul class="rt-ordered-list rt-space-top color-white">
-                    <li class="rt-ordered-list__item rt-font-paragraph">Включайте и отключайте микрофоны участников</li>
-                    <li class="rt-ordered-list__item rt-font-paragraph">Продлевайте время в процессе конференции</li>
-                  </ul>
-                </template>
-              </rt-card>
-              <rt-card background-color-type="dark-blue" :background-blur="5" :is-white-color="true" class="carousel-card">
-                <template slot="content">
-                  <div class="rt-space-top15 rt-space-bottom">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
-                      <path fill="#FFF" fill-rule="evenodd" d="M23.343 11.335v3.334H3.3l.034 43.385 73.396-.033-.033-43.352h-16.64l-1.7-3.334H76.73c1.801 0 3.302 1.5 3.269 3.301v43.418a3.31 3.31 0 01-3.302 3.301H46.686l-.001 6.669h6.67v3.335h-26.61v-3.334l6.602-.001v-6.669H3.301c-1.8 0-3.301-1.467-3.301-3.334V14.636c0-1.8 1.5-3.301 3.301-3.301h20.042zm20.008 50.02h-6.67v6.669h6.67v-6.669zm-3.335-8.37c.934 0 1.668.734 1.668 1.667 0 .934-.767 1.668-1.668 1.668-.9 0-1.667-.734-1.667-1.668 0-.933.767-1.667 1.667-1.667zm36.682-4.969v3.335H3.335v-3.335h73.363zM30.046 8v13.339h6.669l-8.337 13.339-8.336-13.34h6.669V8h3.335zM51.72 8l8.337 13.339h-6.67v13.339h-3.334v-13.34h-6.67L51.721 8zM30.713 24.674h-4.669l2.334 3.701 2.335-3.701zM51.72 14.303l-2.3 3.701h4.634l-2.334-3.701zM45.685 11.3l-2.3 3.368H33.346V11.3h12.338z"/>
-                    </svg>
-                  </div>
-                  <p class="rt-font-label">4/5</p>
-                  <h4 class="rt-font-h4 rt-font-bold rt-space-top">Делитесь материалами</h4>
-                  <ul class="rt-ordered-list rt-space-top color-white">
-                    <li class="rt-ordered-list__item rt-font-paragraph">Демонстрируйте документы в процессе</li>
-                    <li class="rt-ordered-list__item rt-font-paragraph">Обменивайтесь текстовыми сообщениями с участниками</li>
-                  </ul>
-                </template>
-              </rt-card>
-              <rt-card background-color-type="" :background-blur="5" :is-white-color="true" class="carousel-card custom-color-2">
-                <template slot="content">
-                  <div class="rt-space-top15 rt-space-bottom">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
-                      <path fill="#FFF" fill-rule="evenodd" d="M0 80v-3.333h3.333v-20c0-1.834 1.5-3.334 3.334-3.334H20c1.833 0 3.333 1.5 3.333 3.334v20H30V40c0-1.833 1.5-3.333 3.333-3.333h13.334C48.5 36.667 50 38.167 50 40v36.667h6.667V23.333C56.667 21.5 58.167 20 60 20h13.333c1.834 0 3.334 1.5 3.334 3.333v53.334H80V80H0zm73.333-56.667H60v53.334h13.333V23.333zM46.667 40H33.333v36.667h13.334V40zM20 56.667H6.667v20H20v-20zM50 0v13.333h-3.333l-.001-7.645-23.83 23.83-2.356-2.357L44.307 3.333h-7.64V0H50z"/>
-                    </svg>
-                  </div>
-                  <p class="rt-font-label">5/5</p>
-                  <h4 class="rt-font-h4 rt-font-bold rt-space-top">Анализируйте итоги</h4>
-                  <ul class="rt-ordered-list rt-space-top color-white">
-                    <li class="rt-ordered-list__item rt-font-paragraph">Выгружайте файлы для дальнейшей работы</li>
-                    <li class="rt-ordered-list__item rt-font-paragraph">Записывайте и прослушивайте конференции онлайн</li>
-                  </ul>
-                </template>
-              </rt-card>
-            </rt-card-carousel>
-          </div>
+          </a>
         </div>
+        <div class=&quot;rt-col-1 flex-column mobile-none&quot;></div>
+        <div class=&quot;rt-space-top05 flex-column mobile-none&quot;></div>
       </div>
+    </div>"/>
     </div>
-    <div class="rt-container">
-      <div class="rt-col">
-        <div class="color-block--cool-grey05-no-opacity rt-space-horizontal05 rt-space-vertical2 rt-td-space-vertical">
-          <div class="row">
-            <div class="rt-col-6 rt-col-td-6">
-              <div class="rt-space-left15 rt-td-space-horizontal05 rt-td-space-bottom">
-                <rt-input placeholder="Откуда вы звоните" :is-b2b-input="true"/>
+    <pre-code
+      text='<div class="rt-space-top35">
+        <div class="rt-container">
+          <div class="rt-col">
+            <div class="row">
+              <h3 class="rt-col-12 rt-space-bottom rt-font-bold">Full HD и Ultra HD телевизоры в рассрочку</h3>
+              <div class="rt-col-6 rt-col-td-6 rt-col-md-3">
+                <p class="rt-font-paragraph rt-space-bottom">Вы можете добавить к пакету услуг телевизор в рассрочку на 12 или
+                  24 месяца. За подробностями обращайтесь к нашим менеджерам.</p>
               </div>
             </div>
-            <div class="rt-col-6 rt-col-td-6">
-              <div class="flex-end-center rt-td-space-left05 d-md-block rt-md-space-horizontal05">
-                <div class="flex-fill rt-md-space-bottom">
-                  <rt-input placeholder="Куда вы звоните" :is-b2b-input="true"/>
-                </div>
-                <div class="d-inline-block rt-space-left rt-space-right15 rt-td-space-right05 rt-md-space-left-none md-d-flex rt-md-space-horizontal-none">
-                  <rt-button class="rt-button-orange md-flex-fill">Узнать цены</rt-button>
+          </div>
+        </div>
+        <div class="test-access test-access--reverse color-main rt-space-bottom25 rt-space-top25">
+          <div class="test-access__image mobile-none"></div>
+          <div class="color-block--light-grey">
+            <div class="rt-container">
+              <div class="rt-col">
+                <div class="row">
+                  <div class="rt-col-6 rt-col-td-3 rt-col-md-3 rt-md-space-top15">
+                    <div class="test-access__image test-access__image--mobile"></div>
+                  </div>
+                  <div class="rt-col-4 rt-col-td-3 rt-col-md-3 flex-column rt-md-space-bottom15">
+                    <rt-row-list :content-block-type="true">
+                      <rt-row-list-item icon="/static/images/B2B/ATS.svg">
+                        <template slot="icon">
+                          <svg viewBox="0 0 64 45" width="50px" xmlns="http://www.w3.org/2000/svg">
+                            <g fill-rule="nonzero" fill="none">
+                              <path d="M16 44.04H2.667V30.707H16V44.04zM5.333 41.373h8v-8h-8v8z" fill="#70F"/>
+                              <path d="M48 44.04V29.373l13.067 7.2L48 44.04zm2.667-10.133v5.333l4.8-2.667-4.8-2.666z" fill="#BC104B"/>
+                              <path fill="#273A64" d="M26.667 30.707h2.667V44.04h-2.667zM34.667 30.707h2.667V44.04h-2.667z"/>
+                              <g fill="#FF4F12">
+                                <path d="M61.067 7.773C53.6 2.707 44 .307 34.4.307h-4.533c-4.126 0-8.243.472-12.2 1.381v2.65A52.073 52.073 0 0 1 29.6 2.977h4.8c9.6 0 18.667 2.667 25.333 6.933 1.6 1.067 1.867 1.6 1.867 2.667v9.067c0 .533-.267.8-.8.8h-16c-.267 0-.533 0-.533-.267 0 0-.267-.267-.267-.533v-8s-5.203-1.6-12-1.6-11.733 1.6-11.733 1.6v7.733c0 .533-.267.8-.8.8H.112c.277 1.619 1.675 2.933 3.355 2.933h16c1.866 0 3.466-1.6 3.466-3.466v-5.6s5.334-1.067 9.067-1.067c4 0 9.067 1.067 9.067 1.067v5.6c0 1.866 1.6 3.466 3.466 3.466h16c1.867 0 3.467-1.6 3.467-3.466v-9.067c0-2.136-1.067-3.736-2.933-4.803z"/>
+                                <path d="M2.667 21.373v-8.8c0-1.066.266-1.6 1.866-2.666 3.771-2.563 8.24-4.419 13.134-5.571v-2.65C12.419 2.89 7.456 4.882 3.2 7.772 1.067 8.84 0 10.44 0 12.573v9.067c0 .187.08.352.112.533h3.355c-.534 0-.8-.266-.8-.8z"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </template>
+                        <template slot="option">
+                          <div class="ovh rt-space-bottom05 rt-space-top05">
+                            <p class="rt-font-paragraph rt-font-bold">Обзор с любого угла</p>
+                            <p class="rt-font-small-paragraph">
+                              Матрица IPS обеспечивает одинаково яркое и контрастное изображение с любого угла
+                            </p>
+                          </div>
+                        </template>
+                      </rt-row-list-item>
+                      <rt-row-list-item icon="/static/images/B2B/ATS.svg">
+                        <template slot="icon">
+                          <svg viewBox="0 0 64 45" width="50px" xmlns="http://www.w3.org/2000/svg">
+                            <g fill-rule="nonzero" fill="none">
+                              <path d="M16 44.04H2.667V30.707H16V44.04zM5.333 41.373h8v-8h-8v8z" fill="#70F"/>
+                              <path d="M48 44.04V29.373l13.067 7.2L48 44.04zm2.667-10.133v5.333l4.8-2.667-4.8-2.666z" fill="#BC104B"/>
+                              <path fill="#273A64" d="M26.667 30.707h2.667V44.04h-2.667zM34.667 30.707h2.667V44.04h-2.667z"/>
+                              <g fill="#FF4F12">
+                                <path d="M61.067 7.773C53.6 2.707 44 .307 34.4.307h-4.533c-4.126 0-8.243.472-12.2 1.381v2.65A52.073 52.073 0 0 1 29.6 2.977h4.8c9.6 0 18.667 2.667 25.333 6.933 1.6 1.067 1.867 1.6 1.867 2.667v9.067c0 .533-.267.8-.8.8h-16c-.267 0-.533 0-.533-.267 0 0-.267-.267-.267-.533v-8s-5.203-1.6-12-1.6-11.733 1.6-11.733 1.6v7.733c0 .533-.267.8-.8.8H.112c.277 1.619 1.675 2.933 3.355 2.933h16c1.866 0 3.466-1.6 3.466-3.466v-5.6s5.334-1.067 9.067-1.067c4 0 9.067 1.067 9.067 1.067v5.6c0 1.866 1.6 3.466 3.466 3.466h16c1.867 0 3.467-1.6 3.467-3.466v-9.067c0-2.136-1.067-3.736-2.933-4.803z"/>
+                                <path d="M2.667 21.373v-8.8c0-1.066.266-1.6 1.866-2.666 3.771-2.563 8.24-4.419 13.134-5.571v-2.65C12.419 2.89 7.456 4.882 3.2 7.772 1.067 8.84 0 10.44 0 12.573v9.067c0 .187.08.352.112.533h3.355c-.534 0-.8-.266-.8-.8z"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </template>
+                        <template slot="option">
+                          <div class="ovh rt-space-bottom05 rt-space-top05">
+                            <p class="rt-font-paragraph rt-font-bold">Гарантия и обслуживание</p>
+                            <p class="rt-font-small-paragraph">
+                              Фирменная гарантия от производителя на 2 года с выездным сервисом
+                            </p>
+                          </div>
+                        </template>
+                      </rt-row-list-item>
+                      <rt-row-list-item icon="/static/images/B2B/ATS.svg">
+                        <template slot="icon">
+                          <svg viewBox="0 0 64 45" width="50px" xmlns="http://www.w3.org/2000/svg">
+                            <g fill-rule="nonzero" fill="none">
+                              <path d="M16 44.04H2.667V30.707H16V44.04zM5.333 41.373h8v-8h-8v8z" fill="#70F"/>
+                              <path d="M48 44.04V29.373l13.067 7.2L48 44.04zm2.667-10.133v5.333l4.8-2.667-4.8-2.666z" fill="#BC104B"/>
+                              <path fill="#273A64" d="M26.667 30.707h2.667V44.04h-2.667zM34.667 30.707h2.667V44.04h-2.667z"/>
+                              <g fill="#FF4F12">
+                                <path d="M61.067 7.773C53.6 2.707 44 .307 34.4.307h-4.533c-4.126 0-8.243.472-12.2 1.381v2.65A52.073 52.073 0 0 1 29.6 2.977h4.8c9.6 0 18.667 2.667 25.333 6.933 1.6 1.067 1.867 1.6 1.867 2.667v9.067c0 .533-.267.8-.8.8h-16c-.267 0-.533 0-.533-.267 0 0-.267-.267-.267-.533v-8s-5.203-1.6-12-1.6-11.733 1.6-11.733 1.6v7.733c0 .533-.267.8-.8.8H.112c.277 1.619 1.675 2.933 3.355 2.933h16c1.866 0 3.466-1.6 3.466-3.466v-5.6s5.334-1.067 9.067-1.067c4 0 9.067 1.067 9.067 1.067v5.6c0 1.866 1.6 3.466 3.466 3.466h16c1.867 0 3.467-1.6 3.467-3.466v-9.067c0-2.136-1.067-3.736-2.933-4.803z"/>
+                                <path d="M2.667 21.373v-8.8c0-1.066.266-1.6 1.866-2.666 3.771-2.563 8.24-4.419 13.134-5.571v-2.65C12.419 2.89 7.456 4.882 3.2 7.772 1.067 8.84 0 10.44 0 12.573v9.067c0 .187.08.352.112.533h3.355c-.534 0-.8-.266-.8-.8z"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </template>
+                        <template slot="option">
+                          <div class="ovh rt-space-bottom05 rt-space-top05">
+                            <p class="rt-font-paragraph rt-font-bold">Повышенная надежность</p>
+                            <p class="rt-font-small-paragraph">
+                              Ежедневная нагрузка до 18 часов работы, 7 дней в неделю
+                            </p>
+                          </div>
+                        </template>
+                      </rt-row-list-item>
+                    </rt-row-list>
+                  </div>
+                  <div class="rt-col-2 td-d-none"/>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="rt-container rt-space-bottom2 rt-space-top2">
+          <div class="rt-col pl0">
+            <rt-annotation label="Подробнее о телевизорах">
+              <template slot="content">
+                <div class="rt-space-bottom2"/>
+                <rt-table>
+                  <template slot="header">
+                    <rt-table-head-item></rt-table-head-item>
+                    <rt-table-head-item>Диагональ</rt-table-head-item>
+                    <rt-table-head-item>Full HD</rt-table-head-item>
+                    <rt-table-head-item>Ultra HD (4K)</rt-table-head-item>
+                    <rt-table-head-item>Разрешение, пикс</rt-table-head-item>
+                    <rt-table-head-item>Wi-Fi</rt-table-head-item>
+                  </template>
+                  <template slot="body">
+                    <rt-table-row>
+                      <rt-table-item><span class="rt-font-bold color-main">LG 32LV340C</span></rt-table-item>
+                      <rt-table-item>32*</rt-table-item>
+                      <rt-table-item>да</rt-table-item>
+                      <rt-table-item>нет</rt-table-item>
+                      <rt-table-item>1920x1080</rt-table-item>
+                      <rt-table-item>нет</rt-table-item>
+                    </rt-table-row>
+                    <rt-table-row>
+                      <rt-table-item><span class="rt-font-bold color-main">LG 43UV661H</span></rt-table-item>
+                      <rt-table-item>43*</rt-table-item>
+                      <rt-table-item>да</rt-table-item>
+                      <rt-table-item>нет</rt-table-item>
+                      <rt-table-item>1920x1080</rt-table-item>
+                      <rt-table-item>нет</rt-table-item>
+                    </rt-table-row>
+                    <rt-table-row>
+                      <rt-table-item><span class="rt-font-bold color-main">LG 43UW761H</span></rt-table-item>
+                      <rt-table-item>43*</rt-table-item>
+                      <rt-table-item>да</rt-table-item>
+                      <rt-table-item>да</rt-table-item>
+                      <rt-table-item>3840x2160</rt-table-item>
+                      <rt-table-item>да</rt-table-item>
+                    </rt-table-row>
+                    <rt-table-row>
+                      <rt-table-item><span class="rt-font-bold color-main">LG 49UV661H</span></rt-table-item>
+                      <rt-table-item>49*</rt-table-item>
+                      <rt-table-item>да</rt-table-item>
+                      <rt-table-item>да</rt-table-item>
+                      <rt-table-item>3840x2160</rt-table-item>
+                      <rt-table-item>да</rt-table-item>
+                    </rt-table-row>
+                    <rt-table-row>
+                      <rt-table-item><span class="rt-font-bold color-main">LG 55LV340C</span></rt-table-item>
+                      <rt-table-item>56*</rt-table-item>
+                      <rt-table-item>да</rt-table-item>
+                      <rt-table-item>нет</rt-table-item>
+                      <rt-table-item>1920x1080</rt-table-item>
+                      <rt-table-item>нет</rt-table-item>
+                    </rt-table-row>
+                  </template>
+                </rt-table>
+              </template>
+            </rt-annotation>
+          </div>
+        </div>
+    </div>'/>
+    <div class="partner-offers rt-space-bottom35 rt-md-space-bottom2">
+      <div class="partner-offers__header gradient-header rt-space-top45 rt-space-bottom2 color-white rt-td-space-top25-half rt-md-space-top rt-md-space-bottom">
+        <div class="rt-container">
+          <div class="rt-col">
+            <div class="row">
+              <div class="rt-col-1">
+                <a class="partner-offers__back-link" href="#">
+                  <div class="partner-offers__back-link-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" class="partner-offers__back-link-arrow"><g fill="#FFF"><path d="M9 1.127L7.889 0 0 8l7.889 8L9 14.873 2.222 8z"/><path d="M18 8.857V7.143H2.25v1.714z"/></g></svg>
+                  </div>
+                </a>
+              </div>
+              <div class="rt-col-10 td-flex-column d-space-between md-d-none">
+                <div class="partner-offers__header-title rt-font-bold">
+                  <!--<span class="partner-offers__header-title-text">Бизнес <span class="header__title&#45;&#45;line-through">тренинг</span> <span class="color-orange">драйв</span></span>-->
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 570 53"><defs><path id="a" d="M0 .315h30.92v39.756H0z"/><path id="c" d="M1.771.42h30.062v40.549H1.77z"/><path id="e" d="M.817.42h30.06v40.549H.818z"/><path id="g" d="M1.05 1.213h23.946v28.17H1.05z"/><path id="i" d="M0 53.123h569.901V1.782H0z"/></defs><g fill="none" fill-rule="evenodd" transform="translate(0 -1)"><g transform="translate(0 1.466)"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path fill="#FFF" d="M7.544 22.35v11.02h8.743c4.725 0 7.087-1.837 7.087-5.51s-2.362-5.51-7.087-5.51H7.544zm9.315-6.588c4.19 0 7.582 1.07 10.174 3.21 2.59 2.14 3.886 5.101 3.886 8.888 0 3.825-1.296 6.815-3.886 8.973-2.592 2.158-5.983 3.238-10.174 3.238H0V.315h26.173v6.589H7.544v8.858h9.315z" mask="url(#b)"/></g><path fill="#FFF" d="M41.092 13.367v18.344l11.772-18.344h7.43v28.169h-6.858V23.193L41.663 41.536h-7.43V13.367zm32.003 15.618v-4.941c3.961 0 5.944-1.136 5.944-3.408 0-1.968-1.429-2.953-4.288-2.953-1.066 0-2.01.246-2.828.74-.82.491-1.228 1.191-1.228 2.101 0 .378.055.718.17 1.02l-5.772 2.103c-.419-.832-.627-1.78-.627-2.84 0-2.385.923-4.353 2.771-5.906 1.848-1.552 4.352-2.328 7.514-2.328 3.506 0 6.125.68 7.86 2.045 1.732 1.362 2.6 3.142 2.6 5.338 0 1.514-.383 2.82-1.143 3.917a6.893 6.893 0 0 1-2.973 2.442c3.581 1.327 5.372 3.673 5.372 7.043 0 2.576-1.018 4.715-3.056 6.418-2.038 1.705-4.83 2.556-8.373 2.556-3.658 0-6.487-.851-8.487-2.556-2-1.703-3-3.919-3-6.644 0-1.25.229-2.387.686-3.408l6.286 2.044a4.195 4.195 0 0 0-.285 1.533c0 1.062.466 1.903 1.4 2.528.934.625 2.086.937 3.457.937 1.257 0 2.304-.35 3.143-1.051.837-.7 1.258-1.618 1.258-2.754 0-1.286-.58-2.271-1.744-2.953-1.162-.683-2.714-1.023-4.657-1.023m23.661-15.618v10.166h11.543V13.367h6.86v28.169h-6.86V29.78H96.756v11.756h-6.858V13.367zm35.261 4.658c-1.868 0-3.496.557-4.887 1.674a8.601 8.601 0 0 0-2.885 4.232h15.201c-.342-1.856-1.163-3.304-2.457-4.346-1.296-1.04-2.954-1.56-4.972-1.56zm14.058 11.13h-21.83c.229 2.158 1.046 3.873 2.457 5.14 1.409 1.27 3.182 1.904 5.315 1.904 3.506 0 6.116-1.723 7.83-5.17l5.371 3.068c-2.667 5.49-7.105 8.235-13.316 8.235-4.038 0-7.476-1.392-10.316-4.174-2.837-2.784-4.257-6.352-4.257-10.707 0-4.39 1.438-7.97 4.315-10.732 2.877-2.765 6.41-4.147 10.6-4.147 4.039 0 7.353 1.317 9.945 3.947 2.592 2.631 3.886 6.012 3.886 10.138v2.499zm24.175 1.307l5.829 3.748c-2.743 5.415-7.163 8.122-13.259 8.122-4.268 0-7.82-1.371-10.658-4.118-2.84-2.745-4.259-6.332-4.259-10.762 0-4.391 1.448-7.97 4.345-10.734 2.895-2.763 6.419-4.145 10.572-4.145 3.124 0 5.82.671 8.088 2.015 2.265 1.344 3.895 3.229 4.886 5.651l-5.887 3.862c-1.487-3.217-3.868-4.827-7.144-4.827-2.171 0-3.972.748-5.401 2.243-1.429 1.496-2.142 3.475-2.142 5.935 0 2.499.704 4.487 2.113 5.963 1.41 1.477 3.22 2.214 5.43 2.214 1.828 0 3.323-.425 4.486-1.277 1.162-.851 2.162-2.148 3-3.89m50.93-17.095v6.247h-8.115v21.922h-6.972V19.614h-8.116v-6.247z"/><g transform="translate(222.264 12.154)"><mask id="d" fill="#fff"><use xlink:href="#c"/></mask><path fill="#FFF" d="M22.232 9.477c-1.525-1.571-3.429-2.357-5.714-2.357-2.287 0-4.193.786-5.716 2.357-1.526 1.57-2.286 3.512-2.286 5.82 0 2.311.76 4.251 2.286 5.822 1.523 1.571 3.429 2.357 5.716 2.357 2.285 0 4.189-.786 5.714-2.357 1.524-1.571 2.286-3.51 2.286-5.821 0-2.309-.762-4.25-2.286-5.821zM1.772 40.969V1.214h7.202v4.032c.989-1.439 2.36-2.602 4.113-3.493C14.84.864 16.746.42 18.803.42c3.695 0 6.79 1.343 9.287 4.031 2.495 2.69 3.743 6.304 3.743 10.848 0 4.43-1.314 8.017-3.944 10.762-2.63 2.747-5.866 4.118-9.715 4.118-3.848 0-6.915-1.42-9.2-4.26V40.97H1.77z" mask="url(#d)"/></g><path fill="#FFF" d="M270.499 18.025c-1.868 0-3.496.557-4.887 1.674a8.601 8.601 0 0 0-2.886 4.232h15.202c-.342-1.856-1.163-3.304-2.457-4.346-1.296-1.04-2.954-1.56-4.972-1.56zm14.058 11.13h-21.83c.229 2.158 1.046 3.873 2.457 5.14 1.409 1.27 3.181 1.904 5.315 1.904 3.506 0 6.115-1.723 7.829-5.17l5.372 3.068c-2.667 5.49-7.105 8.235-13.316 8.235-4.039 0-7.477-1.392-10.316-4.174-2.837-2.784-4.257-6.352-4.257-10.707 0-4.39 1.438-7.97 4.315-10.732 2.876-2.765 6.41-4.147 10.6-4.147 4.039 0 7.353 1.317 9.945 3.947 2.592 2.631 3.886 6.012 3.886 10.138v2.499zm10.288-15.788v10.166h11.544V13.367h6.86v28.169h-6.86V29.78h-11.544v11.756h-6.858V13.367zm29.89 0v18.344l11.773-18.344h7.43v28.169h-6.858V23.193l-11.773 18.343h-7.43V13.367zm30.69 0v10.166h11.543V13.367h6.86v28.169h-6.86V29.78h-11.543v11.756h-6.858V13.367zm23.031 28.17v-28.17h19.375v6.474h-12.175v21.696z"/><path fill="#FF4F12" d="M430.799 19.387l-.744 8.575c-.228 2.728-.895 5.093-1.999 7.1H438.8V19.387h-8zm-7.487 22.15v6.02h-5.715V35.061h3.43c1.256-2.233 2.018-4.79 2.285-7.666l1.256-14.03h21.09v21.696h3.087v12.494h-5.716v-6.019h-19.717z"/><g transform="translate(451.698 12.154)"><mask id="f" fill="#fff"><use xlink:href="#e"/></mask><path fill="#FF4F12" d="M21.277 9.477C19.752 7.906 17.85 7.12 15.563 7.12c-2.287 0-4.192.786-5.716 2.357-1.525 1.57-2.285 3.512-2.285 5.82 0 2.311.76 4.251 2.285 5.822 1.524 1.571 3.429 2.357 5.716 2.357 2.286 0 4.19-.786 5.714-2.357 1.524-1.571 2.286-3.51 2.286-5.821 0-2.309-.762-4.25-2.286-5.821zM.817 40.969V1.214h7.202v4.032c.99-1.439 2.36-2.602 4.113-3.493C13.885.864 15.791.42 17.85.42c3.694 0 6.79 1.343 9.286 4.031 2.495 2.69 3.743 6.304 3.743 10.848 0 4.43-1.314 8.017-3.944 10.762-2.63 2.747-5.866 4.118-9.715 4.118-3.848 0-6.915-1.42-9.2-4.26V40.97H.817z" mask="url(#f)"/></g><path fill="#FF4F12" d="M495.893 36.539c2.17 0 3.944-.709 5.315-2.13 1.371-1.42 2.058-3.436 2.058-6.048v-.511l-6.858 1.135c-3.164.53-4.745 1.913-4.745 4.146 0 1.1.382 1.94 1.144 2.528.761.586 1.79.88 3.086.88m16.458 4.998h-7.315c-.914-1.136-1.37-2.63-1.37-4.487-1.983 3.522-5.145 5.282-9.488 5.282-2.82 0-5.116-.804-6.887-2.414-1.77-1.608-2.656-3.739-2.656-6.39 0-2.687.943-4.798 2.828-6.332 1.886-1.533 4.315-2.527 7.287-2.982l8.516-1.305v-1.08c0-2.839-1.734-4.259-5.202-4.259-1.599 0-2.848.303-3.743.909-.894.605-1.342 1.363-1.342 2.271 0 .228.037.454.114.682l-6.46 2.157a5.72 5.72 0 0 1-.512-2.385c0-2.308 1.084-4.325 3.257-6.047 2.172-1.723 5.067-2.585 8.686-2.585 4.038 0 7.116.852 9.231 2.555 2.115 1.704 3.17 4.26 3.17 7.668V34.55c0 2.84.63 5.167 1.886 6.986m18.117-38.448h4.343c0 1.856-.6 3.39-1.8 4.6-1.199 1.212-2.77 1.817-4.714 1.817-1.943 0-3.515-.605-4.716-1.816-1.2-1.212-1.8-2.745-1.8-4.601h4.344c0 .72.19 1.305.572 1.76.38.455.914.682 1.6.682.685 0 1.217-.227 1.6-.683.381-.454.571-1.04.571-1.76zm-8.344 10.28V31.71l11.773-18.344h7.43v28.169h-6.858V23.193l-11.773 18.343h-7.43V13.367h6.858z"/><g transform="translate(544.906 12.154)"><mask id="h" fill="#fff"><use xlink:href="#g"/></mask><path fill="#FF4F12" d="M8.022 17.456v6.475h5.887c2.742 0 4.115-1.098 4.115-3.294 0-2.12-1.373-3.181-4.115-3.181H8.022zm0-10.79v5.337h5.602c2.475 0 3.714-.888 3.714-2.668 0-1.78-1.239-2.67-3.714-2.67H8.022zM1.05 29.382V1.213h13.203c3.085 0 5.476.662 7.171 1.99 1.694 1.325 2.544 2.99 2.544 4.996 0 2.725-1.391 4.827-4.173 6.304 3.467 1.401 5.202 3.617 5.202 6.645 0 2.462-.945 4.448-2.83 5.962-1.886 1.516-4.315 2.273-7.287 2.273H1.05z" mask="url(#h)"/></g><mask id="j" fill="#fff"><use xlink:href="#i"/></mask><path fill="#FF4F12" d="M193.804 33.253h205.422V23.035H193.804z" mask="url(#j)"/></g></svg>
+                </div>
+                <a class="logo-link rt-td-space-top2" href="#">
+                  <rt-logo top-fill-color="b2c-white" :show-text="true" height="50px" width="30px" color="white"/>
+                </a>
+              </div>
+              <div class="rt-col-1 md-d-none"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="partner-offers__main-block rt-space-top25 rt-md-space-top15">
+        <div class="rt-container">
+          <div class="rt-col">
+            <div class="row">
+              <div class="rt-col-1 md-d-none"/>
+              <div class="rt-col-4 rt-col-td-4 rt-col-md-3">
+                <p class="rt-font-h3 rt-font-bold rt-space-bottom05">Предложения от партнеров</p>
+                <p class="rt-font-paragraph color-main07">Специально для участников мастер-класса «Бизнес драйв»</p>
+              </div>
+              <div class="rt-col-6"/>
+              <div class="rt-col-1 md-d-none"/>
+            </div>
+            <div class="row rt-space-top rt-md-space-top-05">
+              <div class="rt-col-1 md-d-none"/>
+              <div class="rt-col-5 rt-col-md-3 rt-space-top">
+                <a href="#">
+                  <rt-card>
+                    <template slot="header">
+                      <div class="rt-card__image-wrapper rt-font-center rt-space-top15 rt-space-bottom2 rt-td-space-top05">
+                        <span class="helper"/>
+                        <img class="partner-offers__card-image" src="/static/images/B2B/business__drive/hh.png">
+                      </div>
+                    </template>
+                    <template slot="content">
+                      <div class="rt-font-center rt-space-bottom2 rt-td-space-bottom-none">
+                        <p class="rt-font-h4 rt-space-bottom05">HeadHunter</p>
+                        <p class="rt-font-small-paragraph">Безлимитный тариф для вашего бизнеса</p>
+                      </div>
+                    </template>
+                  </rt-card>
+                </a>
+              </div>
+              <div class="rt-col-5 rt-col-md-3 rt-space-top">
+                <a href="#">
+                  <rt-card>
+                    <template slot="header">
+                      <div class="rt-card__image-wrapper rt-font-center rt-space-top15 rt-space-bottom2 rt-td-space-top05">
+                        <span class="helper"/>
+                        <img class="partner-offers__card-image" src="/static/images/B2B/business__drive/bitrix.png">
+                      </div>
+                    </template>
+                    <template slot="content">
+                      <div class="rt-font-center rt-space-bottom2 rt-td-space-bottom-none">
+                        <p class="rt-font-h4 rt-space-bottom05">HeadHunter</p>
+                        <p class="rt-font-small-paragraph">Безлимитный тариф для вашего бизнеса</p>
+                      </div>
+                    </template>
+                  </rt-card>
+                </a>
+              </div>
+              <div class="rt-col-1 md-d-none"/>
+            </div>
+            <div class="row">
+              <div class="rt-col-1 md-d-none"/>
+              <div class="rt-col-5 rt-col-md-3 rt-space-top">
+                <a href="#">
+                  <rt-card>
+                    <template slot="header">
+                      <div class="rt-card__image-wrapper rt-font-center rt-space-top15 rt-space-bottom2 rt-td-space-top05">
+                        <span class="helper"/>
+                        <img class="partner-offers__card-image" src="/static/images/B2B/business__drive/nintendo.png">
+                      </div>
+                    </template>
+                    <template slot="content">
+                      <div class="rt-font-center rt-space-bottom2 rt-td-space-bottom-none">
+                        <p class="rt-font-h4 rt-space-bottom05">HeadHunter</p>
+                        <p class="rt-font-small-paragraph">Безлимитный тариф для вашего бизнеса</p>
+                      </div>
+                    </template>
+                  </rt-card>
+                </a>
+              </div>
+              <div class="rt-col-5 rt-col-md-3 rt-space-top">
+                <a href="#">
+                  <rt-card>
+                    <template slot="header">
+                      <div class="rt-card__image-wrapper rt-font-center rt-space-top15 rt-space-bottom2 rt-td-space-top05">
+                        <span class="helper"/>
+                        <img class="partner-offers__card-image" src="/static/images/B2B/business__drive/heine.png">
+                      </div>
+                    </template>
+                    <template slot="content">
+                      <div class="rt-font-center rt-space-bottom2 rt-td-space-bottom-none">
+                        <p class="rt-font-h4 rt-space-bottom05">HeadHunter</p>
+                        <p class="rt-font-small-paragraph">Безлимитный тариф для вашего бизнеса</p>
+                      </div>
+                    </template>
+                  </rt-card>
+                </a>
+              </div>
+              <div class="rt-col-1 md-d-none"/>
+            </div>
+          </div>
+        </div>
+        <rt-swiper slides-classes="rt-col-6 rt-col-md-3 rt-space-top">
+          <rt-slide>
+            <div class="">
+            <a href="#">
+              <rt-card>
+                <template slot="header">
+                  <div class="rt-card__image-wrapper rt-font-center rt-space-top15 rt-space-bottom2 rt-td-space-top05">
+                    <span class="helper"/>
+                    <img class="partner-offers__card-image" src="/static/images/B2B/business__drive/hh.png">
+                  </div>
+                </template>
+                <template slot="content">
+                  <div class="rt-font-center rt-space-bottom2 rt-td-space-bottom-none">
+                    <p class="rt-font-h4 rt-space-bottom05">HeadHunter</p>
+                    <p class="rt-font-small-paragraph">Безлимитный тариф для вашего бизнеса</p>
+                  </div>
+                </template>
+              </rt-card>
+            </a>
+            </div>
+            <div class="rt-space-top">
+            <a href="#">
+              <rt-card>
+                <template slot="header">
+                  <div class="rt-card__image-wrapper rt-font-center rt-space-top15 rt-space-bottom2 rt-td-space-top05">
+                    <span class="helper"/>
+                    <img class="partner-offers__card-image" src="/static/images/B2B/business__drive/bitrix.png">
+                  </div>
+                </template>
+                <template slot="content">
+                  <div class="rt-font-center rt-space-bottom2 rt-td-space-bottom-none">
+                    <p class="rt-font-h4 rt-space-bottom05">HeadHunter</p>
+                    <p class="rt-font-small-paragraph">Безлимитный тариф для вашего бизнеса</p>
+                  </div>
+                </template>
+              </rt-card>
+            </a>
+            </div>
+          </rt-slide>
+          <rt-slide>
+            <div class="">
+            <a href="#">
+              <rt-card>
+                <template slot="header">
+                  <div class="rt-card__image-wrapper rt-font-center rt-space-top15 rt-space-bottom2 rt-td-space-top05">
+                    <span class="helper"/>
+                    <img class="partner-offers__card-image" src="/static/images/B2B/business__drive/hh.png">
+                  </div>
+                </template>
+                <template slot="content">
+                  <div class="rt-font-center rt-space-bottom2 rt-td-space-bottom-none">
+                    <p class="rt-font-h4 rt-space-bottom05">HeadHunter</p>
+                    <p class="rt-font-small-paragraph">Безлимитный тариф для вашего бизнеса</p>
+                  </div>
+                </template>
+              </rt-card>
+            </a>
+            </div>
+            <div class="rt-space-top">
+            <a href="#">
+              <rt-card>
+                <template slot="header">
+                  <div class="rt-card__image-wrapper rt-font-center rt-space-top15 rt-space-bottom2 rt-td-space-top05">
+                    <span class="helper"/>
+                    <img class="partner-offers__card-image" src="/static/images/B2B/business__drive/bitrix.png">
+                  </div>
+                </template>
+                <template slot="content">
+                  <div class="rt-font-center rt-space-bottom2 rt-td-space-bottom-none">
+                    <p class="rt-font-h4 rt-space-bottom05">HeadHunter</p>
+                    <p class="rt-font-small-paragraph">Безлимитный тариф для вашего бизнеса</p>
+                  </div>
+                </template>
+              </rt-card>
+            </a>
+            </div>
+          </rt-slide>
+          <rt-slide>
+            <div class="">
+            <a href="#">
+              <rt-card>
+                <template slot="header">
+                  <div class="rt-card__image-wrapper rt-font-center rt-space-top15 rt-space-bottom2 rt-td-space-top05">
+                    <span class="helper"/>
+                    <img class="partner-offers__card-image" src="/static/images/B2B/business__drive/hh.png">
+                  </div>
+                </template>
+                <template slot="content">
+                  <div class="rt-font-center rt-space-bottom2 rt-td-space-bottom-none">
+                    <p class="rt-font-h4 rt-space-bottom05">HeadHunter</p>
+                    <p class="rt-font-small-paragraph">Безлимитный тариф для вашего бизнеса</p>
+                  </div>
+                </template>
+              </rt-card>
+            </a>
+            </div>
+            <div class="rt-space-top">
+            <a href="#">
+              <rt-card>
+                <template slot="header">
+                  <div class="rt-card__image-wrapper rt-font-center rt-space-top15 rt-space-bottom2 rt-td-space-top05">
+                    <span class="helper"/>
+                    <img class="partner-offers__card-image" src="/static/images/B2B/business__drive/bitrix.png">
+                  </div>
+                </template>
+                <template slot="content">
+                  <div class="rt-font-center rt-space-bottom2 rt-td-space-bottom-none">
+                    <p class="rt-font-h4 rt-space-bottom05">HeadHunter</p>
+                    <p class="rt-font-small-paragraph">Безлимитный тариф для вашего бизнеса</p>
+                  </div>
+                </template>
+              </rt-card>
+            </a>
+            </div>
+          </rt-slide>
+        </rt-swiper>
+      </div>
+    </div>
+    <div class="additional-possibilities">
+      <rt-swiper slides-classes="rt-col-4 rt-col-td-3 rt-col-md-3">
+        <rt-slide>
+          <rt-card :has-label="true" :equal-padding="true" label-main-color="b2c-purple" label-font-size="14px">
+            <template slot="label">
+              Бесплатно
+            </template>
+            <template slot="header">
+              <div class="rt-card__image-wrapper rt-font-center rt-space-bottom2">
+                <span class="helper"/>
+                <img class="additional-possibilities__card-image" src="/static/images/B2B/icon06c.svg">
+              </div>
+            </template>
+            <template slot="content">
+              <div class="rt-space-bottom2 rt-td-space-bottom-none">
+                <p class="rt-font-paragraph rt-space-bottom05 rt-font-bold">Виртуальный контактный центр</p>
+                <p class="rt-font-small-paragraph">1Формирует очереди и распределяет звонки, умеет работать со
+                  списком VIP-абонентов.</p>
+              </div>
+            </template>
+            <template slot="footer">
+              <rt-button class="rt-button-purple-border rt-button-small rt-space-horizontal cardPopup">Подробнее</rt-button>
+            </template>
+            <template slot="popup-special-costs">
+              <div class="rt-space-bottom15">
+                <rt-price :value="500" currency="₽" :b2b-price="true" time-interval="в месяц за 2 операторов" :is-time-interval-bottom="true" class="color-main"/>
+              </div>
+              <rt-price :value="100" currency="₽" :b2b-price="true" time-interval="в месяц за каждого следующего" :is-time-interval-bottom="true" class="color-main"/>
+            </template>
+            <template slot="popup-special-benefits">
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Контроль за работой</p>
+                    <p class="rt-font-small-paragraph">Обновление статистики в реальном времени и подробные отчеты.
+                      Возможность слушать разговор и помогать сотруднику.</p>
+                  </template>
+                </rt-card>
+              </div>
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Экономия времени операторов</p>
+                    <p class="rt-font-small-paragraph">Автодозвон и автоматическая организация очереди сразу переносит
+                      звонки VIP-клиентов в начало</p>
+                  </template>
+                </rt-card>
+              </div>
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Без лишних трат</p>
+                    <p class="rt-font-small-paragraph">Установка и настройка за пару дней, дополнительное оборудование не нужно</p>
+                  </template>
+                </rt-card>
+              </div>
+            </template>
+          </rt-card>
+        </rt-slide>
+        <rt-slide>
+          <rt-card :equal-padding="true">
+            <template slot="header">
+              <div class="rt-card__image-wrapper rt-font-center rt-space-bottom2">
+                <span class="helper"/>
+                <img class="additional-possibilities__card-image" src="/static/images/B2B/icon04c.svg">
+              </div>
+            </template>
+            <template slot="content">
+              <div class="rt-space-bottom2 rt-td-space-bottom-none">
+                <p class="rt-font-paragraph rt-space-bottom05 rt-font-bold">Виртуальный контактный центр1</p>
+                <p class="rt-font-small-paragraph">2Формирует очереди и распределяет звонки, умеет работать со
+                  списком VIP-абонентов.</p>
+              </div>
+            </template>
+            <template slot="footer">
+              <rt-button class="rt-button-purple-border rt-button-small rt-space-horizontal cardPopup">Подробнее</rt-button>
+            </template>
+            <template slot="popup-special-costs">
+              <div class="rt-space-bottom15">
+                <rt-price :value="500" currency="₽" :b2b-price="true" time-interval="в месяц за 2 операторов" :is-time-interval-bottom="true"/>
+              </div>
+              <rt-price :value="100" currency="₽" :b2b-price="true" time-interval="в месяц за каждого следующего" :is-time-interval-bottom="true"/>
+            </template>
+            <template slot="popup-special-benefits">
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Контроль за работой</p>
+                    <p class="rt-font-small-paragraph">Обновление статистики в реальном времени и подробные отчеты.
+                      Возможность слушать разговор и помогать сотруднику.</p>
+                  </template>
+                </rt-card>
+              </div>
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Экономия времени операторов</p>
+                    <p class="rt-font-small-paragraph">Автодозвон и автоматическая организация очереди сразу переносит
+                      звонки VIP-клиентов в начало</p>
+                  </template>
+                </rt-card>
+              </div>
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Без лишних трат</p>
+                    <p class="rt-font-small-paragraph">Установка и настройка за пару дней, дополнительное оборудование не нужно</p>
+                  </template>
+                </rt-card>
+              </div>
+            </template>
+          </rt-card>
+        </rt-slide>
+        <rt-slide>
+          <rt-card :equal-padding="true">
+            <template slot="header">
+              <div class="rt-card__image-wrapper rt-font-center rt-space-bottom2">
+                <span class="helper"/>
+                <img class="additional-possibilities__card-image" src="/static/images/B2B/icon05c.svg">
+              </div>
+            </template>
+            <template slot="content">
+              <div class="rt-space-bottom2 rt-td-space-bottom-none">
+                <p class="rt-font-paragraph rt-space-bottom05 rt-font-bold">Виртуальный контактный центр2</p>
+                <p class="rt-font-small-paragraph">3Формирует очереди и распределяет звонки, умеет работать со
+                  списком VIP-абонентов.</p>
+              </div>
+            </template>
+            <template slot="footer">
+              <rt-button class="rt-button-purple-border rt-button-small rt-space-horizontal cardPopup">Подробнее</rt-button>
+            </template>
+            <template slot="popup-special-costs">
+              <div class="rt-space-bottom15">
+                <rt-price :value="500" currency="₽" :b2b-price="true" time-interval="в месяц за 2 операторов" :is-time-interval-bottom="true"/>
+              </div>
+              <rt-price :value="100" currency="₽" :b2b-price="true" time-interval="в месяц за каждого следующего" :is-time-interval-bottom="true"/>
+            </template>
+            <template slot="popup-special-benefits">
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Контроль за работой</p>
+                    <p class="rt-font-small-paragraph">Обновление статистики в реальном времени и подробные отчеты.
+                      Возможность слушать разговор и помогать сотруднику.</p>
+                  </template>
+                </rt-card>
+              </div>
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Экономия времени операторов</p>
+                    <p class="rt-font-small-paragraph">Автодозвон и автоматическая организация очереди сразу переносит
+                      звонки VIP-клиентов в начало</p>
+                  </template>
+                </rt-card>
+              </div>
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Без лишних трат</p>
+                    <p class="rt-font-small-paragraph">Установка и настройка за пару дней, дополнительное оборудование не нужно</p>
+                  </template>
+                </rt-card>
+              </div>
+            </template>
+          </rt-card>
+        </rt-slide>
+        <rt-slide>
+          <rt-card :equal-padding="true">
+            <template slot="header">
+              <div class="rt-card__image-wrapper rt-font-center rt-space-bottom2">
+                <span class="helper"/>
+                <img class="additional-possibilities__card-image" src="/static/images/B2B/icon06c.svg">
+              </div>
+            </template>
+            <template slot="content">
+              <div class="rt-space-bottom2 rt-td-space-bottom-none">
+                <p class="rt-font-paragraph rt-space-bottom05 rt-font-bold">Виртуальный контактный центр3</p>
+                <p class="rt-font-small-paragraph">4Формирует очереди и распределяет звонки, умеет работать со
+                  списком VIP-абонентов.</p>
+              </div>
+            </template>
+            <template slot="footer">
+              <rt-button class="rt-button-purple-border rt-button-small rt-space-horizontal cardPopup">Подробнее</rt-button>
+            </template>
+            <template slot="popup-special-costs">
+              <div class="rt-space-bottom15">
+                <rt-price :value="500" currency="₽" :b2b-price="true" time-interval="в месяц за 2 операторов" :is-time-interval-bottom="true"/>
+              </div>
+              <rt-price :value="100" currency="₽" :b2b-price="true" time-interval="в месяц за каждого следующего" :is-time-interval-bottom="true"/>
+            </template>
+            <template slot="popup-special-benefits">
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Контроль за работой</p>
+                    <p class="rt-font-small-paragraph">Обновление статистики в реальном времени и подробные отчеты.
+                      Возможность слушать разговор и помогать сотруднику.</p>
+                  </template>
+                </rt-card>
+              </div>
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Экономия времени операторов</p>
+                    <p class="rt-font-small-paragraph">Автодозвон и автоматическая организация очереди сразу переносит
+                      звонки VIP-клиентов в начало</p>
+                  </template>
+                </rt-card>
+              </div>
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Без лишних трат</p>
+                    <p class="rt-font-small-paragraph">Установка и настройка за пару дней, дополнительное оборудование не нужно</p>
+                  </template>
+                </rt-card>
+              </div>
+            </template>
+          </rt-card>
+        </rt-slide>
+        <rt-slide>
+          <rt-card :equal-padding="true">
+            <template slot="header">
+              <div class="rt-card__image-wrapper rt-font-center rt-space-bottom2">
+                <span class="helper"/>
+                <img class="additional-possibilities__card-image" src="/static/images/B2B/icon07c.svg">
+              </div>
+            </template>
+            <template slot="content">
+              <div class="rt-space-bottom2 rt-td-space-bottom-none">
+                <p class="rt-font-paragraph rt-space-bottom05 rt-font-bold">Виртуальный контактный центр4</p>
+                <p class="rt-font-small-paragraph">5Формирует очереди и распределяет звонки, умеет работать со
+                  списком VIP-абонентов.</p>
+              </div>
+            </template>
+            <template slot="footer">
+              <rt-button class="rt-button-purple-border rt-button-small rt-space-horizontal cardPopup">Подробнее</rt-button>
+            </template>
+            <template slot="popup-special-costs">
+              <div class="rt-space-bottom15">
+                <rt-price :value="500" currency="₽" :b2b-price="true" time-interval="в месяц за 2 операторов" :is-time-interval-bottom="true"/>
+              </div>
+              <rt-price :value="100" currency="₽" :b2b-price="true" time-interval="в месяц за каждого следующего" :is-time-interval-bottom="true"/>
+            </template>
+            <template slot="popup-special-benefits">
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Контроль за работой</p>
+                    <p class="rt-font-small-paragraph">Обновление статистики в реальном времени и подробные отчеты.
+                      Возможность слушать разговор и помогать сотруднику.</p>
+                  </template>
+                </rt-card>
+              </div>
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Экономия времени операторов</p>
+                    <p class="rt-font-small-paragraph">Автодозвон и автоматическая организация очереди сразу переносит
+                      звонки VIP-клиентов в начало</p>
+                  </template>
+                </rt-card>
+              </div>
+              <div class="a-p__popup-benefit">
+                <rt-card>
+                  <template slot="content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="81" height="76">
+                      <g fill="none">
+                        <path d="M23.493 35.36c1.98-1.947 2.707-3.257 2.707-5.02 0-2.157-1.52-3.527-3.803-3.527-2.157 0-3.83 1.37-3.83 3.65 0 .517.09.974.24 1.37l-3.04.547c-.274-.7-.364-1.46-.364-2.223 0-3.194 2.737-6.204 7.024-6.204 4.41 0 6.936 2.557 6.936 5.964 0 2.646-.883 4.653-3.71 7.423l-5.41 5.353h9.184v2.98h-14.11V43.33l8.176-7.97zm7.487 3.437L41.413 24.38H44.7v14.417h2.28l.003 2.98h-2.28v3.893h-3.286v-3.893H30.983l-.003-2.98zm3.437 0h6.996v-9.704l-6.996 9.704zm25.96 6.873h-3.224l8.177-18.31H54.593v-2.98h14.054v2.797z" fill="#313A49"/>
+                        <g fill="#7B939B">
+                          <path d="M59.547 66.103h-15.9l7.95-13.193 7.95 13.193zm-10-3.333h4.1l-2.05-3.4-2.05 3.4z"/>
+                          <path d="M49.933 64.436h3.333V75.62h-3.333z"/>
+                        </g>
+                        <g fill="#313A49">
+                          <path d="M31.983 75.617l-7.95-13.194h15.9l-7.95 13.194zm-2.053-9.86l2.05 3.4 2.05-3.4h-4.1z"/>
+                          <path d="M30.317 52.286h3.333V64.09h-3.333z"/>
+                        </g>
+                        <path fill="#273A64" d="M51.983 34.1a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94m0 7.793a1.47 1.47 0 1 0 0-2.94 1.47 1.47 0 0 0 0 2.94"/>
+                        <path fill="#7B939B" d="M60.427 12.25C56.453 4.203 49.007.18 40.073.18c-10.756 0-21.216 4.987-23.79 15.44 0 0-15.97 3.553-15.97 20.587 0 9.196 6.667 19.413 16.667 19.413h6.667v-3.333H16.98c-7.857 0-13.333-8.474-13.333-16.08 0-14.07 12.826-17.21 13.36-17.334l2.02-.45.493-2.006C21.863 6.893 32.057 3.513 40.073 3.513c7.947 0 14.114 3.627 17.364 10.214l.833 1.686 1.873.16c.687.06 16.84 1.654 16.84 20.047 0 5.01-1.3 16.667-13.333 16.667h-3.333v3.333h3.333c11.667 0 16.667-9.14 16.667-20 0-21.667-19.89-23.37-19.89-23.37z"/>
+                      </g>
+                    </svg>
+                    <p class="rt-font-h4 rt-font-bold rt-space-top">Без лишних трат</p>
+                    <p class="rt-font-small-paragraph">Установка и настройка за пару дней, дополнительное оборудование не нужно</p>
+                  </template>
+                </rt-card>
+              </div>
+            </template>
+          </rt-card>
+        </rt-slide>
+      </rt-swiper>
+    </div>
+    <rt-real-popup :position-center="true" class="a-p__popup">
+      <template>
+        <rt-scroll-bar ref="ScrollBar">
+          <div class="popup-content rt-space-vertical2 rt-space-horizontal">
+            <div class="row">
+              <div class="rt-col d-flex flex-row md-flex-column-reverse d-space-between">
+                <div class="a-p__popup-upper-text-block">
+                  <div class="a-p__popup-title rt-font-h2 rt-space-bottom15"/>
+                  <div class="a-p__popup-description rt-font-paragraph rt-space-bottom3"/>
+                </div>
+                <div class="a-p__popup-image"/>
+              </div>
+            </div>
+            <div class="a-p__popup-costs"/>
+            <div class="rt-space-top2 rt-space-bottom25">
+              <div class="a-p__popup-benefits-list d-flex flex-row d-space-between"/>
+            </div>
+          </div>
+        </rt-scroll-bar>
+      </template>
+    </rt-real-popup>
+    <div class="rt-container rt-space-bottom3 rt-space-top3">
+      <div class="tile-block">
+        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 tile-block__ordered-item--secondary">
+            <div class="tile__item">
+              <rt-card background-color-type="light-grey">
+                <template slot="header">
+                  <div class="rt-card__image-wrapper rt-font-center">
+                    <span class="helper"/>
+                    <img class="additional-possibilities__card-image" src="/static/images/B2B/p-setting-fff-1-90-end-500-1-removebg-preview.png">
+                  </div>
+                </template>
+                <template slot="footer">
+                  <p class="rt-font-small-paragraph">Mini PC PN40</p>
+                  <rt-price :value='1100' currency='₽' :b2b-price='true' time-interval='в месяц' class='color-main09' :is-option='true' :is-time-interval-bottom="true"/>
+                </template>
+              </rt-card>
+            </div>
+            <div class="tile__item">
+              <rt-card background-color-type="light-grey">
+                <template slot="header">
+                  <div class="rt-card__image-wrapper rt-font-center">
+                    <span class="helper"/>
+                    <img class="additional-possibilities__card-image" src="/static/images/B2B/p-setting-fff-1-90-end-500-removebg-preview.png">
+                  </div>
+                </template>
+                <template slot="footer">
+                  <p class="rt-font-small-paragraph">Mini PC PN40</p>
+                  <rt-price :value='1100' currency='₽' :b2b-price='true' time-interval='в месяц' class='color-main09' :is-option='true' :is-time-interval-bottom="true"/>
+                </template>
+              </rt-card>
+            </div>
+        </div>
+        <div class="rt-col-6 rt-col-td-6 rt-col-md-3 tile-block__ordered-item--main rt-td-space-bottom">
+          <div class="tile__item tile__item--double-sized">
+            <rt-card background-color-type="light-grey">
+              <template slot="header">
+                <div class="rt-card__image-wrapper rt-font-center">
+                  <span class="helper"/>
+                  <img class="additional-possibilities__card-image" src="/static/images/B2B/lg-55-lv-340-c-1-removebg-preview.png">
+                </div>
+              </template>
+              <template slot="footer">
+                <p class="rt-font-small-paragraph">Mini PC PN40</p>
+                <rt-price :value='1100' currency='₽' :b2b-price='true' time-interval='в месяц' class='color-main09' :is-option='true' :is-time-interval-bottom="true"/>
+              </template>
+            </rt-card>
+          </div>
+        </div>
+        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 tile-block__ordered-item--secondary rt-md-space-top">
+          <div class="tile__item">
+            <rt-card background-color-type="light-grey">
+              <template slot="header">
+                <div class="rt-card__image-wrapper rt-font-center">
+                  <span class="helper"/>
+                  <img class="additional-possibilities__card-image" src="/static/images/B2B/p-setting-fff-1-90-end-500-1-removebg-preview.png">
+                </div>
+              </template>
+              <template slot="footer">
+                <p class="rt-font-small-paragraph">Mini PC PN40</p>
+                <rt-price :value='1100' currency='₽' :b2b-price='true' time-interval='в месяц' class='color-main09' :is-option='true' :is-time-interval-bottom="true"/>
+              </template>
+            </rt-card>
+          </div>
+          <div class="tile__item">
+            <rt-card background-color-type="light-grey">
+              <template slot="header">
+                <div class="rt-card__image-wrapper rt-font-center">
+                  <span class="helper"/>
+                  <img class="additional-possibilities__card-image" src="/static/images/B2B/p-setting-fff-1-90-end-500-removebg-preview.png">
+                </div>
+              </template>
+              <template slot="footer">
+                <p class="rt-font-small-paragraph">Mini PC PN40</p>
+                <rt-price :value='1100' currency='₽' :b2b-price='true' time-interval='в месяц' class='color-main09' :is-option='true' :is-time-interval-bottom="true"/>
+              </template>
+            </rt-card>
           </div>
         </div>
       </div>
@@ -298,60 +1047,60 @@
     name: "AppTestAccess",
     components: componentsList,
     mounted() {
-//      for(var i = 0; i < document.querySelectorAll('.cardPopup').length; i++){
-//        document.querySelectorAll('.cardPopup')[i].addEventListener('click', openAdditionalInfoPopup)
-//      }
-//
-//      function openAdditionalInfoPopup(e) {
-//        var parentCard = e.target.closest('.rt-card');
-//        shoveContent(parentCard, '.a-p__popup-title', '.rt-font-paragraph');
-//        shoveContent(parentCard, '.a-p__popup-description', '.rt-font-small-paragraph');
-//        shoveContent(parentCard, '.a-p__popup-benefits-list', '.rt-card__popup-benefits');
-//        shoveContent(parentCard, '.a-p__popup-costs', '.rt-card__popup-costs');
-//        document.querySelector('.a-p__popup-image').style.backgroundImage = 'url(' + parentCard.querySelector('.additional-possibilities__card-image').src + ')';
-//        document.querySelector('.rtb-popup-wrapper').classList.add('rtb-popup-wrapper--active');
-//        document.documentElement.style.overflow = 'hidden';
-//      }
-//      function shoveContent(parentCard, destination, source) {
-//        document.querySelector('.rtb-popup-wrapper').querySelector(destination).innerHTML = parentCard.querySelector(source).innerHTML;
-//      }
-//      window.addEventListener('resize', fixTileHeight);
-//      if(window.innerWidth >= 768 && window.innerWidth <= 1024) {
-//        fixTileHeight();
-//      }
-//
-//      function fixTileHeight() {
-//        if(window.innerWidth >= 768 && window.innerWidth <= 1024) {
-//          var maxHeight = 0;
-//          var tileList = document.querySelectorAll('.tile__item');
-//          for (var i = 0; i < tileList.length; i++){
-//            if(!(tileList[i].classList.contains('tile__item--double-sized'))){
-//              maxHeight = (maxHeight > tileList[i].offsetHeight) ? maxHeight : tileList[i].offsetHeight;
-//            }
-//          }
-//          document.querySelector('.tile__item--double-sized').style.height = maxHeight * 2 + 20 + 'px';
-//        } else {
-//          document.querySelector('.tile__item--double-sized').style.height = '';
-//        }
-//
-//      }
-//
-//      document.querySelectorAll('.cardPopup').forEach(function(el){
-//        el.addEventListener('click', function(){
-//          fixItemsHeight();
-//        })
-//      });
-//
-//      function fixItemsHeight() {
-//        var maxHeight = 0;
-//        var itemList = document.querySelectorAll('.a-p__popup .a-p__popup-benefit .rt-card');
-//        itemList.forEach(function(item){
-//          maxHeight = (maxHeight > item.offsetHeight) ? maxHeight : item.offsetHeight;
-//        });
-//        itemList.forEach(function(item){
-//          item.style.height = `${maxHeight}px`;
-//        });
-//      }
+      for(var i = 0; i < document.querySelectorAll('.cardPopup').length; i++){
+        document.querySelectorAll('.cardPopup')[i].addEventListener('click', openAdditionalInfoPopup)
+      }
+
+      function openAdditionalInfoPopup(e) {
+        var parentCard = e.target.closest('.rt-card');
+        shoveContent(parentCard, '.a-p__popup-title', '.rt-font-paragraph');
+        shoveContent(parentCard, '.a-p__popup-description', '.rt-font-small-paragraph');
+        shoveContent(parentCard, '.a-p__popup-benefits-list', '.rt-card__popup-benefits');
+        shoveContent(parentCard, '.a-p__popup-costs', '.rt-card__popup-costs');
+        document.querySelector('.a-p__popup-image').style.backgroundImage = 'url(' + parentCard.querySelector('.additional-possibilities__card-image').src + ')';
+        document.querySelector('.rtb-popup-wrapper').classList.add('rtb-popup-wrapper--active');
+        document.documentElement.style.overflow = 'hidden';
+      }
+      function shoveContent(parentCard, destination, source) {
+        document.querySelector('.rtb-popup-wrapper').querySelector(destination).innerHTML = parentCard.querySelector(source).innerHTML;
+      }
+      window.addEventListener('resize', fixTileHeight);
+      if(window.innerWidth >= 768 && window.innerWidth <= 1024) {
+        fixTileHeight();
+      }
+
+      function fixTileHeight() {
+        if(window.innerWidth >= 768 && window.innerWidth <= 1024) {
+          var maxHeight = 0;
+          var tileList = document.querySelectorAll('.tile__item');
+          for (var i = 0; i < tileList.length; i++){
+            if(!(tileList[i].classList.contains('tile__item--double-sized'))){
+              maxHeight = (maxHeight > tileList[i].offsetHeight) ? maxHeight : tileList[i].offsetHeight;
+            }
+          }
+          document.querySelector('.tile__item--double-sized').style.height = maxHeight * 2 + 20 + 'px';
+        } else {
+          document.querySelector('.tile__item--double-sized').style.height = '';
+        }
+
+      }
+
+      document.querySelectorAll('.cardPopup').forEach(function(el){
+        el.addEventListener('click', function(){
+          fixItemsHeight();
+        })
+      });
+
+      function fixItemsHeight() {
+        var maxHeight = 0;
+        var itemList = document.querySelectorAll('.a-p__popup .a-p__popup-benefit .rt-card');
+        itemList.forEach(function(item){
+          maxHeight = (maxHeight > item.offsetHeight) ? maxHeight : item.offsetHeight;
+        });
+        itemList.forEach(function(item){
+          item.style.height = `${maxHeight}px`;
+        });
+      }
     },
     created() {},
     methods: {}

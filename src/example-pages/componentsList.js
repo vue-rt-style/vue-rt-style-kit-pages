@@ -67,7 +67,6 @@ import {
     Popup,
     LinksBlock,
     Hint,
-    HintBody,
     Pattern,
     Swiper,
     Slide,
