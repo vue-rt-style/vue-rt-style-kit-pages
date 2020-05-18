@@ -11,7 +11,7 @@
             <h4 class="rt-font-bold flex-fill">H1   <br/>50px/60</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
-            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">light</h4>
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">medium</h4>
           </div>
           <div class="rt-col-3  rt-col-td-2 rt-td-space-top2 rt-col-md-3 rt-md-space-vertical-none">
             <p class="rt-font-h1">Смотрите, <br/>как нравится</p>
@@ -21,22 +21,22 @@
             </div>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
-            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">medium</h4>
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">light</h4>
           </div>
           <div class="rt-col-3  rt-col-td-2 rt-td-space-top2 rt-col-md-3 rt-md-space-vertical-none">
-            <p class="rt-font-h1 rt-font-bold">Смотрите, <br/>как нравится</p>
+            <p class="rt-font-h1 rt-font-light">Смотрите, <br/>как нравится</p>
             <div class="rt-font-label">
-              <span class="rt-code">.rt-font-h1.rt-font-bold</span> or
-              <span class="rt-code">h1.rt-font-bold</span>
+              <span class="rt-code">.rt-font-h1.rt-font-light</span> or
+              <span class="rt-code">h1.rt-font-light</span>
             </div>
           </div>
         </div>
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">H2 <br/>36px/46</h4>
+            <h4 class="rt-font-bold flex-fill">H2 <br/>36px/44</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
-            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">light</h4>
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">medium</h4>
           </div>
           <div class="rt-col-3  rt-col-td-2 rt-td-space-top2 rt-col-md-3 rt-md-space-vertical-none">
             <p class="rt-font-h2">Смотрите, <br/>как нравится</p>
@@ -46,13 +46,13 @@
             </div>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
-            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">medium</h4>
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">light</h4>
           </div>
           <div class="rt-col-3  rt-col-td-2 rt-td-space-top2 rt-col-md-3 rt-md-space-vertical-none">
-            <p class="rt-font-h2 rt-font-bold">Смотрите, <br/>как нравится</p>
+            <p class="rt-font-h2 rt-font-light">Смотрите, <br/>как нравится</p>
             <div class="rt-font-label">
-              <span class="rt-code">.rt-font-h2.rt-font-bold</span> or
-              <span class="rt-code">h2.rt-font-bold</span>
+              <span class="rt-code">.rt-font-h2.rt-font-light</span> or
+              <span class="rt-code">h2.rt-font-light</span>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@
             <h4 class="rt-font-bold flex-fill">H3 <br/>28px/36</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
-            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">light</h4>
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">medium</h4>
           </div>
           <div class="rt-col-3  rt-col-td-2 rt-td-space-top2 rt-col-md-3 rt-md-space-vertical-none">
             <p class="rt-font-h3">Смотрите, <br/>как нравится</p>
@@ -71,13 +71,13 @@
             </div>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
-            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">medium</h4>
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">light</h4>
           </div>
           <div class="rt-col-3  rt-col-td-2 rt-td-space-top2 rt-col-md-3 rt-md-space-vertical-none">
-            <p class="rt-font-h3 rt-font-bold">Смотрите, <br/>как нравится</p>
+            <p class="rt-font-h3 rt-font-light">Смотрите, <br/>как нравится</p>
             <div class="rt-font-label">
-              <span class="rt-code">.rt-font-h3.rt-font-bold</span> or
-              <span class="rt-code">h3.rt-font-bold</span>
+              <span class="rt-code">.rt-font-h3.rt-font-light</span> or
+              <span class="rt-code">h3.rt-font-light</span>
             </div>
           </div>
         </div>
@@ -86,7 +86,7 @@
             <h4 class="rt-font-bold flex-fill">H4 <br/>22px/28</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
-            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">light</h4>
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">medium</h4>
           </div>
           <div class="rt-col-3  rt-col-td-2 rt-td-space-top2 rt-col-md-3 rt-md-space-vertical-none">
             <p class="rt-font-h4 ">Смотрите, <br/>как нравится</p>
@@ -96,19 +96,19 @@
             </div>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
-            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">medium</h4>
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">light</h4>
           </div>
           <div class="rt-col-3  rt-col-td-2 rt-td-space-top2 rt-col-md-3 rt-md-space-vertical-none">
-            <p class="rt-font-h4 rt-font-bold">Смотрите, <br/>как нравится</p>
+            <p class="rt-font-h4 rt-font-light">Смотрите, <br/>как нравится</p>
             <div class="rt-font-label">
-              <span class="rt-code">.rt-font-h3.rt-font-bold</span> or
-              <span class="rt-code">h3.rt-font-bold</span>
+              <span class="rt-code">.rt-font-h3.rt-font-light</span> or
+              <span class="rt-code">h3.rt-font-light</span>
             </div>
           </div>
         </div>
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">Paragraph 18  <br/>18px/26</h4>
+            <h4 class="rt-font-bold flex-fill">Paragraph 18  <br/>18px/24</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">bold 100%</h4>
@@ -164,7 +164,7 @@
 
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">Paragraph  <br/>16px/24</h4>
+            <h4 class="rt-font-bold flex-fill">Paragraph  <br/>16px/20</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-col-md-3 rt-md-space-horizontal-none rt-md-space-top3">
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">bold 100%</h4>
@@ -232,7 +232,7 @@
 
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">Control  <br/>14px/18</h4>
+            <h4 class="rt-font-bold flex-fill">Control  <br/>14px/16</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">bold 100%</h4>
