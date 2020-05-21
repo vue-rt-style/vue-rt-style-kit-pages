@@ -8,7 +8,7 @@
 
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">H1   <br/>50px/60</h4>
+            <h4 class="rt-font-bold flex-fill">H1   <br/>50px</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">medium</h4>
@@ -33,7 +33,7 @@
         </div>
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">H2 <br/>36px/44</h4>
+            <h4 class="rt-font-bold flex-fill">H2 <br/>36px</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">medium</h4>
@@ -58,7 +58,7 @@
         </div>
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">H3 <br/>28px/36</h4>
+            <h4 class="rt-font-bold flex-fill">H3 <br/>28px</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">medium</h4>
@@ -83,7 +83,7 @@
         </div>
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">H4 <br/>22px/28</h4>
+            <h4 class="rt-font-bold flex-fill">H4 <br/>22px</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">medium</h4>
@@ -109,7 +109,7 @@
 
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">Paragraph 18  <br/>18px/24</h4>
+            <h4 class="rt-font-bold flex-fill">Paragraph 18  <br/>18px</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">bold 100%</h4>
@@ -181,7 +181,7 @@
 
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">Paragraph  <br/>16px/20</h4>
+            <h4 class="rt-font-bold flex-fill">Paragraph  <br/>16px</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-col-md-3 rt-md-space-horizontal-none rt-md-space-top3">
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">bold 100%</h4>
@@ -261,7 +261,7 @@
 
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">Standart text <br/>16px/24</h4>
+            <h4 class="rt-font-bold flex-fill">Standart text <br/>16px</h4>
           </div>
 
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
@@ -277,7 +277,7 @@
         </div>
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">Link text <br/>16px/24</h4>
+            <h4 class="rt-font-bold flex-fill">Link text <br/>16px</h4>
           </div>
 
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
@@ -307,7 +307,7 @@
 
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">Control  <br/>14px/16</h4>
+            <h4 class="rt-font-bold flex-fill">Control  <br/>14px</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">bold 100%</h4>
@@ -388,7 +388,7 @@
 
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">Label  <br/>12px/16</h4>
+            <h4 class="rt-font-bold flex-fill">Label  <br/>12px</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">bold 100%</h4>
@@ -468,7 +468,7 @@
 
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">TAGLINE  <br/>12px/16</h4>
+            <h4 class="rt-font-bold flex-fill">TAGLINE  <br/>12px</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">bold 100%</h4>
