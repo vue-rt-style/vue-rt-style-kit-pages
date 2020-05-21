@@ -22,7 +22,7 @@ gulp.task(
         "git commit -a -m'deploy docs'",
         "git push",
         "rm -rf ./dist",
-        "rm -rf ./docs"
+        
         //#// "cp docs/RostelecomBasis*.* docs/promo/",
         //#// "cp ./static/fonts.css ./docs/",
         // "perl -pi -w -e 's/src=\\//src=/g' ./docs/index.html",
