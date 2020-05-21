@@ -14,31 +14,72 @@
             <pre-code
               text="<rt-button class='rt-button-purple'>Подключить</rt-button>"
             />
+            <div class="rt-space-top">
+              <pre-code
+                text="<rt-button disabled class='rt-button-purple'>Подключить</rt-button>"
+              />
+            </div>
           </div>
           <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-td-space-top">
             <pre-code
               text="<rt-button class='rt-button-orange'>Подключить</rt-button>"
             />
+            <div class="rt-space-top">
+              <pre-code
+                  text="<rt-button disabled class='rt-button-orange'>Подключить</rt-button>"
+              />
+            </div>
           </div>
           <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-td-space-top">
             <pre-code
               text="<rt-button class='rt-button-purple-border'>Подключить</rt-button>"
             />
+            <div class="rt-space-top">
+              <pre-code
+                  text="<rt-button disabled class='rt-button-purple-border'>Подключить</rt-button>"
+              />
+            </div>
           </div>
           <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-td-space-top">
             <pre-code
               text="<rt-button class='rt-button-orange-border'>Подключить</rt-button>"
             />
+            <div class="rt-space-top">
+              <pre-code
+                  text="<rt-button disabled class='rt-button-orange-border'>Подключить</rt-button>"
+              />
+            </div>
+          </div>
+          <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-td-space-top">
+            <pre-code
+              text="<rt-button class='rt-button-gray'>Подключить</rt-button>"
+            />
+            <div class="rt-space-top">
+              <pre-code
+                  text="<rt-button disabled class='rt-button-gray'>Подключить</rt-button>"
+              />
+            </div>
           </div>
           <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-td-space-top">
             <pre-code
               text="<rt-button class='rt-button-transparent'>Подключить</rt-button>"
             />
+            <div class="rt-space-top">
+              <pre-code
+                  text="<rt-button disabled class='rt-button-transparent'>Подключить</rt-button>"
+              />
+            </div>
+
           </div>
-          <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-td-space-top">
+          <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-space-top">
             <pre-code
               text="<rt-button class='rt-button-white'>Подключить</rt-button>"
             />
+            <div class="rt-space-top">
+              <pre-code
+                  text="<rt-button disabled class='rt-button-white'>Подключить</rt-button>"
+              />
+            </div>
           </div>
 
         </div>
@@ -47,31 +88,71 @@
             <pre-code
               text="<rt-button class='rt-button-small rt-button-purple'>Подключить</rt-button>"
             />
+            <div class="rt-space-top">
+              <pre-code
+                  text="<rt-button disabled class='rt-button-small rt-button-purple'>Подключить</rt-button>"
+              />
+            </div>
           </div>
           <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-td-space-top">
             <pre-code
               text="<rt-button class='rt-button-small rt-button-orange'>Подключить</rt-button>"
             />
+            <div class="rt-space-top">
+              <pre-code
+                  text="<rt-button disabled class='rt-button-small rt-button-orange'>Подключить</rt-button>"
+              />
+            </div>
           </div>
           <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-td-space-top">
             <pre-code
               text="<rt-button class='rt-button-small rt-button-purple-border'>Подключить</rt-button>"
             />
+            <div class="rt-space-top">
+              <pre-code
+                  text="<rt-button disabled class='rt-button-small rt-button-purple-border'>Подключить</rt-button>"
+              />
+            </div>
           </div>
           <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-td-space-top">
             <pre-code
               text="<rt-button class='rt-button-small rt-button-orange-border'>Подключить</rt-button>"
             />
+            <div class="rt-space-top">
+              <pre-code
+                  text="<rt-button disabled class='rt-button-small rt-button-orange-border'>Подключить</rt-button>"
+              />
+            </div>
+          </div>
+          <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-td-space-top">
+            <pre-code
+                text="<rt-button class='rt-button-small rt-button-gray'>Подключить</rt-button>"
+            />
+            <div class="rt-space-top">
+              <pre-code
+                  text="<rt-button disabled class='rt-button-small rt-button-gray'>Подключить</rt-button>"
+              />
+            </div>
           </div>
           <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-td-space-top">
             <pre-code
               text="<rt-button class='rt-button-small rt-button-transparent'>Подключить</rt-button>"
             />
+            <div class="rt-space-top">
+              <pre-code
+                  text="<rt-button disabled class='rt-button-small rt-button-transparent'>Подключить</rt-button>"
+              />
+            </div>
           </div>
-          <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-td-space-top">
+          <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-space-top">
             <pre-code
               text="<rt-button class='rt-button-small rt-button-white'>Подключить</rt-button>"
             />
+            <div class="rt-space-top">
+              <pre-code
+                  text="<rt-button disabled class='rt-button-small rt-button-white'>Подключить</rt-button>"
+              />
+            </div>
           </div>
         </div>
         <div class="app-row row">
@@ -115,30 +196,9 @@
             <rt-button class="rt-button-transparent-purple">Получить код ещё раз</rt-button>
           </div>
         </div>
-        <div class="app-row">
-          <p class="rt-font-h3">
-            Horizontal buttons
-          </p>
-        </div>
 
-        <pre-code
-          text="<div class='app-row'>
-            <rt-button class='rt-button-purple rt-button-md-small'>Подключить</rt-button>
-            <rt-button class='rt-button-purple rt-button-md-small'>Подключить</rt-button>
-          </div>"
-        />
 
-        <div class="app-row">
-          <p class="rt-font-h3">
-            Vertical buttons
-          </p>
-        </div>
-        <pre-code
-          text="<div class='app-row'>
-            <rt-button class='rt-button-vertical rt-button-purple'>Подключить</rt-button>
-            <rt-button class='rt-button-vertical rt-button-purple'>Подключить</rt-button>
-          </div>"
-        />
+
         <div class="app-body rt-space-bottom">
             <div class="app-row row rt-space-top">
                 <div class="rt-col-2 rt-col-md-3 rt-col-td-2 flex-column d-flex rt-md-space-top">
@@ -167,21 +227,7 @@
                 </div>
             </div>
         </div>
-        <div class="app-row row rt-space-top">
-          <div class="rt-col">
-            <div class="row">
-              <div class="rt-col-2 rt-col-md-3 rt-col-td-2 rt-md-space-top">
-                <rt-button :smaller-padding="true" class="rt-button-orange">seartsert</rt-button>
-              </div>
-              <div class="rt-col-2 rt-col-md-3 rt-col-td-2 rt-md-space-top">
-                <rt-button :smaller-padding="true" class="rt-button-md-small rt-button-orange-border">seartsert</rt-button>
-              </div>
-              <div class="rt-col-2 rt-col-md-3 rt-col-td-2 rt-md-space-top">
-                <rt-button :smaller-padding="true" class="rt-button-small rt-button-purple">seartsert</rt-button>
-              </div>
-            </div>
-          </div>
-        </div>
+
       <div class="app-row row rt-space-top">
 
               <div class="rt-col-2 rt-col-md-3 rt-col-td-2 rt-md-space-top">
