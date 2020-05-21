@@ -275,6 +275,35 @@
             </div>
           </div>
         </div>
+        <div class="row rt-space-top5">
+          <div class="rt-col-2 rt-col-td-6">
+            <h4 class="rt-font-bold flex-fill">Link text <br/>16px/24</h4>
+          </div>
+
+          <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular 100%</h4>
+          </div>
+          <div class="rt-col-5 rt-col-td-5 rt-col-md-3 rt-md-space-vertical-none">
+            <p class="rt-link rt-link--orange">
+              Оригинальный файл.</p>
+            <div class="rt-font-label">
+              <span class="rt-code">.rt-link.rt-link--orange</span>
+            </div>
+          </div>
+        </div>
+        <div class="row rt-space-top15">
+          <div class="rt-col-2 rt-col-td-6">
+          </div>
+          <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
+          </div>
+          <div class="rt-col-5 rt-col-td-5 rt-col-md-3 rt-md-space-vertical-none">
+            <p class="rt-link rt-link--purple">
+              Оригинальный файл.</p>
+            <div class="rt-font-label">
+              <span class="rt-code">.rt-link.rt-link--purple</span>
+            </div>
+          </div>
+        </div>
 
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
