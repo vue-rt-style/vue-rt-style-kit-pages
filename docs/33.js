@@ -1,14 +1,15 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[33],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/List.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/List.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Tags.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/form/Tags.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
 //
 //
 //
@@ -118,88 +119,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-var componentsList = {};
+var componentDirectives = {}; // componentDirectives[VueRtStyle.directives.FilterCallerDirective.name] = VueRtStyle.directives.FilterCallerDirective;
+
+ // Vue.directive(FilterCallerDirective.name, FilterCallerDirective);
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppPrice",
-  components: componentsList,
-  data: function data() {
-    return {
-      documentation: {}
-    };
-  },
+  name: "AppTags",
+  // directives: componentDirectives,
+  components: _componentsList__WEBPACK_IMPORTED_MODULE_0__["default"],
   mounted: function mounted() {},
   created: function created() {},
   methods: {}
@@ -207,10 +134,10 @@ var componentsList = {};
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/List.vue?vue&type=template&id=021d6a38&":
-/*!******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/List.vue?vue&type=template&id=021d6a38& ***!
-  \******************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Tags.vue?vue&type=template&id=615f849c&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/form/Tags.vue?vue&type=template&id=615f849c& ***!
+  \*****************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -218,24 +145,24 @@ var componentsList = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body d-flex row"},[_c('div',{staticClass:"rt-col rt-col-4 rt-col-td-3 rt-col-md-3"},[_c('pre-code',{attrs:{"text":"\n          <div>\n          <h4 class=\"rt-font-bold rt-space-bottom\">Title</h4>\n          <ul class=\"rt-numeric-list\">\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 1</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 2</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 3</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 4</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 5 List item 5 List item 5 List item 5 List item 5 List item 5 List item 5 List item 5 List item 5 List item 5</li>\n          </ul>\n          <ul class=\"rt-ordered-list rt-space-top2\">\n            <li class=\"rt-ordered-list__item rt-font-paragraph\">List item</li>\n            <li class=\"rt-ordered-list__item rt-font-paragraph\">List item</li>\n            <li class=\"rt-ordered-list__item rt-font-paragraph\">List item</li>\n            <li class=\"rt-ordered-list__item rt-font-paragraph\">List item</li>\n            <li class=\"rt-ordered-list__item rt-font-paragraph\">List item</li>\n          </ul>\n          <ul class=\"rt-numeric-list rt-space-top2 rt-space-bottom2\">\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 1</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 2</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 3</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 4</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 5</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 6</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 7</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 8</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 9</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 10</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 11</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 12</li>\n            <li class=\"rt-numeric-list__item rt-font-paragraph\">List item 13</li>\n          </ul>\n          </div>\n          "}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col rt-col-8 rt-col-td-3 rt-col-md-3"},[_c('pre-code',{attrs:{"text":"\n<div>\n  <h3 class=\"rt-font-bold rt-space-bottom15\">\n    Часто задаваемые вопросы\n  </h3>\n  <ul class=\"rtb-faq-unordered-list\">\n    <li class=\"rtb-faq-unordered-list__item\">\n      <rt-annotation\n        label=\"Как расторгнуть договор, если нет возможности пойти в офис?\"\n      >\n        <template slot=\"content\">\n          <p class=\"rt-font-small-paragraph\">\n            При наличии технической возможности мы организуем\n            предоставление услуг по новому адресу без Подробнее об акции\n            «Переезд».\n          </p>\n          <p\n            class=\"rt-font-small-paragraph rt-space-top rt-space-bottom\"\n          >\n            В этом случае действия зависят от вашей ситуации:\n          </p>\n          <ul class=\"rt-numeric-list\">\n            <li class=\"rt-numeric-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n            <li class=\"rt-numeric-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n            <li class=\"rt-numeric-list__item rt-font-small-paragraph\">\n              Пример обычной очень очень очень длинной строки 16px,\n              слишком длинная строка\n            </li>\n            <li class=\"rt-ordered-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n            <li class=\"rt-ordered-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n            <li class=\"rt-ordered-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n          </ul>\n        </template>\n      </rt-annotation>\n    </li>\n    <li class=\"rtb-faq-unordered-list__item\">\n      <rt-annotation\n        label=\"Как расторгнуть договор, если нет возможности пойти в офис?\"\n      >\n        <template slot=\"content\">\n          <p class=\"rt-font-small-paragraph\">\n            При наличии технической возможности мы организуем\n            предоставление услуг по новому адресу без Подробнее об акции\n            «Переезд».\n          </p>\n          <p\n            class=\"rt-font-small-paragraph rt-space-top rt-space-bottom\"\n          >\n            В этом случае действия зависят от вашей ситуации:\n          </p>\n          <ul class=\"rt-numeric-list\">\n            <li class=\"rt-numeric-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n            <li class=\"rt-numeric-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n            <li class=\"rt-numeric-list__item rt-font-small-paragraph\">\n              Пример обычной очень очень очень длинной строки 16px,\n              слишком длинная строка\n            </li>\n            <li class=\"rt-ordered-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n            <li class=\"rt-ordered-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n            <li class=\"rt-ordered-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n          </ul>\n        </template>\n      </rt-annotation>\n    </li>\n    <li class=\"rtb-faq-unordered-list__item\">\n      <rt-annotation\n        label=\"Как расторгнуть договор, если нет возможности пойти в офис?\"\n      >\n        <template slot=\"content\">\n          <p class=\"rt-font-small-paragraph\">\n            При наличии технической возможности мы организуем\n            предоставление услуг по новому адресу без расторжения\n            договора. Подробнее об акции «Переезд».\n          </p>\n          <p\n            class=\"rt-font-small-paragraph rt-space-top rt-space-bottom\"\n          >\n            В этом случае действия зависят от вашей ситуации:\n          </p>\n          <ul class=\"rt-numeric-list\">\n            <li class=\"rt-numeric-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n            <li class=\"rt-numeric-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n            <li class=\"rt-numeric-list__item rt-font-small-paragraph\">\n              Пример обычной очень очень очень длинной строки 16px,\n              слишком длинная строка\n            </li>\n            <li class=\"rt-ordered-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n            <li class=\"rt-ordered-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n            <li class=\"rt-ordered-list__item rt-font-small-paragraph\">\n              Пример обычной строки 16px\n            </li>\n          </ul>\n        </template>\n      </rt-annotation>\n    </li>\n  </ul></div>\n"}})],1)])])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title row"},[_c('h1',{staticClass:"col rt-font-hero"},[_vm._v("\n          List elements\n        ")])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"row is-b2c"},[_c('div',{staticClass:"rt-col-12"},[_c('h4',{staticClass:"rt-font-h3  rt-space-top25"},[_vm._v("\n            Simple tags\n          ")]),_vm._v(" "),_c('pre-code',{attrs:{"text":"\n          <div class=\"row\">\n            <rt-tag-list class=\"row\">\n              <rt-tag value=\"1\" :is-active=\"true\">Все</rt-tag>\n              <rt-tag value=\"2\">Для смартфонов Android</rt-tag>\n              <rt-tag value=\"3\">Для Macbook</rt-tag>\n              <rt-tag value=\"4\">Защита для детей</rt-tag>\n              <rt-tag value=\"5\">Esset</rt-tag>\n              <rt-tag value=\"6\">Два устройств Windows и Android</rt-tag>\n              <rt-tag value=\"7\">Акция Kaspersky</rt-tag>\n            </rt-tag-list>\n            <rt-tag-list color=\"red-high\" class=\"row\">\n              <rt-tag value=\"1\" :is-active=\"true\">Все</rt-tag>\n              <rt-tag value=\"2\">Для смартфонов Android</rt-tag>\n              <rt-tag value=\"3\">Для Macbook</rt-tag>\n              <rt-tag value=\"4\">Защита для детей</rt-tag>\n              <rt-tag value=\"5\">Esset</rt-tag>\n              <rt-tag value=\"6\">Два устройств Windows и Android</rt-tag>\n              <rt-tag value=\"7\">Акция Kaspersky</rt-tag>\n            </rt-tag-list>\n          </div>"}}),_vm._v(" "),_c('h4',{staticClass:"rt-font-h3 rt-space-top55"},[_vm._v("\n            Tags with tag-list\n          ")]),_vm._v(" "),_c('rt-filter',[_c('rt-tag-list',{staticClass:"row "},[_c('rt-filter-caller',{attrs:{"option":"device-type","clear-value":true}},[_c('rt-tag',{attrs:{"is-active":true}},[_vm._v("\n                  Все\n                ")])],1),_vm._v(" "),_c('rt-filter-caller',{attrs:{"option":"device-type","value":"2"}},[_c('rt-tag',[_vm._v("Для смартфонов Android")])],1),_vm._v(" "),_c('rt-filter-caller',{attrs:{"option":"device-type","value":"3"}},[_c('rt-tag',[_vm._v("Для Macbook")])],1),_vm._v(" "),_c('rt-filter-caller',{attrs:{"option":"device-type","value":"4"}},[_c('rt-tag',[_vm._v("Защита для детей")])],1),_vm._v(" "),_c('rt-filter-caller',{attrs:{"option":"device-type","value":"5"}},[_c('rt-tag',[_vm._v("Esset")])],1),_vm._v(" "),_c('rt-filter-caller',{attrs:{"option":"device-type","value":"6"}},[_c('rt-tag',[_vm._v("Два устройств Windows и Android")])],1),_vm._v(" "),_c('rt-filter-caller',{attrs:{"option":"device-type","value":"7"}},[_c('rt-tag',[_vm._v("Акция Kaspersky")])],1)],1),_vm._v(" "),_c('rt-filter-watcher',{attrs:{"options":['device-type'],"values":[2]}},[_c('p',[_vm._v("123")])]),_vm._v(" "),_c('rt-filter-watcher',{attrs:{"options":['device-type'],"values":[2]}},[_c('rt-card',[_c('template',{slot:"content"},[_vm._v("\n                  Для смартфонов Android 2\n                ")])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{attrs:{"options":['device-type'],"values":[3]}},[_c('rt-card',[_c('template',{slot:"content"},[_vm._v("\n                  Macbook\n                ")])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{attrs:{"options":['device-type'],"values":[[2, 6]]}},[_c('rt-card',[_c('template',{slot:"content"},[_vm._v("\n                  Для смартфонов Android 2 Windows\n                ")])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{attrs:{"options":['device-type'],"values":[3]}},[_c('rt-card',[_c('template',{slot:"content"},[_vm._v("\n                  Macos\n                ")])],2)],1)],1)],1)])])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("\n          Tags\n        ")])])])}]
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/List.vue":
-/*!*****************************************************!*\
-  !*** ./src/example-pages/components/group/List.vue ***!
-  \*****************************************************/
+/***/ "./src/example-pages/components/form/Tags.vue":
+/*!****************************************************!*\
+  !*** ./src/example-pages/components/form/Tags.vue ***!
+  \****************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _List_vue_vue_type_template_id_021d6a38___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./List.vue?vue&type=template&id=021d6a38& */ "./src/example-pages/components/group/List.vue?vue&type=template&id=021d6a38&");
-/* harmony import */ var _List_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./List.vue?vue&type=script&lang=js& */ "./src/example-pages/components/group/List.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Tags_vue_vue_type_template_id_615f849c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Tags.vue?vue&type=template&id=615f849c& */ "./src/example-pages/components/form/Tags.vue?vue&type=template&id=615f849c&");
+/* harmony import */ var _Tags_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Tags.vue?vue&type=script&lang=js& */ "./src/example-pages/components/form/Tags.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -245,9 +172,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _List_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _List_vue_vue_type_template_id_021d6a38___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _List_vue_vue_type_template_id_021d6a38___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Tags_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Tags_vue_vue_type_template_id_615f849c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Tags_vue_vue_type_template_id_615f849c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -259,33 +186,33 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/List.vue?vue&type=script&lang=js&":
-/*!******************************************************************************!*\
-  !*** ./src/example-pages/components/group/List.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************/
+/***/ "./src/example-pages/components/form/Tags.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./src/example-pages/components/form/Tags.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_List_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./List.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/List.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_List_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Tags_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Tags.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Tags.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Tags_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/List.vue?vue&type=template&id=021d6a38&":
-/*!************************************************************************************!*\
-  !*** ./src/example-pages/components/group/List.vue?vue&type=template&id=021d6a38& ***!
-  \************************************************************************************/
+/***/ "./src/example-pages/components/form/Tags.vue?vue&type=template&id=615f849c&":
+/*!***********************************************************************************!*\
+  !*** ./src/example-pages/components/form/Tags.vue?vue&type=template&id=615f849c& ***!
+  \***********************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_List_vue_vue_type_template_id_021d6a38___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./List.vue?vue&type=template&id=021d6a38& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/List.vue?vue&type=template&id=021d6a38&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_List_vue_vue_type_template_id_021d6a38___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tags_vue_vue_type_template_id_615f849c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Tags.vue?vue&type=template&id=615f849c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Tags.vue?vue&type=template&id=615f849c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tags_vue_vue_type_template_id_615f849c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_List_vue_vue_type_template_id_021d6a38___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tags_vue_vue_type_template_id_615f849c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

@@ -1,13 +1,272 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[56],{
 
-/***/ "./node_modules/vue-rt-style-kit-molecules/src/components/Banner/docs/index.json":
-/*!***************************************************************************************!*\
-  !*** ./node_modules/vue-rt-style-kit-molecules/src/components/Banner/docs/index.json ***!
-  \***************************************************************************************/
-/*! exports provided: items, default */
-/***/ (function(module) {
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/UseCase.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/simple/UseCase.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-banner\",\"property\":\"(:)content-min-height\",\"type\":[\"Number\",\"String\"],\"description\":\"Устанавливает минимальную высоту банера \\n number - любое число становится px \\n string - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner\",\"property\":\":hide-paginator-on-mobile\",\"type\":[\"Boolean\"],\"version\":\"0.1.69\",\"description\":\"Скрытие пагинатора при мобильном отображении\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\":hide-paginator-on-tablet\",\"type\":[\"Boolean\"],\"version\":\"0.1.69\",\"description\":\"Скрытие пагинатора при планшетном отображении\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\"(:)content-height\",\"type\":[\"Number\",\"String\"],\"description\":\"Устанавливает высоту банера \\n number - любое число становится px \\n string - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner\",\"property\":\":dont-pause-on-hover\",\"type\":[\"Boolean\"],\"description\":\"Флаг выключения паузы при наведении на бенеры\",\"value\":\"false\",\"version\":\"0.0.29\"},{\"name\":\"rt-banner\",\"property\":\":auto-next-only-on-desktop\",\"type\":[\"Boolean\"],\"description\":\"Флаг выключения автопереключения слайдов не на дектопе\",\"value\":\"false\",\"version\":\"0.1.43\"},{\"name\":\"rt-banner\",\"property\":\":has-custom-content\",\"type\":[\"Boolean\"],\"description\":\"Флаг для создания кастомных элементов банеров\",\"value\":\"false\",\"version\":\"0.0.29\"},{\"name\":\"rt-banner\",\"property\":\":without-empty-column\",\"type\":[\"Boolean\"],\"description\":\"Флаг удаления отступа в колонку слева от контента\",\"value\":\"false\",\"version\":\"0.0.29\"},{\"name\":\"rt-banner\",\"property\":\":without-second-empty-column\",\"type\":[\"Boolean\"],\"description\":\"Флаг удаления отступа в колонку справа от контента\",\"value\":\"false\",\"version\":\"\"},{\"name\":\"rt-banner\",\"property\":\"mobile-image-height\",\"type\":[\"String\"],\"description\":\"Устанавливает высоту background для мобильного разрешения\",\"value\":\"null\",\"version\":\"0.0.29\"},{\"name\":\" rt-banner\",\"property\":\"(:)content-mobile-min-height\",\"type\":[\"Number\",\"String\"],\"description\":\"Устанавливает минимальную высоту банера для мобильного разрешения \\n number - любое число становится px \\n string - любые значения\",\"value\":\"null\"},{\"name\":\" rt-banner\",\"property\":\"(:)content-tablet-min-height\",\"type\":[\"Number\",\"String\"],\"description\":\"Устанавливает минимальную высоту банера для разрешения планшета \\n number - любое число становится px \\n string - любые значения\",\"value\":\"null\",\"version\":\"0.2.18\"},{\"name\":\"rt-banner\",\"property\":\"(:)content-mobile-height\",\"type\":[\"Number\",\"String\"],\"description\":\"Устанавливает высоту банера для мобильного разрешения \\n number - любое число становится px \\n string - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner\",\"property\":\"(:)content-tablet-height\",\"type\":[\"Number\",\"String\"],\"description\":\"Устанавливает высоту банера для разрешения планшета \\n number - любое число становится px \\n string - любые значения\",\"value\":\"null\",\"version\":\"0.2.18\"},{\"name\":\"rt-banner\",\"property\":\":is-fullscreen-image\",\"type\":[\"Boolean\"],\"description\":\"Флаг установки фулскрин картинки\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\"justify\",\"type\":\"String\",\"description\":\"Сейчас принимает left - указывает на направление контанта слева\",\"value\":\"null\"},{\"name\":\"rt-banner\",\"property\":\"background-color\",\"type\":\"String\",\"description\":\"Устанавливает цвет фона банера \\n возможные значения \\n `dark-slate` `yellow` `red` `dark-blue` `light-blue` `orange` `pink` `green`\",\"value\":\"null\"},{\"name\":\"rt-banner\",\"property\":\":background-repeat\",\"type\":[\"Boolean\"],\"description\":\"Устанавливает background-repeat опцию на картинке фона\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\":sleep-time\",\"type\":[\"Number\"],\"description\":\"Устанавливает время продолжительности слайда\",\"value\":\"5000\"},{\"name\":\"rt-banner\",\"property\":\":fixed-image\",\"type\":[\"Boolean\"],\"description\":\"Фиксация изображения слайда `background-attachment`\",\"value\":\"false\",\"version\":\"0.1.20\"},{\"name\":\"rt-banner\",\"property\":\"banner-logo\",\"type\":[\"String\"],\"description\":\"Ссылка на логотип справа внизу\",\"value\":\"null\"},{\"name\":\"rt-banner\",\"property\":\"set-stop-on-click\",\"type\":[\"Boolean\"],\"description\":\"Остановка автоперехода на следующий слайд после первого клика по банеру\",\"value\":\"false\",\"version\":\" >= 0.0.25\"},{\"name\":\"rt-banner\",\"property\":\"no-triangle\",\"type\":[\"Boolean\"],\"description\":\"Убирает скосы справа и слева от изображения\",\"value\":\"false\",\"version\":\"\"},{\"name\":\"rt-banner\",\"property\":\"paginator-position\",\"type\":[\"String\"],\"description\":\"Устанавливает позицию пагинатора. Сейчас принимая `top` переносит пагинатор наверх\",\"value\":\"null\",\"version\":\"\"},{\"name\":\"rt-banner-item\",\"property\":\"background-position\",\"type\":[\"String\"],\"description\":\"Настройки background-position \\n передается css значение\",\"value\":\"null\"},{\"name\":\"rt-banner-item\",\"property\":\"(:)content-min-height\",\"type\":[\"Number\",\"String\"],\"description\":\"Устанавливает минимальную высоту слайда \\n number - любое число становится px \\n string - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner-item\",\"property\":\"(:)content-height\",\"type\":[\"Number\",\"String\"],\"description\":\"Устанавливает высоту слайда \\n number - любое число становится px \\n string - любые значения\",\"value\":\"null\"},{\"name\":\" rt-banner-item\",\"property\":\"(:)content-mobile-min-height\",\"type\":[\"Number\",\"String\"],\"description\":\"Устанавливает минимальную высоту слайда \\n number - любое число становится px \\n string - любые значения\",\"value\":\"null\"},{\"name\":\" rt-banner-item\",\"property\":\"(:)content-tablet-min-height\",\"type\":[\"Number\",\"String\"],\"description\":\"Устанавливает минимальную высоту слайда для планшетов \\n number - любое число становится px \\n string - любые значения\",\"value\":\"null\",\"version\":\"0.2.18\"},{\"name\":\"rt-banner-item\",\"property\":\"(:)content-mobile-height\",\"type\":[\"Number\",\"String\"],\"description\":\"Устанавливает высоту слайда для мобильного разрешения \\n number - любое число становится px \\n string - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner-item\",\"property\":\"(:)content-tablet-height\",\"type\":[\"Number\",\"String\"],\"description\":\"Устанавливает высоту слайда для разрешения планшета \\n number - любое число становится px \\n string - любые значения\",\"value\":\"null\",\"version\":\"0.2.18\"},{\"name\":\"rt-banner-item\",\"property\":\"(:)content-min-width\",\"type\":[\"Number\",\"String\"],\"description\":\"Устанавливает минимальную ширину слайда для мобильного разрешения\\n number - любое число становится px \\n string - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner-item\",\"property\":\"(:)content-max-width\",\"type\":[\"Number\",\"String\"],\"description\":\"Устанавливает максимальную ширину слайда \\n number - любое число становится px \\n string - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner-item\",\"property\":\"background-сolor\",\"type\":[\"String\"],\"description\":\"Устанавливает цвет фона слайда\",\"value\":\"null\"},{\"name\":\"rt-banner-item\",\"property\":\":is-white-color\",\"type\":\"Boolean\",\"description\":\"Устанавливает белый цвет текста слайда\",\"value\":\"false\"},{\"name\":\"rt-banner-item\",\"property\":\"background-image\",\"type\":\"String\",\"description\":\"url-адрес картинки для Desktop,Tablet,Mobile\",\"value\":\"null\"},{\"name\":\"rt-banner-item\",\"property\":\"background-image-tablet\",\"type\":\"String\",\"description\":\"url-адрес картинки для Tablet\",\"value\":\"null\",\"version\":\" >= 0.0.86\"},{\"name\":\"rt-banner-item\",\"property\":\"background-image-mobile\",\"type\":\"String\",\"description\":\"url-адрес картинки для Mobile\",\"value\":\"null\",\"version\":\" >= 0.0.86\"},{\"name\":\"rt-banner-item\",\"property\":\"lazy-image\",\"type\":\"String\",\"description\":\"Устанавливает для слайда фон в виде прелоадера, пока не загрузится основное изображение \\n string - ссылка на внутренний или внешний файл\",\"value\":\"null\",\"version\":\" >= 0.0.30\"},{\"name\":\"rt-card\",\"property\":\"lazy-image-tablet\",\"type\":\"String\",\"description\":\"Ссылка на картинку заглушку для Tablet\",\"value\":\"null\",\"version\":\" >= 0.0.86\"},{\"name\":\"rt-card\",\"property\":\"lazy-image-mobile\",\"type\":\"String\",\"description\":\"Ссылка на картинку заглушку для Mobile\",\"value\":\"null\",\"version\":\" >= 0.0.86\"},{\"name\":\"rt-banner-item\",\"property\":\":ga\",\"type\":\"Object\",\"description\":\"Используется для сбора Google-аналитики. \\n\\n`:ga=\\\"{\\n  name: Заголовок слайда баннера,\\n  section: Раздел сайта (main_page, /bonus, /smarthouse - по-умолчанию location.pathname)\\n}\\\"`\",\"value\":\"null\",\"version\":\" >= 0.0.30\"},{\"name\":\"rt-banner\",\"property\":\"resize-query-selectors-names\",\"type\":\"Array\",\"description\":\"Список query селекторов для выравнивания по высоте\",\"value\":\"[]\",\"version\":\"0.3.6\"},{\"name\":\"rt-banner\",\"property\":\"mobile-not-resize-query-selectors\",\"type\":\"Boolean\",\"description\":\"Флаг запрета выравнивания селекторов  по высоте на mobile\",\"value\":\"true\",\"version\":\"0.3.6\"},{\"name\":\"rt-banner\",\"property\":\"tablet-not-resize-query-selectors\",\"type\":\"Boolean\",\"description\":\"Флаг запрета выравнивания селекторов  по высоте на tablet\",\"value\":\"false\",\"version\":\"0.3.6\"}]}");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "AppUseCase",
+  components: _componentsList__WEBPACK_IMPORTED_MODULE_0__["default"]
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/UseCase.vue?vue&type=template&id=5defa32f&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/simple/UseCase.vue?vue&type=template&id=5defa32f& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container rt-md-space-horizontal-none"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body is-b2b"},[_c('rt-real-popup',[[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-12 rt-col-td-6 rt-col-md-3 popup-content"})])]],2),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-12"},[_c('rt-use-case',[_c('div',{staticClass:"rt-col-6 rt-col-md-3"},[_c('rt-card',{attrs:{"background-image":"/static/example-images/cardBackground6.png","background-cover":true,"is-white-color":true,"offset-top":true,"background-color-type":"black","double-sided":true}},[_c('template',{slot:"content"},[_c('h4',{staticClass:"rt-font-bold rt-space-bottom05"},[_vm._v("Торговля, ритейл, E-commerce")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph"},[_vm._v("Размещение корпоративной почтовой системы, CRM, 1С, программ учета\n                    продукции, внешнего сайта или интернет-магазина, виртуальных рабочих мест")])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('rt-button',{staticClass:"rt-button-small rt-button-white"},[_vm._v("Кейс")])],1),_vm._v(" "),_c('template',{slot:"reverse"},[_c('div',{staticClass:"rt-font-small-paragraph color-main07"},[_c('p',{staticClass:"rt-font-bold"},[_vm._v("Клиент\u2028")]),_vm._v(" "),_c('p',[_vm._v("\u2028Официальный дистрибьютор оборудования для горнодобывающей, строительной, нефтегазовой, лесной,\n                      дорожной и коммунальной отраслей. 15 лет на рынке индустриальной техники. Сеть филиалов,\n                      представительств и дилеров более чем в 20 городах России.")]),_vm._v(" "),_c('p',{staticClass:"rt-font-bold"},[_vm._v("Проблема\u2028")]),_vm._v(" "),_c('p',[_vm._v("Создать отказоустойчивую систему объединенных коммуникаций для всех сотрудников, включая\n                      филиальную сеть и центральный офис в Екатеринбурге. Требуется организовать бесперебойную работу\n                      приложений «1С» для всех подразделений, т.к. раньше были распределенные базы (синхронизация,\n                      обмен, администрирование и т.д.), что было не удобно. В случаях «падения» центрального офиса\n                      филиалы оставались без связи (электричество, ШПД и т.д.)")]),_vm._v(" "),_c('p',{staticClass:"rt-font-bold"},[_vm._v("Решение\u2028")]),_vm._v(" "),_c('p',[_vm._v("Размещение «1С» заказчика в Виртуальном ЦОД Ростелеком. Филиалы могут работать независимо от\n                      центрального офиса. Возможность удаленной работы. Безопасность, надежность и отказоустойчивость\n                      решения обеспечены Ростелекомом.")])])])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3"},[_c('rt-card',{attrs:{"background-image":"/static/example-images/cardBackground6.png","background-cover":true,"is-white-color":true,"offset-top":true,"background-color-type":"black","double-sided":true}},[_c('template',{slot:"content"},[_c('h4',{staticClass:"rt-font-bold rt-space-bottom05"},[_vm._v("Торговля, ритейл, E-commerce")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph"},[_vm._v("Размещение корпоративной почтовой системы, CRM, 1С, программ учета\n                    продукции, внешнего сайта или интернет-магазина, виртуальных рабочих мест")])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('rt-button',{staticClass:"rt-button-small rt-button-white"},[_vm._v("Кейс")])],1),_vm._v(" "),_c('template',{slot:"reverse"},[_c('div',{staticClass:"rt-font-small-paragraph color-main07"},[_c('p',{staticClass:"rt-font-bold"},[_vm._v("Клиент\u2028")]),_vm._v(" "),_c('p',[_vm._v("\u2028Официальный дистрибьютор оборудования для горнодобывающей, строительной, нефтегазовой, лесной,\n                      дорожной и коммунальной отраслей. 15 лет на рынке индустриальной техники. Сеть филиалов,\n                      представительств и дилеров более чем в 20 городах России.")]),_vm._v(" "),_c('p',{staticClass:"rt-font-bold"},[_vm._v("Проблема\u2028")]),_vm._v(" "),_c('p',[_vm._v("Создать отказоустойчивую систему объединенных коммуникаций для всех сотрудников, включая\n                      филиальную сеть и центральный офис в Екатеринбурге. Требуется организовать бесперебойную работу\n                      приложений «1С» для всех подразделений, т.к. раньше были распределенные базы (синхронизация,\n                      обмен, администрирование и т.д.), что было не удобно. В случаях «падения» центрального офиса\n                      филиалы оставались без связи (электричество, ШПД и т.д.)")]),_vm._v(" "),_c('p',{staticClass:"rt-font-bold"},[_vm._v("Решение\u2028")]),_vm._v(" "),_c('p',[_vm._v("Размещение «1С» заказчика в Виртуальном ЦОД Ростелеком. Филиалы могут работать независимо от\n                      центрального офиса. Возможность удаленной работы. Безопасность, надежность и отказоустойчивость\n                      решения обеспечены Ростелекомом.")])])])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3"},[_c('rt-card',{attrs:{"background-image":"/static/example-images/cardBackground6.png","background-cover":true,"is-white-color":true,"offset-top":true,"background-color-type":"black","double-sided":true}},[_c('template',{slot:"content"},[_c('h4',{staticClass:"rt-font-bold rt-space-bottom05"},[_vm._v("Торговля, ритейл, E-commerce")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph"},[_vm._v("Размещение корпоративной почтовой системы, CRM, 1С, программ учета\n                    продукции, внешнего сайта или интернет-магазина, виртуальных рабочих мест")])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('rt-button',{staticClass:"rt-button-small rt-button-white"},[_vm._v("Кейс")])],1),_vm._v(" "),_c('template',{slot:"reverse"},[_c('div',{staticClass:"rt-font-small-paragraph color-main07"},[_c('p',{staticClass:"rt-font-bold"},[_vm._v("Клиент\u2028")]),_vm._v(" "),_c('p',[_vm._v("\u2028Официальный дистрибьютор оборудования для горнодобывающей, строительной, нефтегазовой, лесной,\n                      дорожной и коммунальной отраслей. 15 лет на рынке индустриальной техники. Сеть филиалов,\n                      представительств и дилеров более чем в 20 городах России.")]),_vm._v(" "),_c('p',{staticClass:"rt-font-bold"},[_vm._v("Проблема\u2028")]),_vm._v(" "),_c('p',[_vm._v("Создать отказоустойчивую систему объединенных коммуникаций для всех сотрудников, включая\n                      филиальную сеть и центральный офис в Екатеринбурге. Требуется организовать бесперебойную работу\n                      приложений «1С» для всех подразделений, т.к. раньше были распределенные базы (синхронизация,\n                      обмен, администрирование и т.д.), что было не удобно. В случаях «падения» центрального офиса\n                      филиалы оставались без связи (электричество, ШПД и т.д.)")]),_vm._v(" "),_c('p',{staticClass:"rt-font-bold"},[_vm._v("Решение\u2028")]),_vm._v(" "),_c('p',[_vm._v("Размещение «1С» заказчика в Виртуальном ЦОД Ростелеком. Филиалы могут работать независимо от\n                      центрального офиса. Возможность удаленной работы. Безопасность, надежность и отказоустойчивость\n                      решения обеспечены Ростелекомом.")])])])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3"},[_c('rt-card',{attrs:{"background-image":"/static/example-images/cardBackground6.png","background-cover":true,"is-white-color":true,"offset-top":true,"background-color-type":"black","double-sided":true}},[_c('template',{slot:"content"},[_c('h4',{staticClass:"rt-font-bold rt-space-bottom05"},[_vm._v("Торговля, ритейл, E-commerce")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph"},[_vm._v("Размещение корпоративной почтовой системы, CRM, 1С, программ учета\n                    продукции, внешнего сайта или интернет-магазина, виртуальных рабочих мест")])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('rt-button',{staticClass:"rt-button-small rt-button-white"},[_vm._v("Кейс")])],1),_vm._v(" "),_c('template',{slot:"reverse"},[_c('div',{staticClass:"rt-font-small-paragraph color-main07"},[_c('p',{staticClass:"rt-font-bold"},[_vm._v("Клиент\u2028")]),_vm._v(" "),_c('p',[_vm._v("\u2028Официальный дистрибьютор оборудования для горнодобывающей, строительной, нефтегазовой, лесной,\n                      дорожной и коммунальной отраслей. 15 лет на рынке индустриальной техники. Сеть филиалов,\n                      представительств и дилеров более чем в 20 городах России.")]),_vm._v(" "),_c('p',{staticClass:"rt-font-bold"},[_vm._v("Проблема\u2028")]),_vm._v(" "),_c('p',[_vm._v("Создать отказоустойчивую систему объединенных коммуникаций для всех сотрудников, включая\n                      филиальную сеть и центральный офис в Екатеринбурге. Требуется организовать бесперебойную работу\n                      приложений «1С» для всех подразделений, т.к. раньше были распределенные базы (синхронизация,\n                      обмен, администрирование и т.д.), что было не удобно. В случаях «падения» центрального офиса\n                      филиалы оставались без связи (электричество, ШПД и т.д.)")]),_vm._v(" "),_c('p',{staticClass:"rt-font-bold"},[_vm._v("Решение\u2028")]),_vm._v(" "),_c('p',[_vm._v("Размещение «1С» заказчика в Виртуальном ЦОД Ростелеком. Филиалы могут работать независимо от\n                      центрального офиса. Возможность удаленной работы. Безопасность, надежность и отказоустойчивость\n                      решения обеспечены Ростелекомом.")])])])],2)],1)])],1)])],1)])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("\n        Spinning Cards\n      ")])])}]
+
+
+
+/***/ }),
+
+/***/ "./src/example-pages/components/simple/UseCase.vue":
+/*!*********************************************************!*\
+  !*** ./src/example-pages/components/simple/UseCase.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _UseCase_vue_vue_type_template_id_5defa32f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./UseCase.vue?vue&type=template&id=5defa32f& */ "./src/example-pages/components/simple/UseCase.vue?vue&type=template&id=5defa32f&");
+/* harmony import */ var _UseCase_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UseCase.vue?vue&type=script&lang=js& */ "./src/example-pages/components/simple/UseCase.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _UseCase_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _UseCase_vue_vue_type_template_id_5defa32f___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _UseCase_vue_vue_type_template_id_5defa32f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/example-pages/components/simple/UseCase.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./src/example-pages/components/simple/UseCase.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_UseCase_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./UseCase.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/UseCase.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_UseCase_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/example-pages/components/simple/UseCase.vue?vue&type=template&id=5defa32f&":
+/*!****************************************************************************************!*\
+  !*** ./src/example-pages/components/simple/UseCase.vue?vue&type=template&id=5defa32f& ***!
+  \****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UseCase_vue_vue_type_template_id_5defa32f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./UseCase.vue?vue&type=template&id=5defa32f& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/UseCase.vue?vue&type=template&id=5defa32f&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UseCase_vue_vue_type_template_id_5defa32f___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UseCase_vue_vue_type_template_id_5defa32f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ })
 

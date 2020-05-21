@@ -1,14 +1,15 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[26],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Youtube.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/Youtube.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Filter.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/Filter.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
 //
 //
 //
@@ -39,21 +40,2707 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-var componentsList = {};
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var componentDirectives = {};
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppYoutube",
-  components: componentsList,
-  mounted: function mounted() {},
+  name: "AppFilter",
+  // directives: componentDirectives,
+  components: _componentsList__WEBPACK_IMPORTED_MODULE_0__["default"],
+  mounted: function mounted() {
+    document.querySelector(".filterButton").addEventListener("click", function () {
+      window.dispatchEvent(new Event("open-popup-filter"));
+    });
+
+    var getParams = function getParams() {
+      var params = new URLSearchParams(location.search);
+      var filter = params.get("filter");
+      var json = {};
+
+      if (filter) {
+        filter.split(",").map(function (i) {
+          var item = i.split(":");
+          json[item[0]] = item[1].split("+");
+        });
+
+        if (json["platform"]) {
+          checkItems(json["platform"]);
+        }
+      }
+    };
+
+    var checkItems = function checkItems(params) {
+      document.querySelectorAll(".platform-filter").forEach(function (item) {
+        var hasFound = false;
+        var itemParams = JSON.parse(item.getAttribute("platform-filter").replace(/'/g, '"'));
+
+        if (params && itemParams) {
+          params.forEach(function (paramsItem) {
+            var paramsIndex = itemParams.indexOf(paramsItem);
+
+            if (paramsIndex >= 0) {
+              hasFound = true;
+
+              if (item.classList.contains("d-none")) {
+                item.classList.remove("d-none");
+                return false;
+              }
+            }
+          });
+
+          if (!hasFound && !item.classList.contains("d-none")) {
+            item.classList.add("d-none");
+          }
+
+          if (hasFound) {
+            return false;
+          }
+        } else {
+          if (item.classList.contains("d-none")) {
+            item.classList.remove("d-node");
+          }
+        }
+
+        setTimeout(function () {
+          window.dispatchEvent(new Event("resize"));
+        }, 300);
+      });
+    };
+
+    document.querySelectorAll(".checkbox-element").forEach(function (checkbox) {
+      checkbox.addEventListener("input", function () {
+        setTimeout(function () {
+          getParams();
+        }, 300);
+      });
+    });
+    getParams();
+    document.querySelectorAll(".radio-button-element, .checkbox-element").forEach(function (item) {
+      item.addEventListener("change", function () {
+        setTimeout(function () {
+          var params = new URLSearchParams(location.search);
+          var filter = params.get("filter");
+          var json = {};
+
+          if (filter) {
+            filter.split(",").map(function (i) {
+              var item = i.split(":");
+              json[item[0]] = item[1].split("+");
+            });
+            document.querySelectorAll(".rt-tag").forEach(function (el) {
+              var span = el.querySelector("span");
+
+              if (span) {
+                var hasFound = true;
+                var spanjson = JSON.parse(span.getAttribute("value").replace(/\'/g, '"'));
+                Object.keys(spanjson).map(function (spanjsonKey) {
+                  if (typeof spanjson[spanjsonKey] === "string") {
+                    spanjson[spanjsonKey] = [spanjson[spanjsonKey]];
+                  }
+                });
+
+                if (Object.keys(spanjson).length === Object.keys(json).length) {
+                  Object.keys(spanjson).forEach(function (key) {
+                    if (json[key]) {
+                      if (typeof json[key] !== "string") {
+                        if (json[key].length === spanjson[key].length) {
+                          json[key].forEach(function (jsonItem) {
+                            if (spanjson[key].indexOf(jsonItem) < 0) {
+                              hasFound = false;
+                              return false;
+                            }
+                          }); // hasFound = false
+                          // return false
+                        } else {
+                          hasFound = false;
+                        }
+                      }
+                    } else {
+                      hasFound = false;
+                    }
+                  });
+                } else {
+                  hasFound = false;
+                }
+
+                if (!hasFound) {
+                  el.classList.remove("rt-tag--is-active");
+                  return false;
+                } else {
+                  el.classList.add("rt-tag--is-active");
+                }
+              }
+            });
+          }
+
+          document.querySelectorAll(".rt-tag").forEach(function (item) {
+            if (item.innerHTML === "Все") {
+              if (filter && item.classList.contains("rt-tag--is-active")) {
+                item.classList.remove("rt-tag--is-active");
+              } else {
+                if (!filter && !item.classList.contains("rt-tag--is-active")) {
+                  item.classList.add("rt-tag--is-active");
+                }
+              }
+            }
+          });
+        });
+      }, 200);
+    });
+    document.querySelectorAll(".rt-tag").forEach(function (item) {
+      item.addEventListener("click", function () {
+        if (item.innerHTML === "Все") {
+          document.querySelectorAll(".checkbox-element").forEach(function (checkbox) {
+            checkbox.checked = false;
+          });
+        }
+      });
+    });
+  },
   created: function created() {},
   methods: {}
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Youtube.vue?vue&type=template&id=2d4ca230&":
-/*!***********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/Youtube.vue?vue&type=template&id=2d4ca230& ***!
-  \***********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Filter.vue?vue&type=template&id=5200fc55&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/Filter.vue?vue&type=template&id=5200fc55& ***!
+  \**********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -61,24 +2748,194 @@ var componentsList = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-1 rt-col-md-3 rt-col-td-10"}),_vm._v(" "),_c('div',{staticClass:"rt-col-10 rt-col-md-3 rt-col-td-10"},[_c('pre-code',{attrs:{"text":"<rt-youtube :start-index=\"[1,2,230,0]\" :utm-sources=\"['ab','ba','ca','ka']\"  :playlist-id=\"['PLbAFXJC0J5GanbANaPaaWYB6Vdc_JPZ6n','RDUOxkGD8qRB4','RDBqNES_8YLP4','RDMM3mBKjBJX60E','RDAmq-qlqbjYA']\"></rt-youtube>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-1 rt-col-md-3 rt-col-td-10"})])])])]),_vm._v(" "),_c('rt-youtube',{attrs:{"height":"","playlist-id":['PLbAFXJC0J5GanbANaPaaWYB6Vdc_JPZ6n'],"disable-buttons":true}})],1)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("\n          Youtube player\n        ")])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body is-b2c"},[_c('div',{staticClass:"rt-font-center rt-space-bottom15"},[_c('rt-button',{staticClass:"rt-button-small filterButton rt-button-purple-border d-none td-d-inline"},[_vm._v("\n          Показать все фильтры\n        ")])],1),_vm._v(" "),_c('div',{staticClass:"rt-container"},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"rt-font-center rt-space-bottom15"},[_c('rt-button',{staticClass:"rt-button-small filterButton rt-button-purple-border d-none td-d-inline"},[_vm._v("\n            Показать все фильтры\n          ")])],1),_vm._v(" "),_c('rt-resize-content-height',{staticClass:"row",attrs:{"group-size":2,"tablet-group-size":2,"mobile-group-size":0,"mobile-not-resize":true,"query-selectors-names":[
+            '.rt-font-h4',
+            '.rt-card__body',
+            '.rt-card__border-content',
+            '.rt-card-list'
+          ]}},[_c('rt-filter',{staticClass:"rt-col-12",attrs:{"change-url":true,"dont-clear-props":['subscription']}},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-8 rt-col-td-6"},[_c('rt-filter-caller',{attrs:{"clear-zero":true}},[_c('rt-tag-list',{staticClass:"row"},[_c('rt-tag',{attrs:{"set-to-filter":true,"value":"1"}},[_vm._v("\n                      Все\n                    ")]),_vm._v(" "),_c('rt-tag',{attrs:{"set-to-filter":true,"value":"{'platform':'Android'}"}},[_c('span',{attrs:{"value":"{'platform':'Android'}"}},[_vm._v("Для смартфонов Android")])]),_vm._v(" "),_c('rt-tag',{attrs:{"set-to-filter":true,"value":"{'platform':'Mac'}"}},[_c('span',{attrs:{"value":"{'platform':'Mac'}"}},[_vm._v("Для Macbook")])]),_vm._v(" "),_c('rt-tag',{attrs:{"set-to-filter":true,"value":""}},[_vm._v("\n                      Защита для детей\n                    ")]),_vm._v(" "),_c('rt-tag',{attrs:{"set-to-filter":true,"value":"{'creator':'eset'}"}},[_c('span',{attrs:{"value":"{'creator':'eset'}"}},[_vm._v("Esset")])]),_vm._v(" "),_c('rt-tag',{attrs:{"set-to-filter":true,"value":"{'platform':['Android','Windows']}"}},[_c('span',{attrs:{"value":"{'platform':['Android','Windows']}"}},[_vm._v("Два устройств Windows и Android")])]),_vm._v(" "),_c('rt-tag',{attrs:{"set-to-filter":true,"value":"{'creator':'kaspersky'}"}},[_c('span',{attrs:{"value":"{'creator':'kaspersky'}"}},[_vm._v("Акция Kaspersky")])])],1)],1),_vm._v(" "),_c('div',{staticClass:"row"},[_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":['kaspersky', '1', 'only month', ['Windows']]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"/sites/default/files/img/logo/Kaspersky_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          Kaspersky Anti-Virus\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Решение для базовой защиты компьютера Windows от\n                          основных видов интернет-угроз.\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает одно устройство\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от вирусов, трояских программ и червей\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от шпионского и рекламного программного\n                                обеспечения\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Проверка файлов, почты в режиме реального\n                                времени\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от вирусов при работе с мессенджерами\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":99,"time-interval":"мес."}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":[
+                      'kaspersky',
+                      'less than 3',
+                      'only month',
+                      ['Windows', 'Mac', 'Linux', 'iOS']
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"/sites/default/files/img/logo/Kaspersky_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          Kaspersky Internet Security 2 устройства\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Надежное и удобное решение для защиты вашей жизни в\n                          интернете, которое включает в себя родительский\n                          контроль, дополнительный уровень защиты финансов,\n                          конфендициальность и защиту общения\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает два устройства\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от вирусов-вымогателей и других\n                                вредоносных программ\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита онлайн-платежей\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Функция «Родительский контроль»\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от шифровальщиков\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Блокировка баннеров и всплывающей рекламы\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":0,"old-value":139,"time-interval":"мес."}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":[
+                      'kaspersky',
+                      'less than 3',
+                      'not month',
+                      ['Windows', 'Mac', 'Linux', 'iOS']
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"/sites/default/files/img/logo/Kaspersky_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          Kaspersky Internet Security 2 устройства\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Надежное и удобное решение для защиты вашей жизни в\n                          интернете, которое включает в себя родительский\n                          контроль, дополнительный уровень защиты финансов,\n                          конфендициальность и защиту общения\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает два устройства\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от вирусов-вымогателей и других\n                                вредоносных программ\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита онлайн-платежей\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Функция «Родительский контроль»\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от шифровальщиков\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Блокировка баннеров и всплывающей рекламы\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":1600,"old-value":1800,"time-interval":"год"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'platform',
+                      'count',
+                      'subscription'
+                    ],"values":[
+                      'kaspersky',
+                      ['Windows', 'Mac', 'Linux', 'iOS'],
+                      'less than 4,',
+                      'only month'
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"/sites/default/files/img/logo/Kaspersky_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          Kaspersky Internet Security 3 устройства\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Надежное и удобное решение для защиты вашей жизни в\n                          интернете, которое включает в себя родительский\n                          контроль, дополнительный уровень защиты финансов,\n                          конфендициальность и защиту общения.\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает три устройства\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от вирусов-вымогателей и других\n                                вредоносных программ\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита онлайн-платежей\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Функция «Родительский контроль»\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от шифровальщиков\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Блокировка баннеров и всплывающей рекламы\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":159,"time-interval":"мес."}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":[
+                      'kaspersky',
+                      '1',
+                      'only month',
+                      ['Windows', 'Mac', 'Linux', 'iOS']
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"/sites/default/files/img/logo/Kaspersky_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          Kaspersky Safe Kids\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Новое мультиплатформенное решение для защиты детей в\n                          интернете, мобильных сетях, на компьютерах и\n                          мобильных устройствах.\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает одно устройство\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Гибкое регулирование доступа к сайтам и\n                                программам\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Ограничение времени использования устройств\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Отслеживание звонков и SMS ребенка на телефоне\n                                Android\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Контроль местонахождения ребенка и установка\n                                безопасной зоны\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                SMS-информирование о действиях ребенка\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Советы психолога по поведению детей в сети\n                                интернет\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":0,"old-value":99,"time-interval":"мес."}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":[
+                      'kaspersky',
+                      '1',
+                      'not month',
+                      ['Windows', 'Mac', 'Linux', 'iOS']
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"/sites/default/files/img/logo/Kaspersky_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          Kaspersky Safe Kids\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Новое мультиплатформенное решение для защиты детей в\n                          интернете, мобильных сетях, на компьютерах и\n                          мобильных устройствах.\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает одно устройство\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Гибкое регулирование доступа к сайтам и\n                                программам\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Ограничение времени использования устройств\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Отслеживание звонков и SMS ребенка на телефоне\n                                Android\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Контроль местонахождения ребенка и установка\n                                безопасной зоны\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                SMS-информирование о действиях ребенка\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Советы психолога по поведению детей в сети\n                                интернет\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":900,"time-interval":"год"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":[
+                      'drweb',
+                      '1',
+                      'only month',
+                      ['Windows', 'Mac', 'Linux']
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"https://www.old.rt.ru/data/img/logo-drweb.png"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          Dr.Web Классик\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Минимально необходимая защита от вирусов.\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает одно устройство\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Онлайн защита от основных видов вирусов\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от хакерских атак\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":79,"time-interval":"мес."}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":[
+                      'drweb',
+                      '1',
+                      'not month',
+                      ['Windows', 'Mac', 'Linux']
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"https://www.old.rt.ru/data/img/logo-drweb.png"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          Dr.Web Классик\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Минимально необходимая защита от вирусов.\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает одно устройство\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Онлайн защита от основных видов вирусов\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от хакерских атак\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":828,"time-interval":"год"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":[
+                      'drweb',
+                      '1',
+                      'only month',
+                      ['Windows', 'Mac', 'Linux', 'Android']
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"https://www.old.rt.ru/data/img/logo-drweb.png"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          Dr.Web Премиум\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Расширенная защита от вирусов, почтовых червей,\n                          троянов и шпионских программ.\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает одно устройство\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от вирусов и вредоносного ПО\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Проверка веб-страниц в режиме реального\n                                времени\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Блокировка фишинговых интернет-ресурсов\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от шифровальщиков\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Функция «Антиспам»\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Функция «Родительский контроль»\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":89,"time-interval":"мес."}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":[
+                      'drweb',
+                      '1',
+                      'not month',
+                      ['Windows', 'Mac', 'Linux', 'Android']
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"https://www.old.rt.ru/data/img/logo-drweb.png"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          Dr.Web Премиум\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Расширенная защита от вирусов, почтовых червей,\n                          троянов и шпионских программ.\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает одно устройство\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от вирусов и вредоносного ПО\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Проверка веб-страниц в режиме реального\n                                времени\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Блокировка фишинговых интернет-ресурсов\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от шифровальщиков\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Функция «Антиспам»\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Функция «Родительский контроль»\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":1068,"time-interval":"год"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":[
+                      'eset',
+                      'less than 4',
+                      'only month',
+                      ['Windows', 'Mac', 'Linux']
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"/sites/default/files/internet/ESET_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          ESET NOD32 Antivirus\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Быстрое и надежное решение для базовой защиты\n                          компьютера.\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает три устройства\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от вирусов\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от шпионских программ\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от фишинга\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":90,"time-interval":"мес."}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":[
+                      'eset',
+                      'less than 4',
+                      'not month',
+                      ['Windows', 'Mac', 'Linux']
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"/sites/default/files/internet/ESET_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          ESET NOD32 Antivirus\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Быстрое и надежное решение для базовой защиты\n                          компьютера.\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает три устройства\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от вирусов\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от шпионских программ\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от фишинга\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":1080,"old-value":1390,"time-interval":"год"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":[
+                      'eset',
+                      'less than 4',
+                      'only month',
+                      ['Windows', 'Mac', 'Linux']
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"/sites/default/files/internet/ESET_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          ESET NOD32 Smart Security\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Комплексное антивирусное решение для максимальной\n                          защиты вашего устройства.\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает три устройства\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от вирусов\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от шпионских программ\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от спама\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Файервол\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита вэб-камеры\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":140,"time-interval":"мес."}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":[
+                      'eset',
+                      'less than 4',
+                      'not month',
+                      ['Windows', 'Mac', 'Linux']
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"/sites/default/files/internet/ESET_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          ESET NOD32 Smart Security\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Комплексное антивирусное решение для максимальной\n                          защиты вашего устройства.\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает три устройства\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от вирусов\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от шпионских программ\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от спама\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Файервол\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита вэб-камеры\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":1750,"time-interval":"год"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":[
+                      'eset',
+                      'less than 6',
+                      'only month',
+                      ['Windows', 'Mac', 'Linux', 'Android']
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"/sites/default/files/internet/ESET_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          ESET NOD32 Smart Security Family 5 устройств\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Максимальная защита устройств в сети интернет\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает пять устройств\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита «умных» устройств (система «Умный дом»)\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита Wi-Fi роутеров\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Функция «Родительский контроль»\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита вэб-камеры от взлома\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от хакерских атак\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":139,"old-value":189,"time-interval":"мес."}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":[
+                      'eset',
+                      'less than 6',
+                      'not month',
+                      ['Windows', 'Mac', 'Linux', 'Android']
+                    ]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"/sites/default/files/internet/ESET_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          ESET NOD32 Smart Security Family 5 устройств\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Максимальная защита устройств в сети интернет\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает пять устройств\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита «умных» устройств (система «Умный дом»)\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита Wi-Fi роутеров\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Функция «Родительский контроль»\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита вэб-камеры от взлома\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защита от хакерских атак\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":1670,"old-value":2250,"time-interval":"мес."}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":['eset', '1', 'only month', ['Android']]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"/sites/default/files/internet/ESET_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          ESET NOD32 Mobile Security\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Надежная защита планшетов и смартфонов на базе\n                          Android\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает одно устройство\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Антивирус для Android\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Функция «Антивор»\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":66,"time-interval":"мес."}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1),_vm._v(" "),_c('rt-filter-watcher',{staticClass:"rt-col-6 rt-space-bottom rt-col-md-3",attrs:{"options":[
+                      'creator',
+                      'count',
+                      'subscription',
+                      'platform'
+                    ],"values":['eset', '1', 'only month', ['Android']]}},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-card__header__image",attrs:{"src":"/sites/default/files/internet/ESET_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          ESET NOD32 Родительский контроль\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Мобильное приложение для контроля и защиты детей в\n                          сети интернет\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list rt-space-bottom2"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/sites/default/files/img/icon/internet_antivirus_80x80.svg","height":"55px"}})]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Защищает одно устройство\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Контроль интернет-сайтов\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Игровой формат и простые настройки\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Определение местоположения\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Сообщения ребенку\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Контроль приложений и времени использования\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":0,"old-value":99,"time-interval":"мес."}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top05"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("\n                              Подключить\n                            ")])],1)])])],2)],1)],1)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-1"}),_vm._v(" "),_c('rt-popup',{attrs:{"popup-wrapper-classes":"rt-col-3","popup-classes":"rt-col-td-3 rt-col-md-3","show-on-desktop":false,"name":"filter"}},[_c('div',{staticClass:"rt-close d-none td-d-block"},[_c('svg',{staticClass:"rt-close__icon",attrs:{"width":"14","height":"14","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M14 1.4L12.6 0 7 5.6 1.4 0 0 1.4 5.6 7 0 12.6 1.4 14 7 8.4l5.6 5.6 1.4-1.4L8.4 7z","fill-rule":"evenodd"}})])]),_vm._v(" "),_c('rt-sticky',[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom"},[_vm._v("\n                    Способ покупки\n                  ")]),_vm._v(" "),_c('rt-filter-caller',[_c('rt-radio-button-container',[_c('rt-radio-button',{attrs:{"checked":true,"name":"subscription"}},[_vm._v("\n                        > Годовая подписка\n                      ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-left15 color-dark06 rt-space-bottom"},[_vm._v("\n                        два месяца в подарок\n                      ")]),_vm._v(" "),_c('rt-radio-button',{attrs:{"name":"subscription","value":"month"}},[_vm._v("\n                        > Месячная подписка\n                      ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-left15 color-dark06 rt-space-bottom"},[_vm._v("\n                        первый месяц 0 рублей\n                      ")])],1)],1),_vm._v(" "),_c('div',{staticClass:"rt-space-bottom"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom"},[_vm._v("\n                      Количество устройств\n                    ")]),_vm._v(" "),_c('rt-filter-caller',{attrs:{"clear-zero":true}},[_c('rt-input',{attrs:{"name":"count","value":"1","min-number":1,"show-numbers-buttons":true,"insert-type":"number"}})],1)],1),_vm._v(" "),_c('rt-filter-caller',[_c('rt-checkbox-container',[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom"},[_vm._v("\n                        Производитель\n                      ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-bottom"},[_c('rt-checkbox',{attrs:{"name":"creator","value":"kaspersky"}},[_vm._v("\n                          > Kaspersky Lab\n                        ")])],1),_vm._v(" "),_c('div',{staticClass:"rt-space-bottom"},[_c('rt-checkbox',{attrs:{"name":"creator","value":"drweb"}},[_vm._v("\n                          > Dr.Web\n                        ")])],1),_vm._v(" "),_c('div',{staticClass:"rt-space-bottom"},[_c('rt-checkbox',{attrs:{"name":"creator","value":"eset"}},[_vm._v("\n                          > ESET NOD32\n                        ")])],1)])],1),_vm._v(" "),_c('rt-filter-caller',[_c('rt-checkbox-container',[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom"},[_vm._v("\n                        Производитель\n                      ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-bottom"},[_c('rt-checkbox',{attrs:{"name":"platform","value":"Windows"}},[_vm._v("\n                          > Windows\n                        ")])],1),_vm._v(" "),_c('div',{staticClass:"rt-space-bottom"},[_c('rt-checkbox',{attrs:{"name":"platform","value":"Mac"}},[_vm._v("\n                          > Mac\n                        ")])],1),_vm._v(" "),_c('div',{staticClass:"rt-space-bottom"},[_c('rt-checkbox',{attrs:{"name":"platform","value":"Linux"}},[_vm._v("\n                          > Linux\n                        ")])],1),_vm._v(" "),_c('div',{staticClass:"rt-space-bottom"},[_c('rt-checkbox',{attrs:{"name":"platform","value":"iOS"}},[_vm._v("\n                          > iOS\n                        ")])],1),_vm._v(" "),_c('div',{staticClass:"rt-space-bottom"},[_c('rt-checkbox',{attrs:{"name":"platform","value":"Android"}},[_vm._v("\n                          > Android\n                        ")])],1)])],1)],1)],1)],1)])],1)],1)])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("\n          Filter\n        ")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-col rt-space-vertical2"},[_c('h1',{staticClass:"rt-font-h3"},[_vm._v("\n            Защита в интернете от Ростелекома\n          ")])])}]
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Youtube.vue":
-/*!**********************************************************!*\
-  !*** ./src/example-pages/components/complex/Youtube.vue ***!
-  \**********************************************************/
+/***/ "./src/example-pages/components/complex/Filter.vue":
+/*!*********************************************************!*\
+  !*** ./src/example-pages/components/complex/Filter.vue ***!
+  \*********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Youtube_vue_vue_type_template_id_2d4ca230___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Youtube.vue?vue&type=template&id=2d4ca230& */ "./src/example-pages/components/complex/Youtube.vue?vue&type=template&id=2d4ca230&");
-/* harmony import */ var _Youtube_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Youtube.vue?vue&type=script&lang=js& */ "./src/example-pages/components/complex/Youtube.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Filter_vue_vue_type_template_id_5200fc55___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Filter.vue?vue&type=template&id=5200fc55& */ "./src/example-pages/components/complex/Filter.vue?vue&type=template&id=5200fc55&");
+/* harmony import */ var _Filter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Filter.vue?vue&type=script&lang=js& */ "./src/example-pages/components/complex/Filter.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -88,9 +2945,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Youtube_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Youtube_vue_vue_type_template_id_2d4ca230___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Youtube_vue_vue_type_template_id_2d4ca230___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Filter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Filter_vue_vue_type_template_id_5200fc55___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Filter_vue_vue_type_template_id_5200fc55___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -102,33 +2959,33 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Youtube.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************!*\
-  !*** ./src/example-pages/components/complex/Youtube.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************/
+/***/ "./src/example-pages/components/complex/Filter.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./src/example-pages/components/complex/Filter.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Youtube_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Youtube.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Youtube.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Youtube_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Filter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Filter.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Filter.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Filter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Youtube.vue?vue&type=template&id=2d4ca230&":
-/*!*****************************************************************************************!*\
-  !*** ./src/example-pages/components/complex/Youtube.vue?vue&type=template&id=2d4ca230& ***!
-  \*****************************************************************************************/
+/***/ "./src/example-pages/components/complex/Filter.vue?vue&type=template&id=5200fc55&":
+/*!****************************************************************************************!*\
+  !*** ./src/example-pages/components/complex/Filter.vue?vue&type=template&id=5200fc55& ***!
+  \****************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Youtube_vue_vue_type_template_id_2d4ca230___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Youtube.vue?vue&type=template&id=2d4ca230& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Youtube.vue?vue&type=template&id=2d4ca230&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Youtube_vue_vue_type_template_id_2d4ca230___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Filter_vue_vue_type_template_id_5200fc55___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Filter.vue?vue&type=template&id=5200fc55& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Filter.vue?vue&type=template&id=5200fc55&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Filter_vue_vue_type_template_id_5200fc55___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Youtube_vue_vue_type_template_id_2d4ca230___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Filter_vue_vue_type_template_id_5200fc55___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

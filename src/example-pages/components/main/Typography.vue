@@ -150,7 +150,7 @@
           <div class="rt-col-2 td-d-none">
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
-            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular Purple </h4>
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular link </h4>
 
           </div>
           <div class="rt-col-5 rt-td-col-5 rt-col-md-3">
@@ -160,6 +160,22 @@
             </div>
           </div>
         </div>
+        <div class="row rt-space-top15">
+          <div class="rt-col-2 td-d-none">
+          </div>
+          <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular link </h4>
+
+          </div>
+          <div class="rt-col-5 rt-td-col-5 rt-col-md-3">
+            <p class="rt-font-paragraph rt-link rt-link--orange">Ссылка на что-либо.</p>
+            <div class="rt-font-label">
+              <span class="rt-code">.rt-font-paragraph.rt-link.rt-link--orange</span>
+            </div>
+          </div>
+        </div>
+
+
 
 
         <div class="row rt-space-top5">
@@ -219,12 +235,25 @@
           <div class="rt-col-2 td-d-none">
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
-            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular Purple </h4>
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular link </h4>
           </div>
           <div class="rt-col-5 rt-col-td-5 rt-col-md-3">
             <p class="rt-font-small-paragraph rt-link rt-link--purple">Ссылка на что-либо.</p>
             <div class="rt-font-label">
               <span class="rt-code">.rt-font-small-paragraph.rt-link.rt-link--purple</span>
+            </div>
+          </div>
+        </div>
+      <div class="row rt-space-top15">
+          <div class="rt-col-2 td-d-none">
+          </div>
+          <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular link </h4>
+          </div>
+          <div class="rt-col-5 rt-col-td-5 rt-col-md-3">
+            <p class="rt-font-small-paragraph rt-link rt-link--orange">Ссылка на что-либо.</p>
+            <div class="rt-font-label">
+              <span class="rt-code">.rt-font-small-paragraph.rt-link.rt-link--orange</span>
             </div>
           </div>
         </div>
@@ -287,12 +316,25 @@
           <div class="rt-col-2 td-d-none">
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-col-md-3 rt-md-space-horizontal-none">
-            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular Purple </h4>
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular link </h4>
           </div>
           <div class="rt-col-5 rt-col-td-5 rt-col-md-3">
             <p class="rt-font-control rt-link rt-link--purple">Ссылка на что-либо.</p>
             <div class="rt-font-label">
               <span class="rt-code">.rt-font-control.rt-link.rt-link--purple</span>
+            </div>
+          </div>
+        </div>
+      <div class="row rt-space-top15">
+          <div class="rt-col-2 td-d-none">
+          </div>
+          <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-col-md-3 rt-md-space-horizontal-none">
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular link </h4>
+          </div>
+          <div class="rt-col-5 rt-col-td-5 rt-col-md-3">
+            <p class="rt-font-control rt-link rt-link--orange">Ссылка на что-либо.</p>
+            <div class="rt-font-label">
+              <span class="rt-code">.rt-font-control.rt-link.rt-link--orange</span>
             </div>
           </div>
         </div>
@@ -355,12 +397,25 @@
           <div class="rt-col-2 td-d-none">
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-col-md-3 rt-md-space-horizontal-none">
-            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular Purple </h4>
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular link </h4>
           </div>
           <div class="rt-col-5 rt-col-td-5 rt-col-md-3">
-            <p class="rt-font-label  rt-md-space-vertical-none rt-link">Ссылка на что-либо.</p>
+            <p class="rt-font-label  rt-md-space-vertical-none rt-link rt-link--purple">Ссылка на что-либо.</p>
             <div class="rt-font-label">
               <span class="rt-code">.rt-font-label.rt-link.rt-link--purple</span>
+            </div>
+          </div>
+        </div>
+        <div class="row rt-space-top15">
+          <div class="rt-col-2 td-d-none">
+          </div>
+          <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-col-md-3 rt-md-space-horizontal-none">
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular link </h4>
+          </div>
+          <div class="rt-col-5 rt-col-td-5 rt-col-md-3">
+            <p class="rt-font-label  rt-md-space-vertical-none rt-link rt-link--orange">Ссылка на что-либо.</p>
+            <div class="rt-font-label">
+              <span class="rt-code">.rt-font-label.rt-link.rt-link--orange</span>
             </div>
           </div>
         </div>
@@ -422,12 +477,25 @@
           <div class="rt-col-2 td-d-none">
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-col-md-3 rt-md-space-horizontal-none">
-            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular Purple </h4>
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular link </h4>
           </div>
           <div class="rt-col-5 rt-col-td-5 rt-col-md-3">
-            <p class="rt-font-label-uppercase  rt-md-space-vertical-none rt-link">Ссылка на что-либо.</p>
+            <p class="rt-font-label-uppercase  rt-md-space-vertical-none rt-link rt-link--purple">Ссылка на что-либо.</p>
             <div class="rt-font-label">
               <span class="rt-code">.tagline.rt-font-label-uppercase.rt-link.rt-link--purple</span>
+            </div>
+          </div>
+        </div>
+        <div class="row rt-space-top15">
+          <div class="rt-col-2 td-d-none">
+          </div>
+          <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-col-md-3 rt-md-space-horizontal-none">
+            <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">regular link </h4>
+          </div>
+          <div class="rt-col-5 rt-col-td-5 rt-col-md-3">
+            <p class="rt-font-label-uppercase  rt-md-space-vertical-none rt-link rt-link--orange">Ссылка на что-либо.</p>
+            <div class="rt-font-label">
+              <span class="rt-code">.tagline.rt-font-label-uppercase.rt-link.rt-link--orange</span>
             </div>
           </div>
         </div>

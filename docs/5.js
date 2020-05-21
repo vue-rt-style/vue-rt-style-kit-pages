@@ -1,29 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[5],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Carousels.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/Carousels.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_rt_style_kit_molecules_local_components_Carousel_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/Carousel/docs/index.json */ "./src/molecules/components/Carousel/docs/index.json");
-var _vue_rt_style_kit_molecules_local_components_Carousel_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-molecules-local/components/Carousel/docs/index.json */ "./src/molecules/components/Carousel/docs/index.json", 1);
-/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
-function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
-
-function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
-
-function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
 //
 //
 //
@@ -879,83 +864,599 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 //
 //
 //
-
-
-var defaultLoaderType = 'spinner';
-var skeletonLoader = {
-  type: 'skeleton',
-  count: 4,
-  rows: 2,
-  sub: 1
-};
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var componentsList = {};
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppCarousel",
-  components: _componentsList__WEBPACK_IMPORTED_MODULE_1__["default"],
-  data: function data() {
-    return {
-      slidesList: [],
-      loaderType: skeletonLoader,
-      documentation: _vue_rt_style_kit_molecules_local_components_Carousel_docs_index_json__WEBPACK_IMPORTED_MODULE_0__,
-      waitTime: this.getRandomNumberFromRange(3, 15) * 1000,
-      showSlideNmb: '0'
-    };
-  },
-  computed: {
-    configLoaderCount: {
-      get: function get() {
-        return this.loaderType !== defaultLoaderType ? this.loaderType.count : skeletonLoader.count;
-      },
-      set: function set(val) {
-        this.loaderType.count = +val;
-      }
-    },
-    configLoaderRows: {
-      get: function get() {
-        return this.loaderType !== defaultLoaderType ? this.loaderType.rows : skeletonLoader.rows;
-      },
-      set: function set(val) {
-        this.loaderType.rows = +val;
-      }
-    },
-    configLoaderSub: {
-      get: function get() {
-        return this.loaderType !== defaultLoaderType ? this.loaderType.sub : skeletonLoader.sub;
-      },
-      set: function set(val) {
-        this.loaderType.sub = +val;
-      }
-    }
-  },
-  created: function created() {
-    this.reCreate();
-  },
-  methods: {
-    reCreate: function reCreate() {
-      var _this = this;
-
-      this.slidesList = [];
-      setTimeout(function () {
-        _this.slidesList = _toConsumableArray(Array(_this.getRandomNumberFromRange(2, 17)).keys());
-      }, this.waitTime);
-    },
-    setLoaderType: function setLoaderType() {
-      this.loaderType = this.loaderType === defaultLoaderType ? skeletonLoader : defaultLoaderType;
-    },
-    goToSlide: function goToSlide() {
-      if (this.showSlideNmb) this.$refs.carouselEl.moveTo(this.showSlideNmb);
-    },
-    getRandomNumberFromRange: function getRandomNumberFromRange(min, max) {
-      return Math.round(Math.random() * (max - min) + min, 10);
-    }
-  }
+  name: "AppRadioButton",
+  components: componentsList,
+  mounted: function mounted() {},
+  created: function created() {},
+  methods: {}
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Carousels.vue?vue&type=template&id=428079bc&":
-/*!*************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/Carousels.vue?vue&type=template&id=428079bc& ***!
-  \*************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css&":
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "\n.rt-card-buy__info .flex-fill,\n.rt-card-buy__image {\n  min-height: 100%;\n}\n@media screen and (min-height: 600px) and (min-width: 800px) {\n.main-wrapper.basic .layout + .rtk-card__offers {\n    margin-top: 0 !important;\n}\n}\n.rt-font-light rt-price__value {\n  font-weight: 200;\n}\n.input-clear,\n.rt-close {\n  width: 16px;\n  height: 16px;\n  line-height: 21px;\n  vertical-align: middle;\n  text-align: center;\n}\n.rt-price__option-value {\n  height: 42px;\n  color: #000000e6;\n  font-size: 54px;\n  line-height: 47px;\n  font-weight: 400;\n}\n\n/* .connection {\n        padding-left: 10px;\n        padding-right: 10px;\n        position: relative;\n        -webkit-flex: 0 0 49.999998%;\n        -ms-flex: 0 0 49.999998%;\n        flex: 0 0 49.999998%;\n        max-width: 49.999998%;\n\n      } */\n.connection .connection__form > .rt-col-6 {\n  max-width: 100% !important;\n  padding-left: 0px;\n  padding-right: 0px;\n}\n@media (max-width: 768px) {\n.connection {\n    -webkit-box-flex: 1;\n    -moz-box-flex: 1;\n    -o-box-flex: 1;\n    box-flex: 1;\n    -webkit-flex: 0 0 99.999999%;\n    -ms-flex: 0 0 99.999999%;\n    flex: 0 0 99.999999%;\n    max-width: 99.999999%;\n}\n}\n.rt-card .rtk-input__control {\n  border-bottom-width: 1px;\n}\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d& ***!
+  \**********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -963,25 +1464,55 @@ var skeletonLoader = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._m(0),_vm._v(" "),_c('div',[_c('div',{staticClass:"rt-container is-b2c"},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"rt-col-12 rt-space-bottom3"},[_c('rt-tabs',{attrs:{"round-tablet-view":true}},[_c('template',{slot:"navigation"},[_c('rt-tabs-nav-item',{attrs:{"remove-base-tag":true,"name":"one"}},[_vm._v("Демо-карточки")]),_vm._v(" "),_c('rt-tabs-nav-item',{attrs:{"remove-base-tag":true,"name":"two"}},[_vm._v("С фоновым изображением")])],1),_vm._v(" "),_c('template',{slot:"content"},[_c('rt-tabs-content-item',{attrs:{"name":"one"}},[_c('rt-button',{on:{"click":_vm.setLoaderType}},[_vm._v("changeLoader")]),_vm._v(" "),(_vm.loaderType !== 'spinner')?[_vm._v("\n                  config:\n                  "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.configLoaderCount),expression:"configLoaderCount"}],staticClass:"d-inline-block",staticStyle:{"width":"20px"},attrs:{"title":"карточек (count)","type":"number"},domProps:{"value":(_vm.configLoaderCount)},on:{"input":function($event){if($event.target.composing){ return; }_vm.configLoaderCount=$event.target.value}}}),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.configLoaderRows),expression:"configLoaderRows"}],staticClass:"d-inline-block",staticStyle:{"width":"20px"},attrs:{"title":"строк (rows)","type":"number"},domProps:{"value":(_vm.configLoaderRows)},on:{"input":function($event){if($event.target.composing){ return; }_vm.configLoaderRows=$event.target.value}}}),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.configLoaderSub),expression:"configLoaderSub"}],staticClass:"d-inline-block",staticStyle:{"width":"20px"},attrs:{"title":"подстрок (sub)","type":"number"},domProps:{"value":(_vm.configLoaderSub)},on:{"input":function($event){if($event.target.composing){ return; }_vm.configLoaderSub=$event.target.value}}})]:_vm._e(),_vm._v("\n                 waitTime: "+_vm._s(_vm.waitTime / 1000)+"s\n                "),_c('rt-button',{on:{"click":_vm.reCreate}},[_vm._v("reCreate list")]),_vm._v("\n                "+_vm._s(_vm.slidesList)+"\n                "),_c('div',{staticClass:"area"},[_c('rt-carousel',{attrs:{"debug":true,"loader":_vm.loaderType,"loaded":_vm.slidesList.length > 0}},_vm._l((_vm.slidesList),function(i){return _c('rt-carousel-slide',{key:i},[_c('div',{staticStyle:{"align-content":"center","border-radius":"8px","border":"2px solid","display":"flex","flex-flow":"wrap","font-size":"150px","justify-content":"center","height":"450px"},style:(("border-color: rgb(" + (177-i*0.6) + "," + (255/10+i) + "," + (i*15) + ");")),domProps:{"textContent":_vm._s(i)}})])}),1)],1)],2),_vm._v(" "),_c('rt-tabs-content-item',{attrs:{"name":"two"}},[_c('div',{staticClass:"area"},[_c('rt-carousel',{attrs:{"navs-pos-end":144}},_vm._l((15),function(i){return _c('rt-carousel-slide',{key:i},[_c('div',{staticStyle:{"background-size":"cover","border-radius":"8px","height":"300px","position":"relative"},style:(("background: url(https://picsum.photos/300/300?getForId=" + i + ")"))},[_c('div',{staticStyle:{"background-color":"black","color":"white","position":"absolute","bottom":"0","right":"0","padding":"0 10px"},domProps:{"textContent":_vm._s(i)}})])])}),1)],1)])],1)],2)],1)])]),_vm._v(" "),_c('div',[_c('pre-code',{attrs:{"text":"\n      <rt-carousel :hide-arrows=\"true\" slides-classes=\"rt-col-4 rt-col-md-2 rt-col-td-3\">\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <img width=\"175px\" class=\"rt-card__headeremitSelectedData__image\" src=\"/static/images/homeinternet/homeinternet-image18.jpg\" />\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Kaspersky Internet Security 4</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Одна лицензия на&nbsp;все&nbsp;«детские» Android-устройства</p>\n            </template>\n            <template slot=\"bottom-list\">\n              <div class=\"rt-card-list rt-space-bottom2\">\n                  <div class=\"rt-card-list__item\">\n                    <div class=\"rt-card-list__icon\">\n                      <img src=\"/static/images/medium-icon.svg\" />\n                    </div>\n                    <div class=\"rt-card-list__name\">\n                      <p class=\"rt-font-small-paragraph color-main05\">Защищает 2 устройства одновременно</p>\n                    </div>\n                  </div>\n                  <div class=\"rt-card-list__item\">\n                    <div class=\"rt-card-list__icon\">\n                      <div class=\"rt-space-left15\">\n                        <img src=\"/static/images/small-icon.svg\" />\n                      </div>\n                    </div>\n                    <div class=\"rt-card-list__name\">\n                      <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                    </div>\n                  </div>\n                  <div class=\"rt-card-list__item\">\n                    <div class=\"rt-card-list__icon\">\n                      <div class=\"rt-space-left15\">\n                        <img src=\"/static/images/small-icon.svg\" />\n                      </div>\n                    </div>\n                    <div class=\"rt-card-list__name\">\n                      <p class=\"rt-font-small-paragraph color-main05\">Контроль интернет-сайтов</p>\n                    </div>\n                  </div>\n                  <div class=\"rt-card-list__item\">\n                    <div class=\"rt-card-list__icon\">\n                      <div class=\"rt-space-left15\">\n                        <img src=\"/static/images/small-icon.svg\" />\n                      </div>\n                    </div>\n                    <div class=\"rt-card-list__name\">\n                      <p class=\"rt-font-small-paragraph color-main05\">Игровой формат и&nbsp;простые настройки</p>\n                    </div>\n                  </div>\n                  <div class=\"rt-card-list__item\">\n                    <div class=\"rt-card-list__icon\">\n                      <div class=\"rt-space-left15\">\n                        <img src=\"/static/images/small-icon.svg\" />\n                      </div>\n                    </div>\n                    <div class=\"rt-card-list__name\">\n                      <p class=\"rt-font-small-paragraph color-main05\">Определение местоположения</p>\n                    </div>\n                  </div>\n                  <div class=\"rt-card-list__item\">\n                    <div class=\"rt-card-list__icon\">\n                      <div class=\"rt-space-left15\">\n                        <img src=\"/static/images/small-icon.svg\" />\n                      </div>\n                    </div>\n                    <div class=\"rt-card-list__name\">\n                      <p class=\"rt-font-small-paragraph color-main05\">Сообщения ребенку</p>\n                    </div>\n                  </div>\n                  <div class=\"rt-card-list__item\">\n                    <div class=\"rt-card-list__icon\">\n                      <div class=\"rt-space-left15\">\n                        <img src=\"/static/images/small-icon.svg\" />\n                      </div>\n                    </div>\n                    <div class=\"rt-card-list__name\">\n                      <p class=\"rt-font-small-paragraph color-main05\">Контроль приложений и&nbsp;времени</p>\n                    </div>\n                  </div>\n              </div>\n            </template>\n\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"1600\" :old-value=\"1800\" time-interval=\"год.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <rt-logo height=\"70\"></rt-logo>\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Предложение из прод каталога 1</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Краткое описание из продуктового каталога</p>\n              <p>&nbsp;</p>\n              <div class=\"rt-card-list__item\">\n                <div class=\"rt-card-list__icon\">\n                  <div class=\"rt-space-left15\">\n                    <img src=\"/static/images/small-icon.svg\" />\n                  </div>\n                </div>\n                <div class=\"rt-card-list__name\">\n                  <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                </div>\n              </div>\n              <p>&nbsp;</p>\n            </template>\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"1000\" :old-value=\"1800\" time-interval=\"мес.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <rt-logo height=\"70\"></rt-logo>\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Предложение из прод каталога 2</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Краткое описание из продуктового каталога</p>\n              <p>&nbsp;</p>\n              <div class=\"rt-card-list__item\">\n                <div class=\"rt-card-list__icon\">\n                  <div class=\"rt-space-left15\">\n                    <img src=\"/static/images/small-icon.svg\" />\n                  </div>\n                </div>\n                <div class=\"rt-card-list__name\">\n                  <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                </div>\n              </div>\n              <p>&nbsp;</p>\n            </template>\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"1000\" :old-value=\"1800\" time-interval=\"мес.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <rt-logo height=\"70\"></rt-logo>\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Предложение из прод каталога 3</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Краткое описание из продуктового каталога</p>\n              <p>&nbsp;</p>\n              <div class=\"rt-card-list__item\">\n                <div class=\"rt-card-list__icon\">\n                  <div class=\"rt-space-left15\">\n                    <img src=\"/static/images/small-icon.svg\" />\n                  </div>\n                </div>\n                <div class=\"rt-card-list__name\">\n                  <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                </div>\n              </div>\n              <p>&nbsp;</p>\n            </template>\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"700\" time-interval=\"мес.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <rt-logo height=\"70\"></rt-logo>\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Предложение из прод каталога 4</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Краткое описание из продуктового каталога</p>\n              <p>&nbsp;</p>\n              <div class=\"rt-card-list__item\">\n                <div class=\"rt-card-list__icon\">\n                  <div class=\"rt-space-left15\">\n                    <img src=\"/static/images/small-icon.svg\" />\n                  </div>\n                </div>\n                <div class=\"rt-card-list__name\">\n                  <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                </div>\n              </div>\n              <p>&nbsp;</p>\n            </template>\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"450\" time-interval=\"мес.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <rt-logo height=\"70\"></rt-logo>\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Предложение из прод каталога 5</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Краткое описание из продуктового каталога</p>\n              <p>&nbsp;</p>\n              <div class=\"rt-card-list__item\">\n                <div class=\"rt-card-list__icon\">\n                  <div class=\"rt-space-left15\">\n                    <img src=\"/static/images/small-icon.svg\" />\n                  </div>\n                </div>\n                <div class=\"rt-card-list__name\">\n                  <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                </div>\n              </div>\n              <p>&nbsp;</p>\n            </template>\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"300\" time-interval=\"мес.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <rt-logo height=\"70\"></rt-logo>\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Предложение из прод каталога 6</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Краткое описание из продуктового каталога</p>\n              <p>&nbsp;</p>\n              <div class=\"rt-card-list__item\">\n                <div class=\"rt-card-list__icon\">\n                  <div class=\"rt-space-left15\">\n                    <img src=\"/static/images/small-icon.svg\" />\n                  </div>\n                </div>\n                <div class=\"rt-card-list__name\">\n                  <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                </div>\n              </div>\n              <p>&nbsp;</p>\n            </template>\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"650\" time-interval=\"мес.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <rt-logo height=\"70\"></rt-logo>\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Предложение из прод каталога 7</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Краткое описание из продуктового каталога</p>\n              <p>&nbsp;</p>\n              <div class=\"rt-card-list__item\">\n                <div class=\"rt-card-list__icon\">\n                  <div class=\"rt-space-left15\">\n                    <img src=\"/static/images/small-icon.svg\" />\n                  </div>\n                </div>\n                <div class=\"rt-card-list__name\">\n                  <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                </div>\n              </div>\n              <p>&nbsp;</p>\n            </template>\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"777\" time-interval=\"мес.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n      </rt-carousel>\n    </div>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top5"},[_c('pre-code',{attrs:{"text":"\n      <rt-carousel slides-classes=\"rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c\">\n        <rt-carousel-slide>\n          <rt-card-image\n            :is-white-color=\"true\"\n            :col-size=\"2\"\n            background-color-type=\"light-blue\"\n            card-image=\"/static/images/cardImage1.jpg\"\n          >\n            <template slot=\"body\">\n              <p class=\"rt-font-paragraph rt-font-bold\">\n                Headstone\n              </p>\n              <p class=\"rt-font-label-uppercase rt-space-vertical05\">\n                игровой интернет\n              </p>\n              <p>Получай подарки в лучших играх Headstone!</p>\n            </template>\n          </rt-card-image>\n        </rt-carousel-slide>\n        <rt-carousel-slide>\n          <rt-card-image\n            :is-white-color=\"true\"\n            :col-size=\"2\"\n            background-color-type=\"light-blue\"\n            card-image=\"/static/images/cardImage2.jpg\"\n          >\n            <template slot=\"body\">\n              <p class=\"rt-font-paragraph rt-font-bold\">\n                Headstone\n              </p>\n              <p class=\"rt-font-label-uppercase rt-space-vertical05\">\n                игровой интернет\n              </p>\n              <p>Получай подарки в лучших играх Headstone!</p>\n            </template>\n          </rt-card-image>\n        </rt-carousel-slide>\n        <rt-carousel-slide>\n          <rt-card-image\n            :is-white-color=\"true\"\n            :col-size=\"2\"\n            background-color-type=\"light-blue\"\n            card-image=\"/static/images/cardImage3.jpg\"\n          >\n            <template slot=\"body\">\n              <p class=\"rt-font-paragraph rt-font-bold\">\n                Headstone\n              </p>\n              <p class=\"rt-font-label-uppercase rt-space-vertical05\">\n                игровой интернет\n              </p>\n              <p>Получай подарки в лучших играх Headstone!</p>\n            </template>\n          </rt-card-image>\n        </rt-carousel-slide>\n        <rt-carousel-slide :loaded=\"false\">\n          <rt-card-image\n            :is-white-color=\"true\"\n            :col-size=\"2\"\n            background-color-type=\"light-blue\"\n            card-image=\"/static/images/cardImage1.jpg\"\n          >\n            <template slot=\"body\">\n              <p class=\"rt-font-paragraph rt-font-bold\">\n                Headstone (not-loaded demo)\n              </p>\n              <p class=\"rt-font-label-uppercase rt-space-vertical05\">\n                игровой интернет\n              </p>\n              <p>Получай подарки в лучших играх Headstone!</p>\n            </template>\n          </rt-card-image>\n        </rt-carousel-slide>\n        <rt-carousel-slide>\n          <rt-card-image\n            :is-white-color=\"true\"\n            :col-size=\"2\"\n            background-color-type=\"light-blue\"\n            card-image=\"/static/images/cardImage2.jpg\"\n          >\n            <template slot=\"body\">\n              <p class=\"rt-font-paragraph rt-font-bold\">\n                Headstone\n              </p>\n              <p class=\"rt-font-label-uppercase rt-space-vertical05\">\n                игровой интернет\n              </p>\n              <p>Получай подарки в лучших играх Headstone!</p>\n            </template>\n          </rt-card-image>\n        </rt-carousel-slide>\n      </rt-carousel>\n    </div>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top5"},[_c('pre-code',{attrs:{"text":"\n      <rt-carousel>\n        <rt-carousel-slide slide-classes=\"rt-col-4 in-plus-card higher-z\">\n          <rt-card\n            :equal-padding=\"true\"\n            :has-discount=\"true\"\n            :discount-lines=\"1\"\n            :is-b2b-package=\"true\">\n            <template slot=\"header\">\n              <h3 class=\"rt-space-bottom rt-font-bold\">\n                Пакет S\n              </h3>\n            </template>\n            <template slot=\"content\">\n              <div class=\"rtb-card__section\">\n                <p class=\"tagline color-main03 rt-space-bottom05\">\n                  Интернет\n                </p>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    10 Мбит/с\n                  </p>\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    по проводу или мобильный\n                  </p>\n                </div>\n              </div>\n              <div class=\"rtb-card__section\">\n                <p class=\"tagline color-main03 rt-space-bottom05\">\n                  Мобильная связь\n                </p>\n                <div class=\"rtb-card__description__row\">\n                  <span class=\"rt-font-paragraph rt-font-bold\">1 сим-карта</span>\n                  <rt-hint :simple-tool-tip=\"true\">\n                    <slot>\n                      Это всё что угодно,<br >но не адрес электронной почты\n                      Это всё что угодно,<br >но не адрес электронной почты\n                      Это всё что угодно,<br >но не адрес электронной почты\n                    </slot>\n                  </rt-hint>\n                </div>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    300 минут\n                  </p>\n                  <p class=\"rt-font-small-paragraph color-main025\">\n                    на номера домашнего региона\n                  </p>\n                </div>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    3 Гб\n                  </p>\n                  <p class=\"rt-font-small-paragraph color-main025\">\n                    интернета по России\n                  </p>\n                </div>\n                <div class=\"rtb-card__description__row\">\n\n                </div>\n                <div class=\"rtb-card__description__row rt-space-top05\">\n                  <a href=\"#\" class=\"rt-font-control rt-link rt-link--purple\">Условия тарифа «Вызов 250»</a>\n                </div>\n              </div>\n            </template>\n            <template slot=\"footer\">\n              <div class=\"rt-space-bottom\" />\n              <div class=\"rtb-card__cost\">\n                <rt-price\n                  :value=\"2500\"\n                  :is-option=\"false\"\n                  currency=\"₽\"\n                  :b2b-price=\"true\"\n                  time-interval=\"в месяц\"/>\n              </div>\n              <div class=\"rtb-card__description__row\">\n                <p class=\"rt-font-small-paragraph color-main025\">\n                  Цена за услуги вне пакета\n                  <rt-price\n                    :value=\"6000\"\n                    :is-option=\"false\"\n                    currency=\"₽\"\n                    :b2b-price=\"true\"\n                    time-interval=\"\"\n                    :darkened=\"true\"/>\n                </p>\n              </div>\n              <a href=\"#\">\n                <button class=\"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05\">\n                  Выбрать\n                </button>\n              </a>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n        <rt-carousel-slide slide-classes=\"rt-col-4 in-plus-card higher-z\">\n          <rt-card\n            :equal-padding=\"true\"\n            :has-discount=\"true\"\n            :discount-lines=\"2\"\n            :is-b2b-package=\"true\">\n            <template slot=\"header\">\n              <h3 class=\"rt-space-bottom rt-font-bold\">\n                Пакет S\n              </h3>\n            </template>\n            <template slot=\"content\">\n              <div class=\"rtb-card__section\">\n                <p class=\"tagline color-main03 rt-space-bottom05\">\n                  Интернет\n                </p>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    10 Мбит/с\n                  </p>\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    по проводу или мобильный\n                  </p>\n                </div>\n              </div>\n              <div class=\"rtb-card__section\">\n                <p class=\"tagline color-main03 rt-space-bottom05\">\n                  Мобильная связь\n                </p>\n                <div class=\"rtb-card__description__row\">\n                  <span class=\"rt-font-paragraph rt-font-bold\">1 сим-карта</span>\n                  <rt-hint :simple-tool-tip=\"true\">\n                    <slot>\n                      Это всё что угодно,<br >но не адрес электронной почты\n                      Это всё что угодно,<br >но не адрес электронной почты\n                      Это всё что угодно,<br >но не адрес электронной почты\n                    </slot>\n                  </rt-hint>\n                </div>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    300 минут\n                  </p>\n                  <p class=\"rt-font-small-paragraph color-main025\">\n                    на номера домашнего региона\n                  </p>\n                </div>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    3 Гб\n                  </p>\n                  <p class=\"rt-font-small-paragraph color-main025\">\n                    интернета по России\n                  </p>\n                </div>\n                <div class=\"rtb-card__description__row\">\n\n                </div>\n                <div class=\"rtb-card__description__row rt-space-top05\">\n                  <a href=\"#\" class=\"rt-font-control rt-link rt-link--purple\">Условия тарифа «Вызов 250»</a>\n                </div>\n              </div>\n            </template>\n            <template slot=\"footer\">\n              <div class=\"rt-space-bottom\" />\n              <div class=\"rtb-card__cost\">\n                <rt-price\n                  :value=\"2500\"\n                  :is-option=\"false\"\n                  currency=\"₽\"\n                  :b2b-price=\"true\"\n                  time-interval=\"в месяц\"/>\n              </div>\n              <div class=\"rtb-card__description__row\">\n                <p class=\"rt-font-small-paragraph color-main025\">\n                  Цена за услуги вне пакета\n                  <rt-price\n                    :value=\"6000\"\n                    :is-option=\"false\"\n                    currency=\"₽\"\n                    :b2b-price=\"true\"\n                    time-interval=\"\"\n                    :darkened=\"true\"/>\n                </p>\n              </div>\n              <a href=\"#\">\n                <button class=\"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05\">\n                  Выбрать\n                </button>\n              </a>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n        <rt-carousel-slide slide-classes=\"rt-col-4 in-plus-card higher-z\">\n          <rt-card\n            :equal-padding=\"true\"\n            :has-discount=\"true\"\n            :discount-lines=\"3\"\n            :is-b2b-package=\"true\">\n            <template slot=\"header\">\n              <h3 class=\"rt-space-bottom rt-font-bold\">\n                Пакет S\n              </h3>\n            </template>\n            <template slot=\"content\">\n              <div class=\"rtb-card__section\">\n                <p class=\"tagline color-main03 rt-space-bottom05\">\n                  Интернет\n                </p>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    10 Мбит/с\n                  </p>\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    по проводу или мобильный\n                  </p>\n                </div>\n              </div>\n              <div class=\"rtb-card__section\">\n                <p class=\"tagline color-main03 rt-space-bottom05\">\n                  Мобильная связь\n                </p>\n                <div class=\"rtb-card__description__row\">\n                  <span class=\"rt-font-paragraph rt-font-bold\">1 сим-карта</span>\n                  <rt-hint :simple-tool-tip=\"true\">\n                    <slot>\n                      Это всё что угодно,<br >но не адрес электронной почты\n                      Это всё что угодно,<br >но не адрес электронной почты\n                      Это всё что угодно,<br >но не адрес электронной почты\n                    </slot>\n                  </rt-hint>\n                </div>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    300 минут\n                  </p>\n                  <p class=\"rt-font-small-paragraph color-main025\">\n                    на номера домашнего региона\n                  </p>\n                </div>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    3 Гб\n                  </p>\n                  <p class=\"rt-font-small-paragraph color-main025\">\n                    интернета по России\n                  </p>\n                </div>\n                <div class=\"rtb-card__description__row\">\n\n                </div>\n                <div class=\"rtb-card__description__row rt-space-top05\">\n                  <a href=\"#\" class=\"rt-font-control rt-link rt-link--purple\">Условия тарифа «Вызов 250»</a>\n                </div>\n              </div>\n            </template>\n            <template slot=\"footer\">\n              <div class=\"rt-space-bottom\" />\n              <div class=\"rtb-card__cost\">\n                <rt-price\n                  :value=\"2500\"\n                  :is-option=\"false\"\n                  currency=\"₽\"\n                  :b2b-price=\"true\"\n                  time-interval=\"в месяц\"/>\n              </div>\n              <div class=\"rtb-card__description__row\">\n                <p class=\"rt-font-small-paragraph color-main025\">\n                  Цена за услуги вне пакета\n                  <rt-price\n                    :value=\"6000\"\n                    :is-option=\"false\"\n                    currency=\"₽\"\n                    :b2b-price=\"true\"\n                    time-interval=\"\"\n                    :darkened=\"true\"/>\n                </p>\n              </div>\n              <a href=\"#\">\n                <button class=\"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05\">\n                  Выбрать\n                </button>\n              </a>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n      </rt-carousel>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top5 is-b2c"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col-3 rt-space-bottom2"},[_c('rt-input',{attrs:{"insert-type":"number","label":"Перейти к слайду"},on:{"change":_vm.goToSlide},model:{value:(_vm.showSlideNmb),callback:function ($$v) {_vm.showSlideNmb=$$v},expression:"showSlideNmb"}})],1)]),_vm._v(" "),_c('rt-carousel',{ref:"carouselEl",attrs:{"debug":true,"scroll-on-click":true}},_vm._l((17),function(i){return _c('rt-carousel-slide',{key:i},[_c('div',{staticClass:"rt-space-horizontal05"},[_c('h2',[_vm._v("Слайд "+_vm._s(i - 1))]),_vm._v(" "),_c('rt-row-list',_vm._l((3),function(ir){return _c('rt-row-list-item',{key:ir},[_c('template',{slot:"option"},[_c('div',{staticClass:"d-flex flex-row"},[_c('div',[_c('p',[_vm._v("Антивирус")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("Kaspersky Internet Security, месяц в подарок")])])])])],2)}),1),_vm._v(" "),_c('rt-price',{staticClass:"rt-space-vertical",attrs:{"time-interval":"мес","is-option":"","value":i * 1000}}),_vm._v(" "),_c('rt-button',{staticClass:"rt-button-orange",attrs:{"value":"Подключить"}},[_vm._v("Подключить")])],1)])}),1)],1),_vm._v(" "),_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("Carousel 3.0")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-col-12 rt-col-md-3"},[_c('h3',[_vm._v("Carousel in Tabs")])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:" is-b2c"},[_c('div',{staticClass:"wc-inline"},[_c('rt-banner',{staticClass:"rt-banner--fill-height",attrs:{"is-fullscreen-image":true,"content-min-height":"500px","content-height":"40vh"}},[_c('rt-banner-item',{attrs:{"background-image":"https://www.moscow.rt.ru/sites/default/files/img/videocontrol-2.png","content-min-height":"500px","content-height":"40vh"}},[_c('div',{staticClass:"rt-md-space-right2"},[_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-space-vertical"},[_c('rt-color-line-text',[_c('template',{slot:"label"},[_vm._v("\n                    Будьте спокойны за своих близких\n")]),_c('template',{slot:"content"},[_vm._v("\n                    с услугой видеонаблюдение\n                  ")])],2)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 rt-md-space-top color-white"},[_c('rt-button',{staticClass:"rt-button-orange"},[_vm._v("\n                Купить\n              ")])],1)])]),_vm._v(" "),_c('rt-banner-item',{attrs:{"background-image":"https://www.moscow.rt.ru/sites/default/files/img/videocontrol-1.png","content-min-height":"500px","content-height":"40vh"}},[_c('div',{staticClass:"rt-md-space-right2"},[_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-space-vertical"},[_c('rt-color-line-text',[_c('template',{slot:"label"},[_vm._v("\n                    Будьте спокойны за своих близких\n")]),_c('template',{slot:"content"},[_vm._v("\n                    с услугой видеонаблюдение\n                  ")])],2)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 rt-md-space-top color-white"},[_c('rt-button',{staticClass:"rt-button-orange"},[_vm._v("\n                Купить\n              ")])],1)])]),_vm._v(" "),_c('rt-banner-item',{attrs:{"background-image":"https://www.moscow.rt.ru/sites/default/files/img/videocontrol-3.png","content-min-height":"500px","content-height":"40vh"}},[_c('div',{staticClass:"rt-md-space-right2"},[_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-space-vertical"},[_c('rt-color-line-text',[_c('template',{slot:"label"},[_vm._v("\n                    Будьте спокойны за своих близких\n")]),_c('template',{slot:"content"},[_vm._v("\n                    с услугой видеонаблюдение\n                  ")])],2)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 rt-md-space-top color-white"},[_c('rt-button',{staticClass:"rt-button-orange"},[_vm._v("\n                Купить\n              ")])],1)])])],1),_vm._v(" "),_vm._m(0),_vm._v(" "),_vm._m(1)],1),_vm._v(" "),_vm._m(2),_vm._v(" "),_vm._m(3),_vm._v(" "),_c('div',{staticClass:"color-block--white"},[_c('div',{staticClass:"rt-container"},[_vm._m(4),_vm._v(" "),_c('div',{staticClass:"row rt-space-vertical25"},[_c('div',{staticClass:"rt-col-6 rt-col-td-3 rt-col-md-3"},[_c('div',{staticClass:"wc-inline"},[_c('order-form',{attrs:{"scope":"form-1","offer-id":[
+                  {
+                    offerIds: [382403088590, 370113313190, 373158964290],
+                    regionIds: [3245107, 2231584, 2451058]
+                  },
+                  {
+                    offerIds: [379103003390, 385514593990],
+                    regionIds: [3092903]
+                  }
+                ],"ga":{
+                  offerCategory: 'Умный дом',
+                  offerName: 'Видеонаблюдение в подарок на 24 месяца',
+                  positionCard: 1,
+                  price: 300
+                }}},[_c('rt-card-buy',[_c('template',{slot:"content"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-4 rt-col-md-3 flex-column\n                                          d-flex d-md-block"},[_c('div',{staticClass:"rt-space-left\n                                              rt-md-space-horizontal rt-md-space-top\n                                              flex-fill d-flex"},[_c('div',{staticClass:"rt-card-buy__image\n                                                  flex-fill",staticStyle:{"background-image":"url(/sites/default/files/img/videocamera.png)"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-col-8 rt-space-vertical\n                                          rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-right\n                                              rt-md-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph\n                                                  rt-font-bold"},[_vm._v("\n                            Видеокамера в рассрочку и услуга «Видеонаблюдение» в\n                            подарок на 24 месяца\n                          ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top\n                                                  color-main05"},[_vm._v("\n                            При покупке камеры до 31.12.2018\n                          ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('div',{staticClass:"d-flex"},[_c('div',[_c('svg',{staticStyle:{"border-radius":"50%"},attrs:{"width":"56px","height":"56px","viewBox":"0\n                                                              0 56 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-952.000000,\n                                                                      -1981.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000,\n                                                                          0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000,\n                                                                              1839.000000)"}},[_c('g',{attrs:{"id":"Group-13","transform":"translate(242.000000,\n                                                                                  142.000000)"}},[_c('g',{attrs:{"id":"Fill-170"}},[_c('path',{attrs:{"d":"M56,27.6113\n                                                                                          C56,42.7993\n                                                                                          43.4631273,55.1113\n                                                                                          28,55.1113\n                                                                                          C12.5358545,55.1113\n                                                                                          0,42.7993\n                                                                                          0,27.6113\n                                                                                          C0,12.4233\n                                                                                          12.5358545,0.1113\n                                                                                          28,0.1113\n                                                                                          C43.4631273,0.1113\n                                                                                          56,12.4233\n                                                                                          56,27.6113","fill":"#00C8F9","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-180","d":"M41.5679855,24.8671\n                                                                                          C41.5679855,32.2621\n                                                                                          35.4548218,38.1931\n                                                                                          27.9996945,38.1931\n                                                                                          C26.7992582,38.1931\n                                                                                          25.6364945,38.0401\n                                                                                          24.5297309,37.7531\n                                                                                          C23.6337309,37.5211\n                                                                                          22.7754036,37.2021\n                                                                                          21.9639127,36.8051\n                                                                                          C17.4890036,34.6171\n                                                                                          14.4324218,30.0761\n                                                                                          14.4324218,24.8671\n                                                                                          C14.4324218,17.4721\n                                                                                          20.47024,11.4681\n                                                                                          27.9996945,11.4681\n                                                                                          C35.5291491,11.4681\n                                                                                          41.5679855,17.4721\n                                                                                          41.5679855,24.8671","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-181","d":"M28,38.1928\n                                                                                          C35.4928,38.1928\n                                                                                          41.5682909,32.2268\n                                                                                          41.5682909,24.8668\n                                                                                          C41.5682909,17.5078\n                                                                                          35.4928,11.5418\n                                                                                          28,11.5418\n                                                                                          C20.5072,11.5418\n                                                                                          14.4317091,17.5078\n                                                                                          14.4317091,24.8668\n                                                                                          C14.4317091,29.5638\n                                                                                          16.9058909,33.6928\n                                                                                          20.6436364,36.0668","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-182","d":"M35.6039855,35.8495\n                                                                                          L37.5415855,39.8035\n                                                                                          C37.8399127,40.3155\n                                                                                          37.9895855,40.9745\n                                                                                          37.9152582,41.5605\n                                                                                          C37.7655855,43.2445\n                                                                                          36.1996218,44.5625\n                                                                                          34.4860218,44.4155\n                                                                                          L21.66304,44.4155\n                                                                                          C20.9920582,44.4895\n                                                                                          20.3954036,44.3425\n                                                                                          19.7997673,43.9765\n                                                                                          C18.3091491,43.0245\n                                                                                          17.8611491,41.1945\n                                                                                          18.7561309,39.7295\n                                                                                          L20.6194036,36.0695","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-183","d":"M34.0384291,27.2099\n                                                                                          C34.0384291,30.5049\n                                                                                          31.3545018,33.1409\n                                                                                          27.9995927,33.1409\n                                                                                          C24.6446836,33.1409\n                                                                                          21.9617745,30.5049\n                                                                                          21.9617745,27.2099\n                                                                                          C21.9617745,23.9159\n                                                                                          24.6446836,21.2799\n                                                                                          27.9995927,21.2799\n                                                                                          C31.3545018,21.2799\n                                                                                          34.0384291,23.9159\n                                                                                          34.0384291,27.2099","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Fill-184","d":"M28.2236945,17.9115\n                                                                                          C27.5527127,17.9115\n                                                                                          27.0314036,17.3985\n                                                                                          27.0314036,16.7405\n                                                                                          C27.0314036,16.0805\n                                                                                          27.5527127,15.5685\n                                                                                          28.2236945,15.5685\n                                                                                          C28.8946764,15.5685\n                                                                                          29.4159855,16.0805\n                                                                                          29.4159855,16.7405\n                                                                                          C29.4159855,17.3255\n                                                                                          28.8946764,17.9115\n                                                                                          28.2236945,17.9115","fill":"#FFFFFF","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-185","d":"M28,29.0405\n                                                                                          C29.0293818,29.0405\n                                                                                          29.8642909,28.2215\n                                                                                          29.8642909,27.2095\n                                                                                          C29.8642909,26.1995\n                                                                                          29.0293818,25.3795\n                                                                                          28,25.3795\n                                                                                          C26.9706182,25.3795\n                                                                                          26.1357091,26.1995\n                                                                                          26.1357091,27.2095\n                                                                                          C26.1357091,28.2215\n                                                                                          26.9706182,29.0405\n                                                                                          28,29.0405\n                                                                                          Z","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Видеокамера")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                                  Камера внутреннего видеонаблюдения\n                                ")])])]),_vm._v(" "),_c('div',{staticClass:"d-flex rt-space-top"},[_c('div',[_c('svg',{staticStyle:{"border-radius":"50%"},attrs:{"width":"55px","height":"56px","viewBox":"0\n                                                              0 55 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('defs',[_c('linearGradient',{attrs:{"id":"linearGradient-1","x1":"87.1217447%","y1":"0%","x2":"7.61205979%","y2":"100%"}},[_c('stop',{attrs:{"stop-color":"#00BFFE","offset":"0%"}}),_vm._v(" "),_c('stop',{attrs:{"stop-color":"#4DECFF","offset":"100%"}})],1)],1),_vm._v(" "),_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-953.000000,\n                                                                      -2064.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000,\n                                                                          0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000,\n                                                                              1839.000000)"}},[_c('g',{attrs:{"id":"Group-14","transform":"translate(243.000000,\n                                                                                  224.000000)"}},[_c('g',{attrs:{"id":"Clip-301","transform":"translate(0.000000,\n                                                                                      1.000000)"}},[_c('path',{attrs:{"d":"M0,27.644\n                                                                                          C0,42.832\n                                                                                          12.313,55.143\n                                                                                          27.5,55.143\n                                                                                          C42.688,55.143\n                                                                                          55,42.832\n                                                                                          55,27.644\n                                                                                          C55,12.456\n                                                                                          42.688,0.143\n                                                                                          27.5,0.143\n                                                                                          C12.313,0.143\n                                                                                          0,12.456\n                                                                                          0,27.644","fill":"url(#linearGradient-1)","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-314","d":"M17.1025,36.4804\n                                                                                          L15.7765,36.4804\n                                                                                          C13.1945,36.4804\n                                                                                          11.1005,34.1074\n                                                                                          11.1005,31.2464\n                                                                                          C11.0305,28.9434\n                                                                                          12.4965,26.7794\n                                                                                          14.7295,26.0824\n                                                                                          C14.6605,25.5924\n                                                                                          14.6605,25.1044\n                                                                                          14.6605,24.6164\n                                                                                          C14.6605,19.5214\n                                                                                          18.3585,15.4034\n                                                                                          22.8945,15.4034\n                                                                                          C26.5935,15.4034\n                                                                                          29.7345,18.1264\n                                                                                          30.7115,21.9634\n                                                                                          C31.6185,21.1264\n                                                                                          32.8055,20.7084\n                                                                                          33.9915,20.7084\n                                                                                          C36.7135,20.7084\n                                                                                          38.9465,23.0104\n                                                                                          39.2255,25.9424\n                                                                                          C41.8085,25.9424\n                                                                                          43.9015,28.3144\n                                                                                          43.9015,31.1754\n                                                                                          C43.9015,34.0374\n                                                                                          41.8085,36.4104\n                                                                                          39.2255,36.4104\n                                                                                          L37.6205,36.4104","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-316","d":"M22.9648,36.4101\n                                                                                          L31.6188,36.4101","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-318","d":"M27.292,35.7822\n                                                                                          L27.292,24.7562","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('polyline',{attrs:{"id":"Stroke-320","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round","points":"22.9648\n                                                                                          29.082\n                                                                                          27.2918\n                                                                                          24.756\n                                                                                          31.6188\n                                                                                          29.082"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Облачное хранение")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                                  Услуга «Видеонаблюдение» включает 7 дней\n                                  хранения видеозаписей в облаке\n                                ")])])])]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07"},[_vm._v("\n                            Увеличить срок хранения видеозаписей вы можете в\n                            личном кабинете\n                          ")])])])])]),_vm._v(" "),_c('template',{slot:"form"},[_c('form',{attrs:{"data-vv-scope":"form-1"}},[_c('div',{staticClass:"rt-col-12"},[_c('div',{staticClass:"rt-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph\n                                                  rt-font-bold"},[_vm._v("\n                            Заявка на подключение\n                          ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('full-name')],1),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                      rt-col-td-6"},[_c('div',{staticClass:"rt-space-top"},[_c('street')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3\n                                                      rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('house')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3\n                                                      rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('apartment')],1)])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                      rt-col-td-6"},[_c('div',{staticClass:"rt-space-top"},[_c('client-phone')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                      rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('email')],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('agree')],1)])])])]),_vm._v(" "),_c('template',{slot:"card-footer"},[_c('div',{staticClass:"d-flex d-space-between rt-space-top05\n                                      rt-space-bottom"},[_c('div',{staticClass:"flex-end-bottom"},[_vm._v("\n                        Рассрочка\n                      ")]),_vm._v(" "),_c('div',{staticClass:"d-flex"},[_c('rt-price',{attrs:{"value":300}})],1)])]),_vm._v(" "),_c('template',{slot:"button"},[_vm._v("\n                    Подключить\n                  ")])],2)],1)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-td-3 rt-col-md-3"},[_c('div',{staticClass:"wc-inline"},[_c('order-form',{attrs:{"scope":"form-2","offer-id":[
+                  {
+                    offerIds: [382403088590, 370113313190, 373158964290],
+                    regionIds: [3245107, 2231584, 2451058]
+                  },
+                  {
+                    offerIds: [379103003390, 385514593990],
+                    regionIds: [3092903]
+                  }
+                ],"ga":{
+                  offerCategory: 'Умный дом',
+                  offerName: 'Видеонаблюдение в подарок на 12 месяцев',
+                  positionCard: 2,
+                  price: 4990
+                }}},[_c('rt-card-buy',[_c('template',{slot:"content"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-4 rt-col-md-3 flex-column\n                                    d-flex d-md-block"},[_c('div',{staticClass:"rt-space-left\n                                        rt-md-space-horizontal rt-md-space-top\n                                        flex-fill d-flex"},[_c('div',{staticClass:"rt-card-buy__image\n                                            flex-fill",staticStyle:{"background-image":"url(/sites/default/files/img/videocamera.png)"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-col-8 rt-space-vertical\n                                    rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-right\n                                        rt-md-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph\n                                            rt-font-bold"},[_vm._v("\n                            Видеокамера и услуга «Видеонаблюдение» в подарок на\n                            12 месяцев\n                          ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top\n                                            color-main05"},[_vm._v("\n                            Два года сервиса в подарок\n                          ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('div',{staticClass:"d-flex"},[_c('div',[_c('svg',{attrs:{"width":"56px","height":"56px","viewBox":"0\n                                                        0 56 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-952.000000,\n                                                                -1981.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000,\n                                                                    0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000,\n                                                                        1839.000000)"}},[_c('g',{attrs:{"id":"Group-13","transform":"translate(242.000000,\n                                                                            142.000000)"}},[_c('g',{attrs:{"id":"Fill-170"}},[_c('path',{attrs:{"d":"M56,27.6113\n                                                                                    C56,42.7993\n                                                                                    43.4631273,55.1113\n                                                                                    28,55.1113\n                                                                                    C12.5358545,55.1113\n                                                                                    0,42.7993\n                                                                                    0,27.6113\n                                                                                    C0,12.4233\n                                                                                    12.5358545,0.1113\n                                                                                    28,0.1113\n                                                                                    C43.4631273,0.1113\n                                                                                    56,12.4233\n                                                                                    56,27.6113","fill":"#00C8F9","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-180","d":"M41.5679855,24.8671\n                                                                                    C41.5679855,32.2621\n                                                                                    35.4548218,38.1931\n                                                                                    27.9996945,38.1931\n                                                                                    C26.7992582,38.1931\n                                                                                    25.6364945,38.0401\n                                                                                    24.5297309,37.7531\n                                                                                    C23.6337309,37.5211\n                                                                                    22.7754036,37.2021\n                                                                                    21.9639127,36.8051\n                                                                                    C17.4890036,34.6171\n                                                                                    14.4324218,30.0761\n                                                                                    14.4324218,24.8671\n                                                                                    C14.4324218,17.4721\n                                                                                    20.47024,11.4681\n                                                                                    27.9996945,11.4681\n                                                                                    C35.5291491,11.4681\n                                                                                    41.5679855,17.4721\n                                                                                    41.5679855,24.8671","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-181","d":"M28,38.1928\n                                                                                    C35.4928,38.1928\n                                                                                    41.5682909,32.2268\n                                                                                    41.5682909,24.8668\n                                                                                    C41.5682909,17.5078\n                                                                                    35.4928,11.5418\n                                                                                    28,11.5418\n                                                                                    C20.5072,11.5418\n                                                                                    14.4317091,17.5078\n                                                                                    14.4317091,24.8668\n                                                                                    C14.4317091,29.5638\n                                                                                    16.9058909,33.6928\n                                                                                    20.6436364,36.0668","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-182","d":"M35.6039855,35.8495\n                                                                                    L37.5415855,39.8035\n                                                                                    C37.8399127,40.3155\n                                                                                    37.9895855,40.9745\n                                                                                    37.9152582,41.5605\n                                                                                    C37.7655855,43.2445\n                                                                                    36.1996218,44.5625\n                                                                                    34.4860218,44.4155\n                                                                                    L21.66304,44.4155\n                                                                                    C20.9920582,44.4895\n                                                                                    20.3954036,44.3425\n                                                                                    19.7997673,43.9765\n                                                                                    C18.3091491,43.0245\n                                                                                    17.8611491,41.1945\n                                                                                    18.7561309,39.7295\n                                                                                    L20.6194036,36.0695","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-183","d":"M34.0384291,27.2099\n                                                                                    C34.0384291,30.5049\n                                                                                    31.3545018,33.1409\n                                                                                    27.9995927,33.1409\n                                                                                    C24.6446836,33.1409\n                                                                                    21.9617745,30.5049\n                                                                                    21.9617745,27.2099\n                                                                                    C21.9617745,23.9159\n                                                                                    24.6446836,21.2799\n                                                                                    27.9995927,21.2799\n                                                                                    C31.3545018,21.2799\n                                                                                    34.0384291,23.9159\n                                                                                    34.0384291,27.2099","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Fill-184","d":"M28.2236945,17.9115\n                                                                                    C27.5527127,17.9115\n                                                                                    27.0314036,17.3985\n                                                                                    27.0314036,16.7405\n                                                                                    C27.0314036,16.0805\n                                                                                    27.5527127,15.5685\n                                                                                    28.2236945,15.5685\n                                                                                    C28.8946764,15.5685\n                                                                                    29.4159855,16.0805\n                                                                                    29.4159855,16.7405\n                                                                                    C29.4159855,17.3255\n                                                                                    28.8946764,17.9115\n                                                                                    28.2236945,17.9115","fill":"#FFFFFF","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-185","d":"M28,29.0405\n                                                                                    C29.0293818,29.0405\n                                                                                    29.8642909,28.2215\n                                                                                    29.8642909,27.2095\n                                                                                    C29.8642909,26.1995\n                                                                                    29.0293818,25.3795\n                                                                                    28,25.3795\n                                                                                    C26.9706182,25.3795\n                                                                                    26.1357091,26.1995\n                                                                                    26.1357091,27.2095\n                                                                                    C26.1357091,28.2215\n                                                                                    26.9706182,29.0405\n                                                                                    28,29.0405\n                                                                                    Z","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Видеокамера")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                                  Камера внутреннего видеонаблюдения\n                                ")])])]),_vm._v(" "),_c('div',{staticClass:"d-flex rt-space-top"},[_c('div',[_c('svg',{attrs:{"width":"55px","height":"56px","viewBox":"0\n                                                        0 55 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('defs',[_c('linearGradient',{attrs:{"id":"linearGradient-1","x1":"87.1217447%","y1":"0%","x2":"7.61205979%","y2":"100%"}},[_c('stop',{attrs:{"stop-color":"#00BFFE","offset":"0%"}}),_vm._v(" "),_c('stop',{attrs:{"stop-color":"#4DECFF","offset":"100%"}})],1)],1),_vm._v(" "),_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-953.000000,\n                                                                -2064.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000,\n                                                                    0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000,\n                                                                        1839.000000)"}},[_c('g',{attrs:{"id":"Group-14","transform":"translate(243.000000,\n                                                                            224.000000)"}},[_c('g',{attrs:{"id":"Clip-301","transform":"translate(0.000000,\n                                                                                1.000000)"}},[_c('path',{attrs:{"d":"M0,27.644\n                                                                                    C0,42.832\n                                                                                    12.313,55.143\n                                                                                    27.5,55.143\n                                                                                    C42.688,55.143\n                                                                                    55,42.832\n                                                                                    55,27.644\n                                                                                    C55,12.456\n                                                                                    42.688,0.143\n                                                                                    27.5,0.143\n                                                                                    C12.313,0.143\n                                                                                    0,12.456\n                                                                                    0,27.644","fill":"url(#linearGradient-1)","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-314","d":"M17.1025,36.4804\n                                                                                    L15.7765,36.4804\n                                                                                    C13.1945,36.4804\n                                                                                    11.1005,34.1074\n                                                                                    11.1005,31.2464\n                                                                                    C11.0305,28.9434\n                                                                                    12.4965,26.7794\n                                                                                    14.7295,26.0824\n                                                                                    C14.6605,25.5924\n                                                                                    14.6605,25.1044\n                                                                                    14.6605,24.6164\n                                                                                    C14.6605,19.5214\n                                                                                    18.3585,15.4034\n                                                                                    22.8945,15.4034\n                                                                                    C26.5935,15.4034\n                                                                                    29.7345,18.1264\n                                                                                    30.7115,21.9634\n                                                                                    C31.6185,21.1264\n                                                                                    32.8055,20.7084\n                                                                                    33.9915,20.7084\n                                                                                    C36.7135,20.7084\n                                                                                    38.9465,23.0104\n                                                                                    39.2255,25.9424\n                                                                                    C41.8085,25.9424\n                                                                                    43.9015,28.3144\n                                                                                    43.9015,31.1754\n                                                                                    C43.9015,34.0374\n                                                                                    41.8085,36.4104\n                                                                                    39.2255,36.4104\n                                                                                    L37.6205,36.4104","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-316","d":"M22.9648,36.4101\n                                                                                    L31.6188,36.4101","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-318","d":"M27.292,35.7822\n                                                                                    L27.292,24.7562","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('polyline',{attrs:{"id":"Stroke-320","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round","points":"22.9648\n                                                                                    29.082\n                                                                                    27.2918\n                                                                                    24.756\n                                                                                    31.6188\n                                                                                    29.082"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Облачное хранение")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                                  Услуга «Видеонаблюдение» включает 7 дней\n                                  хранения видеозаписей в облаке\n                                ")])])])]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07"},[_vm._v("\n                            Увеличить срок хранения видеозаписей вы можете в\n                            личном кабинете\n                          ")])])])])]),_vm._v(" "),_c('template',{slot:"form"},[_c('form',{attrs:{"data-vv-scope":"form-2"}},[_c('div',{staticClass:"rt-col-12"},[_c('div',{staticClass:"rt-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph\n                                            rt-font-bold"},[_vm._v("\n                            Заявка на подключение\n                          ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('full-name')],1),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                rt-col-td-6"},[_c('div',{staticClass:"rt-space-top"},[_c('street')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3\n                                                rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('house')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3\n                                                rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('apartment')],1)])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                rt-col-td-6"},[_c('div',{staticClass:"rt-space-top"},[_c('client-phone')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('email')],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('agree')],1)])])])]),_vm._v(" "),_c('template',{slot:"card-footer"},[_c('div',{staticClass:"d-flex d-space-between rt-space-top05\n                                rt-space-bottom"},[_c('div',{staticClass:"flex-end-bottom"},[_vm._v("\n                        Покупка\n                      ")]),_vm._v(" "),_c('div',{staticClass:"d-flex rt-font-light"},[_c('rt-price',{attrs:{"only-price":true,"value":4990}})],1)])]),_vm._v(" "),_c('template',{slot:"button"},[_vm._v("\n                    Подключить\n                  ")])],2)],1)],1)])])])]),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"rt-container rt-space-top2 rt-space-bottom color-main07"},[_c('rt-annotation',{attrs:{"label":"Примечания"}},[_c('template',{slot:"content"},[_c('p',{staticClass:"rt-annotation-item color-main05"},[_vm._v("\n              Условия оплаты и подключения могут разниться в зависимости от\n              региона РФ.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item color-main05"},[_vm._v("\n              Видео за 300 рублей (Акция) — возможность для физ. лиц подключить\n              при тех. возможности до 31.12.2018 г. Видеонаблюдение (Услуга 1)\n              либо Пакет (Услуга 1 + видеокамера в рассрочку для абонентов\n              Домашнего Интернета (Услуга 2), Домашнего Телефона и Телевидения\n              (Услуга 3)) по цене от 300 руб./мес. с НДС.\n            ")])])],2)],1)])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"row rt-space-vertical25"},[_c('div',{staticClass:"rt-col-3 rt-col-md-3"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/geography_1.svg"}}),_vm._v(" "),_c('h4',{staticClass:"rt-font-h4 rt-font-bold rt-space-top"},[_vm._v("\n              Доступ из любой точки мира\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top color-main05"},[_vm._v("\n              Наблюдайте за тем, что вам дорого в реальном\n              времени с помощью мобильного приложения\n            ")])]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-md-space-top"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/smart_home_cloud_1.svg"}}),_vm._v(" "),_c('h4',{staticClass:"rt-font-h4 rt-font-bold rt-space-top"},[_vm._v("\n              Хранение записей видео до 30 дней\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top color-main05"},[_vm._v("\n              Записанные видео могут храниться в облаке\n              от 3 до 30 дней\n            ")])]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-md-space-top"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/smart_home_move_sensor_1.svg"}}),_vm._v(" "),_c('h4',{staticClass:"rt-font-h4 rt-font-bold rt-space-top"},[_vm._v("\n              Встроенные датчики движения и звука\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top color-main05"},[_vm._v("\n              Получайте уведомления, если камера зафиксировала звук\n              или движение в выделенной области\n            ")])]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-md-space-top"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/smart_home_indoor_video_1.svg"}}),_vm._v(" "),_c('h4',{staticClass:"rt-font-h4 rt-font-bold rt-space-top"},[_vm._v("\n              Качественное видео и легкая установка\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top color-main05"},[_vm._v("\n              Камера записывает видео в разрешении 1280х960, а запуск\n              и подключение не займёт больше 20 минут\n            ")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"color-block--white"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 flex-center-center rt-md-space-vertical2\n                        rt-col-md-3"},[_c('div',[_c('h3',{staticClass:"rt-font-h3 rt-font-bold"},[_vm._v("\n                  Удобное мобильное приложение\n                ")]),_vm._v(" "),_c('div',{staticClass:"row rt-space-top rt-md-space-top2"},[_c('div',{staticClass:"flex-center-center rt-space-left"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/GooglePlay.png","height":"50px"}}),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph color-main07\n                                        rt-space-left"},[_vm._v("\n                      Умный дом\n                    ")])])]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05 color-main07\n                                rt-md-space-top"},[_vm._v("\n                  - смотри видео онлайн или в записи\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05\n                                color-main07"},[_vm._v("\n                  - сохраняй и редактируй видеоклипы\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05\n                                color-main07"},[_vm._v("\n                  - настраивай уведомления и сценарии с участием\n                  видеокамеры и встроенных датчиков\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05\n                                color-main07"},[_vm._v("\n                  - настраивай зоны, в которых камера будет\n                  фиксировать движение\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05\n                                color-main07"},[_vm._v("\n                  - пользуйся функцией трансляции голоса\n                ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 rt-font-md-center"},[_c('div',{staticClass:"row md-d-block"},[_c('div',{staticClass:"rt-font-center color-main07\n                                        rt-md-col-12"},[_c('a',{staticClass:"d-inline-block",attrs:{"href":"https://itunes.apple.com/ru/app/%D1%83%D0%BC%D0%BD%D1%8B%D0%B9-%D0%B4%D0%BE%D0%BC-%D1%80%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC/id1205946608?mt=8","target":"_blank"}},[_c('img',{attrs:{"src":"/themes/rt_ru/images/store_apple.svg","width":"170px","height":"50px"}})]),_vm._v(" "),_c('p',{staticClass:"rt-font-label"},[_vm._v("\n                        Версия iOS 10.0\n                      ")])]),_vm._v(" "),_c('div',{staticClass:"rt-font-center color-main07\n                                        rt-md-col-12 rt-md-space-vertical"},[_c('a',{staticClass:"d-inline-block rt-space-left\n                                            rt-md-space-horizontal",attrs:{"href":"https://play.google.com/store/apps/details?id=ru.rt.smarthome","target":"_blank"}},[_c('img',{attrs:{"src":"/themes/rt_ru/images/store_google.svg","width":"170px","height":"50px"}})]),_vm._v(" "),_c('p',{staticClass:"rt-font-label"},[_vm._v("\n                        Версия Android 5.0\n                      ")])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-space-top05 flex-end-bottom\n                        flex-md-center rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-horizontal flex-md-center",staticStyle:{"overflow":"hidden"}},[_c('div',{staticClass:"phone"},[_c('div',{staticClass:"phone__container"}),_vm._v(" "),_c('img',{staticClass:"phone__image",attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/mobile_application.jpg"}})])])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container",attrs:{"id":"tariff"}},[_c('div',{staticClass:"row rt-space-top25 rt-space-bottom"},[_c('div',{staticClass:"rt-col-12"},[_c('h3',{staticClass:"rt-font-h3 rt-space-bottom2"},[_vm._v("\n            Пакетные предложения\n          ")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"area"},[_c('div',{attrs:{"id":"All"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row rt-space-vertical25"},[_c('div',{staticClass:"rt-col-12"},[_c('h3',{staticClass:"rt-font-h3"},[_vm._v("\n              Покупка видеокамеры\n            ")])])])}]
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Carousels.vue":
-/*!************************************************************!*\
-  !*** ./src/example-pages/components/complex/Carousels.vue ***!
-  \************************************************************/
+/***/ "./src/example-pages/components/pages/promo/tv.vue":
+/*!*********************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/tv.vue ***!
+  \*********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Carousels_vue_vue_type_template_id_428079bc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Carousels.vue?vue&type=template&id=428079bc& */ "./src/example-pages/components/complex/Carousels.vue?vue&type=template&id=428079bc&");
-/* harmony import */ var _Carousels_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Carousels.vue?vue&type=script&lang=js& */ "./src/example-pages/components/complex/Carousels.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tv.vue?vue&type=template&id=7da3ea2d& */ "./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d&");
+/* harmony import */ var _tv_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tv.vue?vue&type=script&lang=js& */ "./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tv.vue?vue&type=style&index=0&lang=css& */ "./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -989,10 +1520,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Carousels_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Carousels_vue_vue_type_template_id_428079bc___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Carousels_vue_vue_type_template_id_428079bc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _tv_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1004,46 +1535,51 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Carousels.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************!*\
-  !*** ./src/example-pages/components/complex/Carousels.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************/
+/***/ "./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousels_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Carousels.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Carousels.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousels_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib!../../../../../node_modules/vue-loader/lib??vue-loader-options!./tv.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Carousels.vue?vue&type=template&id=428079bc&":
-/*!*******************************************************************************************!*\
-  !*** ./src/example-pages/components/complex/Carousels.vue?vue&type=template&id=428079bc& ***!
-  \*******************************************************************************************/
+/***/ "./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css&":
+/*!******************************************************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css& ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/vue-loader/lib??vue-loader-options!./tv.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d&":
+/*!****************************************************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d& ***!
+  \****************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousels_vue_vue_type_template_id_428079bc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Carousels.vue?vue&type=template&id=428079bc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Carousels.vue?vue&type=template&id=428079bc&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousels_vue_vue_type_template_id_428079bc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./tv.vue?vue&type=template&id=7da3ea2d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousels_vue_vue_type_template_id_428079bc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
-
-/***/ }),
-
-/***/ "./src/molecules/components/Carousel/docs/index.json":
-/*!***********************************************************!*\
-  !*** ./src/molecules/components/Carousel/docs/index.json ***!
-  \***********************************************************/
-/*! exports provided: items, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-carousel\",\"property\":\"auto-scrolling\",\"type\":[\"Boolean\"],\"description\":\"Доводчик свайпинга / скроллинга\",\"value\":\"true\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"loaded\",\"type\":[\"Boolean\"],\"description\":\"Флаг для активации лоадера. Если loaded=true лоадер не отображается\",\"value\":\"true\",\"version\":\"0.3.2\"},{\"name\":\"rt-carousel\",\"property\":\"loader\",\"type\":[\"String, {type: String, count: Number, rows: Number, sub: Number}\"],\"description\":\"Настройки лоадера. \\b\\nЗдесь можно задать скелет карточек. \\b\\ncount - количество карточек, rows - количество строк, sub - количество подстрок\",\"value\":\"spinner\",\"version\":\"0.3.2\"},{\"name\":\"rt-carousel\",\"property\":\"loaded\",\"type\":[\"Boolean\"],\"description\":\"Флаг для активации лоадера\",\"value\":\"false\",\"version\":\"0.3.2\"},{\"name\":\"rt-carousel\",\"property\":\"disabled-scrolling\",\"type\":[\"Boolean\"],\"description\":\"Позволяет заблокировать горизонтальный свайпинг и скроллинг карусели\",\"value\":\"false\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"duration\",\"type\":[\"Number\"],\"description\":\"Длительность анимации навигации зоны просмотра и автодоводчика, если он включен\",\"value\":\"500\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"hide-arrows\",\"type\":[\"Boolean\"],\"description\":\"Отображение навигационных стрелочек на PC (на мобиле они всегда выключены, т.к работает обычный скролл)\",\"value\":\"false\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"navs-pos-start\",\"type\":[\"Number\"],\"description\":\"Позиция стрелочек навигации сверху\",\"value\":\"113\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"navs-pos-end\",\"type\":[\"Number\"],\"description\":\"Позиция стрелочек навигации снизу\",\"value\":\"200\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"offset-top\",\"type\":[\"Number\"],\"description\":\"Отступ сверху\",\"value\":\"20\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"offset-bottom\",\"type\":[\"Number\"],\"description\":\"Отступ снизу\",\"value\":\"20\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"slides-classes\",\"type\":[\"String\"],\"description\":\"Классы для слайдов\",\"value\":\"rt-col-3 rt-col-md-2 rt-col-td-3\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"transition-function\",\"type\":[\"String\"],\"description\":\"Эффект перехода анимации при перемещении зоны просмотра (PC)\",\"value\":\"easeInOutCubic\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"navigation-сontainer\",\"type\":[\"String\"],\"description\":\"Контейнер, в который будет помещена навигация карусели. Если пусто, навигация перемещена не будет\",\"value\":\"\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel-slide\",\"property\":\"slide-classes\",\"type\":[\"String\"],\"description\":\"Классы для слайда\",\"value\":\"rt-col-3 rt-col-md-2 rt-col-td-3\",\"version\":\"0.1.25\"},{\"name\":\"rt-slide\",\"property\":\"loaded\",\"type\":[\"Boolean\"],\"description\":\"\",\"value\":\"false\",\"version\":\"0.1.25\"}]}");
 
 /***/ })
 
