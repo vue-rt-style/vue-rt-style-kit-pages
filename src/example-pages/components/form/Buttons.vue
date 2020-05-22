@@ -71,16 +71,6 @@
             </div>
 
           </div>
-          <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-space-top">
-            <pre-code
-              text="<rt-button class='rt-button-white'>Подключить</rt-button>"
-            />
-            <div class="rt-space-top">
-              <pre-code
-                  text="<rt-button disabled class='rt-button-white'>Подключить</rt-button>"
-              />
-            </div>
-          </div>
 
         </div>
         <div class="app-row row">
@@ -141,16 +131,6 @@
             <div class="rt-space-top">
               <pre-code
                   text="<rt-button disabled class='rt-button-small rt-button-transparent'>Подключить</rt-button>"
-              />
-            </div>
-          </div>
-          <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-column d-flex rt-space-top">
-            <pre-code
-              text="<rt-button class='rt-button-small rt-button-white'>Подключить</rt-button>"
-            />
-            <div class="rt-space-top">
-              <pre-code
-                  text="<rt-button disabled class='rt-button-small rt-button-white'>Подключить</rt-button>"
               />
             </div>
           </div>
