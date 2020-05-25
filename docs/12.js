@@ -302,7 +302,7 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
 /*! exports provided: items, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-annotation\",\"property\":\"label\",\"type\":\"String\",\"description\":\"Верхний текст примечания\",\"value\":\"null\"},{\"name\":\"rt-annotation\",\"property\":\"has-white-color\",\"type\":\"String\",\"description\":\"flag белого цвета\",\"value\":\"null\"},{\"name\":\"rt-annotation\",\"property\":\"open\",\"type\":\"Boolean\",\"description\":\"Задаёт открытое состояние для блока по умолчанию\",\"value\":\"false\"}]}");
+module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-annotation\",\"property\":\"label\",\"type\":\"String\",\"description\":\"Верхний текст примечания\",\"value\":\"null\"},{\"name\":\"rt-annotation\",\"property\":\"has-white-color\",\"type\":\"Boolean\",\"description\":\"Флаг белого цвета\",\"value\":\"null\"},{\"name\":\"rt-annotation\",\"property\":\":open\",\"type\":\"Boolean\",\"description\":\"Задаёт открытое состояние для блока по умолчанию\",\"value\":\"false\"},{\"name\":\"rt-annotation\",\"property\":\"title-font-class\",\"type\":\"String\",\"description\":\"Задаёт шрифт для заголовка примечания\",\"value\":\"rt-font-paragraph\"}]}");
 
 /***/ }),
 
