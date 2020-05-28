@@ -100,6 +100,7 @@
       <pre-code
         text="<rt-banner :is-fullscreen-image='true'
                          bannerLogo='/static/example-images/Logo.svg'
+                         :resize-query-selectors-names='[&quot;.content-test&quot;]'
                          content-height='100vh'
                          content-mobile-min-height='100vh'
                          content-tablet-min-height='100vh'>
@@ -109,8 +110,22 @@
                           content-height='100vh'
                           content-tablet-min-height='100vh'
                           content-mobile-min-height='100vh'>
+                          <div class='content-test'>
             <p class='rt-font-banner-label'>Виртуальная <br> телефония</p>
             <p class='rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br> возможностьпользоваться из любой точки мира <br> и ни одного пропущенного звонка клиента</p>
+            </div>
+            <rt-button class='rt-button-orange'>Подробнее</rt-button>
+          </rt-banner-item>
+          <rt-banner-item background-image='https://photos.gurushots.com/unsafe/0x0/6df5398beb5a48117c5fe4b75e4e6829/3_b7817d11a910801fa451d829900e17ee.jpg'
+                          :is-white-color='true'
+                          background-color='dark-slate'
+                          content-height='100vh'
+                          content-tablet-min-height='100vh'
+                          content-mobile-min-height='100vh'>
+                          <div class='content-test'>
+            <p class='rt-font-banner-label'>Виртуальная <br> телефония</p>
+            <p class='rt-space-top rt-space-bottom15'>Быстрое подключение </p>
+            </div>
             <rt-button class='rt-button-orange'>Подробнее</rt-button>
           </rt-banner-item>
         </rt-banner>"
