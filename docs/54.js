@@ -1,15 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[54],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/Popup.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/simple/Popup.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/OpacityClassElements.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/simple/OpacityClassElements.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
+/* harmony import */ var _vue_rt_style_kit_atoms_local_variables_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-atoms-local/variables.json */ "./src/atoms/variables.json");
+var _vue_rt_style_kit_atoms_local_variables_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-atoms-local/variables.json */ "./src/atoms/variables.json", 1);
 //
 //
 //
@@ -64,77 +65,169 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+var componentsList = {};
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppPopup",
-  components: _componentsList__WEBPACK_IMPORTED_MODULE_0__["default"],
+  name: "AppGridElements",
+  components: componentsList,
+  data: function data() {
+    return {
+      variables: _vue_rt_style_kit_atoms_local_variables_json__WEBPACK_IMPORTED_MODULE_0__,
+      json: {
+        items: [{
+          version: "0.1.18",
+          name: ".rt-element-animate-opacity",
+          description: "animate opacity and visibility changes"
+        }, {
+          version: "0.1.18",
+          name: ".rt-element-show",
+          description: "`opacity: 1 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-element-show09",
+          description: "`opacity: 0.9 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-element-show08",
+          description: "`opacity: 0.8 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-element-show07",
+          description: "`opacity: 0.7 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-element-show06",
+          description: "`opacity: 0.6 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-element-show05",
+          description: "`opacity: 0.5 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-element-show04",
+          description: "`opacity: 0.4 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-element-show03",
+          description: "`opacity: 0.3 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-element-show02",
+          description: "`opacity: 0.2 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-element-show01",
+          description: "`opacity: 0.1 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-element-hide",
+          description: "`opacity: 0 \nvisability: hidden`"
+        }]
+      },
+      tabletJson: {
+        items: [{
+          version: "0.1.18",
+          name: ".rt-element-animate-opacity",
+          description: "animate opacity and visibility changes"
+        }, {
+          version: "0.1.18",
+          name: ".rt-td-element-show",
+          description: "*for tablet* \n\n `opacity: 1 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-td-element-show09",
+          description: "*for tablet* \n\n `opacity: 0.9 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-td-element-show08",
+          description: "*for tablet* \n\n `opacity: 0.8 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-td-element-show07",
+          description: "*for tablet* \n\n `opacity: 0.7 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-td-element-show06",
+          description: "*for tablet* \n\n `opacity: 0.6 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-td-element-show05",
+          description: "*for tablet* \n\n `opacity: 0.5 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-td-element-show04",
+          description: "*for tablet* \n\n `opacity: 0.4 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-td-element-show03",
+          description: "*for tablet* \n\n `opacity: 0.3 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-td-element-show02",
+          description: "*for tablet* \n\n `opacity: 0.2 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-td-element-show01",
+          description: "*for tablet* \n\n `opacity: 0.1 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-td-element-hide",
+          description: "*for tablet* \n\n `opacity: 0 \nvisability: hidden`"
+        }]
+      },
+      mobileJson: {
+        items: [{
+          version: "0.1.18",
+          name: ".rt-element-animate-opacity",
+          description: "animate opacity and visibility changes"
+        }, {
+          version: "0.1.18",
+          name: ".rt-md-element-show",
+          description: "*for mobile* \n\n `opacity: 1 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-md-element-show09",
+          description: "*for mobile* \n\n `opacity: 0.9 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-md-element-show08",
+          description: "*for mobile* \n\n `opacity: 0.8 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-md-element-show07",
+          description: "*for mobile* \n\n `opacity: 0.7 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-md-element-show06",
+          description: "*for mobile* \n\n `opacity: 0.6 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-md-element-show05",
+          description: "*for mobile* \n\n `opacity: 0.5 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-md-element-show04",
+          description: "*for mobile* \n\n `opacity: 0.4 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-md-element-show03",
+          description: "*for mobile* \n\n `opacity: 0.3 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-md-element-show02",
+          description: "*for mobile* \n\n `opacity: 0.2 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-md-element-show01",
+          description: "*for mobile* \n\n `opacity: 0.1 \nvisability: visible`"
+        }, {
+          version: "0.1.18",
+          name: ".rt-md-element-hide",
+          description: "*for mobile* \n\n `opacity: 0 \nvisability: hidden`"
+        }]
+      }
+    };
+  },
   mounted: function mounted() {},
   created: function created() {},
   methods: {}
@@ -142,10 +235,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/Popup.vue?vue&type=template&id=5783840a&":
-/*!********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/simple/Popup.vue?vue&type=template&id=5783840a& ***!
-  \********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/OpacityClassElements.vue?vue&type=template&id=b540c4ba&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/simple/OpacityClassElements.vue?vue&type=template&id=b540c4ba& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -153,24 +246,24 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"app-row is-b2b"},[_c('div',{staticClass:"rt-col rt-space-bottom rt-space-top"},[_c('div',{staticClass:"row"},[_c('rt-button',{staticClass:"rt-button-transparent-purple popupButton",attrs:{"popup-button":true,"target-popup":"rtb-popup-type-1"}},[_vm._v("Попап")])],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-12"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-4"},[_c('rt-card',{staticClass:"rt-card--img-full-width"},[_c('template',{slot:"header"},[_c('div',{staticClass:"rt-card__image-wrapper rt-font-center"},[_c('img',{staticClass:"additional-possibilities__card-image",attrs:{"src":"/sites/default/files/b2b/pg/vats/cards/Otdel_prodazh_1280x853.jpg"}})])]),_vm._v(" "),_c('template',{slot:"content"},[_c('div',{staticClass:"rt-space-top05 rt-space-bottom2 rt-td-space-bottom15 rt-md-space-bottom adjust"},[_c('p',{staticClass:"rt-font-paragraph rt-space-bottom05 rt-font-bold"},[_vm._v("У вас есть отдел продаж\n                    ")])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('rt-button',{staticClass:"rt-button-purple-border rt-button-small rt-space-horizontal new-vats-popup-button",attrs:{"popup-button":true,"target-popup":"rtb-popup-type-2"}},[_vm._v("\n                    Подробнее")])],1),_vm._v(" "),_c('template',{slot:"popup-special-benefits"},[_c('div',{staticClass:"new-vats-popup__image-wrapper"},[_c('img',{staticClass:"new-vats-popup__image",attrs:{"src":"/sites/default/files/b2b/pg/vats/cards/Otdel_prodazh_1280x853.jpg"}})]),_vm._v(" "),_c('h2',{staticClass:"rt-font-h3 rt-font-bold rt-space-vertical15"},[_vm._v("У вас есть отдел продаж")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("Подключите прямой городской номер,\n                    если\n                    работаете с клиентами только в своем городе, или номер 8800, если вам\n                    звонят клиенты со всей России — исходящие звонки для ваших клиентов будут\n                    совершенно бесплатными.")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom"},[_vm._v("Все коммуникации менеджеров\n                    с клиентами записываются и находятся под вашим контролем. Интегрируйте\n                    Виртуальную АТС с CRM-системой для оптимизации бизнес-процессов.")])])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4"},[_c('rt-card',{staticClass:"rt-card--img-full-width"},[_c('template',{slot:"header"},[_c('div',{staticClass:"rt-card__image-wrapper rt-font-center"},[_c('img',{staticClass:"additional-possibilities__card-image",attrs:{"src":"/sites/default/files/b2b/pg/vats/cards/Filial_1280x853.jpg"}})])]),_vm._v(" "),_c('template',{slot:"content"},[_c('div',{staticClass:"rt-space-top05 rt-space-bottom rt-td-space-bottom15 rt-md-space-bottom adjust"},[_c('p',{staticClass:"rt-font-paragraph rt-space-bottom05 rt-font-bold"},[_vm._v("У вас филиальная\n                      сеть\n                    ")])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('rt-button',{staticClass:"rt-button-purple-border rt-button-small rt-space-horizontal new-vats-popup-button",attrs:{"popup-button":true,"target-popup":"rtb-popup-type-2"}},[_vm._v("\n                    Подробнее")])],1),_vm._v(" "),_c('template',{slot:"popup-special-benefits"},[_c('div',{staticClass:"new-vats-popup__image-wrapper"},[_c('img',{staticClass:"new-vats-popup__image",attrs:{"src":"/sites/default/files/b2b/pg/vats/cards/Filial_1280x853.jpg"}})]),_vm._v(" "),_c('h2',{staticClass:"rt-font-h3 rt-font-bold rt-space-vertical"},[_vm._v("У вас филиальная сеть")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("Для приема звонков от клиентов\n                    со всей России подключите номер в коде 8800 или несколько городских\n                    номеров для каждого филиала.")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("Настройте голосовое приветствие\n                    и голосовое меню, которое распределит звонки от клиентов по разным\n                    филиалам и записывайте разговоры, в том числе с мобильных телефонов,\n                    чтобы проконтролировать работу менеджеров и получить обратную связь\n                    от клиентов.")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom"},[_vm._v("А ваши сотрудники в разных\n                    филиалах\n                    смогут бесплатно общаться друг с другом и звонить по коротким\n                    номерам.\n                  ")])])],2)],1)])]),_vm._v(" "),_c('rt-real-popup',{attrs:{"position-bottom":true,"popup-type":1,"trigger-element-class":"popupButton","main-wrapper-class":"app"}},[_c('div',{staticClass:"popup-content"})]),_vm._v(" "),_c('rt-real-popup',{attrs:{"position-bottom":true,"popup-type":2,"trigger-element-class":"new-vats-popup-button","main-wrapper-class":"app"}},[_c('div',{staticClass:"popup-content"})])],1),_vm._v(" "),_c('div',{staticClass:"app-row"})])])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("\n          Popup "),_c('span',{staticClass:"rt-code rt-font-h3 rt-col"},[_vm._v(".rtb-popup")])])])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body rt-space-top25"},[_c('div',{staticClass:"rt-col-12"},[_c('rt-tabs',[_c('template',{slot:"navigation"},[_c('rt-tabs-nav-item',{attrs:{"name":"all"}},[_vm._v("\n              All devices\n            ")]),_vm._v(" "),_c('rt-tabs-nav-item',{attrs:{"name":"tablet"}},[_vm._v("\n              Tablet devices\n            ")]),_vm._v(" "),_c('rt-tabs-nav-item',{attrs:{"name":"mobile"}},[_vm._v("\n              Mobile devices\n            ")])],1),_vm._v(" "),_c('template',{slot:"content"},[_c('rt-tabs-content-item',{attrs:{"name":"all"}},[_c('documentation-builder',{attrs:{"json":_vm.json,"type":"classStyle","label":"all width"}})],1),_vm._v(" "),_c('rt-tabs-content-item',{attrs:{"name":"tablet"}},[_c('documentation-builder',{attrs:{"label":'max-width: ' + _vm.variables['tablet-upper-limit'],"json":_vm.tabletJson,"type":"classStyle"}})],1),_vm._v(" "),_c('rt-tabs-content-item',{attrs:{"name":"mobile"}},[_c('documentation-builder',{attrs:{"label":'max-width: ' + _vm.variables['mobile-upper-limit'],"json":_vm.mobileJson,"type":"classStyle"}})],1)],1)],2)],1)])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("\n          Opacity class elements\n        ")])])])}]
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/simple/Popup.vue":
-/*!*******************************************************!*\
-  !*** ./src/example-pages/components/simple/Popup.vue ***!
-  \*******************************************************/
+/***/ "./src/example-pages/components/simple/OpacityClassElements.vue":
+/*!**********************************************************************!*\
+  !*** ./src/example-pages/components/simple/OpacityClassElements.vue ***!
+  \**********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Popup_vue_vue_type_template_id_5783840a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Popup.vue?vue&type=template&id=5783840a& */ "./src/example-pages/components/simple/Popup.vue?vue&type=template&id=5783840a&");
-/* harmony import */ var _Popup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Popup.vue?vue&type=script&lang=js& */ "./src/example-pages/components/simple/Popup.vue?vue&type=script&lang=js&");
+/* harmony import */ var _OpacityClassElements_vue_vue_type_template_id_b540c4ba___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./OpacityClassElements.vue?vue&type=template&id=b540c4ba& */ "./src/example-pages/components/simple/OpacityClassElements.vue?vue&type=template&id=b540c4ba&");
+/* harmony import */ var _OpacityClassElements_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OpacityClassElements.vue?vue&type=script&lang=js& */ "./src/example-pages/components/simple/OpacityClassElements.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -180,9 +273,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Popup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Popup_vue_vue_type_template_id_5783840a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Popup_vue_vue_type_template_id_5783840a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _OpacityClassElements_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _OpacityClassElements_vue_vue_type_template_id_b540c4ba___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _OpacityClassElements_vue_vue_type_template_id_b540c4ba___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -194,33 +287,33 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/simple/Popup.vue?vue&type=script&lang=js&":
-/*!********************************************************************************!*\
-  !*** ./src/example-pages/components/simple/Popup.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************/
+/***/ "./src/example-pages/components/simple/OpacityClassElements.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************!*\
+  !*** ./src/example-pages/components/simple/OpacityClassElements.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Popup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Popup.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/Popup.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Popup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_OpacityClassElements_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./OpacityClassElements.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/OpacityClassElements.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_OpacityClassElements_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/simple/Popup.vue?vue&type=template&id=5783840a&":
-/*!**************************************************************************************!*\
-  !*** ./src/example-pages/components/simple/Popup.vue?vue&type=template&id=5783840a& ***!
-  \**************************************************************************************/
+/***/ "./src/example-pages/components/simple/OpacityClassElements.vue?vue&type=template&id=b540c4ba&":
+/*!*****************************************************************************************************!*\
+  !*** ./src/example-pages/components/simple/OpacityClassElements.vue?vue&type=template&id=b540c4ba& ***!
+  \*****************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Popup_vue_vue_type_template_id_5783840a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Popup.vue?vue&type=template&id=5783840a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/Popup.vue?vue&type=template&id=5783840a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Popup_vue_vue_type_template_id_5783840a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OpacityClassElements_vue_vue_type_template_id_b540c4ba___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./OpacityClassElements.vue?vue&type=template&id=b540c4ba& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/OpacityClassElements.vue?vue&type=template&id=b540c4ba&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OpacityClassElements_vue_vue_type_template_id_b540c4ba___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Popup_vue_vue_type_template_id_5783840a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OpacityClassElements_vue_vue_type_template_id_b540c4ba___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

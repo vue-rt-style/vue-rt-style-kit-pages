@@ -112,7 +112,7 @@
   import componentsList from "../../componentsList";
   // const componentsList = {};
   export default {
-    name: "AppTypography",
+    name: "AppScrollTabs",
     components: componentsList,
     data: () => ({
       documentation: {}

@@ -28,14 +28,27 @@
           />
         </div>
       </div>
+      <div class="app-row row rt-space-top">
+        <documentation-builder :json="documentation" type="components"/>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-const componentsList = {};
-export default {
-  name: "AppCheckbox",
-  components: componentsList
-};
+  import documentation from "@vue-rt-style-kit-atoms-local/components/Checkbox/docs/index.json";
+  import componentsList from "../../componentsList";
+//  const componentsList = {};
+  export default {
+    name: "AppCheckbox",
+    components: componentsList,
+    data: () => ({
+      documentation: {}
+    }),
+    mounted() {
+      this.documentation = documentation;
+    },
+    created() {},
+    methods: {}
+  };
 </script>

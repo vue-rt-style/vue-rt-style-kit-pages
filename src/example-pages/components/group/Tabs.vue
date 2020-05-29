@@ -1431,6 +1431,31 @@
                     </template>
                 </rt-tabs>
             </div>
+
+            <div class="rt-col-12">
+                <rt-tabs>
+                    <template slot="navigation">
+                        <rt-tabs-nav-item
+                                :remove-base-tag="true"
+                                name="one-щту">
+                            Добавить комментарий
+                        </rt-tabs-nav-item>
+                        <rt-tabs-nav-item
+                                :remove-base-tag="true"
+                                name="two-щту">
+                            Изменить дату или время
+                        </rt-tabs-nav-item>
+                    </template>
+                    <template slot="content">
+                        <rt-tabs-content-item name="one-щту">
+                            add-comment/>
+                        </rt-tabs-content-item>
+                        <rt-tabs-content-item name="two-щту">
+                            change-date-time/>
+                        </rt-tabs-content-item>
+                    </template>
+                </rt-tabs>
+            </div>
         </div>
         <documentation-builder :json="documentation" type="components"/>
     </div>

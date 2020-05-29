@@ -29,19 +29,28 @@
             </rt-switch>
           </div>
         </div>
+        <div class="app-row row rt-space-top">
+          <documentation-builder :json="documentation" type="components"/>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-// const componentsList = {};
-import componentsList from "../../componentsList";
-export default {
-  name: "AppSwitch",
-  components: componentsList,
-  mounted() {},
-  created() {},
-  methods: {}
-};
+  import documentation from "@vue-rt-style-kit-atoms-local/components/Switch/docs/index.json";
+  // const componentsList = {};
+  import componentsList from "../../componentsList";
+  export default {
+    name: "AppSwitch",
+    components: componentsList,
+    data: () => ({
+      documentation: {}
+    }),
+    mounted() {
+      this.documentation = documentation;
+    },
+    created() {},
+    methods: {}
+  };
 </script>

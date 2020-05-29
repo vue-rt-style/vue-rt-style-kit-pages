@@ -932,16 +932,16 @@
           </rt-resize-content-height>
         </div>
       </div>
-      <div class="rt-container rt-space-top25">
-        <!--<documentation-builder :json="documentation" type="components"/>-->
-      </div>
+    </div>
+    <div class="rt-container rt-space-top25">
+      <documentation-builder :json="documentation" type="components"/>
     </div>
   </div>
 </template>
 
 <script>
 
-  // import documentation from "../../../lib/components/ProductCard/docs/index.json";
+  import documentation from "vue-rt-style-kit-molecules/src/components/TariffCard/docs/index.json";
   import AppTariffCarsIcons from "./TariffCardIcons.vue";
   import AppTariffCarsText from "./TariffCardText.vue";
 
@@ -949,13 +949,13 @@
   componentsList[AppTariffCarsIcons.name] = AppTariffCarsIcons;
   componentsList[AppTariffCarsText.name] = AppTariffCarsText;
   export default {
-    name: "AppTariffCars",
+    name: "AppTariffCards",
     components: componentsList,
     data: () => ({
       documentation: {}
     }),
     mounted() {
-      // this.documentation = documentation;
+       this.documentation = documentation;
     },
     created() {
     },

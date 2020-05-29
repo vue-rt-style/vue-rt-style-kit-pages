@@ -149,14 +149,24 @@
         </div>
       </div>
     </div>
+    <div class="rt-container rt-space-top25">
+      <documentation-builder :json="documentation" type="components"/>
+    </div>
   </div>
 </template>
 <script>
   // const componentsList = {};
+  import documentation from "vue-rt-style-kit-molecules/src/components/OptionsList/docs/index.json";
   import componentsList from "../../componentsList";
 
   export default {
-    name: "AppRowList",
-    components: componentsList
+    name: "AppOptionList",
+    components: componentsList,
+    data: () => ({
+      documentation: {}
+    }),
+    mounted() {
+      this.documentation = documentation;
+    },
   };
 </script>

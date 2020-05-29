@@ -98,17 +98,26 @@
         </div>
       </div>
     </div>
+    <div class="rt-container rt-space-top25">
+      <documentation-builder :json="documentation" type="components"/>
+    </div>
   </div>
 </template>
 
 <script>
-import componentsList from "../../componentsList";
-// const componentsList = {};
-export default {
-  name: "AppSwitch",
-  components: componentsList,
-  mounted() {},
-  created() {},
-  methods: {}
-};
+  import documentation from "vue-rt-style-kit-molecules/src/components/FullscreenImage/docs/index.json";
+  import componentsList from "../../componentsList";
+  // const componentsList = {};
+  export default {
+    name: "AppFullscreenImage",
+    components: componentsList,
+    data: () => ({
+      documentation: {}
+    }),
+    mounted() {
+      this.documentation = documentation;
+    },
+    created() {},
+    methods: {}
+  };
 </script>

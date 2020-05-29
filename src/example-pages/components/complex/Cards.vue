@@ -1602,7 +1602,7 @@
             <div class="rt-space-top2 is-b2b">
                 <rt-card-layout :swiper-on-mobile="true" :width="6">
                     <template slot="cards">
-                        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top">
+                        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide">
                             <rt-card>
                                 <template slot="header">
                                     <p class="rt-font-paragraph rt-space-bottom rt-font-bold">Тариф 1</p>
@@ -1640,7 +1640,7 @@
                                 </template>
                             </rt-card>
                         </div>
-                        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top">
+                        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide">
                             <rt-card>
                                 <template slot="header">
                                     <p class="rt-font-paragraph rt-space-bottom rt-font-bold">Тариф 1</p>
@@ -1678,7 +1678,7 @@
                                 </template>
                             </rt-card>
                         </div>
-                        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top">
+                        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide">
                             <rt-card>
                                 <template slot="header">
                                     <p class="rt-font-paragraph rt-space-bottom rt-font-bold">Тариф 1</p>
@@ -1716,7 +1716,7 @@
                                 </template>
                             </rt-card>
                         </div>
-                        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top">
+                        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide">
                             <rt-card>
                                 <template slot="header">
                                     <p class="rt-font-paragraph rt-space-bottom rt-font-bold">Тариф 1</p>
@@ -1774,7 +1774,7 @@
             <div class="rt-space-top2 is-b2b">
                 <rt-card-layout :swiper-on-mobile="true" :width="9" :single-row="true">
                     <template slot="cards">
-                        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top">
+                        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide">
                             <rt-card>
                                 <template slot="header">
                                     <p class="rt-font-paragraph rt-space-bottom rt-font-bold">Тариф 1</p>
@@ -1812,7 +1812,7 @@
                                 </template>
                             </rt-card>
                         </div>
-                        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top">
+                        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide">
                             <rt-card>
                                 <template slot="header">
                                     <p class="rt-font-paragraph rt-space-bottom rt-font-bold">Тариф 1</p>
@@ -1850,7 +1850,7 @@
                                 </template>
                             </rt-card>
                         </div>
-                        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top">
+                        <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide">
                             <rt-card>
                                 <template slot="header">
                                     <p class="rt-font-paragraph rt-space-bottom rt-font-bold">Тариф 1</p>

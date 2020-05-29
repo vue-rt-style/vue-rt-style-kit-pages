@@ -41,119 +41,27 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="rt-space-top25">
-            <div class="rt-col-12">
-                <div class="app-documentation">
-                    <div class="app-documentation__label rt-font-h4 rt-space-left05 rt-space-bottom2">
-                        Possible options
-                    </div>
-                    <div class="app-documentation__row rt-font-bold rt-space-bottom05">
-                        <div class="app-documentation__name rt-col-2">
-                            component name
-                        </div>
-                        <div class="app-documentation__name rt-col-3">
-                            component property
-                        </div>
-                        <div class="app-documentation__value app-documentation__row rt-col-7">
-                            <div class="app-documentation__value-item rt-col-3">
-                                property type
-                            </div>
-                            <div class="app-documentation__value-item rt-col-6">
-                                about
-                            </div>
-                            <div class="app-documentation__value-item rt-col-3">
-                                default value
-                            </div>
-                        </div>
-                    </div>
-                    <div class="app-documentation__row rt-space-vertical">
-                        <div class="app-documentation__name rt-col-2">
-                            rt-color-line-text
-                        </div>
-                        <div class="app-documentation__name rt-col-3">
-                            :is-white-color
-                        </div>
-                        <div class="app-documentation__value app-documentation__row rt-col-7">
-                            <div class="app-documentation__value-item rt-col-3">
-                                <span class="rt-code rt-font-label rt-code--component">Boolean</span>
-                            </div>
-                            <div class="app-documentation__value-item rt-col-6">
-                                Указатель белого цвета
-                            </div>
-                            <div class="app-documentation__value-item rt-col-3">
-                                <span class="rt-code rt-font-label rt-code--fill">false</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="app-documentation__row rt-space-vertical">
-                        <div class="app-documentation__name rt-col-2">
-                            rt-color-line-text
-                        </div>
-                        <div class="app-documentation__name rt-col-3">
-                            fill-color
-                        </div>
-                        <div class="app-documentation__value app-documentation__row rt-col-7">
-                            <div class="app-documentation__value-item rt-col-3">
-                                <span class="rt-code rt-font-label rt-code--component">String</span>
-                            </div>
-                            <div class="app-documentation__value-item rt-col-6">
-                                Цвет обводки текста <br>
-                                возможные значения : <br>
-                                <span class="rt-code rt-code--fill">purple</span>
-                                <span class="rt-code rt-code--fill">red</span>
-                                <span class="rt-code rt-code--fill">dark-blue</span>
-                                <span class="rt-code rt-code--fill">light-blue</span>
-                                <span class="rt-code rt-code--fill">yellow</span>
-                                <span class="rt-code rt-code--fill">pink</span>
-                                <span class="rt-code rt-code--fill">green</span>
-                            </div>
-                            <div class="app-documentation__value-item rt-col-3">
-                                <span class="rt-code rt-font-label rt-code--fill">null</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="app-documentation__row rt-space-vertical">
-                        <div class="app-documentation__name rt-col-2">
-                            rt-color-line-text
-                        </div>
-                        <div class="app-documentation__name rt-col-3">
-                            color-icon
-                        </div>
-                        <div class="app-documentation__value app-documentation__row rt-col-7">
-                            <div class="app-documentation__value-item rt-col-3">
-                                <span class="rt-code rt-font-label rt-code--component">String</span>
-                            </div>
-                            <div class="app-documentation__value-item rt-col-6">
-                                Цвет заливки корешка <br>
-                                возможные значения : <br>
-                                <span class="rt-code rt-code--fill">purple</span>
-                                <span class="rt-code rt-code--fill">red</span>
-                                <span class="rt-code rt-code--fill">dark-blue</span>
-                                <span class="rt-code rt-code--fill">light-blue</span>
-                                <span class="rt-code rt-code--fill">yellow</span>
-                                <span class="rt-code rt-code--fill">pink</span>
-                                <span class="rt-code rt-code--fill">green</span>
-                            </div>
-                            <div class="app-documentation__value-item rt-col-3">
-                                <span class="rt-code rt-font-label rt-code--fill">orange</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="rt-space-top25">
+                <documentation-builder :json="documentation" type="components"/>
             </div>
         </div>
     </div>
 </template>
 
 <script>
-    const componentsList = {};
+    import documentation from "@vue-rt-style-kit-atoms-local/components/ColorLineText/docs/index.json";
+    import componentsList from "../../componentsList";
+//    const componentsList = {};
 
     export default {
         name: "AppColorLineText",
         components: componentsList,
-
-        mounted() {},
+        data: () => ({
+            documentation: {}
+        }),
+        mounted() {
+            this.documentation = documentation;
+        },
         created() {},
         methods: {}
     };

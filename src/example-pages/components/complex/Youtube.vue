@@ -9,13 +9,13 @@
         </div>
         <div class="app-body">
           <div class="row">
-            <div class="rt-col-1 rt-col-md-3 rt-col-td-10" />
-            <div class="rt-col-10 rt-col-md-3 rt-col-td-10">
+            <div class="rt-col-1 td-d-none" />
+            <div class="rt-col-10 rt-col-td-6">
               <pre-code
-                text="<rt-youtube :start-index=&quot;[1,2,230,0]&quot; :utm-sources=&quot;['ab','ba','ca','ka']&quot;  :playlist-id=&quot;['PLbAFXJC0J5GanbANaPaaWYB6Vdc_JPZ6n','RDUOxkGD8qRB4','RDBqNES_8YLP4','RDMM3mBKjBJX60E','RDAmq-qlqbjYA']&quot;></rt-youtube>"
+                text="<rt-youtube :start-index=&quot;[1,2,230,0]&quot; :utm-sources=&quot;['ab','ba','ca','ka']&quot; :playlist-id=&quot;['PLbAFXJC0J5GanbANaPaaWYB6Vdc_JPZ6n','RDUOxkGD8qRB4','RDBqNES_8YLP4','RDMM3mBKjBJX60E','RDAmq-qlqbjYA']&quot;/>"
               />
             </div>
-            <div class="rt-col-1 rt-col-md-3 rt-col-td-10" />
+            <div class="rt-col-1 td-d-none" />
           </div>
         </div>
       </div>
@@ -25,16 +25,26 @@
       :playlist-id="['PLbAFXJC0J5GanbANaPaaWYB6Vdc_JPZ6n']"
       :disable-buttons="true"
     />
+    <div class="rt-container rt-space-top25">
+      <documentation-builder :json="documentation" type="components"/>
+    </div>
   </div>
 </template>
 
 <script>
-const componentsList = {};
-export default {
-  name: "AppYoutube",
-  components: componentsList,
-  mounted() {},
-  created() {},
-  methods: {}
-};
+  import documentation from "vue-rt-style-kit-molecules/src/components/Youtube/docs/index.json";
+  import componentsList from "../../componentsList";
+//  const componentsList = {};
+  export default {
+    name: "AppYoutube",
+    components: componentsList,
+    data: () => ({
+      documentation: {}
+    }),
+    mounted() {
+      this.documentation = documentation;
+    },
+    created() {},
+    methods: {}
+  };
 </script>

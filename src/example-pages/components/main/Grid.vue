@@ -509,20 +509,28 @@
 
 
             </div>
+            <div class="rt-space-top25">
+                <documentation-builder :json="documentation" type="components"/>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
-    const componentsList = {};
+    import documentation from "@vue-rt-style-kit-atoms-local/components/Grid/docs/docsGridRow.json";
+    import componentsList from "../../componentsList";
+//    const componentsList = {};
 
     export default {
         name: "AppGridElements",
         components: componentsList,
+        data: () => ({
+            documentation: {}
+        }),
         mounted() {
+            this.documentation = documentation;
         },
-        created() {
-        },
+        created() {},
         methods: {}
     };
 </script>

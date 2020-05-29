@@ -265,7 +265,7 @@
 
   const componentsList = {};
   export default {
-    name: "AppBanners",
+    name: "AppProductCard",
     components: componentsList,
     data: () => ({
       documentation: {}

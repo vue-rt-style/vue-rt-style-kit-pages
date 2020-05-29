@@ -23,7 +23,7 @@
                   предоставление доступа к сети интернет по технологии xDSL.
                   Тарифы — в разделе</span>
           </template>
-        </rt-slide-content>'></pre-code>
+        </rt-slide-content>'/>
 
         <pre-code text='<rt-slide-content>
           <template slot="label">
@@ -39,7 +39,7 @@
                   Тарифы — в разделе</span
                 >
           </template>
-        </rt-slide-content>'></pre-code>
+        </rt-slide-content>'/>
         <div class="rt-space-top45">
           <pre-code text='<rt-slide-content arrow-position="right-bottom">
             <template slot="label">
@@ -54,7 +54,7 @@
                   предоставление доступа к сети интернет по технологии xDSL.
                   Тарифы — в разделе</span>
             </template>
-          </rt-slide-content>'></pre-code>
+          </rt-slide-content>'/>
 
           <pre-code text='<rt-slide-content :need-border="false" arrow-position="right-bottom">
             <template slot="label">
@@ -69,7 +69,7 @@
                   предоставление доступа к сети интернет по технологии xDSL.
                   Тарифы — в разделе</span>
             </template>
-          </rt-slide-content>'></pre-code>
+          </rt-slide-content>'/>
         </div>
 
         <div class="rt-space-top45">
@@ -88,10 +88,10 @@
                   Тарифы — в разделе</span>
               </div>
             </template>
-          </rt-slide-content>'></pre-code>
+          </rt-slide-content>'/>
         </div>
         <div class="rt-space-top25">
-          <pre-code text='<rt-slide-content :dotted-view="true">
+          <pre-code text='<rt-slide-content :revert-dotted-view="true">
             <template slot="header">
               <p class="rt-font-dashed rt-slide-content-trigger"> Зачем мне нужна регистрация в личном кабинете?</p>
             </template>
@@ -106,8 +106,7 @@
                   Тарифы — в разделе</span>
               </div>
             </template>
-          </rt-slide-content>
-          '></pre-code>
+          </rt-slide-content>'/>
         </div>
 
       </div>
@@ -124,7 +123,7 @@
 
   const componentsList = {};
   export default {
-    name: "AppTariffCars",
+    name: "AppSlideContent",
     components: componentsList,
     data: () => ({
       documentation: {}

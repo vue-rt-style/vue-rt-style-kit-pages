@@ -101,8 +101,8 @@
                             style="color:#e8bf6a;">        &lt;rt-button </span><span
                             style="color:#bababa;">class</span><span style="color:#a5c261;">="rt-button-orange rt-button-small"</span><span
                             style="color:#e8bf6a;">&gt;</span>Оставить заявку<span style="color:#e8bf6a;">&lt;/rt-button&gt;<br></span><span
-                            style="color:#e8bf6a;">    &lt;/div&gt;<br></span><span style="color:#e8bf6a;">&lt;/rt-sticky-header-line&gt;</span></pre>
-                    <documentation-builder :json="documentation" type="components"/>
+                            style="color:#e8bf6a;">    &lt;/div&gt;<br></span><span style="color:#e8bf6a;">&lt;/rt-sticky-header-line&gt;</span>
+                    </pre>
                 </div>
                 <div class="app-content rt-col-12 rt-col-md-3 rt-space-top3 is-b2c">
                     <pre style="color:#a9b7c6;font-family:'Menlo';font-size:9,0pt;"><span style="color:#e8bf6a;">&lt;rt-sticky-header-line </span><span
@@ -123,7 +123,8 @@
                             style="color:#e8bf6a;">        &lt;rt-button </span><span
                             style="color:#bababa;">class</span><span style="color:#a5c261;">="rt-button-orange rt-button-small"</span><span
                             style="color:#e8bf6a;">&gt;</span>Оставить заявку<span style="color:#e8bf6a;">&lt;/rt-button&gt;<br></span><span
-                            style="color:#e8bf6a;">    &lt;/div&gt;<br></span><span style="color:#e8bf6a;">&lt;/rt-sticky-header-line&gt;</span></pre>
+                            style="color:#e8bf6a;">    &lt;/div&gt;<br></span><span style="color:#e8bf6a;">&lt;/rt-sticky-header-line&gt;</span>
+                    </pre>
                 </div>
                 <div class="is-b2c">
                     <rt-card background-image='/static/example-images/cardBackground5.png' background-position='bottom-right' :col-size='2'>
@@ -156,9 +157,12 @@
                             style="color:#e8bf6a;">        &lt;rt-button </span><span
                             style="color:#bababa;">class</span><span style="color:#a5c261;">="rt-button-orange rt-button-small"</span><span
                             style="color:#e8bf6a;">&gt;</span>Оставить заявку<span style="color:#e8bf6a;">&lt;/rt-button&gt;<br></span><span
-                            style="color:#e8bf6a;">    &lt;/div&gt;<br></span><span style="color:#e8bf6a;">&lt;/rt-sticky-header-line&gt;</span></pre>
-                    <documentation-builder :json="documentation" type="components"/>
+                            style="color:#e8bf6a;">    &lt;/div&gt;<br></span><span style="color:#e8bf6a;">&lt;/rt-sticky-header-line&gt;</span>
+                    </pre>
                 </div>
+            </div>
+            <div class="rt-space-top25">
+                <documentation-builder :json="documentation" type="components"/>
             </div>
         </div>
     </div>
@@ -170,7 +174,7 @@
     import componentsList from "../../componentsList";
 
     export default {
-        name: "AppTags",
+        name: "AppStickyHeaderLine",
         components: componentsList,
         data: () => ({
             documentation: {}

@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[38],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Table.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/Table.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/CardsWithForms.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/CardsWithForms.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -244,20 +244,617 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
- // const componentsList = {};
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppTable",
+  name: "AppCardWithForm",
   components: _componentsList__WEBPACK_IMPORTED_MODULE_0__["default"],
-  mounted: function mounted() {}
+  mounted: function mounted() {},
+  created: function created() {},
+  methods: {}
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Table.vue?vue&type=template&id=576f945e&":
-/*!*******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/Table.vue?vue&type=template&id=576f945e& ***!
-  \*******************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/CardsWithForms.vue?vue&type=template&id=c614bb5a&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/CardsWithForms.vue?vue&type=template&id=c614bb5a& ***!
+  \******************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -265,24 +862,31 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col rt-font-hypnens-off"},[_c('pre-code',{attrs:{"text":"\n            <rt-table class='rt-space-bottom2' :tablet-list-type='true'>\n              <rt-template slot='label'>\n                Тарифы на добровольную блокировку\n              </rt-template>\n\n              <rt-template slot='header'>\n                <rt-table-head-item>Территория</rt-table-head-item>\n                <rt-table-head-item :colspan='4'>Наименование услуги</rt-table-head-item>\n                <rt-table-head-item>Мораторий на блокировку</rt-table-head-item>\n                <rt-table-head-item>Минимальный период блокировки</rt-table-head-item>\n                <rt-table-head-item>Стоимость добровольной блокировки в базовый период</rt-table-head-item>\n              </rt-template>\n              <rt-template slot='body'>\n                <rt-table-row>\n                  <rt-table-item rowspan='2'>Архангельская и Мурманская\n                    область Республика Карелия</rt-table-item>\n                  <rt-table-item  colspan='3'>Домашний интернет,\n                    Домашний телефон\n                    Интерактивное ТВ\n                  </rt-table-item>\n                  <rt-table-item>3 дня</rt-table-item>\n                  <rt-table-item>30 дней</rt-table-item>\n                  <rt-table-item>7 руб./в день</rt-table-item>\n                  <rt-table-item>7 руб./в день</rt-table-item>\n                </rt-table-row>\n                <rt-table-row>\n                  <rt-table-item>Республика Коми, Вологодская, Калининградская, Новгородская, Псковская и Ленинградская области и город Санкт-Петербург</rt-table-item>\n                  <rt-table-item colspan='3'>Домашний интернет,\n                    Домашний телефон\n                    Интерактивное ТВ</rt-table-item>\n                  <rt-table-item>60 дней</rt-table-item>\n                  <rt-table-item>3 дня</rt-table-item>\n                  <rt-table-item>30 дней</rt-table-item>\n                  <rt-table-item>7 руб./в день</rt-table-item>\n                </rt-table-row>\n                <rt-table-row>\n                  <rt-table-item>Республика Коми, Вологодская, Калининградская, Новгородская, Псковская и Ленинградская области и город Санкт-Петербург</rt-table-item>\n                  <rt-table-item colspan='3'>Домашний интернет,\n                    Домашний телефон\n                    Интерактивное ТВ</rt-table-item>\n                  <rt-table-item>60 дней</rt-table-item>\n                  <rt-table-item>3 дня</rt-table-item>\n                  <rt-table-item>30 дней</rt-table-item>\n                  <rt-table-item>7 руб./в день</rt-table-item>\n                </rt-table-row>\n              </rt-template>\n            </rt-table>\n            "}}),_vm._v(" "),_c('div',{staticClass:"rt-space-top2"},[_c('pre-code',{attrs:{"text":"\n              <rt-table class='rt-space-bottom2' :tablet-list-type='true'>\n                <rt-template slot='label'>\n                  Тарифы на добровольную блокировку\n                </rt-template>\n\n                <rt-template slot='header'>\n                  <rt-table-head-item>Территория</rt-table-head-item>\n                  <rt-table-head-item>Наименование услуги</rt-table-head-item>\n                  <rt-table-head-item>Бесплатный период</rt-table-head-item>\n                  <rt-table-head-item>Мораторий на блокировку</rt-table-head-item>\n                  <rt-table-head-item>Минимальный период блокировки</rt-table-head-item>\n                  <rt-table-head-item>Стоимость добровольной блокировки в базовый период</rt-table-head-item>\n                </rt-template>\n                <rt-template slot='body'>\n                  <rt-table-row>\n                    <rt-table-item>Архангельская и Мурманская\n                      область Республика Карелия</rt-table-item>\n                    <rt-table-item  colspan='3'>Домашний интернет,\n                      Домашний телефон\n                      Интерактивное ТВ</rt-table-item>\n                    <rt-table-item>30 дней</rt-table-item>\n                    <rt-table-item>7 руб./в день</rt-table-item>\n                  </rt-table-row>\n                  <rt-table-row>\n                    <rt-table-item>Республика Коми, Вологодская, Калининградская, Новгородская, Псковская и Ленинградская области и город Санкт-Петербург</rt-table-item>\n                    <rt-table-item>Домашний интернет,\n                      Домашний телефон\n                      Интерактивное ТВ</rt-table-item>\n                    <rt-table-item>60 дней</rt-table-item>\n                    <rt-table-item>3 дня</rt-table-item>\n                    <rt-table-item>30 дней</rt-table-item>\n                    <rt-table-item>7 руб./в день</rt-table-item>\n                  </rt-table-row>\n                </rt-template>\n              </rt-table>\n              "}})],1),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-table class='rt-space-bottom2'>\n              <rt-template slot='label'>\n                Звонки\n              </rt-template>\n              <rt-template slot='columns'>\n                <rt-table-col :width-in-cols-desktop='6'></rt-table-col>\n                <rt-table-col :width-in-cols-desktop='4'></rt-table-col>\n                <rt-table-col :width-in-cols-desktop='2'></rt-table-col>\n              </rt-template>\n              <rt-template slot='header'>\n                <rt-table-head-item>Услуга</rt-table-head-item>\n                <rt-table-head-item>С опцией</rt-table-head-item>\n                <rt-table-head-item>Без опции</rt-table-head-item>\n              </rt-template>\n              <rt-template slot='body'>\n                <rt-table-row>\n                  <rt-table-item>Все входящие звонки по России</rt-table-item>\n                  <rt-table-item>0 руб./мин.</rt-table-item>\n                  <rt-table-item>5 руб./мин.</rt-table-item>\n                </rt-table-row>\n                <rt-table-row>\n                  <rt-table-item>Исходящие звонки в СНГ</rt-table-item>\n                  <rt-table-item>30 руб./мин.</rt-table-item>\n                  <rt-table-item>30 руб./мин.</rt-table-item>\n                </rt-table-row>\n                <rt-table-row>\n                  <rt-table-item>Исходящие звонки в Европу</rt-table-item>\n                  <rt-table-item :inactive='true'>49 руб./мин.</rt-table-item>\n                  <rt-table-item>49 руб./мин.</rt-table-item>\n                </rt-table-row>\n                <rt-table-row>\n                  <rt-table-item>Исходящие звонки в остальные страны</rt-table-item>\n                  <rt-table-item :inactive='true'>69 руб./мин.</rt-table-item>\n                  <rt-table-item>69 руб./мин.</rt-table-item>\n                </rt-table-row>\n              </rt-template>\n            </rt-table>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"\n              <rt-table class=\"rt-space-bottom4\" :column-width=\"true\">\n                <rt-template slot=\"label\">\n                  Интернет\n                </rt-template>\n                <rt-template slot=\"columns\">\n                  <rt-table-col :width-in-cols-desktop=\"10\" :width-in-cols-tablet=\"4\"/>\n                  <rt-table-col :width-in-cols-desktop=\"2\" :width-in-cols-tablet=\"2\"/>\n                </rt-template>\n                <rt-template slot=\"header\">\n                  <rt-table-head-item>Услуга</rt-table-head-item>\n                  <rt-table-head-item>Без опции</rt-table-head-item>\n                </rt-template>\n                <rt-template slot=\"body\">\n                  <rt-table-row>\n                    <rt-table-item>Все входящие звонки по России</rt-table-item>\n                    <rt-table-item>По тарифу домашней сети</rt-table-item>\n                  </rt-table-row>\n                </rt-template>\n              </rt-table>"}}),_vm._v(" "),_c('div',{staticClass:"is-b2b"},[_c('pre-code',{attrs:{"text":"\n                <div class=\"row\">\n                  <div class=\"rt-col-7 rt-col-td-3 rt-col-md-3\">\n                    <rt-table :no-borders=\"true\">\n                      <rt-template slot=\"label\">Опция «Везде ноль»</rt-template>\n                      <rt-template slot=\"columns\">\n                        <rt-table-col></rt-table-col>\n                        <rt-table-col width=\"20%\"></rt-table-col>\n                      </rt-template>\n                      <rt-template slot=\"description\">\n                        <p class=\"rt-font-paragraph rt-space-bottom2\">Позволяет воспользоваться льготными ценами на\n                          входящие звонки за пределами России.</p>\n                      </rt-template>\n                      <rt-template slot=\"body\">\n                        <rt-table-row>\n                          <rt-table-item>Подключение</rt-table-item>\n                          <rt-table-item>0 ₽</rt-table-item>\n                        </rt-table-row>\n                        <rt-table-row>\n                          <rt-table-item>Абонентская плата</rt-table-item>\n                          <rt-table-item>100 ₽/сутки</rt-table-item>\n                        </rt-table-row>\n                        <rt-table-row>\n                          <rt-table-item>Стоимость интернет-трафика сверх\u2028включенного в абонентскую плату</rt-table-item>\n                          <rt-table-item>10 ₽/Мб.</rt-table-item>\n                        </rt-table-row>\n                      </rt-template>\n                    </rt-table>\n                    <div class=\"d-inline-block rt-space-top3 rt-space-right4 rt-space-bottom2 rt-td-space-right3\">\n                      <h4 class=\"rt-font-bold\">*100*350*1#</h4>\n                      <p class=\"rt-font-center\">подключение</p>\n                    </div>\n                    <div class=\"d-inline-block\">\n                      <h4 class=\"rt-font-bold\">*100*350*0#</h4>\n                      <p class=\"rt-font-center\">отключение</p>\n                    </div>\n                    <div class=\"rt-col\">\n                      <rt-un-wrapper unwrap-button-text=\"показать\" :including-desktop=\"true\" :always-visible=\"true\" unwrapped-button-text=\"свернуть\">\n                        <rt-template slot=\"short-content\">\n                          Абонентская плата взимается с момента подключения услуги до момента ее отключения абонентом.\n                          Вы можете отключить услугу по возвращению в Россию,\n                        </rt-template>\n                        <rt-template slot=\"full-content\">\n                           чтобы избежать дополнительных расходов.\tТарификация услуги Мобильный Интернет в роуминге\n                          производится с интервалом 50 Кб и округлением до ближайшего целого интервала в большую сторону.\n                          Услуга действует за пределами России и доступна для подключения на всех корпоративных тарифных\n                          планах.\tЗа сутки принимается интервал с 00:00:00 до 23:59:59 по местному времени.\tЦены указаны в\n                          рублях с учетом НДС.\tСписок стран СНГ и Европы, в которых доступна услуга «Интернет за рубежом»\n                          Абхазия, Австрия, Азербайджан, Албания, Андорра, Армения, Белоруссия, Бельгия, Болгария, Ватикан,\n                          Великобритания, Венгрия, Германия, Грузия, Дания, Джерси и Гернси острова, Израиль, Ирландия,\n                          Исландия, Испания, Италия, Казахстан, Кипр, Кыргызстан, Латвия, Литва, Лихтенштейн, Люксембург,\n                          Мальта, Молдова, Монако, Нидерланды, Норвегия, Польша, Португалия, Румыния, Сан-Марино, Сербия,\n                          Словакия, Словения, Таджикистан, Турция, Узбекистан, Украина, Финляндия, Франция, Хорватия,\n                          Черногория, Чехия, Швейцария, Швеция, Эстония.\n                        </rt-template>\n                      </rt-un-wrapper>\n                    </div>\n                  </div>\n                </div>"}})],1)],1)])])])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("\n        Table\n      ")])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-12 is-b2c"},[_c('rt-card-buy',{directives:[{name:"rt-slide-content-vertical",rawName:"v-rt-slide-content-vertical",value:({
+              scrollWhenActive: true,
+              triggerClassName: 'rt-link',
+              containerClassName: 'rt-slide-content-vertical-content',
+              slideName: 'test',
+              activeContainerClassName:
+                'rt-slide-content-vertical-content--is-active'
+            }),expression:"{\n              scrollWhenActive: true,\n              triggerClassName: 'rt-link',\n              containerClassName: 'rt-slide-content-vertical-content',\n              slideName: 'test',\n              activeContainerClassName:\n                'rt-slide-content-vertical-content--is-active'\n            }"}],attrs:{"static-body-height":true,"has-custom-button":true,"is-horizontal-card":true,"custom-button-class":"rt-button-submit"}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-space-top"},[_c('div',{staticClass:"row rt-space-bottom05"},[_c('div',{staticClass:"rt-col-3 d-flex flex-column rt-col-md-3"},[_c('div',{staticClass:"rt-font-center rt-space-horizontal"},[_c('img',{staticClass:"card-long__image",attrs:{"src":"/static/images/smartHouse/smartHouse-contr10.png","alt":""}})]),_vm._v(" "),_c('div',{staticClass:"flex-center-bottom flex-fill md-d-block rt-font-center"},[_c('p',{staticClass:"rt-font-center color-main03 rt-font-label rt-space-top05"},[_vm._v("\n                        Необходим контроллер\n                      ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 rt-md-space-top rt-md-space-left15 rt-md-space-right15"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                      Wi-Fi HD-видеокамера DS-2CD-VC1\n                    ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top"},[_vm._v("\n                      Датчик открытия 3 в 1 PST02-5C детектирует открытие\n                      двери/окна, фиксирует температуру и освещенность.\n                      Идеален для управления световыми и охранными сценариями\n                    ")]),_vm._v(" "),_c('div',{staticClass:"d-flex rt-space-top d-td-block"},[_c('div',{staticClass:"d-flex"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/static/images/medium-icon.svg"}})]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Видеокамера")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                            Камера внутреннего "),_c('br'),_vm._v("\n                            видеонаблюдения\n                          ")])])]),_vm._v(" "),_c('div',{staticClass:"d-flex rt-space-left rt-td-space-left-none rt-td-space-top"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/static/images/medium-icon.svg"}})]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Видеокамера")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                            Облачное хранение "),_c('br'),_vm._v("\n                            видеозаписей в подарок\n                          ")])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-md-space-top rt-md-space-left15 flex-end-bottom flex-md-start"},[_c('div',{staticClass:"rt-space-right"},[_c('rt-price',{attrs:{"value":750.231,"only-price":true}})],1)])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-space-top05 rt-space-bottom"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"row rt-space-top05 flex-row-reverse"},[_c('div',{staticClass:"rt-col-3 rt-col-md-3"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block rt-button-submit"},[_vm._v("\n                        Подключить\n                      ")])],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 md-d-none"}),_vm._v(" "),_c('div',{staticClass:"rt-col-3 flex-center-center rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-right15 rt-md-space-right-none"},[_c('p',{staticClass:"rt-link"},[_vm._v("\n                          Характеристики\n                        ")])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-slide-content-vertical-content"},[_c('div',{staticClass:"rt-space-top2"},[_c('div',{staticClass:"rt-card-image-list rt-card-image-list--without-top-border"},[_c('div',{staticClass:"rt-card-image-list__content d-flex"},[_c('p',{staticClass:"color-main07 flex-fill"},[_vm._v("\n                        Назначение\n                      ")]),_vm._v(" "),_c('p',[_vm._v("помещение")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-image-list"},[_c('div',{staticClass:"rt-card-image-list__content d-flex"},[_c('p',{staticClass:"color-main07 flex-fill"},[_vm._v("\n                        Назначение\n                      ")]),_vm._v(" "),_c('p',[_vm._v("помещение")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-image-list"},[_c('div',{staticClass:"rt-card-image-list__content d-flex"},[_c('p',{staticClass:"color-main07 flex-fill"},[_vm._v("\n                        Назначение\n                      ")]),_vm._v(" "),_c('p',[_vm._v("\n                        92"),_c('span',{staticClass:"rt-font-sup rt-font-label"},[_vm._v("o")])])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-image-list"},[_c('div',{staticClass:"rt-card-image-list__content d-flex"},[_c('p',{staticClass:"color-main07 flex-fill"},[_vm._v("\n                        Назначение\n                      ")]),_vm._v(" "),_c('p',[_vm._v("помещение")])])])])])]),_vm._v(" "),_c('template',{slot:"form"},[_c('div',{staticClass:"rt-space-horizontal"},[_c('form',{staticClass:"rt-col-12"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-9"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                        Заявка на подключение\n                      ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 flex-end-bottom rt-col-md-3 rt-space-top2 flex-md-start"},[_c('div',{staticClass:"rt-space-right"},[_c('rt-price',{attrs:{"value":750.231,"only-price":true}})],1)])])])])])],2)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-space-top is-b2c"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6"},[_c('rt-card-buy',[_c('template',{slot:"content"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-4 rt-col-md-3 flex-column d-flex d-md-block"},[_c('div',{staticClass:"rt-space-left rt-md-space-horizontal rt-md-space-top flex-fill d-flex"},[_c('div',{staticClass:"rt-card-buy__image flex-fill",staticStyle:{"background-image":"url(/static/example-images/camera.png)"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-col-8 rt-space-vertical rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-right rt-md-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                        Видеокамера и услуга «Видеонаблюдение» в рассрочку на\n                        24 месяца\n                      ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main05"},[_vm._v("\n                        Два года сервиса в подарок\n                      ")]),_vm._v(" "),_c('ul',{staticClass:"rt-space-top"},[_c('li',{staticClass:"d-flex"},[_c('div',[_c('svg',{attrs:{"width":"56px","height":"56px","viewBox":"0 0 56 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-952.000000, -1981.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000, 0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000, 1839.000000)"}},[_c('g',{attrs:{"id":"Group-13","transform":"translate(242.000000, 142.000000)"}},[_c('g',{attrs:{"id":"Fill-170"}},[_c('path',{attrs:{"d":"M56,27.6113 C56,42.7993 43.4631273,55.1113 28,55.1113 C12.5358545,55.1113 0,42.7993 0,27.6113 C0,12.4233 12.5358545,0.1113 28,0.1113 C43.4631273,0.1113 56,12.4233 56,27.6113","fill":"#00C8F9","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-180","d":"M41.5679855,24.8671 C41.5679855,32.2621 35.4548218,38.1931 27.9996945,38.1931 C26.7992582,38.1931 25.6364945,38.0401 24.5297309,37.7531 C23.6337309,37.5211 22.7754036,37.2021 21.9639127,36.8051 C17.4890036,34.6171 14.4324218,30.0761 14.4324218,24.8671 C14.4324218,17.4721 20.47024,11.4681 27.9996945,11.4681 C35.5291491,11.4681 41.5679855,17.4721 41.5679855,24.8671","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-181","d":"M28,38.1928 C35.4928,38.1928 41.5682909,32.2268 41.5682909,24.8668 C41.5682909,17.5078 35.4928,11.5418 28,11.5418 C20.5072,11.5418 14.4317091,17.5078 14.4317091,24.8668 C14.4317091,29.5638 16.9058909,33.6928 20.6436364,36.0668","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-182","d":"M35.6039855,35.8495 L37.5415855,39.8035 C37.8399127,40.3155 37.9895855,40.9745 37.9152582,41.5605 C37.7655855,43.2445 36.1996218,44.5625 34.4860218,44.4155 L21.66304,44.4155 C20.9920582,44.4895 20.3954036,44.3425 19.7997673,43.9765 C18.3091491,43.0245 17.8611491,41.1945 18.7561309,39.7295 L20.6194036,36.0695","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-183","d":"M34.0384291,27.2099 C34.0384291,30.5049 31.3545018,33.1409 27.9995927,33.1409 C24.6446836,33.1409 21.9617745,30.5049 21.9617745,27.2099 C21.9617745,23.9159 24.6446836,21.2799 27.9995927,21.2799 C31.3545018,21.2799 34.0384291,23.9159 34.0384291,27.2099","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Fill-184","d":"M28.2236945,17.9115 C27.5527127,17.9115 27.0314036,17.3985 27.0314036,16.7405 C27.0314036,16.0805 27.5527127,15.5685 28.2236945,15.5685 C28.8946764,15.5685 29.4159855,16.0805 29.4159855,16.7405 C29.4159855,17.3255 28.8946764,17.9115 28.2236945,17.9115","fill":"#FFFFFF","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-185","d":"M28,29.0405 C29.0293818,29.0405 29.8642909,28.2215 29.8642909,27.2095 C29.8642909,26.1995 29.0293818,25.3795 28,25.3795 C26.9706182,25.3795 26.1357091,26.1995 26.1357091,27.2095 C26.1357091,28.2215 26.9706182,29.0405 28,29.0405 Z","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Видеокамера")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                              Камера внутреннего видеонаблюдения\n                            ")])])]),_vm._v(" "),_c('li',{staticClass:"d-flex rt-space-top"},[_c('div',[_c('svg',{attrs:{"width":"55px","height":"56px","viewBox":"0 0 55 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('defs',[_c('linearGradient',{attrs:{"id":"linearGradient-1","x1":"87.1217447%","y1":"0%","x2":"7.61205979%","y2":"100%"}},[_c('stop',{attrs:{"stop-color":"#00BFFE","offset":"0%"}}),_vm._v(" "),_c('stop',{attrs:{"stop-color":"#4DECFF","offset":"100%"}})],1)],1),_vm._v(" "),_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-953.000000, -2064.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000, 0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000, 1839.000000)"}},[_c('g',{attrs:{"id":"Group-14","transform":"translate(243.000000, 224.000000)"}},[_c('g',{attrs:{"id":"Clip-301","transform":"translate(0.000000, 1.000000)"}},[_c('path',{attrs:{"d":"M0,27.644 C0,42.832 12.313,55.143 27.5,55.143 C42.688,55.143 55,42.832 55,27.644 C55,12.456 42.688,0.143 27.5,0.143 C12.313,0.143 0,12.456 0,27.644","fill":"url(#linearGradient-1)","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-314","d":"M17.1025,36.4804 L15.7765,36.4804 C13.1945,36.4804 11.1005,34.1074 11.1005,31.2464 C11.0305,28.9434 12.4965,26.7794 14.7295,26.0824 C14.6605,25.5924 14.6605,25.1044 14.6605,24.6164 C14.6605,19.5214 18.3585,15.4034 22.8945,15.4034 C26.5935,15.4034 29.7345,18.1264 30.7115,21.9634 C31.6185,21.1264 32.8055,20.7084 33.9915,20.7084 C36.7135,20.7084 38.9465,23.0104 39.2255,25.9424 C41.8085,25.9424 43.9015,28.3144 43.9015,31.1754 C43.9015,34.0374 41.8085,36.4104 39.2255,36.4104 L37.6205,36.4104","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-316","d":"M22.9648,36.4101 L31.6188,36.4101","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-318","d":"M27.292,35.7822 L27.292,24.7562","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('polyline',{attrs:{"id":"Stroke-320","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round","points":"22.9648 29.082 27.2918 24.756 31.6188 29.082"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Облако")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                              Услуга «Видеонаблюдение» включает 7 дней\n                              хранения видеозаписей в облаке.\n                            ")])])])]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07"},[_vm._v("\n                        В Личном кабинете можно продлить срок хранения до 14\n                        дней за 90 руб./мес., до 30 дней—за 190 руб./мес.\n                      ")])])])])]),_vm._v(" "),_c('template',{slot:"form"},[_c('form',{staticClass:"rt-col-12"},[_c('div',{staticClass:"rt-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                      Заявка на подключение\n                    ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Контактный телефон"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-checkbox',{attrs:{"name":"sms"}},[_vm._v("\n                        Согласие на обработку персональных\n                      ")])],1)])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"d-flex d-space-between rt-space-top05 rt-space-bottom"},[_c('div',{staticClass:"flex-end-bottom"},[_vm._v("\n                    Рассрочка\n                  ")]),_vm._v(" "),_c('div',{staticClass:"d-flex"},[_c('rt-price',{attrs:{"value":480}})],1)])]),_vm._v(" "),_c('template',{slot:"button"},[_vm._v("\n                Подключить\n              ")])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6"},[_c('rt-card-buy',[_c('template',{slot:"content"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-4 rt-col-md-3 flex-column d-flex d-md-block"},[_c('div',{staticClass:"rt-space-left rt-md-space-horizontal rt-md-space-top flex-fill d-flex"},[_c('div',{staticClass:"rt-card-buy__image flex-fill",staticStyle:{"background-image":"url(/static/example-images/camera.png)"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-col-8 rt-space-vertical rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-right rt-md-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                        Видеокамера и услуга «Видеонаблюдение» в рассрочку на\n                        24 месяца\n                      ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main05"},[_vm._v("\n                        Два года сервиса в подарок\n                      ")]),_vm._v(" "),_c('ul',{staticClass:"rt-space-top"},[_c('li',{staticClass:"d-flex"},[_c('div',[_c('svg',{attrs:{"width":"56px","height":"56px","viewBox":"0 0 56 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-952.000000, -1981.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000, 0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000, 1839.000000)"}},[_c('g',{attrs:{"id":"Group-13","transform":"translate(242.000000, 142.000000)"}},[_c('g',{attrs:{"id":"Fill-170"}},[_c('path',{attrs:{"d":"M56,27.6113 C56,42.7993 43.4631273,55.1113 28,55.1113 C12.5358545,55.1113 0,42.7993 0,27.6113 C0,12.4233 12.5358545,0.1113 28,0.1113 C43.4631273,0.1113 56,12.4233 56,27.6113","fill":"#00C8F9","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-180","d":"M41.5679855,24.8671 C41.5679855,32.2621 35.4548218,38.1931 27.9996945,38.1931 C26.7992582,38.1931 25.6364945,38.0401 24.5297309,37.7531 C23.6337309,37.5211 22.7754036,37.2021 21.9639127,36.8051 C17.4890036,34.6171 14.4324218,30.0761 14.4324218,24.8671 C14.4324218,17.4721 20.47024,11.4681 27.9996945,11.4681 C35.5291491,11.4681 41.5679855,17.4721 41.5679855,24.8671","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-181","d":"M28,38.1928 C35.4928,38.1928 41.5682909,32.2268 41.5682909,24.8668 C41.5682909,17.5078 35.4928,11.5418 28,11.5418 C20.5072,11.5418 14.4317091,17.5078 14.4317091,24.8668 C14.4317091,29.5638 16.9058909,33.6928 20.6436364,36.0668","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-182","d":"M35.6039855,35.8495 L37.5415855,39.8035 C37.8399127,40.3155 37.9895855,40.9745 37.9152582,41.5605 C37.7655855,43.2445 36.1996218,44.5625 34.4860218,44.4155 L21.66304,44.4155 C20.9920582,44.4895 20.3954036,44.3425 19.7997673,43.9765 C18.3091491,43.0245 17.8611491,41.1945 18.7561309,39.7295 L20.6194036,36.0695","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-183","d":"M34.0384291,27.2099 C34.0384291,30.5049 31.3545018,33.1409 27.9995927,33.1409 C24.6446836,33.1409 21.9617745,30.5049 21.9617745,27.2099 C21.9617745,23.9159 24.6446836,21.2799 27.9995927,21.2799 C31.3545018,21.2799 34.0384291,23.9159 34.0384291,27.2099","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Fill-184","d":"M28.2236945,17.9115 C27.5527127,17.9115 27.0314036,17.3985 27.0314036,16.7405 C27.0314036,16.0805 27.5527127,15.5685 28.2236945,15.5685 C28.8946764,15.5685 29.4159855,16.0805 29.4159855,16.7405 C29.4159855,17.3255 28.8946764,17.9115 28.2236945,17.9115","fill":"#FFFFFF","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-185","d":"M28,29.0405 C29.0293818,29.0405 29.8642909,28.2215 29.8642909,27.2095 C29.8642909,26.1995 29.0293818,25.3795 28,25.3795 C26.9706182,25.3795 26.1357091,26.1995 26.1357091,27.2095 C26.1357091,28.2215 26.9706182,29.0405 28,29.0405 Z","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Видеокамера")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                              Камера внутреннего видеонаблюдения\n                            ")])])]),_vm._v(" "),_c('li',{staticClass:"d-flex rt-space-top"},[_c('div',[_c('svg',{attrs:{"width":"55px","height":"56px","viewBox":"0 0 55 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('defs',[_c('linearGradient',{attrs:{"id":"linearGradient-1","x1":"87.1217447%","y1":"0%","x2":"7.61205979%","y2":"100%"}},[_c('stop',{attrs:{"stop-color":"#00BFFE","offset":"0%"}}),_vm._v(" "),_c('stop',{attrs:{"stop-color":"#4DECFF","offset":"100%"}})],1)],1),_vm._v(" "),_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-953.000000, -2064.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000, 0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000, 1839.000000)"}},[_c('g',{attrs:{"id":"Group-14","transform":"translate(243.000000, 224.000000)"}},[_c('g',{attrs:{"id":"Clip-301","transform":"translate(0.000000, 1.000000)"}},[_c('path',{attrs:{"d":"M0,27.644 C0,42.832 12.313,55.143 27.5,55.143 C42.688,55.143 55,42.832 55,27.644 C55,12.456 42.688,0.143 27.5,0.143 C12.313,0.143 0,12.456 0,27.644","fill":"url(#linearGradient-1)","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-314","d":"M17.1025,36.4804 L15.7765,36.4804 C13.1945,36.4804 11.1005,34.1074 11.1005,31.2464 C11.0305,28.9434 12.4965,26.7794 14.7295,26.0824 C14.6605,25.5924 14.6605,25.1044 14.6605,24.6164 C14.6605,19.5214 18.3585,15.4034 22.8945,15.4034 C26.5935,15.4034 29.7345,18.1264 30.7115,21.9634 C31.6185,21.1264 32.8055,20.7084 33.9915,20.7084 C36.7135,20.7084 38.9465,23.0104 39.2255,25.9424 C41.8085,25.9424 43.9015,28.3144 43.9015,31.1754 C43.9015,34.0374 41.8085,36.4104 39.2255,36.4104 L37.6205,36.4104","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-316","d":"M22.9648,36.4101 L31.6188,36.4101","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-318","d":"M27.292,35.7822 L27.292,24.7562","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('polyline',{attrs:{"id":"Stroke-320","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round","points":"22.9648 29.082 27.2918 24.756 31.6188 29.082"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Облако")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                              Услуга «Видеонаблюдение» включает 7 дней\n                              хранения видеозаписей в облаке.\n                            ")])])])]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07"},[_vm._v("\n                        В Личном кабинете можно продлить срок хранения до 14\n                        дней за 90 руб./мес., до 30 дней—за 190 руб./мес.\n                      ")])])])])]),_vm._v(" "),_c('template',{slot:"form"},[_c('form',{staticClass:"rt-col-12"},[_c('div',{staticClass:"rt-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                      Заявка на подключение\n                    ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Контактный телефон"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-checkbox',{attrs:{"name":"sms"}},[_vm._v("\n                        Согласие на обработку персональных\n                      ")])],1)])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"d-flex d-space-between rt-space-top05 rt-space-bottom"},[_c('div',{staticClass:"flex-end-bottom"},[_vm._v("\n                    Рассрочка\n                  ")]),_vm._v(" "),_c('div',{staticClass:"d-flex"},[_c('rt-price',{attrs:{"value":480}})],1)])]),_vm._v(" "),_c('template',{slot:"button"},[_vm._v("\n                Подключить\n              ")])],2)],1)])]),_vm._v(" "),_vm._m(1)])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("\n          Cards with form\n        ")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br')])}]
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/Table.vue":
-/*!******************************************************!*\
-  !*** ./src/example-pages/components/group/Table.vue ***!
-  \******************************************************/
+/***/ "./src/example-pages/components/complex/CardsWithForms.vue":
+/*!*****************************************************************!*\
+  !*** ./src/example-pages/components/complex/CardsWithForms.vue ***!
+  \*****************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Table_vue_vue_type_template_id_576f945e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Table.vue?vue&type=template&id=576f945e& */ "./src/example-pages/components/group/Table.vue?vue&type=template&id=576f945e&");
-/* harmony import */ var _Table_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Table.vue?vue&type=script&lang=js& */ "./src/example-pages/components/group/Table.vue?vue&type=script&lang=js&");
+/* harmony import */ var _CardsWithForms_vue_vue_type_template_id_c614bb5a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CardsWithForms.vue?vue&type=template&id=c614bb5a& */ "./src/example-pages/components/complex/CardsWithForms.vue?vue&type=template&id=c614bb5a&");
+/* harmony import */ var _CardsWithForms_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CardsWithForms.vue?vue&type=script&lang=js& */ "./src/example-pages/components/complex/CardsWithForms.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -292,9 +896,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Table_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Table_vue_vue_type_template_id_576f945e___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Table_vue_vue_type_template_id_576f945e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _CardsWithForms_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CardsWithForms_vue_vue_type_template_id_c614bb5a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CardsWithForms_vue_vue_type_template_id_c614bb5a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -306,33 +910,33 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/Table.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************!*\
-  !*** ./src/example-pages/components/group/Table.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************/
+/***/ "./src/example-pages/components/complex/CardsWithForms.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************!*\
+  !*** ./src/example-pages/components/complex/CardsWithForms.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Table_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Table.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Table.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Table_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsWithForms_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./CardsWithForms.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/CardsWithForms.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsWithForms_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/Table.vue?vue&type=template&id=576f945e&":
-/*!*************************************************************************************!*\
-  !*** ./src/example-pages/components/group/Table.vue?vue&type=template&id=576f945e& ***!
-  \*************************************************************************************/
+/***/ "./src/example-pages/components/complex/CardsWithForms.vue?vue&type=template&id=c614bb5a&":
+/*!************************************************************************************************!*\
+  !*** ./src/example-pages/components/complex/CardsWithForms.vue?vue&type=template&id=c614bb5a& ***!
+  \************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Table_vue_vue_type_template_id_576f945e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Table.vue?vue&type=template&id=576f945e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Table.vue?vue&type=template&id=576f945e&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Table_vue_vue_type_template_id_576f945e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsWithForms_vue_vue_type_template_id_c614bb5a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./CardsWithForms.vue?vue&type=template&id=c614bb5a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/CardsWithForms.vue?vue&type=template&id=c614bb5a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsWithForms_vue_vue_type_template_id_c614bb5a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Table_vue_vue_type_template_id_576f945e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsWithForms_vue_vue_type_template_id_c614bb5a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

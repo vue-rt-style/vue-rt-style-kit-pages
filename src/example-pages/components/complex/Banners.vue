@@ -204,7 +204,6 @@
                        content-height='600px'
                        :without-empty-column='true'
                        :without-second-empty-column='true'
-                       justify='left'
                        content-tablet-height='500px'
                        content-mobile-height='500px'>
       <rt-banner-item background-image='/static/images/B2B/test-image.png'
@@ -240,7 +239,6 @@
                          content-height='600px'
                          :without-empty-column='true'
                          :without-second-empty-column='true'
-                         justify='left'
                          content-mobile-height='500px'
                          content-tablet-height='500px'>
         <rt-banner-item background-image='/static/images/windows.jpg'
@@ -264,7 +262,10 @@
       <div class="rt-space-bottom95-half">
         <div class="rt-space-bottom95-half">
           <div class="rt-space-bottom4">
-            <rt-banner :sleep-time="30000" :is-fullscreen-image="true" content-height="470px" :is-background-banner="true"
+            <rt-banner :sleep-time="30000"
+                       :is-fullscreen-image="true"
+                       content-height="470px"
+                       :is-background-banner="true"
                        :has-custom-content="true">
               <rt-banner-item is-game-banner-item
                               background-video="https://www.apple.com/105/media/us/iphone-se/2020/90024c0f-285a-4bf5-af04-2c38de97b06e/anim/4k-video/large_2x.mp4"

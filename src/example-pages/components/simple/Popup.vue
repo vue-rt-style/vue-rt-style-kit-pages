@@ -115,16 +115,25 @@
         </div>
         <div class="app-row"></div>
       </div>
+      <div class="rt-container rt-space-top25">
+        <documentation-builder :json="documentation" type="components"/>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+  import documentation from "vue-rt-style-kit-molecules/src/components/Popup/docs/index.json";
   import componentsList from "../../componentsList";
   export default {
     name: "AppPopup",
     components: componentsList,
-    mounted() {},
+    data: () => ({
+      documentation: {}
+    }),
+    mounted() {
+      this.documentation = documentation;
+    },
     created() {},
     methods: {}
   };

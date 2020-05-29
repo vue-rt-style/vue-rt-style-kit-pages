@@ -43,28 +43,35 @@
             </rt-radio-button>
           </div>
         </div>
+        <div class="app-row row rt-space-top">
+          <documentation-builder :json="documentation" type="components"/>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import componentsList from "../../componentsList";
-// const componentsList = {};
-export default {
-  name: "AppRadioButton",
-  components: componentsList,
-  data() {
-    return {
-      testModel: 0
-    };
-  },
-  mounted() {},
-  created() {},
-  methods: {
-    setTestModel(value) {
-      this.testModel = value;
+  import documentation from "@vue-rt-style-kit-atoms-local/components/RadioButton/docs/index.json";
+  import componentsList from "../../componentsList";
+  // const componentsList = {};
+  export default {
+    name: "AppRadioButton",
+    components: componentsList,
+    data() {
+      return {
+        testModel: 0,
+        documentation: {}
+      };
+    },
+    mounted() {
+      this.documentation = documentation;
+    },
+    created() {},
+    methods: {
+      setTestModel(value) {
+        this.testModel = value;
+      }
     }
-  }
 };
 </script>

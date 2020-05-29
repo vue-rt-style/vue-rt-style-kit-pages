@@ -1,16 +1,17 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[20],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/SlideContent.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/simple/SlideContent.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_rt_style_kit_molecules_src_components_SlideContent_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-rt-style-kit-molecules/src/components/SlideContent/docs/index.json */ "./node_modules/vue-rt-style-kit-molecules/src/components/SlideContent/docs/index.json");
-var vue_rt_style_kit_molecules_src_components_SlideContent_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! vue-rt-style-kit-molecules/src/components/SlideContent/docs/index.json */ "./node_modules/vue-rt-style-kit-molecules/src/components/SlideContent/docs/index.json", 1);
+/* harmony import */ var vue_rt_style_kit_molecules_src_components_OptionsList_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-rt-style-kit-molecules/src/components/OptionsList/docs/index.json */ "./node_modules/vue-rt-style-kit-molecules/src/components/OptionsList/docs/index.json");
+var vue_rt_style_kit_molecules_src_components_OptionsList_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! vue-rt-style-kit-molecules/src/components/OptionsList/docs/index.json */ "./node_modules/vue-rt-style-kit-molecules/src/components/OptionsList/docs/index.json", 1);
+/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
 //
 //
 //
@@ -131,29 +132,64 @@ var vue_rt_style_kit_molecules_src_components_SlideContent_docs_index_json__WEBP
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// const componentsList = {};
 
-var componentsList = {};
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppTariffCars",
-  components: componentsList,
+  name: "AppOptionList",
+  components: _componentsList__WEBPACK_IMPORTED_MODULE_1__["default"],
   data: function data() {
     return {
       documentation: {}
     };
   },
   mounted: function mounted() {
-    this.documentation = vue_rt_style_kit_molecules_src_components_SlideContent_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
-  },
-  created: function created() {},
-  methods: {}
+    this.documentation = vue_rt_style_kit_molecules_src_components_OptionsList_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
+  }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/SlideContent.vue?vue&type=template&id=71fce0f6&":
-/*!***************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/simple/SlideContent.vue?vue&type=template&id=71fce0f6& ***!
-  \***************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=295ef9c8&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=295ef9c8& ***!
+  \*************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -161,35 +197,35 @@ var componentsList = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"rt-container is-b2c"},[_c('div',{staticClass:"rt-col-12 rt-space-bottom2"},[_c('pre-code',{attrs:{"text":"<rt-slide-content>\n        <template slot=\"label\">\n          Зачем мне нужна регистрация в личном кабинете?\n        </template>\n        <template slot=\"content\">\n              <span class=\"color-main05 rt-font-small-paragraph rt-font-light\">Услуги предоставляются при наличии технической возможности\n                Цены указаны в рублях с учетом НДС. Предоставление доступа к\n                сети интернет осуществляется по технологии FTTx или по\n                технологии PON. Максимально возможная скорость при подключении\n                по технологии FTTx составляет до 90 Мбит/с. Возможно\n                предоставление доступа к сети интернет по технологии xDSL.\n                Тарифы — в разделе</span>\n        </template>\n      </rt-slide-content>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-slide-content>\n        <template slot=\"label\">\n          Зачем мне нужна регистрация в личном кабинете?\n        </template>\n        <template slot=\"content\">\n              <span class=\"color-main05 rt-font-small-paragraph rt-font-light\">Услуги предоставляются при наличии технической возможности\n                Цены указаны в рублях с учетом НДС. Предоставление доступа к\n                сети интернет осуществляется по технологии FTTx или по\n                технологии PON. Максимально возможная скорость при подключении\n                по технологии FTTx составляет до 90 Мбит/с. Возможно\n                предоставление доступа к сети интернет по технологии xDSL.\n                Тарифы — в разделе</span\n              >\n        </template>\n      </rt-slide-content>"}}),_vm._v(" "),_c('div',{staticClass:"rt-space-top45"},[_c('pre-code',{attrs:{"text":"<rt-slide-content arrow-position=\"right-bottom\">\n          <template slot=\"label\">\n            Зачем мне нужна регистрация в личном кабинете?\n          </template>\n          <template slot=\"content\">\n              <span class=\"color-main05 rt-font-small-paragraph rt-font-light\">Услуги предоставляются при наличии технической возможности\n                Цены указаны в рублях с учетом НДС. Предоставление доступа к\n                сети интернет осуществляется по технологии FTTx или по\n                технологии PON. Максимально возможная скорость при подключении\n                по технологии FTTx составляет до 90 Мбит/с. Возможно\n                предоставление доступа к сети интернет по технологии xDSL.\n                Тарифы — в разделе</span>\n          </template>\n        </rt-slide-content>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-slide-content :need-border=\"false\" arrow-position=\"right-bottom\">\n          <template slot=\"label\">\n            Зачем мне нужна регистрация в личном кабинете?\n          </template>\n          <template slot=\"content\">\n              <span class=\"color-main05 rt-font-small-paragraph rt-font-light\">Услуги предоставляются при наличии технической возможности\n                Цены указаны в рублях с учетом НДС. Предоставление доступа к\n                сети интернет осуществляется по технологии FTTx или по\n                технологии PON. Максимально возможная скорость при подключении\n                по технологии FTTx составляет до 90 Мбит/с. Возможно\n                предоставление доступа к сети интернет по технологии xDSL.\n                Тарифы — в разделе</span>\n          </template>\n        </rt-slide-content>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top45"},[_c('pre-code',{attrs:{"text":"<rt-slide-content :dotted-view=\"true\">\n          <template slot=\"header\">\n            <p class=\"rt-font-dashed rt-slide-content-trigger\">Зачем мне нужна регистрация в личном кабинете?</p>\n          </template>\n          <template slot=\"content\">\n            <div class=\"rt-space-top15\">\n              <span class=\"color-main05 rt-font-small-paragraph rt-font-light\">Услуги предоставляются при наличии технической возможности\n                Цены указаны в рублях с учетом НДС. Предоставление доступа к\n                сети интернет осуществляется по технологии FTTx или по\n                технологии PON. Максимально возможная скорость при подключении\n                по технологии FTTx составляет до 90 Мбит/с. Возможно\n                предоставление доступа к сети интернет по технологии xDSL.\n                Тарифы — в разделе</span>\n            </div>\n          </template>\n        </rt-slide-content>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top25"},[_c('pre-code',{attrs:{"text":"<rt-slide-content :dotted-view=\"true\">\n          <template slot=\"header\">\n            <p class=\"rt-font-dashed rt-slide-content-trigger\"> Зачем мне нужна регистрация в личном кабинете?</p>\n          </template>\n          <template slot=\"content\">\n            <div class=\"rt-space-top15\">\n              <span class=\"color-main05 rt-font-small-paragraph rt-font-light\">Услуги предоставляются при наличии технической возможности\n                Цены указаны в рублях с учетом НДС. Предоставление доступа к\n                сети интернет осуществляется по технологии FTTx или по\n                технологии PON. Максимально возможная скорость при подключении\n                по технологии FTTx составляет до 90 Мбит/с. Возможно\n                предоставление доступа к сети интернет по технологии xDSL.\n                Тарифы — в разделе</span>\n            </div>\n          </template>\n        </rt-slide-content>\n        "}})],1)],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("Slide content")])])])])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-content"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col-12 rt-col-td-6 rt-col-md-3 is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-options-list hash=\"123\" :has-star=\"true\">\n            <template slot=\"icon\">\n              <svg width=\"56px\" height=\"56px\" viewBox=\"0 0 56 56\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"\n                   xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n                <g id=\"Design\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n                  <g id=\"1034_mobile/options\" transform=\"translate(-173.000000, -450.000000)\" fill=\"#E3E8EC\"\n                     fill-rule=\"nonzero\">\n                    <circle id=\"Oval-Copy-15\" cx=\"201\" cy=\"478\" r=\"28\"></circle>\n                  </g>\n                </g>\n              </svg>\n            </template>\n            <template slot=\"label\">День в сети</template>\n            <template slot=\"info\">Платите только когда пользуетесь.</template>\n            <template slot=\"content\"></template>\n            <template slot=\"aside\">\n                <span class=\"rt-space-left rt-md-space-left-none\">250 мб</span>\n                <span class=\"rt-font-bold rt-space-left rt-md-space-left-none\">20 руб./мес.</span>\n            </template>\n            <template slot=\"moreinfo\">Подробнее</template>\n          </rt-options-list>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-options-list hash=\"321\">\n            <template slot=\"icon\">\n              <svg width=\"56px\" height=\"56px\" viewBox=\"0 0 56 56\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"\n                   xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n                <g id=\"Design\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n                  <g id=\"1034_mobile/options\" transform=\"translate(-173.000000, -450.000000)\" fill=\"#E3E8EC\"\n                     fill-rule=\"nonzero\">\n                    <circle id=\"Oval-Copy-15\" cx=\"201\" cy=\"478\" r=\"28\"></circle>\n                  </g>\n                </g>\n              </svg>\n            </template>\n            <template slot=\"label\">День в сети</template>\n            <template slot=\"info\">Платите только когда пользуетесь.</template>\n            <template slot=\"content\">\n              <rt-options-list-info-item>\n                <template slot=\"left\">Абонентская плата</template>\n                <template slot=\"right\">99 руб./мес.</template>\n              </rt-options-list-info-item>\n              <rt-options-list-info-item>\n                <template slot=\"left\">Объем трафика</template>\n                <template slot=\"right\">2 Гб</template>\n              </rt-options-list-info-item>\n              <rt-options-list-info-item>\n                <template slot=\"left\">Неиспользованные Гб интернет-трафика переносятся на следующий месяц</template>\n              </rt-options-list-info-item>\n              <rt-options-list-info-item>\n                <template slot=\"left\">Как отключить</template>\n              </rt-options-list-info-item>\n            </template>\n            <template slot=\"aside\">\n                <span class=\"rt-space-left rt-md-space-left-none\">250 мб</span>\n                <span class=\"rt-font-bold rt-space-left rt-md-space-left-none\">20 руб./мес.</span>\n            </template>\n            <template slot=\"moreinfo\">Подробнее</template>\n            <template slot=\"content\">\n              <rt-options-list name=\"test3\" :need-to-save=\"true\" >\n                <template slot=\"icon\"></template>\n                <template slot=\"label\">День в сети</template>\n                <template slot=\"info\">Платите только когда пользуетесь.</template>\n                <template slot=\"aside\">\n                    <span class=\"rt-space-left rt-md-space-left-none\">250 мб</span>\n                    <span class=\"rt-font-bold rt-space-left rt-md-space-left-none\">20 руб./мес.</span>\n                </template>\n                <template slot=\"moreinfo\">Подробнее</template>\n                <template slot=\"content\">\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                </template>\n              </rt-options-list>\n            </template>\n          </rt-options-list>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-options-list hash=\"3212\">\n            <template slot=\"icon\">\n              <svg width=\"56px\" height=\"56px\" viewBox=\"0 0 56 56\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"\n                   xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n                <g id=\"Design\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n                  <g id=\"1034_mobile/options\" transform=\"translate(-173.000000, -450.000000)\" fill=\"#E3E8EC\"\n                     fill-rule=\"nonzero\">\n                    <circle id=\"Oval-Copy-15\" cx=\"201\" cy=\"478\" r=\"28\"></circle>\n                  </g>\n                </g>\n              </svg>\n            </template>\n            <template slot=\"label\">День в сети</template>\n            <template slot=\"info\">Платите только когда пользуетесь.</template>\n            <template slot=\"content\">\n              <div>\n                <p>Управление услугой доступно в Личном кабинете.</p>\n                <p>Платите только когда пользуетесь.</p>\n                <p>Управление услугой доступно в Личном кабинете.</p>\n                <p>Платите только когда пользуетесь.</p>\n                <p>Управление услугой доступно в Личном кабинете.</p>\n                <p>Платите только когда пользуетесь.</p>\n                <p>Управление услугой доступно в Личном кабинете.</p>\n                <p>Платите только когда пользуетесь.</p>\n              </div>\n            </template>\n            <template slot=\"aside\">\n                <span class=\"rt-space-left rt-md-space-left-none\">250 мб</span>\n                <span class=\"rt-font-bold rt-space-left rt-md-space-left-none\">20 руб./мес.</span>\n            </template>\n            <template slot=\"moreinfo\">Подробнее</template>\n            <template slot=\"content\">\n              <rt-options-list name=\"test4\" :need-to-save=\"true\" >\n                <template slot=\"icon\"></template>\n                  <template slot=\"label\">День в сети</template>\n                <template slot=\"info\">Платите только когда пользуетесь.</template>\n                <template slot=\"aside\">\n                    <span class=\"rt-space-left rt-md-space-left-none\">250 мб</span>\n                    <span class=\"rt-font-bold rt-space-left rt-md-space-left-none\">20 руб./мес.</span>\n                </template>\n                <template slot=\"moreinfo\">Подробнее</template>\n                <template slot=\"content\">\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                </template>\n              </rt-options-list>\n            </template>\n          </rt-options-list>"}})],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-container rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col-12 rt-col-td-6 rt-col-md-3"},[_c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("Options List")])])])])}]
 
 
 
 /***/ }),
 
-/***/ "./node_modules/vue-rt-style-kit-molecules/src/components/SlideContent/docs/index.json":
-/*!*********************************************************************************************!*\
-  !*** ./node_modules/vue-rt-style-kit-molecules/src/components/SlideContent/docs/index.json ***!
-  \*********************************************************************************************/
+/***/ "./node_modules/vue-rt-style-kit-molecules/src/components/OptionsList/docs/index.json":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/vue-rt-style-kit-molecules/src/components/OptionsList/docs/index.json ***!
+  \********************************************************************************************/
 /*! exports provided: items, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-slide-content\",\"property\":\":is-open\",\"type\":[\"Boolean\"],\"description\":\"Флаг открытого слайда\",\"value\":\"false\",\"version\":\"0.1.0\"},{\"name\":\"rt-slide-content\",\"property\":\"arrow-position\",\"type\":[\"String\"],\"description\":\"Ориентация стрелки \\b\\b `left-right` `right-bottom` \",\"value\":\"left-right\",\"version\":\"0.1.18\"},{\"name\":\"rt-slide-content\",\"property\":\":need-border\",\"type\":[\"Boolean\"],\"description\":\"флаг необходимости полосы междусписками слайдов\",\"value\":\"left-right\",\"version\":\"0.1.18\"},{\"name\":\"rt-slide-content\",\"property\":\":dotted-view\",\"type\":[\"Boolean\"],\"description\":\"переключение в режим триггера и контента\",\"value\":\"left-right\",\"version\":\"0.1.19\"}]}");
+module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-option-list\",\"property\":\"hash\",\"type\":\"String\",\"description\":\"Якорь, используемый для установки активным(развёрнутым) определённого пункта, при переходе по ссылке\",\"value\":\"\"},{\"name\":\"rt-option-list\",\"property\":\"need-to-save\",\"type\":\"Boolean\",\"description\":\"Флаг для сохранения в localStorage развёрнутого пункта\",\"value\":\"false\"},{\"name\":\"rt-option-list\",\"property\":\"name\",\"type\":\"String\",\"description\":\"Имя используемое для сохранения значения в localStorage\",\"value\":\"\"},{\"name\":\"rt-option-list\",\"property\":\":close-other\",\"type\":\"Boolean\",\"description\":\"Флаг, указывающий закрывать остальные вкладки при открытии данной\",\"value\":\"false\"},{\"name\":\"rt-option-list\",\"property\":\"hasStar\",\"type\":\"Boolean\",\"description\":\"Флаг отвечающий за отображение звезды на данном пункте\",\"value\":\"false\"}]}");
 
 /***/ }),
 
-/***/ "./src/example-pages/components/simple/SlideContent.vue":
-/*!**************************************************************!*\
-  !*** ./src/example-pages/components/simple/SlideContent.vue ***!
-  \**************************************************************/
+/***/ "./src/example-pages/components/group/OptionsList.vue":
+/*!************************************************************!*\
+  !*** ./src/example-pages/components/group/OptionsList.vue ***!
+  \************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _SlideContent_vue_vue_type_template_id_71fce0f6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SlideContent.vue?vue&type=template&id=71fce0f6& */ "./src/example-pages/components/simple/SlideContent.vue?vue&type=template&id=71fce0f6&");
-/* harmony import */ var _SlideContent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SlideContent.vue?vue&type=script&lang=js& */ "./src/example-pages/components/simple/SlideContent.vue?vue&type=script&lang=js&");
+/* harmony import */ var _OptionsList_vue_vue_type_template_id_295ef9c8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./OptionsList.vue?vue&type=template&id=295ef9c8& */ "./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=295ef9c8&");
+/* harmony import */ var _OptionsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OptionsList.vue?vue&type=script&lang=js& */ "./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -199,9 +235,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _SlideContent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _SlideContent_vue_vue_type_template_id_71fce0f6___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _SlideContent_vue_vue_type_template_id_71fce0f6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _OptionsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _OptionsList_vue_vue_type_template_id_295ef9c8___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _OptionsList_vue_vue_type_template_id_295ef9c8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -213,33 +249,33 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/simple/SlideContent.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************!*\
-  !*** ./src/example-pages/components/simple/SlideContent.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************/
+/***/ "./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_SlideContent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./SlideContent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/SlideContent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_SlideContent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./OptionsList.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/simple/SlideContent.vue?vue&type=template&id=71fce0f6&":
-/*!*********************************************************************************************!*\
-  !*** ./src/example-pages/components/simple/SlideContent.vue?vue&type=template&id=71fce0f6& ***!
-  \*********************************************************************************************/
+/***/ "./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=295ef9c8&":
+/*!*******************************************************************************************!*\
+  !*** ./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=295ef9c8& ***!
+  \*******************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SlideContent_vue_vue_type_template_id_71fce0f6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./SlideContent.vue?vue&type=template&id=71fce0f6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/SlideContent.vue?vue&type=template&id=71fce0f6&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SlideContent_vue_vue_type_template_id_71fce0f6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_template_id_295ef9c8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./OptionsList.vue?vue&type=template&id=295ef9c8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=295ef9c8&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_template_id_295ef9c8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SlideContent_vue_vue_type_template_id_71fce0f6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_template_id_295ef9c8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
