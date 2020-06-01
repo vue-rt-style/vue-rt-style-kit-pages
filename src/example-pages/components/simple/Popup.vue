@@ -123,7 +123,7 @@
 </template>
 
 <script>
-  import documentation from "vue-rt-style-kit-molecules/src/components/Popup/docs/index.json";
+  import documentation from "@vue-rt-style-kit-molecules-local/components/Popup/docs/index.json";
   import componentsList from "../../componentsList";
   export default {
     name: "AppPopup",

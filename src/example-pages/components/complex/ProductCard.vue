@@ -261,7 +261,7 @@
 
 <script>
 
-  import documentation from "vue-rt-style-kit-molecules/src/components/ProductCard/docs/index.json";
+  import documentation from "@vue-rt-style-kit-molecules-local/components/ProductCard/docs/index.json";
 
   const componentsList = {};
   export default {

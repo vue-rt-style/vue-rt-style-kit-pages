@@ -56,7 +56,7 @@
 
 <script>
   import componentsList from "../../componentsList";
-  import documentation from "vue-rt-style-kit-molecules/src/components/CheckboxTabs/docs/index.json";
+  import documentation from "@vue-rt-style-kit-molecules-local/components/CheckboxTabs/docs/index.json";
 
 
   export default {

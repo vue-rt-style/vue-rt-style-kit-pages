@@ -34,7 +34,7 @@
 </template>
 
 <script>
-  import documentation from "vue-rt-style-kit-molecules/src/components/StickyBottomLine/docs/index.json";
+  import documentation from "@vue-rt-style-kit-molecules-local/components/StickyBottomLine/docs/index.json";
 
   import componentsList from "../../componentsList";
 

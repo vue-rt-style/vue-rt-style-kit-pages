@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import documentation from "vue-rt-style-kit-molecules/src/components/InlineDropdown/docs/index.json";
+import documentation from "@vue-rt-style-kit-molecules-local/components/InlineDropdown/docs/index.json";
 export default {
   name: "AppInlineDropdown",
   components: {},

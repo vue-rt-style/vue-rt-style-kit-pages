@@ -32,7 +32,7 @@
 </template>
 
 <script>
-  import documentation from "vue-rt-style-kit-molecules/src/components/Youtube/docs/index.json";
+  import documentation from "@vue-rt-style-kit-molecules-local/components/Youtube/docs/index.json";
   import componentsList from "../../componentsList";
 //  const componentsList = {};
   export default {

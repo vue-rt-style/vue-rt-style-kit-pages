@@ -156,7 +156,7 @@
 </template>
 <script>
   // const componentsList = {};
-  import documentation from "vue-rt-style-kit-molecules/src/components/OptionsList/docs/index.json";
+  import documentation from "@vue-rt-style-kit-molecules-local/components/OptionsList/docs/index.json";
   import componentsList from "../../componentsList";
 
   export default {

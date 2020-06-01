@@ -210,7 +210,7 @@
 </template>
 
 <script>
-  import documentation from "vue-rt-style-kit-molecules/src/components/BenefitBlock/docs/index.json";
+  import documentation from "@vue-rt-style-kit-molecules-local/components/BenefitBlock/docs/index.json";
   import componentsList from "../../componentsList";
   export default {
     name: "AppBenefitBlock",

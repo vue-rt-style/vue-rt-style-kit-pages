@@ -941,7 +941,7 @@
 
 <script>
 
-  import documentation from "vue-rt-style-kit-molecules/src/components/TariffCard/docs/index.json";
+  import documentation from "@vue-rt-style-kit-molecules-local/components/TariffCard/docs/index.json";
   import AppTariffCarsIcons from "./TariffCardIcons.vue";
   import AppTariffCarsText from "./TariffCardText.vue";
 

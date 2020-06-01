@@ -2019,7 +2019,7 @@
     </div>
 </template>
 <script>
-    import documentation from "vue-rt-style-kit-molecules/src/components/Card/docs/index.json";
+    import documentation from "@vue-rt-style-kit-molecules-local/components/Card/docs/index.json";
     import componentsList from "../../componentsList";
 
     export default {

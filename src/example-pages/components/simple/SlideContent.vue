@@ -119,7 +119,7 @@
 
 <script>
 
-  import documentation from "vue-rt-style-kit-molecules/src/components/SlideContent/docs/index.json";
+  import documentation from "@vue-rt-style-kit-molecules-local/components/SlideContent/docs/index.json";
 
   const componentsList = {};
   export default {

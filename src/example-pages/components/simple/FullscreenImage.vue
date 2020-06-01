@@ -105,7 +105,7 @@
 </template>
 
 <script>
-  import documentation from "vue-rt-style-kit-molecules/src/components/FullscreenImage/docs/index.json";
+  import documentation from "@vue-rt-style-kit-molecules-local/components/FullscreenImage/docs/index.json";
   import componentsList from "../../componentsList";
   // const componentsList = {};
   export default {

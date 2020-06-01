@@ -120,7 +120,7 @@
   </div>
 </template>
 <script>
-  import documentation from "vue-rt-style-kit-molecules/src/components/Opportunity/docs/index.json";
+  import documentation from "@vue-rt-style-kit-molecules-local/components/Opportunity/docs/index.json";
   import componentsList from "../../componentsList";
 
   export default {
