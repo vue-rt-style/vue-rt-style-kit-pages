@@ -8,11 +8,11 @@
 
       <div>
         <div class="rt-container is-b2c">
-          <div class="rt-col-12 rt-col-md-3">
+          <div class="rt-col-12 rt-col-md-3 rt-space-bottom">
             <h3>Carousel in Tabs</h3>
           </div>
           <div class="rt-col-12 rt-space-bottom3">
-            <rt-tabs :round-tablet-view="true">
+            <rt-tabs>
               <template slot="navigation">
                 <rt-tabs-nav-item :remove-base-tag="true" name="one">Демо-карточки</rt-tabs-nav-item>
                 <rt-tabs-nav-item :remove-base-tag="true" name="two">С фоновым изображением</rt-tabs-nav-item>
@@ -33,7 +33,8 @@
                     <rt-carousel
                       :debug="true"
                       :loader="loaderType"
-                      :loaded="slidesList.length > 0">
+                      :loaded="slidesList.length > 0"
+                    >
                       <rt-carousel-slide
                         v-for="i in slidesList"
                         :key="i">
@@ -55,7 +56,7 @@
                   </div>
                 </rt-tabs-content-item>
                 <rt-tabs-content-item name="two">
-                  <div class="area">
+                  <div class="area rt-space-top">
                     <rt-carousel :navs-pos-end="144">
                       <rt-carousel-slide
                         v-for="i in 15"
