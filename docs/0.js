@@ -9,8 +9,8 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_rt_style_kit_molecules_src_components_TariffCard_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-rt-style-kit-molecules/src/components/TariffCard/docs/index.json */ "./node_modules/vue-rt-style-kit-molecules/src/components/TariffCard/docs/index.json");
-var vue_rt_style_kit_molecules_src_components_TariffCard_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! vue-rt-style-kit-molecules/src/components/TariffCard/docs/index.json */ "./node_modules/vue-rt-style-kit-molecules/src/components/TariffCard/docs/index.json", 1);
+/* harmony import */ var _vue_rt_style_kit_molecules_local_components_TariffCard_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/TariffCard/docs/index.json */ "./src/molecules/components/TariffCard/docs/index.json");
+var _vue_rt_style_kit_molecules_local_components_TariffCard_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-molecules-local/components/TariffCard/docs/index.json */ "./src/molecules/components/TariffCard/docs/index.json", 1);
 /* harmony import */ var _TariffCardIcons_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TariffCardIcons.vue */ "./src/example-pages/components/complex/TariffCardIcons.vue");
 /* harmony import */ var _TariffCardText_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TariffCardText.vue */ "./src/example-pages/components/complex/TariffCardText.vue");
 //
@@ -969,7 +969,7 @@ componentsList[_TariffCardText_vue__WEBPACK_IMPORTED_MODULE_2__["default"].name]
     };
   },
   mounted: function mounted() {
-    this.documentation = vue_rt_style_kit_molecules_src_components_TariffCard_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
+    this.documentation = _vue_rt_style_kit_molecules_local_components_TariffCard_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
   },
   created: function created() {},
   methods: {}
@@ -1065,9 +1065,9 @@ var componentsList = {};
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/TariffCard.vue?vue&type=template&id=713522bf&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/TariffCard.vue?vue&type=template&id=5ee2a7e0&":
 /*!**************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/TariffCard.vue?vue&type=template&id=713522bf& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/TariffCard.vue?vue&type=template&id=5ee2a7e0& ***!
   \**************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1121,17 +1121,6 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
 
 /***/ }),
 
-/***/ "./node_modules/vue-rt-style-kit-molecules/src/components/TariffCard/docs/index.json":
-/*!*******************************************************************************************!*\
-  !*** ./node_modules/vue-rt-style-kit-molecules/src/components/TariffCard/docs/index.json ***!
-  \*******************************************************************************************/
-/*! exports provided: items, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-product-card\",\"property\":\":fixed-image-height\",\"type\":[\"Boolean\"],\"description\":\"Флаг фиксированной высоты в 300 для b2c\",\"value\":\"false\",\"version\":\"0.1.14\"},{\"name\":\"rt-product-card\",\"property\":\":background-image\",\"type\":[\"String\"],\"description\":\"url для background карточки\",\"value\":\"null\",\"version\":\"0.1.14\"},{\"name\":\"rt-product-card\",\"property\":\":tablet-background-image\",\"type\":[\"String\"],\"description\":\"url для background карточки для планшетов\",\"value\":\"null\",\"version\":\"0.1.14\"},{\"name\":\"rt-product-card\",\"property\":\":mobile-background-image\",\"type\":[\"String\"],\"description\":\"url для background карточки для телефонов\",\"value\":\"null\",\"version\":\"0.1.14\"},{\"name\":\"rt-product-card\",\"property\":\":safe-image-rate\",\"type\":[\"Boolean\"],\"description\":\"сохранение пропорций изображения для мобильной версии\",\"value\":\"false\",\"version\":\"0.1.17\"},{\"name\":\"rt-product-card\",\"property\":\":content-orientation\",\"type\":[\"String\"],\"description\":\"установка прибивки контента \\n возжмый ввод 'top' и 'bottom'\",\"value\":\"top\",\"version\":\"0.1.17\"}]}");
-
-/***/ }),
-
 /***/ "./src/example-pages/components/complex/TariffCard.vue":
 /*!*************************************************************!*\
   !*** ./src/example-pages/components/complex/TariffCard.vue ***!
@@ -1141,7 +1130,7 @@ module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-product-card\",\"propert
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _TariffCard_vue_vue_type_template_id_713522bf___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TariffCard.vue?vue&type=template&id=713522bf& */ "./src/example-pages/components/complex/TariffCard.vue?vue&type=template&id=713522bf&");
+/* harmony import */ var _TariffCard_vue_vue_type_template_id_5ee2a7e0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TariffCard.vue?vue&type=template&id=5ee2a7e0& */ "./src/example-pages/components/complex/TariffCard.vue?vue&type=template&id=5ee2a7e0&");
 /* harmony import */ var _TariffCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TariffCard.vue?vue&type=script&lang=js& */ "./src/example-pages/components/complex/TariffCard.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
@@ -1153,8 +1142,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _TariffCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _TariffCard_vue_vue_type_template_id_713522bf___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _TariffCard_vue_vue_type_template_id_713522bf___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _TariffCard_vue_vue_type_template_id_5ee2a7e0___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TariffCard_vue_vue_type_template_id_5ee2a7e0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1180,19 +1169,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/TariffCard.vue?vue&type=template&id=713522bf&":
+/***/ "./src/example-pages/components/complex/TariffCard.vue?vue&type=template&id=5ee2a7e0&":
 /*!********************************************************************************************!*\
-  !*** ./src/example-pages/components/complex/TariffCard.vue?vue&type=template&id=713522bf& ***!
+  !*** ./src/example-pages/components/complex/TariffCard.vue?vue&type=template&id=5ee2a7e0& ***!
   \********************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TariffCard_vue_vue_type_template_id_713522bf___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./TariffCard.vue?vue&type=template&id=713522bf& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/TariffCard.vue?vue&type=template&id=713522bf&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TariffCard_vue_vue_type_template_id_713522bf___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TariffCard_vue_vue_type_template_id_5ee2a7e0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./TariffCard.vue?vue&type=template&id=5ee2a7e0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/TariffCard.vue?vue&type=template&id=5ee2a7e0&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TariffCard_vue_vue_type_template_id_5ee2a7e0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TariffCard_vue_vue_type_template_id_713522bf___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TariffCard_vue_vue_type_template_id_5ee2a7e0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -1327,6 +1316,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TariffCardText_vue_vue_type_template_id_452d21d4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
+
+/***/ }),
+
+/***/ "./src/molecules/components/TariffCard/docs/index.json":
+/*!*************************************************************!*\
+  !*** ./src/molecules/components/TariffCard/docs/index.json ***!
+  \*************************************************************/
+/*! exports provided: items, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-product-card\",\"property\":\":fixed-image-height\",\"type\":[\"Boolean\"],\"description\":\"Флаг фиксированной высоты в 300 для b2c\",\"value\":\"false\",\"version\":\"0.1.14\"},{\"name\":\"rt-product-card\",\"property\":\":background-image\",\"type\":[\"String\"],\"description\":\"url для background карточки\",\"value\":\"null\",\"version\":\"0.1.14\"},{\"name\":\"rt-product-card\",\"property\":\":tablet-background-image\",\"type\":[\"String\"],\"description\":\"url для background карточки для планшетов\",\"value\":\"null\",\"version\":\"0.1.14\"},{\"name\":\"rt-product-card\",\"property\":\":mobile-background-image\",\"type\":[\"String\"],\"description\":\"url для background карточки для телефонов\",\"value\":\"null\",\"version\":\"0.1.14\"},{\"name\":\"rt-product-card\",\"property\":\":safe-image-rate\",\"type\":[\"Boolean\"],\"description\":\"сохранение пропорций изображения для мобильной версии\",\"value\":\"false\",\"version\":\"0.1.17\"},{\"name\":\"rt-product-card\",\"property\":\":content-orientation\",\"type\":[\"String\"],\"description\":\"установка прибивки контента \\n возжмый ввод 'top' и 'bottom'\",\"value\":\"top\",\"version\":\"0.1.17\"}]}");
 
 /***/ })
 
