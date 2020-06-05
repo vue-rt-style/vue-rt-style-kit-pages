@@ -15,7 +15,7 @@
               <rt-tabs-nav-item name="lg">
                 Large devices
               </rt-tabs-nav-item>
-              <rt-tabs-nav-item name="all">
+              <rt-tabs-nav-item :active-tab="true" name="all">
                 All devices
               </rt-tabs-nav-item>
               <rt-tabs-nav-item name="tablet">
