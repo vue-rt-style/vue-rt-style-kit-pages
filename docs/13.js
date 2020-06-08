@@ -76,6 +76,61 @@ var _vue_rt_style_kit_atoms_local_components_Checkbox_docs_index_json__WEBPACK_I
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
  //  const componentsList = {};
 
@@ -96,9 +151,9 @@ var _vue_rt_style_kit_atoms_local_components_Checkbox_docs_index_json__WEBPACK_I
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Checkbox.vue?vue&type=template&id=11e49127&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Checkbox.vue?vue&type=template&id=2542d353&":
 /*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/form/Checkbox.vue?vue&type=template&id=11e49127& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/form/Checkbox.vue?vue&type=template&id=2542d353& ***!
   \*********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -107,8 +162,8 @@ var _vue_rt_style_kit_atoms_local_components_Checkbox_docs_index_json__WEBPACK_I
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('rt-col',{attrs:{"size":4}},[_c('pre-code',{attrs:{"text":"<rt-checkbox :validate=\"{required: true}\" :required=\"true\" name=\"internet\">Интернет</rt-checkbox>"}}),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox name=\"sms\">Смс</rt-checkbox>"}})],1),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-checkbox name=\"voiseMessage\">Голосовая почта</rt-checkbox>"}}),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox name=\"calls\" :checked=\"true\">Звонки</rt-checkbox>"}})],1)],1),_vm._v(" "),_c('rt-col',{attrs:{"size":2}}),_vm._v(" "),_c('rt-col',{attrs:{"size":4}},[_c('pre-code',{attrs:{"text":"<rt-checkbox :is-orange=\"true\" :validate=\"{required: true}\" :required=\"true\" name=\"internet\">Интернет</rt-checkbox>"}}),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox :is-orange=\"true\" name=\"sms\">Смс</rt-checkbox>"}})],1),_vm._v(" "),_c('rt-checkbox',{attrs:{"name":"voiseMessage"}},[_vm._v("Голосовая почта")]),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox :is-orange=\"true\" name=\"calls\" :checked=\"true\">Звонки</rt-checkbox>"}})],1)],1)],1),_vm._v(" "),_vm._m(2),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('pre-code',{attrs:{"text":"<rt-col>\n          <div class=\"rt-space-vertical\">\n            <rt-checkbox :is-disabled=\"true\">Интернет</rt-checkbox>\n          </div>\n          <rt-checkbox :is-disabled=\"true\" :checked=\"true\">Интернет</rt-checkbox>\n        </rt-col>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row rt-space-top"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("\n\t\t\t\t\tCheckbox\n\t\t\t\t")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-row row"},[_c('p',{staticClass:"rt-font-h3 rt-col"},[_vm._v("\n\t\t\t\t\t\tcheckbox\n\t\t\t\t\t")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-row row"},[_c('p',{staticClass:"rt-font-h3 rt-col"},[_vm._v("\n\t\t\t\t\t\tdisabled checkbox\n\t\t\t\t\t")])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('rt-row',{staticClass:"app-row"},[_c('p',{staticClass:"rt-font-h3 rt-col"},[_vm._v("\n\t\t\t\t\t\tcheckbox\n\t\t\t\t\t")])]),_vm._v(" "),_c('rt-row',{staticClass:"app-row"},[_c('rt-col',{attrs:{"size":4}},[_c('pre-code',{attrs:{"text":"<rt-checkbox :validate=\"{required: true}\" :required=\"true\" name=\"internet\">Интернет</rt-checkbox>"}}),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox name=\"sms\">Смс</rt-checkbox>"}})],1),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-checkbox name=\"voiseMessage\">Голосовая почта</rt-checkbox>"}}),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox name=\"calls\" :checked=\"true\">Звонки</rt-checkbox>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox :is-disabled=\"true\">Интернет</rt-checkbox>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox :is-disabled=\"true\" :checked=\"true\">Интернет</rt-checkbox>"}})],1)],1),_vm._v(" "),_c('rt-col',{attrs:{"size":2}}),_vm._v(" "),_c('rt-col',{attrs:{"size":4}},[_c('pre-code',{attrs:{"text":"<rt-checkbox :is-orange=\"true\" :validate=\"{required: true}\" :required=\"true\" name=\"internet\">Интернет</rt-checkbox>"}}),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox :is-orange=\"true\" name=\"sms\">Смс</rt-checkbox>"}})],1),_vm._v(" "),_c('rt-checkbox',{attrs:{"is-orange":true,"name":"voiseMessage"}},[_vm._v("Голосовая почта")]),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox :is-orange=\"true\" name=\"calls\" :checked=\"true\">Звонки</rt-checkbox>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox is-orange=\"true\" :is-disabled=\"true\">Интернет</rt-checkbox>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox is-orange=\"true\" :is-disabled=\"true\" :checked=\"true\">Интернет</rt-checkbox>"}})],1)],1)],1)],1)])]),_vm._v(" "),_c('div',{staticClass:"color-block--dark-blue rt-space-vertical2"},[_c('div',{staticClass:"rt-container"},[_c('rt-col',{attrs:{"size":12}},[_c('rt-row',{staticClass:"app-row"},[_c('rt-col',{attrs:{"size":4}},[_c('pre-code',{attrs:{"text":"<rt-checkbox :bright=\"true\" :validate=\"{required: true}\" :required=\"true\" name=\"internet\">Интернет</rt-checkbox>"}}),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox :bright=\"true\" name=\"sms\">Смс</rt-checkbox>"}})],1),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-checkbox :bright=\"true\" name=\"voiseMessage\">Голосовая почта</rt-checkbox>"}}),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox :bright=\"true\" name=\"calls\" :checked=\"true\">Звонки</rt-checkbox>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox :bright=\"true\" :is-disabled=\"true\">Интернет</rt-checkbox>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox :bright=\"true\" :checked=\"true\" :is-disabled=\"true\">Интернет</rt-checkbox>"}})],1)],1),_vm._v(" "),_c('rt-col',{attrs:{"size":2}}),_vm._v(" "),_c('rt-col',{attrs:{"size":4}},[_c('pre-code',{attrs:{"text":"<rt-checkbox :bright=\"true\" :is-orange=\"true\" :validate=\"{required: true}\" :required=\"true\" name=\"internet\">Интернет</rt-checkbox>"}}),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox :bright=\"true\" :is-orange=\"true\" name=\"sms\">Смс</rt-checkbox>"}})],1),_vm._v(" "),_c('rt-checkbox',{attrs:{"bright":true,"is-orange":true,"name":"voiseMessage"}},[_vm._v("Голосовая почта")]),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox :bright=\"true\" :is-orange=\"true\" name=\"calls\" :checked=\"true\">Звонки</rt-checkbox>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox :bright=\"true\" :is-disabled=\"true\">Интернет</rt-checkbox>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical"},[_c('pre-code',{attrs:{"text":"<rt-checkbox :is-orange=\"true\" :checked=\"true\" :bright=\"true\" :is-disabled=\"true\">Интернет</rt-checkbox>"}})],1)],1)],1)],1)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-row row rt-space-top"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("\n\t\t\t\t\tCheckbox\n\t\t\t\t")])])}]
 
 
 
@@ -121,7 +176,7 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
 /*! exports provided: items, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-checkbox\",\"property\":\":is-disabled\",\"type\":\"Boolean\",\"description\":\"Делает чекбокс неактивным, так же, как атрибут `disabled`\",\"value\":\"false\"},{\"name\":\"rt-checkbox\",\"property\":\":required-rule\",\"type\":\"Boolean\",\"description\":\"Задаёт правила валидации(v-validate)\",\"value\":\"true\"},{\"name\":\"rt-checkbox\",\"property\":\":checked\",\"type\":\"Boolean\",\"description\":\"Предустановка - выбран по умолчанию\",\"value\":\"false\"},{\"name\":\"rt-checkbox\",\"property\":\"value\",\"type\":\"String\",\"description\":\"Значение, передаваемое с чекбокса, при отправке формы, содержащей данный чекбокс\",\"value\":\"\"},{\"name\":\"rt-checkbox\",\"property\":\"name\",\"type\":\"String\",\"description\":\"Устанавливает аттрибут name для кнопки\",\"value\":\"\"},{\"name\":\"rt-checkbox\",\"property\":\"uid\",\"type\":\"String\",\"description\":\"Устанавливает аттрибут id для кнопки\",\"value\":\"\"}]}");
+module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-checkbox\",\"property\":\":is-disabled\",\"type\":\"Boolean\",\"description\":\"Делает чекбокс неактивным, так же, как атрибут `disabled`\",\"value\":\"false\"},{\"name\":\"rt-checkbox\",\"property\":\":is-orange\",\"type\":\"Boolean\",\"description\":\"Делает чекбокс ораньжевым\",\"value\":\"false\",\"version\":\"0.3.24\"},{\"name\":\"rt-checkbox\",\"property\":\":bright\",\"type\":\"Boolean\",\"description\":\"Отображает чекбокс как в темной теме\",\"value\":\"false\",\"version\":\"0.3.24\"},{\"name\":\"rt-checkbox\",\"property\":\":required-rule\",\"type\":\"Boolean\",\"description\":\"Задаёт правила валидации(v-validate)\",\"value\":\"true\"},{\"name\":\"rt-checkbox\",\"property\":\":checked\",\"type\":\"Boolean\",\"description\":\"Предустановка - выбран по умолчанию\",\"value\":\"false\"},{\"name\":\"rt-checkbox\",\"property\":\"value\",\"type\":\"String\",\"description\":\"Значение, передаваемое с чекбокса, при отправке формы, содержащей данный чекбокс\",\"value\":\"\"},{\"name\":\"rt-checkbox\",\"property\":\"name\",\"type\":\"String\",\"description\":\"Устанавливает аттрибут name для кнопки\",\"value\":\"\"},{\"name\":\"rt-checkbox\",\"property\":\"uid\",\"type\":\"String\",\"description\":\"Устанавливает аттрибут id для кнопки\",\"value\":\"\"}]}");
 
 /***/ }),
 
@@ -134,7 +189,7 @@ module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-checkbox\",\"property\":
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Checkbox_vue_vue_type_template_id_11e49127___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Checkbox.vue?vue&type=template&id=11e49127& */ "./src/example-pages/components/form/Checkbox.vue?vue&type=template&id=11e49127&");
+/* harmony import */ var _Checkbox_vue_vue_type_template_id_2542d353___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Checkbox.vue?vue&type=template&id=2542d353& */ "./src/example-pages/components/form/Checkbox.vue?vue&type=template&id=2542d353&");
 /* harmony import */ var _Checkbox_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Checkbox.vue?vue&type=script&lang=js& */ "./src/example-pages/components/form/Checkbox.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
@@ -146,8 +201,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _Checkbox_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Checkbox_vue_vue_type_template_id_11e49127___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Checkbox_vue_vue_type_template_id_11e49127___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Checkbox_vue_vue_type_template_id_2542d353___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Checkbox_vue_vue_type_template_id_2542d353___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -173,19 +228,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/example-pages/components/form/Checkbox.vue?vue&type=template&id=11e49127&":
+/***/ "./src/example-pages/components/form/Checkbox.vue?vue&type=template&id=2542d353&":
 /*!***************************************************************************************!*\
-  !*** ./src/example-pages/components/form/Checkbox.vue?vue&type=template&id=11e49127& ***!
+  !*** ./src/example-pages/components/form/Checkbox.vue?vue&type=template&id=2542d353& ***!
   \***************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Checkbox_vue_vue_type_template_id_11e49127___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Checkbox.vue?vue&type=template&id=11e49127& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Checkbox.vue?vue&type=template&id=11e49127&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Checkbox_vue_vue_type_template_id_11e49127___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Checkbox_vue_vue_type_template_id_2542d353___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Checkbox.vue?vue&type=template&id=2542d353& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Checkbox.vue?vue&type=template&id=2542d353&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Checkbox_vue_vue_type_template_id_2542d353___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Checkbox_vue_vue_type_template_id_11e49127___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Checkbox_vue_vue_type_template_id_2542d353___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
