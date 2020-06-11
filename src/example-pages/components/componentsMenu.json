@@ -459,7 +459,7 @@
         {
           "name" : "vip",
           "title" : "vip",
-          "url" : "/promo/vip",
+          "url" : "/cloud",
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
