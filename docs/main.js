@@ -24450,7 +24450,7 @@ var index = [{
   }
 }, // { path: '/promo/game', name: 'promoGame', component: PromoGame },
 {
-  path: "cloud",
+  path: "/cloud",
   name: "vip",
   component: function component() {
     return __webpack_require__.e(/*! import() */ 52).then(__webpack_require__.bind(null, /*! ../components/pages/promo/vip.vue */ "./src/example-pages/components/pages/promo/vip.vue"));
