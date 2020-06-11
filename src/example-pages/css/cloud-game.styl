@@ -1,0 +1,132 @@
+.cloud-game
+  background-color: #000000
+  .app-header
+    display: none
+.cloud-g-1
+  height: 600px
+  background-image: url(https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game1.jpg)
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: cover;
+.cloud-g-1-image
+  background-image: url(https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game-top1.png)
+  background-size: contain;
+  background-repeat: no-repeat
+  background-position: center center
+  width: 100%
+  height: 100%
+  @media  (-webkit-min-device-pixel-ratio: 2),  (min-resolution: 192dpi)
+    background-image: url(https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game-top1-lg.png)
+.cloud-g-1-image-type2
+  background-image: url(https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game-top2.png)
+  @media  (-webkit-min-device-pixel-ratio: 2),  (min-resolution: 192dpi)
+    background-image: url(https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game-top2-lg.png)
+.cloud-g-1-image-type3
+  background-image: url(https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game-top3.png)
+  @media  (-webkit-min-device-pixel-ratio: 2),  (min-resolution: 192dpi)
+    background-image: url(https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game-top3-lg.png)
+.ratio2x-d-none
+  @media  (-webkit-min-device-pixel-ratio: 2),  (min-resolution: 192dpi)
+    display: none
+.ratio2x-d-none
+  @media  (-webkit-min-device-pixel-ratio: 2),  (min-resolution: 192dpi)
+    display: block
+
+
+.cloud-g-slider-item
+  transition-timing-function ease
+  transition-duration .2s
+  transition-property margin
+.cloud-g-slider-item--no-animate
+  transition-timing-function ease-in-out
+  transition-duration 0
+  transition-property margin
+.cloud-g-slider
+  user-select: none
+  display: flex
+  flex-direction: row
+  width: 100%;
+  max-width: 1660px;
+  overflow: hidden;
+  position: relative;
+  margin-left: auto
+  margin-right: auto
+  overflow: hidden;
+  &:before
+    content ''
+    width: 150px
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0,0) 100%);
+    height: 100%
+    position: absolute;
+    left: 0
+    top: 0
+  &:after
+    content ''
+    width: 150px
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    height: 100%
+    position: absolute;
+    right: 0
+    top: 0
+
+.cloud-g-slider-inner
+  margin-left: -150px
+  display: flex
+  flex-direction row
+
+
+.cloud-g-slider-img
+  width: 300px
+
+.cloud-g-bg-image
+  background-image: url(https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game2.jpg)
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: cover;
+  
+.cloud-g-slider-arrow-container
+  pointer-events none
+  position: absolute
+  left: 0
+  right: 0
+  min-height: 100%
+
+.cloud-g-slider-arrow
+  position: absolute;
+  width: 27px
+  height: 52px
+  top: -36px
+  bottom: 36px
+  margin-top: auto
+  margin-bottom: auto
+  cursor: pointer;
+  pointer-events all
+  transition-timing-function ease-in-out
+  transition-duration .2s
+  transition-property opacity
+.cloud-g-slider-arrow-hide
+  opacity: 0
+  pointer-events none
+.cloud-g-slider-arrow-right
+  right: 80px
+.cloud-g-slider-arrow-left
+  left: 80px
+
+.rt-cart-cloud-g
+  border-radius 0
+  border 1px solid rgba(255,255,255,0.3)
+  transition-timing-function ease-in-out
+  transition-duration .4s
+  transition-property box-shadow, border
+  box-shadow 0 2px 0px transparent
+
+.rt-cart-cloud-g:hover
+  border-color: rgba(255,255,255,1)
+  box-shadow: 0 2px 36px #5DB700
+
+.rt-cart-cloud-g-link
+  color #5FBD00
+.rt-cart-cloud-g.cloud-g-slider-img
+  height: 100%

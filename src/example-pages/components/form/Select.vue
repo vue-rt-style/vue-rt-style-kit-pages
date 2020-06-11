@@ -70,6 +70,7 @@
         </div>
         <div class="app-row row color-block--light-grey rt-space-top rt-space-bottom">
           <div class="rt-col-6 rt-col-md-2 d-flex flex-column">
+          b2b
             <rt-select :is-b2b-select="true" label="Выберите регион">
               <rt-select-option v-for="(option, index) in optionsList"
                                 :key="'index' + Math.random().toString(5).slice(4)"
@@ -79,6 +80,7 @@
             </rt-select>
           </div>
           <div class="rt-col-6 rt-col-md-2 d-flex flex-column">
+          b2b
             <rt-select :is-b2b-select="true"
                        label="Выберите регион"
                        :disabled="true">
@@ -92,6 +94,7 @@
         </div>
         <div class="app-row row color-block--light-grey rt-space-top rt-space-bottom">
           <div class="rt-col-6 rt-col-md-2 d-flex flex-column">
+          b2b
             <rt-select :is-b2b-select="true"
                        label="Выберите регион"
                        :has-error="true">
@@ -103,6 +106,7 @@
             </rt-select>
           </div>
           <div class="rt-col-6 rt-col-md-2 d-flex flex-column">
+          b2b
             <rt-select :is-b2b-select="true"
                        label="Выберите регион"
                        :outlined="true"
@@ -117,6 +121,7 @@
         </div>
         <div class="app-row row color-block--light-grey rt-space-top rt-space-bottom">
           <div class="rt-col-6 rt-col-md-2 d-flex flex-column">
+          b2b
             <rt-select :is-b2b-select="true"
                        label="Выберите регион"
                        :outlined="true"
@@ -129,6 +134,7 @@
             </rt-select>
           </div>
           <div class="rt-col-6 rt-col-md-2 d-flex flex-column">
+          b2b
             <rt-select :is-b2b-select="true"
                        label="Выберите регион"
                        :outlined="true"
