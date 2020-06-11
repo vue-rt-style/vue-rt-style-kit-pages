@@ -60,7 +60,7 @@ const index = [
   { path: "/game-arrows", name: "AppGameArrows", component: () => import("../components/pages/GameArrows.vue") },
   { path: "/promo/tv", name: "promoTv", component: () => import("../components/pages/promo/tv.vue") },
   // { path: '/promo/game', name: 'promoGame', component: PromoGame },
-  { path: "cloud", name: "vip", component: () => import("../components/pages/promo/vip.vue") },
+  { path: "/cloud", name: "vip", component: () => import("../components/pages/promo/vip.vue") },
   { path: "/promo/test-access", name: "testAccess", component: () => import("../components/pages/promo/test-access.vue") },
   { path: "/promo/vcod", name: "VCOD", component: () => import("../components/pages/promo/VCOD.vue") },
   { path: "/promo/business-drive", name: "business-drive", component: () => import("../components/pages/promo/business-drive.vue") },
