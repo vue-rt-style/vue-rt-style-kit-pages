@@ -1,9 +1,18 @@
 .cloud-game
   background-color: #000000
+  .rt-card__content,
+  .rt-card
+    min-height 1px
+  .rt-slide+.rt-slide
+    border-top 2px solid rgba(255,255,255,0.2)
+
+  .rt-slide__arrow #Shape-Copy
+    fill #ffffff
   .app-header
     display: none
 .cloud-g-1
-  height: 600px
+  @media (min-width: laptop-lower-limit)
+    height: 600px
   background-image: url(https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game1.jpg)
   background-repeat: no-repeat
   background-position: center center
@@ -17,6 +26,13 @@
   height: 100%
   @media  (-webkit-min-device-pixel-ratio: 2),  (min-resolution: 192dpi)
     background-image: url(https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game-top1-lg.png)
+  @media (max-width: tablet-upper-limit)
+    height: 296px
+    background-position: left center
+  @media (max-width: mobile-upper-limit)
+    height: 184px
+    background-size: contain;
+    background-position: center center
 .cloud-g-1-image-type2
   background-image: url(https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game-top2.png)
   @media  (-webkit-min-device-pixel-ratio: 2),  (min-resolution: 192dpi)
@@ -31,7 +47,6 @@
 .ratio2x-d-none
   @media  (-webkit-min-device-pixel-ratio: 2),  (min-resolution: 192dpi)
     display: block
-
 
 .cloud-g-slider-item
   transition-timing-function ease
@@ -52,34 +67,64 @@
   margin-left: auto
   margin-right: auto
   overflow: hidden;
+  max-width calc(100vw - 20px)
+  padding-left: 0
+  padding-right: 0
+  margin-left: 0
+  margin-right: 0
+  @media (max-width: tablet-upper-limit)
+    max-width 100vw
+    overflow-x auto
+    padding-left: 40px
+    padding-right: 40px
+  @media (max-width: mobile-upper-limit)
+    padding-left: 20px
+    padding-right: 20px
   &:before
     content ''
-    width: 150px
+    width: calc((20vw - 20px)/2)
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0,0) 100%);
     height: 100%
     position: absolute;
     left: 0
     top: 0
+    @media (min-width: 1600px)
+      width: 150px
+    @media (max-width: tablet-upper-limit)
+      width: 100px
+
   &:after
     content ''
-    width: 150px
+    width: calc((20vw - 20px)/2)
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,0,0) 0%, rgba(0,0,0,1) 100%);
     height: 100%
     position: absolute;
     right: 0
     top: 0
+    @media (min-width: 1600px)
+      width: 150px
+    @media (max-width: tablet-upper-limit)
+      width: 100px
 
 .cloud-g-slider-inner
-  margin-left: -150px
+
   display: flex
   flex-direction row
+  margin-left: calc((20vw - 20px)/ -2)
+  @media (min-width: 1600px)
+    margin-left: -150px
+  @media (max-width: tablet-upper-limit)
+    margin-left: 0
 
 
 .cloud-g-slider-img
-  width: 300px
-
+  width: calc(20vw - 20px)
+  @media (min-width: 1600px)
+    width: 300px
+  @media (max-width: tablet-upper-limit)
+    width: 200px
 .cloud-g-bg-image
   background-image: url(https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game2.jpg)
   background-repeat: no-repeat
@@ -106,6 +151,7 @@
   transition-timing-function ease-in-out
   transition-duration .2s
   transition-property opacity
+  z-index 10
 .cloud-g-slider-arrow-hide
   opacity: 0
   pointer-events none
@@ -121,7 +167,23 @@
   transition-duration .4s
   transition-property box-shadow, border
   box-shadow 0 2px 0px transparent
-
+  .rt-price__value
+    color white
+  .rt-price__info
+    opacity: 0.7
+  .rt-card__content
+    padding-top: 40px
+    padding-bottom: 40px
+    @media (max-width: tablet-upper-limit)
+      padding-top: 20px
+      padding-bottom: 20px
+  .rt-card__body,
+  .rt-card__footer
+    padding-left: 40px
+    padding-right: 40px
+    @media (max-width: tablet-upper-limit)
+      padding-left: 20px
+      padding-right: 20px
 .rt-cart-cloud-g:hover
   border-color: rgba(255,255,255,1)
   box-shadow: 0 2px 36px #5DB700
@@ -130,3 +192,23 @@
   color #5FBD00
 .rt-cart-cloud-g.cloud-g-slider-img
   height: 100%
+.cloud-g-icon
+  @media (max-width: tablet-upper-limit)
+    max-height 62px
+
+.cloud-g-list-item
+  padding-left: 20px
+  position: relative;
+  &:before
+    content ''
+    position: absolute;
+    left: 0
+    top: 4px
+    width: 9px
+    height: 15px
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='9px' height='15px' viewBox='0 0 9 15' version='1.1' xmlns='http://www.w3.org/2000/svg' %3e%3cg transform='translate(-443.000000, -1893.000000)'%3e%3cg transform='translate(70.000000, 1544.000000)'%3e%3cpolygon id='Path-4' fill='%235FBD00' points='373 351.077577 375.215992 349 382 356.5 375.215992 364 373 361.922423 377.903714 356.5'%3e%3c/polygon%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+
+.cloud-g-list-item+.cloud-g-list-item
+  margin-top: 20px
+
+
