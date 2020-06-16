@@ -1,5 +1,13 @@
 .cloud-game
   background-color: #000000
+  .cloud-g-header
+    position: absolute;
+    top: 0
+    left: 0
+    right: 0
+  .rt-logo__rt-text
+    margin-bottom: 5px
+    margin-left: 5px
   .rt-card__content,
   .rt-card
     min-height 1px
@@ -93,6 +101,10 @@
       width: 150px
     @media (max-width: tablet-upper-limit)
       width: 100px
+      height: 220px
+      top:inherit
+      margin-top: -40px
+      left -2px
 
   &:after
     content ''
@@ -107,6 +119,10 @@
       width: 150px
     @media (max-width: tablet-upper-limit)
       width: 100px
+      height: 220px
+      top:inherit
+      margin-top: -40px
+      right:  -2px
 
 .cloud-g-slider-inner
 
@@ -169,6 +185,8 @@
   box-shadow 0 2px 0px transparent
   .rt-price__value
     color white
+    @media (max-width: tablet-upper-limit)
+      font-size 50px
   .rt-price__info
     opacity: 0.7
   .rt-card__content
@@ -209,6 +227,28 @@
     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='9px' height='15px' viewBox='0 0 9 15' version='1.1' xmlns='http://www.w3.org/2000/svg' %3e%3cg transform='translate(-443.000000, -1893.000000)'%3e%3cg transform='translate(70.000000, 1544.000000)'%3e%3cpolygon id='Path-4' fill='%235FBD00' points='373 351.077577 375.215992 349 382 356.5 375.215992 364 373 361.922423 377.903714 356.5'%3e%3c/polygon%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
 
 .cloud-g-list-item+.cloud-g-list-item
-  margin-top: 20px
+  margin-top: 1ex
 
+@media (max-width: mobile-upper-limit)
+  .row--tablet-scroll,
+  .row--mobile-scroll
+    margin-left: -20px
+    margin-right: -20px
+    .rt-col:first-child
+      margin-left: 10px
+    .rt-col:last-child
+      margin-right: 10px
 
+.cloud-g-form
+  max-height 0
+  overflow: hidden;
+  transition-timing-function ease-in-out
+  transition-duration 0
+  transition-property max-height
+
+.cloud-g-form-active
+  max-height 500px
+  @media (max-width: tablet-upper-limit)
+    max-height 100vh
+  @media (max-width: mobule-upper-limit)
+    max-height 200vh

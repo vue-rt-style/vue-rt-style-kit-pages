@@ -1,14 +1,26 @@
 <template>
 	<div class="wc-inline">
+		<div class="cloud-g-header">
+			<div class="rt-container sp-t-0-4">
+			<div class="cloud-g-logo">
+				<rt-logo width="30px" show-text="true" height="50px" color="#fff"/>
+				<div class="d-inline-block sp-l-1-1 md-d-none">
+					<img src="https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game-logo.png" alt="" width="132px"/>
+				</div>
+			</div>
+			</div>
+		</div>
 		<div class="cloud-g-1 d-flex flex-center-center">
+
 			<div class="rt-container">
 				<rt-col size="12">
+
 					<rt-row class="row-td-reverse">
 						<rt-col size="5" tablet-size="6">
 							<h1 class="rt-font-h1 rt-font-light td-sp-t-0-3">Подключайте <br class="td-d-none"> Облачные игры NVIDIA <br> GeForce NOW</h1>
 							<p class="sp-t-1-3 td-sp-t-0-3 td-sp-b-1 sp-b-2 color-white07">Наслаждайтесь любимыми играми на максимальных <br> настройках графики, даже на
 								слабом компьютере</p>
-							<rt-button class="rt-button-full-white">Выбрать тариф</rt-button>
+							<rt-button class="rt-button-full-white" v-rt-scroll-to-on-click='{"scrollToId": "tariff"}'>Выбрать тариф</rt-button>
 						</rt-col>
 						<rt-col size="7" tablet-size="6" class="d-flex flex-center-center">
 							<div class="cloud-g-1-image"></div>
@@ -135,11 +147,11 @@
 						     src="https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game-slide11-lg.png" alt="">
 					</div>
 					<div class="cloud-g-slider-item sp-r-1">
-						<div class="rt-cart-cloud-g cloud-g-slider-img sp-v-1-2 sp-h-1-2 d-flex flex-column">
+						<a href="#" class="rt-cart-cloud-g cloud-g-slider-img sp-v-1-2 sp-h-1-2 d-flex flex-column">
 							<div class="flex-fill">
 							<p class="rt-font-bold rt-font-h3">Скачай весь список игр</p>
 							</div>
-							<a href="">
+								<div class="d-inline-block">
 								<svg width="16px" height="18px" viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 									<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 										<g id="RTRU-7499_Documentation" transform="translate(-1088.000000, -1888.000000)">
@@ -151,8 +163,9 @@
 										</g>
 									</g>
 								</svg>
-								<span class="sp-l-0-2 rt-cart-cloud-g-link">Скачать PDF</span></a>
-						</div>
+								<span class="sp-l-0-2 rt-cart-cloud-g-link">Скачать PDF</span>
+								</div>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -163,7 +176,7 @@
 					<rt-col>
 						<h3 class="rt-font-h3 rt-font-light sp-b-2">Забудьте об ограничениях</h3>
 						<rt-row class="row--tablet-scroll">
-							<rt-col size="3" tablet-size="2" mobile-size="2">
+							<rt-col size="3" tablet-size="2" mobile-size="2" class="rt-col">
 								<img src="https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game-icon1.png"
 								     class="ratio2x-d-none cloud-g-icon" alt="">
 								<img src="https://static-cdn.rt.ru/sites/default/files/cloud-game/cloud-game-icon1-lg.png"
@@ -208,13 +221,13 @@
 			<div class="cloud-g-4 sp-t-5">
 				<div class="rt-container">
 
-					<rt-col>
+					<rt-col id="tariff">
 						<h3 class="rt-font-h3 rt-font-light sp-b-2">Подключайтесь в личном кабинете
 
 
 						</h3>
-						<rt-row>
-							<rt-col size="6">
+						<rt-row v-rt-resize-content-height="{querySelectorsNames:['.color-white07.sp-b-1'], mobileNotResize:true}">
+							<rt-col size="6" tablet-size="3" mobile-size="3">
 								<rt-card background-color-type="black" :is-white-color='true' class="rt-cart-cloud-g">
 									<template slot='content'><p class='rt-font-h3 rt-font-bold sp-b-0-1'>На тарифе «Игровой»</p>
 										<p class='color-white07 sp-b-1'>При условии отсутсвия активных игровых опций</p>
@@ -225,25 +238,24 @@
 										</ul>
 									</template>
 									<template slot='footer'>
-										<div class="d-flex">
-											<div class="flex-fill">
+										<rt-row class="sp-t-1-3">
+											<rt-col class="md-sp-b-0-3">
 												<rt-price
 														:value='490'
 												></rt-price>
-											</div>
-											<div class="flex-end-center">
+											</rt-col>
+											<rt-col class="flex-end-center md-flex-start-center">
 												<rt-button href="#" class="rt-button-full-white">Подключить</rt-button>
-											</div>
+											</rt-col>
 
-										</div>
-
+										</rt-row>
 									</template>
 								</rt-card>
 							</rt-col>
-							<rt-col size="6">
+							<rt-col size="6" tablet-size="3" mobile-size="3" class="md-sp-t-1">
 								<rt-card background-color-type="black" :is-white-color='true' class="rt-cart-cloud-g">
 									<template slot='content'><p class='rt-font-h3 rt-font-bold sp-b-0-1'>На любом тарифе</p>
-										<p class='color-white07 sp-b-1'>&nbsp;</p>
+										<p class='color-white07 sp-b-1'></p>
 										<ul class="cloud-g-list">
 											<li class="cloud-g-list-item rt-font-paragraph">Премиальный доступ без ограничений</li>
 											<li class="cloud-g-list-item rt-font-paragraph">Технологии трассировки лучей RTX</li>
@@ -251,18 +263,17 @@
 										</ul>
 									</template>
 									<template slot='footer'>
-										<div class="d-flex">
-											<div class="flex-fill">
+										<rt-row class="sp-t-1-3">
+											<rt-col class="md-sp-b-0-3">
 												<rt-price
 														:value='999'
 												></rt-price>
-											</div>
-											<div class="flex-end-center">
+											</rt-col>
+											<rt-col class="flex-end-center md-flex-start-center">
 												<rt-button href="#" class="rt-button-full-white">Подключить</rt-button>
-											</div>
+											</rt-col>
 
-										</div>
-
+										</rt-row>
 									</template>
 								</rt-card>
 							</rt-col>
@@ -275,48 +286,76 @@
 		<div class="sp-t-5">
 			<div class="rt-container">
 				<rt-col>
-					<h3 class="rt-font-h3">Вы не клиент Ростелекома? </h3>
+					<h3 class="rt-font-h3 rt-font-light">Вы не клиент Ростелекома? </h3>
 					<p class="rt-font-paragraph sp-t-2-2 sp-b-2-3">Отправьте заявку на подключения тарифа «Игровой» </p>
-					<rt-button class="rt-button-white">Отправить заявку</rt-button>
+					<div class="cloud-g-form">
+						<rt-row>
+							<rt-col size="3" tablet-size="3" mobile-size="3">1</rt-col>
+							<rt-col size="3" tablet-size="3" mobile-size="3">1</rt-col>
+						</rt-row>
+						<rt-row class="sp-t-1 sp-b-1">
+							<rt-col>
+								<div class="d-flex">
+									<p class="rt-font-h4 rt-font-bold sp-r-0-4">Адрес подключения</p>
+									<div>1</div>
+								</div>
+							</rt-col>
+						</rt-row>
+						<rt-row class="sp-t-1 sp-b-1">
+							<rt-col size="4">
+								1
+							</rt-col>
+							<rt-col size="2">
+								1
+							</rt-col>
+							<rt-col size="2">
+								1
+							</rt-col>
+						</rt-row>
+						<div class="sp-t-1-3">
+							<rt-button class="rt-button-white">Отправить заявку</rt-button>
+						</div>
+					</div>
+					<rt-button class="rt-button-white cloud-g-show-form">Отправить заявку</rt-button>
 				</rt-col>
 			</div>
 		</div>
 		<div class="sp-t-5">
 			<div class="rt-container">
 				<rt-col>
-					<h3 class="rt-font-h3 sp-b-2">Популярные вопросы</h3>
+					<h3 class="rt-font-h3 sp-b-2 rt-font-light">Популярные вопросы</h3>
 					<rt-slide-content>
-						<rt-template slot="label">
+						<template slot="label">
 							Как подключить услугу «Облачные игры от gfn.ru»?
-						</rt-template>
-						<rt-template slot="content">
-							Как подключить услугу «Облачные игры от gfn.ru»?
-							Как подключить услугу «Облачные игры от gfn.ru»?
+						</template>
+						<template slot="content">
 							Как подключить услугу «Облачные игры от gfn.ru»?
 							Как подключить услугу «Облачные игры от gfn.ru»?
-						</rt-template>
+							Как подключить услугу «Облачные игры от gfn.ru»?
+							Как подключить услугу «Облачные игры от gfn.ru»?
+						</template>
 					</rt-slide-content>
 					<rt-slide-content>
-						<rt-template slot="label">
+						<template slot="label">
 							Какие минимальные системные требования?
-						</rt-template>
-						<rt-template slot="content">
+						</template>
+						<template slot="content">
 							Как подключить услугу «Облачные игры от gfn.ru»?
 							Как подключить услугу «Облачные игры от gfn.ru»?
 							Как подключить услугу «Облачные игры от gfn.ru»?
 							Как подключить услугу «Облачные игры от gfn.ru»?
-						</rt-template>
+						</template>
 					</rt-slide-content>
 					<rt-slide-content>
-						<rt-template slot="label">
+						<template slot="label">
 							Как обеспечить подключение?
-						</rt-template>
-						<rt-template slot="content">
+						</template>
+						<template slot="content">
 							Как подключить услугу «Облачные игры от gfn.ru»?
 							Как подключить услугу «Облачные игры от gfn.ru»?
 							Как подключить услугу «Облачные игры от gfn.ru»?
 							Как подключить услугу «Облачные игры от gfn.ru»?
-						</rt-template>
+						</template>
 					</rt-slide-content>
 				</rt-col>
 			</div>
@@ -327,8 +366,8 @@
 					<h3 class="rt-font-h3 sp-b-2">Полезные материалы</h3>
 				</rt-col>
 				<rt-col>
-					<rt-row class="row--mobile-scroll">
-						<rt-col size="4" table-size="2" mobile-size="2">
+					<rt-row class="row--mobile-scroll"  v-rt-resize-content-height="{querySelectorsNames:['.rt-font-paragraph.sp-b-1']}">
+						<rt-col size="4" table-size="2" class="rt-col" mobile-size="2">
 							<rt-card background-color-type="black" :is-white-color='true' class="rt-cart-cloud-g">
 								<template slot='content'>
 									<p class='rt-font-paragraph sp-b-1'>Условия предоставления услуги</p>
@@ -368,7 +407,7 @@
 								</template>
 							</rt-card>
 						</rt-col>
-						<rt-col size="4" table-size="2" mobile-size="2">
+						<rt-col size="4" table-size="2" mobile-size="2" class="rt-col">
 							<rt-card background-color-type="black" :is-white-color='true' class="rt-cart-cloud-g">
 								<template slot='content'>
 									<p class='rt-font-paragraph sp-b-1'>Инструкция по подключению услуги</p>
@@ -415,6 +454,11 @@
       var isAnimated = false;
       var wrapper = document.querySelector('.cloud-g-slider-inner')
       var index = 0;
+      var wasMobileBefore = false;
+      document.querySelector('.cloud-g-show-form').addEventListener('click',function(){
+        document.querySelector('.cloud-g-form').classList.add('cloud-g-form-active');
+        document.querySelector('.cloud-g-show-form').classList.add('d-none')
+	    })
       window.addEventListener('resize',function(){
         var slideArray = document.querySelectorAll('.cloud-g-slider-item')
         var step = slideArray[1].clientWidth
@@ -422,7 +466,12 @@
         var marginLeft = step * index * -1;
         if(window.innerWidth > 1024) {
           slide.style.marginLeft = marginLeft + 'px';
+          if(wasMobileBefore){
+            document.querySelector('.cloud-g-slider').scrollTo(0,0)
+          }
+          wasMobileBefore = false
         }else{
+          wasMobileBefore = true
           slide.style.marginLeft = 0
         }
       });
