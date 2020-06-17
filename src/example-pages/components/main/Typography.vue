@@ -157,7 +157,7 @@
           <div class="rt-col-5 rt-td-col-5 rt-col-md-3">
             <p class="rt-font-paragraph rt-link rt-link--purple">Ссылка на что-либо.</p>
             <div class="rt-font-label">
-              <span class="rt-code">.rt-font-paragraph.rt-link.rt-link--purple</span>
+              <span class="rt-code">.rt-font-paragraph.rt-link</span>
             </div>
           </div>
         </div>
@@ -241,7 +241,7 @@
           <div class="rt-col-5 rt-col-td-5 rt-col-md-3">
             <p class="rt-font-small-paragraph rt-link rt-link--purple">Ссылка на что-либо.</p>
             <div class="rt-font-label">
-              <span class="rt-code">.rt-font-small-paragraph.rt-link.rt-link--purple</span>
+              <span class="rt-code">.rt-font-small-paragraph.rt-link</span>
             </div>
           </div>
         </div>
@@ -300,7 +300,7 @@
             <p class="rt-link rt-link--purple">
               Оригинальный файл.</p>
             <div class="rt-font-label">
-              <span class="rt-code">.rt-link.rt-link--purple</span>
+              <span class="rt-code">.rt-link</span>
             </div>
           </div>
         </div>
@@ -367,7 +367,7 @@
           <div class="rt-col-5 rt-col-td-5 rt-col-md-3">
             <p class="rt-font-control rt-link rt-link--purple">Ссылка на что-либо.</p>
             <div class="rt-font-label">
-              <span class="rt-code">.rt-font-control.rt-link.rt-link--purple</span>
+              <span class="rt-code">.rt-font-control.rt-link</span>
             </div>
           </div>
         </div>
@@ -448,7 +448,7 @@
           <div class="rt-col-5 rt-col-td-5 rt-col-md-3">
             <p class="rt-font-label  rt-md-space-vertical-none rt-link rt-link--purple">Ссылка на что-либо.</p>
             <div class="rt-font-label">
-              <span class="rt-code">.rt-font-label.rt-link.rt-link--purple</span>
+              <span class="rt-code">.rt-font-label.rt-link</span>
             </div>
           </div>
         </div>
@@ -528,7 +528,7 @@
           <div class="rt-col-5 rt-col-td-5 rt-col-md-3">
             <p class="rt-font-label-uppercase  rt-md-space-vertical-none rt-link rt-link--purple">Ссылка на что-либо.</p>
             <div class="rt-font-label">
-              <span class="rt-code">.tagline.rt-font-label-uppercase.rt-link.rt-link--purple</span>
+              <span class="rt-code">.tagline.rt-font-label-uppercase.rt-link</span>
             </div>
           </div>
         </div>
