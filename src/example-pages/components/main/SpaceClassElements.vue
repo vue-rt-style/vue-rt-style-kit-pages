@@ -97,13 +97,15 @@ export default {
         (new Array(5).fill(null).map((i, index) => index)).forEach(($j) => {
           ['t', 'b', 'l', 'r', 'h', 'v'].forEach((direction,directionIndex) => {
             let className = ['sp'];
-            if ($j > 0 || $i + $j == 0) {
+            if ($i + $j == 0 || $i > 0) {
               className.push(direction)
               if ($i + $j == 0) {
                 className.push('none')
               } else {
                 className.push($i);
-                className.push($j);
+                if($j > 0) {
+                  className.push($j);
+                }
                 switch (direction) {
                   case 't':
                     break;

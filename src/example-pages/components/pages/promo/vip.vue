@@ -439,7 +439,7 @@
 	<!-- Тарифы -->
 </template>
 
-
+<!--transform: translate3d(-2124px, 0px, 0px)-->
 <script>
   const componentsList = {};
   
@@ -465,14 +465,14 @@
         var slide = slideArray[0];
         var marginLeft = step * index * -1;
         if(window.innerWidth > 1024) {
-          slide.style.marginLeft = marginLeft + 'px';
+          slide.style.transform = 'translate3d('+marginLeft+'px,0px,0)'
           if(wasMobileBefore){
             document.querySelector('.cloud-g-slider').scrollTo(0,0)
           }
           wasMobileBefore = false
         }else{
           wasMobileBefore = true
-          slide.style.marginLeft = 0
+          slide.style.transform = 'translate3d(0,0,0)';
         }
       });
       document.querySelectorAll('.cloud-g-slider-arrow').forEach(function (item) {
@@ -501,7 +501,7 @@
               index= index - 1;
               var marginLeft =step*index;
 
-              slide.style.marginLeft = marginLeft+'px';
+              slide.style.transform = 'translate3d('+marginLeft+'px,0px,0)'
               setTimeout(function () {
                 isAnimated = false;
                 setRigthArrow()
@@ -511,7 +511,7 @@
               index = index + 1;
               var marginLeft =step*index;
 
-              slide.style.marginLeft = marginLeft+'px';
+              slide.style.transform = 'translate3d('+marginLeft+'px,0px,0)'
               setTimeout(function () {
                 isAnimated = false
                 setRigthArrow()

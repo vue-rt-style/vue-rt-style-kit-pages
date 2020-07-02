@@ -648,3 +648,17 @@
   max-height 100px
 
 
+.app-deprecated
+  opacity: 0.5
+  margin-top: 20px
+  transition-timing-function ease-in-out
+  transition-duration .3s
+  transition-property opacity
+  &:before
+    content 'deprecated'
+    margin-bottom: 10px
+    display: inline-block
+    font-style italic
+    text-decoration underline
+  &:hover
+    opacity: 1
