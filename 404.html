@@ -1,37 +1,263 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>vue-stylekit</title>
-  <script type="text/javascript">
-    // Single Page Apps for GitHub Pages
-    // https://github.com/rafrex/spa-github-pages
-    // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
-    // ----------------------------------------------------------------------
-    // This script takes the current url and converts the path and query
-    // string into just a query string, and then redirects the browser
-    // to the new url with only a query string and hash fragment,
-    // e.g. http://www.foo.tld/one/two?a=b&c=d#qwe, becomes
-    // http://www.foo.tld/?p=/one/two&q=a=b~and~c=d#qwe
-    // Note: this 404.html file must be at least 512 bytes for it to work
-    // with Internet Explorer (it is currently > 512 bytes)
-    // If you're creating a Project Pages site and NOT using a custom domain,
-    // then set pathPrefix = true. This way the repo name will remain in the path:
-    // https://username.github.io/repo-name/one/two?a=b&c=d#qwe becomes
-    // https://username.github.io/repo-name/?p=/one/two&q=a=b~and~c=d#qwe
-    // Otherwise, leave pathPrefix as false.
-    var pathPrefix = false;
-    var l = window.location;
-    console.info('404',l.pathname,l.pathname.split('/'))
-    l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 2).join('/') + '/?p=/' +
-        l.pathname.slice(1).split('/').slice(1).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-    );
+<div id="pageContent">
+  <style>
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .ratio2x-d-none {
+        display: none;
+      }
+
+      .ratio2x-d-block {
+        display: block;
+      }
+    }
+
+    .rt-book-slider {
+      height: 480px;
+      user-select: none;
+    }
+    @media (max-width: 1024px) {
+      .rt-book-slider {
+        height: 450px;
+      }
+    }
+    @media (max-width: 768px) {
+      .rt-book-slider {
+        height: 480px;
+      }
+    }
+
+    .rt-book-slider-image-tag {
+      max-width: 100%;
+    }
+
+    .rt-book-slider-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+      visibility: hidden;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      -webkit-transition-timing-function: ease-in-out;
+      transition-timing-function: ease-in-out;
+      -webkit-transition-duration: .4s;
+      transition-duration: .4s;
+      -webkit-transition-property: opacity, visibility;
+      transition-property: opacity, visibility;
+    }
+
+    .rt-book-slider-arrow {
+      height: 53px;
+      width: 53px;
+      border-radius: 50%;
+      box-shadow: 0 -4px 16px 0 rgba(0, 0, 0, 0.15);
+      cursor: pointer;
+      margin-top: 48px;
+    }
+
+    @media (max-width: 767px) {
+      .rt-book-slider-arrow{
+        width: 30px;
+        height: 30px;
+        margin-top: 4px;
+      }
+      .rt-book-slider-arrow-img{
+        height: 10px;
+      }
+    }
+
+    .rt-book-slider-arrow + .rt-book-slider-arrow {
+      margin-left: 28px;
+    }
+
+    .rt-book-slider-content-container {
+
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition-timing-function: ease-in-out;
+      transition-timing-function: ease-in-out;
+      -webkit-transition-duration: .4s;
+      transition-duration: .4s;
+      -webkit-transition-property: opacity, visibility;
+      transition-property: opacity, visibility;
+    }
+
+    .rt-book-slider-image-active,
+    .rt-book-slider-content-container-active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+  </style>
+
+  <script>
+    var isInit = false
+    document.onreadystatechange = function () {
+
+      if (document.readyState == "complete") {
+        init()
+        isInit = true
+      }
+    }
+
+    setTimeout(function(){
+      if(!isInit){
+        init()
+      }
+    },2000)
+    var init = function() {
+      setTimeout(function () {
+        var index = 0;
+        var size = 3;
+
+        document.querySelectorAll('.rt-book-slider-arrow').forEach(function (item) {
+
+          item.addEventListener('click', function () {
+
+            if (item.classList.contains('rt-book-slider-arrow-left')) {
+              index = (index - 1 + size) % size
+            } else {
+              index = (index + 1) % size
+            }
+            document.querySelector('.rt-book-slider-content-container-active').classList.remove('rt-book-slider-content-container-active')
+            document.querySelector('.rt-book-slider-image-active').classList.remove('rt-book-slider-image-active')
+            document.querySelectorAll('.rt-book-slider-content-container')[index].classList.add('rt-book-slider-content-container-active')
+            document.querySelectorAll('.rt-book-slider-image')[index].classList.add('rt-book-slider-image-active')
+
+          })
+        })
+      }, 1000)
+    }
   </script>
-</head>
-<body>
-</body>
-</html>
+  <div class="wc-inline">
+    <div class="rt-container">
+      <rt-col>
+        <rt-row class="rt-book-slider rt-space-top3 rt-space-bottom3 rt-md-space-top2 rt-md-space-bottom2">
+          <rt-col size="1" class="td-d-none"></rt-col>
+          <rt-col class="rt-col" size="4" tablet-size="3" mobile-size="3">
+            <div
+                class="rt-book-slider-content-container rt-book-slider-content-container-active d-flex flex-center-center">
+              <div>
+                <div class="rt-book-slider-content">
+                  <p class="rt-font-paragraph color-main07">Вы получаете</p>
+                  <p class="sp-v-1-1 rt-font-h2  rt-font-bold">Синхронизация на разных устройствах</p>
+                  <p class="rt-font-small-paragraph">Продолжайте чтение на другом устройстве с того же места.</p>
+                </div>
+                <div class="d-flex md-d-none">
+
+                  <div class="rt-book-slider-arrow rt-book-slider-arrow-left d-flex flex-center-center">
+                    <img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-arrow-left.svg" class="rt-book-slider-arrow-img"
+                         alt="">
+                  </div>
+                  <div class="rt-book-slider-arrow rt-book-slider-arrow-right d-flex flex-center-center">
+                    <img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-arrow-right.svg" class="rt-book-slider-arrow-img"
+                         alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rt-book-slider-content-container d-flex flex-center-center">
+              <div>
+                <div class="rt-book-slider-content">
+                  <p class="rt-font-paragraph color-main07">Вы получаете</p>
+                  <p class="sp-v-1-1 rt-font-h2  rt-font-bold">Удобный шрифт, цвет фона и яркость</p>
+                  <p class="rt-font-small-paragraph">Настраивайте параметры под себя для комфортного чтения. </p>
+                </div>
+                <div class="d-flex md-d-none">
+                  <div class="rt-book-slider-arrow rt-book-slider-arrow-left d-flex flex-center-center">
+                    <img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-arrow-left.svg" class="rt-book-slider-arrow-img"
+                         alt="">
+                  </div>
+                  <div class="rt-book-slider-arrow rt-book-slider-arrow-right d-flex flex-center-center">
+                    <img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-arrow-right.svg" class="rt-book-slider-arrow-img"
+                         alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rt-book-slider-content-container d-flex flex-center-center">
+              <div>
+                <div class="rt-book-slider-content">
+                  <p class="rt-font-paragraph color-main07">Вы получаете</p>
+                  <p class="sp-v-1-1 rt-font-h2  rt-font-bold">Рекомендации от редакторов ЛитРес</p>
+                  <p class="rt-font-small-paragraph">Эксперты ЛитРес поделятся своими впечатлениями и подскажут, что почитать.</p>
+                </div>
+                <div class="d-flex md-d-none">
+
+                  <div class="rt-book-slider-arrow rt-book-slider-arrow-left d-flex flex-center-center">
+                    <img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-arrow-left.svg" class="rt-book-slider-arrow-img"
+                         alt="">
+                  </div>
+                  <div class="rt-book-slider-arrow rt-book-slider-arrow-right d-flex flex-center-center">
+                    <img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-arrow-right.svg" class="rt-book-slider-arrow-img"
+                         alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </rt-col>
+          <rt-col size="6" tablet-size="3" mobile-size="3">
+            <div class="rt-book-slider-image rt-book-slider-image-active">
+              <img class="ratio2x-d-none rt-book-slider-image-tag"
+                   src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-slide-1.png" alt="">
+              <img class="d-none ratio2x-d-block rt-book-slider-image-tag"
+                   src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-slide-1-x2.png" alt="">
+              <div class="md-d-flex d-none">
+
+                <div class="rt-book-slider-arrow rt-book-slider-arrow-left d-flex flex-center-center">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-arrow-left.svg" class="rt-book-slider-arrow-img"
+                       alt="">
+                </div>
+                <div class="rt-book-slider-arrow rt-book-slider-arrow-right d-flex flex-center-center">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-arrow-right.svg" class="rt-book-slider-arrow-img"
+                       alt="">
+                </div>
+              </div>
+
+            </div>
+            <div class="rt-book-slider-image">
+              <img class="ratio2x-d-none rt-book-slider-image-tag"
+                   src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-slide-2.png" alt="">
+              <img class="d-none ratio2x-d-block rt-book-slider-image-tag"
+                   src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-slide-2-x2.png" alt="">
+              <div class="md-d-flex d-none">
+
+                <div class="rt-book-slider-arrow rt-book-slider-arrow-left d-flex flex-center-center">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-arrow-left.svg" class="rt-book-slider-arrow-img"
+                       alt="">
+                </div>
+                <div class="rt-book-slider-arrow rt-book-slider-arrow-right d-flex flex-center-center">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-arrow-right.svg" class="rt-book-slider-arrow-img"
+                       alt="">
+                </div>
+              </div>
+            </div>
+            <div class="rt-book-slider-image">
+              <img class="ratio2x-d-none rt-book-slider-image-tag"
+                   src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-slide-3.png" alt="">
+              <img class="d-none ratio2x-d-block rt-book-slider-image-tag"
+                   src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-slide-3-x2.png" alt="">
+              <div class="md-d-flex d-none">
+
+                <div class="rt-book-slider-arrow rt-book-slider-arrow-left d-flex flex-center-center">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-arrow-left.svg" class="rt-book-slider-arrow-img"
+                       alt="">
+                </div>
+                <div class="rt-book-slider-arrow rt-book-slider-arrow-right d-flex flex-center-center">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-arrow-right.svg" class="rt-book-slider-arrow-img"
+                       alt="">
+                </div>
+              </div>
+            </div>
+          </rt-col>
+        </rt-row>
+      </rt-col>
+    </div>
+  </div>
+</div>

@@ -5,7 +5,36 @@
 				<h1 class="rt-font-hero">Input</h1>
 			</div>
 			<div class="app-body">
-				<!--<div class="is-b2c">-->
+				<rt-slider>
+					<rt-slider-item>
+						<template slot="label">Вы получаете</template>
+						<template slot="title">Синхронизация на разных устройствах</template>
+						<template slot="text">Продолжайте чтение на другом устройстве с того же места. Продолжайте чтение на другом устройстве с того же Продолжайте чтение на другом устройстве с того же</template>
+						<template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-slide-3.png" alt=""/></template>
+						<template slot="image-x2"><img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-slide-3-x2.png" alt=""/></template>
+						<template slot="image-tablet"><img src="https://static-cdn.rt.ru/sites/default/files/img/domofon/main-td.jpg" alt=""/></template>
+						<template slot="image-mobile"><img src="https://static-cdn.rt.ru/sites/default/files/img/domofon/main-mb.jpg" alt=""/></template>
+					</rt-slider-item>
+					<rt-slider-item>
+						<template slot="label">Вы получаете</template>
+						<template slot="title">Рекомендации от редакторов ЛитРес</template>
+						<template slot="text">Продолжайте чтение на другом устройстве с того же места.</template>
+						<template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-slide-1.png" alt=""/></template>
+						<template slot="image-x2"><img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-slide-1-x2.png" alt=""/></template>
+						<template slot="image-tablet"><img src="https://static-cdn.rt.ru/sites/default/files/img/domofon/main-td.jpg" alt=""/></template>
+						<template slot="image-mobile"><img src="https://static-cdn.rt.ru/sites/default/files/img/domofon/main-mb.jpg" alt=""/></template>
+					</rt-slider-item>
+					<rt-slider-item>
+						<template slot="label">Вы получаете</template>
+						<template slot="title">Удобный шрифт, цвет фона и яркость</template>
+						<template slot="text">Продолжайте чтение на другом устройстве с того же места.</template>
+						<template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-slide-2.png" alt=""/></template>
+						<template slot="image-x2"><img src="https://static-cdn.rt.ru/sites/default/files/img/books_page/books-slide-2-x2.png" alt=""/></template>
+						<template slot="image-tablet"><img src="https://static-cdn.rt.ru/sites/default/files/img/domofon/main-td.jpg" alt=""/></template>
+						<template slot="image-mobile"><img src="https://static-cdn.rt.ru/sites/default/files/img/domofon/main-mb.jpg" alt=""/></template>
+					</rt-slider-item>
+				</rt-slider>
+
 				<div class="app-deprecated">
 					<div class="app-row row">
 						<div class="rt-col-4 rt-col-md-2">

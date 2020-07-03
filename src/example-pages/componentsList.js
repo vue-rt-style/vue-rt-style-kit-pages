@@ -96,7 +96,9 @@ import {
     GalleryCarouselItem,
     CountdownTimer,
     StickyBottomLine,
-    StickyHeaderLine
+    StickyHeaderLine,
+    Slider,
+    SliderItem
 } from '@vue-rt-style-kit-molecules-local'
 
 
@@ -201,6 +203,11 @@ componentsList[CheckboxTabs.name] = CheckboxTabs;
 componentsList[CountdownTimer.name] = CountdownTimer;
 componentsList[StickyBottomLine.name] = StickyBottomLine;
 componentsList[StickyHeaderLine.name] = StickyHeaderLine;
+
+
+componentsList[Slider.name] = Slider;
+componentsList[SliderItem.name] = SliderItem;
+
 console.info('** componentsList',componentsList)
 
 // componentsList[PreComponent.name] = PreComponent;
