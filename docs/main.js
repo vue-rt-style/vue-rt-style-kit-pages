@@ -1276,7 +1276,12 @@ var componentsList = {};
       sizeParams: ['size', 'mobileSize', 'tabletSize']
     };
   },
-  mounted: function mounted() {},
+  mounted: function mounted() {
+    this.bindEvents();
+  },
+  beforeDestroy: function beforeDestroy() {
+    this.unbindEvents();
+  },
   computed: {
     rowClassName: function rowClassName() {
       var _this = this;
@@ -1335,6 +1340,27 @@ var componentsList = {};
       }
 
       return classNameArray.join('-');
+    },
+    bindEvents: function bindEvents() {
+      var _this2 = this;
+
+      if (this["_events"]) {
+        Object.keys(this["_events"]).map(function (eventName) {
+          var that = _this2;
+          that["_events"][eventName].forEach(function (fn) {
+            _this2.$refs.row.addEventListener(eventName, fn);
+          });
+        });
+      }
+    },
+    unbindEvents: function unbindEvents() {
+      var _this3 = this;
+
+      if (this["_events"]) {
+        Object.keys(this["_events"]).map(function (eventName) {
+          _this3.$refs.input.removeEventListener(eventName, _this3["_events"][eventName]);
+        });
+      }
     }
   },
   render: function render(h) {
@@ -1395,18 +1421,46 @@ var componentProps = {
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "RtRow",
   props: _objectSpread(_objectSpread(_objectSpread({}, componentProps), _mixins_spaceClassMixin_js__WEBPACK_IMPORTED_MODULE_0__["spacesParamsProps"]), _mixins_displayClassMixin_js__WEBPACK_IMPORTED_MODULE_1__["displayParamsProps"]),
-  mounted: function mounted() {},
-  computed: {
-    rowClassName: function rowClassName() {
+  mounted: function mounted() {
+    this.bindEvents();
+  },
+  beforeDestroy: function beforeDestroy() {
+    this.unbindEvents();
+  },
+  methods: {
+    bindEvents: function bindEvents() {
       var _this = this;
 
+      if (this["_events"]) {
+        Object.keys(this["_events"]).map(function (eventName) {
+          var that = _this;
+          that["_events"][eventName].forEach(function (fn) {
+            _this.$refs.row.addEventListener(eventName, fn);
+          });
+        });
+      }
+    },
+    unbindEvents: function unbindEvents() {
+      var _this2 = this;
+
+      if (this["_events"]) {
+        Object.keys(this["_events"]).map(function (eventName) {
+          _this2.$refs.input.removeEventListener(eventName, _this2["_events"][eventName]);
+        });
+      }
+    }
+  },
+  computed: {
+    rowClassName: function rowClassName() {
+      var _this3 = this;
+
       var classNamesArray = [].concat(_toConsumableArray(_mixins_spaceClassMixin_js__WEBPACK_IMPORTED_MODULE_0__["spacesParamsNames"].map(function (name) {
-        if (_this[name] >= 0) {
-          return Object(_mixins_spaceClassMixin_js__WEBPACK_IMPORTED_MODULE_0__["getSpacesClass"])(name, _this[name]);
+        if (_this3[name] >= 0) {
+          return Object(_mixins_spaceClassMixin_js__WEBPACK_IMPORTED_MODULE_0__["getSpacesClass"])(name, _this3[name]);
         }
       })), _toConsumableArray(_mixins_displayClassMixin_js__WEBPACK_IMPORTED_MODULE_1__["displayParamsNames"].map(function (name) {
-        if (_this[name]) {
-          return Object(_mixins_displayClassMixin_js__WEBPACK_IMPORTED_MODULE_1__["getDisplayClass"])(name, _this[name]);
+        if (_this3[name]) {
+          return Object(_mixins_displayClassMixin_js__WEBPACK_IMPORTED_MODULE_1__["getDisplayClass"])(name, _this3[name]);
         }
       }))).filter(function (i) {
         return i && i.length > 0;
@@ -1430,10 +1484,10 @@ var componentProps = {
       return classNamesArray.join(' ');
     }
   },
-  methods: {},
   render: function render(h) {
     return h("div", {
-      "class": this.rowClassName
+      "class": this.rowClassName,
+      ref: "row"
     }, [this.$slots["default"]]);
   }
 });
@@ -16210,7 +16264,11 @@ componentList[_SliderImage_vue__WEBPACK_IMPORTED_MODULE_2__["default"].name] = _
       attrs: {
         "mobile-reverse-direction": true
       },
-      ref: "slider"
+      ref: "slider",
+      on: {
+        "touchstart": this.touchstart,
+        "touchmove": this.touchmove
+      }
     }, [this.$slots["default"], h("rt-col", {
       attrs: {
         size: "1",
@@ -16225,11 +16283,7 @@ componentList[_SliderImage_vue__WEBPACK_IMPORTED_MODULE_2__["default"].name] = _
       },
       "class": "d-flex align-center"
     }, [h("div", {
-      "class": "slider-body",
-      on: {
-        "touchstart": this.touchstart,
-        "touchmove": this.touchmove
-      }
+      "class": "slider-body"
     }, [h("div", {
       "class": "slider-content",
       style: this.contentStyle
@@ -16304,6 +16358,8 @@ componentList[_SliderImage_vue__WEBPACK_IMPORTED_MODULE_2__["default"].name] = _
     }, [h("div", {
       "class": "slider-image",
       style: this.imageStyle
+    }, [h("div", {
+      "class": "relative"
     }, [this.customSlotsSort.map(function (key, index) {
       return h("rt-slider-image", {
         attrs: {
@@ -16312,7 +16368,7 @@ componentList[_SliderImage_vue__WEBPACK_IMPORTED_MODULE_2__["default"].name] = _
           data: _this3.customSlots[key]
         }
       });
-    })])])]);
+    })])])])]);
   }
 });
 
@@ -16358,7 +16414,7 @@ __webpack_require__.r(__webpack_exports__);
 
       if (this.data.title) {
         return h("p", {
-          "class": "rt-font-h2 sp-b-1-1 rt-sp-b-1"
+          "class": "rt-font-h2 sp-b-1-1 td-sp-b-1"
         }, [this.data.title]);
       }
 
@@ -32537,8 +32593,6 @@ var SliderStore = /*#__PURE__*/function (_StorePrototype) {
     _this = _super.call(this);
 
     _defineProperty(_assertThisInitialized(_this), "getSlot", function (id) {
-      console.info('getSlot', id);
-
       if (_this.slots[id]) {
         return _this.slots[id];
       }
