@@ -1,17 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[6],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Banners.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/Banners.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_rt_style_kit_molecules_local_components_Banner_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/Banner/docs/index.json */ "./src/molecules/components/Banner/docs/index.json");
-var _vue_rt_style_kit_molecules_local_components_Banner_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-molecules-local/components/Banner/docs/index.json */ "./src/molecules/components/Banner/docs/index.json", 1);
-/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
 //
 //
 //
@@ -390,30 +387,1076 @@ var _vue_rt_style_kit_molecules_local_components_Banner_docs_index_json__WEBPACK
 //
 //
 //
-
- // const componentsList = {};
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var componentsList = {};
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppBanners",
-  components: _componentsList__WEBPACK_IMPORTED_MODULE_1__["default"],
-  data: function data() {
-    return {
-      documentation: {}
-    };
-  },
-  mounted: function mounted() {
-    this.documentation = _vue_rt_style_kit_molecules_local_components_Banner_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
-  },
+  name: "AppRadioButton",
+  components: componentsList,
+  mounted: function mounted() {},
   created: function created() {},
   methods: {}
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Banners.vue?vue&type=template&id=055e3cf2&":
-/*!***********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/Banners.vue?vue&type=template&id=055e3cf2& ***!
-  \***********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css&":
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "\n.rt-card-buy__info .flex-fill,\n.rt-card-buy__image {\n  min-height: 100%;\n}\n@media screen and (min-height: 600px) and (min-width: 800px) {\n.main-wrapper.basic .layout + .rtk-card__offers {\n    margin-top: 0 !important;\n}\n}\n.rt-font-light rt-price__value {\n  font-weight: 200;\n}\n.input-clear,\n.rt-close {\n  width: 16px;\n  height: 16px;\n  line-height: 21px;\n  vertical-align: middle;\n  text-align: center;\n}\n.rt-price__option-value {\n  height: 42px;\n  color: #000000e6;\n  font-size: 54px;\n  line-height: 47px;\n  font-weight: 400;\n}\n\n/* .connection {\n        padding-left: 10px;\n        padding-right: 10px;\n        position: relative;\n        -webkit-flex: 0 0 49.999998%;\n        -ms-flex: 0 0 49.999998%;\n        flex: 0 0 49.999998%;\n        max-width: 49.999998%;\n\n      } */\n.connection .connection__form > .rt-col-6 {\n  max-width: 100% !important;\n  padding-left: 0px;\n  padding-right: 0px;\n}\n@media (max-width: 768px) {\n.connection {\n    -webkit-box-flex: 1;\n    -moz-box-flex: 1;\n    -o-box-flex: 1;\n    box-flex: 1;\n    -webkit-flex: 0 0 99.999999%;\n    -ms-flex: 0 0 99.999999%;\n    flex: 0 0 99.999999%;\n    max-width: 99.999999%;\n}\n}\n.rt-card .rtk-input__control {\n  border-bottom-width: 1px;\n}\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d& ***!
+  \**********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -421,25 +1464,55 @@ var _vue_rt_style_kit_molecules_local_components_Banner_docs_index_json__WEBPACK
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"rt-container is-b2b"},[_c('pre-code',{attrs:{"text":"<div class=\"rt-col-12 rt-space-bottom2\">\n      <rt-banner\n        :no-triangle=\"true\"\n        :round-angles=\"true\"\n        :has-custom-content=\"true\">\n        <rt-banner-item\n          background-image=\"https://www.apple.com/v/home/ek/images/heroes/airpods-film/hero__dvsxv8smkkgi_mediumtall_2x.jpg\"\n          background-image-tablet=\"https://www.apple.com/v/home/ek/images/heroes/airpods-film/hero__dvsxv8smkkgi_mediumtall_2x.jpg\"\n          background-image-mobile=\"https://www.apple.com/v/apple-arcade/c/images/overview/game_poster_thepathless__qvjhsw7g0h26_medium_2x.jpg\"\n          background-color=\"b2b-dark-slate\">\n          <div class=\"rtb-banner__text-content\">\n            <h3 class=\"rt-font-bold rt-space-bottom05\">!!!Скидка 50% на Wi-Fi для бизнеса\u2028 при подключении интернета</h3>\n            <p class=\"rt-font-small-paragraph\">Пакет «Быть в плюсе»</p>\n          </div>\n          <div v-rt-scroll-to-on-click=\"{ scrollToId : 'test' }\">\n            <rt-button class=\"rt-button-small rt-button-white rt-button-with-ripple\">Подробнее</rt-button>\n          </div>\n        </rt-banner-item>\n      </rt-banner>\n    </div>"}})],1),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-banner :no-triangle='true'\n                     :resize-query-selectors-names='[\".rt-font-bold\",\".p1\"]'\n                     :without-empty-column='true'\n                     :without-second-empty-column='true'\n                     :transparent-background-image='true'\n                     :mobile-image-on-top='true'\n                     :switch-off-timer='true'\n                     :has-image-on-mobile='true'\n                     content-mobile-height='500px'>\n    <rt-banner-item :is-white-color='true'\n                    background-color='green'\n                    content-mobile-height='300px'\n                    content-mobile-min-height='300px'\n                    background-image='/static/images/B2B/big-internet-slide-1.png'>\n      <h2 class='rt-font-bold'>Легко обмениваться большими объемами информации</h2>\n      <p class='p1 rt-space-top rt-space-bottom25'>Отправляйте объемные\n        фото и видео, работайте с облачными сервисами и большими базами данных — скорости интернета хватит на всё</p>\n    </rt-banner-item>\n    <rt-banner-item :is-white-color='true'\n                    content-mobile-height='300px'\n                    content-mobile-min-height='300px'\n                    background-color='dark-blue-high'\n                    background-image='/static/images/B2B/big-internet-slide-2.png'>\n      <h2 class='rt-font-bold'>Эффективно работать\u2028 с онлайн-сервисами</h2>\n      <p class='p1 rt-space-top rt-space-bottom25'>Благодаря стабильному высокоскоростному интернету\n          вашим сотрудникам будет удобнее работать с корпоративной почтой и CRM-системой, что позволит повысить уровень продаж</p>\n    </rt-banner-item>\n    <rt-banner-item :is-white-color='true'\n                    content-mobile-height='300px'\n                    content-mobile-min-height='300px'\n                    background-color='dark-blue'\n                    background-image='/static/images/B2B/big-internet-slide-3.png'>\n      <h2 class='rt-font-bold'>Повысить лояльность клиентов</h2>\n      <p class='p1 rt-space-top rt-space-bottom25'>Офисы, кафе, салоны красоты и другие заведения с\n        бесплатным Wi-Fi и телевидением привлекают и удерживают больше посетителей</p>\n    </rt-banner-item>\n  </rt-banner>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-banner :set-stop-on-click='true'\n                     :sleep-time='20000'\n                     bannerLogo='/static/example-images/Logo.svg'\n                     content-mobile-min-height='80vh'\n                     content-mobile-height='300px'>\n    <rt-banner-item background-image='/static/example-images/banerBackground1.jpg'\n                    :is-white-color='true'\n                    content-mobile-min-height='80vh'\n                    content-mobile-height='200px'\n                    background-color='dark-slate'\n                    :has-image-on-mobile='true'>\n      <p class='rt-font-banner-label'>Виртуальная <br> телефония</p>\n      <p class='rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br>\n        возможностьпользоваться из любой точки мира\u2028<br> и ни одного пропущенного звонка клиента</p>\n      <rt-button class='rt-button-orange'>Подробнее</rt-button>\n    </rt-banner-item>\n    <rt-banner-item ancor-get-params-link='utm-source=vova-privet' ancor-hash-link='testBannerHash' background-color='yellow' background-image='/static/example-images/banerBackground2.jpg'><p\n      class='rt-font-banner-label'>Помогаем бизнесу <br> экономить</p>\n      <p class='rt-space-top rt-space-bottom15'>Цифровые сервисы и технологии по выгодным ценам для среднего и\n        малогобизнеса </p>\n      <rt-button class='rt-button-orange'>Подробнее</rt-button>\n    </rt-banner-item>\n  </rt-banner>"}}),_vm._v(" "),_c('div',{staticClass:"is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-banner :is-fullscreen-image='true'\n                       bannerLogo='/static/example-images/Logo.svg'\n                       :resize-query-selectors-names='[\".content-test\"]'\n                       content-height='100vh'\n                       content-mobile-min-height='100vh'\n                       content-tablet-min-height='100vh'>\n        <rt-banner-item background-image='https://photos.gurushots.com/unsafe/0x0/71310af3b26cac188987af3ae44caa82/3_a718c2caeeb62161282204f20ccfb10a.jpg'\n                        :is-white-color='true'\n                        background-color='dark-slate'\n                        content-height='100vh'\n                        content-tablet-min-height='100vh'\n                        content-mobile-min-height='100vh'>\n                        <div class='content-test'>\n          <p class='rt-font-banner-label'>Виртуальная <br> телефония</p>\n          <p class='rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br> возможностьпользоваться из любой точки мира\u2028<br> и ни одного пропущенного звонка клиента</p>\n          </div>\n          <rt-button class='rt-button-orange'>Подробнее</rt-button>\n        </rt-banner-item>\n        <rt-banner-item background-image='https://photos.gurushots.com/unsafe/0x0/6df5398beb5a48117c5fe4b75e4e6829/3_b7817d11a910801fa451d829900e17ee.jpg'\n                        :is-white-color='true'\n                        background-color='dark-slate'\n                        content-height='100vh'\n                        content-tablet-min-height='100vh'\n                        content-mobile-min-height='100vh'>\n                        <div class='content-test'>\n          <p class='rt-font-banner-label'>Виртуальная <br> телефония</p>\n          <p class='rt-space-top rt-space-bottom15'>Быстрое подключение </p>\n          </div>\n          <rt-button class='rt-button-orange'>Подробнее</rt-button>\n        </rt-banner-item>\n      </rt-banner>"}})],1),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-banner :sleep-time='10000'\n                     content-mobile-min-height='100px'\n                     content-tablet-height='450px'\n                     content-tablet-min-height='450px'\n                     content-mobile-height='300px'\n                     content-height='600px'\n                     content-min-height='300px'>\n      <rt-banner-item background-image='/static/example-images/banerBackground1.jpg'\n                      :is-white-color='true'\n                      background-color='dark-slate'\n                      content-mobile-min-height='100px'\n                      content-tablet-height='450px'\n                      content-tablet-min-height='450px'\n                      content-mobile-height='300px'\n                      content-height='600px'\n                      content-min-height='300px'>\n        <p class='rt-font-banner-label'>Виртуальная !!!<br> телефония</p>\n        <p class='rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br> возможностьпользоваться из любой точки мира\u2028<br> и ни одного пропущенного звонка клиента</p>\n        <rt-button class='rt-button-orange'>Подробнее</rt-button>\n      </rt-banner-item>\n      <rt-banner-item background-color='yellow' background-image='/static/example-images/banerBackground2.jpg'>\n      <p class='rt-font-banner-label'>Помогаем бизнесу <br> экономить</p>\n      <p class='rt-space-top rt-space-bottom15'>Цифровые сервисы и технологии по выгодным ценам для среднего и малогобизнеса </p>\n      <rt-button class='rt-button-orange'>Подробнее</rt-button>\n      </rt-banner-item>\n    </rt-banner>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-banner :switch-off-timer='true'\n                    :without-empty-column='true'\n                    :background-image-left='true'>\n      <rt-banner-item :has-image-on-mobile='true'\n                      background-image='https://photos.gurushots.com/unsafe/0x0/71310af3b26cac188987af3ae44caa82/3_465b9d026f5bcdd1429a50313d3dfe63.jpg'\n                      content-mobile-min-height='100px'\n                      content-tablet-height='500px'\n                      content-tablet-min-height='500px'\n                      content-mobile-height='500px'\n                      content-height='600px'\n                      content-min-height='500px'\n                      background-color='white'>\n        <p class='tagline rt-space-bottom05'>сервис или продукт</p>\n        <h1 class='rt-font-banner-label'>Виртуальная ++<br> телефония</h1>\n        <p class='p1 rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br>\n          возможность пользоваться из любой точки мира\u2028<br> и ни одного пропущенного звонка клиента</p>\n        <rt-button class='rt-button-orange'>Подробнее</rt-button>\n      </rt-banner-item>\n\n      <rt-banner-item background-image='https://photos.gurushots.com/unsafe/0x0/71310af3b26cac188987af3ae44caa82/3_a718c2caeeb62161282204f20ccfb10a.jpg'\n                      :has-image-on-mobile='true'\n                      background-color='dark-slate'\n                      content-mobile-min-height='100px'\n                      content-tablet-height='500px'\n                      content-tablet-min-height='500px'\n                      content-mobile-height='500px'\n                      content-height='600px'\n                      content-min-height='500px'>\n        <rt-color-line-text color-icon='orange'\n                            fill-color='white'>\n          <template slot='label'>Мама мыла раму!</template>\n          <template slot='content'>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template>\n        </rt-color-line-text>\n        <rt-button class='rt-button-orange'>Подробнее</rt-button>\n      </rt-banner-item>\n\n  </rt-banner>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-banner :switch-off-timer='true'\n                     :is-fullscreen-image='true'\n                     content-height='600px'\n                     :without-empty-column='true'\n                     :without-second-empty-column='true'\n                     content-tablet-height='500px'\n                     content-mobile-height='500px'>\n    <rt-banner-item background-image='/static/images/B2B/test-image.png'\n                    :is-white-color='true'\n                    background-color='main-color'\n                    content-tablet-height='500px'\n                    content-mobile-height='500px'>\n        <div class='rt-link-back-wrapper'>\n          <svg width='16px' height='16px' viewBox='0 0 16 16' class='rt-vam rt-link-arrow'>\n            <path d='M 8,15 L 1,8 L 16,8 L 1,8 L 8,1' stroke='#000000' stroke-width='2' fill='none'/>\n          </svg>\n          <a href='#' class='rt-link-back'>Текст ссылки</a>\n        </div>\n        <h1 class='rt-font-banner-label'>Виртуальная <br> телефония</h1>\n        <p class='p1 rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br>\n          возможность пользоваться из любой точки мира\u2028<br> и ни одного пропущенного звонка клиента</p>\n        <rt-button class='rt-button-orange'>Подробнее</rt-button>\n      </rt-banner-item>\n      <rt-banner-item background-image='/static/images/B2B/telephony-banner-bg.png'\n                      :is-white-color='true'\n                      background-color='green'\n                      :color-fill-on-mobile='true'>\n        <p class='rt-font-banner-label'>Телефония</p>\n        <p class='rt-space-top rt-space-bottom15'>Комплексные сервисы защиты цифровых <br>систем вашего бизнеса</p>\n      </rt-banner-item>\n    </rt-banner>\n  "}}),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-banner :switch-off-timer='true'\n                       :fixed-image='true'\n                       :is-fullscreen-image='true'\n                       content-height='600px'\n                       :without-empty-column='true'\n                       :without-second-empty-column='true'\n                       content-mobile-height='500px'\n                       content-tablet-height='500px'>\n      <rt-banner-item background-image='/static/images/windows.jpg'\n                      :is-white-color='true'\n                      content-mobile-min-height='100px'\n                      content-tablet-height='500px'\n                      content-tablet-min-height='500px'\n                      content-mobile-height='500px'\n                      content-height='600px'\n                      content-min-height='500px'>\n          <p class='tagline color-orange rt-space-bottom05'>сервис или продукт</p>\n          <rt-color-line-text color-icon='orange' fill-color='dark-blue'>\n            <template slot='label'>Виртуальная <br> телефония</template>\n            <template slot='content'>Быстрое подключение без трат на оборудование,<br>\n      возможность пользоваться из любой точки мира\u2028<br> и ни одного пропущенного звонка клиента</template>\n    </rt-color-line-text>\n    <rt-button class='rt-button-orange'>Подробнее</rt-button>\n    </rt-banner-item>\n    </rt-banner>\n    "}}),_vm._v(" "),_c('div',{staticClass:"rt-space-bottom95-half"},[_c('div',{staticClass:"rt-space-bottom95-half"},[_c('div',{staticClass:"rt-space-bottom4"},[_c('rt-banner',{attrs:{"sleep-time":30000,"is-fullscreen-image":true,"content-height":"470px","is-background-banner":true,"has-custom-content":true}},[_c('rt-banner-item',{attrs:{"is-game-banner-item":"","background-video":"https://www.apple.com/105/media/us/iphone-se/2020/90024c0f-285a-4bf5-af04-2c38de97b06e/anim/4k-video/large_2x.mp4","is-white-color":true,"background-color":"dark-slate","content-mobile-min-height":"100px","content-tablet-height":"470px","content-tablet-min-height":"470px","content-mobile-height":"500px","content-height":"470px","content-min-height":"470px"}})],1)],1)])]),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-banner :is-fullscreen-image='true'\n                               :sleep-time='30000'\n                               content-height='100vh'\n                               content-mobile-min-height='100vh'\n                               content-tablet-height='400px'\n                               content-mobile-height='400px'>\n    <rt-banner-item background-video='https://www.apple.com/105/media/us/iphone-se/2020/90024c0f-285a-4bf5-af04-2c38de97b06e/anim/4k-video/large_2x.mp4'\n                    :slide-time='50000'\n                    link-target='_blank'\n                    link='https://www.google.co.uk/search?q=yosemite+national+park'\n                    :is-white-color='true'\n                    background-color='dark-slate'\n                    content-mobile-min-height='100px'\n                    content-tablet-height='500px'\n                    content-tablet-min-height='500px'\n                    content-mobile-height='500px'\n                    content-height='600px'\n                    content-min-height='500px'>\n      <rt-color-line-text label-color='red' content-color='red'>\n        <template slot='label'>Расширяя границы</template>\n        <template slot='content'>Высокоскоростной интернет теперь повсюду</template>\n      </rt-color-line-text>\n      <rt-button class='rt-button-orange'>Подробнее</rt-button>\n    </rt-banner-item>\n    <rt-banner-item background-color='yellow'\n                    background-image='/static/example-images/banerBackground2.jpg'\n                    :slide-time='2000'\n                    content-mobile-min-height='100px'\n                    content-tablet-height='500px'\n                    content-tablet-min-height='500px'\n                    content-mobile-height='500px'\n                    content-height='600px'\n                    content-min-height='500px'>\n      <rt-color-line-text>\n        <template slot='label'>Помогаем бизнесу <br> экономить</template>\n        <template slot='content'>Цифровые сервисы и технологии по выгодным ценам для среднего и малогобизнеса\n        </template>\n      </rt-color-line-text>\n      <rt-button class='rt-button-orange'>Подробнее</rt-button>\n    </rt-banner-item>\n    <rt-banner-item link='https://www.google.co.uk/search?q=ElephantsDream'\n                    background-video='http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'\n                    background-color='orange'\n                    :slide-time='30000'\n                    content-mobile-min-height='100px'\n                    content-tablet-height='500px'\n                    content-tablet-min-height='500px'\n                    content-mobile-height='500px'\n                    content-height='600px'\n                    content-min-height='500px'>\n      <rt-color-line-text color-icon='purple'>\n        <template slot='label'>Wink</template>\n        <template slot='content'>Более 200 ТВ-каналов, тысячи фильмов и сериалов в одном приложении</template>\n      </rt-color-line-text>\n      <rt-button class='rt-button-purple'>Подробнее</rt-button>\n    </rt-banner-item>\n  </rt-banner>"}})],1),_vm._v(" "),_c('rt-banner',{attrs:{"is-fullscreen-image":true,"content-height":"500px","content-mobile-height":"500px","content-tablet-height":"500px"}},[_c('rt-banner-item',{attrs:{"is-white-color":true,"background-image":"/static/images/B2B/ArtboardCopy.png","background-color":"main-color","half-height-image":true,"content-mobile-min-height":"500px","content-tablet-height":"500px","content-tablet-min-height":"500px","content-mobile-height":"500px","content-height":"600px","content-min-height":"500px"}},[_c('p',{staticClass:"rt-font-bold rt-font-h2"},[_vm._v("Виртуальная АТС")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-bottom05-half"},[_vm._v("Ни одного пропущенного звонка, работает без офиса и\n        дополнительного оборудования, из любой точки мира")]),_vm._v(" "),_c('div',{staticClass:"rt-space-bottom25",attrs:{"id":"test"}},[_c('rt-button',{staticClass:"rt-button-orange"},[_vm._v("Оставить заявку")])],1),_vm._v(" "),_c('rt-price',{staticClass:"color-white",attrs:{"b2b-price":true,"value":1.57,"currency":"₽","is-option":true,"time-interval":"в минуту","show-float":true,"is-time-interval-bottom":true,"color-value":"white"}}),_vm._v(" "),_c('div',{staticClass:"rt-md-space-bottom"})],1)],1),_vm._v(" "),_c('div',{staticClass:"rt-container rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)],1)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"grid-center"}),_vm._v(" "),_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("Banners")])])])])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:" is-b2c"},[_c('div',{staticClass:"wc-inline"},[_c('rt-banner',{staticClass:"rt-banner--fill-height",attrs:{"is-fullscreen-image":true,"content-min-height":"500px","content-height":"40vh"}},[_c('rt-banner-item',{attrs:{"background-image":"https://www.moscow.rt.ru/sites/default/files/img/videocontrol-2.png","content-min-height":"500px","content-height":"40vh"}},[_c('div',{staticClass:"rt-md-space-right2"},[_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-space-vertical"},[_c('rt-color-line-text',[_c('template',{slot:"label"},[_vm._v("\n                    Будьте спокойны за своих близких\n")]),_c('template',{slot:"content"},[_vm._v("\n                    с услугой видеонаблюдение\n                  ")])],2)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 rt-md-space-top color-white"},[_c('rt-button',{staticClass:"rt-button-orange"},[_vm._v("\n                Купить\n              ")])],1)])]),_vm._v(" "),_c('rt-banner-item',{attrs:{"background-image":"https://www.moscow.rt.ru/sites/default/files/img/videocontrol-1.png","content-min-height":"500px","content-height":"40vh"}},[_c('div',{staticClass:"rt-md-space-right2"},[_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-space-vertical"},[_c('rt-color-line-text',[_c('template',{slot:"label"},[_vm._v("\n                    Будьте спокойны за своих близких\n")]),_c('template',{slot:"content"},[_vm._v("\n                    с услугой видеонаблюдение\n                  ")])],2)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 rt-md-space-top color-white"},[_c('rt-button',{staticClass:"rt-button-orange"},[_vm._v("\n                Купить\n              ")])],1)])]),_vm._v(" "),_c('rt-banner-item',{attrs:{"background-image":"https://www.moscow.rt.ru/sites/default/files/img/videocontrol-3.png","content-min-height":"500px","content-height":"40vh"}},[_c('div',{staticClass:"rt-md-space-right2"},[_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-space-vertical"},[_c('rt-color-line-text',[_c('template',{slot:"label"},[_vm._v("\n                    Будьте спокойны за своих близких\n")]),_c('template',{slot:"content"},[_vm._v("\n                    с услугой видеонаблюдение\n                  ")])],2)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 rt-md-space-top color-white"},[_c('rt-button',{staticClass:"rt-button-orange"},[_vm._v("\n                Купить\n              ")])],1)])])],1),_vm._v(" "),_vm._m(0),_vm._v(" "),_vm._m(1)],1),_vm._v(" "),_vm._m(2),_vm._v(" "),_vm._m(3),_vm._v(" "),_c('div',{staticClass:"color-block--white"},[_c('div',{staticClass:"rt-container"},[_vm._m(4),_vm._v(" "),_c('div',{staticClass:"row rt-space-vertical25"},[_c('div',{staticClass:"rt-col-6 rt-col-td-3 rt-col-md-3"},[_c('div',{staticClass:"wc-inline"},[_c('order-form',{attrs:{"scope":"form-1","offer-id":[
+                  {
+                    offerIds: [382403088590, 370113313190, 373158964290],
+                    regionIds: [3245107, 2231584, 2451058]
+                  },
+                  {
+                    offerIds: [379103003390, 385514593990],
+                    regionIds: [3092903]
+                  }
+                ],"ga":{
+                  offerCategory: 'Умный дом',
+                  offerName: 'Видеонаблюдение в подарок на 24 месяца',
+                  positionCard: 1,
+                  price: 300
+                }}},[_c('rt-card-buy',[_c('template',{slot:"content"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-4 rt-col-md-3 flex-column\n                                          d-flex d-md-block"},[_c('div',{staticClass:"rt-space-left\n                                              rt-md-space-horizontal rt-md-space-top\n                                              flex-fill d-flex"},[_c('div',{staticClass:"rt-card-buy__image\n                                                  flex-fill",staticStyle:{"background-image":"url(/sites/default/files/img/videocamera.png)"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-col-8 rt-space-vertical\n                                          rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-right\n                                              rt-md-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph\n                                                  rt-font-bold"},[_vm._v("\n                            Видеокамера в рассрочку и услуга «Видеонаблюдение» в\n                            подарок на 24 месяца\n                          ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top\n                                                  color-main05"},[_vm._v("\n                            При покупке камеры до 31.12.2018\n                          ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('div',{staticClass:"d-flex"},[_c('div',[_c('svg',{staticStyle:{"border-radius":"50%"},attrs:{"width":"56px","height":"56px","viewBox":"0\n                                                              0 56 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-952.000000,\n                                                                      -1981.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000,\n                                                                          0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000,\n                                                                              1839.000000)"}},[_c('g',{attrs:{"id":"Group-13","transform":"translate(242.000000,\n                                                                                  142.000000)"}},[_c('g',{attrs:{"id":"Fill-170"}},[_c('path',{attrs:{"d":"M56,27.6113\n                                                                                          C56,42.7993\n                                                                                          43.4631273,55.1113\n                                                                                          28,55.1113\n                                                                                          C12.5358545,55.1113\n                                                                                          0,42.7993\n                                                                                          0,27.6113\n                                                                                          C0,12.4233\n                                                                                          12.5358545,0.1113\n                                                                                          28,0.1113\n                                                                                          C43.4631273,0.1113\n                                                                                          56,12.4233\n                                                                                          56,27.6113","fill":"#00C8F9","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-180","d":"M41.5679855,24.8671\n                                                                                          C41.5679855,32.2621\n                                                                                          35.4548218,38.1931\n                                                                                          27.9996945,38.1931\n                                                                                          C26.7992582,38.1931\n                                                                                          25.6364945,38.0401\n                                                                                          24.5297309,37.7531\n                                                                                          C23.6337309,37.5211\n                                                                                          22.7754036,37.2021\n                                                                                          21.9639127,36.8051\n                                                                                          C17.4890036,34.6171\n                                                                                          14.4324218,30.0761\n                                                                                          14.4324218,24.8671\n                                                                                          C14.4324218,17.4721\n                                                                                          20.47024,11.4681\n                                                                                          27.9996945,11.4681\n                                                                                          C35.5291491,11.4681\n                                                                                          41.5679855,17.4721\n                                                                                          41.5679855,24.8671","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-181","d":"M28,38.1928\n                                                                                          C35.4928,38.1928\n                                                                                          41.5682909,32.2268\n                                                                                          41.5682909,24.8668\n                                                                                          C41.5682909,17.5078\n                                                                                          35.4928,11.5418\n                                                                                          28,11.5418\n                                                                                          C20.5072,11.5418\n                                                                                          14.4317091,17.5078\n                                                                                          14.4317091,24.8668\n                                                                                          C14.4317091,29.5638\n                                                                                          16.9058909,33.6928\n                                                                                          20.6436364,36.0668","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-182","d":"M35.6039855,35.8495\n                                                                                          L37.5415855,39.8035\n                                                                                          C37.8399127,40.3155\n                                                                                          37.9895855,40.9745\n                                                                                          37.9152582,41.5605\n                                                                                          C37.7655855,43.2445\n                                                                                          36.1996218,44.5625\n                                                                                          34.4860218,44.4155\n                                                                                          L21.66304,44.4155\n                                                                                          C20.9920582,44.4895\n                                                                                          20.3954036,44.3425\n                                                                                          19.7997673,43.9765\n                                                                                          C18.3091491,43.0245\n                                                                                          17.8611491,41.1945\n                                                                                          18.7561309,39.7295\n                                                                                          L20.6194036,36.0695","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-183","d":"M34.0384291,27.2099\n                                                                                          C34.0384291,30.5049\n                                                                                          31.3545018,33.1409\n                                                                                          27.9995927,33.1409\n                                                                                          C24.6446836,33.1409\n                                                                                          21.9617745,30.5049\n                                                                                          21.9617745,27.2099\n                                                                                          C21.9617745,23.9159\n                                                                                          24.6446836,21.2799\n                                                                                          27.9995927,21.2799\n                                                                                          C31.3545018,21.2799\n                                                                                          34.0384291,23.9159\n                                                                                          34.0384291,27.2099","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Fill-184","d":"M28.2236945,17.9115\n                                                                                          C27.5527127,17.9115\n                                                                                          27.0314036,17.3985\n                                                                                          27.0314036,16.7405\n                                                                                          C27.0314036,16.0805\n                                                                                          27.5527127,15.5685\n                                                                                          28.2236945,15.5685\n                                                                                          C28.8946764,15.5685\n                                                                                          29.4159855,16.0805\n                                                                                          29.4159855,16.7405\n                                                                                          C29.4159855,17.3255\n                                                                                          28.8946764,17.9115\n                                                                                          28.2236945,17.9115","fill":"#FFFFFF","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-185","d":"M28,29.0405\n                                                                                          C29.0293818,29.0405\n                                                                                          29.8642909,28.2215\n                                                                                          29.8642909,27.2095\n                                                                                          C29.8642909,26.1995\n                                                                                          29.0293818,25.3795\n                                                                                          28,25.3795\n                                                                                          C26.9706182,25.3795\n                                                                                          26.1357091,26.1995\n                                                                                          26.1357091,27.2095\n                                                                                          C26.1357091,28.2215\n                                                                                          26.9706182,29.0405\n                                                                                          28,29.0405\n                                                                                          Z","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Видеокамера")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                                  Камера внутреннего видеонаблюдения\n                                ")])])]),_vm._v(" "),_c('div',{staticClass:"d-flex rt-space-top"},[_c('div',[_c('svg',{staticStyle:{"border-radius":"50%"},attrs:{"width":"55px","height":"56px","viewBox":"0\n                                                              0 55 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('defs',[_c('linearGradient',{attrs:{"id":"linearGradient-1","x1":"87.1217447%","y1":"0%","x2":"7.61205979%","y2":"100%"}},[_c('stop',{attrs:{"stop-color":"#00BFFE","offset":"0%"}}),_vm._v(" "),_c('stop',{attrs:{"stop-color":"#4DECFF","offset":"100%"}})],1)],1),_vm._v(" "),_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-953.000000,\n                                                                      -2064.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000,\n                                                                          0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000,\n                                                                              1839.000000)"}},[_c('g',{attrs:{"id":"Group-14","transform":"translate(243.000000,\n                                                                                  224.000000)"}},[_c('g',{attrs:{"id":"Clip-301","transform":"translate(0.000000,\n                                                                                      1.000000)"}},[_c('path',{attrs:{"d":"M0,27.644\n                                                                                          C0,42.832\n                                                                                          12.313,55.143\n                                                                                          27.5,55.143\n                                                                                          C42.688,55.143\n                                                                                          55,42.832\n                                                                                          55,27.644\n                                                                                          C55,12.456\n                                                                                          42.688,0.143\n                                                                                          27.5,0.143\n                                                                                          C12.313,0.143\n                                                                                          0,12.456\n                                                                                          0,27.644","fill":"url(#linearGradient-1)","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-314","d":"M17.1025,36.4804\n                                                                                          L15.7765,36.4804\n                                                                                          C13.1945,36.4804\n                                                                                          11.1005,34.1074\n                                                                                          11.1005,31.2464\n                                                                                          C11.0305,28.9434\n                                                                                          12.4965,26.7794\n                                                                                          14.7295,26.0824\n                                                                                          C14.6605,25.5924\n                                                                                          14.6605,25.1044\n                                                                                          14.6605,24.6164\n                                                                                          C14.6605,19.5214\n                                                                                          18.3585,15.4034\n                                                                                          22.8945,15.4034\n                                                                                          C26.5935,15.4034\n                                                                                          29.7345,18.1264\n                                                                                          30.7115,21.9634\n                                                                                          C31.6185,21.1264\n                                                                                          32.8055,20.7084\n                                                                                          33.9915,20.7084\n                                                                                          C36.7135,20.7084\n                                                                                          38.9465,23.0104\n                                                                                          39.2255,25.9424\n                                                                                          C41.8085,25.9424\n                                                                                          43.9015,28.3144\n                                                                                          43.9015,31.1754\n                                                                                          C43.9015,34.0374\n                                                                                          41.8085,36.4104\n                                                                                          39.2255,36.4104\n                                                                                          L37.6205,36.4104","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-316","d":"M22.9648,36.4101\n                                                                                          L31.6188,36.4101","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-318","d":"M27.292,35.7822\n                                                                                          L27.292,24.7562","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('polyline',{attrs:{"id":"Stroke-320","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round","points":"22.9648\n                                                                                          29.082\n                                                                                          27.2918\n                                                                                          24.756\n                                                                                          31.6188\n                                                                                          29.082"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Облачное хранение")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                                  Услуга «Видеонаблюдение» включает 7 дней\n                                  хранения видеозаписей в облаке\n                                ")])])])]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07"},[_vm._v("\n                            Увеличить срок хранения видеозаписей вы можете в\n                            личном кабинете\n                          ")])])])])]),_vm._v(" "),_c('template',{slot:"form"},[_c('form',{attrs:{"data-vv-scope":"form-1"}},[_c('div',{staticClass:"rt-col-12"},[_c('div',{staticClass:"rt-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph\n                                                  rt-font-bold"},[_vm._v("\n                            Заявка на подключение\n                          ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('full-name')],1),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                      rt-col-td-6"},[_c('div',{staticClass:"rt-space-top"},[_c('street')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3\n                                                      rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('house')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3\n                                                      rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('apartment')],1)])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                      rt-col-td-6"},[_c('div',{staticClass:"rt-space-top"},[_c('client-phone')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                      rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('email')],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('agree')],1)])])])]),_vm._v(" "),_c('template',{slot:"card-footer"},[_c('div',{staticClass:"d-flex d-space-between rt-space-top05\n                                      rt-space-bottom"},[_c('div',{staticClass:"flex-end-bottom"},[_vm._v("\n                        Рассрочка\n                      ")]),_vm._v(" "),_c('div',{staticClass:"d-flex"},[_c('rt-price',{attrs:{"value":300}})],1)])]),_vm._v(" "),_c('template',{slot:"button"},[_vm._v("\n                    Подключить\n                  ")])],2)],1)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-td-3 rt-col-md-3"},[_c('div',{staticClass:"wc-inline"},[_c('order-form',{attrs:{"scope":"form-2","offer-id":[
+                  {
+                    offerIds: [382403088590, 370113313190, 373158964290],
+                    regionIds: [3245107, 2231584, 2451058]
+                  },
+                  {
+                    offerIds: [379103003390, 385514593990],
+                    regionIds: [3092903]
+                  }
+                ],"ga":{
+                  offerCategory: 'Умный дом',
+                  offerName: 'Видеонаблюдение в подарок на 12 месяцев',
+                  positionCard: 2,
+                  price: 4990
+                }}},[_c('rt-card-buy',[_c('template',{slot:"content"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-4 rt-col-md-3 flex-column\n                                    d-flex d-md-block"},[_c('div',{staticClass:"rt-space-left\n                                        rt-md-space-horizontal rt-md-space-top\n                                        flex-fill d-flex"},[_c('div',{staticClass:"rt-card-buy__image\n                                            flex-fill",staticStyle:{"background-image":"url(/sites/default/files/img/videocamera.png)"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-col-8 rt-space-vertical\n                                    rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-right\n                                        rt-md-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph\n                                            rt-font-bold"},[_vm._v("\n                            Видеокамера и услуга «Видеонаблюдение» в подарок на\n                            12 месяцев\n                          ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top\n                                            color-main05"},[_vm._v("\n                            Два года сервиса в подарок\n                          ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('div',{staticClass:"d-flex"},[_c('div',[_c('svg',{attrs:{"width":"56px","height":"56px","viewBox":"0\n                                                        0 56 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-952.000000,\n                                                                -1981.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000,\n                                                                    0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000,\n                                                                        1839.000000)"}},[_c('g',{attrs:{"id":"Group-13","transform":"translate(242.000000,\n                                                                            142.000000)"}},[_c('g',{attrs:{"id":"Fill-170"}},[_c('path',{attrs:{"d":"M56,27.6113\n                                                                                    C56,42.7993\n                                                                                    43.4631273,55.1113\n                                                                                    28,55.1113\n                                                                                    C12.5358545,55.1113\n                                                                                    0,42.7993\n                                                                                    0,27.6113\n                                                                                    C0,12.4233\n                                                                                    12.5358545,0.1113\n                                                                                    28,0.1113\n                                                                                    C43.4631273,0.1113\n                                                                                    56,12.4233\n                                                                                    56,27.6113","fill":"#00C8F9","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-180","d":"M41.5679855,24.8671\n                                                                                    C41.5679855,32.2621\n                                                                                    35.4548218,38.1931\n                                                                                    27.9996945,38.1931\n                                                                                    C26.7992582,38.1931\n                                                                                    25.6364945,38.0401\n                                                                                    24.5297309,37.7531\n                                                                                    C23.6337309,37.5211\n                                                                                    22.7754036,37.2021\n                                                                                    21.9639127,36.8051\n                                                                                    C17.4890036,34.6171\n                                                                                    14.4324218,30.0761\n                                                                                    14.4324218,24.8671\n                                                                                    C14.4324218,17.4721\n                                                                                    20.47024,11.4681\n                                                                                    27.9996945,11.4681\n                                                                                    C35.5291491,11.4681\n                                                                                    41.5679855,17.4721\n                                                                                    41.5679855,24.8671","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-181","d":"M28,38.1928\n                                                                                    C35.4928,38.1928\n                                                                                    41.5682909,32.2268\n                                                                                    41.5682909,24.8668\n                                                                                    C41.5682909,17.5078\n                                                                                    35.4928,11.5418\n                                                                                    28,11.5418\n                                                                                    C20.5072,11.5418\n                                                                                    14.4317091,17.5078\n                                                                                    14.4317091,24.8668\n                                                                                    C14.4317091,29.5638\n                                                                                    16.9058909,33.6928\n                                                                                    20.6436364,36.0668","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-182","d":"M35.6039855,35.8495\n                                                                                    L37.5415855,39.8035\n                                                                                    C37.8399127,40.3155\n                                                                                    37.9895855,40.9745\n                                                                                    37.9152582,41.5605\n                                                                                    C37.7655855,43.2445\n                                                                                    36.1996218,44.5625\n                                                                                    34.4860218,44.4155\n                                                                                    L21.66304,44.4155\n                                                                                    C20.9920582,44.4895\n                                                                                    20.3954036,44.3425\n                                                                                    19.7997673,43.9765\n                                                                                    C18.3091491,43.0245\n                                                                                    17.8611491,41.1945\n                                                                                    18.7561309,39.7295\n                                                                                    L20.6194036,36.0695","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-183","d":"M34.0384291,27.2099\n                                                                                    C34.0384291,30.5049\n                                                                                    31.3545018,33.1409\n                                                                                    27.9995927,33.1409\n                                                                                    C24.6446836,33.1409\n                                                                                    21.9617745,30.5049\n                                                                                    21.9617745,27.2099\n                                                                                    C21.9617745,23.9159\n                                                                                    24.6446836,21.2799\n                                                                                    27.9995927,21.2799\n                                                                                    C31.3545018,21.2799\n                                                                                    34.0384291,23.9159\n                                                                                    34.0384291,27.2099","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Fill-184","d":"M28.2236945,17.9115\n                                                                                    C27.5527127,17.9115\n                                                                                    27.0314036,17.3985\n                                                                                    27.0314036,16.7405\n                                                                                    C27.0314036,16.0805\n                                                                                    27.5527127,15.5685\n                                                                                    28.2236945,15.5685\n                                                                                    C28.8946764,15.5685\n                                                                                    29.4159855,16.0805\n                                                                                    29.4159855,16.7405\n                                                                                    C29.4159855,17.3255\n                                                                                    28.8946764,17.9115\n                                                                                    28.2236945,17.9115","fill":"#FFFFFF","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-185","d":"M28,29.0405\n                                                                                    C29.0293818,29.0405\n                                                                                    29.8642909,28.2215\n                                                                                    29.8642909,27.2095\n                                                                                    C29.8642909,26.1995\n                                                                                    29.0293818,25.3795\n                                                                                    28,25.3795\n                                                                                    C26.9706182,25.3795\n                                                                                    26.1357091,26.1995\n                                                                                    26.1357091,27.2095\n                                                                                    C26.1357091,28.2215\n                                                                                    26.9706182,29.0405\n                                                                                    28,29.0405\n                                                                                    Z","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Видеокамера")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                                  Камера внутреннего видеонаблюдения\n                                ")])])]),_vm._v(" "),_c('div',{staticClass:"d-flex rt-space-top"},[_c('div',[_c('svg',{attrs:{"width":"55px","height":"56px","viewBox":"0\n                                                        0 55 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('defs',[_c('linearGradient',{attrs:{"id":"linearGradient-1","x1":"87.1217447%","y1":"0%","x2":"7.61205979%","y2":"100%"}},[_c('stop',{attrs:{"stop-color":"#00BFFE","offset":"0%"}}),_vm._v(" "),_c('stop',{attrs:{"stop-color":"#4DECFF","offset":"100%"}})],1)],1),_vm._v(" "),_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-953.000000,\n                                                                -2064.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000,\n                                                                    0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000,\n                                                                        1839.000000)"}},[_c('g',{attrs:{"id":"Group-14","transform":"translate(243.000000,\n                                                                            224.000000)"}},[_c('g',{attrs:{"id":"Clip-301","transform":"translate(0.000000,\n                                                                                1.000000)"}},[_c('path',{attrs:{"d":"M0,27.644\n                                                                                    C0,42.832\n                                                                                    12.313,55.143\n                                                                                    27.5,55.143\n                                                                                    C42.688,55.143\n                                                                                    55,42.832\n                                                                                    55,27.644\n                                                                                    C55,12.456\n                                                                                    42.688,0.143\n                                                                                    27.5,0.143\n                                                                                    C12.313,0.143\n                                                                                    0,12.456\n                                                                                    0,27.644","fill":"url(#linearGradient-1)","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-314","d":"M17.1025,36.4804\n                                                                                    L15.7765,36.4804\n                                                                                    C13.1945,36.4804\n                                                                                    11.1005,34.1074\n                                                                                    11.1005,31.2464\n                                                                                    C11.0305,28.9434\n                                                                                    12.4965,26.7794\n                                                                                    14.7295,26.0824\n                                                                                    C14.6605,25.5924\n                                                                                    14.6605,25.1044\n                                                                                    14.6605,24.6164\n                                                                                    C14.6605,19.5214\n                                                                                    18.3585,15.4034\n                                                                                    22.8945,15.4034\n                                                                                    C26.5935,15.4034\n                                                                                    29.7345,18.1264\n                                                                                    30.7115,21.9634\n                                                                                    C31.6185,21.1264\n                                                                                    32.8055,20.7084\n                                                                                    33.9915,20.7084\n                                                                                    C36.7135,20.7084\n                                                                                    38.9465,23.0104\n                                                                                    39.2255,25.9424\n                                                                                    C41.8085,25.9424\n                                                                                    43.9015,28.3144\n                                                                                    43.9015,31.1754\n                                                                                    C43.9015,34.0374\n                                                                                    41.8085,36.4104\n                                                                                    39.2255,36.4104\n                                                                                    L37.6205,36.4104","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-316","d":"M22.9648,36.4101\n                                                                                    L31.6188,36.4101","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-318","d":"M27.292,35.7822\n                                                                                    L27.292,24.7562","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('polyline',{attrs:{"id":"Stroke-320","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round","points":"22.9648\n                                                                                    29.082\n                                                                                    27.2918\n                                                                                    24.756\n                                                                                    31.6188\n                                                                                    29.082"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Облачное хранение")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                                  Услуга «Видеонаблюдение» включает 7 дней\n                                  хранения видеозаписей в облаке\n                                ")])])])]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07"},[_vm._v("\n                            Увеличить срок хранения видеозаписей вы можете в\n                            личном кабинете\n                          ")])])])])]),_vm._v(" "),_c('template',{slot:"form"},[_c('form',{attrs:{"data-vv-scope":"form-2"}},[_c('div',{staticClass:"rt-col-12"},[_c('div',{staticClass:"rt-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph\n                                            rt-font-bold"},[_vm._v("\n                            Заявка на подключение\n                          ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('full-name')],1),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                rt-col-td-6"},[_c('div',{staticClass:"rt-space-top"},[_c('street')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3\n                                                rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('house')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3\n                                                rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('apartment')],1)])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                rt-col-td-6"},[_c('div',{staticClass:"rt-space-top"},[_c('client-phone')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('email')],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('agree')],1)])])])]),_vm._v(" "),_c('template',{slot:"card-footer"},[_c('div',{staticClass:"d-flex d-space-between rt-space-top05\n                                rt-space-bottom"},[_c('div',{staticClass:"flex-end-bottom"},[_vm._v("\n                        Покупка\n                      ")]),_vm._v(" "),_c('div',{staticClass:"d-flex rt-font-light"},[_c('rt-price',{attrs:{"only-price":true,"value":4990}})],1)])]),_vm._v(" "),_c('template',{slot:"button"},[_vm._v("\n                    Подключить\n                  ")])],2)],1)],1)])])])]),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"rt-container rt-space-top2 rt-space-bottom color-main07"},[_c('rt-annotation',{attrs:{"label":"Примечания"}},[_c('template',{slot:"content"},[_c('p',{staticClass:"rt-annotation-item color-main05"},[_vm._v("\n              Условия оплаты и подключения могут разниться в зависимости от\n              региона РФ.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item color-main05"},[_vm._v("\n              Видео за 300 рублей (Акция) — возможность для физ. лиц подключить\n              при тех. возможности до 31.12.2018 г. Видеонаблюдение (Услуга 1)\n              либо Пакет (Услуга 1 + видеокамера в рассрочку для абонентов\n              Домашнего Интернета (Услуга 2), Домашнего Телефона и Телевидения\n              (Услуга 3)) по цене от 300 руб./мес. с НДС.\n            ")])])],2)],1)])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"row rt-space-vertical25"},[_c('div',{staticClass:"rt-col-3 rt-col-md-3"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/geography_1.svg"}}),_vm._v(" "),_c('h4',{staticClass:"rt-font-h4 rt-font-bold rt-space-top"},[_vm._v("\n              Доступ из любой точки мира\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top color-main05"},[_vm._v("\n              Наблюдайте за тем, что вам дорого в реальном\n              времени с помощью мобильного приложения\n            ")])]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-md-space-top"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/smart_home_cloud_1.svg"}}),_vm._v(" "),_c('h4',{staticClass:"rt-font-h4 rt-font-bold rt-space-top"},[_vm._v("\n              Хранение записей видео до 30 дней\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top color-main05"},[_vm._v("\n              Записанные видео могут храниться в облаке\n              от 3 до 30 дней\n            ")])]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-md-space-top"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/smart_home_move_sensor_1.svg"}}),_vm._v(" "),_c('h4',{staticClass:"rt-font-h4 rt-font-bold rt-space-top"},[_vm._v("\n              Встроенные датчики движения и звука\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top color-main05"},[_vm._v("\n              Получайте уведомления, если камера зафиксировала звук\n              или движение в выделенной области\n            ")])]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-md-space-top"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/smart_home_indoor_video_1.svg"}}),_vm._v(" "),_c('h4',{staticClass:"rt-font-h4 rt-font-bold rt-space-top"},[_vm._v("\n              Качественное видео и легкая установка\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top color-main05"},[_vm._v("\n              Камера записывает видео в разрешении 1280х960, а запуск\n              и подключение не займёт больше 20 минут\n            ")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"color-block--white"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 flex-center-center rt-md-space-vertical2\n                        rt-col-md-3"},[_c('div',[_c('h3',{staticClass:"rt-font-h3 rt-font-bold"},[_vm._v("\n                  Удобное мобильное приложение\n                ")]),_vm._v(" "),_c('div',{staticClass:"row rt-space-top rt-md-space-top2"},[_c('div',{staticClass:"flex-center-center rt-space-left"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/GooglePlay.png","height":"50px"}}),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph color-main07\n                                        rt-space-left"},[_vm._v("\n                      Умный дом\n                    ")])])]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05 color-main07\n                                rt-md-space-top"},[_vm._v("\n                  - смотри видео онлайн или в записи\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05\n                                color-main07"},[_vm._v("\n                  - сохраняй и редактируй видеоклипы\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05\n                                color-main07"},[_vm._v("\n                  - настраивай уведомления и сценарии с участием\n                  видеокамеры и встроенных датчиков\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05\n                                color-main07"},[_vm._v("\n                  - настраивай зоны, в которых камера будет\n                  фиксировать движение\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05\n                                color-main07"},[_vm._v("\n                  - пользуйся функцией трансляции голоса\n                ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 rt-font-md-center"},[_c('div',{staticClass:"row md-d-block"},[_c('div',{staticClass:"rt-font-center color-main07\n                                        rt-md-col-12"},[_c('a',{staticClass:"d-inline-block",attrs:{"href":"https://itunes.apple.com/ru/app/%D1%83%D0%BC%D0%BD%D1%8B%D0%B9-%D0%B4%D0%BE%D0%BC-%D1%80%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC/id1205946608?mt=8","target":"_blank"}},[_c('img',{attrs:{"src":"/themes/rt_ru/images/store_apple.svg","width":"170px","height":"50px"}})]),_vm._v(" "),_c('p',{staticClass:"rt-font-label"},[_vm._v("\n                        Версия iOS 10.0\n                      ")])]),_vm._v(" "),_c('div',{staticClass:"rt-font-center color-main07\n                                        rt-md-col-12 rt-md-space-vertical"},[_c('a',{staticClass:"d-inline-block rt-space-left\n                                            rt-md-space-horizontal",attrs:{"href":"https://play.google.com/store/apps/details?id=ru.rt.smarthome","target":"_blank"}},[_c('img',{attrs:{"src":"/themes/rt_ru/images/store_google.svg","width":"170px","height":"50px"}})]),_vm._v(" "),_c('p',{staticClass:"rt-font-label"},[_vm._v("\n                        Версия Android 5.0\n                      ")])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-space-top05 flex-end-bottom\n                        flex-md-center rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-horizontal flex-md-center",staticStyle:{"overflow":"hidden"}},[_c('div',{staticClass:"phone"},[_c('div',{staticClass:"phone__container"}),_vm._v(" "),_c('img',{staticClass:"phone__image",attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/mobile_application.jpg"}})])])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container",attrs:{"id":"tariff"}},[_c('div',{staticClass:"row rt-space-top25 rt-space-bottom"},[_c('div',{staticClass:"rt-col-12"},[_c('h3',{staticClass:"rt-font-h3 rt-space-bottom2"},[_vm._v("\n            Пакетные предложения\n          ")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"area"},[_c('div',{attrs:{"id":"All"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row rt-space-vertical25"},[_c('div',{staticClass:"rt-col-12"},[_c('h3',{staticClass:"rt-font-h3"},[_vm._v("\n              Покупка видеокамеры\n            ")])])])}]
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Banners.vue":
-/*!**********************************************************!*\
-  !*** ./src/example-pages/components/complex/Banners.vue ***!
-  \**********************************************************/
+/***/ "./src/example-pages/components/pages/promo/tv.vue":
+/*!*********************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/tv.vue ***!
+  \*********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Banners_vue_vue_type_template_id_055e3cf2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Banners.vue?vue&type=template&id=055e3cf2& */ "./src/example-pages/components/complex/Banners.vue?vue&type=template&id=055e3cf2&");
-/* harmony import */ var _Banners_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Banners.vue?vue&type=script&lang=js& */ "./src/example-pages/components/complex/Banners.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tv.vue?vue&type=template&id=7da3ea2d& */ "./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d&");
+/* harmony import */ var _tv_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tv.vue?vue&type=script&lang=js& */ "./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tv.vue?vue&type=style&index=0&lang=css& */ "./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -447,10 +1520,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Banners_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Banners_vue_vue_type_template_id_055e3cf2___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Banners_vue_vue_type_template_id_055e3cf2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _tv_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -462,46 +1535,51 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Banners.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************!*\
-  !*** ./src/example-pages/components/complex/Banners.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************/
+/***/ "./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Banners_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Banners.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Banners.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Banners_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib!../../../../../node_modules/vue-loader/lib??vue-loader-options!./tv.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Banners.vue?vue&type=template&id=055e3cf2&":
-/*!*****************************************************************************************!*\
-  !*** ./src/example-pages/components/complex/Banners.vue?vue&type=template&id=055e3cf2& ***!
-  \*****************************************************************************************/
+/***/ "./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css&":
+/*!******************************************************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css& ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/vue-loader/lib??vue-loader-options!./tv.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d&":
+/*!****************************************************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d& ***!
+  \****************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Banners_vue_vue_type_template_id_055e3cf2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Banners.vue?vue&type=template&id=055e3cf2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Banners.vue?vue&type=template&id=055e3cf2&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Banners_vue_vue_type_template_id_055e3cf2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./tv.vue?vue&type=template&id=7da3ea2d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Banners_vue_vue_type_template_id_055e3cf2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
-
-/***/ }),
-
-/***/ "./src/molecules/components/Banner/docs/index.json":
-/*!*********************************************************!*\
-  !*** ./src/molecules/components/Banner/docs/index.json ***!
-  \*********************************************************/
-/*! exports provided: items, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-banner\",\"property\":\"resize-query-selectors-names\",\"type\":\"Array\",\"description\":\"Список селекторов для выравнивания по высоте\",\"value\":\"[]\",\"version\":\"0.3.6\"},{\"name\":\"rt-banner\",\"property\":\":mobile-not-resize-query-selectors\",\"type\":\"Boolean\",\"description\":\"Флаг запрета выравнивания селекторов по высоте на мобильном разрешении\",\"value\":\"true\",\"version\":\"0.3.6\"},{\"name\":\"rt-banner\",\"property\":\":tablet-not-resize-query-selectors\",\"type\":\"Boolean\",\"description\":\"Флаг, отключающий выравнивание селекторов по высоте в планшетном разрешении\",\"value\":\"false\",\"version\":\"0.3.6\"},{\"name\":\"rt-banner\",\"property\":\":scroll-to-next-image\",\"type\":\"Boolean\",\"description\":\"Флаг, отвечающий за автопереключение баннеров\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\":auto-next-only-on-desktop\",\"type\":\"Boolean\",\"description\":\"Флаг, отвечающий за автопереключение баннеров только для десктопной версии\",\"value\":\"false\",\"version\":\"0.1.43\"},{\"name\":\"rt-banner\",\"property\":\":has-custom-content\",\"type\":\"Boolean\",\"description\":\"Флаг для создания кастомных элементов баннеров\",\"value\":\"false\",\"version\":\"0.0.29\"},{\"name\":\"rt-banner\",\"property\":\":without-empty-column\",\"type\":\"Boolean\",\"description\":\"Флаг удаления отступа в колонку слева от контента\",\"value\":\"false\",\"version\":\"0.0.29\"},{\"name\":\"rt-banner\",\"property\":\":without-second-empty-column\",\"type\":\"Boolean\",\"description\":\"Флаг удаления отступа в колонку справа от контента\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\"(:)content-min-height\",\"type\":\"Number | String\",\"description\":\"Устанавливает минимальную высоту баннера `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner\",\"property\":\"(:)content-mobile-height\",\"type\":\"Number | String\",\"description\":\"Устанавливает высоту баннера для мобильного разрешения `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\"},{\"name\":\" rt-banner\",\"property\":\"(:)content-mobile-min-height\",\"type\":\"Number | String\",\"description\":\"Устанавливает минимальную высоту баннера для мобильного разрешения `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner\",\"property\":\"(:)content-tablet-height\",\"type\":\"Number | String\",\"description\":\"Устанавливает высоту баннера для планшетного разрешения. `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\",\"version\":\"0.2.18\"},{\"name\":\" rt-banner\",\"property\":\"(:)content-tablet-min-height\",\"type\":\"Number | String\",\"description\":\"Устанавливает минимальную высоту баннера для планшетого разрешения. `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\",\"version\":\"0.2.18\"},{\"name\":\"rt-banner\",\"property\":\"paginator-position\",\"type\":\"String\",\"description\":\"Устанавливает позицию пагинатора. Сейчас принимая `top` переносит пагинатор наверх\",\"value\":\"null\"},{\"name\":\"rt-banner-item\",\"property\":\"(:)content-min-height\",\"type\":\"Number | String\",\"description\":\"Устанавливает минимальную высоту баннера. `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner\",\"property\":\"(:)content-height\",\"type\":\"Number | String\",\"description\":\"Устанавливает высоту баннера. `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner\",\"property\":\":is-fullscreen-image\",\"type\":\"Boolean\",\"description\":\"Флаг установки изображения во всю ширину баннера\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\"no-triangle\",\"type\":\"Boolean\",\"description\":\"Убирает скосы справа и слева от изображения\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\":round-angles\",\"type\":\"Boolean\",\"description\":\"Флаг для установки закруглённых углов у баннера и добавления стилей для сегмента b2b\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\"background-color\",\"type\":\"String\",\"description\":\"Устанавливает цвет фона баннера. Возможные значения `dark-slate` `yellow` `red` `dark-blue` `light-blue` `orange` `pink` `green`\",\"value\":\"\"},{\"name\":\"rt-banner\",\"property\":\":sleep-time\",\"type\":\"Number\",\"description\":\"Задаёт промежуток времени между переключениями баннеров\",\"value\":\"5000\"},{\"name\":\"rt-banner\",\"property\":\"banner-logo\",\"type\":\"String\",\"description\":\"Ссылка на логотип, находящийся справа внизу баннера\",\"value\":\"\"},{\"name\":\"rt-banner\",\"property\":\":set-stop-on-click\",\"type\":\"Boolean\",\"description\":\"Остановка автоперехода на следующий слайд после клика по баннеру\",\"value\":\"false\",\"version\":\" >= 0.0.25\"},{\"name\":\"rt-banner\",\"property\":\":dont-pause-on-hover\",\"type\":\"Boolean\",\"description\":\"Флаг отключения паузы при наведении на баннеры\",\"value\":\"false\",\"version\":\"0.0.29\"},{\"name\":\"rt-banner\",\"property\":\"mobile-image-height\",\"type\":\"String\",\"description\":\"Устанавливает высоту изображения для мобильного разрешения\",\"value\":\"\",\"version\":\"0.0.29\"},{\"name\":\"rt-banner\",\"property\":\"mobile-image-max-height\",\"type\":\"String\",\"description\":\"Устанавливает максимальную высоту изображения для мобильного разрешения\",\"value\":\"\"},{\"name\":\"rt-banner\",\"property\":\"tablet-image-height\",\"type\":\"String\",\"description\":\"Устанавливает высоту изображения для планшетного разрешения\",\"value\":\"\"},{\"name\":\"rt-banner\",\"property\":\"tablet-image-max-height\",\"type\":\"String\",\"description\":\"Устанавливает максимальную высоту изображения для планшетного разрешения\",\"value\":\"\"},{\"name\":\"rt-banner\",\"property\":\":is-background-banner\",\"type\":\"Boolean\",\"description\":\"Задаёт баннеру абсолютное позиционирование (?)\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\"has-custom-height\",\"type\":\"String\",\"description\":\"Устанавливает фиксированную высоту баннера для всех разрешений\",\"value\":\"\"},{\"name\":\"rt-banner\",\"property\":\":hide-paginator-on-mobile\",\"type\":\"Boolean\",\"version\":\"0.1.69\",\"description\":\"Скрытие пагинатора при мобильном разрешении\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\":hide-paginator-on-tablet\",\"type\":\"Boolean\",\"version\":\"0.1.69\",\"description\":\"Скрытие пагинатора при планшетном разрешении\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\":has-image-on-mobile\",\"type\":\"Boolean\",\"description\":\"Флаг включающий отображение изображения в мобильной версии\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\":background-repeat\",\"type\":\"Boolean\",\"description\":\"Устанавливает свойство `background-repeat` для фонового изображения\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\":fixed-image\",\"type\":\"Boolean\",\"description\":\"Фиксация фонового изображения. Добавление свойства `background-attachment`\",\"value\":\"false\",\"version\":\"0.1.20\"},{\"name\":\"rt-banner\",\"property\":\":transparent-background-image\",\"type\":\"Boolean\",\"description\":\"Устанавливает свойство `contain` для фонового изображения\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\":mobile-image-on-top\",\"type\":\"Boolean\",\"description\":\"Флаг, устанавливающий отображение изображения над текстовым контентом в мобильной версии\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\":switch-off-timer\",\"type\":\"Boolean\",\"description\":\"Флаг, отключающий автопереключение баннеров\",\"value\":\"false\"},{\"name\":\"rt-banner\",\"property\":\":background-image-left\",\"type\":\"Boolean\",\"description\":\"Флаг, включающий выравнивание изображения по левому краю\",\"value\":\"false\"},{\"name\":\"rt-banner-item\",\"property\":\"link\",\"type\":\"String\",\"description\":\"Оборачивает контент баннера в ссылку. Задаёт атрибут `href`\",\"value\":\"\"},{\"name\":\"rt-banner-item\",\"property\":\"mobile-image-max-height\",\"type\":\"String\",\"description\":\"Устанавливает максимальную высоту изображения для мобильного разрешения. (2)\",\"value\":\"\"},{\"name\":\"rt-banner-item\",\"property\":\"tablet-image-max-height\",\"type\":\"String\",\"description\":\"Устанавливает максимальную высоту изображения для мобильного разрешения. (2)\",\"value\":\"\"},{\"name\":\"rt-banner-item\",\"property\":\"link-target\",\"type\":\"String\",\"description\":\"Оборачивает контент баннера в ссылку. Задаёт атрибут `target`\",\"value\":\"\"},{\"name\":\"rt-banner-item\",\"property\":\"anchor-hash-link\",\"type\":\"String\",\"description\":\"Ставит баннер при переходе на страницу по ссылке содержащей данный hash\",\"value\":\"\"},{\"name\":\"rt-banner-item\",\"property\":\"anchor-get-params\",\"type\":\"String\",\"description\":\"Ставит баннер при переходе на страницу по ссылке содержащей данный query-параметр\",\"value\":\"\"},{\"name\":\"rt-banner-item\",\"property\":\"(:)content-min-height\",\"type\":\"Number | String\",\"description\":\"Устанавливает минимальную высоту баннера `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner-item\",\"property\":\"(:)content-height\",\"type\":\"Number | String\",\"description\":\"Устанавливает высоту баннера. `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\"},{\"name\":\" rt-banner-item\",\"property\":\"(:)content-mobile-min-height\",\"type\":\"Number | String\",\"description\":\"Устанавливает минимальную высоту баннера для мобильного разрешения `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner-item\",\"property\":\"(:)content-mobile-height\",\"type\":\"Number | String\",\"description\":\"Устанавливает высоту баннера для мобильного разрешения `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\"},{\"name\":\" rt-banner-item\",\"property\":\"(:)content-tablet-min-height\",\"type\":\"Number | String\",\"description\":\"Устанавливает минимальную высоту баннера для планшетого разрешения. `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\",\"version\":\"0.2.18\"},{\"name\":\"rt-banner-item\",\"property\":\"(:)content-tablet-height\",\"type\":\"Number | String\",\"description\":\"Устанавливает высоту баннера для планшетного разрешения. `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\",\"version\":\"0.2.18\"},{\"name\":\"rt-banner-item\",\"property\":\"(:)content-min-width\",\"type\":\"Number | String\",\"description\":\"Устанавливает минимальную ширину слайда для мобильного разрешения `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner-item\",\"property\":\"(:)content-max-width\",\"type\":\"Number | String\",\"description\":\"Устанавливает максимальную ширину слайда `number` - любое число становится `px`, `string` - любые значения\",\"value\":\"null\"},{\"name\":\"rt-banner-item\",\"property\":\"background-video\",\"type\":\"String\",\"description\":\"URL-адрес видео, воспроизводимого в баннере\",\"value\":\"\"},{\"name\":\"rt-banner-item\",\"property\":\"background-color\",\"type\":\"String\",\"description\":\"Устанавливает цвет фона баннера. Возможные значения `dark-slate` `yellow` `red` `dark-blue` `light-blue` `orange` `pink` `green`\",\"value\":\"\"},{\"name\":\"rt-banner-item\",\"property\":\"background-image\",\"type\":\"String\",\"description\":\"URL-адрес изображения для всех разрешений\",\"value\":\"\"},{\"name\":\"rt-banner-item\",\"property\":\"background-image-mobile\",\"type\":\"String\",\"description\":\"url-адрес изображения для мобильного разрешения(если указано, перекрывает значение `background-image`)\",\"value\":\"\"},{\"name\":\"rt-banner-item\",\"property\":\"background-image-tablet\",\"type\":\"String\",\"description\":\"URL-адрес изображения для планшетного разрешения(если указано, перекрывает значение `background-image`)\",\"value\":\"\"},{\"name\":\"rt-banner-item\",\"property\":\"background-image-webp\",\"type\":\"String\",\"description\":\"URL-адрес изображения в формате `webp`\",\"value\":\"\"},{\"name\":\"rt-banner-item\",\"property\":\"lazy-image\",\"type\":\"String\",\"description\":\"URL-адрес изображения-заглушки, пока не загрузится основное изображение\",\"value\":\"\",\"version\":\" >= 0.0.30\"},{\"name\":\"rt-banner-item\",\"property\":\"lazy-image-mobile\",\"type\":\"String\",\"description\":\"URL-адрес изображения-заглушки для мобильного разрешения\",\"value\":\"\",\"version\":\" >= 0.0.86\"},{\"name\":\"rt-banner-item\",\"property\":\"lazy-image-tablet\",\"type\":\"String\",\"description\":\"URL-адрес изображения-заглушки для планшетного разрешения\",\"value\":\"\",\"version\":\" >= 0.0.86\"},{\"name\":\"rt-banner-item\",\"property\":\":preload-image\",\"type\":\"Boolean\",\"description\":\"Флаг для предварительной загрузки изображения\",\"value\":\"false\"},{\"name\":\"rt-banner-item\",\"property\":\":is-white-color\",\"type\":\"Boolean\",\"description\":\"Устанавливает белый цвет текста баннера\",\"value\":\"false\"},{\"name\":\"rt-banner-item\",\"property\":\"(:)slide-time\",\"type\":\"String | Number\",\"description\":\"Задаёт промежуток времени, через который произойдёт преключение на следующий баннер\",\"value\":\"null\"},{\"name\":\"rt-banner-item\",\"property\":\":is-game-banner-item\",\"type\":\"Boolean\",\"description\":\"Флаг для кастомного баннера 4game\",\"value\":\"false\"},{\"name\":\"rt-banner-item\",\"property\":\":ga\",\"type\":\"Object\",\"description\":\"Используется для сбора Google-аналитики сегмент b2c. `:ga=\\\"{name: Заголовок слайда баннера, section: Раздел сайта (main_page, /bonus, /smarthouse - по-умолчанию location.pathname)}\\\"`\",\"value\":\"null\",\"version\":\" >= 0.0.30\"},{\"name\":\"rt-banner-item\",\"property\":\":ga-b2b\",\"type\":\"Object\",\"description\":\"Используется для сбора Google-аналитики сегмент b2b. `:ga=\\\"{name: Заголовок слайда баннера, section: Раздел сайта (main_page, /bonus, /smarthouse - по-умолчанию location.pathname)}\\\"`\",\"value\":\"null\",\"version\":\" >= 0.0.30\"},{\"name\":\"rt-banner-item\",\"property\":\":has-image-on-mobile\",\"type\":\"Boolean\",\"description\":\"Флаг, включающий отображение изображения в мобильной версии\",\"value\":\"false\"},{\"name\":\"rt-banner-item\",\"property\":\":color-fill-on-mobile\",\"type\":\"Boolean\",\"description\":\"Флаг, отключающий отображение изображения в мобильной версии, происходит заливка фоновым цветом\",\"value\":\"false\"},{\"name\":\"rt-banner-item\",\"property\":\":color-fill-on-mobile\",\"type\":\"Boolean\",\"description\":\"Флаг, для включения кастомного вида баннера с изображением занимающим верхнюю половину баннера в мобильной версии\",\"value\":\"false\"}]}");
 
 /***/ })
 
