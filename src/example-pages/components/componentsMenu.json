@@ -369,6 +369,12 @@
           "for_b2c" : true
         },
         {
+          "name" : "Slider",
+          "title" : "Slider",
+          "url" : "/slider",
+          "list_child" : []
+        },
+        {
           "name" : "Banners",
           "title" : "Banners",
           "url" : "/banners",

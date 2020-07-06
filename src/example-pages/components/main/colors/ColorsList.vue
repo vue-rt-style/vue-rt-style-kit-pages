@@ -22,7 +22,6 @@
         mounted() {
             this.colors = colors;
             Object.keys(colorListSettings).map((key) => {
-                console.info('this.colorsSettingsArray',this.colorsSettingsArray);
                 const item = colorListSettings[key];
                 this.colorsSettingsArray[item.index] = key;
             });
