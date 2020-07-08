@@ -35,6 +35,7 @@
                               placeholder=&quot;Электронная почта&quot;
                               :disabled=&quot;true&quot;
                               value=&quot;inputModelValue&quot;
+                              label=&quot;Начните вводить почту&quot;
                               error-message=&quot;ошибка: не является почтой&quot;/>"
 							/>
 						</div>

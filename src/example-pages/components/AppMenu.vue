@@ -108,7 +108,7 @@
           <div class="app-aside-menu__inner">
             <div class="rt-space-top3 rt-md-space-top25">
                 {this.$slots.default}
-              <div class="rt-space-horizontal rt-space-bottom app-aside-menu__search">
+              <div class="sp-h-1 rt-space-bottom app-aside-menu__search">
                 <rt-input ref="input" placeholder="Seacrh" onInput={this.changeSearchParams} onKeydown={this.checkKeydown}></rt-input>
               </div>
               {renderList(componentsMenu.list)}

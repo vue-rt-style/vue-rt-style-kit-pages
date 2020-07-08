@@ -3,7 +3,6 @@ import {
     Checkbox,
     CheckboxContainer,
     Input,
-    InputWithoutJs,
     Price,
     RadioButton,
     RadioButtonContainer,
@@ -120,7 +119,6 @@ componentsList[Button.name] = Button;
 componentsList[Checkbox.name] = Checkbox;
 componentsList[CheckboxContainer.name] = CheckboxContainer;
 componentsList[Input.name] = Input;
-componentsList[InputWithoutJs.name] = InputWithoutJs;
 componentsList[Price.name] = Price;
 componentsList[RadioButton.name] = RadioButton;
 componentsList[RadioButtonContainer.name] = RadioButtonContainer;
