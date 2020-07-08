@@ -1348,7 +1348,7 @@ var componentsList = {};
         Object.keys(this["_events"]).map(function (eventName) {
           var that = _this2;
           that["_events"][eventName].forEach(function (fn) {
-            _this2.$refs.row.addEventListener(eventName, fn);
+            _this2.$refs.column.addEventListener(eventName, fn);
           });
         });
       }
@@ -1358,13 +1358,14 @@ var componentsList = {};
 
       if (this["_events"]) {
         Object.keys(this["_events"]).map(function (eventName) {
-          _this3.$refs.input.removeEventListener(eventName, _this3["_events"][eventName]);
+          _this3.$refs.column.removeEventListener(eventName, _this3["_events"][eventName]);
         });
       }
     }
   },
   render: function render(h) {
     return h("div", {
+      ref: "column",
       "class": this.rowClassName
     }, [this.$slots["default"]]);
   }
@@ -1445,7 +1446,7 @@ var componentProps = {
 
       if (this["_events"]) {
         Object.keys(this["_events"]).map(function (eventName) {
-          _this2.$refs.input.removeEventListener(eventName, _this2["_events"][eventName]);
+          _this2.$refs.row.removeEventListener(eventName, _this2["_events"][eventName]);
         });
       }
     }
