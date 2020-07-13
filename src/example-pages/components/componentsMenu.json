@@ -152,6 +152,14 @@
           "for_b2c" : true
         },
         {
+          "name" : "Tooltip",
+          "title" : "Tooltip",
+          "url" : "/tooltip",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
           "name" : "Real Popup",
           "title" : "Real Popup",
           "url" : "/popup",

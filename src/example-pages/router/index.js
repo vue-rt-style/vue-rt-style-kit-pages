@@ -17,6 +17,7 @@ const index = [
   { path: "/tags", name: "app-tags", component: () => import("../components/form/Tags.vue") },
 
   // simple
+  { path: "/tooltip", name: "app-tooltip", component: () => import("../components/simple/Tooltip.vue") },
   { path: "/logo", name: "app-logo", component: () => import("../components/simple/Logo.vue") },
   { path: "/icons", name: "app-icons", component: () => import("../components/simple/Icons.vue") },
   { path: "/spinner", name: "app-spinner", component: () => import("../components/simple/Spinner.vue") },
