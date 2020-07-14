@@ -246,7 +246,7 @@
                                   </div>
                                 </template>
                                 <template slot="footer">
-                                  <rt-button class="rt-button-white rt-button-small rt-button--is-block">Подключить</rt-button>
+                                  <rt-button href="#" color="purple-border" :small="true">Подключить</rt-button>
                                 </template>
                               </rt-card-b2o>'/>
 						</rt-col>
@@ -279,7 +279,7 @@
                                       </div>
                                     </template>
                                     <template slot="footer">
-                                      <rt-button class="rt-button-white rt-button-small rt-button--is-block">Подключить</rt-button>
+                                      <rt-button href="#" color="purple-border" :small="true">Подключить</rt-button>
                                     </template>
                                   </rt-card-b2o>'/>
 						</rt-col>
@@ -313,7 +313,7 @@
                                       </div>
                                     </template>
                                     <template slot="footer">
-                                      <rt-button class="rt-button-white rt-button-small rt-button--is-block">Подключить</rt-button>
+                                      <rt-button href="#" color="purple-border" :small="true">Подключить</rt-button>
                                     </template>
                                   </rt-card-b2o>'/>
 						</rt-col>
@@ -345,7 +345,7 @@
                                       </div>
                                     </template>
                                     <template slot="footer">
-                                      <rt-button class="rt-button-white rt-button-small rt-button--is-block">Подключить</rt-button>
+                                      <rt-button href="#" color="purple-border" :small="true">Подключить</rt-button>
                                     </template>
                                   </rt-card-b2o>'/>
 						</rt-col>
