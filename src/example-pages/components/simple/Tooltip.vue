@@ -5,11 +5,25 @@
 			<div class="grid-center"/>
 			<div class="app-content rt-col-12 rt-col-md-3">
 				<div class="app-title">
-					<rt-row><h1 class="rt-font-hero rt-col"
-					            v-tooltip="{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}">
-						Tooltip</h1></rt-row>
-
+				<rt-row>
+					<rt-col size="4">
+						<h1 class="rt-font-hero rt-col"
+						    v-tooltip="{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}">
+							Tooltip</h1>
+					</rt-col>
+					<rt-col size="6">
+						<h1 class="rt-font-hero rt-col"
+						    v-tooltip="{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}">
+							Tooltip</h1>
+					</rt-col>
+					<rt-col size="2">
+						<h1 class="rt-font-hero rt-col"
+						    v-tooltip="{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}">
+							Tooltip</h1>
+					</rt-col>
+				</rt-row>
 				</div>
+
 			</div>
 
 
