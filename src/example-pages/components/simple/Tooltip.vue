@@ -33,7 +33,7 @@
 				<rt-col>
 					<rt-row>
 						<rt-col size="3"></rt-col>
-						<rt-col><p v-tooltip="{'text':'Добавить в избранное'}">tooltip</p></rt-col>
+						<rt-col><p  v-tooltip="{'text':'Добавить в избранное'}" class="d-inline-block">tooltip</p></rt-col>
 						<rt-col size="3"></rt-col>
 					</rt-row>
 				</rt-col>
@@ -44,7 +44,7 @@
 							<rt-row>
 								<rt-col size="3"></rt-col>
 								<rt-col>
-									<p v-tooltip="{'text':'Добавить в избранное', 'bright':true}" class="color-white">tooltip</p>
+									<p v-tooltip="{'text':'Добавить в избранное', 'bright':true}" class="d-inline-block color-white">tooltip</p>
 								</rt-col>
 								<rt-col size="3"></rt-col>
 							</rt-row>
