@@ -97,10 +97,11 @@ import {
     StickyBottomLine,
     StickyHeaderLine,
     Slider,
-    SliderItem
+    SliderItem,
+    HelpBlock
 } from '@vue-rt-style-kit-molecules-local'
 
-
+console.info('HelpBlock',HelpBlock)
 
 import {
     Logo,
@@ -157,6 +158,7 @@ componentsList[TableRow.name] = TableRow;
 componentsList[TableItem.name] = TableItem;
 componentsList[TableCol.name] = TableCol;
 componentsList[DownloadContent.name] = DownloadContent;
+componentsList[HelpBlock.name] = HelpBlock;
 componentsList[Tag.name] = Tag;
 componentsList[TagsList.name] = TagsList;
 componentsList[Filter.name] = Filter;

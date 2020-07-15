@@ -46,6 +46,7 @@ const index = [
   { path: "/benefit", name: "benefit", component: () => import("../components/group/BenefitBlock.vue") },
 
   // complex
+  { path: "/help-block", name: "app-help-block", component: () => import("../components/complex/HelpBlock.vue") },
   { path: "/slider", name: "app-slider", component: () => import("../components/complex/Slider.vue") },
   { path: "/cards", name: "app-cards", component: () => import("../components/complex/Cards.vue") },
   { path: "/product-cards", name: "app-product-card", component: () => import("../components/complex/ProductCard.vue") },

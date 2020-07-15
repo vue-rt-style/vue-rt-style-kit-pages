@@ -160,6 +160,14 @@
           "for_b2c" : true
         },
         {
+          "name" : "HelpBlock",
+          "title" : "Help Block",
+          "url" : "/help-block",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
           "name" : "Real Popup",
           "title" : "Real Popup",
           "url" : "/popup",
