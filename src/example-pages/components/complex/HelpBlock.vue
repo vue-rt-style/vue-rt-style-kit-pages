@@ -17,7 +17,7 @@
 				</rt-help-block>
 			</rt-col>
 			<rt-col size="1"></rt-col>
-			<rt-col size="3">
+			<rt-col size="3">z
 				<rt-help-block :on-click="alert" :hide-icon="true">
 					<template slot="content">К сожалению, Ваш дом еще не подключен к сети. Заявка будет предварительной</template>
 					<template slot="action-text">Проверить другой адрес</template>
