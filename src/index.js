@@ -9,6 +9,7 @@ import 'nodelist-foreach-polyfill';
 import 'element-remove';
 import stylesAtoms from "./atoms/css/vue-rt-style-atoms.styl";
 import stylesMolecules from "./molecules/css/vue-rt-style-kit-molecules.styl";
+import stylesAks from "./aks/css/vue-rt-style-kit-aks.styl";
 import stylesIcons from "./icons/css/vue-rt-style-kit-icons.styl";
 
 const VueRtStyle = {

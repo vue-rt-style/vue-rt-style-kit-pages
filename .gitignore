@@ -35,6 +35,7 @@ coverage
 /src/molecules
 /src/icons
 /src/projectsJsons
+/src/aks
 
 /package-lock.json
 /main-vue-libraries/

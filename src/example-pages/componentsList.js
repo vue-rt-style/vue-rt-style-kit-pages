@@ -101,7 +101,12 @@ import {
     HelpBlock
 } from '@vue-rt-style-kit-molecules-local'
 
-console.info('HelpBlock',HelpBlock)
+
+import {
+    ACHeader
+} from '@vue-rt-style-kit-aks-local'
+
+
 
 import {
     Logo,
@@ -207,6 +212,7 @@ componentsList[StickyHeaderLine.name] = StickyHeaderLine;
 
 componentsList[Slider.name] = Slider;
 componentsList[SliderItem.name] = SliderItem;
+componentsList[ACHeader.name] = ACHeader;
 
 console.info('** componentsList',componentsList)
 
