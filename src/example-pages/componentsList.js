@@ -102,18 +102,18 @@ import {
 } from '@vue-rt-style-kit-molecules-local'
 
 
-import {
-    ACArchiveComponent,
-    ACConfirmationPopup,
-    ACCreationPopup,
-    ACFooter,
-    ACHeader,
-    ACInvitationPopup,
-    ACListComponent,
-    ACManagePopup,
-    ACPhonebookComponent,
-    ACSettingsPopup
-} from '@vue-rt-style-kit-aks-local'
+// import {
+//     ACArchiveComponent,
+//     ACConfirmationPopup,
+//     ACCreationPopup,
+//     ACFooter,
+//     ACHeader,
+//     ACInvitationPopup,
+//     ACListComponent,
+//     ACManagePopup,
+//     ACPhonebookComponent,
+//     ACSettingsPopup
+// } from '@vue-rt-style-kit-aks-local'
 
 
 import {
@@ -222,16 +222,16 @@ componentsList[SliderItem.name] = SliderItem;
 
 
 
-componentsList[ACArchiveComponent.name] = ACArchiveComponent;
-componentsList[ACConfirmationPopup.name] = ACConfirmationPopup;
-componentsList[ACCreationPopup.name] = ACCreationPopup;
-componentsList[ACFooter.name] = ACFooter;
-componentsList[ACHeader.name] = ACHeader;
-componentsList[ACInvitationPopup.name] = ACInvitationPopup;
-componentsList[ACListComponent.name] = ACListComponent;
-componentsList[ACManagePopup.name] = ACManagePopup;
-componentsList[ACPhonebookComponent.name] = ACPhonebookComponent;
-componentsList[ACSettingsPopup.name] = ACSettingsPopup;
+// componentsList[ACArchiveComponent.name] = ACArchiveComponent;
+// componentsList[ACConfirmationPopup.name] = ACConfirmationPopup;
+// componentsList[ACCreationPopup.name] = ACCreationPopup;
+// componentsList[ACFooter.name] = ACFooter;
+// componentsList[ACHeader.name] = ACHeader;
+// componentsList[ACInvitationPopup.name] = ACInvitationPopup;
+// componentsList[ACListComponent.name] = ACListComponent;
+// componentsList[ACManagePopup.name] = ACManagePopup;
+// componentsList[ACPhonebookComponent.name] = ACPhonebookComponent;
+// componentsList[ACSettingsPopup.name] = ACSettingsPopup;
 
 console.info('** componentsList',componentsList)
 
