@@ -1735,17 +1735,17 @@ var componentsList = {};
       "class": "conference-header__navigation"
     }, [h("a", {
       attrs: {
-        href: "/audioconference1"
+        href: "/vue-rt-style-kit-pages/audioconference1"
       },
       "class": "conference-header__navigation-item conference-header__navigation-item--active"
     }, ["\u0410\u0443\u0434\u0438\u043E\u043A\u043E\u043D\u0444\u0435\u0440\u0435\u043D\u0446\u0438\u0438"]), h("a", {
       attrs: {
-        href: "/audioconference2"
+        href: "/vue-rt-style-kit-pages/audioconference2"
       },
       "class": "conference-header__navigation-item"
     }, ["\u0410\u0440\u0445\u0438\u0432"]), h("a", {
       attrs: {
-        href: "/audioconference3"
+        href: "/vue-rt-style-kit-pages/audioconference3"
       },
       "class": "conference-header__navigation-item"
     }, ["\u0410\u0434\u0440\u0435\u0441\u043D\u0430\u044F \u043A\u043D\u0438\u0433\u0430"])]), h("div", {
