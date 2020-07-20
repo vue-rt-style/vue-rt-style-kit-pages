@@ -30,7 +30,7 @@
                     <div class="sp-t-2-1 sp-b-1-3">
                       <rt-checkbox name="" :checked="true">Запомнить</rt-checkbox>
                     </div>
-                    <rt-button href="/audioconference1" class='rt-button-orange d-i-f' target="_self">Войти</rt-button>
+                    <rt-button href="/vue-rt-style-kit-pages/audioconference1" class='rt-button-orange d-i-f' target="_self">Войти</rt-button>
                     <rt-button class='rt-button-orange-border'>Подключить услугу</rt-button>
                   </div>
                 </div>
