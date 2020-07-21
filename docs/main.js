@@ -10865,8 +10865,7 @@ var _componentsMenu_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/_
       if (e.keyCode === 27) {
         this.$refs.input.$refs.input.value = '';
         this.$refs.input.$refs.input.dispatchEvent(new Event('input'));
-      } else {
-        console.info('e', e);
+      } else {// console.info('e',e);
       }
     }
   },

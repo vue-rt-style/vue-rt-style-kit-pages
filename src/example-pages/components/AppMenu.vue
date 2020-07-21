@@ -59,7 +59,7 @@
           this.$refs.input.$refs.input.dispatchEvent(new Event('input'));
         }
         else{
-            console.info('e',e);
+            // console.info('e',e);
         }
       }
     },
