@@ -8,7 +8,18 @@
         </div>
       </div>
     </div>
+    <rt-banner-v2>
+      <rt-banner-item-v2>
+        <template slot="label">Виртуальная АТС <br> и 1 000 минут бесплатно</template>
+        <template slot="description">Соберите сами свой пакет фильмов и каналов.</template>
+        <template slot="footer"><rt-button color="orange" :is-small="true">Подробнее</rt-button></template>
+      </rt-banner-item-v2>
+    </rt-banner-v2>
     <div class="rt-container is-b2b">
+
+
+
+
       <pre-code
         text='<div class="rt-col-12 rt-space-bottom2">
         <rt-banner
