@@ -30474,9 +30474,9 @@ componentsList[_vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["T
 componentsList[_vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["TabsNavigationItem"].name] = _vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["TabsNavigationItem"];
 componentsList[_vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["TabsContentItem"].name] = _vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["TabsContentItem"];
 componentsList[_vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["Annotation"].name] = _vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["Annotation"];
-componentsList[_vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["ColorLineText"].name] = _vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["ColorLineText"];
-componentsList[_vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["BannerV2"].name] = _vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["BannerV2"];
-componentsList[_vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["BannerItemV2"].name] = _vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["BannerItemV2"];
+componentsList[_vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["ColorLineText"].name] = _vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["ColorLineText"]; // componentsList[BannerV2.name] = BannerV2;
+// componentsList[BannerItemV2.name] = BannerItemV2;
+
 componentsList[_vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["Banner"].name] = _vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["Banner"];
 componentsList[_vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["BannerItem"].name] = _vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["BannerItem"];
 componentsList[_vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["BannerPaginatorItem"].name] = _vue_rt_style_kit_molecules_local__WEBPACK_IMPORTED_MODULE_1__["BannerPaginatorItem"];
