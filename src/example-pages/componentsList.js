@@ -91,6 +91,8 @@ import {
     BannerItem,
     BannerVideoGameControl,
     BannerPaginatorItem,
+    BannerV2,
+    BannerItemV2,
     GalleryCarousel,
     GalleryCarouselItem,
     CountdownTimer,
@@ -98,7 +100,8 @@ import {
     StickyHeaderLine,
     Slider,
     SliderItem,
-    HelpBlock
+    HelpBlock,
+    
 } from '@vue-rt-style-kit-molecules-local'
 
 
@@ -151,6 +154,8 @@ componentsList[TabsNavigationItem.name] = TabsNavigationItem;
 componentsList[TabsContentItem.name] = TabsContentItem;
 componentsList[Annotation.name] = Annotation;
 componentsList[ColorLineText.name] = ColorLineText;
+componentsList[BannerV2.name] = BannerV2;
+componentsList[BannerItemV2.name] = BannerItemV2;
 componentsList[Banner.name] = Banner;
 componentsList[BannerItem.name] = BannerItem;
 componentsList[BannerPaginatorItem.name] = BannerPaginatorItem;
@@ -233,7 +238,6 @@ componentsList[ACManagePopup.name] = ACManagePopup;
 componentsList[ACPhonebookComponent.name] = ACPhonebookComponent;
 componentsList[ACSettingsPopup.name] = ACSettingsPopup;
 
-console.info('** componentsList',componentsList)
 
 // componentsList[PreComponent.name] = PreComponent;
 // componentsList[PreComponentEditor.name] = PreComponentEditor;
