@@ -14,7 +14,7 @@
         </div>
         <div class="app-row row">
           <div class="rt-col">
-            <rt-switch>Интернет</rt-switch>
+            <rt-switch :is-orange="true">Интернет</rt-switch>
           </div>
         </div>
         <div class="app-row row">

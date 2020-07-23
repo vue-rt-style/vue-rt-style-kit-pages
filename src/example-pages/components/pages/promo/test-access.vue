@@ -13,12 +13,12 @@
 <!--    </div>-->
 <!--    <div class="rt-space-top25"/>-->
 <!--  </div>-->
-  <div class="rt-container">
-    <div class="rt-col rt-space-top25"></div>
-    <div class="rt-col">
-      <rt-header-navigation :nav-tree=innerData></rt-header-navigation>
-    </div>
-  </div>
+<!--  <div class="rt-container">-->
+<!--    <div class="rt-col rt-space-top25"></div>-->
+<!--    <div class="rt-col">-->
+<!--      <rt-header-navigation :nav-tree=innerData></rt-header-navigation>-->
+<!--    </div>-->
+<!--  </div>-->
 <!--  <div class="conference-auth">-->
 <!--    <div class="conference-auth__image"/>-->
 <!--    <div class="rt-container full-height">-->
@@ -157,6 +157,22 @@
 <!--      </template>-->
 <!--    </rt-text-image-block>-->
 <!--  </div>-->
+  <div class="rt-container sp-t-3">
+    <div class="rt-col-3">
+      <rt-card background-image='/static/example-images/cardBackground7.png' :background-cover='true' :offset-top='true' background-color-type='black'>
+        <template slot='footer'>
+          <div class="flex-end-center">
+            <rt-button class="rt-button-full-white">
+              <span class="sp-r-0-3">Добавить в заказ</span>
+              <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.75293 7.74707H12.0029V6.24707H6.75293V0.99707H5.25293V6.24707H0.00292969L0.00292969 7.74707H5.25293V12.9971H6.75293V7.74707Z" fill="#101828"/>
+              </svg>
+            </rt-button>
+          </div>
+        </template>
+      </rt-card>
+    </div>
+  </div>
 </template>
 
 <script>
