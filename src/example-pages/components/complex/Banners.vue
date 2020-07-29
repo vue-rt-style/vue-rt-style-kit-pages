@@ -1,4 +1,4 @@
- <template>
+<template>
   <div>
     <div class="rt-container">
       <div class="grid-center"/>
@@ -10,9 +10,37 @@
     </div>
     <rt-banner-v2>
       <rt-banner-item-v2>
+        <template slot="header">
+          <img src="/static/example-images/headerbtc1460.svg" alt="">
+        </template>
+        <template slot="label">Легко подключить,<br> комфортно жить</template>
+        <template slot="footer"><rt-button color="orange">Подробнее</rt-button></template>
+        <template slot="image"><img src="/static/example-images/bannerImage.jpg" alt=""></template>
+        <template slot="image-x2"><img src="/static/example-images/bannerImage-x2.jpg" alt=""></template>
+      </rt-banner-item-v2>
+      <rt-banner-item-v2 color-type="orange">
+        <template slot="header">
+          <img src="/static/example-images/logowink.svg" alt="">
+        </template>
+        <template slot="label">Разжигают страсть</template>
+        <template slot="description">Абонемент «Киноман» Скидка на все фильмы и сериалы</template>
+        <template slot="footer"><rt-button color="full-white" >Подробнее</rt-button></template>
+        <template slot="image"><img src="/static/example-images/bannerImageOrange.jpg" alt=""></template>
+        <template slot="image-x2"><img src="/static/example-images/bannerImageOrange-x2.jpg" alt=""></template>
+      </rt-banner-item-v2>
+      <rt-banner-item-v2>
         <template slot="label">Виртуальная АТС <br> и 1 000 минут бесплатно</template>
         <template slot="description">Соберите сами свой пакет фильмов и каналов.</template>
-        <template slot="footer"><rt-button color="orange" :is-small="true">Подробнее</rt-button></template>
+        <template slot="footer"><rt-button color="orange" >Подробнее</rt-button></template>
+        <template slot="image"><img src="/static/example-images/bannerImage.jpg" alt=""></template>
+        <template slot="image-x2"><img src="/static/example-images/bannerImage-x2.jpg" alt=""></template>
+      </rt-banner-item-v2>
+      <rt-banner-item-v2>
+        <template slot="label">Виртуальная АТС <br> и 1 000 минут бесплатно</template>
+        <template slot="description">Соберите сами свой пакет фильмов и каналов.</template>
+        <template slot="footer"><rt-button color="orange" >Подробнее</rt-button></template>
+        <template slot="image"><img src="/static/example-images/bannerImage.jpg" alt=""></template>
+        <template slot="image-x2"><img src="/static/example-images/bannerImage-x2.jpg" alt=""></template>
       </rt-banner-item-v2>
     </rt-banner-v2>
     <div class="rt-container is-b2b">
@@ -21,7 +49,7 @@
 
 
       <pre-code
-        text='<div class="rt-col-12 rt-space-bottom2">
+          text='<div class="rt-col-12 rt-space-bottom2">
         <rt-banner
           :no-triangle="true"
           :round-angles="true"
@@ -44,7 +72,7 @@
     </div>
 
     <pre-code
-      text="<rt-banner :no-triangle='true'
+        text="<rt-banner :no-triangle='true'
                        :resize-query-selectors-names='[&quot;.rt-font-bold&quot;,&quot;.p1&quot;]'
                        :without-empty-column='true'
                        :without-second-empty-column='true'
@@ -83,7 +111,7 @@
     </rt-banner>"
     />
     <pre-code
-      text="<rt-banner :set-stop-on-click='true'
+        text="<rt-banner :set-stop-on-click='true'
                        :sleep-time='20000'
                        bannerLogo='/static/example-images/Logo.svg'
                        content-mobile-min-height='80vh'
@@ -109,7 +137,7 @@
     />
     <div class="is-b2c">
       <pre-code
-        text="<rt-banner :is-fullscreen-image='true'
+          text="<rt-banner :is-fullscreen-image='true'
                          bannerLogo='/static/example-images/Logo.svg'
                          :resize-query-selectors-names='[&quot;.content-test&quot;]'
                          content-height='100vh'
@@ -143,7 +171,7 @@
       />
     </div>
     <pre-code
-      text="<rt-banner :sleep-time='10000'
+        text="<rt-banner :sleep-time='10000'
                        content-mobile-min-height='100px'
                        content-tablet-height='450px'
                        content-tablet-min-height='450px'
@@ -171,7 +199,7 @@
       </rt-banner>"
     />
     <pre-code
-      text="<rt-banner :switch-off-timer='true'
+        text="<rt-banner :switch-off-timer='true'
                       :without-empty-column='true'
                       :background-image-left='true'>
         <rt-banner-item :has-image-on-mobile='true'
@@ -210,7 +238,7 @@
     </rt-banner>"
     />
     <pre-code
-      text="<rt-banner :switch-off-timer='true'
+        text="<rt-banner :switch-off-timer='true'
                        :is-fullscreen-image='true'
                        content-height='600px'
                        :without-empty-column='true'
@@ -244,7 +272,7 @@
     "/>
     <div class="rt-space-vertical is-b2c">
       <pre-code
-        text="<rt-banner :switch-off-timer='true'
+          text="<rt-banner :switch-off-timer='true'
                          :fixed-image='true'
                          :is-fullscreen-image='true'
                          content-height='600px'

@@ -9,7 +9,7 @@
 			</div>
 		</div>
 		<div class="rt-container">
-			<rt-row>
+			<rt-row >
 			<rt-col size="6">
 				<rt-help-block :on-click="alert">
 					<template slot="content">К сожалению, Ваш дом еще не подключен к сети. Заявка будет предварительной</template>
@@ -24,7 +24,7 @@
 				</rt-help-block>
 			</rt-col>
 			</rt-row>
-			<rt-row>
+			<rt-row class="sp-v-1">
 			<rt-col size="6">
 				<pre-code text='
 				<rt-help-block :on-click="alert">
@@ -41,6 +41,42 @@
 				</rt-help-block>'></pre-code>
 			</rt-col>
 			</rt-row>
+		</div>
+		<div class="color-block--dark-blue rt-space-vertical2">
+			<div class="rt-container">
+				<rt-row>
+					<rt-col size="6">
+						<rt-help-block :bright="true" :on-click="alert">
+							<template slot="content">К сожалению, Ваш дом еще не подключен к сети. Заявка будет предварительной</template>
+							<template slot="action-text">Проверить другой адрес</template>
+						</rt-help-block>
+					</rt-col>
+					<rt-col size="1"></rt-col>
+					<rt-col size="3">
+						<rt-help-block :bright="true" :on-click="alert" :hide-icon="true">
+							<template slot="content">К сожалению, Ваш дом еще не подключен к сети. Заявка будет предварительной</template>
+							<template slot="action-text">Проверить другой адрес</template>
+						</rt-help-block>
+					</rt-col>
+				</rt-row>
+				<rt-row  class="sp-t-1">
+					<rt-col size="6">
+						<pre-code text='
+				<rt-help-block :bright="true" :on-click="alert">
+					<template slot="content">К сожалению, Ваш дом еще не подключен к сети. Заявка будет предварительной</template>
+					<template slot="action-text">Проверить другой адрес</template>
+				</rt-help-block>'></pre-code>
+					</rt-col>
+					<rt-col size="1"></rt-col>
+					<rt-col size="3">
+						<pre-code text='
+				<rt-help-block :bright="true" :on-click="alert" :hide-icon="true">
+					<template slot="content">К сожалению, Ваш дом еще не подключен к сети. Заявка будет предварительной</template>
+					<template slot="action-text">Проверить другой адрес</template>
+				</rt-help-block>'></pre-code>
+					</rt-col>
+				</rt-row>
+			</div>
 		</div>
 	</div>
 </template>
