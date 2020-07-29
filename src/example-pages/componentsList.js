@@ -91,8 +91,8 @@ import {
     BannerItem,
     BannerVideoGameControl,
     BannerPaginatorItem,
-    // BannerV2,
-    // BannerItemV2,
+    BannerV2,
+    BannerItemV2,
     GalleryCarousel,
     GalleryCarouselItem,
     CountdownTimer,
@@ -154,8 +154,8 @@ componentsList[TabsNavigationItem.name] = TabsNavigationItem;
 componentsList[TabsContentItem.name] = TabsContentItem;
 componentsList[Annotation.name] = Annotation;
 componentsList[ColorLineText.name] = ColorLineText;
-// componentsList[BannerV2.name] = BannerV2;
-// componentsList[BannerItemV2.name] = BannerItemV2;
+componentsList[BannerV2.name] = BannerV2;
+componentsList[BannerItemV2.name] = BannerItemV2;
 componentsList[Banner.name] = Banner;
 componentsList[BannerItem.name] = BannerItem;
 componentsList[BannerPaginatorItem.name] = BannerPaginatorItem;
