@@ -6448,6 +6448,10 @@ var componentsList = {};
           if (_this[key]) {
             var hideClass = ['d', 'none'];
 
+            if (prefix == 'm') {
+              prefix += 'd';
+            }
+
             if (prefix.length > 0) {
               hideClass.unshift(prefix);
             }
@@ -13825,7 +13829,7 @@ __webpack_require__.r(__webpack_exports__);
 var componentsList = {};
 componentsList[_BannerVirtualImage_vue__WEBPACK_IMPORTED_MODULE_2__["default"].name] = _BannerVirtualImage_vue__WEBPACK_IMPORTED_MODULE_2__["default"]; //dark-slate
 //gray
-//orange-super
+//orange
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "RtBannerVirtualItemV2",
@@ -14055,7 +14059,7 @@ componentsList[_BannerVirtualImage_vue__WEBPACK_IMPORTED_MODULE_2__["default"].n
       },
       "class": "d-flex flex-fill"
     }, [h("div", {
-      "class": "d-flex flex-start-center"
+      "class": "d-flex flex-start-center md-flex-start-top"
     }, [h("div", {
       "class": "md-sp-t-1-2 d-flex flex-column"
     }, [this.header, this.label, this.description, this.footer])])])]), h("rt-banner-virtual-image-v2", {
