@@ -8,6 +8,7 @@
         </div>
       </div>
     </div>
+    <div class="sp-b-2">
     <rt-banner-v2>
       <rt-banner-item-v2>
         <template slot="header">
@@ -43,6 +44,7 @@
         <template slot="image-x2"><img src="/static/example-images/bannerImage-x2.jpg" alt=""></template>
       </rt-banner-item-v2>
     </rt-banner-v2>
+    </div>
     <div class="rt-container is-b2b">
 
 
