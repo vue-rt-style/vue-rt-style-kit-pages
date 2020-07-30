@@ -653,7 +653,7 @@ export default {
       return {
         background: this.detailBg,
         top: `${this.detailTop}px`,
-        zIndex: this.detailViewReady ? 'auto' : '-1'
+        zIndex: this.detailViewReady ? '222' : '-1'
       }
     },
     filteredlistIcons () {
