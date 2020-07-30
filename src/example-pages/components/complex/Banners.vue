@@ -12,36 +12,36 @@
     <rt-banner-v2>
       <rt-banner-item-v2>
         <template slot="header">
-          <img src="/static/example-images/headerbtc1460.svg" alt="">
+          <img src="http://46.101.72.150/static/tmp/headerbtc1460.svg" alt="">
         </template>
         <template slot="label">Легко подключить,<br> комфортно жить</template>
         <template slot="footer"><rt-button color="orange">Подробнее</rt-button></template>
-        <template slot="image"><img src="/static/example-images/bannerImage.jpg" alt=""></template>
-        <template slot="image-x2"><img src="/static/example-images/bannerImage-x2.jpg" alt=""></template>
+        <template slot="image"><img src="http://46.101.72.150/static/tmp/bannerImage.jpg" alt=""></template>
+        <template slot="image-x2"><img src="http://46.101.72.150/static/tmp/bannerImage-x2.jpg" alt=""></template>
       </rt-banner-item-v2>
       <rt-banner-item-v2 color-type="orange">
         <template slot="header">
-          <img src="/static/example-images/logowink.svg" alt="">
+          <img src="http://46.101.72.150/static/tmp/logowink.svg" alt="">
         </template>
         <template slot="label">Разжигают страсть</template>
         <template slot="description">Абонемент «Киноман» Скидка на все фильмы и сериалы</template>
         <template slot="footer"><rt-button color="full-white" >Подробнее</rt-button></template>
-        <template slot="image"><img src="/static/example-images/bannerImageOrange.jpg" alt=""></template>
-        <template slot="image-x2"><img src="/static/example-images/bannerImageOrange-x2.jpg" alt=""></template>
+        <template slot="image"><img src="http://46.101.72.150/static/tmp/bannerImageOrange.jpg" alt=""></template>
+        <template slot="image-x2"><img src="http://46.101.72.150/static/tmp/bannerImageOrange-x2.jpg" alt=""></template>
       </rt-banner-item-v2>
       <rt-banner-item-v2>
         <template slot="label">Виртуальная АТС <br> и 1 000 минут бесплатно</template>
         <template slot="description">Соберите сами свой пакет фильмов и каналов.</template>
         <template slot="footer"><rt-button color="orange" >Подробнее</rt-button></template>
-        <template slot="image"><img src="/static/example-images/bannerImage.jpg" alt=""></template>
-        <template slot="image-x2"><img src="/static/example-images/bannerImage-x2.jpg" alt=""></template>
+        <template slot="image"><img src="http://46.101.72.150/static/tmp/bannerImage.jpg" alt=""></template>
+        <template slot="image-x2"><img src="http://46.101.72.150/static/tmp/bannerImage-x2.jpg" alt=""></template>
       </rt-banner-item-v2>
       <rt-banner-item-v2>
         <template slot="label">Виртуальная АТС <br> и 1 000 минут бесплатно</template>
         <template slot="description">Соберите сами свой пакет фильмов и каналов.</template>
         <template slot="footer"><rt-button color="orange" >Подробнее</rt-button></template>
-        <template slot="image"><img src="/static/example-images/bannerImage.jpg" alt=""></template>
-        <template slot="image-x2"><img src="/static/example-images/bannerImage-x2.jpg" alt=""></template>
+        <template slot="image"><img src="http://46.101.72.150/static/tmp/bannerImage.jpg" alt=""></template>
+        <template slot="image-x2"><img src="http://46.101.72.150/static/tmp/bannerImage-x2.jpg" alt=""></template>
       </rt-banner-item-v2>
     </rt-banner-v2>
     </div>
@@ -115,10 +115,10 @@
     <pre-code
         text="<rt-banner :set-stop-on-click='true'
                        :sleep-time='20000'
-                       bannerLogo='/static/example-images/Logo.svg'
+                       bannerLogo='http://46.101.72.150/static/tmp/Logo.svg'
                        content-mobile-min-height='80vh'
                        content-mobile-height='300px'>
-      <rt-banner-item background-image='/static/example-images/banerBackground1.jpg'
+      <rt-banner-item background-image='http://46.101.72.150/static/tmp/banerBackground1.jpg'
                       :is-white-color='true'
                       content-mobile-min-height='80vh'
                       content-mobile-height='200px'
@@ -129,7 +129,7 @@
           возможностьпользоваться из любой точки мира <br> и ни одного пропущенного звонка клиента</p>
         <rt-button class='rt-button-orange'>Подробнее</rt-button>
       </rt-banner-item>
-      <rt-banner-item ancor-get-params-link='utm-source=vova-privet' ancor-hash-link='testBannerHash' background-color='yellow' background-image='/static/example-images/banerBackground2.jpg'><p
+      <rt-banner-item ancor-get-params-link='utm-source=vova-privet' ancor-hash-link='testBannerHash' background-color='yellow' background-image='http://46.101.72.150/static/tmp/banerBackground2.jpg'><p
         class='rt-font-banner-label'>Помогаем бизнесу <br> экономить</p>
         <p class='rt-space-top rt-space-bottom15'>Цифровые сервисы и технологии по выгодным ценам для среднего и
           малогобизнеса </p>
@@ -140,7 +140,7 @@
     <div class="is-b2c">
       <pre-code
           text="<rt-banner :is-fullscreen-image='true'
-                         bannerLogo='/static/example-images/Logo.svg'
+                         bannerLogo='http://46.101.72.150/static/tmp/Logo.svg'
                          :resize-query-selectors-names='[&quot;.content-test&quot;]'
                          content-height='100vh'
                          content-mobile-min-height='100vh'
@@ -180,7 +180,7 @@
                        content-mobile-height='300px'
                        content-height='600px'
                        content-min-height='300px'>
-        <rt-banner-item background-image='/static/example-images/banerBackground1.jpg'
+        <rt-banner-item background-image='http://46.101.72.150/static/tmp/banerBackground1.jpg'
                         :is-white-color='true'
                         background-color='dark-slate'
                         content-mobile-min-height='100px'
@@ -193,7 +193,7 @@
           <p class='rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br> возможностьпользоваться из любой точки мира <br> и ни одного пропущенного звонка клиента</p>
           <rt-button class='rt-button-orange'>Подробнее</rt-button>
         </rt-banner-item>
-        <rt-banner-item background-color='yellow' background-image='/static/example-images/banerBackground2.jpg'>
+        <rt-banner-item background-color='yellow' background-image='http://46.101.72.150/static/tmp/banerBackground2.jpg'>
         <p class='rt-font-banner-label'>Помогаем бизнесу <br> экономить</p>
         <p class='rt-space-top rt-space-bottom15'>Цифровые сервисы и технологии по выгодным ценам для среднего и малогобизнеса </p>
         <rt-button class='rt-button-orange'>Подробнее</rt-button>
@@ -347,7 +347,7 @@
         <rt-button class='rt-button-orange'>Подробнее</rt-button>
       </rt-banner-item>
       <rt-banner-item background-color='yellow'
-                      background-image='/static/example-images/banerBackground2.jpg'
+                      background-image='http://46.101.72.150/static/tmp/banerBackground2.jpg'
                       :slide-time='2000'
                       content-mobile-min-height='100px'
                       content-tablet-height='500px'
