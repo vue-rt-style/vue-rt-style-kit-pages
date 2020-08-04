@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="app-body">
-                <div class="row  is-b2c">
+                <div class="row">
                     <div class="rt-col-12">
                         <div class="flex-end-center">
                             <div class="d-inline-block">
@@ -128,15 +128,15 @@
                 </div>
                 <div class="is-b2c">
                     <rt-card background-image='/static/example-images/cardBackground5.png' background-position='bottom-right' :col-size='2'>
-                        <rt-template slot='content'>
+                        <template slot='content'>
                             <p class='rt-font-label'>стоимость покупки</p>
                             <rt-price :value='1480' :only-price='true' />
-                        </rt-template>
-                        <rt-template slot='footer'>
+                        </template>
+                        <template slot='footer'>
                             <p class='rt-font-paragraph rt-font-bold'>Звоните по новому</p>
                             <p class='rt-font-paragraph rt-space-top05 rt-space-bottom'>Беспроцентная рассрочка на смартфоны Samsung Galaxy S8 для абонентов Ростелекома</p>
                             <p class='rt-space-top'>Условия акции</p>
-                        </rt-template>
+                        </template>
                     </rt-card>
                 </div>
                 <div class="app-content rt-col-12 rt-col-md-3 rt-space-top3">
