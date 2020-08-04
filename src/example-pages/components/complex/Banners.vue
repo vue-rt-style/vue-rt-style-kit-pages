@@ -14,6 +14,9 @@
         <template slot="header">
           <img src="http://46.101.72.150/static/tmp/headerbtc1460.svg" alt="">
         </template>
+        <template slot="mobile-header">
+          <img src="http://46.101.72.150/static/tmp/headerbtc1460.svg" height="32px" alt="">
+        </template>
         <template slot="label">Легко подключить,<br> комфортно жить</template>
         <template slot="footer"><rt-button color="orange">Подробнее</rt-button></template>
         <template slot="image"><img src="http://46.101.72.150/static/tmp/bannerImage.jpg" alt=""></template>
@@ -21,7 +24,12 @@
       </rt-banner-item-v2>
       <rt-banner-item-v2 color-type="orange">
         <template slot="header">
-          <img src="http://46.101.72.150/static/tmp/logowink.svg" alt="">
+          <img class="d-block" src="http://46.101.72.150/static/tmp/logowink.svg" alt="">
+        </template>
+        <template slot="mobile-header">
+          <svg width="32" height="40" viewBox="0 0 32 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.8678 0.344238L0.182129 10.985L9.22389 19.9887L0.182129 28.9961L10.8678 39.6368L30.599 19.9887L10.8678 0.344238Z" fill="white"/>
+          </svg>
         </template>
         <template slot="label">Разжигают страсть</template>
         <template slot="description">Абонемент «Киноман» Скидка на все фильмы и сериалы</template>
