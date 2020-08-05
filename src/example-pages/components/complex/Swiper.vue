@@ -43,7 +43,7 @@
     </rt-swiper>
     <div class="rt-space-top5">
       <rt-resize-content-height :query-selectors-names="['.links-block']">
-        <rt-swiper :hide-navigation="true" :scroll-on-click="true">
+        <rt-swiper :scroll-on-click="true">
           <rt-slide slide-classes="rt-col-4 in-plus-card higher-z">
             <rt-card
               :equal-padding="true"
@@ -358,185 +358,185 @@
               </template>
             </rt-card>
           </rt-slide>
-          <rt-slide slide-classes="rt-col-4 in-plus-card higher-z">
-            <rt-card
-              :equal-padding="true"
-              :has-discount="true"
-              :discount-lines="3"
-              :is-b2b-package="true"
-              discount-text="3 услуги co скидкой 50%">
-              <template slot="header">
-                <h3 class="rt-space-bottom rt-font-bold">
-                  Пакет S
-                </h3>
-              </template>
-              <template slot="content">
-                <div class="rtb-card__section">
-                  <p class="tagline color-main03 rt-space-bottom05">
-                    Интернет
-                  </p>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph rt-font-bold">
-                      10 Мбит/с
-                    </p>
-                    <p class="rt-font-paragraph rt-font-bold">
-                      по проводу или мобильный
-                    </p>
-                  </div>
-                </div>
-                <div class="rtb-card__section">
-                  <p class="tagline color-main03 rt-space-bottom05">
-                    Мобильная связь
-                  </p>
-                  <div class="rtb-card__description__row">
-                    <span class="rt-font-paragraph rt-font-bold">1 сим-карта</span>
-                    <rt-hint :simple-tool-tip="true">
-                      <slot>
-                        Это всё что угодно,<br >но не адрес электронной почты
-                        Это всё что угодно,<br >но не адрес электронной почты
-                        Это всё что угодно,<br >но не адрес электронной почты
-                      </slot>
-                    </rt-hint>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph rt-font-bold">
-                      300 минут
-                    </p>
-                    <p class="rt-font-small-paragraph color-main025">
-                      на номера домашнего региона
-                    </p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph rt-font-bold">
-                      3 Гб
-                    </p>
-                    <p class="rt-font-small-paragraph color-main025">
-                      интернета по России
-                    </p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <links-block  :icon-array="[
-                    {tooltip: 'gjlcrfprf1', path: 'vk'},
-                    {tooltip: 'gjlcrfprf2', path: 'ya_map'},
-                    {tooltip: 'gjlcrfprf3', path: 'youtube'},
-                    {tooltip: 'gjlcrfprf4', path: 'viber'},
-                    {tooltip: 'gjlcrfprf5', path: 'whatsapp'},
-                    {tooltip: 'gjlcrfprf6', path: 'tamtam'},
-                    {tooltip: 'gjlcrfprf7', path: 'odnoklassniki'},
-                    {tooltip: 'gjlcrfprf8', path: 'facebook'},
-                    {tooltip: 'gjlcrfprf9', path: 'ya_navigator'},
-                    {tooltip: 'gjlcrfprf10', path: 'ya_transport'},
-                    ]"
-                                  source-directory="/static/images/B2B/"/>
-                  </div>
-                  <div class="rtb-card__description__row rt-space-top05">
-                    <a href="#" class="rt-font-control rt-link rt-link--purple">Условия тарифа «Вызов 250»</a>
-                  </div>
-                </div>
-              </template>
-              <template slot="footer">
-                <div class="rt-space-bottom" />
-                <div class="rtb-card__cost">
-                  <rt-price
-                    :value="2500"
-                    :is-option="false"
-                    currency="₽"
-                    :b2b-price="true"
-                    time-interval="в месяц"/>
-                </div>
-                <div class="rtb-card__description__row">
-                  <p class="rt-font-small-paragraph color-main025">
-                    Цена за услуги вне пакета
-                    <rt-price
-                      :value="6000"
-                      :is-option="false"
-                      currency="₽"
-                      :b2b-price="true"
-                      time-interval=""
-                      :darkened="true"/>
-                  </p>
-                </div>
-                <a href="#">
-                  <button class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
-                    Выбрать
-                  </button>
-                </a>
-              </template>
-            </rt-card>
-          </rt-slide>
-          <rt-slide slide-classes="rt-col-4 in-plus-card higher-z">
-          <rt-card
-            :equal-padding="true"
-            :has-discount="true"
-            :discount-lines="3"
-            :is-b2b-package="true"
-            discount-text="3 услуги co скидкой 50%">
-            <template slot="header">
-              <h3 class="rt-space-bottom rt-font-bold">
-                Пакет S
-              </h3>
-            </template>
-            <template slot="content">
-              <div class="rtb-card__section">
-                <p class="tagline color-main03 rt-space-bottom05">
-                  Интернет
-                </p>
-                <div class="rtb-card__description__row">
-                  <rt-radio-button name="fgdgdfg">dfgsdfgsdfg</rt-radio-button>
-                </div>
-              </div>
-              <div class="rtb-card__section">
-                <p class="tagline color-main03 rt-space-bottom05">
-                  Мобильная связь
-                </p>
-                <div class="rtb-card__description__row">
-                  <rt-radio-button name="fgdgdfg">dfgsdfgsdfg1</rt-radio-button>
-                </div>
-                <div class="rtb-card__description__row">
-                  <rt-radio-button name="fgdgdfg">dfgsdfgsdfg2</rt-radio-button>
-                </div>
-                <div class="rtb-card__description__row">
-                  <rt-radio-button name="fgdgdfg">dfgsdfgsdfg3</rt-radio-button>
-                </div>
-                <div class="rtb-card__description__row">
-                  <rt-radio-button name="fgdgdfg">dfgsdfgsdfg4</rt-radio-button>
-                </div>
-                <div class="rtb-card__description__row rt-space-top05">
-                  <a href="#" class="rt-font-control rt-link rt-link--purple">Условия тарифа «Вызов 250»</a>
-                </div>
-              </div>
-            </template>
-            <template slot="footer">
-              <div class="rt-space-bottom" />
-              <div class="rtb-card__cost">
-                <rt-price
-                  :value="2500"
-                  :is-option="false"
-                  currency="₽"
-                  :b2b-price="true"
-                  time-interval="в месяц"/>
-              </div>
-              <div class="rtb-card__description__row">
-                <p class="rt-font-small-paragraph color-main025">
-                  Цена за услуги вне пакета
-                  <rt-price
-                    :value="6000"
-                    :is-option="false"
-                    currency="₽"
-                    :b2b-price="true"
-                    time-interval=""
-                    :darkened="true"/>
-                </p>
-              </div>
-              <a href="#">
-                <button class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
-                  Выбрать
-                </button>
-              </a>
-            </template>
-          </rt-card>
-        </rt-slide>
-      </rt-swiper>
+<!--          <rt-slide slide-classes="rt-col-4 in-plus-card higher-z">-->
+<!--            <rt-card-->
+<!--              :equal-padding="true"-->
+<!--              :has-discount="true"-->
+<!--              :discount-lines="3"-->
+<!--              :is-b2b-package="true"-->
+<!--              discount-text="3 услуги co скидкой 50%">-->
+<!--              <template slot="header">-->
+<!--                <h3 class="rt-space-bottom rt-font-bold">-->
+<!--                  Пакет S-->
+<!--                </h3>-->
+<!--              </template>-->
+<!--              <template slot="content">-->
+<!--                <div class="rtb-card__section">-->
+<!--                  <p class="tagline color-main03 rt-space-bottom05">-->
+<!--                    Интернет-->
+<!--                  </p>-->
+<!--                  <div class="rtb-card__description__row">-->
+<!--                    <p class="rt-font-paragraph rt-font-bold">-->
+<!--                      10 Мбит/с-->
+<!--                    </p>-->
+<!--                    <p class="rt-font-paragraph rt-font-bold">-->
+<!--                      по проводу или мобильный-->
+<!--                    </p>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--                <div class="rtb-card__section">-->
+<!--                  <p class="tagline color-main03 rt-space-bottom05">-->
+<!--                    Мобильная связь-->
+<!--                  </p>-->
+<!--                  <div class="rtb-card__description__row">-->
+<!--                    <span class="rt-font-paragraph rt-font-bold">1 сим-карта</span>-->
+<!--                    <rt-hint :simple-tool-tip="true">-->
+<!--                      <slot>-->
+<!--                        Это всё что угодно,<br >но не адрес электронной почты-->
+<!--                        Это всё что угодно,<br >но не адрес электронной почты-->
+<!--                        Это всё что угодно,<br >но не адрес электронной почты-->
+<!--                      </slot>-->
+<!--                    </rt-hint>-->
+<!--                  </div>-->
+<!--                  <div class="rtb-card__description__row">-->
+<!--                    <p class="rt-font-paragraph rt-font-bold">-->
+<!--                      300 минут-->
+<!--                    </p>-->
+<!--                    <p class="rt-font-small-paragraph color-main025">-->
+<!--                      на номера домашнего региона-->
+<!--                    </p>-->
+<!--                  </div>-->
+<!--                  <div class="rtb-card__description__row">-->
+<!--                    <p class="rt-font-paragraph rt-font-bold">-->
+<!--                      3 Гб-->
+<!--                    </p>-->
+<!--                    <p class="rt-font-small-paragraph color-main025">-->
+<!--                      интернета по России-->
+<!--                    </p>-->
+<!--                  </div>-->
+<!--                  <div class="rtb-card__description__row">-->
+<!--                    <links-block  :icon-array="[-->
+<!--                    {tooltip: 'gjlcrfprf1', path: 'vk'},-->
+<!--                    {tooltip: 'gjlcrfprf2', path: 'ya_map'},-->
+<!--                    {tooltip: 'gjlcrfprf3', path: 'youtube'},-->
+<!--                    {tooltip: 'gjlcrfprf4', path: 'viber'},-->
+<!--                    {tooltip: 'gjlcrfprf5', path: 'whatsapp'},-->
+<!--                    {tooltip: 'gjlcrfprf6', path: 'tamtam'},-->
+<!--                    {tooltip: 'gjlcrfprf7', path: 'odnoklassniki'},-->
+<!--                    {tooltip: 'gjlcrfprf8', path: 'facebook'},-->
+<!--                    {tooltip: 'gjlcrfprf9', path: 'ya_navigator'},-->
+<!--                    {tooltip: 'gjlcrfprf10', path: 'ya_transport'},-->
+<!--                    ]"-->
+<!--                                  source-directory="/static/images/B2B/"/>-->
+<!--                  </div>-->
+<!--                  <div class="rtb-card__description__row rt-space-top05">-->
+<!--                    <a href="#" class="rt-font-control rt-link rt-link&#45;&#45;purple">Условия тарифа «Вызов 250»</a>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </template>-->
+<!--              <template slot="footer">-->
+<!--                <div class="rt-space-bottom" />-->
+<!--                <div class="rtb-card__cost">-->
+<!--                  <rt-price-->
+<!--                    :value="2500"-->
+<!--                    :is-option="false"-->
+<!--                    currency="₽"-->
+<!--                    :b2b-price="true"-->
+<!--                    time-interval="в месяц"/>-->
+<!--                </div>-->
+<!--                <div class="rtb-card__description__row">-->
+<!--                  <p class="rt-font-small-paragraph color-main025">-->
+<!--                    Цена за услуги вне пакета-->
+<!--                    <rt-price-->
+<!--                      :value="6000"-->
+<!--                      :is-option="false"-->
+<!--                      currency="₽"-->
+<!--                      :b2b-price="true"-->
+<!--                      time-interval=""-->
+<!--                      :darkened="true"/>-->
+<!--                  </p>-->
+<!--                </div>-->
+<!--                <a href="#">-->
+<!--                  <button class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">-->
+<!--                    Выбрать-->
+<!--                  </button>-->
+<!--                </a>-->
+<!--              </template>-->
+<!--            </rt-card>-->
+<!--          </rt-slide>-->
+<!--          <rt-slide slide-classes="rt-col-4 in-plus-card higher-z">-->
+<!--            <rt-card-->
+<!--              :equal-padding="true"-->
+<!--              :has-discount="true"-->
+<!--              :discount-lines="3"-->
+<!--              :is-b2b-package="true"-->
+<!--              discount-text="3 услуги co скидкой 50%">-->
+<!--              <template slot="header">-->
+<!--                <h3 class="rt-space-bottom rt-font-bold">-->
+<!--                  Пакет S-->
+<!--                </h3>-->
+<!--              </template>-->
+<!--              <template slot="content">-->
+<!--                <div class="rtb-card__section">-->
+<!--                  <p class="tagline color-main03 rt-space-bottom05">-->
+<!--                    Интернет-->
+<!--                  </p>-->
+<!--                  <div class="rtb-card__description__row">-->
+<!--                    <rt-radio-button name="fgdgdfg">dfgsdfgsdfg</rt-radio-button>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--                <div class="rtb-card__section">-->
+<!--                  <p class="tagline color-main03 rt-space-bottom05">-->
+<!--                    Мобильная связь-->
+<!--                  </p>-->
+<!--                  <div class="rtb-card__description__row">-->
+<!--                    <rt-radio-button name="fgdgdfg">dfgsdfgsdfg1</rt-radio-button>-->
+<!--                  </div>-->
+<!--                  <div class="rtb-card__description__row">-->
+<!--                    <rt-radio-button name="fgdgdfg">dfgsdfgsdfg2</rt-radio-button>-->
+<!--                  </div>-->
+<!--                  <div class="rtb-card__description__row">-->
+<!--                    <rt-radio-button name="fgdgdfg">dfgsdfgsdfg3</rt-radio-button>-->
+<!--                  </div>-->
+<!--                  <div class="rtb-card__description__row">-->
+<!--                    <rt-radio-button name="fgdgdfg">dfgsdfgsdfg4</rt-radio-button>-->
+<!--                  </div>-->
+<!--                  <div class="rtb-card__description__row rt-space-top05">-->
+<!--                    <a href="#" class="rt-font-control rt-link rt-link&#45;&#45;purple">Условия тарифа «Вызов 250»</a>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </template>-->
+<!--              <template slot="footer">-->
+<!--                <div class="rt-space-bottom" />-->
+<!--                <div class="rtb-card__cost">-->
+<!--                  <rt-price-->
+<!--                    :value="2500"-->
+<!--                    :is-option="false"-->
+<!--                    currency="₽"-->
+<!--                    :b2b-price="true"-->
+<!--                    time-interval="в месяц"/>-->
+<!--                </div>-->
+<!--                <div class="rtb-card__description__row">-->
+<!--                  <p class="rt-font-small-paragraph color-main025">-->
+<!--                    Цена за услуги вне пакета-->
+<!--                    <rt-price-->
+<!--                      :value="6000"-->
+<!--                      :is-option="false"-->
+<!--                      currency="₽"-->
+<!--                      :b2b-price="true"-->
+<!--                      time-interval=""-->
+<!--                      :darkened="true"/>-->
+<!--                  </p>-->
+<!--                </div>-->
+<!--                <a href="#">-->
+<!--                  <button class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">-->
+<!--                    Выбрать-->
+<!--                  </button>-->
+<!--                </a>-->
+<!--              </template>-->
+<!--            </rt-card>-->
+<!--          </rt-slide>-->
+        </rt-swiper>
       </rt-resize-content-height>
     </div>
     <div class="rt-space-top5">
