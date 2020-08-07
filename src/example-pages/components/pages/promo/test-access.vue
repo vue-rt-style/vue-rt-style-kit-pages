@@ -13,12 +13,12 @@
 <!--    </div>-->
 <!--    <div class="rt-space-top25"/>-->
 <!--  </div>-->
-<!--  <div class="rt-container">-->
-<!--    <div class="rt-col rt-space-top25"></div>-->
-<!--    <div class="rt-col">-->
-<!--      <rt-header-navigation :nav-tree=innerData></rt-header-navigation>-->
-<!--    </div>-->
-<!--  </div>-->
+  <div class="rt-container">
+    <div class="rt-col rt-space-top25"></div>
+    <div class="rt-col">
+      <rt-header-navigation :nav-tree=innerData></rt-header-navigation>
+    </div>
+  </div>
 <!--  <div class="conference-auth">-->
 <!--    <div class="conference-auth__image"/>-->
 <!--    <div class="rt-container full-height">-->
@@ -173,34 +173,34 @@
 <!--      </rt-card>-->
 <!--    </div>-->
 <!--  </div>-->
-  <div class="sp-t-5">
-    <div class="rt-container color-white">
-      <div class="rt-col">
-        <div class="bd-custom-card">
-          <div class="row">
-            <div class="rt-col-6 rt-col-td-6 td-pos-abs">
-              <img src="/static/images/B2B/bronze-horseman-07.png" class="d-block td-fl-r max-full-width">
-            </div>
-            <div class="rt-col-6 rt-col-td-6 sp-v-2 td-sp-v-2-2 md-sp-v-2">
-              <div class="sp-l-2 md-sp-l-1 md-sp-r-1">
-                <h2 class="rt-font-h2 sp-b-0-3 md-sp-b-1-1">Бизнес <span class="color-orange">драйв</span> <br>в Санкт-Петербурге</h2>
-                <div class="d-flex sp-b-1 md-sp-b-1-2">
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="mt2">
-                    <path d="M14 14H0V1.47375H2.75007V3.63909H2.16487V11.8492H11.8351V3.63909H11.2205V1.47375H14V14Z" fill="white"/>
-                    <path d="M3.68435 0H5.89494V4.4212H3.68435V0ZM8.10508 0H10.3157V4.4212H8.10508V0ZM5.89494 1.47373H7.36868V3.68433H5.89494V1.47373Z" fill="white"/>
-                  </svg>
-                  <span class="sp-l-0-3 rt-font-small-paragraph">24 августа 2020 г.</span>
-                </div>
-                <p class="rt-font-small-paragraph sp-b-1-2 md-sp-b-1">Если вы владелец крупного бизнеса, то вас может
-                  заинтересовать <br>этот раздел и вы перейдете по ссылочке ниже.</p>
-                <rt-button class="rt-button-full-white">Зарегистрироваться</rt-button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<!--  <div class="sp-t-5">-->
+<!--    <div class="rt-container color-white">-->
+<!--      <div class="rt-col">-->
+<!--        <div class="bd-custom-card">-->
+<!--          <div class="row">-->
+<!--            <div class="rt-col-6 rt-col-td-6 td-pos-abs">-->
+<!--              <img src="/static/images/B2B/bronze-horseman-07.png" class="d-block td-fl-r max-full-width">-->
+<!--            </div>-->
+<!--            <div class="rt-col-6 rt-col-td-6 sp-v-2 td-sp-v-2-2 md-sp-v-2">-->
+<!--              <div class="sp-l-2 md-sp-l-1 md-sp-r-1">-->
+<!--                <h2 class="rt-font-h2 sp-b-0-3 md-sp-b-1-1">Бизнес <span class="color-orange">драйв</span> <br>в Санкт-Петербурге</h2>-->
+<!--                <div class="d-flex sp-b-1 md-sp-b-1-2">-->
+<!--                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="mt2">-->
+<!--                    <path d="M14 14H0V1.47375H2.75007V3.63909H2.16487V11.8492H11.8351V3.63909H11.2205V1.47375H14V14Z" fill="white"/>-->
+<!--                    <path d="M3.68435 0H5.89494V4.4212H3.68435V0ZM8.10508 0H10.3157V4.4212H8.10508V0ZM5.89494 1.47373H7.36868V3.68433H5.89494V1.47373Z" fill="white"/>-->
+<!--                  </svg>-->
+<!--                  <span class="sp-l-0-3 rt-font-small-paragraph">24 августа 2020 г.</span>-->
+<!--                </div>-->
+<!--                <p class="rt-font-small-paragraph sp-b-1-2 md-sp-b-1">Если вы владелец крупного бизнеса, то вас может-->
+<!--                  заинтересовать <br>этот раздел и вы перейдете по ссылочке ниже.</p>-->
+<!--                <rt-button class="rt-button-full-white">Зарегистрироваться</rt-button>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
 </template>
 
 <script>
