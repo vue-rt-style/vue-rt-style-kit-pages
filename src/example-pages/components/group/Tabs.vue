@@ -1415,16 +1415,14 @@
                                     </div>
                                 </template>
                                 <template slot="side-text">
-                                    <div class="rt-col-3 rt-col-td-6 rt-col-md-3 rt-space-vertical">
-                                        <p class="rt-font-bold rt-font-paragraph">Когда много
-                                            пользователей</p>
-                                        <p class="rt-font-small-paragraph">Для большого количества
-                                            пользователей и трафика, можно
-                                            использовать и 
-                                            в помещении, и на улице. Безлимитная авторизация через портал
-                                            государственных услуг
-                                            и по номеру 8 800.</p>
-                                    </div>
+                                    <p class="rt-font-bold rt-font-paragraph">Когда много
+                                        пользователей</p>
+                                    <p class="rt-font-small-paragraph">Для большого количества
+                                        пользователей и трафика, можно
+                                        использовать и 
+                                        в помещении, и на улице. Безлимитная авторизация через портал
+                                        государственных услуг
+                                        и по номеру 8 800.</p>
                                 </template>
                             </rt-card-layout>
                         </rt-tabs-content-item>
