@@ -9,6 +9,21 @@
       </div>
     </div>
     <div class="sp-b-2">
+      <rt-banner-v2>
+        <rt-banner-item-v2>
+          <template slot="header">
+            <img src="http://46.101.72.150/static/tmp/headerbtc1460.svg" alt="">
+          </template>
+          <template slot="mobile-header">
+            <img src="http://46.101.72.150/static/tmp/headerbtc1460.svg" height="32px" alt="">
+          </template>
+          <template slot="label">Легко подключить,<br> комфортно жить</template>
+          <template slot="footer"><rt-button color="orange">Подробнее</rt-button></template>
+          <template slot="image"><img src="http://46.101.72.150/static/tmp/bannerImage.jpg" alt=""></template>
+          <template slot="image-x2"><img src="http://46.101.72.150/static/tmp/bannerImage-x2.jpg" alt=""></template>
+        </rt-banner-item-v2>
+    </rt-banner-v2>
+
     <rt-banner-v2>
       <rt-banner-item-v2>
         <template slot="header">
