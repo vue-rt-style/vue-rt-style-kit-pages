@@ -437,6 +437,14 @@
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
+        },
+        {
+          "name" : "Text + Image block",
+          "title" : "Text Image",
+          "url" : "/text_image",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
         }
       ]
     },
@@ -530,14 +538,6 @@
           "name" : "Un-wrapper",
           "title" : "Un-wrapper",
           "url" : "/unwrapper",
-          "list_child" : [],
-          "for_b2b" : true,
-          "for_b2c" : true
-        },
-        {
-          "name" : "AC",
-          "title" : "AudioConference",
-          "url" : "/audioconference",
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
