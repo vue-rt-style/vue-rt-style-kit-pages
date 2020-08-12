@@ -21,6 +21,8 @@
           <template slot="footer"><rt-button color="orange">Подробнее</rt-button></template>
           <template slot="image"><img src="http://46.101.72.150/static/tmp/bannerImage.jpg" alt=""></template>
           <template slot="image-x2"><img src="http://46.101.72.150/static/tmp/bannerImage-x2.jpg" alt=""></template>
+          <template slot="image-tablet"><img src="http://46.101.72.150/static/tmp/bannerImage-tablet.jpg" alt=""></template>
+          <template slot="image-mobile"><img src="http://46.101.72.150/static/tmp/bannerImage-mobile.jpg" alt=""></template>
         </rt-banner-item-v2>
     </rt-banner-v2>
 
@@ -36,6 +38,8 @@
         <template slot="footer"><rt-button color="orange">Подробнее</rt-button></template>
         <template slot="image"><img src="http://46.101.72.150/static/tmp/bannerImage.jpg" alt=""></template>
         <template slot="image-x2"><img src="http://46.101.72.150/static/tmp/bannerImage-x2.jpg" alt=""></template>
+        <template slot="image-tablet"><img src="http://46.101.72.150/static/tmp/bannerImage-tablet.jpg" alt=""></template>
+        <template slot="image-mobile"><img src="http://46.101.72.150/static/tmp/bannerImage-mobile.jpg" alt=""></template>
       </rt-banner-item-v2>
       <rt-banner-item-v2 color-type="orange">
         <template slot="header">
@@ -58,6 +62,8 @@
         <template slot="footer"><rt-button color="orange" >Подробнее</rt-button></template>
         <template slot="image"><img src="http://46.101.72.150/static/tmp/bannerImage.jpg" alt=""></template>
         <template slot="image-x2"><img src="http://46.101.72.150/static/tmp/bannerImage-x2.jpg" alt=""></template>
+        <template slot="image-tablet"><img src="http://46.101.72.150/static/tmp/bannerImage-tablet.jpg" alt=""></template>
+        <template slot="image-mobile"><img src="http://46.101.72.150/static/tmp/bannerImage-mobile.jpg" alt=""></template>
       </rt-banner-item-v2>
       <rt-banner-item-v2  color-type="dark-slate">
         <template slot="label">Не платите за лишнее</template>
