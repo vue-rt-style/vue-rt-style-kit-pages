@@ -14322,7 +14322,7 @@ componentsList[_BannerVirtualImage_vue__WEBPACK_IMPORTED_MODULE_2__["default"].n
       var h = this.$createElement;
 
       if (this.data.description) {
-        var classList = ['rt-n-banner-description', 'sp-t-0-4'];
+        var classList = ['rt-n-banner-description', 'sp-t-0-4', 'td-sp-t-0-3'];
 
         if (this.data.background != 'gray') {
           classList.push('color-white');
@@ -14341,8 +14341,16 @@ componentsList[_BannerVirtualImage_vue__WEBPACK_IMPORTED_MODULE_2__["default"].n
       var h = this.$createElement;
 
       if (this.data.footer) {
+        var classList = ['td-sp-t-0-4', 'md-sp-t-1-1'];
+
+        if (this.data.header && this.data.label && this.data.description) {
+          classList.push('sp-t-1-1');
+        } else {
+          classList.push('sp-t-1-2');
+        }
+
         return h("div", {
-          "class": "sp-t-1-2"
+          "class": classList.join(' ')
         }, [this.data.footer]);
       }
 
