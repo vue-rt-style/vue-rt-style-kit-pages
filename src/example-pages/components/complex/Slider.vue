@@ -10,6 +10,34 @@
 		</div>
 		<div class="rt-container">
 			<div class="row"></div>
+      <rt-slider>
+        <rt-slider-item>
+          <template slot="title">OnLime TeleCARD</template>
+          <template slot="text">
+            Plug&play решение для подключения и приема онлайн цифрового телевидения</template>
+          <template slot="boolets">Компактное оборудование размером с карточку</template>
+          <template slot="boolets">Прием цифрового эфирного телевидения без дополнительных
+            проводов</template>
+          <template slot="image"><img src="//static-cdn.rt.ru/sites/default/files/img/tv-equip-1.jpg" />
+          </template>
+        </rt-slider-item>
+        <rt-slider-item>
+          <template slot="title">HD-ресивер</template>
+          <template slot="text">Цифровой ресивер с возможностью использования в качестве мультимедийного плеера.
+            Доступен в двух модификациях:</template>
+          <template slot="boolets">со встроенным жестким диском</template>
+          <template slot="boolets">без жесткого диска</template>
+          <template slot="image"><img src="//static-cdn.rt.ru/sites/default/files/img/tv-equip-2.jpg" />
+          </template>
+        </rt-slider-item>
+        <rt-slider-item>
+          <template slot="title">Как подключить цифровое телевидение в Москве</template>
+          <template slot="text">Установите OnLime TeleCARD в слот CI или CI+ телевизора, активируйте услугу
+            цифрового эфирного телевидения и смотрите более 170 цифровых и HD-каналов.</template>
+          <template slot="image"><img src="//static-cdn.rt.ru/sites/default/files/img/tv-equip-3.png" />
+          </template>
+        </rt-slider-item>
+      </rt-slider>
 			<div class="rt-col">
 				<pre-code
 						text='<rt-slider>
