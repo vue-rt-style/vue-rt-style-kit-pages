@@ -3,7 +3,7 @@
         <a-c-header :phone="88006661313" name="Абракадабрович Мadfgsdfg"/>
         <div class="rt-container conference__content-wrapper">
             <div class="rt-col">
-                <div class="row sp-t-2-3 sp-b-1-3 align-center">
+                <div class="row sp-t-2-3 sp-b-1-3 flex-v-center">
                     <div class="rt-col-4">
                         <h1 class="rt-font-h2">Адресная книга</h1>
                     </div>

@@ -630,7 +630,7 @@
 <!-- </div> -->
 <!-- </div> -->
 <!-- <div> -->
-<!-- <div class="rt-col-12 align-end"> -->
+<!-- <div class="rt-col-12 flex-v-end"> -->
 <!-- <div class="row row&#45;&#45;tablet-only-scroll"> -->
 <!-- <div class="rt-col-3 rt-font-center rt-col-td-2 rt-col-md-3"> -->
 <!-- <img src="/static/images/game/game-icon1.png" alt="" width="100"/> -->
@@ -688,7 +688,7 @@
 <!-- </div> -->
 <!-- </div> -->
 <!-- <div> -->
-<!-- <div class="rt-col-12 align-end"> -->
+<!-- <div class="rt-col-12 flex-v-end"> -->
 <!-- <div class="row row&#45;&#45;tablet-only-scroll"> -->
 <!-- <div class="rt-col-3 rt-font-center rt-col-td-2 rt-col-md-3"> -->
 <!-- <img src="/static/images/game/game-icon1.png" alt="" width="100"/> -->

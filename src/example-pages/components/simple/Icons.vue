@@ -77,7 +77,7 @@
                       class="rt-button-purple rt-button-small"
                     >Копировать</rt-button>
                   </div>
-                  <div class="detail__types rt-col-12 align-end">
+                  <div class="detail__types rt-col-12 flex-v-end">
                     <div
                       class="detail-type btn"
                       v-for="(iconType, key) in detailIcon(selectedIcon).list"

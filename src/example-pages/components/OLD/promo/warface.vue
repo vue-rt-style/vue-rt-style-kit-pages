@@ -112,7 +112,7 @@
             <div class="rt-game-banner-image"
                  style="background-image: url('https://drupal-krasnodar.south.rt.ru/sites/default/files/img/warface2/warface2.png')"></div>
 
-            <div class="rt-container d-flex align-center rt-game-banner__container">
+            <div class="rt-container d-flex flex-v-center rt-game-banner__container">
               <div class="relative rt-layer-level-2 color-white">
                 <p class="rt-font-h1 rt-space-bottom">Warface</p>
                 <p>Ураганный экшен и тактический шутер <br>в одном флаконе</p>
@@ -125,7 +125,7 @@
             <div class="rt-game-banner-image"
                  style="background-image: url('https://drupal-krasnodar.south.rt.ru/sites/default/files/img/warface2/warface3.png')"></div>
 
-            <div class="rt-container d-flex align-center rt-game-banner__container">
+            <div class="rt-container d-flex flex-v-center rt-game-banner__container">
               <div class="relative rt-layer-level-2 color-white">
                 <p class="rt-font-h1 rt-space-bottom">Crossfire</p>
                 <p>Ураганный экшен и тактический шутер <br>в одном флаконе</p>
@@ -140,7 +140,7 @@
             <div class="rt-game-banner-image"
                  style="background-image: url('https://drupal-krasnodar.south.rt.ru/sites/default/files/img/warface2/warface4.png')"></div>
 
-            <div class="rt-container d-flex align-center rt-game-banner__container">
+            <div class="rt-container d-flex flex-v-center rt-game-banner__container">
               <div class="relative rt-layer-level-2 color-white">
                 <p class="rt-font-h1 rt-space-bottom">Warface</p>
                 <p>Ураганный экшен и тактический шутер <br>в одном флаконе</p>
