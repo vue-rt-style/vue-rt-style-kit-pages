@@ -23008,8 +23008,7 @@ componentList[_SliderImage_vue__WEBPACK_IMPORTED_MODULE_2__["default"].name] = _
     }, [this.$slots["default"], h("rt-col", {
       attrs: {
         size: "1",
-        "tablet-size": "0",
-        "mobile-size": "0"
+        "t-hide": true
       }
     }), h("rt-col", {
       attrs: {
