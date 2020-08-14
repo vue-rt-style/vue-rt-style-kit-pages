@@ -9,7 +9,7 @@
 			</div>
 		</div>
 		<div class="rt-container">
-			<div class="row"></div>
+			<rt-col size="12">
       <rt-slider>
         <rt-slider-item>
           <template slot="title">OnLime TeleCARD</template>
@@ -38,6 +38,7 @@
           </template>
         </rt-slider-item>
       </rt-slider>
+      </rt-col>
 			<div class="rt-col">
 				<pre-code
 						text='<rt-slider>
