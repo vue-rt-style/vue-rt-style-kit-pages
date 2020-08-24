@@ -11,7 +11,7 @@
     <div class="sp-b-2">
       <pre-code
           text='<rt-banner-v2>
-        <rt-banner-item-v2>
+        <rt-banner-item-v2 :use-gradient="false">
           <template slot="header">
             <img src="http://46.101.72.150/static/tmp/headerbtc1460.svg" alt="">
           </template>
