@@ -10479,15 +10479,13 @@ componentsList[_Spinner_Spinner_vue__WEBPACK_IMPORTED_MODULE_0__["default"].name
   },
   mounted: function mounted() {},
   methods: {
-    activateEventToLink: function activateEventToLink(ga) {
-      var button = this.$refs["button"];
-      button.addEventListener("click", function (e) {
-        if (!window.dataLayer) {
-          window.dataLayer = [];
-        }
-
-        window.dataLayer.push(ga);
-      }, false);
+    activateEventToLink: function activateEventToLink(ga) {// const button = this.$refs["button"];
+      // button.addEventListener("click", (e) => {
+      //     if (!window.dataLayer) {
+      //         window.dataLayer = [];
+      //     }
+      //     window.dataLayer.push(ga);
+      // }, false);
     }
   },
   render: function render(h) {
