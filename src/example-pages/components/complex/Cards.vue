@@ -17,7 +17,7 @@
 
           <rt-resize-content-height :query-selectors-names="['.rt-card-round__content']">
             <pre-code text='<rt-row>
-            <rt-col size="3">
+            <rt-col size="3" tablet-size="2" mobile-size="3">
               <rt-card-rounded color="white" background-color="orange">
                 <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
                                             alt=""/></template>
@@ -31,7 +31,7 @@
 
               </rt-card-rounded>
             </rt-col>
-            <rt-col size="3">
+            <rt-col size="3" tablet-size="2" mobile-size="3">
               <rt-card-rounded color="white" background-color="red">
                 <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
                                             alt=""/></template>
@@ -45,7 +45,7 @@
 
               </rt-card-rounded>
             </rt-col>
-            <rt-col size="3">
+            <rt-col size="3" tablet-size="2" mobile-size="3">
               <rt-card-rounded color="white" background-color="red">
                 <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
                                             alt=""/></template>
@@ -61,7 +61,7 @@
 
               </rt-card-rounded>
             </rt-col>
-            <rt-col size="3">
+            <rt-col size="3" tablet-size="2" mobile-size="3">
               <rt-card-rounded color="white" background-color="purple">
                 <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
                                             alt=""/></template>
@@ -79,7 +79,7 @@
           </rt-resize-content-height>
           <rt-resize-content-height :query-selectors-names="['.rt-card-round__content']">
             <pre-code text='<rt-row class="sp-t-1">
-              <rt-col size="3">
+              <rt-col size="3" tablet-size="2" mobile-size="3">
                 <rt-card-rounded>
                   <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"
                                               alt=""/></template>
@@ -93,7 +93,7 @@
 
                 </rt-card-rounded>
               </rt-col>
-              <rt-col size="3">
+              <rt-col size="3" tablet-size="2" mobile-size="3">
                 <rt-card-rounded>
                   <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"
                                               alt=""/></template>
@@ -108,7 +108,7 @@
 
                 </rt-card-rounded>
               </rt-col>
-              <rt-col size="3">
+              <rt-col size="3" tablet-size="2" mobile-size="3">
                 <rt-card-rounded :need-resize="2000">
                   <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"
                                               alt=""/></template>
@@ -125,7 +125,7 @@
 
                 </rt-card-rounded>
               </rt-col>
-              <rt-col size="3">
+              <rt-col size="3" tablet-size="2" mobile-size="3">
                 <rt-card-rounded>
                   <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"
                                               alt=""/></template>
