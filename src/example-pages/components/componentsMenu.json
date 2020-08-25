@@ -118,6 +118,14 @@
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
+        },
+        {
+          "name": "Calendar",
+          "title": "Calendar",
+          "url": "/calendar",
+          "list_child" : [],
+          "for_b2c": true,
+          "for_b2b": true
         }
       ]
     },

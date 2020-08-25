@@ -14,6 +14,7 @@ const index = [
   { path: "/radiobutton", name: "app-radiobutton", component: () => import("../components/form/Radiobutton.vue") },
   { path: "/switch", name: "app-switch", component: () => import("../components/form/Switch.vue") },
   { path: "/select", name: "app-select", component: () => import("../components/form/Select.vue") },
+  { path: "/calendar", name: "app-calendar", component: () => import("../components/form/Calendar.vue") },
   { path: "/tags", name: "app-tags", component: () => import("../components/form/Tags.vue") },
 
   // simple
