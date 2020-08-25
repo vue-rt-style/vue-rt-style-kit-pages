@@ -22,7 +22,6 @@ import {
     GridColumn,
     Hint,
     HintBody,
-    VideoPlayer
 } from '@vue-rt-style-kit-atoms-local'
 
 
@@ -226,7 +225,7 @@ componentsList[CountdownTimer.name] = CountdownTimer;
 componentsList[StickyBottomLine.name] = StickyBottomLine;
 componentsList[StickyHeaderLine.name] = StickyHeaderLine;
 componentsList[PhoneNumberInput.name] = PhoneNumberInput;
-componentsList[VideoPlayer.name] = VideoPlayer;
+// componentsList[VideoPlayer.name] = VideoPlayer;
 
 componentsList[Slider.name] = Slider;
 componentsList[SliderItem.name] = SliderItem;
