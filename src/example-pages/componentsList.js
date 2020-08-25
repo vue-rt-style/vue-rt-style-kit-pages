@@ -30,6 +30,7 @@ import {
     TabsNavigationItem,
     TabsContentItem,
     Card,
+    CardRounded,
     CardB2o,
     CardSkeleton,
     ProductCard,
@@ -162,6 +163,7 @@ componentsList[BannerPaginatorItem.name] = BannerPaginatorItem;
 componentsList[Carousel.name] = Carousel;
 componentsList[CarouselSlide.name] = CarouselSlide;
 componentsList[Card.name] = Card;
+componentsList[CardRounded.name] = CardRounded;
 componentsList[CardB2o.name] = CardB2o;
 componentsList[CardBuy.name] = CardBuy;
 componentsList[CardImage.name] = CardImage;
