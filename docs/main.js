@@ -17337,8 +17337,14 @@ var componentsList = {};
             img.data.staticClass += ' rt-card-round__logo-img';
           }
         });
+        var classList = ["rt-card-round__logo"];
+
+        if (this.backgroundColor.length > 0) {
+          classList.push('sp-h-0-1');
+        }
+
         return h("div", {
-          "class": "rt-card-round__logo"
+          "class": classList.join(' ')
         }, [this.$slots.logo]);
       }
 
