@@ -445,6 +445,14 @@
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
+        },
+        {
+          "name" : "Phone Number Input",
+          "title" : "Phone Number Input",
+          "url" : "/phonenumber__input",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
         }
       ]
     },

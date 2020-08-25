@@ -19,7 +19,10 @@ import {
     Ussd,
     Spinner,
     GridRow,
-    GridColumn
+    GridColumn,
+    Hint,
+    HintBody,
+    VideoPlayer
 } from '@vue-rt-style-kit-atoms-local'
 
 
@@ -65,8 +68,6 @@ import {
     SlideContentDottedHeader,
     Popup,
     LinksBlock,
-    Hint,
-    HintBody,
     Pattern,
     Swiper,
     Slide,
@@ -101,6 +102,7 @@ import {
     Slider,
     SliderItem,
     HelpBlock,
+    PhoneNumberInput
     
 } from '@vue-rt-style-kit-molecules-local'
 
@@ -221,6 +223,8 @@ componentsList[CheckboxTabs.name] = CheckboxTabs;
 componentsList[CountdownTimer.name] = CountdownTimer;
 componentsList[StickyBottomLine.name] = StickyBottomLine;
 componentsList[StickyHeaderLine.name] = StickyHeaderLine;
+componentsList[PhoneNumberInput.name] = PhoneNumberInput;
+componentsList[VideoPlayer.name] = VideoPlayer;
 
 componentsList[Slider.name] = Slider;
 componentsList[SliderItem.name] = SliderItem;

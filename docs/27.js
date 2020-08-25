@@ -1,16 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[27],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/Opportunity.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/Opportunity.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/main/Grid.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/main/Grid.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_rt_style_kit_molecules_local_components_Opportunity_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/Opportunity/docs/index.json */ "./src/molecules/components/Opportunity/docs/index.json");
-var _vue_rt_style_kit_molecules_local_components_Opportunity_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-molecules-local/components/Opportunity/docs/index.json */ "./src/molecules/components/Opportunity/docs/index.json", 1);
+/* harmony import */ var _vue_rt_style_kit_atoms_local_components_Grid_docs_docsGridRow_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-atoms-local/components/Grid/docs/docsGridRow.json */ "./src/atoms/components/Grid/docs/docsGridRow.json");
+var _vue_rt_style_kit_atoms_local_components_Grid_docs_docsGridRow_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-atoms-local/components/Grid/docs/docsGridRow.json */ "./src/atoms/components/Grid/docs/docsGridRow.json", 1);
 /* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
 //
 //
@@ -133,10 +133,408 @@ var _vue_rt_style_kit_molecules_local_components_Opportunity_docs_index_json__WE
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
+ //    const componentsList = {};
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppOpportunity",
+  name: "AppGridElements",
   components: _componentsList__WEBPACK_IMPORTED_MODULE_1__["default"],
   data: function data() {
     return {
@@ -144,7 +542,7 @@ var _vue_rt_style_kit_molecules_local_components_Opportunity_docs_index_json__WE
     };
   },
   mounted: function mounted() {
-    this.documentation = _vue_rt_style_kit_molecules_local_components_Opportunity_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
+    this.documentation = _vue_rt_style_kit_atoms_local_components_Grid_docs_docsGridRow_json__WEBPACK_IMPORTED_MODULE_0__;
   },
   created: function created() {},
   methods: {}
@@ -152,10 +550,10 @@ var _vue_rt_style_kit_molecules_local_components_Opportunity_docs_index_json__WE
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/Opportunity.vue?vue&type=template&id=5044e1c7&":
-/*!*************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/Opportunity.vue?vue&type=template&id=5044e1c7& ***!
-  \*************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/main/Grid.vue?vue&type=template&id=241a25bc&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/main/Grid.vue?vue&type=template&id=241a25bc& ***!
+  \*****************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -163,24 +561,35 @@ var _vue_rt_style_kit_molecules_local_components_Opportunity_docs_index_json__WE
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container is-b2b"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"app-row"},[_c('div',{staticClass:"rt-col rt-space-bottom rt-space-top"},[_c('h2',{staticClass:"rt-font-bold rt-space-bottom15"},[_vm._v("Дополнительные возможности")]),_vm._v(" "),_c('rt-opportunity',[_c('rt-opportunity-item',{attrs:{"image":"/static/images/B2B/big-internet-slide-1.png","title":"Виртуальный контактный","anchor":"1"}},[_c('template',{slot:"description"},[_c('p',{staticClass:"rt-space-bottom"},[_vm._v("Формирует очереди и распределяет звонки, \u2028умеет работать со списком VIP-абонентов.\u2028"),_c('br'),_vm._v(" Установка и\n                  настройка за пару дней,\u2028 дополнительное оборудование не нужно.")]),_vm._v(" "),_c('ul',{staticClass:"rt-ordered-list rt-space-bottom"},[_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Контроль за работой колл-центра \u2028во время\n                    маркетинговых акций и кампаний")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Обновление статистики в реальном времени\u2028и\n                    подробные отчеты")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Возможность слушать разговор и помогать сотруднику")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Автоматическая организация очереди\u2028 сразу\n                    переносит звонки VIP-клиентов в начало")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Автодозвон экономит время операторов")])]),_vm._v(" "),_c('div',{staticClass:"d-inline-block rt-space-right2"},[_c('rt-price',{staticClass:"color-main09",attrs:{"value":500,"is-option":false,"currency":"₽","b2bPrice":true,"timeInterval":"в месяц"}}),_vm._v(" "),_c('p',[_vm._v("за двух операторов")])],1),_vm._v(" "),_c('div',{staticClass:"d-inline-block"},[_c('rt-price',{staticClass:"color-main09",attrs:{"value":+100,"is-option":false,"currency":"₽","b2bPrice":true,"timeInterval":"в месяц"}}),_vm._v(" "),_c('p',[_vm._v("за каждого следующего")])],1)])],2),_vm._v(" "),_c('rt-opportunity-item',{attrs:{"image":"/static/images/B2B/big-internet-slide-1.png","title":"Виртуальный контактный","anchor":"2"}},[_c('template',{slot:"description"},[_c('p',{staticClass:"rt-space-bottom"},[_vm._v("Формирует очереди и распределяет звонки, \u2028умеет работать со списком VIP-абонентов.\u2028"),_c('br'),_vm._v(" Установка и\n                  настройка за пару дней,\u2028 дополнительное оборудование не нужно.")]),_vm._v(" "),_c('ul',{staticClass:"rt-ordered-list rt-space-bottom"},[_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Контроль за работой колл-центра \u2028во время\n                    маркетинговых акций и кампаний")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Обновление статистики в реальном времени\u2028и\n                    подробные отчеты")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Возможность слушать разговор и помогать сотруднику")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Автоматическая организация очереди\u2028 сразу\n                    переносит звонки VIP-клиентов в начало")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Автодозвон экономит время операторов")])]),_vm._v(" "),_c('div',{staticClass:"d-inline-block rt-space-right2"},[_c('rt-price',{staticClass:"color-main09",attrs:{"value":500,"is-option":false,"currency":"₽","b2bPrice":true,"timeInterval":"в месяц"}}),_vm._v(" "),_c('p',[_vm._v("за двух операторов")])],1),_vm._v(" "),_c('div',{staticClass:"d-inline-block"},[_c('rt-price',{staticClass:"color-main09",attrs:{"value":+100,"is-option":false,"currency":"₽","b2bPrice":true,"timeInterval":"в месяц"}}),_vm._v(" "),_c('p',[_vm._v("за каждого следующего")])],1)])],2),_vm._v(" "),_c('rt-opportunity-item',{attrs:{"image":"/static/images/B2B/big-internet-slide-1.png","title":"Виртуальный контактный","anchor":"3"}},[_c('template',{slot:"description"},[_c('p',{staticClass:"rt-space-bottom"},[_vm._v("Формирует очереди и распределяет звонки, \u2028умеет работать со списком VIP-абонентов.\u2028"),_c('br'),_vm._v(" Установка и\n                  настройка за пару дней,\u2028 дополнительное оборудование не нужно.")]),_vm._v(" "),_c('ul',{staticClass:"rt-ordered-list rt-space-bottom"},[_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Контроль за работой колл-центра \u2028во время\n                    маркетинговых акций и кампаний")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Обновление статистики в реальном времени\u2028и\n                    подробные отчеты")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Возможность слушать разговор и помогать сотруднику")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Автоматическая организация очереди\u2028 сразу\n                    переносит звонки VIP-клиентов в начало")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Автодозвон экономит время операторов")])]),_vm._v(" "),_c('div',{staticClass:"d-inline-block rt-space-right2"},[_c('rt-price',{staticClass:"color-main09",attrs:{"value":500,"is-option":false,"currency":"₽","b2bPrice":true,"timeInterval":"в месяц"}}),_vm._v(" "),_c('p',[_vm._v("за двух операторов")])],1),_vm._v(" "),_c('div',{staticClass:"d-inline-block"},[_c('rt-price',{staticClass:"color-main09",attrs:{"value":+100,"is-option":false,"currency":"₽","b2bPrice":true,"timeInterval":"в месяц"}}),_vm._v(" "),_c('p',[_vm._v("за каждого следующего")])],1)])],2),_vm._v(" "),_c('rt-opportunity-item',{attrs:{"image":"/static/images/B2B/big-internet-slide-1.png","title":"Виртуальный контактный","anchor":"4"}},[_c('template',{slot:"description"},[_c('p',{staticClass:"rt-space-bottom"},[_vm._v("Формирует очереди и распределяет звонки, \u2028умеет работать со списком VIP-абонентов.\u2028"),_c('br'),_vm._v(" Установка и\n                  настройка за пару дней,\u2028 дополнительное оборудование не нужно.")]),_vm._v(" "),_c('ul',{staticClass:"rt-ordered-list rt-space-bottom"},[_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Контроль за работой колл-центра \u2028во время\n                    маркетинговых акций и кампаний")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Обновление статистики в реальном времени\u2028и\n                    подробные отчеты")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Возможность слушать разговор и помогать сотруднику")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Автоматическая организация очереди\u2028 сразу\n                    переносит звонки VIP-клиентов в начало")]),_vm._v(" "),_c('li',{staticClass:"rt-ordered-list__item rt-font-paragraph"},[_vm._v("Автодозвон экономит время операторов")])]),_vm._v(" "),_c('div',{staticClass:"d-inline-block rt-space-right2"},[_c('rt-price',{staticClass:"color-main09",attrs:{"value":500,"is-option":false,"currency":"₽","b2bPrice":true,"timeInterval":"в месяц"}}),_vm._v(" "),_c('p',[_vm._v("за двух операторов")])],1),_vm._v(" "),_c('div',{staticClass:"d-inline-block"},[_c('rt-price',{staticClass:"color-main09",attrs:{"value":+100,"is-option":false,"currency":"₽","b2bPrice":true,"timeInterval":"в месяц"}}),_vm._v(" "),_c('p',[_vm._v("за каждого следующего")])],1)])],2)],1)],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-container rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("\n          Opportunities Block\n        ")])])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('pre-code',{attrs:{"text":"\n            <div>\n            <rt-row top=\"20\">\n                <rt-col size=\"1\" tablet-size=\"1\" mobile-size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                    <p class=\"app-col-fill__text md-d-none d-none td-d-block\">\n                        rt-col-td-1\n                    </p>\n                    <p class=\"app-col-fill__text td-d-none md-d-inline d-none\">\n                        rt-col-md-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" mobile-size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                    <p class=\"app-col-fill__text md-d-none d-none td-d-block\">\n                        rt-col-td-1\n                    </p>\n                    <p class=\"app-col-fill__text td-d-none md-d-inline d-none\">\n                        rt-col-md-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" mobile-size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                    <p class=\"app-col-fill__text md-d-none d-none td-d-block\">\n                        rt-col-td-1\n                    </p>\n                    <p class=\"app-col-fill__text td-d-none md-d-inline d-none\">\n                        rt-col-md-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" class=\"app-col-fill\" mobile-display=\"none\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                    <p class=\"app-col-fill__text md-d-none d-none td-d-block\">\n                        rt-col-td-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" class=\"app-col-fill\" mobile-display=\"none\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                    <p class=\"app-col-fill__text md-d-none d-none td-d-block\">\n                        rt-col-td-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" class=\"app-col-fill\" mobile-display=\"none\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                    <p class=\"app-col-fill__text md-d-none d-none td-d-block\">\n                        rt-col-td-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\" tablet-display=\"none\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\" tablet-display=\"none\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\" tablet-display=\"none\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\" tablet-display=\"none\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\" tablet-display=\"none\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\" tablet-display=\"none\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n            </rt-row>\n\n\n            <rt-row top=\"20\">\n                <rt-col size=\"2\" tablet-size=\"2\" mobile-size=\"2\" class=\"app-col-fill\">\n\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-2\n                    </p>\n                    <p class=\"app-col-fill__text md-d-none d-none td-d-block\">\n                        rt-col-td-2\n                    </p>\n                    <p class=\"app-col-fill__text td-d-none md-d-inline d-none\">\n                        rt-col-md-2\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" mobile-size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                    <p class=\"app-col-fill__text md-d-none d-none td-d-block\">\n                        rt-col-td-1\n                    </p>\n                    <p class=\"app-col-fill__text td-d-none md-d-inline d-none\">\n                        rt-col-md-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" mobile-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" mobile-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" mobile-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n            </rt-row>\n            <rt-row top=\"20\">\n                <rt-col size=\"3\" tablet-size=\"3\" mobile-size=\"3\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-3\n                    </p>\n                    <p class=\"app-col-fill__text d-none md-d-none td-d-inline\">\n                        rt-col-td-3\n                    </p>\n                    <p class=\"app-col-fill__text d-none md-d-inline\">\n                        rt-col-md-3\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" mobile-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                    <p class=\"app-col-fill__text td-d-inline d-none\">\n                        rt-col-td-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" mobile-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                    <p class=\"app-col-fill__text td-d-inline d-none\">\n                        rt-col-td-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" mobile-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                    <p class=\"app-col-fill__text td-d-inline d-none\">\n                        rt-col-td-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text td-d-none d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n            </rt-row>\n            <rt-row top=\"20\" mobile-display=\"none\">\n                <rt-col size=\"4\" tablet-size=\"4\" mobile-display=\"none\" class=\"app-col-fill\">\n\n                    <p class=\"app-col-fill__text d-inline td-d-none\">\n                        rt-col-4\n                    </p>\n                    <p class=\"app-col-fill__text td-d-inline d-none\">\n                        rt-col-td-4\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" mobile-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline td-d-none\">\n                        rt-col-1\n                    </p>\n                    <p class=\"app-col-fill__text td-d-inline d-none\">\n                        rt-col-td-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" mobile-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline td-d-none\">\n                        rt-col-1\n                    </p>\n                    <p class=\"app-col-fill__text td-d-inline d-none\">\n                        rt-col-td-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n            </rt-row>\n            <rt-row top=\"20\" mobile-display=\"none\">\n                <rt-col size=\"5\" tablet-size=\"5\" mobile-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline td-d-none\">\n                        rt-col-5\n                    </p>\n                    <p class=\"app-col-fill__text d-none td-d-inline \">\n                        rt-col-td-5\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-size=\"1\" mobile-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline td-d-none\">\n                        rt-col-1\n                    </p>\n                    <p class=\"app-col-fill__text d-none td-d-inline \">\n                        rt-col-td-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n            </rt-row>\n            <rt-row top=\"20\" tablet-display=\"none\" mobile-display=\"none\">\n                <rt-col size=\"6\" tablet-size=\"6\" mobile-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline td-d-none\">\n                        rt-col-6\n                    </p>\n                    <p class=\"app-col-fill__text d-none td-d-inline\">\n                        rt-col-td-6\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" tablet-display=\"none\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n            </rt-row>\n            <rt-row top=\"20\" tablet-display=\"none\" mobile-display=\"none\">\n                <rt-col size=\"7\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-7\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n            </rt-row>\n            <rt-row top=\"20\" tablet-display=\"none\" mobile-display=\"none\">\n                <rt-col size=\"8\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-8\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n            </rt-row>\n            <rt-row top=\"20\" tablet-display=\"none\" mobile-display=\"none\">\n                <rt-col size=\"9\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-9\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n\n            </rt-row>\n            <rt-row top=\"20\" tablet-display=\"none\" mobile-display=\"none\">\n                <rt-col size=\"10\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-10\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n                <rt-col size=\"1\" class=\"app-col-fill\">\n                    <p class=\"app-col-fill__text d-inline\">\n                        rt-col-1\n                    </p>\n                </rt-col>\n            </rt-row>\n\n          <rt-row top=\"20\" tablet-display=\"none\" mobile-display=\"none\">\n              <rt-col size=\"11\" class=\"app-col-fill\">\n                <p class=\"app-col-fill__text d-inline\">\n                    rt-col-11\n                </p>\n              </rt-col>\n              <rt-col size=\"1\" class=\"app-col-fill\">\n                <p class=\"app-col-fill__text d-inline\">\n                    rt-col-1\n                </p>\n              </rt-col>\n          </rt-row>\n        <rt-row top=\"20\" tablet-display=\"none\" mobile-display=\"none\">\n            <rt-col size=\"12\" class=\"app-col-fill\">\n                <p class=\"app-col-fill__text d-inline\">\n                    rt-col-12\n                </p>\n            </rt-col>\n        </rt-row>\n            </div>\n            "}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("\n                    Grid class elements\n                ")])])])}]
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/Opportunity.vue":
-/*!************************************************************!*\
-  !*** ./src/example-pages/components/pages/Opportunity.vue ***!
-  \************************************************************/
+/***/ "./src/atoms/components/Grid/docs/docsGridRow.json":
+/*!*********************************************************!*\
+  !*** ./src/atoms/components/Grid/docs/docsGridRow.json ***!
+  \*********************************************************/
+/*! exports provided: items, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-row\",\"property\":\"top\",\"type\":\"Number\",\"description\":\"Устанавливает отстут сверху\",\"value\":\"-1\",\"version\":\"0.2.6\"},{\"name\":\"rt-row\",\"property\":\"bottom\",\"type\":\"Number\",\"description\":\"Устанавливает отстут снизу\",\"value\":\"-1\",\"version\":\"0.2.6\"},{\"name\":\"rt-row\",\"property\":\"left\",\"type\":\"Number\",\"description\":\"Устанавливает отстут слева\",\"value\":\"-1\",\"version\":\"0.2.6\"},{\"name\":\"rt-row\",\"property\":\"right\",\"type\":\"Number\",\"description\":\"Устанавливает отстут справа\",\"value\":\"-1\",\"version\":\"0.2.6\"},{\"name\":\"rt-row\",\"property\":\"tablet-top\",\"type\":\"Number\",\"description\":\"Устанавливает отстут для планшетов сверху\",\"value\":\"-1\",\"version\":\"0.2.6\"},{\"name\":\"rt-row\",\"property\":\"tablet-bottom\",\"type\":\"Number\",\"description\":\"Устанавливает отстут для планшетов снизу\",\"value\":\"-1\",\"version\":\"0.2.6\"},{\"name\":\"rt-row\",\"property\":\"tablet-left\",\"type\":\"Number\",\"description\":\"Устанавливает отстут для планшетов слева\",\"value\":\"-1\",\"version\":\"0.2.6\"},{\"name\":\"rt-row\",\"property\":\"tablet-right\",\"type\":\"Number\",\"description\":\"Устанавливает отстут для планшетов справа\",\"value\":\"-1\",\"version\":\"0.2.6\"},{\"name\":\"rt-row\",\"property\":\"mobile-top\",\"type\":\"Number\",\"description\":\"Устанавливает отстут для мобильных устройств сверху\",\"value\":\"-1\",\"version\":\"0.2.6\"},{\"name\":\"rt-row\",\"property\":\"mobile-bottom\",\"type\":\"Number\",\"description\":\"Устанавливает отстут для мобильных устройств снизу\",\"value\":\"-1\",\"version\":\"0.2.6\"},{\"name\":\"rt-row\",\"property\":\"mobile-left\",\"type\":\"Number\",\"description\":\"Устанавливает отстут для мобильных устройств слева\",\"value\":\"-1\",\"version\":\"0.2.6\"},{\"name\":\"rt-row\",\"property\":\"mobile-right\",\"type\":\"Number\",\"description\":\"Устанавливает отстут для мобильных устройств справа\",\"value\":\"-1\",\"version\":\"0.2.6\"}]}");
+
+/***/ }),
+
+/***/ "./src/example-pages/components/main/Grid.vue":
+/*!****************************************************!*\
+  !*** ./src/example-pages/components/main/Grid.vue ***!
+  \****************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Opportunity_vue_vue_type_template_id_5044e1c7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Opportunity.vue?vue&type=template&id=5044e1c7& */ "./src/example-pages/components/pages/Opportunity.vue?vue&type=template&id=5044e1c7&");
-/* harmony import */ var _Opportunity_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Opportunity.vue?vue&type=script&lang=js& */ "./src/example-pages/components/pages/Opportunity.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Grid_vue_vue_type_template_id_241a25bc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Grid.vue?vue&type=template&id=241a25bc& */ "./src/example-pages/components/main/Grid.vue?vue&type=template&id=241a25bc&");
+/* harmony import */ var _Grid_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Grid.vue?vue&type=script&lang=js& */ "./src/example-pages/components/main/Grid.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -190,9 +599,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Opportunity_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Opportunity_vue_vue_type_template_id_5044e1c7___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Opportunity_vue_vue_type_template_id_5044e1c7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Grid_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Grid_vue_vue_type_template_id_241a25bc___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Grid_vue_vue_type_template_id_241a25bc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -204,46 +613,35 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/Opportunity.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************!*\
-  !*** ./src/example-pages/components/pages/Opportunity.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************/
+/***/ "./src/example-pages/components/main/Grid.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./src/example-pages/components/main/Grid.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Opportunity_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Opportunity.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/Opportunity.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Opportunity_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Grid_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Grid.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/main/Grid.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Grid_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/Opportunity.vue?vue&type=template&id=5044e1c7&":
-/*!*******************************************************************************************!*\
-  !*** ./src/example-pages/components/pages/Opportunity.vue?vue&type=template&id=5044e1c7& ***!
-  \*******************************************************************************************/
+/***/ "./src/example-pages/components/main/Grid.vue?vue&type=template&id=241a25bc&":
+/*!***********************************************************************************!*\
+  !*** ./src/example-pages/components/main/Grid.vue?vue&type=template&id=241a25bc& ***!
+  \***********************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Opportunity_vue_vue_type_template_id_5044e1c7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Opportunity.vue?vue&type=template&id=5044e1c7& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/Opportunity.vue?vue&type=template&id=5044e1c7&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Opportunity_vue_vue_type_template_id_5044e1c7___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Grid_vue_vue_type_template_id_241a25bc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Grid.vue?vue&type=template&id=241a25bc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/main/Grid.vue?vue&type=template&id=241a25bc&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Grid_vue_vue_type_template_id_241a25bc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Opportunity_vue_vue_type_template_id_5044e1c7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Grid_vue_vue_type_template_id_241a25bc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
-
-/***/ }),
-
-/***/ "./src/molecules/components/Opportunity/docs/index.json":
-/*!**************************************************************!*\
-  !*** ./src/molecules/components/Opportunity/docs/index.json ***!
-  \**************************************************************/
-/*! exports provided: items, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-opportunity-item\",\"property\":\"image\",\"type\":\"String\",\"description\":\"URL-адрес изображения в блоке\",\"value\":\"\"},{\"name\":\"rt-opportunity-item\",\"property\":\"title\",\"type\":\"String\",\"description\":\"Заголовок, который будет использован в табах и аккордеоне\",\"value\":\"\"},{\"name\":\"rt-opportunity-item\",\"property\":\"anchor\",\"type\":\"String\",\"description\":\"Якорь, используемый в табах для установки активным определённого таба, при переходе по ссылке\",\"value\":\"\"}]}");
 
 /***/ })
 

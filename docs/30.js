@@ -1,17 +1,37 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[30],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/DownloadContent.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/simple/DownloadContent.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/CheckboxTabs.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/simple/CheckboxTabs.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_rt_style_kit_molecules_local_components_DownloadContent_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/DownloadContent/docs/index.json */ "./src/molecules/components/DownloadContent/docs/index.json");
-var _vue_rt_style_kit_molecules_local_components_DownloadContent_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-molecules-local/components/DownloadContent/docs/index.json */ "./src/molecules/components/DownloadContent/docs/index.json", 1);
-/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
+/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
+/* harmony import */ var _vue_rt_style_kit_molecules_local_components_CheckboxTabs_docs_index_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/CheckboxTabs/docs/index.json */ "./src/molecules/components/CheckboxTabs/docs/index.json");
+var _vue_rt_style_kit_molecules_local_components_CheckboxTabs_docs_index_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-molecules-local/components/CheckboxTabs/docs/index.json */ "./src/molecules/components/CheckboxTabs/docs/index.json", 1);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -49,29 +69,26 @@ var _vue_rt_style_kit_molecules_local_components_DownloadContent_docs_index_json
 //
 //
 
- //  const componentsList = {};
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppDownloadContent",
-  components: _componentsList__WEBPACK_IMPORTED_MODULE_1__["default"],
+  name: "AppTabs",
+  components: _componentsList__WEBPACK_IMPORTED_MODULE_0__["default"],
   data: function data() {
     return {
       documentation: {}
     };
   },
   mounted: function mounted() {
-    this.documentation = _vue_rt_style_kit_molecules_local_components_DownloadContent_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
-  },
-  created: function created() {},
-  methods: {}
+    this.documentation = _vue_rt_style_kit_molecules_local_components_CheckboxTabs_docs_index_json__WEBPACK_IMPORTED_MODULE_1__;
+  }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/DownloadContent.vue?vue&type=template&id=06de0139&":
-/*!******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/simple/DownloadContent.vue?vue&type=template&id=06de0139& ***!
-  \******************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/CheckboxTabs.vue?vue&type=template&id=a769f964&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/simple/CheckboxTabs.vue?vue&type=template&id=a769f964& ***!
+  \***************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79,24 +96,24 @@ var _vue_rt_style_kit_molecules_local_components_DownloadContent_docs_index_json
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-12"},[_c('pre-code',{attrs:{"text":"<rt-download-content >Приложения для мобильных устройств</rt-download-content>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"row rt-space-top"},[_c('div',{staticClass:"rt-col-5 rt-col-md-3"},[_c('pre-code',{attrs:{"text":"<rt-download-content fileSize=\"3.4 Мб\" expansion=\"app\">Приложения для мобильных устройств</rt-download-content>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top"},[_c('pre-code',{attrs:{"text":"<rt-download-content fileSize=\"1.4 Кб\" expansion=\"pdf\">Расширение зоны покрытия точки доступа WI-FI \u2028с помощью дополнительного клиентского оборудования</rt-download-content>"}})],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-container rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("\n        Download Content\n      ")])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-12 rt-space-bottom2"},[_c('pre-code',{attrs:{"text":"<rt-checkbox-tabs>\n            <template slot=\"label\">\n                <span>Я являюсь клиентом данной организации</span>\n            </template>\n            <template slot=\"content\">\n              <div class=\"rt-space-top2\">\n              <span>Я не являюcь</span>\n              </div>\n            </template>\n            <template slot=\"content\">\n              <div class=\"rt-space-top2\">\n              <span>Я  являюcь</span>\n              </div>\n            </template>\n          </rt-checkbox-tabs>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-12 rt-space-bottom2"},[_c('pre-code',{attrs:{"text":"<rt-checkbox-tabs :hide-not-active=\"true\">\n            <template slot=\"label\">\n                <span>Я являюсь клиентом данной организации</span>\n            </template>\n            <template slot=\"content\">\n              <div class=\"rt-space-top2\">\n              <span>Я не являюcь</span>\n              </div>\n            </template>\n            <template slot=\"content\">\n              <div class=\"rt-space-top2\">\n              <span>Я  являюcь</span>\n              </div>\n            </template>\n          </rt-checkbox-tabs>"}})],1)])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("\n        Checkbox Tabs\n      ")])])}]
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/simple/DownloadContent.vue":
-/*!*****************************************************************!*\
-  !*** ./src/example-pages/components/simple/DownloadContent.vue ***!
-  \*****************************************************************/
+/***/ "./src/example-pages/components/simple/CheckboxTabs.vue":
+/*!**************************************************************!*\
+  !*** ./src/example-pages/components/simple/CheckboxTabs.vue ***!
+  \**************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _DownloadContent_vue_vue_type_template_id_06de0139___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DownloadContent.vue?vue&type=template&id=06de0139& */ "./src/example-pages/components/simple/DownloadContent.vue?vue&type=template&id=06de0139&");
-/* harmony import */ var _DownloadContent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DownloadContent.vue?vue&type=script&lang=js& */ "./src/example-pages/components/simple/DownloadContent.vue?vue&type=script&lang=js&");
+/* harmony import */ var _CheckboxTabs_vue_vue_type_template_id_a769f964___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CheckboxTabs.vue?vue&type=template&id=a769f964& */ "./src/example-pages/components/simple/CheckboxTabs.vue?vue&type=template&id=a769f964&");
+/* harmony import */ var _CheckboxTabs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CheckboxTabs.vue?vue&type=script&lang=js& */ "./src/example-pages/components/simple/CheckboxTabs.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -106,9 +123,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _DownloadContent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _DownloadContent_vue_vue_type_template_id_06de0139___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _DownloadContent_vue_vue_type_template_id_06de0139___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _CheckboxTabs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CheckboxTabs_vue_vue_type_template_id_a769f964___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CheckboxTabs_vue_vue_type_template_id_a769f964___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -120,46 +137,46 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/simple/DownloadContent.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************!*\
-  !*** ./src/example-pages/components/simple/DownloadContent.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************/
+/***/ "./src/example-pages/components/simple/CheckboxTabs.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************!*\
+  !*** ./src/example-pages/components/simple/CheckboxTabs.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_DownloadContent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./DownloadContent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/DownloadContent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_DownloadContent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CheckboxTabs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./CheckboxTabs.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/CheckboxTabs.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CheckboxTabs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/simple/DownloadContent.vue?vue&type=template&id=06de0139&":
-/*!************************************************************************************************!*\
-  !*** ./src/example-pages/components/simple/DownloadContent.vue?vue&type=template&id=06de0139& ***!
-  \************************************************************************************************/
+/***/ "./src/example-pages/components/simple/CheckboxTabs.vue?vue&type=template&id=a769f964&":
+/*!*********************************************************************************************!*\
+  !*** ./src/example-pages/components/simple/CheckboxTabs.vue?vue&type=template&id=a769f964& ***!
+  \*********************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DownloadContent_vue_vue_type_template_id_06de0139___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./DownloadContent.vue?vue&type=template&id=06de0139& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/DownloadContent.vue?vue&type=template&id=06de0139&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DownloadContent_vue_vue_type_template_id_06de0139___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CheckboxTabs_vue_vue_type_template_id_a769f964___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./CheckboxTabs.vue?vue&type=template&id=a769f964& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/simple/CheckboxTabs.vue?vue&type=template&id=a769f964&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CheckboxTabs_vue_vue_type_template_id_a769f964___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DownloadContent_vue_vue_type_template_id_06de0139___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CheckboxTabs_vue_vue_type_template_id_a769f964___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./src/molecules/components/DownloadContent/docs/index.json":
-/*!******************************************************************!*\
-  !*** ./src/molecules/components/DownloadContent/docs/index.json ***!
-  \******************************************************************/
+/***/ "./src/molecules/components/CheckboxTabs/docs/index.json":
+/*!***************************************************************!*\
+  !*** ./src/molecules/components/CheckboxTabs/docs/index.json ***!
+  \***************************************************************/
 /*! exports provided: items, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-download-content\",\"property\":\"expansion\",\"type\":\"String\",\"description\":\"Указывает формат скачиваемого файла\",\"value\":\"\"},{\"name\":\"rt-download-content\",\"property\":\"file-size\",\"type\":\"String\",\"description\":\"Указывает размер скачиваемого файла\",\"value\":\"\"},{\"name\":\"rt-download-content\",\"property\":\"expansion\",\"type\":\"String\",\"description\":\"Ссылка на файл для скачивания\",\"value\":\"\"}]}");
+module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-checkbox-tabs\",\"version\":\"0.1.65\",\"property\":\":is-active\",\"type\":\"Boolean\",\"description\":\"Активное состояние по умолчанию\",\"value\":\"false\"},{\"name\":\"rt-checkbox-tabs\",\"version\":\"0.1.65\",\"property\":\":hide-not-active\",\"type\":\"Boolean\",\"description\":\"Флаг на отключение рендеринга не активной вкладки\",\"value\":\"false\"}]}");
 
 /***/ })
 
