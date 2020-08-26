@@ -12,7 +12,254 @@
       </div>
     </div>
     <div class="app-body">
+      <div class="rt-container sp-b-1">
+        <rt-col>
+            <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['lalala1']" >lalala1
+            </rt-filter-n-setter>
+            <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['test']" >lalala2
+            </rt-filter-n-setter>
+            <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['lalala']">lalala3
+            </rt-filter-n-setter>
+        </rt-col>
+      </div>
+      <rt-filter-n-item filter-name="test" :filter-tags="['filter','test','lalala','lalala1']">
+        <rt-carousel-slide class="rt-col-3 rt-col-td-3 rt-col-md-2">
+          <a href="#" class="spasibo-card" target="_blank">
+            <rt-card-rounded color="white" background-color="orange">
+              <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                          alt=""/></template>
+              <template slot="logo">
+                <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+              </template>
+              <template slot="label">lalala1 от <br> Додо Пицца</template>
+              <template slot="content">Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+      </rt-filter-n-item>
+      <rt-filter-n-item filter-name="test" :filter-tags="['filter','test','lalala']">
+        <rt-carousel-slide class="rt-col-3 rt-col-td-3 rt-col-md-2">
+          <a href="#" class="spasibo-card" target="_blank">
+            <rt-card-rounded color="white" background-color="orange">
+              <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                          alt=""/></template>
+              <template slot="logo">
+                <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+              </template>
+              <template slot="label">Подарок от <br> Додо Пицца</template>
+              <template slot="content">Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+      </rt-filter-n-item>
+      <rt-filter-n-item filter-name="test" :filter-tags="['filter','test','lalala']">
+        <rt-carousel-slide class="rt-col-3 rt-col-td-3 rt-col-md-2">
+          <a href="#" class="spasibo-card" target="_blank">
+            <rt-card-rounded color="white" background-color="orange">
+              <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                          alt=""/></template>
+              <template slot="logo">
+                <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+              </template>
+              <template slot="label">Подарок от <br> Додо Пицца</template>
+              <template slot="content">Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+      </rt-filter-n-item>
+      <rt-filter-n-item filter-name="test" :filter-tags="['filter','test','lalala']">
+        <rt-carousel-slide class="rt-col-3 rt-col-td-3 rt-col-md-2">
+          <a href="#" class="spasibo-card" target="_blank">
+            <rt-card-rounded color="white" background-color="orange">
+              <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                          alt=""/></template>
+              <template slot="logo">
+                <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+              </template>
+              <template slot="label">Подарок от <br> Додо Пицца</template>
+              <template slot="content">Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+      </rt-filter-n-item>
+      <rt-filter-n-item filter-name="test" :filter-tags="['filter','test','lalala']">
+        <rt-carousel-slide class="rt-col-3 rt-col-td-3 rt-col-md-2">
+          <a href="#" class="spasibo-card" target="_blank">
+            <rt-card-rounded color="white" background-color="orange">
+              <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                          alt=""/></template>
+              <template slot="logo">
+                <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+              </template>
+              <template slot="label">Подарок от <br> Додо Пицца</template>
+              <template slot="content">Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+      </rt-filter-n-item>
+      <rt-filter-n-item filter-name="test" :filter-tags="['filter','test','lalala']">
+        <rt-carousel-slide class="rt-col-3 rt-col-td-3 rt-col-md-2">
+          <a href="#" class="spasibo-card" target="_blank">
+            <rt-card-rounded color="white" background-color="orange">
+              <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                          alt=""/></template>
+              <template slot="logo">
+                <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+              </template>
+              <template slot="label">Подарок от <br> Додо Пицца</template>
+              <template slot="content">Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+      </rt-filter-n-item>
+      <rt-carousel :deep-slide-load="2" :decorated="true">
+        <rt-col size="12">
+          <rt-filter-n :has-carousel="true" :carousel-up="2" custom-class="row row-nowrap"
+                       filter-name="test"></rt-filter-n>
+        </rt-col>
+      </rt-carousel>
+
+      <rt-carousel>
+
+        <rt-carousel-slide class="rt-col-3 rt-col-td-3 rt-col-md-2">
+          <a href="#" class="spasibo-card" target="_blank">
+            <rt-card-rounded color="white" background-color="orange">
+              <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                          alt=""/></template>
+              <template slot="logo">
+                <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+              </template>
+              <template slot="label">Подарок от <br> Додо Пицца</template>
+              <template slot="content">Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+
+
+        <rt-carousel-slide class="rt-col-3 rt-col-td-3 rt-col-md-2">
+          <a href="#" class="spasibo-card" target="_blank">
+            <rt-card-rounded color="white" background-color="orange">
+              <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                          alt=""/></template>
+              <template slot="logo">
+                <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+              </template>
+              <template slot="label">Подарок от <br> Додо Пицца</template>
+              <template slot="content">Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+
+
+        <rt-carousel-slide class="rt-col-3 rt-col-td-3 rt-col-md-2">
+          <a href="#" class="spasibo-card" target="_blank">
+            <rt-card-rounded color="white" background-color="orange">
+              <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                          alt=""/></template>
+              <template slot="logo">
+                <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+              </template>
+              <template slot="label">Подарок от <br> Додо Пицца</template>
+              <template slot="content">Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+
+
+        <rt-carousel-slide class="rt-col-3 rt-col-td-3 rt-col-md-2">
+          <a href="#" class="spasibo-card" target="_blank">
+            <rt-card-rounded color="white" background-color="orange">
+              <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                          alt=""/></template>
+              <template slot="logo">
+                <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+              </template>
+              <template slot="label">Подарок от <br> Додо Пицца</template>
+              <template slot="content">Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+        <rt-carousel-slide class="rt-col-3 rt-col-td-3 rt-col-md-2">
+          <a href="#" class="spasibo-card" target="_blank">
+            <rt-card-rounded color="white" background-color="orange">
+              <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                          alt=""/></template>
+              <template slot="logo">
+                <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+              </template>
+              <template slot="label">Подарок от <br> Додо Пицца</template>
+              <template slot="content">Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+        <rt-carousel-slide class="rt-col-3 rt-col-td-3 rt-col-md-2">
+          <a href="#" class="spasibo-card" target="_blank">
+            <rt-card-rounded color="white" background-color="orange">
+              <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                          alt=""/></template>
+              <template slot="logo">
+                <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+              </template>
+              <template slot="label">Подарок от <br> Додо Пицца</template>
+              <template slot="content">Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+        <rt-carousel-slide class="rt-col-3 rt-col-td-3 rt-col-md-2">
+          <a href="#" class="spasibo-card" target="_blank">
+            <rt-card-rounded color="white" background-color="orange">
+              <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                          alt=""/></template>
+              <template slot="logo">
+                <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+              </template>
+              <template slot="label">Подарок от <br> Додо Пицца</template>
+              <template slot="content">Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+      </rt-carousel>
       <div class="rt-container">
+
         <div class="rt-col">
 
           <rt-resize-content-height :query-selectors-names="['.rt-card-round__content']">

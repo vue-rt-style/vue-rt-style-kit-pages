@@ -60,6 +60,9 @@ import {
     Filter,
     FilterWatcher,
     FilterCaller,
+    FilterV2,
+    FilterItemV2,
+    FilterSetterV2,
     Youtube,
     Sticky,
     ResizeContentHeight,
@@ -185,6 +188,9 @@ componentsList[TagsList.name] = TagsList;
 componentsList[Filter.name] = Filter;
 componentsList[FilterWatcher.name] = FilterWatcher;
 componentsList[FilterCaller.name] = FilterCaller;
+componentsList[FilterV2.name] = FilterV2;
+componentsList[FilterItemV2.name] = FilterItemV2;
+componentsList[FilterSetterV2.name] = FilterSetterV2;
 componentsList[Youtube.name] = Youtube;
 componentsList[Sticky.name] = Sticky;
 componentsList[ResizeContentHeight.name] = ResizeContentHeight;
