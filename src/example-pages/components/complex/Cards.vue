@@ -14,12 +14,38 @@
     <div class="app-body">
       <div class="rt-container sp-b-1">
         <rt-col>
-            <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['lalala1']" >lalala1
-            </rt-filter-n-setter>
-            <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['test']" >lalala2
-            </rt-filter-n-setter>
-            <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['lalala']">lalala3
-            </rt-filter-n-setter>
+          <div class="rt-tag-n-wrapper">
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['lalala1']">lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['test']">lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['lalala']">lalala3
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['lalala1']">lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['test']">lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['lalala']">lalala3
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['lalala1']">lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['test']">lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['lalala']">lalala3
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['lalala1']">lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['test']">lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['lalala']">lalala3
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['lalala1']">lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['test']">lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name="test" custom-class="rt-tag-n--purple" :filter-tags="['lalala']">lalala3
+              </rt-filter-n-setter>
+          </div>
         </rt-col>
       </div>
       <rt-filter-n-item filter-name="test" :filter-tags="['filter','test','lalala','lalala1']">
