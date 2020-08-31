@@ -13,7 +13,7 @@
           text='<rt-banner-v2>
         <rt-banner-item-v2 >
           <template slot="header">
-            <img src="http://46.101.72.150/static/tmp/headerbtc1460.svg" alt="">
+            <p class="tagline rt-font-label-uppercase rt-font-bold color-main05">Это текст вместо лого</p>
           </template>
           <template slot="mobile-header">
             <img src="http://46.101.72.150/static/tmp/headerbtc1460.svg" height="32px" alt="">
