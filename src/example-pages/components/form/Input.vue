@@ -69,8 +69,6 @@
 							<span class="rt-font-label flex-fill rt-space-bottom05">input in 3 col</span>
 							<rt-input value=""
 							          placeholder="Электронная почта"
-							          validate="required|email"
-							          :realtime-validate="true"
 							/>
 						</div>
 						<div class="rt-col-2 rt-col-md-2 rt-md-space-top">
@@ -94,13 +92,12 @@
 							<span class="rt-font-label flex-fill rt-space-bottom05">input in 3 col</span>
 							<rt-input value=""
 							          placeholder="Электронная почта"
-							          validate="email"
-							          :validate-on-blur="true"
+
 							/>
 						</div>
 						<div class="rt-col-2 rt-col-md-2 rt-md-space-top">
 							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 2 col</span>
-							<rt-input :validate-on-blur="true" value="" placeholder="Улица"/>
+							<rt-input  value="" placeholder="Улица"/>
 						</div>
 						<div class="rt-col-1 rt-col-md-1 rt-md-space-top">
 							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 1 c</span>
@@ -215,7 +212,6 @@
 							          :is-b2b-input="true"
 							          :approved="true"
 							          v-model="inputValue"
-							          validate="required"
 							          @click="consoleEvent($event)"
 							          @change="consoleEvent($event)"
 							          @keyup="consoleEvent($event)"

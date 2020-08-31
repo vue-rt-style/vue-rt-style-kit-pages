@@ -16,7 +16,7 @@
 					<rt-row class="app-row">
 						<rt-col :size="4">
 							<pre-code
-									text='<rt-checkbox :validate="{required: true}" :required="true" name="internet">Интернет</rt-checkbox>'/>
+									text='<rt-checkbox :required="true" name="internet">Интернет</rt-checkbox>'/>
 							<div class="rt-space-vertical">
 								<pre-code text='<rt-checkbox name="sms">Смс</rt-checkbox>'></pre-code>
 							</div>
@@ -36,7 +36,7 @@
 						<rt-col :size="2"></rt-col>
 						<rt-col :size="4">
 							<pre-code
-									text='<rt-checkbox :is-orange="true" :validate="{required: true}" :required="true" name="internet">Интернет</rt-checkbox>'></pre-code>
+									text='<rt-checkbox :is-orange="true"  :required="true" name="internet">Интернет</rt-checkbox>'></pre-code>
 							<div class="rt-space-vertical">
 								<pre-code text='<rt-checkbox :is-orange="true" name="sms">Смс</rt-checkbox>'></pre-code>
 							</div>
@@ -64,7 +64,7 @@
 					<rt-row class="app-row">
 						<rt-col :size="4">
 							<pre-code
-									text='<rt-checkbox :bright="true" :validate="{required: true}" :required="true" name="internet">Интернет</rt-checkbox>'/>
+									text='<rt-checkbox :bright="true" :required="true" name="internet">Интернет</rt-checkbox>'/>
 							<div class="rt-space-vertical">
 								<pre-code text='<rt-checkbox :bright="true" name="sms">Смс</rt-checkbox>'></pre-code>
 							</div>
@@ -85,7 +85,7 @@
 						<rt-col :size="2"></rt-col>
 						<rt-col :size="4">
 							<pre-code
-									text='<rt-checkbox :bright="true" :is-orange="true" :validate="{required: true}" :required="true" name="internet">Интернет</rt-checkbox>'></pre-code>
+									text='<rt-checkbox :bright="true" :is-orange="true" :required="true" name="internet">Интернет</rt-checkbox>'></pre-code>
 							<div class="rt-space-vertical">
 								<pre-code text='<rt-checkbox :bright="true" :is-orange="true" name="sms">Смс</rt-checkbox>'></pre-code>
 							</div>
