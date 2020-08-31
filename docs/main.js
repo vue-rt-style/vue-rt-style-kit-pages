@@ -14400,13 +14400,13 @@ var componentsList = {};
     }, [h("rt-col", {
       attrs: {
         size: 5,
-        "tablet-size": 2,
+        "tablet-size": 3,
         "m-hide": true
       }
     }), h("rt-col", {
       attrs: {
         size: 7,
-        "tablet-size": 4,
+        "tablet-size": 3,
         "mobile-size": 3
       }
     }, [this.gradient, this.imageRender, this.imageX2Render, this.imageTabletRender, this.imageMobileRender])]);
