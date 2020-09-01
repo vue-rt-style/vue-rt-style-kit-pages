@@ -54,7 +54,10 @@
               {{this.text+this.count}}
             </rt-col>
             <rt-col>
-            <button v-on:click="count += 1">сменить реактивный текст</button>
+            <button v-on:click="count += 1">!!
+              <div v-if="count<3" v-tooltip="{'text':'Добавить в избранное'}">123</div>
+              <div v-else v-tooltip="{'text':'Убрать из избранное'}">321</div>
+            </button>
             </rt-col>
 						<rt-col size="3"></rt-col>
 					</rt-row>
