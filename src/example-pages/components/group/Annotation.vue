@@ -10,7 +10,7 @@
       </div>
       <div class="app-body">
         <pre-code
-          text="<rt-annotation label=&quot;Примечание&quot; class=&quot;rt-space-top rt-space-bottom3&quot;>
+          text="<rt-annotation hash='open' scroll-timeout='1000' label=&quot;Примечание&quot; class=&quot;rt-space-top rt-space-bottom3&quot;>
           <template slot=&quot;content&quot;>
           <div class=&quot;rt-numeric-list&quot;>
             <p class=&quot;rt-annotation-item rt-numeric-list__item&quot;>Услуги Высокоскоростного интернета предоставляются при наличии
