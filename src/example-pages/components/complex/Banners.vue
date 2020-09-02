@@ -27,7 +27,7 @@
 
       <pre-code
           text='<rt-banner-v2 name="test">
-      <rt-banner-item-v2 banner-name="test">
+      <rt-banner-item-v2 banner-name="test" :show-url-on-tablet="true" url="http://rt.ru">
         <template slot="header">
           <img src="http://46.101.72.150/static/tmp/headerbtc1460.svg" alt="">
         </template>
@@ -41,7 +41,7 @@
         <template slot="image-tablet"><img src="http://46.101.72.150/static/tmp/bannerImage-tablet.jpg" alt=""></template>
         <template slot="image-mobile"><img src="http://46.101.72.150/static/tmp/bannerImage-mobile.jpg" alt=""></template>
       </rt-banner-item-v2>
-      <rt-banner-item-v2 color-type="orange" banner-name="test" :is-active="true">
+      <rt-banner-item-v2 color-type="orange" banner-name="test" :is-active="true" :show-url-on-desktop="true" url="http://rt.ru">
         <template slot="header">
           <img class="d-block" src="http://46.101.72.150/static/tmp/logowink.svg" alt="">
         </template>
@@ -56,8 +56,8 @@
         <template slot="image"><img src="http://46.101.72.150/static/tmp/bannerImageOrange.jpg" alt=""></template>
         <template slot="image-x2"><img src="http://46.101.72.150/static/tmp/bannerImageOrange-x2.jpg" alt=""></template>
       </rt-banner-item-v2>
-      <rt-banner-item-v2 banner-name="test">
-        <template slot="label">Виртуальная АТС <br> и 1 000 минут бесплатно</template>
+      <rt-banner-item-v2 banner-name="test" url="http://rt.ru">
+        <template slot="label">Виртуа!!льная АТС <br> и 1 000 минут бесплатно</template>
         <template slot="description">Соберите сами свой пакет фильмов и каналов.</template>
         <template slot="footer"><rt-button color="orange" >Подробнее</rt-button></template>
         <template slot="image"><img src="http://46.101.72.150/static/tmp/bannerImage.jpg" alt=""></template>
