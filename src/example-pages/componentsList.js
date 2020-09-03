@@ -1,5 +1,6 @@
 import {
     Button,
+    Calendar,
     Checkbox,
     CheckboxContainer,
     Input,
@@ -138,6 +139,7 @@ const componentsList = {};
 componentsList[GridRow.name] = GridRow;
 componentsList[GridColumn.name] = GridColumn;
 componentsList[Button.name] = Button;
+componentsList[Calendar.name] = Calendar;
 componentsList[Checkbox.name] = Checkbox;
 componentsList[CheckboxContainer.name] = CheckboxContainer;
 componentsList[Input.name] = Input;
