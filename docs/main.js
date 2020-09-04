@@ -33890,8 +33890,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var componentsList = {};
 componentsList[_vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["GridRow"].name] = _vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["GridRow"];
 componentsList[_vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["GridColumn"].name] = _vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["GridColumn"];
-componentsList[_vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["Button"].name] = _vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["Button"]; // componentsList[Calendar.name] = Calendar;
-
+componentsList[_vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["Button"].name] = _vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["Button"];
+componentsList[_vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["Calendar"].name] = _vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["Calendar"];
 componentsList[_vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["Checkbox"].name] = _vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["Checkbox"];
 componentsList[_vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["CheckboxContainer"].name] = _vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["CheckboxContainer"];
 componentsList[_vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["Input"].name] = _vue_rt_style_kit_atoms_local__WEBPACK_IMPORTED_MODULE_0__["Input"];
@@ -34429,7 +34429,7 @@ var index = [{
   path: "/typography",
   name: "app-typography",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 55).then(__webpack_require__.bind(null, /*! ../components/main/Typography.vue */ "./src/example-pages/components/main/Typography.vue"));
+    return __webpack_require__.e(/*! import() */ 56).then(__webpack_require__.bind(null, /*! ../components/main/Typography.vue */ "./src/example-pages/components/main/Typography.vue"));
   }
 }, {
   path: "/colors",
@@ -34441,19 +34441,19 @@ var index = [{
   path: "/space",
   name: "app-grid",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 54).then(__webpack_require__.bind(null, /*! ../components/main/SpaceClassElements.vue */ "./src/example-pages/components/main/SpaceClassElements.vue"));
+    return __webpack_require__.e(/*! import() */ 55).then(__webpack_require__.bind(null, /*! ../components/main/SpaceClassElements.vue */ "./src/example-pages/components/main/SpaceClassElements.vue"));
   }
 }, {
   path: "/grid",
   name: "app-grid",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 27).then(__webpack_require__.bind(null, /*! ../components/main/Grid.vue */ "./src/example-pages/components/main/Grid.vue"));
+    return __webpack_require__.e(/*! import() */ 28).then(__webpack_require__.bind(null, /*! ../components/main/Grid.vue */ "./src/example-pages/components/main/Grid.vue"));
   }
 }, {
   path: "/grid_component",
   name: "grid component",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 28).then(__webpack_require__.bind(null, /*! ../components/main/GridComponent.vue */ "./src/example-pages/components/main/GridComponent.vue"));
+    return __webpack_require__.e(/*! import() */ 29).then(__webpack_require__.bind(null, /*! ../components/main/GridComponent.vue */ "./src/example-pages/components/main/GridComponent.vue"));
   }
 }, // form
 {
@@ -34466,57 +34466,62 @@ var index = [{
   path: "/input",
   name: "app-input",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 17).then(__webpack_require__.bind(null, /*! ../components/form/Input.vue */ "./src/example-pages/components/form/Input.vue"));
+    return __webpack_require__.e(/*! import() */ 18).then(__webpack_require__.bind(null, /*! ../components/form/Input.vue */ "./src/example-pages/components/form/Input.vue"));
   }
 }, {
   path: "/textarea",
   name: "app-textarea",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 21).then(__webpack_require__.bind(null, /*! ../components/form/Textarea.vue */ "./src/example-pages/components/form/Textarea.vue"));
+    return __webpack_require__.e(/*! import() */ 22).then(__webpack_require__.bind(null, /*! ../components/form/Textarea.vue */ "./src/example-pages/components/form/Textarea.vue"));
   }
 }, {
   path: "/checkbox",
   name: "app-checkbox",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 16).then(__webpack_require__.bind(null, /*! ../components/form/Checkbox.vue */ "./src/example-pages/components/form/Checkbox.vue"));
+    return __webpack_require__.e(/*! import() */ 17).then(__webpack_require__.bind(null, /*! ../components/form/Checkbox.vue */ "./src/example-pages/components/form/Checkbox.vue"));
   }
 }, {
   path: "/radiobutton",
   name: "app-radiobutton",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 18).then(__webpack_require__.bind(null, /*! ../components/form/Radiobutton.vue */ "./src/example-pages/components/form/Radiobutton.vue"));
+    return __webpack_require__.e(/*! import() */ 19).then(__webpack_require__.bind(null, /*! ../components/form/Radiobutton.vue */ "./src/example-pages/components/form/Radiobutton.vue"));
   }
 }, {
   path: "/switch",
   name: "app-switch",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 20).then(__webpack_require__.bind(null, /*! ../components/form/Switch.vue */ "./src/example-pages/components/form/Switch.vue"));
+    return __webpack_require__.e(/*! import() */ 21).then(__webpack_require__.bind(null, /*! ../components/form/Switch.vue */ "./src/example-pages/components/form/Switch.vue"));
   }
 }, {
   path: "/select",
   name: "app-select",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 19).then(__webpack_require__.bind(null, /*! ../components/form/Select.vue */ "./src/example-pages/components/form/Select.vue"));
+    return __webpack_require__.e(/*! import() */ 20).then(__webpack_require__.bind(null, /*! ../components/form/Select.vue */ "./src/example-pages/components/form/Select.vue"));
   }
-}, // { path: "/calendar", name: "app-calendar", component: () => import("../components/form/Calendar.vue") },
-{
+}, {
+  path: "/calendar",
+  name: "app-calendar",
+  component: function component() {
+    return __webpack_require__.e(/*! import() */ 16).then(__webpack_require__.bind(null, /*! ../components/form/Calendar.vue */ "./src/example-pages/components/form/Calendar.vue"));
+  }
+}, {
   path: "/tags",
   name: "app-tags",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 50).then(__webpack_require__.bind(null, /*! ../components/form/Tags.vue */ "./src/example-pages/components/form/Tags.vue"));
+    return __webpack_require__.e(/*! import() */ 51).then(__webpack_require__.bind(null, /*! ../components/form/Tags.vue */ "./src/example-pages/components/form/Tags.vue"));
   }
 }, // simple
 {
   path: "/tooltip",
   name: "app-tooltip",
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(65)]).then(__webpack_require__.bind(null, /*! ../components/simple/Tooltip.vue */ "./src/example-pages/components/simple/Tooltip.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(66)]).then(__webpack_require__.bind(null, /*! ../components/simple/Tooltip.vue */ "./src/example-pages/components/simple/Tooltip.vue"));
   }
 }, {
   path: "/logo",
   name: "app-logo",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 62).then(__webpack_require__.bind(null, /*! ../components/simple/Logo.vue */ "./src/example-pages/components/simple/Logo.vue"));
+    return __webpack_require__.e(/*! import() */ 63).then(__webpack_require__.bind(null, /*! ../components/simple/Logo.vue */ "./src/example-pages/components/simple/Logo.vue"));
   }
 }, {
   path: "/icons",
@@ -34528,141 +34533,141 @@ var index = [{
   path: "/spinner",
   name: "app-spinner",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 64).then(__webpack_require__.bind(null, /*! ../components/simple/Spinner.vue */ "./src/example-pages/components/simple/Spinner.vue"));
+    return __webpack_require__.e(/*! import() */ 65).then(__webpack_require__.bind(null, /*! ../components/simple/Spinner.vue */ "./src/example-pages/components/simple/Spinner.vue"));
   }
 }, {
   path: "/popup",
   name: "realPopup",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 35).then(__webpack_require__.bind(null, /*! ../components/simple/Popup.vue */ "./src/example-pages/components/simple/Popup.vue"));
+    return __webpack_require__.e(/*! import() */ 36).then(__webpack_require__.bind(null, /*! ../components/simple/Popup.vue */ "./src/example-pages/components/simple/Popup.vue"));
   }
 }, {
   path: "/opacity",
   name: "app-opacity",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 63).then(__webpack_require__.bind(null, /*! ../components/simple/OpacityClassElements.vue */ "./src/example-pages/components/simple/OpacityClassElements.vue"));
+    return __webpack_require__.e(/*! import() */ 64).then(__webpack_require__.bind(null, /*! ../components/simple/OpacityClassElements.vue */ "./src/example-pages/components/simple/OpacityClassElements.vue"));
   }
 }, {
   path: "/color-line-text",
   name: "app-color-line-text",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 31).then(__webpack_require__.bind(null, /*! ../components/simple/ColorLineText.vue */ "./src/example-pages/components/simple/ColorLineText.vue"));
+    return __webpack_require__.e(/*! import() */ 32).then(__webpack_require__.bind(null, /*! ../components/simple/ColorLineText.vue */ "./src/example-pages/components/simple/ColorLineText.vue"));
   }
 }, {
   path: "/sticky-header-line",
   name: "Sticky Header Line",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 39).then(__webpack_require__.bind(null, /*! ../components/simple/StickyHeaderLine.vue */ "./src/example-pages/components/simple/StickyHeaderLine.vue"));
+    return __webpack_require__.e(/*! import() */ 40).then(__webpack_require__.bind(null, /*! ../components/simple/StickyHeaderLine.vue */ "./src/example-pages/components/simple/StickyHeaderLine.vue"));
   }
 }, {
   path: "/sticky-bottom-line",
   name: "Sticky Bottom Line",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 38).then(__webpack_require__.bind(null, /*! ../components/simple/StickyBottomLine.vue */ "./src/example-pages/components/simple/StickyBottomLine.vue"));
+    return __webpack_require__.e(/*! import() */ 39).then(__webpack_require__.bind(null, /*! ../components/simple/StickyBottomLine.vue */ "./src/example-pages/components/simple/StickyBottomLine.vue"));
   }
 }, {
   path: "/ussd",
   name: "app-ussd",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 40).then(__webpack_require__.bind(null, /*! ../components/simple/Ussd.vue */ "./src/example-pages/components/simple/Ussd.vue"));
+    return __webpack_require__.e(/*! import() */ 41).then(__webpack_require__.bind(null, /*! ../components/simple/Ussd.vue */ "./src/example-pages/components/simple/Ussd.vue"));
   }
 }, {
   path: "/inline-dropdown",
   name: "app-inline-dropdown",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 34).then(__webpack_require__.bind(null, /*! ../components/simple/InlineDropdown.vue */ "./src/example-pages/components/simple/InlineDropdown.vue"));
+    return __webpack_require__.e(/*! import() */ 35).then(__webpack_require__.bind(null, /*! ../components/simple/InlineDropdown.vue */ "./src/example-pages/components/simple/InlineDropdown.vue"));
   }
 }, {
   path: "/price",
   name: "app-price",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 36).then(__webpack_require__.bind(null, /*! ../components/simple/Price.vue */ "./src/example-pages/components/simple/Price.vue"));
+    return __webpack_require__.e(/*! import() */ 37).then(__webpack_require__.bind(null, /*! ../components/simple/Price.vue */ "./src/example-pages/components/simple/Price.vue"));
   }
 }, {
   path: "/checkbox-tabs",
   name: "app-checkbox-tabs",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 30).then(__webpack_require__.bind(null, /*! ../components/simple/CheckboxTabs.vue */ "./src/example-pages/components/simple/CheckboxTabs.vue"));
+    return __webpack_require__.e(/*! import() */ 31).then(__webpack_require__.bind(null, /*! ../components/simple/CheckboxTabs.vue */ "./src/example-pages/components/simple/CheckboxTabs.vue"));
   }
 }, {
   path: "/fullscreen",
   name: "app-fullscreen",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 33).then(__webpack_require__.bind(null, /*! ../components/simple/FullscreenImage.vue */ "./src/example-pages/components/simple/FullscreenImage.vue"));
+    return __webpack_require__.e(/*! import() */ 34).then(__webpack_require__.bind(null, /*! ../components/simple/FullscreenImage.vue */ "./src/example-pages/components/simple/FullscreenImage.vue"));
   }
 }, {
   path: "/download-content",
   name: "app-download-content",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 32).then(__webpack_require__.bind(null, /*! ../components/simple/DownloadContent.vue */ "./src/example-pages/components/simple/DownloadContent.vue"));
+    return __webpack_require__.e(/*! import() */ 33).then(__webpack_require__.bind(null, /*! ../components/simple/DownloadContent.vue */ "./src/example-pages/components/simple/DownloadContent.vue"));
   }
 }, {
   path: "/use-case",
   name: "useCase",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 66).then(__webpack_require__.bind(null, /*! ../components/simple/UseCase.vue */ "./src/example-pages/components/simple/UseCase.vue"));
+    return __webpack_require__.e(/*! import() */ 67).then(__webpack_require__.bind(null, /*! ../components/simple/UseCase.vue */ "./src/example-pages/components/simple/UseCase.vue"));
   }
 }, {
   path: "/slide-content",
   name: "app-slide-content",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 37).then(__webpack_require__.bind(null, /*! ../components/simple/SlideContent.vue */ "./src/example-pages/components/simple/SlideContent.vue"));
+    return __webpack_require__.e(/*! import() */ 38).then(__webpack_require__.bind(null, /*! ../components/simple/SlideContent.vue */ "./src/example-pages/components/simple/SlideContent.vue"));
   }
 }, // group
 {
   path: "/list",
   name: "app-list",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 51).then(__webpack_require__.bind(null, /*! ../components/group/List.vue */ "./src/example-pages/components/group/List.vue"));
+    return __webpack_require__.e(/*! import() */ 52).then(__webpack_require__.bind(null, /*! ../components/group/List.vue */ "./src/example-pages/components/group/List.vue"));
   }
 }, {
   path: "/table",
   name: "app-table",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 53).then(__webpack_require__.bind(null, /*! ../components/group/Table.vue */ "./src/example-pages/components/group/Table.vue"));
+    return __webpack_require__.e(/*! import() */ 54).then(__webpack_require__.bind(null, /*! ../components/group/Table.vue */ "./src/example-pages/components/group/Table.vue"));
   }
 }, {
   path: "/annotation",
   name: "app-annotation",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 22).then(__webpack_require__.bind(null, /*! ../components/group/Annotation.vue */ "./src/example-pages/components/group/Annotation.vue"));
+    return __webpack_require__.e(/*! import() */ 23).then(__webpack_require__.bind(null, /*! ../components/group/Annotation.vue */ "./src/example-pages/components/group/Annotation.vue"));
   }
 }, {
   path: "/row-list",
   name: "app-row-list",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 52).then(__webpack_require__.bind(null, /*! ../components/group/RowList.vue */ "./src/example-pages/components/group/RowList.vue"));
+    return __webpack_require__.e(/*! import() */ 53).then(__webpack_require__.bind(null, /*! ../components/group/RowList.vue */ "./src/example-pages/components/group/RowList.vue"));
   }
 }, {
   path: "/options-list",
   name: "app-row-list",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 24).then(__webpack_require__.bind(null, /*! ../components/group/OptionsList.vue */ "./src/example-pages/components/group/OptionsList.vue"));
+    return __webpack_require__.e(/*! import() */ 25).then(__webpack_require__.bind(null, /*! ../components/group/OptionsList.vue */ "./src/example-pages/components/group/OptionsList.vue"));
   }
 }, {
   path: "/tabs",
   name: "app-banners",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 26).then(__webpack_require__.bind(null, /*! ../components/group/Tabs.vue */ "./src/example-pages/components/group/Tabs.vue"));
+    return __webpack_require__.e(/*! import() */ 27).then(__webpack_require__.bind(null, /*! ../components/group/Tabs.vue */ "./src/example-pages/components/group/Tabs.vue"));
   }
 }, {
   path: "/scroll-tabs",
   name: "app-scrollTabs",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 25).then(__webpack_require__.bind(null, /*! ../components/group/ScrollTabs.vue */ "./src/example-pages/components/group/ScrollTabs.vue"));
+    return __webpack_require__.e(/*! import() */ 26).then(__webpack_require__.bind(null, /*! ../components/group/ScrollTabs.vue */ "./src/example-pages/components/group/ScrollTabs.vue"));
   }
 }, {
   path: "/benefit",
   name: "benefit",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 23).then(__webpack_require__.bind(null, /*! ../components/group/BenefitBlock.vue */ "./src/example-pages/components/group/BenefitBlock.vue"));
+    return __webpack_require__.e(/*! import() */ 24).then(__webpack_require__.bind(null, /*! ../components/group/BenefitBlock.vue */ "./src/example-pages/components/group/BenefitBlock.vue"));
   }
 }, // complex
 {
   path: "/help-block",
   name: "app-help-block",
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(49)]).then(__webpack_require__.bind(null, /*! ../components/complex/HelpBlock.vue */ "./src/example-pages/components/complex/HelpBlock.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(50)]).then(__webpack_require__.bind(null, /*! ../components/complex/HelpBlock.vue */ "./src/example-pages/components/complex/HelpBlock.vue"));
   }
 }, {
   path: "/slider",
@@ -34692,13 +34697,13 @@ var index = [{
   path: "/cards-with-forms",
   name: "app-cards",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 46).then(__webpack_require__.bind(null, /*! ../components/complex/CardsWithForms.vue */ "./src/example-pages/components/complex/CardsWithForms.vue"));
+    return __webpack_require__.e(/*! import() */ 47).then(__webpack_require__.bind(null, /*! ../components/complex/CardsWithForms.vue */ "./src/example-pages/components/complex/CardsWithForms.vue"));
   }
 }, {
   path: "/banners",
   name: "app-banners",
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(45)]).then(__webpack_require__.bind(null, /*! ../components/complex/Banners.vue */ "./src/example-pages/components/complex/Banners.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(46)]).then(__webpack_require__.bind(null, /*! ../components/complex/Banners.vue */ "./src/example-pages/components/complex/Banners.vue"));
   }
 }, {
   path: "/carousels",
@@ -34710,7 +34715,7 @@ var index = [{
   path: "/gallery-carousel",
   name: "gallary-carousel",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 48).then(__webpack_require__.bind(null, /*! ../components/complex/GallaryCarousel.vue */ "./src/example-pages/components/complex/GallaryCarousel.vue"));
+    return __webpack_require__.e(/*! import() */ 49).then(__webpack_require__.bind(null, /*! ../components/complex/GallaryCarousel.vue */ "./src/example-pages/components/complex/GallaryCarousel.vue"));
   }
 }, {
   path: "/swiper",
@@ -34728,7 +34733,7 @@ var index = [{
   path: "/filter",
   name: "app-filter",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 47).then(__webpack_require__.bind(null, /*! ../components/complex/Filter.vue */ "./src/example-pages/components/complex/Filter.vue"));
+    return __webpack_require__.e(/*! import() */ 48).then(__webpack_require__.bind(null, /*! ../components/complex/Filter.vue */ "./src/example-pages/components/complex/Filter.vue"));
   }
 }, {
   path: "/text_image",
@@ -34747,7 +34752,7 @@ var index = [{
   path: "/game-arrows",
   name: "AppGameArrows",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 56).then(__webpack_require__.bind(null, /*! ../components/pages/GameArrows.vue */ "./src/example-pages/components/pages/GameArrows.vue"));
+    return __webpack_require__.e(/*! import() */ 57).then(__webpack_require__.bind(null, /*! ../components/pages/GameArrows.vue */ "./src/example-pages/components/pages/GameArrows.vue"));
   }
 }, {
   path: "/promo/tv",
@@ -34760,43 +34765,43 @@ var index = [{
   path: "/cloud",
   name: "vip",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 61).then(__webpack_require__.bind(null, /*! ../components/pages/promo/vip.vue */ "./src/example-pages/components/pages/promo/vip.vue"));
+    return __webpack_require__.e(/*! import() */ 62).then(__webpack_require__.bind(null, /*! ../components/pages/promo/vip.vue */ "./src/example-pages/components/pages/promo/vip.vue"));
   }
 }, {
   path: "/promo/test-access",
   name: "testAccess",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 60).then(__webpack_require__.bind(null, /*! ../components/pages/promo/test-access.vue */ "./src/example-pages/components/pages/promo/test-access.vue"));
+    return __webpack_require__.e(/*! import() */ 61).then(__webpack_require__.bind(null, /*! ../components/pages/promo/test-access.vue */ "./src/example-pages/components/pages/promo/test-access.vue"));
   }
 }, {
   path: "/promo/vcod",
   name: "VCOD",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 67).then(__webpack_require__.bind(null, /*! ../components/pages/promo/VCOD.vue */ "./src/example-pages/components/pages/promo/VCOD.vue"));
+    return __webpack_require__.e(/*! import() */ 68).then(__webpack_require__.bind(null, /*! ../components/pages/promo/VCOD.vue */ "./src/example-pages/components/pages/promo/VCOD.vue"));
   }
 }, {
   path: "/promo/business-drive",
   name: "business-drive",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 59).then(__webpack_require__.bind(null, /*! ../components/pages/promo/business-drive.vue */ "./src/example-pages/components/pages/promo/business-drive.vue"));
+    return __webpack_require__.e(/*! import() */ 60).then(__webpack_require__.bind(null, /*! ../components/pages/promo/business-drive.vue */ "./src/example-pages/components/pages/promo/business-drive.vue"));
   }
 }, {
   path: "/opportunity",
   name: "opportunity",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 29).then(__webpack_require__.bind(null, /*! ../components/pages/Opportunity.vue */ "./src/example-pages/components/pages/Opportunity.vue"));
+    return __webpack_require__.e(/*! import() */ 30).then(__webpack_require__.bind(null, /*! ../components/pages/Opportunity.vue */ "./src/example-pages/components/pages/Opportunity.vue"));
   }
 }, {
   path: "/help-main",
   name: "helpMain",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 57).then(__webpack_require__.bind(null, /*! ../components/pages/HelpMain.vue */ "./src/example-pages/components/pages/HelpMain.vue"));
+    return __webpack_require__.e(/*! import() */ 58).then(__webpack_require__.bind(null, /*! ../components/pages/HelpMain.vue */ "./src/example-pages/components/pages/HelpMain.vue"));
   }
 }, {
   path: "/unwrapper",
   name: "unWrapper",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 58).then(__webpack_require__.bind(null, /*! ../components/pages/UnWrapper.vue */ "./src/example-pages/components/pages/UnWrapper.vue"));
+    return __webpack_require__.e(/*! import() */ 59).then(__webpack_require__.bind(null, /*! ../components/pages/UnWrapper.vue */ "./src/example-pages/components/pages/UnWrapper.vue"));
   }
 }, {
   path: "/tariff-cards2",
@@ -34814,25 +34819,25 @@ var index = [{
   path: "/audioconference",
   name: "audioconference",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 42).then(__webpack_require__.bind(null, /*! ../components/audioconference/AudioConferenceAuth.vue */ "./src/example-pages/components/audioconference/AudioConferenceAuth.vue"));
+    return __webpack_require__.e(/*! import() */ 43).then(__webpack_require__.bind(null, /*! ../components/audioconference/AudioConferenceAuth.vue */ "./src/example-pages/components/audioconference/AudioConferenceAuth.vue"));
   }
 }, {
   path: "/audioconference-list",
   name: "audioconference-list",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 43).then(__webpack_require__.bind(null, /*! ../components/audioconference/AudioConferenceList.vue */ "./src/example-pages/components/audioconference/AudioConferenceList.vue"));
+    return __webpack_require__.e(/*! import() */ 44).then(__webpack_require__.bind(null, /*! ../components/audioconference/AudioConferenceList.vue */ "./src/example-pages/components/audioconference/AudioConferenceList.vue"));
   }
 }, {
   path: "/archive",
   name: "archive",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 41).then(__webpack_require__.bind(null, /*! ../components/audioconference/AudioConferenceArchive.vue */ "./src/example-pages/components/audioconference/AudioConferenceArchive.vue"));
+    return __webpack_require__.e(/*! import() */ 42).then(__webpack_require__.bind(null, /*! ../components/audioconference/AudioConferenceArchive.vue */ "./src/example-pages/components/audioconference/AudioConferenceArchive.vue"));
   }
 }, {
   path: "/phonebook",
   name: "phonebook",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 44).then(__webpack_require__.bind(null, /*! ../components/audioconference/AudioConferencePhonebook.vue */ "./src/example-pages/components/audioconference/AudioConferencePhonebook.vue"));
+    return __webpack_require__.e(/*! import() */ 45).then(__webpack_require__.bind(null, /*! ../components/audioconference/AudioConferencePhonebook.vue */ "./src/example-pages/components/audioconference/AudioConferencePhonebook.vue"));
   }
 }, // { path: "/promo/tvtv", name: "promoTv", component: PromoTvTV },
 // { path: "/promo/mobile", name: "promoMobile", component: PromoMobile },
