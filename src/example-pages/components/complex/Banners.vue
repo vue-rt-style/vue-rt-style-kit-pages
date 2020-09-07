@@ -18,7 +18,7 @@
 			<img src='http://46.101.72.150/static/tmp/headerbtc1460.svg' height='32px' alt=''>
 		</template>
 		<template slot='label'>Легко подключить,<br> комфортно жить</template>
-		<template slot='footer'><rt-button v-on:click='check(0)' color='orange'>Подробнее</rt-button></template>
+		<template slot='footer'><rt-button color='orange'>Подробнее</rt-button></template>
 		<template slot='image'><img src='http://46.101.72.150/static/tmp/12.jpg' alt=''></template>
 		<template slot='image-x2'><img src='http://46.101.72.150/static/tmp/12-x2.jpg' alt=''></template>
 	</rt-banner-item-v2>
@@ -33,7 +33,7 @@
           <img src='http://46.101.72.150/static/tmp/headerbtc1460.svg' height='32px' alt=''>
         </template>
         <template slot='label'>Легко подключить,<br> комфортно жить</template>
-        <template slot='footer'><rt-button  v-on:click='check(1)' color='orange'>Подробнее</rt-button></template>
+        <template slot='footer'><rt-button color='orange'>Подробнее</rt-button></template>
         <template slot='image'><img src='http://46.101.72.150/static/tmp/bannerImage.jpg' alt=''></template>
         <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/bannerImage-x2.jpg' alt=''></template>
         <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/bannerImage-tablet.jpg' alt=''></template>
@@ -463,9 +463,6 @@
     created() {
     },
     methods: {
-      check(text){
-        console.info('-->>',text)
-      }
     }
   };
 </script>
