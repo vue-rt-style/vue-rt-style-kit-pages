@@ -48,7 +48,7 @@
         </p>
       </template>
       <template slot="footer">
-        <rt-button class="rt-button-md--is-block" color="orange">Заказать</rt-button>
+        <rt-button :tablet-small="true" class="rt-button-md--is-block" color="orange">Заказать</rt-button>
       </template>
       <template slot='image'><img src='https://cinema-vikonda.ru/uploads/film/media/2020-08/2445971516.jpg' alt=''></template>
       <template slot='image-x2'><img src='https://cinema-vikonda.ru/uploads/film/media/2020-08/2445971516.jpg' alt=''></template>
