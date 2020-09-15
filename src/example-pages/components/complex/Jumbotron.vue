@@ -8,48 +8,66 @@
         </div>
       </div>
     </div>
-        <rt-jumbotron background="purple">
-          <template slot='header'>
-            <p>header</p>
-          </template>
-          <template slot='tablet-header'>
-            <p>tablet</p>
-          </template>
-          <template slot='mobile-header'>
-            <p>mobile header</p>
-          </template>
-          <template slot="label">Эксклюзивный игровой комплект Playstation</template>
-
-          <template slot="body-html">
-            <rt-price :bright="true" :value='750.2' :old-value='666.2234' currency='$'/>
-          </template>
-          <template slot="footer">
-            <rt-button  class="rt-button-md--is-block" color="orange">Заказать</rt-button>
-          </template>
-          <template slot='image'><img src='http://46.101.72.150/static/tmp/bannerImage.jpg' alt=''></template>
-          <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/bannerImage-x2.jpg' alt=''></template>
-          <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/bannerImage-tablet.jpg' alt=''>
-          </template>
-          <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/bannerImage-mobile.jpg' alt=''>
-          </template>
-
-        </rt-jumbotron>
-    <rt-jumbotron background="gray" color="main" description-color="main05">
+    <rt-jumbotron background="purple">
       <template slot='header'>
-        <p>header</p>
+        <p class="rt-font-label rt-font-label-uppercase">ВИДЕОСЕРВИС WINK</p>
       </template>
       <template slot='tablet-header'>
-        <p>tablet</p>
+        <p class="rt-font-label rt-font-label-uppercase">ВИДЕОСЕРВИС WINK</p>
       </template>
       <template slot='mobile-header'>
-        <p>mobile header</p>
+        <p class="rt-font-label rt-font-label-uppercase">ВИДЕОСЕРВИС WINK</p>
       </template>
-      <template slot="label">Эксклюзивный игровой комплект Playstation</template>
+      <template slot="label">Эксклюзивный игровой комплект в кредит</template>
+
+      <template slot="body-html">
+        <p class="flex-start-center">в рассрочку от
+          <rt-price :bright="true" :value='750.2'  currency='руб.'/>
+        </p>
+      </template>
+      <template slot="footer">
+        <rt-button class="rt-button-md--is-block" color="orange">Заказать</rt-button>
+      </template>
+      <template slot='image'><img src='http://46.101.72.150/static/tmp/bannerImage.jpg' alt=''></template>
+      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/bannerImage-x2.jpg' alt=''></template>
+      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/bannerImage-tablet.jpg' alt=''>
+      </template>
+      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/bannerImage-mobile.jpg' alt=''>
+      </template>
+
+    </rt-jumbotron>
+    <rt-jumbotron background="main-color">
+      <template slot='header'>
+        <img src="https://wink.rt.ru/assets/fa4f2bd16b18b08e947d77d6b65e397e.svg" alt="">
+      </template>
+
+      <template slot="label">Эксклюзивный игровой комплект</template>
+
+      <template slot="body-html">
+        <p class="flex-start-center">Здесь вы можете приобрести эксклюзивные комплекты в кредит сейчас
+        </p>
+      </template>
+      <template slot="footer">
+        <rt-button class="rt-button-md--is-block" color="orange">Заказать</rt-button>
+      </template>
+      <template slot='image'><img src='https://cinema-vikonda.ru/uploads/film/media/2020-08/2445971516.jpg' alt=''></template>
+      <template slot='image-x2'><img src='https://cinema-vikonda.ru/uploads/film/media/2020-08/2445971516.jpg' alt=''></template>
+      <template slot='image-tablet'><img src='https://s26037.cdn.ngenix.net/imo/transform/profile=largebanner656x408/images/btctkmbmgcja9b9dnin0.jpg' alt=''>
+      </template>
+      <template slot='image-mobile'><img src='https://miro.medium.com/max/865/1*1KlsX3zkJ4DKPmcvTkYhQQ.jpeg' alt=''>
+      </template>
+
+    </rt-jumbotron>
+    <rt-jumbotron background="gray" color="main" description-color="main05">
+      <template slot="label">Игровой набор PS4</template>
       <template slot="description">Здесь вы можете приобрести эксклюзивные комплекты в кредит на выгодных
         условиях.
       </template>
       <template slot="footer">
-        <rt-button  class="rt-button-md--is-block" color="orange">Заказать</rt-button>
+        <rt-button class="rt-button-md--is-block" color="orange">Заказать</rt-button>
+      </template>
+      <template slot="body-html">
+      <rt-price :value='750.2' :old-value='666.2234' currency='$'/>
       </template>
       <template slot='image'><img src='http://46.101.72.150/static/tmp/bannerImage.jpg' alt=''></template>
       <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/bannerImage-x2.jpg' alt=''></template>
