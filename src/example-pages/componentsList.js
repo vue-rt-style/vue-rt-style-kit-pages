@@ -106,7 +106,8 @@ import {
     Slider,
     SliderItem,
     HelpBlock,
-    PhoneNumberInput
+    PhoneNumberInput,
+    Jumbotron
     
 } from '@vue-rt-style-kit-molecules-local'
 
@@ -133,7 +134,7 @@ import {
 } from '@vue-rt-style-kit-icons-local'
 
 import AppMenu from "./components/AppMenu.vue";
-
+console.info('Jumbotron',Jumbotron)
 const componentsList = {};
 
 componentsList[GridRow.name] = GridRow;
@@ -238,6 +239,7 @@ componentsList[PhoneNumberInput.name] = PhoneNumberInput;
 componentsList[Slider.name] = Slider;
 componentsList[SliderItem.name] = SliderItem;
 
+componentsList[Jumbotron.name] = Jumbotron;
 
 
 componentsList[ACArchiveComponent.name] = ACArchiveComponent;
@@ -250,6 +252,7 @@ componentsList[ACListComponent.name] = ACListComponent;
 componentsList[ACManagePopup.name] = ACManagePopup;
 componentsList[ACPhonebookComponent.name] = ACPhonebookComponent;
 componentsList[ACSettingsPopup.name] = ACSettingsPopup;
+
 
 
 // componentsList[PreComponent.name] = PreComponent;

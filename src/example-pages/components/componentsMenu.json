@@ -407,6 +407,15 @@
           "for_b2c" : true
         },
         {
+          "name" : "Jumbotron",
+          "title" : "Jumbotron",
+          "url" : "/jumbotron",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+
+        {
           "name" : "Carousels",
           "title" : "Carousels",
           "url" : "/carousels",

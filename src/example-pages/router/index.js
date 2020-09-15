@@ -54,6 +54,7 @@ const index = [
   { path: "/tariff-cards", name: "app-tariff-card", component: () => import("../components/complex/TariffCard.vue") },
   { path: "/cards-with-forms", name: "app-cards", component: () => import("../components/complex/CardsWithForms.vue") },
   { path: "/banners", name: "app-banners", component: () => import("../components/complex/Banners.vue") },
+  { path: "/jumbotron", name: "app-jumbotron", component: () => import("../components/complex/Jumbotron.vue") },
   { path: "/carousels", name: "app-carousels", component: () => import("../components/complex/Carousels.vue") },
   { path: "/gallery-carousel", name: "gallary-carousel", component: () => import("../components/complex/GallaryCarousel.vue") },
   { path: "/swiper", name: "swiper", component: () => import("../components/complex/Swiper.vue") },
