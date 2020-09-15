@@ -36,7 +36,7 @@
       </template>
 
     </rt-jumbotron>
-    <rt-jumbotron background="main-color">
+    <rt-jumbotron background="main-color" url="http://wink.rt.ru/">
       <template slot='header'>
         <img src="https://wink.rt.ru/assets/fa4f2bd16b18b08e947d77d6b65e397e.svg" alt="">
       </template>
