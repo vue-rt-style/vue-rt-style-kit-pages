@@ -8,6 +8,167 @@
         </div>
       </div>
     </div>
+    <rt-jumbotron background='pink-high' color="main" description-color="main">
+      
+      <template slot='header'>
+        <img src="http://46.101.72.150/static/tmp/wink.svg" alt="">
+      </template>
+      <template slot='label'>Эксклюзивный игровой комплект</template>
+      <template slot='desription'>Здесь вы можете приобрести эксклюзивные комплекты в кредит сейчас</template>
+      <template slot='footer'>
+        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
+      </template>
+      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+
+    </rt-jumbotron>
+    <rt-jumbotron background='gray' color="main" description-color="main">
+
+      <template slot='header'>
+        <img src="http://46.101.72.150/static/tmp/wink.svg" alt="">
+      </template>
+      <template slot='label'>Эксклюзивный игровой комплект в кредит</template>
+      <template slot='footer'>
+        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
+      </template>
+      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+
+    </rt-jumbotron>
+    <rt-jumbotron background='dark-slate' color="white" description-color="white">
+      <template slot='header'>
+        <p class="rt-font-label-uppercase rt-font-label">ВИДЕОСЕРВИС WINK</p>
+      </template>
+      <template slot='label'>Эксклюзивный игровой комплект в кредит</template>
+      <template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит сейчас.</template>
+      <template slot='footer'>
+        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
+      </template>
+      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+
+    </rt-jumbotron>
+    <rt-jumbotron background='gray' color="main" description-color="main">
+
+      <template slot='header'>
+        <p class="rt-font-label-uppercase rt-font-label">ВИДЕОСЕРВИС WINK</p>
+      </template>
+      <template slot='label'>Эксклюзивный игровой комплект в кредит</template>
+      <template slot='body-html'>
+        <rt-price :value='6000' :old-value='4990'/>
+      </template>
+      <template slot='footer'>
+        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
+      </template>
+      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+
+    </rt-jumbotron>
+    <rt-jumbotron background='orange' color="white" description-color="white">
+
+
+      <template slot='label'>Игровой набор PS4</template>
+      <template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит сейчас</template>
+
+      <template slot='body-html'>
+        <rt-price :bright="true" :value='6000' :old-value='4990'/>
+      </template>
+      <template slot='footer'>
+        <rt-button class='rt-button-md--is-block' color='purple'>Заказать</rt-button>
+      </template>
+      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+
+    </rt-jumbotron>
+
+
+    <rt-jumbotron background='gray' color="main" description-color="main">
+      <template slot='header'>
+        <img src="http://46.101.72.150/static/tmp/wink.svg" alt="">
+      </template>
+
+      <template slot='label'>Эксклюзивный игровой комплект</template>
+
+      <template slot='body-html'>
+        <p class='flex-start-center'>в рассрочку от
+          <rt-price  :value='10000'  currency='руб.'/>
+        </p>
+      </template>
+      <template slot='footer'>
+        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
+      </template>
+      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+
+    </rt-jumbotron>
+    <rt-jumbotron background='purple' color="white" description-color="white">
+      <template slot='header'>
+        <p class='rt-font-label rt-font-label-uppercase'>ВИДЕОСЕРВИС WINK</p>
+      </template>
+
+      <template slot='label'>Эксклюзивный игровой комплект</template>
+
+      <template slot='body-html'>
+        <p class='flex-start-center'>в рассрочку от
+          <rt-price  :value='10000'  currency='руб.'/>
+        </p>
+      </template>
+      <template slot='footer'>
+        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
+      </template>
+      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+
+    </rt-jumbotron>
+    <rt-jumbotron background='dark-slate' color="white" description-color="white">
+
+
+      <template slot='label'>Эксклюзивный игровой комплект</template>
+
+      <template slot='body-html'>
+        <p class='flex-start-center'>в рассрочку от
+          <rt-price  :value='10000'  currency='руб.'/>
+        </p>
+      </template>
+      <template slot='footer'>
+        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
+      </template>
+      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
+      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      </template>
+
+    </rt-jumbotron>
     <pre-code text="<rt-jumbotron background='purple' name='jumbotron-one'  :ga='{name:&quot;test1&quot;}'>
       <template slot='header'>
         <p class='rt-font-label rt-font-label-uppercase'>ВИДЕОСЕРВИС WINK</p>
