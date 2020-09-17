@@ -14,10 +14,10 @@
         <img src="http://46.101.72.150/static/tmp/wink.svg" alt="">
       </template>
       <template slot='tablet-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-t.png" alt="">
+        <img src="http://46.101.72.150/static/tmp/wink-t-2.png" alt="" width="105" height="32">
       </template>
       <template slot='mobile-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-m.png" alt="">
+        <img src="http://46.101.72.150/static/tmp/wink-m-2.png" alt="" width="93" height="28">
       </template>
       <template slot='label'>Эксклюзивный игровой комплект</template>
       <template slot='desription'>Здесь вы можете приобрести эксклюзивные комплекты в кредит сейчас</template>
@@ -38,10 +38,10 @@
         <img src="http://46.101.72.150/static/tmp/wink.svg" alt="">
       </template>
       <template slot='tablet-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-t.png" alt="">
+        <img src="http://46.101.72.150/static/tmp/wink-t-2.png" alt="" width="105" height="32">
       </template>
       <template slot='mobile-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-m.png" alt="">
+        <img src="http://46.101.72.150/static/tmp/wink-m-2.png" alt="" width="93" height="28">
       </template>
       <template slot='label'>Эксклюзивный игровой комплект в кредит</template>
       <template slot='footer'>
@@ -119,10 +119,10 @@
         <img src="http://46.101.72.150/static/tmp/wink.svg" alt="">
       </template>
       <template slot='tablet-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-t.png" alt="">
+        <img src="http://46.101.72.150/static/tmp/wink-t-2.png" alt="" width="105" height="32">
       </template>
       <template slot='mobile-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-m.png" alt="">
+        <img src="http://46.101.72.150/static/tmp/wink-m-2.png" alt="" width="93" height="28">
       </template>
 
       <template slot='label'>Эксклюзивный игровой комплект</template>
