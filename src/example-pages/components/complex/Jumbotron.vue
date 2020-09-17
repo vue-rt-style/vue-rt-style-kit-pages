@@ -13,6 +13,12 @@
       <template slot='header'>
         <img src="http://46.101.72.150/static/tmp/wink.svg" alt="">
       </template>
+      <template slot='tablet-header'>
+        <img src="http://46.101.72.150/static/tmp/wink-t.png" alt="">
+      </template>
+      <template slot='mobile-header'>
+        <img src="http://46.101.72.150/static/tmp/wink-m.png" alt="">
+      </template>
       <template slot='label'>Эксклюзивный игровой комплект</template>
       <template slot='desription'>Здесь вы можете приобрести эксклюзивные комплекты в кредит сейчас</template>
       <template slot='footer'>
@@ -30,6 +36,12 @@
 
       <template slot='header'>
         <img src="http://46.101.72.150/static/tmp/wink.svg" alt="">
+      </template>
+      <template slot='tablet-header'>
+        <img src="http://46.101.72.150/static/tmp/wink-t.png" alt="">
+      </template>
+      <template slot='mobile-header'>
+        <img src="http://46.101.72.150/static/tmp/wink-m.png" alt="">
       </template>
       <template slot='label'>Эксклюзивный игровой комплект в кредит</template>
       <template slot='footer'>
@@ -105,6 +117,12 @@
     <rt-jumbotron background='gray' color="main" description-color="main">
       <template slot='header'>
         <img src="http://46.101.72.150/static/tmp/wink.svg" alt="">
+      </template>
+      <template slot='tablet-header'>
+        <img src="http://46.101.72.150/static/tmp/wink-t.png" alt="">
+      </template>
+      <template slot='mobile-header'>
+        <img src="http://46.101.72.150/static/tmp/wink-m.png" alt="">
       </template>
 
       <template slot='label'>Эксклюзивный игровой комплект</template>
