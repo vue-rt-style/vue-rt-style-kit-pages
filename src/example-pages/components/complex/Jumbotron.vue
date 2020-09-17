@@ -24,11 +24,11 @@
       <template slot='footer'>
         <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
       </template>
-      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''></template>
+      <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''></template>
+      <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''>
       </template>
-      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''>
       </template>
 
     </rt-jumbotron>
@@ -47,11 +47,11 @@
       <template slot='footer'>
         <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
       </template>
-      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''></template>
+      <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''></template>
+      <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''>
       </template>
-      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''>
       </template>
 
     </rt-jumbotron>
