@@ -3,6 +3,7 @@
     <div class="app-content rt-col-12 rt-col-md-3">
       <div class="app-title row"><h1 class="col rt-font-hero">Price</h1></div>
       <div class="app-body">
+        
         <div class="is-b2c">
           <div class="row">
             <div class="rt-col-4 rt-col-md-3">

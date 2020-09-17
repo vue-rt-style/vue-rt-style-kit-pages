@@ -8,7 +8,7 @@
         </div>
       </div>
     </div>
-    <rt-jumbotron background='pink-high' color="main" description-color="main">
+    <rt-jumbotron background='dark-slate' color="white" description-color="white">
       
       <template slot='header'>
         <img src="http://46.101.72.150/static/tmp/wink.svg" alt="">
