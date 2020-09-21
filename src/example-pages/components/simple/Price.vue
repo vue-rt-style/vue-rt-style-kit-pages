@@ -8,7 +8,7 @@
             <rt-price :v2="true" :is-option="true" :value='750.2' currency='$'/>
           </div>
           <div>
-            <rt-price :v2="true" :is-option="true" option-label="до" :value='750.2' currency='$'/>
+            <rt-price :v2="true" :is-option="true" option-label="до" :value='750.2' time-interval="год" currency='$'/>
           </div>
           <div>
             <rt-price :v2="true" :is-option="true" option-label="в рассрочку до" :value='750.2' currency='$'/>
