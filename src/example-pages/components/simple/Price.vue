@@ -11,6 +11,9 @@
             <rt-price :v2="true" :is-option="true" option-label="до" :value='750.2' currency='$'/>
           </div>
           <div>
+            <rt-price :v2="true" :is-option="true" option-label="в рассрочку до" :value='750.2' currency='$'/>
+          </div>
+          <div>
             <rt-price :v2="true" :value='7150.2' :old-value='62166.2234'/>
           </div>
           <div>
