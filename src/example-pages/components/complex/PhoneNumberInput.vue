@@ -8,8 +8,12 @@
                     </h1>
                 </div>
                 <div class="app-body">
-                    <rt-phone-number-input v-on:selected-number="doIt" :prefix="8" v-on:search-cleared="doIt"
-                            :area-code="[{value: 202, code: 202}]"/>
+                    <rt-phone-number-input @selected-number="selected" :prefix="8" @search-cleared="cleared"
+                            :area-code=code
+                            :auto-complete=complete
+                            :client-auto-complete=client
+                            @select-interaction-detected="select"
+                            @input-interaction-detected="input"/>
                 </div>
             </div>
         </div>
@@ -27,16 +31,36 @@
         name: "AppPhoneNumberInput",
         components: componentsList,
         data: () => ({
-            codes: ['234', '234', '432']
             // documentation: {}
+            code: [{ "value": "all", "code": "все"}, { "value": 831, "code": 831 }, { "value": 123, "code": 123}],
+            complete: "5\\d\\d\\d\\d\\d\\d",
+            client: "\\d9\\d\\d\\d\\d\\d"
         }),
         mounted() {
             // this.documentation = documentation;
+            // setTimeout(()=> {
+            //     this.code = [{ "value": 831, "code": 831 }, { "value": "all", "code": "все"}, { "value": 123, "code": 123, "preselected": true}]
+            // },1500)
+            // setTimeout(()=> {
+            //     this.complete = '5\\d\\d\\d\\d\\d\\d'
+            // },1000)
+            // setTimeout(()=> {
+            //     this.client = '\\d3\\d\\d\\d\\d\\d'
+            // },2000)
         },
         created() {},
         methods: {
-            doIt(data) {
+            cleared(data) {
                 console.log(data)
+            },
+            selected(data) {
+                console.log(data)
+            },
+            select() {
+                console.log('select detected')
+            },
+            input() {
+                console.log('input detected')
             }
         }
     };
