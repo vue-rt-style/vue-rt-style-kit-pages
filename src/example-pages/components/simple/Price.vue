@@ -3,16 +3,18 @@
     <div class="app-content rt-col-12 rt-col-md-3">
       <div class="app-title row"><h1 class="col rt-font-hero">Price</h1></div>
       <div class="app-body">
-        <rt-price :v2="true" :value='750.2' :old-value='666.2234' currency='$'/>
-        <rt-price :v2="true" :value='7150.2' :old-value='666.2234' currency='$'/>
-        <rt-price :v2="true" :value='71150.2' :old-value='666.2234' currency='$'/>
-        <rt-price :v2="true" :value='713150.2' :old-value='666.2234' currency='$'/>
-        <rt-price :v2="true" :show-float="true" :value='0.2' :old-value='666.2234' currency='$'/>
-        <rt-price :v2="true" :show-float="true" :value='0.2332' :old-value='666.2234' currency='$'/>
-        <rt-price :v2="true" :show-float="true" :value='0.2323232' :old-value='666.2234' currency='$'/>
-        <rt-price :v2="true" :show-float="true" :value='122.2323232' :old-value='666.2234' currency='$'/>
-        <rt-price :v2="true" :show-float="true" :value='122332.2323232' :old-value='666.2234' currency='$'/>
-        <rt-price :v2="true" :show-float="true" :value='122332323.2323232' :old-value='666.2234' currency='$'/>
+        <div><rt-price :v2="true" :is-option="true" :value='750.2' currency='$'/></div>
+
+        <div><rt-price :v2="true" :value='7150.2' :old-value='62166.2234'/></div>
+        <div><rt-price :v2="true" :value='71150.2' :old-value='666.2234'/></div>
+        <div><rt-price :v2="true" :value='713150.2' :old-value='6661242' currency='$'/></div>
+        <div><rt-price :v2="true" :show-float="true" :value='0.2' :old-value='666.2234' currency='$'/></div>
+        <div><rt-price :v2="true" :show-float="true" :value='0.2332' :old-value='666.2234' currency='$'/></div>
+        <div><rt-price :v2="true" :show-float="true" :value='0.2323232' :old-value='666.2234' currency='$'/></div>
+        <div><rt-price :v2="true" :show-float="true" :value='122.2323232' :old-value='666.2234' currency='$'/></div>
+        <div><rt-price :v2="true" :show-float="true" :value='122332.2323232' :old-value='666.2234' currency='$'/></div>
+        <div><rt-price :v2="true" :show-float="true" :value='122332323.2323232' :old-value='666.2234' currency='$'/></div>
+        <div><rt-price :v2="true" :value='1231223169' :old-value='666' :only-price='true' currency='€' /></div>
         <div class="is-b2c">
           <div class="row">
             <div class="rt-col-4 rt-col-md-3">
