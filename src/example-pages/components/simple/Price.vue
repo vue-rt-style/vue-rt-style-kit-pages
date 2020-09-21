@@ -11,6 +11,9 @@
             <rt-price :v2="true" :value='7150.2' :old-value='62166.2234'/>
           </div>
           <div>
+            <rt-price :v2="true" :value='7150.2'/>
+          </div>
+          <div>
             <rt-price :v2="true" :value='71150.2' :old-value='666.2234'/>
           </div>
           <div>
