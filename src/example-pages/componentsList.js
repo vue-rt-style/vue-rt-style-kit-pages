@@ -11,6 +11,8 @@ import {
     RippleWihoutJs,
     Select,
     SelectOption,
+    SelectV2,
+    SelectV2Option,
     Switch,
     SwitchContainer,
     Textarea,
@@ -151,6 +153,8 @@ componentsList[Ripple.name] = Ripple;
 componentsList[RippleWihoutJs.name] = RippleWihoutJs;
 componentsList[Select.name] = Select;
 componentsList[SelectOption.name] = SelectOption;
+componentsList[SelectV2.name] = SelectV2;
+componentsList[SelectV2Option.name] = SelectV2Option;
 componentsList[Spinner.name] = Spinner;
 componentsList[Switch.name] = Switch;
 componentsList[SwitchContainer.name] = SwitchContainer;
