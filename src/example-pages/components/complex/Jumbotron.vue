@@ -8,255 +8,80 @@
         </div>
       </div>
     </div>
+
+    <rt-jumbotron background='gray' color="main" description-color="main">
+
+
+      <template slot='label'>Эксклюзивный игровой комплект Playstation</template>
+      <template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит на выгодных условиях.</template>
+      <template slot='footer'>
+        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
+      </template>
+      <template slot='image'><img src='http://46.101.72.150/static/tmp/light.png' alt=''></template>
+      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/light-2x.png' alt=''></template>
+      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/light-2x.png' alt=''>
+      </template>
+      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/dark-2x.png' alt=''>
+      </template>
+    </rt-jumbotron>
     <rt-jumbotron background='dark-slate' color="white" description-color="white">
-      
       <template slot='header'>
-        <img src="http://46.101.72.150/static/tmp/wink.svg" alt="">
+        <p class="rt-font-label-uppercase rt-font-label color-white07">ВИДЕОСЕРВИС WINK</p>
       </template>
-      <template slot='tablet-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-t-2.png" alt="" width="105" height="32">
-      </template>
-      <template slot='mobile-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-m-2.png" alt="" width="93" height="28">
-      </template>
+
+
       <template slot='label'>Эксклюзивный игровой комплект</template>
-      <template slot='desription'>Здесь вы можете приобрести эксклюзивные комплекты в кредит сейчас</template>
+      <template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит.</template>
+
       <template slot='footer'>
         <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
       </template>
-      <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''></template>
-      <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''></template>
-      <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''>
+      <template slot='image'><img src='http://46.101.72.150/static/tmp/dark.png' alt=''></template>
+      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/dark-2x.png' alt=''></template>
+      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/dark-2x.png' alt=''>
       </template>
-      <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''>
+      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/dark-2x.png' alt=''>
       </template>
-
     </rt-jumbotron>
-    <rt-jumbotron background='gray' color="main" description-color="main">
-
+    <rt-jumbotron background='purple-button-active' color="white" description-color="white">
       <template slot='header'>
-        <img src="http://46.101.72.150/static/tmp/wink.svg" alt="">
+        <img src="http://46.101.72.150/static/tmp/wink-white.svg" alt="" width="126">
       </template>
       <template slot='tablet-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-t-2.png" alt="" width="105" height="32">
+        <img src="http://46.101.72.150/static/tmp/wink-white.svg" alt="" width="126">
       </template>
       <template slot='mobile-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-m-2.png" alt="" width="93" height="28">
+        <img src="http://46.101.72.150/static/tmp/wink-white.svg" alt="" width="105" >
       </template>
       <template slot='label'>Эксклюзивный игровой комплект в кредит</template>
       <template slot='footer'>
         <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
       </template>
-      <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''></template>
-      <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''></template>
-      <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''>
+      <template slot='image'><img src='http://46.101.72.150/static/tmp/purple.png' alt=''></template>
+      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/purple-2x.png' alt=''></template>
+      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/purple-2x.png' alt=''>
       </template>
-      <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2b/teplovizory_740x420_md__proj.jpg' alt=''>
+      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/purple-2x.png' alt=''>
       </template>
-
     </rt-jumbotron>
-    <rt-jumbotron background='dark-slate' color="white" description-color="white">
-      <template slot='header'>
-        <p class="rt-font-label-uppercase rt-font-label">ВИДЕОСЕРВИС WINK</p>
-      </template>
-      <template slot='label'>Эксклюзивный игровой комплект в кредит</template>
-      <template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит сейчас.</template>
-      <template slot='footer'>
-        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
-      </template>
-      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
-      </template>
-      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
-      </template>
 
-    </rt-jumbotron>
-    <rt-jumbotron background='gray' color="main" description-color="main">
-
-      <template slot='header'>
-        <p class="rt-font-label-uppercase rt-font-label">ВИДЕОСЕРВИС WINK</p>
-      </template>
-      <template slot='label'>Эксклюзивный игровой комплект в кредит</template>
-      <template slot='body-html'>
-        <rt-price :value='6000' :old-value='4990'/>
-      </template>
-      <template slot='footer'>
-        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
-      </template>
-      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
-      </template>
-      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
-      </template>
-
-    </rt-jumbotron>
     <rt-jumbotron background='orange' color="white" description-color="white">
 
-
-      <template slot='label'>Игровой набор PS4</template>
-      <template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит сейчас</template>
-
-      <template slot='body-html'>
-        <rt-price :bright="true" :value='6000' :old-value='4990'/>
-      </template>
-      <template slot='footer'>
-        <rt-button class='rt-button-md--is-block' color='purple'>Заказать</rt-button>
-      </template>
-      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
-      </template>
-      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
-      </template>
-
-    </rt-jumbotron>
-
-
-    <rt-jumbotron background='gray' color="main" description-color="main">
-      <template slot='header'>
-        <img src="http://46.101.72.150/static/tmp/wink.svg" alt="">
-      </template>
-      <template slot='tablet-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-t-2.png" alt="" width="105" height="32">
-      </template>
-      <template slot='mobile-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-m-2.png" alt="" width="93" height="28">
-      </template>
-
       <template slot='label'>Эксклюзивный игровой комплект</template>
+      <template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит.</template>
+      <template slot='body-html'><rt-price :bright="true" :v2="true" :is-option="true" :value='1100' :only-price='true'/></template>
 
-      <template slot='body-html'>
-        <p class='flex-start-center'>в рассрочку от
-          <rt-price  :value='10000'  currency='руб.'/>
-        </p>
-      </template>
       <template slot='footer'>
-        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
+        <rt-button class='rt-button-md--is-block' color='full-white'>Заказать</rt-button>
       </template>
-      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      <template slot='image'><img src='http://46.101.72.150/static/tmp/orange.png' alt=''></template>
+      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/orange-2x.png' alt=''></template>
+      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/orange-2x.png' alt=''>
       </template>
-      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
+      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/orange-2x.png' alt=''>
       </template>
-
     </rt-jumbotron>
-    <rt-jumbotron background='purple' color="white" description-color="white">
-      <template slot='header'>
-        <p class='rt-font-label rt-font-label-uppercase'>ВИДЕОСЕРВИС WINK</p>
-      </template>
 
-      <template slot='label'>Эксклюзивный игровой комплект</template>
-
-      <template slot='body-html'>
-        <p class='flex-start-center'>в рассрочку от
-          <rt-price  :value='10000'  currency='руб.'/>
-        </p>
-      </template>
-      <template slot='footer'>
-        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
-      </template>
-      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
-      </template>
-      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
-      </template>
-
-    </rt-jumbotron>
-    <rt-jumbotron background='dark-slate' color="white" description-color="white">
-
-
-      <template slot='label'>Эксклюзивный игровой комплект</template>
-
-      <template slot='body-html'>
-        <p class='flex-start-center'>в рассрочку от
-          <rt-price  :value='10000'  currency='руб.'/>
-        </p>
-      </template>
-      <template slot='footer'>
-        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
-      </template>
-      <template slot='image'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''></template>
-      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
-      </template>
-      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/audiokonf2.jpg' alt=''>
-      </template>
-
-    </rt-jumbotron>
-    <pre-code text="<rt-jumbotron background='purple' name='jumbotron-one'  :ga='{name:&quot;test1&quot;}'>
-      <template slot='header'>
-        <p class='rt-font-label rt-font-label-uppercase'>ВИДЕОСЕРВИС WINK</p>
-      </template>
-      <template slot='tablet-header'>
-        <p class='rt-font-label rt-font-label-uppercase'>ВИДЕОСЕРВИС WINK</p>
-      </template>
-      <template slot='mobile-header'>
-        <p class='rt-font-label rt-font-label-uppercase'>ВИДЕОСЕРВИС WINK</p>
-      </template>
-      <template slot='label'>Эксклюзивный игровой комплект в кредит</template>
-
-      <template slot='body-html'>
-        <p class='flex-start-center'>в рассрочку от
-          <rt-price :bright='true' :value='750.2'  currency='руб.'/>
-        </p>
-      </template>
-      <template slot='footer'>
-        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
-      </template>
-      <template slot='image'><img src='http://46.101.72.150/static/tmp/bannerImage.jpg' alt=''></template>
-      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/bannerImage-x2.jpg' alt=''></template>
-      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/bannerImage-tablet.jpg' alt=''>
-      </template>
-      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/bannerImage-mobile.jpg' alt=''>
-      </template>
-
-    </rt-jumbotron>"></pre-code>
-
-    <pre-code text="<rt-jumbotron background='main-color' url='http://wink.rt.ru/'   :ga='{name: &quot;jumbotron-two&quot;}' ga-event-type='b2b'>
-    <template slot='header'>
-      <img src='https://wink.rt.ru/assets/fa4f2bd16b18b08e947d77d6b65e397e.svg' alt=''>
-    </template>
-
-    <template slot='label'>Эксклюзивный игровой комплект</template>
-
-    <template slot='body-html'>
-      <p class='flex-start-center'>Здесь вы можете приобрести эксклюзивные комплекты в кредит сейчас
-      </p>
-    </template>
-    <template slot='footer'>
-      <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
-    </template>
-    <template slot='image'><img src='https://cinema-vikonda.ru/uploads/film/media/2020-08/2445971516.jpg' alt=''></template>
-    <template slot='image-x2'><img src='https://cinema-vikonda.ru/uploads/film/media/2020-08/2445971516.jpg' alt=''></template>
-    <template slot='image-tablet'><img src='https://s26037.cdn.ngenix.net/imo/transform/profile=largebanner656x408/images/btctkmbmgcja9b9dnin0.jpg' alt=''>
-    </template>
-    <template slot='image-mobile'><img src='https://miro.medium.com/max/865/1*1KlsX3zkJ4DKPmcvTkYhQQ.jpeg' alt=''>
-    </template>
-
-  </rt-jumbotron>"></pre-code>
-    <pre-code text="<rt-jumbotron background='gray' color='main' description-color='main05' >
-	<template slot='label'>Игровой набор PS4</template>
-	<template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит на выгодных
-		условиях.
-	</template>
-	<template slot='footer'>
-		<rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
-	</template>
-	<template slot='body-html'>
-		<rt-price :value='750.2' :old-value='666.2234' currency='$'/>
-	</template>
-	<template slot='image'><img src='http://46.101.72.150/static/tmp/bannerImage.jpg' alt=''></template>
-	<template slot='image-x2'><img src='http://46.101.72.150/static/tmp/bannerImage-x2.jpg' alt=''></template>
-	<template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/bannerImage-tablet.jpg' alt=''>
-	</template>
-	<template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/bannerImage-mobile.jpg' alt=''>
-	</template>
-
-</rt-jumbotron>"></pre-code>
     <div class="rt-container rt-space-top25">
       <rt-col size="12">
         <documentation-builder :json="documentation" type="components"/>

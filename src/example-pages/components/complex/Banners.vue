@@ -9,8 +9,22 @@
       </div>
     </div>
     <div class="sp-b-2">
+      <rt-banner-v2 name="test00">
+        <rt-banner-item-v2 banner-name="test00" color-type='purple' :ga='{name:"Смотрим вместе"}'>
+          <template slot='header'>
+            <p class='tagline rt-font-label-uppercase rt-font-bold color-white05'>Это текст вместо лого</p>
+          </template>
+          <template slot='mobile-header'>
+            <img src='http://46.101.72.150/static/tmp/headerbtc1460.svg' height='32px' alt=''>
+          </template>
+          <template slot='label'>Легко подключить,<br> комфортно жить</template>
+          <template slot='footer'><rt-button color='orange'>Подробнее</rt-button></template>
+          <template slot='image'><img src='http://46.101.72.150/static/tmp/12.jpg' alt=''></template>
+          <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/12-x2.jpg' alt=''></template>
+        </rt-banner-item-v2>
+      </rt-banner-v2>
      <pre-code text="<rt-banner-v2>
-	<rt-banner-item-v2 color-type='purple' :ga='{name:&quot;test1&quot;,section:&quot;2&quot;}'>
+	<rt-banner-item-v2 color-type='purple' :ga='{name:&quot;Смотрим вместе&quot;,section:&quot;2&quot;}'>
 		<template slot='header'>
 			<p class='tagline rt-font-label-uppercase rt-font-bold color-white05'>Это текст вместо лого</p>
 		</template>
@@ -24,8 +38,9 @@
 	</rt-banner-item-v2>
 </rt-banner-v2>"/>
 
+
       <pre-code text="<rt-banner-v2 name='test' >
-      <rt-banner-item-v2 banner-name='test' :ga='{name:&quot;test1&quot;,section:&quot;2&quot;}' :show-url-on-tablet='true' url='http://rt.ru'>
+      <rt-banner-item-v2 banner-name='test' :ga='{name:&quot;Смотрим вместе&quot;,section:&quot;2&quot;}' :show-url-on-tablet='true' url='http://rt.ru'>
         <template slot='header'>
           <img src='http://46.101.72.150/static/tmp/headerbtc1460.svg' alt=''>
         </template>
