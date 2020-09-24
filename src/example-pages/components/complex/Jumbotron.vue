@@ -15,11 +15,11 @@
       <template slot='footer'>
         <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
       </template>
-      <template slot='image'><img src='http://46.101.72.150/static/tmp/light.png' alt=''></template>
-      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/light-2x.png' alt=''></template>
-      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/light-2x.png' alt=''>
+      <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light.png' alt=''></template>
+      <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png' alt=''></template>
+      <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png' alt=''>
       </template>
-      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/light-2x.png' alt=''>
+      <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png' alt=''>
       </template>
     </rt-jumbotron>
     "></pre-code>
@@ -35,32 +35,32 @@
       <template slot='footer'>
         <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
       </template>
-      <template slot='image'><img src='http://46.101.72.150/static/tmp/dark.png' alt=''></template>
-      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/dark-2x.png' alt=''></template>
-      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/dark-2x.png' alt=''>
+      <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark.png' alt=''></template>
+      <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png' alt=''></template>
+      <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png' alt=''>
       </template>
-      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/dark-2x.png' alt=''>
+      <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png' alt=''>
       </template>
     </rt-jumbotron>
     <rt-jumbotron background='purple-button-active' color="white" description-color="white">
       <template slot='header'>
-        <img src="http://46.101.72.150/static/tmp/wink-white.svg" alt="" width="126">
+        <img src="https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.svg" alt="" width="126">
       </template>
       <template slot='tablet-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-white.png" alt="" width="103" height="32">
+        <img src="https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.png" alt="" width="103" height="32">
       </template>
       <template slot='mobile-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-white.png" alt="" width="103" height="32" >
+        <img src="https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.png" alt="" width="103" height="32" >
       </template>
       <template slot='label'>Эксклюзивный игровой комплект в кредит</template>
       <template slot='footer'>
         <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
       </template>
-      <template slot='image'><img src='http://46.101.72.150/static/tmp/purple.png' alt=''></template>
-      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/purple-2x.png' alt=''></template>
-      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/purple-2x.png' alt=''>
+      <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/purple.png' alt=''></template>
+      <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/purple-2x.png' alt=''></template>
+      <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/purple-2x.png' alt=''>
       </template>
-      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/purple-2x.png' alt=''>
+      <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/purple-2x.png' alt=''>
       </template>
     </rt-jumbotron>
 
@@ -73,11 +73,11 @@
       <template slot='footer'>
         <rt-button class='rt-button-md--is-block' :bright='true' color='full-white'>Заказать</rt-button>
       </template>
-      <template slot='image'><img src='http://46.101.72.150/static/tmp/orange.png' alt=''></template>
-      <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/orange-2x.png' alt=''></template>
-      <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/orange-2x.png' alt=''>
+      <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/orange.png' alt=''></template>
+      <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/orange-2x.png' alt=''></template>
+      <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/orange-2x.png' alt=''>
       </template>
-      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/orange-2x.png' alt=''>
+      <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/orange-2x.png' alt=''>
       </template>
     </rt-jumbotron>
 
