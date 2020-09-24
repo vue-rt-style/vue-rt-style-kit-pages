@@ -21,7 +21,7 @@
       <template slot='image-x2'><img src='http://46.101.72.150/static/tmp/light-2x.png' alt=''></template>
       <template slot='image-tablet'><img src='http://46.101.72.150/static/tmp/light-2x.png' alt=''>
       </template>
-      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/dark-2x.png' alt=''>
+      <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/light-2x.png' alt=''>
       </template>
     </rt-jumbotron>
     <rt-jumbotron background='dark-slate' color="white" description-color="white">
