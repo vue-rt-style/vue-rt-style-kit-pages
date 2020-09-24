@@ -48,10 +48,10 @@
         <img src="http://46.101.72.150/static/tmp/wink-white.svg" alt="" width="126">
       </template>
       <template slot='tablet-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-white.png" alt="" width="103">
+        <img src="http://46.101.72.150/static/tmp/wink-white.png" alt="" width="103" height="32">
       </template>
       <template slot='mobile-header'>
-        <img src="http://46.101.72.150/static/tmp/wink-white.png" alt="" width="103" >
+        <img src="http://46.101.72.150/static/tmp/wink-white.png" alt="" width="103" height="32" >
       </template>
       <template slot='label'>Эксклюзивный игровой комплект в кредит</template>
       <template slot='footer'>
