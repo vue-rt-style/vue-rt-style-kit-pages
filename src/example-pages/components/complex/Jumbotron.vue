@@ -9,9 +9,7 @@
       </div>
     </div>
 
-    <rt-jumbotron background='gray' color="main" description-color="main">
-
-
+    <pre-code text="<rt-jumbotron background='gray' :desktop-column-size='4'  color='main' description-color='main'>
       <template slot='label'>Эксклюзивный игровой комплект Playstation</template>
       <template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит на выгодных условиях.</template>
       <template slot='footer'>
@@ -24,6 +22,7 @@
       <template slot='image-mobile'><img src='http://46.101.72.150/static/tmp/light-2x.png' alt=''>
       </template>
     </rt-jumbotron>
+    "></pre-code>
     <rt-jumbotron background='dark-slate' color="white" description-color="white">
       <template slot='header'>
         <p class="rt-font-label-uppercase rt-font-label color-white07">ВИДЕОСЕРВИС WINK</p>
