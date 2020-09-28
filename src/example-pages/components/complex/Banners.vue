@@ -39,8 +39,8 @@
 </rt-banner-v2>"/>
 
 
-      <pre-code text="<rt-banner-v2 name='test' >
-      <rt-banner-item-v2 banner-name='test' :ga='{name:&quot;Смотрим вместе&quot;,section:&quot;2&quot;}' :show-url-on-tablet='true' url='http://rt.ru'>
+      <pre-code text="<rt-banner-v2 name='test9393' >
+      <rt-banner-item-v2 banner-name='test9393' :ga='{name:&quot;Смотрим вместе&quot;,section:&quot;2&quot;}' :show-url-on-tablet='true' url='http://rt.ru'>
         <template slot='header'>
           <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' alt=''>
         </template>
@@ -54,7 +54,7 @@
         <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-tablet.jpg' alt=''></template>
         <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-mobile.jpg' alt=''></template>
       </rt-banner-item-v2>
-      <rt-banner-item-v2 :ga='{name:&quot;test1&quot;,section:&quot;2&quot;}' ga-banner-name='banner_first' color-type='red' banner-name='test' :is-active='true' :show-url-on-desktop='true' url='http://rt.ru'>
+      <rt-banner-item-v2 :ga='{name:&quot;test1&quot;,section:&quot;2&quot;}' ga-banner-name='banner_first' color-type='red' banner-name='test9393' :is-active='true' :show-url-on-desktop='true' url='http://rt.ru'>
         <template slot='header'>
           <img class='d-block' src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/logowink.svg' alt=''>
         </template>
@@ -69,7 +69,7 @@
         <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange.jpg' alt=''></template>
         <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange-x2.jpg' alt=''></template>
       </rt-banner-item-v2>
-      <rt-banner-item-v2 :ga='{name:&quot;test1&quot;,section:&quot;2&quot;}' ga-banner-name='banner_ulala' banner-name='test' url='http://rt.ru'>
+      <rt-banner-item-v2 :ga='{name:&quot;test1&quot;,section:&quot;2&quot;}' ga-banner-name='banner_ulala' banner-name='test9393' url='http://rt.ru'>
         <template slot='label'>Виртуа!!льная АТС <br> и 1 000 минут бесплатно</template>
         <template slot='description'>Соберите сами свой пакет фильмов и каналов.</template>
         <template slot='footer'><a href='#'><rt-button  color='orange' >Подробнее</rt-button></a></template>
@@ -78,7 +78,7 @@
         <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-tablet.jpg' alt=''></template>
         <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-mobile.jpg' alt=''></template>
       </rt-banner-item-v2>
-      <rt-banner-item-v2  color-type='dark-slate' banner-name='test'>
+      <rt-banner-item-v2  color-type='dark-slate' banner-name='test9393'>
         <template slot='label'>Не платите за лишне!!е</template>
         <template slot='description'>Соберите сами свой пакет фильмов и каналов.</template>
         <template slot='footer'><rt-button  color='orange' >Подробнее</rt-button></template>
