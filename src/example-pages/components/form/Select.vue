@@ -19,10 +19,10 @@
             <template slot="content">
               <p class="rt-font-control color-main05 rt-space-top0-half">Пакет входящих минут <br> с любых телефонов России</p>
             </template>
-            <rt-select-v2-option  select-name="test1" :default="true" :selected="true" label="1" value="50">150 минут</rt-select-v2-option>
-            <rt-select-v2-option select-name="test1" :selected="true" label="1" value="50">150 минут</rt-select-v2-option>
-            <rt-select-v2-option select-name="test1" label="2" value="150">500 минут</rt-select-v2-option>
-            <rt-select-v2-option select-name="test1" label="3" value="250">1000 минут</rt-select-v2-option>
+            <rt-select-v2-option  select-name="test1" :default="true" :selected="true" value="50">150 минут</rt-select-v2-option>
+            <rt-select-v2-option select-name="test1" :selected="true" value="50">150 минут</rt-select-v2-option>
+            <rt-select-v2-option select-name="test1"  value="150">500 минут</rt-select-v2-option>
+            <rt-select-v2-option select-name="test1" label="1000 минут" value="250"></rt-select-v2-option>
           </rt-select-v2>
           <div class="rt-col-3 rt-col-md-3">
             <span class="rt-font-label flex-fill rt-space-bottom05">simple with content text</span>
