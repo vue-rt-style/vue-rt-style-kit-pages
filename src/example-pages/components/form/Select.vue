@@ -15,7 +15,7 @@
           </div>
         </div>
         <div class="app-row row">
-          <rt-select-v2 :set-first-active="true" name="test1" label="Оборудование" value="0" :has-content-text="true">
+          <rt-select-v2 :set-first-active="true" :value="['50']" type="multiselect" name="test1" label="Оборудование" :has-content-text="true">
             <template slot="content">
               <p class="rt-font-control color-main05 rt-space-top0-half">Пакет входящих минут <br> с любых телефонов России</p>
             </template>
