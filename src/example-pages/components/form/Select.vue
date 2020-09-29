@@ -16,7 +16,7 @@
         </div>
         <div class="app-row row">
           <rt-select-v2 :set-first-active="true" :json="[{value:'50', label:'150 минут'},{value:'150', label:'250 минут'},{value:'250', label:'500 минут'}]" :value="['50']" name="test2" label="Оборудование" :has-content-text="true"></rt-select-v2>
-          <rt-select-v2 :set-first-active="true" :value="['50']" type="multiselect" name="test1" label="Оборудование" :has-content-text="true">
+          <rt-select-v2 @change="changeSelect" :set-first-active="true" :value="['50']" type="multiselect" name="test1" label="Оборудование" :has-content-text="true">
             <template slot="content">
               <p class="rt-font-control color-main05 rt-space-top0-half">Пакет входящих минут <br> с любых телефонов России</p>
             </template>
@@ -275,6 +275,10 @@
       this.documentation = documentation;
     },
     created() {},
-    methods: {}
+    methods: {
+      changeSelect(val){
+        console.info('-->>',val)
+      }
+    }
   };
 </script>
