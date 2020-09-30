@@ -15,6 +15,7 @@
           </div>
         </div>
         <div class="app-row row">
+          <rt-select-v2 :set-first-active="true" :json="[{value:'50', label:'150 минут'},{value:'150', label:'250 минут', sublabel:'80% скидка'},{value:'250', label:'500 минут', sublabel:'95% скидка'}]" :value="['50']" name="test3" label="Оборудование" :has-content-text="true"></rt-select-v2>
           <rt-select-v2 :set-first-active="true" :json="[{value:'50', label:'150 минут'},{value:'150', label:'250 минут'},{value:'250', label:'500 минут'}]" :value="['50']" name="test2" label="Оборудование" :has-content-text="true"></rt-select-v2>
           <rt-select-v2 @change="changeSelect" :set-first-active="true" :value="['50']" type="multiselect" name="test1" label="Оборудование" :has-content-text="true">
             <template slot="content">
@@ -27,14 +28,58 @@
           </rt-select-v2>
           <div class="rt-col-3 rt-col-md-3">
             <span class="rt-font-label flex-fill rt-space-bottom05">simple with content text</span>
-            <rt-select label="Оборудование" value="0" :has-content-text="true">
+            <rt-select-v2 name="simple1" label="Оборудование" value="0" :has-content-text="true">
               <template slot="content">
                 <p class="rt-font-control color-main05 rt-space-top0-half">Пакет входящих минут <br> с любых телефонов России</p>
               </template>
-              <rt-select-option :selected="true" value="150">150 минут</rt-select-option>
-              <rt-select-option value="150">500 минут</rt-select-option>
-              <rt-select-option value="150">1000 минут</rt-select-option>
-            </rt-select>
+              <rt-select-v2-option select-name="simple1" :selected="true" value="150">150 минут</rt-select-v2-option>
+              <rt-select-v2-option select-name="simple1" value="150">500 минут</rt-select-v2-option>
+              <rt-select-v2-option select-name="simple1" value="150">1000 минут</rt-select-v2-option>
+            </rt-select-v2>
+          </div>
+        </div>
+        <div class="app-row row">
+          <div class="col rt-col-md-3">
+            <span class="rt-font-label flex-fill rt-space-bottom05">simple select</span>
+            <rt-select-v2 name="simple2" label="Оборудование" value="0">
+              <rt-select-v2-option select-name="simple2" v-for="(option, index) in optionsList"
+                                :key="'index' + Math.random().toString(5).slice(4)"
+                                :value="String(index)">
+                {{ option.label }}
+              </rt-select-v2-option>
+            </rt-select-v2>
+          </div>
+        </div>
+        <div class="app-row row">
+          <div class="rt-col-6 rt-col-md-2 rt-md-space-top d-flex flex-column">
+            <span class="rt-font-label flex-fill rt-space-bottom05">select with error</span>
+            <rt-select-v2 name="simple3" :error-message="'ошибка: не выбран город'"
+                       :has-error="true"
+                       label="Оборудование"
+                       value="0"
+                       text="Новгородская обл">
+              <rt-select-v2-option v-for="(option, index) in optionsList"
+                                   select-name="simple3"
+                                :key="'index' + Math.random().toString(5).slice(4)"
+                                :value="String(index)">
+                {{ option.label }}
+              </rt-select-v2-option>
+            </rt-select-v2>
+          </div>
+          <div class="rt-col-6 rt-col-md-1 rt-md-space-top d-flex flex-column">
+            <span class="rt-font-label flex-fill rt-space-bottom05">disabled select</span>
+            <rt-select-v2 :disabled="true"
+                          name="simple4"
+                       label="Оборудование"
+                       value="0"
+                       text="Новгородская обл">
+              <rt-select-v2-option v-for="(option, index) in optionsList"
+                                   select-name="simple4"
+                                :key="'index' + Math.random().toString(5).slice(4)"
+                                :value="String(index)">
+                {{ option.label }}
+              </rt-select-v2-option>
+            </rt-select-v2>
           </div>
         </div>
         <div class="app-row row">
