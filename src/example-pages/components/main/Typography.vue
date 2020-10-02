@@ -2,7 +2,7 @@
   <div class="rt-container">
     <div class="app-content  rt-col-12 rt-col-md-3">
       <div class="app-title row">
-        <h1 class="rt-col rt-font-hero">Typography</h1>
+        <h1 class="rt-col rt-font-hero"><span class="test">&#xe000;</span>Typography</h1>
       </div>
       <div class="app-body">
 
