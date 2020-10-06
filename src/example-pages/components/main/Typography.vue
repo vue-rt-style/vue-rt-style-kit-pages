@@ -5,10 +5,9 @@
         <h1 class="rt-col rt-font-hero"><span class="test">&#xe000;</span>Typography</h1>
       </div>
       <div class="app-body">
-
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">H1   <br/>50px</h4>
+            <h4 class="rt-font-bold flex-fill">50px</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-td-space-top2 rt-col-md-3 rt-md-space-horizontal-none">
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">medium</h4>

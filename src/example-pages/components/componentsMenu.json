@@ -46,6 +46,14 @@
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
+        },
+        {
+          "name" : "system icons",
+          "title" : "System Icons",
+          "url" : "/system_icons",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
         }
       ]
     },

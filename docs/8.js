@@ -1,17 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[8],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Cards.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/Cards.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_rt_style_kit_molecules_local_components_Card_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/Card/docs/index.json */ "./src/molecules/components/Card/docs/index.json");
-var _vue_rt_style_kit_molecules_local_components_Card_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-molecules-local/components/Card/docs/index.json */ "./src/molecules/components/Card/docs/index.json", 1);
-/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
 //
 //
 //
@@ -1427,1008 +1424,39 @@ var _vue_rt_style_kit_molecules_local_components_Card_docs_index_json__WEBPACK_I
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
+var componentsList = {};
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppCards",
-  components: _componentsList__WEBPACK_IMPORTED_MODULE_1__["default"],
-  data: function data() {
-    return {
-      documentation: {}
-    };
-  },
-  mounted: function mounted() {
-    this.documentation = _vue_rt_style_kit_molecules_local_components_Card_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
-  },
+  name: "AppRadioButton",
+  components: componentsList,
+  mounted: function mounted() {},
   created: function created() {},
   methods: {}
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Cards.vue?vue&type=template&id=a1936a86&":
-/*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/Cards.vue?vue&type=template&id=a1936a86& ***!
-  \*********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css&":
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "\n.rt-card-buy__info .flex-fill,\n.rt-card-buy__image {\n  min-height: 100%;\n}\n@media screen and (min-height: 600px) and (min-width: 800px) {\n.main-wrapper.basic .layout + .rtk-card__offers {\n    margin-top: 0 !important;\n}\n}\n.rt-font-light rt-price__value {\n  font-weight: 200;\n}\n.input-clear,\n.rt-close {\n  width: 16px;\n  height: 16px;\n  line-height: 21px;\n  vertical-align: middle;\n  text-align: center;\n}\n.rt-price__option-value {\n  height: 42px;\n  color: #000000e6;\n  font-size: 54px;\n  line-height: 47px;\n  font-weight: 400;\n}\n\n/* .connection {\n        padding-left: 10px;\n        padding-right: 10px;\n        position: relative;\n        -webkit-flex: 0 0 49.999998%;\n        -ms-flex: 0 0 49.999998%;\n        flex: 0 0 49.999998%;\n        max-width: 49.999998%;\n\n      } */\n.connection .connection__form > .rt-col-6 {\n  max-width: 100% !important;\n  padding-left: 0px;\n  padding-right: 0px;\n}\n@media (max-width: 768px) {\n.connection {\n    -webkit-box-flex: 1;\n    -moz-box-flex: 1;\n    -o-box-flex: 1;\n    box-flex: 1;\n    -webkit-flex: 0 0 99.999999%;\n    -ms-flex: 0 0 99.999999%;\n    flex: 0 0 99.999999%;\n    max-width: 99.999999%;\n}\n}\n.rt-card .rtk-input__control {\n  border-bottom-width: 1px;\n}\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d& ***!
+  \**********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2436,34 +1464,55 @@ var _vue_rt_style_kit_molecules_local_components_Card_docs_index_json__WEBPACK_I
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-content"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('pre-code',{attrs:{"text":"\n    <div>\n      <div class='rt-container sp-b-1'>\n        <rt-col>\n          <div class='rt-tag-n-wrapper'>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"lalala1\"]'>lalala1\n            </rt-filter-n-setter>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"test\"]'>lalala2\n            </rt-filter-n-setter>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"lalala\"]'>lalala3\n            </rt-filter-n-setter>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"lalala1\"]'>lalala1\n            </rt-filter-n-setter>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"test\"]'>lalala2\n            </rt-filter-n-setter>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"lalala\"]'>lalala3\n            </rt-filter-n-setter>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"lalala1\"]'>lalala1\n            </rt-filter-n-setter>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"test\"]'>lalala2\n            </rt-filter-n-setter>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"lalala\"]'>lalala3\n            </rt-filter-n-setter>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"lalala1\"]'>lalala1\n            </rt-filter-n-setter>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"test\"]'>lalala2\n            </rt-filter-n-setter>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"lalala\"]'>lalala3\n            </rt-filter-n-setter>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"lalala1\"]'>lalala1\n            </rt-filter-n-setter>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"test\"]'>lalala2\n            </rt-filter-n-setter>\n            <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='[\"lalala\"]'>lalala3\n            </rt-filter-n-setter>\n          </div>\n        </rt-col>\n      </div>\n      <rt-filter-n-item filter-name='test' :filter-tags='[\"filter\",\"test\",\"lalala\",\"lalala1\"]'>\n        <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>\n          <a href='#' class='spasibo-card' target='_blank'>\n            <rt-card-rounded color='white' background-color='orange'>\n              <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'\n                                          alt=''/></template>\n              <template slot='logo'>\n                <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>\n              </template>\n              <template slot='label'>lalala1 от <br> Додо Пицца</template>\n              <template slot='content'>Обменяйте бонусы на промокод\n                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок\n              </template>\n\n            </rt-card-rounded>\n          </a>\n        </rt-carousel-slide>\n      </rt-filter-n-item>\n      <rt-filter-n-item filter-name='test' :filter-tags='[\"filter\",\"test\",\"lalala\"]'>\n        <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>\n          <a href='#' class='spasibo-card' target='_blank'>\n            <rt-card-rounded color='white' background-color='orange'>\n              <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'\n                                          alt=''/></template>\n              <template slot='logo'>\n                <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>\n              </template>\n              <template slot='label'>Подарок от <br> Додо Пицца</template>\n              <template slot='content'>Обменяйте бонусы на промокод\n                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок\n              </template>\n\n            </rt-card-rounded>\n          </a>\n        </rt-carousel-slide>\n      </rt-filter-n-item>\n      <rt-filter-n-item filter-name='test' :filter-tags='[\"filter\",\"test\",\"lalala\"]'>\n        <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>\n          <a href='#' class='spasibo-card' target='_blank'>\n            <rt-card-rounded color='white' background-color='orange'>\n              <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'\n                                          alt=''/></template>\n              <template slot='logo'>\n                <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>\n              </template>\n              <template slot='label'>Подарок от <br> Додо Пицца</template>\n              <template slot='content'>Обменяйте бонусы на промокод\n                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок\n              </template>\n\n            </rt-card-rounded>\n          </a>\n        </rt-carousel-slide>\n      </rt-filter-n-item>\n      <rt-filter-n-item filter-name='test' :filter-tags='[\"filter\",\"test\",\"lalala\"]'>\n        <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>\n          <a href='#' class='spasibo-card' target='_blank'>\n            <rt-card-rounded color='white' background-color='orange'>\n              <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'\n                                          alt=''/></template>\n              <template slot='logo'>\n                <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>\n              </template>\n              <template slot='label'>Подарок от <br> Додо Пицца</template>\n              <template slot='content'>Обменяйте бонусы на промокод\n                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок\n              </template>\n\n            </rt-card-rounded>\n          </a>\n        </rt-carousel-slide>\n      </rt-filter-n-item>\n      <rt-filter-n-item filter-name='test' :filter-tags='[\"filter\",\"test\",\"lalala\"]'>\n        <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>\n          <a href='#' class='spasibo-card' target='_blank'>\n            <rt-card-rounded color='white' background-color='orange'>\n              <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'\n                                          alt=''/></template>\n              <template slot='logo'>\n                <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>\n              </template>\n              <template slot='label'>Подарок от <br> Додо Пицца</template>\n              <template slot='content'>Обменяйте бонусы на промокод\n                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок\n              </template>\n\n            </rt-card-rounded>\n          </a>\n        </rt-carousel-slide>\n      </rt-filter-n-item>\n      <rt-filter-n-item filter-name='test' :filter-tags='[\"filter\",\"test\",\"lalala\"]'>\n        <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>\n          <a href='#' class='spasibo-card' target='_blank'>\n            <rt-card-rounded color='white' background-color='orange'>\n              <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'\n                                          alt=''/></template>\n              <template slot='logo'>\n                <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>\n              </template>\n              <template slot='label'>Подарок от <br> Додо Пицца</template>\n              <template slot='content'>Обменяйте бонусы на промокод\n                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок\n              </template>\n\n            </rt-card-rounded>\n          </a>\n        </rt-carousel-slide>\n      </rt-filter-n-item>\n      <rt-carousel :deep-slide-load='2' :decorated='true'>\n        <rt-col size='12'>\n          <rt-filter-n :has-carousel='true' :carousel-up='2' custom-class='row row-nowrap'\n                       filter-name='test'></rt-filter-n>\n        </rt-col>\n      </rt-carousel>\n    </div>"}}),_vm._v(" "),_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col"},[_c('rt-resize-content-height',{attrs:{"query-selectors-names":['.rt-card-round__content']}},[_c('pre-code',{attrs:{"text":"<rt-row>\n          <rt-col size=\"3\" tablet-size=\"2\" mobile-size=\"3\">\n            <rt-card-rounded color=\"white\" background-color=\"orange\">\n              <template slot=\"image\"><img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png\"\n                                          alt=\"\"/></template>\n              <template slot=\"logo\">\n                <img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png\" alt=\"\">\n              </template>\n              <template slot=\"label\">Подарок от <br> Додо Пицца</template>\n              <template slot=\"content\">Обменяйте бонусы на промокод\n                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок\n              </template>\n\n            </rt-card-rounded>\n          </rt-col>\n          <rt-col size=\"3\" tablet-size=\"2\" mobile-size=\"3\">\n            <rt-card-rounded color=\"white\" background-color=\"red\">\n              <template slot=\"image\"><img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png\"\n                                          alt=\"\"/></template>\n              <template slot=\"logo\">\n                <img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png\" alt=\"\">\n              </template>\n              <template slot=\"label\">Подарок от <br> Додо Пицца</template>\n              <template slot=\"content\">Обменяйте бонусы на промокод\n                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок\n              </template>\n\n            </rt-card-rounded>\n          </rt-col>\n          <rt-col size=\"3\" tablet-size=\"2\" mobile-size=\"3\">\n            <rt-card-rounded color=\"white\" background-color=\"red\">\n              <template slot=\"image\"><img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png\"\n                                          alt=\"\"/></template>\n              <template slot=\"logo\">\n                <img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png\" alt=\"\">\n              </template>\n              <template slot=\"headerHtml\">\n                <p class=\"rt-font-h2 sp-t-0-3 sp-b-0-2\">28 <span class=\"rt-font-h4\">бонусов</span></p>\n              </template>\n              <template slot=\"content\">Обменяйте бонусы на промокод\n                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок\n              </template>\n\n            </rt-card-rounded>\n          </rt-col>\n          <rt-col size=\"3\" tablet-size=\"2\" mobile-size=\"3\">\n            <rt-card-rounded color=\"white\" background-color=\"purple\">\n              <template slot=\"image\"><img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png\"\n                                          alt=\"\"/></template>\n              <template slot=\"logo\">\n                <img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png\" alt=\"\">\n              </template>\n              <template slot=\"label\">Подарок от <br> Додо Пицца</template>\n              <template slot=\"content\">Обменяйте бонусы на промокод\n                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок\n              </template>\n\n            </rt-card-rounded>\n          </rt-col>\n        </rt-row>"}})],1),_vm._v(" "),_c('rt-resize-content-height',{attrs:{"query-selectors-names":['.rt-card-round__content']}},[_c('pre-code',{attrs:{"text":"<rt-row class=\"sp-t-1\">\n            <rt-col size=\"3\" tablet-size=\"2\" mobile-size=\"3\">\n              <rt-card-rounded>\n                <template slot=\"image\"><img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png\"\n                                            alt=\"\"/></template>\n                <template slot=\"logo\">\n                  <img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png\" alt=\"\">\n                </template>\n                <template slot=\"label\">Подарок от <br> Додо Пицца</template>\n                <template slot=\"content\">Обменяйте бонусы на промокод\n                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок\n                </template>\n\n              </rt-card-rounded>\n            </rt-col>\n            <rt-col size=\"3\" tablet-size=\"2\" mobile-size=\"3\">\n              <rt-card-rounded>\n                <template slot=\"image\"><img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png\"\n                                            alt=\"\"/></template>\n                <template slot=\"logo\">\n                  <img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png\" alt=\"\">\n                </template>\n                <template slot=\"label\">Подарок от <br> Додо Пицца</template>\n                <template slot=\"content\">Обменяйте бонусы на промокод\n                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок\n                </template>\n                <template slot=\"arrowText\">Потратить</template>\n\n              </rt-card-rounded>\n            </rt-col>\n            <rt-col size=\"3\" tablet-size=\"2\" mobile-size=\"3\">\n              <rt-card-rounded :need-resize=\"2000\">\n                <template slot=\"image\"><img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png\"\n                                            alt=\"\"/></template>\n                <template slot=\"logo\">\n                  <img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png\" alt=\"\">\n                </template>\n                <template slot=\"headerHtml\">\n                  <p class=\"rt-font-h2 sp-t-0-3 sp-b-0-2\">28 <span class=\"rt-font-h4\">бонусов</span></p>\n                </template>\n                <template slot=\"content\">Обменяйте бонусы на промокод\n                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок\n                </template>\n                <template slot=\"arrowText\">Обменять</template>\n\n              </rt-card-rounded>\n            </rt-col>\n            <rt-col size=\"3\" tablet-size=\"2\" mobile-size=\"3\">\n              <rt-card-rounded>\n                <template slot=\"image\"><img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png\"\n                                            alt=\"\"/></template>\n                <template slot=\"logo\">\n                  <img src=\"https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png\" alt=\"\">\n                </template>\n                <template slot=\"label\">Подарок от <br> Додо Пицца</template>\n                <template slot=\"content\">Обменяйте бонусы на промокод\n                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок\n                </template>\n                <template slot=\"arrowText\">Обменять</template>\n\n              </rt-card-rounded>\n            </rt-col>\n          </rt-row>"}})],1),_vm._v(" "),_c('div',{staticClass:"relative"},[_c('rt-resize-content-height',{attrs:{"query-selectors-names":['.rt-card-b2o']}},[_c('rt-card-carousel',[_c('rt-card-b2o',{staticClass:"carousel-card carousel-card--active",attrs:{"is-white-color":true}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-space-top15 rt-space-bottom"},[_c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"77","height":"78"}},[_c('g',{attrs:{"fill":"none","fill-rule":"evenodd"}},[_c('path',{attrs:{"fill":"#FFF","fill-rule":"nonzero","d":"M38.163 9.813c-6.054 0-10.979 4.925-10.979 10.979v4.688h2.742v-4.691c0-4.541 3.693-8.234 8.234-8.234 4.54 0 8.234 3.693 8.234 8.234v4.691h2.742v-4.691c.003-6.051-4.918-10.976-10.973-10.976z"}}),_vm._v(" "),_c('path',{attrs:{"fill":"#FFF","fill-rule":"nonzero","d":"M47.763 27.944l.007 17.168-19.207.006-.006-17.174h19.206m.01-3.2H28.56a3.194 3.194 0 0 0-3.194 3.19v17.184a3.194 3.194 0 0 0 3.194 3.194h19.213a3.194 3.194 0 0 0 3.193-3.194V27.934a3.194 3.194 0 0 0-3.193-3.19"}}),_vm._v(" "),_c('path',{attrs:{"fill":"#FFF","fill-rule":"nonzero","d":"M38.163 33.886a1.6 1.6 0 0 0-1.6 1.6v3.204a1.6 1.6 0 0 0 3.2 0v-3.204c0-.883-.713-1.6-1.6-1.6z"}}),_vm._v(" "),_c('path',{attrs:{"fill":"#FFF","fill-rule":"nonzero","d":"M38.166 77.09l-.65-.288C2.126 61.074.315 15.234.299 14.77L.25 13.122H1.9c6.295 0 11.412-5.12 11.412-11.412V.11h49.706v1.6c0 6.292 5.12 11.412 11.41 11.412h1.652l-.051 1.648c-.016.464-1.824 46.304-37.216 62.028l-.647.292zM3.6 16.222c.653 7.908 5.206 43.821 34.566 57.357C67.562 60.027 72.09 24.126 72.733 16.222 66 15.438 60.646 10.06 59.907 3.31H16.426c-.74 6.75-6.093 12.128-12.826 12.912z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M-2-1h80v80H-2z"}})])])]),_vm._v(" "),_c('p',{staticClass:"rt-font-label"},[_vm._v("1/8")]),_vm._v(" "),_c('h4',{staticClass:"rt-font-bold rt-space-top"},[_vm._v("Надежность и безопасность")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05"},[_vm._v("Высокая безопасность размещения\n                    данных подтверждена сертификатами ФСБ, ФСТЭК,\n                    PCI DSS и аттестатом облачной платформы Доступность инфраструктуры\n                    гарантируется SLA")])])],2),_vm._v(" "),_c('rt-card-b2o',{staticClass:"carousel-card",attrs:{"is-white-color":true}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-space-top15 rt-space-bottom"},[_c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"62","height":"80"}},[_c('g',{attrs:{"fill":"none","fill-rule":"evenodd"}},[_c('path',{attrs:{"fill":"#FFF","fill-rule":"nonzero","d":"M32.902 69.327V2.705a1.819 1.819 0 0 0-3.637 0v66.622h3.637z"}}),_vm._v(" "),_c('path',{attrs:{"fill":"#FFF","fill-rule":"nonzero","d":"M31.084 61.764c-8.88 0-15.837-13.371-15.837-30.44 0-17.07 6.957-30.44 15.837-30.44 8.88 0 15.836 13.37 15.836 30.44 0 17.069-6.956 30.44-15.836 30.44zm0-57.24c-6.615 0-12.2 12.272-12.2 26.803s5.585 26.804 12.2 26.804c6.614 0 12.2-12.273 12.2-26.804 0-14.53-5.586-26.803-12.2-26.803z"}}),_vm._v(" "),_c('path',{attrs:{"fill":"#FFF","fill-rule":"nonzero","d":"M59.705 33.142H2.465a1.819 1.819 0 0 1 0-3.637h57.24a1.819 1.819 0 0 1 0 3.637zm-4.68 14.028H6.065a1.819 1.819 0 0 1 0-3.635h48.96a1.819 1.819 0 0 1 0 3.636zm0-25.52H6.065a1.819 1.819 0 0 1 0-3.635h48.96a1.819 1.819 0 0 1 0 3.636zM31.084 79.953a6.603 6.603 0 0 1-6.597-6.597 6.603 6.603 0 0 1 6.597-6.596c3.64 0 6.596 2.96 6.596 6.596a6.603 6.603 0 0 1-6.596 6.597zm0-9.56a2.963 2.963 0 0 0-2.96 2.96 2.963 2.963 0 0 0 2.96 2.96 2.963 2.963 0 0 0 2.96-2.96 2.963 2.963 0 0 0-2.96-2.96zm-25.454.051a2.914 2.914 0 0 0-2.914 2.912A2.914 2.914 0 0 0 5.63 76.27a2.912 2.912 0 1 0 0-5.825m10.828-.001a2.914 2.914 0 0 0-2.913 2.912 2.914 2.914 0 0 0 2.913 2.913 2.912 2.912 0 1 0 0-5.825m29.215 0a2.914 2.914 0 0 0-2.913 2.912 2.914 2.914 0 0 0 2.913 2.913 2.914 2.914 0 0 0 2.912-2.913 2.914 2.914 0 0 0-2.912-2.912m10.825 0a2.914 2.914 0 0 0-2.913 2.912 2.914 2.914 0 0 0 2.913 2.913 2.912 2.912 0 1 0 0-5.825"}}),_vm._v(" "),_c('path',{attrs:{"fill":"#FFF","fill-rule":"nonzero","d":"M31.084 61.764C14.302 61.764.647 48.109.647 31.324.647 14.538 14.302.884 31.084.884c16.785 0 30.44 13.654 30.44 30.44 0 16.785-13.655 30.44-30.44 30.44zm0-57.24c-14.775 0-26.8 12.025-26.8 26.803s12.025 26.804 26.8 26.804c14.778 0 26.803-12.026 26.803-26.804 0-14.778-12.022-26.803-26.803-26.803z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M-9 0h80v80H-9z"}})])])]),_vm._v(" "),_c('p',{staticClass:"rt-font-label"},[_vm._v("2/8")]),_vm._v(" "),_c('h4',{staticClass:"rt-font-bold rt-space-top"},[_vm._v("Выбор площадки размещения")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05"},[_vm._v("Центры обработки данных Ростелекома\n                    расположены в трех\n                    федеральных округах России. Для размещения IT-инфраструктуры можно выбрать\n                    Москву, Новосибирск или Сочи.")])])],2),_vm._v(" "),_c('rt-card-b2o',{staticClass:"carousel-card",attrs:{"is-white-color":true}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-space-top15 rt-space-bottom"},[_c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"76","height":"67"}},[_c('g',{attrs:{"fill":"none","fill-rule":"evenodd"}},[_c('path',{attrs:{"fill":"#FFF","fill-rule":"nonzero","d":"M31.69 6.931c15.253 0 27.66 12.408 27.66 27.661 0 15.254-12.411 27.661-27.66 27.661-15.25 0-27.661-12.407-27.661-27.66 0-15.254 12.407-27.662 27.66-27.662zm0-3.81C14.31 3.122.219 17.214.219 34.593c0 17.383 14.091 31.47 31.47 31.47 17.383 0 31.471-14.09 31.471-31.47 0-17.379-14.088-31.47-31.47-31.47zm36.46.938a3.81 3.81 0 0 1 3.806 3.806 3.81 3.81 0 0 1-3.806 3.805 3.81 3.81 0 0 1-3.805-3.805 3.81 3.81 0 0 1 3.805-3.806zm0-3.81a7.615 7.615 0 1 0 0 15.231 7.615 7.615 0 0 0 0-15.23z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M-2-6h80v80H-2z"}})])])]),_vm._v(" "),_c('p',{staticClass:"rt-font-label"},[_vm._v("3/8")]),_vm._v(" "),_c('h4',{staticClass:"rt-font-bold rt-space-top"},[_vm._v("Легкое и быстрое масштабирование")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05"},[_vm._v("Изменяйте параметры вашей системы и\n                    увеличивайте\n                    производительность в режиме онлайн")])])],2),_vm._v(" "),_c('rt-card-b2o',{staticClass:"carousel-card",attrs:{"is-white-color":true}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-space-top15 rt-space-bottom"},[_c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"78","height":"62"}},[_c('g',{attrs:{"fill":"none","fill-rule":"evenodd","transform":"translate(-1 -10)"}},[_c('circle',{attrs:{"cx":"40.117","cy":"55.174","r":"1.411","fill":"#FFF","fill-rule":"nonzero"}}),_vm._v(" "),_c('path',{attrs:{"fill":"#FFF","fill-rule":"nonzero","d":"M75.714 10.483H59.218v3.2h16.099v35.091h-70.4v-35.09h15.897v-3.2H4.504a2.784 2.784 0 0 0-2.784 2.783v45.549a2.79 2.79 0 0 0 2.79 2.79h71.217a2.794 2.794 0 0 0 2.793-2.793V13.286a2.805 2.805 0 0 0-2.806-2.803zm-.394 47.891H4.92v-6.393h70.4v6.393z"}}),_vm._v(" "),_c('path',{attrs:{"fill":"#FFF","fill-rule":"nonzero","d":"M48.018 23.245h3.2v16.038h-3.2z"}}),_vm._v(" "),_c('path',{attrs:{"fill":"#FFF","fill-rule":"nonzero","d":"M49.618 10.586l-7.632 12.662H57.25l-7.632-12.662zm-1.972 9.459l1.968-3.264 1.968 3.264h-3.936zm-18.771-9.562h3.2v16.355h-3.2zm3.2 16.355h-9.232l7.632 12.666 7.632-12.666h-6.032zm-3.568 3.2h3.936l-1.968 3.264-1.968-3.264zM27.32 67.974v3.2h25.6v-3.2h-6.4v-6.368h-3.238v6.368h-6.34v-6.368H33.72v6.368z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M0 0h80v80H0z"}})])])]),_vm._v(" "),_c('p',{staticClass:"rt-font-label"},[_vm._v("4/8")]),_vm._v(" "),_c('h4',{staticClass:"rt-font-bold rt-space-top"},[_vm._v("Доступность")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05"},[_vm._v("Возможность подключения к\n                    виртуальной инфраструктуре через\n                    крупнейшую в России сеть IP MPLS Ростелеком и сети присоединенных\n                    операторов")])])],2),_vm._v(" "),_c('rt-card-b2o',{staticClass:"carousel-card",attrs:{"is-white-color":true}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-space-top15 rt-space-bottom"},[_c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"54","height":"77"}},[_c('g',{attrs:{"fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"fill":"#FFF","fill-rule":"nonzero"}},[_c('path',{attrs:{"d":"M26.743 32.25a6.052 6.052 0 0 1-6.046-6.047 6.052 6.052 0 0 1 6.046-6.046 6.052 6.052 0 0 1 6.047 6.046 6.052 6.052 0 0 1-6.047 6.047zm0-8.76a2.716 2.716 0 0 0-2.713 2.713 2.716 2.716 0 0 0 2.713 2.714 2.716 2.716 0 0 0 2.714-2.714 2.711 2.711 0 0 0-2.714-2.713zm-1.537 25.853h3.333v26.753h-3.333zm28.377 4.57c0-6.686-5.133-12.2-11.666-12.803v3.353c4.69.587 8.333 4.6 8.333 9.45v16.59l-8.333-2.413v3.473l11.666 3.38v-21.03z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M27.88 1.353l-.873-.55-.884.54c-.583.357-14.296 8.917-14.296 21.164v49.056l3.333-.973V22.507c0-8.747 8.95-15.714 11.83-17.73 2.84 2.02 11.593 8.963 11.593 17.73v48.086l3.334.967V22.507c0-12.237-13.46-20.797-14.037-21.154z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M3.583 70.497V53.91c0-4.82 3.597-8.813 8.247-9.44v-3.353C5.34 41.757.25 47.25.25 53.91v21.033l11.58-3.38V68.09l-8.247 2.407z"}})]),_vm._v(" "),_c('path',{attrs:{"d":"M-14-2h80v80h-80z"}})])])]),_vm._v(" "),_c('p',{staticClass:"rt-font-label"},[_vm._v("5/8")]),_vm._v(" "),_c('h4',{staticClass:"rt-font-bold rt-space-top"},[_vm._v("Быстрое подключение")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05"},[_vm._v("Необходимые для работы ресурсы можно\n                    получить всего за\n                    несколько минут в режиме онлайн")])])],2),_vm._v(" "),_c('rt-card-b2o',{staticClass:"carousel-card",attrs:{"is-white-color":true}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-space-top15 rt-space-bottom"},[_c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"80","height":"75"}},[_c('g',{attrs:{"fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"fill":"#FFF","fill-rule":"nonzero"}},[_c('path',{attrs:{"d":"M27.707 41.836h-3.81V30.331h-4.019v-3.81h4.02v-9.523c0-1.051.852-1.905 1.904-1.905h6.4c5.535 0 8.838 2.85 8.838 7.62 0 4.769-3.333 7.618-8.914 7.618h-4.42v11.505zm0-15.314h4.419c4.525 0 5.104-2.034 5.104-3.81 0-1.04 0-3.81-5.028-3.81h-4.495v7.62z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M19.878 33.768H33.42v3.81H19.878z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M33.897 54.008c0-.572.046-1.132.084-1.692a24.108 24.108 0 0 1-5.036.534c-13.345 0-24.202-10.858-24.202-24.2 0-13.34 10.857-24.198 24.202-24.198 13.34 0 24.202 10.857 24.202 24.198 0 .469-.046.926-.073 1.387a24.938 24.938 0 0 1 3.836-.537c.008-.286.042-.564.042-.85 0-15.47-12.54-28.007-28.011-28.007-15.47 0-28 12.537-28 28.004 0 15.47 12.54 28.007 28.011 28.007 1.73 0 3.418-.179 5.06-.48a23.926 23.926 0 0 1-.115-2.167z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M58.484 36.85c9.459 0 17.158 7.695 17.158 17.158 0 9.462-7.7 17.158-17.158 17.158-9.46 0-17.158-7.696-17.158-17.158 0-9.463 7.699-17.158 17.158-17.158zm0-3.81c-11.581 0-20.968 9.387-20.968 20.968 0 11.58 9.387 20.967 20.968 20.967 11.58 0 20.967-9.386 20.967-20.967S70.065 33.04 58.484 33.04z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M56.579 44.621h3.81v18.77h-3.81z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M49.101 52.099h18.77v3.81h-18.77z"}})]),_vm._v(" "),_c('path',{attrs:{"d":"M0-2h80v80H0z"}})])])]),_vm._v(" "),_c('p',{staticClass:"rt-font-label"},[_vm._v("6/8")]),_vm._v(" "),_c('h4',{staticClass:"rt-font-bold rt-space-top"},[_vm._v("Экономичность")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05"},[_vm._v("Ежесуточная тарификация и бесплатный\n                    тестовый период.\n                    Специальный тариф на IP VPN")])])],2),_vm._v(" "),_c('rt-card-b2o',{staticClass:"carousel-card",attrs:{"background-color-type":"dark-slate","background-blur":5,"is-white-color":true}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-space-top15 rt-space-bottom"},[_c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"77","height":"66"}},[_c('g',{attrs:{"fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"fill":"#FFF","fill-rule":"nonzero"}},[_c('path',{attrs:{"d":"M69.786 61.773c-9.392-2.957-20.15-4.55-31.252-4.55-11.219 0-22.076 1.625-31.539 4.643v3.324c9.367-3.116 20.269-4.764 31.536-4.764 11.152 0 21.955 1.616 31.251 4.672v-3.325h.004zM20.8.291a1.6 1.6 0 1 0 .027 3.201 1.6 1.6 0 0 0-.027-3.2"}}),_vm._v(" "),_c('path',{attrs:{"d":"M73.61 13.085H54.384v3.2H73.6l.006 38.403-70.406.006-.006-38.41H16v-3.2H3.194A3.19 3.19 0 0 0 0 16.276v38.42a3.194 3.194 0 0 0 3.194 3.193H73.61a3.194 3.194 0 0 0 3.193-3.194v-38.42a3.196 3.196 0 0 0-3.193-3.19z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M51.213 21.091V19.13c0-6.807-5.536-12.343-12.343-12.343H19.213v3.2H38.87c5.04 0 9.143 4.103 9.143 9.143v15.865c-2.279-2.624-5.562-4.304-9.143-4.304H20.8v3.2h18.067c4.957 0 9.143 4.397 9.143 9.6v.007a3.194 3.194 0 0 0 3.193 3.193l.003.003H65.6v-25.6H51.213v-.003zm11.187 22.4H51.213v-19.2H62.4v19.2z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M19.213 6.787h3.2v46.304h-3.2z"}})]),_vm._v(" "),_c('path',{attrs:{"d":"M-1-8h80v80H-1z"}})])])]),_vm._v(" "),_c('p',{staticClass:"rt-font-label"},[_vm._v("7/8")]),_vm._v(" "),_c('h4',{staticClass:"rt-font-bold rt-space-top"},[_vm._v("Российское решение")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05"},[_vm._v("Система управления облачной\n                    платформы Ростелекома внесена в\n                    единый реестр программ Министерства связи и массовых коммуникаций Российской\n                    Федерации. Все данные\n                    хранятся на территории России")])])],2),_vm._v(" "),_c('rt-card-b2o',{staticClass:"carousel-card",attrs:{"background-color-type":"light-blue","background-blur":5,"is-white-color":true}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-space-top15 rt-space-bottom"},[_c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"77","height":"78"}},[_c('g',{attrs:{"fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"fill":"#FFF","fill-rule":"nonzero"}},[_c('path',{attrs:{"d":"M24.996 19.153H41.56v3.333H24.996zm-.066 6.657h9.96v3.333h-9.96z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M21.59 15.36h31.293v3.79h3.334v-3.8a3.325 3.325 0 0 0-3.327-3.323h-31.3a3.327 3.327 0 0 0-3.327 3.323v26.663a3.327 3.327 0 0 0 3.327 3.327h17.72v-3.33l-17.717.003-.003-26.653z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M51.553 46.46c-6.556 0-11.886-5.333-11.886-11.89 0-6.553 5.333-11.887 11.886-11.887 6.554 0 11.89 5.334 11.89 11.887 0 6.557-5.336 11.89-11.89 11.89zm0-20.447c-4.716 0-8.553 3.837-8.553 8.554 0 4.72 3.837 8.556 8.553 8.556 4.72 0 8.557-3.836 8.557-8.556 0-4.714-3.837-8.554-8.557-8.554z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M51.56 32.667a1.794 1.794 0 1 1-.001 3.587 1.794 1.794 0 0 1 .001-3.587zm0-3.334a5.126 5.126 0 1 0 0 10.253 5.126 5.126 0 0 0 0-10.253z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M74.523 13.613c-6.206 0-11.256-5.05-11.256-11.256V.69H13.743v1.667c0 6.206-5.05 11.256-11.256 11.256H.767L.82 15.33c.017.46 1.813 46.04 37.007 61.677l.676.3.677-.3c6.283-2.794 11.487-6.547 15.82-10.82l-2.577-2.11c-3.866 3.75-8.46 7.053-13.92 9.576C9.503 60.257 4.927 24.827 4.26 16.84c6.663-.81 11.957-6.137 12.72-12.817h43.047c.763 6.68 6.056 12.007 12.723 12.817-.39 4.727-2.193 19.057-9.58 32.753l-.053 6.627c12.19-18.657 13.06-40.57 13.073-40.887l.053-1.716h-1.72v-.004z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M56.553 43.977l-.006 15.11-5-3.727-5 3.727.006-15.04-3.333-2.594-.007 24.3 8.334-6.663 8.333 6.663.007-24.723h-.124z"}})]),_vm._v(" "),_c('path',{attrs:{"d":"M-1-1h80v80H-1z"}})])])]),_vm._v(" "),_c('p',{staticClass:"rt-font-label"},[_vm._v("8/8")]),_vm._v(" "),_c('h4',{staticClass:"rt-font-bold rt-space-top"},[_vm._v("Опыт и компетенции")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05"},[_vm._v("Ростелеком — надежный партнер с\n                    успешным опытом реализации\n                    множества проектов федерального масштаба")])])],2)],1)],1)],1),_vm._v(" "),_c('rt-resize-content-height',{staticClass:"row rt-space-top",attrs:{"query-selectors-names":['.rt-card-b2o']}},[_c('rt-col',{staticClass:"md-sp-t-1",attrs:{"size":"3","tablet-size":"3","mobile-size":"3"}},[_c('pre-code',{attrs:{"text":"<rt-card-b2o target=\"_blank\" href=\"https://google.com\" :is-blue-card=\"true\" :has-hidden-footer=\"true\">\n                              <template slot=\"content\">\n                                <div class=\"rt-space-top6\">\n                                <svg width=\"50px\" height=\"60px\" viewBox=\"0 0 50 60\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" class=\"rt-card-b2o-icon-fill\">\n                                  <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n                                    <g id=\"DSGN-450_B2O_new_site_1460_v2_start\" transform=\"translate(-170.000000, -1222.000000)\">\n                                      <g id=\"Group-Copy-2\" transform=\"translate(150.000000, 1095.000000)\">\n                                        <g id=\"005-B80px\" transform=\"translate(5.000000, 117.000000)\">\n                                          <g>\n                                            <path d=\"M40,12.5 C46.9,12.5 52.5,18.1 52.5,25 C52.5,31.9 46.9,37.5 40,37.5 C33.1,37.5 27.5,31.9 27.5,25 C27.5,18.1 33.1,12.5 40,12.5 L40,12.5 Z M40,10 C31.725,10 25,16.725 25,25 C25,33.275 31.725,40 40,40 C48.275,40 55,33.275 55,25 C55,16.725 48.275,10 40,10 L40,10 Z\" id=\"Shape\" fill-rule=\"nonzero\"></path>\n                                            <path d=\"M17.5,70 L17.5,55 C17.5,50.875 20.875,47.5 25,47.5 L55,47.5 C59.125,47.5 62.5,50.875 62.5,55 L62.5,70 L65,70 L65,55 C65,49.475 60.525,45 55,45 L25,45 C19.475,45 15,49.475 15,55 L15,70 L17.5,70 Z\" id=\"Path\" fill-rule=\"nonzero\"></path>\n                                          </g>\n                                        </g>\n                                      </g>\n                                    </g>\n                                  </g>\n                                </svg>\n                                <p class=\"rt-space-top0-half\">Управляйте текущими услугами и заказывайте новые через личный кабинет оператора.</p>\n                                </div>\n                              </template>\n                              <template slot=\"footer\">\n                                <rt-button href=\"#\" color=\"purple-border\" :small=\"true\">Подключить</rt-button>\n                              </template>\n                            </rt-card-b2o>"}})],1),_vm._v(" "),_c('rt-col',{staticClass:"md-sp-t-1",attrs:{"size":"3","tablet-size":"3","mobile-size":"3"}},[_c('pre-code',{attrs:{"text":"<rt-card-b2o target=\"_blank\" href=\"https://google.com\" :is-blue-card=\"true\"  :has-hidden-footer=\"true\">\n                                  <template slot=\"content\">\n                                    <div class=\"rt-space-top6\">\n                                    <svg width=\"60px\" height=\"56px\" viewBox=\"0 0 60 56\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"  class=\"rt-card-b2o-icon-fill\">\n                                      <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n                                        <g id=\"DSGN-450_B2O_new_site_1460_v2_start\" transform=\"translate(-755.000000, -1225.000000)\">\n                                          <g id=\"Group-Copy-7\" transform=\"translate(740.000000, 1095.000000)\">\n                                            <g id=\"227-B80px\" transform=\"translate(5.000000, 118.000000)\">\n                                              <g>\n                                                <path d=\"M45,17.25 L58.1,26.25 L45,35.25 L45,32.5 L45,30 L42.5,30 L32.5,30 L32.5,22.5 L42.5,22.5 L45,22.5 L45,20 L45,17.25 L45,17.25 Z M42.5,12.5 L42.5,20 L30,20 L30,32.5 L42.5,32.5 L42.5,40 L62.5,26.25 L42.5,12.5 L42.5,12.5 Z\" id=\"Shape\" fill=\"#101828\" fill-rule=\"nonzero\"></path>\n                                                <path d=\"M35,44.75 L35,47.5 L35,50 L37.5,50 L47.5,50 L47.5,57.5 L37.5,57.5 L35,57.5 L35,60 L35,62.75 L21.9,53.75 L35,44.75 L35,44.75 Z M37.5,40 L17.5,53.75 L37.5,67.5 L37.5,60 L50,60 L50,47.5 L37.5,47.5 L37.5,40 L37.5,40 Z\" id=\"Shape\" fill=\"#101828\" fill-rule=\"nonzero\"></path>\n                                                <rect id=\"Rectangle\" fill=\"#101828\" fill-rule=\"nonzero\" x=\"10\" y=\"20\" width=\"17.5\" height=\"2.5\"></rect>\n                                                <rect id=\"Rectangle\" fill=\"#101828\" fill-rule=\"nonzero\" x=\"15\" y=\"25\" width=\"12.5\" height=\"2.5\"></rect>\n                                                <rect id=\"Rectangle\" fill=\"#101828\" fill-rule=\"nonzero\" x=\"22.55\" y=\"30\" width=\"4.95\" height=\"2.5\"></rect>\n                                                <rect id=\"Rectangle\" fill=\"#101828\" fill-rule=\"nonzero\" x=\"52.5\" y=\"47.5\" width=\"17.5\" height=\"2.5\"></rect>\n                                                <rect id=\"Rectangle\" fill=\"#101828\" fill-rule=\"nonzero\" x=\"52.5\" y=\"52.5\" width=\"12.5\" height=\"2.5\"></rect>\n                                                <rect id=\"Rectangle\" fill=\"#101828\" fill-rule=\"nonzero\" x=\"52.5\" y=\"57.5\" width=\"4.95\" height=\"2.5\"></rect>\n                                              </g>\n                                            </g>\n                                          </g>\n                                        </g>\n                                      </g>\n                                    </svg>\n                                    <p class=\"rt-space-top0-half\">Подключайтесь к системе опорных маршрутизаторов, чтобы обеспечить резервы \u2028в случае сбоя.</p>\n                                    </div>\n                                  </template>\n                                  <template slot=\"footer\">\n                                    <rt-button href=\"#\" color=\"purple-border\" :small=\"true\">Подключить</rt-button>\n                                  </template>\n                                </rt-card-b2o>"}})],1),_vm._v(" "),_c('rt-col',{staticClass:"td-sp-t-1",attrs:{"size":"3","tablet-size":"3","mobile-size":"3"}},[_c('pre-code',{attrs:{"text":"<rt-card-b2o target=\"_blank\" href=\"https://google.com\" :is-blue-card=\"true\" :has-hidden-footer=\"true\">\n                                  <template slot=\"content\">\n                                    <div class=\"rt-space-top6\">\n                                    <svg width=\"60px\" height=\"46px\" viewBox=\"0 0 60 46\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" class=\"rt-card-b2o-icon-fill\">\n                                      <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n                                        <g id=\"DSGN-450_B2O_new_site_1460_v2_start\" transform=\"translate(-460.000000, -1230.000000)\">\n                                          <g id=\"Group-Copy-6\" transform=\"translate(445.000000, 1095.000000)\">\n                                            <g id=\"185-B80px\" transform=\"translate(5.000000, 118.000000)\">\n                                              <g>\n                                                <path d=\"M67.5,20 L67.525,52.5 L12.5,52.525 L12.475,20 L67.5,20 L67.5,20 Z M67.525,17.5 L12.475,17.5 C11.125,17.5 10,18.625 10,19.975 L10,52.5 C10,53.875 11.125,55 12.475,55 L67.5,55 C68.875,55 69.9754088,53.875 69.9754088,52.525 L69.9754088,19.975 C70,18.625 68.875,17.5 67.525,17.5 L67.525,17.5 Z\" id=\"Shape\" fill-rule=\"nonzero\"></path>\n                                                <rect id=\"Rectangle\" fill-rule=\"nonzero\" x=\"12.5\" y=\"45\" width=\"55\" height=\"2.5\"></rect>\n                                                <rect id=\"Rectangle\" fill-rule=\"nonzero\" x=\"42.5\" y=\"55\" width=\"2.5\" height=\"7.5\"></rect>\n                                                <rect id=\"Rectangle\" fill-rule=\"nonzero\" x=\"35\" y=\"55\" width=\"2.5\" height=\"7.5\"></rect>\n                                                <rect id=\"Rectangle\" fill-rule=\"nonzero\" x=\"30.05\" y=\"60\" width=\"19.95\" height=\"2.5\"></rect>\n                                                <path d=\"M40,51.225 C40.675,51.225 41.25,50.675 41.25,49.975 C41.25,49.275 40.7,48.725 40,48.725 C39.3,48.725 38.75,49.275 38.75,49.975 C38.75,50.675 39.325,51.225 40,51.225\" id=\"Path\" fill=\"#101828\" fill-rule=\"nonzero\"></path>\n                                                <path d=\"M23.725,35.025 C24.4,35.025 24.95,35.575 24.95,36.25 C24.95,36.925 24.4,37.475 23.725,37.475 C23.05,37.475 22.5,36.925 22.5,36.25 C22.5,35.575 23.05,35.025 23.725,35.025 L23.725,35.025 Z M23.725,32.525 C21.675,32.525 20,34.2 20,36.25 C20,38.3 21.675,39.975 23.725,39.975 C25.775,39.975 27.45,38.3 27.45,36.25 C27.45,34.2 25.775,32.525 23.725,32.525 L23.725,32.525 Z\" id=\"Shape\"  fill-rule=\"nonzero\"></path>\n                                                <path d=\"M56.225,27.525 C56.9,27.525 57.45,28.075 57.45,28.75 C57.45,29.425 56.9,29.975 56.225,29.975 C55.55,29.975 55,29.425 55,28.75 C55,28.075 55.55,27.525 56.225,27.525 L56.225,27.525 Z M56.225,25.025 C54.175,25.025 52.5,26.7 52.5,28.75 C52.5,30.8 54.175,32.475 56.225,32.475 C58.275,32.475 59.95,30.8 59.95,28.75 C59.95,26.675 58.275,25.025 56.225,25.025 L56.225,25.025 Z\" id=\"Shape\" fill-rule=\"nonzero\"></path>\n                                                <path d=\"M53.1,28.9 L41.975,34.5 L39.475,27 L25.8,33.9 C26.4,34.475 26.8,35.275 26.9,36.15 L38.025,30.525 L40.525,38.025 L54.2,31.15 C53.6,30.55 53.2,29.775 53.1,28.9 Z\" id=\"Path\" fill=\"#101828\" fill-rule=\"nonzero\"></path>\n                                              </g>\n                                            </g>\n                                          </g>\n                                        </g>\n                                      </g>\n                                    </svg>\n                                    <p class=\"rt-space-top0-half\">Получайте статистику по всем поданым заявкам.</p>\n                                    </div>\n                                  </template>\n                                  <template slot=\"footer\">\n                                    <rt-button href=\"#\" color=\"purple-border\" :small=\"true\">Подключить</rt-button>\n                                  </template>\n                                </rt-card-b2o>"}})],1),_vm._v(" "),_c('rt-col',{staticClass:"td-sp-t-1",attrs:{"size":"3","tablet-size":"3","mobile-size":"3"}},[_c('pre-code',{attrs:{"text":"<rt-card-b2o target=\"_blank\" href=\"https://google.com\" :is-blue-card=\"true\" :has-hidden-footer=\"true\">\n                                  <template slot=\"content\">\n                                    <div class=\"rt-space-top6\">\n                                      <svg width=\"60px\" height=\"60px\" viewBox=\"0 0 60 60\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" class=\"rt-card-b2o-icon-fill\">\n                                        <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n                                          <g id=\"DSGN-450_B2O_new_site_1460_v2_start\" transform=\"translate(-1050.000000, -1223.000000)\">\n                                            <g id=\"Group-Copy-8\" transform=\"translate(1035.000000, 1095.000000)\">\n                                              <g id=\"175-B80px\" transform=\"translate(5.000000, 118.000000)\">\n                                                <g>\n                                                  <polygon id=\"Path\" fill=\"#101828\" fill-rule=\"nonzero\" points=\"69.925 70 50.475 53.375 52.1 51.475 70 66.75\"></polygon>\n                                                  <path d=\"M35,12.5 C47.4,12.5 57.5,22.6 57.5,35 C57.5,47.4 47.4,57.5 35,57.5 C22.6,57.5 12.5,47.4 12.5,35 C12.5,22.6 22.6,12.5 35,12.5 L35,12.5 Z M35,10 C21.2,10 10,21.2 10,35 C10,48.8 21.2,60 35,60 C48.8,60 60,48.8 60,35 C60,21.2 48.8,10 35,10 L35,10 Z\" id=\"Shape\" fill=\"#101828\" fill-rule=\"nonzero\"></path>\n                                                  <g id=\"Group\" transform=\"translate(27.500000, 25.000000)\" fill=\"#101828\" fill-rule=\"nonzero\">\n                                                    <path d=\"M5,22.5 L2.5,22.5 L2.5,12.5 L0,12.5 L0,10 L2.5,10 L2.5,0 L11.35,0 C14.75,0 17.5,2.75 17.5,6.15 C17.5,9.65 14.65,12.5 11.15,12.5 L5,12.5 L5,22.5 Z M5,10 L11.15,10 C13.275,10 15,8.275 15,6.15 C15,4.125 13.35,2.5 11.35,2.5 L5,2.5 L5,10 Z\" id=\"Shape\"></path>\n                                                    <rect id=\"Rectangle\" x=\"0\" y=\"15\" width=\"12.5\" height=\"2.5\"></rect>\n                                                  </g>\n                                                </g>\n                                              </g>\n                                            </g>\n                                          </g>\n                                        </g>\n                                      </svg>\n                                    <p class=\"rt-space-top0-half\">Оцените прозрачную тарифную политику \u2028и стабильные расценки \u2028на доступ к инфраструктуре.</p>\n                                    </div>\n                                  </template>\n                                  <template slot=\"footer\">\n                                    <rt-button href=\"#\" color=\"purple-border\" :small=\"true\">Подключить</rt-button>\n                                  </template>\n                                </rt-card-b2o>"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"row rt-space-top"},[_c('rt-col',{attrs:{"size":4,"tablet-size":2,"mobile-size":3}},[_c('pre-code',{attrs:{"text":"<rt-card-b2o >\n                                      <template slot=\"content\">\n                                          <h3 class=\"rt-font-h3\">Присоединение \u2028и пропуск трафика</h3>\n                                      </template>\n                                      <template slot=\"footer\">\n                                          <rt-button href=\"#\" color=\"purple-border\" :small=\"true\">Подробнее</rt-button>\n                                      </template>\n                                    </rt-card-b2o>"}})],1),_vm._v(" "),_c('rt-col',{staticClass:"md-sp-t-1",attrs:{"size":"4","tablet-size":"2","mobile-size":"3"}},[_c('pre-code',{attrs:{"text":"<rt-card-b2o>\n                                      <template slot=\"content\">\n                                          <h3 class=\"rt-font-h3\">Пропуск VoIP-трафика</h3>\n                                      </template>\n                                  <template slot=\"footer\">\n                                      <rt-button href=\"#\" color=\"purple-border\" :small=\"true\">Подробнее</rt-button>\n                                  </template>\n                                    </rt-card-b2o>"}})],1),_vm._v(" "),_c('rt-col',{staticClass:"md-sp-t-1",attrs:{"size":"4","tablet-size":"2","mobile-size":"3"}},[_c('pre-code',{attrs:{"text":"<rt-card-b2o>\n                                      <template slot=\"content\">\n                                          <h3 class=\"rt-font-h3\">Присоединение \u2028и пропуск трафика</h3>\n                                      </template>\n                                  <template slot=\"footer\">\n                                      <rt-button href=\"#\" color=\"purple-border\" :small=\"true\">Подробнее</rt-button>\n                                  </template>\n                                    </rt-card-b2o>"}})],1),_vm._v(" "),_c('rt-col',{staticClass:"sp-t-4 md-sp-t-1",attrs:{"size":"4","tablet-size":"2","mobile-size":"3"}},[_c('pre-code',{attrs:{"text":"<rt-card-b2o>\n                                      <template slot=\"content\">\n                                          <h3 class=\"rt-font-h3\">Телевидение \u2028и доставка контента</h3>\n                                      </template>\n                                  <template slot=\"footer\">\n                                      <rt-button href=\"#\" color=\"purple-border\" :small=\"true\">Подробнее</rt-button>\n                                  </template>\n                                    </rt-card-b2o>"}})],1),_vm._v(" "),_c('rt-col',{staticClass:"sp-t-4 md-sp-t-1",attrs:{"size":"4","tablet-size":"2","mobile-size":"3"}},[_c('pre-code',{attrs:{"text":"<rt-card-b2o>\n                                      <template slot=\"content\">\n                                          <h3 class=\"rt-font-h3\">Дата-центры</h3>\n                                      </template>\n                                  <template slot=\"footer\">\n                                      <rt-button href=\"#\" color=\"purple-border\" :small=\"true\">Подробнее</rt-button>\n                                  </template>\n                                    </rt-card-b2o>"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"is-b2c"},[_c('div',{staticClass:"row rt-space-top"},[_c('div',{staticClass:"rt-col-4"},[_c('pre-code',{attrs:{"text":"<rt-card :ga=\"{ offerName: 'Kaspersky Internet Security 4' }\">\n                                <template slot='header'>\n                                  <img width='175px'\n                                       class='rt-card__headeremitSelectedData__image'\n                                       src='/static/images/homeinternet/homeinternet-image18.jpg'/>\n                                </template>\n                                <template slot='content'>\n                                  <p class='rt-font-paragraph color-main07 rt-font-bold rt-space-top2'>\n                                      Kaspersky Internet Security 4\n                                  </p>\n                                  <p class='rt-space-top color-main07 rt-space-right2'>\n                                      Одна лицензия на&nbsp;все&nbsp;«детские» Android-устройства\n                                  </p>\n                                </template>\n                                <template slot='bottom-list'>\n                                  <div class='rt-card-list rt-space-bottom2'>\n                                    <div class='rt-card-list__item'>\n                                      <div class='rt-card-list__icon'>\n                                        <img src='/static/images/medium-icon.svg'/>\n                                      </div>\n                                      <div class='rt-card-list__name'>\n                                        <p class='rt-font-small-paragraph color-main05'>\n                                          Защищает 2 устройства одновременно\n                                        </p>\n                                      </div>\n                                      </div>\n                                      <div class='rt-card-list__item'>\n                                        <div class='rt-card-list__icon'>\n                                          <div class='rt-space-left15'>\n                                            <img src='/static/images/small-icon.svg'/>\n                                          </div>\n                                        </div>\n                                        <div class='rt-card-list__name'>\n                                          <p class='rt-font-small-paragraph color-main05'>\n                                              Первый месяц в&nbsp;подарок\n                                          </p>\n                                        </div>\n                                      </div>\n                                      <div class='rt-card-list__item'>\n                                          <div class='rt-card-list__icon'>\n                                              <div class='rt-space-left15'>\n                                                  <img src='/static/images/small-icon.svg'/>\n                                              </div>\n                                          </div>\n                                          <div class='rt-card-list__name'>\n                                              <p class='rt-font-small-paragraph color-main05'>\n                                                  Контроль интернет-сайтов\n                                              </p>\n                                          </div>\n                                      </div>\n                                      <div class='rt-card-list__item'>\n                                          <div class='rt-card-list__icon'>\n                                              <div class='rt-space-left15'>\n                                                  <img src='/static/images/small-icon.svg'/>\n                                              </div>\n                                          </div>\n                                          <div class='rt-card-list__name'>\n                                              <p class='rt-font-small-paragraph color-main05'>\n                                                  Игровой формат и&nbsp;простые настройки\n                                              </p>\n                                          </div>\n                                      </div>\n                                      <div class='rt-card-list__item'>\n                                          <div class='rt-card-list__icon'>\n                                              <div class='rt-space-left15'>\n                                                  <img src='/static/images/small-icon.svg'/>\n                                              </div>\n                                          </div>\n                                          <div class='rt-card-list__name'>\n                                              <p class='rt-font-small-paragraph color-main05'>\n                                                  Определение местоположения\n                                              </p>\n                                          </div>\n                                      </div>\n                                      <div class='rt-card-list__item'>\n                                          <div class='rt-card-list__icon'>\n                                              <div class='rt-space-left15'>\n                                                  <img src='/static/images/small-icon.svg'/>\n                                              </div>\n                                          </div>\n                                          <div class='rt-card-list__name'>\n                                              <p class='rt-font-small-paragraph color-main05'>\n                                                  Сообщения ребенку\n                                              </p>\n                                          </div>\n                                      </div>\n                                      <div class='rt-card-list__item'>\n                                          <div class='rt-card-list__icon'>\n                                              <div class='rt-space-left15'>\n                                                  <img src='/static/images/small-icon.svg'/>\n                                              </div>\n                                          </div>\n                                          <div class='rt-card-list__name'>\n                                              <p class='rt-font-small-paragraph color-main05'>\n                                                  Контроль приложений и&nbsp;времени\n                                              </p>\n                                          </div>\n                                      </div>\n                                  </div>\n                              </template>\n\n                              <template slot='content-without-wrapper'>\n                                  <div class='rt-card__border-content'>\n                                      <div class='rt-col-12 flex-end-center rt-space-top'>\n                                          <rt-price\n                                                  :value='1600'\n                                                  :old-value='1800'\n                                                  time-interval='год.'\n                                          ></rt-price>\n                                      </div>\n                                      <div class='rt-space-top05'>\n                                          <rt-button class='rt-button-orange rt-button--is-block'>Подключить</rt-button>\n                                      </div>\n                                  </div>\n                              </template>\n                          </rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-td-3 rt-col-md-3"},[_c('a',{attrs:{"href":"#events"}},[_c('rt-card',{attrs:{"is-white-color":true,"background-color-type":"green","ga":{value:'Новости'}}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-space-top2 rt-space-bottom"},[_c('img',{attrs:{"src":"//static-cdn.rt.ru/sites/default/files/img/icon/news-icon.svg","width":"80px"}})]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("Новости")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05 rt-space-bottom05"},[_vm._v("Анонсы акций,\n                      изменения в тарифах\n                      и новости Ростелеком")])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('rt-button',{staticClass:"rt-button-white rt-button-small rt-space-horizontal"},[_vm._v("Все\n                      новости\n                    ")])],1)],2)],1)])])]),_vm._v(" "),_c('div',{staticClass:"row is-b2c"},[_c('rt-resize-content-height',{staticClass:"rt-col-12",attrs:{"query-selectors-names":['.rt-card__bottom-list', '.rt-card__footer', '.rt-card__body']}},[_c('rt-fullscreen-image',{attrs:{"background-image":"https://rt.ru/sites/default/files/img/widget/DSGN-930_PControl_1920%D1%851080.jpg","background-position":"top"}},[_c('div',{staticClass:"rt-md-space-top2 rt-space-top5"},[_c('div',{staticClass:"row row--mobile-scroll rt-space-top4 rt-font-hypnens-off"},[_c('div',{staticClass:"rt-col-4 rt-col-md-3 d-md-flex-column is-b2c"},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-image-max-full-width",attrs:{"src":"http://rt.ru/sites/default/files/internet/Kaspersky_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('h3',{staticClass:"rt-font-h3 color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          Kaspersky Safe Kids\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Защита ребенка на всех устройствах Windows, Mac,\n                          Android, iPhone, iPad\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Первый месяц в подарок\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Гибкое регулирование доступа к сайтам\n                                и программам\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Ограничение времени использования устройств\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Отслеживание звонков и SMS ребенка\n                                на телефоне Android\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Контроль местонахождения ребенка\n                                и установка безопасной зоны\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                SMS-информирование о действиях ребенка\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Советы психолога по поведению детей\n                                в сети интернет\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":0,"old-value":99,"time-interval":"мес."}})],1)])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-md-3 d-md-flex-column rt-md-space-top is-b2c"},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-image-max-full-width",attrs:{"src":"http://rt.ru/sites/default/files/internet/ESET_color.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('h3',{staticClass:"rt-font-h3 color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          ESET NOD32 Parental Control\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Одна лицензия на все «детские»\n                          Android-устройства\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Первый месяц в подарок\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Контроль интернет-сайтов\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Игровой формат и простые настройки\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Определение местоположения\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Сообщения ребенку\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Контроль приложений и времени\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_c('br'),_c('br'),_c('br')])])])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"rt-col-12 flex-end-center rt-space-top"},[_c('rt-price',{attrs:{"value":0,"old-value":99,"time-interval":"мес."}})],1)])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-md-3 d-md-flex-column rt-md-space-top is-b2c"},[_c('rt-card',[_c('template',{slot:"header"},[_c('img',{staticClass:"rt-image-max-full-width",attrs:{"src":"http://rt.ru/sites/default/files/img/logo/my_children.svg"}})]),_vm._v(" "),_c('template',{slot:"content"},[_c('h3',{staticClass:"rt-font-h3 color-main07 rt-font-bold rt-space-top2"},[_vm._v("\n                          Сервис «Где мои дети»\n                        ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07 rt-space-right2"},[_vm._v("\n                          Отслеживайте местоположение ребёнка онлайн\n                          в мобильном приложении\n                        ")])]),_vm._v(" "),_c('template',{slot:"bottom-list"},[_c('div',{staticClass:"rt-card-list"},[_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Бесплатный период 7 дней\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Специальная цена для абонентов Ростелекома\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Просмотр местоположения ребёнка на карте\n                                и истории его перемещений за день\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Установка «зеленых зон» и получение\n                                оповещений, если ребенок выходит за них\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Звоники с громким сигналом в приложении,\n                                даже если ребёнок включил бесшумный режим\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Контроль заряда батареи на устройстве\n                                ребенка, чтобы он не остался\n                                без связи вдали от дома\n                              ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__item"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('div',{staticClass:"rt-space-left15"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/internet/icon_26%20copy%209.svg"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-card-list__name"},[_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                                Детские GPS-часы (Приобретаются отдельно)\n                              ")])])])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-12 rt-space-vertical flex-end-center"},[_c('rt-price',{attrs:{"value":99,"old-value":299,"time-interval":"мес."}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-12"},[_c('a',{staticClass:"d-block",attrs:{"href":"https://wwww.old.rt.ru/action/homeinternet/act_int_my_children","target":"_blank"}},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block"},[_vm._v("Подключить")])],1)])])])],2)],1)])])])],1)],1),_vm._v(" "),_c('pre-code',{attrs:{"text":"\n                  <div class=\"row\">\n                      <div class=\"rt-col-4 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c\">\n                          <rt-card-image card-image=\"https://photos.gurushots.com/unsafe/0x0/77e899d08c46ba8d7166dd844cce4766/3_516990c05691c438a53704679beda608.jpg\">\n                              <template slot=\"body\">\n                                  <p class=\"rt-font-paragraph rt-font-bold\">\n                                      Headstone\n                                  </p>\n                                  <p class=\"rt-font-label-uppercase rt-space-vertical05\">\n                                      игровой интернет\n                                  </p>\n                                  <p>Получай подарки в лучших играх Headstone!</p>\n                              </template>\n                              <template slot=\"list\">\n                                  <rt-card-image-list :has-icon=\"true\">\n                                      <template slot=\"icon\">\n                                          <img src=\"/static/example-images/iconCard.png\"\n                                              width=\"55px\"\n                                              alt=\"\"/>\n                                      </template>\n                                      <template>\n                                          <div>\n                                              <p class=\"color-main07\">\n                                                  Премиум аккаунт\n                                              </p>\n                                              <p class=\"color-main05\">\n                                                  Доступна любая из четырёх крутых пушек. Тип оружия можно\n                                                  изменять каждые 24 часа\n                                              </p>\n                                          </div>\n                                      </template>\n                                  </rt-card-image-list>\n                                  <rt-card-image-list>\n                                      Доступна любая из четырёх крутых пушек. Тип оружия можно\n                                      изменять каждые 24 часа\n                                  </rt-card-image-list>\n                                  <rt-card-image-list>\n                                      Доступна любая из четырёх крутых пушек. Тип оружия можно\n                                      изменять каждые 24 часа\n                                  </rt-card-image-list>\n                              </template>\n                          </rt-card-image>\n                      </div>\n                      <div class=\"rt-col-4 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c\">\n                          <rt-card-image\n                                  :is-white-color=\"true\"\n                                  :col-size=\"2\"\n                                  background-color-type=\"light-blue\"\n                                  card-image=\"https://photos.gurushots.com/unsafe/0x0/5423acb21d95b9d47df689fd2af3cbcb/3_9d7ceccead184f0210b7d84d83278027.jpg\">\n                              <template slot=\"body\">\n                                  <p class=\"rt-font-paragraph rt-font-bold\">\n                                      Headstone\n                                  </p>\n                                  <p class=\"rt-font-label-uppercase rt-space-vertical05\">\n                                      игровой интернет\n                                  </p>\n                                  <p>Получай подарки в лучших играх Headstone!</p>\n                              </template>\n                          </rt-card-image>\n                      </div>\n                      <div class=\"rt-col-4 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c\">\n                          <rt-card-image\n                                  :is-white-color=\"true\"\n                                  :col-size=\"2\"\n                                  background-color-type=\"light-blue\"\n                                  card-image=\"https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg\">\n                              <template slot=\"body\">\n                                  <p class=\"rt-font-paragraph rt-font-bold\">\n                                      Headstone\n                                  </p>\n                                  <p class=\"rt-font-label-uppercase rt-space-vertical05\">\n                                      игровой интернет\n                                  </p>\n                                  <p>Получай подарки в лучших играх Headstone!</p>\n                              </template>\n                          </rt-card-image>\n                      </div>\n                  </div>\n                  "}}),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c"},[_c('rt-card-image',{attrs:{"is-white-color":true,"col-size":2,"background-color-type":"light-blue","card-image":"/static/images/cardImage1.jpg"}},[_c('template',{slot:"body"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                  Headstone\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-label-uppercase rt-space-vertical05"},[_vm._v("\n                  игровой интернет\n                ")]),_vm._v(" "),_c('p',[_vm._v("Получай подарки в лучших играх Headstone!")])])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c"},[_c('rt-card-image',{attrs:{"is-white-color":true,"col-size":2,"background-color-type":"light-blue","card-image":"/static/images/cardImage2.jpg"}},[_c('template',{slot:"body"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                  Headstone\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-label-uppercase rt-space-vertical05"},[_vm._v("\n                  игровой интернет\n                ")]),_vm._v(" "),_c('p',[_vm._v("Получай подарки в лучших играх Headstone!")])])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c"},[_c('rt-card-image',{attrs:{"is-white-color":true,"col-size":2,"background-color-type":"light-blue","card-image":"/static/images/cardImage3.jpg"}},[_c('template',{slot:"body"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                  Headstone\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-label-uppercase rt-space-vertical05"},[_vm._v("\n                  игровой интернет\n                ")]),_vm._v(" "),_c('p',[_vm._v("Получай подарки в лучших играх Headstone!")])])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c"},[_c('rt-card-image',{attrs:{"is-white-color":true,"col-size":2,"background-color-type":"light-blue","card-image":"/static/images/cardImage1.jpg"}},[_c('template',{slot:"body"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                  Headstone\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-label-uppercase rt-space-vertical05"},[_vm._v("\n                  игровой интернет\n                ")]),_vm._v(" "),_c('p',[_vm._v("Получай подарки в лучших играх Headstone!")])])],2)],1)]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off d-stretch is-b2c"},[_c('rt-card',{attrs:{"background-cover":true,"is-white-color":true,"col-size":2,"background-color-type":"light-blue"}},[_c('template',{slot:"header"},[_c('div',{staticClass:"rt-font-center"},[_c('svg',{attrs:{"width":"97","height":"79","xmlns":"http://www.w3.org/2000/svg"}},[_c('g',{attrs:{"stroke":"#FFF","stroke-width":"2","fill":"none","fill-rule":"evenodd","stroke-linecap":"round","stroke-linejoin":"round"}},[_c('path',{attrs:{"d":"M37.0208333 1l-8.3125 15.0051282 19.59375 61.6 46.90625-61.6"}}),_vm._v(" "),_c('path',{attrs:{"d":"M59.1875 1L67.5 16.0051282l-19.59375 61.6L1 16.0051282"}}),_vm._v(" "),_c('path',{attrs:{"d":"M1 16.0051282L23.5625 1H72.25l22.5625 15.0051282z"}})])])])]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-top05"},[_vm._v("\n                  Бонусная программа\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05 rt-space-bottom05"},[_vm._v("\n                  Подключайте друзей и зарабатывайте бонусы\n                ")])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('a',{attrs:{"href":"/bonus"}},[_c('rt-button',{staticClass:"rt-button-white rt-button-small rt-space-horizontal"},[_vm._v("Подробнее")])],1)])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off d-stretch is-b2c"},[_c('rt-card',{attrs:{"background-cover":true,"is-white-color":true,"background-smoke":0.5,"col-size":6,"background-color-type":"green"}},[_c('template',{slot:"header"},[_c('div',{staticClass:"rt-font-center"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/img/icon/news-icon.svg","height":"79"}})])]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-top2"},[_vm._v("\n                  Новости\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05 rt-space-bottom05"},[_vm._v("\n                  Анонсы акций, изменения в тарифах и новости Ростелеком\n                ")])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('a',{attrs:{"href":"https://www.old.rt.ru/press","target":"_blank"}},[_c('rt-button',{staticClass:"rt-button-white rt-button-small rt-space-horizontal"},[_vm._v("Все новости")])],1)])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 rt-space-top rt-font-hypnens-off d-stretch is-b2c"},[_c('rt-card',{attrs:{"background-opacity":0.9,"background-cover":true,"is-white-color":true,"background-smoke":0.5,"col-size":2,"offset-top":true,"background-image":"/sites/default/files/2018-07/games_0.png","background-color-type":"black"}},[_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                  Игровой\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05 rt-space-bottom05"},[_vm._v("\n                  Высокоскоростной интернет и игровые бонусы для увлеченных\n                  геймеров\n                ")])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('a',{attrs:{"href":"/internet/constructor?offer=369771569758&lcs=active&tv-package=285383c0"}},[_c('rt-button',{staticClass:"rt-button-white rt-button-small rt-space-horizontal"},[_vm._v("Выберите свою игровую опцию\n                  ")])],1)])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 rt-space-top rt-font-hypnens-off d-stretch is-b2c"},[_c('rt-card',{attrs:{"background-opacity":0.9,"background-cover":true,"is-white-color":true,"background-smoke":0.5,"col-size":2,"offset-top":true,"background-image":"/sites/default/files/img/licey.jpg","background-color-type":"black"}},[_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                  Ростелеком Лицей\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05 rt-space-bottom05"},[_vm._v("\n                  Поможем усвоить школьную программу онлайн\n                ")])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('a',{attrs:{"href":"https://lc.rt.ru","target":"_blank"}},[_c('rt-button',{staticClass:"rt-button-white rt-button-small rt-space-horizontal"},[_vm._v("Подробнее")])],1)])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 rt-space-top rt-font-hypnens-off d-stretch is-b2c"},[_c('rt-card',{attrs:{"background-opacity":0.9,"background-cover":true,"is-white-color":true,"background-smoke":0.5,"col-size":2,"background-color-type":"dark-blue"}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-font-center rt-space-top15 rt-space-bottom"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/img/icon/wink_80x80.svg"}})]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                  Wink\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05 rt-space-bottom05"},[_vm._v("\n                  Лучшие ТВ‑каналы, сериалы и фильмы в одном приложении\n                ")])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('a',{attrs:{"href":"/wink"}},[_c('rt-button',{staticClass:"rt-button-white rt-button-small rt-space-horizontal"},[_vm._v("Перейти")])],1)])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 rt-space-top rt-font-hypnens-off d-stretch is-b2c"},[_c('rt-card',{attrs:{"background-opacity":0.9,"background-cover":true,"is-white-color":true,"background-smoke":0.5,"col-size":2,"background-color-type":"dark-blue"}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-font-center rt-space-top15 rt-space-bottom"},[_c('img',{attrs:{"src":"http://rt.ru/sites/default/files/img/icon/wink_80x80.svg"}})]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                  Wink\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05 rt-space-bottom05"},[_vm._v("\n                  Лучшие ТВ‑каналы, сериалы и фильмы в одном приложении\n                ")])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('a',{attrs:{"href":"/wink"}},[_c('rt-button',{staticClass:"rt-button-white rt-button-small rt-space-horizontal"},[_vm._v("Перейти")])],1)])],2)],1)]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-color-type='purple' :background-blur='5' :is-white-color='true'>\n                              <template slot='content'>\n                                  <p class='rt-font-paragraph rt-space-bottom rt-font-bold'>Оплата услуг</p>\n                                  <rt-input value='' placeholder='телефон, email или счёт'/>\n                                  <p class='rt-space-top05 rt-card-text rt-space-right'>Введите номер телефона, email или номер лицевого счёта</p>\n                              </template>\n                              <template slot='footer'>\n                                  <rt-button :is-block='true' class='rt-button-small rt-button-white white-wave'>Оплатить</rt-button>\n                              </template>\n                          </rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-color-type='light-blue' :background-blur='5' :is-white-color='true'><template slot='content'><div class='rt-font-center rt-space-top15 rt-space-bottom'><svg width='97' height='79' xmlns='http://www.w3.org/2000/svg'><g stroke='#FFF' stroke-width='2' fill='none' fill-rule='evenodd' stroke-linecap='round' stroke-linejoin='round'><path d='M37.0208333 1l-8.3125 15.0051282 19.59375 61.6 46.90625-61.6' /><path d='M59.1875 1L67.5 16.0051282l-19.59375 61.6L1 16.0051282' /><path d='M1 16.0051282L23.5625 1H72.25l22.5625 15.0051282z' /></g></svg></div><p class='rt-font-paragraph rt-font-bold rt-space-top'>Бонусы</p><p class='rt-space-top05'>Подключайте друзей \u2028и зарабатывайте бонусы</p></template><template slot='footer'><p>Условия акции</p></template></rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 d-stretch rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-image='/static/example-images/cardBackground5.png' background-position='bottom-right' :col-size='2'><template slot='content'><p class='rt-font-label'>стоимость покупки</p><rt-price :value='1480' :only-price='true' /></template><template slot='footer'><p class='rt-font-paragraph rt-font-bold'>Звоните по новому</p><p class='rt-font-paragraph rt-space-top05 rt-space-bottom'>Беспроцентная рассрочка на смартфоны Samsung Galaxy S8 для абонентов Ростелекома</p><p class='rt-space-top'>Условия акции</p></template></rt-card>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card lazy-background-image='https://pm1.narvii.com/6871/d75902fe4db353dc19d3bbf8ae2a2f64f6c84a0dr1-1280-864v2_128.jpg' background-image='/static/example-images/cardBackground3.png' :is-white-color='true' :background-cover='true' :background-smoke='0.3'><template slot='content'><p class='rt-font-paragraph rt-space-bottom rt-font-bold'>Оплата услуг</p><rt-input value='' placeholder='телефон, email или счёт' /><p class='rt-space-top05 rt-card-text rt-space-right'>Введите номер телефона, email или номер лицевого счёта</p></template><template slot='footer'><rt-button :is-block='true' class='rt-button-small rt-button-white white-wave'>Оплатить</rt-button></template></rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-image='/static/example-images/cardBackground3.png' :background-opacity='0.5' background-position='bottom-right' :is-white-color='true' :background-cover='true' :background-smoke='0.5' :offset-top='true'><template slot='content'><p class='rt-font-paragraph rt-font-bold'>Родительский контроль</p><p class='rt-space-top05 rt-card-text rt-space-right'>для безопасности детей в интернете</p></template><template slot='footer'><p>Выберите свой тип подписки</p></template></rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 d-stretch rt-space-top is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-image='/static/example-images/cardBackground6.png':background-cover='true':background-opacity='0.7':background-smoke='0.3':is-white-color='true':offset-top='true'background-color-type='black' :col-size='2'><template slot='content'><p class='rt-font-paragraph rt-font-bold'>Антивирусы</p><p class='rt-space-top05'>Выгодная защита <br>для всех устройств</p></template><template slot='footer'><p>Выберите свой тип подписки</p></template></rt-card>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3 d-stretch rt-space-top is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-image='/static/example-images/cardBackground10.png' :background-cover='true' :background-opacity='0.7' :background-smoke='0.3' :is-white-color='true' :offset-top='true' background-color-type='black' :col-size='2'><template slot='content'><p class='rt-font-paragraph rt-font-bold'>Игровой</p><p class='rt-space-top05'>Высокоскоростной <br> интернет и игровые бонусы <br>для увлеченных геймеров</p></template><template slot='footer'><p>Выберите свою игровую опцию</p></template></rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 d-stretch rt-space-top is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-image='/static/example-images/cardBackground1.png' :background-cover='true' :background-opacity='0.7' :background-smoke='0.3' :is-white-color='true' :offset-top='true' background-color-type='black' :col-size='2'><template slot='content'><p class='rt-font-paragraph rt-font-bold'>Microsoft Office 365</p><p class='rt-space-top05'>Полный пакет программ <br>для всей семьи</p></template><template slot='footer'><p>Выберите свой тип подписки</p></template></rt-card>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3 d-stretch rt-space-top is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-image='/static/example-images/cardBackground8.png' :background-cover='true' :is-white-color='true' background-color-type='black' :col-size='2'><template slot='content'><p class='rt-font-paragraph rt-font-bold'>Игровой Warface</p><p class='rt-space-top05 rt-font-small-upper rt-font-small-upper'>интернет</p><p class='rt-space-top rt-font-spacing018'>Крутые пушки всем <br> абонентам, оружие <br> навсегда, кредиты каждый<br> день</p></template><template slot='footer'><div class='rt-font-right'><rt-price :value='850' /></div><rt-button :is-block='true' class='rt-button-small rt-button-white white-wave'>Подключить</rt-button></template></rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 d-stretch rt-space-top is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-image='/static/example-images/cardBackground9.png' background-position='bottom-right' :col-size='2'><template slot='content'><p class='rt-space-top05 rt-font-small-upper'>стоимость покупки</p><rt-price :value='4990' :only-price='true' /></template><template slot='footer'><div class='rt-space-bottom2'><p class='rt-font-paragraph rt-font-bold'>Wi-Fi HD-видеокамера</p><p class='rt-space-top05'>Контролируйте все <br>происходящее на расстоянии <br> \u2028и просматривайте записи на<br> любом устройстве. </p></div></template></rt-card>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-image='/static/example-images/cardBackground7.png' :background-cover='true' :background-opacity='0.7' :background-smoke='0.2' :is-white-color='true' :offset-top='true' background-color-type='black'><template slot='content'><p class='rt-font-paragraph rt-font-bold'>Мобильное ТВ</p><p class='rt-space-top05'>101 тв-канал с контентом на любой вкус в подарок </p></template><template slot='footer'><p>Подробнее</p></template></rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-color-type='red' :background-blur='5'><p>Оплата услуг</p></rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-color-type='orange' :background-blur='5'><p>Оплата услуг</p></rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-color-type='yellow' :background-blur='5'><p>Оплата услуг</p></rt-card>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-color-type='pink' :background-blur='5'><p>Оплата услуг</p></rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-color-type='green' :background-blur='5'><p>Оплата услуг</p></rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 d-stretch rt-space-top is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-image='/static/example-images/cardBackground1.png' :background-cover='true'/>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-image='/static/example-images/cardBackground1.png' :background-cover='true' :background-blur='5'><p class='rt-card__label rt-font-paragraph'>Оплата услуг</p></rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card :background-repeat='true' background-image='/static/example-images/cardBackground2.png' :background-smoke='0.3'/>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-image='/static/example-images/cardBackground1.png' :background-smoke='0.5'/>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-image='/static/example-images/cardBackground1.png' :background-cover='true'/>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-12 rt-col-md-3 rt-space-top is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-image='/static/example-images/cardBackground1.png' :background-cover='true'/>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-space-top d-stretch is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-card background-color-type='dark-blue' :background-blur='5'><p>Оплата услуг</p></rt-card>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-4 rt-col-td-3 rt-col-md-3 rt-space-top is-b2b color-white"},[_c('pre-code',{attrs:{"text":"<rt-card background-image=\"/static/images/B2B/category-img.png\" :product-card=\"true\" background-color-type=\"yellow-high\">\n                            <template slot=\"content\">\n                              <h3 class=\"rt-font-bold rt-space-bottom\">Номер 8 800</h3>\n                              <p class=\"p2 rt-space-bottom05\">Мощные роутеры в аренду, удобный личный кабинет и\n                                рекламная платформа</p>\n                              <p class=\"p2 rt-space-bottom05\">Мощные роутеры в аренду, удобный личный кабинет и\n                                рекламная платформа</p>\n                              <p class=\"p2\">Мощные роутеры в аренду, удобный личный кабинет и\n                                рекламная платформа</p>\n                            </template>\n                            <template slot=\"footer\">\n                              <div class=\"rtb-card__cost\">\n                                <rt-price\n                                  :value=\"2.5\"\n                                  :is-option=\"true\"\n                                  currency=\"₽\"\n                                  :b2b-price=\"true\"\n                                  time-interval=\"в месяц\"\n                                />\n                              </div>\n                            </template>\n                          </rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-td-3 rt-col-md-3 rt-space-top is-b2b"},[_c('pre-code',{attrs:{"text":"<rt-card background-image=\"/static/images/B2B/category-img.png\" :product-card=\"true\" background-color-type=\"purple\">\n                            <template slot=\"content\">\n                              <h3 class=\"rt-font-bold rt-space-bottom\">Номер 8 800</h3>\n                              <p class=\"p2 rt-space-bottom05\">Мощные роутеры в аренду, удобный личный кабинет и\n                                рекламная платформа</p>\n                              <p class=\"p2 rt-space-bottom05\">Мощные роутеры в аренду, удобный личный кабинет и\n                                рекламная платформа</p>\n                              <p class=\"p2\">Мощные роутеры в аренду, удобный личный кабинет и\n                                рекламная платформа</p>\n                            </template>\n                            <template slot=\"footer\">\n                              <div class=\"rtb-card__cost\">\n                                <rt-price\n                                  :value=\"2.5\"\n                                  :is-option=\"true\"\n                                  currency=\"₽\"\n                                  :b2b-price=\"true\"\n                                  time-interval=\"в месяц\"\n                                />\n                              </div>\n                            </template>\n                          </rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-td-3 rt-col-md-3 rt-space-top is-b2b"},[_c('pre-code',{attrs:{"text":"<rt-card product-icon=\"/static/images/B2B/063-c.svg\" :product-card=\"true\" background-color-type=\"white\">\n                            <template slot=\"content\">\n                              <h3 class=\"rt-font-bold rt-space-bottom\">Номер 8 800</h3>\n                              <p class=\"p2 rt-space-bottom05\">Мощные роутеры в аренду, удобный личный кабинет и\n                                рекламная платформа</p>\n                              <p class=\"p2 rt-space-bottom05\">Мощные роутеры в аренду, удобный личный кабинет и\n                                рекламная платформа</p>\n                              <p class=\"p2\">Мощные роутеры в аренду, удобный личный кабинет и\n                                рекламная платформа</p>\n                            </template>\n                            <template slot=\"footer\">\n                              <div class=\"rtb-card__cost\">\n                                <rt-price\n                                  :value=\"2.5\"\n                                  :is-option=\"true\"\n                                  currency=\"₽\"\n                                  :b2b-price=\"true\"\n                                  time-interval=\"в месяц\"\n                                />\n                              </div>\n                            </template>\n                          </rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-12 rt-col-td-6 rt-col-md-3 rt-space-top is-b2b"},[_c('pre-code',{attrs:{"text":"<rt-card\n                            background-image='/static/images/B2B/category-img.png'\n                            :is-b2b-category='true'\n                            :category-card-size='3'\n                            background-color-type='green-low'\n                            :is-white-color='true'\n                            category-icon-mobile='/static/images/B2B/shield.svg'>\n                            <template slot='content'>\n                              <h3 class='rt-font-bold rt-space-bottom05'>\n                                Видеонаблюдение\n                              </h3>\n                              <div class='rt-font-small-paragraph'>\n                                Система удаленного видеонаблюдения\n                              </div>\n                            </template>\n                            <template slot='footer'>\n                              <a href='#'>\n                                <rt-button\n                                  class='rt-button-white rt-button-small rt-space-horizontal'\n                                >Подробнее</rt-button>\n                              </a>\n                            </template>\n                          </rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-8 rt-col-td-3 rt-col-md-3 rt-space-top is-b2b"},[_c('pre-code',{attrs:{"text":"<rt-card\n                            background-image='/static/images/B2B/virtual-ATS.png'\n                            :is-b2b-category='true'\n                            :category-card-size='2'\n                            background-color-type='purple'\n                            :is-white-color='true'\n                            category-icon-mobile='/static/images/B2B/shield.svg'>\n                            <template slot='content'>\n                              <p class='rt-font-h3 rt-font-bold rt-space-bottom05 rtb-category__title'>\n                                Виртуальная АТС\n                              </p>\n                              <div class='rt-font-small-paragraph'>\n                                Быстрое подключение без трат на оборудование, возможность\n                                пользоваться из любой точки мира и ни одного пропущенного\n                                звонка клиента\n                              </div>\n                            </template>\n                            <template slot='footer'>\n                              <rt-price\n                                :is-option='true'\n                                :value='500'\n                                currency='₽'\n                                time-interval='в месяц'\n                                :b2b-price='true'/>\n                              <a href='#'>\n                                <rt-button\n                                  class='rt-button-white rt-button-small rt-space-horizontal'\n                                >Подробнее</rt-button>\n                              </a>\n                            </template>\n                          </rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-td-3 rt-col-md-3 rt-space-top is-b2b"},[_c('pre-code',{attrs:{"text":"<rt-card\n                            :is-b2b-category='true'\n                            :category-card-size='1'\n                            background-color-type='dark-blue'\n                            :is-white-color='true'\n                            category-icon-mobile='/static/images/B2B/shield.svg'>\n                            <template slot='content'>\n                              <p class='rt-font-paragraph rt-font-bold rt-space-bottom05 rtb-category__title'>\n                                Сервис по защите от сетевых угроз\n                              </p>\n                              <div class='rt-font-small-paragraph'>\n                                На базе решения класса Unified Threat Management (UTM)\n                              </div>\n                            </template>\n                            <template slot='footer'>\n                              <a href='#'>\n                                <rt-button\n                                  class='rt-button-white rt-button-small rt-space-horizontal'\n                                >Подробнее</rt-button>\n                              </a>\n                            </template>\n                          </rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-td-3 rt-col-md-3 rt-space-top is-b2b"},[_c('pre-code',{attrs:{"text":"<rt-card\n                            :is-b2b-category='true'\n                            :category-card-size='1'\n                            category-icon-mobile='/static/images/B2B/mobile-call.svg'>\n                            <template slot='content'>\n                              <p class='rt-font-paragraph rt-font-bold rt-space-bottom05 rtb-category__title'>\n                                Сервис по защите от сетевых угроз\n                              </p>\n                              <div class='rt-font-small-paragraph'>\n                                На базе решения класса Unified Threat Management (UTM)\n                              </div>\n                            </template>\n                            <template slot='footer'>\n                              <rt-price\n                                :is-option='true'\n                                :value='500'\n                                currency='₽'\n                                time-interval='в месяц'\n                                :b2b-price='true'/>\n                              <a href='#'>\n                                <rt-button\n                                  class='rt-button-purple-border rt-button-small rt-space-horizontal'\n                                >Подробнее</rt-button>\n                              </a>\n                            </template>\n                          </rt-card>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-td-3 rt-col-md-3 rt-space-top is-b2b"},[_c('rt-card',{attrs:{"equal-padding":true}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rtb-card__vertical"},[_c('div',{staticClass:"rtb-card__vertical__left-column"},[_c('img',{attrs:{"src":"/static/images/B2B/wifi.svg"}})]),_vm._v(" "),_c('div',{staticClass:"rtb-card__vertical__right-column"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold mb5"},[_vm._v("\n                      Управляемый Wi-Fi\n                    ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("\n                      Мощные роутеры в аренду, удобный личный кабинет и\n                      рекламная платформа\n                    ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-bottom"}),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('button',{staticClass:"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05"},[_vm._v("\n                        Выбрать\n                      ")])])])])])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top higher-z is-b2b"},[_c('rt-card',{attrs:{"equal-padding":true}},[_c('template',{slot:"header"},[_c('p',{staticClass:"rt-font-paragraph rt-space-bottom rt-font-bold"},[_vm._v("\n                  Вызов 400\n                ")])]),_vm._v(" "),_c('template',{slot:"content"},[_c('div',{staticClass:"rtb-card__description__row"},[_c('span',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("300 минут")]),_vm._v(" "),_c('rt-hint',{attrs:{"simple-tool-tip":true}},[_vm._t("default",[_vm._v("\n                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\n                      eiusmod tempor incididunt ut labore et dolore magna aliqmagna aliq\n                    ")])],2),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph color-main025"},[_vm._v("\n                    на номера домашнего региона\n                  ")])],1),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                    50 СМС\n                  ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph color-main025"},[_vm._v("\n                    по всей России\n                  ")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                    3 Гб\n                  ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph color-main025"},[_vm._v("\n                    интернета по всей России\n                  ")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('links-block',{attrs:{"icon-array":[{tooltip: 'gjlcrfprf1', path: 'vk'},
-                                                                {tooltip: 'gjlcrfprf2', path: 'ya_map'},
-                                                                {tooltip: 'gjlcrfprf3', path: 'youtube'},
-                                                                {tooltip: 'gjlcrfprf4', path: 'viber'},
-                                                                {tooltip: 'gjlcrfprf5', path: 'whatsapp'},
-                                                                {tooltip: 'gjlcrfprf6', path: 'tamtam'},
-                                                                {tooltip: 'gjlcrfprf7', path: 'odnoklassniki'},
-                                                                {tooltip: 'gjlcrfprf8', path: 'facebook'},
-                                                                {tooltip: 'gjlcrfprf9', path: 'ya_navigator'},
-                                                                {tooltip: 'gjlcrfprf10', path: 'ya_transport'}],"source-directory":"/static/images/B2B/"}})],1)]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"rt-space-bottom"}),_vm._v(" "),_c('div',{staticClass:"rtb-card__cost"},[_c('rt-price',{attrs:{"value":400,"is-option":false,"currency":"₽","b2b-price":true,"time-interval":""}})],1),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('button',{staticClass:"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05"},[_vm._v("\n                    Выбрать\n                  ")])])])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top is-b2b"},[_c('rt-card',{attrs:{"equal-padding":true,"has-label":true}},[_c('template',{slot:"header"},[_c('div',{staticClass:"rt-space-bottom"},[_c('span',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                                      Видеонаблюдение 500\n                                    ")]),_vm._v(" "),_c('rt-hint',{attrs:{"simple-tool-tip":true}},[_vm._t("default",[_vm._v("Это всё что угодно, но не адре")])],2)],1)]),_vm._v(" "),_c('template',{slot:"label"},[_c('h4',{staticClass:"rt-font-h4"},[_vm._v("- 30%")])]),_vm._v(" "),_c('template',{slot:"content"},[_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("\n                    до 650 Мбит/с\n                  ")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("\n                    4 антенны\n                  ")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("\n                    Авторизация через СМС\n                  ")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("\n                    Защита роутера\n                  ")])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"rt-space-bottom"}),_vm._v(" "),_c('div',{staticClass:"rtb-card__cost"},[_c('rt-price',{attrs:{"value":500,"is-option":false,"currency":"₽","b2b-price":true,"time-interval":"в месяц"}})],1),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('rt-button',{staticClass:"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05"},[_vm._v("\n                    Выбрать\n                  ")])],1)])],2)],1)])],1)]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 is-b2b"},[_c('rt-card-layout',{attrs:{"swiper-on-mobile":true,"width":6}},[_c('template',{slot:"cards"},[_c('div',{staticClass:"rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide"},[_c('rt-card',[_c('template',{slot:"header"},[_c('p',{staticClass:"rt-font-paragraph rt-space-bottom rt-font-bold"},[_vm._v("Тариф 1")])]),_vm._v(" "),_c('template',{slot:"content"},[_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("до 650 Мбит/")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("4 антенны")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Авторизация через СМС")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Защита роутера")])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"rt-space-bottom"}),_vm._v(" "),_c('div',{staticClass:"rtb-card__cost rt-space-bottom"},[_c('rt-price',{attrs:{"value":500,"is-option":false,"currency":"₽","b2b-price":true,"time-interval":"в месяц","is-time-interval-bottom":true}})],1),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('rt-button',{staticClass:"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05"},[_vm._v("\n                    Выбрать\n                  ")])],1)])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide"},[_c('rt-card',[_c('template',{slot:"header"},[_c('p',{staticClass:"rt-font-paragraph rt-space-bottom rt-font-bold"},[_vm._v("Тариф 1")])]),_vm._v(" "),_c('template',{slot:"content"},[_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("до 650 Мбит/")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("4 антенны")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Авторизация через СМС")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Защита роутера")])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"rt-space-bottom"}),_vm._v(" "),_c('div',{staticClass:"rtb-card__cost rt-space-bottom"},[_c('rt-price',{attrs:{"value":500,"is-option":false,"currency":"₽","b2b-price":true,"time-interval":"в месяц","is-time-interval-bottom":true}})],1),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('rt-button',{staticClass:"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05"},[_vm._v("\n                    Выбрать\n                  ")])],1)])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide"},[_c('rt-card',[_c('template',{slot:"header"},[_c('p',{staticClass:"rt-font-paragraph rt-space-bottom rt-font-bold"},[_vm._v("Тариф 1")])]),_vm._v(" "),_c('template',{slot:"content"},[_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("до 650 Мбит/")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("4 антенны")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Авторизация через СМС")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Защита роутера")])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"rt-space-bottom"}),_vm._v(" "),_c('div',{staticClass:"rtb-card__cost rt-space-bottom"},[_c('rt-price',{attrs:{"value":500,"is-option":false,"currency":"₽","b2b-price":true,"time-interval":"в месяц","is-time-interval-bottom":true}})],1),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('rt-button',{staticClass:"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05"},[_vm._v("\n                    Выбрать\n                  ")])],1)])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide"},[_c('rt-card',[_c('template',{slot:"header"},[_c('p',{staticClass:"rt-font-paragraph rt-space-bottom rt-font-bold"},[_vm._v("Тариф 1")])]),_vm._v(" "),_c('template',{slot:"content"},[_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("до 650 Мбит/")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("4 антенны")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Авторизация через СМС")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Защита роутера")])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"rt-space-bottom"}),_vm._v(" "),_c('div',{staticClass:"rtb-card__cost rt-space-bottom"},[_c('rt-price',{attrs:{"value":500,"is-option":false,"currency":"₽","b2b-price":true,"time-interval":"в месяц","is-time-interval-bottom":true}})],1),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('rt-button',{staticClass:"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05"},[_vm._v("\n                    Выбрать\n                  ")])],1)])],2)],1)]),_vm._v(" "),_c('template',{slot:"side-text"},[_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("до 650 Мбит/")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("4 антенны")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Авторизация через СМС")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Защита роутера")])])])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 is-b2b"},[_c('rt-card-layout',{attrs:{"swiper-on-mobile":true,"width":9,"single-row":true}},[_c('template',{slot:"cards"},[_c('div',{staticClass:"rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide"},[_c('rt-card',[_c('template',{slot:"header"},[_c('p',{staticClass:"rt-font-paragraph rt-space-bottom rt-font-bold"},[_vm._v("Тариф 1")])]),_vm._v(" "),_c('template',{slot:"content"},[_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("до 650 Мбит/")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("4 антенны")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Авторизация через СМС")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Защита роутера")])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"rt-space-bottom"}),_vm._v(" "),_c('div',{staticClass:"rtb-card__cost rt-space-bottom"},[_c('rt-price',{attrs:{"value":500,"is-option":false,"currency":"₽","b2b-price":true,"time-interval":"в месяц","is-time-interval-bottom":true}})],1),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('rt-button',{staticClass:"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05"},[_vm._v("\n                    Выбрать\n                  ")])],1)])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide"},[_c('rt-card',[_c('template',{slot:"header"},[_c('p',{staticClass:"rt-font-paragraph rt-space-bottom rt-font-bold"},[_vm._v("Тариф 1")])]),_vm._v(" "),_c('template',{slot:"content"},[_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("до 650 Мбит/")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("4 антенны")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Авторизация через СМС")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Защита роутера")])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"rt-space-bottom"}),_vm._v(" "),_c('div',{staticClass:"rtb-card__cost rt-space-bottom"},[_c('rt-price',{attrs:{"value":500,"is-option":false,"currency":"₽","b2b-price":true,"time-interval":"в месяц","is-time-interval-bottom":true}})],1),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('rt-button',{staticClass:"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05"},[_vm._v("\n                    Выбрать\n                  ")])],1)])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide"},[_c('rt-card',[_c('template',{slot:"header"},[_c('p',{staticClass:"rt-font-paragraph rt-space-bottom rt-font-bold"},[_vm._v("Тариф 1")])]),_vm._v(" "),_c('template',{slot:"content"},[_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("до 650 Мбит/")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("4 антенны")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Авторизация через СМС")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Защита роутера")])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"rt-space-bottom"}),_vm._v(" "),_c('div',{staticClass:"rtb-card__cost rt-space-bottom"},[_c('rt-price',{attrs:{"value":500,"is-option":false,"currency":"₽","b2b-price":true,"time-interval":"в месяц","is-time-interval-bottom":true}})],1),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('rt-button',{staticClass:"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05"},[_vm._v("\n                    Выбрать\n                  ")])],1)])],2)],1)]),_vm._v(" "),_c('template',{slot:"side-text"},[_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("до 650 Мбит/")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph "},[_vm._v("4 антенны")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Авторизация через СМС")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__description__row"},[_c('p',{staticClass:"rt-font-paragraph color-main025"},[_vm._v("Защита роутера")])])])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 is-b2b"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-3"},[_c('rt-card',{attrs:{"equal-padding":true,"has-expanded-block":true}},[_c('template',{slot:"header"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom0-half"},[_vm._v("Пакет 1 500")])]),_vm._v(" "),_c('template',{slot:"content"},[_c('div',{staticClass:"rtb-card__underlined-section"},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom15"},[_vm._v("Включен городской номер"),_c('br'),_vm._v("или номер 8 800\n                    ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("10")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom color-main05"},[_vm._v("рабочих\n                      мест")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("1 500 минут")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom color-main05"},[_vm._v("на любые\n                      телефоны России")])])]),_vm._v(" "),_c('template',{slot:"expanding-block"},[_c('div',{staticClass:"rtb-card__expanding-button d-inline-flex d-space-between tagline color-purple rt-space-bottom05-half"},[_c('span',{staticClass:"card-expander"},[_vm._v("включено сервисов")]),_vm._v(" "),_c('span',{staticClass:"card-expander"},[_vm._v("4")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__expanding-content rt-space-left rt-font-control color-main07 rt-md-space-left-none"},[_c('p',{staticClass:"with-icon rt-space-bottom05"},[_vm._v("Переадресация")]),_vm._v(" "),_c('p',{staticClass:"with-icon rt-space-bottom05"},[_vm._v("Голосовое меню IVR")]),_vm._v(" "),_c('p',{staticClass:"with-icon rt-space-bottom05"},[_vm._v("Распределение звонков")]),_vm._v(" "),_c('p',{staticClass:"with-icon rt-space-bottom05"},[_vm._v("Статистика и аналитика")])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('rt-price',{attrs:{"value":400,"is-option":false,"currency":"₽","b2b-price":true,"time-interval":"в месяц","is-time-interval-bottom":true}})],1)],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3"},[_c('rt-card',{attrs:{"equal-padding":true,"has-expanded-block":true}},[_c('template',{slot:"header"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom0-half"},[_vm._v("Пакет 1 500")])]),_vm._v(" "),_c('template',{slot:"content"},[_c('div',{staticClass:"rtb-card__underlined-section"},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom15"},[_vm._v("Включен городской номер"),_c('br'),_vm._v("или номер 8 800\n                    ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("10")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom color-main05"},[_vm._v("рабочих\n                      мест")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("1 500 минут")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom color-main05"},[_vm._v("на любые\n                      телефоны России")])])]),_vm._v(" "),_c('template',{slot:"expanding-block"},[_c('div',{staticClass:"rtb-card__expanding-button d-inline-flex d-space-between tagline color-purple rt-space-bottom05-half"},[_c('span',{staticClass:"card-expander"},[_vm._v("включено сервисов")]),_vm._v(" "),_c('span',{staticClass:"card-expander"},[_vm._v("4")])]),_vm._v(" "),_c('div',{staticClass:"rtb-card__expanding-content rt-space-left rt-font-control color-main07 rt-md-space-left-none"},[_c('p',{staticClass:"with-icon rt-space-bottom05"},[_vm._v("Переадресация")]),_vm._v(" "),_c('p',{staticClass:"with-icon rt-space-bottom05"},[_vm._v("Голосовое меню IVR")]),_vm._v(" "),_c('p',{staticClass:"with-icon rt-space-bottom05"},[_vm._v("Распределение звонков")]),_vm._v(" "),_c('p',{staticClass:"with-icon rt-space-bottom05"},[_vm._v("Статистика и аналитика")])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('rt-price',{attrs:{"value":400,"is-option":false,"currency":"₽","b2b-price":true,"time-interval":"в месяц","is-time-interval-bottom":true}})],1)],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3"},[_c('rt-card',{attrs:{"equal-padding":true,"background-image":"/static/images/B2B/virtual-ATS.png","full-width-top-image":true,"has-gradient-over-image":true}},[_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom15"},[_vm._v("Включен городской номер"),_c('br'),_vm._v("или номер 8 800\n                  ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("10")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom color-main05"},[_vm._v("рабочих мест")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("1 500 минут")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom color-main05"},[_vm._v("на любые\n                    телефоны России")])])],2)],1)])])])]),_vm._v(" "),_c('div',{staticClass:"is-b2b"},[_c('rt-hint-body')],1)],1),_vm._v(" "),_c('div',{staticClass:"rt-container rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col-12 rt-col-md-3"},[_c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("\n            Cards\n          ")])])])])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:" is-b2c"},[_c('div',{staticClass:"wc-inline"},[_c('rt-banner',{staticClass:"rt-banner--fill-height",attrs:{"is-fullscreen-image":true,"content-min-height":"500px","content-height":"40vh"}},[_c('rt-banner-item',{attrs:{"background-image":"https://www.moscow.rt.ru/sites/default/files/img/videocontrol-2.png","content-min-height":"500px","content-height":"40vh"}},[_c('div',{staticClass:"rt-md-space-right2"},[_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-space-vertical"},[_c('rt-color-line-text',[_c('template',{slot:"label"},[_vm._v("\n                    Будьте спокойны за своих близких\n")]),_c('template',{slot:"content"},[_vm._v("\n                    с услугой видеонаблюдение\n                  ")])],2)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 rt-md-space-top color-white"},[_c('rt-button',{staticClass:"rt-button-orange"},[_vm._v("\n                Купить\n              ")])],1)])]),_vm._v(" "),_c('rt-banner-item',{attrs:{"background-image":"https://www.moscow.rt.ru/sites/default/files/img/videocontrol-1.png","content-min-height":"500px","content-height":"40vh"}},[_c('div',{staticClass:"rt-md-space-right2"},[_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-space-vertical"},[_c('rt-color-line-text',[_c('template',{slot:"label"},[_vm._v("\n                    Будьте спокойны за своих близких\n")]),_c('template',{slot:"content"},[_vm._v("\n                    с услугой видеонаблюдение\n                  ")])],2)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 rt-md-space-top color-white"},[_c('rt-button',{staticClass:"rt-button-orange"},[_vm._v("\n                Купить\n              ")])],1)])]),_vm._v(" "),_c('rt-banner-item',{attrs:{"background-image":"https://www.moscow.rt.ru/sites/default/files/img/videocontrol-3.png","content-min-height":"500px","content-height":"40vh"}},[_c('div',{staticClass:"rt-md-space-right2"},[_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-space-vertical"},[_c('rt-color-line-text',[_c('template',{slot:"label"},[_vm._v("\n                    Будьте спокойны за своих близких\n")]),_c('template',{slot:"content"},[_vm._v("\n                    с услугой видеонаблюдение\n                  ")])],2)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 rt-md-space-top color-white"},[_c('rt-button',{staticClass:"rt-button-orange"},[_vm._v("\n                Купить\n              ")])],1)])])],1),_vm._v(" "),_vm._m(0),_vm._v(" "),_vm._m(1)],1),_vm._v(" "),_vm._m(2),_vm._v(" "),_vm._m(3),_vm._v(" "),_c('div',{staticClass:"color-block--white"},[_c('div',{staticClass:"rt-container"},[_vm._m(4),_vm._v(" "),_c('div',{staticClass:"row rt-space-vertical25"},[_c('div',{staticClass:"rt-col-6 rt-col-td-3 rt-col-md-3"},[_c('div',{staticClass:"wc-inline"},[_c('order-form',{attrs:{"scope":"form-1","offer-id":[
+                  {
+                    offerIds: [382403088590, 370113313190, 373158964290],
+                    regionIds: [3245107, 2231584, 2451058]
+                  },
+                  {
+                    offerIds: [379103003390, 385514593990],
+                    regionIds: [3092903]
+                  }
+                ],"ga":{
+                  offerCategory: 'Умный дом',
+                  offerName: 'Видеонаблюдение в подарок на 24 месяца',
+                  positionCard: 1,
+                  price: 300
+                }}},[_c('rt-card-buy',[_c('template',{slot:"content"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-4 rt-col-md-3 flex-column\n                                          d-flex d-md-block"},[_c('div',{staticClass:"rt-space-left\n                                              rt-md-space-horizontal rt-md-space-top\n                                              flex-fill d-flex"},[_c('div',{staticClass:"rt-card-buy__image\n                                                  flex-fill",staticStyle:{"background-image":"url(/sites/default/files/img/videocamera.png)"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-col-8 rt-space-vertical\n                                          rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-right\n                                              rt-md-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph\n                                                  rt-font-bold"},[_vm._v("\n                            Видеокамера в рассрочку и услуга «Видеонаблюдение» в\n                            подарок на 24 месяца\n                          ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top\n                                                  color-main05"},[_vm._v("\n                            При покупке камеры до 31.12.2018\n                          ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('div',{staticClass:"d-flex"},[_c('div',[_c('svg',{staticStyle:{"border-radius":"50%"},attrs:{"width":"56px","height":"56px","viewBox":"0\n                                                              0 56 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-952.000000,\n                                                                      -1981.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000,\n                                                                          0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000,\n                                                                              1839.000000)"}},[_c('g',{attrs:{"id":"Group-13","transform":"translate(242.000000,\n                                                                                  142.000000)"}},[_c('g',{attrs:{"id":"Fill-170"}},[_c('path',{attrs:{"d":"M56,27.6113\n                                                                                          C56,42.7993\n                                                                                          43.4631273,55.1113\n                                                                                          28,55.1113\n                                                                                          C12.5358545,55.1113\n                                                                                          0,42.7993\n                                                                                          0,27.6113\n                                                                                          C0,12.4233\n                                                                                          12.5358545,0.1113\n                                                                                          28,0.1113\n                                                                                          C43.4631273,0.1113\n                                                                                          56,12.4233\n                                                                                          56,27.6113","fill":"#00C8F9","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-180","d":"M41.5679855,24.8671\n                                                                                          C41.5679855,32.2621\n                                                                                          35.4548218,38.1931\n                                                                                          27.9996945,38.1931\n                                                                                          C26.7992582,38.1931\n                                                                                          25.6364945,38.0401\n                                                                                          24.5297309,37.7531\n                                                                                          C23.6337309,37.5211\n                                                                                          22.7754036,37.2021\n                                                                                          21.9639127,36.8051\n                                                                                          C17.4890036,34.6171\n                                                                                          14.4324218,30.0761\n                                                                                          14.4324218,24.8671\n                                                                                          C14.4324218,17.4721\n                                                                                          20.47024,11.4681\n                                                                                          27.9996945,11.4681\n                                                                                          C35.5291491,11.4681\n                                                                                          41.5679855,17.4721\n                                                                                          41.5679855,24.8671","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-181","d":"M28,38.1928\n                                                                                          C35.4928,38.1928\n                                                                                          41.5682909,32.2268\n                                                                                          41.5682909,24.8668\n                                                                                          C41.5682909,17.5078\n                                                                                          35.4928,11.5418\n                                                                                          28,11.5418\n                                                                                          C20.5072,11.5418\n                                                                                          14.4317091,17.5078\n                                                                                          14.4317091,24.8668\n                                                                                          C14.4317091,29.5638\n                                                                                          16.9058909,33.6928\n                                                                                          20.6436364,36.0668","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-182","d":"M35.6039855,35.8495\n                                                                                          L37.5415855,39.8035\n                                                                                          C37.8399127,40.3155\n                                                                                          37.9895855,40.9745\n                                                                                          37.9152582,41.5605\n                                                                                          C37.7655855,43.2445\n                                                                                          36.1996218,44.5625\n                                                                                          34.4860218,44.4155\n                                                                                          L21.66304,44.4155\n                                                                                          C20.9920582,44.4895\n                                                                                          20.3954036,44.3425\n                                                                                          19.7997673,43.9765\n                                                                                          C18.3091491,43.0245\n                                                                                          17.8611491,41.1945\n                                                                                          18.7561309,39.7295\n                                                                                          L20.6194036,36.0695","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-183","d":"M34.0384291,27.2099\n                                                                                          C34.0384291,30.5049\n                                                                                          31.3545018,33.1409\n                                                                                          27.9995927,33.1409\n                                                                                          C24.6446836,33.1409\n                                                                                          21.9617745,30.5049\n                                                                                          21.9617745,27.2099\n                                                                                          C21.9617745,23.9159\n                                                                                          24.6446836,21.2799\n                                                                                          27.9995927,21.2799\n                                                                                          C31.3545018,21.2799\n                                                                                          34.0384291,23.9159\n                                                                                          34.0384291,27.2099","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Fill-184","d":"M28.2236945,17.9115\n                                                                                          C27.5527127,17.9115\n                                                                                          27.0314036,17.3985\n                                                                                          27.0314036,16.7405\n                                                                                          C27.0314036,16.0805\n                                                                                          27.5527127,15.5685\n                                                                                          28.2236945,15.5685\n                                                                                          C28.8946764,15.5685\n                                                                                          29.4159855,16.0805\n                                                                                          29.4159855,16.7405\n                                                                                          C29.4159855,17.3255\n                                                                                          28.8946764,17.9115\n                                                                                          28.2236945,17.9115","fill":"#FFFFFF","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-185","d":"M28,29.0405\n                                                                                          C29.0293818,29.0405\n                                                                                          29.8642909,28.2215\n                                                                                          29.8642909,27.2095\n                                                                                          C29.8642909,26.1995\n                                                                                          29.0293818,25.3795\n                                                                                          28,25.3795\n                                                                                          C26.9706182,25.3795\n                                                                                          26.1357091,26.1995\n                                                                                          26.1357091,27.2095\n                                                                                          C26.1357091,28.2215\n                                                                                          26.9706182,29.0405\n                                                                                          28,29.0405\n                                                                                          Z","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Видеокамера")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                                  Камера внутреннего видеонаблюдения\n                                ")])])]),_vm._v(" "),_c('div',{staticClass:"d-flex rt-space-top"},[_c('div',[_c('svg',{staticStyle:{"border-radius":"50%"},attrs:{"width":"55px","height":"56px","viewBox":"0\n                                                              0 55 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('defs',[_c('linearGradient',{attrs:{"id":"linearGradient-1","x1":"87.1217447%","y1":"0%","x2":"7.61205979%","y2":"100%"}},[_c('stop',{attrs:{"stop-color":"#00BFFE","offset":"0%"}}),_vm._v(" "),_c('stop',{attrs:{"stop-color":"#4DECFF","offset":"100%"}})],1)],1),_vm._v(" "),_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-953.000000,\n                                                                      -2064.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000,\n                                                                          0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000,\n                                                                              1839.000000)"}},[_c('g',{attrs:{"id":"Group-14","transform":"translate(243.000000,\n                                                                                  224.000000)"}},[_c('g',{attrs:{"id":"Clip-301","transform":"translate(0.000000,\n                                                                                      1.000000)"}},[_c('path',{attrs:{"d":"M0,27.644\n                                                                                          C0,42.832\n                                                                                          12.313,55.143\n                                                                                          27.5,55.143\n                                                                                          C42.688,55.143\n                                                                                          55,42.832\n                                                                                          55,27.644\n                                                                                          C55,12.456\n                                                                                          42.688,0.143\n                                                                                          27.5,0.143\n                                                                                          C12.313,0.143\n                                                                                          0,12.456\n                                                                                          0,27.644","fill":"url(#linearGradient-1)","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-314","d":"M17.1025,36.4804\n                                                                                          L15.7765,36.4804\n                                                                                          C13.1945,36.4804\n                                                                                          11.1005,34.1074\n                                                                                          11.1005,31.2464\n                                                                                          C11.0305,28.9434\n                                                                                          12.4965,26.7794\n                                                                                          14.7295,26.0824\n                                                                                          C14.6605,25.5924\n                                                                                          14.6605,25.1044\n                                                                                          14.6605,24.6164\n                                                                                          C14.6605,19.5214\n                                                                                          18.3585,15.4034\n                                                                                          22.8945,15.4034\n                                                                                          C26.5935,15.4034\n                                                                                          29.7345,18.1264\n                                                                                          30.7115,21.9634\n                                                                                          C31.6185,21.1264\n                                                                                          32.8055,20.7084\n                                                                                          33.9915,20.7084\n                                                                                          C36.7135,20.7084\n                                                                                          38.9465,23.0104\n                                                                                          39.2255,25.9424\n                                                                                          C41.8085,25.9424\n                                                                                          43.9015,28.3144\n                                                                                          43.9015,31.1754\n                                                                                          C43.9015,34.0374\n                                                                                          41.8085,36.4104\n                                                                                          39.2255,36.4104\n                                                                                          L37.6205,36.4104","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-316","d":"M22.9648,36.4101\n                                                                                          L31.6188,36.4101","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-318","d":"M27.292,35.7822\n                                                                                          L27.292,24.7562","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('polyline',{attrs:{"id":"Stroke-320","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round","points":"22.9648\n                                                                                          29.082\n                                                                                          27.2918\n                                                                                          24.756\n                                                                                          31.6188\n                                                                                          29.082"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Облачное хранение")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                                  Услуга «Видеонаблюдение» включает 7 дней\n                                  хранения видеозаписей в облаке\n                                ")])])])]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07"},[_vm._v("\n                            Увеличить срок хранения видеозаписей вы можете в\n                            личном кабинете\n                          ")])])])])]),_vm._v(" "),_c('template',{slot:"form"},[_c('form',{attrs:{"data-vv-scope":"form-1"}},[_c('div',{staticClass:"rt-col-12"},[_c('div',{staticClass:"rt-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph\n                                                  rt-font-bold"},[_vm._v("\n                            Заявка на подключение\n                          ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('full-name')],1),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                      rt-col-td-6"},[_c('div',{staticClass:"rt-space-top"},[_c('street')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3\n                                                      rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('house')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3\n                                                      rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('apartment')],1)])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                      rt-col-td-6"},[_c('div',{staticClass:"rt-space-top"},[_c('client-phone')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                      rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('email')],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('agree')],1)])])])]),_vm._v(" "),_c('template',{slot:"card-footer"},[_c('div',{staticClass:"d-flex d-space-between rt-space-top05\n                                      rt-space-bottom"},[_c('div',{staticClass:"flex-end-bottom"},[_vm._v("\n                        Рассрочка\n                      ")]),_vm._v(" "),_c('div',{staticClass:"d-flex"},[_c('rt-price',{attrs:{"value":300}})],1)])]),_vm._v(" "),_c('template',{slot:"button"},[_vm._v("\n                    Подключить\n                  ")])],2)],1)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-td-3 rt-col-md-3"},[_c('div',{staticClass:"wc-inline"},[_c('order-form',{attrs:{"scope":"form-2","offer-id":[
+                  {
+                    offerIds: [382403088590, 370113313190, 373158964290],
+                    regionIds: [3245107, 2231584, 2451058]
+                  },
+                  {
+                    offerIds: [379103003390, 385514593990],
+                    regionIds: [3092903]
+                  }
+                ],"ga":{
+                  offerCategory: 'Умный дом',
+                  offerName: 'Видеонаблюдение в подарок на 12 месяцев',
+                  positionCard: 2,
+                  price: 4990
+                }}},[_c('rt-card-buy',[_c('template',{slot:"content"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-4 rt-col-md-3 flex-column\n                                    d-flex d-md-block"},[_c('div',{staticClass:"rt-space-left\n                                        rt-md-space-horizontal rt-md-space-top\n                                        flex-fill d-flex"},[_c('div',{staticClass:"rt-card-buy__image\n                                            flex-fill",staticStyle:{"background-image":"url(/sites/default/files/img/videocamera.png)"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-col-8 rt-space-vertical\n                                    rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-right\n                                        rt-md-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph\n                                            rt-font-bold"},[_vm._v("\n                            Видеокамера и услуга «Видеонаблюдение» в подарок на\n                            12 месяцев\n                          ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top\n                                            color-main05"},[_vm._v("\n                            Два года сервиса в подарок\n                          ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('div',{staticClass:"d-flex"},[_c('div',[_c('svg',{attrs:{"width":"56px","height":"56px","viewBox":"0\n                                                        0 56 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-952.000000,\n                                                                -1981.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000,\n                                                                    0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000,\n                                                                        1839.000000)"}},[_c('g',{attrs:{"id":"Group-13","transform":"translate(242.000000,\n                                                                            142.000000)"}},[_c('g',{attrs:{"id":"Fill-170"}},[_c('path',{attrs:{"d":"M56,27.6113\n                                                                                    C56,42.7993\n                                                                                    43.4631273,55.1113\n                                                                                    28,55.1113\n                                                                                    C12.5358545,55.1113\n                                                                                    0,42.7993\n                                                                                    0,27.6113\n                                                                                    C0,12.4233\n                                                                                    12.5358545,0.1113\n                                                                                    28,0.1113\n                                                                                    C43.4631273,0.1113\n                                                                                    56,12.4233\n                                                                                    56,27.6113","fill":"#00C8F9","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-180","d":"M41.5679855,24.8671\n                                                                                    C41.5679855,32.2621\n                                                                                    35.4548218,38.1931\n                                                                                    27.9996945,38.1931\n                                                                                    C26.7992582,38.1931\n                                                                                    25.6364945,38.0401\n                                                                                    24.5297309,37.7531\n                                                                                    C23.6337309,37.5211\n                                                                                    22.7754036,37.2021\n                                                                                    21.9639127,36.8051\n                                                                                    C17.4890036,34.6171\n                                                                                    14.4324218,30.0761\n                                                                                    14.4324218,24.8671\n                                                                                    C14.4324218,17.4721\n                                                                                    20.47024,11.4681\n                                                                                    27.9996945,11.4681\n                                                                                    C35.5291491,11.4681\n                                                                                    41.5679855,17.4721\n                                                                                    41.5679855,24.8671","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-181","d":"M28,38.1928\n                                                                                    C35.4928,38.1928\n                                                                                    41.5682909,32.2268\n                                                                                    41.5682909,24.8668\n                                                                                    C41.5682909,17.5078\n                                                                                    35.4928,11.5418\n                                                                                    28,11.5418\n                                                                                    C20.5072,11.5418\n                                                                                    14.4317091,17.5078\n                                                                                    14.4317091,24.8668\n                                                                                    C14.4317091,29.5638\n                                                                                    16.9058909,33.6928\n                                                                                    20.6436364,36.0668","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-182","d":"M35.6039855,35.8495\n                                                                                    L37.5415855,39.8035\n                                                                                    C37.8399127,40.3155\n                                                                                    37.9895855,40.9745\n                                                                                    37.9152582,41.5605\n                                                                                    C37.7655855,43.2445\n                                                                                    36.1996218,44.5625\n                                                                                    34.4860218,44.4155\n                                                                                    L21.66304,44.4155\n                                                                                    C20.9920582,44.4895\n                                                                                    20.3954036,44.3425\n                                                                                    19.7997673,43.9765\n                                                                                    C18.3091491,43.0245\n                                                                                    17.8611491,41.1945\n                                                                                    18.7561309,39.7295\n                                                                                    L20.6194036,36.0695","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-183","d":"M34.0384291,27.2099\n                                                                                    C34.0384291,30.5049\n                                                                                    31.3545018,33.1409\n                                                                                    27.9995927,33.1409\n                                                                                    C24.6446836,33.1409\n                                                                                    21.9617745,30.5049\n                                                                                    21.9617745,27.2099\n                                                                                    C21.9617745,23.9159\n                                                                                    24.6446836,21.2799\n                                                                                    27.9995927,21.2799\n                                                                                    C31.3545018,21.2799\n                                                                                    34.0384291,23.9159\n                                                                                    34.0384291,27.2099","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Fill-184","d":"M28.2236945,17.9115\n                                                                                    C27.5527127,17.9115\n                                                                                    27.0314036,17.3985\n                                                                                    27.0314036,16.7405\n                                                                                    C27.0314036,16.0805\n                                                                                    27.5527127,15.5685\n                                                                                    28.2236945,15.5685\n                                                                                    C28.8946764,15.5685\n                                                                                    29.4159855,16.0805\n                                                                                    29.4159855,16.7405\n                                                                                    C29.4159855,17.3255\n                                                                                    28.8946764,17.9115\n                                                                                    28.2236945,17.9115","fill":"#FFFFFF","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-185","d":"M28,29.0405\n                                                                                    C29.0293818,29.0405\n                                                                                    29.8642909,28.2215\n                                                                                    29.8642909,27.2095\n                                                                                    C29.8642909,26.1995\n                                                                                    29.0293818,25.3795\n                                                                                    28,25.3795\n                                                                                    C26.9706182,25.3795\n                                                                                    26.1357091,26.1995\n                                                                                    26.1357091,27.2095\n                                                                                    C26.1357091,28.2215\n                                                                                    26.9706182,29.0405\n                                                                                    28,29.0405\n                                                                                    Z","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Видеокамера")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                                  Камера внутреннего видеонаблюдения\n                                ")])])]),_vm._v(" "),_c('div',{staticClass:"d-flex rt-space-top"},[_c('div',[_c('svg',{attrs:{"width":"55px","height":"56px","viewBox":"0\n                                                        0 55 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('defs',[_c('linearGradient',{attrs:{"id":"linearGradient-1","x1":"87.1217447%","y1":"0%","x2":"7.61205979%","y2":"100%"}},[_c('stop',{attrs:{"stop-color":"#00BFFE","offset":"0%"}}),_vm._v(" "),_c('stop',{attrs:{"stop-color":"#4DECFF","offset":"100%"}})],1)],1),_vm._v(" "),_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-953.000000,\n                                                                -2064.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000,\n                                                                    0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000,\n                                                                        1839.000000)"}},[_c('g',{attrs:{"id":"Group-14","transform":"translate(243.000000,\n                                                                            224.000000)"}},[_c('g',{attrs:{"id":"Clip-301","transform":"translate(0.000000,\n                                                                                1.000000)"}},[_c('path',{attrs:{"d":"M0,27.644\n                                                                                    C0,42.832\n                                                                                    12.313,55.143\n                                                                                    27.5,55.143\n                                                                                    C42.688,55.143\n                                                                                    55,42.832\n                                                                                    55,27.644\n                                                                                    C55,12.456\n                                                                                    42.688,0.143\n                                                                                    27.5,0.143\n                                                                                    C12.313,0.143\n                                                                                    0,12.456\n                                                                                    0,27.644","fill":"url(#linearGradient-1)","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-314","d":"M17.1025,36.4804\n                                                                                    L15.7765,36.4804\n                                                                                    C13.1945,36.4804\n                                                                                    11.1005,34.1074\n                                                                                    11.1005,31.2464\n                                                                                    C11.0305,28.9434\n                                                                                    12.4965,26.7794\n                                                                                    14.7295,26.0824\n                                                                                    C14.6605,25.5924\n                                                                                    14.6605,25.1044\n                                                                                    14.6605,24.6164\n                                                                                    C14.6605,19.5214\n                                                                                    18.3585,15.4034\n                                                                                    22.8945,15.4034\n                                                                                    C26.5935,15.4034\n                                                                                    29.7345,18.1264\n                                                                                    30.7115,21.9634\n                                                                                    C31.6185,21.1264\n                                                                                    32.8055,20.7084\n                                                                                    33.9915,20.7084\n                                                                                    C36.7135,20.7084\n                                                                                    38.9465,23.0104\n                                                                                    39.2255,25.9424\n                                                                                    C41.8085,25.9424\n                                                                                    43.9015,28.3144\n                                                                                    43.9015,31.1754\n                                                                                    C43.9015,34.0374\n                                                                                    41.8085,36.4104\n                                                                                    39.2255,36.4104\n                                                                                    L37.6205,36.4104","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-316","d":"M22.9648,36.4101\n                                                                                    L31.6188,36.4101","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-318","d":"M27.292,35.7822\n                                                                                    L27.292,24.7562","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('polyline',{attrs:{"id":"Stroke-320","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round","points":"22.9648\n                                                                                    29.082\n                                                                                    27.2918\n                                                                                    24.756\n                                                                                    31.6188\n                                                                                    29.082"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Облачное хранение")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                                  Услуга «Видеонаблюдение» включает 7 дней\n                                  хранения видеозаписей в облаке\n                                ")])])])]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07"},[_vm._v("\n                            Увеличить срок хранения видеозаписей вы можете в\n                            личном кабинете\n                          ")])])])])]),_vm._v(" "),_c('template',{slot:"form"},[_c('form',{attrs:{"data-vv-scope":"form-2"}},[_c('div',{staticClass:"rt-col-12"},[_c('div',{staticClass:"rt-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph\n                                            rt-font-bold"},[_vm._v("\n                            Заявка на подключение\n                          ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('full-name')],1),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                rt-col-td-6"},[_c('div',{staticClass:"rt-space-top"},[_c('street')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3\n                                                rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('house')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3\n                                                rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('apartment')],1)])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                rt-col-td-6"},[_c('div',{staticClass:"rt-space-top"},[_c('client-phone')],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3\n                                                rt-col-td-3"},[_c('div',{staticClass:"rt-space-top"},[_c('email')],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('agree')],1)])])])]),_vm._v(" "),_c('template',{slot:"card-footer"},[_c('div',{staticClass:"d-flex d-space-between rt-space-top05\n                                rt-space-bottom"},[_c('div',{staticClass:"flex-end-bottom"},[_vm._v("\n                        Покупка\n                      ")]),_vm._v(" "),_c('div',{staticClass:"d-flex rt-font-light"},[_c('rt-price',{attrs:{"only-price":true,"value":4990}})],1)])]),_vm._v(" "),_c('template',{slot:"button"},[_vm._v("\n                    Подключить\n                  ")])],2)],1)],1)])])])]),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"rt-container rt-space-top2 rt-space-bottom color-main07"},[_c('rt-annotation',{attrs:{"label":"Примечания"}},[_c('template',{slot:"content"},[_c('p',{staticClass:"rt-annotation-item color-main05"},[_vm._v("\n              Условия оплаты и подключения могут разниться в зависимости от\n              региона РФ.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item color-main05"},[_vm._v("\n              Видео за 300 рублей (Акция) — возможность для физ. лиц подключить\n              при тех. возможности до 31.12.2018 г. Видеонаблюдение (Услуга 1)\n              либо Пакет (Услуга 1 + видеокамера в рассрочку для абонентов\n              Домашнего Интернета (Услуга 2), Домашнего Телефона и Телевидения\n              (Услуга 3)) по цене от 300 руб./мес. с НДС.\n            ")])])],2)],1)])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"row rt-space-vertical25"},[_c('div',{staticClass:"rt-col-3 rt-col-md-3"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/geography_1.svg"}}),_vm._v(" "),_c('h4',{staticClass:"rt-font-h4 rt-font-bold rt-space-top"},[_vm._v("\n              Доступ из любой точки мира\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top color-main05"},[_vm._v("\n              Наблюдайте за тем, что вам дорого в реальном\n              времени с помощью мобильного приложения\n            ")])]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-md-space-top"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/smart_home_cloud_1.svg"}}),_vm._v(" "),_c('h4',{staticClass:"rt-font-h4 rt-font-bold rt-space-top"},[_vm._v("\n              Хранение записей видео до 30 дней\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top color-main05"},[_vm._v("\n              Записанные видео могут храниться в облаке\n              от 3 до 30 дней\n            ")])]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-md-space-top"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/smart_home_move_sensor_1.svg"}}),_vm._v(" "),_c('h4',{staticClass:"rt-font-h4 rt-font-bold rt-space-top"},[_vm._v("\n              Встроенные датчики движения и звука\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top color-main05"},[_vm._v("\n              Получайте уведомления, если камера зафиксировала звук\n              или движение в выделенной области\n            ")])]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-md-space-top"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/smart_home_indoor_video_1.svg"}}),_vm._v(" "),_c('h4',{staticClass:"rt-font-h4 rt-font-bold rt-space-top"},[_vm._v("\n              Качественное видео и легкая установка\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top color-main05"},[_vm._v("\n              Камера записывает видео в разрешении 1280х960, а запуск\n              и подключение не займёт больше 20 минут\n            ")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"color-block--white"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 flex-center-center rt-md-space-vertical2\n                        rt-col-md-3"},[_c('div',[_c('h3',{staticClass:"rt-font-h3 rt-font-bold"},[_vm._v("\n                  Удобное мобильное приложение\n                ")]),_vm._v(" "),_c('div',{staticClass:"row rt-space-top rt-md-space-top2"},[_c('div',{staticClass:"flex-center-center rt-space-left"},[_c('img',{attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/icon/GooglePlay.png","height":"50px"}}),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph color-main07\n                                        rt-space-left"},[_vm._v("\n                      Умный дом\n                    ")])])]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05 color-main07\n                                rt-md-space-top"},[_vm._v("\n                  - смотри видео онлайн или в записи\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05\n                                color-main07"},[_vm._v("\n                  - сохраняй и редактируй видеоклипы\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05\n                                color-main07"},[_vm._v("\n                  - настраивай уведомления и сценарии с участием\n                  видеокамеры и встроенных датчиков\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05\n                                color-main07"},[_vm._v("\n                  - настраивай зоны, в которых камера будет\n                  фиксировать движение\n                ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top05\n                                color-main07"},[_vm._v("\n                  - пользуйся функцией трансляции голоса\n                ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2 rt-font-md-center"},[_c('div',{staticClass:"row md-d-block"},[_c('div',{staticClass:"rt-font-center color-main07\n                                        rt-md-col-12"},[_c('a',{staticClass:"d-inline-block",attrs:{"href":"https://itunes.apple.com/ru/app/%D1%83%D0%BC%D0%BD%D1%8B%D0%B9-%D0%B4%D0%BE%D0%BC-%D1%80%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC/id1205946608?mt=8","target":"_blank"}},[_c('img',{attrs:{"src":"/themes/rt_ru/images/store_apple.svg","width":"170px","height":"50px"}})]),_vm._v(" "),_c('p',{staticClass:"rt-font-label"},[_vm._v("\n                        Версия iOS 10.0\n                      ")])]),_vm._v(" "),_c('div',{staticClass:"rt-font-center color-main07\n                                        rt-md-col-12 rt-md-space-vertical"},[_c('a',{staticClass:"d-inline-block rt-space-left\n                                            rt-md-space-horizontal",attrs:{"href":"https://play.google.com/store/apps/details?id=ru.rt.smarthome","target":"_blank"}},[_c('img',{attrs:{"src":"/themes/rt_ru/images/store_google.svg","width":"170px","height":"50px"}})]),_vm._v(" "),_c('p',{staticClass:"rt-font-label"},[_vm._v("\n                        Версия Android 5.0\n                      ")])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-space-top05 flex-end-bottom\n                        flex-md-center rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-horizontal flex-md-center",staticStyle:{"overflow":"hidden"}},[_c('div',{staticClass:"phone"},[_c('div',{staticClass:"phone__container"}),_vm._v(" "),_c('img',{staticClass:"phone__image",attrs:{"src":"https://www.moscow.rt.ru/sites/default/files/img/mobile_application.jpg"}})])])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container",attrs:{"id":"tariff"}},[_c('div',{staticClass:"row rt-space-top25 rt-space-bottom"},[_c('div',{staticClass:"rt-col-12"},[_c('h3',{staticClass:"rt-font-h3 rt-space-bottom2"},[_vm._v("\n            Пакетные предложения\n          ")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"area"},[_c('div',{attrs:{"id":"All"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row rt-space-vertical25"},[_c('div',{staticClass:"rt-col-12"},[_c('h3',{staticClass:"rt-font-h3"},[_vm._v("\n              Покупка видеокамеры\n            ")])])])}]
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Cards.vue":
-/*!********************************************************!*\
-  !*** ./src/example-pages/components/complex/Cards.vue ***!
-  \********************************************************/
+/***/ "./src/example-pages/components/pages/promo/tv.vue":
+/*!*********************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/tv.vue ***!
+  \*********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Cards_vue_vue_type_template_id_a1936a86___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Cards.vue?vue&type=template&id=a1936a86& */ "./src/example-pages/components/complex/Cards.vue?vue&type=template&id=a1936a86&");
-/* harmony import */ var _Cards_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Cards.vue?vue&type=script&lang=js& */ "./src/example-pages/components/complex/Cards.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tv.vue?vue&type=template&id=7da3ea2d& */ "./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d&");
+/* harmony import */ var _tv_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tv.vue?vue&type=script&lang=js& */ "./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tv.vue?vue&type=style&index=0&lang=css& */ "./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -2471,10 +1520,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Cards_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Cards_vue_vue_type_template_id_a1936a86___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Cards_vue_vue_type_template_id_a1936a86___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _tv_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2486,46 +1535,51 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Cards.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************!*\
-  !*** ./src/example-pages/components/complex/Cards.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************/
+/***/ "./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Cards_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Cards.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Cards.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Cards_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib!../../../../../node_modules/vue-loader/lib??vue-loader-options!./tv.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Cards.vue?vue&type=template&id=a1936a86&":
-/*!***************************************************************************************!*\
-  !*** ./src/example-pages/components/complex/Cards.vue?vue&type=template&id=a1936a86& ***!
-  \***************************************************************************************/
+/***/ "./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css&":
+/*!******************************************************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css& ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/vue-loader/lib??vue-loader-options!./tv.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d&":
+/*!****************************************************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d& ***!
+  \****************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Cards_vue_vue_type_template_id_a1936a86___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Cards.vue?vue&type=template&id=a1936a86& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Cards.vue?vue&type=template&id=a1936a86&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Cards_vue_vue_type_template_id_a1936a86___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./tv.vue?vue&type=template&id=7da3ea2d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/tv.vue?vue&type=template&id=7da3ea2d&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Cards_vue_vue_type_template_id_a1936a86___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tv_vue_vue_type_template_id_7da3ea2d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
-
-/***/ }),
-
-/***/ "./src/molecules/components/Card/docs/index.json":
-/*!*******************************************************!*\
-  !*** ./src/molecules/components/Card/docs/index.json ***!
-  \*******************************************************/
-/*! exports provided: items, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-card-rounded\",\"property\":\":need-resize\",\"type\":\"Number\",\"description\":\"Если есть необходимлсть вызвать resize event, то это время в ms для его триггера\",\"value\":\"0\",\"version\":\"0.3.45\"},{\"name\":\"rt-card-rounded\",\"property\":\":background-сolor\",\"type\":\"String\",\"description\":\"Название цвета заднего фона из /colors все b2c- пишется без b2c\",\"value\":\"\",\"version\":\"0.3.45\"},{\"name\":\"rt-card-rounded\",\"property\":\":сolor\",\"type\":\"String\",\"description\":\"Название цвета текст из /colors все b2c- пишется без b2c\",\"value\":\"\",\"version\":\"0.3.45\"},{\"name\":\"rt-card\",\"property\":\"lazy-background-image, lazy-image\",\"type\":\"String\",\"description\":\"Ссылка на картинку заглушку для lazy-load (обычно это легкая замыленная версия исходного фото)\",\"value\":\"\"},{\"name\":\"rt-card\",\"property\":\"lazy-image-tablet\",\"type\":\"String\",\"description\":\"Ссылка на картинку заглушку для Tablet\",\"value\":\"\"},{\"name\":\"rt-card\",\"property\":\"lazy-image-mobile\",\"type\":\"String\",\"description\":\"Ссылка на картинку заглушку для Mobile\",\"value\":\"\"},{\"name\":\"rt-card\",\"property\":\"background-image\",\"type\":\"String\",\"description\":\"url-адрес картинки карточки\",\"value\":\"\"},{\"name\":\"rt-card\",\"property\":\"background-image-tablet\",\"type\":\"String\",\"description\":\"url-адрес картинки карточки для Tablet\",\"value\":\"\",\"version\":\" >= 0.0.86\"},{\"name\":\"rt-card\",\"property\":\"background-image-mobile\",\"type\":\"String\",\"description\":\"url-адрес картинки карточки для Mobile\",\"value\":\"\",\"version\":\" >= 0.0.86\"},{\"name\":\"rt-card\",\"property\":\":static-body-height\",\"type\":\"Boolean\",\"description\":\"Устанавливает `flex: 0` для card. Необходимо для случаев сброса авто ширины и высоты\",\"value\":\"false\"},{\"name\":\"rt-card\",\"property\":\":hide-background-on-mobile\",\"type\":\"Boolean\",\"description\":\"Скрывает картинку карточки при мобильном разрешении\",\"value\":\"false\"},{\"name\":\"rt-card\",\"property\":\"(:)background-size-width\",\"type\":\"String | Number\",\"description\":\"Задает ширину картинки карточки `number` - любое число становится px, `string` - любые значения\",\"value\":\"null\"},{\"name\":\"rt-card\",\"property\":\"(:)background-size-height\",\"type\":\"String | Number\",\"description\":\"Задает высоту картинки карточки `number` - любое число становится px, `string` - любые значения\",\"value\":\"false\"},{\"name\":\"rt-card\",\"property\":\":background-image-stand-alone\",\"type\":\"Boolean\",\"description\":\"Картинка карточки будет создана как отдельный блок\",\"value\":\"false\"},{\"name\":\"rt-card\",\"property\":\"background-color-type\",\"type\":\"String\",\"description\":\"Устанавливает цвет фона карточки возможные значения: `dark-state`, `yellow`, `red`, `dark-blue`, `light-blue`, `orange`, `pink`, `green`\",\"value\":\"null\"},{\"name\":\"rt-card\",\"property\":\":background-cover\",\"type\":\"Boolean\",\"description\":\"Устанавливает `cover` значение для картинки карточки\",\"value\":\"false\"},{\"name\":\"rt-card\",\"property\":\":background-repeat\",\"type\":\"Boolean\",\"description\":\"Устанавливает `background-repeat` опцию на картинке фона\",\"value\":\"false\"},{\"name\":\"rt-card\",\"property\":\":background-blur\",\"type\":\"Number\",\"description\":\"Размытие картинки значение от `0.0` до `1.0`\",\"value\":\"null\"},{\"name\":\"rt-card\",\"property\":\":background-smoke\",\"type\":\"Number\",\"description\":\"Размытие заднего фона значения `0.2`, `0.3`, `0.5`\",\"value\":\"null\"},{\"name\":\"rt-card\",\"property\":\":background-opacity\",\"type\":\"Boolean\",\"description\":\"Прозрачность заднего фона значение от `0.0` до `1.0`\",\"value\":\"false\"},{\"name\":\"rt-card\",\"property\":\":is-white-color\",\"type\":\"Boolean\",\"description\":\"Устанавливает белый цвет текста\",\"value\":\"false\"},{\"name\":\"rt-card\",\"property\":\"background-position\",\"type\":\"String\",\"description\":\"Задает расположение фона карточки возможные значения: `top`, `left`, `bottom`, `right`, `top-left`, `top-right`, `bottom-left`, `bottom-right`\",\"value\":\"null\"},{\"name\":\"rt-card\",\"property\":\"(:)background-position-top\",\"type\":[\"String\",\"Number\"],\"description\":\"Устанавливает отступ картинки сверху `number - любое число становится `px`, `string` - любые значения. `Работает только при background-image-stand-alone и background-image`\",\"value\":\"null\"},{\"name\":\"rt-card\",\"property\":\"(:)background-position-left\",\"type\":[\"String\",\"Number\"],\"description\":\"Устанавливает отступ картинки слева `number - любое число становится `px`, `string` - любые значения. `Работает только при background-image-stand-alone и background-image`\",\"value\":\"null\"},{\"name\":\"rt-card\",\"property\":\"(:)background-position-right\",\"type\":[\"String\",\"Number\"],\"description\":\"Устанавливает отступ картинки справа `number - любое число становится `px`, `string` - любые значения. `Работает только при background-image-stand-alone и background-image`\",\"value\":\"null\"},{\"name\":\"rt-card\",\"property\":\"(:)background-position-bottom\",\"type\":[\"String\",\"Number\"],\"description\":\"Устанавливает отступ картинки снизу `number - любое число становится `px`, `string` - любые значения. `Работает только при background-image-stand-alone и background-image`\",\"value\":\"null\"},{\"name\":\"rt-card\",\"property\":\":offset-top\",\"type\":\"Boolean\",\"description\":\"Флаг указывающий отступ сверху карточки\",\"value\":\"false\"},{\"name\":\"rt-card\",\"property\":\":col-size\",\"type\":\"Number\",\"description\":\"Поджимает контент карточки. Было создано для создания 6 колоночной карточки, где 3 колонки - текст, остальное - картинка. `Доступно только значение 2`\",\"value\":\"null\"},{\"name\":\"rt-card\",\"property\":\":card-height\",\"type\":\"Number\",\"description\":\"Устанавливает высоту карточки\",\"value\":\"null\"},{\"name\":\"rt-card\",\"property\":\":card-header-height\",\"type\":\"Number\",\"description\":\"Устанавливает высоту заголовка карточки\",\"value\":\"null\"},{\"name\":\"rt-card\",\"property\":\":card-body-height\",\"type\":\"Number\",\"description\":\"Устанавливает высоту контейнера для контента карточки\",\"value\":\"null\"},{\"name\":\"rt-card\",\"property\":\":ga\",\"type\":\"Object\",\"description\":\"Используется для сбора Google-аналитики.:ga=\\\"{ value: 'Заголовок на карточке' }\\\"\",\"value\":\"null\"}]}");
 
 /***/ })
 

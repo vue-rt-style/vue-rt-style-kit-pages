@@ -5,6 +5,7 @@ const index = [
   { path: "/space", name: "app-grid", component: () => import("../components/main/SpaceClassElements.vue") },
   { path: "/grid", name: "app-grid", component: () => import("../components/main/Grid.vue") },
   { path: "/grid_component", name: "grid component", component: () => import("../components/main/GridComponent.vue") },
+  { path: "/system_icons", name: "system icons", component: () => import("../components/simple/SystemIcons.vue") },
 
   // form
   { path: "/buttons", name: "app-buttons", component: () => import("../components/form/Buttons.vue") },
