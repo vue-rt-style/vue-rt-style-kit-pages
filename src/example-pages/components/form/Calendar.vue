@@ -28,6 +28,32 @@
               ></rt-calendar>
             </rt-col>
 					</rt-row>
+          <rt-row class="app-row">
+            <rt-col :size="12">
+              <h3>Combine view</h3>
+            </rt-col>
+            <rt-col :size="4" :tablet-size="6">
+              <div class="_form__input">
+                <rt-input
+                  placeholder="Как Вас зовут?"
+                ></rt-input>
+              </div>
+            </rt-col>
+            <rt-col :size="4" :tablet-size="6">
+              <div class="_form__input">
+                <rt-calendar
+                  label="Удобные дата и время"
+                  v-model="customTimePickerModel"
+                  :calendar-props="customTimePickerProps"
+                ></rt-calendar>
+              </div>
+            </rt-col>
+            <rt-col :size="4" :tablet-size="6">
+              <div class="_form__input">
+                <rt-textarea placeholder="Комментарий" :auto-resize="false"></rt-textarea>
+              </div>
+            </rt-col>
+					</rt-row>
 				</div>
 			</div>
 		</div>
@@ -91,3 +117,10 @@
     }
   };
 </script>
+
+<style lang="stylus">
+  ._form__input
+    margin-bottom 8px
+    padding 15px 0 19px
+    position relative
+</style>
