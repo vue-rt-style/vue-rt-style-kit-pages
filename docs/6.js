@@ -221,7 +221,7 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
 /*! exports provided: items, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-calendar\",\"property\":\"label\",\"type\":\"String\",\"description\":\"Подпись над полем\",\"value\":\"\"},{\"name\":\"rt-calendar\",\"property\":\"placeholder\",\"type\":\"String\",\"description\":\"Текст внутри поля\",\"value\":\"Выберите дату\"},{\"name\":\"rt-calendar\",\"property\":\"append-to-body\",\"type\":\"Boolean\",\"description\":\"Монтировать попап в body элемент для улучшения визуального отображения\",\"value\":\"true\"},{\"name\":\"rt-calendar\",\"property\":\":calendarProps\",\"type\":\"Object\",\"description\":\"Задать специфические св-ва для календаря\",\"value\":\"null\"}]}");
+module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-calendar\",\"property\":\"label\",\"type\":\"String\",\"description\":\"Подпись над полем\",\"value\":\"\"},{\"name\":\"rt-calendar\",\"property\":\"placeholder\",\"type\":\"String\",\"description\":\"Текст внутри поля\",\"value\":\"Выберите дату\"},{\"name\":\"rt-calendar\",\"property\":\"append-to-body\",\"type\":\"Boolean\",\"description\":\"Монтировать попап в body элемент для улучшения визуального отображения\",\"value\":\"false\"},{\"name\":\"rt-calendar\",\"property\":\":calendarProps\",\"type\":\"Object\",\"description\":\"Задать специфические св-ва для календаря\",\"value\":\"null\"}]}");
 
 /***/ }),
 
