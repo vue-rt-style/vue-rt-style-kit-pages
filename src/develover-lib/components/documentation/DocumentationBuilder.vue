@@ -64,7 +64,7 @@
                 }
             } else {
                 return {
-                    labels: this.this.labelsJson
+                    labels: this.labelsJson
                 };
             }
         },
@@ -73,7 +73,6 @@
             if (!this.json["items"] || this.json["items"].length == 0) {
                 return null;
             }
-
             const header = (() => {
                 return this.labels.map(item => {
                     return <rt-table-head-item>{item.label}</rt-table-head-item>;
@@ -90,6 +89,9 @@
                     } else {
                         tableCellText = data[labelItem.name];
                     }
+                  if(tableCellText.search('<br/>')>0){
+                    tableCellText = tableCellText.replace('<br/>','\n\n')
+                  }
                     return <rt-table-item html={markdown.toHTML(tableCellText)}></rt-table-item>;
                 });
             };
