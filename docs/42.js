@@ -15,8 +15,6 @@ var _vue_rt_style_kit_atoms_local_components_SystemIcons_docs_names_json__WEBPAC
 var _vue_rt_style_kit_atoms_local_components_SystemIcons_docs_classnames_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-atoms-local/components/SystemIcons/docs/classnames.json */ "./src/atoms/components/SystemIcons/docs/classnames.json", 1);
 /* harmony import */ var _vue_rt_style_kit_atoms_local_components_SystemIcons_docs_index_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @vue-rt-style-kit-atoms-local/components/SystemIcons/docs/index.json */ "./src/atoms/components/SystemIcons/docs/index.json");
 var _vue_rt_style_kit_atoms_local_components_SystemIcons_docs_index_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-atoms-local/components/SystemIcons/docs/index.json */ "./src/atoms/components/SystemIcons/docs/index.json", 1);
-//
-//
 
 
 
@@ -76,11 +74,15 @@ var componentsList = {};
       slot: "body"
     }, [this.renderList])])])]), h("div", {
       "class": "app-row row"
+    }, [h("rt-col", {
+      attrs: {
+        size: "12"
+      }
     }, [h("pre-code", {
       attrs: {
         text: '<rt-button color="purple-border rt-sys-icon-hover--orange"><rt-system-icons color="purple" name="add large"></rt-system-icons> <span class="sp-l-1">свойство</span></rt-button>'
       }
-    })]), h("documentation-builder", {
+    })])]), h("documentation-builder", {
       attrs: {
         json: this.documentation,
         type: "props"
