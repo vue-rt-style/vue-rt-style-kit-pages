@@ -52,7 +52,7 @@ export default {
         </div>
         <div class="app-body">
           <div class="app-row row">
-
+            <rt-col size="12">
             <rt-table class="rt-font-label">
               <template slot="header">
                 <rt-table-head-item>icon</rt-table-head-item>
@@ -61,6 +61,7 @@ export default {
               </template>
               <template slot="body">{this.renderList}</template>
             </rt-table>
+            </rt-col>
           </div>
           <div class="app-row row">
             <pre-code text='<rt-button color="purple-border rt-sys-icon-hover--orange"><rt-system-icons color="purple" name="add large"></rt-system-icons> <span class="sp-l-1">свойство</span></rt-button>'></pre-code>

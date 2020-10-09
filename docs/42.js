@@ -64,13 +64,17 @@ var componentsList = {};
       "class": "app-body"
     }, [h("div", {
       "class": "app-row row"
+    }, [h("rt-col", {
+      attrs: {
+        size: "12"
+      }
     }, [h("rt-table", {
       "class": "rt-font-label"
     }, [h("template", {
       slot: "header"
     }, [h("rt-table-head-item", ["icon"]), h("rt-table-head-item", ["name"]), h("rt-table-head-item", ["label"])]), h("template", {
       slot: "body"
-    }, [this.renderList])])]), h("div", {
+    }, [this.renderList])])])]), h("div", {
       "class": "app-row row"
     }, [h("pre-code", {
       attrs: {
