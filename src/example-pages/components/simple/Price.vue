@@ -5,46 +5,46 @@
         <div class="app-title row"><h1 class="col rt-font-hero">Price</h1></div>
         <div class="app-body">
           <div>
-            <rt-price :v2="true" :is-option="true" :value='750.2' currency='$'/>
+            <pre-code text='<rt-price :v2="true" :is-option="true" :value="750.2" currency="$"/>'></pre-code>
           </div>
           <div>
-            <rt-price :v2="true" :is-option="true" option-label="до" :value='750.2' time-interval="год" currency='$'/>
+            <pre-code text='<rt-price :v2="true" :is-option="true" option-label="до" :value="750.2" time-interval="год" currency="$"/>'></pre-code>
           </div>
           <div>
-            <rt-price :v2="true" :is-option="true" option-label="в рассрочку до" :value='750.2' currency='$'/>
+            <pre-code text='<rt-price :v2="true" :is-option="true" option-label="в рассрочку до" :value="750.2" currency="$"/>'></pre-code>
           </div>
           <div>
-            <rt-price :v2="true" :value='7150.2' :old-value='62166.2234'/>
+            <pre-code text='<rt-price :v2="true" :value="7150.2" :old-value="62166.2234"/>'></pre-code>
           </div>
           <div>
-            <rt-price :v2="true" :value='7150.2'/>
+            <pre-code text='<rt-price :v2="true" :value="7150.2"/>'></pre-code>
           </div>
           <div>
-            <rt-price :v2="true" :value='71150.2' :old-value='666.2234'/>
+            <pre-code text='<rt-price :v2="true" :value="71150.2" :old-value="666.2234"/>'></pre-code>
           </div>
           <div>
-            <rt-price :v2="true" :value='713150.2' :old-value='6661242' currency='$'/>
+            <pre-code text='<rt-price :v2="true" :value="713150.2" :old-value="6661242" currency="$"/>'></pre-code>
           </div>
           <div>
-            <rt-price :v2="true" :show-float="true" :value='0.2' :old-value='666.2234' currency='$'/>
+            <pre-code text='<rt-price :v2="true" :show-float="true" :value="0.2" :old-value="666.2234" currency="$"/>'></pre-code>
           </div>
           <div>
-            <rt-price :v2="true" :show-float="true" :value='0.0332' :old-value='666.2234' currency='$'/>
+            <pre-code text='<rt-price :v2="true" :show-float="true" :value="0.0332" :old-value="666.2234" currency="$"/>'></pre-code>
           </div>
           <div>
-            <rt-price :v2="true" :show-float="true" :value='0.2323232' :old-value='666.2234' currency='$'/>
+            <pre-code text='<rt-price :v2="true" :show-float="true" :value="0.2323232" :old-value="666.2234" currency="$"/>'></pre-code>
           </div>
           <div>
-            <rt-price :v2="true" :show-float="true" :value='122.2323232' :old-value='666.2234' currency='$'/>
+            <pre-code text='<rt-price :v2="true" :show-float="true" :value="122.2323232" :old-value="666.2234" currency="$"/>'></pre-code>
           </div>
           <div>
-            <rt-price :v2="true" :show-float="true" :value='122332.2323232' :old-value='666.2234' currency='$'/>
+            <pre-code text='<rt-price :v2="true" :show-float="true" :value="122332.2323232" :old-value="666.2234" currency="$"/>'></pre-code>
           </div>
           <div>
-            <rt-price :v2="true" :show-float="true" :value='122332323.2323232' :old-value='666.2234' currency='$'/>
+            <pre-code text='<rt-price :v2="true" :show-float="true" :value="122332323.2323232" :old-value="666.2234" currency="$"/>'></pre-code>
           </div>
           <div>
-            <rt-price :v2="true" :value='1231223169' :old-value='666' :only-price='true' currency='€'/>
+            <pre-code text='<rt-price :v2="true" :value="1231223169" :old-value="666" :only-price="true" currency="€"/>'></pre-code>
           </div>
         </div>
       </div>
@@ -54,42 +54,37 @@
         <rt-row>
           <rt-col>
             <div>
-              <rt-price :v2="true" :bright="true" :is-option="true" :value='750.2' currency='$'/>
+              <pre-code text='<rt-price :v2="true" :bright="true" :is-option="true" :value="750.2" currency="$"/>'></pre-code>
             </div>
             <div>
-              <rt-price :v2="true" :bright="true" :value='7150.2' :old-value='62166.2234'/>
+              <pre-code text='<rt-price :v2="true" :bright="true" :value="7150.2" :old-value="62166.2234"/>'></pre-code>
             </div>
             <div>
-              <rt-price :v2="true" :bright="true" :value='71150.2' :old-value='666.2234'/>
+              <pre-code text='<rt-price :v2="true" :bright="true" :value="71150.2" :old-value="666.2234"/>'></pre-code>
             </div>
             <div>
-              <rt-price :v2="true" :bright="true" :value='713150.2' :old-value='6661242' currency='$'/>
+              <pre-code text='<rt-price :v2="true" :bright="true" :value="713150.2" :old-value="6661242" currency="$"/>'></pre-code>
             </div>
             <div>
-              <rt-price :v2="true" :bright="true" :show-float="true" :value='0.2' :old-value='666.2234' currency='$'/>
+              <pre-code text='<rt-price :v2="true" :bright="true" :show-float="true" :value="0.2" :old-value="666.2234" currency="$"/>'></pre-code>
             </div>
             <div>
-              <rt-price :v2="true" :bright="true" :show-float="true" :value='0.2332' :old-value='666.2234'
-                        currency='$'/>
+              <pre-code text='<rt-price :v2="true" :bright="true" :show-float="true" :value="0.2332" :old-value="666.2234" currency="$"/>'></pre-code>
             </div>
             <div>
-              <rt-price :v2="true" :bright="true" :show-float="true" :value='0.2323232' :old-value='666.2234'
-                        currency='$'/>
+              <pre-code text='<rt-price :v2="true" :bright="true" :show-float="true" :value="0.2323232" :old-value="666.2234" currency="$"/>'></pre-code>
             </div>
             <div>
-              <rt-price :v2="true" :bright="true" :show-float="true" :value='122.2323232' :old-value='666.2234'
-                        currency='$'/>
+              <pre-code text='<rt-price :v2="true" :bright="true" :show-float="true" :value="122.2323232" :old-value="666.2234" currency="$"/>'></pre-code>
             </div>
             <div>
-              <rt-price :v2="true" :bright="true" :show-float="true" :value='122332.2323232' :old-value='666.2234'
-                        currency='$'/>
+              <pre-code text='<rt-price :v2="true" :bright="true" :show-float="true" :value="122332.2323232" :old-value="666.2234" currency="$"/>'></pre-code>
             </div>
             <div>
-              <rt-price :v2="true" :bright="true" :show-float="true" :value='122332323.2323232' :old-value='666.2234'
-                        currency='$'/>
+              <pre-code text='<rt-price :v2="true" :bright="true" :show-float="true" :value="122332323.2323232" :old-value="666.2234" currency="$"/>'></pre-code>
             </div>
             <div>
-              <rt-price :v2="true" :bright="true" :value='1231223169' :old-value='666' :only-price='true' currency='€'/>
+              <pre-code text='<rt-price :v2="true" :bright="true" :value="1231223169" :old-value="666" :only-price="true" currency="€"/>'></pre-code>
             </div>
           </rt-col>
         </rt-row>
