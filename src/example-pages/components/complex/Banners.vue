@@ -10,9 +10,9 @@
     </div>
     <div class="sp-b-2">
       <rt-banner-v2 name="test00">
-        <rt-banner-item-v2 banner-name="test00" color-type='purple' :ga='{name:"Смотрим вместе"}'>
+        <rt-banner-item-v2 banner-name="test00" color-type='purple' ga-banner-name="это мой гребанный id" :ga='{name:"Смотрим вместе"}'>
           <template slot='header'>
-            <p class='tagline rt-font-label-uppercase rt-font-bold color-white05'>Это текст вместо лого</p>
+            <p class='tagline rt-font-label-uppercase rt-font-bold color-white05'>Это текст вместо лог!!о</p>
           </template>
           <template slot='mobile-header'>
             <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' height='32px' alt=''>

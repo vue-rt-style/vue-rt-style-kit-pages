@@ -43,7 +43,8 @@ const index = [
   { path: "/annotation", name: "app-annotation", component: () => import("../components/group/Annotation.vue") },
   { path: "/row-list", name: "app-row-list", component: () => import("../components/group/RowList.vue") },
   { path: "/options-list", name: "app-row-list", component: () => import("../components/group/OptionsList.vue") },
-  { path: "/tabs", name: "app-banners", component: () => import("../components/group/Tabs.vue") },
+  { path: "/tabs", name: "app-tabs", component: () => import("../components/group/Tabs.vue") },
+  { path: "/tabs-slider", name: "app-tabs-slider", component: () => import("../components/group/TabsSlider.vue") },
   { path: "/scroll-tabs", name: "app-scrollTabs", component: () => import("../components/group/ScrollTabs.vue") },
   { path: "/benefit", name: "benefit", component: () => import("../components/group/BenefitBlock.vue") },
 

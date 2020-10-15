@@ -336,6 +336,14 @@
           "for_b2c" : true
         },
         {
+          "name" : "Tabs Slider",
+          "title" : "Tabs slider",
+          "url" : "/tabs-slider",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
           "name" : "Tabs",
           "title" : "Tabs",
           "url" : "/tabs",

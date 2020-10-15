@@ -30,6 +30,8 @@ import {
 
 import {
     ScrollTabs,
+    TabsSlider,
+    TabsSliderItem,
     Tabs,
     CheckboxTabs,
     TabsNavigationItem,
@@ -136,9 +138,8 @@ import {
 } from '@vue-rt-style-kit-icons-local'
 
 import AppMenu from "./components/AppMenu.vue";
-console.info('Jumbotron',Jumbotron)
 const componentsList = {};
-
+console.info('TabsSliderItem',TabsSliderItem)
 componentsList[GridRow.name] = GridRow;
 componentsList[GridColumn.name] = GridColumn;
 componentsList[Button.name] = Button;
@@ -162,6 +163,8 @@ componentsList[Textarea.name] = Textarea;
 componentsList[TextareaStatic.name] = TextareaStatic;
 componentsList[ScrollTabs.name] = ScrollTabs;
 componentsList[Tabs.name] = Tabs;
+componentsList[TabsSlider.name] = TabsSlider;
+componentsList[TabsSliderItem.name] = TabsSliderItem;
 componentsList[TabsNavigationItem.name] = TabsNavigationItem;
 componentsList[TabsContentItem.name] = TabsContentItem;
 componentsList[Annotation.name] = Annotation;
