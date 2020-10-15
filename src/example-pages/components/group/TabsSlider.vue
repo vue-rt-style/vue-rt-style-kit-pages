@@ -30,6 +30,46 @@
                 <img src="https://m1.35photo.pro/photos_main/1007/5039020.jpg"/>
               </template>
             </rt-tabs-slider-item>
+            <rt-tabs-slider-item  label="Заголовок пункта 3" tabs-slider-name="tabs-slider-1">
+              <template slot="content">
+                <p class="rt-font-h2">Заголовок блока 3</p>
+                <p class="sp-t-2">На краю дороги стоял дуб. Он был, вероятно, в десять раз старше берез,
+                  составлявших лес, в десять раз толще и в два раза выше каждой березы.</p>
+              </template>
+              <template slot="image">
+                <img src="https://m1.35photo.pro/photos_main/1005/5026518.jpg"/>
+              </template>
+            </rt-tabs-slider-item>
+            <rt-tabs-slider-item  label="Заголовок пункта 4" tabs-slider-name="tabs-slider-1">
+              <template slot="content">
+                <p class="rt-font-h2">Заголовок блока 4</p>
+                <p class="sp-t-2">На краю дороги стоял дуб. Он был, вероятно, в десять раз старше берез,
+                  составлявших лес, в десять раз толще и в два раза выше каждой березы.</p>
+              </template>
+              <template slot="image">
+                <img src="https://m1.35photo.pro/photos_main/1000/5004154.jpg"/>
+              </template>
+            </rt-tabs-slider-item>
+            <rt-tabs-slider-item  label="Заголовок пункта 5" tabs-slider-name="tabs-slider-1">
+              <template slot="content">
+                <p class="rt-font-h2">Заголовок блока 5</p>
+                <p class="sp-t-2">На краю дороги стоял дуб. Он был, вероятно, в десять раз старше берез,
+                  составлявших лес, в десять раз толще и в два раза выше каждой березы.</p>
+              </template>
+              <template slot="image">
+                <img src="https://m1.35photo.pro/photos_main/999/4999134.jpg"/>
+              </template>
+            </rt-tabs-slider-item>
+            <rt-tabs-slider-item  label="Заголовок пункта 6" tabs-slider-name="tabs-slider-1">
+              <template slot="content">
+                <p class="rt-font-h2">Заголовок блока 6</p>
+                <p class="sp-t-2">На краю дороги стоял дуб. Он был, вероятно, в десять раз старше берез,
+                  составлявших лес, в десять раз толще и в два раза выше каждой березы.</p>
+              </template>
+              <template slot="image">
+                <img src="https://m1.35photo.pro/photos_main/995/4977757.jpg"/>
+              </template>
+            </rt-tabs-slider-item>
           </rt-col>
         </rt-row>
     </div>
