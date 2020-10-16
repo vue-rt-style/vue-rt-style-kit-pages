@@ -84,13 +84,11 @@
                         data[labelItem.name] = "<= 0.0.16";
                     }
                     let tableCellText;
-                    console.info('labelItem.name',labelItem.name)
                     if (Array.isArray(data[labelItem.name])) {
                         tableCellText = data[labelItem.name].join(' ');
                     } else {
                         tableCellText = data[labelItem.name];
                     }
-                    console.info(tableCellText.search('<br/>'))
                   if(tableCellText.search('<br/>')>0){
                     tableCellText = tableCellText.replace(/<br\/>/g,'\n\n')
                   }
