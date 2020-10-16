@@ -90,8 +90,9 @@
                     } else {
                         tableCellText = data[labelItem.name];
                     }
+                    console.info(tableCellText.search('<br/>'))
                   if(tableCellText.search('<br/>')>0){
-                    tableCellText = tableCellText.replace('<br/>','\n\n')
+                    tableCellText = tableCellText.replace(/<br\/>/g,'\n\n')
                   }
                     return <rt-table-item html={markdown.toHTML(tableCellText)}></rt-table-item>;
                 });
