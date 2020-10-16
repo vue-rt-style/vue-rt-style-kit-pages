@@ -26,7 +26,7 @@ export default {
           <rt-col size="12">
             <p class="sp-b-2">Элементы вне rt-tabs-slider</p>
             <div>
-            <rt-tabs-slider-item label="Заголовок пункта 1" tabs-slider-name="tabs-slider-1">
+            <rt-tabs-slider-item label="Заголовок 1" tabs-slider-name="tabs-slider-1">
               <template slot="content">
                 <p class="rt-font-h2">Заголовок блока</p>
                 <p class="sp-t-2 td-sp-t-1 md-sp-t-0-4">На краю дороги стоял дуб. Он был, вероятно, в десять раз старше берез, составлявших
