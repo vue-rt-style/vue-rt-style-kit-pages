@@ -209,7 +209,7 @@
 
 
 <script>
-// import documentation from "@vue-rt-style-kit-molecules-local/components/Tabs/docs/index.json";
+import documentation from "@vue-rt-style-kit-molecules-local/components/TabsSlider/docs/index.json";
 // import componentsList from "../../componentsList";
 
 export default {
@@ -218,12 +218,10 @@ export default {
     documentation: {}
   }),
   mounted() {
-    // this.documentation = documentation;
+    this.documentation = documentation;
+    console.info('***-->>>',this.documentation)
   },
   methods: {
-    openPopup() {
-      document.querySelector('.rtb-popup-wrapper').classList.add('rtb-popup-wrapper--active')
-    }
   }
 };
 </script>

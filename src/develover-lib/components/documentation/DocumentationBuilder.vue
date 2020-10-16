@@ -84,6 +84,7 @@
                         data[labelItem.name] = "<= 0.0.16";
                     }
                     let tableCellText;
+                    console.info('labelItem.name',labelItem.name)
                     if (Array.isArray(data[labelItem.name])) {
                         tableCellText = data[labelItem.name].join(' ');
                     } else {
