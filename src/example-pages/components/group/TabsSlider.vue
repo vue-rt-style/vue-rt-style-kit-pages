@@ -25,7 +25,7 @@ export default {
         <rt-row class="app-row">
           <rt-col size="12">
             <p class="sp-b-2">Элементы вне rt-tabs-slider</p>
-            <div>
+            <pre-code text='<div>
             <rt-tabs-slider-item label="Заголовок 1" tabs-slider-name="tabs-slider-1">
               <template slot="content">
                 <p class="rt-font-h2">Заголовок блока</p>
@@ -200,7 +200,7 @@ export default {
               <img src="https://m1.35photo.pro/photos_main/999/4999134.jpg"/>
             </template>
           </rt-tabs-slider-item>
-          <rt-tabs-slider-item label="Заголовок пункта 6" tabs-slider-name="tabs-slider-1">
+          <rt-tabs-slider-item label="Заголовок пункта 01" sort="0" tabs-slider-name="tabs-slider-1">
             <template slot="content">
               <p class="rt-font-h2">Заголовок блока 6</p>
               <p class="sp-t-2">На краю дороги стоял дуб. Он был, вероятно, в десять раз старше берез,
@@ -212,7 +212,7 @@ export default {
           </rt-tabs-slider-item>
           <rt-tabs-slider name="tabs-slider-1">
           </rt-tabs-slider>
-          </div>
+          </div>'></pre-code>
 
             <div class="sp-b-5"></div>
             <div class="sp-b-5"></div>
