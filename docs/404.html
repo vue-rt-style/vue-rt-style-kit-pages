@@ -1,37 +1,129 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>vue-stylekit</title>
-	<script type="text/javascript">
-    // Single Page Apps for GitHub Pages
-    // https://github.com/rafrex/spa-github-pages
-    // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
-    // ----------------------------------------------------------------------
-    // This script takes the current url and converts the path and query
-    // string into just a query string, and then redirects the browser
-    // to the new url with only a query string and hash fragment,
-    // e.g. http://www.foo.tld/one/two?a=b&c=d#qwe, becomes
-    // http://www.foo.tld/?p=/one/two&q=a=b~and~c=d#qwe
-    // Note: this 404.html file must be at least 512 bytes for it to work
-    // with Internet Explorer (it is currently > 512 bytes)
-    // If you're creating a Project Pages site and NOT using a custom domain,
-    // then set pathPrefix = true. This way the repo name will remain in the path:
-    // https://username.github.io/repo-name/one/two?a=b&c=d#qwe becomes
-    // https://username.github.io/repo-name/?p=/one/two&q=a=b~and~c=d#qwe
-    // Otherwise, leave pathPrefix as false.
-    var pathPrefix = false;
-    var l = window.location;
-    console.info('404',l.pathname,l.pathname.split('/'))
-    l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 2).join('/') + '/?p=/' +
-        l.pathname.slice(1).split('/').slice(1).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-    );
-	</script>
-</head>
-<body>
-</body>
-</html>
+<div class="wc-inline">
+	<div class="rt-container sp-t-4 sp-b-4 td-sp-t-3 td-sp-b-3 md-sp-t-2 md-sp-b-2">
+		<rt-col>
+			<rt-row>
+				<rt-col :size="4">
+					<a href="https://lc.rt.ru/elementary ">
+						<rt-card-rounded :preview-card="true">
+							<template slot="headerHtml">
+								<svg width="80" height="80" class="d-block" viewBox="0 0 80 80" fill="none"
+								     xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+									      d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80Z"
+									      fill="#FF4F12"/>
+									<path
+											d="M54 36.5V38.25L54.0175 59.25L26 59.2675V40V38.25V36.5H24.25V59.2675C24.25 60.23 25.02 61 25.9825 61H54.035C54.98 61 55.7675 60.23 55.7675 59.2675V36.5H54Z"
+											fill="white"/>
+									<path
+											d="M59.565 37.5325L40 21.3625L20.435 37.5325L19.315 36.1675L40 19.0875L60.685 36.1675L59.565 37.5325Z"
+											fill="white"/>
+									<path fill-rule="evenodd" clip-rule="evenodd"
+									      d="M30.375 46.125C30.375 40.805 34.68 36.5 40 36.5C45.32 36.5 49.625 40.805 49.625 46.125C49.625 51.445 45.32 55.75 40 55.75C34.68 55.75 30.375 51.445 30.375 46.125ZM47.875 46.125C47.875 41.785 44.34 38.25 40 38.25C35.66 38.25 32.125 41.785 32.125 46.125C32.125 50.465 35.66 54 40 54C44.34 54 47.875 50.465 47.875 46.125Z"
+									      fill="white"/>
+									<path
+											d="M36.5 45.25C36.01 45.25 35.625 45.635 35.625 46.125C35.625 46.615 36.01 47 36.5 47C36.99 47 37.375 46.615 37.375 46.125C37.375 45.635 36.99 45.25 36.5 45.25Z"
+											fill="white"/>
+									<path
+											d="M43.5 45.25C43.01 45.25 42.625 45.635 42.625 46.125C42.625 46.615 43.01 47 43.5 47C43.99 47 44.375 46.615 44.375 46.125C44.375 45.635 43.99 45.25 43.5 45.25Z"
+											fill="white"/>
+									<path
+											d="M35.8 50.7101C38.2325 52.7576 41.785 52.7576 44.2 50.7101L43.15 49.3101C41.3475 50.9026 38.635 50.8851 36.8325 49.3101L35.8 50.7101Z"
+											fill="white"/>
+									<path
+											d="M40.875 38.25H39.125C39.125 36.745 40.035 33.875 43.5 33.875V35.625C41.0325 35.625 40.875 37.8125 40.875 38.25Z"
+											fill="white"/>
+									<path
+											d="M39.125 38.25C39.125 37.8125 38.9675 35.625 36.5 35.625V33.875C39.965 33.875 40.875 36.745 40.875 38.25H39.125H40H39.125Z"
+											fill="white"/>
+									<path
+											d="M47.875 43.4999H39.6325L38.25 42.1174L36.8675 43.4999H32.125V41.7499H36.1325L38.25 39.6324L40.3675 41.7499H47.875V43.4999Z"
+											fill="white"/>
+								</svg>
+								<p class="color-main05 rt-font-small-paragraph sp-b-0-4 sp-t-1">Начальная школа</p>
+
+								<p class="rt-font-h2 sp-b-0-2 td-sp-b-none">1-4 классам</p>
+							</template>
+							<template slot='content'>Развитие навыков мышления младших школьников для успехов в будущем</template>
+							<template slot='arrowText'>Подробнее</template>
+						</rt-card-rounded>
+					</a>
+				</rt-col>
+				<rt-col :size="4">
+					<a href="https://lc.rt.ru/middle">
+						<rt-card-rounded :preview-card="true">
+							<template slot="headerHtml">
+								<svg width="80" height="80" class="d-block" viewBox="0 0 80 80" fill="none"
+								     xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+									      d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80Z"
+									      fill="#FF4F12"/>
+									<path fill-rule="evenodd" clip-rule="evenodd"
+									      d="M43.5 43.185V27.75H34.75V45.25H31.25V34.75H22.5V45.25H19V47H22.5H31.25H34.75H40.875C41.4875 45.5475 42.38 44.2525 43.5 43.185ZM29.5 45.25H24.25V36.5H29.5V45.25ZM41.75 29.5H36.5V45.25H41.75V29.5Z"
+									      fill="white"/>
+									<path d="M48.75 38.25V20.75H54V38.25H55.75V19H47V38.25H48.75Z" fill="white"/>
+									<path fill-rule="evenodd" clip-rule="evenodd"
+									      d="M41.75 51.375C41.75 46.055 46.055 41.75 51.375 41.75C56.695 41.75 61 46.055 61 51.375C61 56.695 56.695 61 51.375 61C46.055 61 41.75 56.695 41.75 51.375ZM59.25 51.375C59.25 47.035 55.715 43.5 51.375 43.5C47.035 43.5 43.5 47.035 43.5 51.375C43.5 55.715 47.035 59.25 51.375 59.25C55.715 59.25 59.25 55.715 59.25 51.375Z"
+									      fill="white"/>
+									<path
+											d="M47.875 50.5C47.385 50.5 47 50.885 47 51.375C47 51.865 47.385 52.25 47.875 52.25C48.365 52.25 48.75 51.865 48.75 51.375C48.75 50.885 48.365 50.5 47.875 50.5Z"
+											fill="white"/>
+									<path
+											d="M54.875 50.5C54.385 50.5 54 50.885 54 51.375C54 51.865 54.385 52.25 54.875 52.25C55.365 52.25 55.75 51.865 55.75 51.375C55.75 50.885 55.365 50.5 54.875 50.5Z"
+											fill="white"/>
+									<path
+											d="M47.175 55.9601C49.6075 58.0076 53.16 58.0076 55.575 55.9601L54.525 54.5601C52.7225 56.1526 50.01 56.1351 48.2075 54.5601L47.175 55.9601Z"
+											fill="white"/>
+									<path
+											d="M52.25 43.5H50.5C50.5 41.995 51.41 39.125 54.875 39.125V40.875C52.4075 40.875 52.25 43.0625 52.25 43.5Z"
+											fill="white"/>
+									<path
+											d="M50.5 43.5C50.5 43.0625 50.3425 40.875 47.875 40.875V39.125C51.34 39.125 52.25 41.995 52.25 43.5H50.5H51.375H50.5Z"
+											fill="white"/>
+									<path
+											d="M59.25 48.7499H51.0075L49.625 47.3674L48.2425 48.7499H43.5V46.9999H47.5075L49.625 44.8824L51.7425 46.9999H59.25V48.7499Z"
+											fill="white"/>
+								</svg>
+								<p class="color-main05 rt-font-small-paragraph sp-b-0-4 sp-t-1">Средняя школа</p>
+
+								<p class="rt-font-h2 sp-b-0-2 td-sp-b-none">5-8 классам</p>
+							</template>
+							<template slot='content'>Помощь ученикам средней школы, чтобы стать лучшими в классе и учиться на
+								отлично
+							</template>
+							<template slot='arrowText'>Подробнее</template>
+						</rt-card-rounded>
+					</a>
+				</rt-col>
+				<rt-col :size="4">
+					<a href="https://lc.rt.ru/high">
+						<rt-card-rounded :preview-card="true">
+							<template slot="headerHtml">
+								<svg width="80" height="80" class="d-block" viewBox="0 0 80 80" fill="none"
+								     xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+									      d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80Z"
+									      fill="#FF4F12"/>
+									<rect x="55.7675" y="33.875" width="1.75" height="9.625" fill="white"/>
+									<path fill-rule="evenodd" clip-rule="evenodd"
+									      d="M18.965 33.5075L40 42.7125L61.035 33.5075L40.0175 25.9475L18.965 33.5075ZM40 40.7875L23.7075 33.665L40.0175 27.785L56.31 33.6475L40 40.7875Z"
+									      fill="white"/>
+									<path
+											d="M40.0175 53.2125L26.0175 46.685V36.5H27.7675V45.565L40.0175 51.2875L52.2675 45.565V36.5H54.0175V46.685L40.0175 53.2125Z"
+											fill="white"/>
+								</svg>
+
+
+								<p class="color-main05 rt-font-small-paragraph sp-b-0-4 sp-t-1">Подготовка к экзаменам</p>
+
+								<p class="rt-font-h2 sp-b-0-2 td-sp-b-none">9-11 классам</p>
+							</template>
+							<template slot='content'>Подготовка старшеклассников к экзаменам и выбору профессии мечты</template>
+							<template slot='arrowText'>Подробнее</template>
+						</rt-card-rounded>
+					</a>
+				</rt-col>
+			</rt-row>
+		</rt-col>
+	</div>
+
+</div>
