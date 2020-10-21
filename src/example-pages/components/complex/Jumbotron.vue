@@ -13,18 +13,16 @@
       <template slot='label'>Кибербезопасность</template>
       <template slot='body-html'>
         <p class="sp-b-1-3">Комплексные сервисы защиты цифровых систем</p>
-        <rt-arrow-anchor>Защита каналов связи</rt-arrow-anchor>
+        <rt-arrow-anchor scroll-to-id="idBanner">Защита каналов связи</rt-arrow-anchor>
         <div class="sp-t-1">
-        <rt-arrow-anchor>Мониторинг и управление ИБ</rt-arrow-anchor>
+        <rt-arrow-anchor scroll-to-id="idBanner2">Мониторинг и управление ИБ</rt-arrow-anchor>
         </div>
         <div class="sp-t-1">
-        <rt-arrow-anchor>Единая платформа сервисов безопасности</rt-arrow-anchor>
+        <rt-arrow-anchor scroll-to-id="idBanner3">Единая платформа сервисов безопасности</rt-arrow-anchor>
         </div>
 
       </template>
-      <template slot='footer'>
-        <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
-      </template>
+
       <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light.png' alt=''></template>
       <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png' alt=''></template>
       <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png' alt=''>
@@ -33,7 +31,7 @@
       </template>
     </rt-jumbotron>
 
-    <pre-code text="<rt-jumbotron background='dark-slate' color='white' description-color='white'>
+    <pre-code  text="<rt-jumbotron id='idBanner' background='dark-slate' color='white' description-color='white'>
       <template slot='header'>
         <p class='rt-font-label-uppercase rt-font-label color-white07'>ВИДЕОСЕРВИС WINK</p>
       </template>
@@ -52,7 +50,8 @@
       <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png' alt=''>
       </template>
     </rt-jumbotron>"></pre-code>
-    <pre-code text="<rt-jumbotron background='purple-button-active' color='white' description-color='white'>
+
+    <pre-code text="<rt-jumbotron id='idBanner2' background='purple-button-active' color='white' description-color='white'>
       <template slot='header'>
         <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.svg' alt='' width='126'>
       </template>
@@ -74,7 +73,7 @@
       </template>
     </rt-jumbotron>"></pre-code>
 
-    <pre-code text="<rt-jumbotron background='orange' color='white' description-color='white'>
+    <pre-code text="<rt-jumbotron id='idBanner3' background='orange' color='white' description-color='white'>
 
       <template slot='label'>Эксклюзивный игровой комплект</template>
       <template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит.</template>
