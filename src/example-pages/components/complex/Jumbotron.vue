@@ -9,9 +9,19 @@
       </div>
     </div>
 
-    <pre-code text="<rt-jumbotron background='gray' :desktop-column-size='4'  color='main' description-color='main'>
-      <template slot='label'>Эксклюзивный игровой комплект Playstation</template>
-      <template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит на выгодных условиях.</template>
+    <rt-jumbotron background='gray'  color='main' description-color='main'>
+      <template slot='label'>Кибербезопасность</template>
+      <template slot='body-html'>
+        <p class="sp-b-1-3">Комплексные сервисы защиты цифровых систем</p>
+        <rt-arrow-anchor>Защита каналов связи</rt-arrow-anchor>
+        <div class="sp-t-1">
+        <rt-arrow-anchor>Мониторинг и управление ИБ</rt-arrow-anchor>
+        </div>
+        <div class="sp-t-1">
+        <rt-arrow-anchor>Единая платформа сервисов безопасности</rt-arrow-anchor>
+        </div>
+
+      </template>
       <template slot='footer'>
         <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
       </template>
@@ -22,7 +32,7 @@
       <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png' alt=''>
       </template>
     </rt-jumbotron>
-    "></pre-code>
+
     <pre-code text="<rt-jumbotron background='dark-slate' color='white' description-color='white'>
       <template slot='header'>
         <p class='rt-font-label-uppercase rt-font-label color-white07'>ВИДЕОСЕРВИС WINK</p>
