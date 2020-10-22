@@ -9,7 +9,7 @@
       </div>
     </div>
 
-    <rt-jumbotron background='gray'  color='main' description-color='main'>
+    <pre-code  text="<rt-jumbotron background='gray'  color='main' description-color='main'>
       <template slot='label'>Кибербезопасность</template>
       <template slot='description'>Комплексные сервисы защиты цифровых систем</template>
       <template slot='anchor'><rt-arrow-anchor scroll-to-id='idBanner'>Защита каналов связи</rt-arrow-anchor></template>
@@ -21,7 +21,7 @@
       </template>
       <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png' alt=''>
       </template>
-    </rt-jumbotron>
+    </rt-jumbotron>"></pre-code>
 
     <pre-code  text="<rt-jumbotron id='idBanner' background='dark-slate' color='white' description-color='white'>
       <template slot='header'>
