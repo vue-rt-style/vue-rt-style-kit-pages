@@ -1,37 +1,210 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>vue-stylekit</title>
-	<script type="text/javascript">
-    // Single Page Apps for GitHub Pages
-    // https://github.com/rafrex/spa-github-pages
-    // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
-    // ----------------------------------------------------------------------
-    // This script takes the current url and converts the path and query
-    // string into just a query string, and then redirects the browser
-    // to the new url with only a query string and hash fragment,
-    // e.g. http://www.foo.tld/one/two?a=b&c=d#qwe, becomes
-    // http://www.foo.tld/?p=/one/two&q=a=b~and~c=d#qwe
-    // Note: this 404.html file must be at least 512 bytes for it to work
-    // with Internet Explorer (it is currently > 512 bytes)
-    // If you're creating a Project Pages site and NOT using a custom domain,
-    // then set pathPrefix = true. This way the repo name will remain in the path:
-    // https://username.github.io/repo-name/one/two?a=b&c=d#qwe becomes
-    // https://username.github.io/repo-name/?p=/one/two&q=a=b~and~c=d#qwe
-    // Otherwise, leave pathPrefix as false.
-    var pathPrefix = false;
-    var l = window.location;
-    console.info('404',l.pathname,l.pathname.split('/'))
-    l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 2).join('/') + '/?p=/' +
-        l.pathname.slice(1).split('/').slice(1).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-    );
-	</script>
-</head>
-<body>
-</body>
-</html>
+<style>
+
+    .select--is-open{
+        z-index: 11;
+    }
+    .rt-sensor-form-button {
+        position: absolute;
+        bottom: -62px;
+        left: 30px;
+        min-width: calc(100% - 60px);
+    }
+
+</style>
+<style>
+    button[disabled].test-submit{
+        display: block;
+        position: absolute;
+        left: 29px;
+        right: 30px;
+        width: auto;
+        min-width: calc(100% - 58px);
+        bottom: -64px;
+        height: 56px;
+
+        border: 1px solid #B8B9C0;
+        background-color: #B8B9C0;
+    }
+</style>
+<style>
+    .rt-card-buy__form{
+        max-height: 0;
+        overflow: hidden;
+        opacity:1;
+        z-index: -2;
+
+    }
+    .rt-card-buy--show-form .rt-card-buy__form{
+        z-index: 1;
+        overflow: visible;
+        max-height: inherit;
+    }
+    .rt-card-buy .connection__geo {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .rt-card-buy .form__group .selectbox__wrap {
+        height: 34px;
+    }
+
+    .rt-card-buy .floating-placeholder,
+    .rt-card-buy .input-element {
+        font-size: 16px;
+    }
+
+    .rt-card-buy .widget-content .rtk-input {
+        padding-top: 0;
+    }
+
+    .rt-card-buy .checkbox-container .conditions-link {
+        border-bottom: none;
+        color: #7700FF;
+    }
+
+    .rt-card-buy .checkbox-container {
+        font-size: 14px;
+        color: #101828;
+    }
+
+    .form__item-month,
+    .form__item-day,
+    .form__item-time {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+</style>
+<style>
+    .rt-sensor-card-line {
+        border-top: 2px solid #F1F3F5;
+    }
+
+    .rt-button .btn.promo.btn-warning {
+        background-color: #0000;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        border: none;
+    }
+
+    .rt-tabs--sensor {
+        width: 100%;
+    }
+
+    .rt-card__border-content {
+        border-top: none;
+    }
+
+    .rt-tabs-navigation__item--empty-tab {
+        opacity: 0;
+        visibility: hidden;
+        flex: 1 1 0;
+    }
+
+    .rt-tabs--sensor-tags .rt-tabs-navigation {
+        width: 100%;
+    }
+
+    .rt-tabs-navigation__item--pseudo-tabs {
+        margin-left: 0 !important;
+    }
+
+    .rt-tabs-navigation__item--pseudo-tabs .rt-tag {
+        background-color: rgba(16, 24, 40, 0.4);
+        color: #fff;
+    }
+
+    .rt-tabs-navigation__item--pseudo-tabs .rt-tag:hover {
+        background-color: #70f;
+    }
+
+    .rt-tabs-navigation__item--pseudo-tabs .rt-tabs-navigation__item-name:before {
+        display: none;
+    }
+
+    .rt-tabs--sensor-tags .rt-tabs-navigation {
+        flex-direction: row-reverse;
+    }
+
+    .rt-tabs--sensor-tags .rt-tabs-navigation__item {
+        position: relative;
+        top: -43px;
+    }
+
+
+    .rt-sensor-img {
+        max-height: 100px;
+        max-width: 100%;
+    }
+
+    .rt-sensor-slide .rt-slide__arrow {
+        height: 8px;
+        top: 10px;
+    }
+
+    .rt-sensor-slide-row + .rt-sensor-slide-row {
+        border-top: 1px solid rgba(227, 232, 236, 0.5);
+    }
+
+    .rt-sensor-slide .rt-slide__header--left {
+        padding-left: 12px;
+        padding-bottom: 15px;
+    }
+
+    .rt-sensor-slide .rt-slide__content--left {
+        padding-left: 0;
+    }
+
+    @media (min-width: 768px) {
+        .rt-tabs--sensor > .rt-tabs-navigation-wrapper > .rt-tabs-navigation {
+            display: inline-flex;
+        }
+    }
+    @media (max-width: 767px) {
+        .rt-tabs--sensor-tags .rt-tabs-navigation {
+            justify-content: flex-end;
+            flex-direction: row-reverse;
+            padding-left: 0px;
+        }
+
+        .rt-tabs-mobile .rt-tabs--sensor-tags .rt-tabs-navigation-wrapper {
+            max-width: 100%;
+            margin-left: 0;
+
+        }
+
+        .rt-tabs-mobile .rt-tabs--sensor-tags .rt-tabs-navigation__item {
+            top: 0;
+            margin-left: 0px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    @media (min-width: 768px) {
+        .rt-tabs--sensor .rt-tabs-navigation-wrapper, .rt-tabs--sensor-tags .rt-tabs-navigation{
+            overflow: visible
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .rt-tabs--sensor-tags .rt-tabs-navigation__item {
+            padding-right: 20px!important;
+            padding-left: 0!important;;
+            top: -50px;
+        }
+    }
+</style>
+<style>
+    button[disabled].test-submit{
+        display: block;
+        position: absolute;
+        left: 30px;
+        right: 30px;
+        width: auto;
+        min-width: calc(100% - 60px);
+        bottom: -62px;
+        border: 1px solid #B8B9C0;
+        background-color: #B8B9C0;
+    }
+</style>
