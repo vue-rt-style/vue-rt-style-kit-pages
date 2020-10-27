@@ -9,12 +9,12 @@
       </div>
     </div>
 
-    <pre-code  text="<rt-jumbotron background='gray'  color='main' description-color='main'>
+    <pre-code  text="<rt-jumbotron background='main-color'  color='white' description-color='main'>
       <template slot='label'>Кибербезопасность</template>
       <template slot='description'>Комплексные сервисы защиты цифровых систем</template>
-      <template slot='anchor'><rt-arrow-anchor scroll-to-id='idBanner'>Защита каналов связи</rt-arrow-anchor></template>
-      <template slot='anchor'><rt-arrow-anchor scroll-to-id='idBanner2'>Мониторинг и управление ИБ</rt-arrow-anchor></template>
-      <template slot='anchor'><rt-arrow-anchor scroll-to-id='idBanner3'>Единая платформа сервисов безопасности</rt-arrow-anchor></template>
+      <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner'>Защита каналов связи</rt-arrow-anchor></template>
+      <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner2'>Мониторинг и управление ИБ</rt-arrow-anchor></template>
+      <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner3'>Единая платформа сервисов безопасности</rt-arrow-anchor></template>
       <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light.png' alt=''></template>
       <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png' alt=''></template>
       <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png' alt=''>
