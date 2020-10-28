@@ -36,6 +36,7 @@ const index = [
   { path: "/download-content", name: "app-download-content", component: () => import("../components/simple/DownloadContent.vue") },
   { path: "/use-case", name: "useCase", component: () => import("../components/simple/UseCase.vue") },
   { path: "/slide-content", name: "app-slide-content", component: () => import("../components/simple/SlideContent.vue") },
+  { path: "/banner-skeleton", name: "app-banner-skeleton", component: () => import("../components/simple/BannerSkeleton.vue") },
 
   // group
   { path: "/list", name: "app-list", component: () => import("../components/group/List.vue") },

@@ -102,6 +102,7 @@ import {
     BannerPaginatorItem,
     BannerV2,
     BannerItemV2,
+    BannerSkeleton,
     GalleryCarousel,
     GalleryCarouselItem,
     CountdownTimer,
@@ -174,6 +175,7 @@ componentsList[BannerItemV2.name] = BannerItemV2;
 componentsList[Banner.name] = Banner;
 componentsList[BannerItem.name] = BannerItem;
 componentsList[BannerPaginatorItem.name] = BannerPaginatorItem;
+componentsList[BannerSkeleton.name] = BannerSkeleton;
 componentsList[Carousel.name] = Carousel;
 componentsList[CarouselSlide.name] = CarouselSlide;
 componentsList[Card.name] = Card;
