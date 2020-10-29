@@ -111,7 +111,8 @@ import {
     SliderItem,
     HelpBlock,
     PhoneNumberInput,
-    Jumbotron
+    Jumbotron,
+    AdBanner
     
 } from '@vue-rt-style-kit-molecules-local'
 
@@ -244,6 +245,7 @@ componentsList[PhoneNumberInput.name] = PhoneNumberInput;
 // componentsList[VideoPlayer.name] = VideoPlayer;
 
 componentsList[Slider.name] = Slider;
+componentsList[AdBanner.name] = AdBanner;
 componentsList[SliderItem.name] = SliderItem;
 
 componentsList[Jumbotron.name] = Jumbotron;

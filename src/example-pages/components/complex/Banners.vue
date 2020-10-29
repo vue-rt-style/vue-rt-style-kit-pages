@@ -64,7 +64,7 @@
           </svg>
         </template>
         <template slot='label'>Разжигают страсть</template>
-        <template slot='description'>Абонемент «Киноман» Скидка на все фильмы и сериалы</template>
+        <template slot='description'>Абонемент «Киноман» Скидка на все фильмы и сериалы </template>
         <template slot='footer'><rt-button color='full-white' >Подробнее</rt-button></template>
         <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange.jpg' alt=''></template>
         <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange-x2.jpg' alt=''></template>
