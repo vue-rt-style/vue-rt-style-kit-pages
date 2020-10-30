@@ -25,7 +25,7 @@ export default {
         <rt-row class="app-row">
           <rt-col size="12">
             <p class="sp-b-2">Элементы вне rt-tabs-slider</p>
-            <pre-code text='<div>
+            <div>
             <rt-tabs-slider-item label="Заголовок 1" tabs-slider-name="tabs-slider-1">
               <template slot="content">
                 <p class="rt-font-h2">Заголовок блока</p>
@@ -212,7 +212,7 @@ export default {
           </rt-tabs-slider-item>
           <rt-tabs-slider name="tabs-slider-1">
           </rt-tabs-slider>
-          </div>'></pre-code>
+          </div>
 
             <div class="sp-b-5"></div>
             <div class="sp-b-5"></div>
