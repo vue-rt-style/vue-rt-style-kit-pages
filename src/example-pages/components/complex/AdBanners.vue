@@ -13,13 +13,12 @@
     </div>
 
     <div class="rt-container rt-space-top25">
-      <documentation-builder :json="documentation" type="components"/>
     </div>
   </div>
 </template>
 
 <script>
-  import documentation from "@vue-rt-style-kit-molecules-local/components/Banner/docs/index.json";
+  // import documentation from "@vue-rt-style-kit-molecules-local/components/Banner/docs/index.json";
   import componentsList from "../../componentsList";
   // const componentsList = {};
   export default {
@@ -28,11 +27,8 @@
     data: () => ({
       documentation: {}
     }),
-    mounted() {
-      this.documentation = documentation;
-    },
-    created() {
-    },
+
+
     methods: {
     }
   };
