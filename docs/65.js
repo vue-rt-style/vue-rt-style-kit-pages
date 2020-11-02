@@ -41,137 +41,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 var componentsList = {};
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "AppPromoVip",
   components: componentsList,
   mounted: function mounted() {
-    document.querySelector('body').classList.add('app-wifi'); // document.querySelector('body').classList.add('rt-dark-theme');
+    document.querySelector('body').classList.add('ld-router'); // document.querySelector('body').classList.add('rt-dark-theme');
     // var random = parseInt((Math.random()*9+1)%3+1);
     // document.querySelector('.cloud-g-1-image').classList.add('cloud-g-1-image-type'+random);
     // var isAnimated = false;
@@ -250,9 +125,9 @@ var componentsList = {};
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=027ba934&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=5f599437&":
 /*!***********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=027ba934& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=5f599437& ***!
   \***********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -261,8 +136,8 @@ var componentsList = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-wifi"},[_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"rt-container"},[_c('rt-col',{attrs:{"size":"12"}},[_c('div',{staticClass:"app-wifi-logo d-flex flex-v-end sp-t-1-3 td-sp-t-0-4 md-sp-t-0-4 md-sp-b-1-3"},[_c('div',{staticClass:"sp-r-3 td-sp-r-1"},[_c('svg',{staticClass:"app-wifi-logo-main",attrs:{"width":"186","height":"49","viewBox":"0 0 186 49","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M21.0881 48.0014C13.1572 40.3213 9.1917 36.4813 9.19152 36.4814L1.43494 44.1614C0.637027 45.2148 0.843197 46.7163 1.89543 47.5151C2.31112 47.8306 2.81849 48.0014 3.34018 48.0014C3.3532 48.0014 3.36622 48.0014 3.37923 48.0014C9.28219 48.0014 15.1851 48.0014 21.0881 48.0014Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M28.7687 17.28L11.5075 0L1.87024 10.0497C0.670153 11.3012 0 12.9687 0 14.7035L0 44.16C0 46.2808 1.71736 48 3.83583 48C2.52337 48 1.45941 46.9349 1.45941 45.621C1.45941 44.9885 1.71102 44.382 2.15864 43.9356","fill":"#7700FF"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M151.745 29.9225H147.594L142.636 34.9422V29.9225H139.125V43.7546H142.636V38.0378L147.678 43.7546H151.912L145.393 36.3365L151.745 29.9225Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M40.3769 33.5133H35.3067V27.3781H40.3769C42.9396 27.3781 44.1097 28.605 44.1097 30.4456C44.1097 32.2862 42.9396 33.5133 40.3769 33.5133ZM40.4882 24.0873H31.6298V43.6085H35.3067V36.8039H40.4882C44.8897 36.8039 47.7869 34.5452 47.7869 30.4456C47.7869 26.346 44.8897 24.0873 40.4882 24.0873Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M56.0784 40.8603C54.0172 40.8603 52.0949 39.3822 52.0949 36.8443C52.0949 34.3067 54.0172 32.8288 56.0784 32.8288C58.1399 32.8288 60.062 34.3067 60.062 36.8443C60.062 39.3822 58.1399 40.8603 56.0784 40.8603ZM56.0784 29.538C52.2899 29.538 48.5291 31.9922 48.5291 36.8443C48.5291 41.6971 52.2899 44.1509 56.0784 44.1509C59.8672 44.1509 63.6278 41.6971 63.6278 36.8443C63.6278 31.9922 59.8672 29.538 56.0784 29.538Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M72.5811 40.8603C70.464 40.8603 68.904 39.3265 68.904 36.8443C68.904 34.3903 70.5196 32.8288 72.5811 32.8288C73.8347 32.8288 74.9211 33.4144 75.7847 34.7251L78.7931 32.996C77.7905 30.8484 75.6174 29.538 72.6089 29.538C68.6811 29.538 65.3381 32.4383 65.3381 36.8443C65.3381 41.2506 68.5141 44.1509 72.6089 44.1509C75.5618 44.1509 77.5395 42.8126 78.9325 40.4421L76.0354 38.8526C75.1997 40.0237 74.3081 40.8603 72.5811 40.8603Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M109.962 37.7589C109.795 39.8781 109.377 40.3525 108.652 40.3525C108.158 40.3525 107.925 40.2975 107.586 40.2087L107.604 43.7884C107.604 43.7884 108.04 43.9218 108.848 43.9218C111.829 43.9218 112.943 41.9976 113.222 37.8983L113.556 33.0738H117.511V43.7267H121.021V29.9225H110.547L109.962 37.7589Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M96.1916 35.004C96.693 33.4423 98.0858 32.2151 99.9244 32.2151C101.875 32.2151 103.184 33.2749 103.518 35.004H96.1916ZM100.036 29.538C96.0246 29.538 92.7651 32.4661 92.7651 36.8443C92.7651 41.2228 96.0246 44.1509 99.8687 44.1509C102.905 44.1509 104.827 43.0076 106.22 40.6372L103.434 39.2429C102.571 40.3304 101.791 41.1389 99.9244 41.1389C97.8632 41.1389 96.3588 39.8006 96.1359 37.6811H106.777V36.454C106.777 32.4104 103.992 29.538 100.036 29.538Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M126.421 35.004C126.922 33.4423 128.315 32.2151 130.153 32.2151C132.103 32.2151 133.413 33.2749 133.747 35.004H126.421ZM130.265 29.538C126.253 29.538 122.994 32.4661 122.994 36.8443C122.994 41.2228 126.253 44.1509 130.098 44.1509C133.134 44.1509 135.056 43.0076 136.449 40.6372L133.664 39.2429C132.8 40.3304 132.02 41.1389 130.153 41.1389C128.092 41.1389 126.588 39.8006 126.365 37.6811H137.006V36.454C137.006 32.4104 134.22 29.538 130.265 29.538Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M80.0233 32.99H84.1463V43.7546H87.656V32.99H91.7791V29.9225H80.0233V32.99Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M158.875 40.8603C156.813 40.8603 154.891 39.3822 154.891 36.8443C154.891 34.3067 156.813 32.8288 158.875 32.8288C160.936 32.8288 162.859 34.3067 162.859 36.8443C162.859 39.3822 160.936 40.8603 158.875 40.8603ZM158.875 29.538C155.086 29.538 151.326 31.992 151.326 36.8443C151.326 41.6969 155.086 44.1509 158.875 44.1509C162.663 44.1509 166.424 41.6969 166.424 36.8443C166.424 31.992 162.663 29.538 158.875 29.538Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M180.431 29.9226L176.622 39.6099L172.812 29.9226H168.224V43.7297H171.561V34.9888L175.259 43.7297H177.984L181.682 34.9888V43.7297H185.019V29.9226H180.431Z","fill":"#101828"}})])]),_vm._v(" "),_c('div',{staticClass:"md-d-none"},[_c('svg',{staticClass:"app-wifi-logo-wink",attrs:{"width":"128","height":"40","viewBox":"0 0 128 40","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M38.7338 6.37134H44.1209L48.4078 23.4119C48.4078 23.4119 48.863 25.3723 49.0527 26.3525C49.2424 25.3723 49.6977 23.3742 49.6977 23.3742L54.0984 6.37134H59.3717L63.8483 23.3742C63.8483 23.3742 64.3036 25.3723 64.4932 26.3525C64.6829 25.3723 65.1382 23.4119 65.1382 23.4119L69.4251 6.37134H74.8501L67.3765 33.327H61.8756L56.792 13.7606L51.7083 33.327H46.2074L38.7338 6.37134Z","fill":"black"}}),_vm._v(" "),_c('path',{attrs:{"d":"M82.855 14.2507H77.9611V33.3648H82.855V14.2507Z","fill":"black"}}),_vm._v(" "),_c('path',{attrs:{"d":"M101.027 33.3272V22.3187C101.027 19.8305 99.8131 18.2471 97.1196 18.2471C94.5778 18.2471 92.6429 20.4337 92.6429 23.6382V33.3649H87.749V14.2508H92.6429V17.3423C94.0846 15.1556 96.3608 13.723 99.1682 13.723C103.265 13.723 105.921 16.3997 105.921 20.3583V33.3649L101.027 33.3272Z","fill":"black"}}),_vm._v(" "),_c('path',{attrs:{"d":"M110.283 6.37134H115.177V20.0188L121.02 14.2507H127.052L120.033 21.0745L128 33.3647H122.385L116.657 24.4298L115.177 25.8624V33.3647H110.283V6.37134Z","fill":"black"}}),_vm._v(" "),_c('path',{attrs:{"d":"M77.316 4.41096L79.2129 6.29598L77.316 8.18099L79.5543 10.443L83.7274 6.29598L79.5543 2.18665L77.316 4.41096Z","fill":"black"}}),_vm._v(" "),_c('path',{attrs:{"d":"M10.888 0L0 10.8577L9.21878 20.0189L0 29.18L10.888 40L30.9948 20.0189L10.888 0Z","fill":"#FF4F12"}})])])]),_vm._v(" "),_c('rt-row',{staticClass:"app-wifi-top flex-v-center td-flex-v-start"},[_c('rt-col',{attrs:{"size":5,"tablet-size":3,"mobile-size":3}},[_c('h1',{staticClass:"rt-font-h1 sp-b-1-1 td-sp-t-4-2 md-sp-t-none"},[_vm._v("Смотри 5000 фильмов\n              227 ТВ-канал в онлайн\n              кинотеатре Wink")]),_vm._v(" "),_c('div',{staticClass:"d-flex flex-v-center"},[_c('div',{staticClass:"sp-r-0-4 md-sp-r-0-2"},[_c('rt-price',{attrs:{"v2":true,"value":0,"old-value":299,"currency":"руб."}})],1),_vm._v(" "),_c('svg',{staticClass:"app-wifi-orange",attrs:{"width":"32","height":"42","viewBox":"0 0 32 42","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M3 39L29 3","stroke":"#FF4F12","stroke-width":"4","stroke-linecap":"square"}})]),_vm._v(" "),_c('p',{staticClass:"sp-l-0-4 md-sp-l-0-2 rt-font-small-paragraph"},[_vm._v("на 30 дней "),_c('br'),_vm._v("\n                в подписке «Максимум»\n              ")])])])],1)],1)],1),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('div',{staticClass:"rt-container background-md-white app-wifi-form-container"},[_c('rt-col',{attrs:{"size":12}},[_c('rt-row',[_c('rt-col',{attrs:{"size":1,"t-hide":true}}),_vm._v(" "),_c('rt-col',{attrs:{"size":10,"tablet-size":"6"}},[_c('div',{staticClass:"app-wifi-form sp-t-2 sp-l-2 sp-r-2 sp-b-2-2 md-sp-r-none md-sp-l-none md-sp-t-1 md-sp-b-none"},[_c('h2',{staticClass:"rt-font-h2 sp-b-1-1 md-sp-b-1-4"},[_vm._v("Получить промокод")]),_vm._v(" "),_c('rt-row',[_c('rt-col',{attrs:{"size":3,"tablet-size":3,"mobile-size":3}},[_c('rt-input',{attrs:{"placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('rt-col',{staticClass:"md-sp-t-1-4",attrs:{"size":3,"tablet-size":3,"mobile-size":3}},[_c('rt-input',{attrs:{"placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('rt-col',{attrs:{"size":2,"t-hide":true,"m-hide":true}}),_vm._v(" "),_c('rt-col',{staticClass:"td-sp-t-2-1 md-sp-t-1-4 md-sp-b-1-4",attrs:{"size":4,"tablet-size":3,"mobile-size":3}},[_c('rt-button',{attrs:{"is-block":true,"color":"orange"}},[_vm._v("Хочу промокод!")])],1),_vm._v(" "),_c('rt-col',{attrs:{"size":12}},[_c('p',{staticClass:"sp-t-1-2 td-sp-t-1-3 md-sp-t-none"},[_vm._v("Даю согласие на обработку персональных\n                  данных в соответствии с условиями")])])],1)],1)])],1),_vm._v(" "),_c('rt-row',{staticClass:"sp-b-2"},[_c('rt-col',{attrs:{"size":"12"}},[_c('p',{staticClass:"rt-font-center sp-t-2 rt-font-small-paragraph rt-font-md-left"},[_vm._v("Активировать промокод можно по\n              30.06.2021. Фильмы и\n              ТВ-каналы доступны 30 дней со дня активации промокода.")])]),_vm._v(" "),_c('rt-col',{attrs:{"size":"12"}},[_c('div',{staticClass:"rt-font-center sp-t-0-4 md-sp-t-0-2 rt-font-small-paragraph rt-font-md-left"},[_c('span',{staticClass:"color-orange"},[_vm._v("Как активировать промокод\n            ")])])])],1)],1)],1)])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-wifi-banner"},[_c('div',{staticClass:"app-wifi-banner-image"},[_c('img',{staticClass:"app-wifi-banner-image-tag x2-d-block d-none td-d-none",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/wifi/wifi-banner4.png","alt":""}}),_vm._v(" "),_c('img',{staticClass:"d-none app-wifi-banner-image-tag x2-d-none td-d-none  d-block",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/wifi/wifi-banner3.png","alt":""}}),_vm._v(" "),_c('img',{staticClass:"d-none app-wifi-banner-image-tag td-d-block md-d-none",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/wifi/wifi-banner2.png","alt":""}}),_vm._v(" "),_c('img',{staticClass:"d-none app-wifi-banner-image-tag md-d-block",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/wifi/wifi-banner1.png","alt":""}})])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ld-router"},[_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"ld-router-banner"},[_c('div',{staticClass:"ld-router-banner__line1"}),_vm._v(" "),_c('div',{staticClass:"ld-router-banner__line2"}),_vm._v(" "),_c('div',{staticClass:"rt-container color-white sp-t-4-3"},[_c('rt-row',{staticClass:"sp-t-4"},[_c('rt-col',{attrs:{"size":6}},[_c('h1',{staticClass:"rt-font-h1"},[_vm._v("\n              Выбирайте "),_c('br'),_vm._v("\n              игровой роутер RT-X\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph sp-t-0-4 sp-b-2"},[_vm._v("Мощный роутер с приоритизацией игрового трафика")]),_vm._v(" "),_c('rt-button',{attrs:{"href":"#","color":"full-white"}},[_vm._v("Оставить заявку")])],1),_vm._v(" "),_c('rt-col',{staticClass:"relative",attrs:{"size":6}},[_c('div',{staticClass:"ld-router-banner__router"})])],1)],1)])])])}
+var staticRenderFns = []
 
 
 
@@ -277,7 +152,7 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vip_vue_vue_type_template_id_027ba934___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vip.vue?vue&type=template&id=027ba934& */ "./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=027ba934&");
+/* harmony import */ var _vip_vue_vue_type_template_id_5f599437___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vip.vue?vue&type=template&id=5f599437& */ "./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=5f599437&");
 /* harmony import */ var _vip_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./vip.vue?vue&type=script&lang=js& */ "./src/example-pages/components/pages/promo/vip.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
@@ -289,8 +164,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _vip_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _vip_vue_vue_type_template_id_027ba934___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _vip_vue_vue_type_template_id_027ba934___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _vip_vue_vue_type_template_id_5f599437___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _vip_vue_vue_type_template_id_5f599437___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -316,19 +191,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=027ba934&":
+/***/ "./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=5f599437&":
 /*!*****************************************************************************************!*\
-  !*** ./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=027ba934& ***!
+  !*** ./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=5f599437& ***!
   \*****************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_template_id_027ba934___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./vip.vue?vue&type=template&id=027ba934& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=027ba934&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_template_id_027ba934___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_template_id_5f599437___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./vip.vue?vue&type=template&id=5f599437& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=5f599437&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_template_id_5f599437___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_template_id_027ba934___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_template_id_5f599437___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
