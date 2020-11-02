@@ -12,10 +12,31 @@
                 игровой роутер RT-X
               </h1>
               <p class="rt-font-paragraph sp-t-0-4 sp-b-2">Мощный роутер с приоритизацией игрового трафика</p>
+              <div class="d-flex">
               <rt-button href="#" color="full-white">Оставить заявку</rt-button>
+              </div>
+              <rt-row class="sp-t-3-3">
+                <rt-col :size="4">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/fast-icon.png" class="ld-router-banner_icon" alt="">
+                  <p class="rt-font-h4 sp-b-0-4 sp-t-1-1">Быстрый</p>
+                  <p class="rt-font-small-paragraph">Скорость Wi-Fi до 2 Гбит/с</p>
+                </rt-col>
+                <rt-col :size="4">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/smart-icon.png" class="ld-router-banner_icon" alt="">
+                  <p class="rt-font-h4 sp-b-0-4 sp-t-1-1">Умный</p>
+                  <p class="rt-font-small-paragraph">Приоритизация игрового трафика</p>
+                </rt-col>
+                <rt-col :size="4">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/play-icon.png" class="ld-router-banner_icon" alt="">
+                  <p class="rt-font-h4 sp-b-0-4 sp-t-1-1">Игровой</p>
+                  <p class="rt-font-small-paragraph">Низкий пинг в играх</p>
+                </rt-col>
+              </rt-row>
             </rt-col>
-            <rt-col :size="6" class="relative">
-              <div class="ld-router-banner__router"></div>
+            <rt-col :size="6" class="relative sp-b-5">
+              <div class="sp-b-4-4">
+                <div class="ld-router-banner__router"></div>
+              </div>
             </rt-col>
           </rt-row>
         </div>
