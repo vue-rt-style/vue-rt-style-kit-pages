@@ -4,44 +4,196 @@
       <div class="ld-router-banner">
         <div class="ld-router-banner__line1"></div>
         <div class="ld-router-banner__line2"></div>
-        <div class="rt-container color-white sp-t-4-3">
-          <rt-row class="sp-t-4">
-            <rt-col :size="6">
-              <h1 class="rt-font-h1">
+        <div class="ld-router-banner__blur"></div>
+
+
+        <div class="rt-container color-white sp-t-2">
+          <rt-col>
+          <rt-row class="sp-t-4 sp-b-4-4">
+            <rt-col :size="6" :mobile-size="3" class="ld-router-banner-content">
+              <h1 class="rt-font-h1 sp-t-3-4">
                 Выбирайте <br>
                 игровой роутер RT-X
               </h1>
               <p class="rt-font-paragraph sp-t-0-4 sp-b-2">Мощный роутер с приоритизацией игрового трафика</p>
               <div class="d-flex">
-              <rt-button href="#" color="full-white">Оставить заявку</rt-button>
+                <rt-button :bright="true" href="#" color="full-white">Оставить заявку</rt-button>
               </div>
-              <rt-row class="sp-t-3-3">
-                <rt-col :size="4">
-                  <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/fast-icon.png" class="ld-router-banner_icon" alt="">
-                  <p class="rt-font-h4 sp-b-0-4 sp-t-1-1">Быстрый</p>
+            </rt-col>
+            <rt-col :size="6" :mobile-size="3" class="relative ">
+              <div class="">
+                <div class="ld-router-banner__router">
+                  <div class="ld-router-banner__shadow"></div>
+                </div>
+
+              </div>
+            </rt-col>
+            <rt-col class="sp-t-3-3 sp-b-5">
+              <rt-row>
+                <rt-col :tablet-size="2" :size="2" :mobile-size="3" class="md-d-flex md-flex-v-center">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/fast-icon.png"
+                       class="ld-router-banner_icon" alt="">
+                  <div class="md-sp-l-1-3">
+                  <p class="rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2">Быстрый</p>
                   <p class="rt-font-small-paragraph">Скорость Wi-Fi до 2 Гбит/с</p>
+                  </div>
                 </rt-col>
-                <rt-col :size="4">
-                  <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/smart-icon.png" class="ld-router-banner_icon" alt="">
-                  <p class="rt-font-h4 sp-b-0-4 sp-t-1-1">Умный</p>
+                <rt-col :tablet-size="2" :size="2" :mobile-size="3" class="md-d-flex md-flex-v-center">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/smart-icon.png"
+                       class="ld-router-banner_icon" alt="">
+                  <div class="md-sp-l-1-3">
+                  <p class="rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2">Умный</p>
                   <p class="rt-font-small-paragraph">Приоритизация игрового трафика</p>
+                  </div>
                 </rt-col>
-                <rt-col :size="4">
-                  <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/play-icon.png" class="ld-router-banner_icon" alt="">
-                  <p class="rt-font-h4 sp-b-0-4 sp-t-1-1">Игровой</p>
+                <rt-col :tablet-size="2" :size="2" :mobile-size="3" class="md-d-flex md-flex-v-center">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/play-icon.png"
+                       class="ld-router-banner_icon" alt="">
+                  <div class="md-sp-l-1-3">
+                  <p class="rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2">Игровой</p>
                   <p class="rt-font-small-paragraph">Низкий пинг в играх</p>
+                  </div>
                 </rt-col>
               </rt-row>
+
             </rt-col>
-            <rt-col :size="6" class="relative sp-b-5">
-              <div class="sp-b-4-4">
-                <div class="ld-router-banner__router"></div>
-              </div>
-            </rt-col>
+
           </rt-row>
+          </rt-col>
         </div>
       </div>
     </div>
+    <div class="wc-inline">
+      <div class="sp-t-1 ld-router-spider relative color-white">
+        <div class="rt-container">
+          <rt-col>
+            <rt-row>
+              <rt-col class="rt-font-center" :size="12">
+                <h2 class="rt-font-h2 sp-t-3-4 sp-b-0-3">Мощный сигнал для игры без лагов</h2>
+              </rt-col>
+            </rt-row>
+            <rt-row >
+              <rt-col :size="4" :t-hide="true"></rt-col>
+              <rt-col class="relative" :size="4">
+                <div class="ld-router-spider-image"></div>
+              </rt-col>
+
+            </rt-row>
+            <rt-row class="sp-t-4">
+              <rt-col :size="3">
+                <p class="rt-font-paragraph rt-font-right ld-router-spider-line ld-router-spider-line-1">Поддерживает до
+                  16 устройств</p>
+                <p class="rt-font-paragraph rt-font-right ld-router-spider-line ld-router-spider-line-2">Скорость до 600
+                  Мбит/с (2.4 ГГц.) <br>
+                  до 1733 Мбит/с (5 ГГц.)</p>
+                <p class="rt-font-paragraph rt-font-right ld-router-spider-line ld-router-spider-line-3">4 мощные
+                  антенны, расположенные <br>
+                  под крышкой корпуса </p>
+
+              </rt-col>
+              <rt-col :size="6"></rt-col>
+              <rt-col :size="3">
+                <p class="rt-font-paragraph ld-router-spider-line ld-router-spider-line-4">Приоритизация популярных игр,<br>
+                  позволяет при загрузке
+                  вашей сети
+                  <br> отдать приоритет играм
+                </p>
+                <p class="rt-font-paragraph ld-router-spider-line ld-router-spider-line-5">Хорошее покрытые и стабильный
+                  <br> сигнал благодаря MIMO 4x4 в 2
+                  <br> диапазонах
+                </p>
+                <p class="rt-font-paragraph ld-router-spider-line ld-router-spider-line-6">Работа 2 диапазонах
+                  одновременно <br>
+                  (2.4 ГГц., 5 ГГц)</p>
+              </rt-col>
+            </rt-row>
+          </rt-col>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="wc-inline">
+      <div class="sp-t-3-2 color-white lg-router-cabel">
+        <div class="relative">
+          <div class="lg-router-cabel-lines"></div>
+          <h2 class="rt-font-h2 rt-font-center">Работает только на PON соединении</h2>
+
+          <div class="rt-container sp-b-5">
+            <rt-col>
+              <rt-row class="sp-t-5 sp-b-5-2">
+                <rt-col :size="7">
+                  <div class="lg-router-cabel-image"></div>
+                </rt-col>
+                <rt-col :size="5">
+                  <div class="lg-router-cabel-gpon">
+                    <div class="lg-router-cabel-gpon-content">
+                      <h3 class="rt-font-h3 sp-b-1">PON соединение</h3>
+                      <p class="rt-font-small-paragraph">Самое современное подключение к сети интернет</p>
+                      <p class="rt-font-small-paragraph sp-t-0-4 sp-b-1-2">Роутер работает только при оптоволоконном
+                        подключении на сети Ростелеком</p>
+                      <rt-button :bright="true" href="#" color="full-white">Какое у меня соединение?</rt-button>
+                    </div>
+                  </div>
+                </rt-col>
+              </rt-row>
+            </rt-col>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="wc-inline">
+      <div class="lg-router-form color-white">
+        <div class="rt-container">
+          <rt-col>
+            <h2 class="rt-font-h2 sp-b-1-3">Заявка на роутер</h2>
+            <rt-row class="sp-b-5 sp-b-1-4">
+              <rt-col :size="3">
+                <label>
+                  <input name="test" class="lg-router-form-input" type="radio"/>
+                  <div class="lg-router-form-check sp-t-1-4 sp-b-1-4 sp-l-2">
+                    <div class="lg-router-form-check-decor"></div>
+                    <div class="lg-router-form-check-decor2"></div>
+                    <p class="lg-router-form-label">РАССРОЧКА</p>
+                    <p class="rt-font-small-paragraph">На 24 месяца. Роутер в собственности абонента</p>
+                    <div class="sp-t-0-4">
+                      <rt-price :v2="true" :is-option="true" option-label="до" :bright="true" :value="380"
+                                time-interval="мес." currency="руб."></rt-price>
+                    </div>
+
+                  </div>
+                </label>
+              </rt-col>
+              <rt-col :size="1"></rt-col>
+              <rt-col :size="3">
+                <label>
+                  <input name="test" class="lg-router-form-input" type="radio"/>
+                  <div class="lg-router-form-check sp-t-1-4 sp-b-1-4 sp-l-2">
+                    <div class="lg-router-form-check-decor"></div>
+                    <div class="lg-router-form-check-decor2"></div>
+                    <p class="lg-router-form-label">ПОКУПКА</p>
+                    <p class="rt-font-small-paragraph">Единовременная покупка</p>
+                    <div class="sp-t-2">
+                      <rt-price :v2="true" :only-price="true" :bright="true" :value="8999"
+                                currency="руб."></rt-price>
+                    </div>
+                  </div>
+                </label>
+              </rt-col>
+            </rt-row>
+            <rt-row>
+              <rt-col :size="6"></rt-col>
+            </rt-row>
+          </rt-col>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  </div>
   </div>
 
 
