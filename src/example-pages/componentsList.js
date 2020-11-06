@@ -112,8 +112,10 @@ import {
     HelpBlock,
     PhoneNumberInput,
     Jumbotron,
+    CarouselV2,
+    CarouselSlideV2,
     AdBanner
-    
+
 } from '@vue-rt-style-kit-molecules-local'
 
 
@@ -242,6 +244,8 @@ componentsList[CountdownTimer.name] = CountdownTimer;
 componentsList[StickyBottomLine.name] = StickyBottomLine;
 componentsList[StickyHeaderLine.name] = StickyHeaderLine;
 componentsList[PhoneNumberInput.name] = PhoneNumberInput;
+componentsList[CarouselV2.name] = CarouselV2;
+componentsList[CarouselSlideV2.name] = CarouselSlideV2;
 // componentsList[VideoPlayer.name] = VideoPlayer;
 
 componentsList[Slider.name] = Slider;

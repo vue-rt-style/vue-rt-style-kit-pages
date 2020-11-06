@@ -51,36 +51,36 @@
           </rt-benefit-block>
         </rt-resize-content-height>
 
-            <rt-benefit-block :columns-quantity="4" :step="true" step-title="этап" :three-column-tablet="true">
-              <rt-benefit-item>
-                <template slot="description">
-                  <h4 class="rt-font-bold rt-space-bottom05" v-tooltip="{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}">Помощь в математике</h4>
-                  <p class="rt-font-small-paragraph">OneNote справится с любым уравнением и покажет алгоритм решения задачи.</p>
-                </template>
-              </rt-benefit-item>
-              <rt-benefit-item>
-                <template slot="description">
-                  <h4 class="rt-font-bold rt-space-bottom05" v-tooltip="{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}">Помощь в математике</h4>
-                  <p class="rt-font-small-paragraph">OneNote справится с любым уравнением и покажет алгоритм решения задачи.</p>
-                </template>
-              </rt-benefit-item>
-              <rt-benefit-item>
-                <template slot="description">
-                  <h4 class="rt-font-bold rt-space-bottom05" v-tooltip="{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}">Помощь в математике</h4>
-                  <p class="rt-font-small-paragraph">OneNote справится с любым уравнением и покажет алгоритм решения задачи.</p>
-                </template>
-              </rt-benefit-item>
-              <rt-benefit-item>
-                <template slot="description">
-                  <h4 class="rt-font-bold rt-space-bottom05" v-tooltip="{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}">Помощь в математике</h4>
-                  <p class="rt-font-small-paragraph">OneNote справится с любым уравнением и покажет алгоритм решения задачи.</p>
-                </template>
-              </rt-benefit-item>
-            </rt-benefit-block>
+        <rt-benefit-block :columns-quantity="4" :step="true" step-title="этап" :three-column-tablet="true">
+          <rt-benefit-item>
+            <template slot="description">
+              <h4 class="rt-font-bold rt-space-bottom05" v-tooltip="{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}">Помощь в математике</h4>
+              <p class="rt-font-small-paragraph">OneNote справится с любым уравнением и покажет алгоритм решения задачи.</p>
+            </template>
+          </rt-benefit-item>
+          <rt-benefit-item>
+            <template slot="description">
+              <h4 class="rt-font-bold rt-space-bottom05" v-tooltip="{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}">Помощь в математике</h4>
+              <p class="rt-font-small-paragraph">OneNote справится с любым уравнением и покажет алгоритм решения задачи.</p>
+            </template>
+          </rt-benefit-item>
+          <rt-benefit-item>
+            <template slot="description">
+              <h4 class="rt-font-bold rt-space-bottom05" v-tooltip="{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}">Помощь в математике</h4>
+              <p class="rt-font-small-paragraph">OneNote справится с любым уравнением и покажет алгоритм решения задачи.</p>
+            </template>
+          </rt-benefit-item>
+          <rt-benefit-item>
+            <template slot="description">
+              <h4 class="rt-font-bold rt-space-bottom05" v-tooltip="{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}">Помощь в математике</h4>
+              <p class="rt-font-small-paragraph">OneNote справится с любым уравнением и покажет алгоритм решения задачи.</p>
+            </template>
+          </rt-benefit-item>
+        </rt-benefit-block>
 
         <pre-code
           text='
-            <rt-benefit-block :columns-quantity="2" :has-icon="true"  icon-size="80px" backgroundColorClass="color-block--black" class="color-white">
+            <rt-benefit-block :columns-quantity="2" :has-icon="true" icon-size="80px" background-color-class="black" class="color-white">
               <rt-benefit-item>
                 <template slot="image">
                   <svg viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -165,38 +165,38 @@
         '/>
 
 
-            <rt-benefit-block :columns-quantity="4" :has-image="true" :no-transparency-description="true">
-              <rt-benefit-item>
-                <template slot="image">
-                  <img src="/static/images/B2B/phone12.svg">
-                </template>
-                <template slot="description">
-                  <p class="rt-font-paragraph" v-tooltip="{'text':'Добавить в избранное'}">Мобильный или SIP-телефон</p>
-                </template>
-              </rt-benefit-item>
-              <rt-benefit-item>
-                <template slot="image">
-                  <img src="/static/images/B2B/phone13.svg">
-                </template>
-                <template slot="description">
-                  <p class="rt-font-paragraph">
-                    <rt-replacement-link link-text="специальная программа"
-                                         macos-link="https://apps.apple.com/us/app/telefon-rostelekom/id1033204349?mt=12"
-                                         windows-link="https://moscow.rt.ru/sites/default/files/b2b/instruction_vats/Svetets_Telephone-Rostelecom_3.8.67.zip"
-                                         pre-link-text="или "
-                                         post-link-text=" на компьютере или ноутбуке"/>
-                  </p>
-                </template>
-              </rt-benefit-item>
-              <rt-benefit-item>
-                <template slot="image">
-                  <img src="/static/images/B2B/phone14.svg">
-                </template>
-                <template slot="description">
-                  <p class="rt-font-paragraph" v-tooltip="{'text':'Добавить в избранное'}">Интернет от любого провайдера</p>
-                </template>
-              </rt-benefit-item>
-            </rt-benefit-block>
+        <rt-benefit-block :columns-quantity="4" :has-image="true" :no-transparency-description="true">
+          <rt-benefit-item>
+            <template slot="image">
+              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/VATS/how%20it%20works_new/1.svg">
+            </template>
+            <template slot="description">
+              <p class="rt-font-paragraph" v-tooltip="{'text':'Добавить в избранное'}">Мобильный или SIP-телефон</p>
+            </template>
+          </rt-benefit-item>
+          <rt-benefit-item>
+            <template slot="image">
+              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/VATS/how%20it%20works_new/2.svg">
+            </template>
+            <template slot="description">
+              <p class="rt-font-paragraph">
+                <rt-replacement-link link-text="специальная программа"
+                                     macos-link="https://apps.apple.com/us/app/telefon-rostelekom/id1033204349?mt=12"
+                                     windows-link="https://moscow.rt.ru/sites/default/files/b2b/instruction_vats/Svetets_Telephone-Rostelecom_3.8.67.zip"
+                                     pre-link-text="или "
+                                     post-link-text=" на компьютере или ноутбуке"/>
+              </p>
+            </template>
+          </rt-benefit-item>
+          <rt-benefit-item>
+            <template slot="image">
+              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/VATS/how%20it%20works_new/3.svg">
+            </template>
+            <template slot="description">
+              <p class="rt-font-paragraph" v-tooltip="{'text':'Добавить в избранное'}">Интернет от любого провайдера</p>
+            </template>
+          </rt-benefit-item>
+        </rt-benefit-block>
 
       </div>
       <div class="rt-container rt-space-top25">

@@ -8,12 +8,13 @@
                     </h1>
                 </div>
                 <div class="app-body">
-                    <rt-phone-number-input @selected-number="selected" :prefix="8" @search-cleared="cleared"
+                    <rt-phone-number-input @selected-number="selected" :prefix="8800" @search-cleared="cleared"
                             :area-code=code
                             :auto-complete=complete
                             :client-auto-complete=client
                             @select-interaction-detected="select"
-                            @input-interaction-detected="input"/>
+                            @input-interaction-detected="input"
+                            :show-clear-button="true"/>
                 </div>
             </div>
         </div>
@@ -32,21 +33,21 @@
         components: componentsList,
         data: () => ({
             // documentation: {}
-            code: [{ "value": "all", "code": "все"}, { "value": 831, "code": 831 }, { "value": 123, "code": 123}],
+            code: [{ "value": 201, "code": 'XXX'}],
             complete: "5\\d\\d\\d\\d\\d\\d",
-            client: "\\d9\\d\\d\\d\\d\\d"
+            client: "\\d\\d\\d\\d\\d\\d\\d"
         }),
         mounted() {
-            // this.documentation = documentation;
-            // setTimeout(()=> {
-            //     this.code = [{ "value": 831, "code": 831 }, { "value": "all", "code": "все"}, { "value": 123, "code": 123, "preselected": true}]
-            // },1500)
-            // setTimeout(()=> {
-            //     this.complete = '5\\d\\d\\d\\d\\d\\d'
-            // },1000)
-            // setTimeout(()=> {
-            //     this.client = '\\d3\\d\\d\\d\\d\\d'
-            // },2000)
+            this.documentation = documentation;
+            setTimeout(()=> {
+                this.code = [{ "value": "all", "code": "все"}, { "value": 495, "code": 495}, { "value": 499, "code": 499, "preselected": true}]
+            },1500)
+            setTimeout(()=> {
+                this.complete = '5\\d\\d\\d\\d\\d\\d'
+            },1000)
+            setTimeout(()=> {
+                this.client = '\\d3\\d\\d\\d\\d\\d'
+            },2000)
         },
         created() {},
         methods: {
