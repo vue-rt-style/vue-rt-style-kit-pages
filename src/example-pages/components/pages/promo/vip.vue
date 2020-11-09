@@ -9,128 +9,138 @@
 
         <div class="rt-container color-white sp-t-2">
           <rt-col>
-          <rt-row class="sp-t-4 sp-b-4-4">
-            <rt-col :size="6" :mobile-size="3" class="ld-router-banner-content">
-              <h1 class="rt-font-h1 sp-t-3-4">
-                Выбирайте <br>
-                игровой роутер RT-X
-              </h1>
-              <p class="rt-font-paragraph sp-t-0-4 sp-b-2">Мощный роутер с приоритизацией игрового трафика</p>
-              <div class="d-flex">
-                <rt-button :bright="true" href="#" color="full-white">Оставить заявку</rt-button>
-              </div>
-            </rt-col>
-            <rt-col :size="6" :mobile-size="3" class="relative ">
-              <div class="">
-                <div class="ld-router-banner__router">
-                  <div class="ld-router-banner__shadow"></div>
+            <rt-row class="sp-t-4 sp-b-4-4 td-sp-b-2 md-sp-t-none">
+              <rt-col :size="6" :mobile-size="3" class="ld-router-banner-content">
+                <h1 class="rt-font-h1 sp-t-3-4">
+                  Выбирайте <br>
+                  игровой роутер RT-X
+                </h1>
+                <p class="rt-font-paragraph sp-t-0-4 sp-b-2">Мощный роутер с приоритизацией игрового трафика</p>
+                <div class="d-flex">
+                  <rt-button :bright="true" href="#" color="full-white">Оставить заявку</rt-button>
                 </div>
-
-              </div>
-            </rt-col>
-            <rt-col class="sp-t-3-3 sp-b-5">
-              <rt-row>
-                <rt-col :tablet-size="2" :size="2" :mobile-size="3" class="md-d-flex md-flex-v-center">
-                  <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/fast-icon.png"
-                       class="ld-router-banner_icon" alt="">
-                  <div class="md-sp-l-1-3">
-                  <p class="rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2">Быстрый</p>
-                  <p class="rt-font-small-paragraph">Скорость Wi-Fi до 2 Гбит/с</p>
+              </rt-col>
+              <rt-col :size="6" :mobile-size="3" class="relative ">
+                <div class="">
+                  <div class="ld-router-banner__router">
+                    <div class="ld-router-banner__shadow"></div>
                   </div>
-                </rt-col>
-                <rt-col :tablet-size="2" :size="2" :mobile-size="3" class="md-d-flex md-flex-v-center">
-                  <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/smart-icon.png"
-                       class="ld-router-banner_icon" alt="">
-                  <div class="md-sp-l-1-3">
-                  <p class="rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2">Умный</p>
-                  <p class="rt-font-small-paragraph">Приоритизация игрового трафика</p>
-                  </div>
-                </rt-col>
-                <rt-col :tablet-size="2" :size="2" :mobile-size="3" class="md-d-flex md-flex-v-center">
-                  <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/play-icon.png"
-                       class="ld-router-banner_icon" alt="">
-                  <div class="md-sp-l-1-3">
-                  <p class="rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2">Игровой</p>
-                  <p class="rt-font-small-paragraph">Низкий пинг в играх</p>
-                  </div>
-                </rt-col>
-              </rt-row>
 
-            </rt-col>
+                </div>
+              </rt-col>
+              <rt-col  class="sp-t-3-3 sp-b-5 td-sp-b-none">
+                <rt-row>
+                  <rt-col :tablet-size="2" :size="2" :mobile-size="3" class="md-d-flex md-flex-v-center">
+                    <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/fast-icon.png"
+                         class="ld-router-banner_icon" alt="">
+                    <div class="md-sp-l-1-3">
+                      <p class="rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2">Быстрый</p>
+                      <p class="rt-font-small-paragraph">Скорость Wi-Fi до 2 Гбит/с</p>
+                    </div>
+                  </rt-col>
+                  <rt-col :tablet-size="2" :size="2" :mobile-size="3" class="md-d-flex md-flex-v-center">
+                    <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/smart-icon.png"
+                         class="ld-router-banner_icon" alt="">
+                    <div class="md-sp-l-1-3">
+                      <p class="rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2">Умный</p>
+                      <p class="rt-font-small-paragraph">Приоритизация игрового трафика</p>
+                    </div>
+                  </rt-col>
+                  <rt-col :tablet-size="2" :size="2" :mobile-size="3" class="md-d-flex md-flex-v-center">
+                    <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/play-icon.png"
+                         class="ld-router-banner_icon" alt="">
+                    <div class="md-sp-l-1-3">
+                      <p class="rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2">Игровой</p>
+                      <p class="rt-font-small-paragraph">Низкий пинг в играх</p>
+                    </div>
+                  </rt-col>
+                </rt-row>
 
-          </rt-row>
+              </rt-col>
+
+            </rt-row>
           </rt-col>
         </div>
       </div>
     </div>
     <div class="wc-inline">
-      <div class="sp-t-1 ld-router-spider relative color-white">
+      <div class="sp-t-1 ld-router-spider td-sp-b-2-2 relative color-white">
         <div class="rt-container">
           <rt-col>
             <rt-row>
-              <rt-col class="rt-font-center" :size="12">
-                <h2 class="rt-font-h2 sp-t-3-4 sp-b-0-3">Мощный сигнал для игры без лагов</h2>
+              <rt-col class="rt-font-center rt-td-font-left" :size="12">
+                <h2 class="rt-font-h2 sp-t-3-4 td-sp-t-2 sp-b-0-3">Мощный сигнал для игры без лагов</h2>
               </rt-col>
             </rt-row>
-            <rt-row >
+            <rt-row>
               <rt-col :size="4" :t-hide="true"></rt-col>
-              <rt-col class="relative" :size="4">
+              <rt-col class="relative" :size="4" :tablet-size="3" :mobile-size="3">
                 <div class="ld-router-spider-image"></div>
               </rt-col>
 
             </rt-row>
             <rt-row class="sp-t-4">
-              <rt-col :size="3">
-                <p class="rt-font-paragraph rt-font-right ld-router-spider-line ld-router-spider-line-1">Поддерживает до
+              <rt-col :tablet-size="3" :hide="true" :t-hide="false" class="td-d-block"></rt-col>
+              <rt-col :size="3" :tablet-size="3" :mobile-size="3">
+                <div class="md-sp-l-1">
+                <p class="rt-font-paragraph rt-font-right rt-td-font-left ld-router-spider-line ld-router-spider-line-1">
+                  Поддерживает до
                   16 устройств</p>
-                <p class="rt-font-paragraph rt-font-right ld-router-spider-line ld-router-spider-line-2">Скорость до 600
-                  Мбит/с (2.4 ГГц.) <br>
+                <p class="rt-font-paragraph rt-font-right rt-td-font-left ld-router-spider-line ld-router-spider-line-2">
+                  Скорость до 600 Мбит/с (2.4 ГГц.) <br class="td-d-none">
                   до 1733 Мбит/с (5 ГГц.)</p>
-                <p class="rt-font-paragraph rt-font-right ld-router-spider-line ld-router-spider-line-3">4 мощные
-                  антенны, расположенные <br>
+                <p class="rt-font-paragraph rt-font-right rt-td-font-left ld-router-spider-line ld-router-spider-line-3">
+                  4 мощные
+                  антенны, расположенные <br class="td-d-none">
                   под крышкой корпуса </p>
-
+                </div>
               </rt-col>
-              <rt-col :size="6"></rt-col>
-              <rt-col :size="3">
-                <p class="rt-font-paragraph ld-router-spider-line ld-router-spider-line-4">Приоритизация популярных игр,<br>
+              <rt-col :size="6" :tablet-size="3" :m-hide="true"></rt-col>
+              <rt-col :size="3" :tablet-size="3" :mobile-size="3">
+                <div class="md-sp-l-1">
+                <p class="rt-font-paragraph ld-router-spider-line ld-router-spider-line-4">Приоритизация популярных игр,<br
+                    class="td-d-none">
                   позволяет при загрузке
                   вашей сети
-                  <br> отдать приоритет играм
+                  <br class="td-d-none"> отдать приоритет играм
                 </p>
                 <p class="rt-font-paragraph ld-router-spider-line ld-router-spider-line-5">Хорошее покрытые и стабильный
-                  <br> сигнал благодаря MIMO 4x4 в 2
-                  <br> диапазонах
+                  <br class="td-d-none"> сигнал благодаря MIMO 4x4 в 2
+                  <br class="td-d-none"> диапазонах
                 </p>
                 <p class="rt-font-paragraph ld-router-spider-line ld-router-spider-line-6">Работа 2 диапазонах
-                  одновременно <br>
+                  одновременно <br class="td-d-none">
                   (2.4 ГГц., 5 ГГц)</p>
+                </div>
               </rt-col>
             </rt-row>
           </rt-col>
         </div>
-
-
       </div>
     </div>
     <div class="wc-inline">
-      <div class="sp-t-3-2 color-white lg-router-cabel">
+      <div class="sp-t-3-2 td-sp-t-0-2 color-white lg-router-cabel">
         <div class="relative">
-          <div class="lg-router-cabel-lines"></div>
-          <h2 class="rt-font-h2 rt-font-center">Работает только на PON соединении</h2>
 
+          <div class="lg-router-cabel-lines"></div>
+
+            <div class="rt-container">
+              <rt-col>
+                <h2 class="rt-font-h2 rt-font-center rt-td-font-left">Работает только на PON соединении</h2>
+              </rt-col>
+            </div>
           <div class="rt-container sp-b-5">
             <rt-col>
               <rt-row class="sp-t-5 sp-b-5-2">
-                <rt-col :size="7">
+                <rt-col :size="7" :tablet-size="3" class="lg-router-cabel-gpon-cabel">
                   <div class="lg-router-cabel-image"></div>
                 </rt-col>
-                <rt-col :size="5">
+                <rt-col :size="5" class="lg-router-cabel-gpon-column" :tablet-size="3" :mobile-size="3">
                   <div class="lg-router-cabel-gpon">
                     <div class="lg-router-cabel-gpon-content">
-                      <h3 class="rt-font-h3 sp-b-1">PON соединение</h3>
+                      <h3 class="rt-font-h3 sp-b-1 td-sp-b-0-2">PON соединение</h3>
                       <p class="rt-font-small-paragraph">Самое современное подключение к сети интернет</p>
-                      <p class="rt-font-small-paragraph sp-t-0-4 sp-b-1-2">Роутер работает только при оптоволоконном
+                      <p class="rt-font-small-paragraph sp-t-0-4 td-sp-t-0-3 td-sp-b-1 sp-b-1-2">Роутер работает только при оптоволоконном
                         подключении на сети Ростелеком</p>
                       <rt-button :bright="true" href="#" color="full-white">Какое у меня соединение?</rt-button>
                     </div>
@@ -150,7 +160,7 @@
           <rt-col>
             <h2 class="rt-font-h2 sp-b-1-3">Заявка на роутер</h2>
             <rt-row class="sp-b-5 sp-b-1-4">
-              <rt-col :size="3">
+              <rt-col :size="3" :tablet-size="3">
                 <label>
                   <input name="test" class="lg-router-form-input" type="radio"/>
                   <div class="lg-router-form-check sp-t-1-4 sp-b-1-4 sp-l-2">
@@ -166,8 +176,8 @@
                   </div>
                 </label>
               </rt-col>
-              <rt-col :size="1"></rt-col>
-              <rt-col :size="3">
+              <rt-col :size="1" :t-hide="true"></rt-col>
+              <rt-col :size="3" :tablet-size="3">
                 <label>
                   <input name="test" class="lg-router-form-input" type="radio"/>
                   <div class="lg-router-form-check sp-t-1-4 sp-b-1-4 sp-l-2">

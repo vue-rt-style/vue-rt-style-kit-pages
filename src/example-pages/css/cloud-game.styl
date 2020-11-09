@@ -37,17 +37,21 @@
   background-position: right top
   background-repeat: no-repeat
   z-index 2
+
 @media (max-width: 1740px) {
   .ld-router-banner__line1 {
     left: calc(50vw - 870px)
   }
-  .ld-router-banner__line2{
+
+  .ld-router-banner__line2 {
     right calc(50vw - 870px)
   }
+
   //.ld-router-banner__blur{
   //  left: calc( 320px + 870px - 50vw)
   //}
 }
+
 @keyframes ShowRouter
   0%
     opacity: 0
@@ -58,22 +62,26 @@
 
 
 .ld-router-banner__router
-  width: calc((77*100vw + 223762px) / 534)
-  height:  calc((67*100vw + 201644px) / 534)
+  width: calc((77 * 100vw + 223762px) / 534)
+  height: calc((67 * 100vw + 201644px) / 534)
   background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/router.png)
   position: absolute;
   left: 0
   top: 0px
   background-size: contain;
   background-position: bottom center
-  background-repeat:no-repeat
+  background-repeat: no-repeat
   max-width calc(100% - 40px)
   margin-left: 20px
   @media (max-width: 1024px) {
     height: 315px
   }
   @media (max-width: 768px) {
-    height: 275px
+    height: 83vw
+    max-width initial
+    width: 100%
+    margin-left auto
+    margin-right auto
     position: relative;
   }
 
@@ -89,14 +97,14 @@
 .ld-router-banner__shadow
   position: absolute;
   background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/shadow.png)
-  width:  calc((78*100vw + 230940px) / 534)
-  height: calc((6*100vw + 16368px) / 534)
+  width: calc((78 * 100vw + 230940px) / 534)
+  height: calc((6 * 100vw + 16368px) / 534)
   bottom: calc((6 * 100vw + 16368px) / 534 * -1);
   right: 0
   left: 0
   z-index 2
   background-size: contain;
-  background-repeat:no-repeat
+  background-repeat: no-repeat
   background-position: center center
   max-width calc(100%)
   margin-left: 10px
@@ -104,12 +112,13 @@
 .ld-router-banner__blur
   position: absolute;
   background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/background-main.png)
-  width: calc((238*100vw + 538904px) / 534);
-  height: calc((118*100vw + 267080px) / 534);
-  right: calc((248*100vw - 649556px) / 534);
+  width: calc((238 * 100vw + 538904px) / 534);
+  height: calc((118 * 100vw + 267080px) / 534);
+  right: calc((248 * 100vw - 649556px) / 534);
 
   background-size: cover;
   top: 0
+
 
 .ld-router-spider
   height: 820px
@@ -130,6 +139,32 @@
     margin-left: auto
     margin-right: auto
 
+@media (max-width: 1024px) {
+  .ld-router-banner__line1{
+    width: 340px;
+    height: 356px;
+    left: 0
+    top: 0
+  }
+  .ld-router-banner__line2{
+    display: none
+  }
+  .ld-router-banner__blur {
+    width: 984px;
+    height: 487px
+    left: calc((170 * 100vw - 110080px) / 256)
+  }
+}
+@media (max-width: 768px) {
+  .ld-router-banner__blur {
+    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/background-main-md.png)
+    width (636/360*100)vw
+    height (363/360*100)vw
+    left (-139/360*100)vw
+    top: (370/360*100)vw
+    opacity: 0.75
+  }
+}
 .ld-router-spider-image
   position: absolute;
   width: 467px
@@ -200,13 +235,63 @@
   height: 46px;
   top: -6px
 
+@media (max-width: 1024px) {
+  .ld-router-spider {
+    height: auto;
+  }
+
+  .ld-router-spider:before {
+    width: 789px;
+    height: 540px;
+    left: -40vw;
+    top: 10vw;
+  }
+
+  .ld-router-spider-line {
+    height: auto
+  }
+
+  .ld-router-spider-line:before {
+    background-image: none
+    width: 8px
+    height: 8px;
+    border-radius: 50%;
+    left: -27px
+    top: 5px
+    background-color: #FF5E2D
+  }
+
+  .ld-router-spider-line {
+    padding-bottom: 32px
+  }
+
+  .ld-router-spider-image {
+    right: 40px
+    width: 318px;
+    height: 281px;
+    top: 122px
+
+  }
+}
+@media (max-width: 768px) {
+  .ld-router-spider-line:before {
+    left: -20px
+  }
+  .ld-router-spider-image{
+    position: relative;
+    width (308/360*100)vw
+    height (272/360*100)vw
+    top: 0
+    left: 0
+    right: 0
+  }
+}
 .lg-router-cabel
   height: 668px
   overflow: hidden;
 
 .lg-router-cabel-lines
   height: 668px
-
   width: 1512px
   top: -48px
   background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/linesBackground.png)
@@ -214,53 +299,121 @@
   position: absolute;
   background-position: -83px 0;
   background-repeat no-repeat
+  @media (max-width: 1024px) {
+    width: 197vw
+    height: 65vh
+    left: -60vw
+    background-size: contain;
+    top: calc((-138*100vw + 96000px )/256)
+    //−138x−256y+96000=0
+  }
 
 .lg-router-cabel-image
   width: 660px;
   height: 145px;
   background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/cabel.png)
-  background-size: cover;
+  background-size: contain;
   position: absolute;
   top: 0
   bottom: 0
   margin-top: auto
   margin-bottom: auto
   background-repeat no-repeat
+  @media (max-width: 1024px) {
+    width: 44vw
+    height: 10vw
+    left: -6vw
 
+  }
+.lg-router-cabel-gpon-cabel
+  @media (max-width: 1023px) and (min-width: 768px) {
+    min-width 43vw
+    max-width 45vw
+    -webkit-flex: 0 0 45%;
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+  }
+.lg-router-cabel-gpon-column
+  @media (max-width: 1023px) and (min-width: 768px) {
+    min-width 53vw
+    max-width 55vw
+    -webkit-flex: 0 0 55%;
+    -ms-flex: 0 0 55%;
+    flex: 0 0 55%;
+  }
 .lg-router-cabel-gpon
-  padding-top: 58px
-  padding-left: 54px
-  padding-right: 56px
-  padding-bottom: 58px
+
   //background-image: linear-gradient(to right, rgb(255,94,45) 0%, rgba(255, 94, 45 ,0) 100%)
   //background: linear-gradient(90deg, #FF5E2D -0.02%, rgba(255, 94, 45, 0) 99.96%);
   position: relative;
   z-index 2
+  padding-top: 58px
+  padding-left: 54px
+  padding-right: 56px
+  padding-bottom: 68px
 
+  background: linear-gradient(90deg, #FF5E2D -0.02%, rgba(255, 94, 45, 0) 99.96%);
+  //background-image: url('https://static-cdn.rt.ru/sites/default/files/img/router-huawei/G-pon-bg.png')
+  //background-size: contain;
+  //url("https://static-cdn.rt.ru/sites/default/files/img/router-huawei/G-pon.png") 98 34% 34% / 1 / 0 stretch
+
+
+  @media (max-width: 1023px) {
+    padding-right: 44px
+    padding-top: 50px
+    padding-bottom: 50px
+    padding-left: 36px
+  }
   &:after
     content ''
     position: absolute;
     z-index 1
-    background: linear-gradient(90deg, #FF5E2D -0.02%, rgba(255, 94, 45, 0) 99.96%);
+    border-width  30px 50px 30px 50px;
+    border-style solid
+    border-color transparent
+    //background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/G-pon-1.png)
     top: 0
-    bottom: 0
     right: 0
     left: 0
+    bottom: 0
+    border-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/G-pon.png) 11.5% 11.5% 11.5% 11.5% stretch;
+
 
   &:before
     content ''
     position: absolute;
-    z-index 3
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/G-pon.png)
-    top: 0
+    z-index 2
+    height: 40px
+    //background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/G-pon-2.png)
     bottom: 0
     right: 0
     left: 0
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    //@media (max-width: 1023px) {
+    //  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/G-pon-tab.png)
+    //}
+    //@media (max-width: 768px) {
+    //  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/G-pon-mob.png)
+    //}
 
 .lg-router-cabel-gpon-content
   position relative
-  z-index 4
+
+  //background: linear-gradient(90deg, #FF5E2D -0.02%, rgba(255, 94, 45, 0) 99.96%);
+  border-width: 82px 82px 82px 82px
+
+
+  &:before
+    content  ''
+    position: absolute;
+    //background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/G-pon-3.png)
+    left: 0
+    top: 0
+    bottom: 0
+    width: 40px
+    z-index: 1
+    background-size: contain;
 
 .lg-router-form
   position: relative;
@@ -287,7 +440,9 @@
   transition-property border, box-shadow
   cursor: pointer;
   box-shadow: 0px 0px 0px #F30303;
-
+  @media (max-width: 1024px) {
+    max-width 300px
+  }
   &:before
     content ''
     position: absolute;
