@@ -10,7 +10,7 @@
     </div>
 
     <pre-code  text="<rt-jumbotron background='main-color'  color='white' description-color='main'>
-      <template slot='label'>Кибербезопасность <br>123 </template>
+      <template slot='label'><p>Кибербезопасность <br>123 </p></template>
       <template slot='description'>Комплексные сервисы защиты цифровых систем</template>
       <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner'>Защита каналов связи</rt-arrow-anchor></template>
       <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner2'>Мониторинг и управление ИБ</rt-arrow-anchor></template>
