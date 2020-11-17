@@ -10,20 +10,26 @@
     </div>
     <div class="sp-b-2">
       <rt-banner-v2 name="test00">
-        <rt-banner-item-v2 banner-name="test00" color-type='purple' ga-banner-name="это мой гребанный id" :ga='{name:"Смотрим вместе"}'>
+        <rt-banner-item-v2 banner-name="test00" color-type='purple' ga-banner-name="это мой гребанный id"
+                           :ga='{name:"Смотрим вместе"}'>
           <template slot='header'>
             <p class='tagline rt-font-label-uppercase rt-font-bold color-white05'>Это текст вместо лог!!о</p>
           </template>
           <template slot='mobile-header'>
-            <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' height='32px' alt=''>
+            <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' height='32px'
+                 alt=''>
           </template>
           <template slot='label'>Легко подключить,<br> комфортно жить</template>
-          <template slot='footer'><rt-button color='orange'>Подробнее</rt-button></template>
-          <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12.jpg' alt=''></template>
-          <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12-x2.jpg' alt=''></template>
+          <template slot='footer'>
+            <rt-button color='orange'>Подробнее</rt-button>
+          </template>
+          <template slot='image'>
+            <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12.jpg'
+                    x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12-x2.jpg' alt=''></rt-img>
+          </template>
         </rt-banner-item-v2>
       </rt-banner-v2>
-     <pre-code text="<rt-banner-v2>
+      <pre-code text="<rt-banner-v2>
 	<rt-banner-item-v2 color-type='purple' :ga='{name:&quot;Смотрим вместе&quot;,section:&quot;2&quot;}'>
 		<template slot='header'>
 			<p class='tagline rt-font-label-uppercase rt-font-bold color-white05'>Это текст вместо лого</p>
@@ -33,8 +39,8 @@
 		</template>
 		<template slot='label'>Легко подключить,<br> комфортно жить</template>
 		<template slot='footer'><rt-button color='orange'>Подробнее</rt-button></template>
-		<template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12.jpg' alt=''></template>
-		<template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12-x2.jpg' alt=''></template>
+
+		<template slot='image'><rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12.jpg' x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12-x2.jpg' alt=''></rt-img></template>
 	</rt-banner-item-v2>
 </rt-banner-v2>"/>
 
@@ -49,10 +55,13 @@
         </template>
         <template slot='label'>Легко подключить,<br> комфортно жить</template>
         <template slot='footer'><rt-button color='orange'>Подробнее</rt-button></template>
-        <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage.jpg' alt=''></template>
-        <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-x2.jpg' alt=''></template>
-        <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-tablet.jpg' alt=''></template>
-        <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-mobile.jpg' alt=''></template>
+        <template slot='image'>
+        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage.jpg'
+                x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-x2.jpg'
+                td-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-tablet.jpg'
+                md-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-mobile.jpg' alt=''></rt-img>
+        </template>
+
       </rt-banner-item-v2>
       <rt-banner-item-v2 :ga='{name:&quot;test1&quot;,section:&quot;2&quot;}' ga-banner-name='banner_first' color-type='red' banner-name='test9393' :is-active='true' :show-url-on-desktop='true' url='http://rt.ru'>
         <template slot='header'>
@@ -66,32 +75,37 @@
         <template slot='label'>Разжигают страсть</template>
         <template slot='description'>Абонемент «Киноман» Скидка на все фильмы и сериалы </template>
         <template slot='footer'><rt-button color='full-white' >Подробнее</rt-button></template>
-        <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange.jpg' alt=''></template>
-        <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange-x2.jpg' alt=''></template>
+        <template slot='image'>
+        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange.jpg'
+                x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange-x2.jpg'
+                ></rt-img>
+        </template>
       </rt-banner-item-v2>
       <rt-banner-item-v2 :ga='{name:&quot;test1&quot;,section:&quot;2&quot;}' ga-banner-name='banner_ulala' banner-name='test9393' url='http://rt.ru'>
         <template slot='label'>Виртуа!!льная АТС <br> и 1 000 минут бесплатно</template>
         <template slot='description'>Соберите сами свой пакет фильмов и каналов.</template>
         <template slot='footer'><a href='#'><rt-button  color='orange' >Подробнее</rt-button></a></template>
-        <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage.jpg' alt=''></template>
-        <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-x2.jpg' alt=''></template>
-        <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-tablet.jpg' alt=''></template>
-        <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-mobile.jpg' alt=''></template>
+        <template slot='image'>
+        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage.jpg'
+                x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-x2.jpg'
+                td-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-tablet.jpg'
+                md-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-mobile.jpg' alt=''></rt-img>
+        </template>
       </rt-banner-item-v2>
       <rt-banner-item-v2  color-type='dark-slate' banner-name='test9393'>
         <template slot='label'>Не платите за лишне!!е</template>
         <template slot='description'>Соберите сами свой пакет фильмов и каналов.</template>
         <template slot='footer'><rt-button  color='orange' >Подробнее</rt-button></template>
-        <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack.jpg' alt=''></template>
-        <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack-mobile.jpg' alt=''></template>
-        <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack-2x.jpg' alt=''></template>
+        <template slot='image'>
+        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack.jpg'
+                x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack-2x.jpg'
+                md-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack-mobile.jpg' alt=''></rt-img>
+        </template>
       </rt-banner-item-v2>
       </rt-banner-v2>"></pre-code>
 
     </div>
     <div class="rt-container is-b2b">
-
-
 
 
       <pre-code
@@ -423,9 +437,11 @@
         <rt-button class='rt-button-purple'>Подробнее</rt-button>
       </rt-banner-item>
     </rt-banner>"/>
-!! !! ++    </div>
+      !! !! ++
+    </div>
 
-    <rt-banner :is-fullscreen-image="true" content-height="500px" content-mobile-height='500px' content-tablet-height='500px'>
+    <rt-banner :is-fullscreen-image="true" content-height="500px" content-mobile-height='500px'
+               content-tablet-height='500px'>
       <rt-banner-item :is-white-color="true"
                       background-image="/static/images/B2B/ArtboardCopy.png"
                       background-color="main-color"
@@ -463,21 +479,20 @@
 </template>
 
 <script>
-  import documentation from "@vue-rt-style-kit-molecules-local/components/Banner/docs/index.json";
-  import componentsList from "../../componentsList";
-  // const componentsList = {};
-  export default {
-    name: "AppBanners",
-    components: componentsList,
-    data: () => ({
-      documentation: {}
-    }),
-    mounted() {
-      this.documentation = documentation;
-    },
-    created() {
-    },
-    methods: {
-    }
-  };
+import documentation from "@vue-rt-style-kit-molecules-local/components/Banner/docs/index.json";
+import componentsList from "../../componentsList";
+// const componentsList = {};
+export default {
+  name: "AppBanners",
+  components: componentsList,
+  data: () => ({
+    documentation: {}
+  }),
+  mounted() {
+    this.documentation = documentation;
+  },
+  created() {
+  },
+  methods: {}
+};
 </script>
