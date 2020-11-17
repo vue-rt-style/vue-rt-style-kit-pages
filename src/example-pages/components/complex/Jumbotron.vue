@@ -15,12 +15,9 @@
       <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner'>Защита каналов связи</rt-arrow-anchor></template>
       <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner2'>Мониторинг и управление ИБ</rt-arrow-anchor></template>
       <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner3'>Единая платформа сервисов безопасности</rt-arrow-anchor></template>
-      <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light.png' alt=''></template>
-      <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png' alt=''></template>
-      <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png' alt=''>
-      </template>
-      <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png' alt=''>
-      </template>
+      <template slot='image'><rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light.png'
+                                     x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png'
+      ></rt-img></template>
     </rt-jumbotron>"></pre-code>
 
     <pre-code  text="<rt-jumbotron id='idBanner' background='dark-slate' color='white' description-color='white'>
@@ -35,11 +32,13 @@
       <template slot='footer'>
         <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
       </template>
-      <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark.png' alt=''></template>
-      <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png' alt=''></template>
-      <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png' alt=''>
-      </template>
-      <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png' alt=''>
+
+      <template slot='image'>
+      <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark.png'
+                                     x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark.png'
+                                     td-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png'
+                                     md-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png'
+      ></rt-img>
       </template>
     </rt-jumbotron>"></pre-code>
 
@@ -57,12 +56,11 @@
       <template slot='footer'>
         <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
       </template>
-      <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/purple.png' alt=''></template>
-      <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/purple-2x.png' alt=''></template>
-      <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/purple-2x.png' alt=''>
-      </template>
-      <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/purple-2x.png' alt=''>
-      </template>
+      <template slot='image'>
+      <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/purple.png'
+                                     x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/purple-2x.png'
+      ></rt-img>
+    </template>
     </rt-jumbotron>"></pre-code>
 
     <pre-code text="<rt-jumbotron id='idBanner3' background='orange' color='white' description-color='white'>
@@ -74,12 +72,12 @@
       <template slot='footer'>
         <rt-button class='rt-button-md--is-block' :bright='true' color='full-white'>Заказать</rt-button>
       </template>
-      <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/orange.png' alt=''></template>
-      <template slot='image-x2'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/orange-2x.png' alt=''></template>
-      <template slot='image-tablet'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/orange-2x.png' alt=''>
+
+      <template slot='image'>      <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/orange.png'
+                                     x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/orange-2x.png'></rt-img>
+
       </template>
-      <template slot='image-mobile'><img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/orange-2x.png' alt=''>
-      </template>
+
     </rt-jumbotron>"></pre-code>
 
     <div class="rt-container rt-space-top25">
