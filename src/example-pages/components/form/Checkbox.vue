@@ -107,6 +107,32 @@
 				</rt-col>
 			</div>
 		</div>
+		<div class="rt-container sp-v-2">
+			<rt-col :size="4">
+				<h3 class="sp-b-2">Dynamic test</h3>
+				<div class="d-flex flex-column sp-b-1">
+					<rt-checkbox
+						:checked="myModel.internet"
+						@change="myModel.internet = !myModel.internet"
+					>Интернет</rt-checkbox>
+					<rt-checkbox
+						:checked="myModel.sms"
+						@change="myModel.sms = !myModel.sms"
+					>SMS</rt-checkbox>
+					<rt-checkbox
+						:checked="myModel.voiceMessages"
+						@change="myModel.voiceMessages = !myModel.voiceMessages"
+					>Голосовая почта</rt-checkbox>
+					<rt-checkbox
+						:required="true"
+						:checked="myModel.calls"
+						@change="myModel.calls = !myModel.calls"
+					>Звонки</rt-checkbox>
+				</div>
+
+				<pre>Result myModel: <span>{{ myModel }}</span></pre>
+			</rt-col>
+		</div>
 		<div class="rt-container">
 			<div class="app-row row rt-space-top">
 				<documentation-builder :json="documentation" type="components"/>
@@ -125,7 +151,13 @@
     name: "AppCheckbox",
     components: componentsList,
     data: () => ({
-      documentation: {}
+			documentation: {},
+			myModel: {
+				internet: false,
+				sms: false,
+				voiceMessages: false,
+				calls: true
+			}
     }),
     mounted() {
       this.documentation = documentation;
