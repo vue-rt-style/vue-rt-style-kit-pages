@@ -47,11 +47,11 @@
 							</div>
 							<div class="rt-space-vertical">
 								<pre-code
-										text='<rt-checkbox is-orange="true" :is-disabled="true">Интернет</rt-checkbox>'></pre-code>
+										text='<rt-checkbox :is-orange="true" :is-disabled="true">Интернет</rt-checkbox>'></pre-code>
 							</div>
 							<div class="rt-space-vertical">
 								<pre-code
-										text='<rt-checkbox is-orange="true" :is-disabled="true" :checked="true">Интернет</rt-checkbox>'></pre-code>
+										text='<rt-checkbox :is-orange="true" :is-disabled="true" :checked="true">Интернет</rt-checkbox>'></pre-code>
 							</div>
 						</rt-col>
 					</rt-row>
