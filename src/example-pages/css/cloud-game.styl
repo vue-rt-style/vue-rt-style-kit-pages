@@ -1,869 +1,350 @@
 .app
   overflow: visible;
-.ld-router,
-.F
-  background-color: #131010!important
+.ld-key
+  background-color: #fff
+//main-color003-no-opacity
+.color-block--main-color003-no-opacity
+  background-color: #F8F8F8
 
+.ld-key-slader-block
+  position: relative;
+  &:before
+    content ''
+    position: absolute;
+    height: 2px
+    bottom: 0
+    left:0
+    right: 0
+    background-color: white
+    z-index: 11
+  @media(min-width: 1024px)
+    overflow: hidden
+.ld-key-tabs-slider
+  @media(min-width: 1024px)
+    background-color: #F8F8F8
+    position: relative;
+    &:before
+      content ''
+      position absolute
+      width: 50vw
+      left: 0
+      top: -80px
+      background-color: #F8F8F8
+      bottom: -160px
+
+
+.color-block--main-color003-no-opacity .rt-jumbotron-gradient
+  background-image: -webkit-linear-gradient(right, #F8F8F800 0%, #F8F8F8 100%)
+  background-image: -moz-linear-gradient(right, rgba(231,231,233,0) 0%, #F8F8F8 100%)
+  background-image: -o-linear-gradient(right, rgba(231,231,233,0) 0%, #F8F8F8 100%)
+  background-image: -ms-linear-gradient(right, rgba(231,231,233,0) 0%, #F8F8F8 100%)
+  background-image: linear-gradient(to left, #F8F8F800 0%, #F8F8F8 100%)
+.land-key,
+.F
+  background-color: #fff!important
   .app-header
     display: none
-.screen-opened.ld-router{
-  background-color #fff!important
-}
-.ld-router-banner
-  max-width 100vw
-  position: relative;
-  overflow: hidden;
-  min-height: calc((118 * 100vw + 267080px) / 534);
-  @media (min-width: 1900px) {
-    min-height 920px
-  }
-
-.ld-router-banner__line1
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/lines-1.png)
-  width: 641px;
-  height: 587px;
-  position: absolute;
-  z-index 1
-  top: 0
-  left: 0
-  background-size: cover;
-  background-position: left top
-  background-repeat: no-repeat
-
-.ld-router-banner-content
-  position: relative;
-  z-index 3
-
-.ld-router-banner__line2
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/lines-2.png)
-  width: 1105px
-  height: 726px
-  max-width 50vw
-  position: absolute;
-  top: 0
-  right: 0
-  background-size: contain;
-  background-position: right top
-  background-repeat: no-repeat
-  z-index 2
-  animation-name ShowLines
-  animation-fill-mode forwards
-  animation-duration 4s
-  animation-timing-function ease-in
-
-
-  @media (max-width: 1024px) {
-    animation-name: none
-  }
-
-
-@media (max-width: 1740px) {
-  .ld-router-banner__line1 {
-    left: calc(50vw - 870px)
-  }
-
-  .ld-router-banner__line2 {
-    right calc(50vw - 870px)
-  }
-}
-
-@keyframes ShowRouter
-  0%
-    top: -50vw
-  30%
-    top: -50vw
-  100%
-    opacity 1
-    top: 0
-@keyframes ShowShadow
-  0%
-    opacity:0
-    height: 0
-    bottom: 0
-    margin-bottom: -50vw
-  30%
-    opacity:0
-    height: 0
-    bottom: 0
-    margin-bottom: -50vw
-
-
-  100%
-
-    height: calc((6 * 100vw + 16368px) / 534)
-    bottom: calc((6 * 100vw + 16368px) / 534 * -1);
-    margin-bottom 0
-
-@keyframes ShowBlur
-  0%
-    opacity:0
-
-  70%
-    opacity: 0
-  100%
-    opacity:1
-@keyframes ShowLines
-  0%
-    opacity:0
-    transform: translate(50vw,-50vw);
-  60%
-    opacity:0
-    transform: translate(50vw,-50vw);
-  100%
-    transform: translate(0vw,0vw)
-    opacity:1
-
-.ld-router-banner__router
-  width: calc((77 * 100vw + 223762px) / 534)
-  height: calc((67 * 100vw + 201644px) / 534)
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/router.png)
-  position: absolute;
-  left: 0
-  top: -0px
-  background-size: contain;
-  background-position: bottom center
-  background-repeat: no-repeat
-  max-width calc(100% - 40px)
-  margin-left: 20px
-  animation-name ShowRouter
-  animation-fill-mode forwards
-  animation-duration 3s
-  animation-timing-function cubic-bezier(.18,.39,.13,.87)
-
-  @media (max-width: 1024px) {
-    height: 315px
-    animation-name: none
-  }
-  @media (max-width: 767px) {
-    height: 83vw
-    max-width initial
-    width: 100%
-    margin-left auto
-    margin-right auto
-    position: relative;
-  }
-
-
-
-
-.ld-router-banner_icon
-  width: 80px
-  height: 80px
-
-.ld-router-banner__shadow
-  position: absolute;
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/shadow.png)
-  width: calc((78 * 100vw + 230940px) / 534)
-  height: calc((6 * 100vw + 16368px) / 534)
-  bottom: calc((6 * 100vw + 16368px) / 534 * -1);
-  right: 0
-  left: 0
-  z-index 2
-  background-size: contain;
-  background-repeat: no-repeat
-  background-position: center center
-  max-width calc(100%)
-  margin-left: 10px
-  animation-name ShowShadow
-  animation-fill-mode forwards
-  animation-duration 3s
-  animation-timing-function cubic-bezier(.18,.39,.13,.87)
-  @media (max-width: 1024px) {
-    animation-name: none
-  }
-
-.ld-router-banner__blur
-  position: absolute;
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/background-main.png)
-  width: calc((238 * 100vw + 538904px) / 534);
-  height: calc((118 * 100vw + 267080px) / 534);
-  right: calc((248 * 100vw - 649556px) / 534);
-  background-size: cover;
-  top: 0
-  background-position: bottom;
-  animation-name ShowBlur
-  animation-fill-mode forwards
-  animation-duration 1s
-  animation-timing-function ease-in
-  @media (max-width: 1024px) {
-    animation-name: none
-  }
-  @media (min-width: 1900px) {
-    width: 1856px
-    height 920px
-    right: calc((248 * 100vw - 649556px) / 534);
-    background-size: contain;
-  }
-
-  //opacity: 0
-
-
-
-.ld-router-spider
-  height: 850px
-  max-width 100vw
-  overflow: hidden;
-
-  &:before
-    content ''
-    height: 820px
-    width: 1200px
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/background-2.png)
-    background-size: cover;
-    background-position: center
-    background-repeat: no-repeat
-    position: absolute;
-    left: 0
-    right: 0
-    margin-left: auto
-    margin-right: auto
-
-
-@media (max-width: 1024px) {
-  .ld-router-banner__line1{
-    width: 340px;
-    height: 356px;
-    left: 0
-    top: 0
-  }
-  .ld-router-banner__line2{
-    display: none
-  }
-  .ld-router-banner__blur {
-    width: 984px;
-    height: 487px
-    left: calc((170 * 100vw - 110080px) / 256)
-  }
-}
-@media (max-width: 767px) {
-  .ld-router-banner__blur {
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/background-main-md.jpg)
-    width (636/360*100)vw
-    height (363/360*100)vw
-    left (-139/360*100)vw
-    top: (370/360*100)vw
-    opacity: 0.75
-  }
-}
-.ld-router-spider-image
-  position: absolute;
-  width: 467px
-  height: 413px
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/router-2.png)
-  background-size: contain;
-  background-position: center
-  background-repeat: no-repeat
-  left: 0
-  right: 0
-  margin-left auto
-  margin-right: auto
-  top: 92px
-  max-width 100%
-
-.ld-router-spider-line
-  position: relative;
-  height: 156px
-
-  &:before
-    content ''
-    position: absolute;
-    background-repeat: no-repeat
-    background-size: contain;
-    background-position: top center
-
-.ld-router-spider-line-1:before
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/line1.png)
-  right: -33%
-  width: 28%;
-  height: 46px;
-  top 15px
-
-.ld-router-spider-line-2:before
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/line2.png)
-  right: -33%
-  width: 27%;
-  height: 12px;
-  top 15px
-
-.ld-router-spider-line-3:before
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/line3.png)
-  right: -33%
-  width: 28%
-  height: 47px;
-  top: -6px
-
-.ld-router-spider-line-4:before
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/line4.png)
-  left: -33%
-  width: 27%;
-  height: 34px;
-  top 15px
-  margin-top: auto
-  margin-bottom: auto
-
-.ld-router-spider-line-5:before
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/line5.png)
-  left: -33%
-  width: 25%;
-  height: 12px;
-  top 20px
-
-.ld-router-spider-line-6:before
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/line6.png)
-  left: -33%
-  width: 28%
-  height: 46px;
-  top: -6px
-
-@media (max-width: 1024px) {
-  .ld-router-spider {
-    height: auto;
-  }
-
-  .ld-router-spider:before {
-    width: 789px;
-    height: 540px;
-    left: -40vw;
-    top: 10vw;
-  }
-
-  .ld-router-spider-line {
-    height: auto
-  }
-
-  .ld-router-spider-line:before {
-    background-image: none
-    width: 8px
-    height: 8px;
-    border-radius: 50%;
-    left: -27px
-    top: 5px
-    background-color: #FF5E2D
-  }
-
-  .ld-router-spider-line {
-    padding-bottom: 32px
-  }
-
-  .ld-router-spider-image {
-    right: 40px
-    width: 318px;
-    height: 281px;
-    top: 122px
-
-  }
-}
-@media (max-width: 767px) {
-  .ld-router-spider:before {
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/background-2-md.jpg)
-    background-color: cover
-    width: 100%
-    height: 150vw
-    left: 0
-    top: 17vw;
-  }
-
-  .ld-router-spider-line:before {
-    left: -20px
-  }
-  .ld-router-spider-image{
-    position: relative;
-    width (308/360*100)vw
-    height (272/360*100)vw
-    top: 0
-    left: 0
-    right: 0
-  }
-}
-.lg-router-cabel
-  height: 668px
-  overflow: hidden;
-  @media (max-width: 1024px) {
-    height: auto
-  }
-  @media (max-width: 767px) {
-    height:auto
-    overflow: visible;
-  }
-.lg-router-bullet{
-  position: relative;
-  padding-left: 32px;
-}
-.lg-router-bullet:before{
-  content '';
-  position: absolute;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #fff;
-  top: 7px;
-  left: 10px;
-}
-
-.lg-router-cabel-lines
-  height: 668px
-  width: 1512px
-  top: -48px
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/linesBackground.png)
-  background-size: cover;
-  position: absolute;
-  background-position: -83px 0;
-  background-repeat no-repeat
-  @media (max-width: 1024px) {
-    width: (501/768*100)vw
-    height: (365/768*100)vw
-    top: 16vw
-    left: 0
-    background-size: contain;
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/linesBackground-td.png)
-  }
-  @media (max-width: 767px){
-    width: 100vw
-    height: 83vw
-    top: 0
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/linesBackground-mobile.png)
-    background-size: contain
-    left: 0;
-    right: 0
-    background-position: 0 10vw;
-  }
-
-.lg-router-cabel-image
-
-  width: calc((76 * 100vw + 219720px)/554);
-  height: calc((17 * 100vw + 47690px)/554);
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/cabel.png)
-  background-size: contain;
-  position: absolute;
-  top: 0
-  bottom: 0
-  margin-top: auto
-  margin-bottom: auto
-  background-repeat no-repeat
-  @media (max-width: 1024px) {
-    width: 44vw
-    height: 10vw
-    left: -6vw
-  }
-  @media (max-width: 767px) {
-    width: calc(100vw - 40px)
-    height: 17vw
-    left: 0
-    right: 0
-    position: relative;
-  }
-.lg-router-cabel-gpon-cabel
-  position: relative;
-  z-index 5
-  @media (max-width: 1023px) and (min-width: 767px) {
-    min-width 42vw!important
-    max-width 43vw!important
-    -webkit-flex: 0 0 45%!important;
-    -ms-flex: 0 0 45%!important;
-    flex: 0 0 43%!important;
-  }
-.lg-router-cabel-gpon-column-circle
-  position: absolute;
-  top: 0
-  bottom: 0
-  left: 15px
-  width: 12px
-  height: 12px
-  border-radius 50%
-  margin-top auto
-  margin-bottom auto
-  background-color: #FC5D2D
-  z-index: 3
-  &:before
-    content ''
-    position: absolute;
-    width: 80vw
-    left: -80vw
-    margin-right: -10px
-    height: 0px
-    top: 0
-    bottom: 0
-    height: 1px
-    background-color: #FC5D2D
-    box-shadow: 0px 0px 6px #F30303, 0px 0px 14px #F30303, 0px 0px 27px #F30303, 0px 0px 34px #F30303
-    margin-top auto
-    margin-bottom auto
-    z-index 2
-
-.lg-router-cabel-gpon-column
-  position: relative;
-
-
-
-  @media (max-width: 1023px) and (min-width: 767px) {
-    min-width 53vw!important
-    max-width 55vw!important
-    -webkit-flex: 0 0 54%!important;
-    -ms-flex: 0 0 54%!important;
-    flex: 0 0 54%!important;
-  }
-.lg-router-cabel-gpon
-
-  position: relative;
-  z-index 2
-  padding-top: 58px
-  padding-left: 54px
-  padding-right: 56px
-  padding-bottom: 68px
-  &:before
-    content ''
-    position: absolute;
-    top: 5px
-    bottom: 5px
-    background: linear-gradient(90deg, #FF5E2D -0.02%, rgba(255, 94, 45, 0) 99.96%);
-    left: 0
-    right: 0
-    z-index 1
-
-
-  @media (max-width: 1023px) {
-    padding-right: 22px
-    padding-top: 50px
-    padding-bottom: 50px
-    padding-left: 26px
-  }
-  &:after
-    content ''
-    position: absolute;
-    z-index 1
-    border-width  30px 50px 30px 50px;
-    border-style solid
-    border-color black
-    //background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/G-pon-1.png)
-    top: 0
-    right: 0
-    left: 0
-    bottom: 0
-
-    border-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/G-pon.png) 11.5% 11.5% 11.5% 11.5% stretch;
-
-.checkbox-element:checked+.checkbox-container:before
-  border-color #ff4f12!important
-.text-field--purple .input-element:focus+.text-field__line:before,
-.text-field--purple .text-field__line:before
-  background #ff4f12!important
-.text-field--purple .input-element:focus+.floating-placeholder, .text-field--purple .input-element:focus+.text-field__border+.floating-placeholder, .text-field--purple .input-element:focus+.text-field__line+.floating-placeholder, .text-field--purple .textarea-element:focus+.floating-placeholder, .text-field--purple .textarea-element:focus+.text-field__border+.floating-placeholder, .text-field--purple .textarea-element:focus+.text-field__line+.floating-placeholder
-  color #ff4f12!important
-.checkbox .ripple-wave, .rt-dark-theme .checkbox .ripple-wave
-  background-color #ff4f12!important
-  background #ff4f12!important
-@media (hover: hover)
-  .checkbox:hover :before
-    border-color #ff4f12!important
-
-.lg-router-cabel-gpon-content
-  position relative
-  z-index 2
-  border-width: 82px 82px 82px 82px
-
-
-.lg-router-form-container
-  position: relative;
-  overflow: hidden;
-
-.lg-router-form-container:before
-  content ''
-  position: absolute;
-  width: 50vw
-  height: 35vw
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/formLines.png)
-  right: 0
-  top: 420px
-  background-size: cover;
-  @media (max-width: 1024px) {
-    display: none
-  }
-
-.lg-router-form-input
-  display: none
-
-.lg-router-form-check
-  position: relative;
-  border 1px solid #fff
-  transition-timing-function ease-in
-  transition-duration .4s
-  transition-property border, box-shadow
+.ld-key-tabs-nav-stretch
+  align-items stretch
+  .ld-key-tabs-nav-item
+    height: 100%
+.ld-key-tabs-nav-item
   cursor: pointer;
-  box-shadow: 0px 0px 0px #F30303;
-  @media (max-width: 1024px) {
-    max-width 300px
-  }
-  @media (max-width: 767px) {
-    max-width 100%
-  }
+  border 1px solid #E7E7E9
+  border-radius 8px
 
-  &:before
-    content ''
-    position: absolute;
-    width: 0
-    height: 0
-    background-size: cover;
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/form-circle.png)
-    top: 0
-    left: 0
-    opacity: 0
+  box-shadow 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+  transition-timing-function ease-in-out
+  transition-duration .4s
+  transition-property box-shadow, background, color
 
-  &:after
-    content ''
-    position: absolute;
-    width: 45px;
-    height: 31px;
-    background-size: cover;
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/form-line3.png)
-    bottom: -7px
-    right: -7px
-    opacity: 0
-
-.lg-router-form-input:checked + .lg-router-form-check
+.ld-key-tabs-nav-item--active
+  background-color: #F4B941
+  box-shadow 0px 8px 16px -8px rgba(0, 0, 0, 0.25);
   cursor: default;
+  color: #fff
+  &.ld-key-tabs-nav-item-puprle
+    background-color: #7700FF
+  &.ld-key-tabs-nav-item-dark
+    background-color: #273A64
+  &.ld-key-tabs-nav-item-gray
+    background-color: #7B939B
+  &.ld-key-tabs-nav-item-green
+    background-color: #5BCF6A
+  .ld-key-tabs-nav-icon
+    fill: #fff
 
-.lg-router-form-check:hover
-  border 1px solid #FF5E2D
+@media(hover: hover)
+  .ld-key-tabs-nav-item:hover
+    box-shadow 0px 8px 16px -8px rgba(0, 0, 0, 0.25);
 
-  .lg-router-form-label
-    color #FF5E2D
 
-.lg-router-form-check-decor
-  position: absolute;
-  top: 0
-  bottom: 0
-  left: 0
-  right: 0
-  opacity: 0
 
-  &:before
-    content ''
-    position: absolute;
-    width: 38px
-    height: 13px;
-    background-size: cover;
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/form-line1.png)
-    top: -7px
-    right: 5px
 
-  &:after
-    content ''
-    position: absolute;
-    width: 13px
-    height: 77px;
-    background-size: cover;
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/form-line2.png)
-    top: 0px
-    bottom 0
-    margin-top auto
-    margin-bottom: auto
-    right: -7px
 
-.lg-router-form-check-decor2
-  position: absolute;
-  top: 0
-  bottom: 0
-  left: 0
-  right: 0
-  opacity: 0
 
-  &:before
-    content ''
-    position: absolute;
-    width: 174px
-    height: 13px;
-    background-size: cover;
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/router-huawei/form-line4.png)
-    bottom: -7px
-    left: 50px
 
-.lg-router-form-label
-  position: absolute;
-  top: -10px
-  left: 28px
-  display: inline-block
-  padding-left: 12px
-  padding-right: 12px
-  background-color: #131010
-  transition-timing-function ease-in
+.ld-key-tabs-nav-icon
+  fill #101828
+  transition-timing-function ease-in-out
   transition-duration .4s
-  transition-property background-color, color
+  transition-property fill
+  display: block
 
-
-.lg-router-form-input + .lg-router-form-check:before,
-.lg-router-form-input + .lg-router-form-check:after,
-.lg-router-form-input + .lg-router-form-check .lg-router-form-check-decor2,
-.lg-router-form-input + .lg-router-form-check .lg-router-form-check-decor,
-.lg-router-form-input + .lg-router-form-check .lg-router-form-check-decor2:before,
-.lg-router-form-input + .lg-router-form-check .lg-router-form-check-decor2:after,
-.lg-router-form-input + .lg-router-form-check .lg-router-form-check-decor:before,
-.lg-router-form-input + .lg-router-form-check .lg-router-form-check-decor:after
-  transition-timing-function ease-in
-  transition-duration .4s
-  transition-property opacity, width, height, top, left, right, bottom
-
-.lg-router-form-input:checked + .lg-router-form-check
-  border 1px solid #FF5E2D
-  box-shadow: 0px 0px 6px #F30303;
-
-  .lg-router-form-label
-    color #FF5E2D
-
-.lg-router-form-input:checked + .lg-router-form-check:before
-  width 64px
-  height 64px
-  left: -32px
-  top: -32px
-
-.lg-router-form-input:checked + .lg-router-form-check:before,
-.lg-router-form-input:checked + .lg-router-form-check:after,
-.lg-router-form-input:checked + .lg-router-form-check .lg-router-form-check-decor2,
-.lg-router-form-input:checked + .lg-router-form-check .lg-router-form-check-decor
-  opacity: 1
-
-.lg-router-form-input:checked + .lg-router-form-check .lg-router-form-check-decor:before
-  top: -13px
-
-.lg-router-form-input:checked + .lg-router-form-check .lg-router-form-check-decor:after
-  right: -13px
-
-.lg-router-form-input:checked + .lg-router-form-check:after
-  bottom: -12px
-  right: -12px
-
-.lg-router-form-input:checked + .lg-router-form-check .lg-router-form-check-decor2:before
-  bottom: -13px;
-//.lg-router-pop
-//  background-color: #131010
-//  width: 710px;
-//  height: 418px;
-//  top: 0
-//  bottom: 0
-//  left: 0
-//  right: 0
-//  margin-top auto
-//  margin-bottom: auto
-//  margin-left: auto
-//  margin-right auto
-//  position: absolute;
-//  box-shadow: 0px 0px 23px 3px rgba(198, 66, 29, 0.5);
-//  border-radius: 8px;
-.lg-router-pop
-  width: 710px;
-  height: 398px;
-  padding-left: 20px
-  padding-right: 20px
+.ld-key-tabs-content
+  position: relative;
+  @media(max-width: 767px)
+    overflow: hidden;
+    transition-timing-function ease-in-out
+    transition-duration .4s
+    transition-property min-height
+.ld-key-tabs-item
+  position: absolute;
   top: 0
-  bottom: 0
   left: 0
   right: 0
-  margin-top auto
-  margin-bottom: auto
-  margin-left: auto
-  margin-right auto
-  position: absolute;
-  border-radius: 8px;
-  background-color: #131010
-  box-shadow: 0px 0px 1px 1px #F30303, 0 0 5px 0px rgba(243, 3, 3,0.5), 0 0 5px 0px rgba(243, 3, 3,0.5) inset, 0 0 0 10px #131010, 0px 0px 33px 13px rgba(198, 66, 29, 0.5);;
-  @media (max-width: 1024px) {
-    width: initial
-    height: initial
-    top: 10px
-    bottom: 10px
-    left: 10px
-    right: 10px
-    box-shadow: 0px 0px 1px 1px #F30303, 0 0 5px 0px rgba(243, 3, 3,0.5), 0 0 5px 0px rgba(243, 3, 3,0.5) inset, 0 0 0 20px #131010, 0px 0px 33px 13px rgba(198, 66, 29, 0.5);;
-  }
-
-
-.lg-router-pop-close
-  top: 6px
-  right: 6px
-  position: absolute;
-  &:hover
-    cursor: pointer;
-    fill #F30303
-
-.lg-router-pop-wrapper
-  background-color: rgba(19,16,16,0.6)
-  position fixed
-  top: 0
-  right: 0
-  left: 0
-  bottom: 0
-  z-index 10
-  opacity: 0
-  transition-timing-function ease-in
+  opacity 0
+  pointer-events none
+  transition-timing-function ease-in-out
   transition-duration .4s
   transition-property opacity
-  pointer-events none
+.ld-key-tabs-item--active
+  opacity 1
+  pointer-events: all;
+  .ld-key-tabs-slider
+    pointer-events: all;
+    z-index: 10
+.ld-key-tabs-slider
+  pointer-events: none;
+  &:before
+    @media(max-width: 767px)
+      content attr(label)
+      font-weight: 500
+      font-size 18px
+      position: relative
+.ld-key-slider-text
+  height: 52px
+  @media(max-width: 1024px)
+    height: 66px
 
-.lg-router-pop-wrapper--active
-  pointer-events auto
-  opacity: 1
-.lg-router-header
-  position: absolute;
+.ld-key-tabs-slider-container
+  position: relative
+  height 610px
+
+.ld-key-tabs-slider-item
+  position: absolute
+  top: 0
   left: 0
   right: 0
+  opacity: 0
+  pointer-events none
+  transition-timing-function ease-in-out
+  transition-duration .4s
+  transition-property opacity
+.ld-key-tabs-slider-item--active
+  opacity: 1
+  pointer-events all
+.ld-key-tabs-slider-item img
+  max-width 100%
+  max-height 554px
+.ld-key-tabs-paginator
+  position: relative;
+.ld-key-tabs-paginator-item
+  height: 8px
+  background: rgba(16, 24, 40, 0.1)
+  border-radius 10px
+  margin-left: 8px
+  margin-right: 8px
+  transition-timing-function ease-in-out
+  transition-duration .4s
+  transition-property background
+  &:hover
+    @media(hover: hover)
+      background-color: #7700FF
+
+.ld-key-tabs-paginator-item--active
+  background-color: #7700FF
+  cursor default
+
+.ld-key-tabs-slider-wrapper
+  width: 280px
+  max-width 100%
+  margin-left: auto
+  margin-right: auto
+  cursor pointer
+  max-width 100%
+
+.ld-key-tabs-arrows
+  position: absolute
+  left 0
+  right 0
   top: 0
-  z-index: 10
-.lg-router-header-logo+.lg-router-header-logo
-  margin-left: 20px
-  padding-left: 20px
+  bottom: 0
+  height: 24px
+  margin-top: auto
+  margin-bottom: auto
+.ld-key-tabs-arrows-item
+  width: 24px
+  position absolute
+
+.ld-key-tabs-arrows-right
+  right: 2px
+.ld-key-tabs-arrows-left
+  left: 2px
+
+
+.ld-key-boolet
+  padding-left: 36px
   position: relative;
   &:before
     content ''
     position: absolute;
     left: 0
-    height: 32px
-    top: 0
-    bottom: 0
-    margin-top auto
-    margin-bottom: auto
-    width: 1px
-    background-color: #fff
+    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/rt-key/Ok%20Color.svg)
+    width: 24px
+    height: 24px
 
-.cj-animate
-  @media (max-width: 767px) {
-    transform none !important
-    opacity: 1 !important
-  }
-.cj-animate-setClass
-  @media (min-width: 768px) {
+.ld-key-gray
+  background-color: #F8F8F8
+.ld-key-card
+  background-color: #fff
+  padding 20px
+  border-radius 8px
+  border 1px solid #F3F3F4
+  .rt-img
+    max-width 100%
+
+#form .rtk-input
+  padding-top: 0
+  padding-bottom: 0
+
+.ld-key-tab-content
+  @media(max-width: 767px)
+    max-height 0
+    overflow: hidden;
+
+.ld-key-tab-show-more-active
+  @media(max-width: 767px)
+    display: none
+.ld-key-tab-show-more-active+.ld-key-tab-content
+  @media(max-width: 767px)
+    max-height 500vh
+
+.ld-key-tabs-col
+
+  padding-left: 0
+  padding-right: 8px
+  &+&
+    @media(max-width: 1024px)
+      padding-left: 8px
+  @media(min-width: 1025px)
+    webkit-flex: 0 0 16.6667%;
+    -ms-flex: 0 0 16.6667%;
+    flex: 0 0 16.6667%;
+    max-width: 16.6667%;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
     position: relative;
-    transition-timing-function ease-in-out
-    transition-duration 0.5s
-    top: 0
-    bottom: 0
-    transition-property opacity, top, bottom
-  }
 
+.ld-key-tabs-imgs
+  &:after
 
-.cj-animate-setClass-top
-  @media (min-width: 768px) {
-    top:-100px
-  }
+    font-style: normal;
+    font-weight: normal;
 
-.cj-animate-setClass-bottom
-  @media (min-width: 768px) {
-    bottom:-100px
-  }
+    text-align: left
+    display: block
+    margin-bottom: 20px
 
+    @media(max-width: 1024px)
+      content attr(label)
+      font-weight 500
+      font-size: 32px;
+      line-height: 40px;
+      margin-top: 40px
 
-.cj-animate-hidden
-  @media (min-width: 768px) {
-    opacity: 0
-  }
+    @media(max-width: 767px)
+      font-size: 24px;
+      line-height: 32px;
+      margin-top: 32px
 
-.change-region._rounded path{
-  fill:#FF4F12;
-}
-img.change-region__icon{
-  display: none;
-}
-.change-region.group-inline-middle.color-primary:before{
+  .rt-img
+    max-width 100%
+.ld-key-tabs-imgs-go-top
+  @media(min-width: 1025px)
+    margin-top: -44px
+.ld-key-icon
+  @media(max-width: 767px)
+    width: 24px
+    height: 24px
+.land-key
+  .rt-tabs-navigation-wrapper
+    position: relative;
+    max-width 100%
+    margin-left: 0
+    width: 100%
+  .rt-tabs-tablet .rt-tabs-navigation
+    padding-left: 0
+
+    //#FF4F12;
+ .rt-tabs-navigation-wrapper:after
+   content ''
+   position: absolute;
+   bottom  0px
+   height: 2px;
+   left: 0;
+   width: 100%;
+   background-color: #e3e8ec;
+
+//.ld-key-card-link-text
+//  padding-right: 20px
+.ld-key-logo
+  @media(max-width: 1024px)
+    width: 215px
+.ld-key-card-link-text
+  max-width: 0
+  overflow: hidden;
+  padding-left: 0
+  white-space nowrap
+  opacity 0
+  transition-timing-function ease-in-out
+  transition-duration .4s
+  transition-property max-width, opacity, color
+.ld-key-table-label
+  @media(min-width: 1024px)
+    min-height 64px
+.ld-key-card:hover
+  @media(min-width: 1024px)
+    .ld-key-card-link-text
+      max-width 200px
+      opacity 1
+      color: #FF4F12
+
+.rt-tabs-navigation__item--is-active .rt-tabs-navigation__item-name:before, .rt-tabs-navigation__item-name:focus:before, .rt-tabs-navigation__item-name:hover:before
+  border-bottom-color: #FF4F12
+#form .radio-button .radio-button-element:checked+.radio-button-container:before,
+#form .checkbox-element:checked+.checkbox-container:before,
+#form .radio-button:hover .radio-button-container:before
+  border-color: #FF4F12
+#form .dynamic__text.ready
+  color: #FF4F12
+#form .rt-link
+  color: #FF4F12
+#form .radio-button-container:before
+  top: 7px
+#form .radio-button-container:after
+  top 1px
+.change-region.group-inline-middle.color-primary:before
   content: '';
   width: 18px;
   height: 18px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cpath fill='%23FF4F12' fill-rule='evenodd' d='M0 9h9v9h1l8-18L0 8z'%3E%3C/path%3E%3C/svg%3E");
-}
+
+img.change-region__icon
+  display: none;
+.rt-tabs-mobile .rt-tabs-navigation
+  padding-left: 0
+.td-flex-j-end
+  @media(max-width: 1024px)
+    justify-content: flex-end

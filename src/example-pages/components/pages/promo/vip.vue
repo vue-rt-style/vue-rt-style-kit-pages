@@ -1,500 +1,800 @@
 <template>
-  <div class="ld-router">
-
+  <div>
     <div class="wc-inline">
-      <div class="ld-router">
-        <div class="lg-router-header">
-          <div class="rt-container td-sp-t-1-2 sp-t-1-1  md-sp-t-1">
-            <rt-col :size="12">
-              <div class="d-flex">
-                <div class="lg-router-header-logo">
-                  <svg width="138" height="37" viewBox="0 0 138 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M15.617 36.0011C9.74383 30.2409 6.80719 27.361 6.80706 27.3611L1.063 33.1211C0.472115 33.9111 0.624792 35.0372 1.40402 35.6363C1.71185 35.873 2.08758 36.0011 2.47391 36.0011C2.48355 36.0011 2.49319 36.0011 2.50283 36.0011C6.87421 36.0011 11.2456 36.0011 15.617 36.0011Z"
-                          fill="#FF4F12"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M21.3044 12.96L8.52175 0L1.38499 7.53728C0.496276 8.47587 0 9.72655 0 11.0276L0 33.12C0 34.7106 1.27177 36 2.84058 36C1.86866 36 1.08075 35.2012 1.08075 34.2158C1.08075 33.7414 1.26708 33.2865 1.59856 32.9517"
-                          fill="#7700FF"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M112.374 22.4418H109.301L105.629 26.2066V22.4418H103.029V32.8159H105.629V28.5283L109.363 32.8159H112.498L107.671 27.2523L112.374 22.4418Z"
-                          fill="white"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M29.9014 25.135H26.1467V20.5336H29.9014C31.7992 20.5336 32.6657 21.4538 32.6657 22.8342C32.6657 24.2146 31.7992 25.135 29.9014 25.135ZM29.9839 18.0655H23.4238V32.7064H26.1467V27.603H29.9839C33.2434 27.603 35.3888 25.9089 35.3888 22.8342C35.3888 19.7595 33.2434 18.0655 29.9839 18.0655Z"
-                          fill="white"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M41.5281 30.6452C40.0017 30.6452 38.5781 29.5366 38.5781 27.6332C38.5781 25.73 40.0017 24.6216 41.5281 24.6216C43.0547 24.6216 44.4781 25.73 44.4781 27.6332C44.4781 29.5366 43.0547 30.6452 41.5281 30.6452ZM41.5281 22.1535C38.7226 22.1535 35.9375 23.9942 35.9375 27.6332C35.9375 31.2729 38.7226 33.1132 41.5281 33.1132C44.3338 33.1132 47.1187 31.2729 47.1187 27.6332C47.1187 23.9942 44.3338 22.1535 41.5281 22.1535Z"
-                          fill="white"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M53.7504 30.6452C52.1826 30.6452 51.0274 29.4948 51.0274 27.6332C51.0274 25.7927 52.2238 24.6216 53.7504 24.6216C54.6788 24.6216 55.4833 25.0608 56.1228 26.0438L58.3507 24.747C57.6082 23.1363 55.9989 22.1535 53.7711 22.1535C50.8623 22.1535 48.3867 24.3287 48.3867 27.6332C48.3867 30.938 50.7386 33.1132 53.7711 33.1132C55.9577 33.1132 57.4223 32.1094 58.4539 30.3316L56.3085 29.1394C55.6896 30.0178 55.0294 30.6452 53.7504 30.6452Z"
-                          fill="white"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M81.4314 28.3191C81.3077 29.9086 80.9978 30.2643 80.4614 30.2643C80.095 30.2643 79.9227 30.2231 79.6719 30.1565L79.6849 32.8412C79.6849 32.8412 80.008 32.9413 80.6062 32.9413C82.8135 32.9413 83.6387 31.4981 83.8451 28.4236L84.0926 24.8053H87.0218V32.795H89.6212V22.4418H81.8645L81.4314 28.3191Z"
-                          fill="white"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M71.2347 26.253C71.606 25.0817 72.6374 24.1613 73.999 24.1613C75.4432 24.1613 76.4127 24.9561 76.6603 26.253H71.2347ZM74.0816 22.1535C71.111 22.1535 68.6973 24.3496 68.6973 27.6332C68.6973 30.9171 71.111 33.1132 73.9578 33.1132C76.2065 33.1132 77.6298 32.2557 78.6613 30.4779L76.5982 29.4321C75.9588 30.2478 75.3811 30.8542 73.999 30.8542C72.4726 30.8542 71.3585 29.8504 71.1935 28.2609H79.0738V27.3405C79.0738 24.3078 77.011 22.1535 74.0816 22.1535Z"
-                          fill="white"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M93.6194 26.253C93.9908 25.0817 95.0222 24.1613 96.3838 24.1613C97.8277 24.1613 98.7973 24.9561 99.045 26.253H93.6194ZM96.4664 22.1535C93.4956 22.1535 91.082 24.3496 91.082 27.6332C91.082 30.9171 93.4956 33.1132 96.3425 33.1132C98.5911 33.1132 100.014 32.2557 101.046 30.4779L98.9832 29.4321C98.3435 30.2478 97.7659 30.8542 96.3838 30.8542C94.8572 30.8542 93.7431 29.8504 93.5782 28.2609H101.459V27.3405C101.459 24.3078 99.3956 22.1535 96.4664 22.1535Z"
-                          fill="white"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M59.2617 24.7424H62.3149V32.8159H64.914V24.7424H67.9674V22.4418H59.2617V24.7424Z"
-                          fill="white"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M117.653 30.6452C116.127 30.6452 114.703 29.5366 114.703 27.6332C114.703 25.73 116.127 24.6216 117.653 24.6216C119.18 24.6216 120.603 25.73 120.603 27.6332C120.603 29.5366 119.18 30.6452 117.653 30.6452ZM117.653 22.1535C114.848 22.1535 112.062 23.994 112.062 27.6332C112.062 31.2727 114.848 33.1132 117.653 33.1132C120.459 33.1132 123.244 31.2727 123.244 27.6332C123.244 23.994 120.459 22.1535 117.653 22.1535Z"
-                          fill="white"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M133.618 22.4419L130.797 29.7074L127.976 22.4419H124.578V32.7972H127.049V26.2415L129.788 32.7972H131.806L134.544 26.2415V32.7972H137.015V22.4419H133.618Z"
-                          fill="white"/>
-                  </svg>
-
-                </div>
-                <div class="lg-router-header-logo">
-                  <img class="d-block" width="44"
-                       src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/huawei.png"/>
-                </div>
-              </div>
-            </rt-col>
-          </div>
-
+      <div class="ld-key">
+        <div class="lg-sp-b-4">
+          <rt-jumbotron background='main-color003-no-opacity' color="main" description-color="main" :desktop-column-size="5">
+            <template slot='header'><img src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/Logo.svg" class="ld-key-logo" alt="">
+            </template>
+            <template slot='label'><h1>Технологии, <br>открывающие новые <br>возможности дома</h1></template>
+            <template slot='description'><p class="sp-r-2">Удобный и многофункциональный сервис управления и контроля за
+              домом и придомовой территорией</p></template>
+            <template slot='image'>
+              <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/banner-2.jpg'
+                      x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/banner-2-x2.jpg'
+              ></rt-img>
+            </template>
+            <template slot="footer">
+              <rt-button v-rt-scroll-to-on-click='{"scrollToId": "form"}' color="purple">Подать заявку</rt-button>
+            </template>
+          </rt-jumbotron>
         </div>
-        <div class="lg-router-pop-wrapper">
-          <div class="lg-router-pop rt-font-center color-white">
-            <rt-system-icons name="close large" color="white" class="lg-router-pop-close"></rt-system-icons>
-            <p class="rt-font-h3 sp-b-0-4 sp-t-2">Проверьте тип подключения</p>
-            <p class="rt-font-paragraph">Подойдите к вашему роутеру, предварительно убедитесь, что ничего не скачиваете
-              или играете. Проверьте основной провод провайдера или гнездо разъема и сравните с изображениями ниже.</p>
-            <div class="d-flex">
-              <div class="flex-fill"></div>
-              <div class="d-flex sp-t-1-1 td-sp-t-1-3 md-sp-t-1-1 md-d-block">
-                <div class="lg-router-pop-icon">
-                  <img class="d-block" width="174" height="118"
-                       src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/notGropIcon.jpg"/>
-                  <p class="rt-font-h4 sp-t-0-3">PON</p>
-                </div>
-                <div class="sp-r-3 md-d-none"></div>
-                <div class="lg-router-pop-icon md-sp-t-3">
-                  <img class="d-block" width="174" height="118"
-                       src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/gronIcon.jpg"/>
-                  <p class="rt-font-h4 sp-t-1">не PON</p>
-                </div>
-              </div>
-              <div class="flex-fill"></div>
-            </div>
-          </div>
-        </div>
-        <div class="ld-router-banner">
-          <div class="ld-router-banner__line1"></div>
-          <div class="ld-router-banner__line2"></div>
-          <div class="ld-router-banner__blur"></div>
-
-
-          <div class="rt-container color-white sp-t-2">
-            <rt-col>
-              <rt-row class="sp-t-4 sp-b-4-4 td-sp-b-2 md-sp-t-none">
-                <rt-col :size="6" :mobile-size="3" class="ld-router-banner-content">
-                  <h1 class="rt-font-h1 sp-t-3-4 cj-animate cj-animate-setClass">
-                    Выбирайте <br>
-                    игровой роутер RT-X
-                  </h1>
-                  <p class="rt-font-paragraph sp-t-0-4 sp-b-2 cj-animate cj-animate-setClass">Мощный роутер с приоритизацией игрового трафика</p>
-                  <div class="d-flex cj-animate cj-animate-setClass">
-                    <rt-button :bright="true" href="#" color="full-white">Оставить заявку</rt-button>
-                  </div>
-                </rt-col>
-                <rt-col :size="6" :mobile-size="3" class="relative md-sp-b-1-3">
-                  <div class="">
-                    <div class="ld-router-banner__router">
-                      <div class="ld-router-banner__shadow"></div>
+      </div>
+    </div>
+    <div class="wc-inline">
+      <div class="ld-key ld-key-slader-block sp-v-5 td-sp-v-2 md-sp-t-none">
+        <div class="rt-container sp-v-1 md-sp-t-2">
+          <rt-col>
+            <rt-row>
+              <rt-col :size="12" :tablet-size="6">
+                <div class="ld-key-tabs">
+                  <div class="row ld-key-tabs-nav ld-key-tabs-nav-stretch d-flex">
+                    <div class="ld-key-tabs-col">
+                      <div
+                          class="ld-key-tabs-nav-item td-d-flex sp-l-0-4 sp-t-0-4 sp-r-0-4 sp-b-0-2 td-sp-h-0-3 td-sp-v-0-3 ld-key-tabs-nav-item--active"
+                          data-index="0">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                             class="ld-key-tabs-nav-icon d-block">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.5 10V14C17.5 15.4357 17.4982 16.3995 17.4234 17.1343C17.3512 17.8441 17.2236 18.172 17.0787 18.3889C16.8963 18.6619 16.6619 18.8963 16.3889 19.0787C16.172 19.2236 15.8441 19.3512 15.1343 19.4234C14.3995 19.4982 13.4357 19.5 12 19.5C10.5643 19.5 9.60047 19.4982 8.86566 19.4234C8.15592 19.3512 7.82798 19.2236 7.61107 19.0787C7.3381 18.8963 7.10372 18.6619 6.92133 18.3889C6.7764 18.172 6.64876 17.8441 6.57656 17.1343C6.50181 16.3995 6.5 15.4357 6.5 14V10C6.5 8.56432 6.50181 7.60047 6.57656 6.86566C6.64876 6.15592 6.7764 5.82798 6.92133 5.61107C7.10372 5.3381 7.3381 5.10372 7.61107 4.92133C7.82798 4.7764 8.15592 4.64876 8.86566 4.57656C9.60047 4.50181 10.5643 4.5 12 4.5C13.4357 4.5 14.3995 4.50181 15.1343 4.57656C15.8441 4.64876 16.172 4.7764 16.3889 4.92133C16.6619 5.10372 16.8963 5.3381 17.0787 5.61107C17.2236 5.82798 17.3512 6.15592 17.4234 6.86566C17.4982 7.60047 17.5 8.56432 17.5 10ZM5 10C5 7.19108 5 5.78661 5.67412 4.77772C5.96596 4.34096 6.34096 3.96596 6.77772 3.67412C7.78661 3 9.19108 3 12 3C14.8089 3 16.2134 3 17.2223 3.67412C17.659 3.96596 18.034 4.34096 18.3259 4.77772C19 5.78661 19 7.19108 19 10V14C19 16.8089 19 18.2134 18.3259 19.2223C18.034 19.659 17.659 20.034 17.2223 20.3259C16.2134 21 14.8089 21 12 21C9.19108 21 7.78661 21 6.77772 20.3259C6.34096 20.034 5.96596 19.659 5.67412 19.2223C5 18.2134 5 16.8089 5 14V10ZM11.5 15.5C11.5 16.0523 11.0523 16.5 10.5 16.5C9.94772 16.5 9.5 16.0523 9.5 15.5C9.5 14.9477 9.94772 14.5 10.5 14.5C11.0523 14.5 11.5 14.9477 11.5 15.5ZM13 15.5C13 16.8807 11.8807 18 10.5 18C9.11929 18 8 16.8807 8 15.5C8 14.1193 9.11929 13 10.5 13C11.8807 13 13 14.1193 13 15.5ZM8 9.495H12H16V11.005H12H8V9.495ZM12 6.495H8V8.005H12H16V6.495H12Z"/>
+                        </svg>
+                        <p class="sp-t-0-3 td-d-none">Умный домофон</p>
+                      </div>
                     </div>
+                    <div class="ld-key-tabs-col">
+                      <div
+                          class="ld-key-tabs-nav-item td-d-flex ld-key-tabs-nav-item-puprle sp-l-0-4 sp-t-0-4 sp-r-0-4 sp-b-0-2 td-sp-h-0-3 td-sp-v-0-3"
+                          data-index="1">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                             class="ld-key-tabs-nav-icon d-block">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.93198 4.54457C5.0423 2.93218 7.25926 2.54402 8.85136 3.68325L22.7943 13.6602C23.0712 13.8583 23.0734 14.2693 22.7986 14.4703L20.6929 16.0109C19.1438 17.1443 17.1029 17.2803 15.4346 16.4124L14.1464 17.4334C13.1853 18.1952 11.836 18.2285 10.8385 17.5151L8.7328 16.0091L5.71803 18.4221C5.23034 18.8124 4.62428 19.0251 3.99962 19.0251H2.49099C2.43346 19.9597 2.01933 20.8402 1.2486 20.996C1.11327 21.0234 1 20.9084 1 20.7703V15.2612C1 15.1232 1.11327 15.0082 1.2486 15.0356C2.08151 15.204 2.49796 16.2187 2.49796 17.2334V17.5251H3.99962C4.28356 17.5251 4.55904 17.4284 4.78071 17.251L7.4651 15.1025L4.16789 12.7443C2.94875 11.8724 2.65237 10.1848 3.50148 8.94962L3.93734 8.3156L3.79793 8.21672C2.90579 7.58397 2.68742 6.35191 3.30775 5.45108L3.93198 4.54457ZM5.16098 9.18348L14.1217 15.539L13.2147 16.2579C12.7778 16.6041 12.1645 16.6193 11.7111 16.295L5.04048 11.5242C4.48633 11.1279 4.35161 10.3608 4.73757 9.79938L5.16098 9.18348ZM4.54317 6.30181L5.1674 5.3953C5.80187 4.47394 7.0687 4.25213 7.97847 4.90312L20.7975 14.0758L19.8072 14.8004C18.5919 15.6896 16.944 15.7017 15.7157 14.8305L4.66571 6.99322C4.44268 6.83503 4.38808 6.52702 4.54317 6.30181Z"/>
+                        </svg>
 
-                  </div>
-                </rt-col>
-                <rt-col :size="12" class="sp-t-3-3 sp-b-5 td-sp-b-none cj-animate cj-animate-setClass">
-                  <rt-row>
-                    <rt-col :tablet-size="2" :size="2" :mobile-size="3" class="md-d-flex md-flex-v-center">
-                      <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/fast-icon.png"
-                           class="ld-router-banner_icon" alt="">
-                      <div class="md-sp-l-1-3">
-                        <p class="rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2">Быстрый</p>
-                        <p class="rt-font-small-paragraph">Скорость Wi-Fi до 2 Гбит/с</p>
+                        <p class="sp-t-0-3 td-d-none">Комплексное <br/> видеонаблюдение</p>
                       </div>
-                    </rt-col>
-                    <rt-col :tablet-size="2" :size="2" :mobile-size="3" class="md-d-flex md-flex-v-center md-sp-t-1-2">
-                      <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/smart-icon.png"
-                           class="ld-router-banner_icon" alt="">
-                      <div class="md-sp-l-1-3">
-                        <p class="rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2">Умный</p>
-                        <p class="rt-font-small-paragraph">Приоритизация игрового трафика</p>
+                    </div>
+                    <div class="ld-key-tabs-col">
+                      <div
+                          class="ld-key-tabs-nav-item td-d-flex ld-key-tabs-nav-item-dark sp-l-0-4 sp-t-0-4 sp-r-0-4 sp-b-0-2 td-sp-h-0-3 td-sp-v-0-3"
+                          data-index="2">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                             class="ld-key-tabs-nav-icon d-block">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.0037 4.61359L11 8.01635V10.2761L18.0004 6.30837C18.4728 6.04066 18.6326 5.44424 18.3573 4.97624C18.0821 4.50824 17.476 4.34587 17.0037 4.61359ZM11 12V18.5V18.5157H20V20.0157H9V20H5.5H4V18.5V5.91697C4 4.8124 4.89543 3.91697 6 3.91697H9C10.1046 3.91697 11 4.8124 11 5.91697V6.29239L16.2433 3.32062C17.4363 2.64442 18.9671 3.05452 19.6623 4.23661C20.3575 5.4187 19.9539 6.92514 18.7608 7.60134L11 12ZM6 5.41697H9C9.27614 5.41697 9.5 5.64083 9.5 5.91697V7.25004H5.5V5.91697C5.5 5.64083 5.72386 5.41697 6 5.41697ZM5.5 8.75004H9.5V18.5H5.5V8.75004Z"/>
+                        </svg>
+
+                        <p class="sp-t-0-3 td-d-none">Умный шлагбаум</p>
                       </div>
-                    </rt-col>
-                    <rt-col :tablet-size="2" :size="2" :mobile-size="3" class="md-d-flex md-flex-v-center md-sp-t-1-2">
-                      <img src="https://static-cdn.rt.ru/sites/default/files/img/router-huawei/play-icon.png"
-                           class="ld-router-banner_icon" alt="">
-                      <div class="md-sp-l-1-3">
-                        <p class="rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2">Игровой</p>
-                        <p class="rt-font-small-paragraph">Низкий пинг в играх</p>
+                    </div>
+                    <div class="ld-key-tabs-col">
+                      <div
+                          class="ld-key-tabs-nav-item td-d-flex ld-key-tabs-nav-item-gray sp-l-0-4 sp-t-0-4 sp-r-0-4 sp-b-0-2 td-sp-h-0-3 td-sp-v-0-3"
+                          data-index="3">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                             class="ld-key-tabs-nav-icon d-block">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 20.5C16.6944 20.5 20.5 16.6944 20.5 12C20.5 7.30558 16.6944 3.5 12 3.5C7.30558 3.5 3.5 7.30558 3.5 12C3.5 16.6944 7.30558 20.5 12 20.5ZM12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM14 16.0078V17.5078H10V16.0078H14ZM7.5 12.5V10.5H9.51562V12.5H7.5ZM11.0156 12.5V10.5H12.9844V12.5H11.0156ZM14.4844 12.5H16.5V10.5H14.4844V12.5ZM6 9.25C6 9.11193 6.11193 9 6.25 9H17.75C17.8881 9 18 9.11193 18 9.25V13.75C18 13.8881 17.8881 14 17.75 14H6.25C6.11193 14 6 13.8881 6 13.75V9.25Z"/>
+                        </svg>
+                        <p class="sp-t-0-3 td-d-none">Умные счетчики</p>
                       </div>
-                    </rt-col>
-                  </rt-row>
+                    </div>
+                    <div class="ld-key-tabs-col">
+                      <div
+                          class="ld-key-tabs-nav-item td-d-flex ld-key-tabs-nav-item-green sp-l-0-4 sp-t-0-4 sp-r-0-4 sp-b-0-2 td-sp-h-0-3 td-sp-v-0-3"
+                          data-index="4">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                             class="ld-key-tabs-nav-icon d-block">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17 10V8C17 5.23858 14.7614 3 12 3C9.23858 3 7 5.23858 7 8V10H6C5.44772 10 5 10.4477 5 11V16C5 18.7614 7.23858 21 10 21H14C16.7614 21 19 18.7614 19 16V11C19 10.4477 18.5523 10 18 10H17ZM15.5 10H8.5V8C8.5 6.067 10.067 4.5 12 4.5C13.933 4.5 15.5 6.067 15.5 8V10ZM6.5 11.5V16C6.5 17.933 8.067 19.5 10 19.5H14C15.933 19.5 17.5 17.933 17.5 16V11.5H6.5ZM13.509 14.5031C13.509 15.0623 13.2034 15.5502 12.75 15.8091V17C12.75 17.2761 12.5261 17.5 12.25 17.5H11.75C11.4739 17.5 11.25 17.2761 11.25 17V15.8039C10.8015 15.5437 10.5 15.0586 10.5 14.5031C10.5 13.673 11.1736 13 12.0045 13C12.8354 13 13.509 13.673 13.509 14.5031Z"/>
+                        </svg>
 
-                </rt-col>
-
-              </rt-row>
-            </rt-col>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="wc-inline">
-      <div class="ld-router">
-        <div class="sp-t-1 ld-router-spider td-sp-b-2-2 relative color-white">
-          <div class="rt-container">
-            <rt-col>
-              <rt-row>
-                <rt-col class="rt-font-center rt-td-font-left" :size="12">
-                  <h2 class="rt-font-h2 sp-t-3-4 td-sp-t-2 sp-b-0-3 cj-animate cj-animate-setClass">Мощный сигнал для игры без лагов</h2>
-                </rt-col>
-              </rt-row>
-              <rt-row>
-                <rt-col :size="4" :t-hide="true"></rt-col>
-                <rt-col class="relative md-sp-t-3-2" :size="4" :tablet-size="3" :mobile-size="3">
-                  <div class="ld-router-spider-image"></div>
-                </rt-col>
-              </rt-row>
-              <rt-row class="sp-t-4">
-                <rt-col :tablet-size="3" :hide="true" :t-hide="false" class="td-d-block"></rt-col>
-                <rt-col :size="3" :tablet-size="3" :mobile-size="3">
-                  <div class="md-sp-l-1">
-                    <p class="rt-font-paragraph rt-font-right rt-td-font-left ld-router-spider-line ld-router-spider-line-1 cj-animate cj-animate-setClass">
-                      Поддерживает до
-                      16 устройств</p>
-                    <p class="rt-font-paragraph rt-font-right rt-td-font-left ld-router-spider-line ld-router-spider-line-2 cj-animate cj-animate-setClass">
-                      Скорость до 600 Мбит/с (2.4 ГГц.) <br class="td-d-none">
-                      до 1733 Мбит/с (5 ГГц.)</p>
-                    <p class="rt-font-paragraph rt-font-right rt-td-font-left ld-router-spider-line ld-router-spider-line-3 cj-animate cj-animate-setClass">
-                      4 мощные
-                      антенны, расположенные <br class="td-d-none">
-                      под крышкой корпуса </p>
+                        <p class="sp-t-0-3 td-d-none">Умный доступ</p>
+                      </div>
+                    </div>
                   </div>
-                </rt-col>
-                <rt-col :size="6" :tablet-size="3" :m-hide="true"></rt-col>
-                <rt-col :size="3" :tablet-size="3" :mobile-size="3">
-                  <div class="md-sp-l-1">
-                    <p class="rt-font-paragraph ld-router-spider-line ld-router-spider-line-4 cj-animate cj-animate-setClass">Приоритизация популярных
-                      игр,<br
-                          class="td-d-none">
-                      позволяет при загрузке
-                      вашей сети
-                      <br class="td-d-none"> отдать приоритет играм
-                    </p>
-                    <p class="rt-font-paragraph ld-router-spider-line ld-router-spider-line-5 cj-animate cj-animate-setClass">Хорошее покрытые и
-                      стабильный
-                      <br class="td-d-none"> сигнал благодаря MIMO 4x4 в 2
-                      <br class="td-d-none"> диапазонах
-                    </p>
-                    <p class="rt-font-paragraph ld-router-spider-line ld-router-spider-line-6 cj-animate cj-animate-setClass">Работа 2 диапазонах
-                      одновременно <br class="td-d-none">
-                      (2.4 ГГц., 5 ГГц)</p>
-                  </div>
-                </rt-col>
-              </rt-row>
-            </rt-col>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="wc-inline">
-      <div class="ld-router">
-        <div class="sp-t-3-2 td-sp-t-0-2 color-white lg-router-cabel">
-          <div class="relative">
-
-            <div class="lg-router-cabel-lines"></div>
-
-            <div class="rt-container">
-              <rt-col>
-                <h2 class="rt-font-h2 rt-font-center rt-td-font-left cj-animate cj-animate-setClass">Работает только на PON соединении</h2>
+                </div>
               </rt-col>
-            </div>
-            <div class="rt-container sp-b-5 md-sp-b-3">
-              <rt-col>
-                <rt-row class="sp-t-5 sp-b-5-2 md-sp-b-none">
-                  <rt-col :size="7" :tablet-size="3" class="lg-router-cabel-gpon-cabel cj-animate cj-animate-setClass">
-                    <div class="lg-router-cabel-image"></div>
-                  </rt-col>
-                  <rt-col :size="5" class="lg-router-cabel-gpon-column md-sp-t-5 cj-animate cj-animate-setClass" :tablet-size="3" :mobile-size="3">
-                    <div class="lg-router-cabel-gpon-column-circle md-d-none"></div>
-                    <div class="lg-router-cabel-gpon">
-                      <div class="lg-router-cabel-gpon-content">
-                        <h3 class="rt-font-h3 sp-b-1 td-sp-b-0-2">PON соединение</h3>
-                        <p class="rt-font-small-paragraph lg-router-bullet"> Самое современное подключение к сети
-                          интернет</p>
-                        <div class="sp-t-0-4 td-sp-t-0-3 td-sp-b-1 sp-b-1-2">
-                          <p class="rt-font-small-paragraph lg-router-bullet">Роутер работает
-                            только
-                            при оптоволоконном
-                            подключении на сети Ростелеком</p>
+              <rt-col :size="12" :tablet-size="6">
+                <div class="ld-key-tabs-content">
+                  <div class="ld-key-tabs-item ld-key-tabs-item--active">
+
+                    <rt-row>
+                      <rt-col size="6">
+                        <p class="td-d-none rt-font-h2 sp-t-4">Умный домофон — новые возможности комфорта вашего
+                          дома</p>
+                      </rt-col>
+                    </rt-row>
+                    <rt-row class="sp-t-1 row-td-reverse td-flex-j-end md-sp-t-2">
+                      <div class="rt-col-6 rt-col-td-6 rt-col-td-4 rt-col-md-3 td-sp-r-3 rt-font-small-paragraph">
+
+                        <p class="sp-t-0-2">Умный домофон — это комплексное решение, которое позволяет сделать доступ в
+                          дом современным, безопасным и комфортным для жителей дома и их гостей. Является частью
+                          видеонаблюдения придомовой территории с доступом к видео для УК, жителей и ближайшего
+                          ситуационного центра «Безопасный город».</p>
+                        <div class="d-flex sp-t-2 md-d-block md-sp-t-1-1">
+                          <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/010.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Управление доступом </p>
+                          </div>
+                          <div
+                              class="flex-fill md-d-flex td-flex-v-center sp-l-1 md-sp-l-none md-sp-v-1 td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/008.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Фото- и видеофиксация </p>
+                          </div>
+                          <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/267.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Архив посещений </p>
+                          </div>
+
                         </div>
-                        <rt-button class="open-popup" :bright="true" color="full-white">Какое у меня соединение?
-                        </rt-button>
+                        <p class="color-purple rt-link ld-key-tab-show-more md-d-block d-none md-sp-t-1-1">Узнать
+                          больше</p>
+                        <div class="ld-key-tab-content">
+                          <p class="rt-font-h3 sp-t-2">Что умеет ключ</p>
+
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Управление и контроль доступа в жилое
+                            помещение</p></div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Просмотр видео с любой камеры домофона в режиме
+                            онлайн через архив видеозаписей</p></div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Сохранность общедомового имущества и чистота в
+                            доме</p></div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Архив всех вошедших в подъезд, распознанных по
+                            ключу или коду доступа, фотофиксация посетителей и времени входа</p></div>
+
+                        </div>
                       </div>
-                    </div>
-                  </rt-col>
-                </rt-row>
+                      <div label="Умный домофон — новые возможности комфорта вашего дома"
+                           data-tab-index="0"
+                           class="rt-col-6  rt-col-td-5 rt-font-center rt-col-td-2 rt-col-md-3 ld-key-tabs-imgs">
+                        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/slide1.png'
+                                x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/slide1-x2.png'
+                        ></rt-img>
+
+
+                      </div>
+                    </rt-row>
+                  </div>
+                  <div class="ld-key-tabs-item">
+                    <rt-row>
+                      <rt-col size="6">
+                        <p class="td-d-none rt-font-h2 sp-t-4">Комплексное видеонаблюдение — новые возможности
+                          безопасности для вашего дома</p>
+                      </rt-col>
+                    </rt-row>
+                    <rt-row class="sp-t-1 row-td-reverse td-flex-j-end">
+                      <div class="rt-col-6 rt-col-td-6 rt-col-td-4 rt-col-md-3 td-sp-r-3 rt-font-small-paragraph">
+
+                        <p class="sp-t-0-2">Умный шлагбаум — это сервис, который предоставляет возможность управлять и
+                          контролировать доступ к придомовой территории для УК и жильцов.</p>
+                        <div class="d-flex sp-t-2 md-d-block md-sp-t-1-1">
+                          <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/186.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Видеоконтроль </p>
+                          </div>
+                          <div
+                              class="flex-fill md-d-flex td-flex-v-center sp-l-1 md-sp-l-none md-sp-v-1 td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/111.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Детекция событий </p>
+                          </div>
+                          <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/008.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Видеоаналитика </p>
+                          </div>
+
+                        </div>
+                        <p class="color-purple rt-link ld-key-tab-show-more md-d-block d-none md-sp-t-1-1">Узнать
+                          больше</p>
+                        <div class="ld-key-tab-content">
+                          <p class="rt-font-h3 sp-t-2">Что умеет ключ</p>
+
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Управление группой камер, хранение записей до
+                            60
+                            суток</p></div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Доступ к видеотрансляции и архиву через
+                            браузер,
+                            десктоп-клиент и мобильные приложения</p></div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Съемка в темноте и съемка со звуком. Настройка
+                            битрейта камер, поддержка Full HD. Видеоаналитика: пересечение линии, вторжение в зону,
+                            слепые
+                            зоны и другое</p></div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Возможность подключения центра мониторинга
+                            (более
+                            300) на объектах с применением локально облачного хранения</p></div>
+                        </div>
+                      </div>
+                      <div label="Комплексное видеонаблюдение — новые возможности безопасности для вашего дома"
+                           data-tab-index="0"
+                           class="rt-col-6  rt-col-td-5 rt-font-center rt-col-td-2 rt-col-md-3 ld-key-tabs-imgs ld-key-tabs-imgs-go-top">
+                        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/slide2.png'
+                                x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/slide2-x2.png'
+                        ></rt-img>
+
+
+                      </div>
+                    </rt-row>
+                  </div>
+                  <div class="ld-key-tabs-item">
+                    <rt-row>
+                      <rt-col size="6">
+                        <p class="td-d-none rt-font-h2 sp-t-4">Умный домофон — новые возможности удобства для вашего
+                          дома</p>
+                      </rt-col>
+                    </rt-row>
+                    <rt-row class="sp-t-1 row-td-reverse td-flex-j-end">
+                      <div class="rt-col-6 rt-col-td-6 rt-col-td-4 rt-col-md-3 td-sp-r-3 rt-font-small-paragraph">
+
+                        <p class="sp-t-0-2">Умный шлагбаум — это сервис, который предоставляет возможность управлять и
+                          контролировать доступ к придомовой территории для УК и жильцов.</p>
+                        <div class="d-flex sp-t-2 md-d-block md-sp-t-1-1">
+                          <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/186.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Удаленное управление </p>
+                          </div>
+                          <div
+                              class="flex-fill md-d-flex td-flex-v-center sp-l-1 md-sp-l-none md-sp-v-1 td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/008.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Видеофиксация событий </p>
+                          </div>
+                          <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/133.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Автоматический пропуск <br>экстренных служб </p>
+                          </div>
+
+                        </div>
+                        <p class="color-purple rt-link ld-key-tab-show-more md-d-block d-none md-sp-t-1-1">Узнать
+                          больше</p>
+                        <div class="ld-key-tab-content">
+                          <p class="rt-font-h3 sp-t-2">Что умеет ключ</p>
+
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Ограничение доступа для посторонних
+                            автомашин</p>
+                          </div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Беспрепятственный въезд служебного транспорта
+                            (полиция, скорая, МЧС)</p></div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Фиксация событий въезда\выезда с камеры
+                            шлагбаума, доступ к архиву</p></div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Удаленное управление через Личный кабинет</p>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div label="Умный домофон — новые возможности удобства для вашего дома"
+                           data-tab-index="0"
+                           class="rt-col-6  rt-col-td-5 rt-font-center rt-col-td-2 rt-col-md-3 ld-key-tabs-imgs">
+                        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/slide2.png'
+                                x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/slide2-x2.png'
+                        ></rt-img>
+
+
+                      </div>
+                    </rt-row>
+                  </div>
+                  <div class="ld-key-tabs-item">
+                    <rt-row>
+                      <rt-col size="6">
+                        <p class="td-d-none rt-font-h2 sp-t-4">Умные счетчики — новые возможности вашего контроля</p>
+                      </rt-col>
+                    </rt-row>
+                    <rt-row class="sp-t-1 row-td-reverse td-flex-j-end">
+                      <div class="rt-col-6 rt-col-td-6 rt-col-td-4 rt-col-md-3 td-sp-r-3 rt-font-small-paragraph">
+
+                        <p class="sp-t-0-2">Умные счетчики — это комплексное решение для автоматизации учета потребления
+                          коммунальных ресурсов в многоквартирных домах.</p>
+                        <div class="d-flex sp-t-2 md-d-block md-sp-t-1-1">
+                          <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/266.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Автоматический сбор <br>показаний </p>
+                          </div>
+                          <div
+                              class="flex-fill md-d-flex td-flex-v-center sp-l-1 md-sp-l-none md-sp-v-1 td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/186.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Управление потреблением</p>
+                          </div>
+                          <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/241.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Удобный доступ к <br>статистике</p>
+                          </div>
+
+                        </div>
+                        <p class="color-purple rt-link ld-key-tab-show-more md-d-block d-none md-sp-t-1-1">Узнать
+                          больше</p>
+                        <div class="ld-key-tab-content">
+                          <p class="rt-font-h3 sp-t-2">Что умеет ключ</p>
+
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Автоматический сбор данных без обхода квартир и
+                            передачи данных от жильцов. Снижение манипуляций с приборами учета и уровня хищений</p>
+                          </div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Оперативное получение показаний счетчиков и
+                            автоматическая передача данных в ГИС, РСО </p></div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Быстрое определение и устранение аномального
+                            потребления ресурсов</p></div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Снижение расходов на ОДН* — правильные значения
+                            и
+                            точный баланс потребления</p></div>
+
+                        </div>
+                      </div>
+                      <div label="Умные счетчики — новые возможности вашего контроля"
+                           data-tab-index="0"
+                           class="rt-col-6  rt-col-td-5 rt-font-center rt-col-td-2 rt-col-md-3 ld-key-tabs-imgs">
+                        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/slide3.png'
+                                x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/slide3-x2.png'
+                        ></rt-img>
+
+
+                      </div>
+                    </rt-row>
+                  </div>
+                  <div class="ld-key-tabs-item">
+                    <rt-row>
+                      <rt-col size="6">
+                        <p class="td-d-none rt-font-h2 sp-t-4">Умный доступ (СКУД) — новые возможности управления
+                          доступом</p>
+                      </rt-col>
+                    </rt-row>
+                    <rt-row class="sp-t-1 row-td-reverse td-flex-j-end">
+                      <div class="rt-col-6 rt-col-td-6 rt-col-td-4 rt-col-md-3 td-sp-r-3 rt-font-small-paragraph">
+
+                        <p class="sp-t-0-2">СКУД — это комплексное решение для управления и контроля доступа во все
+                          помещения и на территорию жилого комплекса.</p>
+                        <div class="d-flex sp-t-2 md-d-block md-sp-t-1-1">
+                          <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/269.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Бесконтактный ключ</p>
+                          </div>
+                          <div
+                              class="flex-fill md-d-flex td-flex-v-center sp-l-1 md-sp-l-none md-sp-v-1 td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/225.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Управление доступом на <br>территорию</p>
+                          </div>
+                          <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
+                            <img class="d-block ld-key-icon"
+                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/008.svg"
+                                 alt="">
+                            <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Фото- и видеофиксация </p>
+                          </div>
+
+                        </div>
+                        <p class="color-purple rt-link ld-key-tab-show-more md-d-block d-none md-sp-t-1-1">Узнать
+                          больше</p>
+                        <div class="ld-key-tab-content">
+                          <p class="rt-font-h3 sp-t-2">Что умеет ключ</p>
+
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Контроль и управление доступом на территорию и
+                            в
+                            помещения ЖК с помощью единого ключа SL3 для домофона и умного СКУД.</p></div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Открытие из приложения и с помощью беспроводных
+                            меток малого и дальнего радиуса действия</p></div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Единый некопируемый ключ доступа ко всем
+                            разрешенным помещениям и домофонам. Разблокировка дверей при пожаре для эвакуации людей</p>
+                          </div>
+                          <div class="sp-t-1-1"><p class="ld-key-boolet">Контроль доступа сотрудников УК с ведением
+                            журнала доступа. Можно использовать для учета рабочего времени</p></div>
+
+                        </div>
+                      </div>
+                      <div label="Умный доступ (СКУД) — новые возможности управления доступом"
+                           data-tab-index="0"
+                           class="rt-col-6  rt-col-td-5 rt-font-center rt-col-td-2 rt-col-md-3 ld-key-tabs-imgs">
+                        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/slide4.png'
+                                x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/slide4-x2.png'
+                        ></rt-img>
+
+
+                      </div>
+                    </rt-row>
+                  </div>
+                </div>
               </rt-col>
-            </div>
-          </div>
+            </rt-row>
+          </rt-col>
         </div>
       </div>
     </div>
     <div class="wc-inline">
-      <div class="ld-router">
-        <div class="lg-router-form color-white">
+      <div class="sp-t-5 md-sp-v-2 color-block--white" id="form">
+        <div class="rt-container sp-t-1">
+          <rt-col>
+            <rt-row>
+              <rt-col :size="6" :tablet-size="3" :mobile-size="3" style="min-height:1000px">
+                <p class="rt-font-h2 sp-b-2">Заполните заявку</p>
+
+
+                      <div class="d-flex rt-col-12 rt-col-td-6 rt-col-md-3" style="gap: 10px">
+                        <rt-radio-button name="Физическое лицо - " value="Я клиент Ростелекома" checked><span
+                            class="rt-font-small-paragraph">Представитель УК</span></rt-radio-button><br>
+                        <rt-radio-button name="Физическое лицо - " value="Я новый клиент"><span
+                            class="rt-font-small-paragraph">Инициатор дома</span></rt-radio-button>
+                      </div>
+                      <div class="sp-t-2">
+                        <rt-button color="purple">Подать заявку</rt-button>
+                      </div>
+                      <div class="tab-content d-block">1</div>
+                      <div class="tab-content d-none">2</div>
+
+
+
+
+              </rt-col>
+              <rt-col :size="2" :t-hide="true"></rt-col>
+              <rt-col :size="4" :tablet-size="3" :mobile-size="3" class="md-sp-t-2 d-flex td-d-block flex-v-center ">
+                <div>
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/Logo.svg" alt="">
+                  <p class="rt-font-h3 sp-t-1-2 sp-b-2 td-sp-b-1-2">Вам понадобится приложение <br>«Ростелеком Ключ»</p>
+                  <div class="d-flex td-d-block">
+                    <div class="flex-fill sp-r-0-2 td-sp-r-none">
+                      <rt-button class="rt-button--is-block" href="#" color="black">
+                        <img src="https://static-cdn.rt.ru/sites/default/files/img/ad_unit_component/appStore.svg"
+                             alt=""/>
+                      </rt-button>
+                    </div>
+                    <div class="flex-fill sp-l-0-2 td-sp-l-none td-sp-t-1">
+                      <rt-button class="rt-button--is-block" href="#" color="black">
+                        <img src="https://static-cdn.rt.ru/sites/default/files/img/ad_unit_component/googlePlay.svg"
+                             alt=""/>
+                      </rt-button>
+                    </div>
+
+                  </div>
+                </div>
+              </rt-col>
+            </rt-row>
+          </rt-col>
+        </div>
+      </div>
+    </div>
+    <div class="wc-inline">
+      <div class="sp-v-5 td-sp-v-3 md-sp-v-2 color-block--white">
+        <div class="sp-v-1">
           <div class="rt-container">
             <rt-col>
-              <h2 class="rt-font-h2 sp-b-1-3">Заявка на роутер</h2>
-              <rt-row class="sp-b-5 sp-b-1-4 md-sp-b-none">
-                <rt-col :size="3" :tablet-size="3" :mobile-size="3" class="md-sp-r-1">
-                  <label>
-                    <input name="test" class="lg-router-form-input" type="radio"/>
-                    <div class="lg-router-form-check sp-t-1-4 sp-b-1-4 sp-l-2 sp-r-2">
-                      <div class="lg-router-form-check-decor"></div>
-                      <div class="lg-router-form-check-decor2"></div>
-                      <p class="lg-router-form-label">РАССРОЧКА</p>
-                      <p class="rt-font-small-paragraph">На 24 месяца. Роутер в собственности абонента</p>
-                      <div class="sp-t-0-4">
-                        <rt-price :v2="true" :is-option="true" option-label="до" :bright="true" :value="380"
-                                  time-interval="мес." currency="руб."></rt-price>
-                      </div>
-                    </div>
-                  </label>
-                </rt-col>
-                <rt-col :size="1" :t-hide="true"></rt-col>
-                <rt-col :size="3" :tablet-size="3" :mobile-size="3" class="md-sp-t-2 md-sp-r-1">
-                  <label>
-                    <input name="test" class="lg-router-form-input" type="radio"/>
-                    <div class="lg-router-form-check sp-t-1-4 sp-b-1-4 sp-l-2 sp-r-2">
-                      <div class="lg-router-form-check-decor"></div>
-                      <div class="lg-router-form-check-decor2"></div>
-                      <p class="lg-router-form-label">ПОКУПКА</p>
-                      <p class="rt-font-small-paragraph">Единовременная покупка</p>
-                      <div class="sp-t-2">
-                        <rt-price :v2="true" :only-price="true" :bright="true" :value="8999"
-                                  currency="руб."></rt-price>
-                      </div>
-                    </div>
-                  </label>
-                </rt-col>
-              </rt-row>
+              <p class="rt-font-h2 sp-b-2 md-sp-b-1-2">Выберите сегмент и узнайте как Ростелеком Ключ может помочь</p>
               <rt-row>
-                <rt-col :size="6"></rt-col>
+                <rt-col size="6" :tablet-size="6">
+                  <a href="#">
+                    <div class="ld-key-card rt-sys-icon-hover--orange">
+                      <rt-row>
+                        <div class="rt-col-persent-5 md-d-none d-flex">
+                          <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/card-1.jpg'
+                                  x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/card-1-x2.jpg'
+                          ></rt-img>
+                        </div>
+                        <div class="rt-col-persent-5 relative rt-col-md-3 d-flex">
+                          <div class="d-flex flex-column">
+                            <div class="flex-fill">
+                              <p class="rt-font-h4">Жильцы</p>
+                              <p class="sp-t-1 color-main05 md-sp-b-1-1">Управление, обслуживание и контроль дома и территории 24 часа в сутки</p>
+
+                            </div>
+                            <div class="ld-key-card-link d-flex flex-v-center">
+                              <div class="d-inline-block ld-key-card-link-text">Подробнее</div>
+                              <rt-system-icons class="ld-key-card-arrow" name="arrow right"></rt-system-icons>
+                            </div>
+                          </div>
+                        </div>
+                      </rt-row>
+                    </div>
+                  </a>
+                </rt-col>
+                <rt-col size="6" :tablet-size="6" class="td-sp-t-1">
+                  <a href="#">
+                    <div class="ld-key-card rt-sys-icon-hover--orange">
+                      <rt-row>
+                        <div class="rt-col-persent-5 md-d-none">
+                          <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/card-2.jpg'
+                                  x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/card-2-x2.jpg'
+                          ></rt-img>
+                        </div>
+                        <div class="rt-col-persent-5 relative rt-col-md-3 d-flex">
+                          <div class="d-flex flex-column">
+                            <div class="flex-fill">
+                              <p class="rt-font-h4">Застройщик</p>
+                              <p class="sp-t-1 color-main05 md-sp-b-1-1">Готовые решения для повышения качества жилья и контроля хода
+                                строительства ЖК </p>
+
+                            </div>
+                            <div class="ld-key-card-link d-flex flex-v-center">
+                              <div class="d-inline-block ld-key-card-link-text">Подробнее</div>
+                              <rt-system-icons class="ld-key-card-arrow" name="arrow right"></rt-system-icons>
+                            </div>
+                          </div>
+                        </div>
+                      </rt-row>
+
+                    </div>
+                  </a>
+                </rt-col>
               </rt-row>
             </rt-col>
           </div>
 
         </div>
-      </div>
 
-    </div>
-    <div class="wc-inline">
-      <div class="rt-container sp-b-6 td-sp-b-4 md-sp-b-3">
-        <rt-col>
-          <div class="d-inline">
-            <a href="#" class="d-flex flex-v-center rt-link rt-link--orange">
-              <rt-system-icons color="orange" name="download"></rt-system-icons>
-              <span class="sp-l-1">Скачать список доступных игр</span></a>
-          </div>
-        </rt-col>
       </div>
     </div>
   </div>
-
-
-  <!-- Описание -->
-
-  <!-- Тарифы -->
 </template>
-
-<!--transform: translate3d(-2124px, 0px, 0px)-->
+<!--ld-key-gray-->
 <script>
+
 const componentsList = {};
 
 export default {
   name: "AppPromoVip",
   components: componentsList,
   mounted() {
-    //
-    // setTimeout(function () {
-    //
-    //
-    //   document.querySelector('.lg-router-link').addEventListener('click', function () {
-    //     if (window.dataLayer) {
-    //       window.dataLayer.push({
-    //         'event': 'b2с',
-    //         'type': 'pdf_open',
-    //         'value': 'game_lis'
-    //       });
-    //     }
-    //   })
-    //   var input = document.querySelectorAll('.lg-router-form-input');
-    //   input[0].addEventListener('change', function () {
-    //     document.querySelector('.lg-router-price-1').classList.remove('d-none')
-    //     document.querySelector('.lg-router-price-2').classList.add('d-none')
-    //     if (window.dataLayer) {
-    //       window.dataLayer.push({
-    //         'event': 'b2c',
-    //         'type': 'router_order',
-    //         'value': 'Рассрочка'
-    //       });
-    //     }
-    //   })
-    //   input[1].addEventListener('change', function () {
-    //     document.querySelector('.lg-router-price-2').classList.remove('d-none')
-    //     document.querySelector('.lg-router-price-1').classList.add('d-none')
-    //     if (window.dataLayer) {
-    //       window.dataLayer.push({
-    //         'event': 'b2c',
-    //         'type': 'router_order',
-    //         'value': 'Покупка'
-    //       });
-    //     }
-    //   })
-    //
-    //   document.querySelector('.rt-tabs-checklist-input .checkbox-element').addEventListener('change',function(){
-    //     if(document.querySelector('.rt-tabs-checklist-input .checkbox-element').checked){
-    //       if (window.dataLayer) {
-    //         window.dataLayer.push({
-    //           'event': 'b2с',
-    //           'type': 'checkbox_filling',
-    //           'value': 'existing_user'
-    //         });
-    //       }
-    //     }
-    //   })
-    //
-    // }, 3000)
-    // var keys = {37: 1, 38: 1, 39: 1, 40: 1};
-    //
-    // function preventDefault(e) {
-    //   e.preventDefault();
-    // }
-    //
-    // var wheelEvent = 'onwheel' in document.createElement('div') ? 'wheel' : 'mousewheel';
-    // var supportsPassive = false;
-    // try {
-    //   window.addEventListener("test", null, Object.defineProperty({}, 'passive', {
-    //     get: function () {
-    //       supportsPassive = true;
-    //     }
-    //   }));
-    // } catch (e) {
-    // }
-    //
-    // var wheelOpt = supportsPassive ? {passive: false} : false;
-    //
-    // function preventDefaultForScrollKeys(e) {
-    //   if (keys[e.keyCode]) {
-    //     preventDefault(e);
-    //     return false;
-    //   }
-    // }
-    //
-    //
-    //
-    // function disableScroll() {
-    //   window.addEventListener('DOMMouseScroll', preventDefault, false); // older FF
-    //   window.addEventListener(wheelEvent, preventDefault, wheelOpt); // modern desktop
-    //   window.addEventListener('touchmove', preventDefault, wheelOpt); // mobile
-    //   window.addEventListener('keydown', preventDefaultForScrollKeys, false);
-    // }
-    //
-    // function enableScroll() {
-    //   window.removeEventListener('DOMMouseScroll', preventDefault, false);
-    //   window.removeEventListener(wheelEvent, preventDefault, wheelOpt);
-    //   window.removeEventListener('touchmove', preventDefault, wheelOpt);
-    //   window.removeEventListener('keydown', preventDefaultForScrollKeys, false);
-    // }
-    //
-    // document.querySelector('body').classList.add('ld-router');
-    // document.querySelector('.open-popup').addEventListener('click', function () {
-    //   document.querySelector('.lg-router-pop-wrapper').classList.add('lg-router-pop-wrapper--active')
-    //   disableScroll()
-    //
-    // })
-    // document.querySelector('.lg-router-pop-close').addEventListener('click', function () {
-    //   document.querySelector('.lg-router-pop-wrapper').classList.remove('lg-router-pop-wrapper--active')
-    //   enableScroll()
-    // })
+    var f={};var g=/iPhone/i,i=/iPod/i,j=/iPad/i,k=/\biOS-universal(?:.+)Mac\b/i,h=/\bAndroid(?:.+)Mobile\b/i,m=/Android/i,c=/(?:SD4930UR|\bSilk(?:.+)Mobile\b)/i,d=/Silk/i,b=/Windows Phone/i,n=/\bWindows(?:.+)ARM\b/i,p=/BlackBerry/i,q=/BB10/i,s=/Opera Mini/i,t=/\b(CriOS|Chrome)(?:.+)Mobile/i,u=/Mobile(?:.+)Firefox\b/i,v=function(l){return void 0!==l&&"MacIntel"===l.platform&&"number"==typeof l.maxTouchPoints&&l.maxTouchPoints>1&&"undefined"==typeof MSStream};function w(l){return function($){return $.test(l)}}function x(l){var $={userAgent:"",platform:"",maxTouchPoints:0};l||"undefined"==typeof navigator?"string"==typeof l?$.userAgent=l:l&&l.userAgent&&($={userAgent:l.userAgent,platform:l.platform,maxTouchPoints:l.maxTouchPoints||0}):$={userAgent:navigator.userAgent,platform:navigator.platform,maxTouchPoints:navigator.maxTouchPoints||0};var a=$.userAgent,e=a.split("[FBAN");void 0!==e[1]&&(a=e[0]),void 0!==(e=a.split("Twitter"))[1]&&(a=e[0]);var r=w(a),o={apple:{phone:r(g)&&!r(b),ipod:r(i),tablet:!r(g)&&(r(j)||v($))&&!r(b),universal:r(k),device:(r(g)||r(i)||r(j)||r(k)||v($))&&!r(b)},amazon:{phone:r(c),tablet:!r(c)&&r(d),device:r(c)||r(d)},android:{phone:!r(b)&&r(c)||!r(b)&&r(h),tablet:!r(b)&&!r(c)&&!r(h)&&(r(d)||r(m)),device:!r(b)&&(r(c)||r(d)||r(h)||r(m))||r(/\bokhttp\b/i)},windows:{phone:r(b),tablet:r(n),device:r(b)||r(n)},other:{blackberry:r(p),blackberry10:r(q),opera:r(s),firefox:r(u),chrome:r(t),device:r(p)||r(q)||r(s)||r(u)||r(t)},any:!1,phone:!1,tablet:!1};return o.any=o.apple.device||o.android.device||o.windows.device||o.other.device,o.phone=o.apple.phone||o.android.phone||o.windows.phone,o.tablet=o.apple.tablet||o.android.tablet||o.windows.tablet,o}f=x();if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f}else if(typeof define==="function"&&define.amd){define(function(){return f})}else{this["isMobile"]=f}
+    if(f.apple.device && document.querySelector('.ld-key-google')){
+      document.querySelector('.ld-key-google').classList.add('d-none')
+    }
+    if(f.android.device && document.querySelector('.ld-key-apple')){
+      document.querySelector('.ld-key-apple').classList.add('d-none')
+    }
+    if(!f.apple.device && !f.android.device && document.querySelector('.ld-key-google')){
+      document.querySelector('.ld-key-google').classList.add('td-sp-t-1')
+    }
+    var bind = function () {
+      if (!document.querySelector('.ld-key-slader-block .row .ld-key-tabs-item')) {
+        setTimeout(function () {
+          bind()
+        }, 1000)
+      } else {
+        function debounce(callback, wait, immediate) {
+          let timeout = null
 
-    var calculate = function(){
-      var windowH = window.innerHeight;
-      var windowW = window.innerWidth;
-      var elements = document.querySelectorAll('.cj-animate')
-      elements.forEach(function (el){
-        if(windowW > 767) {
-          var deltaAngle = (el.getBoundingClientRect().top - windowH / 4) / windowH;
+          return function () {
+            const callNow = immediate && !timeout
+            const next = () => callback.apply(this, arguments)
 
+            clearTimeout(timeout)
+            timeout = setTimeout(next, wait)
 
-          if (Math.abs(deltaAngle) > 1.5) {
-            if (deltaAngle > 0) {
-              deltaAngle = 1.5
-            } else {
-              deltaAngle = -1.5
+            if (callNow) {
+              next()
             }
-          }
-
-
-
-          deltaAngle = deltaAngle * 100
-          var opacity = (80 - deltaAngle) / 80
-          if (opacity < 0) {
-            opacity = 0
-          }
-          if (opacity > 1) {
-            opacity = 1
-          }
-          if (el.classList.contains('cj-animate-revert')) {
-            deltaAngle = deltaAngle * -1
-          }
-          el.style.transform = 'matrix(1, 0, 0, 1, 0, ' + deltaAngle + ')'
-          if (el.classList.contains('cj-animate-setClass')) {
-            if(Math.abs(deltaAngle) < 70){
-              if(el.classList.contains('cj-animate-hidden')){
-                el.classList.remove('cj-animate-hidden')
-              }
-              if(el.classList.contains('cj-animate-setClass-top')){
-                el.classList.remove('cj-animate-setClass-top')
-              }
-              if(el.classList.contains('cj-animate-setClass-bottom')){
-                el.classList.remove('cj-animate-setClass-bottom')
-              }
-
-            }else{
-              if(!el.classList.contains('cj-animate-hidden')){
-                el.classList.add('cj-animate-hidden')
-              }
-              if(deltaAngle > 1){
-                if(!el.classList.contains('cj-animate-setClass-bottom')){
-                  el.classList.add('cj-animate-setClass-bottom')
-                }
-              }else{
-                if(!el.classList.contains('cj-animate-setClass-top')){
-                  el.classList.add('cj-animate-setClass-top')
-                }
-              }
-            }
-          }else{
-            el.style.opacity = opacity
           }
         }
-      })
+        var bindTab = function(){
+          document.querySelectorAll('.radio-button .radio-button-element').forEach(function (item,index){
+            item.addEventListener('change', function(){
+              showTabForm(index%2)
+            })
+          })
+        }
+        var showTabForm = function (index){
+          var beforeIndex = (index+1)%2
+          var beforeContent = document.querySelectorAll('.tab-content')[beforeIndex];
+          var nextContent = document.querySelectorAll('.tab-content')[index];
+          beforeContent.classList.remove('d-block')
+          beforeContent.classList.add('d-none')
+          nextContent.classList.remove('d-none')
+          nextContent.classList.add('d-block')
+          if(document.querySelector('#form .d-block .radio-button')) {
+            document.querySelectorAll('#form .d-block .radio-button')[index].click()
+          }
+        }
+        var bindTabInit = function (){
+          if(document.querySelector('#form .radio-button-element')){
+            bindTab()
+          }  else{
+            setTimeout(function (){
+              bindTabInit()
+            },500)
+          }
+        }
+        setTimeout(function (){
+          bindTabInit()
+        },1000)
+
+        document.querySelectorAll('.rt-tabs-navigation__item').forEach(function (tab){
+          tab.addEventListener('click',bindTab)
+        })
+        document.body.classList.add('land-key');
+
+        var setHeight = debounce(function () {
+          var height = document.querySelector('.ld-key-tabs-item--active').clientHeight
+          document.querySelector('.ld-key-tabs-content').style.minHeight = height + 'px';
+          setTimeout(function (){
+            var height = document.querySelector('.ld-key-tabs-item--active').clientHeight
+            document.querySelector('.ld-key-tabs-content').style.minHeight = height + 'px';
+          },100)
+        }, 100)
+        var removeMore = function () {
+          var more = document.querySelector('.ld-key-tab-show-more-active')
+          if (more) {
+            more.classList.remove('ld-key-tab-show-more-active')
+            setHeight()
+          }
+
+        }
+        setHeight()
+
+        window.addEventListener('resize', setHeight);
+        document.querySelectorAll('.ld-key-tabs-nav-item').forEach(function (item) {
+          item.addEventListener('click', function () {
+            if (!item.classList.contains('ld-key-tabs-nav-item--active')) {
+              var index = item.getAttribute('data-index') - 0;
+              document.querySelector('.ld-key-tabs-nav-item--active').classList.remove('ld-key-tabs-nav-item--active')
+              document.querySelector('.ld-key-tabs-item--active').classList.remove('ld-key-tabs-item--active')
+              document.querySelectorAll('.ld-key-tabs-item')[index].classList.add('ld-key-tabs-item--active')
+              item.classList.add('ld-key-tabs-nav-item--active');
+              setHeight(index)
+              activeSlideIndex = index
+              timer()
+              removeMore()
+
+            }
+          })
+        })
+        document.querySelectorAll('.ld-key-tabs-item').forEach(function (wrap) {
+          var showMore = wrap.querySelector('.ld-key-tab-show-more');
+          var showLess = wrap.querySelector('.ld-key-tab-show-less');
+          showMore.addEventListener('click', function () {
+            removeMore()
+            showMore.classList.add('ld-key-tab-show-more-active')
+            showLess.classList.remove('md-d-none')
+            showLess.classList.add('md-d-block')
+            setTimeout(() => {
+              setHeight()
+            }, 0)
+          })
+          if(showLess) {
+            showLess.addEventListener('click', function () {
+              removeMore()
+              showLess.classList.remove('md-d-block')
+              showLess.classList.add('md-d-none')
+              setTimeout(() => {
+                setHeight()
+              }, 0)
+            })
+          }
+
+        })
+        document.querySelectorAll('.ld-key-tab-show-more').forEach(function (item) {
+          item.addEventListener('click', function () {
+            removeMore()
+            item.classList.add('ld-key-tab-show-more-active')
+            setTimeout(() => {
+              setHeight()
+            }, 0)
+
+          })
+        })
+        var tabsSliderActiveItems = [0, 0, 0, 0, 0];
+        var xDown = [null, null, null, null, null];
+        var yDown = [null, null, null, null, null];
+        var timeout = null;
+        var stopTimer = false
+        var activeSlideIndex = 0;
+        var timer = function(){
+          if(document.querySelector('.ld-key-tabs-paginator-item')) {
+            if (timeout) {
+              clearTimeout(timeout)
+            }
+            timeout = setTimeout(function () {
+              tabsSliderActiveItems[activeSlideIndex] = (tabsSliderActiveItems[activeSlideIndex] + 1) % 3;
+              document.querySelectorAll('.ld-key-tabs-item')[activeSlideIndex].querySelector('.ld-key-tabs-paginator-item--active').classList.remove('ld-key-tabs-paginator-item--active')
+              document.querySelectorAll('.ld-key-tabs-item')[activeSlideIndex].querySelector('.ld-key-tabs-slider-item--active').classList.remove('ld-key-tabs-slider-item--active')
+              document.querySelectorAll('.ld-key-tabs-item')[activeSlideIndex].querySelectorAll('.ld-key-tabs-slider-item')[tabsSliderActiveItems[activeSlideIndex]].classList.add('ld-key-tabs-slider-item--active')
+              document.querySelectorAll('.ld-key-tabs-item')[activeSlideIndex].querySelectorAll('.ld-key-tabs-paginator-item')[tabsSliderActiveItems[activeSlideIndex]].classList.add('ld-key-tabs-paginator-item--active')
+              timer();
+            }, 3000)
+          }
+        }
+        timer();
+
+        document.querySelectorAll('.ld-key-tabs-paginator-item').forEach(function (item) {
+          item.addEventListener('click', function () {
+            if (!item.classList.contains('ld-key-tabs-paginator-item--active')) {
+              var tabIndex = item.getAttribute('data-tab-index') - 0;
+              var slideIndex = item.getAttribute('data-slide-index') - 0;
+              document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelector('.ld-key-tabs-paginator-item--active').classList.remove('ld-key-tabs-paginator-item--active')
+              tabsSliderActiveItems[tabIndex] = slideIndex
+              document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelector('.ld-key-tabs-slider-item--active').classList.remove('ld-key-tabs-slider-item--active')
+              document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelectorAll('.ld-key-tabs-slider-item')[slideIndex].classList.add('ld-key-tabs-slider-item--active')
+              item.classList.add('ld-key-tabs-paginator-item--active');
+            }
+          })
+        })
+        document.querySelectorAll('.ld-key-tabs-arrows-right').forEach(function (item) {
+          item.addEventListener('click', function () {
+            var tabIndex = item.getAttribute('data-tab-index') - 0;
+            var slideIndex = tabsSliderActiveItems[tabIndex];
+            slideIndex = (slideIndex + 1) % 3
+            tabsSliderActiveItems[tabIndex] = slideIndex
+            removeMore()
+            document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelector('.ld-key-tabs-paginator-item--active').classList.remove('ld-key-tabs-paginator-item--active')
+            document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelectorAll('.ld-key-tabs-paginator-item')[slideIndex].classList.add('ld-key-tabs-paginator-item--active')
+            document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelector('.ld-key-tabs-slider-item--active').classList.remove('ld-key-tabs-slider-item--active')
+            document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelectorAll('.ld-key-tabs-slider-item')[slideIndex].classList.add('ld-key-tabs-slider-item--active')
+          })
+        })
+        document.querySelectorAll('.ld-key-tabs-arrows-left').forEach(function (item) {
+          item.addEventListener('click', function () {
+            removeMore()
+            var tabIndex = item.getAttribute('data-tab-index') - 0;
+            var slideIndex = tabsSliderActiveItems[tabIndex];
+            slideIndex = (slideIndex - 1 + 3) % 3
+            tabsSliderActiveItems[tabIndex] = slideIndex
+            document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelector('.ld-key-tabs-paginator-item--active').classList.remove('ld-key-tabs-paginator-item--active')
+            document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelectorAll('.ld-key-tabs-paginator-item')[slideIndex].classList.add('ld-key-tabs-paginator-item--active')
+            document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelector('.ld-key-tabs-slider-item--active').classList.remove('ld-key-tabs-slider-item--active')
+            document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelectorAll('.ld-key-tabs-slider-item')[slideIndex].classList.add('ld-key-tabs-slider-item--active')
+          })
+        })
+        document.querySelectorAll('.ld-key-tabs-slider').forEach(function (item) {
+          item.addEventListener('touchstart', function (event) {
+
+            var tabIndex = item.getAttribute('data-tab-index') - 0;
+            yDown[tabIndex] = event.touches[0].clientY
+            xDown[tabIndex] = event.touches[0].clientX;
+          })
+          item.addEventListener('touchmove', function (event) {
+            var tabIndex = item.getAttribute('data-tab-index') - 0;
+            if (!xDown[tabIndex] || !yDown[tabIndex]) {
+              return;
+            }
+            var xUp = event.touches[0].clientX;
+            var yUp = event.touches[0].clientY;
+            var xDiff = xDown[tabIndex] - xUp;
+            var yDiff = yDown[tabIndex] - yUp;
+            var slideIndex = tabsSliderActiveItems[tabIndex];
+            var size = 3;
+            var prev = (slideIndex - 1 + size) % size;
+            var next = (slideIndex + 1) % size;
+            if (Math.abs(xDiff) > Math.abs(yDiff)) {
+              if (this.preventScroll) {
+                event.preventDefault();
+              }
+              if (xDiff > 0) {
+                slideIndex = next
+              } else {
+                slideIndex = prev
+              }
+            }
+            xDown[tabIndex] = null
+            yDown[tabIndex] = null
+            tabsSliderActiveItems[tabIndex] = slideIndex
+            removeMore()
+            document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelector('.ld-key-tabs-paginator-item--active').classList.remove('ld-key-tabs-paginator-item--active')
+            document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelectorAll('.ld-key-tabs-paginator-item')[slideIndex].classList.add('ld-key-tabs-paginator-item--active')
+            document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelector('.ld-key-tabs-slider-item--active').classList.remove('ld-key-tabs-slider-item--active')
+            document.querySelectorAll('.ld-key-tabs-item')[tabIndex].querySelectorAll('.ld-key-tabs-slider-item')[slideIndex].classList.add('ld-key-tabs-slider-item--active')
+          })
+        })
+
+      }
     }
-    window.addEventListener('scroll', calculate)
-    window.addEventListener('resize', calculate)
-
-
-
-    //parseInt(document.querySelector('.test').style.transform.split(',').pop())
-
+    bind()
   }
 };
 </script>

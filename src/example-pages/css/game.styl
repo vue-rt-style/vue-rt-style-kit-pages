@@ -1,0 +1,265 @@
+
+.ld-mygame,
+.F
+  background-color: #0e162f!important
+  .app-header
+    display: none
+.ld-mygame-users
+  height: 863px
+  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/users-bg.jpg)
+  background-size: cover;
+  transition-timing-function ease-in-out
+  transition-duration 0.5s
+  transition-property background
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/users-bg-2x.jpg)
+  }
+.ld-mygame-users--warface
+  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/warface-bg.jpg)
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/warface-bg-2x.jpg)
+  }
+.ld-mygame-users--archeage
+  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/archeage-bg.jpg)
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/archeage-bg-2x.jpg)
+  }
+.ld-mygame-users--crossfire
+  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/crossfire-bg.jpg)
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/crossfire-bg-2x.jpg)
+  }
+.ld-mygame-users--lostark
+  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/lostark-bg.jpg)
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/lostark-bg-2x.jpg)
+  }
+.ld-mygame-users-item
+  width: 300px
+  height: 460px
+  display: flex
+  text-align center
+  position: relative;
+  &:before
+    content ''
+    position: absolute;
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background-color: rgba(255,255,255,0.15)
+    border-radius 8px
+    transition-timing-function ease-in-out
+    transition-duration 0.5s
+    transition-property opacity, visibility
+  &:after
+    content ''
+    position: absolute;
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background-color: #FFFFFF
+    border-radius 8px
+    mix-blend-mode: soft-light;
+    opacity: 0
+    transition-timing-function ease-in-out
+    transition-duration 0.5s
+    transition-property opacity, mix-blend-mode
+
+@keyframes hideLogo
+  0%
+    top: 55px
+    opacity: 0
+
+  100%
+    opacity:0.7
+    top: 0
+@keyframes showLogo
+  0%
+    top: 255px
+    opacity: 0
+  70%
+    top: 255px
+    opacity: 0
+  100%
+    opacity: 1
+    top: 255px
+
+@keyframes showButton
+  0%
+
+    opacity: 0
+  50%
+    opacity: 0
+  100%
+    opacity: 1
+@keyframes showUser
+  0%
+
+    opacity: 0
+    width 305px
+    bottom: 172px
+    right: 10px
+    border-radius 65%
+    bottom: 152px
+  40%
+    opacity: 0
+  100%
+    opacity: 1
+    width 305px
+    bottom: 172px
+    right: 10px
+    border-radius 65%
+@keyframes hideUser
+  0%
+    bottom: -25px
+    opacity 0
+  40%
+    opacity: 0
+  100%
+    bottom: -25px
+    opacity 0.7
+
+.ld-mygame-users-item--active,
+.ld-mygame-users-item:hover
+  &:before
+    opacity: 0
+  &:after
+    opacity: 1
+  .ld-mygame-users-logo
+    opacity: 1
+    top: 255px
+    animation showLogo  1s ease-in-out
+  .ld-mygame-users-img
+    opacity: 1
+    width 305px
+    bottom: 172px
+    right: 10px
+    border-radius 65%
+    animation showUser  1s ease-in-out
+  .ld-mygame-users-button
+    opacity: 1
+    animation showButton  1s ease-in-out
+  .ld-mygame-users-img .rt-img-container
+    margin-bottom: 0
+  .ld-mygame-users-content
+    &:before
+      opacity: 1
+    &:after
+      opacity: 1
+
+.ld-mygame-users-content
+  padding-top: 51px
+  max-width 100%
+  position: relative;
+  &:after
+    content ''
+    position: absolute;
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    opacity: 0
+    background-color: rgba(13, 22, 45, 0.5);
+    border-radius 8px
+    mix-blend-mode: soft-light;
+    border-radius 8px
+    transition-timing-function ease-in-out
+    transition-duration 0.5s
+    transition-property opacity
+  &:before
+    content ''
+    position: absolute;
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    mix-blend-mode: overlay;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    opacity: 0
+    transition-timing-function ease-in-out
+    transition-duration 0.5s
+    transition-property opacity, visibility
+.ld-mygame-users-logo
+  position: absolute;
+  display: inline-block
+  width: 100%
+  height: 63px
+  text-align: center
+  position: relative;
+  top: 0
+  z-index 2
+  opacity:0.7
+  animation hideLogo  1s ease-in-out
+
+  .rt-img
+    max-height 100%
+    display: inline-block
+
+.ld-mygame-users-img
+  z-index 2
+  width: 100%
+  overflow-y hidden
+  bottom: -25px
+  position: relative;
+  opacity: 0.7
+  right: 0
+  border-radius 0
+  animation hideUser  1s ease-in-out
+  .rt-img-container
+    margin-bottom: -35px
+    transition-timing-function ease-in-out
+    transition-duration 0.5s
+    transition-property margin
+  .rt-img
+    max-width 100%
+
+.ld-mygame-users-button
+  position: absolute;
+  bottom: 28px
+  left: 50px
+  right: 50px
+  display: block
+  min-width: calc(100% - 100px)
+  opacity: 0
+
+.ld-mygame-banner-img
+  max-width 100%
+  .rt-img
+    width: 100%
+.lg-mygame-points-img .rt-img
+  width: 80px
+//3079D7, 100%
+
+.ld-mygame-line
+  overflow-x: hidden
+
+.ld-mygame-line-item
+  position: relative
+  padding-top 40px
+  &:after
+    content ''
+    position: absolute
+    width: 50vw
+    left: -50vw
+    top: 0
+    height: 2px
+    opacity: 0.5
+    background-color: #0D162D
+  &:before
+    content ''
+    position: absolute
+    width: 50vw
+    left: -50vw
+    top: 0
+    height: 2px
+    opacity: 0.5
+    background-color: #3079D7
+
+.ld-mygame-line-cube
+  width: 101px
+  position: absolute
+  top -55px
