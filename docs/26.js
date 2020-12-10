@@ -1,17 +1,107 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[26],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Annotation.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/Annotation.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_rt_style_kit_molecules_local_components_OptionsList_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/OptionsList/docs/index.json */ "./src/molecules/components/OptionsList/docs/index.json");
-var _vue_rt_style_kit_molecules_local_components_OptionsList_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-molecules-local/components/OptionsList/docs/index.json */ "./src/molecules/components/OptionsList/docs/index.json", 1);
+/* harmony import */ var _vue_rt_style_kit_atoms_local_components_Annotation_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-atoms-local/components/Annotation/docs/index.json */ "./src/atoms/components/Annotation/docs/index.json");
+var _vue_rt_style_kit_atoms_local_components_Annotation_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-atoms-local/components/Annotation/docs/index.json */ "./src/atoms/components/Annotation/docs/index.json", 1);
 /* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -171,7 +261,7 @@ var _vue_rt_style_kit_molecules_local_components_OptionsList_docs_index_json__WE
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppOptionList",
+  name: "AppButtons",
   components: _componentsList__WEBPACK_IMPORTED_MODULE_1__["default"],
   data: function data() {
     return {
@@ -179,16 +269,18 @@ var _vue_rt_style_kit_molecules_local_components_OptionsList_docs_index_json__WE
     };
   },
   mounted: function mounted() {
-    this.documentation = _vue_rt_style_kit_molecules_local_components_OptionsList_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
-  }
+    this.documentation = _vue_rt_style_kit_atoms_local_components_Annotation_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
+  },
+  created: function created() {},
+  methods: {}
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=1af46b8f&":
-/*!*************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=1af46b8f& ***!
-  \*************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Annotation.vue?vue&type=template&id=761a443e&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/Annotation.vue?vue&type=template&id=761a443e& ***!
+  \************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -196,24 +288,35 @@ var _vue_rt_style_kit_molecules_local_components_OptionsList_docs_index_json__WE
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-content"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col-12 rt-col-td-6 rt-col-md-3 is-b2c"},[_c('rt-options-list',{attrs:{"hash":"123","has-star":true}},[_c('template',{slot:"icon"},[_c('svg',{attrs:{"width":"56px","height":"56px","viewBox":"0 0 56 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink"}},[_c('g',{attrs:{"id":"Design","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"1034_mobile/options","transform":"translate(-173.000000, -450.000000)","fill":"#E3E8EC","fill-rule":"nonzero"}},[_c('circle',{attrs:{"id":"Oval-Copy-15","cx":"201","cy":"478","r":"28"}})])])])]),_vm._v(" "),_c('template',{slot:"label"},[_vm._v("День в сети")]),_vm._v(" "),_c('template',{slot:"info"},[_vm._v("Платите только когда пользуетесь.")]),_vm._v(" "),_c('template',{slot:"content"}),_vm._v(" "),_c('template',{slot:"aside"},[_c('span',{staticClass:"rt-space-left rt-md-space-left-none"},[_vm._v("250 мб")]),_vm._v(" "),_c('span',{staticClass:"rt-font-bold rt-space-left rt-md-space-left-none"},[_vm._v("20 руб./мес.")])]),_vm._v(" "),_c('template',{slot:"moreinfo"},[_vm._v("Подробнее")])],2),_vm._v(" "),_c('rt-options-list',{attrs:{"hash":"321"}},[_c('template',{slot:"icon"},[_c('svg',{attrs:{"width":"56px","height":"56px","viewBox":"0 0 56 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink"}},[_c('g',{attrs:{"id":"Design","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"1034_mobile/options","transform":"translate(-173.000000, -450.000000)","fill":"#E3E8EC","fill-rule":"nonzero"}},[_c('circle',{attrs:{"id":"Oval-Copy-15","cx":"201","cy":"478","r":"28"}})])])])]),_vm._v(" "),_c('template',{slot:"label"},[_vm._v("День в сети")]),_vm._v(" "),_c('template',{slot:"info"},[_vm._v("Платите только когда пользуетесь.")]),_vm._v(" "),_c('template',{slot:"content"},[_c('rt-options-list-info-item',[_c('template',{slot:"left"},[_vm._v("Абонентская плата")]),_vm._v(" "),_c('template',{slot:"right"},[_vm._v("99 руб./мес.")])],2),_vm._v(" "),_c('rt-options-list-info-item',[_c('template',{slot:"left"},[_vm._v("Объем трафика")]),_vm._v(" "),_c('template',{slot:"right"},[_vm._v("2 Гб")])],2),_vm._v(" "),_c('rt-options-list-info-item',[_c('template',{slot:"left"},[_vm._v("Неиспользованные Гб интернет-трафика переносятся на следующий месяц")])],2),_vm._v(" "),_c('rt-options-list-info-item',[_c('template',{slot:"left"},[_vm._v("Как отключить")])],2)],1),_vm._v(" "),_c('template',{slot:"aside"},[_c('span',{staticClass:"rt-space-left rt-md-space-left-none"},[_vm._v("250 мб")]),_vm._v(" "),_c('span',{staticClass:"rt-font-bold rt-space-left rt-md-space-left-none"},[_vm._v("20 руб./мес.")])]),_vm._v(" "),_c('template',{slot:"moreinfo"},[_vm._v("Подробнее")]),_vm._v(" "),_c('template',{slot:"content"},[_c('rt-options-list',{attrs:{"name":"test3","need-to-save":true}},[_c('template',{slot:"icon"}),_vm._v(" "),_c('template',{slot:"label"},[_vm._v("День в сети")]),_vm._v(" "),_c('template',{slot:"info"},[_vm._v("Платите только когда пользуетесь.")]),_vm._v(" "),_c('template',{slot:"aside"},[_c('span',{staticClass:"rt-space-left rt-md-space-left-none"},[_vm._v("250 мб")]),_vm._v(" "),_c('span',{staticClass:"rt-font-bold rt-space-left rt-md-space-left-none"},[_vm._v("20 руб./мес.")])]),_vm._v(" "),_c('template',{slot:"moreinfo"},[_vm._v("Подробнее")]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',[_vm._v("Управление услугой доступно в Личном кабинете.")]),_vm._v(" "),_c('p',[_vm._v("Платите только когда пользуетесь.")]),_vm._v(" "),_c('p',[_vm._v("Управление услугой доступно в Личном кабинете.")]),_vm._v(" "),_c('p',[_vm._v("Платите только когда пользуетесь.")]),_vm._v(" "),_c('p',[_vm._v("Управление услугой доступно в Личном кабинете.")]),_vm._v(" "),_c('p',[_vm._v("Платите только когда пользуетесь.")]),_vm._v(" "),_c('p',[_vm._v("Управление услугой доступно в Личном кабинете.")]),_vm._v(" "),_c('p',[_vm._v("Платите только когда пользуетесь.")])])],2)],1)],2),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-options-list hash=\"3212\">\n            <template slot=\"icon\">\n              <svg width=\"56px\" height=\"56px\" viewBox=\"0 0 56 56\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"\n                   xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n                <g id=\"Design\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n                  <g id=\"1034_mobile/options\" transform=\"translate(-173.000000, -450.000000)\" fill=\"#E3E8EC\"\n                     fill-rule=\"nonzero\">\n                    <circle id=\"Oval-Copy-15\" cx=\"201\" cy=\"478\" r=\"28\"></circle>\n                  </g>\n                </g>\n              </svg>\n            </template>\n            <template slot=\"label\">День в сети</template>\n            <template slot=\"info\">Платите только когда пользуетесь.</template>\n            <template slot=\"content\">\n              <div>\n                <p>Управление услугой доступно в Личном кабинете.</p>\n                <p>Платите только когда пользуетесь.</p>\n                <p>Управление услугой доступно в Личном кабинете.</p>\n                <p>Платите только когда пользуетесь.</p>\n                <p>Управление услугой доступно в Личном кабинете.</p>\n                <p>Платите только когда пользуетесь.</p>\n                <p>Управление услугой доступно в Личном кабинете.</p>\n                <p>Платите только когда пользуетесь.</p>\n              </div>\n            </template>\n            <template slot=\"aside\">\n                <span class=\"rt-space-left rt-md-space-left-none\">250 мб</span>\n                <span class=\"rt-font-bold rt-space-left rt-md-space-left-none\">20 руб./мес.</span>\n            </template>\n            <template slot=\"moreinfo\">Подробнее</template>\n            <template slot=\"content\">\n              <rt-options-list name=\"test4\" :need-to-save=\"true\" >\n                <template slot=\"icon\"></template>\n                  <template slot=\"label\">День в сети</template>\n                <template slot=\"info\">Платите только когда пользуетесь.</template>\n                <template slot=\"aside\">\n                    <span class=\"rt-space-left rt-md-space-left-none\">250 мб</span>\n                    <span class=\"rt-font-bold rt-space-left rt-md-space-left-none\">20 руб./мес.</span>\n                </template>\n                <template slot=\"moreinfo\">Подробнее</template>\n                <template slot=\"content\">\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                </template>\n              </rt-options-list>\n            </template>\n          </rt-options-list>"}})],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-container rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col-12 rt-col-td-6 rt-col-md-3"},[_c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("Options List")])])])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('pre-code',{attrs:{"text":"<rt-annotation hash='open' :scroll-timeout='1000' label=\"Примечание\" class=\"rt-space-top rt-space-bottom3\">\n        <template slot=\"content\">\n        <div class=\"rt-numeric-list\">\n          <p class=\"rt-annotation-item rt-numeric-list__item\">Услуги Высокоскоростного интернета предоставляются при наличии\n            технической возможности.</p>\n          <p class=\"rt-annotation-item rt-numeric-list__item\">Цены указаны в рублях с учетом НДС.</p>\n          <p class=\"rt-annotation-item\"> «По оптической линии» — предоставление доступа к сети Интернет\n            осуществляется по технологии FTTx (англ., fiber to the x — оптическое волокно до точки X)\n            или по технологии PON (англ. Passive Optical Networks — пассивная оптическая сеть до\n            абонента).</p>\n          <p class=\"rt-annotation-item\"> «По телефонной линии» — предоставление доступа к сети Интернет\n            осуществляется по технологии xDSL (англ., digital subscriber line, цифровая абонентская\n            линия).</p>\n          <p class=\"rt-annotation-item rt-numeric-list__item\">Предоставление доступа к сети Интернет осуществляется по технологии\n            xDSL (англ., digital subscriber line, цифровая абонентская линия).</p>\n          <p class=\"rt-annotation-item rt-numeric-list__item\">Скорость доступа к сети Интернет зависит не только от технических\n            особенностей Услуги, но и от действий третьих сил, организаций и лиц, управляющих сегментами\n            сети Интернет (или оказывающих на них влияние), не принадлежащих ПАО «Ростелеком». Скорость\n            доступа к сети Интернет является величиной неопределенной и зависит от ряда параметров, в\n            том числе, технических характеристик подключения, маршрута и текущей загрузки каналов,\n            характеристиками установленного абонентского оборудования (ПК, смартфон, WiFi-роутер),\n            версией программного обеспечения или используемого стандарта, месторасположением\n            запрашиваемого контента. Все параметры являются переменными и не гарантируются ПАО\n            «Ростелеком» за пределами своей сети. Указанная в тарифном плане скорость является\n            максимально возможной.</p>\n          <p class=\"rt-annotation-item rt-numeric-list__item\">Абонентская плата за услугу Интернет списывается с\n            лицевого счета\n            абонента один раз в месяц. В первый месяц пользования услугой Интернет с лицевого счета\n            абонента списывается абонентская плата, рассчитанная пропорционально количеству дней от даты\n            начала оказания услуги до конца месяца.</p>\n          <p class=\"rt-annotation-item rt-numeric-list__item\">Оборудование (маршрутизатор или абонентский модем в зависимости от\n            технологии предоставления услуги), необходимое для получения услуг, может быть приобретено\n            отдельно по действующим тарифам. Стоимость оборудования уточняйте по телефону\n            8-800-100-0-800.</p>\n          <p class=\"rt-annotation-item rt-numeric-list__item\">Safe Kids — Сэйф кидс (перевод с англ. — Защищенные дети). Услуга\n            предоставляется на территории Российской Федерации для абонентов-физических лиц при наличии\n            технической возможности. При первом подключении услуги на условиях ежемесячной подписки\n            первые 30 календарных дней с момента активации услуги предоставляются без взимания\n            абонентской платы, далее согласно Базовым тарифам. При первом подключении услуги на условиях\n            годовой подписки абонент пользуется услугой 14 месяцев (420 календарных дней) с момента\n            активации, два последних месяца предоставляются без взимания абонентской платы. При\n            прологнации услуги или повторных подключениях на условиях годовой подписки период\n            пользования составляет 360 календарных дней. Подробности об услуге, ПАО «Ростелеком»\n            узнавайте по бесплатному номеру 8-800-100-0-800, а также на сайте www.rt.ru.</p>\n            </div>\n        </template>\n      </rt-annotation>"}}),_vm._v(" "),_c('rt-annotation',{staticClass:"rt-space-top rt-space-bottom",attrs:{"label":"Примечание"}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-numeric-list"},[_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Услуги Высокоскоростного интернета предоставляются при наличии\n              технической возможности.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Цены указаны в рублях с учетом НДС.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item"},[_vm._v("\n              «По оптической линии» — предоставление доступа к сети Интернет\n              осуществляется по технологии FTTx (англ., fiber to the x —\n              оптическое волокно до точки X) или по технологии PON (англ.\n              Passive Optical Networks — пассивная оптическая сеть до\n              абонента).\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item"},[_vm._v("\n              «По телефонной линии» — предоставление доступа к сети Интернет\n              осуществляется по технологии xDSL (англ., digital subscriber\n              line, цифровая абонентская линия).\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Предоставление доступа к сети Интернет осуществляется по\n              технологии xDSL (англ., digital subscriber line, цифровая\n              абонентская линия).\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Скорость доступа к сети Интернет зависит не только от\n              технических особенностей Услуги, но и от действий третьих сил,\n              организаций и лиц, управляющих сегментами сети Интернет (или\n              оказывающих на них влияние), не принадлежащих ПАО «Ростелеком».\n              Скорость доступа к сети Интернет является величиной\n              неопределенной и зависит от ряда параметров, в том числе,\n              технических характеристик подключения, маршрута и текущей\n              загрузки каналов, характеристиками установленного абонентского\n              оборудования (ПК, смартфон, WiFi-роутер), версией программного\n              обеспечения или используемого стандарта, месторасположением\n              запрашиваемого контента. Все параметры являются переменными и не\n              гарантируются ПАО «Ростелеком» за пределами своей сети.\n              Указанная в тарифном плане скорость является максимально\n              возможной.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Абонентская плата за услугу Интернет списывается с лицевого\n              счета абонента один раз в месяц. В первый месяц пользования\n              услугой Интернет с лицевого счета абонента списывается\n              абонентская плата, рассчитанная пропорционально количеству дней\n              от даты начала оказания услуги до конца месяца.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Оборудование (маршрутизатор или абонентский модем в зависимости\n              от технологии предоставления услуги), необходимое для получения\n              услуг, может быть приобретено отдельно по действующим тарифам.\n              Стоимость оборудования уточняйте по телефону 8-800-100-0-800.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Safe Kids — Сэйф кидс (перевод с англ. — Защищенные дети).\n              Услуга предоставляется на территории Российской Федерации для\n              абонентов-физических лиц при наличии технической возможности.\n              При первом подключении услуги на условиях ежемесячной подписки\n              первые 30 календарных дней с момента активации услуги\n              предоставляются без взимания абонентской платы, далее согласно\n              Базовым тарифам. При первом подключении услуги на условиях\n              годовой подписки абонент пользуется услугой 14 месяцев (420\n              календарных дней) с момента активации, два последних месяца\n              предоставляются без взимания абонентской платы. При прологнации\n              услуги или повторных подключениях на условиях годовой подписки\n              период пользования составляет 360 календарных дней. Подробности\n              об услуге, ПАО «Ростелеком» узнавайте по бесплатному номеру\n              8-800-100-0-800, а также на сайте www.rt.ru.\n            ")])])])],2),_vm._v(" "),_c('rt-annotation',{staticClass:"rt-space-top rt-space-bottom",attrs:{"label":"Примечание"}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-numeric-list"},[_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Услуги Высокоскоростного интернета предоставляются при наличии\n              технической возможности.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Цены указаны в рублях с учетом НДС.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item"},[_vm._v("\n              «По оптической линии» — предоставление доступа к сети Интернет\n              осуществляется по технологии FTTx (англ., fiber to the x —\n              оптическое волокно до точки X) или по технологии PON (англ.\n              Passive Optical Networks — пассивная оптическая сеть до\n              абонента).\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item"},[_vm._v("\n              «По телефонной линии» — предоставление доступа к сети Интернет\n              осуществляется по технологии xDSL (англ., digital subscriber\n              line, цифровая абонентская линия).\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Предоставление доступа к сети Интернет осуществляется по\n              технологии xDSL (англ., digital subscriber line, цифровая\n              абонентская линия).\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Скорость доступа к сети Интернет зависит не только от\n              технических особенностей Услуги, но и от действий третьих сил,\n              организаций и лиц, управляющих сегментами сети Интернет (или\n              оказывающих на них влияние), не принадлежащих ПАО «Ростелеком».\n              Скорость доступа к сети Интернет является величиной\n              неопределенной и зависит от ряда параметров, в том числе,\n              технических характеристик подключения, маршрута и текущей\n              загрузки каналов, характеристиками установленного абонентского\n              оборудования (ПК, смартфон, WiFi-роутер), версией программного\n              обеспечения или используемого стандарта, месторасположением\n              запрашиваемого контента. Все параметры являются переменными и не\n              гарантируются ПАО «Ростелеком» за пределами своей сети.\n              Указанная в тарифном плане скорость является максимально\n              возможной.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Абонентская плата за услугу Интернет списывается с лицевого\n              счета абонента один раз в месяц. В первый месяц пользования\n              услугой Интернет с лицевого счета абонента списывается\n              абонентская плата, рассчитанная пропорционально количеству дней\n              от даты начала оказания услуги до конца месяца.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Оборудование (маршрутизатор или абонентский модем в зависимости\n              от технологии предоставления услуги), необходимое для получения\n              услуг, может быть приобретено отдельно по действующим тарифам.\n              Стоимость оборудования уточняйте по телефону 8-800-100-0-800.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Safe Kids — Сэйф кидс (перевод с англ. — Защищенные дети).\n              Услуга предоставляется на территории Российской Федерации для\n              абонентов-физических лиц при наличии технической возможности.\n              При первом подключении услуги на условиях ежемесячной подписки\n              первые 30 календарных дней с момента активации услуги\n              предоставляются без взимания абонентской платы, далее согласно\n              Базовым тарифам. При первом подключении услуги на условиях\n              годовой подписки абонент пользуется услугой 14 месяцев (420\n              календарных дней) с момента активации, два последних месяца\n              предоставляются без взимания абонентской платы. При прологнации\n              услуги или повторных подключениях на условиях годовой подписки\n              период пользования составляет 360 календарных дней. Подробности\n              об услуге, ПАО «Ростелеком» узнавайте по бесплатному номеру\n              8-800-100-0-800, а также на сайте www.rt.ru.\n            ")])])])],2),_vm._v(" "),_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("\n          Annotation\n        ")])])])}]
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/OptionsList.vue":
-/*!************************************************************!*\
-  !*** ./src/example-pages/components/group/OptionsList.vue ***!
-  \************************************************************/
+/***/ "./src/atoms/components/Annotation/docs/index.json":
+/*!*********************************************************!*\
+  !*** ./src/atoms/components/Annotation/docs/index.json ***!
+  \*********************************************************/
+/*! exports provided: items, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-annotation\",\"property\":\"label\",\"type\":\"String\",\"description\":\"Верхний текст примечания\",\"value\":\"null\"},{\"name\":\"rt-annotation\",\"property\":\"has-white-color\",\"type\":\"Boolean\",\"description\":\"Флаг белого цвета\",\"value\":\"null\"},{\"name\":\"rt-annotation\",\"property\":\":open\",\"type\":\"Boolean\",\"description\":\"Задаёт открытое состояние для блока по умолчанию\",\"value\":\"false\"},{\"name\":\"rt-annotation\",\"property\":\"title-font-class\",\"type\":\"String\",\"description\":\"Задаёт шрифт для заголовка примечания\",\"value\":\"rt-font-paragraph\"}]}");
+
+/***/ }),
+
+/***/ "./src/example-pages/components/group/Annotation.vue":
+/*!***********************************************************!*\
+  !*** ./src/example-pages/components/group/Annotation.vue ***!
+  \***********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _OptionsList_vue_vue_type_template_id_1af46b8f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./OptionsList.vue?vue&type=template&id=1af46b8f& */ "./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=1af46b8f&");
-/* harmony import */ var _OptionsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OptionsList.vue?vue&type=script&lang=js& */ "./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Annotation_vue_vue_type_template_id_761a443e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Annotation.vue?vue&type=template&id=761a443e& */ "./src/example-pages/components/group/Annotation.vue?vue&type=template&id=761a443e&");
+/* harmony import */ var _Annotation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Annotation.vue?vue&type=script&lang=js& */ "./src/example-pages/components/group/Annotation.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -223,9 +326,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _OptionsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _OptionsList_vue_vue_type_template_id_1af46b8f___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _OptionsList_vue_vue_type_template_id_1af46b8f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Annotation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Annotation_vue_vue_type_template_id_761a443e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Annotation_vue_vue_type_template_id_761a443e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -237,46 +340,35 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************!*\
-  !*** ./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************/
+/***/ "./src/example-pages/components/group/Annotation.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./src/example-pages/components/group/Annotation.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./OptionsList.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Annotation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Annotation.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Annotation.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Annotation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=1af46b8f&":
-/*!*******************************************************************************************!*\
-  !*** ./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=1af46b8f& ***!
-  \*******************************************************************************************/
+/***/ "./src/example-pages/components/group/Annotation.vue?vue&type=template&id=761a443e&":
+/*!******************************************************************************************!*\
+  !*** ./src/example-pages/components/group/Annotation.vue?vue&type=template&id=761a443e& ***!
+  \******************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_template_id_1af46b8f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./OptionsList.vue?vue&type=template&id=1af46b8f& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=1af46b8f&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_template_id_1af46b8f___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Annotation_vue_vue_type_template_id_761a443e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Annotation.vue?vue&type=template&id=761a443e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Annotation.vue?vue&type=template&id=761a443e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Annotation_vue_vue_type_template_id_761a443e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_template_id_1af46b8f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Annotation_vue_vue_type_template_id_761a443e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
-
-/***/ }),
-
-/***/ "./src/molecules/components/OptionsList/docs/index.json":
-/*!**************************************************************!*\
-  !*** ./src/molecules/components/OptionsList/docs/index.json ***!
-  \**************************************************************/
-/*! exports provided: items, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-option-list\",\"property\":\"hash\",\"type\":\"String\",\"description\":\"Якорь, используемый для установки активным(развёрнутым) определённого пункта, при переходе по ссылке\",\"value\":\"\"},{\"name\":\"rt-option-list\",\"property\":\"need-to-save\",\"type\":\"Boolean\",\"description\":\"Флаг для сохранения в localStorage развёрнутого пункта\",\"value\":\"false\"},{\"name\":\"rt-option-list\",\"property\":\"name\",\"type\":\"String\",\"description\":\"Имя используемое для сохранения значения в localStorage\",\"value\":\"\"},{\"name\":\"rt-option-list\",\"property\":\":close-other\",\"type\":\"Boolean\",\"description\":\"Флаг, указывающий закрывать остальные вкладки при открытии данной\",\"value\":\"false\"},{\"name\":\"rt-option-list\",\"property\":\"hasStar\",\"type\":\"Boolean\",\"description\":\"Флаг отвечающий за отображение звезды на данном пункте\",\"value\":\"false\"}]}");
 
 /***/ })
 
