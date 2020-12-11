@@ -134,7 +134,7 @@
                           </div>
 
                         </div>
-                        <p class="color-purple rt-link ld-key-tab-show-more md-d-block d-none md-sp-t-1-1">Узнать
+                        <p class="sp-t-1-3 color-purple rt-link ld-key-tab-show-more td-d-block d-none">Узнать
                           больше</p>
                         <div class="ld-key-tab-content">
                           <p class="rt-font-h3 sp-t-2">Что умеет ключ</p>
@@ -147,7 +147,7 @@
                             доме</p></div>
                           <div class="sp-t-1-1"><p class="ld-key-boolet">Архив всех вошедших в подъезд, распознанных по
                             ключу или коду доступа, фотофиксация посетителей и времени входа</p></div>
-
+                          <p class="color-purple rt-link ld-key-tab-show-less d-none td-sp-t-1-1">Скрыть</p>
                         </div>
                       </div>
                       <div label="Умный домофон — новые возможности комфорта вашего дома"
@@ -168,7 +168,7 @@
                           безопасности для вашего дома</p>
                       </rt-col>
                     </rt-row>
-                    <rt-row class="sp-t-1 row-td-reverse td-flex-j-end">
+                    <rt-row class="sp-t-1 row-td-reverse td-flex-j-end md-sp-t-2">
                       <div class="rt-col-6 rt-col-td-6 rt-col-td-4 rt-col-md-3 td-sp-r-3 rt-font-small-paragraph">
 
                         <p class="sp-t-0-2">Умный шлагбаум — это сервис, который предоставляет возможность управлять и
@@ -195,7 +195,7 @@
                           </div>
 
                         </div>
-                        <p class="color-purple rt-link ld-key-tab-show-more md-d-block d-none md-sp-t-1-1">Узнать
+                        <p class="sp-t-1-3 color-purple rt-link ld-key-tab-show-more td-d-block d-none">Узнать
                           больше</p>
                         <div class="ld-key-tab-content">
                           <p class="rt-font-h3 sp-t-2">Что умеет ключ</p>
@@ -213,6 +213,7 @@
                           <div class="sp-t-1-1"><p class="ld-key-boolet">Возможность подключения центра мониторинга
                             (более
                             300) на объектах с применением локально облачного хранения</p></div>
+                          <p class="color-purple rt-link ld-key-tab-show-less d-none td-sp-t-1-1">Скрыть</p>
                         </div>
                       </div>
                       <div label="Комплексное видеонаблюдение — новые возможности безопасности для вашего дома"
@@ -233,7 +234,7 @@
                           дома</p>
                       </rt-col>
                     </rt-row>
-                    <rt-row class="sp-t-1 row-td-reverse td-flex-j-end">
+                    <rt-row class="sp-t-1 row-td-reverse td-flex-j-end md-sp-t-2">
                       <div class="rt-col-6 rt-col-td-6 rt-col-td-4 rt-col-md-3 td-sp-r-3 rt-font-small-paragraph">
 
                         <p class="sp-t-0-2">Умный шлагбаум — это сервис, который предоставляет возможность управлять и
@@ -260,7 +261,7 @@
                           </div>
 
                         </div>
-                        <p class="color-purple rt-link ld-key-tab-show-more md-d-block d-none md-sp-t-1-1">Узнать
+                        <p class="sp-t-1-3 color-purple rt-link ld-key-tab-show-more td-d-block d-none">Узнать
                           больше</p>
                         <div class="ld-key-tab-content">
                           <p class="rt-font-h3 sp-t-2">Что умеет ключ</p>
@@ -274,7 +275,7 @@
                             шлагбаума, доступ к архиву</p></div>
                           <div class="sp-t-1-1"><p class="ld-key-boolet">Удаленное управление через Личный кабинет</p>
                           </div>
-
+                          <p class="color-purple rt-link ld-key-tab-show-less d-none td-sp-t-1-1">Скрыть</p>
                         </div>
                       </div>
                       <div label="Умный домофон — новые возможности удобства для вашего дома"
@@ -294,7 +295,7 @@
                         <p class="td-d-none rt-font-h2 sp-t-4">Умные счетчики — новые возможности вашего контроля</p>
                       </rt-col>
                     </rt-row>
-                    <rt-row class="sp-t-1 row-td-reverse td-flex-j-end">
+                    <rt-row class="sp-t-1 row-td-reverse td-flex-j-end md-sp-t-2">
                       <div class="rt-col-6 rt-col-td-6 rt-col-td-4 rt-col-md-3 td-sp-r-3 rt-font-small-paragraph">
 
                         <p class="sp-t-0-2">Умные счетчики — это комплексное решение для автоматизации учета потребления
@@ -321,7 +322,7 @@
                           </div>
 
                         </div>
-                        <p class="color-purple rt-link ld-key-tab-show-more md-d-block d-none md-sp-t-1-1">Узнать
+                        <p class="sp-t-1-3 color-purple rt-link ld-key-tab-show-more td-d-block d-none">Узнать
                           больше</p>
                         <div class="ld-key-tab-content">
                           <p class="rt-font-h3 sp-t-2">Что умеет ключ</p>
@@ -336,7 +337,7 @@
                           <div class="sp-t-1-1"><p class="ld-key-boolet">Снижение расходов на ОДН* — правильные значения
                             и
                             точный баланс потребления</p></div>
-
+                          <p class="color-purple rt-link ld-key-tab-show-less d-none td-sp-t-1-1">Скрыть</p>
                         </div>
                       </div>
                       <div label="Умные счетчики — новые возможности вашего контроля"
@@ -357,7 +358,7 @@
                           доступом</p>
                       </rt-col>
                     </rt-row>
-                    <rt-row class="sp-t-1 row-td-reverse td-flex-j-end">
+                    <rt-row class="sp-t-1 row-td-reverse td-flex-j-end md-sp-t-2">
                       <div class="rt-col-6 rt-col-td-6 rt-col-td-4 rt-col-md-3 td-sp-r-3 rt-font-small-paragraph">
 
                         <p class="sp-t-0-2">СКУД — это комплексное решение для управления и контроля доступа во все
@@ -384,7 +385,7 @@
                           </div>
 
                         </div>
-                        <p class="color-purple rt-link ld-key-tab-show-more md-d-block d-none md-sp-t-1-1">Узнать
+                        <p class="sp-t-1-3 color-purple rt-link ld-key-tab-show-more td-d-block d-none">Узнать
                           больше</p>
                         <div class="ld-key-tab-content">
                           <p class="rt-font-h3 sp-t-2">Что умеет ключ</p>
@@ -399,7 +400,7 @@
                           </div>
                           <div class="sp-t-1-1"><p class="ld-key-boolet">Контроль доступа сотрудников УК с ведением
                             журнала доступа. Можно использовать для учета рабочего времени</p></div>
-
+                          <p class="color-purple rt-link ld-key-tab-show-less d-none td-sp-t-1-1">Скрыть</p>
                         </div>
                       </div>
                       <div label="Умный доступ (СКУД) — новые возможности управления доступом"

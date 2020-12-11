@@ -98,6 +98,13 @@
     transition-timing-function ease-in-out
     transition-duration .4s
     transition-property min-height
+
+.td-d-block+.ld-key-tab-content
+  @media(max-width: 1024px)
+    overflow: hidden;
+    transition-timing-function ease-in-out
+    transition-duration .4s
+    transition-property max-height
 .ld-key-tabs-item
   position: absolute;
   top: 0
@@ -130,6 +137,8 @@
 .ld-key-tabs-slider-container
   position: relative
   height 610px
+  @media(max-width: 1024px) and (min-width: 768px)
+    height: 520px
 
 .ld-key-tabs-slider-item
   position: absolute
@@ -222,11 +231,38 @@
   @media(max-width: 767px)
     max-height 0
     overflow: hidden;
+.td-d-block+.ld-key-tab-content
+  @media(max-width: 1024px)
+    max-height 0
+    overflow: hidden;
 
 .ld-key-tab-show-more-active
   @media(max-width: 767px)
     display: none
+
+.td-d-block+.ld-key-tab-content
+  @media(max-width: 1024px)
+    max-height 0
+.ld-key-tab-show-more.td-d-block.ld-key-tab-show-more-active
+  @media(max-width: 1024px)
+    display: none
 .ld-key-tab-show-more-active+.ld-key-tab-content
+  @media(max-width: 767px)
+    max-height 500vh
+
+.ld-key-tab-show-more-active+.ld-key-tab-content .ld-key-tab-content
+  display: block
+
+.td-d-block.ld-key-tab-show-more-active
+  @media(max-width: 1024px)
+    display: block
+.td-d-block.ld-key-tab-show-more-active+.ld-key-tab-content .ld-key-tab-show-less
+  @media(max-width: 1024px)
+    display: block
+.td-d-block.ld-key-tab-show-more-active+.ld-key-tab-content
+  @media(max-width: 1024px)
+    max-height 100vh
+    display: block
   @media(max-width: 767px)
     max-height 500vh
 
@@ -299,6 +335,7 @@
 
 //.ld-key-card-link-text
 //  padding-right: 20px
+
 .ld-key-logo
   @media(max-width: 1024px)
     width: 215px
@@ -348,3 +385,6 @@ img.change-region__icon
 .td-flex-j-end
   @media(max-width: 1024px)
     justify-content: flex-end
+
+.gray-border-top
+  border-top: 2px solid #F8F8F8
