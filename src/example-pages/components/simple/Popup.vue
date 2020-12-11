@@ -12,7 +12,7 @@
         <div class="app-row is-b2b">
           <div class="rt-col rt-space-bottom rt-space-top">
             <div class="row">
-              <rt-button class="rt-button-transparent-purple popupButton" :popup-button="true" target-popup="rtb-popup-type-1">Попап</rt-button>
+              <rt-button class="rt-button-transparent-purple popupButton" :popup-button="true" target-popup="first-popup">Попап</rt-button>
             </div>
           </div>
           <div class="rt-col-12">
@@ -36,7 +36,7 @@
                     <rt-button
                       class="rt-button-purple-border rt-button-small rt-space-horizontal new-vats-popup-button"
                       :popup-button="true"
-                      target-popup="rtb-popup-type-2">
+                      target-popup="second-popup">
                       Подробнее</rt-button>
                   </template>
                   <template slot="popup-special-benefits">
@@ -77,7 +77,7 @@
                     <rt-button
                       class="rt-button-purple-border rt-button-small rt-space-horizontal new-vats-popup-button"
                       :popup-button="true"
-                      target-popup="rtb-popup-type-2">
+                      target-popup="second-popup">
                       Подробнее</rt-button>
                   </template>
                   <template slot="popup-special-benefits">
@@ -106,10 +106,10 @@
               </div>
             </div>
           </div>
-          <rt-real-popup :position-bottom="true" :popup-type="1" trigger-element-class="popupButton" main-wrapper-class="app">
+          <rt-real-popup :position-bottom="true" trigger-element-class="popupButton" main-wrapper-class="app" class="first-popup">
             <div class="popup-content"></div>
           </rt-real-popup>
-          <rt-real-popup :position-bottom="true" :popup-type="2" trigger-element-class="new-vats-popup-button" main-wrapper-class="app">
+          <rt-real-popup :position-center="true" trigger-element-class="new-vats-popup-button" main-wrapper-class="app" class="second-popup">
             <div class="popup-content"></div>
           </rt-real-popup>
         </div>
