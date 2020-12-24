@@ -289,7 +289,7 @@
         if(authFields[0].value == login && authFields[1].value == password) {
           this.error = false;
           setTimeout(() => {
-            window.location.href = '/audioconference-list';
+            window.location.href = '/vue-rt-style-kit-pages/audioconference-list';
           },1000)
         } else {
           this.error = true;
