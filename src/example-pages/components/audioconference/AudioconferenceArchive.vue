@@ -23,7 +23,7 @@
         created() {},
         methods: {
             filterList() {
-                this.conferenceList = JSON.parse(localStorage.acArchive);
+                this.conferenceList = localStorage.acArchive ? JSON.parse(localStorage.acArchive) : [];
             }
         }
     };
