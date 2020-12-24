@@ -129,7 +129,10 @@ import {
     ACListComponent,
     ACManagePopup,
     ACPhonebookComponent,
-    ACSettingsPopup
+    ACSettingsPopup,
+    ACEditPopup,
+    ACPaginator,
+    ACDatePicker
 } from '@vue-rt-style-kit-aks-local'
 
 
@@ -142,7 +145,6 @@ import {
 
 import AppMenu from "./components/AppMenu.vue";
 const componentsList = {};
-console.info('TabsSliderItem',TabsSliderItem)
 componentsList[GridRow.name] = GridRow;
 componentsList[GridColumn.name] = GridColumn;
 componentsList[Button.name] = Button;
@@ -265,6 +267,9 @@ componentsList[ACListComponent.name] = ACListComponent;
 componentsList[ACManagePopup.name] = ACManagePopup;
 componentsList[ACPhonebookComponent.name] = ACPhonebookComponent;
 componentsList[ACSettingsPopup.name] = ACSettingsPopup;
+componentsList[ACEditPopup.name] = ACEditPopup;
+componentsList[ACPaginator.name] = ACPaginator;
+componentsList[ACDatePicker.name] = ACDatePicker;
 
 
 

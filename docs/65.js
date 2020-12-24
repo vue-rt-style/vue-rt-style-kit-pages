@@ -1,14 +1,81 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[65],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/vip.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/vip.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/test-access.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/test-access.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -216,92 +283,168 @@ __webpack_require__.r(__webpack_exports__);
 //
 var componentsList = {};
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppPromoVip",
+  name: "AppTestAccess",
   components: componentsList,
-  mounted: function mounted() {
-    document.querySelector('body').classList.add('ld-router'); // document.querySelector('body').classList.add('rt-dark-theme');
-    // var random = parseInt((Math.random()*9+1)%3+1);
-    // document.querySelector('.cloud-g-1-image').classList.add('cloud-g-1-image-type'+random);
-    // var isAnimated = false;
-    // var wrapper = document.querySelector('.cloud-g-slider-inner')
-    // var index = 0;
-    // var wasMobileBefore = false;
-    // document.querySelector('.cloud-g-show-form').addEventListener('click',function(){
-    //   document.querySelector('.cloud-g-form').classList.add('cloud-g-form-active');
-    //   document.querySelector('.cloud-g-show-form').classList.add('d-none')
-    // })
-    // window.addEventListener('resize',function(){
-    //   var slideArray = document.querySelectorAll('.cloud-g-slider-item')
-    //   var step = slideArray[1].clientWidth
-    //   var slide = slideArray[0];
-    //   var marginLeft = step * index * -1;
-    //   if(window.innerWidth > 1024) {
-    //     slide.style.transform = 'translate3d('+marginLeft+'px,0px,0)'
-    //     if(wasMobileBefore){
-    //       document.querySelector('.cloud-g-slider').scrollTo(0,0)
-    //     }
-    //     wasMobileBefore = false
-    //   }else{
-    //     wasMobileBefore = true
-    //     slide.style.transform = 'translate3d(0,0,0)';
-    //   }
-    // });
-    // document.querySelectorAll('.cloud-g-slider-arrow').forEach(function (item) {
-    //
-    // 	var setRigthArrow = function(){
-    //
-    // 	  var arrowR = document.querySelector('.cloud-g-slider-arrow-right')
-    // 	  var arrowL = document.querySelector('.cloud-g-slider-arrow-left')
-    // 	  if(index >= 0){
-    //       arrowR.classList.add('cloud-g-slider-arrow-hide')
-    //       arrowL.classList.remove('cloud-g-slider-arrow-hide')
-    // 	  }else{
-    // 	    if(index < -8){
-    //         arrowL.classList.add('cloud-g-slider-arrow-hide')
-    // 	    }
-    //       arrowR.classList.remove('cloud-g-slider-arrow-hide')
-    // 	  }
-    // 	}
-    //   item.addEventListener('click', function () {
-    //     var slideArray = document.querySelectorAll('.cloud-g-slider-item')
-    //     var slide = slideArray[0];
-    //     var step = slideArray[1].clientWidth
-    //     if (!isAnimated) {
-    //       isAnimated = true
-    //       if (item.classList.contains('cloud-g-slider-arrow-left')) {
-    //         index= index - 1;
-    //         var marginLeft =step*index;
-    //
-    //         slide.style.transform = 'translate3d('+marginLeft+'px,0px,0)'
-    //         setTimeout(function () {
-    //           isAnimated = false;
-    //           setRigthArrow()
-    //         }, 200)
-    //       } else {
-    //
-    //         index = index + 1;
-    //         var marginLeft =step*index;
-    //
-    //         slide.style.transform = 'translate3d('+marginLeft+'px,0px,0)'
-    //         setTimeout(function () {
-    //           isAnimated = false
-    //           setRigthArrow()
-    //         }, 200)
-    //       }
-    //     }
-    //   })
-    // })
-    // .cloud-g-slider-arrow-left
-    // cloud-g-slider-arrow-right
+  data: function data() {
+    return {
+      innerData: [{
+        "label": "Услуги связи",
+        "items": [{
+          "label": "Голосовые услуги",
+          "items": [{
+            "label": "Виртуальная АТС",
+            "path": "/b2b/telephony/vats"
+          }, {
+            "label": "Номер 8 800",
+            "path": "/b2b/telephony/8800"
+          }, {
+            "label": "Виртуальный городской номер",
+            "path": "/b2b/telephony/vats/virtual_numbers"
+          }, {
+            "label": "Стационарный телефон",
+            "callback": "{document.querySelectorAll('.rt-tabs-navigation__item')[1].querySelector('.rt-tabs-navigation__item-name').click()}"
+          }, {
+            "label": "Мобильная связь для бизнеса",
+            "path": "/b2b/telephony/mobile"
+          }, {
+            "label": "Аудиоконференция",
+            "path": "/b2b/telephony/audioconference"
+          }],
+          "subTitle": "dfgdsfg<br>dfgfdg"
+        }, {
+          "label": "Интернет и WI-FI",
+          "items": [{
+            "label": "Фиксированный интернет",
+            "path": "/b2b/internet/fix"
+          }, {
+            "label": "Wi-Fi для гостей",
+            "path": "/b2b/internet/business_wifi"
+          }, {
+            "label": "Мобильный интернет",
+            "path": "/b2b/internet/mobile_net/action"
+          }, {
+            "label": "Виртуальная частная сеть",
+            "path": "/b2b/internet/vpn"
+          }, {
+            "label": "Аренда сетевого оборудования",
+            "path": "/b2b/internet/managed_services"
+          }]
+        }],
+        "image": "/static/images/B2B/new-ad__image.jpg",
+        "adTitle": "Рекламный блок 2",
+        "adText": "khbvkjbkj</br>hoinoi",
+        "linkTarget": "/b2b",
+        "linkText": "Подробнее2",
+        "expandable": true,
+        "newWindow": true
+      }, {
+        "label": "Цифровые сервисы",
+        "items": [{
+          "label": "Наблюдение и контроль",
+          "items": [{
+            "label": "Видеонаблюдение",
+            "path": "/b2b/videonabludenie"
+          }, {
+            "label": "M2M Контроль",
+            "path": "/b2b/solutions/m2m"
+          }, {
+            "label": "Тепловизоры",
+            "path": "/b2b/security/thermal_imaging"
+          }]
+        }, {
+          "label": "Хранение и безопасность",
+          "items": [{
+            "label": "Виртуальный ЦОД",
+            "path": "/b2b/service_cloudy/virtual_dc"
+          }, {
+            "label": "Виртуальное хранилище",
+            "path": "/b2b/service_cloudy/virtual-storage"
+          }, {
+            "label": "Защита от DDos-атак",
+            "path": "/b2b/security/anti-ddos"
+          }, {
+            "label": "Управление навыками инфобезопасности",
+            "path": "/b2b/security/sa"
+          }]
+        }, {
+          "label": "Телевидение",
+          "items": [{
+            "label": "ТВ для сферы услуг",
+            "path": "/b2b/corp_iptv/restaurants"
+          }, {
+            "label": "Ростелеком Экраны",
+            "path": "/b2b/solutions/screens"
+          }, {
+            "label": "ТВ в офис или коворкинг",
+            "path": "/b2b/corp_iptv/office"
+          }, {
+            "label": "ТВ для гостиниц",
+            "path": "/b2b/corp_iptv/hotels"
+          }, {
+            "label": "ТВ для детских учреждений",
+            "path": "/b2b/corp_iptv/children"
+          }]
+        }, {
+          "label": "Другие услуги",
+          "items": [{
+            "label": "Пакеты \"Быть в плюсе\"",
+            "path": "/b2b/be-in-plus"
+          }, {
+            "label": "СМС Реклама",
+            "path": "/b2b/solutions/sms_advertising"
+          }, {
+            "label": "Онлайн-кассы",
+            "path": "/b2b/onlinekassa"
+          }]
+        }],
+        "image": "/static/images/B2B/new-ad__image.jpg",
+        "adTitle": "Рекламный блок 2",
+        "adText": "Специальное предложение по услуге быть в плюсе для бизнеса.",
+        "linkTarget": "#",
+        "linkText": "Подробнее2"
+      }, {
+        "label": "Партнёрам",
+        "path": "/b2b/partners_program"
+      }]
+    };
+  },
+  mounted: function mounted() {},
+  created: function created() {},
+  methods: {
+    switchSector: function switchSector($event) {
+      var activeIndex = Array.prototype.indexOf.call(this.$refs.controls.children, $event.target);
+      var contentWrapper;
+      var text = this.$refs.text;
+
+      if (window.innerWidth > 1024) {
+        contentWrapper = this.$refs.content.querySelector('.shifting-content--desktop');
+      } else {
+        contentWrapper = this.$refs.content.querySelector('.shifting-content--adaptives');
+      }
+
+      Object.values(this.$refs.controls.children).map(function (item, index) {
+        if (index === activeIndex) {
+          item.classList.add('sector-button--active');
+          contentWrapper.children[index].classList.add('LB-content-wrapper--active');
+          window.innerWidth > 1024 ? contentWrapper.children[index].querySelector('.sector-video').play() : false;
+          text.children[index].classList.add('text-content--active');
+        } else {
+          item.classList.remove('sector-button--active');
+          contentWrapper.children[index].classList.remove('LB-content-wrapper--active');
+          window.innerWidth > 1024 ? contentWrapper.children[index].querySelector('.sector-video').pause() : false;
+          text.children[index].classList.remove('text-content--active');
+        }
+      });
+    }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=d6002c8a&":
-/*!***********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=d6002c8a& ***!
-  \***********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/test-access.vue?vue&type=template&id=47a66a8a&":
+/*!*******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/test-access.vue?vue&type=template&id=47a66a8a& ***!
+  \*******************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -309,24 +452,24 @@ var componentsList = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ld-router"},[_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"ld-router-banner"},[_c('div',{staticClass:"ld-router-banner__line1"}),_vm._v(" "),_c('div',{staticClass:"ld-router-banner__line2"}),_vm._v(" "),_c('div',{staticClass:"ld-router-banner__blur"}),_vm._v(" "),_c('div',{staticClass:"rt-container color-white sp-t-2"},[_c('rt-col',[_c('rt-row',{staticClass:"sp-t-4 sp-b-4-4"},[_c('rt-col',{staticClass:"ld-router-banner-content",attrs:{"size":6,"mobile-size":3}},[_c('h1',{staticClass:"rt-font-h1 sp-t-3-4"},[_vm._v("\n              Выбирайте "),_c('br'),_vm._v("\n              игровой роутер RT-X\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph sp-t-0-4 sp-b-2"},[_vm._v("Мощный роутер с приоритизацией игрового трафика")]),_vm._v(" "),_c('div',{staticClass:"d-flex"},[_c('rt-button',{attrs:{"bright":true,"href":"#","color":"full-white"}},[_vm._v("Оставить заявку")])],1)]),_vm._v(" "),_c('rt-col',{staticClass:"relative ",attrs:{"size":6,"mobile-size":3}},[_c('div',{},[_c('div',{staticClass:"ld-router-banner__router"},[_c('div',{staticClass:"ld-router-banner__shadow"})])])]),_vm._v(" "),_c('rt-col',{staticClass:"sp-t-3-3 sp-b-5"},[_c('rt-row',[_c('rt-col',{staticClass:"md-d-flex md-flex-v-center",attrs:{"tablet-size":2,"size":2,"mobile-size":3}},[_c('img',{staticClass:"ld-router-banner_icon",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/router-huawei/fast-icon.png","alt":""}}),_vm._v(" "),_c('div',{staticClass:"md-sp-l-1-3"},[_c('p',{staticClass:"rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2"},[_vm._v("Быстрый")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Скорость Wi-Fi до 2 Гбит/с")])])]),_vm._v(" "),_c('rt-col',{staticClass:"md-d-flex md-flex-v-center",attrs:{"tablet-size":2,"size":2,"mobile-size":3}},[_c('img',{staticClass:"ld-router-banner_icon",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/router-huawei/smart-icon.png","alt":""}}),_vm._v(" "),_c('div',{staticClass:"md-sp-l-1-3"},[_c('p',{staticClass:"rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2"},[_vm._v("Умный")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Приоритизация игрового трафика")])])]),_vm._v(" "),_c('rt-col',{staticClass:"md-d-flex md-flex-v-center",attrs:{"tablet-size":2,"size":2,"mobile-size":3}},[_c('img',{staticClass:"ld-router-banner_icon",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/router-huawei/play-icon.png","alt":""}}),_vm._v(" "),_c('div',{staticClass:"md-sp-l-1-3"},[_c('p',{staticClass:"rt-font-h4 sp-b-0-4 sp-t-1-1 md-sp-t-none md-sp-b-0-2"},[_vm._v("Игровой")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Низкий пинг в играх")])])])],1)],1)],1)],1)],1)])]),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"sp-t-1 ld-router-spider relative color-white"},[_c('div',{staticClass:"rt-container"},[_c('rt-col',[_c('rt-row',[_c('rt-col',{staticClass:"rt-font-center",attrs:{"size":12}},[_c('h2',{staticClass:"rt-font-h2 sp-t-3-4 sp-b-0-3"},[_vm._v("Мощный сигнал для игры без лагов")])])],1),_vm._v(" "),_c('rt-row',[_c('rt-col',{attrs:{"size":4,"t-hide":true}}),_vm._v(" "),_c('rt-col',{staticClass:"relative",attrs:{"size":4}},[_c('div',{staticClass:"ld-router-spider-image"})])],1),_vm._v(" "),_c('rt-row',{staticClass:"sp-t-4"},[_c('rt-col',{attrs:{"size":3}},[_c('p',{staticClass:"rt-font-paragraph rt-font-right ld-router-spider-line ld-router-spider-line-1"},[_vm._v("Поддерживает до\n                16 устройств")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-font-right ld-router-spider-line ld-router-spider-line-2"},[_vm._v("Скорость до 600\n                Мбит/с (2.4 ГГц.) "),_c('br'),_vm._v("\n                до 1733 Мбит/с (5 ГГц.)")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-font-right ld-router-spider-line ld-router-spider-line-3"},[_vm._v("4 мощные\n                антенны, расположенные "),_c('br'),_vm._v("\n                под крышкой корпуса ")])]),_vm._v(" "),_c('rt-col',{attrs:{"size":6}}),_vm._v(" "),_c('rt-col',{attrs:{"size":3}},[_c('p',{staticClass:"rt-font-paragraph ld-router-spider-line ld-router-spider-line-4"},[_vm._v("Приоритизация популярных игр,"),_c('br'),_vm._v("\n                позволяет при загрузке\n                вашей сети\n                "),_c('br'),_vm._v(" отдать приоритет играм\n              ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph ld-router-spider-line ld-router-spider-line-5"},[_vm._v("Хорошее покрытые и стабильный\n                "),_c('br'),_vm._v(" сигнал благодаря MIMO 4x4 в 2\n                "),_c('br'),_vm._v(" диапазонах\n              ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph ld-router-spider-line ld-router-spider-line-6"},[_vm._v("Работа 2 диапазонах\n                одновременно "),_c('br'),_vm._v("\n                (2.4 ГГц., 5 ГГц)")])])],1)],1)],1)])]),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"sp-t-3-2 color-white lg-router-cabel"},[_c('div',{staticClass:"relative"},[_c('div',{staticClass:"lg-router-cabel-lines"}),_vm._v(" "),_c('h2',{staticClass:"rt-font-h2 rt-font-center"},[_vm._v("Работает только на PON соединении")]),_vm._v(" "),_c('div',{staticClass:"rt-container sp-b-5"},[_c('rt-col',[_c('rt-row',{staticClass:"sp-t-5 sp-b-5-2"},[_c('rt-col',{attrs:{"size":7}},[_c('div',{staticClass:"lg-router-cabel-image"})]),_vm._v(" "),_c('rt-col',{attrs:{"size":5}},[_c('div',{staticClass:"lg-router-cabel-gpon"},[_c('div',{staticClass:"lg-router-cabel-gpon-content"},[_c('h3',{staticClass:"rt-font-h3 sp-b-1"},[_vm._v("PON соединение")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Самое современное подключение к сети интернет")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph sp-t-0-4 sp-b-1-2"},[_vm._v("Роутер работает только при оптоволоконном\n                      подключении на сети Ростелеком")]),_vm._v(" "),_c('rt-button',{attrs:{"bright":true,"href":"#","color":"full-white"}},[_vm._v("Какое у меня соединение?")])],1)])])],1)],1)],1)])])]),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"lg-router-form color-white"},[_c('div',{staticClass:"rt-container"},[_c('rt-col',[_c('h2',{staticClass:"rt-font-h2 sp-b-1-3"},[_vm._v("Заявка на роутер")]),_vm._v(" "),_c('rt-row',{staticClass:"sp-b-5 sp-b-1-4"},[_c('rt-col',{attrs:{"size":3}},[_c('label',[_c('input',{staticClass:"lg-router-form-input",attrs:{"name":"test","type":"radio"}}),_vm._v(" "),_c('div',{staticClass:"lg-router-form-check sp-t-1-4 sp-b-1-4 sp-l-2"},[_c('div',{staticClass:"lg-router-form-check-decor"}),_vm._v(" "),_c('div',{staticClass:"lg-router-form-check-decor2"}),_vm._v(" "),_c('p',{staticClass:"lg-router-form-label"},[_vm._v("РАССРОЧКА")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("На 24 месяца. Роутер в собственности абонента")]),_vm._v(" "),_c('div',{staticClass:"sp-t-0-4"},[_c('rt-price',{attrs:{"v2":true,"is-option":true,"option-label":"до","bright":true,"value":380,"time-interval":"мес.","currency":"руб."}})],1)])])]),_vm._v(" "),_c('rt-col',{attrs:{"size":1}}),_vm._v(" "),_c('rt-col',{attrs:{"size":3}},[_c('label',[_c('input',{staticClass:"lg-router-form-input",attrs:{"name":"test","type":"radio"}}),_vm._v(" "),_c('div',{staticClass:"lg-router-form-check sp-t-1-4 sp-b-1-4 sp-l-2"},[_c('div',{staticClass:"lg-router-form-check-decor"}),_vm._v(" "),_c('div',{staticClass:"lg-router-form-check-decor2"}),_vm._v(" "),_c('p',{staticClass:"lg-router-form-label"},[_vm._v("ПОКУПКА")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Единовременная покупка")]),_vm._v(" "),_c('div',{staticClass:"sp-t-2"},[_c('rt-price',{attrs:{"v2":true,"only-price":true,"bright":true,"value":8999,"currency":"руб."}})],1)])])])],1),_vm._v(" "),_c('rt-row',[_c('rt-col',{attrs:{"size":6}})],1)],1)],1)])])])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col rt-space-top25"}),_vm._v(" "),_c('div',{staticClass:"rt-col"},[_c('rt-header-navigation',{attrs:{"nav-tree":_vm.innerData}})],1)])}
 var staticRenderFns = []
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/promo/vip.vue":
-/*!**********************************************************!*\
-  !*** ./src/example-pages/components/pages/promo/vip.vue ***!
-  \**********************************************************/
+/***/ "./src/example-pages/components/pages/promo/test-access.vue":
+/*!******************************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/test-access.vue ***!
+  \******************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vip_vue_vue_type_template_id_d6002c8a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vip.vue?vue&type=template&id=d6002c8a& */ "./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=d6002c8a&");
-/* harmony import */ var _vip_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./vip.vue?vue&type=script&lang=js& */ "./src/example-pages/components/pages/promo/vip.vue?vue&type=script&lang=js&");
+/* harmony import */ var _test_access_vue_vue_type_template_id_47a66a8a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test-access.vue?vue&type=template&id=47a66a8a& */ "./src/example-pages/components/pages/promo/test-access.vue?vue&type=template&id=47a66a8a&");
+/* harmony import */ var _test_access_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./test-access.vue?vue&type=script&lang=js& */ "./src/example-pages/components/pages/promo/test-access.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -336,9 +479,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _vip_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _vip_vue_vue_type_template_id_d6002c8a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _vip_vue_vue_type_template_id_d6002c8a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _test_access_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _test_access_vue_vue_type_template_id_47a66a8a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _test_access_vue_vue_type_template_id_47a66a8a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -350,33 +493,33 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/promo/vip.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************!*\
-  !*** ./src/example-pages/components/pages/promo/vip.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************/
+/***/ "./src/example-pages/components/pages/promo/test-access.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/test-access.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib!../../../../../node_modules/vue-loader/lib??vue-loader-options!./vip.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/vip.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_test_access_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib!../../../../../node_modules/vue-loader/lib??vue-loader-options!./test-access.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/test-access.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_test_access_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=d6002c8a&":
-/*!*****************************************************************************************!*\
-  !*** ./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=d6002c8a& ***!
-  \*****************************************************************************************/
+/***/ "./src/example-pages/components/pages/promo/test-access.vue?vue&type=template&id=47a66a8a&":
+/*!*************************************************************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/test-access.vue?vue&type=template&id=47a66a8a& ***!
+  \*************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_template_id_d6002c8a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./vip.vue?vue&type=template&id=d6002c8a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=d6002c8a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_template_id_d6002c8a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_test_access_vue_vue_type_template_id_47a66a8a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./test-access.vue?vue&type=template&id=47a66a8a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/test-access.vue?vue&type=template&id=47a66a8a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_test_access_vue_vue_type_template_id_47a66a8a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_template_id_d6002c8a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_test_access_vue_vue_type_template_id_47a66a8a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
