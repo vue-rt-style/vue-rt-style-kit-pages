@@ -2,7 +2,7 @@
   <div class="conference-auth">
     <div class="conference-auth--tablet" v-if="isTablet">
       <div class="conference-auth__image">
-        <img src="/static/images/B2B/1694215804.png"/>
+        <img src="https://static-cdn.rt.ru/sites/default/files/b2b/AC/image.png"/>
       </div>
       <div class="rt-container full-height">
         <div class="rt-col full-height">
@@ -92,7 +92,7 @@
 
     <div class="conference-auth--mobile color-block--b2c-cool-grey05-no-opacity" v-else-if="isMobile">
       <div class="conference-auth__image">
-        <img src="/static/images/B2B/ac-image.png"/>
+        <img src="https://static-cdn.rt.ru/sites/default/files/b2b/AC/image.png"/>
         <a href="https://www.rt.ru/b2b/telephony/audioconference" target="_blank">
           <rt-logo :show-text="true" height="44px" width="26px" top-fill-color="b2c-slate"/>
         </a>
@@ -181,7 +181,7 @@
 
     <div class="conference-auth--desktop full-height" v-else>
       <div class="conference-auth__image">
-        <img src="/static/images/B2B/1694215804.png"/>
+        <img src="https://static-cdn.rt.ru/sites/default/files/b2b/AC/image.png"/>
       </div>
       <div class="rt-container full-height">
         <div class="rt-col full-height">
