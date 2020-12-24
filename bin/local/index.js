@@ -12,7 +12,7 @@ const webpack = require('webpack');
 const proxyMiddleware = require('http-proxy-middleware');
 const webpackConfig = require('../webpack.config.example.js');
 
-const Ora = require('ora');
+
 const local_dirname = path.join(__dirname,'..','..');
 
 const port = process.env.PORT || config.dev.port;
@@ -51,10 +51,7 @@ const devMiddleware = require('webpack-dev-middleware')(compiler, {
 let spinner;
 const hotMiddleware = require('webpack-hot-middleware')(compiler, {
   log: function(text){
-    spinner.succeed();
-    spinner = new Ora({
-      text: 'webpack-hot-middleware : '+text+'\n'
-    }).start();
+    console.info('webpack-hot-middleware : '+(new Date())+' '+text);
   }
 });
 webpackConfig.entry.app.unshift('webpack-hot-middleware/client');
@@ -84,21 +81,18 @@ app.use('/static/', express.static(local_dirname+'/static'));
 app.use('/mode-html.js', express.static(local_dirname+'/static/mode-html.js'));
 
 const url = 'http://localhost:' + port;
-spinner = new Ora({
-  text: 'Starting dev server on port '+port+'\n'
-}).start();
-spinner.succeed();
+
+
 let _resolve;
 const readyPromise = new Promise(resolve => {
   _resolve = resolve;
 });
 
 devMiddleware.waitUntilValid(() => {
-  spinner.succeed();
-  spinner = new Ora({
-    text: 'webpack-hot-middleware : start'
-  }).start();
-
+  
+  
+  console.info('webpack-hot-middleware : start')
+  
   opn(url);
   _resolve();
 });

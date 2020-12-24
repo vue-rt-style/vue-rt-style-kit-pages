@@ -23,6 +23,7 @@ import {
     Spinner,
     GridRow,
     GridColumn,
+    Image,
     Hint,
     HintBody,
 } from '@vue-rt-style-kit-atoms-local'
@@ -146,6 +147,7 @@ import {
 import AppMenu from "./components/AppMenu.vue";
 const componentsList = {};
 componentsList[GridRow.name] = GridRow;
+componentsList[Image.name] = Image;
 componentsList[GridColumn.name] = GridColumn;
 componentsList[Button.name] = Button;
 componentsList[Calendar.name] = Calendar;
@@ -276,5 +278,4 @@ componentsList[ACDatePicker.name] = ACDatePicker;
 // componentsList[PreComponent.name] = PreComponent;
 // componentsList[PreComponentEditor.name] = PreComponentEditor;
 // componentsList[DocumentationBuilder.name] = DocumentationBuilder;
-// console.info(')()()',componentsList)
 export default {...componentsList};

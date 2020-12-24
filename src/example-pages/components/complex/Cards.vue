@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="app-body">
-      <rt-carousel-v2 carousel-name="1" :scrollable-on-desktop="false">
+      <rt-carousel-v2 carousel-name="1" :scrollable-on-desktop="true">
         <rt-carousel-slide-v2 parent-carousel-name="1">
           <rt-card-rounded :preview-card="true">
             <template slot="image">
@@ -2436,13 +2436,11 @@
                     </div>
                   </template>
                   <template slot="expanding-block">
-                    <div
-                        class="rtb-card__expanding-button d-inline-flex d-space-between tagline color-purple rt-space-bottom05-half">
+                    <div class="rtb-card__expanding-button d-inline-flex d-space-between tagline color-purple rt-space-bottom05-half">
                       <span class="card-expander">включено сервисов</span>
                       <span class="card-expander">4</span>
                     </div>
-                    <div
-                        class="rtb-card__expanding-content rt-space-left rt-font-control color-main07 rt-md-space-left-none">
+                    <div class="rtb-card__expanding-content rt-space-left rt-font-control color-main07 rt-md-space-left-none">
                       <p class="with-icon rt-space-bottom05">Переадресация</p>
                       <p class="with-icon rt-space-bottom05">Голосовое меню IVR</p>
                       <p class="with-icon rt-space-bottom05">Распределение звонков</p>
