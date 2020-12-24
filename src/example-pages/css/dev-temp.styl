@@ -1,0 +1,326 @@
+.pattern-block
+  background-image: url('/static/images/B2B/group-5.svg')
+  background-size cover
+  background-position 100% 0%
+  background-repeat no-repeat
+
+.reset-height
+  min-height auto
+  .rt-card__content
+    min-height auto
+
+.custom-bg-color
+  background-color #f8f8f8
+
+.custom-pattern-block
+  background-image: url('/static/images/B2B/pattern.svg')
+  background-size cover
+  background-position 100% 0%
+  background-repeat no-repeat
+
+.custom-color
+  .rt-card__background
+    background-color main-color09-no-opacity
+
+.custom-color-2
+  .rt-card__background
+    background-color #65b8df
+
+//.rt-ordered-list__item:before
+//  background-color b2c-white
+
+.bd-custom-card
+  background-color b2c-dark-blue
+  border-radius 8px
+
+.td-pos-abs
+  @media (max-width tablet-upper-limit)
+    position absolute
+    top 0
+    right 0
+  @media (max-width mobile-upper-limit)
+    top auto
+    bottom 0
+
+.td-fl-r
+  @media (max-width tablet-upper-limit)
+    float right
+
+.mt2
+  margin-top 2px
+  @media (max-width mobile-upper-limit)
+    margin-top 1px
+
+.custom-list
+  overflow hidden
+  &__item
+    min-height 260px
+    color b2c-white
+    display flex
+    align-items flex-start
+    flex-basis 14vw
+    flex-shrink 0
+    flex-grow 0
+    width 14vw
+    max-width 224px
+    position relative
+    @media (max-width tablet-upper-limit)
+      min-height 280px
+    @media (max-width mobile-upper-limit)
+      min-height auto
+      width auto
+      padding-left 80px
+      flex-basis 48px
+      max-width none
+      &+&
+        margin-top 64px
+    &:after
+      position absolute
+      size(32px)
+      background-color b2c-orange
+      top calc(50% - 35px)
+      left 0
+      border-radius 50%
+      color b2c-white
+      font-size 18px
+      line-height 32px
+      text-align center
+      @media (max-width tablet-upper-limit)
+        top calc(50% - 55px)
+      @media (max-width mobile-upper-limit)
+        top -5px
+        left -4px
+    &:before
+      position absolute
+      content ''
+      size(2px, 85px)
+      left 15px
+      top 16px
+      bottom auto
+      background-color b2c-orange
+      @media (max-width mobile-upper-limit)
+        size(85px, 2px)
+        top 10px
+        left 10px
+    &:nth-child(even)
+      align-items flex-end
+      @media (max-width tablet-upper-limit)
+        .custom-list__item-text
+          min-height 96px
+      @media (max-width mobile-upper-limit)
+        .custom-list__item-text
+          min-height 48px
+      &:before
+        top auto
+        bottom 50px
+        @media (max-width tablet-upper-limit)
+          bottom 85px
+        @media (max-width mobile-upper-limit)
+          bottom auto
+          top 10px
+    &:first-child
+      &:after
+        box-shadow 0 0 0 34px rgba(255,79,18, .2)
+    &-text
+      font-size 24px
+      line-height 32px
+      word-break keep-all
+      position relative
+      min-width 400px
+      @media (max-width tablet-upper-limit)
+        font-size 16px
+        line-height 24px
+        min-width auto
+      &:before
+        position absolute
+        content ''
+        size(8px)
+        background-color b2c-orange
+        border-radius 50%
+        top .5em
+        left 12px
+  &__wrapper
+    position relative
+    display flex
+    flex-direction row
+    @media (max-width mobile-upper-limit)
+      flex-direction column
+    &:before
+      position absolute
+      content ''
+      size(calc(14vw * 5), 2px)
+      max-width calc(224px * 5)
+      background-color b2c-orange
+      top calc(50% - 19px)
+      left 0
+      @media (max-width tablet-upper-limit)
+        top calc(50% - 40px)
+      @media (max-width mobile-upper-limit)
+        size(2px, calc((48px + 64px) * 5))
+        top 0
+        left 10px
+  &__circle
+    position absolute
+    top calc(50% - 16px)
+    left 16px
+    border 2px solid b2c-white01
+    border-radius 50%
+    transform translateX(-50%) translateY(-50%)
+    @media (max-width mobile-upper-limit)
+      top 0
+    &-one
+      size(300px)
+    &-two
+      size(558px)
+    &-three
+      size(1568px)
+
+for $num in (1...7)
+  .custom-list__item
+    &:nth-child({$num})
+      &:after
+        content ('' + $num + '')
+
+.LB-custom-carousel
+  //&__wrapper
+  //  overflow hidden
+  //  margin -12px auto
+  //&__inner
+  //  display flex
+  //  overflow auto
+  //&__slide
+  //  width 30%
+  //  flex-basis 30%
+  //  padding 12px 10px
+  //  flex-shrink 0
+  .rtb-card__image-wrapper .additional-possibilities__card-image
+    size(calc(100% - 40px))
+  .rt-card__content
+    padding 20px 0
+
+.LB-video-block
+  position relative
+  size(100%, 636px)
+  &__text-content
+    position absolute
+    top 0
+    left 500px
+    right 0
+    bottom 0
+    @media (max-width tablet-upper-limit)
+      left 390px
+    @media (max-width mobile-upper-limit)
+      position relative
+      left 0
+
+.text-wrapper
+  position relative
+
+.text-content
+  position absolute
+  top 0
+  left 0
+  opacity 0
+  width 450px
+  z-index 1
+  &--active
+    opacity 1
+  @media (max-width tablet-upper-limit)
+    width 300px
+  @media (max-width mobile-upper-limit)
+    width auto
+
+.permanent-content
+  position relative
+  z-index 1
+
+.shifting-content
+  position absolute
+  size(100%)
+  top 0
+  left 0
+  right 0
+  bottom 0
+  &--desktop,
+  &--adaptives
+    position relative
+    size(100%)
+    &:after
+      position absolute
+      content ''
+      top 0
+      left 0
+      right 0
+      bottom 0
+      background main-color03
+  &--adaptives
+    @media (min-width desktop-lower-limit)
+      display none
+  &--desktop
+    @media (max-width tablet-upper-limit)
+      display none
+
+.LB-content-wrapper
+  position absolute
+  top 0
+  left 0
+  right 0
+  bottom 0
+  opacity 0
+  &--active
+    opacity 1
+
+.rt-benefit-item__pseudo-icon
+  font-size 92px
+  line-height 80px
+  margin-bottom -36px
+
+.rt-benefit__custom-icons
+  .rt-benefit-item
+    padding-right 95px
+    @media (max-width desktop-upper-limit)
+      padding-right 57px
+    @media (max-width tablet-upper-limit)
+      padding-right 104px
+
+.rt-benefit__custom-padding
+  .rt-benefit-item
+    padding-right 132px
+    @media (max-width desktop-upper-limit)
+      padding-right 105px
+    @media (max-width tablet-upper-limit)
+      padding-right 44px
+
+.sector-button
+  border none
+  outline none
+  padding 6px 20px
+  border-radius 25px
+  font-size 14px
+  line-height 20px
+  display block
+  background-color b2c-white005
+  cursor pointer
+  @media (max-width mobile-upper-limit)
+    display inline-block
+    margin 12px
+  &+&
+    margin-top 26px
+    @media (max-width mobile-upper-limit)
+      margin-top 12px
+  &--active
+    background-color b2c-white
+    color main-color
+
+.permanent-content__controls
+  @media (max-width mobile-upper-limit)
+    margin -12px
+
+.c-p
+  cursor pointer
+
+
+
+
+//.app-header
+//  display none
