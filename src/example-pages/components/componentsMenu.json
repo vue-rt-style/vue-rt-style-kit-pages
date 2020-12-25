@@ -54,6 +54,14 @@
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
+        },
+        {
+          "name" : "img",
+          "title" : "Rt-Img",
+          "url" : "/rt-img",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
         }
       ]
     },

@@ -6,10 +6,44 @@
 			</div>
 			<div class="app-body">
 				<!--<div class="is-b2c">-->
+        <input type="text" v-model="inputModel">
 				<div class="app-deprecated">
 					<div class="app-row row">
 						<div class="rt-col-4 rt-col-md-2">
 							<span class="rt-font-label flex-fill rt-space-bottom05">simple input</span>
+            <h1>{{inputModel}}</h1>
+
+              <rt-input label="Начните вводить почту"
+                        :version="2"
+                        type="string"
+                        v-model="inputModel"
+                        value=""
+                        placeholder="Электронная почта!" >
+                <template slot="icon">
+                  <rt-system-icons name="calendar"></rt-system-icons>
+                </template>
+              </rt-input>
+              <rt-input label="Начните вводить почту!!"
+                        :version="2"
+                        v-model="inputModel"
+                        type="string"
+                        value=""
+                        placeholder="Электронная почта!" />
+              <rt-input label="Начните вводить почту!!"
+                        :version="2"
+                        type="string"
+                        value=""
+                        placeholder="Электронная почта!" />
+              <rt-input label="Начните вводить почту!!"
+                        :version="2"
+                        type="string"
+                        value=""
+                        placeholder="Электронная почта!" />
+              <rt-input label="Начните вводить почту!!"
+                        :version="2"
+                        type="string"
+                        value=""
+                        placeholder="Электронная почта!" />
 							<pre-code
 									text="<rt-input label=&quot;Начните вводить почту&quot;
                               type=&quot;string&quot;
@@ -248,7 +282,8 @@
       vTest: null,
       inputModelValue: "test",
       documentation: {},
-      inputValue: "test"
+      inputValue: "test",
+      inputModel: '123'
     }),
     mounted() {
       this.documentation = documentation;
