@@ -1,150 +1,151 @@
 import {
-    Button,
-    Calendar,
-    Checkbox,
-    CheckboxContainer,
-    Input,
-    Price,
-    RadioButton,
-    RadioButtonContainer,
-    Ripple,
-    RippleWihoutJs,
-    Select,
-    SelectOption,
-    SelectV2,
-    SelectV2Option,
-    Switch,
-    SwitchContainer,
-    Textarea,
-    TextareaStatic,
-    Annotation,
-    ColorLineText,
-    Ussd,
-    Spinner,
-    GridRow,
-    GridColumn,
-    Image,
-    Hint,
-    HintBody,
+  Button,
+  Calendar,
+  Checkbox,
+  CheckboxContainer,
+  Input,
+  Price,
+  RadioButton,
+  RadioButtonContainer,
+  Ripple,
+  RippleWihoutJs,
+  Select,
+  SelectOption,
+  SelectV2,
+  SelectV2Option,
+  Switch,
+  SwitchContainer,
+  Textarea,
+  TextareaStatic,
+  Annotation,
+  ColorLineText,
+  Ussd,
+  Spinner,
+  GridRow,
+  GridColumn,
+  Image,
+  Hint,
+  HintBody,
 } from '@vue-rt-style-kit-atoms-local'
 
 
 import {
-    ScrollTabs,
-    TabsSlider,
-    TabsSliderItem,
-    Tabs,
-    CheckboxTabs,
-    TabsNavigationItem,
-    TabsContentItem,
-    Card,
-    CardRounded,
-    CardB2o,
-    CardSkeleton,
-    ProductCard,
-    TariffCard,
-    CardBuy,
-    CardImage,
-    CardImageList,
-    Carousel,
-    CarouselSlide,
-    FullscreenImage,
-    RowList,
-    OptionsList,
-    OptionsListInfoItem,
-    RowListItem,
-    Table,
-    TableHeadItem,
-    TableItem,
-    TableCol,
-    TableRow,
-    DownloadContent,
-    InlineDropdown,
-    InlineDropdownItem,
-    Tag,
-    TagsList,
-    Filter,
-    FilterWatcher,
-    FilterCaller,
-    FilterV2,
-    FilterItemV2,
-    FilterSetterV2,
-    Youtube,
-    Sticky,
-    ResizeContentHeight,
-    SlideContent,
-    SlideContentDottedContent,
-    SlideContentDottedHeader,
-    Popup,
-    LinksBlock,
-    Pattern,
-    Swiper,
-    Slide,
-    Opportunity,
-    OpportunityItem,
-    UnWrapper,
-    RealPopup,
-    UseCase,
-    BenefitBlock,
-    BenefitItem,
-    PortraitTile,
-    Timeline,
-    ScrollBar,
-    VerticalScrollBar,
-    TimelineItem,
-    PortraitTileItem,
-    ReplacementLink,
-    CardCarousel,
-    CardLayout,
-    GameArrow,
-    Banner,
-    BannerItem,
-    BannerVideoGameControl,
-    BannerPaginatorItem,
-    BannerV2,
-    BannerItemV2,
-    GalleryCarousel,
-    GalleryCarouselItem,
-    CountdownTimer,
-    StickyBottomLine,
-    StickyHeaderLine,
-    Slider,
-    SliderItem,
-    HelpBlock,
-    PhoneNumberInput,
-    Jumbotron,
-    CarouselV2,
-    CarouselSlideV2,
-    AdBanner
-
+  ScrollTabs,
+  TabsSlider,
+  TabsSliderItem,
+  Tabs,
+  CheckboxTabs,
+  TabsNavigationItem,
+  TabsContentItem,
+  Card,
+  CardRounded,
+  CardB2o,
+  CardSkeleton,
+  ProductCard,
+  TariffCard,
+  CardBuy,
+  CardImage,
+  CardImageList,
+  Carousel,
+  CarouselSlide,
+  FullscreenImage,
+  RowList,
+  OptionsList,
+  OptionsListInfoItem,
+  RowListItem,
+  Table,
+  TableHeadItem,
+  TableItem,
+  TableCol,
+  TableRow,
+  DownloadContent,
+  InlineDropdown,
+  InlineDropdownItem,
+  Tag,
+  TagsList,
+  Filter,
+  FilterWatcher,
+  FilterCaller,
+  FilterV2,
+  FilterItemV2,
+  FilterSetterV2,
+  Youtube,
+  Sticky,
+  ResizeContentHeight,
+  SlideContent,
+  SlideContentDottedContent,
+  SlideContentDottedHeader,
+  Popup,
+  LinksBlock,
+  Pattern,
+  Swiper,
+  Slide,
+  Opportunity,
+  OpportunityItem,
+  UnWrapper,
+  RealPopup,
+  UseCase,
+  BenefitBlock,
+  BenefitItem,
+  PortraitTile,
+  Timeline,
+  ScrollBar,
+  VerticalScrollBar,
+  TimelineItem,
+  PortraitTileItem,
+  ReplacementLink,
+  CardCarousel,
+  CardLayout,
+  GameArrow,
+  Banner,
+  BannerItem,
+  BannerVideoGameControl,
+  BannerPaginatorItem,
+  BannerV2,
+  BannerItemV2,
+  GalleryCarousel,
+  GalleryCarouselItem,
+  CountdownTimer,
+  StickyBottomLine,
+  StickyHeaderLine,
+  Slider,
+  SliderItem,
+  HelpBlock,
+  PhoneNumberInput,
+  Jumbotron,
+  CarouselV2,
+  CarouselSlideV2,
+  AdBanner
+  
 } from '@vue-rt-style-kit-molecules-local'
 
 
 import {
-    ACArchiveComponent,
-    ACConfirmationPopup,
-    ACCreationPopup,
-    ACFooter,
-    ACHeader,
-    ACInvitationPopup,
-    ACListComponent,
-    ACManagePopup,
-    ACPhonebookComponent,
-    ACSettingsPopup,
-    ACEditPopup,
-    ACPaginator,
-    ACDatePicker
+  ACArchiveComponent,
+  ACConfirmationPopup,
+  ACCreationPopup,
+  ACFooter,
+  ACHeader,
+  ACInvitationPopup,
+  ACListComponent,
+  ACManagePopup,
+  ACPhonebookComponent,
+  ACSettingsPopup,
+  ACEditPopup,
+  ACPaginator,
+  ACDatePicker
 } from '@vue-rt-style-kit-aks-local'
 
 
 import {
-    Logo,
-    LogoCoBranding,
-    Icon,
-    ValidationIcon
+  Logo,
+  LogoCoBranding,
+  Icon,
+  ValidationIcon
 } from '@vue-rt-style-kit-icons-local'
 
 import AppMenu from "./components/AppMenu.vue";
+
 const componentsList = {};
 componentsList[GridRow.name] = GridRow;
 componentsList[Image.name] = Image;
@@ -259,20 +260,45 @@ componentsList[SliderItem.name] = SliderItem;
 componentsList[Jumbotron.name] = Jumbotron;
 
 
-componentsList[ACArchiveComponent.name] = ACArchiveComponent;
-componentsList[ACConfirmationPopup.name] = ACConfirmationPopup;
-componentsList[ACCreationPopup.name] = ACCreationPopup;
-componentsList[ACFooter.name] = ACFooter;
-componentsList[ACHeader.name] = ACHeader;
-componentsList[ACInvitationPopup.name] = ACInvitationPopup;
-componentsList[ACListComponent.name] = ACListComponent;
-componentsList[ACManagePopup.name] = ACManagePopup;
-componentsList[ACPhonebookComponent.name] = ACPhonebookComponent;
-componentsList[ACSettingsPopup.name] = ACSettingsPopup;
-componentsList[ACEditPopup.name] = ACEditPopup;
-componentsList[ACPaginator.name] = ACPaginator;
-componentsList[ACDatePicker.name] = ACDatePicker;
-
+if (ACArchiveComponent) {
+  componentsList[ACArchiveComponent.name] = ACArchiveComponent;
+}
+if (ACConfirmationPopup) {
+  componentsList[ACConfirmationPopup.name] = ACConfirmationPopup;
+}
+if (ACCreationPopup) {
+  componentsList[ACCreationPopup.name] = ACCreationPopup;
+}
+if (ACFooter) {
+  componentsList[ACFooter.name] = ACFooter;
+}
+if (ACHeader) {
+  componentsList[ACHeader.name] = ACHeader;
+}
+if (ACInvitationPopup) {
+  componentsList[ACInvitationPopup.name] = ACInvitationPopup;
+}
+if (ACListComponent) {
+  componentsList[ACListComponent.name] = ACListComponent;
+}
+if (ACManagePopup) {
+  componentsList[ACManagePopup.name] = ACManagePopup;
+}
+if (ACPhonebookComponent) {
+  componentsList[ACPhonebookComponent.name] = ACPhonebookComponent;
+}
+if (ACSettingsPopup) {
+  componentsList[ACSettingsPopup.name] = ACSettingsPopup;
+}
+if (ACEditPopup) {
+  componentsList[ACEditPopup.name] = ACEditPopup;
+}
+if (ACPaginator) {
+  componentsList[ACPaginator.name] = ACPaginator;
+}
+if (ACDatePicker) {
+  componentsList[ACDatePicker.name] = ACDatePicker;
+}
 
 
 // componentsList[PreComponent.name] = PreComponent;
