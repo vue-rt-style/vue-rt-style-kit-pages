@@ -24,7 +24,6 @@
         methods: {
             filterList() {
                 this.conferenceList = localStorage.acArchive ? JSON.parse(localStorage.acArchive) : [];
-                // just some shit for testing commit. git is fucking brain right now
             }
         }
     };

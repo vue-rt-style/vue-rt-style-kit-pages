@@ -10,7 +10,6 @@
                                     @set-deletion="setDeletion" @manage-conf="manageConference" @lookup-conf="lookupConference"/>
             </div>
         </div>
-        <a-c-date-picker/>
         <a-c-footer/>
         <a-c-settings-popup/>
         <a-c-creation-popup @conf-created="addConference"/>

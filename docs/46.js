@@ -33,16 +33,16 @@ var componentsList = {};
   created: function created() {},
   methods: {
     filterList: function filterList() {
-      this.conferenceList = localStorage.acArchive ? JSON.parse(localStorage.acArchive) : []; // just some shit for testing commit. git is fucking brain right now
+      this.conferenceList = localStorage.acArchive ? JSON.parse(localStorage.acArchive) : [];
     }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/audioconference/AudioconferenceArchive.vue?vue&type=template&id=4778a17c&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/audioconference/AudioconferenceArchive.vue?vue&type=template&id=930a173e&":
 /*!**********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/audioconference/AudioconferenceArchive.vue?vue&type=template&id=4778a17c& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/audioconference/AudioconferenceArchive.vue?vue&type=template&id=930a173e& ***!
   \**********************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -67,7 +67,7 @@ var staticRenderFns = []
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AudioconferenceArchive_vue_vue_type_template_id_4778a17c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AudioconferenceArchive.vue?vue&type=template&id=4778a17c& */ "./src/example-pages/components/audioconference/AudioconferenceArchive.vue?vue&type=template&id=4778a17c&");
+/* harmony import */ var _AudioconferenceArchive_vue_vue_type_template_id_930a173e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AudioconferenceArchive.vue?vue&type=template&id=930a173e& */ "./src/example-pages/components/audioconference/AudioconferenceArchive.vue?vue&type=template&id=930a173e&");
 /* harmony import */ var _AudioconferenceArchive_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AudioconferenceArchive.vue?vue&type=script&lang=js& */ "./src/example-pages/components/audioconference/AudioconferenceArchive.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
@@ -79,8 +79,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _AudioconferenceArchive_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _AudioconferenceArchive_vue_vue_type_template_id_4778a17c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _AudioconferenceArchive_vue_vue_type_template_id_4778a17c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _AudioconferenceArchive_vue_vue_type_template_id_930a173e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AudioconferenceArchive_vue_vue_type_template_id_930a173e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -106,19 +106,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/example-pages/components/audioconference/AudioconferenceArchive.vue?vue&type=template&id=4778a17c&":
+/***/ "./src/example-pages/components/audioconference/AudioconferenceArchive.vue?vue&type=template&id=930a173e&":
 /*!****************************************************************************************************************!*\
-  !*** ./src/example-pages/components/audioconference/AudioconferenceArchive.vue?vue&type=template&id=4778a17c& ***!
+  !*** ./src/example-pages/components/audioconference/AudioconferenceArchive.vue?vue&type=template&id=930a173e& ***!
   \****************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AudioconferenceArchive_vue_vue_type_template_id_4778a17c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./AudioconferenceArchive.vue?vue&type=template&id=4778a17c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/audioconference/AudioconferenceArchive.vue?vue&type=template&id=4778a17c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AudioconferenceArchive_vue_vue_type_template_id_4778a17c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AudioconferenceArchive_vue_vue_type_template_id_930a173e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./AudioconferenceArchive.vue?vue&type=template&id=930a173e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/audioconference/AudioconferenceArchive.vue?vue&type=template&id=930a173e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AudioconferenceArchive_vue_vue_type_template_id_930a173e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AudioconferenceArchive_vue_vue_type_template_id_4778a17c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AudioconferenceArchive_vue_vue_type_template_id_930a173e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

@@ -16,8 +16,8 @@
                 </div>
             </div>
             <div class="rt-col">
-                <div class="sp-h-0-1 d-flex d-space-between sp-b-0-2">
-                    <button class="phonebook__letter" @click="rollbackFilter">
+                <div class="sp-h-0-1 d-flex d-space-between">
+                    <button class="phonebook__letter phonebook__letter--underlined" @click="rollbackFilter">
                         <span class="phonebook__letter-title">все</span>
                         <div class="phonebook__hint">Все контакты</div>
                     </button>
@@ -69,6 +69,8 @@
             },
             filterPhonebook($event) {
                 this.localPhoneBook = [];
+                document.querySelector('.phonebook__letter--underlined').classList.remove('phonebook__letter--underlined');
+                $event.target.classList.add('phonebook__letter--underlined');
                 if($event.target.innerText.length == 1) {
                     this.phoneBook.map(item => {
                         item.capital.toLowerCase() == $event.target.innerText.toLowerCase() ? this.localPhoneBook.push(item) : false;
@@ -87,8 +89,10 @@
                     this.isSearching = true;
                 }
             },
-            rollbackFilter() {
+            rollbackFilter($event) {
                 this.localPhoneBook = this.phoneBook;
+                document.querySelector('.phonebook__letter--underlined').classList.remove('phonebook__letter--underlined');
+                $event.target.classList.add('phonebook__letter--underlined');
             },
             fillBook(){
                 this.phoneBook = localStorage.phonebook ? JSON.parse(localStorage.phonebook) : [];

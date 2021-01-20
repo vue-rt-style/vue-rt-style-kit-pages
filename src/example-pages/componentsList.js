@@ -133,7 +133,13 @@ import {
     ACSettingsPopup,
     ACEditPopup,
     ACPaginator,
-    ACDatePicker
+    ACDatePicker,
+    CalendarDate,
+    CalendarMonth,
+    CalendarMonthHeader,
+    CalendarView,
+    CalendarWeek,
+    CalendarWeekHeader
 } from '@vue-rt-style-kit-aks-local'
 
 
@@ -272,6 +278,12 @@ componentsList[ACSettingsPopup.name] = ACSettingsPopup;
 componentsList[ACEditPopup.name] = ACEditPopup;
 componentsList[ACPaginator.name] = ACPaginator;
 componentsList[ACDatePicker.name] = ACDatePicker;
+componentsList[CalendarDate.name] = CalendarDate;
+componentsList[CalendarMonth.name] = CalendarMonth;
+componentsList[CalendarMonthHeader.name] = CalendarMonthHeader;
+componentsList[CalendarView.name] = CalendarView;
+componentsList[CalendarWeek.name] = CalendarWeek;
+componentsList[CalendarWeekHeader.name] = CalendarWeekHeader;
 
 
 
