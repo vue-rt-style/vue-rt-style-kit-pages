@@ -1,6 +1,7 @@
 const index = [
 
   { path: "/typography", name: "app-typography", component: () => import("../components/main/Typography.vue") },
+  { path: "/rt-img", name: "app-rt-img", component: () => import("../components/main/RtImg.vue") },
   { path: "/colors", name: "app-colors", component: () => import("../components/main/colors/ColorsList.vue") },
   { path: "/space", name: "app-grid", component: () => import("../components/main/SpaceClassElements.vue") },
   { path: "/grid", name: "app-grid", component: () => import("../components/main/Grid.vue") },
@@ -81,10 +82,11 @@ const index = [
   { path: "/unwrapper", name: "unWrapper", component: () => import("../components/pages/UnWrapper.vue") },
   { path: "/tariff-cards2", name: "app-tariff-card", component: () => import("../components/complex/TariffCard2.vue") },
   { path: "/tariff-cards3", name: "app-tariff-card", component: () => import("../components/complex/TariffCard3.vue") },
-  { path: "/audioconference", name: "audioconference", component: () => import("../components/audioconference/AudioConferenceAuth.vue") },
-  { path: "/audioconference-list", name: "audioconference-list", component: () => import("../components/audioconference/AudioConferenceList.vue") },
-  { path: "/archive", name: "archive", component: () => import("../components/audioconference/AudioConferenceArchive.vue") },
-  { path: "/phonebook", name: "phonebook", component: () => import("../components/audioconference/AudioConferencePhonebook.vue") },
+  { path: "/audioconference", name: "audioconference", component: () => import("../components/audioconference/AudioconferenceAuth.vue") },
+  { path: "/audioconference-list", name: "audioconference-list", component: () => import("../components/audioconference/AudioconferenceList.vue") },
+  { path: "/archive", name: "archive", component: () => import("../components/audioconference/AudioconferenceArchive.vue") },
+  { path: "/phonebook", name: "phonebook", component: () => import("../components/audioconference/AudioconferencePhonebook.vue") },
+  { path: "/help", name: "help", component: () => import("../components/audioconference/AudioconferenceHelp.vue") },
   // { path: "/promo/tvtv", name: "promoTv", component: PromoTvTV },
   // { path: "/promo/mobile", name: "promoMobile", component: PromoMobile },
   // { path: "/promo/smart-house", name: "smartHouse", component: smartHouse },

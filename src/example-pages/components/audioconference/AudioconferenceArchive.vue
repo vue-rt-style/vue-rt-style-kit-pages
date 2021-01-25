@@ -1,12 +1,9 @@
 <template>
     <div class="conference">
-        <a-c-header :phone="88006661313" name="Мартышина Ольга Алексеевна"/>
-        <div class="rt-container">
-            <div class="rt-col">
-                <a-c-archive-component :conference-list="[{}]"></a-c-archive-component>
-            </div>
-        </div>
+        <a-c-header/>
+        <a-c-archive-component @get-filtered-list="filterList" :conference-list="conferenceList"></a-c-archive-component>
         <a-c-footer/>
+        <a-c-settings-popup/>
     </div>
 </template>
 
@@ -19,11 +16,15 @@
         },
         data() {
             return {
-
+                conferenceList: null
             }
         },
         mounted() {},
         created() {},
-        methods: {}
+        methods: {
+            filterList() {
+                this.conferenceList = localStorage.acArchive ? JSON.parse(localStorage.acArchive) : [];
+            }
+        }
     };
 </script>

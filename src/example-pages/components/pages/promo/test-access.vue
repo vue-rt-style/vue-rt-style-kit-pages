@@ -1,10 +1,10 @@
 <template>
-<!--  <div class="rt-container">-->
-<!--    <div class="rt-col rt-space-top25"></div>-->
-<!--    <div class="rt-col">-->
-<!--      <rt-header-navigation :nav-tree=innerData></rt-header-navigation>-->
-<!--    </div>-->
-<!--  </div>-->
+  <div class="rt-container">
+    <div class="rt-col rt-space-top25"></div>
+    <div class="rt-col">
+      <rt-header-navigation :nav-tree=innerData></rt-header-navigation>
+    </div>
+  </div>
 <!--  <rt-header-advertisement-block image="/sites/default/files/b2b/announce_banners/vats.png"-->
 <!--                                 link-target="moscow.rt.ru/b2b/be-in-plus"-->
 <!--                                 link-text="Подробнее" :new-window="true">-->
@@ -30,15 +30,15 @@
                         "items": [
                           {
                             "label": "Виртуальная АТС",
-                            "path": "/b2b/telephony/vats"
+                            "path": "https://belgorod.rt.ru/b2b/telephony/vats"
                           },
                           {
                             "label": "Номер 8 800",
-                            "path": "/b2b/telephony/8800"
+                            "path": "https://belgorod.rt.ru/b2b/telephony/8800"
                           },
                           {
                             "label": "Виртуальный городской номер",
-                            "path": "/b2b/telephony/vats/virtual_numbers"
+                            "path": "https://belgorod.rt.ru/b2b/telephony/vats/virtual_numbers"
                           },
                           {
                             "label": "Стационарный телефон",
@@ -46,11 +46,11 @@
                           },
                           {
                             "label": "Мобильная связь для бизнеса",
-                            "path": "/b2b/telephony/mobile"
+                            "path": "https://belgorod.rt.ru/b2b/telephony/mobile"
                           },
                           {
                             "label": "Аудиоконференция",
-                            "path": "/b2b/telephony/audioconference"
+                            "path": "https://belgorod.rt.ru/b2b/telephony/audioconference"
                           }
                         ],
                         "subTitle": "dfgdsfg<br>dfgfdg"
@@ -60,23 +60,23 @@
                         "items": [
                           {
                             "label": "Фиксированный интернет",
-                            "path": "/b2b/internet/fix"
+                            "path": "https://belgorod.rt.ru/b2b/internet/fix"
                           },
                           {
                             "label": "Wi-Fi для гостей",
-                            "path": "/b2b/internet/business_wifi",
+                            "path": "https://belgorod.rt.ru/b2b/internet/business_wifi",
                           },
                           {
                             "label": "Мобильный интернет",
-                            "path": "/b2b/internet/mobile_net/action"
+                            "path": "https://belgorod.rt.ru/b2b/internet/mobile_net/action"
                           },
                           {
                             "label": "Виртуальная частная сеть",
-                            "path": "/b2b/internet/vpn",
+                            "path": "https://belgorod.rt.ru/b2b/internet/vpn",
                           },
                           {
                             "label": "Аренда сетевого оборудования",
-                            "path": "/b2b/internet/managed_services"
+                            "path": "https://belgorod.rt.ru/b2b/internet/managed_services"
                           }
                         ]
                       }
@@ -97,15 +97,15 @@
                         "items": [
                           {
                             "label": "Видеонаблюдение",
-                            "path": "/b2b/videonabludenie"
+                            "path": "https://belgorod.rt.ru/b2b/videonabludenie"
                           },
                           {
                             "label": "M2M Контроль",
-                            "path": "/b2b/solutions/m2m"
+                            "path": "https://belgorod.rt.ru/b2b/solutions/m2m"
                           },
                           {
                             "label": "Тепловизоры",
-                            "path": "/b2b/security/thermal_imaging"
+                            "path": "https://belgorod.rt.ru/b2b/security/thermal_imaging"
                           }
                         ]
                       },
@@ -114,19 +114,19 @@
                         "items": [
                           {
                             "label": "Виртуальный ЦОД",
-                            "path": "/b2b/service_cloudy/virtual_dc"
+                            "path": "https://belgorod.rt.ru/b2b/service_cloudy/virtual_dc"
                           },
                           {
                             "label": "Виртуальное хранилище",
-                            "path": "/b2b/service_cloudy/virtual-storage"
+                            "path": "https://belgorod.rt.ru/b2b/service_cloudy/virtual-storage"
                           },
                           {
                             "label": "Защита от DDos-атак",
-                            "path": "/b2b/security/anti-ddos"
+                            "path": "https://belgorod.rt.ru/b2b/security/anti-ddos"
                           },
                           {
                             "label": "Управление навыками инфобезопасности",
-                            "path": "/b2b/security/sa"
+                            "path": "https://belgorod.rt.ru/b2b/security/sa"
                           }
                         ]
                       },
@@ -135,23 +135,23 @@
                         "items": [
                           {
                             "label": "ТВ для сферы услуг",
-                            "path": "/b2b/corp_iptv/restaurants"
+                            "path": "https://belgorod.rt.ru/b2b/corp_iptv/restaurants"
                           },
                           {
                             "label": "Ростелеком Экраны",
-                            "path": "/b2b/solutions/screens"
+                            "path": "https://belgorod.rt.ru/b2b/solutions/screens"
                           },
                           {
                             "label": "ТВ в офис или коворкинг",
-                            "path": "/b2b/corp_iptv/office"
+                            "path": "https://belgorod.rt.ru/b2b/corp_iptv/office"
                           },
                           {
                             "label": "ТВ для гостиниц",
-                            "path": "/b2b/corp_iptv/hotels"
+                            "path": "https://belgorod.rt.ru/b2b/corp_iptv/hotels"
                           },
                           {
                             "label": "ТВ для детских учреждений",
-                            "path": "/b2b/corp_iptv/children"
+                            "path": "https://belgorod.rt.ru/b2b/corp_iptv/children"
                           }
                         ]
                       },
@@ -160,15 +160,15 @@
                         "items": [
                           {
                             "label": "Пакеты \"Быть в плюсе\"",
-                            "path": "/b2b/be-in-plus"
+                            "path": "https://belgorod.rt.ru/b2b/be-in-plus"
                           },
                           {
                             "label": "СМС Реклама",
-                            "path": "/b2b/solutions/sms_advertising"
+                            "path": "https://belgorod.rt.ru/b2b/solutions/sms_advertising"
                           },
                           {
                             "label": "Онлайн-кассы",
-                            "path": "/b2b/onlinekassa"
+                            "path": "https://belgorod.rt.ru/b2b/onlinekassa"
                           }
                         ]
                       }
@@ -181,13 +181,13 @@
                   },
                   {
                     "label": "Партнёрам",
-                    "path": "/b2b/partners_program"
+                    "path": "https://belgorod.rt.ru/b2b/partners_program"
                   }
                 ]
             }
         },
         mounted() {
-            
+
         },
         created() {},
         methods: {}
