@@ -49,132 +49,132 @@
         <div class="rt-col rt-col-8 rt-col-td-3 rt-col-md-3">
           <pre-code
             text="
-<div>
-  <h3 class=&quot;rt-font-bold rt-space-bottom15&quot;>
-    Часто задаваемые вопросы
-  </h3>
-  <ul class=&quot;rtb-faq-unordered-list&quot;>
-    <li class=&quot;rtb-faq-unordered-list__item&quot;>
-      <rt-annotation
-        label=&quot;Как расторгнуть договор, если нет возможности пойти в офис?&quot;
-      >
-        <template slot=&quot;content&quot;>
-          <p class=&quot;rt-font-small-paragraph&quot;>
-            При наличии технической возможности мы организуем
-            предоставление услуг по новому адресу без Подробнее об акции
-            «Переезд».
-          </p>
-          <p
-            class=&quot;rt-font-small-paragraph rt-space-top rt-space-bottom&quot;
-          >
-            В этом случае действия зависят от вашей ситуации:
-          </p>
-          <ul class=&quot;rt-numeric-list&quot;>
-            <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-            <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-            <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
-              Пример обычной очень очень очень длинной строки 16px,
-              слишком длинная строка
-            </li>
-            <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-            <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-            <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-          </ul>
-        </template>
-      </rt-annotation>
-    </li>
-    <li class=&quot;rtb-faq-unordered-list__item&quot;>
-      <rt-annotation
-        label=&quot;Как расторгнуть договор, если нет возможности пойти в офис?&quot;
-      >
-        <template slot=&quot;content&quot;>
-          <p class=&quot;rt-font-small-paragraph&quot;>
-            При наличии технической возможности мы организуем
-            предоставление услуг по новому адресу без Подробнее об акции
-            «Переезд».
-          </p>
-          <p
-            class=&quot;rt-font-small-paragraph rt-space-top rt-space-bottom&quot;
-          >
-            В этом случае действия зависят от вашей ситуации:
-          </p>
-          <ul class=&quot;rt-numeric-list&quot;>
-            <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-            <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-            <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
-              Пример обычной очень очень очень длинной строки 16px,
-              слишком длинная строка
-            </li>
-            <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-            <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-            <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-          </ul>
-        </template>
-      </rt-annotation>
-    </li>
-    <li class=&quot;rtb-faq-unordered-list__item&quot;>
-      <rt-annotation
-        label=&quot;Как расторгнуть договор, если нет возможности пойти в офис?&quot;
-      >
-        <template slot=&quot;content&quot;>
-          <p class=&quot;rt-font-small-paragraph&quot;>
-            При наличии технической возможности мы организуем
-            предоставление услуг по новому адресу без расторжения
-            договора. Подробнее об акции «Переезд».
-          </p>
-          <p
-            class=&quot;rt-font-small-paragraph rt-space-top rt-space-bottom&quot;
-          >
-            В этом случае действия зависят от вашей ситуации:
-          </p>
-          <ul class=&quot;rt-numeric-list&quot;>
-            <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-            <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-            <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
-              Пример обычной очень очень очень длинной строки 16px,
-              слишком длинная строка
-            </li>
-            <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-            <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-            <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
-              Пример обычной строки 16px
-            </li>
-          </ul>
-        </template>
-      </rt-annotation>
-    </li>
-  </ul></div>
-"></pre-code>
+            <div>
+              <h3 class=&quot;rt-font-bold rt-space-bottom15&quot;>
+                Часто задаваемые вопросы
+              </h3>
+              <ul class=&quot;rtb-faq-unordered-list&quot;>
+                <li class=&quot;rtb-faq-unordered-list__item&quot;>
+                  <rt-annotation
+                    label=&quot;Как расторгнуть договор, если нет возможности пойти в офис?&quot;
+                  >
+                    <template slot=&quot;content&quot;>
+                      <p class=&quot;rt-font-small-paragraph&quot;>
+                        При наличии технической возможности мы организуем
+                        предоставление услуг по новому адресу без Подробнее об акции
+                        «Переезд».
+                      </p>
+                      <p
+                        class=&quot;rt-font-small-paragraph rt-space-top rt-space-bottom&quot;
+                      >
+                        В этом случае действия зависят от вашей ситуации:
+                      </p>
+                      <ul class=&quot;rt-numeric-list&quot;>
+                        <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                        <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                        <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной очень очень очень длинной строки 16px,
+                          слишком длинная строка
+                        </li>
+                        <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                        <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                        <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                      </ul>
+                    </template>
+                  </rt-annotation>
+                </li>
+                <li class=&quot;rtb-faq-unordered-list__item&quot;>
+                  <rt-annotation
+                    label=&quot;Как расторгнуть договор, если нет возможности пойти в офис?&quot;
+                  >
+                    <template slot=&quot;content&quot;>
+                      <p class=&quot;rt-font-small-paragraph&quot;>
+                        При наличии технической возможности мы организуем
+                        предоставление услуг по новому адресу без Подробнее об акции
+                        «Переезд».
+                      </p>
+                      <p
+                        class=&quot;rt-font-small-paragraph rt-space-top rt-space-bottom&quot;
+                      >
+                        В этом случае действия зависят от вашей ситуации:
+                      </p>
+                      <ul class=&quot;rt-numeric-list&quot;>
+                        <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                        <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                        <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной очень очень очень длинной строки 16px,
+                          слишком длинная строка
+                        </li>
+                        <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                        <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                        <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                      </ul>
+                    </template>
+                  </rt-annotation>
+                </li>
+                <li class=&quot;rtb-faq-unordered-list__item&quot;>
+                  <rt-annotation
+                    label=&quot;Как расторгнуть договор, если нет возможности пойти в офис?&quot;
+                  >
+                    <template slot=&quot;content&quot;>
+                      <p class=&quot;rt-font-small-paragraph&quot;>
+                        При наличии технической возможности мы организуем
+                        предоставление услуг по новому адресу без расторжения
+                        договора. Подробнее об акции «Переезд».
+                      </p>
+                      <p
+                        class=&quot;rt-font-small-paragraph rt-space-top rt-space-bottom&quot;
+                      >
+                        В этом случае действия зависят от вашей ситуации:
+                      </p>
+                      <ul class=&quot;rt-numeric-list&quot;>
+                        <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                        <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                        <li class=&quot;rt-numeric-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной очень очень очень длинной строки 16px,
+                          слишком длинная строка
+                        </li>
+                        <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                        <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                        <li class=&quot;rt-ordered-list__item rt-font-small-paragraph&quot;>
+                          Пример обычной строки 16px
+                        </li>
+                      </ul>
+                    </template>
+                  </rt-annotation>
+                </li>
+              </ul>
+            </div>
+          "/>
         </div>
-
       </div>
     </div>
   </div>

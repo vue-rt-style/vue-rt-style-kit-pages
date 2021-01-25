@@ -2,7 +2,8 @@
   <div class="rt-container">
     <div class="rt-col rt-space-top25"></div>
     <div class="rt-col">
-      <rt-header-navigation :nav-tree=innerData></rt-header-navigation>
+<!--      <rt-header-navigation :nav-tree=innerData></rt-header-navigation>-->
+      <rt-phone-number-input></rt-phone-number-input>
     </div>
   </div>
 <!--  <rt-header-advertisement-block image="/sites/default/files/b2b/announce_banners/vats.png"-->
