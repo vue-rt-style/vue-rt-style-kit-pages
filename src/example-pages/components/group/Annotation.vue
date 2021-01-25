@@ -10,8 +10,8 @@
       </div>
       <div class="app-body">
         <div class="row">
-          <div class="rt-col-7 rt-col-td-6">
-            <pre-code text="<rt-annotation :scroll-timeout='1000' :v2='true'>
+            <pre-code text="<div class='rt-col-7 rt-col-td-6'>
+              <rt-annotation :scroll-timeout='1000' :v2='true'>
                 <template slot='label'>Что такое ОС Аврора?</template>
                 <template slot='content'>
                   <p class='rt-font-small-paragraph'>ОС Аврора — первая и пока единственная российская операционная система,
@@ -63,9 +63,9 @@
                     </li>
                   </ul>
                 </template>
-              </rt-annotation>"
+              </rt-annotation>
+            </div>"
             />
-          </div>
           <div class="rt-col-5"/>
         </div>
         <rt-annotation label="Примечание2" class="rt-space-top rt-space-bottom">
