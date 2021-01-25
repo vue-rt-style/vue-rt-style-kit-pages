@@ -137,12 +137,29 @@
           </rt-col>
         </rt-row>
       </div>
+
+      <div class="rt-container rt-space-top25">
+        <documentation-builder :json="documentation" type="Microtabs props" />
+      </div>
     </div>
   </section>
 </template>
 
 <script>
+import { backgroundsMap } from '@vue-rt-style-kit-molecules-local/components/Microtabs/common.js'
+import documentation from '@vue-rt-style-kit-molecules-local/components/Microtabs/docs/index.json'
+
+if(documentation.items[0]){
+  let desc='. Доступны: `'+Object.keys(backgroundsMap).join('`,`')+'`'
+  documentation.items.forEach(item => item.property === 'theme' ? item.description += desc : null)
+}
+
 export default {
-  name: 'MicroTabsComponent'
+  name: 'MicroTabsComponent',
+  data(){
+    return {
+      documentation
+    }
+  }
 }
 </script>
