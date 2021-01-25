@@ -18,6 +18,7 @@ import {
     Textarea,
     TextareaStatic,
     Annotation,
+    AnnotationV2,
     ColorLineText,
     Ussd,
     Spinner,
@@ -172,6 +173,7 @@ componentsList[TabsSliderItem.name] = TabsSliderItem;
 componentsList[TabsNavigationItem.name] = TabsNavigationItem;
 componentsList[TabsContentItem.name] = TabsContentItem;
 componentsList[Annotation.name] = Annotation;
+componentsList[AnnotationV2.name] = AnnotationV2;
 componentsList[ColorLineText.name] = ColorLineText;
 componentsList[BannerV2.name] = BannerV2;
 componentsList[BannerItemV2.name] = BannerItemV2;
