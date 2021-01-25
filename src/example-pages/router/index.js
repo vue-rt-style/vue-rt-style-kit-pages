@@ -47,6 +47,7 @@ const index = [
   { path: "/tabs", name: "app-tabs", component: () => import("../components/group/Tabs.vue") },
   { path: "/tabs-slider", name: "app-tabs-slider", component: () => import("../components/group/TabsSlider.vue") },
   { path: "/scroll-tabs", name: "app-scrollTabs", component: () => import("../components/group/ScrollTabs.vue") },
+  { path: "/microtabs", name: "app-microtabs", component: () => import("../components/group/Microtabs--demo.vue") },
   { path: "/benefit", name: "benefit", component: () => import("../components/group/BenefitBlock.vue") },
 
   // complex

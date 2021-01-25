@@ -37,6 +37,9 @@ import {
   CheckboxTabs,
   TabsNavigationItem,
   TabsContentItem,
+  Microtabs,
+  MicrotabsContent,
+  MicrotabsNavigation,
   Card,
   CardRounded,
   CardB2o,
@@ -175,6 +178,9 @@ componentsList[TabsSlider.name] = TabsSlider;
 componentsList[TabsSliderItem.name] = TabsSliderItem;
 componentsList[TabsNavigationItem.name] = TabsNavigationItem;
 componentsList[TabsContentItem.name] = TabsContentItem;
+componentsList[Microtabs.name] = Microtabs
+componentsList[MicrotabsNavigation.name] = MicrotabsNavigation
+componentsList[MicrotabsContent.name] = MicrotabsContent
 componentsList[Annotation.name] = Annotation;
 componentsList[ColorLineText.name] = ColorLineText;
 componentsList[BannerV2.name] = BannerV2;
