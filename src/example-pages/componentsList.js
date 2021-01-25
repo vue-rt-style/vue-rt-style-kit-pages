@@ -120,30 +120,6 @@ import {
 
 } from '@vue-rt-style-kit-molecules-local'
 
-
-import {
-    ACArchiveComponent,
-    ACConfirmationPopup,
-    ACCreationPopup,
-    ACFooter,
-    ACHeader,
-    ACInvitationPopup,
-    ACListComponent,
-    ACManagePopup,
-    ACPhonebookComponent,
-    ACSettingsPopup,
-    ACEditPopup,
-    ACPaginator,
-    ACDatePicker,
-    CalendarDate,
-    CalendarMonth,
-    CalendarMonthHeader,
-    CalendarView,
-    CalendarWeek,
-    CalendarWeekHeader
-} from '@vue-rt-style-kit-aks-local'
-
-
 import {
     Logo,
     LogoCoBranding,
@@ -265,29 +241,6 @@ componentsList[AdBanner.name] = AdBanner;
 componentsList[SliderItem.name] = SliderItem;
 
 componentsList[Jumbotron.name] = Jumbotron;
-
-
-componentsList[ACArchiveComponent.name] = ACArchiveComponent;
-componentsList[ACConfirmationPopup.name] = ACConfirmationPopup;
-componentsList[ACCreationPopup.name] = ACCreationPopup;
-componentsList[ACFooter.name] = ACFooter;
-componentsList[ACHeader.name] = ACHeader;
-componentsList[ACInvitationPopup.name] = ACInvitationPopup;
-componentsList[ACListComponent.name] = ACListComponent;
-componentsList[ACManagePopup.name] = ACManagePopup;
-componentsList[ACPhonebookComponent.name] = ACPhonebookComponent;
-componentsList[ACSettingsPopup.name] = ACSettingsPopup;
-componentsList[ACEditPopup.name] = ACEditPopup;
-componentsList[ACPaginator.name] = ACPaginator;
-componentsList[ACDatePicker.name] = ACDatePicker;
-componentsList[CalendarDate.name] = CalendarDate;
-componentsList[CalendarMonth.name] = CalendarMonth;
-componentsList[CalendarMonthHeader.name] = CalendarMonthHeader;
-componentsList[CalendarView.name] = CalendarView;
-componentsList[CalendarWeek.name] = CalendarWeek;
-componentsList[CalendarWeekHeader.name] = CalendarWeekHeader;
-
-
 
 // componentsList[PreComponent.name] = PreComponent;
 // componentsList[PreComponentEditor.name] = PreComponentEditor;
