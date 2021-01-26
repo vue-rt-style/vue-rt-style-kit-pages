@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="app-body">
-        <div class="row">
+        <div class="row sp-b-2">
             <pre-code text="<div class='rt-col-7 rt-col-td-6'>
               <rt-annotation :scroll-timeout='1000' :v2='true'>
                 <template slot='label'>Что такое ОС Аврора?</template>
