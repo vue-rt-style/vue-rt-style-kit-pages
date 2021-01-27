@@ -8,9 +8,9 @@
       </div>
       <div class="app-body d-flex row">
         <div class="rt-col">
-          <h4 class='rt-font-bold rt-space-bottom'>Title</h4>
+          <h4 class='rt-font-bold rt-space-bottom'>Size L</h4>
           <div class="row sp-b-2">
-            <div class="rt-col-4 rt-col-td-6">
+            <div class="rt-col-4 rt-col-td-3 rt-col-md-3 sp-t-2">
               <ul class='rt-ordered-list'>
                 <li class='rt-ordered-list__item rt-font-paragraph rt-ordered-list__item--orange'>List item</li>
                 <li class='rt-ordered-list__item rt-font-paragraph'>List item</li>
@@ -19,7 +19,7 @@
                 <li class='rt-ordered-list__item rt-font-paragraph'>List item</li>
               </ul>
             </div>
-            <div class="rt-col-4 rt-col-td-6">
+            <div class="rt-col-4 rt-col-td-3 rt-col-md-3 sp-t-2">
               <ul class="rt-checked-list">
                 <li class="rt-checked-list__item rt-font-paragraph rt-checked-list__item--purple">List item 1</li>
                 <li class="rt-checked-list__item rt-font-paragraph">List item 1</li>
@@ -29,7 +29,7 @@
                 <li class="rt-checked-list__item rt-font-paragraph">List item 1 List item 1 List item 1 List item 1 List item 1 List item 1</li>
               </ul>
             </div>
-            <div class="rt-col-4 rt-col-td-6">
+            <div class="rt-col-4 rt-col-td-3 rt-col-md-3 sp-t-2">
               <ul class='rt-numeric-list'>
                 <li class='rt-numeric-list__item rt-font-paragraph'>List item 1</li>
                 <li class='rt-numeric-list__item rt-font-paragraph'>List item 2</li>
@@ -44,8 +44,9 @@
               </ul>
             </div>
           </div>
+          <h4 class='rt-font-bold rt-space-bottom'>Size M</h4>
           <div class="row">
-            <div class="rt-col-4 rt-col-td-6">
+            <div class="rt-col-4 rt-col-td-3 rt-col-md-3 sp-t-2">
               <ul class='rt-ordered-list'>
                 <li class='rt-ordered-list__item rt-font-small-paragraph rt-ordered-list__item--purple'>List item</li>
                 <li class='rt-ordered-list__item rt-font-small-paragraph'>List item</li>
@@ -54,7 +55,7 @@
                 <li class='rt-ordered-list__item rt-font-small-paragraph'>List item List item List item List item List item List item List item</li>
               </ul>
             </div>
-            <div class="rt-col-4 rt-col-td-6">
+            <div class="rt-col-4 rt-col-td-3 rt-col-md-3 sp-t-2">
               <ul class="rt-checked-list">
                 <li class="rt-checked-list__item rt-font-small-paragraph rt-checked-list__item--orange">List item 1</li>
                 <li class="rt-checked-list__item rt-font-small-paragraph">List item 1</li>
@@ -64,7 +65,7 @@
                 <li class="rt-checked-list__item rt-font-small-paragraph">List item 1</li>
               </ul>
             </div>
-            <div class="rt-col-4 rt-col-td-6">
+            <div class="rt-col-4 rt-col-td-3 rt-col-md-3 sp-t-2">
               <ul class='rt-numeric-list'>
                 <li class='rt-numeric-list__item rt-font-small-paragraph'>List item 1</li>
                 <li class='rt-numeric-list__item rt-font-small-paragraph'>List item 2</li>
@@ -74,9 +75,7 @@
               </ul>
             </div>
           </div>
-
         </div>
-
 
 <!--        <div class="rt-col rt-col-8 rt-col-td-3 rt-col-md-3">-->
 <!--          <h3 class='rt-font-bold rt-space-bottom15'>Часто задаваемые вопросы</h3>-->
