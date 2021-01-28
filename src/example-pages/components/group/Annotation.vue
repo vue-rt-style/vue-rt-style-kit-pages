@@ -56,9 +56,9 @@
                     <li class='rt-numeric-list__item'>
                       <p class='rt-font-small-paragraph'>Стандартное мобильное место сотрудника.</p>
                       <ul class='rt-ordered-list sp-t-1'>
-                        <li class='rt-ordered-list__item'>Защищенный доступ с мобильных устройств к ИС и БД</li>
-                        <li class='rt-ordered-list__item'>Централизованное управление и администрирование устройств</li>
-                        <li class='rt-ordered-list__item'>Удалённая работа с конфиденциальной информацией</li>
+                        <li class='rt-ordered-list__item rt-font-small-paragraph'>Защищенный доступ с мобильных устройств к ИС и БД</li>
+                        <li class='rt-ordered-list__item rt-font-small-paragraph'>Централизованное управление и администрирование устройств</li>
+                        <li class='rt-ordered-list__item rt-font-small-paragraph'>Удалённая работа с конфиденциальной информацией</li>
                       </ul>
                     </li>
                   </ul>
