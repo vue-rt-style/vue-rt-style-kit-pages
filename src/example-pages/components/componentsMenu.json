@@ -200,6 +200,14 @@
           "for_b2c" : true
         },
         {
+          "name" : "Message Box",
+          "title" : "Message Box",
+          "url" : "/message-box",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
           "name" : "opacity",
           "title" : "Opacity",
           "url" : "/opacity",
