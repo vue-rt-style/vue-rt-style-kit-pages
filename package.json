@@ -72,6 +72,8 @@
     "debounce": "^1.2.0",
     "element-closest-polyfill": "^1.0.0",
     "element-remove": "^1.0.4",
+    "eslint": "^7.19.0",
+    "eslint-plugin-vue": "^7.5.0",
     "filewatcher-webpack-plugin": "^1.2.0",
     "gulp": "^4.0.2",
     "gulp-shell": "^0.8.0",
