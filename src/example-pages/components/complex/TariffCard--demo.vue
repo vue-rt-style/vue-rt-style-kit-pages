@@ -274,7 +274,7 @@ export default {
     },
     cardSale(){
       return `
-<div class="rt-tariff is--sale">
+<div class="rt-tariff is--theme-orange">
   <div class="rt-tariff__title">Технологии выгоды. PRO</div>
   <div class="rt-tariff__badge">10%</div>
   <div class="rt-tariff-option">
@@ -356,7 +356,7 @@ export default {
     },
     cardDark(){
       return `
-<div class="rt-tariff is--dark">
+<div class="rt-tariff is--theme-dark">
   <div class="rt-tariff__title">Комбо игровой 4в1+</div>
   <div class="rt-tariff-option">
     <i class="rt-tariff-option__icon">
@@ -425,7 +425,7 @@ export default {
     },
     cardYaDisk(){
       return `
-<div class="rt-tariff is--yadisk">
+<div class="rt-tariff is--theme-yadisk">
   <div class="rt-tariff__title">Облачный</div>
   <div class="rt-tariff-option">
     <i class="rt-tariff-option__icon">
