@@ -9,6 +9,25 @@
         </div>
       </div>
       <div class="app-body">
+        <h1 class="sp-b-3">Попапчики</h1>
+        <div>
+          <rt-popup-trigger name="filter">
+            <rt-button  color="orange">
+              Попап 1
+            </rt-button>
+          </rt-popup-trigger>
+          <rt-popup name="filter">
+            <h1>А это попап 1</h1>
+          </rt-popup>
+          <rt-popup-trigger name="filter2">
+            <rt-button  color="orange">
+              Попап 2
+            </rt-button>
+          </rt-popup-trigger>
+          <rt-popup name="filter2">
+            <h1>А это попап 2</h1>
+          </rt-popup>
+        </div>
         <div class="app-row is-b2b">
           <div class="rt-col rt-space-bottom rt-space-top">
             <div class="row">

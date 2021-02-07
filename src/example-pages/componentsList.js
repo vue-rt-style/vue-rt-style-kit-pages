@@ -76,6 +76,7 @@ import {
   SlideContentDottedContent,
   SlideContentDottedHeader,
   Popup,
+  PopupTrigger,
   LinksBlock,
   Pattern,
   Swiper,
@@ -213,6 +214,9 @@ componentsList[Youtube.name] = Youtube;
 componentsList[Sticky.name] = Sticky;
 componentsList[ResizeContentHeight.name] = ResizeContentHeight;
 componentsList[Popup.name] = Popup;
+if(PopupTrigger) {
+  componentsList[PopupTrigger.name] = PopupTrigger;
+}
 componentsList[SlideContent.name] = SlideContent;
 componentsList[SlideContentDottedContent.name] = SlideContentDottedContent;
 componentsList[SlideContentDottedHeader.name] = SlideContentDottedHeader;

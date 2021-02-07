@@ -12,16 +12,42 @@
 						<div class="rt-col-4 rt-col-md-2">
 							<span class="rt-font-label flex-fill rt-space-bottom05">simple input</span>
             <h1>{{inputModel}}</h1>
-
-              <rt-input label="Начните вводить почту"
+              <div class="color-block--black">
+              <rt-input label="Поле ввода с паролем"
                         :version="2"
                         type="string"
+                        :bright="true"
+                        input-type="password"
+                        error-message="Текст ошибки"
                         v-model="inputModel"
                         value=""
-                        placeholder="Электронная почта!" >
-                <template slot="icon">
-                  <rt-system-icons name="calendar"></rt-system-icons>
-                </template>
+                        placeholder="Пароль" >
+              </rt-input>
+
+              <rt-input label="Поле ввода с числом( float)"
+                        :version="2"
+                        type="number"
+                        input-type="number"
+                        v-model="inputModel"
+                        :max-number="999"
+                        :bright="true"
+                        :min-number="-150"
+                        :step="2.5"
+                        value=""
+                        placeholder="рациональное число" >
+              </rt-input>
+              </div>
+              <rt-input label="Поле ввода с числом( integer)"
+                        :version="2"
+                        type="number"
+                        input-type="number"
+                        v-model="inputModel"
+                        :max-number="999"
+                        :min-number="10"
+                        :step="90"
+                        value=""
+                        :is-integer="true"
+                        placeholder="целое число" >
               </rt-input>
               <rt-input label="Начните вводить почту!!"
                         :version="2"
@@ -95,7 +121,7 @@
 						<div class="rt-col-1"/>
 						<div class="rt-col-3 rt-col-md-3">
 							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">password input</span>
-							<rt-input type="password" placeholder="Введите пароль"/>
+							<rt-input input-type="password" type="password" placeholder="Введите пароль"/>
 						</div>
 					</div>
 					<div class="app-row row">
@@ -283,7 +309,8 @@
       inputModelValue: "test",
       documentation: {},
       inputValue: "test",
-      inputModel: '123'
+      inputModel: '123',
+      inputPasswordType: 'password'
     }),
     mounted() {
       this.documentation = documentation;
@@ -291,6 +318,17 @@
     created() {
     },
     methods: {
+
+      changeInputType(){
+        if(this.inputPasswordType == 'password'){
+          this.inputPasswordType = 'text';
+        }else{
+          this.inputPasswordType = 'password';
+        }
+      },
+      openCalendar(e,a,b){
+        console.info('openCalendar',e,a,b)
+      },
       clearInput() {
         this.inputValue = "ббб";
       },
