@@ -15,7 +15,7 @@
 
                 <div class="rt-col-12 rt-space-bottom3 is-b2c">
                   <pre-code text='
-                  <rt-tabs :version="2" background="gray" :orange="true"  :show-as-tags="true">
+                  <rt-tabs :version="2" background="gray" :show-as-tags="true">
                     <template slot="navigation">
                       <rt-tabs-nav-item anchor="ready!" name="tabs21">
                       <rt-system-icons name="achievement"></rt-system-icons> Готов
@@ -107,7 +107,7 @@
                     </template>
                   </rt-tabs>'></pre-code>
                   <pre-code text='
-                  <rt-tabs :version="2" background="gray">
+                  <rt-tabs :version="2" >
                     <template slot="navigation">
                       <rt-tabs-nav-item anchor="ready!" name="0tabs21">
                       <rt-system-icons name="0achievement"></rt-system-icons> Готов
@@ -201,7 +201,7 @@
 
 
                   <pre-code text='
-                  <rt-tabs :version="2" background="gray" :small="true" >
+                  <rt-tabs :version="2" :small="true" >
                     <template slot="navigation">
                       <rt-tabs-nav-item anchor="10ready!" name="3tabs21">
                       <rt-system-icons name="3achievement"></rt-system-icons> Готов
