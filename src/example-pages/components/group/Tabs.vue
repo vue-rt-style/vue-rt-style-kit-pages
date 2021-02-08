@@ -15,7 +15,7 @@
 
                 <div class="rt-col-12 rt-space-bottom3 is-b2c">
                   <pre-code text='
-                  <rt-tabs :version="2">
+                  <rt-tabs :version="2" background="gray" :orange="true"  :show-as-tags="true">
                     <template slot="navigation">
                       <rt-tabs-nav-item anchor="ready!" name="tabs21">
                       <rt-system-icons name="achievement"></rt-system-icons> Готов

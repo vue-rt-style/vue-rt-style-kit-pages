@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import documentation from "@vue-rt-style-kit-molecules-local/components/MessageBox/docs/index.json";
+// import documentation from "@vue-rt-style-kit-molecules-local/components/MessageBox/docs/index.json";
 import componentsList from "../../componentsList";
 
 export default {
@@ -38,7 +38,7 @@ export default {
     theme: 'light'
   }),
   mounted() {
-    this.documentation = documentation;
+    // this.documentation = documentation;
   },
   methods: {
     changeTheme() {
