@@ -20,7 +20,6 @@ gulp.task(
         "mkdir ./docs/static/example-images",
         "cp -R ./static/example-images/* ./docs/static/example-images",
         "cp -R ./404.html ./docs/",
-        "perl -pi -w -e 's/\\/static\\/example-images\\//\\/vue-rt-style-kit-pages\\/static\\/example-images\\//g' ./docs/main.js\n",
         "git add ./docs/*",
         "git commit -a -m'deploy docs'",
         "git push",
@@ -31,7 +30,7 @@ gulp.task(
         // "perl -pi -w -e 's/src=\\//src=/g' ./docs/index.html",
         // "perl -pi -w -e 's/src=\\//src=/g' ./docs/index.html" ,
         //  'perl -pi -w -e \'s/"\\/"/""/\' ./docs/main.js',
-        
+        // "perl -pi -w -e 's/\\/static\\/example-images\\//\\/vue-rt-style-kit-pages\\/static\\/example-images\\//g' ./docs/main.js\n",
         // "perl -pi -w -e 's/\\/static\\/images\\//\\/vue-rt-style-kit-pages\\/static\\/images\\//g' ./docs/main.js\n",
         //
         // "perl -pi -w -e 's/to\\:\\\"\\//to\\:\\\"\\/vue-rt-style-kit-pages\\/docs\\//g' ./docs/main.js\n",

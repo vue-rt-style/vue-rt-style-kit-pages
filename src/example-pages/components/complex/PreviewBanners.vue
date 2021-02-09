@@ -12,10 +12,10 @@
 
       <pre-code text='<rt-preview-banner>
         <template slot="image">
-          <rt-img src="/static/example-images/previewImage/previewImage.png"
-                  x2-src="/static/example-images/previewImage/previewImage2x.png"
-                  td-src="/static/example-images/previewImage/previewImage-td.png"
-                  md-src="/static/example-images/previewImage/previewImage-md.png"
+          <rt-img src="https://vue-rt-style.github.io/vue-rt-style-kit-pages/static/example-images/previewImage/previewImage.png"
+                  x2-src="https://vue-rt-style.github.io/vue-rt-style-kit-pages/static/example-images/previewImage/previewImage2x.png"
+                  td-src="https://vue-rt-style.github.io/vue-rt-style-kit-pages/static/example-images/previewImage/previewImage-td.png"
+                  md-src="https://vue-rt-style.github.io/vue-rt-style-kit-pages/static/example-images/previewImage/previewImage-md.png"
           ></rt-img>
         </template>
         <template slot="date"><div class="d-flex flex-v-center"><rt-system-icons name="calendar"></rt-system-icons><span class="sp-l-0-2">1  мая по 31 декабря 2020 г.</span></div></template>
