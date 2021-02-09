@@ -27,12 +27,9 @@ Vue.use(VueRtStyleAtoms);
 Vue.use(VueRtStyleIcons);
 Vue.use(VueRtStyleMolecules);
 // Vue.use(VueRtStyleAks);
-let href = location.href
-if(href.search('vue-rt-style-kit-pages')>0) {
-  routes.routes.forEach((r) => {
-    r.path = '/vue-rt-style-kit-pages' + r.path;
-  })
-}
+if(globalVars?.PAGES_BASE_DIR)
+  routes.routes.forEach((r) => r.path = `/${globalVars.PAGES_BASE_DIR}${r.path}`)
+
 const router = new VueRouter({
   mode: "history",
   routes: routes.routes

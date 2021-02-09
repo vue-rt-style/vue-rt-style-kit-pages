@@ -7,6 +7,7 @@
     "start": "node  bin/local/index.js",
     "build": "cross-env NODE_ENV=production webpack --config ./bin/webpack.config.lib.js",
     "build:docs": "cross-env NODE_ENV=production webpack --config ./bin/webpack.config.docs.js",
+    "build:test": "cross-env NODE_ENV=production NODE_ENV_PATH='dist' NODE_CONTOUR='test' webpack --config ./bin/webpack.config.docs.js",
     "build:icons": "npx vsvg -s ./src/icons/components/Icon/generator/svg -t ./static/icons --tpl ./src/icons/components/Icon/generator/icon-tpl.js"
   },
   "repository": {
@@ -68,6 +69,7 @@
     "babel-plugin-transform-vue-jsx": "^3.7.0",
     "babel-preset-env": "^1.7.0",
     "compression": "^1.7.4",
+    "copy-webpack-plugin": "6.2.1",
     "cross-env": "^7.0.2",
     "css-loader": "^3.5.3",
     "debounce": "^1.2.0",
