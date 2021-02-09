@@ -116,7 +116,8 @@ import {
   Jumbotron,
   CarouselV2,
   CarouselSlideV2,
-  AdBanner
+  AdBanner,
+  PreviewBanner
   
 } from '@vue-rt-style-kit-molecules-local'
 
@@ -259,6 +260,7 @@ componentsList[CarouselSlideV2.name] = CarouselSlideV2;
 
 componentsList[Slider.name] = Slider;
 componentsList[AdBanner.name] = AdBanner;
+componentsList[PreviewBanner.name] = PreviewBanner;
 componentsList[SliderItem.name] = SliderItem;
 
 componentsList[Jumbotron.name] = Jumbotron;
