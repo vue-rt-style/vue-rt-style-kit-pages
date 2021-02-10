@@ -32,5 +32,5 @@ jobs:
           server: vh206.timeweb.ru
           username: v3ctor_ftp
           password: XpBCc8v2
-          local-dir: ./dist
-          server-dir: ./stylekit-test
+          local-dir: ./dist/
+          server-dir: ./stylekit-test/
