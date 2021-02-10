@@ -33,7 +33,7 @@
       <br>
       <pre-code text='<rt-preview-banner background="dark-slate" color="white">
         <template slot="image">
-          <rt-img src="https://vue-rt-style.github.io/vue-rt-style-kit-pages/static/example-images/previewImage/Box.png"
+          <rt-img src="https://vue-rt-style.github.io/vue-rt-style-kit-pages/static/example-images/previewImage/Box.jpg"
 
           ></rt-img>
         </template>
