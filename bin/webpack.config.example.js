@@ -3,7 +3,7 @@ const path = require(`path`);
 const HtmlWebpackPlugin = require(`html-webpack-plugin`);
 const webpack = require('webpack');
 const filewatcherPlugin = require("filewatcher-webpack-plugin");
-
+const baseDir = process.env.NODE_ENV_PATH || ''
 const local_dirname = path.join(__dirname, '..')
 function include () {
   return [
@@ -114,6 +114,11 @@ const config = {
       template: path.join(local_dirname, `static`, `index.html`),
       inject: true,
     }),
+    new webpack.DefinePlugin({
+      'globalVars': JSON.stringify({
+        PAGES_BASE_DIR: baseDir
+      })
+    })
   ]
 };
 
