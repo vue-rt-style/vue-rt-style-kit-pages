@@ -28,8 +28,10 @@ jobs:
       #    npm run biild:test
 
       - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        uses: sebastianpopp/ftp-action@v2.0.0
         with:
-          server: ftp.vh206.timeweb.ru
-          username: v3ctor_ftp
-          password: uE6m2zUV
+          host: vh206.timeweb.ru
+          user: v3ctor_ftp
+          password: XpBCc8v2
+          localDir: ./dist
+          remoteDir: ./stylekit-test
