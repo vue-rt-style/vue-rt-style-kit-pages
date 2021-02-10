@@ -9,19 +9,27 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: 🚚 Get latest code
         uses: actions/checkout@v2
 
-      - name: Use Node.js 12.14.1
-        uses: actions/setup-node@v2-beta
-        with:
-          node-version: '12.14.1'
+      #- name: Use Node.js 12.14.1
+      #  uses: actions/setup-node@v2-beta
+      #  with:
+      #    node-version: '12.14.1'
 
-      - name: 🔨 Build Project
-        run: |
-          npm install
-          npm run biild:test
+      #- name: 🔨 Build Project
+      #  run: |
+      #    npm install
+      #    npm run biild:test
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ftp.vh206.timeweb.ru
+          username: v3ctor_ftp
+          password: uE6m2zUV
