@@ -8,7 +8,9 @@
         </div>
       </div>
     </div>
+    <div class="color-block--dark-blue sp-v-2">
     <div class="rt-container">
+
       <rt-row >
         <rt-col :size="6" :tablet-size="6" :mobile-size="3">
           <pre-code text='
@@ -63,7 +65,7 @@
           </rt-arrow-block>'></pre-code>
         </rt-col>
       </rt-row>
-
+      </div>
     </div>
   </div>
 </template>
