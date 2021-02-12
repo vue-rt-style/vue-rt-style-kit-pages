@@ -344,6 +344,14 @@
           "for_b2c" : true
         },
         {
+          "name" : "arrow-block",
+          "title" : "Arrow block",
+          "url" : "/arrow-block",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
           "name" : "options-list",
           "title" : "Options list",
           "url" : "/options-list",
