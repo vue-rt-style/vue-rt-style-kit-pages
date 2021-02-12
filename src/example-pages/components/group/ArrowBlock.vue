@@ -11,6 +11,7 @@
     <div class="rt-container">
       <rt-row >
         <rt-col :size="6" :tablet-size="6" :mobile-size="3">
+          <pre-code text='
           <rt-arrow-block href="rt.ru">
             <template slot="icon">
               <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -29,37 +30,37 @@
             </template>
             <template slot="label">Поиск платежа</template>
             <template slot="content">Проверьте историю платежей или выставленных счетов за услуги Ростелекома</template>
-          </rt-arrow-block>
+          </rt-arrow-block>'></pre-code>
         </rt-col>
         <rt-col :size="2" :t-hide="true">
         </rt-col>
         <rt-col :size="4" :tablet-size="6" :mobile-size="3" class="td-sp-v-1">
-          <rt-arrow-block href="rt.ru">
+          <pre-code text='<rt-arrow-block href="rt.ru">
             <template slot="icon">
               <rt-img src="https://moscow-n1.rt.ru/sites/default/files/img/books_page/books-icon-3.svg"></rt-img>
             </template>
             <template slot="label">Поиск платежа</template>
             <template slot="content">Проверьте историю платежей или выставленных счетов за услуги Ростелекома</template>
-          </rt-arrow-block>
+          </rt-arrow-block>'></pre-code>
 
         </rt-col>
 
       </rt-row>
       <rt-row >
         <rt-col :size="4" :tablet-size="6" :mobile-size="3" class="sp-t-1 td-sp-t-none">
-          <rt-arrow-block href="rt.ru">
+          <pre-code text='<rt-arrow-block href="rt.ru">
 
             <template slot="label">Поиск платежа</template>
             <template slot="content">Проверьте историю платежей или выставленных счетов за услуги Ростелекома</template>
-          </rt-arrow-block>
+          </rt-arrow-block>'></pre-code>
         </rt-col>
         <rt-col :size="2" :t-hide="true"></rt-col>
         <rt-col :size="6" :tablet-size="6" :mobile-size="3" class="sp-t-1">
-          <rt-arrow-block href="rt.ru">
+          <pre-code text='<rt-arrow-block href="rt.ru">
 
             <template slot="label">Поиск платежа</template>
             <template slot="content">Проверьте историю платежей или выставленных счетов за услуги Ростелекома</template>
-          </rt-arrow-block>
+          </rt-arrow-block>'></pre-code>
         </rt-col>
       </rt-row>
 
