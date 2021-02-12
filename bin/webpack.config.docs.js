@@ -4,6 +4,8 @@ const HtmlWebpackPlugin = require(`html-webpack-plugin`);
 const CopyPlugin = require("copy-webpack-plugin")
 const webpack = require('webpack');
 // const fs = require('fs');
+const nib = require('nib');
+const stylusLoader = require('stylus-loader');
 const local_dirname = path.join(__dirname,'..');
 const pathSettings = require('./pathSettings')
 const baseDir = process.env.NODE_ENV_PATH || 'vue-rt-style-kit-pages'
@@ -103,6 +105,7 @@ const config = {
           {loader:`css-loader`},
           {
             loader: `stylus-loader`,
+            
           },
         ],
       },
@@ -117,6 +120,12 @@ const config = {
     ],
   },
   plugins: [
+    new stylusLoader.OptionsPlugin({
+      default: {
+        use: [nib()],
+        import: ['~nib/lib/nib/index.styl']
+      }
+    }),
     new HtmlWebpackPlugin({
       filename: `index.html`,
       template: path.join(local_dirname, `static`, `index.html`),

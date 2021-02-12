@@ -40,6 +40,7 @@ const index = [
   { path: "/slide-content", name: "app-slide-content", component: () => import("../components/simple/SlideContent.vue") },
 
   // group
+  { path: "/arrow-block", name: "arrow-block", component: () => import("../components/group/ArrowBlock.vue") },
   { path: "/list", name: "app-list", component: () => import("../components/group/List.vue") },
   { path: "/table", name: "app-table", component: () => import("../components/group/Table.vue") },
   { path: "/annotation", name: "app-annotation", component: () => import("../components/group/Annotation.vue") },
