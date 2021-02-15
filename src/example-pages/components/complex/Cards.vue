@@ -25,8 +25,9 @@
               <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
             </template>
             <template slot="label">Для автомобильного бизнеса</template>
-            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими  и динамичными рекламными
-              вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
+            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
+              вывесками, увеличивайте продажи дополнительных услуг на 30%
+            </template>
           </rt-card-rounded>
         </rt-carousel-slide-v2>
         <rt-carousel-slide-v2 parent-carousel-name="1">
@@ -35,8 +36,9 @@
               <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
             </template>
             <template slot="label">Для</template>
-            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими  и динамичными рекламными
-              вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
+            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
+              вывесками, увеличивайте продажи дополнительных услуг на 30%
+            </template>
           </rt-card-rounded>
         </rt-carousel-slide-v2>
         <rt-carousel-slide-v2 parent-carousel-name="1">
@@ -45,7 +47,7 @@
               <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
             </template>
             <template slot="label">Для автомобильного бизнеса</template>
-            <template slot="content-large-space">Привлекайте на 70% </template>
+            <template slot="content-large-space">Привлекайте на 70%</template>
           </rt-card-rounded>
         </rt-carousel-slide-v2>
         <rt-carousel-slide-v2 parent-carousel-name="1">
@@ -54,8 +56,9 @@
               <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
             </template>
             <template slot="label">Для автомобильного бизнеса</template>
-            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими  и динамичными рекламными
-              вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
+            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
+              вывесками, увеличивайте продажи дополнительных услуг на 30%
+            </template>
           </rt-card-rounded>
         </rt-carousel-slide-v2>
         <rt-carousel-slide-v2 parent-carousel-name="1">
@@ -64,8 +67,9 @@
               <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
             </template>
             <template slot="label">Для автомобильного бизнеса</template>
-            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими  и динамичными рекламными
-              вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
+            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
+              вывесками, увеличивайте продажи дополнительных услуг на 30%
+            </template>
           </rt-card-rounded>
         </rt-carousel-slide-v2>
       </rt-carousel-v2>
@@ -77,34 +81,56 @@
         <rt-card-rounded :preview-card="true" href="#" :with-icon="true">
           <template slot="image">
             <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.8375 7H33.1625C34.1775 7 35 7.8225 35 8.8375V47.1625C35 48.1775 34.1775 49 33.1625 49H8.8375C7.8225 49 7 48.1775 7 47.1625V8.8375C7 7.8225 7.8225 7 8.8375 7ZM33.25 8.8375C33.25 8.785 33.215 8.75 33.1625 8.75H8.8375C8.785 8.75 8.75 8.785 8.75 8.8375V47.1625C8.75 47.215 8.785 47.25 8.8375 47.25H33.1625C33.215 47.25 33.25 47.215 33.25 47.1625V8.8375Z" fill="#101828"/>
-              <path d="M21 45.5C21.4725 45.5 21.875 45.115 21.875 44.625C21.875 44.135 21.4725 43.75 21 43.75C20.5275 43.75 20.125 44.135 20.125 44.625C20.125 45.115 20.5275 45.5 21 45.5Z" fill="#101828"/>
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M8.8375 7H33.1625C34.1775 7 35 7.8225 35 8.8375V47.1625C35 48.1775 34.1775 49 33.1625 49H8.8375C7.8225 49 7 48.1775 7 47.1625V8.8375C7 7.8225 7.8225 7 8.8375 7ZM33.25 8.8375C33.25 8.785 33.215 8.75 33.1625 8.75H8.8375C8.785 8.75 8.75 8.785 8.75 8.8375V47.1625C8.75 47.215 8.785 47.25 8.8375 47.25H33.1625C33.215 47.25 33.25 47.215 33.25 47.1625V8.8375Z"
+                    fill="#101828"/>
+              <path
+                  d="M21 45.5C21.4725 45.5 21.875 45.115 21.875 44.625C21.875 44.135 21.4725 43.75 21 43.75C20.5275 43.75 20.125 44.135 20.125 44.625C20.125 45.115 20.5275 45.5 21 45.5Z"
+                  fill="#101828"/>
               <rect x="7" y="40.25" width="28" height="1.75" fill="#101828"/>
-              <path d="M43.33 12.2849L42.2975 13.7199C45.325 16.3099 47.25 20.1424 47.25 24.4124C47.25 28.6999 45.325 32.5324 42.2975 35.1049L43.33 36.5399C46.795 33.6524 49.0175 29.2774 49.0175 24.4124C49 19.5474 46.795 15.1899 43.33 12.2849Z" fill="#101828"/>
-              <path d="M41.6325 15.8726L40.6 17.3076C42.525 19.0751 43.75 21.5951 43.75 24.4126C43.75 27.2301 42.525 29.7676 40.6 31.5351L41.6325 32.9701C43.995 30.8876 45.5 27.8251 45.5 24.4126C45.5 21.0176 43.995 17.9551 41.6325 15.8726Z" fill="#101828"/>
-              <path d="M39.8825 19.53L38.8325 20.9825C39.7075 21.9275 40.25 23.17 40.25 24.535C40.25 25.865 39.7425 27.055 38.9375 27.9825L39.9875 29.4525C41.23 28.1925 42 26.46 42 24.535C42 22.575 41.1775 20.8075 39.8825 19.53Z" fill="#101828"/>
+              <path
+                  d="M43.33 12.2849L42.2975 13.7199C45.325 16.3099 47.25 20.1424 47.25 24.4124C47.25 28.6999 45.325 32.5324 42.2975 35.1049L43.33 36.5399C46.795 33.6524 49.0175 29.2774 49.0175 24.4124C49 19.5474 46.795 15.1899 43.33 12.2849Z"
+                  fill="#101828"/>
+              <path
+                  d="M41.6325 15.8726L40.6 17.3076C42.525 19.0751 43.75 21.5951 43.75 24.4126C43.75 27.2301 42.525 29.7676 40.6 31.5351L41.6325 32.9701C43.995 30.8876 45.5 27.8251 45.5 24.4126C45.5 21.0176 43.995 17.9551 41.6325 15.8726Z"
+                  fill="#101828"/>
+              <path
+                  d="M39.8825 19.53L38.8325 20.9825C39.7075 21.9275 40.25 23.17 40.25 24.535C40.25 25.865 39.7425 27.055 38.9375 27.9825L39.9875 29.4525C41.23 28.1925 42 26.46 42 24.535C42 22.575 41.1775 20.8075 39.8825 19.53Z"
+                  fill="#101828"/>
             </svg>
           </template>
           <template slot="label">Для автомобильного бизнеса</template>
-          <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими  и динамичными рекламными
-            вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
+          <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
+            вывесками, увеличивайте продажи дополнительных услуг на 30%
+          </template>
         </rt-card-rounded>
       </rt-carousel-slide-v2>
       <rt-carousel-slide-v2 parent-carousel-name="2">
         <rt-card-rounded :preview-card="true" href="#" :with-icon="true" background-color="main-color003">
           <template slot="image">
             <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.8375 7H33.1625C34.1775 7 35 7.8225 35 8.8375V47.1625C35 48.1775 34.1775 49 33.1625 49H8.8375C7.8225 49 7 48.1775 7 47.1625V8.8375C7 7.8225 7.8225 7 8.8375 7ZM33.25 8.8375C33.25 8.785 33.215 8.75 33.1625 8.75H8.8375C8.785 8.75 8.75 8.785 8.75 8.8375V47.1625C8.75 47.215 8.785 47.25 8.8375 47.25H33.1625C33.215 47.25 33.25 47.215 33.25 47.1625V8.8375Z" fill="#101828"/>
-              <path d="M21 45.5C21.4725 45.5 21.875 45.115 21.875 44.625C21.875 44.135 21.4725 43.75 21 43.75C20.5275 43.75 20.125 44.135 20.125 44.625C20.125 45.115 20.5275 45.5 21 45.5Z" fill="#101828"/>
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M8.8375 7H33.1625C34.1775 7 35 7.8225 35 8.8375V47.1625C35 48.1775 34.1775 49 33.1625 49H8.8375C7.8225 49 7 48.1775 7 47.1625V8.8375C7 7.8225 7.8225 7 8.8375 7ZM33.25 8.8375C33.25 8.785 33.215 8.75 33.1625 8.75H8.8375C8.785 8.75 8.75 8.785 8.75 8.8375V47.1625C8.75 47.215 8.785 47.25 8.8375 47.25H33.1625C33.215 47.25 33.25 47.215 33.25 47.1625V8.8375Z"
+                    fill="#101828"/>
+              <path
+                  d="M21 45.5C21.4725 45.5 21.875 45.115 21.875 44.625C21.875 44.135 21.4725 43.75 21 43.75C20.5275 43.75 20.125 44.135 20.125 44.625C20.125 45.115 20.5275 45.5 21 45.5Z"
+                  fill="#101828"/>
               <rect x="7" y="40.25" width="28" height="1.75" fill="#101828"/>
-              <path d="M43.33 12.2849L42.2975 13.7199C45.325 16.3099 47.25 20.1424 47.25 24.4124C47.25 28.6999 45.325 32.5324 42.2975 35.1049L43.33 36.5399C46.795 33.6524 49.0175 29.2774 49.0175 24.4124C49 19.5474 46.795 15.1899 43.33 12.2849Z" fill="#101828"/>
-              <path d="M41.6325 15.8726L40.6 17.3076C42.525 19.0751 43.75 21.5951 43.75 24.4126C43.75 27.2301 42.525 29.7676 40.6 31.5351L41.6325 32.9701C43.995 30.8876 45.5 27.8251 45.5 24.4126C45.5 21.0176 43.995 17.9551 41.6325 15.8726Z" fill="#101828"/>
-              <path d="M39.8825 19.53L38.8325 20.9825C39.7075 21.9275 40.25 23.17 40.25 24.535C40.25 25.865 39.7425 27.055 38.9375 27.9825L39.9875 29.4525C41.23 28.1925 42 26.46 42 24.535C42 22.575 41.1775 20.8075 39.8825 19.53Z" fill="#101828"/>
+              <path
+                  d="M43.33 12.2849L42.2975 13.7199C45.325 16.3099 47.25 20.1424 47.25 24.4124C47.25 28.6999 45.325 32.5324 42.2975 35.1049L43.33 36.5399C46.795 33.6524 49.0175 29.2774 49.0175 24.4124C49 19.5474 46.795 15.1899 43.33 12.2849Z"
+                  fill="#101828"/>
+              <path
+                  d="M41.6325 15.8726L40.6 17.3076C42.525 19.0751 43.75 21.5951 43.75 24.4126C43.75 27.2301 42.525 29.7676 40.6 31.5351L41.6325 32.9701C43.995 30.8876 45.5 27.8251 45.5 24.4126C45.5 21.0176 43.995 17.9551 41.6325 15.8726Z"
+                  fill="#101828"/>
+              <path
+                  d="M39.8825 19.53L38.8325 20.9825C39.7075 21.9275 40.25 23.17 40.25 24.535C40.25 25.865 39.7425 27.055 38.9375 27.9825L39.9875 29.4525C41.23 28.1925 42 26.46 42 24.535C42 22.575 41.1775 20.8075 39.8825 19.53Z"
+                  fill="#101828"/>
             </svg>
           </template>
           <template slot="label">Для автомобильного бизнеса</template>
-          <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими  и динамичными рекламными
-            вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
+          <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
+            вывесками, увеличивайте продажи дополнительных услуг на 30%
+          </template>
         </rt-card-rounded>
       </rt-carousel-slide-v2>
       <div class="sp-t-2"/>
@@ -1370,6 +1396,140 @@
                     </div>
                     '></pre-code>
           <div class="row">
+            <div class="rt-col-4 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+              <rt-card-image
+                  :version="2"
+                  class="full-height"
+                  :is-white-color="true"
+                  size-type="small"
+                  :col-size="2"
+                  background-color-type="light-blue"
+                  card-image="/static/images/cardImage2.jpg">
+                <template slot="label">Headstone</template>
+                <template slot="body">
+                  <p class="rt-font-label-uppercase">
+                    игровой интернет
+                  </p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                </template>
+              </rt-card-image>
+            </div>
+            <div class="rt-col-4 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+              <rt-card-image
+                  :version="2"
+                  href="https://google.com"
+                  class="full-height"
+                  :is-white-color="true"
+                  size-type="small"
+                  :col-size="2"
+
+                  card-image="/static/images/cardImage3.jpg">
+                <template slot="label">Headstone</template>
+                <template slot="body">
+                  <p class="rt-font-label-uppercase">
+                    игровой интернет
+                  </p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                </template>
+              </rt-card-image>
+            </div>
+            <div class="rt-col-4 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+              <rt-card-image
+                  :version="2"
+                  class="full-height"
+                  :is-white-color="true"
+                  size-type="small"
+                  :col-size="2"
+
+                  card-image="/static/images/cardImage1.jpg">
+                <template slot="label">Headstone</template>
+                <template slot="body">
+                  <p class="rt-font-label-uppercase">
+                    игровой интернет
+                  </p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                </template>
+              </rt-card-image>
+            </div>
+          </div>
+          <div class="row">
+            <div class="rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+              <a href="https://ya.ru"><rt-card-image
+                  :version="2"
+                  class="full-height"
+                  :is-white-color="true"
+                  :col-size="2"
+
+                  card-image="/static/images/cardImage1.jpg">
+                <template slot="label">Headstone</template>
+                <template slot="body">
+                  <p class="rt-font-label-uppercase">
+                    игровой интернет
+                  </p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                </template>
+              </rt-card-image></a>
+            </div>
+            <div class="rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+              <rt-card-image
+                  :version="2"
+                  class="full-height"
+                  :is-white-color="true"
+                  :col-size="2"
+
+                  card-image="/static/images/cardImage2.jpg">
+                <template slot="label">Headstone</template>
+                <template slot="body">
+                  <p class="rt-font-label-uppercase">
+                    игровой интернет
+                  </p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                </template>
+              </rt-card-image>
+            </div>
+            <div class="rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+              <rt-card-image
+                  :version="2"
+                  href="https://google.com"
+                  class="full-height"
+                  :is-white-color="true"
+                  :col-size="2"
+                  background-color-type="light-blue"
+                  card-image="/static/images/cardImage3.jpg">
+                <template slot="label">Headstone</template>
+                <template slot="body">
+                  <p class="rt-font-label-uppercase">
+                    игровой интернет
+                  </p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                </template>
+              </rt-card-image>
+            </div>
+            <div class="rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+              <rt-card-image
+                  :version="2"
+                  class="full-height"
+                  :is-white-color="true"
+                  :col-size="2"
+                  background-color-type="light-blue"
+                  card-image="/static/images/cardImage1.jpg">
+                <template slot="label">Headstone</template>
+                <template slot="body">
+                  <p class="rt-font-label-uppercase">
+                    игровой интернет
+                  </p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                </template>
+              </rt-card-image>
+            </div>
+          </div>
+          <div class="row">
             <div class="rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
               <rt-card-image
                   :is-white-color="true"
@@ -2436,11 +2596,13 @@
                     </div>
                   </template>
                   <template slot="expanding-block">
-                    <div class="rtb-card__expanding-button d-inline-flex d-space-between tagline color-purple rt-space-bottom05-half">
+                    <div
+                        class="rtb-card__expanding-button d-inline-flex d-space-between tagline color-purple rt-space-bottom05-half">
                       <span class="card-expander">включено сервисов</span>
                       <span class="card-expander">4</span>
                     </div>
-                    <div class="rtb-card__expanding-content rt-space-left rt-font-control color-main07 rt-md-space-left-none">
+                    <div
+                        class="rtb-card__expanding-content rt-space-left rt-font-control color-main07 rt-md-space-left-none">
                       <p class="with-icon rt-space-bottom05">Переадресация</p>
                       <p class="with-icon rt-space-bottom05">Голосовое меню IVR</p>
                       <p class="with-icon rt-space-bottom05">Распределение звонков</p>

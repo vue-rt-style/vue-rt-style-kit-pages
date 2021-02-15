@@ -9,11 +9,48 @@
       </div>
     </div>
     <div class="color-block--dark-blue sp-v-2">
-    <div class="rt-container">
+      <div class="rt-container">
+        <rt-row class="sp-b-2">
+          <rt-col :size="6" :t-hide="true">
+            <div class="rt-font-paragraph color-block--black round-border color-white sp-v-2 sp-h-1">
+              <p class="rt-font-paragraph sp-v-0-2">По итогам проверочной работы учащиеся школ города получили определённое количество баллов, различное у каждого из участников. K учеников с самым высоким результатом относят к группе отличников, а K следующих за ними – к группе хорошистов.</p>
+              <p class="rt-font-paragraph">По заданной информации о результатах каждого из учащихся, а также количеству учащихся в каждой группе определите целую часть среднего балла в группе отличников и группе хорошистов.</p>
+              <p class="font-bold sp-t-2 sp-b-1 rt-font-small-paragraph">Входные данные.</p>
+              <p class="rt-font-paragraph sp-b-0-2">В первой строке входного файла находится два числа, записанные через пробел: N – общее количество результатов учащихся (натуральное число, не превышающее 10 000), K – количество учащихся в каждой из групп.</p>
+              <p class="rt-font-paragraph">В следующих N строках находятся количества баллов конкретных учащихся (все числа натуральные, не превышающие 1000), каждое в отдельной строке. Запишите в ответе два числа через пробел: сначала целую часть среднего балла у хорошистов, а затем целую часть среднего балла у отличников.</p>
+            </div>
+          </rt-col>
+          <rt-col :size="6" :tablet-size="6" :mobile-size="3">
+            <rt-row class="d-flex full-height">
+              <rt-col>
+                <rt-arrow-block href="rt.ru" class="full-height">
+                  <template slot="icon">
+                    <rt-img src="https://moscow-n1.rt.ru/sites/default/files/img/books_page/books-icon-3.svg"></rt-img>
+                  </template>
+                  <template slot="label">Поиск платежа</template>
+                  <template slot="content">Проверьте историю платежей или выставленных счетов за услуги Ростелекома
+                  </template>
+                </rt-arrow-block>
+              </rt-col>
+              <rt-col class="sp-t-1">
+                <rt-arrow-block href="rt.ru" class="full-height">
+                  <template slot="icon">
+                    <rt-img src="https://moscow-n1.rt.ru/sites/default/files/img/books_page/books-icon-3.svg"></rt-img>
+                  </template>
+                  <template slot="label">Поиск платежа</template>
+                  <template slot="content">Проверьте историю платежей или выставленных счетов за услуги Ростелекома
+                  </template>
+                </rt-arrow-block>
+              </rt-col>
+            </rt-row>
 
-      <rt-row >
-        <rt-col :size="6" :tablet-size="6" :mobile-size="3">
-          <pre-code text='
+
+          </rt-col>
+
+        </rt-row>
+        <rt-row>
+          <rt-col :size="6" :tablet-size="6" :mobile-size="3">
+            <pre-code text='
           <rt-arrow-block href="rt.ru">
             <template slot="icon">
               <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,11 +70,11 @@
             <template slot="label">Поиск платежа</template>
             <template slot="content">Проверьте историю платежей или выставленных счетов за услуги Ростелекома</template>
           </rt-arrow-block>'></pre-code>
-        </rt-col>
-        <rt-col :size="2" :t-hide="true">
-        </rt-col>
-        <rt-col :size="4" :tablet-size="6" :mobile-size="3" class="td-sp-v-1">
-          <pre-code text='<rt-arrow-block href="rt.ru">
+          </rt-col>
+          <rt-col :size="2" :t-hide="true">
+          </rt-col>
+          <rt-col :size="4" :tablet-size="6" :mobile-size="3" class="td-sp-v-1">
+            <pre-code text='<rt-arrow-block href="rt.ru">
             <template slot="icon">
               <rt-img src="https://moscow-n1.rt.ru/sites/default/files/img/books_page/books-icon-3.svg"></rt-img>
             </template>
@@ -45,26 +82,26 @@
             <template slot="content">Проверьте историю платежей или выставленных счетов за услуги Ростелекома</template>
           </rt-arrow-block>'></pre-code>
 
-        </rt-col>
+          </rt-col>
 
-      </rt-row>
-      <rt-row >
-        <rt-col :size="4" :tablet-size="6" :mobile-size="3" class="sp-t-1 td-sp-t-none">
-          <pre-code text='<rt-arrow-block href="rt.ru">
-
-            <template slot="label">Поиск платежа</template>
-            <template slot="content">Проверьте историю платежей или выставленных счетов за услуги Ростелекома</template>
-          </rt-arrow-block>'></pre-code>
-        </rt-col>
-        <rt-col :size="2" :t-hide="true"></rt-col>
-        <rt-col :size="6" :tablet-size="6" :mobile-size="3" class="sp-t-1">
-          <pre-code text='<rt-arrow-block href="rt.ru">
+        </rt-row>
+        <rt-row>
+          <rt-col :size="4" :tablet-size="6" :mobile-size="3" class="sp-t-1 td-sp-t-none">
+            <pre-code text='<rt-arrow-block href="rt.ru">
 
             <template slot="label">Поиск платежа</template>
             <template slot="content">Проверьте историю платежей или выставленных счетов за услуги Ростелекома</template>
           </rt-arrow-block>'></pre-code>
-        </rt-col>
-      </rt-row>
+          </rt-col>
+          <rt-col :size="2" :t-hide="true"></rt-col>
+          <rt-col :size="6" :tablet-size="6" :mobile-size="3" class="sp-t-1">
+            <pre-code text='<rt-arrow-block href="rt.ru">
+
+            <template slot="label">Поиск платежа</template>
+            <template slot="content">Проверьте историю платежей или выставленных счетов за услуги Ростелекома</template>
+          </rt-arrow-block>'></pre-code>
+          </rt-col>
+        </rt-row>
       </div>
     </div>
   </div>
