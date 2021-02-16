@@ -44,8 +44,9 @@ const index = [
   { path: "/list", name: "app-list", component: () => import("../components/group/List.vue") },
   { path: "/table", name: "app-table", component: () => import("../components/group/Table.vue") },
   { path: "/annotation", name: "app-annotation", component: () => import("../components/group/Annotation.vue") },
-  { path: "/ ", name: "app-row-list", component: () => import("../components/group/RowList.vue") },
-  { path: "/options-list", name: "app-row-list", component: () => import("../components/group/OptionsList.vue") },
+  
+  { path: "/row-list", name: "app-row-list", component: () => import("../components/group/RowList.vue") },
+  { path: "/options-list", name: "app-options-list", component: () => import("../components/group/OptionsList.vue") },
   { path: "/tabs", name: "app-tabs", component: () => import("../components/group/Tabs.vue") },
   { path: "/tabs-slider", name: "app-tabs-slider", component: () => import("../components/group/TabsSlider.vue") },
   { path: "/scroll-tabs", name: "app-scrollTabs", component: () => import("../components/group/ScrollTabs.vue") },

@@ -10,7 +10,7 @@
     </div>
     <div class="color-block--dark-blue sp-v-2">
       <div class="rt-container">
-        <rt-row class="sp-b-2">
+        <pre-code text='<rt-row class="sp-b-2">
           <rt-col :size="6" :t-hide="true">
             <div class="rt-font-paragraph color-block--black round-border color-white sp-v-2 sp-h-1">
               <p class="rt-font-paragraph sp-v-0-2">По итогам проверочной работы учащиеся школ города получили определённое количество баллов, различное у каждого из участников. K учеников с самым высоким результатом относят к группе отличников, а K следующих за ними – к группе хорошистов.</p>
@@ -47,7 +47,7 @@
 
           </rt-col>
 
-        </rt-row>
+        </rt-row>'></pre-code>
         <rt-row>
           <rt-col :size="6" :tablet-size="6" :mobile-size="3">
             <pre-code text='
