@@ -4,7 +4,7 @@ import VueRtStyleAtoms from "@vue-rt-style-kit-atoms-local";
 import {Price} from "@vue-rt-style-kit-atoms-local";
 import VueRtStyleIcons from "@vue-rt-style-kit-icons-local";
 import VueRtStyleMolecules from "@vue-rt-style-kit-molecules-local";
-import VueRtStyleAks from "@vue-rt-style-kit-aks-local";
+// import VueRtStyleAks from "@vue-rt-style-kit-aks-local";
 import VueRtDevStyle from "../develover-lib/index";
 import routes from "./router";
 import RootPage from "./components/App.vue";
@@ -26,13 +26,10 @@ Vue.use(VueRtDevStyle);
 Vue.use(VueRtStyleAtoms);
 Vue.use(VueRtStyleIcons);
 Vue.use(VueRtStyleMolecules);
-Vue.use(VueRtStyleAks);
-let href = location.href
-if(href.search('vue-rt-style-kit-pages')>0) {
-  routes.routes.forEach((r) => {
-    r.path = '/vue-rt-style-kit-pages' + r.path;
-  })
-}
+// Vue.use(VueRtStyleAks);
+if(globalVars?.PAGES_BASE_DIR)
+  routes.routes.forEach((r) => r.path = `/${globalVars.PAGES_BASE_DIR}${r.path}`)
+
 const router = new VueRouter({
   mode: "history",
   routes: routes.routes

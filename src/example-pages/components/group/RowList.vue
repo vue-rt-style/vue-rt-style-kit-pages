@@ -1,5 +1,4 @@
 <template>
-
   <div class="app-content">
     <div class="rt-container">
       <div class="rt-col-12 rt-col-td-6 rt-col-md-3">

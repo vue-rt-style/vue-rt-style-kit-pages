@@ -1,5 +1,6 @@
+use("./getCalc.js")
 @require "~nib/lib/nib/reset.styl"
-p(global-reset)
+
 
 global-reset()
 *
@@ -27,6 +28,22 @@ button
   outline none
   padding 0
 
+//getCalc(x1, y1,x2 , y2)
+//  deltax = x2 - x1
+//  deltay = y2 - y1
+//  a = deltax
+//  b = deltay
+//  c = deltax * y1 - deltay * x1
+//  res = 'calc(('+unit(b,'px') +'* 100vw'
+//  if c > 0
+//    res = res+'+'
+//    //return calc(var((unit(b,'px') * 100vw - unit(c,'px'))/unit(b,'px')))
+//  else
+//    res = res+'-'
+//  res = res + unit(c,'px')
+//  res = res+')/'+unit(b,'px')+')'
+//  p(123)
+//  return parseString(res)
 
 @require "../../atoms/css/vue-rt-style-atoms.styl"
 @require "../../molecules/css/vue-rt-style-kit-molecules.styl"
@@ -34,6 +51,13 @@ button
 @require "font-face"
 @require "../../develover-lib/css/vue-rt-style-develop"
 @require "app"
-@require "dev-temp"
+//@require "dev-temp"
 @require "./cloud-game.styl"
 @require "./game.styl"
+
+
+
+
+/*
+-554y=-158x 113892
+height: calc((178 * 100vw +82604px)/554)*/
