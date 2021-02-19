@@ -50,6 +50,7 @@ const index = [
   { path: "/tabs", name: "app-tabs", component: () => import("../components/group/Tabs.vue") },
   { path: "/tabs-slider", name: "app-tabs-slider", component: () => import("../components/group/TabsSlider.vue") },
   { path: "/scroll-tabs", name: "app-scrollTabs", component: () => import("../components/group/ScrollTabs.vue") },
+  { path: "/microtabs", name: "app-microtabs", component: () => import("../components/group/Microtabs--demo.vue") },
   { path: "/benefit", name: "benefit", component: () => import("../components/group/BenefitBlock.vue") },
 
   // complex
@@ -57,7 +58,7 @@ const index = [
   { path: "/slider", name: "app-slider", component: () => import("../components/complex/Slider.vue") },
   { path: "/cards", name: "app-cards", component: () => import("../components/complex/Cards.vue") },
   { path: "/product-cards", name: "app-product-card", component: () => import("../components/complex/ProductCard.vue") },
-  { path: "/tariff-cards", name: "app-tariff-card", component: () => import("../components/complex/TariffCard.vue") },
+  { path: "/tariff-cards", name: "app-tariff-card", component: () => import("../components/complex/TariffCard--demo.vue") },
   { path: "/cards-with-forms", name: "app-cards", component: () => import("../components/complex/CardsWithForms.vue") },
   { path: "/banners", name: "app-banners", component: () => import("../components/complex/Banners.vue") },
   { path: "/ad-banner", name: "app-add-banner", component: () => import("../components/complex/AdBanners.vue") },

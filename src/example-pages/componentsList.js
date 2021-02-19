@@ -37,6 +37,9 @@ import {
   CheckboxTabs,
   TabsNavigationItem,
   TabsContentItem,
+  Microtabs,
+  MicrotabsContent,
+  MicrotabsNavigation,
   Card,
   CardRounded,
   CardB2o,
@@ -182,6 +185,9 @@ addToComponentList(TabsSlider)
 addToComponentList(TabsSliderItem)
 addToComponentList(TabsNavigationItem)
 addToComponentList(TabsContentItem)
+addToComponentList(Microtabs)
+addToComponentList(MicrotabsNavigation)
+addToComponentList(MicrotabsContent)
 addToComponentList(Annotation)
 addToComponentList(ColorLineText)
 addToComponentList(BannerV2)
@@ -251,7 +257,6 @@ addToComponentList(CardLayout);
 addToComponentList(Ussd);
 addToComponentList(GalleryCarousel);
 addToComponentList(GalleryCarouselItem);
-
 addToComponentList(CheckboxTabs);
 addToComponentList(CountdownTimer);
 addToComponentList(StickyBottomLine);
