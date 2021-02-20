@@ -73,21 +73,21 @@
 .slider-user
   position: absolute;
   z-index 2
-  width: calc((117 * 100vw + 123826px)/554)
+  width: getCalc(1366,800,1920,953)
   bottom: calc((12 * 100vw + 11862px)/554)
-  left: calc((47 * 100vw + 48814px)/554)
+  left: getCalc(1366,40,1920,103)
   @media (min-width 1920px)
-    width: 629px
+    width: 953px
     bottom: 63px
-    left: 251px
+    left: 103px
   @media (max-width 1366px)
-    width: getCalc(768,340,1366,511)
-    left: getCalc(768,131,1366,205)
+    width: getCalc(768,480,1366,800)
+    left: getCalc(768,60,1366,40)
     bottom getCalc(768,34,1366,51)
   @media (max-width 767px)
-    width: getCalc(360,254.6,768,340)
+    width: getCalc(360,350,768,480)
     bottom getCalc(360,25.5,768,34)
-    left: getCalc(360,102,768,131)
+    left: getCalc(360,62,768,60)
 
 .game-slider-padding
   padding-top: getCalc(1366,110,1920,177)

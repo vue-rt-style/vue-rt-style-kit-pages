@@ -1404,7 +1404,7 @@
                   size-type="small"
                   :col-size="2"
                   background-color-type="light-blue"
-                  card-image="/static/images/cardImage2.jpg">
+                  card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
                 <template slot="label">Headstone</template>
                 <template slot="body">
                   <p class="rt-font-label-uppercase">
@@ -1426,7 +1426,7 @@
                   size-type="small"
                   :col-size="2"
 
-                  card-image="/static/images/cardImage3.jpg">
+                  card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
                 <template slot="label">Headstone</template>
                 <template slot="body">
                   <p class="rt-font-label-uppercase">
@@ -1444,7 +1444,7 @@
                   size-type="small"
                   :col-size="2"
 
-                  card-image="/static/images/cardImage1.jpg">
+                  card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
                 <template slot="label">Headstone</template>
                 <template slot="body">
                   <p class="rt-font-label-uppercase">
@@ -1463,7 +1463,7 @@
                   :is-white-color="true"
                   :col-size="2"
 
-                  card-image="/static/images/cardImage1.jpg">
+                  card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
                 <template slot="label">Headstone</template>
                 <template slot="body">
                   <p class="rt-font-label-uppercase">
@@ -1480,7 +1480,7 @@
                   :is-white-color="true"
                   :col-size="2"
 
-                  card-image="/static/images/cardImage2.jpg">
+                  card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
                 <template slot="label">Headstone</template>
                 <template slot="body">
                   <p class="rt-font-label-uppercase">
@@ -1501,7 +1501,7 @@
                   :is-white-color="true"
                   :col-size="2"
                   background-color-type="light-blue"
-                  card-image="/static/images/cardImage3.jpg">
+                  card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
                 <template slot="label">Headstone</template>
                 <template slot="body">
                   <p class="rt-font-label-uppercase">
@@ -1518,7 +1518,7 @@
                   :is-white-color="true"
                   :col-size="2"
                   background-color-type="light-blue"
-                  card-image="/static/images/cardImage1.jpg">
+                  card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
                 <template slot="label">Headstone</template>
                 <template slot="body">
                   <p class="rt-font-label-uppercase">

@@ -11,21 +11,83 @@
       <div class="app-body">
         <h1 class="sp-b-3">Попапчики</h1>
         <div>
-          <rt-popup-trigger name="filter">
-            <rt-button  color="orange">
+
+            <rt-button v-popup-trigger="{name:'filter'}"  color="orange">
               Попап 1
             </rt-button>
-          </rt-popup-trigger>
-          <rt-popup name="filter">
-            <h1>А это попап 1</h1>
-          </rt-popup>
-          <rt-popup-trigger name="filter2">
-            <rt-button  color="orange">
+
+
+          <rt-button v-popup-trigger="{name:'filter2'}"  color="orange">
               Попап 2
             </rt-button>
-          </rt-popup-trigger>
+
+          <rt-button v-popup-trigger="{name:'filter3'}"  color="orange">
+              Попап 3
+            </rt-button>
+          <rt-popup hash="popup1" name="filter" :ga="{test:1}">
+            <p class="rt-font-h3 sp-b-0-4">Проверьте тип подключения</p>
+            <p class="rt-font-paragraph">Подойдите к вашему роутеру, предварительно убедитесь, что ничего не скачиваете
+              или играете. Проверьте основной провод провайдера или гнездо разъема и сравните с изображениями ниже.</p>
+            <div class="d-flex">
+              <div class="flex-fill"></div>
+              <div class="d-flex sp-t-1-1 td-sp-t-1-3 md-sp-t-1-1 md-d-block">
+                <div class="lg-router-pop-icon">
+                  <img class="d-block" width="174" height="118"
+                       src="https://rt-static.rt.ru/sites/default/files/img/router-huawei/gronIcon.jpg"/>
+                  <p class="rt-font-h4 sp-t-1">PON</p>
+                </div>
+                <div class="sp-r-3 md-d-none"></div>
+                <div class="lg-router-pop-icon md-sp-t-1-1">
+                  <img class="d-block" width="174" height="118"
+                       src="https://rt-static.rt.ru/sites/default/files/img/router-huawei/notGropIcon.jpg"/>
+                  <p class="rt-font-h4 sp-t-1">не PON</p>
+                </div>
+              </div>
+            </div>
+            <p class="rt-font-h3 sp-b-0-4">Проверьте тип подключения</p>
+            <p class="rt-font-paragraph">Подойдите к вашему роутеру, предварительно убедитесь, что ничего не скачиваете
+              или играете. Проверьте основной провод провайдера или гнездо разъема и сравните с изображениями ниже.</p>
+            <div class="d-flex">
+              <div class="flex-fill"></div>
+              <div class="d-flex sp-t-1-1 td-sp-t-1-3 md-sp-t-1-1 md-d-block">
+                <div class="lg-router-pop-icon">
+                  <img class="d-block" width="174" height="118"
+                       src="https://rt-static.rt.ru/sites/default/files/img/router-huawei/gronIcon.jpg"/>
+                  <p class="rt-font-h4 sp-t-1">PON</p>
+                </div>
+                <div class="sp-r-3 md-d-none"></div>
+                <div class="lg-router-pop-icon md-sp-t-1-1">
+                  <img class="d-block" width="174" height="118"
+                       src="https://rt-static.rt.ru/sites/default/files/img/router-huawei/notGropIcon.jpg"/>
+                  <p class="rt-font-h4 sp-t-1">не PON</p>
+                </div>
+              </div>
+            </div>
+            <p class="rt-font-h3 sp-b-0-4">Проверьте тип подключения</p>
+            <p class="rt-font-paragraph">Подойдите к вашему роутеру, предварительно убедитесь, что ничего не скачиваете
+              или играете. Проверьте основной провод провайдера или гнездо разъема и сравните с изображениями ниже.</p>
+            <div class="d-flex">
+              <div class="flex-fill"></div>
+              <div class="d-flex sp-t-1-1 td-sp-t-1-3 md-sp-t-1-1 md-d-block">
+                <div class="lg-router-pop-icon">
+                  <img class="d-block" width="174" height="118"
+                       src="https://rt-static.rt.ru/sites/default/files/img/router-huawei/gronIcon.jpg"/>
+                  <p class="rt-font-h4 sp-t-1">PON</p>
+                </div>
+                <div class="sp-r-3 md-d-none"></div>
+                <div class="lg-router-pop-icon md-sp-t-1-1">
+                  <img class="d-block" width="174" height="118"
+                       src="https://rt-static.rt.ru/sites/default/files/img/router-huawei/notGropIcon.jpg"/>
+                  <p class="rt-font-h4 sp-t-1">не PON</p>
+                </div>
+              </div>
+            </div>
+          </rt-popup>
           <rt-popup name="filter2">
             <h1>А это попап 2</h1>
+          </rt-popup>
+          <rt-popup name="filter3">
+            <h1>А это попап 3</h1>
           </rt-popup>
         </div>
         <div class="app-row is-b2b">

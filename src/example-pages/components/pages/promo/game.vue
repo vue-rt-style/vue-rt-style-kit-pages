@@ -36,11 +36,12 @@
                 <div class="game-slider-line-wrapper-mobile md-sp-b-5">
                   <div class="game-slider-image">
                     <div class="slider-user">
-                      <img src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/KV_rostelecom_fin.png"
+
+                      <img src="https://moscow.rt.ru/sites/default/files/img/games-2021/KV_rostelecom_fin-1.png"
                            width="100%" alt="">
                     </div>
                     <div class="">
-                      <img width="100%" src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/slider.png"
+                      <img width="100%" src="https://moscow.rt.ru/sites/default/files/img/games-2021/slider-1.png"
                            alt="">
                     </div>
                   </div>
