@@ -376,6 +376,14 @@
           "for_b2c" : true
         },
         {
+          "name": "app-microtabs",
+          "title": "Microtabs",
+          "url": "/microtabs",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
           "name" : "Scroll Tabs",
           "title" : "Scroll Tabs",
           "url" : "/scroll-tabs",
