@@ -9,7 +9,8 @@
       </div>
     </div>
 
-    <pre-code  text="<rt-jumbotron background='main-color'  color='white' description-color='main'>
+    <pre-code  text="<rt-jumbotron background='main-color' flag-scroll-to-id='test' flag-background='purple'  color='white' description-color='main'>
+      <template slot='flag-text'>Акция</template>
       <template slot='label'><p>Кибербезопасность <br>123 </p></template>
       <template slot='description'>Комплексные сервисы защиты цифровых систем</template>
       <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner'>Защита каналов связи</rt-arrow-anchor></template>
@@ -20,7 +21,7 @@
       ></rt-img></template>
     </rt-jumbotron>"></pre-code>
 
-    <pre-code  text="<rt-jumbotron id='idBanner' background='dark-slate' color='white' description-color='white'>
+    <pre-code id="test" text="<rt-jumbotron id='idBanner' background='dark-slate' color='white' description-color='white'>
       <template slot='header'>
         <p class='rt-font-label-uppercase rt-font-label color-white07'>ВИДЕОСЕРВИС WINK</p>
       </template>

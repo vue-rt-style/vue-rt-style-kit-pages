@@ -120,7 +120,8 @@ import {
   CarouselV2,
   CarouselSlideV2,
   AdBanner,
-  PreviewBanner
+  PreviewBanner,
+  ShowOn
   
 } from '@vue-rt-style-kit-molecules-local'
 
@@ -203,6 +204,7 @@ addToComponentList(CardB2o)
 addToComponentList(CardBuy)
 addToComponentList(CardImage)
 addToComponentList(CardImageList)
+addToComponentList(ShowOn)
 addToComponentList(CardSkeleton)
 addToComponentList(FullscreenImage)
 addToComponentList(RowList)
