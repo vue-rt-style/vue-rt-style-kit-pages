@@ -36,7 +36,7 @@
           <div class="rt-col">
             <div class="row">
               <div class="rt-col-6 rt-col-td-6 sp-b-1-3 md-sp-b-1">
-                <rt-card-help :dual-width="true" :is-white-font="true" src="https://moscow.rt.ru/sites/default/files/b2b/help/credit-card.png" color="red">
+                <rt-card-help :dual-width="true" :is-white-font="true" src="https://moscow.rt.ru/sites/default/files/b2b/help/credit-card.png">
                   <template slot="title">Оплата услуг</template>
                   <template slot="description">Способы оплаты, счета, перенос <br class="md-d-none">платежа и другие вопросы</template>
                 </rt-card-help>
