@@ -13,22 +13,22 @@
     </div>
     <div class="app-body">
       <rt-card-tile-layout name="tile1">
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile1"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile1"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
           <template slot="title">Цифровой переезд</template>
           <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile1"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile1"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
           <template slot="title">Отключение услуг</template>
           <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-acousel-name="tile1"
+        <rt-card-banner tag="Сервис" parent-carousel-name="tile1"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
           <template slot="title">Календарь технических работ</template>
           <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile1"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile1"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
           <template slot="title">Программа «Бонус»</template>
           <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
@@ -36,27 +36,27 @@
       </rt-card-tile-layout>
       <div class="sp-t-2"/>
       <rt-card-tile-layout name="tile2">
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile2"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile2"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
           <template slot="title">Цифровой переезд</template>
           <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile2"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile2"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
           <template slot="title">Отключение услуг</template>
           <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-acousel-name="tile2"
+        <rt-card-banner tag="Сервис" parent-carousel-name="tile2"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
           <template slot="title">Календарь технических работ</template>
           <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile2"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile2"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
           <template slot="title">Программа «Бонус»</template>
           <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile2"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile2"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
           <template slot="title">Программа «Бонус»</template>
           <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
@@ -64,32 +64,32 @@
       </rt-card-tile-layout>
       <div class="sp-t-2"/>
       <rt-card-tile-layout name="tile3">
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile3"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile3"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
           <template slot="title">Цифровой переезд</template>
           <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile3"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile3"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
           <template slot="title">Отключение услуг</template>
           <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-acousel-name="tile3"
+        <rt-card-banner tag="Сервис" parent-carousel-name="tile3"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
           <template slot="title">Календарь технических работ</template>
           <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile3"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile3"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
           <template slot="title">Программа «Бонус»</template>
           <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
         </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-acousel-name="tile3"
+        <rt-card-banner tag="Сервис" parent-carousel-name="tile3"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
           <template slot="title">Календарь технических работ</template>
           <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile3"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile3"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
           <template slot="title">Программа «Бонус»</template>
           <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
@@ -97,37 +97,37 @@
       </rt-card-tile-layout>
       <div class="sp-t-2"/>
       <rt-card-tile-layout name="tile4">
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile4"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile4"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
           <template slot="title">Цифровой переезд</template>
           <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile4"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile4"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
           <template slot="title">Отключение услуг</template>
           <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-acousel-name="tile4"
+        <rt-card-banner tag="Сервис" parent-carousel-name="tile4"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
           <template slot="title">Календарь технических работ</template>
           <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile4"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile4"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
           <template slot="title">Программа «Бонус»</template>
           <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile4"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile4"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
           <template slot="title">Отключение услуг</template>
           <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-acousel-name="tile4"
+        <rt-card-banner tag="Сервис" parent-carousel-name="tile4"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
           <template slot="title">Календарь технических работ</template>
           <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile4"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile4"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
           <template slot="title">Программа «Бонус»</template>
           <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
@@ -135,42 +135,42 @@
       </rt-card-tile-layout>
       <div class="sp-t-2"/>
       <rt-card-tile-layout name="tile5">
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile5"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
           <template slot="title">Цифровой переезд</template>
           <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile5"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
           <template slot="title">Отключение услуг</template>
           <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-acousel-name="tile5"
+        <rt-card-banner tag="Сервис" parent-carousel-name="tile5"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
           <template slot="title">Календарь технических работ</template>
           <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile5"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
           <template slot="title">Программа «Бонус»</template>
           <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile5"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
           <template slot="title">Цифровой переезд</template>
           <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile5"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
           <template slot="title">Отключение услуг</template>
           <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-acousel-name="tile5"
+        <rt-card-banner tag="Сервис" parent-carousel-name="tile5"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
           <template slot="title">Календарь технических работ</template>
           <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-acousel-name="tile5"
+        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"
                         src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
           <template slot="title">Программа «Бонус»</template>
           <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
