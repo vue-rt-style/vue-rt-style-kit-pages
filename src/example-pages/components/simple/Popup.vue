@@ -113,7 +113,6 @@
             <div class="popup-content"></div>
           </rt-real-popup>
         </div>
-        <div class="app-row"></div>
       </div>
       <div class="rt-container rt-space-top25">
         <documentation-builder :json="documentation" type="components"/>

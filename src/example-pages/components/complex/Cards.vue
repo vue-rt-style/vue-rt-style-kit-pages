@@ -12,6 +12,51 @@
       </div>
     </div>
     <div class="app-body">
+      <rt-card-tile-layout>
+        <rt-card-banner tag="Услуга" src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
+          <template slot="title">Цифровой переезд</template>
+          <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
+          <template slot="title">Отключение услуг</template>
+          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Сервис" src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
+          <template slot="title">Календарь технических работ</template>
+          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
+          <template slot="title">Программа «Бонус»</template>
+          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
+        </rt-card-banner>
+<!--        <rt-card-banner></rt-card-banner>-->
+      </rt-card-tile-layout>
+      <rt-resize-content-height :query-selectors-names="['.rt-card-help']">
+        <div class="rt-container">
+          <div class="rt-col">
+            <div class="row">
+              <div class="rt-col-6 rt-col-td-6 sp-b-1-3 md-sp-b-1">
+                <rt-card-help :dual-width="true" :is-white-font="true" src="https://moscow.rt.ru/sites/default/files/b2b/help/credit-card.png" color="red">
+                  <template slot="title">Оплата услуг</template>
+                  <template slot="description">Способы оплаты, счета, перенос <br class="md-d-none">платежа и другие вопросы</template>
+                </rt-card-help>
+              </div>
+              <div class="rt-col-3 rt-col-td-3 rt-col-md-3 sp-b-1-3 md-sp-b-1">
+                <rt-card-help :is-white-font="true" src="https://moscow.rt.ru/sites/default/files/b2b/help/cellphone.png">
+                  <template slot="title">Личный кабинет</template>
+                  <template slot="description">Авторизация, подключенные услуги, история платежей</template>
+                </rt-card-help>
+              </div>
+              <div class="rt-col-3 rt-col-td-3 rt-col-md-3 sp-b-1-3 md-sp-b-1">
+                <rt-card-help :is-white-font="true" src="https://moscow.rt.ru/sites/default/files/b2b/help/folder.png">
+                  <template slot="title">Документы</template>
+                  <template slot="description">Архив документов и оферт с условиями акций, соглашения</template>
+                </rt-card-help>
+              </div>
+            </div>
+          </div>
+        </div>
+      </rt-resize-content-height>
       <rt-carousel-v2 carousel-name="1" :scrollable-on-desktop="true">
         <rt-carousel-slide-v2 parent-carousel-name="1">
           <rt-card-rounded :preview-card="true">
@@ -25,7 +70,7 @@
               <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
             </template>
             <template slot="label">Для автомобильного бизнеса</template>
-            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими  и динамичными рекламными
+            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
               вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
           </rt-card-rounded>
         </rt-carousel-slide-v2>
@@ -35,7 +80,7 @@
               <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
             </template>
             <template slot="label">Для</template>
-            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими  и динамичными рекламными
+            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
               вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
           </rt-card-rounded>
         </rt-carousel-slide-v2>
@@ -54,7 +99,7 @@
               <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
             </template>
             <template slot="label">Для автомобильного бизнеса</template>
-            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими  и динамичными рекламными
+            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
               вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
           </rt-card-rounded>
         </rt-carousel-slide-v2>
@@ -64,7 +109,7 @@
               <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
             </template>
             <template slot="label">Для автомобильного бизнеса</template>
-            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими  и динамичными рекламными
+            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
               вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
           </rt-card-rounded>
         </rt-carousel-slide-v2>
@@ -86,7 +131,7 @@
             </svg>
           </template>
           <template slot="label">Для автомобильного бизнеса</template>
-          <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими  и динамичными рекламными
+          <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
             вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
         </rt-card-rounded>
       </rt-carousel-slide-v2>
@@ -103,7 +148,7 @@
             </svg>
           </template>
           <template slot="label">Для автомобильного бизнеса</template>
-          <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими  и динамичными рекламными
+          <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
             вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
         </rt-card-rounded>
       </rt-carousel-slide-v2>

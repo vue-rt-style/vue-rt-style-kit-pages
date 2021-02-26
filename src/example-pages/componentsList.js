@@ -116,7 +116,10 @@ import {
     Jumbotron,
     CarouselV2,
     CarouselSlideV2,
-    AdBanner
+    AdBanner,
+    CardHelp,
+    CardBanner,
+    CardTileLayout
 
 } from '@vue-rt-style-kit-molecules-local'
 
@@ -241,6 +244,9 @@ componentsList[AdBanner.name] = AdBanner;
 componentsList[SliderItem.name] = SliderItem;
 
 componentsList[Jumbotron.name] = Jumbotron;
+componentsList[CardHelp.name] = CardHelp;
+componentsList[CardBanner.name] = CardBanner;
+componentsList[CardTileLayout.name] = CardTileLayout;
 
 // componentsList[PreComponent.name] = PreComponent;
 // componentsList[PreComponentEditor.name] = PreComponentEditor;

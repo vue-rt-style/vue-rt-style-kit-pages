@@ -15,17 +15,40 @@
           </div>
         </div>
         <div class="app-row row">
-          <rt-select-v2 :set-first-active="true" :json="[{value:'50', label:'150 минут'},{value:'150', label:'250 минут', sublabel:'80% скидка'},{value:'250', label:'500 минут', sublabel:'95% скидка'},{value:'350', label:'700 минут', sublabel:'95% скидка'},{value:'450', label:'900 минут', sublabel:'95% скидка'},{value:'500', label:'950 минут', sublabel:'95% скидка'},{value:'550', label:'1000 минут', sublabel:'95% скидка'},{value:'600', label:'1100 минут', sublabel:'95% скидка'},{value:'650', label:'1200 минут', sublabel:'95% скидка'}]" :value="['50']" name="test3" label="Оборудование" :has-content-text="true"></rt-select-v2>
-          <rt-select-v2 :set-first-active="true" :json="[{value:'50', label:'150 минут'},{value:'150', label:'250 минут'},{value:'250', label:'500 минут'}]" :value="['50']" name="test2" label="Оборудование" :has-content-text="true"></rt-select-v2>
-          <rt-select-v2 @change="changeSelect" :set-first-active="true" :value="['50','150']" type="multiselect" name="test1" label="Оборудование" :has-content-text="true">
-            <template slot="content">
-              <p class="rt-font-control color-main05 rt-space-top0-half">Пакет входящих минут <br> с любых телефонов России</p>
-            </template>
-            <rt-select-v2-option  select-name="test1" :default="true" :selected="true" value="50">150 минут</rt-select-v2-option>
-            <rt-select-v2-option select-name="test1" :selected="true" value="50">150 минут</rt-select-v2-option>
-            <rt-select-v2-option select-name="test1"  value="150">500 минут</rt-select-v2-option>
-            <rt-select-v2-option select-name="test1" label="1000 минут" value="250"></rt-select-v2-option>
-          </rt-select-v2>
+          <div class="rt-col-4">
+            <rt-select-v2 :multiple="true" :json="[
+                {value:'50', label:'150 минут 150 минут 150 минут 150 минут 150 минут 150 минут 150 минут'},
+                {value:'150', label:'250 минут', sublabel:'80% скидка'},
+                {value:'250', label:'500 минут', sublabel:'95% скидка'},
+                {value:'350', label:'700 минут', sublabel:'95% скидка'},
+                {value:'450', label:'900 минут', sublabel:'95% скидка'},
+                {value:'500', label:'950 минут', sublabel:'95% скидка'},
+                {value:'550', label:'1000 минут', sublabel:'95% скидка'},
+                {value:'600', label:'1100 минут', sublabel:'95% скидка'},
+                {value:'650', label:'1200 минут', sublabel:'95% скидка'},
+                {value:'950', label:'2000 минут', sublabel:'95% скидка'},
+                {value:'1150', label:'2100 минут', sublabel:'95% скидка'},
+                {value:'1250', label:'2200 минут', sublabel:'95% скидка'},
+                {value:'1450', label:'2300 минут', sublabel:'95% скидка'},
+                {value:'1550', label:'2400 минут', sublabel:'95% скидка'},
+                {value:'1950', label:'2500 минут', sublabel:'95% скидка'},
+                {value:'2450', label:'3300 минут', sublabel:'95% скидка'},
+                {value:'2550', label:'3400 минут', sublabel:'95% скидка'},
+                {value:'2950', label:'3500 минут', sublabel:'95% скидка'}
+                ]"
+                          :value="['50', '250']" name="test3" label="Оборудование"/>
+          </div>
+          <div class="rt-col-4">
+            <rt-select-v2 :set-first-active="true" name="test2" label="Оборудование"
+                          :json="[{value:'50', label:'150 минут 150 минут 150 минут 150 минут150 минут150 минут150 минут 150 минут 150 минут 150 минут'},{value:'150', label:'250 минут'},{value:'250', label:'500 минут'}]"/>
+          </div>
+          <div class="rt-col-4">
+            <rt-select-v2 :set-first-active="true" name="test1" label="Оборудование">
+              <rt-select-v2-option select-name="test1" :default="true" :selected="true" value="50">150 минут</rt-select-v2-option>
+              <rt-select-v2-option select-name="test1" value="150">500 минут</rt-select-v2-option>
+              <rt-select-v2-option select-name="test1" label="1000 минут" value="250"></rt-select-v2-option>
+            </rt-select-v2>
+          </div>
           <div class="rt-col-3 rt-col-md-3">
             <span class="rt-font-label flex-fill rt-space-bottom05">simple with content text</span>
             <rt-select-v2 name="simple1" label="Оборудование" value="0" :has-content-text="true">
