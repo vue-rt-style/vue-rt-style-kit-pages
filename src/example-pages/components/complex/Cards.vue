@@ -12,25 +12,171 @@
       </div>
     </div>
     <div class="app-body">
-      <rt-card-tile-layout>
-        <rt-card-banner tag="Услуга" src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
+      <rt-card-tile-layout name="tile1">
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile1"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
           <template slot="title">Цифровой переезд</template>
           <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile1"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
           <template slot="title">Отключение услуг</template>
           <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Сервис" src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
+        <rt-card-banner tag="Сервис" parent-acousel-name="tile1"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
           <template slot="title">Календарь технических работ</template>
           <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
         </rt-card-banner>
-        <rt-card-banner tag="Услуга" src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile1"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
           <template slot="title">Программа «Бонус»</template>
           <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
         </rt-card-banner>
-<!--        <rt-card-banner></rt-card-banner>-->
       </rt-card-tile-layout>
+      <div class="sp-t-2"/>
+      <rt-card-tile-layout name="tile2">
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile2"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
+          <template slot="title">Цифровой переезд</template>
+          <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile2"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
+          <template slot="title">Отключение услуг</template>
+          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Сервис" parent-acousel-name="tile2"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
+          <template slot="title">Календарь технических работ</template>
+          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile2"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
+          <template slot="title">Программа «Бонус»</template>
+          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile2"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
+          <template slot="title">Программа «Бонус»</template>
+          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
+        </rt-card-banner>
+      </rt-card-tile-layout>
+      <div class="sp-t-2"/>
+      <rt-card-tile-layout name="tile3">
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile3"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
+          <template slot="title">Цифровой переезд</template>
+          <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile3"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
+          <template slot="title">Отключение услуг</template>
+          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Сервис" parent-acousel-name="tile3"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
+          <template slot="title">Календарь технических работ</template>
+          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile3"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
+          <template slot="title">Программа «Бонус»</template>
+          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Сервис" parent-acousel-name="tile3"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
+          <template slot="title">Календарь технических работ</template>
+          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile3"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
+          <template slot="title">Программа «Бонус»</template>
+          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
+        </rt-card-banner>
+      </rt-card-tile-layout>
+      <div class="sp-t-2"/>
+      <rt-card-tile-layout name="tile4">
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile4"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
+          <template slot="title">Цифровой переезд</template>
+          <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile4"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
+          <template slot="title">Отключение услуг</template>
+          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Сервис" parent-acousel-name="tile4"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
+          <template slot="title">Календарь технических работ</template>
+          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile4"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
+          <template slot="title">Программа «Бонус»</template>
+          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile4"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
+          <template slot="title">Отключение услуг</template>
+          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Сервис" parent-acousel-name="tile4"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
+          <template slot="title">Календарь технических работ</template>
+          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile4"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
+          <template slot="title">Программа «Бонус»</template>
+          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
+        </rt-card-banner>
+      </rt-card-tile-layout>
+      <div class="sp-t-2"/>
+      <rt-card-tile-layout name="tile5">
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile5"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
+          <template slot="title">Цифровой переезд</template>
+          <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile5"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
+          <template slot="title">Отключение услуг</template>
+          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Сервис" parent-acousel-name="tile5"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
+          <template slot="title">Календарь технических работ</template>
+          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile5"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
+          <template slot="title">Программа «Бонус»</template>
+          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile5"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
+          <template slot="title">Цифровой переезд</template>
+          <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile5"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
+          <template slot="title">Отключение услуг</template>
+          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Сервис" parent-acousel-name="tile5"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
+          <template slot="title">Календарь технических работ</template>
+          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
+        </rt-card-banner>
+        <rt-card-banner tag="Услуга" parent-acousel-name="tile5"
+                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
+          <template slot="title">Программа «Бонус»</template>
+          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
+        </rt-card-banner>
+      </rt-card-tile-layout>
+      <div class="sp-t-2"/>
       <rt-resize-content-height :query-selectors-names="['.rt-card-help']">
         <div class="rt-container">
           <div class="rt-col">
@@ -159,159 +305,159 @@
         </rt-card-rounded>
       </rt-carousel-slide-v2>
       <div class="sp-t-2"/>
-      <pre-code text="
-      <div>
-        <div class='rt-container sp-b-1'>
-          <rt-col>
-            <div class='rt-tag-n-wrapper'>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1
-              </rt-filter-n-setter>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2
-              </rt-filter-n-setter>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3
-              </rt-filter-n-setter>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1
-              </rt-filter-n-setter>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2
-              </rt-filter-n-setter>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3
-              </rt-filter-n-setter>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1
-              </rt-filter-n-setter>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2
-              </rt-filter-n-setter>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3
-              </rt-filter-n-setter>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1
-              </rt-filter-n-setter>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2
-              </rt-filter-n-setter>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3
-              </rt-filter-n-setter>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1
-              </rt-filter-n-setter>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2
-              </rt-filter-n-setter>
-              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3
-              </rt-filter-n-setter>
-            </div>
-          </rt-col>
-        </div>
-        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;,&quot;lalala1&quot;]'>
-          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
-            <a href='#' class='spasibo-card' target='_blank'>
-              <rt-card-rounded color='white' background-color='orange'>
-                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'
-                                            alt=''/></template>
-                <template slot='logo'>
-                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
-                </template>
-                <template slot='label'>lalala1 от <br> Додо Пицца</template>
-                <template slot='content'>Обменяйте бонусы на промокод
-                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
-                </template>
+<!--      <pre-code text="-->
+<!--      <div>-->
+<!--        <div class='rt-container sp-b-1'>-->
+<!--          <rt-col>-->
+<!--            <div class='rt-tag-n-wrapper'>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
+<!--              </rt-filter-n-setter>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
+<!--              </rt-filter-n-setter>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
+<!--              </rt-filter-n-setter>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
+<!--              </rt-filter-n-setter>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
+<!--              </rt-filter-n-setter>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
+<!--              </rt-filter-n-setter>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
+<!--              </rt-filter-n-setter>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
+<!--              </rt-filter-n-setter>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
+<!--              </rt-filter-n-setter>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
+<!--              </rt-filter-n-setter>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
+<!--              </rt-filter-n-setter>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
+<!--              </rt-filter-n-setter>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
+<!--              </rt-filter-n-setter>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
+<!--              </rt-filter-n-setter>-->
+<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
+<!--              </rt-filter-n-setter>-->
+<!--            </div>-->
+<!--          </rt-col>-->
+<!--        </div>-->
+<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;,&quot;lalala1&quot;]'>-->
+<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
+<!--            <a href='#' class='spasibo-card' target='_blank'>-->
+<!--              <rt-card-rounded color='white' background-color='orange'>-->
+<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
+<!--                                            alt=''/></template>-->
+<!--                <template slot='logo'>-->
+<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
+<!--                </template>-->
+<!--                <template slot='label'>lalala1 от <br> Додо Пицца</template>-->
+<!--                <template slot='content'>Обменяйте бонусы на промокод-->
+<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
+<!--                </template>-->
 
-              </rt-card-rounded>
-            </a>
-          </rt-carousel-slide>
-        </rt-filter-n-item>
-        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>
-          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
-            <a href='#' class='spasibo-card' target='_blank'>
-              <rt-card-rounded color='white' background-color='orange'>
-                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'
-                                            alt=''/></template>
-                <template slot='logo'>
-                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
-                </template>
-                <template slot='label'>Подарок от <br> Додо Пицца</template>
-                <template slot='content'>Обменяйте бонусы на промокод
-                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
-                </template>
+<!--              </rt-card-rounded>-->
+<!--            </a>-->
+<!--          </rt-carousel-slide>-->
+<!--        </rt-filter-n-item>-->
+<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
+<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
+<!--            <a href='#' class='spasibo-card' target='_blank'>-->
+<!--              <rt-card-rounded color='white' background-color='orange'>-->
+<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
+<!--                                            alt=''/></template>-->
+<!--                <template slot='logo'>-->
+<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
+<!--                </template>-->
+<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
+<!--                <template slot='content'>Обменяйте бонусы на промокод-->
+<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
+<!--                </template>-->
 
-              </rt-card-rounded>
-            </a>
-          </rt-carousel-slide>
-        </rt-filter-n-item>
-        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>
-          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
-            <a href='#' class='spasibo-card' target='_blank'>
-              <rt-card-rounded color='white' background-color='orange'>
-                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'
-                                            alt=''/></template>
-                <template slot='logo'>
-                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
-                </template>
-                <template slot='label'>Подарок от <br> Додо Пицца</template>
-                <template slot='content'>Обменяйте бонусы на промокод
-                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
-                </template>
+<!--              </rt-card-rounded>-->
+<!--            </a>-->
+<!--          </rt-carousel-slide>-->
+<!--        </rt-filter-n-item>-->
+<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
+<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
+<!--            <a href='#' class='spasibo-card' target='_blank'>-->
+<!--              <rt-card-rounded color='white' background-color='orange'>-->
+<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
+<!--                                            alt=''/></template>-->
+<!--                <template slot='logo'>-->
+<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
+<!--                </template>-->
+<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
+<!--                <template slot='content'>Обменяйте бонусы на промокод-->
+<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
+<!--                </template>-->
 
-              </rt-card-rounded>
-            </a>
-          </rt-carousel-slide>
-        </rt-filter-n-item>
-        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>
-          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
-            <a href='#' class='spasibo-card' target='_blank'>
-              <rt-card-rounded color='white' background-color='orange'>
-                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'
-                                            alt=''/></template>
-                <template slot='logo'>
-                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
-                </template>
-                <template slot='label'>Подарок от <br> Додо Пицца</template>
-                <template slot='content'>Обменяйте бонусы на промокод
-                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
-                </template>
+<!--              </rt-card-rounded>-->
+<!--            </a>-->
+<!--          </rt-carousel-slide>-->
+<!--        </rt-filter-n-item>-->
+<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
+<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
+<!--            <a href='#' class='spasibo-card' target='_blank'>-->
+<!--              <rt-card-rounded color='white' background-color='orange'>-->
+<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
+<!--                                            alt=''/></template>-->
+<!--                <template slot='logo'>-->
+<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
+<!--                </template>-->
+<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
+<!--                <template slot='content'>Обменяйте бонусы на промокод-->
+<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
+<!--                </template>-->
 
-              </rt-card-rounded>
-            </a>
-          </rt-carousel-slide>
-        </rt-filter-n-item>
-        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>
-          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
-            <a href='#' class='spasibo-card' target='_blank'>
-              <rt-card-rounded color='white' background-color='orange'>
-                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'
-                                            alt=''/></template>
-                <template slot='logo'>
-                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
-                </template>
-                <template slot='label'>Подарок от <br> Додо Пицца</template>
-                <template slot='content'>Обменяйте бонусы на промокод
-                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
-                </template>
+<!--              </rt-card-rounded>-->
+<!--            </a>-->
+<!--          </rt-carousel-slide>-->
+<!--        </rt-filter-n-item>-->
+<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
+<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
+<!--            <a href='#' class='spasibo-card' target='_blank'>-->
+<!--              <rt-card-rounded color='white' background-color='orange'>-->
+<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
+<!--                                            alt=''/></template>-->
+<!--                <template slot='logo'>-->
+<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
+<!--                </template>-->
+<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
+<!--                <template slot='content'>Обменяйте бонусы на промокод-->
+<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
+<!--                </template>-->
 
-              </rt-card-rounded>
-            </a>
-          </rt-carousel-slide>
-        </rt-filter-n-item>
-        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>
-          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
-            <a href='#' class='spasibo-card' target='_blank'>
-              <rt-card-rounded color='white' background-color='orange'>
-                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'
-                                            alt=''/></template>
-                <template slot='logo'>
-                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
-                </template>
-                <template slot='label'>Подарок от <br> Додо Пицца</template>
-                <template slot='content'>Обменяйте бонусы на промокод
-                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
-                </template>
+<!--              </rt-card-rounded>-->
+<!--            </a>-->
+<!--          </rt-carousel-slide>-->
+<!--        </rt-filter-n-item>-->
+<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
+<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
+<!--            <a href='#' class='spasibo-card' target='_blank'>-->
+<!--              <rt-card-rounded color='white' background-color='orange'>-->
+<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
+<!--                                            alt=''/></template>-->
+<!--                <template slot='logo'>-->
+<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
+<!--                </template>-->
+<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
+<!--                <template slot='content'>Обменяйте бонусы на промокод-->
+<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
+<!--                </template>-->
 
-              </rt-card-rounded>
-            </a>
-          </rt-carousel-slide>
-        </rt-filter-n-item>
-        <rt-carousel :deep-slide-load='2' :decorated='true'>
-          <rt-col size='12'>
-            <rt-filter-n :has-carousel='true' :carousel-up='2' custom-class='row row-nowrap'
-                         filter-name='test'></rt-filter-n>
-          </rt-col>
-        </rt-carousel>
-      </div>"></pre-code>
+<!--              </rt-card-rounded>-->
+<!--            </a>-->
+<!--          </rt-carousel-slide>-->
+<!--        </rt-filter-n-item>-->
+<!--        <rt-carousel :deep-slide-load='2' :decorated='true'>-->
+<!--          <rt-col size='12'>-->
+<!--            <rt-filter-n :has-carousel='true' :carousel-up='2' custom-class='row row-nowrap'-->
+<!--                         filter-name='test'></rt-filter-n>-->
+<!--          </rt-col>-->
+<!--        </rt-carousel>-->
+<!--      </div>"></pre-code>-->
       <div class="rt-container">
         <div class="rt-col">
           <rt-resize-content-height :query-selectors-names="['.rt-card-round__content']">
