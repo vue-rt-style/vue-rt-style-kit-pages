@@ -200,6 +200,14 @@
           "for_b2c" : true
         },
         {
+          "name" : "Message Box",
+          "title" : "Message Box",
+          "url" : "/message-box",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
           "name" : "opacity",
           "title" : "Opacity",
           "url" : "/opacity",
@@ -336,6 +344,14 @@
           "for_b2c" : true
         },
         {
+          "name" : "arrow-block",
+          "title" : "Arrow block",
+          "url" : "/arrow-block",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
           "name" : "options-list",
           "title" : "Options list",
           "url" : "/options-list",
@@ -355,6 +371,14 @@
           "name" : "Tabs",
           "title" : "Tabs",
           "url" : "/tabs",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name": "app-microtabs",
+          "title": "Microtabs",
+          "url": "/microtabs",
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
@@ -434,6 +458,14 @@
           "name" : "AdBanner",
           "title" : "Ad Banner",
           "url" : "/ad-banner",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "PreviewBanners",
+          "title" : "Preview Banners",
+          "url" : "/preview-banner",
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true

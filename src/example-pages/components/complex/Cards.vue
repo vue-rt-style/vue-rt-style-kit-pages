@@ -71,7 +71,8 @@
             </template>
             <template slot="label">Для автомобильного бизнеса</template>
             <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
-              вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
+              вывесками, увеличивайте продажи дополнительных услуг на 30%
+            </template>
           </rt-card-rounded>
         </rt-carousel-slide-v2>
         <rt-carousel-slide-v2 parent-carousel-name="1">
@@ -81,7 +82,8 @@
             </template>
             <template slot="label">Для</template>
             <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
-              вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
+              вывесками, увеличивайте продажи дополнительных услуг на 30%
+            </template>
           </rt-card-rounded>
         </rt-carousel-slide-v2>
         <rt-carousel-slide-v2 parent-carousel-name="1">
@@ -90,17 +92,7 @@
               <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
             </template>
             <template slot="label">Для автомобильного бизнеса</template>
-            <template slot="content-large-space">Привлекайте на 70% </template>
-          </rt-card-rounded>
-        </rt-carousel-slide-v2>
-        <rt-carousel-slide-v2 parent-carousel-name="1">
-          <rt-card-rounded :preview-card="true">
-            <template slot="image">
-              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
-            </template>
-            <template slot="label">Для автомобильного бизнеса</template>
-            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
-              вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
+            <template slot="content-large-space">Привлекайте на 70%</template>
           </rt-card-rounded>
         </rt-carousel-slide-v2>
         <rt-carousel-slide-v2 parent-carousel-name="1">
@@ -110,7 +102,19 @@
             </template>
             <template slot="label">Для автомобильного бизнеса</template>
             <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
-              вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
+              вывесками, увеличивайте продажи дополнительных услуг на 30%
+            </template>
+          </rt-card-rounded>
+        </rt-carousel-slide-v2>
+        <rt-carousel-slide-v2 parent-carousel-name="1">
+          <rt-card-rounded :preview-card="true">
+            <template slot="image">
+              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
+            </template>
+            <template slot="label">Для автомобильного бизнеса</template>
+            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
+              вывесками, увеличивайте продажи дополнительных услуг на 30%
+            </template>
           </rt-card-rounded>
         </rt-carousel-slide-v2>
       </rt-carousel-v2>
@@ -132,7 +136,8 @@
           </template>
           <template slot="label">Для автомобильного бизнеса</template>
           <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
-            вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
+            вывесками, увеличивайте продажи дополнительных услуг на 30%
+          </template>
         </rt-card-rounded>
       </rt-carousel-slide-v2>
       <rt-carousel-slide-v2 parent-carousel-name="2">
@@ -149,292 +154,293 @@
           </template>
           <template slot="label">Для автомобильного бизнеса</template>
           <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
-            вывесками, увеличивайте продажи дополнительных услуг на 30%</template>
+            вывесками, увеличивайте продажи дополнительных услуг на 30%
+          </template>
         </rt-card-rounded>
       </rt-carousel-slide-v2>
       <div class="sp-t-2"/>
-<!--      <pre-code text="-->
-<!--      <div>-->
-<!--        <div class='rt-container sp-b-1'>-->
-<!--          <rt-col>-->
-<!--            <div class='rt-tag-n-wrapper'>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
-<!--              </rt-filter-n-setter>-->
-<!--            </div>-->
-<!--          </rt-col>-->
-<!--        </div>-->
-<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;,&quot;lalala1&quot;]'>-->
-<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
-<!--            <a href='#' class='spasibo-card' target='_blank'>-->
-<!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
-<!--                                            alt=''/></template>-->
-<!--                <template slot='logo'>-->
-<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
-<!--                </template>-->
-<!--                <template slot='label'>lalala1 от <br> Додо Пицца</template>-->
-<!--                <template slot='content'>Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
+      <pre-code text="
+      <div>
+        <div class='rt-container sp-b-1'>
+          <rt-col>
+            <div class='rt-tag-n-wrapper'>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3
+              </rt-filter-n-setter>
+            </div>
+          </rt-col>
+        </div>
+        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;,&quot;lalala1&quot;]'>
+          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
+            <a href='#' class='spasibo-card' target='_blank'>
+              <rt-card-rounded color='white' background-color='orange'>
+                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'
+                                            alt=''/></template>
+                <template slot='logo'>
+                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
+                </template>
+                <template slot='label'>lalala1 от <br> Додо Пицца</template>
+                <template slot='content'>Обменяйте бонусы на промокод
+                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+                </template>
 
-<!--              </rt-card-rounded>-->
-<!--            </a>-->
-<!--          </rt-carousel-slide>-->
-<!--        </rt-filter-n-item>-->
-<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
-<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
-<!--            <a href='#' class='spasibo-card' target='_blank'>-->
-<!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
-<!--                                            alt=''/></template>-->
-<!--                <template slot='logo'>-->
-<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
-<!--                </template>-->
-<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
-<!--                <template slot='content'>Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
+              </rt-card-rounded>
+            </a>
+          </rt-carousel-slide>
+        </rt-filter-n-item>
+        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>
+          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
+            <a href='#' class='spasibo-card' target='_blank'>
+              <rt-card-rounded color='white' background-color='orange'>
+                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'
+                                            alt=''/></template>
+                <template slot='logo'>
+                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
+                </template>
+                <template slot='label'>Подарок от <br> Додо Пицца</template>
+                <template slot='content'>Обменяйте бонусы на промокод
+                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+                </template>
 
-<!--              </rt-card-rounded>-->
-<!--            </a>-->
-<!--          </rt-carousel-slide>-->
-<!--        </rt-filter-n-item>-->
-<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
-<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
-<!--            <a href='#' class='spasibo-card' target='_blank'>-->
-<!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
-<!--                                            alt=''/></template>-->
-<!--                <template slot='logo'>-->
-<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
-<!--                </template>-->
-<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
-<!--                <template slot='content'>Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
+              </rt-card-rounded>
+            </a>
+          </rt-carousel-slide>
+        </rt-filter-n-item>
+        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>
+          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
+            <a href='#' class='spasibo-card' target='_blank'>
+              <rt-card-rounded color='white' background-color='orange'>
+                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'
+                                            alt=''/></template>
+                <template slot='logo'>
+                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
+                </template>
+                <template slot='label'>Подарок от <br> Додо Пицца</template>
+                <template slot='content'>Обменяйте бонусы на промокод
+                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+                </template>
 
-<!--              </rt-card-rounded>-->
-<!--            </a>-->
-<!--          </rt-carousel-slide>-->
-<!--        </rt-filter-n-item>-->
-<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
-<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
-<!--            <a href='#' class='spasibo-card' target='_blank'>-->
-<!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
-<!--                                            alt=''/></template>-->
-<!--                <template slot='logo'>-->
-<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
-<!--                </template>-->
-<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
-<!--                <template slot='content'>Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
+              </rt-card-rounded>
+            </a>
+          </rt-carousel-slide>
+        </rt-filter-n-item>
+        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>
+          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
+            <a href='#' class='spasibo-card' target='_blank'>
+              <rt-card-rounded color='white' background-color='orange'>
+                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'
+                                            alt=''/></template>
+                <template slot='logo'>
+                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
+                </template>
+                <template slot='label'>Подарок от <br> Додо Пицца</template>
+                <template slot='content'>Обменяйте бонусы на промокод
+                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+                </template>
 
-<!--              </rt-card-rounded>-->
-<!--            </a>-->
-<!--          </rt-carousel-slide>-->
-<!--        </rt-filter-n-item>-->
-<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
-<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
-<!--            <a href='#' class='spasibo-card' target='_blank'>-->
-<!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
-<!--                                            alt=''/></template>-->
-<!--                <template slot='logo'>-->
-<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
-<!--                </template>-->
-<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
-<!--                <template slot='content'>Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
+              </rt-card-rounded>
+            </a>
+          </rt-carousel-slide>
+        </rt-filter-n-item>
+        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>
+          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
+            <a href='#' class='spasibo-card' target='_blank'>
+              <rt-card-rounded color='white' background-color='orange'>
+                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'
+                                            alt=''/></template>
+                <template slot='logo'>
+                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
+                </template>
+                <template slot='label'>Подарок от <br> Додо Пицца</template>
+                <template slot='content'>Обменяйте бонусы на промокод
+                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+                </template>
 
-<!--              </rt-card-rounded>-->
-<!--            </a>-->
-<!--          </rt-carousel-slide>-->
-<!--        </rt-filter-n-item>-->
-<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
-<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
-<!--            <a href='#' class='spasibo-card' target='_blank'>-->
-<!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
-<!--                                            alt=''/></template>-->
-<!--                <template slot='logo'>-->
-<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
-<!--                </template>-->
-<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
-<!--                <template slot='content'>Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
+              </rt-card-rounded>
+            </a>
+          </rt-carousel-slide>
+        </rt-filter-n-item>
+        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>
+          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
+            <a href='#' class='spasibo-card' target='_blank'>
+              <rt-card-rounded color='white' background-color='orange'>
+                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'
+                                            alt=''/></template>
+                <template slot='logo'>
+                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
+                </template>
+                <template slot='label'>Подарок от <br> Додо Пицца</template>
+                <template slot='content'>Обменяйте бонусы на промокод
+                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+                </template>
 
-<!--              </rt-card-rounded>-->
-<!--            </a>-->
-<!--          </rt-carousel-slide>-->
-<!--        </rt-filter-n-item>-->
-<!--        <rt-carousel :deep-slide-load='2' :decorated='true'>-->
-<!--          <rt-col size='12'>-->
-<!--            <rt-filter-n :has-carousel='true' :carousel-up='2' custom-class='row row-nowrap'-->
-<!--                         filter-name='test'></rt-filter-n>-->
-<!--          </rt-col>-->
-<!--        </rt-carousel>-->
-<!--      </div>"></pre-code>-->
+              </rt-card-rounded>
+            </a>
+          </rt-carousel-slide>
+        </rt-filter-n-item>
+        <rt-carousel :deep-slide-load='2' :decorated='true'>
+          <rt-col size='12'>
+            <rt-filter-n :has-carousel='true' :carousel-up='2' custom-class='row row-nowrap'
+                         filter-name='test'></rt-filter-n>
+          </rt-col>
+        </rt-carousel>
+      </div>"></pre-code>
       <div class="rt-container">
         <div class="rt-col">
-<!--          <rt-resize-content-height :query-selectors-names="['.rt-card-round__content']">-->
-<!--            <pre-code text='<rt-row>-->
-<!--            <rt-col size="3" tablet-size="2" mobile-size="3">-->
-<!--              <rt-card-rounded color="white" background-color="orange">-->
-<!--                <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"-->
-<!--                                            alt=""/></template>-->
-<!--                <template slot="logo">-->
-<!--                  <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">-->
-<!--                </template>-->
-<!--                <template slot="label">Подарок от <br> Додо Пицца</template>-->
-<!--                <template slot="content">Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
+          <rt-resize-content-height :query-selectors-names="['.rt-card-round__content']">
+            <pre-code text='<rt-row>
+            <rt-col size="3" tablet-size="2" mobile-size="3">
+              <rt-card-rounded color="white" background-color="orange">
+                <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                            alt=""/></template>
+                <template slot="logo">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                </template>
+                <template slot="label">Подарок от <br> Додо Пицца</template>
+                <template slot="content">Обменяйте бонусы на промокод
+                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+                </template>
 
-<!--              </rt-card-rounded>-->
-<!--            </rt-col>-->
-<!--            <rt-col size="3" tablet-size="2" mobile-size="3">-->
-<!--              <rt-card-rounded color="white" background-color="red">-->
-<!--                <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"-->
-<!--                                            alt=""/></template>-->
-<!--                <template slot="logo">-->
-<!--                  <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">-->
-<!--                </template>-->
-<!--                <template slot="label">Подарок от <br> Додо Пицца</template>-->
-<!--                <template slot="content">Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
+              </rt-card-rounded>
+            </rt-col>
+            <rt-col size="3" tablet-size="2" mobile-size="3">
+              <rt-card-rounded color="white" background-color="red">
+                <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                            alt=""/></template>
+                <template slot="logo">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                </template>
+                <template slot="label">Подарок от <br> Додо Пицца</template>
+                <template slot="content">Обменяйте бонусы на промокод
+                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+                </template>
 
-<!--              </rt-card-rounded>-->
-<!--            </rt-col>-->
-<!--            <rt-col size="3" tablet-size="2" mobile-size="3">-->
-<!--              <rt-card-rounded color="white" background-color="red">-->
-<!--                <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"-->
-<!--                                            alt=""/></template>-->
-<!--                <template slot="logo">-->
-<!--                  <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">-->
-<!--                </template>-->
-<!--                <template slot="headerHtml">-->
-<!--                  <p class="rt-font-h2 sp-t-0-3 sp-b-0-2">28 <span class="rt-font-h4">бонусов</span></p>-->
-<!--                </template>-->
-<!--                <template slot="content">Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
+              </rt-card-rounded>
+            </rt-col>
+            <rt-col size="3" tablet-size="2" mobile-size="3">
+              <rt-card-rounded color="white" background-color="red">
+                <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                            alt=""/></template>
+                <template slot="logo">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                </template>
+                <template slot="headerHtml">
+                  <p class="rt-font-h2 sp-t-0-3 sp-b-0-2">28 <span class="rt-font-h4">бонусов</span></p>
+                </template>
+                <template slot="content">Обменяйте бонусы на промокод
+                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+                </template>
 
-<!--              </rt-card-rounded>-->
-<!--            </rt-col>-->
-<!--            <rt-col size="3" tablet-size="2" mobile-size="3">-->
-<!--              <rt-card-rounded color="white" background-color="purple">-->
-<!--                <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"-->
-<!--                                            alt=""/></template>-->
-<!--                <template slot="logo">-->
-<!--                  <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">-->
-<!--                </template>-->
-<!--                <template slot="label">Подарок от <br> Додо Пицца</template>-->
-<!--                <template slot="content">Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
+              </rt-card-rounded>
+            </rt-col>
+            <rt-col size="3" tablet-size="2" mobile-size="3">
+              <rt-card-rounded color="white" background-color="purple">
+                <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                                            alt=""/></template>
+                <template slot="logo">
+                  <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                </template>
+                <template slot="label">Подарок от <br> Додо Пицца</template>
+                <template slot="content">Обменяйте бонусы на промокод
+                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+                </template>
 
-<!--              </rt-card-rounded>-->
-<!--            </rt-col>-->
-<!--          </rt-row>'></pre-code>-->
-<!--          </rt-resize-content-height>-->
-<!--          <rt-resize-content-height :query-selectors-names="['.rt-card-round__content']">-->
-<!--            <pre-code text='<rt-row class="sp-t-1">-->
-<!--              <rt-col size="3" tablet-size="2" mobile-size="3">-->
-<!--                <rt-card-rounded>-->
-<!--                  <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"-->
-<!--                                              alt=""/></template>-->
-<!--                  <template slot="logo">-->
-<!--                    <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">-->
-<!--                  </template>-->
-<!--                  <template slot="label">Подарок от <br> Додо Пицца</template>-->
-<!--                  <template slot="content">Обменяйте бонусы на промокод-->
-<!--                    <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                  </template>-->
+              </rt-card-rounded>
+            </rt-col>
+          </rt-row>'></pre-code>
+          </rt-resize-content-height>
+          <rt-resize-content-height :query-selectors-names="['.rt-card-round__content']">
+            <pre-code text='<rt-row class="sp-t-1">
+              <rt-col size="3" tablet-size="2" mobile-size="3">
+                <rt-card-rounded>
+                  <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"
+                                              alt=""/></template>
+                  <template slot="logo">
+                    <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                  </template>
+                  <template slot="label">Подарок от <br> Додо Пицца</template>
+                  <template slot="content">Обменяйте бонусы на промокод
+                    <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+                  </template>
 
-<!--                </rt-card-rounded>-->
-<!--              </rt-col>-->
-<!--              <rt-col size="3" tablet-size="2" mobile-size="3">-->
-<!--                <rt-card-rounded>-->
-<!--                  <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"-->
-<!--                                              alt=""/></template>-->
-<!--                  <template slot="logo">-->
-<!--                    <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">-->
-<!--                  </template>-->
-<!--                  <template slot="label">Подарок от <br> Додо Пицца</template>-->
-<!--                  <template slot="content">Обменяйте бонусы на промокод-->
-<!--                    <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                  </template>-->
-<!--                  <template slot="arrowText">Потратить</template>-->
+                </rt-card-rounded>
+              </rt-col>
+              <rt-col size="3" tablet-size="2" mobile-size="3">
+                <rt-card-rounded>
+                  <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"
+                                              alt=""/></template>
+                  <template slot="logo">
+                    <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                  </template>
+                  <template slot="label">Подарок от <br> Додо Пицца</template>
+                  <template slot="content">Обменяйте бонусы на промокод
+                    <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+                  </template>
+                  <template slot="arrowText">Потратить</template>
 
-<!--                </rt-card-rounded>-->
-<!--              </rt-col>-->
-<!--              <rt-col size="3" tablet-size="2" mobile-size="3">-->
-<!--                <rt-card-rounded :need-resize="2000">-->
-<!--                  <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"-->
-<!--                                              alt=""/></template>-->
-<!--                  <template slot="logo">-->
-<!--                    <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">-->
-<!--                  </template>-->
-<!--                  <template slot="headerHtml">-->
-<!--                    <p class="rt-font-h2 sp-t-0-3 sp-b-0-2">28 <span class="rt-font-h4">бонусов</span></p>-->
-<!--                  </template>-->
-<!--                  <template slot="content">Обменяйте бонусы на промокод-->
-<!--                    <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                  </template>-->
-<!--                  <template slot="arrowText">Обменять</template>-->
+                </rt-card-rounded>
+              </rt-col>
+              <rt-col size="3" tablet-size="2" mobile-size="3">
+                <rt-card-rounded :need-resize="2000">
+                  <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"
+                                              alt=""/></template>
+                  <template slot="logo">
+                    <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                  </template>
+                  <template slot="headerHtml">
+                    <p class="rt-font-h2 sp-t-0-3 sp-b-0-2">28 <span class="rt-font-h4">бонусов</span></p>
+                  </template>
+                  <template slot="content">Обменяйте бонусы на промокод
+                    <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+                  </template>
+                  <template slot="arrowText">Обменять</template>
 
-<!--                </rt-card-rounded>-->
-<!--              </rt-col>-->
-<!--              <rt-col size="3" tablet-size="2" mobile-size="3">-->
-<!--                <rt-card-rounded>-->
-<!--                  <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"-->
-<!--                                              alt=""/></template>-->
-<!--                  <template slot="logo">-->
-<!--                    <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">-->
-<!--                  </template>-->
-<!--                  <template slot="label">Подарок от <br> Додо Пицца</template>-->
-<!--                  <template slot="content">Обменяйте бонусы на промокод-->
-<!--                    <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                  </template>-->
-<!--                  <template slot="arrowText">Обменять</template>-->
+                </rt-card-rounded>
+              </rt-col>
+              <rt-col size="3" tablet-size="2" mobile-size="3">
+                <rt-card-rounded>
+                  <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"
+                                              alt=""/></template>
+                  <template slot="logo">
+                    <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                  </template>
+                  <template slot="label">Подарок от <br> Додо Пицца</template>
+                  <template slot="content">Обменяйте бонусы на промокод
+                    <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+                  </template>
+                  <template slot="arrowText">Обменять</template>
 
-<!--                </rt-card-rounded>-->
-<!--              </rt-col>-->
-<!--            </rt-row>'></pre-code>-->
-<!--          </rt-resize-content-height>-->
+                </rt-card-rounded>
+              </rt-col>
+            </rt-row>'></pre-code>
+          </rt-resize-content-height>
           <div class="relative">
 
             <rt-resize-content-height :query-selectors-names="['.rt-card-b2o']">
@@ -1414,6 +1420,140 @@
                         </div>
                     </div>
                     '></pre-code>
+          <div class="row">
+            <div class="rt-col-4 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+              <rt-card-image
+                  :version="2"
+                  class="full-height"
+                  :is-white-color="true"
+                  size-type="small"
+                  :col-size="2"
+                  background-color-type="light-blue"
+                  card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
+                <template slot="label">Headstone</template>
+                <template slot="body">
+                  <p class="rt-font-label-uppercase">
+                    игровой интернет
+                  </p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                </template>
+              </rt-card-image>
+            </div>
+            <div class="rt-col-4 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+              <rt-card-image
+                  :version="2"
+                  href="https://google.com"
+                  class="full-height"
+                  :is-white-color="true"
+                  size-type="small"
+                  :col-size="2"
+
+                  card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
+                <template slot="label">Headstone</template>
+                <template slot="body">
+                  <p class="rt-font-label-uppercase">
+                    игровой интернет
+                  </p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                </template>
+              </rt-card-image>
+            </div>
+            <div class="rt-col-4 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+              <rt-card-image
+                  :version="2"
+                  class="full-height"
+                  :is-white-color="true"
+                  size-type="small"
+                  :col-size="2"
+
+                  card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
+                <template slot="label">Headstone</template>
+                <template slot="body">
+                  <p class="rt-font-label-uppercase">
+                    игровой интернет
+                  </p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                </template>
+              </rt-card-image>
+            </div>
+          </div>
+          <div class="row">
+            <div class="rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+              <a href="https://ya.ru"><rt-card-image
+                  :version="2"
+                  class="full-height"
+                  :is-white-color="true"
+                  :col-size="2"
+
+                  card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
+                <template slot="label">Headstone</template>
+                <template slot="body">
+                  <p class="rt-font-label-uppercase">
+                    игровой интернет
+                  </p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                </template>
+              </rt-card-image></a>
+            </div>
+            <div class="rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+              <rt-card-image
+                  :version="2"
+                  class="full-height"
+                  :is-white-color="true"
+                  :col-size="2"
+
+                  card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
+                <template slot="label">Headstone</template>
+                <template slot="body">
+                  <p class="rt-font-label-uppercase">
+                    игровой интернет
+                  </p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                </template>
+              </rt-card-image>
+            </div>
+            <div class="rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+              <rt-card-image
+                  :version="2"
+                  href="https://google.com"
+                  class="full-height"
+                  :is-white-color="true"
+                  :col-size="2"
+                  background-color-type="light-blue"
+                  card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
+                <template slot="label">Headstone</template>
+                <template slot="body">
+                  <p class="rt-font-label-uppercase">
+                    игровой интернет
+                  </p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                </template>
+              </rt-card-image>
+            </div>
+            <div class="rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
+              <rt-card-image
+                  :version="2"
+                  class="full-height"
+                  :is-white-color="true"
+                  :col-size="2"
+                  background-color-type="light-blue"
+                  card-image="https://photos.gurushots.com/unsafe/0x0/13ef028ca03ec267fd53d2591a72bc7c/3_58151608352c68381a68fe7cacb9d6cf.jpg">
+                <template slot="label">Headstone</template>
+                <template slot="body">
+                  <p class="rt-font-label-uppercase">
+                    игровой интернет
+                  </p>
+                  <p>Получай подарки в лучших играх Headstone!</p>
+                </template>
+              </rt-card-image>
+            </div>
+          </div>
           <div class="row">
             <div class="rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c">
               <rt-card-image

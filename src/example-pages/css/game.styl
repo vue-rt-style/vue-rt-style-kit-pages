@@ -11,702 +11,534 @@
 
 .ld-mygame,
 .F
-  background-color: #0d162d!important
+  background: #101828!important;
   .app-header
     display: none
-.ld-mygame .rtk-input {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.ld-mygame-users
-  position: relative;
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/users-bg.jpg)
-  background-size: cover;
-  transition-timing-function ease-in-out
-  transition-duration 0.5s
-  transition-property background
-  z-index 1
-  &:before
-    content ''
-    position: absolute;
-    top: -25px
-    left: 0
-    right: 0
-    height: 50px
-    z-index 10
-    background-image: linear-gradient(to bottom, rgba(13, 22, 45, 0) 0%, rgba(13, 22, 45, 1) 50%, rgba(13, 22, 45, 0) 100%)
-
-  &:after
-    content ''
-    position: absolute;
-    bottom: -45px
-    left: 0
-    right: 0
-    height: 120px
-    z-index 10
-    background-image: linear-gradient(to bottom, rgba(13, 22, 45, 0) 0%, #0d152b 30%,#0d152b 65%, rgba(13, 22, 45, 0) 100%)
-  &>.rt-container
-    @media(max-width: 1024px)
-      padding-left: 0px
-      padding-right: 0px
-
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/users-bg-2x.jpg)
-  }
-.ld-mygame-users--warface
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/warface-bg.jpg)
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/warface-bg-2x.jpg)
-  }
-.ld-mygame-users--archeage
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/archeage-bg.jpg)
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/archeage-bg-2x.jpg)
-  }
-.ld-mygame-users--crossfire
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/crossfire-bg.jpg)
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/crossfire-bg-2x.jpg)
-  }
-.ld-mygame-users--lostark
-  background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/lostark-bg.jpg)
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    background-image: url(https://static-cdn.rt.ru/sites/default/files/img/mygame/lostark-bg-2x.jpg)
-  }
-.ld-mygame-users-item
-  width: 300px
-  height: 460px
-  display: flex
-  text-align center
-  position: relative;
-  overflow: hidden;
-  @media(max-width: 1024px)
-
-    min-width: 35vw
-    width: 35vw
-    height: 411px
-    margin-left: 20px;
-  @media(max-width: 767px)
-    min-width 70vw
-    width: 70vw
-
-  &:before
-    content ''
-    position: absolute;
-    left: 0
-    right: 0
+.game-slider
+  position relative
+.block
+  background: #101828;
+.game-slider-line1
+  position absolute
+  width: getCalc(1366,1412,1920,2876)
+  left: getCalc(1366,-336,1920,-770)
+  height: getCalc(1366,653,1920,834)
+  top: getCalc(1366,-86,1920,-85)
+  stroke-dasharray 100
+  stroke-dashoffset 120
+  animation-name animateLine1
+  animation-duration 10s
+  animation-timing-function cubic-bezier(0.4, 0, 0.2, 1)
+  animation-iteration-count infinite
+  pointer-events none
+  //animation-direction: alternate
+  @media (min-width 1920px)
+    width: 2876px;
+    left: -770px;
+    height: 834px;
+    top: getCalc(1366,-58,1920,-85)
+  @media (max-width 1366px)
+    left getCalc(1024,-516,1366,-336)
+    height: getCalc(1024,610,1366,653)
+    width: getCalc(1024,1850,1366,1412)
+    top: getCalc(1024,-58,1366,-86)
+  @media (max-width 1024px)
     top: 0
-    bottom: 0
-    background-color: rgba(255,255,255,0.15)
-    border-radius 8px
-    transition-timing-function ease-in-out
-    transition-duration 0.5s
-    transition-property opacity, visibility
-  &:after
-    content ''
-    position: absolute;
+    left getCalc(768,-168,1366,-194)
+    height: getCalc(768,458,1366,623)
+    width: getCalc(768,466,1366,1412)
+    top: 0
+  @media (max-width 767px)
+    bottom: 40px
+    top inherit
+    width: 100%
+    height: getCalc(375,300,812,300)
     left: 0
-    right: 0
-    top: 0
-    bottom: 0
-    background-color: #FFFFFF
-    border-radius 8px
-    mix-blend-mode: soft-light;
-    opacity: 0
-    z-index 11
-    transition-timing-function ease-in-out
-    transition-duration 0.5s
-    transition-property opacity, mix-blend-mode
 
-
-
-@keyframes hideLogo
-  0%
-    top: 55px
-    opacity: 0
-
-  100%
-    opacity:0.7
-    top: 0
-@keyframes showLogo
-  0%
-    top: 60%
-    opacity: 0
-  70%
-    top: 60%
-    opacity: 0
-  100%
-    opacity: 1
-    top: 60%
-
-@keyframes showButton
-  0%
-
-    opacity: 0
-  50%
-    opacity: 0
-  100%
-    opacity: 1
-
-@keyframes showUser-warface
-  0%
-    width 107%
-    bottom: 37%
-    opacity: 0
-    width 107%
-    bottom: 32%
-    left: -6%
-    right: -1%
-    overflow visible
-  40%
-    opacity: 0
-  100%
-    opacity: 1
-    overflow hidden
-    width 107%
-    bottom: 37%
-    left: -6%
-    right: -1%
-@keyframes showUser-lostark
-  0%
-    opacity: 0
-    width 102%
-    right: 10px
-    bottom: 32%
-    overflow visible
-  40%
-    opacity: 0
-  100%
-    opacity: 1
-    overflow hidden
-    width 102%
-    bottom: 37%
-    right: 2%
-@keyframes showUser-archeage
-  0%
-    opacity: 0
-    bottom: 32%
-    overflow visible
-
-    width 103%
-    right: 4%
-  40%
-    opacity: 0
-  100%
-    opacity: 1
-    overflow hidden
-    width 103%
-    bottom: 37%
-    right: 4%
-@keyframes showUser-crossfire
-  0%
-    opacity: 0
-    width 105%
-    right: -3%
-    left: -5%
-    bottom: 32%
-    overflow visible
-  40%
-    opacity: 0
-  100%
-    opacity: 1
-    overflow hidden
-    width 105%
-    bottom: 37%
-    right: -3%
-    left: -5%
-
-@keyframes hideUser
-  0%
-    bottom: -25px
-    opacity 0
-  40%
-    opacity: 0
-  100%
-    bottom: -30px
-    opacity 0.7
-
-
-.ld-mygame-users-img-tag
-  opacity: 1
+.game-slider-line2
+  position absolute
+  width: getCalc(1366,733,1920,1121)
+  height getCalc(1366,675,1920,830)
+  right getCalc(1366,-184,1920,-342)
+  top: getCalc(1366,0,1920,50)
+  animation-name animateLine2
+  animation-duration 10s
+  animation-timing-function cubic-bezier(0.4, 0, 0.2, 1)
+  animation-iteration-count infinite
+  @media (min-width 1920px)
+    width: 1121px
+    height 830px
+    right -342px
+    top: 50px
+.slider-user
   position: absolute;
-.ld-mygame-users-img-tag-hover
-    opacity: 0
-@media(min-width: 1025px)
-  .ld-mygame-users-item--warface.ld-mygame-users-item--active,
-  .ld-mygame-users-item--warface.ld-mygame-users-item:hover,
-  .ld-mygame-users-item--warface.ld-mygame-users-item:focus
-    .ld-mygame-users-img
-      opacity: 1
-      width 107%
-      bottom: 37%
-      left: -6%
-      right: -1%
-      animation showUser-warface  1s ease-in-out
+  z-index 2
+  width: getCalc(1366,800,1920,953)
+  bottom: calc((12 * 100vw + 11862px)/554)
+  left: getCalc(1366,40,1920,103)
+  @media (min-width 1920px)
+    width: 953px
+    bottom: 63px
+    left: 103px
+  @media (max-width 1366px)
+    width: getCalc(768,480,1366,800)
+    left: getCalc(768,60,1366,40)
+    bottom getCalc(768,34,1366,51)
+  @media (max-width 767px)
+    width: getCalc(360,350,768,480)
+    bottom getCalc(360,25.5,768,34)
+    left: getCalc(360,62,768,60)
 
-@media(max-width: 1024px)
-  .ld-mygame-users-item--warface
-    .ld-mygame-users-img
-      opacity: 1
-      width 107%
-      bottom: 37%
-      left: -6%
-      right: -1%
-      animation showUser-warface  1s ease-in-out
-
-@media(min-width: 1025px)
-  .ld-mygame-users-item--lostark.ld-mygame-users-item--active,
-  .ld-mygame-users-item--lostark.ld-mygame-users-item:hover,
-  .ld-mygame-users-item--lostark.ld-mygame-users-item:focus
-    .ld-mygame-users-img
-      opacity: 1
-      bottom: 37%
-      width 102%
-      bottom: 37%
-      right: 2%
-      left: -2%
-      animation showUser-lostark  1s ease-in-out
-@media(max-width: 1024px)
-  .ld-mygame-users-item--lostark.ld-mygame-users-item
-    .ld-mygame-users-img
-      opacity: 1
-      bottom: 37%
-      width 102%
-      bottom: 37%
-      right: 2%
-      left: -2%
-      animation showUser-lostark  1s ease-in-out
-@media(min-width: 1025px)
-  .ld-mygame-users-item--archeage.ld-mygame-users-item--active,
-  .ld-mygame-users-item--archeage.ld-mygame-users-item:hover,
-  .ld-mygame-users-item--archeage.ld-mygame-users-item:focus
-    .ld-mygame-users-img
-      opacity: 1
-      bottom: 37%
-      width 103%
-      bottom: 37%
-      right: 4%
-      animation showUser-archeage  1s ease-in-out
-
-@media(max-width: 1024px)
-  .ld-mygame-users-item--archeage.ld-mygame-users-item
-    .ld-mygame-users-img
-      opacity: 1
-      bottom: 37%
-      width 103%
-      bottom: 37%
-      right: 4%
-      animation showUser-archeage  1s ease-in-out
-@media(min-width: 1025px)
-  .ld-mygame-users-item--lostark.ld-mygame-users-item--active,
-  .ld-mygame-users-item--lostark.ld-mygame-users-item:hover,
-  .ld-mygame-users-item--lostark.ld-mygame-users-item:focus
-    .ld-mygame-users-img
-      left: -20px
-@media(max-width: 1024px)
-  .ld-mygame-users-item--lostark.ld-mygame-users-item
-    .ld-mygame-users-img
-      left: -20px
-
-.ld-mygame-users-item.ld-mygame-users-item--active,
-.ld-mygame-users-item.ld-mygame-users-item:hover,
-.ld-mygame-users-item.ld-mygame-users-item:focus
-  .ld-mygame-users-img-tag
-    opacity: 0
-  .ld-mygame-users-img-tag-hover
-    opacity: 1
-@media(max-width: 1024px)
-  .ld-mygame-users-item
-    .ld-mygame-users-img-tag
-      opacity: 0
-    .ld-mygame-users-img-tag-hover
-      opacity: 1
-
-@media(min-width: 1025px)
-  .ld-mygame-users-item--crossfire.ld-mygame-users-item--active,
-  .ld-mygame-users-item--crossfire.ld-mygame-users-item:hover,
-  .ld-mygame-users-item--crossfire.ld-mygame-users-item:focus
-    .ld-mygame-users-img
-      opacity: 1
-      bottom: 37%
-
-      width 105%
-      right: -3%
-      left: -5%
-      animation showUser-crossfire  1s ease-in-out
-@media(max-width: 1024px)
-  .ld-mygame-users-item--crossfire
-    .ld-mygame-users-img
-      opacity: 1
-      bottom: 37%
-
-      width 105%
-      right: -3%
-      left: -5%
-      animation showUser-crossfire  1s ease-in-out
-@media(min-width: 1025px)
-  .ld-mygame-users-item--active,
-  .ld-mygame-users-item:hover,
-  .ld-mygame-users-item:focus
-    overflow: visible;
-    &:before
-      opacity: 0
-    &:after
-      opacity: 1
-    .ld-mygame-users-logo
-      opacity: 1
-      top: 60%
-      animation showLogo  1s ease-in-out
-    .ld-mygame-users-img
-      opacity: 1
-      width 305px
-      bottom: 37%
-      right: 10px
-
-      animation showUser  1s ease-in-out
-
-    .ld-mygame-users-button
-      opacity: 1
-      animation showButton  1s ease-in-out
-    .ld-mygame-users-img .rt-img-container
-      margin-bottom: 0
-    .ld-mygame-users-content-border
-      opacity: 1
-    .ld-mygame-users-content
-      &:after
-        opacity: 1
-@media(max-width: 1024px)
-  .ld-mygame-users-item
-    overflow: visible;
-    &:before
-      opacity: 0
-    &:after
-      opacity: 1
-    .ld-mygame-users-logo
-      opacity: 1
-      top: 60%
-      animation showLogo  1s ease-in-out
-    .ld-mygame-users-img
-      opacity: 1
-      animation showUser  1s ease-in-out
-
-    .ld-mygame-users-button
-      opacity: 1
-      animation showButton  1s ease-in-out
-    .ld-mygame-users-img .rt-img-container
-      margin-bottom: 0
-    .ld-mygame-users-content-border
-      opacity: 1
-    .ld-mygame-users-content
+.game-slider-padding
+  padding-top: getCalc(1366,110,1920,177)
+  @media (min-width 1920px)
+    padding-top: 177px
+  @media (max-width 1366px)
+    padding-top: getCalc(768, 113,1366,110)
+  @media (max-width 767px)
+    padding-top: 0
+@keyframes animateLine1
 
 
-      &:after
-        opacity: 1
+  0%
+    stroke-dasharray 1400
+    stroke-dashoffset 120
+  100%
+    stroke-dasharray 1400
+    stroke-dashoffset 2800
 
-.ld-mygame-users-scroll
-  max-width calc(100% + 20px)
-  width calc(100% + 20px)
-  overflow-x auto
-  overflow-y: hidden
-  position: relative;
-  left: -20px
-  padding-left: 20px
-  &:after
-    content ''
-    @media(max-width: 1024px)
+@keyframes animateLine2
 
-      min-width: 20px
-      height: 20px
-      display: block
-.ld-mygame-users-content
-  padding-top: 51px
-  max-width 100%
-  position: relative;
-  z-index 101
-  &:after
-    content ''
-    position: absolute;
-    left: 0
-    right: 0
-    top: 0
-    bottom: 0
-    opacity: 0
-    background-color: rgba(13, 22, 45, 0.5);
-    border-radius 8px
-    mix-blend-mode: soft-light;
-    border-radius 8px
-    transition-timing-function ease-in-out
-    transition-duration 0.5s
-    transition-property opacity
 
-.ld-mygame-users-content-border
+  0%
+    stroke-dasharray 1400
+    stroke-dashoffset 2800
 
+  100%
+    stroke-dasharray 1400
+    stroke-dashoffset 120
+
+@media (max-width 767px){
+  .game-slider-line-wrapper{
+    position: static;
+  }
+}
+@media (max-width 767px){
+  .game-slider-line-wrapper-mobile{
+    position: relative;
+  }
+}
+.game-slider-line-wrapper
+  max-width 1920px
+  margin-left auto
+  margin-right auto
   position: absolute;
   top: 0
-  left: 0
   bottom: 0
+  left: 0
+  right: 0
+  z-index 2
+  @media (max-width 767px)
+    position: static
+.game-slider-line-wrapper-mobile
+  @media (max-width 767px)
+    position: relative
+.game-slider
+  box-sizing content-box
+  max-width 100vw
+  overflow-x hidden
+  overflow-y visible
+  min-height getCalc(1366,686,1920,887)
+  padding-top: 55px
+  margin-top getCalc(1366,60,1920,0)
+  @media(min-width: 1920px)
+    min-height: 887px
+    margin-top: 0
+  @media(max-width: 1366px)
+    margin-top: 60px
+  @media(max-width: 767px)
+    padding-top: 115px
+    margin-top: 0
+
+.game-list-icon
+  width: 80px
+  min-width 80px
+  height: 80px
+
+.game-slider-image
+  position: absolute
+  z-index: 1
+  width: getCalc(1366,841,1920,1033)
+  bottom: getCalc(1366,110,1920,136)
+  left: calc((249*100vw - 70336px)/554)
+  @media(min-width: 1920px)
+    width: 1033px
+    bottom: 136px
+    left: 736px
+
+  @media(max-width: 1366px)
+    width: getCalc(768,558.74,1366,841)
+    left: getCalc(768,275,1366,487)
+    bottom: 110px
+  @media(max-width: 1025px)
+    bottom: getCalc(10,0,1024,110)
+  @media(max-width: 767px)
+    width: getCalc(360, 418, 768,558.74)
+    position: relative;
+    left: 0
+    bottom: 0
+    padding-top: 60px
+
+.game-image-wrapper
+  width: 100%
+  height: 100%
+  position: relative;
+  &:after
+    content ''
+    border: 4px solid transparent;
+    border-image: url("https://static-cdn.rt.ru/sites/default/files/img/games-2021/imageborder.png") 4 4 4 4 stretch;
+    mix-blend-mode: overlay
+    position: absolute;
+    left: 0
+    top: 0
+    right: 0
+    bottom: 0
+    z-index 2
+    transition-property border
+    transition-timing-function ease-in-out
+    transition-duration .5s
+    //mix-blend-mode: overlay;
+
+  &:before
+    content ''
+    background-color: #fff
+    mix-blend-mode: overlay
+    position: absolute;
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    z-index 1
+.game-image-tag
+  width: 100%
+  height: 100%
+  position: relative;
+  z-index 2
+  opacity: 0.3
+  top 0
+  bottom 0
+  left: 0
+  right: 0
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(100%)
+  transition-timing-function cubic-bezier(0.4, 0, 0.2, 1)
+  transition-duration .5s
+  transition-property opacity, filter, top, bottom, left, right, width, height
+  .rt-img
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    position: absolute;
+    width: 100%
+    height: 100%
+    object-fit: cover;
+    object-position: center;
+    transition-timing-function cubic-bezier(0.4, 0, 0.2, 1)
+    transition-duration .5s
+    transition-property opacity, filter, top, bottom, left, right, width, height
+.game-image-tag-pseudo
+  position: absolute;
+  top: 0
+  bottom: 0
+  left: 0
   right: 0
   mix-blend-mode: overlay;
-  border: 3px solid #FFFFFF;
-  box-sizing: border-box;
-  border-radius: 8px;
-  opacity: 0
-  z-index 101
-  transition-timing-function ease-in-out
-  transition-duration 0.5s
-  transition-property opacity, visibility
-.ld-mygame-users-logo
-  position: absolute;
-  display: inline-block
-  width: 100%
-  height: 63px
-  text-align: center
-  position: relative;
-  top: 0
-  z-index 2
-  opacity:0.7
-  animation hideLogo  1s ease-in-out
-
+  opacity: 0.7
+  z-index 3
+  transition-timing-function cubic-bezier(0.4, 0, 0.2, 1)
+  transition-duration .5s
+  transition-property opacity, filter, top, bottom, left, right, width, height
   .rt-img
-    max-height 100%
-    display: inline-block
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    position: absolute;
+    width: 100%
+    height: 100%
+    object-fit: cover;
+    object-position: center;
+    transition-timing-function cubic-bezier(0.4, 0, 0.2, 1)
+    transition-duration .5s
+    transition-property opacity, filter, top, bottom, left, right, width, height
 
-.ld-mygame-users-img
-  z-index 2
-  width: 100%
-  overflow-y hidden
-  bottom: -30px
+  transition-timing-function cubic-bezier(0.4, 0, 0.2, 1)
+  transition-duration .5s
+
+.game-image-line
   position: absolute;
   left: 0
+  right: 0
+  bottom: 0
+  z-index 3
+  width: 100%
+  fill #273A64
+  transition-timing-function cubic-bezier(0.4, 0, 0.2, 1)
+  transition-duration .5s
+  transition-property fill
+  @media(max-width: 1024px)
+    bottom: -2px
+
+
+
+.game-image-content
+  position: absolute;
+  top: 0
+  bottom: 0
+  text-align center
+  left: 0
+  right: 0
+  z-index 4
+  display: flex
+  align-items center
+  justify-content center
   opacity: 0.7
-  right: 0
-  border-radius 0
-  animation hideUser 1s ease-in-out
-  .rt-img-container
-    margin-bottom: -35px
-    transition-timing-function ease-in-out
-    transition-duration 0.5s
-    transition-property margin
-  .rt-img
-    max-width 100%
-
-.ld-mygame-users-button
-  position: absolute;
-  bottom: 28px
-  left: 50px
-  right: 50px
-  display: block
-  min-width: calc(100% - 100px)
-  opacity: 0
-
-
-.lg-mygame-points
-  margin-top: -30px
-  position: relative;
-.lg-mygame-points-line
-  position: absolute;
-  width: 1052px
-  height: 858px
-  left: calc((150 * 100vw - 367776px)/554)
-  top: calc((20 * 100vw - 215680px)/554)
-  pointer-events none
-  z-index: 3
-  @media(min-width: 1920px)
-    left: -160px
-    top: -343px
-  @media(max-width: 1024px)
-    width: 515px
-    height: 420px
-    left: -151px
-    top: -160px
-  @media(max-width: 767px)
-    width: 420.59px;
-    height: 343.03px;
-    left: -127px;
-    top: -89px;
-.lg-mygame-points-line-img
-  max-width 100%
-  .rt-img
-    max-width: 100%
-
-
-
-.lg-mygame-points-img .rt-img
-  width: 80px
-//3079D7, 100%
-
-//.ld-mygame-line
-//  overflow-x: hidden
-.ld-mygame-line
-  position: relative;
-  &:before
-    content ''
-    position: absolute;
-    top: 0
-    left: 0
-    height: 2px
-    height: 2px
-    width: 84vw
-    background-image: linear-gradient(to right , rgba(48,121,215,1) 0%, rgba(48,121,215,0) 100%)
-    z-index 2
-    @media(max-width: 767px)
-      background-image: linear-gradient(to bottom , rgba(48,121,215,1) 0%, rgba(48,121,215,0) 100%)
-      width: 2px
-      height: inherit
-      bottom: 0
-      top: 4px
-
-      left: 30px
-
-.ld-mygame-line-item
-  position: relative
-
-  @media(min-width: 1920px)
-    min-width: 325px
-    max-width: 325px
-
-  min-width: calc((34 * 100vw + 113676px)/554*1.2)
-  max-width: calc((34 * 100vw + 113676px)/554*1.2)
-  @media(max-width: 1366px)
-    min-width: calc((110 * 100vw + 29140px)/598*1.2)
-    max-width: calc((110 * 100vw + 29140px)/598*1.2)
-  @media(max-width: 767px)
-    max-width inherit
-    min-width inherit
-
-.ld-mygame-banner
-  max-width 100vw
-  overflow-x: hidden;
-  overflow-y: visible
-
-.ld-mygame-banner-content
-  position: relative;
-  z-index 2
-
-.ld-mygame-line-cube
-  width: 50px
-  position: absolute
-  top -25px
-  z-index 2
-  left: -20px
-  @media(max-width: 767px)
-    top: -17px
-    left: -13px
-.ld-mygame-banner-img
-  width: calc((431 * 100vw - 45826px)/554)
-  position: relative;
-  left: -10%
-
-  @media(min-width: 1920px)
-    width: 1441px
-
-
-  .rt-img
-    width: 100%
-  @media(max-width: 1024px)
-    width: 71.87vw
-    max-width 71.87vw
-    position: relative;
-    left -16.6667vw
-  @media(max-width: 767px)
-    width: 128vw
-    max-width 128vw
-    left: -16vw;
-
-.ld-mygame-form-line-wrapper
-  right: 0
-  position: absolute;
-  width: 940px;
-  height: 1127px;
-  overflow: hidden;
-  pointer-events none
-  @media(min-width: 1920px)
-    width: 1320px
-
-  @media(max-width: 1024px)
-    top: -402px
-    width: 722px
-    height: 1326px
-    max-width 100vw
-    right: 0
-  @media(max-width: 767px)
-    top: 105px
-    height: 1035px
-    width: 100vw
-.ld-mygame-form-line-wrapper--hide
-  display: none
-.ld-mygame-form-line
-  position: absolute;
-  z-index 10
-  right: calc( ( 248 * 100vw - 698868px)/554)
-  width: 1580px
-  height: 1325px
-
-  .rt-img
-    max-width 100%
-  @media(max-width: 1024px)
-    right: inherit
-    left: 42px
-  @media(max-width: 767px)
-    width: 1231px
-    height: 1033px
-    left: -181px
-img.change-region__icon
-  display: none;
-
-
-.change-region.group-inline-middle.color-primary:before
-  content: '';
-  width: 18px;
-  height: 18px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cpath fill='%23FF4F12' fill-rule='evenodd' d='M0 9h9v9h1l8-18L0 8z'%3E%3C/path%3E%3C/svg%3E");
-
-
-.ld-mygame .checkbox .checkbox-element:checked+.checkbox-container:before
-  border-color: rgb(255 79 18)
-
-@media (hover: hover)
-  .ld-mygame .checkbox:hover :before
-    border-color: rgb(255 79 18)
-
-
-
-.ld-mygame .checkbox-element:checked+.checkbox-container:hover:before,
-.ld-mygame .checkbox .checkbox-element:checked+.checkbox-container:hover:before
-  background-color: rgb(255 79 18 / 40%)!important
-
-.ld-mygame .connection__form .rt-link
-  font-size 16px
-  line-height 24px
-  @media (max-width: 1280px)
-    font-size 16px
-    line-height 24px
-    &.{newAppName}-font-bold
-      line-height 20px
-
-  @media (max-width: 1024px)
-    font-size 16px
-    line-height 24px
-
-  @media (max-width: 767)
-    font-size 14px
-    line-height 20px
-.change-region._rounded svg path
-  fill rgb(255 79 18)
-.js-form .rt-tabs-checklist>.rt-tabs-checklist-input .checkbox-container
-  color: #0d162d
-.js-form .rt-tabs-checklist>.rt-tabs-checklist-input .checkbox-container span
-  color: white
-
-.first-price-container
-  opacity: 0
-  transition-timing-function ease-in-out
-  transition-duration 0.5s
+  transition-timing-function cubic-bezier(0.4, 0, 0.2, 1)
+  transition-duration .5s
   transition-property opacity
 
-.first-price-container--ready
-  opacity: 1
-.first-price-donor,
-.second-price-donor,
-.third-price-donor
+.game-image-logo
+  height: 48px
+  transition-timing-function cubic-bezier(0.4, 0, 0.2, 1)
+  transition-duration .5s
+  transition-property height
+.dot
+  display inline-flex
+  position: relative
+  align-items center
+  justify-content center
+  height: 14px
+  width: 4px
+  &.d-none
+    display: none
+  &.td-d-inline-flex
+    @media(max-width: 1024px)
+      display: inline-flex
+  &.md-d-block
+    @media(max-width: 767px)
+      display: block
+  &.md-d-none
+    @media(max-width: 767px)
+      display: none
+  &:before
+    content ''
+    height: 4px
+    width: 4px
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    margin auto
+    position: absolute;
+    border-radius 50%
+    background-color: #fff
+
+
+.game-image-line
+  text-align center
+.game-image-list
+  display: inline-block
+  vertical-align: middle;
+
+.game-image-footer
+  opacity: 0
+  pointer-events none
+  max-height 0
+  overflow: hidden;
+  transition-timing-function cubic-bezier(0.4, 0, 0.2, 1)
+  transition-duration .5s
+  transition-property opacity, max-height, padding
+hoverElOptions()
+  .game-image-logo
+    height: 60px
+    @media(max-width: 767px)
+      height: 48px
+  .game-image-footer
+    padding-top 60px
+    opacity: 1
+    pointer-events auto
+    max-height 200px
+    @media(max-width: 1024px)
+      padding-top: 48px
+    @media(max-width: 767px)
+      padding-top: 36px
+
+  .game-image-wrapper:after
+    border-image none
+    border-color rgba(255,255,255,0.5)
+  .game-image-content
+    opacity: 1
+  .game-image-tag-pseudo
+    opacity: 0
+    .rt-img
+      left: -10px
+      right: -10px
+      bottom: -10px
+      top: -10px
+      width calc(100% + 20px)
+      height calc(100% + 20px)
+  .game-image-line
+    fill #FF4F12
+  .game-image-tag
+    opacity: 0.7
+    filter: grayscale(0%)
+    .rt-img
+      left: -10px
+      right: -10px
+      bottom: -10px
+      top: -10px
+      width calc(100% + 20px)
+      height calc(100% + 20px)
+.game-image
+  position: relative;
+  height: 350px
+  background-color: main-color
+  cursor: pointer;
+  overflow: hidden;
+  @media(max-width: 1024px)
+    height: 350px
+  @media(max-width: 767px)
+    height: 320px
+  @media (hover: hover)
+    &:hover
+      hoverElOptions()
+  @media (hover: none)
+    hoverElOptions()
+
+
+
+.game-form
+  min-height 750px
+  position: relative;
+  @media (max-width 1024px)
+    min-height auto
+
+.game-form-line
+  top: getCalc(1366,32,1920,26)
+  right: getCalc(1366,-340,1920,-1026)
+  position: absolute;
+  height: 686.31px
+  width: getCalc(1366,1012,1920,1684)
+
+  animation-name animateLine1
+  animation-duration 10s
+  animation-timing-function cubic-bezier(0.4, 0, 0.2, 1)
+  animation-iteration-count infinite
+  //@media (min-width 1920px)
+    //top: 56px
+    //right: -127px
+
+
+.game-border-card
+  height: 314px
+  position: relative;
+  @media (max-width 1024px)
+    height: auto
+    padding-top: 60px
+    padding-bottom: 60px
+    .d-block.td-d-flex
+      width: 100%
+      justify-content space-between
+      padding-right: 40px
+  @media (max-width 767px)
+    .d-block.td-d-flex
+      padding-right: 0px
+  &:before
+    content ''
+    position: absolute
+    top: 0
+    bottom: 0
+    left:0
+    right: 0
+    z-index: 3
+    border: 4px solid main-color;
+    border-width 11px 75px 11px 55px
+    border-image: url("https://static-cdn.rt.ru/sites/default/files/img/games-2021/border.svg") 11 75 11 55 stretch;
+.game-border-card-lines
+  position: absolute;
+  right: 10px;
+  top: -12px;
+  z-index 1
+  mix-blend-mode: soft-light;
+  stroke-dasharray 1400
+  stroke-dashoffset 120
+  fill none
+  stroke-width 1px
+  stroke white
+
+  opacity: 0
+  animation-name animateLine1
+  animation-duration 10s
+  animation-timing-function linear
+  animation-iteration-count infinite
+  transition-property opacity
+  transition-timing-function ease-in-out
+  transition-duration .5s
+.game-border-card:hover
+  @media (hover:hover)
+    .game-border-card-lines
+      opacity: 1
+    .rt-button
+      background-color: #FF4F12
+      color #fff
+.game-border-card
+  overflow: hidden;
+  @media (hover:none)
+    .game-border-card-lines
+      opacity: 1
+    .rt-button
+      background-color: #fff
+.game-border-card-content
+  position: relative;
+  z-index 4
+.block
+  max-width 100%
+  color #fff
+  overflow-x hidden
+  @media (max-width 767px)
+    overflow: visible
+.block .rt-n-banner-content>.rt-col.rt-col-1,
+.block .rt-n-banner-paginator .rt-col.rt-col-1
   display: none
+.block .rt-n-banner-paginator-container
+  padding-left: 70px
+  @media (max-width 767px)
+    padding-left: 0
+.block  .rt-n-banner-inner-content
+  padding-left: 60px
+  @media (max-width 767px)
+    padding-left: 0
+.block  .rt-n-banner-wrapper
+  &:before
+    content ''
+    position absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    box-shadow 0 0 0 1px #fff inset
+    border-radius 8px
+    z-index 10
+    opacity 0.3
+    pointer-events none
+    @media(max-width: 1024px)
+      border-radius 0
+      border-left-width 0
+      border-right-width 0
+
+.block  .color-block--main-color
+    background-color transparent

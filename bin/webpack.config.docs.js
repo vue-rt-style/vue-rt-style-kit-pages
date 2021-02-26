@@ -1,12 +1,18 @@
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const path = require('path');
 const HtmlWebpackPlugin = require(`html-webpack-plugin`);
+const CopyPlugin = require("copy-webpack-plugin")
 const webpack = require('webpack');
-const fs = require('fs');
+// const fs = require('fs');
+const nib = require('nib');
+const stylusLoader = require('stylus-loader');
 const local_dirname = path.join(__dirname,'..');
 const pathSettings = require('./pathSettings')
-
-
+const baseDir = process.env.NODE_ENV_PATH || 'vue-rt-style-kit-pages'
+const contour = process.env.NODE_CONTOUR || 'production'
+function resolve(dir) {
+  return path.join(__dirname, dir)
+}
 
 class setSrcScripts {
   apply (compiler) {
@@ -14,7 +20,9 @@ class setSrcScripts {
       HtmlWebpackPlugin.getHooks(compilation).beforeEmit.tapAsync(
           'setSrcScripts',
           (data, cb) => {
-            data.html = data.html.replace(/script\ src=\"/g,'script src="/vue-rt-style-kit-pages/');
+            data.html = data.html
+              .replace(/stylesheet\" href=\"(?!http)/g, `stylesheet" href="/${baseDir}/`)
+              .replace(/script\ src=\"(?!http)/g, `script src="/${baseDir}/`)
             cb(null, data)
           }
       )
@@ -97,6 +105,7 @@ const config = {
           {loader:`css-loader`},
           {
             loader: `stylus-loader`,
+            
           },
         ],
       },
@@ -111,6 +120,12 @@ const config = {
     ],
   },
   plugins: [
+    new stylusLoader.OptionsPlugin({
+      default: {
+        use: [nib()],
+        import: ['~nib/lib/nib/index.styl']
+      }
+    }),
     new HtmlWebpackPlugin({
       filename: `index.html`,
       template: path.join(local_dirname, `static`, `index.html`),
@@ -126,7 +141,37 @@ const config = {
 config.plugins.push(
     new VueLoaderPlugin(),
     new webpack.NamedModulesPlugin(),
-    new setSrcScripts()
+    new setSrcScripts(),
+    new webpack.DefinePlugin({
+      'globalVars': JSON.stringify({
+        PAGES_BASE_DIR: baseDir
+      })
+    })
 );
+
+if(contour === 'test'){
+  config.plugins.push(
+    new CopyPlugin({
+      patterns: [
+        {
+          from: resolve('../static/images'),
+          to: resolve('../dist/static/images')
+        },
+        {
+          from: resolve('../static/icons'),
+          to: resolve('../dist/static/icons')
+        },
+        {
+          from: resolve('../static/example-images'),
+          to: resolve('../dist/static/example-images')
+        },
+        {
+          from: resolve('../static/404.html'),
+          to: resolve('../dist/404.html')
+        }
+      ],
+    })
+  )
+}
 
 module.exports = config;

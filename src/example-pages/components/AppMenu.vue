@@ -47,7 +47,7 @@
       }
     },
     mounted() {
-      this.preUrl = location.protocol.search("https") >= 0 ? "/vue-rt-style-kit-pages" : "";
+      this.preUrl = globalVars?.PAGES_BASE_DIR ? `/${globalVars.PAGES_BASE_DIR}` : ''
     },
     methods: {
       changeSearchParams(e) {

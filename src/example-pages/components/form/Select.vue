@@ -16,7 +16,7 @@
         </div>
         <div class="app-row row">
           <div class="rt-col-4">
-            <rt-select-v2 :multiple="true" :json="[
+            <rt-select-v2 :multiple="true" :multiple="true" :json="[
                 {value:'50', label:'150 минут 150 минут 150 минут 150 минут 150 минут 150 минут 150 минут'},
                 {value:'150', label:'250 минут', sublabel:'80% скидка'},
                 {value:'250', label:'500 минут', sublabel:'95% скидка'},
