@@ -1,14 +1,15 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[64],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/test-access.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/test-access.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/HelpMain.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/HelpMain.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
 //
 //
 //
@@ -25,178 +26,145 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-var componentsList = {};
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppTestAccess",
-  components: componentsList,
-  data: function data() {
-    return {
-      innerData: [{
-        "label": "Услуги связи",
-        "items": [{
-          "label": "Голосовые услуги",
-          "items": [{
-            "label": "Виртуальная АТС",
-            "path": "https://belgorod.rt.ru/b2b/telephony/vats"
-          }, {
-            "label": "Номер 8 800",
-            "path": "https://belgorod.rt.ru/b2b/telephony/8800"
-          }, {
-            "label": "Виртуальный городской номер",
-            "path": "https://belgorod.rt.ru/b2b/telephony/vats/virtual_numbers"
-          }, {
-            "label": "Стационарный телефон",
-            "callback": "{document.querySelectorAll('.rt-tabs-navigation__item')[1].querySelector('.rt-tabs-navigation__item-name').click()}"
-          }, {
-            "label": "Мобильная связь для бизнеса",
-            "path": "https://belgorod.rt.ru/b2b/telephony/mobile"
-          }, {
-            "label": "Аудиоконференция",
-            "path": "https://belgorod.rt.ru/b2b/telephony/audioconference"
-          }],
-          "subTitle": "dfgdsfg<br>dfgfdg"
-        }, {
-          "label": "Интернет и WI-FI",
-          "items": [{
-            "label": "Фиксированный интернет",
-            "path": "https://belgorod.rt.ru/b2b/internet/fix"
-          }, {
-            "label": "Wi-Fi для гостей",
-            "path": "https://belgorod.rt.ru/b2b/internet/business_wifi"
-          }, {
-            "label": "Мобильный интернет",
-            "path": "https://belgorod.rt.ru/b2b/internet/mobile_net/action"
-          }, {
-            "label": "Виртуальная частная сеть",
-            "path": "https://belgorod.rt.ru/b2b/internet/vpn"
-          }, {
-            "label": "Аренда сетевого оборудования",
-            "path": "https://belgorod.rt.ru/b2b/internet/managed_services"
-          }]
-        }],
-        "image": "/static/images/B2B/new-ad__image.jpg",
-        "adTitle": "Рекламный блок 2",
-        "adText": "khbvkjbkj</br>hoinoi",
-        "linkTarget": "/b2b",
-        "linkText": "Подробнее2",
-        "expandable": true,
-        "newWindow": true
-      }, {
-        "label": "Цифровые сервисы",
-        "items": [{
-          "label": "Наблюдение и контроль",
-          "items": [{
-            "label": "Видеонаблюдение",
-            "path": "https://belgorod.rt.ru/b2b/videonabludenie"
-          }, {
-            "label": "M2M Контроль",
-            "path": "https://belgorod.rt.ru/b2b/solutions/m2m"
-          }, {
-            "label": "Тепловизоры",
-            "path": "https://belgorod.rt.ru/b2b/security/thermal_imaging"
-          }]
-        }, {
-          "label": "Хранение и безопасность",
-          "items": [{
-            "label": "Виртуальный ЦОД",
-            "path": "https://belgorod.rt.ru/b2b/service_cloudy/virtual_dc"
-          }, {
-            "label": "Виртуальное хранилище",
-            "path": "https://belgorod.rt.ru/b2b/service_cloudy/virtual-storage"
-          }, {
-            "label": "Защита от DDos-атак",
-            "path": "https://belgorod.rt.ru/b2b/security/anti-ddos"
-          }, {
-            "label": "Управление навыками инфобезопасности",
-            "path": "https://belgorod.rt.ru/b2b/security/sa"
-          }]
-        }, {
-          "label": "Телевидение",
-          "items": [{
-            "label": "ТВ для сферы услуг",
-            "path": "https://belgorod.rt.ru/b2b/corp_iptv/restaurants"
-          }, {
-            "label": "Ростелеком Экраны",
-            "path": "https://belgorod.rt.ru/b2b/solutions/screens"
-          }, {
-            "label": "ТВ в офис или коворкинг",
-            "path": "https://belgorod.rt.ru/b2b/corp_iptv/office"
-          }, {
-            "label": "ТВ для гостиниц",
-            "path": "https://belgorod.rt.ru/b2b/corp_iptv/hotels"
-          }, {
-            "label": "ТВ для детских учреждений",
-            "path": "https://belgorod.rt.ru/b2b/corp_iptv/children"
-          }]
-        }, {
-          "label": "Другие услуги",
-          "items": [{
-            "label": "Пакеты \"Быть в плюсе\"",
-            "path": "https://belgorod.rt.ru/b2b/be-in-plus"
-          }, {
-            "label": "СМС Реклама",
-            "path": "https://belgorod.rt.ru/b2b/solutions/sms_advertising"
-          }, {
-            "label": "Онлайн-кассы",
-            "path": "https://belgorod.rt.ru/b2b/onlinekassa"
-          }]
-        }],
-        "image": "/static/images/B2B/new-ad__image.jpg",
-        "adTitle": "Рекламный блок 2",
-        "adText": "Специальное предложение по услуге быть в плюсе для бизнеса.",
-        "linkTarget": "#",
-        "linkText": "Подробнее2"
-      }, {
-        "label": "Партнёрам",
-        "path": "https://belgorod.rt.ru/b2b/partners_program"
-      }]
-    };
-  },
-  mounted: function mounted() {// window.addEventListener('load', function(){
-    //   var wrapper = document.querySelector('.items-wrapper');
-    //   var startHeight;
-    //   document.querySelector('.items-wrapper-button').addEventListener('click', function(){
-    //     this.classList.toggle('items-wrapper-button--active')
-    //     setWrapperHeight(wrapper);
-    //   })
-    //   window.addEventListener('resize', function(){
-    //     getWrapperHeight(wrapper);
-    //     setWrapperHeight(wrapper);
-    //   })
-    //   getWrapperHeight(wrapper);
-    //   setWrapperHeight(wrapper);
-    //   function getWrapperHeight(wrapper){
-    //     setTimeout(function(){
-    //       Array.from(wrapper.querySelectorAll('.rt-card__border-content')).map(function(item){
-    //         if(item.hasAttribute('style')){
-    //           startHeight =  item.closest('.rt-card').offsetHeight + 30;
-    //         } else {
-    //           getWrapperHeight(wrapper)
-    //         }
-    //       })
-    //     }, 300)
-    //   }
-    //   function setWrapperHeight(wrapper) {
-    //     setTimeout(function(){
-    //       if(!!startHeight) {
-    //         wrapper.offsetHeight != startHeight ? wrapper.style.height = startHeight + 'px' : wrapper.style.height = wrapper.scrollHeight + 20 + 'px';
-    //       } else {
-    //         setWrapperHeight(wrapper)
-    //       }
-    //     },400)
-    //   }
-    // })
-  },
-  created: function created() {},
-  methods: {}
+  name: "AppHelpMain",
+  components: _componentsList__WEBPACK_IMPORTED_MODULE_0__["default"]
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/test-access.vue?vue&type=template&id=373ff828&":
-/*!*******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/test-access.vue?vue&type=template&id=373ff828& ***!
-  \*******************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/HelpMain.vue?vue&type=template&id=cbc9c426&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/HelpMain.vue?vue&type=template&id=cbc9c426& ***!
+  \**********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -204,25 +172,25 @@ var componentsList = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c("div")}
-var staticRenderFns = []
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"row"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"rt-col-12 rt-col-td-6 rt-col-md-3 is-b2b"},[_c('div',{staticClass:"rt-space-bottom2 rt-td-space-bottom"},[_c('h1',{staticClass:"rt-font-bold rt-space-bottom5"},[_vm._v("Помощь и поддержка")]),_vm._v(" "),_c('rt-row-list',{staticClass:"rt-font-left",attrs:{"is-help-block":true}},[_c('rt-row-list-item',{attrs:{"icon":"/static/images/B2B/ATS.svg"}},[_c('template',{slot:"option"},[_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Виртуальная АТС")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("Настройка переадресации вызовов")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("Как перевести звонок другому\n                  абоненту")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Как настроить короткие номера")])])])],2),_vm._v(" "),_c('rt-row-list-item',{attrs:{"icon":"/static/images/B2B/help2.svg"}},[_c('template',{slot:"option"},[_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("8 800")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("В Ростелеком со своим номером")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("Как проверить баланс в\n                  роуминге?")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Интернет в роуминге")])])])],2),_vm._v(" "),_c('rt-row-list-item',{attrs:{"icon":"/static/images/B2B/help3.svg"}},[_c('template',{slot:"option"},[_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Видеонаблюдение")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("Как перейти в Ростелеком со своим\n                  номером?")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("Как проверить баланс в\n                  роуминге?")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Как подключить интернет в роуминге?")])])])],2),_vm._v(" "),_c('rt-row-list-item',{attrs:{"icon":"/static/images/B2B/mobile-call.svg"}},[_c('template',{slot:"option"},[_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Виртуальная АТС")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("Настройка переадресации вызовов")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("Как перевести звонок другому\n                  абоненту")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Как настроить короткие номера")])])])],2),_vm._v(" "),_c('rt-row-list-item',{attrs:{"icon":"/static/images/B2B/help5.svg"}},[_c('template',{slot:"option"},[_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("8 800")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("В Ростелеком со своим номером")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("Как проверить баланс в\n                  роуминге?")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Интернет в роуминге")])])])],2),_vm._v(" "),_c('rt-row-list-item',{attrs:{"icon":"/static/images/B2B/help6.svg"}},[_c('template',{slot:"option"},[_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Видеонаблюдение")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("Как перейти в Ростелеком со своим\n                  номером?")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph rt-space-bottom05"},[_vm._v("Как проверить баланс в\n                  роуминге?")])]),_vm._v(" "),_c('a',{attrs:{"href":"#"}},[_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Как подключить интернет в роуминге?")])])])],2)],1)],1),_vm._v(" "),_c('h3',{staticClass:"rt-font-bold rt-space-bottom2 rt-td-space-bottom"},[_vm._v("Все сервисы")]),_vm._v(" "),_c('div',{staticClass:"row rt-space-bottom5 rt-td-space-bottom25 rt-md-space-bottom-none"},[_c('div',{staticClass:"rt-col-12 rt-col-td-6 rt-col-md-3"},[_c('rt-un-wrapper',{attrs:{"unwrap-button-text":"показать все"}},[_c('template',{slot:"short-content"},[_c('div',{staticClass:"rt-col-4 rt-col-td-3 rt-col-md-3"},[_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Он-лайн касса")])]),_vm._v(" "),_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("M2M")])]),_vm._v(" "),_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("СМС-реклама")])]),_vm._v(" "),_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Телевидение")])]),_vm._v(" "),_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Аренда сетевого\n                    оборудования")])]),_vm._v(" "),_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Защита от DDoS-атак")])])])]),_vm._v(" "),_c('template',{slot:"full-content"},[_c('div',{staticClass:"rt-col-4 rt-col-td-3 rt-col-md-3"},[_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Аренда сетевого\n                    оборудования")])]),_vm._v(" "),_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Защита от DDoS-атак")])]),_vm._v(" "),_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Виртуальное хранилище")])]),_vm._v(" "),_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Виртуальный ЦОД")])]),_vm._v(" "),_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Он-лайн касса")])]),_vm._v(" "),_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("M2M")])])]),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-td-3 rt-col-md-3"},[_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Телевидение")])]),_vm._v(" "),_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Облачные сервисы")])]),_vm._v(" "),_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Видеоконференция")])]),_vm._v(" "),_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Аудиоконференция")])]),_vm._v(" "),_c('a',{attrs:{"href":""}},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Телевидение")])])])])],2)],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-col-12 rt-col-td-6 rt-col-md-3 is-b2b"},[_c('h3',{staticClass:"rt-font-bold rt-space-bottom2 rt-td-space-bottom rt-md-space-top25"},[_vm._v("Не нашли что искали? Свяжитесь с нами")]),_vm._v(" "),_c('rt-row-list',{staticClass:"rt-font-left",attrs:{"is-help-block":true}},[_c('rt-row-list-item',{attrs:{"icon":"/static/images/B2B/help7.svg"}},[_c('template',{slot:"option"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("Заявкой на сайте")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph"},[_c('a',{staticClass:"rt-link",attrs:{"href":"#"}},[_vm._v("Заполните форму")]),_vm._v(" и в ближайшее время\u2028\n                наши специалисты перезвонят")])])],2),_vm._v(" "),_c('rt-row-list-item',{attrs:{"icon":"/static/images/B2B/help8.svg","button-in-mobile":true,"phone-number":"13451435134"}},[_c('template',{slot:"option"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("По телефону 8 800 200 30 00")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph"},[_vm._v("Наши менеджеры помогут Вам \u2028с решением проблемы")])])],2),_vm._v(" "),_c('rt-row-list-item',{attrs:{"icon":"/static/images/B2B/help9.svg"}},[_c('template',{slot:"option"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold rt-space-bottom05"},[_vm._v("В офисе продаж")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph"},[_vm._v("Приходите в "),_c('a',{staticClass:"rt-link",attrs:{"href":"#"}},[_vm._v("наши офисы")]),_vm._v(", узнавайте новости, тестируйте услуги, задавайте вопросы")])])],2)],1)],1)])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-col-12 rt-col-td-6 rt-col-md-3"},[_c('div',{staticClass:"app-title "},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("Help Main Page")])])])}]
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/promo/test-access.vue":
-/*!******************************************************************!*\
-  !*** ./src/example-pages/components/pages/promo/test-access.vue ***!
-  \******************************************************************/
+/***/ "./src/example-pages/components/pages/HelpMain.vue":
+/*!*********************************************************!*\
+  !*** ./src/example-pages/components/pages/HelpMain.vue ***!
+  \*********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _test_access_vue_vue_type_template_id_373ff828___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test-access.vue?vue&type=template&id=373ff828& */ "./src/example-pages/components/pages/promo/test-access.vue?vue&type=template&id=373ff828&");
-/* harmony import */ var _test_access_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./test-access.vue?vue&type=script&lang=js& */ "./src/example-pages/components/pages/promo/test-access.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _HelpMain_vue_vue_type_template_id_cbc9c426___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HelpMain.vue?vue&type=template&id=cbc9c426& */ "./src/example-pages/components/pages/HelpMain.vue?vue&type=template&id=cbc9c426&");
+/* harmony import */ var _HelpMain_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HelpMain.vue?vue&type=script&lang=js& */ "./src/example-pages/components/pages/HelpMain.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -231,9 +199,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _test_access_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _test_access_vue_vue_type_template_id_373ff828___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _test_access_vue_vue_type_template_id_373ff828___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _HelpMain_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _HelpMain_vue_vue_type_template_id_cbc9c426___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _HelpMain_vue_vue_type_template_id_cbc9c426___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -245,33 +213,33 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/promo/test-access.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************!*\
-  !*** ./src/example-pages/components/pages/promo/test-access.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************/
+/***/ "./src/example-pages/components/pages/HelpMain.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./src/example-pages/components/pages/HelpMain.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_test_access_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib!../../../../../node_modules/vue-loader/lib??vue-loader-options!./test-access.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/test-access.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_test_access_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_HelpMain_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./HelpMain.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/HelpMain.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_HelpMain_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/promo/test-access.vue?vue&type=template&id=373ff828&":
-/*!*************************************************************************************************!*\
-  !*** ./src/example-pages/components/pages/promo/test-access.vue?vue&type=template&id=373ff828& ***!
-  \*************************************************************************************************/
+/***/ "./src/example-pages/components/pages/HelpMain.vue?vue&type=template&id=cbc9c426&":
+/*!****************************************************************************************!*\
+  !*** ./src/example-pages/components/pages/HelpMain.vue?vue&type=template&id=cbc9c426& ***!
+  \****************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_test_access_vue_vue_type_template_id_373ff828___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./test-access.vue?vue&type=template&id=373ff828& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/test-access.vue?vue&type=template&id=373ff828&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_test_access_vue_vue_type_template_id_373ff828___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HelpMain_vue_vue_type_template_id_cbc9c426___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./HelpMain.vue?vue&type=template&id=cbc9c426& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/HelpMain.vue?vue&type=template&id=cbc9c426&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HelpMain_vue_vue_type_template_id_cbc9c426___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_test_access_vue_vue_type_template_id_373ff828___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HelpMain_vue_vue_type_template_id_cbc9c426___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

@@ -303,8 +303,7 @@
       documentation: {},
       inputValue: "test",
       inputModel: '123',
-      inputPasswordType: 'password'
-      inputModel: '123',
+      inputPasswordType: 'password',
       checkThis: false,
       disabled: false
     }),
