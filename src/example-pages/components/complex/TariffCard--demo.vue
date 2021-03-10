@@ -8,36 +8,33 @@
       </div>
 
 
-      <rt-carousel
-        slides-classes="rt-col-3 rt-col-td-3 rt-col-md-2"
-      >
-
+      <rt-carousel-v2 class="rtk-fo__case">
         <!-- Базовая -->
-        <rt-carousel-slide>
+        <rt-carousel-slide-v2 _theme="cardBase">
           <pre-code :text="cardBase"></pre-code>
-        </rt-carousel-slide><!-- ::Базовая -->
+        </rt-carousel-slide-v2><!-- ::Базовая -->
 
         <!-- Акционная -->
-        <rt-carousel-slide>
+        <rt-carousel-slide-v2 _theme="cardPromo">
           <pre-code :text="cardPromo"></pre-code>
-        </rt-carousel-slide><!-- ::Акционная -->
+        </rt-carousel-slide-v2><!-- ::Акционная -->
 
         <!-- Скидочная -->
-        <rt-carousel-slide>
+        <rt-carousel-slide-v2 _theme="cardSale">
           <pre-code :text="cardSale"></pre-code>
-        </rt-carousel-slide><!-- ::Скидочная -->
+        </rt-carousel-slide-v2><!-- ::Скидочная -->
 
         <!-- Игровая тема -->
-        <rt-carousel-slide>
+        <rt-carousel-slide-v2 _theme="cardDark">
           <pre-code :text="cardDark"></pre-code>
-        </rt-carousel-slide><!-- ::Игровая тема -->
+        </rt-carousel-slide-v2><!-- ::Игровая тема -->
 
         <!-- Я.Диск тема -->
-        <rt-carousel-slide>
+        <rt-carousel-slide-v2 _theme="cardYaDisk">
           <pre-code :text="cardYaDisk"></pre-code>
-        </rt-carousel-slide><!-- ::Я.Диск тема -->
+        </rt-carousel-slide-v2><!-- ::Я.Диск тема -->
 
-      </rt-carousel>
+      </rt-carousel-v2>
 
       <div class="rt-container sp-t-1">
         <div class="row">
@@ -106,6 +103,7 @@
                   <div class="rt-font-control color-main05 sp-b-0-3">
                     <p>Стартовый взнос <span>1&nbsp;300 руб</span></p>
                   </div>
+                  <div class="sp-t-0-3"></div>
                   <rt-button class="rt-button-orange rt-button--is-block">Подключить</rt-button>
                 </div>
               </div>
@@ -162,10 +160,11 @@ export default {
       <p class="rt-tariff-option__desc">Мобильная связь</p>
     </div>
   </div>
+  <div class="sp-t-0-1"></div>
   <rt-microtabs class="rt-tariff__line rt-reverse-horizontal sp-h-1 sp-v-0-3">
     <template slot="nav">
       <rt-microtabs-nav>Оборудование</rt-microtabs-nav>
-      <rt-microtabs-nav>Яндекс Диск</rt-microtabs-nav>
+      <rt-microtabs-nav>Игровые опции </rt-microtabs-nav>
     </template>
     <template slot="cnt">
       <rt-microtabs-cnt>
@@ -173,7 +172,7 @@ export default {
         <p>&nbsp;</p>
       </rt-microtabs-cnt>
       <rt-microtabs-cnt>
-        <p>5 ГБ Яндекс.Диск +</p>
+        <p>MY.GAMES, Игры Wargaming, Lineage 2, Blade and Soul, Point Blank, Aion</p>
         <p>&nbsp;</p>
       </rt-microtabs-cnt>
     </template>
@@ -183,6 +182,7 @@ export default {
       :value="600"
       :v2="true"
     ></rt-price>
+    <div class="sp-t-0-3"></div>
     <rt-button class="rt-button-orange rt-button--is-block">Подключить</rt-button>
   </div>
   <div class="sp-t-0-3 rt-font-center">
@@ -232,6 +232,7 @@ export default {
       <p class="rt-tariff-option__desc">Мобильная связь</p>
     </div>
   </div>
+  <div class="sp-t-0-1"></div>
   <rt-microtabs class="rt-tariff__line rt-reverse-horizontal sp-h-1 sp-v-0-3">
     <template slot="nav">
       <rt-microtabs-nav theme="purple">Акция</rt-microtabs-nav>
@@ -264,6 +265,7 @@ export default {
       :value="749"
       :v2="true"
     ></rt-price>
+    <div class="sp-t-0-3"></div>
     <rt-button class="rt-button-purple rt-button--is-block">Подключить</rt-button>
   </div>
   <div class="sp-t-0-3 rt-font-center">
@@ -313,6 +315,7 @@ export default {
       <p class="rt-tariff-option__desc">Мобильная связь</p>
     </div>
   </div>
+  <div class="sp-t-0-1"></div>
   <rt-microtabs class="rt-tariff__line rt-reverse-horizontal sp-h-1 sp-v-0-3">
     <template slot="nav">
       <rt-microtabs-nav theme="orange">Удаленка</rt-microtabs-nav>
@@ -346,6 +349,7 @@ export default {
       :value="1470"
       :v2="true"
     ></rt-price>
+    <div class="sp-t-0-3"></div>
     <rt-button class="rt-button-orange rt-button--is-block">Подключить</rt-button>
   </div>
   <div class="sp-t-0-3 rt-font-center">
@@ -394,12 +398,21 @@ export default {
       <p class="rt-tariff-option__desc">Мобильная связь</p>
     </div>
   </div>
+  <div class="sp-t-0-1"></div>
   <rt-microtabs class="rt-tariff__line rt-reverse-horizontal sp-h-1 sp-v-0-3" :inverse="true">
     <template slot="nav">
+      <rt-microtabs-nav theme="orange">Удаленка</rt-microtabs-nav>
+      <rt-microtabs-nav theme="purple">Акция</rt-microtabs-nav>
       <rt-microtabs-nav>Игровые опции</rt-microtabs-nav>
       <rt-microtabs-nav>Оборудование</rt-microtabs-nav>
     </template>
     <template slot="cnt">
+      <rt-microtabs-cnt>
+        <p>Видеоконференции без потери качества сигнала</p>
+      </rt-microtabs-cnt>
+      <rt-microtabs-cnt>
+        <p>Описание акции</p>
+      </rt-microtabs-cnt>
       <rt-microtabs-cnt>
         <p>Видеоконференции без потери качества сигнала</p>
       </rt-microtabs-cnt>
@@ -411,9 +424,11 @@ export default {
   </rt-microtabs>
   <div class="rt-tariff__line rt-font-right sp-t-0-3 sp-h-1">
     <rt-price
+      :old-value="1640"
       :value="1550"
       :v2="true"
     ></rt-price>
+    <div class="sp-t-0-3"></div>
     <rt-button class="rt-button-full-white rt-button--is-block">Подключить</rt-button>
   </div>
   <div class="sp-t-0-3 rt-font-center">
@@ -463,12 +478,21 @@ export default {
       <p class="rt-tariff-option__desc">Мобильная связь</p>
     </div>
   </div>
+  <div class="sp-t-0-1"></div>
   <rt-microtabs class="rt-tariff__line rt-reverse-horizontal sp-h-1 sp-v-0-3" :inverse="true">
     <template slot="nav">
+      <rt-microtabs-nav theme="orange">Удаленка</rt-microtabs-nav>
+      <rt-microtabs-nav theme="purple">Акция</rt-microtabs-nav>
       <rt-microtabs-nav>Опции</rt-microtabs-nav>
       <rt-microtabs-nav>Оборудование</rt-microtabs-nav>
     </template>
     <template slot="cnt">
+      <rt-microtabs-cnt>
+        <p>Видеоконференции без потери качества сигнала</p>
+      </rt-microtabs-cnt>
+      <rt-microtabs-cnt>
+        <p>Описание акции</p>
+      </rt-microtabs-cnt>
       <rt-microtabs-cnt>
         <p>Яндекс.Диск Unlim</p>
         <p>&nbsp;</p>
@@ -484,6 +508,7 @@ export default {
       :value="890"
       :v2="true"
     ></rt-price>
+    <div class="sp-t-0-3"></div>
     <rt-button class="rt-button-full-white rt-button--is-block">Подключить</rt-button>
   </div>
   <div class="sp-t-0-3 rt-font-center">
@@ -497,10 +522,41 @@ export default {
 }
 </script>
 
-<style lang="stylus">
-// Перезаписываем Z-index при просмотре кода, чтобы карточки не налазили на редактор
-.rt-code-viewer
-  .rt-carousel,
-  .rt-carousel__slide
-    z-index auto
+<style>
+/* Перезаписываем Z-index при просмотре кода, чтобы карточки не налазили на редактор */
+.rt-code-viewer .rt-carousel,
+.rt-code-viewer .rt-carousel__slide { z-index: auto; }
+
+/* RTRU-9801 */
+header:not(.ready){position: relative}
+.sk-contain{
+	margin: 0 -10px -20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+	flex-wrap: nowrap;
+	display: flex;
+}
+.rt-container .sk-contain{
+	padding-left: 0;
+	padding-right: 0;
+}
+.sk-card{
+	flex: 0 0 338px;
+	padding: 0 10px;
+}
+@media (max-width: 1024px) {
+	.rtk-fo__case .rt-carousel-slide-v2 { max-width: 288px }
+	.rt-container .rtk-fo__case .rt-carousel-v2.rt-container { margin: 0 -20px; width: 100vw }
+}
+@media (min-width: 1025px) { .rt-container .rtk-fo__case .rt-carousel-v2.rt-container { margin: 0 -10px; padding: 0 }}
+@media (min-width: 1025px) and (max-width: 1279px) { .rtk-fo__case .rt-carousel-v2:not(.rt-carousel--fit-slides) .rt-carousel-slide-v2 { max-width: 316px }}
+@media (min-width: 1025px) and (max-width: 1279px) { .rtk-fo__case .rt-carousel-v2.rt-carousel--fit-slides .rt-carousel-slide-v2 { max-width: 352px }}
+@media (min-width: 1025px) and (max-width: 1366px) { .rtk-fo__case .rt-carousel-slide-v2--5 { flex: 0 0 400px; max-width: initial }}
+@media (max-width: 1279px) { .rtk-fo__case .rt-carousel-slide-v2--5 { width: 352px!important; -ms-flex-preferred-size: 352px!important; flex-basis: 352px!important; }}
+@media (min-width: 1280px) { .rtk-fo__case .rt-carousel-v2:not(.rt-carousel--fit-slides) .rt-carousel-slide-v2 { max-width: 336px }}
+@media (min-width: 1280px) {
+	.rtk-fo__case .rt-carousel-v2.rt-carousel--fit-slides .rt-carousel-slide-v2--1,
+	.rtk-fo__case .rt-carousel-v2.rt-carousel--fit-slides .rt-carousel-slide-v2--2 { width: 365px!important; -ms-flex-preferred-size: 365px!important; flex-basis: 365px!important; }
+}
+@media (min-width: 1367px) { .rtk-fo__case .rt-carousel-v2.rt-carousel--fit-slides .rt-carousel-slide-v2--5 { max-width: 336px }}
 </style>
