@@ -262,10 +262,10 @@ addToComponentList(SliderItem);
 addToComponentList(Jumbotron);
 
 
-componentsList[Jumbotron.name] = Jumbotron;
-componentsList[CardHelp.name] = CardHelp;
-componentsList[CardBanner.name] = CardBanner;
-componentsList[CardTileLayout.name] = CardTileLayout;
+
+addToComponentList(CardHelp);
+addToComponentList(CardBanner);
+addToComponentList(CardTileLayout);
 
 // componentsList[PreComponent.name] = PreComponent;
 // componentsList[PreComponentEditor.name] = PreComponentEditor;
