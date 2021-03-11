@@ -11,8 +11,8 @@
 					<div class="app-row row">
 						<div class="rt-col-4 rt-col-md-2">
 							<span class="rt-font-label flex-fill rt-space-bottom05">simple input</span>
-            <h1>{{inputModel}}</h1>
-              <div class="color-block--black">
+<!--              <h1>{{inputModel}}</h1>-->
+<div class="color-block--black">
               <rt-input label="Поле ввода с паролем"
                         :version="2"
                         type="string"
@@ -52,24 +52,27 @@
               <rt-input label="Начните вводить почту!!"
                         :version="2"
                         v-model="inputModel"
-                        type="string"
+                        type="text"
                         value=""
-                        placeholder="Электронная почта!" />
+                        placeholder="Электронная почта!" v-on:clear="clearInput"/>
               <rt-input label="Начните вводить почту!!"
                         :version="2"
-                        type="string"
+                        type="text"
                         value=""
-                        placeholder="Электронная почта!" />
+                        placeholder="Электронная почта!" v-on:clear="clearInput"/>
+              <rt-input label="Начните вводить пароль!!"
+                        :version="2"
+                        type="text"
+                        value=""
+                        placeholder="Пароль" input-type="password"/>
               <rt-input label="Начните вводить почту!!"
                         :version="2"
-                        type="string"
+                        type="text"
                         value=""
-                        placeholder="Электронная почта!" />
-              <rt-input label="Начните вводить почту!!"
-                        :version="2"
-                        type="string"
-                        value=""
-                        placeholder="Электронная почта!" />
+                        placeholder="Электронная почта!">
+                <template slot="informer">Эмбоссирование – метод персонализации пластиковых карт, при котором специальным аппаратом эмбоссером на лицевой стороне карточки выдавливается <br>буквенно-цифровая информация.</template>
+              </rt-input>
+              <rt-input input-type="tel" label="Телефон" :version="2" placeholder="Телефон" :need-verification="true" :verified="checkThis"/>
 							<pre-code
 									text="<rt-input label=&quot;Начните вводить почту&quot;
                               type=&quot;string&quot;
@@ -138,7 +141,7 @@
 						<div class="rt-col-1 rt-col-md-1 rt-md-space-top">
 							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 1 c</span>
 							<rt-input value="" placeholder="Дом" :has-error="true" error-message="dasd asdas asdsad sadsad">
-								<rt-validation-icon status="error" mobile-hint-orient="left" hint-text="Есть техническая возможность"/>
+<!--								<rt-validation-icon status="error" mobile-hint-orient="left" hint-text="Есть техническая возможность"/>-->
 							</rt-input>
 						</div>
 						<div class="rt-col-1"/>
@@ -150,10 +153,7 @@
 					<div class="app-row row">
 						<div class="rt-col-3 rt-col-md-3">
 							<span class="rt-font-label flex-fill rt-space-bottom05">input in 3 col</span>
-							<rt-input value=""
-							          placeholder="Электронная почта"
-
-							/>
+							<rt-input value="" placeholder="Электронная почта"/>
 						</div>
 						<div class="rt-col-2 rt-col-md-2 rt-md-space-top">
 							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 2 col</span>
@@ -162,8 +162,8 @@
 						<div class="rt-col-1 rt-col-md-1 rt-md-space-top">
 							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 1 c</span>
 							<rt-input value="" placeholder="Дом">
-								<rt-validation-icon status="success" mobile-hint-orient="left"
-								                    hint-text="Есть техническая возможность"/>
+<!--								<rt-validation-icon status="success" mobile-hint-orient="left"-->
+<!--								                    hint-text="Есть техническая возможность"/>-->
 							</rt-input>
 						</div>
 						<div class="rt-col-1"/>
@@ -270,14 +270,7 @@
 							          insert-type="tel"/>
 							<rt-input placeholder="Код из смс"
 							          :is-b2b-input="true"
-							          :approved="true"
-							          v-model="inputValue"
-							          @click="consoleEvent($event)"
-							          @change="consoleEvent($event)"
-							          @keyup="consoleEvent($event)"
-							          @keydown="consoleEvent($event)"
-							          @focus="consoleEvent($event)"
-							          @blur="consoleEvent($event)"/>
+							          :approved="true"/>
 							<div class="row flex-center-center rt-space-top">
 								<rt-checkbox name="agreement" class="color-main05">Я принимаю <a href="">условия передачи информации</a>
 								</rt-checkbox>
@@ -310,10 +303,16 @@
       documentation: {},
       inputValue: "test",
       inputModel: '123',
-      inputPasswordType: 'password'
+      inputPasswordType: 'password',
+      checkThis: false,
+      disabled: false
     }),
     mounted() {
       this.documentation = documentation;
+      setTimeout(()=> {
+        this.checkThis = true;
+        this.disabled = true
+      },10000)
     },
     created() {
     },
@@ -330,10 +329,8 @@
         console.info('openCalendar',e,a,b)
       },
       clearInput() {
-        this.inputValue = "ббб";
-      },
-      consoleEvent($event) {
-        console.log($event.type);
+        console.log('!!')
+        // this.inputModel = "ббб";
       }
     }
   };

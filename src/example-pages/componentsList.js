@@ -1,31 +1,32 @@
 import {
-  Button,
-  Calendar,
-  Checkbox,
-  CheckboxContainer,
-  Input,
-  Price,
-  RadioButton,
-  RadioButtonContainer,
-  Ripple,
-  RippleWihoutJs,
-  Select,
-  SelectOption,
-  SelectV2,
-  SelectV2Option,
-  Switch,
-  SwitchContainer,
-  Textarea,
-  TextareaStatic,
-  Annotation,
-  ColorLineText,
-  Ussd,
-  Spinner,
-  GridRow,
-  GridColumn,
-  Image,
-  Hint,
-  HintBody,
+    Button,
+    Calendar,
+    Checkbox,
+    CheckboxContainer,
+    Input,
+    Price,
+    RadioButton,
+    RadioButtonContainer,
+    Ripple,
+    RippleWihoutJs,
+    Select,
+    SelectOption,
+    SelectV2,
+    SelectV2Option,
+    Switch,
+    SwitchContainer,
+    Textarea,
+    TextareaStatic,
+    Annotation,
+    AnnotationV2,
+    ColorLineText,
+    Ussd,
+    Spinner,
+    GridRow,
+    GridColumn,
+    Image,
+    Hint,
+    HintBody,
 } from '@vue-rt-style-kit-atoms-local'
 
 
@@ -121,27 +122,12 @@ import {
   CarouselSlideV2,
   AdBanner,
   PreviewBanner,
-  ShowOn
+  ShowOn,
+  CardHelp,
+  CardBanner,
+  CardTileLayout
   
 } from '@vue-rt-style-kit-molecules-local'
-
-
-import {
-  ACArchiveComponent,
-  ACConfirmationPopup,
-  ACCreationPopup,
-  ACFooter,
-  ACHeader,
-  ACInvitationPopup,
-  ACListComponent,
-  ACManagePopup,
-  ACPhonebookComponent,
-  ACSettingsPopup,
-  ACEditPopup,
-  ACPaginator,
-  ACDatePicker
-} from '@vue-rt-style-kit-aks-local'
-
 
 import {
   Logo,
@@ -276,46 +262,10 @@ addToComponentList(SliderItem);
 addToComponentList(Jumbotron);
 
 
-if (ACArchiveComponent) {
-  addToComponentList(ACArchiveComponent);
-}
-if (ACConfirmationPopup) {
-  addToComponentList(ACConfirmationPopup);
-}
-if (ACCreationPopup) {
-  addToComponentList(ACCreationPopup);
-}
-if (ACFooter) {
-  addToComponentList(ACFooter);
-}
-if (ACHeader) {
-  addToComponentList(ACHeader);
-}
-if (ACInvitationPopup) {
-  addToComponentList(ACInvitationPopup);
-}
-if (ACListComponent) {
-  addToComponentList(ACListComponent);
-}
-if (ACManagePopup) {
-  addToComponentList(ACManagePopup);
-}
-if (ACPhonebookComponent) {
-  addToComponentList(ACPhonebookComponent);
-}
-if (ACSettingsPopup) {
-  addToComponentList(ACSettingsPopup);
-}
-if (ACEditPopup) {
-  addToComponentList(ACEditPopup);
-}
-if (ACPaginator) {
-  addToComponentList(ACPaginator);
-}
-if (ACDatePicker) {
-  addToComponentList(ACDatePicker);
-}
-
+componentsList[Jumbotron.name] = Jumbotron;
+componentsList[CardHelp.name] = CardHelp;
+componentsList[CardBanner.name] = CardBanner;
+componentsList[CardTileLayout.name] = CardTileLayout;
 
 // componentsList[PreComponent.name] = PreComponent;
 // componentsList[PreComponentEditor.name] = PreComponentEditor;
