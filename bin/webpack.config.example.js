@@ -34,15 +34,12 @@ const config = {
       // Symlinks
 
       '@vue-rt-style-kit-atoms-local': path.join(local_dirname,'src','atoms'),
-      '@vue-rt-style-kit-aks-local': path.join(local_dirname,'src','aks'),
-      'vue-rt-style-kit-aks': path.join(local_dirname,'src','aks'),
       'vue-rt-style-kit-atoms': path.join(local_dirname,'src','atoms'),
       '@vue-rt-style-kit-molecules-local': path.join(local_dirname,'src','molecules'),
       '@vue-rt-style-kit-icons-local': path.join(local_dirname,'src','icons'),
       '@projectAtoms': path.join(local_dirname,'src','projectsJsons','atoms.json'),
       '@projectMolecules': path.join(local_dirname,'src','projectsJsons','molecules.json'),
       '@projectIcons': path.join(local_dirname,'src','projectsJsons','icons.json'),
-      '@projectAks': path.join(local_dirname,'src','projectsJsons','aks.json'),
     },
   },
   module: {

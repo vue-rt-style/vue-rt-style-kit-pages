@@ -44,7 +44,6 @@
     "smoothscroll-polyfill": "^0.4.4",
     "vue-fragment": "^1.5.1",
     "vue-router": "^3.1.6",
-    "vue-rt-style-kit-aks": "0.0.1-security",
     "vue-rt-style-kit-atoms": "^0.3.23",
     "vue-rt-style-kit-icons": "^0.2.8",
     "vue-rt-style-kit-molecules": "^0.3.28",

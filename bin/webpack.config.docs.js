@@ -48,13 +48,11 @@ const config = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@vue-rt-style-kit-atoms-local': pathSettings.atoms,
-      '@vue-rt-style-kit-aks-local': pathSettings.aks,
       '@vue-rt-style-kit-molecules-local': pathSettings.molecules,
       '@vue-rt-style-kit-icons-local': pathSettings.icons,
       '@projectAtoms': pathSettings.atomsJson,
       '@projectMolecules': pathSettings.moleculesJson,
       '@projectIcons': pathSettings.iconsJson,
-      '@projectAks': pathSettings.aksJson,
     },
   },
   module: {
