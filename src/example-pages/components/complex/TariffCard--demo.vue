@@ -411,7 +411,7 @@ export default {
         <p>Видеоконференции без потери качества сигнала</p>
       </rt-microtabs-cnt>
       <rt-microtabs-cnt>
-        <p>Описание акции</p>
+        <p>Доступ к видеосервису Wink с максимальной выгодой до 2 месяцев. Полную информацию об услуге Вы можете найте на нашем сайте в разделе Wink</p>
       </rt-microtabs-cnt>
       <rt-microtabs-cnt>
         <p>Видеоконференции без потери качества сигнала</p>
@@ -527,7 +527,7 @@ export default {
 .rt-code-viewer .rt-carousel,
 .rt-code-viewer .rt-carousel__slide { z-index: auto; }
 
-/* RTRU-9801 */
+/* RTRU-9801: @TODO - Вынести в стиль после всех согласований */
 header:not(.ready){position: relative}
 .sk-contain{
 	margin: 0 -10px -20px;
@@ -549,7 +549,8 @@ header:not(.ready){position: relative}
 	.rt-container .rtk-fo__case .rt-carousel-v2.rt-container { margin: 0 -20px; width: 100vw }
 }
 @media (min-width: 1025px) { .rt-container .rtk-fo__case .rt-carousel-v2.rt-container { margin: 0 -10px; padding: 0 }}
-@media (min-width: 1025px) and (max-width: 1279px) { .rtk-fo__case .rt-carousel-v2:not(.rt-carousel--fit-slides) .rt-carousel-slide-v2 { max-width: 316px }}
+@media (max-width: 359px) { .rtk-fo__case .rt-carousel-v2:not(.rt-carousel--fit-slides) .rt-carousel-slide-v2 { max-width: 252px }}
+@media (min-width: 360px) and (max-width: 1279px) { .rtk-fo__case .rt-carousel-v2:not(.rt-carousel--fit-slides) .rt-carousel-slide-v2 { max-width: 316px }}
 @media (min-width: 1025px) and (max-width: 1279px) { .rtk-fo__case .rt-carousel-v2.rt-carousel--fit-slides .rt-carousel-slide-v2 { max-width: 352px }}
 @media (min-width: 1025px) and (max-width: 1366px) { .rtk-fo__case .rt-carousel-slide-v2--5 { flex: 0 0 400px; max-width: initial }}
 @media (max-width: 1279px) { .rtk-fo__case .rt-carousel-slide-v2--5 { width: 352px!important; -ms-flex-preferred-size: 352px!important; flex-basis: 352px!important; }}
