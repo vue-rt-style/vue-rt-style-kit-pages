@@ -293,7 +293,7 @@ export default {
       <rt-system-icons name="screen tv"></rt-system-icons>
     </i>
     <div class="rt-tariff-option__info">
-      <p class="rt-tariff-option__title">До 227 каналов</p>
+      <p class="rt-tariff-option__title"><span>227 каналов</span><a class="rt-link rt-link--orange"> посмотреть</a></p>
       <p class="rt-tariff-option__desc">Интерактивное ТВ Wink</p>
     </div>
   </div>
