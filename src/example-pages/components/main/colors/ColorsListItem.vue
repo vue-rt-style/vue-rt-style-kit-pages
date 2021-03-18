@@ -37,8 +37,14 @@
                         return <rt-table-item>{this.color.rgba.red} {this.color.rgba.blue} {this.color.rgba.green} {this.color.rgba.alpha * 100}</rt-table-item>;
                         break
                     case 'icon':
+                      let color = '#'+this.color.hex
+                        if(color.length%2 == 0){
+                          color += '0'
+                        }
+                        const style = {backgroundColor: color}
+
                         return <rt-table-item>
-                            <div class="app-color-cube" style={{backgroundColor: `#${this.color.hex}`}}></div>
+                            <div class="app-color-cube" style={style}></div>
                         </rt-table-item>;
                         break
                     case 'code_variable_name':

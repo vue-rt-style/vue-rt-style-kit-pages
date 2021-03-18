@@ -100,6 +100,7 @@
                     return <app-colors-item colorsIndexArray={this.colorsSettingsArray} settings={colorListSettings}
                                             color={colorItem}/>;
                 } else {
+                    console.info('-->>',colorItem)
                     return null;
                 }
             });

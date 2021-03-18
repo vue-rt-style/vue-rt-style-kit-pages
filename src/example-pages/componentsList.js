@@ -125,7 +125,9 @@ import {
   ShowOn,
   CardHelp,
   CardBanner,
-  CardTileLayout
+  CardTileLayout,
+  CommentSlider,
+  CommentSliderItem
   
 } from '@vue-rt-style-kit-molecules-local'
 
@@ -258,6 +260,9 @@ addToComponentList(Slider);
 addToComponentList(AdBanner);
 addToComponentList(PreviewBanner);
 addToComponentList(SliderItem);
+
+addToComponentList(CommentSlider);
+addToComponentList(CommentSliderItem);
 
 addToComponentList(Jumbotron);
 

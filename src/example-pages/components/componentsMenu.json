@@ -496,6 +496,14 @@
           "for_b2c" : true
         },
         {
+          "name" : "Comment Slider",
+          "title" : "CommentSlider",
+          "url" : "/comment-slider",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
           "name" : "swiper",
           "title" : "Swiper",
           "url" : "/swiper",
