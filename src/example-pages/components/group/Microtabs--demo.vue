@@ -1,134 +1,127 @@
 <template>
-  <section style="background:#f8f8f8">
+  <section style="background:#f8f8f8; color:#101828">
     <div class="rt-container">
       <div class="app-content rt-col-12 rt-col-md-3">
         <div class="app-title">
-          <h1 class="rt-font-hero">Microtabs</h1>
+          <h1 class="rt-font-hero sp-b-1">Microtabs</h1>
           <p>Для вывода включенных опций в тарифной карточке было принято группировать их в microtabs. Данный компонент решает сразу 2 проблемы: некотролируемость высоты карточки и отображение простых данных.</p>
           <p>Под капотом microtabs заложена логика подстройки под ширину контейнера, с учетом изменения ширины экрана.</p>
         </div>
 
-        <rt-row class="app-row">
-          <rt-col size="5">
+        <rt-row class="app-row sp-t-2">
+          <rt-col size="5" mobile-size="3">
             <h3 class="sp-b-1">Простой режим (без контента)</h3>
             <pre-code :text="sampleView"></pre-code>
           </rt-col>
-          <rt-col size="7">
-            <h4 class="sp-b-1">Отображение контента без ограничения по высоте</h4>
+          <rt-col size="7" mobile-size="3">
+            <h4 class="sp-b-1  md-sp-t-2">Отображение контента без ограничения по высоте</h4>
             <pre-code :text="longView"></pre-code>
           </rt-col>
 
           <rt-col size="12">
             <h3 class="sp-t-2 sp-b-1">С контентом, учетом отступов и тем</h3>
           </rt-col>
-          <rt-col size="6">
+          <rt-col size="6" mobile-size="3">
             <pre-code :text="spacesView"></pre-code>
           </rt-col>
-          <rt-col size="6">
+          <rt-col size="6" mobile-size="3">
             <pre-code :text="themesView"></pre-code>
           </rt-col>
 
-          <rt-col size="6">
+          <rt-col size="6" mobile-size="3">
             <h3 class="sp-t-3 sp-b-1">Инверсия цвета (dark тема карточек)</h3>
             <pre-code :text="inverseBlackView"></pre-code>
           </rt-col>
-          <rt-col size="6">
-            <h3 class="sp-t-3 sp-b-1">Инверсия цвета (yadisk тема карточек)</h3>
+          <rt-col size="6" mobile-size="3">
+            <h3 class="sp-t-3 sp-b-1  md-sp-t-2">Инверсия цвета (yadisk тема карточек)</h3>
             <pre-code :text="inverseBlueView"></pre-code>
           </rt-col>
 
           <rt-col size="12">
-            <h3 class="sp-t-3 sp-b-1">Требования, дизайн-система</h3>
-            <div class="d-flex flex-start-center">
-              <rt-system-icons name="close large" color="orange"></rt-system-icons>
-              <p>Нельзя размещать всю палитру раскрашенных вкладок microtabs-nav в один ряд</p>
+            <h3 class="sp-t-3 sp-b-1">Требования и дизайн-система</h3>
+            <p class="sp-b-1">Нельзя размещать всю палитру раскрашенных вкладок microtabs-nav в один ряд. Подборка выше, сделана исключительно в качестве демонстрации</p>
+            <div class="dont-use" style="width:288px">
+              <rt-microtabs>
+                <template slot="nav">
+                  <rt-microtabs-nav theme="purple">Цвет A</rt-microtabs-nav>
+                  <rt-microtabs-nav theme="orange">Цвет B</rt-microtabs-nav>
+                  <rt-microtabs-nav>Обычный цвет</rt-microtabs-nav>
+                </template>
+                <template slot="cnt">
+                  <rt-microtabs-cnt>
+                    <p>Описание вкладки в одну строку</p>
+                  </rt-microtabs-cnt>
+                  <rt-microtabs-cnt>
+                    <p>Описание вкладки в одну строку</p>
+                    <p>Описание вкладки во вторую строку</p>
+                  </rt-microtabs-cnt>
+                  <rt-microtabs-cnt>
+                    <p>Описание вкладки в одну строку</p>
+                    <p>Описание вкладки во вторую строку</p>
+                  </rt-microtabs-cnt>
+                </template>
+              </rt-microtabs>
             </div>
-            <rt-microtabs class="sp-v-0-3" style="background:#fba">
-              <template slot="nav">
-                <rt-microtabs-nav theme="purple">Цвет A</rt-microtabs-nav>
-                <rt-microtabs-nav theme="orange">Цвет B</rt-microtabs-nav>
-                <rt-microtabs-nav>Обычный цвет</rt-microtabs-nav>
-              </template>
-              <template slot="cnt">
-                <rt-microtabs-cnt>
-                  <p>Описание вкладки в одну строку</p>
-                </rt-microtabs-cnt>
-                <rt-microtabs-cnt>
-                  <p>Описание вкладки в одну строку</p>
-                  <p>Описание вкладки во вторую строку</p>
-                </rt-microtabs-cnt>
-                <rt-microtabs-cnt>
-                  <p>Описание вкладки в одну строку</p>
-                  <p>Описание вкладки во вторую строку</p>
-                </rt-microtabs-cnt>
-              </template>
-            </rt-microtabs>
           </rt-col>
 
           <rt-col size="12">
-            <h4 class="sp-t-2 sp-b-1">Reactive resize tester</h4>
+            <h4 class="sp-t-2 sp-b-1">Tester</h4>
           </rt-col>
-          <rt-col size="12" class="d-flex">
-            <rt-microtabs style="
-              background:#fff;border:20px solid #bdf1bd;width:280px
-            " class="sp-v-0-3">
+          <rt-col size="5" mobile-size="3">
+            <div class="sp-b-1 d-flex">
+              <input type="range" min="250" max="780" v-model="testBlockWidth">
+              &nbsp;width: {{ testBlockWidth }}px
+            </div>
+            <div class="sp-b-1">
+              <a @click="() => cloneShown = !cloneShown" href="javascript:void(0)">Clone toggle</a>
+            </div>
+            <div class="sp-b-1">
+              <a @click="() => {
+                if (!testList.length) return
+                testListHidden.push(testList[0])
+                testList.splice(0, 1)
+              }" href="javascript:void(0)">List less</a>
+            </div>
+            <div class="sp-b-1">
+              <a @click="() => {
+                if (!testListHidden.length) return
+                testList.push(testListHidden[0])
+                testListHidden.splice(0, 1)
+              }" href="javascript:void(0)">List more</a>
+            </div>
+          </rt-col>
+          <rt-col size="7" mobile-size="3">
+            <rt-microtabs
+              class="test-list test-list--accent sp-v-0-3"
+              :style="`width:${testBlockWidth}px`"
+            >
               <template slot="nav">
-                <rt-microtabs-nav style="background:#f33">Вкладка</rt-microtabs-nav>
-                <rt-microtabs-nav style="background:#f93">Телефония</rt-microtabs-nav>
-                <rt-microtabs-nav style="background:#ff3">Оборудование</rt-microtabs-nav>
-                <rt-microtabs-nav style="background:#3f3">Антивирус</rt-microtabs-nav>
-                <rt-microtabs-nav style="background:#33f">Яндекс Диск</rt-microtabs-nav>
+                <rt-microtabs-nav v-for="(nav, key) in testList" :key="key">
+                  <div v-html="nav.nav"></div>
+                </rt-microtabs-nav>
               </template>
               <template slot="cnt">
-                <rt-microtabs-cnt style="background:#f33">
-                  <p>Описание вкладки в одну строку</p>
-                </rt-microtabs-cnt>
-                <rt-microtabs-cnt style="background:#f93">
-                  <p>Переадресация</p>
-                  <p>Голосовое меню IVR</p>
-                  <p>Распределение  звонков</p>
-                  <p>Статистика и аналитика</p>
-                </rt-microtabs-cnt>
-                <rt-microtabs-cnt style="background:#ff3">
-                  <p>Предоставляет услуги широкополосного доступа в Интернет, интерактивного телевидения, сотовой связи, местной и дальней телефонной связи и др. Занимает лидирующие позиции на российском рынке высокоскоростного доступа в интернет, платного ТВ, хранения и обработки данных, а также кибербезопасности</p>
-                </rt-microtabs-cnt>
-                <rt-microtabs-cnt style="background:#3f3">
-                  <p>Kaspersky Internet Security 2 устройства</p>
-                </rt-microtabs-cnt>
-                <rt-microtabs-cnt style="background:#33f">
-                  <p>5 ГБ Яндекс.Диск +</p>
-                </rt-microtabs-cnt>
+                <rt-microtabs-cnt
+                  v-for="(cnt, key) in testList" :key="key"
+                  v-html="cnt.cnt"
+                ></rt-microtabs-cnt>
               </template>
             </rt-microtabs>
-            <rt-microtabs style="
-              background:#fff;border:20px solid #f0f1bd;width:280px
-            " class="sp-v-0-3">
+            <rt-microtabs
+              v-if="cloneShown"
+              class="test-list sp-v-0-3"
+              :style="`width:${testBlockWidth}px`"
+            >
               <template slot="nav">
-                <rt-microtabs-nav>Вкладка</rt-microtabs-nav>
-                <rt-microtabs-nav>Телефония</rt-microtabs-nav>
-                <rt-microtabs-nav>Оборудование</rt-microtabs-nav>
-                <rt-microtabs-nav>Антивирус</rt-microtabs-nav>
-                <rt-microtabs-nav>Яндекс Диск</rt-microtabs-nav>
+                <rt-microtabs-nav v-for="(nav, key) in testList" :key="key">
+                  <div v-html="nav.nav"></div>
+                </rt-microtabs-nav>
               </template>
               <template slot="cnt">
-                <rt-microtabs-cnt>
-                  <p>Описание вкладки в одну строку</p>
-                </rt-microtabs-cnt>
-                <rt-microtabs-cnt>
-                  <p>Переадресация</p>
-                  <p>Голосовое меню IVR</p>
-                  <p>Распределение  звонков</p>
-                  <p>Статистика и аналитика</p>
-                </rt-microtabs-cnt>
-                <rt-microtabs-cnt>
-                  <p>Предоставляет услуги широкополосного доступа в Интернет, интерактивного телевидения, сотовой связи, местной и дальней телефонной связи и др. Занимает лидирующие позиции на российском рынке высокоскоростного доступа в интернет, платного ТВ, хранения и обработки данных, а также кибербезопасности</p>
-                </rt-microtabs-cnt>
-                <rt-microtabs-cnt>
-                  <p>Kaspersky Internet Security 2 устройства</p>
-                </rt-microtabs-cnt>
-                <rt-microtabs-cnt>
-                  <p>5 ГБ Яндекс.Диск +</p>
-                </rt-microtabs-cnt>
+                <rt-microtabs-cnt
+                  v-for="(cnt, key) in testList" :key="key"
+                  v-html="cnt.cnt"
+                ></rt-microtabs-cnt>
               </template>
             </rt-microtabs>
           </rt-col>
@@ -136,28 +129,40 @@
         </rt-row>
       </div>
 
-      <div class="rt-container rt-space-top25">
-        <documentation-builder :json="documentation" type="props" />
+      <div class="rt-container">
+        <documentation-builder :json="docProps" type="props" class="sp-t-2-1" />
+        <documentation-builder :json="docEvents" type="events" class="sp-t-2-1" />
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import documentation from '@vue-rt-style-kit-molecules-local/components/Microtabs/docs/index.json'
+import docProps from '@vue-rt-style-kit-molecules-local/components/Microtabs/docs/props.json'
+import docEvents from '@vue-rt-style-kit-molecules-local/components/Microtabs/docs/events.json'
 
 export default {
   name: 'MicroTabsComponent',
   data(){
     return {
-      documentation
+      docProps,
+      docEvents,
+      testList: [
+        { nav: 'Удаленка', cnt: '<p>Видеоконференции без потери качества сигнала</p>' },
+        { nav: 'Оборудование', cnt: '<div>ТВ-приставка <span class="rt-tariff-price--inline">+ 50 руб./мес.</span></div>' },
+        { nav: 'Яндекс', cnt: '<p>5 ГБ Яндекс.Диск +</p>' },
+        { nav: 'Антивирус', cnt: '<p>Kaspersky Internet Security 2 устройства</p>' }
+      ],
+      testListHidden: [],
+      testBlockWidth: 312,
+      cloneShown: false
     }
   },
   computed:{
     sampleView(){
       return `
 <div style="width:200px">
-  <rt-microtabs style="background:#fff;" class="sp-h-1 sp-v-0-3">
+  <rt-microtabs class="color-block--white sp-h-1 sp-v-0-3">
     <template slot="nav">
       <rt-microtabs-nav theme="flat"><rt-system-icons name="speed 8x" color="main-color"></rt-system-icons></rt-microtabs-nav>
       <rt-microtabs-nav theme="flat"><rt-system-icons name="speed 6x" color="main-color05"></rt-system-icons></rt-microtabs-nav>
@@ -171,7 +176,7 @@ export default {
     },
     longView(){
       return `
-<rt-microtabs :fit="false" style="background:#fff;" class="sp-h-1 sp-v-0-3">
+<rt-microtabs :fit="false" class="color-block--white sp-h-1 sp-v-0-3">
   <template slot="nav">
     <rt-microtabs-nav>Немного контента</rt-microtabs-nav>
     <rt-microtabs-nav>Длинотекст</rt-microtabs-nav>
@@ -193,7 +198,7 @@ export default {
     },
     spacesView(){
       return `
-<rt-microtabs style="background:#fff;" class="sp-h-1 sp-v-0-3">
+<rt-microtabs class="color-block--white sp-h-1 sp-v-0-3">
   <template slot="nav">
     <rt-microtabs-nav theme="purple">Акция</rt-microtabs-nav>
     <rt-microtabs-nav>Сервисы</rt-microtabs-nav>
@@ -203,7 +208,10 @@ export default {
   </template>
   <template slot="cnt">
     <rt-microtabs-cnt>
-      <p class="sp-l-1-2"><rt-system-icons name="breaking" color="purple" style="left:0;position:absolute"></rt-system-icons>Ограниченое предложение для вновь подключившихся</p>
+      <div class="d-flex flex-start-center">
+        <rt-system-icons name="breaking" color="purple"></rt-system-icons>
+        <p>Ограниченое предложение для вновь подключившихся</p>
+      </div>
     </rt-microtabs-cnt>
     <rt-microtabs-cnt>
       <p>Переадресация</p>
@@ -226,7 +234,7 @@ export default {
     },
     themesView(){
       return `
-<rt-microtabs style="background:#fff;" class="sp-h-1 sp-v-0-3">
+<rt-microtabs class="color-block--white sp-h-1 sp-v-0-3">
   <template slot="nav">
     <rt-microtabs-nav theme="orange">Скидка</rt-microtabs-nav>
     <rt-microtabs-nav>Сервисы</rt-microtabs-nav>
@@ -257,8 +265,8 @@ export default {
 <div class="rt-tariff is--theme-dark is--no-spaces is--no-borders">
   <rt-microtabs class="sp-h-1 sp-t-0-3 sp-b-0-4">
     <template slot="nav">
-      <rt-microtabs-nav>Доп. параметры</rt-microtabs-nav>
-      <rt-microtabs-nav>Антивирус</rt-microtabs-nav>
+      <rt-microtabs-nav theme="purple">Доп. параметры</rt-microtabs-nav>
+      <rt-microtabs-nav theme="orange">Антивирус</rt-microtabs-nav>
       <rt-microtabs-nav>Яндекс Диск</rt-microtabs-nav>
     </template>
     <template slot="cnt">
@@ -284,8 +292,8 @@ export default {
 <div class="rt-tariff is--theme-yadisk is--no-spaces is--no-borders">
   <rt-microtabs class="sp-h-1 sp-t-0-3 sp-b-0-4">
     <template slot="nav">
-      <rt-microtabs-nav>Доп. параметры</rt-microtabs-nav>
-      <rt-microtabs-nav>Антивирус</rt-microtabs-nav>
+      <rt-microtabs-nav theme="purple">Доп. параметры</rt-microtabs-nav>
+      <rt-microtabs-nav theme="orange">Антивирус</rt-microtabs-nav>
       <rt-microtabs-nav>Яндекс Диск</rt-microtabs-nav>
     </template>
     <template slot="cnt">
@@ -309,3 +317,51 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus">
+.dont-use
+  position relative
+  &:before,
+  &:after
+    content: ''
+    background #f00
+    margin auto
+    position absolute
+    width 50%
+    height 4px
+    top 0
+    left -20%
+    right 0
+    bottom 0
+    z-index 22
+  &:before
+    transform rotate(-45deg)
+  &:after
+    transform rotate(45deg)
+
+.test-list
+  background #fff
+  box-shadow inset 0 0 0 20px #bdf1bd
+  padding 20px
+  min-width 280px
+  max-width 100%
+  position relative
+  // border 20px solid #bdf1bd
+  &--accent
+    box-shadow inset 0 0 0 20px #ee9
+    .rt-microtabs-nav__item-tgl
+      background red
+      z-index 2
+    .rt-microtabs-nav__item[data-key="0"],
+    .rt-microtabs-cnt__item:nth-child(1)
+      background #f006
+    .rt-microtabs-nav__item[data-key="1"],
+    .rt-microtabs-cnt__item:nth-child(2)
+      background #0f06
+    .rt-microtabs-nav__item[data-key="2"],
+    .rt-microtabs-cnt__item:nth-child(3)
+      background #00f6
+    .rt-microtabs-nav__item[data-key="3"],
+    .rt-microtabs-cnt__item:nth-child(4)
+      background #f0f6
+</style>
