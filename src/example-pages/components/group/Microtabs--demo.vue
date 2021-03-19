@@ -10,18 +10,14 @@
 
         <rt-row class="app-row sp-t-2">
           <rt-col size="5" mobile-size="3">
-            <h3 class="sp-b-1">Простой режим (без контента)</h3>
+            <h3 class="sp-b-1">Упрощенный режим (без контента)</h3>
             <pre-code :text="sampleView"></pre-code>
-          </rt-col>
-          <rt-col size="7" mobile-size="3">
-            <h4 class="sp-b-1  md-sp-t-2">Отображение контента без ограничения по высоте</h4>
-            <pre-code :text="longView"></pre-code>
           </rt-col>
 
           <rt-col size="12">
-            <h3 class="sp-t-2 sp-b-1">С контентом, учетом отступов и тем</h3>
+            <h3 class="sp-t-2 sp-b-1">Обычный режим</h3>
           </rt-col>
-          <rt-col size="6" mobile-size="3">
+          <rt-col size="6" mobile-size="3" class="md-sp-b-2">
             <pre-code :text="spacesView"></pre-code>
           </rt-col>
           <rt-col size="6" mobile-size="3">
@@ -30,17 +26,21 @@
 
           <rt-col size="6" mobile-size="3">
             <h3 class="sp-t-3 sp-b-1">Инверсия цвета (dark тема карточек)</h3>
-            <pre-code :text="inverseBlackView"></pre-code>
+            <pre-code :text="inverseBlackViewA" class="sp-b-2"></pre-code>
+            <pre-code :text="inverseBlackViewB"></pre-code>
           </rt-col>
           <rt-col size="6" mobile-size="3">
             <h3 class="sp-t-3 sp-b-1  md-sp-t-2">Инверсия цвета (yadisk тема карточек)</h3>
-            <pre-code :text="inverseBlueView"></pre-code>
+            <pre-code :text="inverseBlueViewA" class="sp-b-2"></pre-code>
+            <pre-code :text="inverseBlueViewB"></pre-code>
           </rt-col>
 
           <rt-col size="12">
             <h3 class="sp-t-3 sp-b-1">Требования и дизайн-система</h3>
-            <p class="sp-b-1">Нельзя размещать всю палитру раскрашенных вкладок microtabs-nav в один ряд. Подборка выше, сделана исключительно в качестве демонстрации</p>
-            <div class="dont-use" style="width:288px">
+          </rt-col>
+          <rt-col size="3" tablet-size="3" mobile-size="3">
+            <p class="sp-b-1">Нельзя размещать всю палитру раскрашенных microtabs-nav в ряд</p>
+            <div class="dont-use" style="max-width:280px">
               <rt-microtabs>
                 <template slot="nav">
                   <rt-microtabs-nav theme="purple">Цвет A</rt-microtabs-nav>
@@ -63,6 +63,30 @@
               </rt-microtabs>
             </div>
           </rt-col>
+          <rt-col size="3" tablet-size="3" mobile-size="3">
+            <p class="sp-b-1  md-sp-t-2">Нельзя пытаться увеличить размер контента в microtabs-cnt</p>
+            <div class="dont-use">
+              <rt-microtabs style="border:2px solid #f00">
+                <template slot="nav">
+                  <rt-microtabs-nav>Вкладка A</rt-microtabs-nav>
+                  <rt-microtabs-nav>Костылестиле вкладка</rt-microtabs-nav>
+                </template>
+                <template slot="cnt">
+                  <rt-microtabs-cnt>
+                    <p>Описание вкладки в одну строку</p>
+                  </rt-microtabs-cnt>
+                  <rt-microtabs-cnt style="max-height:none">
+                    <p>Описание вкладки в одну строку</p>
+                    <p>Описание вкладки во вторую строку</p>
+                    <p>Описание вкладки в третью строку</p>
+                    <p>Описание вкладки в четвертую строку</p>
+                    <p>Описание вкладки в пятую строку</p>
+                    <p>и так до бесконечности...</p>
+                  </rt-microtabs-cnt>
+                </template>
+              </rt-microtabs>
+            </div>
+          </rt-col>
 
           <rt-col size="12">
             <h4 class="sp-t-2 sp-b-1">Tester</h4>
@@ -75,7 +99,8 @@
             <div class="sp-b-1">
               <a @click="() => cloneShown = !cloneShown" href="javascript:void(0)">Clone toggle</a>
             </div>
-            <div class="sp-b-1">
+            <!-- @TODO - Reactive list -->
+            <!-- <div class="sp-b-1">
               <a @click="() => {
                 if (!testList.length) return
                 testListHidden.push(testList[0])
@@ -88,7 +113,7 @@
                 testList.push(testListHidden[0])
                 testListHidden.splice(0, 1)
               }" href="javascript:void(0)">List more</a>
-            </div>
+            </div> -->
           </rt-col>
           <rt-col size="7" mobile-size="3">
             <rt-microtabs
@@ -174,28 +199,6 @@ export default {
 </div>
       `
     },
-    longView(){
-      return `
-<rt-microtabs :fit="false" class="color-block--white sp-h-1 sp-v-0-3">
-  <template slot="nav">
-    <rt-microtabs-nav>Немного контента</rt-microtabs-nav>
-    <rt-microtabs-nav>Длинотекст</rt-microtabs-nav>
-    <rt-microtabs-nav>Совсем немного текста</rt-microtabs-nav>
-  </template>
-  <template slot="cnt">
-    <rt-microtabs-cnt>
-      <p>Kaspersky Internet Security 2 устройства</p>
-    </rt-microtabs-cnt>
-    <rt-microtabs-cnt>
-      <p>Предоставляет услуги широкополосного доступа в Интернет, интерактивного телевидения, сотовой связи, местной и дальней телефонной связи и др. Занимает лидирующие позиции на российском рынке высокоскоростного доступа в интернет, платного ТВ, хранения и обработки данных, а также кибербезопасности</p>
-    </rt-microtabs-cnt>
-    <rt-microtabs-cnt>
-      <p><rt-system-icons name="yandex disk fill"></rt-system-icons>...вжух</p>
-    </rt-microtabs-cnt>
-  </template>
-</rt-microtabs>
-      `
-    },
     spacesView(){
       return `
 <rt-microtabs class="color-block--white sp-h-1 sp-v-0-3">
@@ -260,13 +263,13 @@ export default {
 </rt-microtabs>
       `
     },
-    inverseBlackView(){
+    inverseBlackViewA(){
       return `
 <div class="rt-tariff is--theme-dark is--no-spaces is--no-borders">
   <rt-microtabs class="sp-h-1 sp-t-0-3 sp-b-0-4">
     <template slot="nav">
       <rt-microtabs-nav theme="purple">Доп. параметры</rt-microtabs-nav>
-      <rt-microtabs-nav theme="orange">Антивирус</rt-microtabs-nav>
+      <rt-microtabs-nav>Антивирус</rt-microtabs-nav>
       <rt-microtabs-nav>Яндекс Диск</rt-microtabs-nav>
     </template>
     <template slot="cnt">
@@ -287,13 +290,67 @@ export default {
 </div>
       `
     },
-    inverseBlueView(){
+    inverseBlackViewB(){
+      return `
+<div class="rt-tariff is--theme-dark is--no-spaces is--no-borders">
+  <rt-microtabs class="sp-h-1 sp-t-0-3 sp-b-0-4">
+    <template slot="nav">
+      <rt-microtabs-nav theme="orange">Доп. параметры</rt-microtabs-nav>
+      <rt-microtabs-nav>Антивирус</rt-microtabs-nav>
+      <rt-microtabs-nav>Яндекс Диск</rt-microtabs-nav>
+    </template>
+    <template slot="cnt">
+      <rt-microtabs-cnt>
+        <p>Переадресация</p>
+        <p>Голосовое меню IVR</p>
+        <p>Распределение  звонков</p>
+        <p>Статистика и аналитика</p>
+      </rt-microtabs-cnt>
+      <rt-microtabs-cnt>
+        <p>Kaspersky Internet Security 2 устройства</p>
+      </rt-microtabs-cnt>
+      <rt-microtabs-cnt>
+        <p>5 ГБ Яндекс.Диск +</p>
+      </rt-microtabs-cnt>
+    </template>
+  </rt-microtabs>
+</div>
+      `
+    },
+    inverseBlueViewA(){
       return `
 <div class="rt-tariff is--theme-yadisk is--no-spaces is--no-borders">
   <rt-microtabs class="sp-h-1 sp-t-0-3 sp-b-0-4">
     <template slot="nav">
       <rt-microtabs-nav theme="purple">Доп. параметры</rt-microtabs-nav>
-      <rt-microtabs-nav theme="orange">Антивирус</rt-microtabs-nav>
+      <rt-microtabs-nav>Антивирус</rt-microtabs-nav>
+      <rt-microtabs-nav>Яндекс Диск</rt-microtabs-nav>
+    </template>
+    <template slot="cnt">
+      <rt-microtabs-cnt>
+        <p>Переадресация</p>
+        <p>Голосовое меню IVR</p>
+        <p>Распределение  звонков</p>
+        <p>Статистика и аналитика</p>
+      </rt-microtabs-cnt>
+      <rt-microtabs-cnt>
+        <p>Kaspersky Internet Security 2 устройства</p>
+      </rt-microtabs-cnt>
+      <rt-microtabs-cnt>
+        <p>5 ГБ Яндекс.Диск +</p>
+      </rt-microtabs-cnt>
+    </template>
+  </rt-microtabs>
+</div>
+      `
+    },
+    inverseBlueViewB(){
+      return `
+<div class="rt-tariff is--theme-yadisk is--no-spaces is--no-borders">
+  <rt-microtabs class="sp-h-1 sp-t-0-3 sp-b-0-4">
+    <template slot="nav">
+      <rt-microtabs-nav theme="orange">Доп. параметры</rt-microtabs-nav>
+      <rt-microtabs-nav>Антивирус</rt-microtabs-nav>
       <rt-microtabs-nav>Яндекс Диск</rt-microtabs-nav>
     </template>
     <template slot="cnt">
@@ -327,8 +384,8 @@ export default {
     background #f00
     margin auto
     position absolute
-    width 50%
-    height 4px
+    width 4px
+    height 150%
     top 0
     left -20%
     right 0
