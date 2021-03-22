@@ -45,7 +45,6 @@
                         return {
                             labels: [
                                 {name: "name", label: "class name"},
-                                {name: "version", label: "release version"},
                                 {name: "description", label: "description"},
                             ]
                         };
@@ -64,7 +63,6 @@
                         return {
                             labels: [
                                 {name: "name", label: "component name"},
-                                {name: "version", label: "release version"},
                                 {name: "property", label: "component property"},
                                 {name: "type", label: "property type"},
                                 {name: "description", label: "description"},
