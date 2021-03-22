@@ -50,6 +50,16 @@
                             ]
                         };
                         break;
+                    case 'events':
+                        return {
+                            labels: [
+                                {name: "name", label: "event name"},
+                                {name: "description", label: "description"},
+                                {name: "component", label: "component tag"},
+                                {name: "return", label: "return value"},
+                            ]
+                        };
+                        break;
                     default:
                         return {
                             labels: [
