@@ -11,6 +11,24 @@
     </div>
     <div class="">
       <div class="rt-container">
+        <span href="/capsula" v-ga-click='{
+					  data:{ "event":"b2с",
+					"type":"card_click",
+					"value":"Голосовое управление"
+					}}'>
+						<rt-card-image :version="2"
+                           class="full-height"
+                           :is-white-color="true"
+                           :col-size="2"
+                           card-image="/sites/default/files/img/main/img_1.jpg">
+							<template slot="label">
+								Голосовое управление
+							</template>
+							<template slot="body">
+								<p>Капсула&nbsp;&mdash; дружелюбная и&nbsp;умная колонка, внутри которой живёт голосовой помощник Маруся.</p>
+							</template>
+						</rt-card-image>
+					</span>
         <div class="app-row row">
           <!--<div class="rt-col-6 rt-space-bottom15">-->
           <!--<p>Описание на 6 колонок или какие-то комментарии к данному инпуту. Выбор сразу нескольких-->

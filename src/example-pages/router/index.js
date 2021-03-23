@@ -25,6 +25,7 @@ const index = [
   { path: "/icons", name: "app-icons", component: () => import("../components/simple/Icons.vue") },
   { path: "/spinner", name: "app-spinner", component: () => import("../components/simple/Spinner.vue") },
   { path: "/popup", name: "realPopup", component: () => import("../components/simple/Popup.vue") },
+  { path: "/popover", name: "popover", component: () => import("../components/group/Popover.vue") },
   { path: "/message-box", name: "message-box", component: () => import("../components/simple/MessageBox.vue") },
   { path: "/opacity", name: "app-opacity", component: () => import("../components/simple/OpacityClassElements.vue") },
   { path: "/color-line-text", name: "app-color-line-text", component: () => import("../components/simple/ColorLineText.vue") },
