@@ -8,11 +8,40 @@
       </div>
       <div class="app-body">
         <div class="app-row row">
-          <rt-row>
+          <rt-row class="sp-t-2">
             <rt-col size="4"></rt-col>
             <rt-col size="3">
               <div class="relative d-inline-block">
-          <rt-popover :vertical="verticalVal" :horizontal="horizontalVal">12</rt-popover>
+          <rt-popover :vertical="verticalVal" :horizontal="horizontalVal">
+            <div>
+              <p class="rt-font-label rt-font-bold sp-b-0-2 color-main07">Заголовок</p>
+              <p class="rt-font-label color-main07">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>
+            </div>
+          </rt-popover>
+              </div>
+            </rt-col>
+          </rt-row>
+          <rt-row class="sp-t-2">
+            <rt-col size="4"></rt-col>
+            <rt-col size="3">
+              <div class="relative d-inline-block">
+          <rt-popover :vertical="verticalVal" :horizontal="horizontalVal">
+            <div>
+              <p class="rt-font-label color-main07">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>
+            </div>
+          </rt-popover>
+              </div>
+            </rt-col>
+          </rt-row>
+          <rt-row class="sp-t-2">
+            <rt-col size="4"></rt-col>
+            <rt-col size="3">
+              <div class="relative d-inline-block">
+          <rt-popover :vertical="verticalVal" :horizontal="horizontalVal">
+            <div>
+              <p class="rt-font-label color-main07">Минимальный размер</p>
+            </div>
+          </rt-popover>
               </div>
             </rt-col>
           </rt-row>
