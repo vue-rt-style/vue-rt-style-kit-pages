@@ -34,149 +34,151 @@
           <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
         </rt-card-banner>
       </rt-card-tile-layout>
-      <div class="sp-t-2"/>
-      <rt-card-tile-layout name="tile2">
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile2"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
-          <template slot="title">Цифровой переезд</template>
-          <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile2"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
-          <template slot="title">Отключение услуг</template>
-          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-carousel-name="tile2"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
-          <template slot="title">Календарь технических работ</template>
-          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile2"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
-          <template slot="title">Программа «Бонус»</template>
-          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile2"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
-          <template slot="title">Программа «Бонус»</template>
-          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
-        </rt-card-banner>
-      </rt-card-tile-layout>
-      <div class="sp-t-2"/>
-      <rt-card-tile-layout name="tile3">
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile3"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
-          <template slot="title">Цифровой переезд</template>
-          <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile3"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
-          <template slot="title">Отключение услуг</template>
-          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-carousel-name="tile3"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
-          <template slot="title">Календарь технических работ</template>
-          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile3"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
-          <template slot="title">Программа «Бонус»</template>
-          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-carousel-name="tile3"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
-          <template slot="title">Календарь технических работ</template>
-          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile3"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
-          <template slot="title">Программа «Бонус»</template>
-          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
-        </rt-card-banner>
-      </rt-card-tile-layout>
-      <div class="sp-t-2"/>
-      <rt-card-tile-layout name="tile4">
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile4"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
-          <template slot="title">Цифровой переезд</template>
-          <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile4"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
-          <template slot="title">Отключение услуг</template>
-          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-carousel-name="tile4"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
-          <template slot="title">Календарь технических работ</template>
-          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile4"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
-          <template slot="title">Программа «Бонус»</template>
-          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile4"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
-          <template slot="title">Отключение услуг</template>
-          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-carousel-name="tile4"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
-          <template slot="title">Календарь технических работ</template>
-          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile4"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
-          <template slot="title">Программа «Бонус»</template>
-          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
-        </rt-card-banner>
-      </rt-card-tile-layout>
-      <div class="sp-t-2"/>
-      <rt-card-tile-layout name="tile5">
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
-          <template slot="title">Цифровой переезд</template>
-          <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
-          <template slot="title">Отключение услуг</template>
-          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-carousel-name="tile5"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
-          <template slot="title">Календарь технических работ</template>
-          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
-          <template slot="title">Программа «Бонус»</template>
-          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
-          <template slot="title">Цифровой переезд</template>
-          <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
-          <template slot="title">Отключение услуг</template>
-          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Сервис" parent-carousel-name="tile5"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
-          <template slot="title">Календарь технических работ</template>
-          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
-        </rt-card-banner>
-        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"
-                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
-          <template slot="title">Программа «Бонус»</template>
-          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
-        </rt-card-banner>
-      </rt-card-tile-layout>
-      <div class="sp-t-2"/>
+      <div class="sp-t-2 color-block--main-color003">
+        <rt-card-tile-layout name="tile2">
+          <rt-card-banner tag="Услуга" parent-carousel-name="tile2"
+                          src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">
+            <template slot="title">Цифровой переезд</template>
+            <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>
+          </rt-card-banner>
+          <rt-card-banner tag="Услуга" parent-carousel-name="tile2"
+                          src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">
+            <template slot="title">Отключение услуг</template>
+            <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>
+          </rt-card-banner>
+          <rt-card-banner tag="Сервис" parent-carousel-name="tile2"
+                          src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">
+            <template slot="title">Календарь технических работ</template>
+            <template slot="description">График профилактичеких мер по улучшению качества услуг</template>
+          </rt-card-banner>
+          <rt-card-banner tag="Услуга" parent-carousel-name="tile2"
+                          src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
+            <template slot="title">Программа «Бонус»</template>
+            <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
+          </rt-card-banner>
+          <rt-card-banner tag="Услуга" parent-carousel-name="tile2"
+                          src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">
+            <template slot="title">Программа «Бонус»</template>
+            <template slot="description">Пользуйтесь услугамии получайте бонусы</template>
+          </rt-card-banner>
+        </rt-card-tile-layout>
+      </div>
+<!--      <div class="sp-t-2"/>-->
+<!--      <rt-card-tile-layout name="tile3">-->
+<!--        <rt-card-banner tag="Услуга" parent-carousel-name="tile3"-->
+<!--                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">-->
+<!--          <template slot="title">Цифровой переезд</template>-->
+<!--          <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>-->
+<!--        </rt-card-banner>-->
+<!--        <rt-card-banner tag="Услуга" parent-carousel-name="tile3"-->
+<!--                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">-->
+<!--          <template slot="title">Отключение услуг</template>-->
+<!--          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>-->
+<!--        </rt-card-banner>-->
+<!--        <rt-card-banner tag="Сервис" parent-carousel-name="tile3"-->
+<!--                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">-->
+<!--          <template slot="title">Календарь технических работ</template>-->
+<!--          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>-->
+<!--        </rt-card-banner>-->
+<!--        <rt-card-banner tag="Услуга" parent-carousel-name="tile3"-->
+<!--                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">-->
+<!--          <template slot="title">Программа «Бонус»</template>-->
+<!--          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>-->
+<!--        </rt-card-banner>-->
+<!--        <rt-card-banner tag="Сервис" parent-carousel-name="tile3"-->
+<!--                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">-->
+<!--          <template slot="title">Календарь технических работ</template>-->
+<!--          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>-->
+<!--        </rt-card-banner>-->
+<!--        <rt-card-banner tag="Услуга" parent-carousel-name="tile3"-->
+<!--                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">-->
+<!--          <template slot="title">Программа «Бонус»</template>-->
+<!--          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>-->
+<!--        </rt-card-banner>-->
+<!--      </rt-card-tile-layout>-->
+<!--      <div class="sp-t-2 color-block&#45;&#45;main-color003">-->
+<!--        <rt-card-tile-layout name="tile4">-->
+<!--          <rt-card-banner tag="Услуга" parent-carousel-name="tile4"-->
+<!--                          src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">-->
+<!--            <template slot="title">Цифровой переезд</template>-->
+<!--            <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>-->
+<!--          </rt-card-banner>-->
+<!--          <rt-card-banner tag="Услуга" parent-carousel-name="tile4"-->
+<!--                          src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">-->
+<!--            <template slot="title">Отключение услуг</template>-->
+<!--            <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>-->
+<!--          </rt-card-banner>-->
+<!--          <rt-card-banner tag="Сервис" parent-carousel-name="tile4"-->
+<!--                          src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">-->
+<!--            <template slot="title">Календарь технических работ</template>-->
+<!--            <template slot="description">График профилактичеких мер по улучшению качества услуг</template>-->
+<!--          </rt-card-banner>-->
+<!--          <rt-card-banner tag="Услуга" parent-carousel-name="tile4"-->
+<!--                          src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">-->
+<!--            <template slot="title">Программа «Бонус»</template>-->
+<!--            <template slot="description">Пользуйтесь услугамии получайте бонусы</template>-->
+<!--          </rt-card-banner>-->
+<!--          <rt-card-banner tag="Услуга" parent-carousel-name="tile4"-->
+<!--                          src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">-->
+<!--            <template slot="title">Отключение услуг</template>-->
+<!--            <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>-->
+<!--          </rt-card-banner>-->
+<!--          <rt-card-banner tag="Сервис" parent-carousel-name="tile4"-->
+<!--                          src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">-->
+<!--            <template slot="title">Календарь технических работ</template>-->
+<!--            <template slot="description">График профилактичеких мер по улучшению качества услуг</template>-->
+<!--          </rt-card-banner>-->
+<!--          <rt-card-banner tag="Услуга" parent-carousel-name="tile4"-->
+<!--                          src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">-->
+<!--            <template slot="title">Программа «Бонус»</template>-->
+<!--            <template slot="description">Пользуйтесь услугамии получайте бонусы</template>-->
+<!--          </rt-card-banner>-->
+<!--        </rt-card-tile-layout>-->
+<!--      </div>-->
+<!--      <div class="sp-t-2"/>-->
+<!--      <rt-card-tile-layout name="tile5">-->
+<!--        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"-->
+<!--                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">-->
+<!--          <template slot="title">Цифровой переезд</template>-->
+<!--          <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>-->
+<!--        </rt-card-banner>-->
+<!--        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"-->
+<!--                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">-->
+<!--          <template slot="title">Отключение услуг</template>-->
+<!--          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>-->
+<!--        </rt-card-banner>-->
+<!--        <rt-card-banner tag="Сервис" parent-carousel-name="tile5"-->
+<!--                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">-->
+<!--          <template slot="title">Календарь технических работ</template>-->
+<!--          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>-->
+<!--        </rt-card-banner>-->
+<!--        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"-->
+<!--                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">-->
+<!--          <template slot="title">Программа «Бонус»</template>-->
+<!--          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>-->
+<!--        </rt-card-banner>-->
+<!--        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"-->
+<!--                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/boxes.png">-->
+<!--          <template slot="title">Цифровой переезд</template>-->
+<!--          <template slot="description">Перенести услуги Ростелекома на новый адрес со скидкой 50%</template>-->
+<!--        </rt-card-banner>-->
+<!--        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"-->
+<!--                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/notebook.png">-->
+<!--          <template slot="title">Отключение услуг</template>-->
+<!--          <template slot="description">Удобный сервис по подаче заявления на отключение услуг</template>-->
+<!--        </rt-card-banner>-->
+<!--        <rt-card-banner tag="Сервис" parent-carousel-name="tile5"-->
+<!--                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/calendar.png">-->
+<!--          <template slot="title">Календарь технических работ</template>-->
+<!--          <template slot="description">График профилактичеких мер по улучшению качества услуг</template>-->
+<!--        </rt-card-banner>-->
+<!--        <rt-card-banner tag="Услуга" parent-carousel-name="tile5"-->
+<!--                        src="https://moscow-n1.rt.ru/sites/default/files/b2b/help/bonuses.png">-->
+<!--          <template slot="title">Программа «Бонус»</template>-->
+<!--          <template slot="description">Пользуйтесь услугамии получайте бонусы</template>-->
+<!--        </rt-card-banner>-->
+<!--      </rt-card-tile-layout>-->
+<!--      <div class="sp-t-2"/>-->
       <rt-resize-content-height :query-selectors-names="['.rt-card-help']">
         <div class="rt-container">
           <div class="rt-col">
@@ -205,7 +207,7 @@
       </rt-resize-content-height>
       <rt-carousel-v2 carousel-name="1" :scrollable-on-desktop="true">
         <rt-carousel-slide-v2 parent-carousel-name="1">
-          <rt-card-rounded :preview-card="true">
+          <rt-card-rounded :preview-card="true" href="#">
             <template slot="image">
               <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
             </template>
@@ -266,44 +268,43 @@
       </rt-carousel-v2>
       <div class="sp-t-2"/>
       <rt-carousel-v2 :scrollable-on-desktop="false" carousel-name="2">
-
+        <rt-carousel-slide-v2 parent-carousel-name="2">
+          <rt-card-rounded :preview-card="true" href="#" :with-icon="true">
+            <template slot="image">
+              <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.8375 7H33.1625C34.1775 7 35 7.8225 35 8.8375V47.1625C35 48.1775 34.1775 49 33.1625 49H8.8375C7.8225 49 7 48.1775 7 47.1625V8.8375C7 7.8225 7.8225 7 8.8375 7ZM33.25 8.8375C33.25 8.785 33.215 8.75 33.1625 8.75H8.8375C8.785 8.75 8.75 8.785 8.75 8.8375V47.1625C8.75 47.215 8.785 47.25 8.8375 47.25H33.1625C33.215 47.25 33.25 47.215 33.25 47.1625V8.8375Z" fill="#101828"/>
+                <path d="M21 45.5C21.4725 45.5 21.875 45.115 21.875 44.625C21.875 44.135 21.4725 43.75 21 43.75C20.5275 43.75 20.125 44.135 20.125 44.625C20.125 45.115 20.5275 45.5 21 45.5Z" fill="#101828"/>
+                <rect x="7" y="40.25" width="28" height="1.75" fill="#101828"/>
+                <path d="M43.33 12.2849L42.2975 13.7199C45.325 16.3099 47.25 20.1424 47.25 24.4124C47.25 28.6999 45.325 32.5324 42.2975 35.1049L43.33 36.5399C46.795 33.6524 49.0175 29.2774 49.0175 24.4124C49 19.5474 46.795 15.1899 43.33 12.2849Z" fill="#101828"/>
+                <path d="M41.6325 15.8726L40.6 17.3076C42.525 19.0751 43.75 21.5951 43.75 24.4126C43.75 27.2301 42.525 29.7676 40.6 31.5351L41.6325 32.9701C43.995 30.8876 45.5 27.8251 45.5 24.4126C45.5 21.0176 43.995 17.9551 41.6325 15.8726Z" fill="#101828"/>
+                <path d="M39.8825 19.53L38.8325 20.9825C39.7075 21.9275 40.25 23.17 40.25 24.535C40.25 25.865 39.7425 27.055 38.9375 27.9825L39.9875 29.4525C41.23 28.1925 42 26.46 42 24.535C42 22.575 41.1775 20.8075 39.8825 19.53Z" fill="#101828"/>
+              </svg>
+            </template>
+            <template slot="label">Для автомобильного бизнеса</template>
+            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
+              вывесками, увеличивайте продажи дополнительных услуг на 30%
+            </template>
+          </rt-card-rounded>
+        </rt-carousel-slide-v2>
+        <rt-carousel-slide-v2 parent-carousel-name="2">
+          <rt-card-rounded :preview-card="true" href="#" :with-icon="true" background-color="main-color003">
+            <template slot="image">
+              <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.8375 7H33.1625C34.1775 7 35 7.8225 35 8.8375V47.1625C35 48.1775 34.1775 49 33.1625 49H8.8375C7.8225 49 7 48.1775 7 47.1625V8.8375C7 7.8225 7.8225 7 8.8375 7ZM33.25 8.8375C33.25 8.785 33.215 8.75 33.1625 8.75H8.8375C8.785 8.75 8.75 8.785 8.75 8.8375V47.1625C8.75 47.215 8.785 47.25 8.8375 47.25H33.1625C33.215 47.25 33.25 47.215 33.25 47.1625V8.8375Z" fill="#101828"/>
+                <path d="M21 45.5C21.4725 45.5 21.875 45.115 21.875 44.625C21.875 44.135 21.4725 43.75 21 43.75C20.5275 43.75 20.125 44.135 20.125 44.625C20.125 45.115 20.5275 45.5 21 45.5Z" fill="#101828"/>
+                <rect x="7" y="40.25" width="28" height="1.75" fill="#101828"/>
+                <path d="M43.33 12.2849L42.2975 13.7199C45.325 16.3099 47.25 20.1424 47.25 24.4124C47.25 28.6999 45.325 32.5324 42.2975 35.1049L43.33 36.5399C46.795 33.6524 49.0175 29.2774 49.0175 24.4124C49 19.5474 46.795 15.1899 43.33 12.2849Z" fill="#101828"/>
+                <path d="M41.6325 15.8726L40.6 17.3076C42.525 19.0751 43.75 21.5951 43.75 24.4126C43.75 27.2301 42.525 29.7676 40.6 31.5351L41.6325 32.9701C43.995 30.8876 45.5 27.8251 45.5 24.4126C45.5 21.0176 43.995 17.9551 41.6325 15.8726Z" fill="#101828"/>
+                <path d="M39.8825 19.53L38.8325 20.9825C39.7075 21.9275 40.25 23.17 40.25 24.535C40.25 25.865 39.7425 27.055 38.9375 27.9825L39.9875 29.4525C41.23 28.1925 42 26.46 42 24.535C42 22.575 41.1775 20.8075 39.8825 19.53Z" fill="#101828"/>
+              </svg>
+            </template>
+            <template slot="label">Для автомобильного бизнеса</template>
+            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
+              вывесками, увеличивайте продажи дополнительных услуг на 30%
+            </template>
+          </rt-card-rounded>
+        </rt-carousel-slide-v2>
       </rt-carousel-v2>
-      <rt-carousel-slide-v2 parent-carousel-name="2">
-        <rt-card-rounded :preview-card="true" href="#" :with-icon="true">
-          <template slot="image">
-            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.8375 7H33.1625C34.1775 7 35 7.8225 35 8.8375V47.1625C35 48.1775 34.1775 49 33.1625 49H8.8375C7.8225 49 7 48.1775 7 47.1625V8.8375C7 7.8225 7.8225 7 8.8375 7ZM33.25 8.8375C33.25 8.785 33.215 8.75 33.1625 8.75H8.8375C8.785 8.75 8.75 8.785 8.75 8.8375V47.1625C8.75 47.215 8.785 47.25 8.8375 47.25H33.1625C33.215 47.25 33.25 47.215 33.25 47.1625V8.8375Z" fill="#101828"/>
-              <path d="M21 45.5C21.4725 45.5 21.875 45.115 21.875 44.625C21.875 44.135 21.4725 43.75 21 43.75C20.5275 43.75 20.125 44.135 20.125 44.625C20.125 45.115 20.5275 45.5 21 45.5Z" fill="#101828"/>
-              <rect x="7" y="40.25" width="28" height="1.75" fill="#101828"/>
-              <path d="M43.33 12.2849L42.2975 13.7199C45.325 16.3099 47.25 20.1424 47.25 24.4124C47.25 28.6999 45.325 32.5324 42.2975 35.1049L43.33 36.5399C46.795 33.6524 49.0175 29.2774 49.0175 24.4124C49 19.5474 46.795 15.1899 43.33 12.2849Z" fill="#101828"/>
-              <path d="M41.6325 15.8726L40.6 17.3076C42.525 19.0751 43.75 21.5951 43.75 24.4126C43.75 27.2301 42.525 29.7676 40.6 31.5351L41.6325 32.9701C43.995 30.8876 45.5 27.8251 45.5 24.4126C45.5 21.0176 43.995 17.9551 41.6325 15.8726Z" fill="#101828"/>
-              <path d="M39.8825 19.53L38.8325 20.9825C39.7075 21.9275 40.25 23.17 40.25 24.535C40.25 25.865 39.7425 27.055 38.9375 27.9825L39.9875 29.4525C41.23 28.1925 42 26.46 42 24.535C42 22.575 41.1775 20.8075 39.8825 19.53Z" fill="#101828"/>
-            </svg>
-          </template>
-          <template slot="label">Для автомобильного бизнеса</template>
-          <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
-            вывесками, увеличивайте продажи дополнительных услуг на 30%
-          </template>
-        </rt-card-rounded>
-      </rt-carousel-slide-v2>
-      <rt-carousel-slide-v2 parent-carousel-name="2">
-        <rt-card-rounded :preview-card="true" href="#" :with-icon="true" background-color="main-color003">
-          <template slot="image">
-            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.8375 7H33.1625C34.1775 7 35 7.8225 35 8.8375V47.1625C35 48.1775 34.1775 49 33.1625 49H8.8375C7.8225 49 7 48.1775 7 47.1625V8.8375C7 7.8225 7.8225 7 8.8375 7ZM33.25 8.8375C33.25 8.785 33.215 8.75 33.1625 8.75H8.8375C8.785 8.75 8.75 8.785 8.75 8.8375V47.1625C8.75 47.215 8.785 47.25 8.8375 47.25H33.1625C33.215 47.25 33.25 47.215 33.25 47.1625V8.8375Z" fill="#101828"/>
-              <path d="M21 45.5C21.4725 45.5 21.875 45.115 21.875 44.625C21.875 44.135 21.4725 43.75 21 43.75C20.5275 43.75 20.125 44.135 20.125 44.625C20.125 45.115 20.5275 45.5 21 45.5Z" fill="#101828"/>
-              <rect x="7" y="40.25" width="28" height="1.75" fill="#101828"/>
-              <path d="M43.33 12.2849L42.2975 13.7199C45.325 16.3099 47.25 20.1424 47.25 24.4124C47.25 28.6999 45.325 32.5324 42.2975 35.1049L43.33 36.5399C46.795 33.6524 49.0175 29.2774 49.0175 24.4124C49 19.5474 46.795 15.1899 43.33 12.2849Z" fill="#101828"/>
-              <path d="M41.6325 15.8726L40.6 17.3076C42.525 19.0751 43.75 21.5951 43.75 24.4126C43.75 27.2301 42.525 29.7676 40.6 31.5351L41.6325 32.9701C43.995 30.8876 45.5 27.8251 45.5 24.4126C45.5 21.0176 43.995 17.9551 41.6325 15.8726Z" fill="#101828"/>
-              <path d="M39.8825 19.53L38.8325 20.9825C39.7075 21.9275 40.25 23.17 40.25 24.535C40.25 25.865 39.7425 27.055 38.9375 27.9825L39.9875 29.4525C41.23 28.1925 42 26.46 42 24.535C42 22.575 41.1775 20.8075 39.8825 19.53Z" fill="#101828"/>
-            </svg>
-          </template>
-          <template slot="label">Для автомобильного бизнеса</template>
-          <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
-            вывесками, увеличивайте продажи дополнительных услуг на 30%
-          </template>
-        </rt-card-rounded>
-      </rt-carousel-slide-v2>
       <div class="sp-t-2"/>
 <!--      <pre-code text="-->
 <!--      <div>-->

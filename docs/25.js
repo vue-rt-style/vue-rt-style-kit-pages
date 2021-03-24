@@ -256,6 +256,26 @@ var _vue_rt_style_kit_atoms_local_components_Input_docs_index_json__WEBPACK_IMPO
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
  // const componentsList = {};
 
@@ -268,254 +288,264 @@ var _vue_rt_style_kit_atoms_local_components_Input_docs_index_json__WEBPACK_IMPO
       inputModelValue: "test",
       optionsList: [{
         label: "Адыгея Респ",
-        selected: true
+        value: 1
       }, {
         label: "Алтай Респ",
-        selected: false
+        value: 2
       }, {
         label: "Алтайский край",
-        selected: false
+        value: 3
       }, {
         label: "Амурская обл",
-        selected: false
+        value: 4
       }, {
         label: "Архангельская обл",
-        selected: false
+        value: 5
       }, {
         label: "Астраханская обл",
-        selected: false
+        value: 6
       }, {
         label: "Башкортостан Респ",
-        selected: false
+        value: 7
       }, {
         label: "Белгородская обл",
-        selected: false
+        value: 8
       }, {
         label: "Брянская обл",
-        selected: false
+        value: 9
       }, {
         label: "Бурятия Респ",
-        selected: false
+        value: 10
       }, {
         label: "Владимирская обл",
-        selected: false
+        value: 11
       }, {
         label: "Волгоградская обл",
-        selected: false
+        value: 12
       }, {
         label: "Вологодская обл",
-        selected: false
+        value: 13
       }, {
         label: "Воронежская обл",
-        selected: false
+        value: 14
       }, {
         label: "Дагестан Респ",
-        selected: false
+        value: 15
       }, {
         label: "Еврейская Аобл",
-        selected: false
+        value: 16
       }, {
         label: "Забайкальский край",
-        selected: false
+        value: 17
       }, {
         label: "Ивановская обл",
-        selected: false
+        value: 18
       }, {
         label: "Ингушетия Респ",
-        selected: false
+        value: 19
       }, {
         label: "Иркутская обл",
-        selected: false
+        value: 20
       }, {
         label: "Кабардино-Балкарская Респ",
-        selected: false
+        value: 21
       }, {
         label: "Калининградская обл",
-        selected: false
+        value: 22
       }, {
         label: "Калмыкия Респ",
-        selected: false
+        value: 23
       }, {
         label: "Калужская обл",
-        selected: false
+        value: 24
       }, {
         label: "Камчатский край",
-        selected: false
+        value: 25
       }, {
         label: "Карачаево-Черкесская Респ",
-        selected: false
+        value: 26
       }, {
         label: "Карелия Респ",
-        selected: false
+        value: 27
       }, {
         label: "Кемеровская обл",
-        selected: false
+        value: 28
       }, {
         label: "Кировская обл",
-        selected: false
+        value: 29
       }, {
         label: "Коми Респ",
-        selected: false
+        value: 30
       }, {
         label: "Костромская обл",
-        selected: false
+        value: 31
       }, {
         label: "Краснодарский край",
-        selected: false
+        value: 32
       }, {
         label: "Красноярский край",
-        selected: false
+        value: 33
       }, {
         label: "Курганская обл",
-        selected: false
+        value: 34
       }, {
         label: "Курская обл",
-        selected: false
+        value: 35
       }, {
         label: "Ленинградская обл",
-        selected: false
+        value: 36
       }, {
         label: "Липецкая обл",
-        selected: false
+        value: 37
       }, {
         label: "Магаданская обл",
-        selected: false
+        value: 38
       }, {
         label: "Марий Эл Респ",
-        selected: false
+        value: 39
       }, {
         label: "Мордовия Респ",
-        selected: false
+        value: 40
       }, {
         label: "Москва г",
-        selected: false
+        value: 41
       }, {
         label: "Московская обл",
-        selected: false
+        value: 42
       }, {
         label: "Мурманская обл",
-        selected: false
+        value: 43
       }, {
         label: "Ненецкий АО",
-        selected: false
+        value: 44
       }, {
         label: "Нижегородская обл",
-        selected: false
+        value: 45
       }, {
         label: "Новгородская обл",
-        selected: false
+        value: 46
       }, {
         label: "Новосибирская обл",
-        selected: false
+        value: 47
       }, {
         label: "Омская обл",
-        selected: false
+        value: 48
       }, {
         label: "Оренбургская обл",
-        selected: false
+        value: 49
       }, {
         label: "Орловская обл",
-        selected: false
+        value: 50
       }, {
         label: "Пензенская обл",
-        selected: false
+        value: 51
       }, {
         label: "Пермский край",
-        selected: false
+        value: 52
       }, {
         label: "Приморский край",
-        selected: false
+        value: 53
       }, {
         label: "Псковская обл",
-        selected: false
+        value: 54
       }, {
         label: "Ростовская обл",
-        selected: false
+        value: 55
       }, {
         label: "Рязанская обл",
-        selected: false
+        value: 56
       }, {
         label: "Самарская обл",
-        selected: false
+        value: 57
       }, {
         label: "Санкт-Петербург г",
-        selected: false
+        value: 58
       }, {
         label: "Саратовская обл",
-        selected: false
+        value: 59
       }, {
         label: "Саха /Якутия/ Респ",
-        selected: false
+        value: 60
       }, {
         label: "Сахалинская обл",
-        selected: false
+        value: 61
       }, {
         label: "Свердловская обл",
-        selected: false
+        value: 62
       }, {
         label: "Северная Осетия - Алания Респ",
-        selected: false
+        value: 63
       }, {
         label: "Смоленская обл",
-        selected: false
+        value: 64
       }, {
         label: "Ставропольский край",
-        selected: false
+        value: 65
       }, {
         label: "Тамбовская обл",
-        selected: false
+        value: 66
       }, {
         label: "Татарстан Респ",
-        selected: false
+        value: 67
       }, {
         label: "Тверская обл",
-        selected: false
+        value: 68
       }, {
         label: "Томская обл",
-        selected: false
+        value: 69
       }, {
         label: "Тульская обл",
-        selected: false
+        value: 70
       }, {
         label: "Тыва Респ",
-        selected: false
+        value: 71
       }, {
         label: "Тюменская обл",
-        selected: false
+        value: 72
       }, {
         label: "Удмуртская Респ",
-        selected: false
+        value: 73
       }, {
         label: "Ульяновская обл",
-        selected: false
+        value: 74
       }, {
         label: "Хабаровский край",
-        selected: false
+        value: 75
       }, {
         label: "Хакасия Респ",
-        selected: false
+        value: 76
       }, {
         label: "Ханты-Мансийский Автономный округ - Югра АО",
-        selected: false
+        value: 77
       }, {
         label: "Челябинская обл",
-        selected: false
+        value: 78
       }, {
         label: "Чеченская Респ",
-        selected: false
+        value: 79
       }, {
         label: "Чувашская Респ",
-        selected: false
+        value: 80
       }, {
         label: "Чукотский АО",
-        selected: false
+        value: 81
       }, {
         label: "Ямало-Ненецкий АО",
-        selected: false
+        value: 82
       }, {
         label: "Ярославская обл",
-        selected: false
-      }]
+        value: 83
+      }, {
+        label: "Яросллавская обл",
+        value: 84
+      }, {
+        label: "Ярослаавская обл",
+        value: 85
+      }, {
+        label: "Ярославвская обл",
+        value: 86
+      }],
+      optionsListFiltered: []
     };
   },
   mounted: function mounted() {
@@ -525,15 +555,20 @@ var _vue_rt_style_kit_atoms_local_components_Input_docs_index_json__WEBPACK_IMPO
   methods: {
     changeSelect: function changeSelect(val) {
       console.info('-->>', val);
+    },
+    filterOnInput: function filterOnInput(inputVal) {
+      this.optionsListFiltered = this.optionsList.filter(function (item) {
+        return item.label.toLowerCase().startsWith(inputVal.toLowerCase());
+      });
     }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Select.vue?vue&type=template&id=79467fdc&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Select.vue?vue&type=template&id=173e9e82&":
 /*!*******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/form/Select.vue?vue&type=template&id=79467fdc& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/form/Select.vue?vue&type=template&id=173e9e82& ***!
   \*******************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -542,27 +577,27 @@ var _vue_rt_style_kit_atoms_local_components_Input_docs_index_json__WEBPACK_IMPO
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-4"},[_c('rt-select-v2',{attrs:{"multiple":true,"json":[
-              {value:'50', label:'150 минут 150 минут 150 минут 150 минут 150 минут 150 минут 150 минут'},
-              {value:'150', label:'250 минут', sublabel:'80% скидка'},
-              {value:'250', label:'500 минут', sublabel:'95% скидка'},
-              {value:'350', label:'700 минут', sublabel:'95% скидка'},
-              {value:'450', label:'900 минут', sublabel:'95% скидка'},
-              {value:'500', label:'950 минут', sublabel:'95% скидка'},
-              {value:'550', label:'1000 минут', sublabel:'95% скидка'},
-              {value:'600', label:'1100 минут', sublabel:'95% скидка'},
-              {value:'650', label:'1200 минут', sublabel:'95% скидка'},
-              {value:'950', label:'2000 минут', sublabel:'95% скидка'},
-              {value:'1150', label:'2100 минут', sublabel:'95% скидка'},
-              {value:'1250', label:'2200 минут', sublabel:'95% скидка'},
-              {value:'1450', label:'2300 минут', sublabel:'95% скидка'},
-              {value:'1550', label:'2400 минут', sublabel:'95% скидка'},
-              {value:'1950', label:'2500 минут', sublabel:'95% скидка'},
-              {value:'2450', label:'3300 минут', sublabel:'95% скидка'},
-              {value:'2550', label:'3400 минут', sublabel:'95% скидка'},
-              {value:'2950', label:'3500 минут', sublabel:'95% скидка'}
-              ],"value":['50', '250'],"name":"test3","label":"Оборудование"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4"},[_c('rt-select-v2',{attrs:{"set-first-active":true,"name":"test2","label":"Оборудование","json":[{value:'50', label:'150 минут 150 минут 150 минут 150 минут150 минут150 минут150 минут 150 минут 150 минут 150 минут'},{value:'150', label:'250 минут'},{value:'250', label:'500 минут'}]}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4"},[_c('rt-select-v2',{attrs:{"set-first-active":true,"name":"test1","label":"Оборудование"}},[_c('rt-select-v2-option',{attrs:{"select-name":"test1","default":true,"selected":true,"value":"50"}},[_vm._v("150 минут")]),_vm._v(" "),_c('rt-select-v2-option',{attrs:{"select-name":"test1","value":"150"}},[_vm._v("500 минут")]),_vm._v(" "),_c('rt-select-v2-option',{attrs:{"select-name":"test1","label":"1000 минут","value":"250"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("simple with content text")]),_vm._v(" "),_c('rt-select-v2',{attrs:{"name":"simple1","label":"Оборудование","value":"0","has-content-text":true}},[_c('template',{slot:"content"},[_c('p',{staticClass:"rt-font-control color-main05 rt-space-top0-half"},[_vm._v("Пакет входящих минут "),_c('br'),_vm._v(" с любых телефонов России")])]),_vm._v(" "),_c('rt-select-v2-option',{attrs:{"select-name":"simple1","selected":true,"value":"150"}},[_vm._v("150 минут")]),_vm._v(" "),_c('rt-select-v2-option',{attrs:{"select-name":"simple1","value":"150"}},[_vm._v("500 минут")]),_vm._v(" "),_c('rt-select-v2-option',{attrs:{"select-name":"simple1","value":"150"}},[_vm._v("1000 минут")])],2)],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"col rt-col-md-3"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("simple select")]),_vm._v(" "),_c('rt-select-v2',{attrs:{"name":"simple2","label":"Оборудование","value":"0"}},_vm._l((_vm.optionsList),function(option,index){return _c('rt-select-v2-option',{key:'index' + Math.random().toString(5).slice(4),attrs:{"select-name":"simple2","value":String(index)}},[_vm._v("\n              "+_vm._s(option.label)+"\n            ")])}),1)],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-2 rt-md-space-top d-flex flex-column"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("select with error")]),_vm._v(" "),_c('rt-select-v2',{attrs:{"name":"simple3","error-message":'ошибка: не выбран город',"has-error":true,"label":"Оборудование","value":"0","text":"Новгородская обл"}},_vm._l((_vm.optionsList),function(option,index){return _c('rt-select-v2-option',{key:'index' + Math.random().toString(5).slice(4),attrs:{"select-name":"simple3","value":String(index)}},[_vm._v("\n              "+_vm._s(option.label)+"\n            ")])}),1)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-1 rt-md-space-top d-flex flex-column"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("disabled select")]),_vm._v(" "),_c('rt-select-v2',{attrs:{"disabled":true,"name":"simple4","label":"Оборудование","value":"0","text":"Новгородская обл"}},_vm._l((_vm.optionsList),function(option,index){return _c('rt-select-v2-option',{key:'index' + Math.random().toString(5).slice(4),attrs:{"select-name":"simple4","value":String(index)}},[_vm._v("\n              "+_vm._s(option.label)+"\n            ")])}),1)],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"col rt-col-md-3"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("simple select")]),_vm._v(" "),_c('rt-select',{attrs:{"label":"Оборудование","value":"0"}},_vm._l((_vm.optionsList),function(option,index){return _c('rt-select-option',{key:'index' + Math.random().toString(5).slice(4),attrs:{"value":String(index)}},[_vm._v("\n              "+_vm._s(option.label)+"\n            ")])}),1)],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-2 rt-md-space-top d-flex flex-column"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("select with error")]),_vm._v(" "),_c('rt-select',{attrs:{"error-message":'ошибка: не выбран город',"has-error":true,"label":"Оборудование","value":"0","text":"Новгородская обл"}},_vm._l((_vm.optionsList),function(option,index){return _c('rt-select-option',{key:'index' + Math.random().toString(5).slice(4),attrs:{"value":String(index)}},[_vm._v("\n              "+_vm._s(option.label)+"\n            ")])}),1)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-1 rt-md-space-top d-flex flex-column"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("disabled select")]),_vm._v(" "),_c('rt-select',{attrs:{"disabled":true,"label":"Оборудование","value":"0","text":"Новгородская обл"}},_vm._l((_vm.optionsList),function(option,index){return _c('rt-select-option',{key:'index' + Math.random().toString(5).slice(4),attrs:{"value":String(index)}},[_vm._v("\n              "+_vm._s(option.label)+"\n            ")])}),1)],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row color-block--light-grey rt-space-top rt-space-bottom"},[_c('div',{staticClass:"rt-col-6 rt-col-md-2 d-flex flex-column"},[_vm._v("\n        b2b\n          "),_c('rt-select',{attrs:{"is-b2b-select":true,"label":"Выберите регион"}},_vm._l((_vm.optionsList),function(option,index){return _c('rt-select-option',{key:'index' + Math.random().toString(5).slice(4),attrs:{"value":String(index)}},[_vm._v("\n              "+_vm._s(option.label)+"\n            ")])}),1)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-2 d-flex flex-column"},[_vm._v("\n        b2b\n          "),_c('rt-select',{attrs:{"is-b2b-select":true,"label":"Выберите регион","disabled":true}},_vm._l((_vm.optionsList),function(option,index){return _c('rt-select-option',{key:'index' + Math.random().toString(5).slice(4),attrs:{"value":String(index)}},[_vm._v("\n              "+_vm._s(option.label)+"\n            ")])}),1)],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row color-block--light-grey rt-space-top rt-space-bottom"},[_c('div',{staticClass:"rt-col-6 rt-col-md-2 d-flex flex-column"},[_vm._v("\n        b2b\n          "),_c('rt-select',{attrs:{"is-b2b-select":true,"label":"Выберите регион","has-error":true}},_vm._l((_vm.optionsList),function(option,index){return _c('rt-select-option',{key:'index' + Math.random().toString(5).slice(4),attrs:{"value":String(index)}},[_vm._v("\n              "+_vm._s(option.label)+"\n            ")])}),1)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-2 d-flex flex-column"},[_vm._v("\n        b2b\n          "),_c('rt-select',{attrs:{"is-b2b-select":true,"label":"Выберите регион","outlined":true,"auto-complete":true}},_vm._l((_vm.optionsList),function(option,index){return _c('rt-select-option',{key:'index' + Math.random().toString(5).slice(4),attrs:{"value":String(index)}},[_vm._v("\n              "+_vm._s(option.label)+"\n            ")])}),1)],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row color-block--light-grey rt-space-top rt-space-bottom"},[_c('div',{staticClass:"rt-col-6 rt-col-md-2 d-flex flex-column"},[_vm._v("\n        b2b\n          "),_c('rt-select',{attrs:{"is-b2b-select":true,"label":"Выберите регион","outlined":true,"disabled":true}},_vm._l((_vm.optionsList),function(option,index){return _c('rt-select-option',{key:'index' + Math.random().toString(5).slice(4),attrs:{"value":String(index)}},[_vm._v("\n              "+_vm._s(option.label)+"\n            ")])}),1)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-2 d-flex flex-column"},[_vm._v("\n        b2b\n          "),_c('rt-select',{attrs:{"is-b2b-select":true,"label":"Выберите регион","outlined":true,"has-error":true}},_vm._l((_vm.optionsList),function(option,index){return _c('rt-select-option',{key:'index' + Math.random().toString(5).slice(4),attrs:{"value":String(index)}},[_vm._v("\n              "+_vm._s(option.label)+"\n            ")])}),1)],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row rt-space-top rt-space-bottom"},[_c('div',{staticClass:"rt-col-6 rt-col-md-2 d-flex flex-column"},[_c('rt-select',{attrs:{"label":"multiSelect","multi":true,"field-id":"235"}},_vm._l((5),function(i){return _c('rt-select-option',{key:i,attrs:{"value":String(i)}},[_vm._v("\n              Вариант "+_vm._s(i)+" fghsdfgsdfsdfgsdfg\n            ")])}),1)],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row rt-space-top"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("\n        Select\n      ")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col"},[_c('p',{staticClass:"rt-font-h3"},[_vm._v("\n            Select with js\n          ")])])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-4"},[_c('rt-select-v2',{attrs:{"json":_vm.optionsList,"name":"test99","label":"Просто выпадающий список"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4"},[_c('rt-select-v2',{attrs:{"multiple":true,"json":[
+                {value:'50', label:'150 минут 150 минут 150 минут 150 минут 150 минут 150 минут 150 минут'},
+                {value:'150', label:'250 минут', sublabel:'80% скидка'},
+                {value:'250', label:'500 минут', sublabel:'95% скидка'},
+                {value:'350', label:'700 минут', sublabel:'95% скидка'},
+                {value:'450', label:'900 минут', sublabel:'95% скидка'},
+                {value:'500', label:'950 минут', sublabel:'95% скидка'},
+                {value:'550', label:'1000 минут', sublabel:'95% скидка'},
+                {value:'600', label:'1100 минут', sublabel:'95% скидка'},
+                {value:'650', label:'1200 минут', sublabel:'95% скидка'},
+                {value:'950', label:'2000 минут', sublabel:'95% скидка'},
+                {value:'1150', label:'2100 минут', sublabel:'95% скидка'},
+                {value:'1250', label:'2200 минут', sublabel:'95% скидка'},
+                {value:'1450', label:'2300 минут', sublabel:'95% скидка'},
+                {value:'1550', label:'2400 минут', sublabel:'95% скидка'},
+                {value:'1950', label:'2500 минут', sublabel:'95% скидка'},
+                {value:'2450', label:'3300 минут', sublabel:'95% скидка'},
+                {value:'2550', label:'3400 минут', sublabel:'95% скидка'},
+                {value:'2950', label:'3500 минут', sublabel:'95% скидка'}
+                ],"name":"test3","label":"Выпадающий список с множественным выбором"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4"},[_c('rt-select-v2',{attrs:{"auto-complete":true,"name":"test2","label":"Выпадающий список с фильтрацией по вводу","json":_vm.optionsListFiltered},on:{"input":_vm.filterOnInput}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-12 sp-t-2"}),_vm._v(" "),_c('div',{staticClass:"rt-col-4"},[_c('rt-select-v2',{attrs:{"name":"test1","label":"Выпадающий список с ошибкой","has-error":true,"error-message":"Текст с сообщением об ошибке"}},[_c('rt-select-v2-option',{attrs:{"select-name":"test1","default":true,"value":"50"}},[_vm._v("150 минут")]),_vm._v(" "),_c('rt-select-v2-option',{attrs:{"select-name":"test1","value":"150"}},[_vm._v("500 минут")]),_vm._v(" "),_c('rt-select-v2-option',{attrs:{"select-name":"test1","label":"1000 минут","value":"250"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4"},[_c('rt-select-v2',{attrs:{"name":"test98","label":"Выпадающий список без возможности выбора","disabled":true}},[_c('rt-select-v2-option',{attrs:{"select-name":"test98","value":"50"}},[_vm._v("150 минут")]),_vm._v(" "),_c('rt-select-v2-option',{attrs:{"select-name":"test98","value":"150"}},[_vm._v("500 минут")]),_vm._v(" "),_c('rt-select-v2-option',{attrs:{"select-name":"test98","label":"1000 минут","value":"250"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4"},[_c('rt-select-v2',{attrs:{"name":"test97","label":"Всё уже выбрано за вас","multiple":true,"disabled":true,"set-first-active":true}},[_c('rt-select-v2-option',{attrs:{"select-name":"test97","value":"50"}},[_vm._v("150 минут")]),_vm._v(" "),_c('rt-select-v2-option',{attrs:{"select-name":"test97","value":"150"}},[_vm._v("500 минут")]),_vm._v(" "),_c('rt-select-v2-option',{attrs:{"select-name":"test97","label":"1000 минут","value":"250"}})],1)],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row rt-space-top"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("\n          Select\n        ")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col"},[_c('p',{staticClass:"rt-font-h3"},[_vm._v("\n              Select with js\n            ")])])])}]
 
 
 
@@ -588,7 +623,7 @@ module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-input\",\"property\":\"c
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Select_vue_vue_type_template_id_79467fdc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Select.vue?vue&type=template&id=79467fdc& */ "./src/example-pages/components/form/Select.vue?vue&type=template&id=79467fdc&");
+/* harmony import */ var _Select_vue_vue_type_template_id_173e9e82___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Select.vue?vue&type=template&id=173e9e82& */ "./src/example-pages/components/form/Select.vue?vue&type=template&id=173e9e82&");
 /* harmony import */ var _Select_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Select.vue?vue&type=script&lang=js& */ "./src/example-pages/components/form/Select.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
@@ -600,8 +635,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _Select_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Select_vue_vue_type_template_id_79467fdc___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Select_vue_vue_type_template_id_79467fdc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Select_vue_vue_type_template_id_173e9e82___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Select_vue_vue_type_template_id_173e9e82___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -627,19 +662,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/example-pages/components/form/Select.vue?vue&type=template&id=79467fdc&":
+/***/ "./src/example-pages/components/form/Select.vue?vue&type=template&id=173e9e82&":
 /*!*************************************************************************************!*\
-  !*** ./src/example-pages/components/form/Select.vue?vue&type=template&id=79467fdc& ***!
+  !*** ./src/example-pages/components/form/Select.vue?vue&type=template&id=173e9e82& ***!
   \*************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Select_vue_vue_type_template_id_79467fdc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Select.vue?vue&type=template&id=79467fdc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Select.vue?vue&type=template&id=79467fdc&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Select_vue_vue_type_template_id_79467fdc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Select_vue_vue_type_template_id_173e9e82___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Select.vue?vue&type=template&id=173e9e82& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Select.vue?vue&type=template&id=173e9e82&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Select_vue_vue_type_template_id_173e9e82___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Select_vue_vue_type_template_id_79467fdc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Select_vue_vue_type_template_id_173e9e82___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
