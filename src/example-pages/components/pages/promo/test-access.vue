@@ -184,45 +184,10 @@
             "label": "Партнёрам",
             "path": "https://belgorod.rt.ru/b2b/partners_program"
           }
-        ]
+        ],
       }
     },
-    mounted() {
-      // window.addEventListener('load', function(){
-      //   var wrapper = document.querySelector('.items-wrapper');
-      //   var startHeight;
-      //   document.querySelector('.items-wrapper-button').addEventListener('click', function(){
-      //     this.classList.toggle('items-wrapper-button--active')
-      //     setWrapperHeight(wrapper);
-      //   })
-      //   window.addEventListener('resize', function(){
-      //     getWrapperHeight(wrapper);
-      //     setWrapperHeight(wrapper);
-      //   })
-      //   getWrapperHeight(wrapper);
-      //   setWrapperHeight(wrapper);
-      //   function getWrapperHeight(wrapper){
-      //     setTimeout(function(){
-      //       Array.from(wrapper.querySelectorAll('.rt-card__border-content')).map(function(item){
-      //         if(item.hasAttribute('style')){
-      //           startHeight =  item.closest('.rt-card').offsetHeight + 30;
-      //         } else {
-      //           getWrapperHeight(wrapper)
-      //         }
-      //       })
-      //     }, 300)
-      //   }
-      //   function setWrapperHeight(wrapper) {
-      //     setTimeout(function(){
-      //       if(!!startHeight) {
-      //         wrapper.offsetHeight != startHeight ? wrapper.style.height = startHeight + 'px' : wrapper.style.height = wrapper.scrollHeight + 20 + 'px';
-      //       } else {
-      //         setWrapperHeight(wrapper)
-      //       }
-      //     },400)
-      //   }
-      // })
-    },
+    mounted() {},
     created() {},
     methods: {}
   };

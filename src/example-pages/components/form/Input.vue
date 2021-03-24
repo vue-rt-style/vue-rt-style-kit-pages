@@ -5,282 +5,258 @@
 				<h1 class="rt-font-hero">Input</h1>
 			</div>
 			<div class="app-body">
-				<!--<div class="is-b2c">-->
-        <input type="text" v-model="inputModel">
 				<div class="app-deprecated">
 					<div class="app-row row">
-						<div class="rt-col-4 rt-col-md-2">
-							<span class="rt-font-label flex-fill rt-space-bottom05">simple input</span>
-<!--              <h1>{{inputModel}}</h1>-->
-<div class="color-block--black">
-              <rt-input label="Поле ввода с паролем"
-                        :version="2"
-                        type="string"
-                        :bright="true"
-                        input-type="password"
-                        error-message="Текст ошибки"
-                        v-model="inputModel"
-                        value=""
-                        placeholder="Пароль" >
-              </rt-input>
-
-              <rt-input label="Поле ввода с числом( float)"
-                        :version="2"
-                        type="number"
-                        input-type="number"
-                        v-model="inputModel"
-                        :max-number="999"
-                        :bright="true"
-                        :min-number="-150"
-                        :step="2.5"
-                        value=""
-                        placeholder="рациональное число" >
-              </rt-input>
+						<div class="rt-col-5 rt-col-md-3">
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05">simple input</span>-->
+              <rt-input :version="2" placeholder="Это поле ввода. Дерзай!"/>
+              <div class="sp-t-0-3"/>
+              <rt-input :version="2" placeholder="Это поле ввода с подсказкой" label="Текст подсказки"/>
+              <rt-input :version="2" :placeholder="errorText" label="Текст подсказки" :has-error="error"
+                        :error-message='errorMessage' :disabled="disabled" :value="rightValue"/>
+              <div class="sp-t-0-3"/>
+              <div v-if="clickCounter < 68">
+                <rt-checkbox @change="toggleError">А можно без ошибки?</rt-checkbox>
+                <span class="sp-l-1-3 rt-font-small-paragraph" v-if="!error">
+                  <span v-if="clickCounter < 2">Конечно!</span>
+                  <span v-else-if="clickCounter < 6">Прикольно, правда?))</span>
+                  <span v-else-if="clickCounter < 10">Серьёзно?!</span>
+                  <span v-else-if="clickCounter < 16">Захотелось поиграть?</span>
+                  <span v-else-if="clickCounter < 24">Ну-ну, наши руки не для скуки. Понятно</span>
+                  <span v-else-if="clickCounter < 40">Не надоело?</span>
+                  <span v-else-if="clickCounter < 56">Прекращай!</span>
+                  <span v-else-if="clickCounter < 64">А то прекращу я!</span>
+                </span>
               </div>
-              <rt-input label="Поле ввода с числом( integer)"
+              <div v-else class="rt-font-small-paragraph">Ведь я предупреждал...</div>
+              <rt-input :version="2" :disabled="true" label="Как-то так" placeholder="Теперь ввод запрещён"/>
+              <rt-input :version="2" :disabled="true" label="М - магия))" placeholder="Теперь ввод запрещён"
+                        value="Но каким-то магическим образом здесь есть текст"/>
+              <rt-input :version="2" placeholder="Поле ввода с иконкой" label="Эта иконка ничего не делает">
+                <template slot="icon">
+                  <rt-system-icons name="atom"/>
+                </template>
+              </rt-input>
+              <rt-input label="А эта иконка делает))"
+                        :version="2"
+                        type="text"
+                        value=""
+                        placeholder="Поле с всплывающей подсказкой">
+                <template slot="informer">Здесь могла бы быть Ваша реклама, но мы будем использовать всплывающие
+                  подсказки исключительно для сообщения важной информации.<br> Шутка!)) По вопросам сотрудничества
+                  пиши в личку</template>
+              </rt-input>
+<!--							<pre-code text="<rt-input label=&quot;Начните вводить почту&quot;-->
+<!--                              type=&quot;string&quot;-->
+<!--                              value=&quot;&quot;-->
+<!--                              placeholder=&quot;Электронная почта&quot; />"/>-->
+						</div>
+            <div class="rt-col-1 md-d-none"/>
+            <div class="rt-col-5 rt-col-md-3">
+              <div class="color-block--light-blue-high sp-v-1">
+                <h4 class="rt-font-h4">Проверка v-model</h4>
+                <input type="text" v-model="inputModel" placeholder="Начните ввод">
+                <rt-input label="Поле, связанное с обычным элементом input выше"
+                          :version="2"
+                          v-model="inputModel"
+                          type="text"
+                          placeholder="Или начните ввод здесь"/>
+              </div>
+              <rt-input label="Шаг равен ±3"
                         :version="2"
                         type="number"
                         input-type="number"
-                        v-model="inputModel"
-                        :max-number="999"
-                        :min-number="10"
-                        :step="90"
-                        value=""
                         :is-integer="true"
-                        placeholder="целое число" >
-              </rt-input>
-              <rt-input label="Начните вводить почту!!"
-                        :version="2"
-                        v-model="inputModel"
-                        type="text"
-                        value=""
-                        placeholder="Электронная почта!" v-on:clear="clearInput"/>
-              <rt-input label="Начните вводить почту!!"
+                        :step="3"
+                        :min-number="0"
+                        :max-number="99"
+                        placeholder="Введите целое число в диапазоне 0 - 99"/>
+              <rt-input label="Переключение видимости по нажатию на иконку"
                         :version="2"
                         type="text"
-                        value=""
-                        placeholder="Электронная почта!" v-on:clear="clearInput"/>
-              <rt-input label="Начните вводить пароль!!"
-                        :version="2"
-                        type="text"
-                        value=""
-                        placeholder="Пароль" input-type="password"/>
-              <rt-input label="Начните вводить почту!!"
-                        :version="2"
-                        type="text"
-                        value=""
-                        placeholder="Электронная почта!">
-                <template slot="informer">Эмбоссирование – метод персонализации пластиковых карт, при котором специальным аппаратом эмбоссером на лицевой стороне карточки выдавливается <br>буквенно-цифровая информация.</template>
-              </rt-input>
-              <rt-input input-type="tel" label="Телефон" :version="2" placeholder="Телефон" :need-verification="true" :verified="checkThis"/>
-							<pre-code
-									text="<rt-input label=&quot;Начните вводить почту&quot;
-                              type=&quot;string&quot;
-                              value=&quot;&quot;
-                              placeholder=&quot;Электронная почта&quot; />"
-							/>
-						</div>
-						<div class="rt-col-4 rt-col-md-2 rt-md-space-top">
-							<span class="rt-font-label flex-fill rt-space-bottom05">input with error</span>
-							<pre-code
-									text="<rt-input type=&quot;email&quot;
-                              label=&quot;Начните вводить почту&quot;
-                              placeholder=&quot;Электронная почта&quot;
-                              value=&quot;inputModelValue&quot;
-                              error-message=&quot;ошибка: не является почтой&quot;
-                              :has-error=&quot;true&quot; />"
-							/>
-						</div>
-						<div class="rt-col-4 rt-col-md-1 rt-md-space-top">
-							<span class="rt-font-label flex-fill rt-space-bottom05">disabled input</span>
-							<pre-code
-									text="<rt-input value=&quot;&quot;
-                              placeholder=&quot;Электронная почта&quot;
-                              :disabled=&quot;true&quot;
-                              value=&quot;inputModelValue&quot;
-                              label=&quot;Начните вводить почту&quot;
-                              error-message=&quot;ошибка: не является почтой&quot;/>"
-							/>
-						</div>
+                        value="я - пароль, и сейчас ты меня видишь"
+                        placeholder="Поле ввода пароля" input-type="password"/>
+              <rt-input input-type="tel" label="Начните вводить номер, маску мы берём на себя" :version="2"
+                        placeholder="Поля ввода номера телефона" :need-verification="true"
+                        :verified="checkThis" v-on:filled="showButtonFn" ref="phoneInput"/>
+              <div class="sp-t-1"/>
+              <rt-button v-if="showButton"
+                         @click="togglePhoneCheck"
+                         :small='true'
+                         class='rt-button-orange-border'>Да нажми уже. Можно</rt-button>
+            </div>
+            <div class="rt-col-1 md-d-none"/>
+<!--						<div class="rt-col-4 rt-col-md-2 rt-md-space-top">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05">input with error</span>-->
+<!--							<pre-code text="<rt-input type=&quot;email&quot;-->
+<!--                              label=&quot;Начните вводить почту&quot;-->
+<!--                              placeholder=&quot;Электронная почта&quot;-->
+<!--                              value=&quot;inputModelValue&quot;-->
+<!--                              error-message=&quot;ошибка: не является почтой&quot;-->
+<!--                              :has-error=&quot;true&quot; />"/>-->
+<!--						</div>-->
+<!--						<div class="rt-col-4 rt-col-md-1 rt-md-space-top">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05">disabled input</span>-->
+<!--							<pre-code text="<rt-input value=&quot;&quot;-->
+<!--                              placeholder=&quot;Электронная почта&quot;-->
+<!--                              :disabled=&quot;true&quot;-->
+<!--                              value=&quot;inputModelValue&quot;-->
+<!--                              label=&quot;Начните вводить почту&quot;-->
+<!--                              error-message=&quot;ошибка: не является почтой&quot;/>"/>-->
+<!--						</div>-->
 					</div>
-					<div class="app-row row ">
-						<div class="rt-col-3 rt-col-md-3">
-							<span class="rt-font-label flex-fill rt-space-bottom05">input in 3 col</span>
-							<rt-input value="" placeholder="Электронная почта"/>
-						</div>
-						<div class="rt-col-2 rt-col-md-2 rt-md-space-top">
-							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 2 col</span>
-							<rt-input v-model="vTest" placeholder="Проверка v-model"/>
-							<span>{{ JSON.stringify(vTest) }}</span>
-						</div>
-						<div class="rt-col-2 rt-col-md-2 rt-md-space-top">
-							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 2 col</span>
-							<rt-input value="" placeholder="Улица"/>
-						</div>
-						<div class="rt-col-1 rt-col-md-1 rt-md-space-top">
-							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 1 col</span>
-							<rt-input value="" placeholder="Дом"/>
-						</div>
-						<div class="rt-col-1"/>
-						<div class="rt-col-3 rt-col-md-3">
-							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">password input</span>
-							<rt-input input-type="password" type="password" placeholder="Введите пароль"/>
-						</div>
-					</div>
-					<div class="app-row row">
-						<div class="rt-col-3 rt-col-md-3">
-							<span class="rt-font-label flex-fill rt-space-bottom05">input in 3 col</span>
-							<rt-input value=""
-							          placeholder="Электронная почта"
-							/>
-						</div>
-						<div class="rt-col-2 rt-col-md-2 rt-md-space-top">
-							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 2 col</span>
-							<rt-input value="" placeholder="Улица"/>
-						</div>
-						<div class="rt-col-1 rt-col-md-1 rt-md-space-top">
-							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 1 c</span>
-							<rt-input value="" placeholder="Дом" :has-error="true" error-message="dasd asdas asdsad sadsad">
-<!--								<rt-validation-icon status="error" mobile-hint-orient="left" hint-text="Есть техническая возможность"/>-->
-							</rt-input>
-						</div>
-						<div class="rt-col-1"/>
-						<div class="rt-col-3 rt-col-md-3">
-							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">password input</span>
-							<rt-input type="password" placeholder="Введите пароль"/>
-						</div>
-					</div>
-					<div class="app-row row">
-						<div class="rt-col-3 rt-col-md-3">
-							<span class="rt-font-label flex-fill rt-space-bottom05">input in 3 col</span>
-							<rt-input value="" placeholder="Электронная почта"/>
-						</div>
-						<div class="rt-col-2 rt-col-md-2 rt-md-space-top">
-							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 2 col</span>
-							<rt-input  value="" placeholder="Улица"/>
-						</div>
-						<div class="rt-col-1 rt-col-md-1 rt-md-space-top">
-							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 1 c</span>
-							<rt-input value="" placeholder="Дом">
-<!--								<rt-validation-icon status="success" mobile-hint-orient="left"-->
-<!--								                    hint-text="Есть техническая возможность"/>-->
-							</rt-input>
-						</div>
-						<div class="rt-col-1"/>
-						<div class="rt-col-3 rt-col-md-3">
-							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">password input</span>
-							<rt-input type="password" placeholder="Введите пароль"/>
-						</div>
-					</div>
-					<rt-input insert-type="string"
-					          value=""
-					          insert-lang="ru"
-					          placeholder="Ф.И.О."
-					/>
-					<rt-input insert-type="number"
-					          type="number"
-					          value=""
-					          :max-length="3"
-					          placeholder="Ваше любимое число до 999"
-					          :min-number="0"
-					          :max-number="999"
-					          :is-integer="true"
-					/>
-					<rt-input insert-type="string"
-					          value=""
-					          insert-lang="en"
-					          placeholder="enter your name(English, please)"
-					/>
-					<div class="app-row row">
-						<div class="rt-col rt-col-12">
-							<rt-input :show-numbers-buttons="true"
-							          insert-type="number"
-							          :min-number="0"
-							          placeholder="Количество, шт."
-							/>
-						</div>
-					</div>
-					<!--</div>-->
-					<!--<div class="is-b2b">-->
-					<div class="app-row row rt-space-top rt-space-bottom ">
-						<div class="rt-col rt-col-4 rt-col-td-3 rt-col-md-3">
-							<rt-input placeholder="Электронная почта" :is-b2b-input="true"/>
-						</div>
-						<div class="rt-col rt-col-4 rt-col-td-3 rt-col-md-3">
-							<rt-input placeholder="Электронная почта"
-							          :is-b2b-input="true"
-							          value="kdbafasdfsdfsd"
-							          :disabled="true"
-							/>
-						</div>
-						<div class="rt-col rt-col-4 rt-col-td-3 rt-col-md-3">
-							<pre-code
-									text="<rt-input placeholder=&quot;Электронная почта&quot;
-                              :hasError=&quot;true&quot;
-                              :is-b2b-input=&quot;true&quot;
-                              value=&quot;kdbaf@dfj.dfd&quot;
-                              error-message=&quot;ошибка: не является почтой&quot;/>"
-							/>
-						</div>
-					</div>
-					<div class="app-row row">
-						<div class="rt-col rt-col-6 rt-col-td-3 rt-col-md-3">
-							<pre-code
-									text="<rt-input placeholder=&quot;Электронная почта&quot;
-                              :is-b2b-input=&quot;true&quot;
-                              :outlined=&quot;true&quot;/>"
-							/>
-							<pre-code
-									text="<rt-input placeholder=&quot;Электронная почта&quot;
-                              :hasError=&quot;true&quot;
-                              :is-b2b-input=&quot;true&quot;
-                              :outlined=&quot;true&quot;
-                              error-message=&quot;ошибка: не является почтойошибка: не является почтойошибка: не является почтойошибка: не является почтойошибка: не является почтойошибка: не является почтой&quot;/>"
-							/>
-							<pre-code
-									text="<rt-input placeholder=&quot;Электронная почта&quot;
-                              :disabled=&quot;true&quot;
-                              :is-b2b-input=&quot;true&quot;
-                              :outlined=&quot;true&quot;/>"
-							/>
-							<pre-code
-									text="<rt-input placeholder=&quot;Введите пароль&quot;
-                              type=&quot;password&quot;
-                              :is-b2b-input=&quot;true&quot;
-                              :outlined=&quot;true&quot;/>"
-							/>
-						</div>
-					</div>
-					<div class="app-row color-block--light-grey rt-space-top3 rt-space-bottom3 row">
-						<div class="rt-col-12 rt-space-bottom15">
-							<h2 class="rt-font-bold rt-font-center rt-space-bottom05">
-								Оформить заявку на подключение
-							</h2>
-							<p class="rt-font-paragraph rt-font-center">
-								услуга «Виртуальная АТС», тариф М
-							</p>
-						</div>
-						<div class="rt-col-3 rt-col-td-1"/>
-						<div class="rt-col rt-col-6 rt-col-td-4 rt-col-md-3">
-							<rt-input placeholder="Имя" :is-b2b-input="true"/>
-							<rt-input placeholder="Компания" :is-b2b-input="true"/>
-							<rt-input placeholder="Электронная почта" :is-b2b-input="true" :input-button="true"
-							          input-button-text="Получить код"/>
-							<rt-input placeholder="Телефон" :is-b2b-input="true" :has-timer="true" timer-duration="1"
-							          insert-type="tel"/>
-							<rt-input placeholder="Код из смс"
-							          :is-b2b-input="true"
-							          :approved="true"/>
-							<div class="row flex-center-center rt-space-top">
-								<rt-checkbox name="agreement" class="color-main05">Я принимаю <a href="">условия передачи информации</a>
-								</rt-checkbox>
-							</div>
-							<rt-button class="rt-button-transparent-purple" @click="clearInput">
-								Получить код
-							</rt-button>
-						</div>
-						<div class="rt-col-3 rt-col-td-1"/>
-					</div>
+<!--					<div class="app-row row ">-->
+<!--						<div class="rt-col-3 rt-col-md-3">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05">input in 3 col</span>-->
+<!--							<rt-input value="" placeholder="Электронная почта"/>-->
+<!--						</div>-->
+<!--						<div class="rt-col-2 rt-col-md-2 rt-md-space-top">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 2 col</span>-->
+<!--							<rt-input v-model="vTest" placeholder="Проверка v-model"/>-->
+<!--							<span>{{ JSON.stringify(vTest) }}</span>-->
+<!--						</div>-->
+<!--						<div class="rt-col-2 rt-col-md-2 rt-md-space-top">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 2 col</span>-->
+<!--							<rt-input value="" placeholder="Улица"/>-->
+<!--						</div>-->
+<!--						<div class="rt-col-1 rt-col-md-1 rt-md-space-top">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 1 col</span>-->
+<!--							<rt-input value="" placeholder="Дом"/>-->
+<!--						</div>-->
+<!--						<div class="rt-col-1"/>-->
+<!--						<div class="rt-col-3 rt-col-md-3">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">password input</span>-->
+<!--							<rt-input input-type="password" type="password" placeholder="Введите пароль"/>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="app-row row">-->
+<!--						<div class="rt-col-3 rt-col-md-3">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05">input in 3 col</span>-->
+<!--							<rt-input value="" placeholder="Электронная почта"/>-->
+<!--						</div>-->
+<!--						<div class="rt-col-2 rt-col-md-2 rt-md-space-top">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 2 col</span>-->
+<!--							<rt-input value="" placeholder="Улица"/>-->
+<!--						</div>-->
+<!--						<div class="rt-col-1 rt-col-md-1 rt-md-space-top">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 1 c</span>-->
+<!--							<rt-input value="" placeholder="Дом" :has-error="true" error-message="dasd asdas asdsad sadsad"/>-->
+<!--						</div>-->
+<!--						<div class="rt-col-1"/>-->
+<!--						<div class="rt-col-3 rt-col-md-3">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">password input</span>-->
+<!--							<rt-input type="password" placeholder="Введите пароль"/>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="app-row row">-->
+<!--						<div class="rt-col-3 rt-col-md-3">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05">input in 3 col</span>-->
+<!--							<rt-input value="" placeholder="Электронная почта"/>-->
+<!--						</div>-->
+<!--						<div class="rt-col-2 rt-col-md-2 rt-md-space-top">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 2 col</span>-->
+<!--							<rt-input  value="" placeholder="Улица"/>-->
+<!--						</div>-->
+<!--						<div class="rt-col-1 rt-col-md-1 rt-md-space-top">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">input in 1 c</span>-->
+<!--							<rt-input value="" placeholder="Дом"/>-->
+<!--						</div>-->
+<!--						<div class="rt-col-1"/>-->
+<!--						<div class="rt-col-3 rt-col-md-3">-->
+<!--							<span class="rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap">password input</span>-->
+<!--							<rt-input type="password" placeholder="Введите пароль"/>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<rt-input insert-type="string"-->
+<!--					          value=""-->
+<!--					          insert-lang="ru"-->
+<!--					          placeholder="Ф.И.О."/>-->
+<!--					<rt-input insert-type="number"-->
+<!--					          type="number"-->
+<!--					          value=""-->
+<!--					          :max-length="3"-->
+<!--					          placeholder="Ваше любимое число до 999"-->
+<!--					          :min-number="0"-->
+<!--					          :max-number="999"-->
+<!--					          :is-integer="true"/>-->
+<!--					<rt-input insert-type="string"-->
+<!--					          value=""-->
+<!--					          insert-lang="en"-->
+<!--					          placeholder="enter your name(English, please)"/>-->
+<!--					<div class="app-row row">-->
+<!--						<div class="rt-col rt-col-12">-->
+<!--							<rt-input :show-numbers-buttons="true"-->
+<!--							          insert-type="number"-->
+<!--							          :min-number="0"-->
+<!--							          placeholder="Количество, шт."/>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="app-row row rt-space-top rt-space-bottom ">-->
+<!--						<div class="rt-col rt-col-4 rt-col-td-3 rt-col-md-3">-->
+<!--							<rt-input placeholder="Электронная почта" :is-b2b-input="true"/>-->
+<!--						</div>-->
+<!--						<div class="rt-col rt-col-4 rt-col-td-3 rt-col-md-3">-->
+<!--							<rt-input placeholder="Электронная почта"-->
+<!--							          :is-b2b-input="true"-->
+<!--							          value="kdbafasdfsdfsd"-->
+<!--							          :disabled="true"/>-->
+<!--						</div>-->
+<!--						<div class="rt-col rt-col-4 rt-col-td-3 rt-col-md-3">-->
+<!--							<pre-code text="<rt-input placeholder=&quot;Электронная почта&quot;-->
+<!--                              :hasError=&quot;true&quot;-->
+<!--                              :is-b2b-input=&quot;true&quot;-->
+<!--                              value=&quot;kdbaf@dfj.dfd&quot;-->
+<!--                              error-message=&quot;ошибка: не является почтой&quot;/>"/>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="app-row row">-->
+<!--						<div class="rt-col rt-col-6 rt-col-td-3 rt-col-md-3">-->
+<!--							<pre-code text="<rt-input placeholder=&quot;Электронная почта&quot;-->
+<!--                              :is-b2b-input=&quot;true&quot;-->
+<!--                              :outlined=&quot;true&quot;/>"/>-->
+<!--							<pre-code text="<rt-input placeholder=&quot;Электронная почта&quot;-->
+<!--                              :hasError=&quot;true&quot;-->
+<!--                              :is-b2b-input=&quot;true&quot;-->
+<!--                              :outlined=&quot;true&quot;-->
+<!--                              error-message=&quot;ошибка: не является почтойошибка: не является почтойошибка: не является почтойошибка: не является почтойошибка: не является почтойошибка: не является почтой&quot;/>"/>-->
+<!--							<pre-code text="<rt-input placeholder=&quot;Электронная почта&quot;-->
+<!--                              :disabled=&quot;true&quot;-->
+<!--                              :is-b2b-input=&quot;true&quot;-->
+<!--                              :outlined=&quot;true&quot;/>"/>-->
+<!--							<pre-code text="<rt-input placeholder=&quot;Введите пароль&quot;-->
+<!--                              type=&quot;password&quot;-->
+<!--                              :is-b2b-input=&quot;true&quot;-->
+<!--                              :outlined=&quot;true&quot;/>"/>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="app-row color-block&#45;&#45;light-grey rt-space-top3 rt-space-bottom3 row">-->
+<!--						<div class="rt-col-12 rt-space-bottom15">-->
+<!--							<h2 class="rt-font-bold rt-font-center rt-space-bottom05">-->
+<!--								Оформить заявку на подключение-->
+<!--							</h2>-->
+<!--							<p class="rt-font-paragraph rt-font-center">услуга «Виртуальная АТС», тариф М</p>-->
+<!--						</div>-->
+<!--						<div class="rt-col-3 rt-col-td-1"/>-->
+<!--						<div class="rt-col rt-col-6 rt-col-td-4 rt-col-md-3">-->
+<!--							<rt-input placeholder="Имя" :is-b2b-input="true"/>-->
+<!--							<rt-input placeholder="Компания" :is-b2b-input="true"/>-->
+<!--							<rt-input placeholder="Электронная почта" :is-b2b-input="true" :input-button="true"-->
+<!--							          input-button-text="Получить код"/>-->
+<!--							<rt-input placeholder="Телефон" :is-b2b-input="true" :has-timer="true" timer-duration="1"-->
+<!--							          insert-type="tel"/>-->
+<!--							<rt-input placeholder="Код из смс"-->
+<!--							          :is-b2b-input="true"-->
+<!--							          :approved="true"/>-->
+<!--							<div class="row flex-center-center rt-space-top">-->
+<!--								<rt-checkbox name="agreement" class="color-main05">Я принимаю <a href="">условия передачи информации</a>-->
+<!--								</rt-checkbox>-->
+<!--							</div>-->
+<!--							<rt-button class="rt-button-transparent-purple">-->
+<!--								Получить код-->
+<!--							</rt-button>-->
+<!--						</div>-->
+<!--						<div class="rt-col-3 rt-col-td-1"/>-->
+<!--					</div>-->
 				</div>
 			</div>
 			<div class="rt-space-top25">
@@ -302,35 +278,57 @@
       inputModelValue: "test",
       documentation: {},
       inputValue: "test",
-      inputModel: '123',
+      inputModel: '124',
       inputPasswordType: 'password',
-      checkThis: false,
-      disabled: false
+      checkThis: null,
+      disabled: false,
+      error: true,
+      clickCounter: 0,
+      errorText: 'Это поле с ошибкой!',
+      errorMessage: 'Текст сообщения об ошибке. К примеру: "тыкни чекбокс подо мной"',
+      rightValue: '',
+      showButton: false
     }),
     mounted() {
       this.documentation = documentation;
-      setTimeout(()=> {
-        this.checkThis = true;
-        this.disabled = true
-      },10000)
+      // setTimeout(()=> {
+      //   this.error = false;
+      // },10000)
     },
-    created() {
-    },
+    created() {},
     methods: {
-
-      changeInputType(){
-        if(this.inputPasswordType == 'password'){
-          this.inputPasswordType = 'text';
-        }else{
-          this.inputPasswordType = 'password';
-        }
-      },
       openCalendar(e,a,b){
         console.info('openCalendar',e,a,b)
       },
-      clearInput() {
-        console.log('!!')
-        // this.inputModel = "ббб";
+      toggleError() {
+        this.clickCounter++
+        this.error = !this.error
+        if(this.error) {
+          this.rightValue = ''
+          this.errorText = 'Это поле с ошибкой!'
+        } else {
+          this.rightValue = 'Якобы корректные данные'
+          this.errorText = 'Или с обычным плейсхолдером?)'
+        }
+        if(this.clickCounter > 10) {
+          this.errorMessage = 'А с виду взрослый человек'
+        }
+        if(this.clickCounter >= 68) {
+          this.error = true
+          this.errorText = 'Сломалось((('
+          this.disabled = true
+        }
+      },
+      showButtonFn() {
+        setTimeout(() => {
+          if(this.$refs.phoneInput.$refs.component.$refs.input.localValue.length == 18) {
+            this.showButton = true;
+          }
+        }, 5000)
+      },
+      togglePhoneCheck() {
+        this.checkThis = !!Math.round(Math.random())
+        this.showButton = false
       }
     }
   };

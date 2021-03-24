@@ -280,30 +280,6 @@ var _vue_rt_style_kit_atoms_local_components_Input_docs_index_json__WEBPACK_IMPO
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -315,44 +291,71 @@ var _vue_rt_style_kit_atoms_local_components_Input_docs_index_json__WEBPACK_IMPO
       inputModelValue: "test",
       documentation: {},
       inputValue: "test",
-      inputModel: '123',
+      inputModel: '124',
       inputPasswordType: 'password',
-      checkThis: false,
-      disabled: false
+      checkThis: null,
+      disabled: false,
+      error: true,
+      clickCounter: 0,
+      errorText: 'Это поле с ошибкой!',
+      errorMessage: 'Текст сообщения об ошибке. К примеру: "тыкни чекбокс подо мной"',
+      rightValue: '',
+      showButton: false
     };
   },
   mounted: function mounted() {
-    var _this = this;
-
-    this.documentation = _vue_rt_style_kit_atoms_local_components_Input_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
-    setTimeout(function () {
-      _this.checkThis = true;
-      _this.disabled = true;
-    }, 10000);
+    this.documentation = _vue_rt_style_kit_atoms_local_components_Input_docs_index_json__WEBPACK_IMPORTED_MODULE_0__; // setTimeout(()=> {
+    //   this.error = false;
+    // },10000)
   },
   created: function created() {},
   methods: {
-    changeInputType: function changeInputType() {
-      if (this.inputPasswordType == 'password') {
-        this.inputPasswordType = 'text';
-      } else {
-        this.inputPasswordType = 'password';
-      }
-    },
     openCalendar: function openCalendar(e, a, b) {
       console.info('openCalendar', e, a, b);
     },
-    clearInput: function clearInput() {
-      console.log('!!'); // this.inputModel = "ббб";
+    toggleError: function toggleError() {
+      this.clickCounter++;
+      this.error = !this.error;
+
+      if (this.error) {
+        this.rightValue = '';
+        this.errorText = 'Это поле с ошибкой!';
+      } else {
+        this.rightValue = 'Якобы корректные данные';
+        this.errorText = 'Или с обычным плейсхолдером?)';
+      }
+
+      if (this.clickCounter > 10) {
+        this.errorMessage = 'А с виду взрослый человек';
+      }
+
+      if (this.clickCounter >= 68) {
+        this.error = true;
+        this.errorText = 'Сломалось(((';
+        this.disabled = true;
+      }
+    },
+    showButtonFn: function showButtonFn() {
+      var _this = this;
+
+      setTimeout(function () {
+        if (_this.$refs.phoneInput.$refs.component.$refs.input.localValue.length == 18) {
+          _this.showButton = true;
+        }
+      }, 5000);
+    },
+    togglePhoneCheck: function togglePhoneCheck() {
+      this.checkThis = !!Math.round(Math.random());
+      this.showButton = false;
     }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Input.vue?vue&type=template&id=2db3febb&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Input.vue?vue&type=template&id=1cf3560e&":
 /*!******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/form/Input.vue?vue&type=template&id=2db3febb& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/form/Input.vue?vue&type=template&id=1cf3560e& ***!
   \******************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -361,8 +364,8 @@ var _vue_rt_style_kit_atoms_local_components_Input_docs_index_json__WEBPACK_IMPO
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.inputModel),expression:"inputModel"}],attrs:{"type":"text"},domProps:{"value":(_vm.inputModel)},on:{"input":function($event){if($event.target.composing){ return; }_vm.inputModel=$event.target.value}}}),_vm._v(" "),_c('div',{staticClass:"app-deprecated"},[_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-4 rt-col-md-2"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("simple input")]),_vm._v(" "),_c('div',{staticClass:"color-block--black"},[_c('rt-input',{attrs:{"label":"Поле ввода с паролем","version":2,"type":"string","bright":true,"input-type":"password","error-message":"Текст ошибки","value":"","placeholder":"Пароль"},model:{value:(_vm.inputModel),callback:function ($$v) {_vm.inputModel=$$v},expression:"inputModel"}}),_vm._v(" "),_c('rt-input',{attrs:{"label":"Поле ввода с числом( float)","version":2,"type":"number","input-type":"number","max-number":999,"bright":true,"min-number":-150,"step":2.5,"value":"","placeholder":"рациональное число"},model:{value:(_vm.inputModel),callback:function ($$v) {_vm.inputModel=$$v},expression:"inputModel"}})],1),_vm._v(" "),_c('rt-input',{attrs:{"label":"Поле ввода с числом( integer)","version":2,"type":"number","input-type":"number","max-number":999,"min-number":10,"step":90,"value":"","is-integer":true,"placeholder":"целое число"},model:{value:(_vm.inputModel),callback:function ($$v) {_vm.inputModel=$$v},expression:"inputModel"}}),_vm._v(" "),_c('rt-input',{attrs:{"label":"Начните вводить почту!!","version":2,"type":"text","value":"","placeholder":"Электронная почта!"},on:{"clear":_vm.clearInput},model:{value:(_vm.inputModel),callback:function ($$v) {_vm.inputModel=$$v},expression:"inputModel"}}),_vm._v(" "),_c('rt-input',{attrs:{"label":"Начните вводить почту!!","version":2,"type":"text","value":"","placeholder":"Электронная почта!"},on:{"clear":_vm.clearInput}}),_vm._v(" "),_c('rt-input',{attrs:{"label":"Начните вводить пароль!!","version":2,"type":"text","value":"","placeholder":"Пароль","input-type":"password"}}),_vm._v(" "),_c('rt-input',{attrs:{"label":"Начните вводить почту!!","version":2,"type":"text","value":"","placeholder":"Электронная почта!"}},[_c('template',{slot:"informer"},[_vm._v("Эмбоссирование – метод персонализации пластиковых карт, при котором специальным аппаратом эмбоссером на лицевой стороне карточки выдавливается "),_c('br'),_vm._v("буквенно-цифровая информация.")])],2),_vm._v(" "),_c('rt-input',{attrs:{"input-type":"tel","label":"Телефон","version":2,"placeholder":"Телефон","need-verification":true,"verified":_vm.checkThis}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-input label=\"Начните вводить почту\"\n                              type=\"string\"\n                              value=\"\"\n                              placeholder=\"Электронная почта\" />"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-md-2 rt-md-space-top"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("input with error")]),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-input type=\"email\"\n                              label=\"Начните вводить почту\"\n                              placeholder=\"Электронная почта\"\n                              value=\"inputModelValue\"\n                              error-message=\"ошибка: не является почтой\"\n                              :has-error=\"true\" />"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-md-1 rt-md-space-top"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("disabled input")]),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-input value=\"\"\n                              placeholder=\"Электронная почта\"\n                              :disabled=\"true\"\n                              value=\"inputModelValue\"\n                              label=\"Начните вводить почту\"\n                              error-message=\"ошибка: не является почтой\"/>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row "},[_c('div',{staticClass:"rt-col-3 rt-col-md-3"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("input in 3 col")]),_vm._v(" "),_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-2 rt-col-md-2 rt-md-space-top"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap"},[_vm._v("input in 2 col")]),_vm._v(" "),_c('rt-input',{attrs:{"placeholder":"Проверка v-model"},model:{value:(_vm.vTest),callback:function ($$v) {_vm.vTest=$$v},expression:"vTest"}}),_vm._v(" "),_c('span',[_vm._v(_vm._s(JSON.stringify(_vm.vTest)))])],1),_vm._v(" "),_c('div',{staticClass:"rt-col-2 rt-col-md-2 rt-md-space-top"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap"},[_vm._v("input in 2 col")]),_vm._v(" "),_c('rt-input',{attrs:{"value":"","placeholder":"Улица"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-1 rt-col-md-1 rt-md-space-top"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap"},[_vm._v("input in 1 col")]),_vm._v(" "),_c('rt-input',{attrs:{"value":"","placeholder":"Дом"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-1"}),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap"},[_vm._v("password input")]),_vm._v(" "),_c('rt-input',{attrs:{"input-type":"password","type":"password","placeholder":"Введите пароль"}})],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-3 rt-col-md-3"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("input in 3 col")]),_vm._v(" "),_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-2 rt-col-md-2 rt-md-space-top"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap"},[_vm._v("input in 2 col")]),_vm._v(" "),_c('rt-input',{attrs:{"value":"","placeholder":"Улица"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-1 rt-col-md-1 rt-md-space-top"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap"},[_vm._v("input in 1 c")]),_vm._v(" "),_c('rt-input',{attrs:{"value":"","placeholder":"Дом","has-error":true,"error-message":"dasd asdas asdsad sadsad"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-1"}),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap"},[_vm._v("password input")]),_vm._v(" "),_c('rt-input',{attrs:{"type":"password","placeholder":"Введите пароль"}})],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-3 rt-col-md-3"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("input in 3 col")]),_vm._v(" "),_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-2 rt-col-md-2 rt-md-space-top"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap"},[_vm._v("input in 2 col")]),_vm._v(" "),_c('rt-input',{attrs:{"value":"","placeholder":"Улица"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-1 rt-col-md-1 rt-md-space-top"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap"},[_vm._v("input in 1 c")]),_vm._v(" "),_c('rt-input',{attrs:{"value":"","placeholder":"Дом"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-1"}),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05 rt-font-no-wrap"},[_vm._v("password input")]),_vm._v(" "),_c('rt-input',{attrs:{"type":"password","placeholder":"Введите пароль"}})],1)]),_vm._v(" "),_c('rt-input',{attrs:{"insert-type":"string","value":"","insert-lang":"ru","placeholder":"Ф.И.О."}}),_vm._v(" "),_c('rt-input',{attrs:{"insert-type":"number","type":"number","value":"","max-length":3,"placeholder":"Ваше любимое число до 999","min-number":0,"max-number":999,"is-integer":true}}),_vm._v(" "),_c('rt-input',{attrs:{"insert-type":"string","value":"","insert-lang":"en","placeholder":"enter your name(English, please)"}}),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col rt-col-12"},[_c('rt-input',{attrs:{"show-numbers-buttons":true,"insert-type":"number","min-number":0,"placeholder":"Количество, шт."}})],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row rt-space-top rt-space-bottom "},[_c('div',{staticClass:"rt-col rt-col-4 rt-col-td-3 rt-col-md-3"},[_c('rt-input',{attrs:{"placeholder":"Электронная почта","is-b2b-input":true}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col rt-col-4 rt-col-td-3 rt-col-md-3"},[_c('rt-input',{attrs:{"placeholder":"Электронная почта","is-b2b-input":true,"value":"kdbafasdfsdfsd","disabled":true}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col rt-col-4 rt-col-td-3 rt-col-md-3"},[_c('pre-code',{attrs:{"text":"<rt-input placeholder=\"Электронная почта\"\n                              :hasError=\"true\"\n                              :is-b2b-input=\"true\"\n                              value=\"kdbaf@dfj.dfd\"\n                              error-message=\"ошибка: не является почтой\"/>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col rt-col-6 rt-col-td-3 rt-col-md-3"},[_c('pre-code',{attrs:{"text":"<rt-input placeholder=\"Электронная почта\"\n                              :is-b2b-input=\"true\"\n                              :outlined=\"true\"/>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-input placeholder=\"Электронная почта\"\n                              :hasError=\"true\"\n                              :is-b2b-input=\"true\"\n                              :outlined=\"true\"\n                              error-message=\"ошибка: не является почтойошибка: не является почтойошибка: не является почтойошибка: не является почтойошибка: не является почтойошибка: не является почтой\"/>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-input placeholder=\"Электронная почта\"\n                              :disabled=\"true\"\n                              :is-b2b-input=\"true\"\n                              :outlined=\"true\"/>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-input placeholder=\"Введите пароль\"\n                              type=\"password\"\n                              :is-b2b-input=\"true\"\n                              :outlined=\"true\"/>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"app-row color-block--light-grey rt-space-top3 rt-space-bottom3 row"},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-td-1"}),_vm._v(" "),_c('div',{staticClass:"rt-col rt-col-6 rt-col-td-4 rt-col-md-3"},[_c('rt-input',{attrs:{"placeholder":"Имя","is-b2b-input":true}}),_vm._v(" "),_c('rt-input',{attrs:{"placeholder":"Компания","is-b2b-input":true}}),_vm._v(" "),_c('rt-input',{attrs:{"placeholder":"Электронная почта","is-b2b-input":true,"input-button":true,"input-button-text":"Получить код"}}),_vm._v(" "),_c('rt-input',{attrs:{"placeholder":"Телефон","is-b2b-input":true,"has-timer":true,"timer-duration":"1","insert-type":"tel"}}),_vm._v(" "),_c('rt-input',{attrs:{"placeholder":"Код из смс","is-b2b-input":true,"approved":true}}),_vm._v(" "),_c('div',{staticClass:"row flex-center-center rt-space-top"},[_c('rt-checkbox',{staticClass:"color-main05",attrs:{"name":"agreement"}},[_vm._v("Я принимаю "),_c('a',{attrs:{"href":""}},[_vm._v("условия передачи информации")])])],1),_vm._v(" "),_c('rt-button',{staticClass:"rt-button-transparent-purple",on:{"click":_vm.clearInput}},[_vm._v("\n\t\t\t\t\t\t\t\tПолучить код\n\t\t\t\t\t\t\t")])],1),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-td-1"})])],1)]),_vm._v(" "),_c('div',{staticClass:"rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("Input")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-col-12 rt-space-bottom15"},[_c('h2',{staticClass:"rt-font-bold rt-font-center rt-space-bottom05"},[_vm._v("\n\t\t\t\t\t\t\t\tОформить заявку на подключение\n\t\t\t\t\t\t\t")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-font-center"},[_vm._v("\n\t\t\t\t\t\t\t\tуслуга «Виртуальная АТС», тариф М\n\t\t\t\t\t\t\t")])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"app-deprecated"},[_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-5 rt-col-md-3"},[_c('rt-input',{attrs:{"version":2,"placeholder":"Это поле ввода. Дерзай!"}}),_vm._v(" "),_c('div',{staticClass:"sp-t-0-3"}),_vm._v(" "),_c('rt-input',{attrs:{"version":2,"placeholder":"Это поле ввода с подсказкой","label":"Текст подсказки"}}),_vm._v(" "),_c('rt-input',{attrs:{"version":2,"placeholder":_vm.errorText,"label":"Текст подсказки","has-error":_vm.error,"error-message":_vm.errorMessage,"disabled":_vm.disabled,"value":_vm.rightValue}}),_vm._v(" "),_c('div',{staticClass:"sp-t-0-3"}),_vm._v(" "),(_vm.clickCounter < 68)?_c('div',[_c('rt-checkbox',{on:{"change":_vm.toggleError}},[_vm._v("А можно без ошибки?")]),_vm._v(" "),(!_vm.error)?_c('span',{staticClass:"sp-l-1-3 rt-font-small-paragraph"},[(_vm.clickCounter < 2)?_c('span',[_vm._v("Конечно!")]):(_vm.clickCounter < 6)?_c('span',[_vm._v("Прикольно, правда?))")]):(_vm.clickCounter < 10)?_c('span',[_vm._v("Серьёзно?!")]):(_vm.clickCounter < 16)?_c('span',[_vm._v("Захотелось поиграть?")]):(_vm.clickCounter < 24)?_c('span',[_vm._v("Ну-ну, наши руки не для скуки. Понятно")]):(_vm.clickCounter < 40)?_c('span',[_vm._v("Не надоело?")]):(_vm.clickCounter < 56)?_c('span',[_vm._v("Прекращай!")]):(_vm.clickCounter < 64)?_c('span',[_vm._v("А то прекращу я!")]):_vm._e()]):_vm._e()],1):_c('div',{staticClass:"rt-font-small-paragraph"},[_vm._v("Ведь я предупреждал...")]),_vm._v(" "),_c('rt-input',{attrs:{"version":2,"disabled":true,"label":"Как-то так","placeholder":"Теперь ввод запрещён"}}),_vm._v(" "),_c('rt-input',{attrs:{"version":2,"disabled":true,"label":"М - магия))","placeholder":"Теперь ввод запрещён","value":"Но каким-то магическим образом здесь есть текст"}}),_vm._v(" "),_c('rt-input',{attrs:{"version":2,"placeholder":"Поле ввода с иконкой","label":"Эта иконка ничего не делает"}},[_c('template',{slot:"icon"},[_c('rt-system-icons',{attrs:{"name":"atom"}})],1)],2),_vm._v(" "),_c('rt-input',{attrs:{"label":"А эта иконка делает))","version":2,"type":"text","value":"","placeholder":"Поле с всплывающей подсказкой"}},[_c('template',{slot:"informer"},[_vm._v("Здесь могла бы быть Ваша реклама, но мы будем использовать всплывающие\n                  подсказки исключительно для сообщения важной информации."),_c('br'),_vm._v(" Шутка!)) По вопросам сотрудничества\n                  пиши в личку")])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-1 md-d-none"}),_vm._v(" "),_c('div',{staticClass:"rt-col-5 rt-col-md-3"},[_c('div',{staticClass:"color-block--light-blue-high sp-v-1"},[_c('h4',{staticClass:"rt-font-h4"},[_vm._v("Проверка v-model")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.inputModel),expression:"inputModel"}],attrs:{"type":"text","placeholder":"Начните ввод"},domProps:{"value":(_vm.inputModel)},on:{"input":function($event){if($event.target.composing){ return; }_vm.inputModel=$event.target.value}}}),_vm._v(" "),_c('rt-input',{attrs:{"label":"Поле, связанное с обычным элементом input выше","version":2,"type":"text","placeholder":"Или начните ввод здесь"},model:{value:(_vm.inputModel),callback:function ($$v) {_vm.inputModel=$$v},expression:"inputModel"}})],1),_vm._v(" "),_c('rt-input',{attrs:{"label":"Шаг равен ±3","version":2,"type":"number","input-type":"number","is-integer":true,"step":3,"min-number":0,"max-number":99,"placeholder":"Введите целое число в диапазоне 0 - 99"}}),_vm._v(" "),_c('rt-input',{attrs:{"label":"Переключение видимости по нажатию на иконку","version":2,"type":"text","value":"я - пароль, и сейчас ты меня видишь","placeholder":"Поле ввода пароля","input-type":"password"}}),_vm._v(" "),_c('rt-input',{ref:"phoneInput",attrs:{"input-type":"tel","label":"Начните вводить номер, маску мы берём на себя","version":2,"placeholder":"Поля ввода номера телефона","need-verification":true,"verified":_vm.checkThis},on:{"filled":_vm.showButtonFn}}),_vm._v(" "),_c('div',{staticClass:"sp-t-1"}),_vm._v(" "),(_vm.showButton)?_c('rt-button',{staticClass:"rt-button-orange-border",attrs:{"small":true},on:{"click":_vm.togglePhoneCheck}},[_vm._v("Да нажми уже. Можно")]):_vm._e()],1),_vm._v(" "),_c('div',{staticClass:"rt-col-1 md-d-none"})])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("Input")])])}]
 
 
 
@@ -388,7 +391,7 @@ module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-input\",\"property\":\"c
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Input_vue_vue_type_template_id_2db3febb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Input.vue?vue&type=template&id=2db3febb& */ "./src/example-pages/components/form/Input.vue?vue&type=template&id=2db3febb&");
+/* harmony import */ var _Input_vue_vue_type_template_id_1cf3560e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Input.vue?vue&type=template&id=1cf3560e& */ "./src/example-pages/components/form/Input.vue?vue&type=template&id=1cf3560e&");
 /* harmony import */ var _Input_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Input.vue?vue&type=script&lang=js& */ "./src/example-pages/components/form/Input.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
@@ -400,8 +403,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _Input_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Input_vue_vue_type_template_id_2db3febb___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Input_vue_vue_type_template_id_2db3febb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Input_vue_vue_type_template_id_1cf3560e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Input_vue_vue_type_template_id_1cf3560e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -427,19 +430,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/example-pages/components/form/Input.vue?vue&type=template&id=2db3febb&":
+/***/ "./src/example-pages/components/form/Input.vue?vue&type=template&id=1cf3560e&":
 /*!************************************************************************************!*\
-  !*** ./src/example-pages/components/form/Input.vue?vue&type=template&id=2db3febb& ***!
+  !*** ./src/example-pages/components/form/Input.vue?vue&type=template&id=1cf3560e& ***!
   \************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_template_id_2db3febb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Input.vue?vue&type=template&id=2db3febb& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Input.vue?vue&type=template&id=2db3febb&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_template_id_2db3febb___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_template_id_1cf3560e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Input.vue?vue&type=template&id=1cf3560e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Input.vue?vue&type=template&id=1cf3560e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_template_id_1cf3560e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_template_id_2db3febb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Input_vue_vue_type_template_id_1cf3560e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
