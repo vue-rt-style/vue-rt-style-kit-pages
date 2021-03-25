@@ -80,7 +80,7 @@ import {
   SlideContentDottedContent,
   SlideContentDottedHeader,
   Popup,
-  Popover,
+  // Popover,
   PopupTrigger,
   LinksBlock,
   Pattern,
@@ -216,7 +216,7 @@ addToComponentList(FilterSetterV2)
 addToComponentList(Youtube)
 addToComponentList(Sticky)
 addToComponentList(ResizeContentHeight)
-addToComponentList(Popover)
+// addToComponentList(Popover)
 addToComponentList(Popup)
 addToComponentList(PopupTrigger)
 addToComponentList(SlideContent);
