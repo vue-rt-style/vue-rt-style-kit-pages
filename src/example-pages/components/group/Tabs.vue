@@ -38,6 +38,98 @@
 
             <pre-code text="<rt-tabs  :version=&quot;2&quot; background=&quot;gray&quot; :show-as-tags=&quot;true&quot;>
             <template slot=&quot;navigation&quot;>
+              <rt-tabs-nav-item v-ga-click='{data:{&quot;event&quot;:&quot;b2c&quot;,&quot;type&quot;:&quot;main_tab&quot;,&quot;value&quot;:&quot;packages&quot;}}' anchor=&quot;ready!&quot; name=&quot;tabs9911&quot;>
+          <rt-system-icons name=&quot;achievement&quot;></rt-system-icons> Готов!!
+          </rt-tabs-nav-item>
+          <rt-tabs-nav-item anchor=&quot;hello&quot; name=&quot;tabs22&quot;>Смысл kdka;ld ada da d
+          </rt-tabs-nav-item>
+          <rt-tabs-nav-item anchor=&quot;world&quot; name=&quot;tabs23&quot;>Значимость
+          </rt-tabs-nav-item>
+          <rt-tabs-nav-item anchor=&quot;ready!&quot; name=&quot;1tabs9911&quot;>Готов da d ad a da
+          </rt-tabs-nav-item>
+          <rt-tabs-nav-item anchor=&quot;0hello&quot; name=&quot;1tabs22&quot;>Смысл dad da a da da
+          </rt-tabs-nav-item>
+          <rt-tabs-nav-item anchor=&quot;0world&quot; name=&quot;1tabs23&quot;>Значимость dad ad ad a
+          </rt-tabs-nav-item>
+          <rt-tabs-nav-item anchor=&quot;0ready!&quot; name=&quot;12tabs9911&quot;>Готов dad ad a da d
+          </rt-tabs-nav-item>
+          <rt-tabs-nav-item anchor=&quot;1hello&quot; name=&quot;12tabs22&quot;>Смысл dad ad a da
+          </rt-tabs-nav-item>
+          <rt-tabs-nav-item anchor=&quot;1world&quot; name=&quot;12tabs23&quot;>Значимость
+          </rt-tabs-nav-item>
+</template>
+<template slot=&quot;content&quot;>
+  <rt-tabs-content-item name=&quot;tabs9911&quot;>
+    <h1>TEST</h1>
+  </rt-tabs-content-item>
+  <rt-tabs-content-item name=&quot;tabs22&quot;><p class=&quot;rt-font-h1&quot;>Смысл сайта</p>
+    <p class=&quot;rt-font-paragraph&quot;>Повседневная практика показывает, что консультация
+      с широким активом
+      представляет собой интересный эксперимент проверки позиций, занимаемых
+      участниками в отношении
+      поставленных задач. Равным образом консультация с широким активом влечет за
+      собой процесс внедрения
+      и модернизации форм развития. Повседневная практика показывает, что
+      консультация с широким активом
+      обеспечивает широкому кругу (специалистов) участие в формировании
+      соответствующий условий
+      активизации. С другой стороны новая модель оргоганизационной деятельности
+      позволяет оценить значение
+      новых предложений. Не следует, однако забывать, что рамки и место обучения
+      кадров требуют от нас
+      анализа новых предложений. Идейные соображения высшего порядка, а также
+      реализация намеченных
+      плановых заданий обеспечивает широкому кругу (специалистов) участие в
+      формировании позиций,
+      занимаемых участниками в отношении поставленных задач.</p>
+    <p class=&quot;rt-font-paragraph&quot;>Идейные соображения высшего порядка, а также
+      постоянное
+      информационно-пропагандистское обеспечение нашей деятельности в значительной
+      степени обуславливает
+      создание существенных финансовых и административных условий. С другой
+      стороны постоянный
+      количественный рост и сфера нашей активности позволяет выполнять важные
+      задания по разработке
+      существенных финансовых и административных условий. Таким образом
+      консультация с широким активом
+      влечет за собой процесс внедрения и модернизации форм развития. С другой
+      стороны сложившаяся
+      структура организации требуют определения и уточнения системы обучения
+      кадров, соответствует
+      насущным потребностям. Товарищи! рамки и место обучения кадров представляет
+      собой интересный
+      эксперимент проверки направлений прогрессивного развития.</p>
+  </rt-tabs-content-item>
+  <rt-tabs-content-item name=&quot;tabs23&quot;><p class=&quot;rt-font-h1&quot;>Значимость</p>
+    <p class=&quot;rt-font-paragraph&quot;>Значимость этих проблем настолько очевидна, что
+      консультация с широким
+      активом позволяет выполнять важные задания по разработке позиций, занимаемых
+      участниками в отношении
+      поставленных задач. Задача организации, в особенности же рамки и место
+      обучения кадров требуют от
+      нас анализа направлений прогрессивного развития. Повседневная практика
+      показывает, что сложившаяся
+      структура организации представляет собой интересный эксперимент проверки
+      форм развития. Значимость
+      этих проблем настолько очевидна, что укрепление и развитие структуры
+      позволяет оценить значение
+      систем массового участия.</p>
+    <p class=&quot;rt-font-paragraph&quot;>Разнообразный и богатый опыт рамки и место обучения
+      кадров способствует
+      подготовки и реализации соответствующий условий активизации. Повседневная
+      практика показывает, что
+      дальнейшее развитие различных форм деятельности представляет собой
+      интересный эксперимент проверки
+      существенных финансовых и административных условий. Идейные соображения
+      высшего порядка, а также
+      укрепление и развитие структуры обеспечивает широкому кругу (специалистов)
+      участие в формировании
+      форм развития.</p></rt-tabs-content-item>
+</template>
+</rt-tabs></div>"></pre-code>
+            <pre-code text="
+            <rt-tabs  :version=&quot;2&quot; background=&quot;white&quot; :show-as-tags=&quot;true&quot;>
+            <template slot=&quot;navigation&quot;>
               <rt-tabs-nav-item v-ga-click='{data:{&quot;event&quot;:&quot;b2c&quot;,&quot;type&quot;:&quot;main_tab&quot;,&quot;value&quot;:&quot;packages&quot;}}' anchor=&quot;ready!&quot; name=&quot;tabs21&quot;>
           <rt-system-icons name=&quot;achievement&quot;></rt-system-icons> Готов!!
           </rt-tabs-nav-item>
@@ -126,10 +218,8 @@
       участие в формировании
       форм развития.</p></rt-tabs-content-item>
 </template>
-</rt-tabs>'>"></pre-code>
+</rt-tabs></div>"></pre-code>
             <pre-code text='
-
-
                   <rt-tabs :version="2">
                     <template slot="navigation">
                       <rt-tabs-nav-item anchor="ready!" name="0tabs21">
