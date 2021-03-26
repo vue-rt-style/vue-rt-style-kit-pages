@@ -169,7 +169,7 @@
               </div>
             </rt-col>
           </rt-row>
-          <rt-row class="sp-t-2 sp-b-3">
+          <rt-row class="sp-t-2">
             <rt-col size="4">
               <div class="relative d-inline-block">
                 <pre-code text='<rt-popover container-id="wrap" vertical="center" horizontal="top">
