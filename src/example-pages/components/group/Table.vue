@@ -102,14 +102,14 @@
               />
             </div>
             <pre-code
-              text="<rt-table class='rt-space-bottom2'>
+              text="<rt-table class='rt-space-bottom2' :column-width='true'>
                 <rt-template slot='label'>
                   Звонки
                 </rt-template>
                 <rt-template slot='columns'>
-                  <rt-table-col :width-in-cols-desktop='6'></rt-table-col>
-                  <rt-table-col :width-in-cols-desktop='4'></rt-table-col>
-                  <rt-table-col :width-in-cols-desktop='2'></rt-table-col>
+                  <rt-table-col :width-in-cols-desktop='6' :width-in-cols-tablet='2'></rt-table-col>
+                  <rt-table-col :width-in-cols-desktop='4' :width-in-cols-tablet='2'></rt-table-col>
+                  <rt-table-col :width-in-cols-desktop='2' :width-in-cols-tablet='2'></rt-table-col>
                 </rt-template>
                 <rt-template slot='header'>
                   <rt-table-head-item>Услуга</rt-table-head-item>
@@ -147,8 +147,8 @@
                     Интернет
                   </rt-template>
                   <rt-template slot="columns">
-                    <rt-table-col :width-in-cols-desktop="10" :width-in-cols-tablet="4" :width-in-cols-mobile="2"/>
-                    <rt-table-col :width-in-cols-desktop="2" :width-in-cols-tablet="2" :width-in-cols-mobile="1"/>
+                    <rt-table-col :width-in-cols-desktop="10" :width-in-cols-tablet="4" :width-in-cols-mobile="3"/>
+                    <rt-table-col :width-in-cols-desktop="2" :width-in-cols-tablet="2" :width-in-cols-mobile="3"/>
                   </rt-template>
                   <rt-template slot="header">
                     <rt-table-head-item>Услуга</rt-table-head-item>

@@ -11,8 +11,8 @@
 <!--							<span class="rt-font-label flex-fill rt-space-bottom05">simple input</span>-->
               <rt-input :version="2" placeholder="Это поле ввода. Дерзай!"/>
               <div class="sp-t-0-3"/>
-              <rt-input :version="2" placeholder="Это поле ввода с подсказкой" label="Текст подсказки"/>
-              <rt-input :version="2" :placeholder="errorText" label="Текст подсказки" :has-error="error"
+              <rt-input :version="2" placeholder="Это поле ввода с подсказкой" label="Текст подсказки" :error-message="errorMessage"/>
+              <rt-input :version="2" :placeholder="errorText" :has-error="error"
                         :error-message='errorMessage' :disabled="disabled" :value="rightValue"/>
               <div class="sp-t-0-3"/>
               <div v-if="clickCounter < 68">
@@ -20,9 +20,9 @@
                 <span class="sp-l-1-3 rt-font-small-paragraph" v-if="!error">
                   <span v-if="clickCounter < 2">Конечно!</span>
                   <span v-else-if="clickCounter < 6">Прикольно, правда?))</span>
-                  <span v-else-if="clickCounter < 10">Серьёзно?!</span>
-                  <span v-else-if="clickCounter < 16">Захотелось поиграть?</span>
-                  <span v-else-if="clickCounter < 24">Ну-ну, наши руки не для скуки. Понятно</span>
+                  <span v-else-if="clickCounter < 16">Серьёзно?!</span>
+                  <span v-else-if="clickCounter < 24">Захотелось поиграть?</span>
+                  <span v-else-if="clickCounter < 34">Ну-ну, наши руки не для скуки. Понятно</span>
                   <span v-else-if="clickCounter < 40">Не надоело?</span>
                   <span v-else-if="clickCounter < 56">Прекращай!</span>
                   <span v-else-if="clickCounter < 64">А то прекращу я!</span>
