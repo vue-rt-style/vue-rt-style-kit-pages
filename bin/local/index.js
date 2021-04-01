@@ -1,18 +1,19 @@
 'use strict';
-
-const config = require('../../build/config/index');
+import config from '../../build/config/index.js'
 if (!process.env.NODE_ENV) {
   process.env.NODE_ENV = 'develop';
 }
-require("@babel/polyfill");
-const opn = require('opn');
-const path = require('path');
-const express = require('express');
-const webpack = require('webpack');
-const proxyMiddleware = require('http-proxy-middleware');
-const webpackConfig = require('../webpack.config.example.js');
+import "@babel/polyfill";
+import opn from 'opn';
+import path from 'path';
+import express from 'express';
+import connectHistoryApiFallback from 'connect-history-api-fallback';
+import webpackHotMiddleware from 'webpack-hot-middleware';
+import webpack from 'webpack';
+import proxyMiddleware from 'http-proxy-middleware';
+import webpackConfig from '../webpack.config.example.js';
 
-
+const __dirname = path.resolve()
 const local_dirname = path.join(__dirname,'..','..');
 
 const port = process.env.PORT || config.dev.port;
@@ -20,10 +21,10 @@ const port = process.env.PORT || config.dev.port;
 const proxyTable = config.dev.proxyTable;
 
 const app = express();
-console.log('webpackConfig',webpackConfig)
+console.log('config',config)
 const compiler = webpack(webpackConfig);
-
-const devMiddleware = require('webpack-dev-middleware')(compiler, {
+import webpackDevMiddleware from 'webpack-dev-middleware'
+const devMiddleware = webpackDevMiddleware(compiler, {
   path: '/__webpack_hmr',
   quiet: true,
   log: console.log,
@@ -49,7 +50,7 @@ const devMiddleware = require('webpack-dev-middleware')(compiler, {
   }
 });
 let spinner;
-const hotMiddleware = require('webpack-hot-middleware')(compiler, {
+const hotMiddleware = webpackHotMiddleware(compiler, {
   log: function(text){
     console.info('webpack-hot-middleware : '+(new Date())+' '+text);
   }
@@ -70,7 +71,7 @@ Object.keys(proxyTable).forEach(function (context) {
   app.use(proxyMiddleware(options.filter || context, options));
 });
 
-app.use(require('connect-history-api-fallback')());
+app.use(connectHistoryApiFallback());
 
 app.use(devMiddleware);
 
@@ -99,7 +100,7 @@ devMiddleware.waitUntilValid(() => {
 
 const server = app.listen(port);
 
-module.exports = {
+export default {
   ready: readyPromise,
   close: () => {
     server.close();

@@ -1,18 +1,25 @@
 'use strict';
+import { fileURLToPath } from 'url';
 
-const path = require('path');
-module.exports = {
+import prodEnv from './prod.env.js'
+import devEnv from './dev.env.js'
+import {resolve,dirname} from 'path'
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename)
+
+
+export default {
   build: {
-    env: require('./prod.env'),
-    index: path.resolve(__dirname, '../../static/index.html'),
-    assetsRoot: path.resolve(__dirname, '../dist'),
+    env: prodEnv,
+    index: resolve(__dirname, '../../static/index.html'),
+    assetsRoot: resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     cssSourceMap: false,
     bundleAnalyzerReport: process.env.npm_config_report
   },
   dev: {
-    env: require('./dev.env'),
+    env: devEnv,
     port: 8080,
     autoOpenBrowser: true,
     assetsSubDirectory: '',

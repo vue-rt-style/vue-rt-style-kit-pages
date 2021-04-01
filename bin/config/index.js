@@ -2,7 +2,8 @@
 
 // see http://vuejs-templates.github.io/webpack for documentation.
 const path = require('path');
-module.exports = {
+const __dirname = path.resolve()
+export default {
   build: {
 
     env: require('./prod.env'),

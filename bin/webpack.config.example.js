@@ -1,10 +1,16 @@
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
-const path = require(`path`);
-const HtmlWebpackPlugin = require(`html-webpack-plugin`);
-const webpack = require('webpack');
-const filewatcherPlugin = require("filewatcher-webpack-plugin");
+import VueLoaderPlugin from 'vue-loader';
+import path from 'path';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+import webpack from'webpack';
+import filewatcherPlugin from "filewatcher-webpack-plugin";
+import nib from 'nib'
+import customPlugins from '../src/example-pages/css/plugins.js'
 const baseDir = process.env.NODE_ENV_PATH || ''
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename)
 const local_dirname = path.join(__dirname, '..')
+
 function include () {
   return [
     path.join(local_dirname, `src`),
@@ -90,7 +96,7 @@ const config = {
             loader: `stylus-loader`,
             options: {
               imports: [path.resolve(__dirname, '../', 'node_modules/nib/lib/nib/index.styl')],
-              use: [require('nib')()],
+              use: [nib(),customPlugins()],
             },
           },
         ],
@@ -120,10 +126,9 @@ const config = {
 };
 
 
-
 config.entry.app.unshift('webpack-hot-middleware/client');
 config.plugins.push(
-    new VueLoaderPlugin(),
+    new VueLoaderPlugin.VueLoaderPlugin(),
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new filewatcherPlugin({watchFileRegex: [
@@ -139,4 +144,4 @@ config.plugins.push(
       ]})
 );
 
-module.exports = config;
+export default config;
