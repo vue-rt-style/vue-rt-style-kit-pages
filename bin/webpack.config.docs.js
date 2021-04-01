@@ -1,13 +1,17 @@
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
-const path = require('path');
-const HtmlWebpackPlugin = require(`html-webpack-plugin`);
-const CopyPlugin = require("copy-webpack-plugin")
-const webpack = require('webpack');
-// const fs = require('fs');
-const nib = require('nib');
-const stylusLoader = require('stylus-loader');
-const local_dirname = path.join(__dirname,'..');
-const pathSettings = require('./pathSettings')
+import VueLoaderPlugin from 'vue-loader';
+import path from 'path';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+import CopyPlugin from 'copy-webpack-plugin'
+import webpack from 'webpack';
+import fs from 'fs';
+import nib from 'nib';
+import stylusLoader from 'stylus-loader';
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename)
+const local_dirname = path.join(__dirname, '..')
+import pathSettings from './pathSettings.js'
+import customPlugins from "../src/example-pages/css/plugins.js";
 const baseDir = process.env.NODE_ENV_PATH || 'vue-rt-style-kit-pages'
 const contour = process.env.NODE_CONTOUR || 'production'
 function resolve(dir) {
@@ -120,7 +124,7 @@ const config = {
   plugins: [
     new stylusLoader.OptionsPlugin({
       default: {
-        use: [nib()],
+        use: [nib(),customPlugins()],
         import: ['~nib/lib/nib/index.styl']
       }
     }),
@@ -137,7 +141,7 @@ const config = {
 
 
 config.plugins.push(
-    new VueLoaderPlugin(),
+    new VueLoaderPlugin.VueLoaderPlugin(),
     new webpack.NamedModulesPlugin(),
     new setSrcScripts(),
     new webpack.DefinePlugin({
@@ -172,4 +176,4 @@ if(contour === 'test'){
   )
 }
 
-module.exports = config;
+export default config;

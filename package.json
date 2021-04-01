@@ -10,7 +10,6 @@
     "build:test": "cross-env NODE_ENV=production NODE_ENV_PATH='dist' NODE_CONTOUR='test' webpack --config ./bin/webpack.config.docs.js",
     "build:icons": "npx vsvg -s ./src/icons/components/Icon/generator/svg -t ./static/icons --tpl ./src/icons/components/Icon/generator/icon-tpl.js"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vue-rt-style/vue-rt-style-kit-atoms.git"
@@ -100,7 +99,7 @@
     "vue-property-decorator": "^8.4.2",
     "vue-template-compiler": "^2.6.11",
     "webpack": "4.43.0",
-    "webpack-cli": "3.3.11",
+    "webpack-cli": "4.6.0",
     "webpack-dev-middleware": "^3.7.2",
     "webpack-hot-middleware": "^2.25.0",
     "webpack-merge": "^4.2.2",

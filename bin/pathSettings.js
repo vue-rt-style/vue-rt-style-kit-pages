@@ -1,7 +1,11 @@
-const path = require('path');
-const local_dirname = path.join(__dirname,'..');
+import path from 'path'
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename)
+const local_dirname = path.join(__dirname, '..')
 
-module.exports = {
+
+export default {
     'atoms': path.join(local_dirname, 'src', 'atoms'),
     'molecules': path.join(local_dirname, 'src', 'molecules'),
     'icons': path.join(local_dirname, 'src', 'icons'),

@@ -1,7 +1,5 @@
-const gulp = require("gulp");
-const shell = require("gulp-shell");
-// const imagemin = require("gulp-imagemin");
-// var tiny = require("gulp-tinypng-nokey-plus");
+import gulp from "gulp";
+import shell from "gulp-shell";
 gulp.task(
     "copy",
     shell.task([
