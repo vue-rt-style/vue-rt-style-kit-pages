@@ -9,7 +9,7 @@
       </div>
     </div>
 
-    <pre-code  text="<rt-jumbotron background='main-color' flag-scroll-to-id='test' flag-background='purple'  color='white' description-color='main'>
+    <pre-code  text="<rt-jumbotron background='main-color' flag-scroll-to-id='test' flag-background='orange'  color='white' description-color='main'>
       <template slot='flag-text'>Акция</template>
       <template slot='label'><p>Кибербезопасность <br>123 </p></template>
       <template slot='description'>Комплексные сервисы защиты цифровых систем</template>

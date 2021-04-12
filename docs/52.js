@@ -1,17 +1,15 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[52],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Banners.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/Banners.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/CardsWithForms.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/CardsWithForms.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_rt_style_kit_molecules_local_components_Banner_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/Banner/docs/index.json */ "./src/molecules/components/Banner/docs/index.json");
-var _vue_rt_style_kit_molecules_local_components_Banner_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-molecules-local/components/Banner/docs/index.json */ "./src/molecules/components/Banner/docs/index.json", 1);
-/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
+/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
 //
 //
 //
@@ -490,30 +488,373 @@ var _vue_rt_style_kit_molecules_local_components_Banner_docs_index_json__WEBPACK
 //
 //
 //
-
- // const componentsList = {};
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppBanners",
-  components: _componentsList__WEBPACK_IMPORTED_MODULE_1__["default"],
-  data: function data() {
-    return {
-      documentation: {}
-    };
-  },
-  mounted: function mounted() {
-    this.documentation = _vue_rt_style_kit_molecules_local_components_Banner_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
-  },
+  name: "AppCardWithForm",
+  components: _componentsList__WEBPACK_IMPORTED_MODULE_0__["default"],
+  mounted: function mounted() {},
   created: function created() {},
   methods: {}
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Banners.vue?vue&type=template&id=d45e1a16&":
-/*!***********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/Banners.vue?vue&type=template&id=d45e1a16& ***!
-  \***********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/CardsWithForms.vue?vue&type=template&id=c614bb5a&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/CardsWithForms.vue?vue&type=template&id=c614bb5a& ***!
+  \******************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -521,24 +862,31 @@ var _vue_rt_style_kit_molecules_local_components_Banner_docs_index_json__WEBPACK
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"sp-b-2"},[_c('rt-banner-v2',{attrs:{"name":"test00"}},[_c('rt-banner-item-v2',{attrs:{"banner-name":"test00","color-type":"purple","ga-banner-name":"это мой гребанный id","ga":{name:"Смотрим вместе"}}},[_c('template',{slot:"header"},[_c('p',{staticClass:"tagline rt-font-label-uppercase rt-font-bold color-white05"},[_vm._v("Это текст вместо лог!!о")])]),_vm._v(" "),_c('template',{slot:"mobile-header"},[_c('img',{attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg","height":"32px","alt":""}})]),_vm._v(" "),_c('template',{slot:"label"},[_vm._v("Легко подключить,"),_c('br'),_vm._v(" комфортно жить")]),_vm._v(" "),_c('template',{slot:"footer"},[_c('rt-button',{attrs:{"color":"orange"}},[_vm._v("Подробнее")])],1),_vm._v(" "),_c('template',{slot:"image"},[_c('rt-img',{attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12.jpg","lazy-src":"https://www.apple.com/v/home/q/images/logos/holiday-2020/logo__dcojfwkzna2q_large_2x.png","x2-src":"https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12-x2.jpg","alt":""}})],1)],2)],1),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-banner-v2>\n\t<rt-banner-item-v2 color-type='purple' :ga='{name:\"Смотрим вместе\",section:\"2\"}'>\n\t\t<template slot='header'>\n\t\t\t<p class='tagline rt-font-label-uppercase rt-font-bold color-white05'>Это текст вместо лого</p>\n\t\t</template>\n\t\t<template slot='mobile-header'>\n\t\t\t<img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' height='32px' alt=''>\n\t\t</template>\n\t\t<template slot='label'>Легко подключить,<br> комфортно жить</template>\n\t\t<template slot='footer'><rt-button color='orange'>Подробнее</rt-button></template>\n\n\t\t<template slot='image'><rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12.jpg' x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12-x2.jpg' alt=''></rt-img></template>\n\t</rt-banner-item-v2>\n</rt-banner-v2>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-banner-v2 name='test9393' >\n      <rt-banner-item-v2 banner-name='test9393' :ga='{name:\"Смотрим вместе\",section:\"2\"}' :show-url-on-tablet='true' url='http://rt.ru'>\n        <template slot='header'>\n          <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' alt=''>\n        </template>\n        <template slot='mobile-header'>\n          <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' height='32px' alt=''>\n        </template>\n        <template slot='label'>Легко подключить,<br> комфортно жить</template>\n        <template slot='footer'><rt-button color='orange'>Подробнее</rt-button></template>\n        <template slot='image'>\n        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage.jpg'\n                x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-x2.jpg'\n                td-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-tablet.jpg'\n                md-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-mobile.jpg' alt=''></rt-img>\n        </template>\n\n      </rt-banner-item-v2>\n      <rt-banner-item-v2 :ga='{name:\"test1\",section:\"2\"}' ga-banner-name='banner_first' color-type='red' banner-name='test9393' :is-active='true' :show-url-on-desktop='true' url='http://rt.ru'>\n        <template slot='header'>\n          <img class='d-block' src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/logowink.svg' alt=''>\n        </template>\n        <template slot='mobile-header'>\n          <svg width='32' height='40' viewBox='0 0 32 40' fill='none' xmlns='http://www.w3.org/2000/svg'>\n            <path fill-rule='evenodd' clip-rule='evenodd' d='M10.8678 0.344238L0.182129 10.985L9.22389 19.9887L0.182129 28.9961L10.8678 39.6368L30.599 19.9887L10.8678 0.344238Z' fill='white'/>\n          </svg>\n        </template>\n        <template slot='label'>Разжигают страсть</template>\n        <template slot='description'>Абонемент «Киноман» Скидка на все фильмы и сериалы </template>\n        <template slot='footer'><rt-button color='full-white' >Подробнее</rt-button></template>\n        <template slot='image'>\n        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange.jpg'\n                x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange-x2.jpg'\n                ></rt-img>\n        </template>\n      </rt-banner-item-v2>\n      <rt-banner-item-v2 :ga='{name:\"test1\",section:\"2\"}' ga-banner-name='banner_ulala' banner-name='test9393' url='http://rt.ru'>\n        <template slot='label'>Виртуа!!льная АТС <br> и 1 000 минут бесплатно</template>\n        <template slot='description'>Соберите сами свой пакет фильмов и каналов.</template>\n        <template slot='footer'><a href='#'><rt-button  color='orange' >Подробнее</rt-button></a></template>\n        <template slot='image'>\n        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage.jpg'\n                x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-x2.jpg'\n                td-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-tablet.jpg'\n                md-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-mobile.jpg' alt=''></rt-img>\n        </template>\n      </rt-banner-item-v2>\n      <rt-banner-item-v2  color-type='dark-slate' banner-name='test9393'>\n        <template slot='label'>Не платите за лишне!!е</template>\n        <template slot='description'>Соберите сами свой пакет фильмов и каналов.</template>\n        <template slot='footer'><rt-button  color='orange' >Подробнее</rt-button></template>\n        <template slot='image'>\n        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack.jpg'\n                x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack-2x.jpg'\n                md-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack-mobile.jpg' alt=''></rt-img>\n        </template>\n      </rt-banner-item-v2>\n      </rt-banner-v2>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-container is-b2b"},[_c('pre-code',{attrs:{"text":"<div class=\"rt-col-12 rt-space-bottom2\">\n        <rt-banner\n          :no-triangle=\"true\"\n          :round-angles=\"true\"\n          :has-custom-content=\"true\">\n          <rt-banner-item\n            background-image=\"https://www.apple.com/v/home/ek/images/heroes/airpods-film/hero__dvsxv8smkkgi_mediumtall_2x.jpg\"\n            background-image-tablet=\"https://www.apple.com/v/home/ek/images/heroes/airpods-film/hero__dvsxv8smkkgi_mediumtall_2x.jpg\"\n            background-image-mobile=\"https://www.apple.com/v/apple-arcade/c/images/overview/game_poster_thepathless__qvjhsw7g0h26_medium_2x.jpg\"\n            background-color=\"b2b-dark-slate\">\n            <div class=\"rtb-banner__text-content\">\n              <h3 class=\"rt-font-bold rt-space-bottom05\">!!!Скидка 50% на Wi-Fi для бизнеса\u2028 при подключении интернета</h3>\n              <p class=\"rt-font-small-paragraph\">Пакет «Быть в плюсе»</p>\n            </div>\n            <div v-rt-scroll-to-on-click=\"{ scrollToId : 'test' }\">\n              <rt-button class=\"rt-button-small rt-button-white rt-button-with-ripple\">Подробнее</rt-button>\n            </div>\n          </rt-banner-item>\n        </rt-banner>\n      </div>"}})],1),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-banner :no-triangle='true'\n                       :resize-query-selectors-names='[\".rt-font-bold\",\".p1\"]'\n                       :without-empty-column='true'\n                       :without-second-empty-column='true'\n                       :transparent-background-image='true'\n                       :mobile-image-on-top='true'\n                       :switch-off-timer='true'\n                       :has-image-on-mobile='true'\n                       content-mobile-height='500px'>\n      <rt-banner-item :is-white-color='true'\n                      background-color='green'\n                      content-mobile-height='300px'\n                      content-mobile-min-height='300px'\n                      background-image='/static/images/B2B/big-internet-slide-1.png'>\n        <h2 class='rt-font-bold'>Легко обмениваться большими объемами информации</h2>\n        <p class='p1 rt-space-top rt-space-bottom25'>Отправляйте объемные\n          фото и видео, работайте с облачными сервисами и большими базами данных — скорости интернета хватит на всё</p>\n      </rt-banner-item>\n      <rt-banner-item :is-white-color='true'\n                      content-mobile-height='300px'\n                      content-mobile-min-height='300px'\n                      background-color='dark-blue-high'\n                      background-image='/static/images/B2B/big-internet-slide-2.png'>\n        <h2 class='rt-font-bold'>Эффективно работать\u2028 с онлайн-сервисами</h2>\n        <p class='p1 rt-space-top rt-space-bottom25'>Благодаря стабильному высокоскоростному интернету\n            вашим сотрудникам будет удобнее работать с корпоративной почтой и CRM-системой, что позволит повысить уровень продаж</p>\n      </rt-banner-item>\n      <rt-banner-item :is-white-color='true'\n                      content-mobile-height='300px'\n                      content-mobile-min-height='300px'\n                      background-color='dark-blue'\n                      background-image='/static/images/B2B/big-internet-slide-3.png'>\n        <h2 class='rt-font-bold'>Повысить лояльность клиентов</h2>\n        <p class='p1 rt-space-top rt-space-bottom25'>Офисы, кафе, салоны красоты и другие заведения с\n          бесплатным Wi-Fi и телевидением привлекают и удерживают больше посетителей</p>\n      </rt-banner-item>\n    </rt-banner>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-banner :set-stop-on-click='true'\n                       :sleep-time='20000'\n                       bannerLogo='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/Logo.svg'\n                       content-mobile-min-height='80vh'\n                       content-mobile-height='300px'>\n      <rt-banner-item background-image='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground1.jpg'\n                      :is-white-color='true'\n                      content-mobile-min-height='80vh'\n                      content-mobile-height='200px'\n                      background-color='dark-slate'\n                      :has-image-on-mobile='true'>\n        <p class='rt-font-banner-label'>Виртуальная <br> телефония</p>\n        <p class='rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br>\n          возможностьпользоваться из любой точки мира\u2028<br> и ни одного пропущенного звонка клиента</p>\n        <rt-button class='rt-button-orange'>Подробнее</rt-button>\n      </rt-banner-item>\n      <rt-banner-item ancor-get-params-link='utm-source=vova-privet' ancor-hash-link='testBannerHash' background-color='yellow' background-image='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground2.jpg'><p\n        class='rt-font-banner-label'>Помогаем бизнесу <br> экономить</p>\n        <p class='rt-space-top rt-space-bottom15'>Цифровые сервисы и технологии по выгодным ценам для среднего и\n          малогобизнеса </p>\n        <rt-button class='rt-button-orange'>Подробнее</rt-button>\n      </rt-banner-item>\n    </rt-banner>"}}),_vm._v(" "),_c('div',{staticClass:"is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-banner :is-fullscreen-image='true'\n                         bannerLogo='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/Logo.svg'\n                         :resize-query-selectors-names='[\".content-test\"]'\n                         content-height='100vh'\n                         content-mobile-min-height='100vh'\n                         content-tablet-min-height='100vh'>\n          <rt-banner-item background-image='https://photos.gurushots.com/unsafe/0x0/71310af3b26cac188987af3ae44caa82/3_a718c2caeeb62161282204f20ccfb10a.jpg'\n                          :is-white-color='true'\n                          background-color='dark-slate'\n                          content-height='100vh'\n                          content-tablet-min-height='100vh'\n                          content-mobile-min-height='100vh'>\n                          <div class='content-test'>\n            <p class='rt-font-banner-label'>Виртуальная <br> телефония</p>\n            <p class='rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br> возможностьпользоваться из любой точки мира\u2028<br> и ни одного пропущенного звонка клиента</p>\n            </div>\n            <rt-button class='rt-button-orange'>Подробнее</rt-button>\n          </rt-banner-item>\n          <rt-banner-item background-image='https://photos.gurushots.com/unsafe/0x0/6df5398beb5a48117c5fe4b75e4e6829/3_b7817d11a910801fa451d829900e17ee.jpg'\n                          :is-white-color='true'\n                          background-color='dark-slate'\n                          content-height='100vh'\n                          content-tablet-min-height='100vh'\n                          content-mobile-min-height='100vh'>\n                          <div class='content-test'>\n            <p class='rt-font-banner-label'>Виртуальная <br> телефония</p>\n            <p class='rt-space-top rt-space-bottom15'>Быстрое подключение </p>\n            </div>\n            <rt-button class='rt-button-orange'>Подробнее</rt-button>\n          </rt-banner-item>\n        </rt-banner>"}})],1),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-banner :sleep-time='10000'\n                       content-mobile-min-height='100px'\n                       content-tablet-height='450px'\n                       content-tablet-min-height='450px'\n                       content-mobile-height='300px'\n                       content-height='600px'\n                       content-min-height='300px'>\n        <rt-banner-item background-image='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground1.jpg'\n                        :is-white-color='true'\n                        background-color='dark-slate'\n                        content-mobile-min-height='100px'\n                        content-tablet-height='450px'\n                        content-tablet-min-height='450px'\n                        content-mobile-height='300px'\n                        content-height='600px'\n                        content-min-height='300px'>\n          <p class='rt-font-banner-label'>Виртуальная !!!<br> телефония</p>\n          <p class='rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br> возможностьпользоваться из любой точки мира\u2028<br> и ни одного пропущенного звонка клиента</p>\n          <rt-button class='rt-button-orange'>Подробнее</rt-button>\n        </rt-banner-item>\n        <rt-banner-item background-color='yellow' background-image='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground2.jpg'>\n        <p class='rt-font-banner-label'>Помогаем бизнесу <br> экономить</p>\n        <p class='rt-space-top rt-space-bottom15'>Цифровые сервисы и технологии по выгодным ценам для среднего и малогобизнеса </p>\n        <rt-button class='rt-button-orange'>Подробнее</rt-button>\n        </rt-banner-item>\n      </rt-banner>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-banner :switch-off-timer='true'\n                      :without-empty-column='true'\n                      :background-image-left='true'>\n        <rt-banner-item :has-image-on-mobile='true'\n                        background-image='https://photos.gurushots.com/unsafe/0x0/71310af3b26cac188987af3ae44caa82/3_465b9d026f5bcdd1429a50313d3dfe63.jpg'\n                        content-mobile-min-height='100px'\n                        content-tablet-height='500px'\n                        content-tablet-min-height='500px'\n                        content-mobile-height='500px'\n                        content-height='600px'\n                        content-min-height='500px'\n                        background-color='white'>\n          <p class='tagline rt-space-bottom05'>сервис или продукт</p>\n          <h1 class='rt-font-banner-label'>Виртуальная ++<br> телефония</h1>\n          <p class='p1 rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br>\n            возможность пользоваться из любой точки мира\u2028<br> и ни одного пропущенного звонка клиента</p>\n          <rt-button class='rt-button-orange'>Подробнее</rt-button>\n        </rt-banner-item>\n\n        <rt-banner-item background-image='https://photos.gurushots.com/unsafe/0x0/71310af3b26cac188987af3ae44caa82/3_a718c2caeeb62161282204f20ccfb10a.jpg'\n                        :has-image-on-mobile='true'\n                        background-color='dark-slate'\n                        content-mobile-min-height='100px'\n                        content-tablet-height='500px'\n                        content-tablet-min-height='500px'\n                        content-mobile-height='500px'\n                        content-height='600px'\n                        content-min-height='500px'>\n          <rt-color-line-text color-icon='orange'\n                              fill-color='white'>\n            <template slot='label'>Мама мыла раму!</template>\n            <template slot='content'>Ваш дом всегда под контролем, <br> даже когда вы далеко.</template>\n          </rt-color-line-text>\n          <rt-button class='rt-button-orange'>Подробнее</rt-button>\n        </rt-banner-item>\n\n    </rt-banner>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-banner :switch-off-timer='true'\n                       :is-fullscreen-image='true'\n                       content-height='600px'\n                       :without-empty-column='true'\n                       :without-second-empty-column='true'\n                       content-tablet-height='500px'\n                       content-mobile-height='500px'>\n      <rt-banner-item background-image='/static/images/B2B/test-image.png'\n                      :is-white-color='true'\n                      background-color='main-color'\n                      content-tablet-height='500px'\n                      content-mobile-height='500px'>\n          <div class='rt-link-back-wrapper'>\n            <svg width='16px' height='16px' viewBox='0 0 16 16' class='rt-vam rt-link-arrow'>\n              <path d='M 8,15 L 1,8 L 16,8 L 1,8 L 8,1' stroke='#000000' stroke-width='2' fill='none'/>\n            </svg>\n            <a href='#' class='rt-link-back'>Текст ссылки</a>\n          </div>\n          <h1 class='rt-font-banner-label'>Виртуальная <br> телефония</h1>\n          <p class='p1 rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br>\n            возможность пользоваться из любой точки мира\u2028<br> и ни одного пропущенного звонка клиента</p>\n          <rt-button class='rt-button-orange'>Подробнее</rt-button>\n        </rt-banner-item>\n        <rt-banner-item background-image='/static/images/B2B/telephony-banner-bg.png'\n                        :is-white-color='true'\n                        background-color='green'\n                        :color-fill-on-mobile='true'>\n          <p class='rt-font-banner-label'>Телефония</p>\n          <p class='rt-space-top rt-space-bottom15'>Комплексные сервисы защиты цифровых <br>систем вашего бизнеса</p>\n        </rt-banner-item>\n      </rt-banner>\n    "}}),_vm._v(" "),_c('div',{staticClass:"rt-space-vertical is-b2c"},[_c('pre-code',{attrs:{"text":"<rt-banner :switch-off-timer='true'\n                         :fixed-image='true'\n                         :is-fullscreen-image='true'\n                         content-height='600px'\n                         :without-empty-column='true'\n                         :without-second-empty-column='true'\n                         content-mobile-height='500px'\n                         content-tablet-height='500px'>\n        <rt-banner-item background-image='/static/images/windows.jpg'\n                        :is-white-color='true'\n                        content-mobile-min-height='100px'\n                        content-tablet-height='500px'\n                        content-tablet-min-height='500px'\n                        content-mobile-height='500px'\n                        content-height='600px'\n                        content-min-height='500px'>\n            <p class='tagline color-orange rt-space-bottom05'>сервис или продукт</p>\n            <rt-color-line-text color-icon='orange' fill-color='dark-blue'>\n              <template slot='label'>Виртуальная <br> телефония</template>\n              <template slot='content'>Быстрое подключение без трат на оборудование,<br>\n        возможность пользоваться из любой точки мира\u2028<br> и ни одного пропущенного звонка клиента</template>\n      </rt-color-line-text>\n      <rt-button class='rt-button-orange'>Подробнее</rt-button>\n      </rt-banner-item>\n      </rt-banner>\n      "}}),_vm._v(" "),_c('div',{staticClass:"rt-space-bottom95-half"},[_c('div',{staticClass:"rt-space-bottom95-half"},[_c('div',{staticClass:"rt-space-bottom4"},[_c('rt-banner',{attrs:{"sleep-time":30000,"is-fullscreen-image":true,"content-height":"470px","is-background-banner":true,"has-custom-content":true}},[_c('rt-banner-item',{attrs:{"is-game-banner-item":"","background-video":"https://www.apple.com/105/media/us/iphone-se/2020/90024c0f-285a-4bf5-af04-2c38de97b06e/anim/4k-video/large_2x.mp4","is-white-color":true,"background-color":"dark-slate","content-mobile-min-height":"100px","content-tablet-height":"470px","content-tablet-min-height":"470px","content-mobile-height":"500px","content-height":"470px","content-min-height":"470px"}})],1)],1)])]),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-banner :is-fullscreen-image='true'\n                                 :sleep-time='30000'\n                                 content-height='100vh'\n                                 content-mobile-min-height='100vh'\n                                 content-tablet-height='400px'\n                                 content-mobile-height='400px'>\n      <rt-banner-item background-video='https://www.apple.com/105/media/us/iphone-se/2020/90024c0f-285a-4bf5-af04-2c38de97b06e/anim/4k-video/large_2x.mp4'\n                      :slide-time='50000'\n                      link-target='_blank'\n                      link='https://www.google.co.uk/search?q=yosemite+national+park'\n                      :is-white-color='true'\n                      background-color='dark-slate'\n                      content-mobile-min-height='100px'\n                      content-tablet-height='500px'\n                      content-tablet-min-height='500px'\n                      content-mobile-height='500px'\n                      content-height='600px'\n                      content-min-height='500px'>\n        <rt-color-line-text label-color='red' content-color='red'>\n          <template slot='label'>Расширяя границы</template>\n          <template slot='content'>Высокоскоростной интернет теперь повсюду</template>\n        </rt-color-line-text>\n        <rt-button class='rt-button-orange'>Подробнее</rt-button>\n      </rt-banner-item>\n      <rt-banner-item background-color='yellow'\n                      background-image='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground2.jpg'\n                      :slide-time='2000'\n                      content-mobile-min-height='100px'\n                      content-tablet-height='500px'\n                      content-tablet-min-height='500px'\n                      content-mobile-height='500px'\n                      content-height='600px'\n                      content-min-height='500px'>\n        <rt-color-line-text>\n          <template slot='label'>Помогаем бизнесу <br> экономить</template>\n          <template slot='content'>Цифровые сервисы и технологии по выгодным ценам для среднего и малогобизнеса\n          </template>\n        </rt-color-line-text>\n        <rt-button class='rt-button-orange'>Подробнее</rt-button>\n      </rt-banner-item>\n      <rt-banner-item link='https://www.google.co.uk/search?q=ElephantsDream'\n                      background-video='http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'\n                      background-color='orange'\n                      :slide-time='30000'\n                      content-mobile-min-height='100px'\n                      content-tablet-height='500px'\n                      content-tablet-min-height='500px'\n                      content-mobile-height='500px'\n                      content-height='600px'\n                      content-min-height='500px'>\n        <rt-color-line-text color-icon='purple'>\n          <template slot='label'>Wink</template>\n          <template slot='content'>Более 200 ТВ-каналов, тысячи фильмов и сериалов в одном приложении</template>\n        </rt-color-line-text>\n        <rt-button class='rt-button-purple'>Подробнее</rt-button>\n      </rt-banner-item>\n    </rt-banner>"}})],1),_vm._v(" "),_c('rt-banner',{attrs:{"is-fullscreen-image":true,"content-height":"500px","content-mobile-height":"500px","content-tablet-height":"500px"}},[_c('rt-banner-item',{attrs:{"is-white-color":true,"background-image":"/static/images/B2B/ArtboardCopy.png","background-color":"main-color","half-height-image":true,"content-mobile-min-height":"500px","content-tablet-height":"500px","content-tablet-min-height":"500px","content-mobile-height":"500px","content-height":"600px","content-min-height":"500px"}},[_c('p',{staticClass:"rt-font-bold rt-font-h2"},[_vm._v("Виртуальная АТС")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-bottom05-half"},[_vm._v("Ни одного пропущенного звонка, работает без офиса и\n          дополнительного оборудования, из любой точки мира")]),_vm._v(" "),_c('div',{staticClass:"rt-space-bottom25",attrs:{"id":"test"}},[_c('rt-button',{staticClass:"rt-button-orange"},[_vm._v("Оставить заявку")])],1),_vm._v(" "),_c('rt-price',{staticClass:"color-white",attrs:{"b2b-price":true,"value":1.57,"currency":"₽","is-option":true,"time-interval":"в минуту","show-float":true,"is-time-interval-bottom":true,"color-value":"white"}}),_vm._v(" "),_c('div',{staticClass:"rt-md-space-bottom"})],1)],1),_vm._v(" "),_c('div',{staticClass:"rt-container rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)],1)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"grid-center"}),_vm._v(" "),_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("Banners")])])])])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-12 is-b2c"},[_c('rt-card-buy',{directives:[{name:"rt-slide-content-vertical",rawName:"v-rt-slide-content-vertical",value:({
+              scrollWhenActive: true,
+              triggerClassName: 'rt-link',
+              containerClassName: 'rt-slide-content-vertical-content',
+              slideName: 'test',
+              activeContainerClassName:
+                'rt-slide-content-vertical-content--is-active'
+            }),expression:"{\n              scrollWhenActive: true,\n              triggerClassName: 'rt-link',\n              containerClassName: 'rt-slide-content-vertical-content',\n              slideName: 'test',\n              activeContainerClassName:\n                'rt-slide-content-vertical-content--is-active'\n            }"}],attrs:{"static-body-height":true,"has-custom-button":true,"is-horizontal-card":true,"custom-button-class":"rt-button-submit"}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-space-top"},[_c('div',{staticClass:"row rt-space-bottom05"},[_c('div',{staticClass:"rt-col-3 d-flex flex-column rt-col-md-3"},[_c('div',{staticClass:"rt-font-center rt-space-horizontal"},[_c('img',{staticClass:"card-long__image",attrs:{"src":"/static/images/smartHouse/smartHouse-contr10.png","alt":""}})]),_vm._v(" "),_c('div',{staticClass:"flex-center-bottom flex-fill md-d-block rt-font-center"},[_c('p',{staticClass:"rt-font-center color-main03 rt-font-label rt-space-top05"},[_vm._v("\n                        Необходим контроллер\n                      ")])])]),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 rt-md-space-top rt-md-space-left15 rt-md-space-right15"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                      Wi-Fi HD-видеокамера DS-2CD-VC1\n                    ")]),_vm._v(" "),_c('p',{staticClass:"rt-font-paragraph rt-space-top"},[_vm._v("\n                      Датчик открытия 3 в 1 PST02-5C детектирует открытие\n                      двери/окна, фиксирует температуру и освещенность.\n                      Идеален для управления световыми и охранными сценариями\n                    ")]),_vm._v(" "),_c('div',{staticClass:"d-flex rt-space-top d-td-block"},[_c('div',{staticClass:"d-flex"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/static/images/medium-icon.svg"}})]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Видеокамера")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                            Камера внутреннего "),_c('br'),_vm._v("\n                            видеонаблюдения\n                          ")])])]),_vm._v(" "),_c('div',{staticClass:"d-flex rt-space-left rt-td-space-left-none rt-td-space-top"},[_c('div',{staticClass:"rt-card-list__icon"},[_c('img',{attrs:{"src":"/static/images/medium-icon.svg"}})]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Видеокамера")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph color-main05"},[_vm._v("\n                            Облачное хранение "),_c('br'),_vm._v("\n                            видеозаписей в подарок\n                          ")])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 rt-col-md-3 rt-md-space-top rt-md-space-left15 flex-end-bottom flex-md-start"},[_c('div',{staticClass:"rt-space-right"},[_c('rt-price',{attrs:{"value":750.231,"only-price":true}})],1)])])])]),_vm._v(" "),_c('template',{slot:"content-without-wrapper"},[_c('div',{staticClass:"rt-space-top05 rt-space-bottom"},[_c('div',{staticClass:"rt-card__border-content"},[_c('div',{staticClass:"row rt-space-top05 flex-row-reverse"},[_c('div',{staticClass:"rt-col-3 rt-col-md-3"},[_c('rt-button',{staticClass:"rt-button-orange rt-button--is-block rt-button-submit"},[_vm._v("\n                        Подключить\n                      ")])],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 md-d-none"}),_vm._v(" "),_c('div',{staticClass:"rt-col-3 flex-center-center rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-right15 rt-md-space-right-none"},[_c('p',{staticClass:"rt-link"},[_vm._v("\n                          Характеристики\n                        ")])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-slide-content-vertical-content"},[_c('div',{staticClass:"rt-space-top2"},[_c('div',{staticClass:"rt-card-image-list rt-card-image-list--without-top-border"},[_c('div',{staticClass:"rt-card-image-list__content d-flex"},[_c('p',{staticClass:"color-main07 flex-fill"},[_vm._v("\n                        Назначение\n                      ")]),_vm._v(" "),_c('p',[_vm._v("помещение")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-image-list"},[_c('div',{staticClass:"rt-card-image-list__content d-flex"},[_c('p',{staticClass:"color-main07 flex-fill"},[_vm._v("\n                        Назначение\n                      ")]),_vm._v(" "),_c('p',[_vm._v("помещение")])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-image-list"},[_c('div',{staticClass:"rt-card-image-list__content d-flex"},[_c('p',{staticClass:"color-main07 flex-fill"},[_vm._v("\n                        Назначение\n                      ")]),_vm._v(" "),_c('p',[_vm._v("\n                        92"),_c('span',{staticClass:"rt-font-sup rt-font-label"},[_vm._v("o")])])])]),_vm._v(" "),_c('div',{staticClass:"rt-card-image-list"},[_c('div',{staticClass:"rt-card-image-list__content d-flex"},[_c('p',{staticClass:"color-main07 flex-fill"},[_vm._v("\n                        Назначение\n                      ")]),_vm._v(" "),_c('p',[_vm._v("помещение")])])])])])]),_vm._v(" "),_c('template',{slot:"form"},[_c('div',{staticClass:"rt-space-horizontal"},[_c('form',{staticClass:"rt-col-12"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-9"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                        Заявка на подключение\n                      ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-3 flex-end-bottom rt-col-md-3 rt-space-top2 flex-md-start"},[_c('div',{staticClass:"rt-space-right"},[_c('rt-price',{attrs:{"value":750.231,"only-price":true}})],1)])])])])])],2)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-space-top is-b2c"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6"},[_c('rt-card-buy',[_c('template',{slot:"content"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-4 rt-col-md-3 flex-column d-flex d-md-block"},[_c('div',{staticClass:"rt-space-left rt-md-space-horizontal rt-md-space-top flex-fill d-flex"},[_c('div',{staticClass:"rt-card-buy__image flex-fill",staticStyle:{"background-image":"url(/static/example-images/camera.png)"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-col-8 rt-space-vertical rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-right rt-md-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                        Видеокамера и услуга «Видеонаблюдение» в рассрочку на\n                        24 месяца\n                      ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main05"},[_vm._v("\n                        Два года сервиса в подарок\n                      ")]),_vm._v(" "),_c('ul',{staticClass:"rt-space-top"},[_c('li',{staticClass:"d-flex"},[_c('div',[_c('svg',{attrs:{"width":"56px","height":"56px","viewBox":"0 0 56 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-952.000000, -1981.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000, 0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000, 1839.000000)"}},[_c('g',{attrs:{"id":"Group-13","transform":"translate(242.000000, 142.000000)"}},[_c('g',{attrs:{"id":"Fill-170"}},[_c('path',{attrs:{"d":"M56,27.6113 C56,42.7993 43.4631273,55.1113 28,55.1113 C12.5358545,55.1113 0,42.7993 0,27.6113 C0,12.4233 12.5358545,0.1113 28,0.1113 C43.4631273,0.1113 56,12.4233 56,27.6113","fill":"#00C8F9","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-180","d":"M41.5679855,24.8671 C41.5679855,32.2621 35.4548218,38.1931 27.9996945,38.1931 C26.7992582,38.1931 25.6364945,38.0401 24.5297309,37.7531 C23.6337309,37.5211 22.7754036,37.2021 21.9639127,36.8051 C17.4890036,34.6171 14.4324218,30.0761 14.4324218,24.8671 C14.4324218,17.4721 20.47024,11.4681 27.9996945,11.4681 C35.5291491,11.4681 41.5679855,17.4721 41.5679855,24.8671","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-181","d":"M28,38.1928 C35.4928,38.1928 41.5682909,32.2268 41.5682909,24.8668 C41.5682909,17.5078 35.4928,11.5418 28,11.5418 C20.5072,11.5418 14.4317091,17.5078 14.4317091,24.8668 C14.4317091,29.5638 16.9058909,33.6928 20.6436364,36.0668","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-182","d":"M35.6039855,35.8495 L37.5415855,39.8035 C37.8399127,40.3155 37.9895855,40.9745 37.9152582,41.5605 C37.7655855,43.2445 36.1996218,44.5625 34.4860218,44.4155 L21.66304,44.4155 C20.9920582,44.4895 20.3954036,44.3425 19.7997673,43.9765 C18.3091491,43.0245 17.8611491,41.1945 18.7561309,39.7295 L20.6194036,36.0695","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-183","d":"M34.0384291,27.2099 C34.0384291,30.5049 31.3545018,33.1409 27.9995927,33.1409 C24.6446836,33.1409 21.9617745,30.5049 21.9617745,27.2099 C21.9617745,23.9159 24.6446836,21.2799 27.9995927,21.2799 C31.3545018,21.2799 34.0384291,23.9159 34.0384291,27.2099","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Fill-184","d":"M28.2236945,17.9115 C27.5527127,17.9115 27.0314036,17.3985 27.0314036,16.7405 C27.0314036,16.0805 27.5527127,15.5685 28.2236945,15.5685 C28.8946764,15.5685 29.4159855,16.0805 29.4159855,16.7405 C29.4159855,17.3255 28.8946764,17.9115 28.2236945,17.9115","fill":"#FFFFFF","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-185","d":"M28,29.0405 C29.0293818,29.0405 29.8642909,28.2215 29.8642909,27.2095 C29.8642909,26.1995 29.0293818,25.3795 28,25.3795 C26.9706182,25.3795 26.1357091,26.1995 26.1357091,27.2095 C26.1357091,28.2215 26.9706182,29.0405 28,29.0405 Z","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Видеокамера")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                              Камера внутреннего видеонаблюдения\n                            ")])])]),_vm._v(" "),_c('li',{staticClass:"d-flex rt-space-top"},[_c('div',[_c('svg',{attrs:{"width":"55px","height":"56px","viewBox":"0 0 55 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('defs',[_c('linearGradient',{attrs:{"id":"linearGradient-1","x1":"87.1217447%","y1":"0%","x2":"7.61205979%","y2":"100%"}},[_c('stop',{attrs:{"stop-color":"#00BFFE","offset":"0%"}}),_vm._v(" "),_c('stop',{attrs:{"stop-color":"#4DECFF","offset":"100%"}})],1)],1),_vm._v(" "),_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-953.000000, -2064.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000, 0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000, 1839.000000)"}},[_c('g',{attrs:{"id":"Group-14","transform":"translate(243.000000, 224.000000)"}},[_c('g',{attrs:{"id":"Clip-301","transform":"translate(0.000000, 1.000000)"}},[_c('path',{attrs:{"d":"M0,27.644 C0,42.832 12.313,55.143 27.5,55.143 C42.688,55.143 55,42.832 55,27.644 C55,12.456 42.688,0.143 27.5,0.143 C12.313,0.143 0,12.456 0,27.644","fill":"url(#linearGradient-1)","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-314","d":"M17.1025,36.4804 L15.7765,36.4804 C13.1945,36.4804 11.1005,34.1074 11.1005,31.2464 C11.0305,28.9434 12.4965,26.7794 14.7295,26.0824 C14.6605,25.5924 14.6605,25.1044 14.6605,24.6164 C14.6605,19.5214 18.3585,15.4034 22.8945,15.4034 C26.5935,15.4034 29.7345,18.1264 30.7115,21.9634 C31.6185,21.1264 32.8055,20.7084 33.9915,20.7084 C36.7135,20.7084 38.9465,23.0104 39.2255,25.9424 C41.8085,25.9424 43.9015,28.3144 43.9015,31.1754 C43.9015,34.0374 41.8085,36.4104 39.2255,36.4104 L37.6205,36.4104","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-316","d":"M22.9648,36.4101 L31.6188,36.4101","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-318","d":"M27.292,35.7822 L27.292,24.7562","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('polyline',{attrs:{"id":"Stroke-320","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round","points":"22.9648 29.082 27.2918 24.756 31.6188 29.082"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Облако")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                              Услуга «Видеонаблюдение» включает 7 дней\n                              хранения видеозаписей в облаке.\n                            ")])])])]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07"},[_vm._v("\n                        В Личном кабинете можно продлить срок хранения до 14\n                        дней за 90 руб./мес., до 30 дней—за 190 руб./мес.\n                      ")])])])])]),_vm._v(" "),_c('template',{slot:"form"},[_c('form',{staticClass:"rt-col-12"},[_c('div',{staticClass:"rt-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                      Заявка на подключение\n                    ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Контактный телефон"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-checkbox',{attrs:{"name":"sms"}},[_vm._v("\n                        Согласие на обработку персональных\n                      ")])],1)])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"d-flex d-space-between rt-space-top05 rt-space-bottom"},[_c('div',{staticClass:"flex-end-bottom"},[_vm._v("\n                    Рассрочка\n                  ")]),_vm._v(" "),_c('div',{staticClass:"d-flex"},[_c('rt-price',{attrs:{"value":480}})],1)])]),_vm._v(" "),_c('template',{slot:"button"},[_vm._v("\n                Подключить\n              ")])],2)],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6"},[_c('rt-card-buy',[_c('template',{slot:"content"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-4 rt-col-md-3 flex-column d-flex d-md-block"},[_c('div',{staticClass:"rt-space-left rt-md-space-horizontal rt-md-space-top flex-fill d-flex"},[_c('div',{staticClass:"rt-card-buy__image flex-fill",staticStyle:{"background-image":"url(/static/example-images/camera.png)"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-col-8 rt-space-vertical rt-col-md-3 rt-md-space-top"},[_c('div',{staticClass:"rt-space-right rt-md-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                        Видеокамера и услуга «Видеонаблюдение» в рассрочку на\n                        24 месяца\n                      ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main05"},[_vm._v("\n                        Два года сервиса в подарок\n                      ")]),_vm._v(" "),_c('ul',{staticClass:"rt-space-top"},[_c('li',{staticClass:"d-flex"},[_c('div',[_c('svg',{attrs:{"width":"56px","height":"56px","viewBox":"0 0 56 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-952.000000, -1981.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000, 0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000, 1839.000000)"}},[_c('g',{attrs:{"id":"Group-13","transform":"translate(242.000000, 142.000000)"}},[_c('g',{attrs:{"id":"Fill-170"}},[_c('path',{attrs:{"d":"M56,27.6113 C56,42.7993 43.4631273,55.1113 28,55.1113 C12.5358545,55.1113 0,42.7993 0,27.6113 C0,12.4233 12.5358545,0.1113 28,0.1113 C43.4631273,0.1113 56,12.4233 56,27.6113","fill":"#00C8F9","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-180","d":"M41.5679855,24.8671 C41.5679855,32.2621 35.4548218,38.1931 27.9996945,38.1931 C26.7992582,38.1931 25.6364945,38.0401 24.5297309,37.7531 C23.6337309,37.5211 22.7754036,37.2021 21.9639127,36.8051 C17.4890036,34.6171 14.4324218,30.0761 14.4324218,24.8671 C14.4324218,17.4721 20.47024,11.4681 27.9996945,11.4681 C35.5291491,11.4681 41.5679855,17.4721 41.5679855,24.8671","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-181","d":"M28,38.1928 C35.4928,38.1928 41.5682909,32.2268 41.5682909,24.8668 C41.5682909,17.5078 35.4928,11.5418 28,11.5418 C20.5072,11.5418 14.4317091,17.5078 14.4317091,24.8668 C14.4317091,29.5638 16.9058909,33.6928 20.6436364,36.0668","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-182","d":"M35.6039855,35.8495 L37.5415855,39.8035 C37.8399127,40.3155 37.9895855,40.9745 37.9152582,41.5605 C37.7655855,43.2445 36.1996218,44.5625 34.4860218,44.4155 L21.66304,44.4155 C20.9920582,44.4895 20.3954036,44.3425 19.7997673,43.9765 C18.3091491,43.0245 17.8611491,41.1945 18.7561309,39.7295 L20.6194036,36.0695","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-183","d":"M34.0384291,27.2099 C34.0384291,30.5049 31.3545018,33.1409 27.9995927,33.1409 C24.6446836,33.1409 21.9617745,30.5049 21.9617745,27.2099 C21.9617745,23.9159 24.6446836,21.2799 27.9995927,21.2799 C31.3545018,21.2799 34.0384291,23.9159 34.0384291,27.2099","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Fill-184","d":"M28.2236945,17.9115 C27.5527127,17.9115 27.0314036,17.3985 27.0314036,16.7405 C27.0314036,16.0805 27.5527127,15.5685 28.2236945,15.5685 C28.8946764,15.5685 29.4159855,16.0805 29.4159855,16.7405 C29.4159855,17.3255 28.8946764,17.9115 28.2236945,17.9115","fill":"#FFFFFF","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-185","d":"M28,29.0405 C29.0293818,29.0405 29.8642909,28.2215 29.8642909,27.2095 C29.8642909,26.1995 29.0293818,25.3795 28,25.3795 C26.9706182,25.3795 26.1357091,26.1995 26.1357091,27.2095 C26.1357091,28.2215 26.9706182,29.0405 28,29.0405 Z","stroke":"#FFFFFF","stroke-width":"1","stroke-linejoin":"round"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Видеокамера")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                              Камера внутреннего видеонаблюдения\n                            ")])])]),_vm._v(" "),_c('li',{staticClass:"d-flex rt-space-top"},[_c('div',[_c('svg',{attrs:{"width":"55px","height":"56px","viewBox":"0 0 55 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg"}},[_c('defs',[_c('linearGradient',{attrs:{"id":"linearGradient-1","x1":"87.1217447%","y1":"0%","x2":"7.61205979%","y2":"100%"}},[_c('stop',{attrs:{"stop-color":"#00BFFE","offset":"0%"}}),_vm._v(" "),_c('stop',{attrs:{"stop-color":"#4DECFF","offset":"100%"}})],1)],1),_vm._v(" "),_c('g',{attrs:{"id":"1139","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"current-(2)","transform":"translate(-953.000000, -2064.000000)"}},[_c('g',{attrs:{"id":"1400","transform":"translate(-3.000000, 0.000000)"}},[_c('g',{attrs:{"id":"rassro4ka","transform":"translate(713.000000, 1839.000000)"}},[_c('g',{attrs:{"id":"Group-14","transform":"translate(243.000000, 224.000000)"}},[_c('g',{attrs:{"id":"Clip-301","transform":"translate(0.000000, 1.000000)"}},[_c('path',{attrs:{"d":"M0,27.644 C0,42.832 12.313,55.143 27.5,55.143 C42.688,55.143 55,42.832 55,27.644 C55,12.456 42.688,0.143 27.5,0.143 C12.313,0.143 0,12.456 0,27.644","fill":"url(#linearGradient-1)","fill-rule":"evenodd"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-314","d":"M17.1025,36.4804 L15.7765,36.4804 C13.1945,36.4804 11.1005,34.1074 11.1005,31.2464 C11.0305,28.9434 12.4965,26.7794 14.7295,26.0824 C14.6605,25.5924 14.6605,25.1044 14.6605,24.6164 C14.6605,19.5214 18.3585,15.4034 22.8945,15.4034 C26.5935,15.4034 29.7345,18.1264 30.7115,21.9634 C31.6185,21.1264 32.8055,20.7084 33.9915,20.7084 C36.7135,20.7084 38.9465,23.0104 39.2255,25.9424 C41.8085,25.9424 43.9015,28.3144 43.9015,31.1754 C43.9015,34.0374 41.8085,36.4104 39.2255,36.4104 L37.6205,36.4104","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-316","d":"M22.9648,36.4101 L31.6188,36.4101","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('path',{attrs:{"id":"Stroke-318","d":"M27.292,35.7822 L27.292,24.7562","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}}),_vm._v(" "),_c('polyline',{attrs:{"id":"Stroke-320","stroke":"#FFFFFF","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round","points":"22.9648 29.082 27.2918 24.756 31.6188 29.082"}})])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"rt-space-left05"},[_c('p',[_vm._v("Облако")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("\n                              Услуга «Видеонаблюдение» включает 7 дней\n                              хранения видеозаписей в облаке.\n                            ")])])])]),_vm._v(" "),_c('p',{staticClass:"rt-space-top color-main07"},[_vm._v("\n                        В Личном кабинете можно продлить срок хранения до 14\n                        дней за 90 руб./мес., до 30 дней—за 190 руб./мес.\n                      ")])])])])]),_vm._v(" "),_c('template',{slot:"form"},[_c('form',{staticClass:"rt-col-12"},[_c('div',{staticClass:"rt-space-horizontal"},[_c('p',{staticClass:"rt-font-paragraph rt-font-bold"},[_vm._v("\n                      Заявка на подключение\n                    ")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Как вас зовут?"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Контактный телефон"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-input',{attrs:{"value":"","placeholder":"Электронная почта"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top"},[_c('rt-checkbox',{attrs:{"name":"sms"}},[_vm._v("\n                        Согласие на обработку персональных\n                      ")])],1)])])]),_vm._v(" "),_c('template',{slot:"footer"},[_c('div',{staticClass:"d-flex d-space-between rt-space-top05 rt-space-bottom"},[_c('div',{staticClass:"flex-end-bottom"},[_vm._v("\n                    Рассрочка\n                  ")]),_vm._v(" "),_c('div',{staticClass:"d-flex"},[_c('rt-price',{attrs:{"value":480}})],1)])]),_vm._v(" "),_c('template',{slot:"button"},[_vm._v("\n                Подключить\n              ")])],2)],1)])]),_vm._v(" "),_vm._m(1)])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("\n          Cards with form\n        ")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('br')])}]
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Banners.vue":
-/*!**********************************************************!*\
-  !*** ./src/example-pages/components/complex/Banners.vue ***!
-  \**********************************************************/
+/***/ "./src/example-pages/components/complex/CardsWithForms.vue":
+/*!*****************************************************************!*\
+  !*** ./src/example-pages/components/complex/CardsWithForms.vue ***!
+  \*****************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Banners_vue_vue_type_template_id_d45e1a16___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Banners.vue?vue&type=template&id=d45e1a16& */ "./src/example-pages/components/complex/Banners.vue?vue&type=template&id=d45e1a16&");
-/* harmony import */ var _Banners_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Banners.vue?vue&type=script&lang=js& */ "./src/example-pages/components/complex/Banners.vue?vue&type=script&lang=js&");
+/* harmony import */ var _CardsWithForms_vue_vue_type_template_id_c614bb5a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CardsWithForms.vue?vue&type=template&id=c614bb5a& */ "./src/example-pages/components/complex/CardsWithForms.vue?vue&type=template&id=c614bb5a&");
+/* harmony import */ var _CardsWithForms_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CardsWithForms.vue?vue&type=script&lang=js& */ "./src/example-pages/components/complex/CardsWithForms.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -548,9 +896,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Banners_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Banners_vue_vue_type_template_id_d45e1a16___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Banners_vue_vue_type_template_id_d45e1a16___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _CardsWithForms_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CardsWithForms_vue_vue_type_template_id_c614bb5a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CardsWithForms_vue_vue_type_template_id_c614bb5a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -562,33 +910,33 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Banners.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************!*\
-  !*** ./src/example-pages/components/complex/Banners.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************/
+/***/ "./src/example-pages/components/complex/CardsWithForms.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************!*\
+  !*** ./src/example-pages/components/complex/CardsWithForms.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Banners_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Banners.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Banners.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Banners_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsWithForms_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./CardsWithForms.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/CardsWithForms.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsWithForms_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Banners.vue?vue&type=template&id=d45e1a16&":
-/*!*****************************************************************************************!*\
-  !*** ./src/example-pages/components/complex/Banners.vue?vue&type=template&id=d45e1a16& ***!
-  \*****************************************************************************************/
+/***/ "./src/example-pages/components/complex/CardsWithForms.vue?vue&type=template&id=c614bb5a&":
+/*!************************************************************************************************!*\
+  !*** ./src/example-pages/components/complex/CardsWithForms.vue?vue&type=template&id=c614bb5a& ***!
+  \************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Banners_vue_vue_type_template_id_d45e1a16___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Banners.vue?vue&type=template&id=d45e1a16& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Banners.vue?vue&type=template&id=d45e1a16&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Banners_vue_vue_type_template_id_d45e1a16___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsWithForms_vue_vue_type_template_id_c614bb5a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./CardsWithForms.vue?vue&type=template&id=c614bb5a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/CardsWithForms.vue?vue&type=template&id=c614bb5a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsWithForms_vue_vue_type_template_id_c614bb5a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Banners_vue_vue_type_template_id_d45e1a16___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsWithForms_vue_vue_type_template_id_c614bb5a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

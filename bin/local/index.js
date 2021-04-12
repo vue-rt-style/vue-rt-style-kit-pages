@@ -13,6 +13,7 @@ import webpack from 'webpack';
 import proxyMiddleware from 'http-proxy-middleware';
 import webpackConfig from '../webpack.config.example.js';
 
+
 const __dirname = path.resolve()
 const local_dirname = path.join(__dirname,'..','..');
 
@@ -21,7 +22,7 @@ const port = process.env.PORT || config.dev.port;
 const proxyTable = config.dev.proxyTable;
 
 const app = express();
-console.log('config',config)
+console.log('config',webpackConfig)
 const compiler = webpack(webpackConfig);
 import webpackDevMiddleware from 'webpack-dev-middleware'
 const devMiddleware = webpackDevMiddleware(compiler, {
@@ -56,11 +57,11 @@ const hotMiddleware = webpackHotMiddleware(compiler, {
   }
 });
 webpackConfig.entry.app.unshift('webpack-hot-middleware/client');
-webpackConfig.plugins.push(
-  new webpack.HotModuleReplacementPlugin()
-);
-
-app.use(hotMiddleware);
+// webpackConfig.plugins.push(
+//   new webpack.HotModuleReplacementPlugin()
+// );
+//
+// app.use(hotMiddleware);
 
 
 Object.keys(proxyTable).forEach(function (context) {

@@ -24,6 +24,7 @@
           <rt-button v-popup-trigger="{name:'filter3'}"  color="orange">
               Попап 3
             </rt-button>
+
           <rt-popup hash="popup1" name="filter" :ga="{test:1}">
             <p class="rt-font-h3 sp-b-0-4">Проверьте тип подключения</p>
             <p class="rt-font-paragraph">Подойдите к вашему роутеру, предварительно убедитесь, что ничего не скачиваете

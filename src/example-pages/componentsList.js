@@ -80,8 +80,8 @@ import {
   SlideContentDottedContent,
   SlideContentDottedHeader,
   Popup,
-  // Popover,
-  PopupTrigger,
+  Popover,
+  PopupTriggerDirective,
   LinksBlock,
   Pattern,
   Swiper,
@@ -218,7 +218,7 @@ addToComponentList(Sticky)
 addToComponentList(ResizeContentHeight)
 // addToComponentList(Popover)
 addToComponentList(Popup)
-addToComponentList(PopupTrigger)
+addToComponentList(PopupTriggerDirective)
 addToComponentList(SlideContent);
 addToComponentList(SlideContentDottedContent);
 addToComponentList(SlideContentDottedHeader);
