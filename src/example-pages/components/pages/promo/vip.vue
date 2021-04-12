@@ -886,6 +886,7 @@ export default {
           if (el.$vnode.componentOptions.tag == 'rt-card-carousel') {
             return el
           } else {
+            console.info(el.$parent,el.$vnode.componentOptions.tag)
             return  resetRender(el.$parent)
           }
         }
