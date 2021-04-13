@@ -180,7 +180,7 @@
 
         <div class="row rt-space-top5">
           <div class="rt-col-2 rt-col-td-6">
-            <h4 class="rt-font-bold flex-fill">Paragraph  <br/>16px</h4>
+            <h4 class="rt-font-bold flex-fill">Paragraph  <br/>14px</h4>
           </div>
           <div class="rt-col-2 rt-font-right rt-col-td-1 rt-font-td-left rt-col-md-3 rt-md-space-horizontal-none rt-md-space-top3">
             <h4 class="rt-font-control color-main03 dark-theme-color-white03 rt-space-right05 rt-md-space-left05">bold 100%</h4>
