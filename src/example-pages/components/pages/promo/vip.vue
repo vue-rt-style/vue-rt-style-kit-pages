@@ -8,25 +8,25 @@
             <div class="d-flex flex-v-center sp-t-0-3 sp-b-1-3 md-d-block">
               <div class="d-flex flex-v-center td-d-block md-d-flex">
                 <p class="color-main03 big-number">1</p>
-                <p class="rt-font sp-l-0-3">Включите <br class="td-d-none">камеру</p>
+                <p class="rt-font sp-l-0-3 td-sp-l-none">Включите <br class="td-d-none">камеру</p>
               </div>
-              <div class="sp-h-1-4 td-sp-h-1 md-d-none">
+              <div class="sp-h-1-4 td-sp-h-0-3 md-d-none">
                 <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1 1L9 9L1 17" stroke="#B8B9C0" stroke-width="2" stroke-linejoin="round"/>
                 </svg>
               </div>
               <div class="d-flex flex-v-center td-d-block md-d-flex md-sp-t-0-4">
                 <p class="color-main03 big-number">2</p>
-                <p class="rt-font sp-l-0-3">Скачайте <br class="td-d-none">приложение</p>
+                <p class="rt-font sp-l-0-3 td-sp-l-none">Скачайте <br class="td-d-none">приложение</p>
               </div>
-              <div class="sp-h-1-4 td-sp-h-1 md-d-none">
+              <div class="sp-h-1-4 td-sp-h-0-3 md-d-none">
                 <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1 1L9 9L1 17" stroke="#B8B9C0" stroke-width="2" stroke-linejoin="round"/>
                 </svg>
               </div>
               <div class="d-flex flex-v-center td-d-block md-d-flex md-sp-t-0-4">
                 <p class="color-main03 big-number">3</p>
-                <p class="rt-font sp-l-0-3">Смотрите <br class="td-d-none">в любое время</p>
+                <p class="rt-font sp-l-0-3 td-sp-l-none">Смотрите <br class="td-d-none">в любое время</p>
               </div>
 
 
@@ -160,7 +160,7 @@
     <div class="wc-inline">
       <div class="sp-t-5 sp-b-5 md-sp-t-3 md-sp-b-3 td-sp-t-4 td-sp-b-3">
         <rt-col>
-          <div class="rt-font-h2 rt-font-center sp-b-2 td-sp-b-1-3 md-sp-b-1-1">Видеонаблюдение от Ростелекома это</div>
+          <div class="rt-font-h2 rt-font-center sp-b-2 td-sp-b-1-2 md-sp-b-1-1">Видеонаблюдение от Ростелекома это</div>
           <div class="video-slider relative">
             <rt-card-carousel class="rt-card-carousel--custom">
               <rt-card background-color-type="dark-blue" :background-blur="5" :is-white-color="true"
@@ -545,7 +545,7 @@
       </div>
     </div>
     <div class="wc-inline">
-      <div class="color-block--main-color003 sp-v-5 td-sp-t-3 td-sp-b-4 md-sp-v-3 prize relative">
+      <div class="color-block--main-color003 sp-t-5 td-sp-t-3 md-sp-t-3 prize relative">
         <div class="rt-container">
           <div class="rt-col">
             <h2 class="rt-font-h2">Получайте подписку на сервис в подарок</h2>
@@ -594,8 +594,10 @@
               </div>
             </rt-col>
           </rt-row>
-          <rt-img class="prize-img md-d-none"
-                  src='https://www.rt.ru/sites/default/files/img/videocontrol.04.2021/prize3.png'></rt-img>
+          <div class="rt-container relative sp-b-5  td-sp-b-4 md-sp-b-3">
+            <rt-img class="prize-img md-d-none"
+                    src='https://www.rt.ru/sites/default/files/img/videocontrol.04.2021/prize3.png'></rt-img>
+          </div>
         </div>
 
       </div>
@@ -878,15 +880,18 @@ export default {
   mounted() {
     var start = function (){
       var getEl = function(el){
+        if(window.el){
+          return window.el
+        }
         if(el) {
           if(el.__vue__){
             el = el.__vue__
           }
-
           if (el.$vnode.componentOptions.tag == 'rt-card-carousel') {
+            window.el = el
             return el
+
           } else {
-            console.info(el.$parent,el.$vnode.componentOptions.tag)
             return  resetRender(el.$parent)
           }
         }

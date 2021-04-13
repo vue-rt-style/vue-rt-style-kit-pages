@@ -3,15 +3,36 @@
   @media(max-width: 1024px)
     font-size 60px
     line-height: 60px
-  @media(max-width: 768px)
+  @media(max-width: 767px)
     font-size 48px
     line-height: 48px;
+    width: 34px
+//this 1
 .tabs-slider-reverse
   text-align center
   .tab-slider__img
     padding-left: 0
+    border-radius 16px
+    overflow: hidden;
+
+
+
+    @media(min-width: 1025px)
+      margin-right: 20px
+    img
+      width: 100%
   .tab-slider__body
     text-align left
+  .tab-slider__item
+
+    &>.row .rt-col-6+.rt-col-6
+      padding-left: 20px
+      @media(min-width: 1025px)
+        flex: 0 0 41.6667%;
+        max-width: 41.6667%;
+        padding-right: 30px
+      @media(max-width: 767px)
+        padding-right: 20px
 
   .tab-slider__header-item
     margin-bottom: 0
@@ -58,7 +79,7 @@
     @media(max-width: 1024px)
       justify-content flex-start
       display flex
-    @media(max-width: 768px)
+    @media(max-width: 767px)
       margin-left: -10px
       margin-right: -10px
       width:calc(100% + 20px)
@@ -66,13 +87,14 @@
     display: none!important
   .row.row-td-reverse
     flex-direction: row-reverse
+//this 1-end
 .font-video
   font-size 24px
   line-height 36px
   @media(max-width: 1024px)
     font-size 20px
     line-height 32px
-  @media(max-width: 768px)
+  @media(max-width: 767px)
     font-size 18px
     line-height 28px
 .font-video2
@@ -81,7 +103,7 @@
   @media(max-width: 1024px)
     font-size 20px
     line-height 32px
-  @media(max-width: 768px)
+  @media(max-width: 767px)
     font-size 16px
     line-height 24px
 .prize-card-1
@@ -107,7 +129,7 @@
   bottom: 0
   .rt-img
     width: 309px
-  @media(max-width: 768px)
+  @media(max-width: 767px)
 
     .rt-img
       width: 216px
@@ -122,7 +144,7 @@
   width: 91%
   .rt-img
     width: 100%
-@media(max-width: 768px)
+@media(max-width: 767px)
   .md-color-block-white
       background-color: #fff
   .md-color-block--main-color005
@@ -193,7 +215,7 @@
     max-width: calc(100vw - 0px);
     @media(max-width: 1024px)
       display flex
-    @media(max-width: 768px)
+    @media(max-width: 767px)
       margin-left: -10px
       margin-right: -10px
       width:calc(100% + 20px)
@@ -202,52 +224,67 @@
 
 .video-slider
   .carousel-card--previous
-    transform: translateX(-10%) scale(0.9);
+    transform: translateX(-15%) scale(0.9);
     opacity: 1
     z-index 2
     @media (max-width 1024px)
       transform: translateX(-7.1%) scale(0.9);
-    @media (max-width 768px)
+    @media (max-width 767px)
       transform: translateX(-7%) scale(0.9);
   .carousel-card--next
-    transform: translateX(10%) scale(0.9);
+    transform: translateX(15%) scale(0.9);
     opacity: 1
     z-index 2
     @media (max-width 1024px)
       transform: translateX(7.1%) scale(0.9);
-    @media (max-width 768px)
+    @media (max-width 767px)
       transform: translateX(7%) scale(0.9);
   .carousel-card--previous-via-one
-    transform: translateX(-20%) scale(0.8);
+    transform: translateX(-28%) scale(0.8);
     opacity: 1
     z-index 1
     @media (max-width 1024px)
       transform: translateX(-14%) scale(0.8);
-    @media (max-width 768px)
+    @media (max-width 767px)
       transform: translateX(-13%) scale(0.8);
   .rt-card__content
     padding: 0
     height: 100%
 
   .carousel-card--next-via-one
-    transform: translateX(20%) scale(0.8);
+    transform: translateX(28%) scale(0.8);
     opacity: 1
     z-index 1
     @media (max-width 1024px)
       transform: translateX(14%) scale(0.8);
-    @media (max-width 768px)
+    @media (max-width 767px)
       transform: translateX(13%) scale(0.8);
+
+  @media (min-width 1025px)
+    .custom-carousel__left
+      left: getCalc(1777,277, 1416, 145)
+    .custom-carousel__right
+      right: getCalc(1777,277, 1416, 145)
+  @media (min-width 1600px)
+    .custom-carousel__left
+      left: calc((100vw - 1196px)/2)
+    .custom-carousel__right
+      right: calc((100vw - 1196px)/2)
+
+
   .custom-carousel
     padding-top: 0
     padding-bottom: 0
     height: 384px
     padding-left: getCalc(1777,523, 1481, 405)
+    @media (min-width 1600px)
+      padding-left: calc((100vw - 730px)/2)
     @media (max-width 1450px)
       padding-left: getCalc(1198,309, 1127, 292)
     @media (max-width 1024px)
       height: 384px
-      padding-left: getCalc(889,165, 960, 174)
-    @media (max-width 768px)
+      padding-left: getCalc(768,135, 960, 174)
+    @media (max-width 767px)
       height: 344px
       padding-left: 24px;
       padding-right: 12px;
@@ -258,15 +295,22 @@
     width: getCalc(1710,710, 1455, 637)
     height: 384px
     padding: 0!important
+    max-width 710px
+
+
+
     @media (max-width 1450px)
       width: getCalc(1400,642.5, 1135, 538)
+
+
+
     @media (max-width 1024px)
-      width: getCalc(964,609, 889, 559)
+      width: getCalc(964,589, 768, 478)
       height: 360px
-    @media (max-width 768px)
+    @media (max-width 767px)
       height: 324px
       width: 100%
-      max-width: calc(100% - 62px)
+      max-width: calc(100% - 44px)
       position: absolute;
     &:before
       content ''
