@@ -11,63 +11,45 @@
     </div>
     <div class="">
       <div class="rt-container">
-        <span href="/capsula" v-ga-click='{
-					  data:{ "event":"b2с",
-					"type":"card_click",
-					"value":"Голосовое управление"
-					}}'>
-						<rt-card-image :version="2"
-                           class="full-height"
-                           :is-white-color="true"
-                           :col-size="2"
-                           card-image="/sites/default/files/img/main/img_1.jpg">
-							<template slot="label">
-								Голосовое управление
-							</template>
-							<template slot="body">
-								<p>Капсула&nbsp;&mdash; дружелюбная и&nbsp;умная колонка, внутри которой живёт голосовой помощник Маруся.</p>
-							</template>
-						</rt-card-image>
-					</span>
         <div class="">
-          <!--<div class="rt-col-6 rt-space-bottom15">-->
-          <!--<p>Описание на 6 колонок или какие-то комментарии к данному инпуту. Выбор сразу нескольких-->
-          <!--элементов в списке</p>-->
-          <!--</div>-->
           <div class="rt-col-12 rt-space-bottom3 is-b2c">
             <rt-row>
-              <rt-col size="2">
+              <rt-col size="3">
                 <p>background</p>
                 <select v-model="background">
                   <option v-for="i in colors" :value="i">{{ i }}</option>
                 </select>
               </rt-col>
-              <rt-col size="2">
+              <rt-col size="3">
                 <p>shadowColor</p>
                 <select v-model="shadowColor">
                   <option v-for="i in colors" :value="i">{{ i }}</option>
                 </select>
               </rt-col>
-              <rt-col size="2">
+              <rt-col size="3">
                 <p>colorBlockClass</p>
                 <select v-model="colorBlockClass">
                   <option v-for="i in colors" :value="i">{{ i }}</option>
                 </select>
               </rt-col>
-              <rt-col size="1">
+              <rt-col size="3">
                 <p>show as tag</p>
                 <input type="checkbox" v-model="asTag">
               </rt-col>
-              <rt-col size="1">
+              <rt-col size="3">
                 <p>bright</p>
                 <input type="checkbox" v-model="bright">
               </rt-col>
-              <rt-col size="2">
-                <p>showBottomLine</p>
+              <rt-col size="3">
+                <p class="sp-t-1">small</p>
+                <input type="checkbox" v-model="small">
+              </rt-col>
+              <rt-col size="3">
+                <p class="sp-t-1">showBottomLine</p>
                 <input type="checkbox" v-model="showBottomLine">
               </rt-col>
-              <rt-col size="2">
-                <p>bottomLineWhite</p>
+              <rt-col size="3">
+                <p class="sp-t-1">bottomLineWhite</p>
                 <input type="checkbox" v-model="bottomLineWhite">
               </rt-col>
             </rt-row>
@@ -78,13 +60,13 @@
 
           <div class="rt-col-12 rt-space-bottom3 is-b2c">
 
-              <rt-tabs :version="2" :background="background" :shadow-color="shadowColor"
+              <rt-tabs :version="2" :background="background" :shadow-color="shadowColor" :small="small"
                      :show-bottom-line="showBottomLine" :bottom-line-white="bottomLineWhite" :bright="bright" :show-as-tags="asTag">
               <template slot="navigation">
                 <rt-tabs-nav-item v-ga-click='{data:{"event":"b2c","type":"main_tab","value":"packages"}}'
                                   anchor="ready!" name="tabs9911">
                   <rt-system-icons name="achievement"></rt-system-icons>
-                  Готов!!
+                  <span class="sp-l-0-2">Готов!!</span>
                 </rt-tabs-nav-item>
                 <rt-tabs-nav-item anchor="hello" name="tabs22">Смысл kdka;ld ada da d
                 </rt-tabs-nav-item>
@@ -1831,6 +1813,7 @@ export default {
     showBottomLine: false,
     bottomLineWhite: false,
     bright: false,
+    small: false,
     documentation: {},
     colorBlockClass: ""
   }),
