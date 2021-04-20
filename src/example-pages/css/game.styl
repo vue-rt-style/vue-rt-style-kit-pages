@@ -262,9 +262,9 @@
 
   @media (min-width 1025px)
     .custom-carousel__left
-      left: getCalc(1777,277, 1416, 145)
+      left: getCalc(1777,277, 1366, 105)
     .custom-carousel__right
-      right: getCalc(1777,277, 1416, 145)
+      right: getCalc(1777,277, 1366, 105)
   @media (min-width 1600px)
     .custom-carousel__left
       left: calc((100vw - 1196px)/2)
@@ -276,14 +276,22 @@
     padding-top: 0
     padding-bottom: 0
     height: 384px
-    padding-left: getCalc(1777,523, 1481, 405)
-    @media (min-width 1600px)
-      padding-left: calc((100vw - 730px)/2)
+    padding-left: 0
+    padding-right:0
+    margin-left:auto
+    margin-right auto
+    width: getCalc(1710,710, 1455, 637)
     @media (max-width 1450px)
-      padding-left: getCalc(1198,309, 1127, 292)
+      width: getCalc(1400,642.5, 1135, 538)
+    @media (max-width 1024px)
+      width: getCalc(964,589, 768, 478)
+    @media (max-width 767px)
+      max-width: 100%
+      width:auto
+
     @media (max-width 1024px)
       height: 384px
-      padding-left: getCalc(768,135, 960, 174)
+      //padding-left: getCalc(768,135, 960, 174)
     @media (max-width 767px)
       height: 344px
       padding-left: 24px;
@@ -292,14 +300,14 @@
     padding-left: 0
     padding-right: 0
   .carousel-card
-    width: getCalc(1710,710, 1455, 637)
+
     height: 384px
     padding: 0!important
     max-width 710px
     .rt-card__background
       background-color: #e7e7e9
 
-
+    width: getCalc(1710,710, 1455, 637)
     @media (max-width 1450px)
       width: getCalc(1400,642.5, 1135, 538)
 
@@ -349,3 +357,94 @@
   position: absolute;
   right: 40px
   top: 40px
+
+
+  .video-slider .carousel-card--previous {
+    -webkit-transform: translateX(-15%) scale(0.9);
+    -moz-transform: translateX(-15%) scale(0.9);
+    -o-transform: translateX(-15%) scale(0.9);
+    -ms-transform: translateX(-15%) scale(0.9);
+    transform: translateX(-15%) scale(0.9);
+    opacity: 1;
+    z-index: 2;
+  }
+
+  @media (max-width: 1024px) {
+    .video-slider .carousel-card--previous {
+      -webkit-transform: translateX(-11%) scale(0.9);
+      -moz-transform: translateX(-11%) scale(0.9);
+      -o-transform: translateX(-11%) scale(0.9);
+      -ms-transform: translateX(-11%) scale(0.9);
+      transform: translateX(-11%) scale(0.9);
+    }
+  }
+
+  @media (max-width: 767px) {
+    .video-slider .carousel-card--previous {
+      -webkit-transform: translateX(-7%) scale(0.9);
+      -moz-transform: translateX(-7%) scale(0.9);
+      -o-transform: translateX(-7%) scale(0.9);
+      -ms-transform: translateX(-7%) scale(0.9);
+      transform: translateX(-7%) scale(0.9);
+    }
+  }
+
+  .video-slider .carousel-card--next {
+    -webkit-transform: translateX(15%) scale(0.9);
+    -moz-transform: translateX(15%) scale(0.9);
+    -o-transform: translateX(15%) scale(0.9);
+    -ms-transform: translateX(15%) scale(0.9);
+    transform: translateX(15%) scale(0.9);
+    opacity: 1;
+    z-index: 2;
+  }
+
+  @media (max-width: 1024px) {
+    .video-slider .carousel-card--next {
+      -webkit-transform: translateX(11%) scale(0.9);
+      -moz-transform: translateX(11%) scale(0.9);
+      -o-transform: translateX(11%) scale(0.9);
+      -ms-transform: translateX(11%) scale(0.9);
+      transform: translateX(11%) scale(0.9);
+    }
+  }
+
+  @media (max-width: 767px) {
+    .video-slider .carousel-card--next {
+      -webkit-transform: translateX(7%) scale(0.9);
+      -moz-transform: translateX(7%) scale(0.9);
+      -o-transform: translateX(7%) scale(0.9);
+      -ms-transform: translateX(7%) scale(0.9);
+      transform: translateX(7%) scale(0.9);
+    }
+  }
+
+  .video-slider .carousel-card--previous-via-one {
+    -webkit-transform: translateX(-28%) scale(0.8);
+    -moz-transform: translateX(-28%) scale(0.8);
+    -o-transform: translateX(-28%) scale(0.8);
+    -ms-transform: translateX(-28%) scale(0.8);
+    transform: translateX(-28%) scale(0.8);
+    opacity: 1;
+    z-index: 1;
+  }
+
+  @media (max-width: 1024px) {
+    .video-slider .carousel-card--previous-via-one {
+      -webkit-transform: translateX(-21%) scale(0.8);
+      -moz-transform: translateX(-21%) scale(0.8);
+      -o-transform: translateX(-21%) scale(0.8);
+      -ms-transform: translateX(-21%) scale(0.8);
+      transform: translateX(-21%) scale(0.8);
+    }
+  }
+
+  @media (max-width: 767px) {
+    .video-slider .carousel-card--previous-via-one {
+      -webkit-transform: translateX(-13%) scale(0.8);
+      -moz-transform: translateX(-13%) scale(0.8);
+      -o-transform: translateX(-13%) scale(0.8);
+      -ms-transform: translateX(-13%) scale(0.8);
+      transform: translateX(-13%) scale(0.8);
+    }
+  }

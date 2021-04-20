@@ -29,105 +29,150 @@
 							</template>
 						</rt-card-image>
 					</span>
-        <div class="app-row row">
+        <div class="">
           <!--<div class="rt-col-6 rt-space-bottom15">-->
           <!--<p>Описание на 6 колонок или какие-то комментарии к данному инпуту. Выбор сразу нескольких-->
           <!--элементов в списке</p>-->
           <!--</div>-->
           <div class="rt-col-12 rt-space-bottom3 is-b2c">
+            <rt-row>
+              <rt-col size="2">
+                <p>background</p>
+                <select v-model="background">
+                  <option v-for="i in colors" :value="i">{{ i }}</option>
+                </select>
+              </rt-col>
+              <rt-col size="2">
+                <p>background</p>
+                <select v-model="shadowColor">
+                  <option v-for="i in colors" :value="i">{{ i }}</option>
+                </select>
+              </rt-col>
+              <rt-col size="2">
+                <p>colorBlockClass</p>
+                <select v-model="colorBlockClass">
+                  <option v-for="i in colors" :value="i">{{ i }}</option>
+                </select>
+              </rt-col>
+              <rt-col size="2">
+                <p>show as tag</p>
+                <input type="checkbox" v-model="asTag">
+              </rt-col>
+              <rt-col size="2">
+                <p>bright</p>
+                <input type="checkbox" v-model="bright">
+              </rt-col>
+              <rt-col size="2">
+                <p>showBottomLine</p>
+                <input type="checkbox" v-model="showBottomLine">
+              </rt-col>
+            </rt-row>
+          </div>
+        </div>
+      </div>
+      <div :class="'rt-container sp-t-2 sp-b-2 color-block--'+colorBlockClass" >
 
-            <pre-code text="<rt-tabs  :version=&quot;2&quot; background=&quot;gray&quot; :show-as-tags=&quot;true&quot;>
-            <template slot=&quot;navigation&quot;>
-              <rt-tabs-nav-item v-ga-click='{data:{&quot;event&quot;:&quot;b2c&quot;,&quot;type&quot;:&quot;main_tab&quot;,&quot;value&quot;:&quot;packages&quot;}}' anchor=&quot;ready!&quot; name=&quot;tabs9911&quot;>
-          <rt-system-icons name=&quot;achievement&quot;></rt-system-icons> Готов!!
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;hello&quot; name=&quot;tabs22&quot;>Смысл kdka;ld ada da d
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;world&quot; name=&quot;tabs23&quot;>Значимость
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;ready!&quot; name=&quot;1tabs9911&quot;>Готов da d ad a da
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;0hello&quot; name=&quot;1tabs22&quot;>Смысл dad da a da da
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;0world&quot; name=&quot;1tabs23&quot;>Значимость dad ad ad a
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;0ready!&quot; name=&quot;12tabs9911&quot;>Готов dad ad a da d
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;1hello&quot; name=&quot;12tabs22&quot;>Смысл dad ad a da
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;1world&quot; name=&quot;12tabs23&quot;>Значимость
-          </rt-tabs-nav-item>
-</template>
-<template slot=&quot;content&quot;>
-  <rt-tabs-content-item name=&quot;tabs9911&quot;>
-    <h1>TEST</h1>
-  </rt-tabs-content-item>
-  <rt-tabs-content-item name=&quot;tabs22&quot;><p class=&quot;rt-font-h1&quot;>Смысл сайта</p>
-    <p class=&quot;rt-font-paragraph&quot;>Повседневная практика показывает, что консультация
-      с широким активом
-      представляет собой интересный эксперимент проверки позиций, занимаемых
-      участниками в отношении
-      поставленных задач. Равным образом консультация с широким активом влечет за
-      собой процесс внедрения
-      и модернизации форм развития. Повседневная практика показывает, что
-      консультация с широким активом
-      обеспечивает широкому кругу (специалистов) участие в формировании
-      соответствующий условий
-      активизации. С другой стороны новая модель оргоганизационной деятельности
-      позволяет оценить значение
-      новых предложений. Не следует, однако забывать, что рамки и место обучения
-      кадров требуют от нас
-      анализа новых предложений. Идейные соображения высшего порядка, а также
-      реализация намеченных
-      плановых заданий обеспечивает широкому кругу (специалистов) участие в
-      формировании позиций,
-      занимаемых участниками в отношении поставленных задач.</p>
-    <p class=&quot;rt-font-paragraph&quot;>Идейные соображения высшего порядка, а также
-      постоянное
-      информационно-пропагандистское обеспечение нашей деятельности в значительной
-      степени обуславливает
-      создание существенных финансовых и административных условий. С другой
-      стороны постоянный
-      количественный рост и сфера нашей активности позволяет выполнять важные
-      задания по разработке
-      существенных финансовых и административных условий. Таким образом
-      консультация с широким активом
-      влечет за собой процесс внедрения и модернизации форм развития. С другой
-      стороны сложившаяся
-      структура организации требуют определения и уточнения системы обучения
-      кадров, соответствует
-      насущным потребностям. Товарищи! рамки и место обучения кадров представляет
-      собой интересный
-      эксперимент проверки направлений прогрессивного развития.</p>
-  </rt-tabs-content-item>
-  <rt-tabs-content-item name=&quot;tabs23&quot;><p class=&quot;rt-font-h1&quot;>Значимость</p>
-    <p class=&quot;rt-font-paragraph&quot;>Значимость этих проблем настолько очевидна, что
-      консультация с широким
-      активом позволяет выполнять важные задания по разработке позиций, занимаемых
-      участниками в отношении
-      поставленных задач. Задача организации, в особенности же рамки и место
-      обучения кадров требуют от
-      нас анализа направлений прогрессивного развития. Повседневная практика
-      показывает, что сложившаяся
-      структура организации представляет собой интересный эксперимент проверки
-      форм развития. Значимость
-      этих проблем настолько очевидна, что укрепление и развитие структуры
-      позволяет оценить значение
-      систем массового участия.</p>
-    <p class=&quot;rt-font-paragraph&quot;>Разнообразный и богатый опыт рамки и место обучения
-      кадров способствует
-      подготовки и реализации соответствующий условий активизации. Повседневная
-      практика показывает, что
-      дальнейшее развитие различных форм деятельности представляет собой
-      интересный эксперимент проверки
-      существенных финансовых и административных условий. Идейные соображения
-      высшего порядка, а также
-      укрепление и развитие структуры обеспечивает широкому кругу (специалистов)
-      участие в формировании
-      форм развития.</p></rt-tabs-content-item>
-</template>
-</rt-tabs></div>"></pre-code>
-            <pre-code text="
+          <div class="rt-col-12 rt-space-bottom3 is-b2c">
+
+              <rt-tabs :version="2" :background="background" :shadow-color="shadowColor"
+                     :show-bottom-line="showBottomLine" :bright="bright" :show-as-tags="asTag">
+              <template slot="navigation">
+                <rt-tabs-nav-item v-ga-click='{data:{"event":"b2c","type":"main_tab","value":"packages"}}'
+                                  anchor="ready!" name="tabs9911">
+                  <rt-system-icons name="achievement"></rt-system-icons>
+                  Готов!!
+                </rt-tabs-nav-item>
+                <rt-tabs-nav-item anchor="hello" name="tabs22">Смысл kdka;ld ada da d
+                </rt-tabs-nav-item>
+                <rt-tabs-nav-item anchor="world" name="tabs23">Значимость
+                </rt-tabs-nav-item>
+                <rt-tabs-nav-item anchor="ready!" name="1tabs9911">Готов da d ad a da
+                </rt-tabs-nav-item>
+                <rt-tabs-nav-item anchor="0hello" name="1tabs22">Смысл dad da a da da
+                </rt-tabs-nav-item>
+                <rt-tabs-nav-item anchor="0world" name="1tabs23">Значимость dad ad ad a
+                </rt-tabs-nav-item>
+                <rt-tabs-nav-item anchor="0ready!" name="12tabs9911">Готов dad ad a da d
+                </rt-tabs-nav-item>
+                <rt-tabs-nav-item anchor="1hello" name="12tabs22">Смысл dad ad a da
+                </rt-tabs-nav-item>
+                <rt-tabs-nav-item anchor="1world" name="12tabs23">Значимость
+                </rt-tabs-nav-item>
+              </template>
+              <template slot="content">
+                <rt-tabs-content-item name="tabs9911">
+                  <h1>TEST</h1>
+                </rt-tabs-content-item>
+                <rt-tabs-content-item name="tabs22"><p class="rt-font-h1">Смысл сайта</p>
+                  <p class="rt-font-paragraph">Повседневная практика показывает, что консультация
+                    с широким активом
+                    представляет собой интересный эксперимент проверки позиций, занимаемых
+                    участниками в отношении
+                    поставленных задач. Равным образом консультация с широким активом влечет за
+                    собой процесс внедрения
+                    и модернизации форм развития. Повседневная практика показывает, что
+                    консультация с широким активом
+                    обеспечивает широкому кругу (специалистов) участие в формировании
+                    соответствующий условий
+                    активизации. С другой стороны новая модель оргоганизационной деятельности
+                    позволяет оценить значение
+                    новых предложений. Не следует, однако забывать, что рамки и место обучения
+                    кадров требуют от нас
+                    анализа новых предложений. Идейные соображения высшего порядка, а также
+                    реализация намеченных
+                    плановых заданий обеспечивает широкому кругу (специалистов) участие в
+                    формировании позиций,
+                    занимаемых участниками в отношении поставленных задач.</p>
+                  <p class="rt-font-paragraph">Идейные соображения высшего порядка, а также
+                    постоянное
+                    информационно-пропагандистское обеспечение нашей деятельности в значительной
+                    степени обуславливает
+                    создание существенных финансовых и административных условий. С другой
+                    стороны постоянный
+                    количественный рост и сфера нашей активности позволяет выполнять важные
+                    задания по разработке
+                    существенных финансовых и административных условий. Таким образом
+                    консультация с широким активом
+                    влечет за собой процесс внедрения и модернизации форм развития. С другой
+                    стороны сложившаяся
+                    структура организации требуют определения и уточнения системы обучения
+                    кадров, соответствует
+                    насущным потребностям. Товарищи! рамки и место обучения кадров представляет
+                    собой интересный
+                    эксперимент проверки направлений прогрессивного развития.</p>
+                </rt-tabs-content-item>
+                <rt-tabs-content-item name="tabs23"><p class="rt-font-h1">Значимость</p>
+                  <p class="rt-font-paragraph">Значимость этих проблем настолько очевидна, что
+                    консультация с широким
+                    активом позволяет выполнять важные задания по разработке позиций, занимаемых
+                    участниками в отношении
+                    поставленных задач. Задача организации, в особенности же рамки и место
+                    обучения кадров требуют от
+                    нас анализа направлений прогрессивного развития. Повседневная практика
+                    показывает, что сложившаяся
+                    структура организации представляет собой интересный эксперимент проверки
+                    форм развития. Значимость
+                    этих проблем настолько очевидна, что укрепление и развитие структуры
+                    позволяет оценить значение
+                    систем массового участия.</p>
+                  <p class="rt-font-paragraph">Разнообразный и богатый опыт рамки и место обучения
+                    кадров способствует
+                    подготовки и реализации соответствующий условий активизации. Повседневная
+                    практика показывает, что
+                    дальнейшее развитие различных форм деятельности представляет собой
+                    интересный эксперимент проверки
+                    существенных финансовых и административных условий. Идейные соображения
+                    высшего порядка, а также
+                    укрепление и развитие структуры обеспечивает широкому кругу (специалистов)
+                    участие в формировании
+                    форм развития.</p></rt-tabs-content-item>
+              </template>
+            </rt-tabs>
+          </div>
+      </div>
+      <div class="rt-container" >
+        <div class="rt-col">
+          <pre-code text="
             <rt-tabs  :version=&quot;2&quot; background=&quot;white&quot; :show-as-tags=&quot;true&quot;>
             <template slot=&quot;navigation&quot;>
               <rt-tabs-nav-item v-ga-click='{data:{&quot;event&quot;:&quot;b2c&quot;,&quot;type&quot;:&quot;main_tab&quot;,&quot;value&quot;:&quot;packages&quot;}}' anchor=&quot;ready!&quot; name=&quot;tabs21&quot;>
@@ -219,7 +264,7 @@
       форм развития.</p></rt-tabs-content-item>
 </template>
 </rt-tabs></div>"></pre-code>
-            <pre-code text='
+          <pre-code text='
                   <rt-tabs :version="2">
                     <template slot="navigation">
                       <rt-tabs-nav-item anchor="ready!" name="0tabs21">
@@ -313,7 +358,7 @@
                   </rt-tabs>'></pre-code>
 
 
-            <pre-code text='
+          <pre-code text='
                   <rt-tabs :version="2" :small="true" >
                     <template slot="navigation">
                       <rt-tabs-nav-item anchor="10ready!" name="3tabs21">
@@ -407,7 +452,7 @@
                   </rt-tabs>'></pre-code>
 
 
-            <pre-code text='
+          <pre-code text='
                     <rt-tabs :round-tablet-view="true">
                         <template slot="navigation">
                             <rt-tabs-nav-item anchor="ready!" :remove-base-tag="true" name="one99">Готов
@@ -486,7 +531,7 @@
                                     форм развития.</p></rt-tabs-content-item>
                         </template>
                     </rt-tabs>'/>
-            <pre-code text='<div class="rt-space-top5">
+          <pre-code text='<div class="rt-space-top5">
                         <rt-tabs :round-tablet-view="true" :round-tablet-view-max-width="true">
                             <template slot="navigation">
                                 <rt-tabs-nav-item anchor="ready!" :remove-base-tag="true" name="one991">Готов
@@ -567,12 +612,12 @@
                             </template>
                         </rt-tabs>
                     </div>'/>
-          </div>
         </div>
+      </div>
 
-        <div class="rt-col-12 is-b2c">
-          <div class="rt-space-bottom5">
-            <pre-code text='<rt-tabs :reverse-view="true" :show-as-tags="true">
+      <div class="rt-col-12 is-b2c">
+        <div class="rt-space-bottom5">
+          <pre-code text='<rt-tabs :reverse-view="true" :show-as-tags="true">
                         <template slot="navigation">
                             <rt-tabs-nav-item :scroll-on-top="true" anchor="read2y!" :remove-base-tag="true"
                                               name="2one">Телефония
@@ -630,70 +675,70 @@
                             </rt-tabs-content-item>
                         </template>
                     </rt-tabs>'/>
-          </div>
-          <div class="rt-space-bottom5">
-            <rt-tabs :show-as-tags='true'>
-              <template slot="navigation">
-                <rt-tabs-nav-item anchor="read1y!" :remove-base-tag="true" name="1one">
-                  Телефония
-                </rt-tabs-nav-item>
-                <rt-tabs-nav-item anchor="hell1o" :remove-base-tag="true" name="1two">
-                  Интернет
-                </rt-tabs-nav-item>
-              </template>
-              <template slot="content">
-                <rt-tabs-content-item name="1one">
-                  <div class='rt-space-top3'>
-                    <h1>TEST</h1>
-                  </div>
-                </rt-tabs-content-item>
-                <rt-tabs-content-item name="1two">
-                  <div class='rt-space-top3'>
-                    <p class="rt-font-h1">Смысл сайта</p>
-                    <p class="rt-font-paragraph">Повседневная практика показывает, что
-                      консультация с широким активом
-                      представляет собой интересный эксперимент проверки позиций,
-                      занимаемых участниками в отношении
-                      поставленных задач. Равным образом консультация с широким активом
-                      влечет за собой процесс внедрения
-                      и модернизации форм развития. Повседневная практика показывает, что
-                      консультация с широким активом
-                      обеспечивает широкому кругу (специалистов) участие в формировании
-                      соответствующий условий
-                      активизации. С другой стороны новая модель организационной
-                      деятельности позволяет оценить значение
-                      новых предложений. Не следует, однако забывать, что рамки и место
-                      обучения кадров требуют от нас
-                      анализа новых предложений. Идейные соображения высшего порядка, а
-                      также реализация намеченных
-                      плановых заданий обеспечивает широкому кругу (специалистов) участие
-                      в формировании позиций,
-                      занимаемых участниками в отношении поставленных задач.</p>
-                    <p class="rt-font-paragraph">Идейные соображения высшего порядка, а
-                      также постоянное
-                      информационно-пропагандистское обеспечение нашей деятельности в
-                      значительной степени обуславливает
-                      создание существенных финансовых и административных условий. С
-                      другой стороны постоянный
-                      количественный рост и сфера нашей активности позволяет выполнять
-                      важные задания по разработке
-                      существенных финансовых и административных условий. Таким образом
-                      консультация с широким активом
-                      влечет за собой процесс внедрения и модернизации форм развития. С
-                      другой стороны сложившаяся
-                      структура организации требуют определения и уточнения системы
-                      обучения кадров, соответствует
-                      насущным потребностям. Товарищи! рамки и место обучения кадров
-                      представляет собой интересный
-                      эксперимент проверки направлений прогрессивного развития.</p>
-                  </div>
-                </rt-tabs-content-item>
-              </template>
-            </rt-tabs>
+        </div>
+        <div class="rt-space-bottom5">
+          <rt-tabs :show-as-tags='true'>
+            <template slot="navigation">
+              <rt-tabs-nav-item anchor="read1y!" :remove-base-tag="true" name="1one">
+                Телефония
+              </rt-tabs-nav-item>
+              <rt-tabs-nav-item anchor="hell1o" :remove-base-tag="true" name="1two">
+                Интернет
+              </rt-tabs-nav-item>
+            </template>
+            <template slot="content">
+              <rt-tabs-content-item name="1one">
+                <div class='rt-space-top3'>
+                  <h1>TEST</h1>
+                </div>
+              </rt-tabs-content-item>
+              <rt-tabs-content-item name="1two">
+                <div class='rt-space-top3'>
+                  <p class="rt-font-h1">Смысл сайта</p>
+                  <p class="rt-font-paragraph">Повседневная практика показывает, что
+                    консультация с широким активом
+                    представляет собой интересный эксперимент проверки позиций,
+                    занимаемых участниками в отношении
+                    поставленных задач. Равным образом консультация с широким активом
+                    влечет за собой процесс внедрения
+                    и модернизации форм развития. Повседневная практика показывает, что
+                    консультация с широким активом
+                    обеспечивает широкому кругу (специалистов) участие в формировании
+                    соответствующий условий
+                    активизации. С другой стороны новая модель организационной
+                    деятельности позволяет оценить значение
+                    новых предложений. Не следует, однако забывать, что рамки и место
+                    обучения кадров требуют от нас
+                    анализа новых предложений. Идейные соображения высшего порядка, а
+                    также реализация намеченных
+                    плановых заданий обеспечивает широкому кругу (специалистов) участие
+                    в формировании позиций,
+                    занимаемых участниками в отношении поставленных задач.</p>
+                  <p class="rt-font-paragraph">Идейные соображения высшего порядка, а
+                    также постоянное
+                    информационно-пропагандистское обеспечение нашей деятельности в
+                    значительной степени обуславливает
+                    создание существенных финансовых и административных условий. С
+                    другой стороны постоянный
+                    количественный рост и сфера нашей активности позволяет выполнять
+                    важные задания по разработке
+                    существенных финансовых и административных условий. Таким образом
+                    консультация с широким активом
+                    влечет за собой процесс внедрения и модернизации форм развития. С
+                    другой стороны сложившаяся
+                    структура организации требуют определения и уточнения системы
+                    обучения кадров, соответствует
+                    насущным потребностям. Товарищи! рамки и место обучения кадров
+                    представляет собой интересный
+                    эксперимент проверки направлений прогрессивного развития.</p>
+                </div>
+              </rt-tabs-content-item>
+            </template>
+          </rt-tabs>
 
-          </div>
-          <div class="rt-space-bottom5">
-            <pre-code text='
+        </div>
+        <div class="rt-space-bottom5">
+          <pre-code text='
                     <rt-tabs :fill-Content="true">
                         <template slot="navigation">
                             <rt-tabs-nav-item anchor="one22" :remove-base-tag="true" name="Aone266">Второй
@@ -795,11 +840,11 @@
                             </rt-tabs-content-item>
                         </template>
                     </rt-tabs>'/>
-          </div>
         </div>
-        <div class="rt-col-12">
-          <div class="rt-space-bottom5">
-            <pre-code text='<rt-tabs>
+      </div>
+      <div class="rt-col-12">
+        <div class="rt-space-bottom5">
+          <pre-code text='<rt-tabs>
                         <template slot="navigation">
                             <rt-tabs-nav-item anchor="ready!" :remove-base-tag="true" name="one">Пример
                             </rt-tabs-nav-item>
@@ -855,9 +900,9 @@
                             </rt-tabs-content-item>
                         </template>
                     </rt-tabs>'/>
-          </div>
-          <div class="rt-space-bottom5">
-            <pre-code text='<rt-tabs :fill-content="true">
+        </div>
+        <div class="rt-space-bottom5">
+          <pre-code text='<rt-tabs :fill-content="true">
                         <template slot="navigation">
                             <rt-tabs-nav-item anchor="one1" :remove-base-tag="true" name="one166">Первый
                                 пункт
@@ -1041,12 +1086,12 @@
                             </rt-tabs-content-item>
                         </template>
                     </rt-tabs>'/>
-          </div>
         </div>
+      </div>
 
-        <div class="rt-col-8 rt-col-td-6 rt-col-md-3 rt-space-bottom2 is-b2b">
-          <h3 class="rt-font-bold rt-space-bottom15">Инструкции по настройке VoIP</h3>
-          <pre-code text='<rt-tabs>
+      <div class="rt-col-8 rt-col-td-6 rt-col-md-3 rt-space-bottom2 is-b2b">
+        <h3 class="rt-font-bold rt-space-bottom15">Инструкции по настройке VoIP</h3>
+        <pre-code text='<rt-tabs>
                     <template slot="navigation">
                         <rt-tabs-nav-item anchor="one" :remove-base-tag="true" name="apps">
                             Программы
@@ -1213,9 +1258,9 @@
                         </rt-tabs-content-item>
                     </template>
                 </rt-tabs>'/>
-        </div>
-        <div class="rt-col-12 is-b2b">
-          <pre-code text='<rt-tabs :position-center="true">
+      </div>
+      <div class="rt-col-12 is-b2b">
+        <pre-code text='<rt-tabs :position-center="true">
                     <template slot="navigation">
                         <rt-tabs-nav-item anchor="one" name="marketing">Маркетингу</rt-tabs-nav-item>
                         <rt-tabs-nav-item anchor="two" name="humanResources">Кадрам</rt-tabs-nav-item>
@@ -1385,9 +1430,9 @@
                         </rt-tabs-content-item>
                     </template>
                 </rt-tabs>'/>
-        </div>
-        <div class="rt-col-12 rt-space-top3 is-b2b">
-          <pre-code text='<rt-tabs :position-center="true">
+      </div>
+      <div class="rt-col-12 rt-space-top3 is-b2b">
+        <pre-code text='<rt-tabs :position-center="true">
                     <template slot="navigation">
                         <rt-tabs-nav-item anchor="alnfg" name="analytics22">Видеоаналитика
                         </rt-tabs-nav-item>
@@ -1517,9 +1562,9 @@
                         </rt-tabs-content-item>
                     </template>
                 </rt-tabs>'/>
-        </div>
-        <div class="rt-col-12 rt-space-top3 is-b2b">
-          <pre-code text='<rt-tabs>
+      </div>
+      <div class="rt-col-12 rt-space-top3 is-b2b">
+        <pre-code text='<rt-tabs>
                     <template slot="navigation">
                         <rt-tabs-nav-item anchor="test1" name="test1">Веб-камеры</rt-tabs-nav-item>
                         <rt-tabs-nav-item anchor="test2" name="test2">Плееры</rt-tabs-nav-item>
@@ -1617,111 +1662,58 @@
                         </rt-tabs-content-item>
                     </template>
                 </rt-tabs>'/>
-        </div>
-        <div class="rt-col-12 rt-space-top4 is-b2b">
-          <rt-tabs>
-            <template slot="navigation">
-              <rt-tabs-nav-item anchor="asdfasdasdfasdfasdfad" name="asdfasdasdfasdfasdfad">
-                321321
-              </rt-tabs-nav-item>
-              <rt-tabs-nav-item anchor="asdfasdfasdfasdfasfasdf" name="asdfasdfasdfasdfasfasdf">
-                3213211
-              </rt-tabs-nav-item>
-            </template>
-            <template slot="content">
-              <rt-tabs-content-item name="asdfasdasdfasdfasdfad">
-                <rt-card-layout :swiper-on-mobile="true" :width="9" :single-row="true">
-                  <template slot="cards">
-                    <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top"
-                         v-for="i in 3" :key="i">
-                      <rt-card>
-                        <template slot="header">
-                          <p class="rt-font-h2 rt-font-bold rt-space-bottom">Тариф {{ i }}</p>
-                        </template>
-                        <template slot="content">
-                          <div class="rtb-card__description__row" v-for="j in 3"
-                               :key="j">
-                            <p class="rt-font-paragraph">
-                              Какая-то инфа {{ j }}
-                            </p>
-                          </div>
-                        </template>
-                        <template slot="footer">
-                          <div class="rtb-card__cost">
-                            <rt-price
-                                :value="i * 500"
-                                :is-option="false"
-                                currency="₽"
-                                :b2b-price="true"
-                                time-interval="в месяц"
-                                :is-time-interval-bottom="true"
-                            />
-                          </div>
-                          <a href="#">
-                            <rt-button
-                                class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
-                              Выбрать {{ i }}
-                            </rt-button>
-                          </a>
-                        </template>
-                      </rt-card>
-                    </div>
-                  </template>
-                  <template slot="side-text">
-                    <div>
-                      <p class="rt-font-bold rt-font-paragraph">Когда много
-                        пользователей</p>
-                      <p class="rt-font-small-paragraph">Для большого количества
-                        пользователей и трафика, можно
-                        использовать и 
-                        в помещении, и на улице. Безлимитная авторизация через портал
-                        государственных услуг
-                        и по номеру 8 800.</p>
-                    </div>
-                  </template>
-                </rt-card-layout>
-              </rt-tabs-content-item>
-              <rt-tabs-content-item name="asdfasdfasdfasdfasfasdf">
-                <rt-card-layout :swiper-on-mobile="true" :width="6">
-                  <template slot="cards">
-                    <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top"
-                         v-for="i in 4" :key="i">
-                      <rt-card>
-                        <template slot="header">
-                          <p class="rt-font-h2 rt-font-bold rt-space-bottom">Тариф {{
-                              i
-                            }}</p>
-                        </template>
-                        <template slot="content">
-                          <div class="rtb-card__description__row" v-for="j in 3"
-                               :key="j">
-                            <p class="rt-font-paragraph">
-                              Какая-то инфа {{ j }}
-                            </p>
-                          </div>
-                        </template>
-                        <template slot="footer">
-                          <div class="rtb-card__cost">
-                            <rt-price
-                                :value="i * 500"
-                                :is-option="false"
-                                currency="₽"
-                                :b2b-price="true"
-                                time-interval="в месяц"
-                                :is-time-interval-bottom="true"
-                            />
-                          </div>
-                          <a href="#">
-                            <rt-button
-                                class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
-                              Выбрать {{ i }}
-                            </rt-button>
-                          </a>
-                        </template>
-                      </rt-card>
-                    </div>
-                  </template>
-                  <template slot="side-text">
+      </div>
+      <div class="rt-col-12 rt-space-top4 is-b2b">
+        <rt-tabs>
+          <template slot="navigation">
+            <rt-tabs-nav-item anchor="asdfasdasdfasdfasdfad" name="asdfasdasdfasdfasdfad">
+              321321
+            </rt-tabs-nav-item>
+            <rt-tabs-nav-item anchor="asdfasdfasdfasdfasfasdf" name="asdfasdfasdfasdfasfasdf">
+              3213211
+            </rt-tabs-nav-item>
+          </template>
+          <template slot="content">
+            <rt-tabs-content-item name="asdfasdasdfasdfasdfad">
+              <rt-card-layout :swiper-on-mobile="true" :width="9" :single-row="true">
+                <template slot="cards">
+                  <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top"
+                       v-for="i in 3" :key="i">
+                    <rt-card>
+                      <template slot="header">
+                        <p class="rt-font-h2 rt-font-bold rt-space-bottom">Тариф {{ i }}</p>
+                      </template>
+                      <template slot="content">
+                        <div class="rtb-card__description__row" v-for="j in 3"
+                             :key="j">
+                          <p class="rt-font-paragraph">
+                            Какая-то инфа {{ j }}
+                          </p>
+                        </div>
+                      </template>
+                      <template slot="footer">
+                        <div class="rtb-card__cost">
+                          <rt-price
+                              :value="i * 500"
+                              :is-option="false"
+                              currency="₽"
+                              :b2b-price="true"
+                              time-interval="в месяц"
+                              :is-time-interval-bottom="true"
+                          />
+                        </div>
+                        <a href="#">
+                          <rt-button
+                              class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
+                            Выбрать {{ i }}
+                          </rt-button>
+                        </a>
+                      </template>
+                    </rt-card>
+                  </div>
+                </template>
+                <template slot="side-text">
+                  <div>
                     <p class="rt-font-bold rt-font-paragraph">Когда много
                       пользователей</p>
                     <p class="rt-font-small-paragraph">Для большого количества
@@ -1730,39 +1722,91 @@
                       в помещении, и на улице. Безлимитная авторизация через портал
                       государственных услуг
                       и по номеру 8 800.</p>
-                  </template>
-                </rt-card-layout>
-              </rt-tabs-content-item>
-            </template>
-          </rt-tabs>
-        </div>
-
-        <div class="rt-col-12">
-          <rt-tabs>
-            <template slot="navigation">
-              <rt-tabs-nav-item
-                  :remove-base-tag="true"
-                  name="one-щту">
-                Добавить комментарий
-              </rt-tabs-nav-item>
-              <rt-tabs-nav-item
-                  :remove-base-tag="true"
-                  name="two-щту">
-                Изменить дату или время
-              </rt-tabs-nav-item>
-            </template>
-            <template slot="content">
-              <rt-tabs-content-item name="one-щту">
-                add-comment/>
-              </rt-tabs-content-item>
-              <rt-tabs-content-item name="two-щту">
-                change-date-time/>
-              </rt-tabs-content-item>
-            </template>
-          </rt-tabs>
-        </div>
-        <documentation-builder :json="documentation" type="components"/>
+                  </div>
+                </template>
+              </rt-card-layout>
+            </rt-tabs-content-item>
+            <rt-tabs-content-item name="asdfasdfasdfasdfasfasdf">
+              <rt-card-layout :swiper-on-mobile="true" :width="6">
+                <template slot="cards">
+                  <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top"
+                       v-for="i in 4" :key="i">
+                    <rt-card>
+                      <template slot="header">
+                        <p class="rt-font-h2 rt-font-bold rt-space-bottom">Тариф {{
+                            i
+                          }}</p>
+                      </template>
+                      <template slot="content">
+                        <div class="rtb-card__description__row" v-for="j in 3"
+                             :key="j">
+                          <p class="rt-font-paragraph">
+                            Какая-то инфа {{ j }}
+                          </p>
+                        </div>
+                      </template>
+                      <template slot="footer">
+                        <div class="rtb-card__cost">
+                          <rt-price
+                              :value="i * 500"
+                              :is-option="false"
+                              currency="₽"
+                              :b2b-price="true"
+                              time-interval="в месяц"
+                              :is-time-interval-bottom="true"
+                          />
+                        </div>
+                        <a href="#">
+                          <rt-button
+                              class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
+                            Выбрать {{ i }}
+                          </rt-button>
+                        </a>
+                      </template>
+                    </rt-card>
+                  </div>
+                </template>
+                <template slot="side-text">
+                  <p class="rt-font-bold rt-font-paragraph">Когда много
+                    пользователей</p>
+                  <p class="rt-font-small-paragraph">Для большого количества
+                    пользователей и трафика, можно
+                    использовать и 
+                    в помещении, и на улице. Безлимитная авторизация через портал
+                    государственных услуг
+                    и по номеру 8 800.</p>
+                </template>
+              </rt-card-layout>
+            </rt-tabs-content-item>
+          </template>
+        </rt-tabs>
       </div>
+
+      <div class="rt-col-12">
+        <rt-tabs>
+          <template slot="navigation">
+            <rt-tabs-nav-item
+                :remove-base-tag="true"
+                name="one-щту">
+              Добавить комментарий
+            </rt-tabs-nav-item>
+            <rt-tabs-nav-item
+                :remove-base-tag="true"
+                name="two-щту">
+              Изменить дату или время
+            </rt-tabs-nav-item>
+          </template>
+          <template slot="content">
+            <rt-tabs-content-item name="one-щту">
+              add-comment/>
+            </rt-tabs-content-item>
+            <rt-tabs-content-item name="two-щту">
+              change-date-time/>
+            </rt-tabs-content-item>
+          </template>
+        </rt-tabs>
+      </div>
+      <documentation-builder :json="documentation" type="components"/>
     </div>
   </div>
 </template>
@@ -1776,7 +1820,14 @@ export default {
   name: "AppTabs",
   components: componentsList,
   data: () => ({
-    documentation: {}
+    colors: ["black", "black085", "black085-no-opacity", "purple", "purple-button-hover", "purple-button-active", "purple01", "purple005", "purple-low", "purple-high", "purple-night", "white", "red", "red-low", "red-high", "gray", "dark-blue", "dark-blue-low", "dark-blue-high", "light-blue", "light-blue-low", "light-blue-high", "yellow", "yellow-low", "yellow-high", "orange", "orange-night", "orange-button-hover", "orange-button-active", "orange-low", "orange-high", "orange-super", "pink", "pink-low", "pink-high", "green", "green-low", "green-high", "cool-grey", "cool-grey07", "cool-grey05", "cool-grey03", "cool-grey05-no-opacity", "purple-high05", "purple-high02", "orange-high05", "orange-high02", "orange03", "orange01", "orange005", "slate", "dark-slate", "burgundy", "white09", "white08", "white07", "white06", "white05", "white04", "white03", "white025", "white02", "white01", "white005", "main-color", "main-color09", "main-color08", "main-color07", "main-color06", "main-color05", "main-color04", "main-color03", "main-color02", "main-color01", "main-color007", "main-color005", "main-color003", "main-color09-no-opacity", "main-color085-no-opacity", "main-color07-no-opacity", "main-color05-no-opacity", "main-color03-no-opacity", "main-color01-no-opacity", "main-color007-no-opacity", "main-color005-no-opacity", "main-color003-no-opacity"],
+    shadowColor: "",
+    background: "",
+    asTag: false,
+    showBottomLine: false,
+    bright: false,
+    documentation: {},
+    colorBlockClass: ""
   }),
   mounted() {
     this.documentation = documentation;
