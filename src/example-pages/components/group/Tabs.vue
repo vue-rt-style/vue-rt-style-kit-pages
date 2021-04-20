@@ -43,7 +43,7 @@
                 </select>
               </rt-col>
               <rt-col size="2">
-                <p>background</p>
+                <p>shadowColor</p>
                 <select v-model="shadowColor">
                   <option v-for="i in colors" :value="i">{{ i }}</option>
                 </select>
