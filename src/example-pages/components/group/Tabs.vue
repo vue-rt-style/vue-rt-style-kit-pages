@@ -54,17 +54,21 @@
                   <option v-for="i in colors" :value="i">{{ i }}</option>
                 </select>
               </rt-col>
-              <rt-col size="2">
+              <rt-col size="1">
                 <p>show as tag</p>
                 <input type="checkbox" v-model="asTag">
               </rt-col>
-              <rt-col size="2">
+              <rt-col size="1">
                 <p>bright</p>
                 <input type="checkbox" v-model="bright">
               </rt-col>
               <rt-col size="2">
                 <p>showBottomLine</p>
                 <input type="checkbox" v-model="showBottomLine">
+              </rt-col>
+              <rt-col size="2">
+                <p>bottomLineWhite</p>
+                <input type="checkbox" v-model="bottomLineWhite">
               </rt-col>
             </rt-row>
           </div>
@@ -75,7 +79,7 @@
           <div class="rt-col-12 rt-space-bottom3 is-b2c">
 
               <rt-tabs :version="2" :background="background" :shadow-color="shadowColor"
-                     :show-bottom-line="showBottomLine" :bright="bright" :show-as-tags="asTag">
+                     :show-bottom-line="showBottomLine" :bottom-line-white="bottomLineWhite" :bright="bright" :show-as-tags="asTag">
               <template slot="navigation">
                 <rt-tabs-nav-item v-ga-click='{data:{"event":"b2c","type":"main_tab","value":"packages"}}'
                                   anchor="ready!" name="tabs9911">
@@ -1825,6 +1829,7 @@ export default {
     background: "",
     asTag: false,
     showBottomLine: false,
+    bottomLineWhite: false,
     bright: false,
     documentation: {},
     colorBlockClass: ""
