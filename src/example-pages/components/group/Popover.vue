@@ -161,7 +161,7 @@
               <rt-col size="4">
                 <div class="relative d-inline-block">
 
-                  <pre-code text='<rt-popover container-id="wrap" vertical="center" horizontal="top">
+                  <pre-code text='<rt-popover icon-name="bed" container-id="wrap" vertical="center" horizontal="top">
             <div>
               <p class="rt-font-label rt-font-bold sp-b-0-2 color-main07">Заголовок</p>
               <p class="rt-font-label color-main07">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>
@@ -172,7 +172,7 @@
               <rt-col size="4">
                 <div class="relative d-inline-block">
 
-                  <pre-code text='<rt-popover container-id="wrap" vertical="center" horizontal="top">
+                  <pre-code text='<rt-popover icon-name="apple fill" container-id="wrap" vertical="center" horizontal="top">
             <div>
               <p class="rt-font-label rt-font-bold sp-b-0-2 color-main07">Заголовок</p>
               <p class="rt-font-label color-main07">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>
@@ -183,7 +183,7 @@
               <rt-col class="d-flex flex-end-center" size="4">
                 <div class="relative d-inline-block">
 
-                  <pre-code text='<rt-popover container-id="wrap" vertical="center" horizontal="top">
+                  <pre-code text='<rt-popover icon-name="android fill" container-id="wrap" vertical="center" horizontal="top">
             <div>
               <p class="rt-font-label rt-font-bold sp-b-0-2 color-main07">Заголовок</p>
               <p class="rt-font-label color-main07">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>
