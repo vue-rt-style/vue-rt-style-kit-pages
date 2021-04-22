@@ -578,7 +578,7 @@
         {
           "name" : "TV",
           "title" : "TV",
-          "url" : "/promo/tv",
+          "url" : "/tv",
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
@@ -610,7 +610,7 @@
         {
           "name" : "testAccess",
           "title" : "test access",
-          "url" : "/promo/test-access",
+          "url" : "/test-access",
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
@@ -618,7 +618,7 @@
         {
           "name" : "VCOD",
           "title" : "VCOD",
-          "url" : "/promo/VCOD",
+          "url" : "/VCOD",
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
