@@ -84,7 +84,7 @@
               </div>
             </div>
           </rt-popup>
-          <rt-popup name="filter2">
+          <rt-popup name="filter2" :size='10' popup-classes='td-sp-v-2 td-sp-h-2'>
             <h1>А это попап 2</h1>
           </rt-popup>
           <rt-popup name="filter3">

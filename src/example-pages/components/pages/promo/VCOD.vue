@@ -1,558 +1,498 @@
 <template>
-  <div class="vcod is-b2b">
-    <rt-banner has-custom-height="500px"
-               content-mobile-height="400px">
-      <rt-banner-item background-color="green-low">
-        <rt-color-line-text color-icon="orange"
-                            fill-color="white">
-          <template slot="label">Виртуальный ЦОД</template>
-          <template slot="content">Выгодная и безопасная альтернатива<br> собственной ИТ-Инфраструктуре</template>
-        </rt-color-line-text>
-        <rt-button class='rt-button-orange'>Оставить заявку</rt-button>
-      </rt-banner-item>
-    </rt-banner>
-    <div class="rt-container rt-container--mobile-full-width">
-      <div class="rt-col">
-        <div class="row">
-          <div class="rt-col-2 td-d-none"></div>
-          <div class="rt-col-8 rt-col-td-6 rt-col-md-3">
-            <h2 class="rt-font-center rt-space-top4 rt-space-bottom rt-font-bold">Об услуге</h2>
-            <p class="rt-font-center rt-font-paragraph rt-space-bottom3">Виртуальный Центр Обработки Данных — это
-              безопасная и надежная IT-инфраструктура для вашего бизнеса. Арендуйте вычислительные мощности облачной
-              платформы Ростелекома для размещения информационных систем, приложений, веб-сайтов</p>
-          </div>
-          <div class="rt-col-2 td-d-none"></div>
-        </div>
-        <div class="row">
-          <rt-card-carousel>
-            <rt-card background-color-type="dark-slate" :background-blur="5" :is-white-color="true" class="carousel-card carousel-card--active">
-              <template slot="content">
-                <div class="rt-space-top15 rt-space-bottom">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="77" height="78">
-                    <g fill="none" fill-rule="evenodd">
-                      <path fill="#FFF" fill-rule="nonzero" d="M38.163 9.813c-6.054 0-10.979 4.925-10.979 10.979v4.688h2.742v-4.691c0-4.541 3.693-8.234 8.234-8.234 4.54 0 8.234 3.693 8.234 8.234v4.691h2.742v-4.691c.003-6.051-4.918-10.976-10.973-10.976z"/>
-                      <path fill="#FFF" fill-rule="nonzero" d="M47.763 27.944l.007 17.168-19.207.006-.006-17.174h19.206m.01-3.2H28.56a3.194 3.194 0 0 0-3.194 3.19v17.184a3.194 3.194 0 0 0 3.194 3.194h19.213a3.194 3.194 0 0 0 3.193-3.194V27.934a3.194 3.194 0 0 0-3.193-3.19"/>
-                      <path fill="#FFF" fill-rule="nonzero" d="M38.163 33.886a1.6 1.6 0 0 0-1.6 1.6v3.204a1.6 1.6 0 0 0 3.2 0v-3.204c0-.883-.713-1.6-1.6-1.6z"/>
-                      <path fill="#FFF" fill-rule="nonzero" d="M38.166 77.09l-.65-.288C2.126 61.074.315 15.234.299 14.77L.25 13.122H1.9c6.295 0 11.412-5.12 11.412-11.412V.11h49.706v1.6c0 6.292 5.12 11.412 11.41 11.412h1.652l-.051 1.648c-.016.464-1.824 46.304-37.216 62.028l-.647.292zM3.6 16.222c.653 7.908 5.206 43.821 34.566 57.357C67.562 60.027 72.09 24.126 72.733 16.222 66 15.438 60.646 10.06 59.907 3.31H16.426c-.74 6.75-6.093 12.128-12.826 12.912z"/>
-                      <path d="M-2-1h80v80H-2z"/>
-                    </g>
-                  </svg>
-                </div>
-                <p class="rt-font-label">1/8</p>
-                <h4 class="rt-font-bold rt-space-top">Надежность и безопасность</h4>
-                <p class="rt-font-paragraph rt-space-top05">Высокая безопасность размещения данных подтверждена сертификатами ФСБ, ФСТЭК,
-                  PCI DSS и аттестатом облачной платформы Доступность инфраструктуры гарантируется SLA</p>
-              </template>
-            </rt-card>
-            <rt-card background-color-type="green-low" :background-blur="5" :is-white-color="true" class="carousel-card">
-              <template slot="content">
-                <div class="rt-space-top15 rt-space-bottom">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="62" height="80">
-                    <g fill="none" fill-rule="evenodd">
-                      <path fill="#FFF" fill-rule="nonzero" d="M32.902 69.327V2.705a1.819 1.819 0 0 0-3.637 0v66.622h3.637z"/>
-                      <path fill="#FFF" fill-rule="nonzero" d="M31.084 61.764c-8.88 0-15.837-13.371-15.837-30.44 0-17.07 6.957-30.44 15.837-30.44 8.88 0 15.836 13.37 15.836 30.44 0 17.069-6.956 30.44-15.836 30.44zm0-57.24c-6.615 0-12.2 12.272-12.2 26.803s5.585 26.804 12.2 26.804c6.614 0 12.2-12.273 12.2-26.804 0-14.53-5.586-26.803-12.2-26.803z"/>
-                      <path fill="#FFF" fill-rule="nonzero" d="M59.705 33.142H2.465a1.819 1.819 0 0 1 0-3.637h57.24a1.819 1.819 0 0 1 0 3.637zm-4.68 14.028H6.065a1.819 1.819 0 0 1 0-3.635h48.96a1.819 1.819 0 0 1 0 3.636zm0-25.52H6.065a1.819 1.819 0 0 1 0-3.635h48.96a1.819 1.819 0 0 1 0 3.636zM31.084 79.953a6.603 6.603 0 0 1-6.597-6.597 6.603 6.603 0 0 1 6.597-6.596c3.64 0 6.596 2.96 6.596 6.596a6.603 6.603 0 0 1-6.596 6.597zm0-9.56a2.963 2.963 0 0 0-2.96 2.96 2.963 2.963 0 0 0 2.96 2.96 2.963 2.963 0 0 0 2.96-2.96 2.963 2.963 0 0 0-2.96-2.96zm-25.454.051a2.914 2.914 0 0 0-2.914 2.912A2.914 2.914 0 0 0 5.63 76.27a2.912 2.912 0 1 0 0-5.825m10.828-.001a2.914 2.914 0 0 0-2.913 2.912 2.914 2.914 0 0 0 2.913 2.913 2.912 2.912 0 1 0 0-5.825m29.215 0a2.914 2.914 0 0 0-2.913 2.912 2.914 2.914 0 0 0 2.913 2.913 2.914 2.914 0 0 0 2.912-2.913 2.914 2.914 0 0 0-2.912-2.912m10.825 0a2.914 2.914 0 0 0-2.913 2.912 2.914 2.914 0 0 0 2.913 2.913 2.912 2.912 0 1 0 0-5.825"/>
-                      <path fill="#FFF" fill-rule="nonzero" d="M31.084 61.764C14.302 61.764.647 48.109.647 31.324.647 14.538 14.302.884 31.084.884c16.785 0 30.44 13.654 30.44 30.44 0 16.785-13.655 30.44-30.44 30.44zm0-57.24c-14.775 0-26.8 12.025-26.8 26.803s12.025 26.804 26.8 26.804c14.778 0 26.803-12.026 26.803-26.804 0-14.778-12.022-26.803-26.803-26.803z"/>
-                      <path d="M-9 0h80v80H-9z"/>
-                    </g>
-                  </svg>
-                </div>
-                <p class="rt-font-label">2/8</p>
-                <h4 class="rt-font-bold rt-space-top">Выбор площадки размещения</h4>
-                <p class="rt-font-paragraph rt-space-top05">Центры обработки данных Ростелекома расположены в трех
-                  федеральных округах России. Для размещения IT-инфраструктуры можно выбрать Москву, Новосибирск или Сочи.</p>
-              </template>
-            </rt-card>
-            <rt-card background-color-type="light-blue" :background-blur="5" :is-white-color="true" class="carousel-card">
-              <template slot="content">
-                <div class="rt-space-top15 rt-space-bottom">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="76" height="67">
-                    <g fill="none" fill-rule="evenodd">
-                      <path fill="#FFF" fill-rule="nonzero" d="M31.69 6.931c15.253 0 27.66 12.408 27.66 27.661 0 15.254-12.411 27.661-27.66 27.661-15.25 0-27.661-12.407-27.661-27.66 0-15.254 12.407-27.662 27.66-27.662zm0-3.81C14.31 3.122.219 17.214.219 34.593c0 17.383 14.091 31.47 31.47 31.47 17.383 0 31.471-14.09 31.471-31.47 0-17.379-14.088-31.47-31.47-31.47zm36.46.938a3.81 3.81 0 0 1 3.806 3.806 3.81 3.81 0 0 1-3.806 3.805 3.81 3.81 0 0 1-3.805-3.805 3.81 3.81 0 0 1 3.805-3.806zm0-3.81a7.615 7.615 0 1 0 0 15.231 7.615 7.615 0 0 0 0-15.23z"/>
-                      <path d="M-2-6h80v80H-2z"/>
-                    </g>
-                  </svg>
-                </div>
-                <p class="rt-font-label">3/8</p>
-                <h4 class="rt-font-bold rt-space-top">Легкое и быстрое масштабирование</h4>
-                <p class="rt-font-paragraph rt-space-top05">Изменяйте параметры вашей системы и увеличивайте
-                  производительность в режиме онлайн</p>
-              </template>
-            </rt-card>
-            <rt-card background-color-type="dark-slate" :background-blur="5" :is-white-color="true" class="carousel-card">
-              <template slot="content">
-                <div class="rt-space-top15 rt-space-bottom">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="78" height="62">
-                    <g fill="none" fill-rule="evenodd" transform="translate(-1 -10)">
-                      <circle cx="40.117" cy="55.174" r="1.411" fill="#FFF" fill-rule="nonzero"/>
-                      <path fill="#FFF" fill-rule="nonzero" d="M75.714 10.483H59.218v3.2h16.099v35.091h-70.4v-35.09h15.897v-3.2H4.504a2.784 2.784 0 0 0-2.784 2.783v45.549a2.79 2.79 0 0 0 2.79 2.79h71.217a2.794 2.794 0 0 0 2.793-2.793V13.286a2.805 2.805 0 0 0-2.806-2.803zm-.394 47.891H4.92v-6.393h70.4v6.393z"/>
-                      <path fill="#FFF" fill-rule="nonzero" d="M48.018 23.245h3.2v16.038h-3.2z"/>
-                      <path fill="#FFF" fill-rule="nonzero" d="M49.618 10.586l-7.632 12.662H57.25l-7.632-12.662zm-1.972 9.459l1.968-3.264 1.968 3.264h-3.936zm-18.771-9.562h3.2v16.355h-3.2zm3.2 16.355h-9.232l7.632 12.666 7.632-12.666h-6.032zm-3.568 3.2h3.936l-1.968 3.264-1.968-3.264zM27.32 67.974v3.2h25.6v-3.2h-6.4v-6.368h-3.238v6.368h-6.34v-6.368H33.72v6.368z"/>
-                      <path d="M0 0h80v80H0z"/>
-                    </g>
-                  </svg>
-                </div>
-                <p class="rt-font-label">4/8</p>
-                <h4 class="rt-font-bold rt-space-top">Доступность</h4>
-                <p class="rt-font-paragraph rt-space-top05">Возможность подключения к  виртуальной инфраструктуре через
-                  крупнейшую в России сеть IP MPLS Ростелеком и сети присоединенных операторов</p>
-              </template>
-            </rt-card>
-            <rt-card background-color-type="green-low" :background-blur="5" :is-white-color="true" class="carousel-card">
-              <template slot="content">
-                <div class="rt-space-top15 rt-space-bottom">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="54" height="77">
-                    <g fill="none" fill-rule="evenodd">
-                      <g fill="#FFF" fill-rule="nonzero">
-                        <path d="M26.743 32.25a6.052 6.052 0 0 1-6.046-6.047 6.052 6.052 0 0 1 6.046-6.046 6.052 6.052 0 0 1 6.047 6.046 6.052 6.052 0 0 1-6.047 6.047zm0-8.76a2.716 2.716 0 0 0-2.713 2.713 2.716 2.716 0 0 0 2.713 2.714 2.716 2.716 0 0 0 2.714-2.714 2.711 2.711 0 0 0-2.714-2.713zm-1.537 25.853h3.333v26.753h-3.333zm28.377 4.57c0-6.686-5.133-12.2-11.666-12.803v3.353c4.69.587 8.333 4.6 8.333 9.45v16.59l-8.333-2.413v3.473l11.666 3.38v-21.03z"/>
-                        <path d="M27.88 1.353l-.873-.55-.884.54c-.583.357-14.296 8.917-14.296 21.164v49.056l3.333-.973V22.507c0-8.747 8.95-15.714 11.83-17.73 2.84 2.02 11.593 8.963 11.593 17.73v48.086l3.334.967V22.507c0-12.237-13.46-20.797-14.037-21.154z"/>
-                        <path d="M3.583 70.497V53.91c0-4.82 3.597-8.813 8.247-9.44v-3.353C5.34 41.757.25 47.25.25 53.91v21.033l11.58-3.38V68.09l-8.247 2.407z"/>
-                      </g>
-                      <path d="M-14-2h80v80h-80z"/>
-                    </g>
-                  </svg>
-                </div>
-                <p class="rt-font-label">5/8</p>
-                <h4 class="rt-font-bold rt-space-top">Быстрое подключение</h4>
-                <p class="rt-font-paragraph rt-space-top05">Необходимые для работы ресурсы можно получить всего за
-                  несколько минут в режиме онлайн</p>
-              </template>
-            </rt-card>
-            <rt-card background-color-type="light-blue" :background-blur="5" :is-white-color="true" class="carousel-card">
-              <template slot="content">
-                <div class="rt-space-top15 rt-space-bottom">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="75">
-                    <g fill="none" fill-rule="evenodd">
-                      <g fill="#FFF" fill-rule="nonzero">
-                        <path d="M27.707 41.836h-3.81V30.331h-4.019v-3.81h4.02v-9.523c0-1.051.852-1.905 1.904-1.905h6.4c5.535 0 8.838 2.85 8.838 7.62 0 4.769-3.333 7.618-8.914 7.618h-4.42v11.505zm0-15.314h4.419c4.525 0 5.104-2.034 5.104-3.81 0-1.04 0-3.81-5.028-3.81h-4.495v7.62z"/>
-                        <path d="M19.878 33.768H33.42v3.81H19.878z"/>
-                        <path d="M33.897 54.008c0-.572.046-1.132.084-1.692a24.108 24.108 0 0 1-5.036.534c-13.345 0-24.202-10.858-24.202-24.2 0-13.34 10.857-24.198 24.202-24.198 13.34 0 24.202 10.857 24.202 24.198 0 .469-.046.926-.073 1.387a24.938 24.938 0 0 1 3.836-.537c.008-.286.042-.564.042-.85 0-15.47-12.54-28.007-28.011-28.007-15.47 0-28 12.537-28 28.004 0 15.47 12.54 28.007 28.011 28.007 1.73 0 3.418-.179 5.06-.48a23.926 23.926 0 0 1-.115-2.167z"/>
-                        <path d="M58.484 36.85c9.459 0 17.158 7.695 17.158 17.158 0 9.462-7.7 17.158-17.158 17.158-9.46 0-17.158-7.696-17.158-17.158 0-9.463 7.699-17.158 17.158-17.158zm0-3.81c-11.581 0-20.968 9.387-20.968 20.968 0 11.58 9.387 20.967 20.968 20.967 11.58 0 20.967-9.386 20.967-20.967S70.065 33.04 58.484 33.04z"/>
-                        <path d="M56.579 44.621h3.81v18.77h-3.81z"/>
-                        <path d="M49.101 52.099h18.77v3.81h-18.77z"/>
-                      </g>
-                      <path d="M0-2h80v80H0z"/>
-                    </g>
-                  </svg>
-                </div>
-                <p class="rt-font-label">6/8</p>
-                <h4 class="rt-font-bold rt-space-top">Экономичность</h4>
-                <p class="rt-font-paragraph rt-space-top05">Ежесуточная тарификация и бесплатный тестовый период.
-                  Специальный тариф на IP VPN</p>
-              </template>
-            </rt-card>
-            <rt-card background-color-type="dark-slate" :background-blur="5" :is-white-color="true" class="carousel-card">
-              <template slot="content">
-                <div class="rt-space-top15 rt-space-bottom">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="77" height="66">
-                    <g fill="none" fill-rule="evenodd">
-                      <g fill="#FFF" fill-rule="nonzero">
-                        <path d="M69.786 61.773c-9.392-2.957-20.15-4.55-31.252-4.55-11.219 0-22.076 1.625-31.539 4.643v3.324c9.367-3.116 20.269-4.764 31.536-4.764 11.152 0 21.955 1.616 31.251 4.672v-3.325h.004zM20.8.291a1.6 1.6 0 1 0 .027 3.201 1.6 1.6 0 0 0-.027-3.2"/>
-                        <path d="M73.61 13.085H54.384v3.2H73.6l.006 38.403-70.406.006-.006-38.41H16v-3.2H3.194A3.19 3.19 0 0 0 0 16.276v38.42a3.194 3.194 0 0 0 3.194 3.193H73.61a3.194 3.194 0 0 0 3.193-3.194v-38.42a3.196 3.196 0 0 0-3.193-3.19z"/>
-                        <path d="M51.213 21.091V19.13c0-6.807-5.536-12.343-12.343-12.343H19.213v3.2H38.87c5.04 0 9.143 4.103 9.143 9.143v15.865c-2.279-2.624-5.562-4.304-9.143-4.304H20.8v3.2h18.067c4.957 0 9.143 4.397 9.143 9.6v.007a3.194 3.194 0 0 0 3.193 3.193l.003.003H65.6v-25.6H51.213v-.003zm11.187 22.4H51.213v-19.2H62.4v19.2z"/>
-                        <path d="M19.213 6.787h3.2v46.304h-3.2z"/>
-                      </g>
-                      <path d="M-1-8h80v80H-1z"/>
-                    </g>
-                  </svg>
-                </div>
-                <p class="rt-font-label">7/8</p>
-                <h4 class="rt-font-bold rt-space-top">Российское решение</h4>
-                <p class="rt-font-paragraph rt-space-top05">Система управления облачной платформы Ростелекома внесена в
-                  единый реестр программ Министерства связи и массовых коммуникаций Российской Федерации. Все данные
-                  хранятся на территории России</p>
-              </template>
-            </rt-card>
-            <rt-card background-color-type="light-blue" :background-blur="5" :is-white-color="true" class="carousel-card">
-              <template slot="content">
-                <div class="rt-space-top15 rt-space-bottom">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="77" height="78">
-                    <g fill="none" fill-rule="evenodd">
-                      <g fill="#FFF" fill-rule="nonzero">
-                        <path d="M24.996 19.153H41.56v3.333H24.996zm-.066 6.657h9.96v3.333h-9.96z"/>
-                        <path d="M21.59 15.36h31.293v3.79h3.334v-3.8a3.325 3.325 0 0 0-3.327-3.323h-31.3a3.327 3.327 0 0 0-3.327 3.323v26.663a3.327 3.327 0 0 0 3.327 3.327h17.72v-3.33l-17.717.003-.003-26.653z"/>
-                        <path d="M51.553 46.46c-6.556 0-11.886-5.333-11.886-11.89 0-6.553 5.333-11.887 11.886-11.887 6.554 0 11.89 5.334 11.89 11.887 0 6.557-5.336 11.89-11.89 11.89zm0-20.447c-4.716 0-8.553 3.837-8.553 8.554 0 4.72 3.837 8.556 8.553 8.556 4.72 0 8.557-3.836 8.557-8.556 0-4.714-3.837-8.554-8.557-8.554z"/>
-                        <path d="M51.56 32.667a1.794 1.794 0 1 1-.001 3.587 1.794 1.794 0 0 1 .001-3.587zm0-3.334a5.126 5.126 0 1 0 0 10.253 5.126 5.126 0 0 0 0-10.253z"/>
-                        <path d="M74.523 13.613c-6.206 0-11.256-5.05-11.256-11.256V.69H13.743v1.667c0 6.206-5.05 11.256-11.256 11.256H.767L.82 15.33c.017.46 1.813 46.04 37.007 61.677l.676.3.677-.3c6.283-2.794 11.487-6.547 15.82-10.82l-2.577-2.11c-3.866 3.75-8.46 7.053-13.92 9.576C9.503 60.257 4.927 24.827 4.26 16.84c6.663-.81 11.957-6.137 12.72-12.817h43.047c.763 6.68 6.056 12.007 12.723 12.817-.39 4.727-2.193 19.057-9.58 32.753l-.053 6.627c12.19-18.657 13.06-40.57 13.073-40.887l.053-1.716h-1.72v-.004z"/>
-                        <path d="M56.553 43.977l-.006 15.11-5-3.727-5 3.727.006-15.04-3.333-2.594-.007 24.3 8.334-6.663 8.333 6.663.007-24.723h-.124z"/>
-                      </g>
-                      <path d="M-1-1h80v80H-1z"/>
-                    </g>
-                  </svg>
-                </div>
-                <p class="rt-font-label">8/8</p>
-                <h4 class="rt-font-bold rt-space-top">Опыт и компетенции</h4>
-                <p class="rt-font-paragraph rt-space-top05">Ростелеком — надежный партнер с успешным опытом реализации
-                  множества проектов федерального масштаба</p>
-              </template>
-            </rt-card>
-          </rt-card-carousel>
-        </div>
-      </div>
-    </div>
-    <div class="color-block--light-grey rt-space-top3 rt-space-bottom3">
+  <div class="blog blog-category">
+    <div class="blog__header-wrapper">
       <div class="rt-container">
         <div class="rt-col">
-          <h2 class="rt-font-bold rt-space-bottom3">Возможности</h2>
-          <rt-row-list :company-profits="true" :align-left="true" :columns-quantity="2">
-            <rt-row-list-item icon="/static/images/B2B/014-c.svg">
-              <template slot="option">
-                <div class="ovh">
-                  <h4 class="rt-space-bottom05 rt-font-bold">Гибкие конфигурации</h4>
-                  <p class="rt-font-paragraph">Создавайте виртуальные машины с любой операционной системой
-                    из списка индивидуальных конфигураций серверов </p>
+          <div class="blog__header">
+            <div class="blog__header-left">
+              <div class="logo">
+                <svg class="d-block" width="140" height="36" viewBox="0 0 140 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8441 36.0011C9.88521 30.2409 6.9057 27.361 6.90557 27.3611L1.07766 33.1211C0.478143 33.9111 0.633048 35.0372 1.42365 35.6363C1.73597 35.873 2.11719 36.0011 2.50916 36.0011C2.51894 36.0011 2.52872 36.0011 2.5385 36.0011C6.9737 36.0011 11.4089 36.0011 15.8441 36.0011Z" fill="#FF4F12"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6154 12.96L8.64616 0L1.40521 7.53728C0.503521 8.47587 0 9.72655 0 11.0276L0 33.12C0 34.7106 1.29034 36 2.88205 36C1.89594 36 1.09653 35.2012 1.09653 34.2158C1.09653 33.7414 1.28558 33.2865 1.6219 32.9517" fill="#7700FF"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M114.014 22.4419H110.895L107.169 26.2067V22.4419H104.532V32.816H107.169V28.5284L110.958 32.816H114.139L109.241 27.2524L114.014 22.4419Z" fill="#101828"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M30.3372 25.135H26.5277V20.5336H30.3372C32.2626 20.5336 33.1418 21.4537 33.1418 22.8342C33.1418 24.2146 32.2626 25.135 30.3372 25.135ZM30.4208 18.0654H23.765V32.7064H26.5277V27.6029H30.4208C33.7279 27.6029 35.9047 25.9089 35.9047 22.8342C35.9047 19.7595 33.7279 18.0654 30.4208 18.0654Z" fill="#101828"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M42.1346 30.6451C40.5859 30.6451 39.1416 29.5365 39.1416 27.6331C39.1416 25.7299 40.5859 24.6215 42.1346 24.6215C43.6835 24.6215 45.1277 25.7299 45.1277 27.6331C45.1277 29.5365 43.6835 30.6451 42.1346 30.6451ZM42.1346 22.1533C39.2882 22.1533 36.4624 23.994 36.4624 27.6331C36.4624 31.2727 39.2882 33.113 42.1346 33.113C44.9813 33.113 47.8069 31.2727 47.8069 27.6331C47.8069 23.994 44.9813 22.1533 42.1346 22.1533Z" fill="#101828"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M54.5338 30.6451C52.9431 30.6451 51.771 29.4947 51.771 27.6331C51.771 25.7926 52.9849 24.6215 54.5338 24.6215C55.4757 24.6215 56.292 25.0606 56.9408 26.0437L59.2012 24.7468C58.4479 23.1362 56.8152 22.1533 54.5547 22.1533C51.6035 22.1533 49.0918 24.3285 49.0918 27.6331C49.0918 30.9378 51.478 33.113 54.5547 33.113C56.7733 33.113 58.2593 32.1093 59.306 30.3315L57.1292 29.1393C56.5013 30.0176 55.8314 30.6451 54.5338 30.6451Z" fill="#101828"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M82.6201 28.3192C82.4947 29.9086 82.1803 30.2644 81.636 30.2644C81.2643 30.2644 81.0895 30.2232 80.835 30.1565L80.8482 32.8413C80.8482 32.8413 81.176 32.9413 81.783 32.9413C84.0225 32.9413 84.8597 31.4982 85.0691 28.4237L85.3202 24.8054H88.2922V32.7951H90.9296V22.4419H83.0596L82.6201 28.3192Z" fill="#101828"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M72.2737 26.2528C72.6504 25.0815 73.6969 24.1612 75.0783 24.1612C76.5436 24.1612 77.5273 24.956 77.7784 26.2528H72.2737ZM75.1622 22.1533C72.1482 22.1533 69.6992 24.3494 69.6992 27.6331C69.6992 30.9169 72.1482 33.113 75.0365 33.113C77.318 33.113 78.7622 32.2556 79.8087 30.4777L77.7155 29.432C77.0667 30.2477 76.4807 30.854 75.0783 30.854C73.5296 30.854 72.3993 29.8503 72.2318 28.2607H80.2272V27.3404C80.2272 24.3076 78.1343 22.1533 75.1622 22.1533Z" fill="#101828"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M94.9863 26.2528C95.3631 25.0815 96.4096 24.1612 97.791 24.1612C99.2561 24.1612 100.24 24.956 100.491 26.2528H94.9863ZM97.8748 22.1533C94.8607 22.1533 92.4119 24.3494 92.4119 27.6331C92.4119 30.9169 94.8607 33.113 97.7492 33.113C100.031 33.113 101.475 32.2556 102.521 30.4777L100.428 29.432C99.7794 30.2477 99.1933 30.854 97.791 30.854C96.2421 30.854 95.1118 29.8503 94.9445 28.2607H102.94V27.3404C102.94 24.3076 100.847 22.1533 97.8748 22.1533Z" fill="#101828"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M60.1255 24.7425H63.2233V32.816H65.8603V24.7425H68.9583V22.4419H60.1255V24.7425Z" fill="#101828"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M119.371 30.6451C117.822 30.6451 116.378 29.5365 116.378 27.6331C116.378 25.7299 117.822 24.6215 119.371 24.6215C120.92 24.6215 122.364 25.7299 122.364 27.6331C122.364 29.5365 120.92 30.6451 119.371 30.6451ZM119.371 22.1533C116.524 22.1533 113.699 23.9938 113.699 27.6331C113.699 31.2725 116.524 33.113 119.371 33.113C122.217 33.113 125.043 31.2725 125.043 27.6331C125.043 23.9938 122.217 22.1533 119.371 22.1533Z" fill="#101828"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M135.567 22.4419L132.705 29.7074L129.843 22.4419H126.396V32.7972H128.902V26.2415L131.681 32.7972H133.729L136.507 26.2415V32.7972H139.014V22.4419H135.567Z" fill="#101828"/>
+                </svg>
+              </div>
+              <div class="navigation sp-l-1-2 td-d-none">
+                <a class="navigation-link" href="#">Для меня</a>
+                <a class="navigation-link" href="#">Для бизнеса</a>
+                <a class="navigation-link" href="#">Для операторов</a>
+                <a class="navigation-link" href="#">Для инвесторов</a>
+                <div class="navigation-link-wrapper">
+                  <div class="navigation-link-wrapper__button sp-r-0-4" ref="navigationDropdown" @click="toggleOpen">Ещё</div>
+                  <div class="navigation-link-wrapper__inner">
+                    <a class="navigation-link" href="#">О компании</a>
+                    <a class="navigation-link" href="#">Для инвесторов</a>
+                  </div>
                 </div>
-              </template>
-            </rt-row-list-item>
-            <rt-row-list-item icon="/static/images/B2B/088-c.svg">
-              <template slot="option">
-                <div class="ovh">
-                  <h4 class="rt-space-bottom05 rt-font-bold">Выбор платформы виртуализации</h4>
-                  <p class="rt-font-paragraph">Упростите процесс работы с данными, используя привычные платформы
-                    — VMware или OpenStack KVM</p>
+              </div>
+            </div>
+            <div class="blog__header-right">
+              <div class="navigation td-d-none">
+                <a class="navigation-link" href="#">Помощь</a>
+                <a class="navigation-link" href="#">Оплата</a>
+                <a class="navigation-link" href="#">Бонус</a>
+                <a class="navigation-link" href="#">Офисы</a>
+              </div>
+              <div class="d-none td-d-block">
+                <div class="navigation-mobile">
+                  <div class="navigation-mobile__button" ref="navigationMobile" @click="toggleMobileMenu">
+                    <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="20" height="1" fill="#101828"/>
+                      <rect y="6" width="20" height="1" fill="#101828"/>
+                      <rect y="12" width="20" height="1" fill="#101828"/>
+                    </svg>
+                  </div>
+                  <div class="navigation-mobile__list sp-v-1 sp-l-1-3 sp-r-3">
+                    <a class="navigation-link" href="#">Для меня</a>
+                    <a class="navigation-link" href="#">Для бизнеса</a>
+                    <a class="navigation-link" href="#">Для операторов</a>
+                    <a class="navigation-link" href="#">Для инвесторов</a>
+                    <a class="navigation-link" href="#">О компании</a>
+                    <a class="navigation-link" href="#">Для инвесторов</a>
+                    <a class="navigation-link" href="#">Помощь</a>
+                    <a class="navigation-link" href="#">Оплата</a>
+                    <a class="navigation-link" href="#">Бонус</a>
+                    <a class="navigation-link" href="#">Офисы</a>
+                  </div>
                 </div>
-              </template>
-            </rt-row-list-item>
-            <rt-row-list-item icon="/static/images/B2B/063-c.svg">
-              <template slot="option">
-                <div class="ovh">
-                  <h4 class="rt-space-bottom05 rt-font-bold">Удобство управления</h4>
-                  <p class="rt-font-paragraph">Управляйте Виртуальным ЦОД самостоятельно с помощью простой
-                    панели для бизнес-пользователей или поручите работу с расширенными инструментами вашему
-                    системному администратору</p>
-                </div>
-              </template>
-            </rt-row-list-item>
-            <rt-row-list-item icon="/static/images/B2B/022-c.svg">
-              <template slot="option">
-                <div class="ovh">
-                  <h4 class="rt-space-bottom05 rt-font-bold">Дополнительные опции</h4>
-                  <p class="rt-font-paragraph">Управляйте резервными копиями, получите доступ через VPN,
-                    используйте балансировку нагрузки и не беспокойтесь о DDoS-атаках</p>
-                </div>
-              </template>
-            </rt-row-list-item>
-          </rt-row-list>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <rt-banner :no-triangle="true" :without-empty-column="true" :without-second-empty-column="true"
-               :transparent-background-image="true" :mobile-image-on-top="true" :switch-off-timer="true"
-               :has-image-on-mobile="true">
-      <rt-banner-item :is-white-color="true" background-color="green"
-                      background-image="">
-        <h2 class="rt-font-bold">Легко обмениваться большими объемами информации</h2>
-        <p class="rt-font-paragraph rt-space-top rt-space-bottom25">Отправляйте объемные
-          фото и&nbsp;видео, работайте с&nbsp;облачными сервисами и&nbsp;большими базами данных — скорости
-          интернета хватит на&nbsp;всё</p>
-      </rt-banner-item>
-      <rt-banner-item :is-white-color="true" content-mobile-height="500px" background-color="dark-blue-high"
-                      background-image="">
-        <h2 class="rt-font-bold">Эффективно работать<br>с онлайн-сервисами</h2>
-        <p class="rt-font-paragraph rt-space-top rt-space-bottom25">Благодаря стабильному высокоскоростному интернету
-          вашим сотрудникам будет удобнее работать с&nbsp;корпоративной почтой и&nbsp;CRM-системой,
-          что&nbsp;позволит повысить уровень продаж</p>
-      </rt-banner-item>
-      <rt-banner-item :is-white-color="true" content-mobile-height="500px" background-color="dark-blue"
-                      background-image="">
-        <h2 class="rt-font-bold">Повысить лояльность клиентов</h2>
-        <p class="rt-font-paragraph rt-space-top rt-space-bottom25">Офисы, кафе, салоны красоты и&nbsp;другие заведения
-          с&nbsp;бесплатным Wi-Fi и&nbsp;телевидением привлекают и&nbsp;удерживают больше посетителей</p>
-      </rt-banner-item>
-    </rt-banner>
-    <div class="rt-container rt-space-top3 rt-space-bottom15">
-      <rt-use-case>
-        <div class="rt-col-6 rt-col-md-3">
-          <rt-card background-image="/static/example-images/cardBackground6.png"
-                   :background-cover="true"
-                   :is-white-color="true"
-                   :offset-top="true"
-                   background-color-type="black"
-                   :double-sided="true">
-            <template slot="content">
-              <h4 class="rt-font-bold rt-space-bottom05">Торговля, ритейл, E-commerce</h4>
-              <p class="rt-font-paragraph">Размещение корпоративной почтовой системы, CRM, 1С, программ учета
-                продукции, внешнего сайта или интернет-магазина, виртуальных рабочих мест</p>
-            </template>
-            <template slot="footer">
-              <rt-button class="rt-button-small rt-button-white">Кейс</rt-button>
-            </template>
-            <template slot="reverse">
-              <div class="rt-font-small-paragraph color-main07">
-                <p class="rt-font-bold">Клиент </p>
-                <p> Официальный дистрибьютор оборудования для горнодобывающей, строительной, нефтегазовой, лесной,
-                  дорожной и коммунальной отраслей. 15 лет на рынке индустриальной техники. Сеть филиалов,
-                  представительств и дилеров более чем в 20 городах России.</p>
-                <p class="rt-font-bold">Проблема </p>
-                <p>Создать отказоустойчивую систему объединенных коммуникаций для всех сотрудников, включая
-                  филиальную сеть и центральный офис в Екатеринбурге. Требуется организовать бесперебойную работу
-                  приложений «1С» для всех подразделений, т.к. раньше были распределенные базы (синхронизация,
-                  обмен, администрирование и т.д.), что было не удобно. В случаях «падения» центрального офиса
-                  филиалы оставались без связи (электричество, ШПД и т.д.)</p>
-                <p class="rt-font-bold">Решение </p>
-                <p>Размещение «1С» заказчика в Виртуальном ЦОД Ростелеком. Филиалы могут работать независимо от
-                  центрального офиса. Возможность удаленной работы. Безопасность, надежность и отказоустойчивость
-                  решения обеспечены Ростелекомом.</p>
-              </div>
-            </template>
-          </rt-card>
+    <div class="blog__title color-block--main-color003-no-opacity sp-v-1-2">
+      <div class="blog-container">
+        <div class="rt-col">
+          <div class="row">
+            <div class="rt-col-4 rt-col-td-4 rt-col-md-3">
+              <a href="#">
+                <h2 class="rt-font-h3 sp-b-0-1">Простые технологии</h2>
+                <p class="tagline">рассказываем просто о сложном</p>
+              </a>
+            </div>
+            <div class="rt-col-6 td-d-none"></div>
+            <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-end-center md-flex-start-center md-sp-t-1">
+              <a href="/promo/test-access" class="d-flex">
+                <rt-system-icons name="chevron left"/>
+                <span class="sp-l-0-2">На главную</span>
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="rt-col-6 rt-col-md-3">
-          <rt-card background-image="/static/example-images/cardBackground6.png"
-                   :background-cover="true"
-                   :is-white-color="true"
-                   :offset-top="true"
-                   background-color-type="black"
-                   :double-sided="true">
-            <template slot="content">
-              <h4 class="rt-font-bold rt-space-bottom05">Торговля, ритейл, E-commerce</h4>
-              <p class="rt-font-paragraph">Размещение корпоративной почтовой системы, CRM, 1С, программ учета
-                продукции, внешнего сайта или интернет-магазина, виртуальных рабочих мест</p>
-            </template>
-            <template slot="footer">
-              <rt-button class="rt-button-small rt-button-white">Кейс</rt-button>
-            </template>
-            <template slot="reverse">
-              <div class="rt-font-small-paragraph color-main07">
-                <p class="rt-font-bold">Клиент </p>
-                <p> Официальный дистрибьютор оборудования для горнодобывающей, строительной, нефтегазовой, лесной,
-                  дорожной и коммунальной отраслей. 15 лет на рынке индустриальной техники. Сеть филиалов,
-                  представительств и дилеров более чем в 20 городах России.</p>
-                <p class="rt-font-bold">Проблема </p>
-                <p>Создать отказоустойчивую систему объединенных коммуникаций для всех сотрудников, включая
-                  филиальную сеть и центральный офис в Екатеринбурге. Требуется организовать бесперебойную работу
-                  приложений «1С» для всех подразделений, т.к. раньше были распределенные базы (синхронизация,
-                  обмен, администрирование и т.д.), что было не удобно. В случаях «падения» центрального офиса
-                  филиалы оставались без связи (электричество, ШПД и т.д.)</p>
-                <p class="rt-font-bold">Решение </p>
-                <p>Размещение «1С» заказчика в Виртуальном ЦОД Ростелеком. Филиалы могут работать независимо от
-                  центрального офиса. Возможность удаленной работы. Безопасность, надежность и отказоустойчивость
-                  решения обеспечены Ростелекомом.</p>
-              </div>
-            </template>
-          </rt-card>
-        </div>
-        <div class="rt-col-6 rt-col-md-3">
-          <rt-card background-image="/static/example-images/cardBackground6.png"
-                   :background-cover="true"
-                   :is-white-color="true"
-                   :offset-top="true"
-                   background-color-type="black"
-                   :double-sided="true">
-            <template slot="content">
-              <h4 class="rt-font-bold rt-space-bottom05">Торговля, ритейл, E-commerce</h4>
-              <p class="rt-font-paragraph">Размещение корпоративной почтовой системы, CRM, 1С, программ учета
-                продукции, внешнего сайта или интернет-магазина, виртуальных рабочих мест</p>
-            </template>
-            <template slot="footer">
-              <rt-button class="rt-button-small rt-button-white">Кейс</rt-button>
-            </template>
-            <template slot="reverse">
-              <div class="rt-font-small-paragraph color-main07">
-                <p class="rt-font-bold">Клиент </p>
-                <p> Официальный дистрибьютор оборудования для горнодобывающей, строительной, нефтегазовой, лесной,
-                  дорожной и коммунальной отраслей. 15 лет на рынке индустриальной техники. Сеть филиалов,
-                  представительств и дилеров более чем в 20 городах России.</p>
-                <p class="rt-font-bold">Проблема </p>
-                <p>Создать отказоустойчивую систему объединенных коммуникаций для всех сотрудников, включая
-                  филиальную сеть и центральный офис в Екатеринбурге. Требуется организовать бесперебойную работу
-                  приложений «1С» для всех подразделений, т.к. раньше были распределенные базы (синхронизация,
-                  обмен, администрирование и т.д.), что было не удобно. В случаях «падения» центрального офиса
-                  филиалы оставались без связи (электричество, ШПД и т.д.)</p>
-                <p class="rt-font-bold">Решение </p>
-                <p>Размещение «1С» заказчика в Виртуальном ЦОД Ростелеком. Филиалы могут работать независимо от
-                  центрального офиса. Возможность удаленной работы. Безопасность, надежность и отказоустойчивость
-                  решения обеспечены Ростелекомом.</p>
-              </div>
-            </template>
-          </rt-card>
-        </div>
-        <div class="rt-col-6 rt-col-md-3">
-          <rt-card background-image="/static/example-images/cardBackground6.png"
-                   :background-cover="true"
-                   :is-white-color="true"
-                   :offset-top="true"
-                   background-color-type="black"
-                   :double-sided="true">
-            <template slot="content">
-              <h4 class="rt-font-bold rt-space-bottom05">Торговля, ритейл, E-commerce</h4>
-              <p class="rt-font-paragraph">Размещение корпоративной почтовой системы, CRM, 1С, программ учета
-                продукции, внешнего сайта или интернет-магазина, виртуальных рабочих мест</p>
-            </template>
-            <template slot="footer">
-              <rt-button class="rt-button-small rt-button-white">Кейс</rt-button>
-            </template>
-            <template slot="reverse">
-              <div class="rt-font-small-paragraph color-main07">
-                <p class="rt-font-bold">Клиент </p>
-                <p> Официальный дистрибьютор оборудования для горнодобывающей, строительной, нефтегазовой, лесной,
-                  дорожной и коммунальной отраслей. 15 лет на рынке индустриальной техники. Сеть филиалов,
-                  представительств и дилеров более чем в 20 городах России.</p>
-                <p class="rt-font-bold">Проблема </p>
-                <p>Создать отказоустойчивую систему объединенных коммуникаций для всех сотрудников, включая
-                  филиальную сеть и центральный офис в Екатеринбурге. Требуется организовать бесперебойную работу
-                  приложений «1С» для всех подразделений, т.к. раньше были распределенные базы (синхронизация,
-                  обмен, администрирование и т.д.), что было не удобно. В случаях «падения» центрального офиса
-                  филиалы оставались без связи (электричество, ШПД и т.д.)</p>
-                <p class="rt-font-bold">Решение </p>
-                <p>Размещение «1С» заказчика в Виртуальном ЦОД Ростелеком. Филиалы могут работать независимо от
-                  центрального офиса. Возможность удаленной работы. Безопасность, надежность и отказоустойчивость
-                  решения обеспечены Ростелекомом.</p>
-              </div>
-            </template>
-          </rt-card>
-        </div>
-      </rt-use-case>
+      </div>
     </div>
-    <iframe id="frame"></iframe>
-    <rt-real-popup :position-center="true">
-      <template>
-        <div class="row">
-          <div class="rt-col-12 rt-col-td-6 rt-col-md-3 popup-content"></div>
-          <rt-button class="rt-button-small rt-button-purple-border">Закрыть</rt-button>
+    <div class="blog__tags">
+      <div class="blog-container tablet-fullwidth">
+        <div class="rt-col">
+          <div class="blog__tags-wrapper">
+            <div class="blog__tags-wrapper__inner d-flex d-flex-nowrap">
+              <button class="blog__tag">#бизнес</button>
+              <button class="blog__tag">#инструкции</button>
+              <button class="blog__tag">#интернет</button>
+              <button class="blog__tag">#образование</button>
+              <button class="blog__tag">#развлечения</button>
+              <button class="blog__tag">#телефония</button>
+              <button class="blog__tag">#технологии</button>
+              <div class="blog__tags-wrapper-stretcher"/>
+            </div>
+          </div>
         </div>
-      </template>
-    </rt-real-popup>
+      </div>
+    </div>
+    <div class="blog__page-wrapper sp-t-2 sp-b-3">
+      <div class="blog-container blog__article-tile">
+        <div class="rt-col">
+          <div class="row sp-b-3 td-sp-b-2" ref="tile-wrapper">
+            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+              <div class="blog__article-tile__item td-sp-v-0-4">
+                <div class="row">
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__article-tile__image-wrapper">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4.png" class="blog__article-tile__image"/>
+                    </div>
+                  </div>
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                      <span class="blog__weekly-theme__date">12 марта</span>
+                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                          <rt-system-icons name="time small" color="main-color07"/>
+                          5 минут чтения
+                        </span>
+                      <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
+                    </div>
+                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Как понять, что ноутбук или телефон устарел</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+              <div class="blog__article-tile__item td-sp-v-0-4">
+                <div class="row">
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__article-tile__image-wrapper">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-1.png" class="blog__article-tile__image"/>
+                    </div>
+                  </div>
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                      <span class="blog__weekly-theme__date">12 марта</span>
+                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                          <rt-system-icons name="time small" color="main-color07"/>
+                          5 минут чтения
+                        </span>
+                      <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
+                    </div>
+                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Зачем покупать “красивый” <br>телефонный номер</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+              <div class="blog__article-tile__item td-sp-v-0-4">
+                <div class="row">
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__article-tile__image-wrapper">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__article-tile__image"/>
+                    </div>
+                  </div>
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                      <span class="blog__weekly-theme__date">12 марта</span>
+                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                          <rt-system-icons name="time small" color="main-color07"/>
+                          5 минут чтения
+                        </span>
+                      <span class="blog__weekly-theme__tag sp-l-0-3">#бизнес</span>
+                    </div>
+                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Три важных налоговых нововведения в <br>2021 году</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+              <div class="blog__article-tile__item td-sp-v-0-4">
+                <div class="row">
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__article-tile__image-wrapper">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4.png" class="blog__article-tile__image"/>
+                    </div>
+                  </div>
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                      <span class="blog__weekly-theme__date">12 марта</span>
+                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                          <rt-system-icons name="time small" color="main-color07"/>
+                          5 минут чтения
+                        </span>
+                      <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
+                    </div>
+                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Как понять, что ноутбук или телефон устарел</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+              <div class="blog__article-tile__item td-sp-v-0-4">
+                <div class="row">
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__article-tile__image-wrapper">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-1.png" class="blog__article-tile__image"/>
+                    </div>
+                  </div>
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                      <span class="blog__weekly-theme__date">12 марта</span>
+                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                          <rt-system-icons name="time small" color="main-color07"/>
+                          5 минут чтения
+                        </span>
+                      <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
+                    </div>
+                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Зачем покупать “красивый” <br>телефонный номер</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+              <div class="blog__article-tile__item td-sp-v-0-4">
+                <div class="row">
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__article-tile__image-wrapper">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__article-tile__image"/>
+                    </div>
+                  </div>
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                      <span class="blog__weekly-theme__date">12 марта</span>
+                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                          <rt-system-icons name="time small" color="main-color07"/>
+                          5 минут чтения
+                        </span>
+                      <span class="blog__weekly-theme__tag sp-l-0-3">#бизнес</span>
+                    </div>
+                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Три важных налоговых нововведения в <br>2021 году</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+              <div class="blog__article-tile__item td-sp-v-0-4">
+                <div class="row">
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__article-tile__image-wrapper">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4.png" class="blog__article-tile__image"/>
+                    </div>
+                  </div>
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                      <span class="blog__weekly-theme__date">12 марта</span>
+                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                          <rt-system-icons name="time small" color="main-color07"/>
+                          5 минут чтения
+                        </span>
+                      <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
+                    </div>
+                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Как понять, что ноутбук или телефон устарел</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+              <div class="blog__article-tile__item td-sp-v-0-4">
+                <div class="row">
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__article-tile__image-wrapper">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-1.png" class="blog__article-tile__image"/>
+                    </div>
+                  </div>
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                      <span class="blog__weekly-theme__date">12 марта</span>
+                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                          <rt-system-icons name="time small" color="main-color07"/>
+                          5 минут чтения
+                        </span>
+                      <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
+                    </div>
+                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Зачем покупать “красивый” <br>телефонный номер</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+              <div class="blog__article-tile__item td-sp-v-0-4">
+                <div class="row">
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__article-tile__image-wrapper">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__article-tile__image"/>
+                    </div>
+                  </div>
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                      <span class="blog__weekly-theme__date">12 марта</span>
+                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                          <rt-system-icons name="time small" color="main-color07"/>
+                          5 минут чтения
+                        </span>
+                      <span class="blog__weekly-theme__tag sp-l-0-3">#бизнес</span>
+                    </div>
+                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Три важных налоговых нововведения в <br>2021 году</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+              <div class="blog__article-tile__item td-sp-v-0-4">
+                <div class="row">
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__article-tile__image-wrapper">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4.png" class="blog__article-tile__image"/>
+                    </div>
+                  </div>
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                      <span class="blog__weekly-theme__date">12 марта</span>
+                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                          <rt-system-icons name="time small" color="main-color07"/>
+                          5 минут чтения
+                        </span>
+                      <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
+                    </div>
+                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Как понять, что ноутбук или телефон устарел</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+              <div class="blog__article-tile__item td-sp-v-0-4">
+                <div class="row">
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__article-tile__image-wrapper">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-1.png" class="blog__article-tile__image"/>
+                    </div>
+                  </div>
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                      <span class="blog__weekly-theme__date">12 марта</span>
+                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                          <rt-system-icons name="time small" color="main-color07"/>
+                          5 минут чтения
+                        </span>
+                      <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
+                    </div>
+                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Зачем покупать “красивый” <br>телефонный номер</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+              <div class="blog__article-tile__item td-sp-v-0-4">
+                <div class="row">
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__article-tile__image-wrapper">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__article-tile__image"/>
+                    </div>
+                  </div>
+                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                      <span class="blog__weekly-theme__date">12 марта</span>
+                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                          <rt-system-icons name="time small" color="main-color07"/>
+                          5 минут чтения
+                        </span>
+                      <span class="blog__weekly-theme__tag sp-l-0-3">#бизнес</span>
+                    </div>
+                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Три важных налоговых нововведения в <br>2021 году</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="rt-col rt-font-center">
+              <div class="blog__add-article-button sp-v-0-4 sp-h-2-1 d-inline-block">Показать больше</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="blog-footer color-block--main-color005-no-opacity">
+      <div class="blog-footer__top sp-t-1-1 sp-b-0-3 td-sp-t-1-3 td-sp-b-1 md-sp-t-1-2">
+        <div class="blog-container">
+          <div class="rt-col">
+            <div class="d-flex d-space-between d-md-flex-column">
+              <div class="blog-footer__navigation color-main085 rt-font-control flex-end-bottom sp-b-0-1 d-md-flex-column md-flex-start-top md-sp-b-1-1">
+                <a class="navigation-link" href="#">Для меня</a>
+                <a class="navigation-link" href="#">Для бизнеса</a>
+                <a class="navigation-link" href="#">Для операторов</a>
+                <a class="navigation-link" href="#">Для инвесторов</a>
+              </div>
+              <div class="flex-end-bottom d-md-flex-column md-flex-start-top">
+                <div class="rt-font-control d-inline-block sp-r-0-3 sp-b-0-1 color-main05">Отдел продаж</div>
+                <a href="tel:88007078000" class="rt-font-h3">8 800 707 80 00</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="blog-footer__bottom sp-t-1-1 sp-b-1-4 td-sp-v-1-3 md-sp-v-1-2">
+        <div class="blog-container">
+          <div class="rt-col">
+            <div class="d-flex d-space-between td-flex-column-reverse">
+              <div class="color-main05">
+                <p class="blog-footer__privacy">Продолжая использовать наш сайт, вы даете согласие на обработку
+                  файлов <a href="#">Cookies</a> и других <br>пользовательских данных, в соответствии с
+                  <a href="#">Политикой конфиденциальности</a>.
+                </p>
+                <div class="sp-t-0-3 rt-font-label">
+                  <span class="sp-r-1">© 2021 ПАО «Ростелеком». 18+</span>
+                  <a href="#">RSS</a>
+                </div>
+              </div>
+              <div class="blog-footer__social-media d-flex td-sp-b-1">
+                <a href="#" class="blog__share__icon">
+                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M25.8367 5.93152C24.9429 6.3216 23.9838 6.58615 22.9761 6.70425C24.005 6.09742 24.7927 5.1349 25.1659 3.99151C24.2008 4.55348 23.1354 4.96153 22.0003 5.18274C21.0913 4.22768 19.7983 3.63281 18.3641 3.63281C15.6128 3.63281 13.382 5.8299 13.382 8.53815C13.382 8.92226 13.426 9.29741 13.511 9.65614C9.37104 9.45135 5.70004 7.4979 3.24309 4.52956C2.81361 5.25297 2.56928 6.0959 2.56928 6.99569C2.56928 8.69808 3.44948 10.2002 4.78496 11.079C3.96849 11.0521 3.20059 10.8309 2.52833 10.4632V10.5245C2.52833 12.9009 4.24623 14.8843 6.52409 15.3357C6.10675 15.4463 5.66667 15.5076 5.21139 15.5076C4.88968 15.5076 4.57857 15.4762 4.27353 15.4164C4.90786 17.3669 6.74718 18.7852 8.92643 18.8241C7.22219 20.1394 5.07329 20.9211 2.73928 20.9211C2.33714 20.9211 1.94103 20.8972 1.55103 20.8538C3.75607 22.2483 6.37389 23.0614 9.18747 23.0614C18.3521 23.0614 23.3616 15.5853 23.3616 9.10164L23.3449 8.46644C24.3237 7.77886 25.1705 6.91499 25.8367 5.93152Z" fill="#1DA1F2"/>
+                  </svg>
+                </a>
+                <a href="#" class="blog__share__icon">
+                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.3999 19.5366H13.81C13.81 19.5366 14.2359 19.4906 14.4537 19.2613C14.6538 19.0504 14.6474 18.6545 14.6474 18.6545C14.6474 18.6545 14.6198 16.8012 15.4979 16.5281C16.3638 16.2592 17.4754 18.3194 18.6535 19.1116C19.5445 19.7109 20.2216 19.5797 20.2216 19.5797L23.3722 19.5365C23.3722 19.5365 25.0202 19.4368 24.2387 18.1676C24.1747 18.064 23.7834 17.2287 21.8961 15.5127C19.9203 13.7166 20.1853 14.0072 22.565 10.9004C24.0142 9.00842 24.5935 7.85323 24.4124 7.35872C24.2399 6.88746 23.1739 7.01188 23.1739 7.01188L19.6267 7.03333C19.6267 7.03333 19.3636 6.99818 19.1687 7.11253C18.978 7.22424 18.8557 7.48527 18.8557 7.48527C18.8557 7.48527 18.2941 8.94935 17.5455 10.1945C15.9659 12.8217 15.3342 12.9608 15.076 12.7974C14.4753 12.4171 14.6253 11.2701 14.6253 10.455C14.6253 7.90884 15.0197 6.8472 13.8575 6.57231C13.472 6.48123 13.1879 6.42083 12.2018 6.4111C10.9361 6.39856 9.8649 6.41489 9.25831 6.70596C8.8547 6.89951 8.5434 7.33083 8.73307 7.35575C8.96756 7.38627 9.49835 7.49616 9.77983 7.87122C10.1435 8.35583 10.1307 9.44354 10.1307 9.44354C10.1307 9.44354 10.3396 12.4408 9.64288 12.8131C9.16482 13.0685 8.50886 12.5471 7.10061 10.1634C6.37913 8.94242 5.83436 7.59269 5.83436 7.59269C5.83436 7.59269 5.72941 7.34057 5.54209 7.20543C5.31485 7.04191 4.99715 6.9901 4.99715 6.9901L1.6261 7.01171C1.6261 7.01171 1.12007 7.02557 0.934266 7.24107C0.768846 7.43297 0.921127 7.82931 0.921127 7.82931C0.921127 7.82931 3.56009 13.8772 6.54842 16.925C9.2888 19.72 12.3999 19.5366 12.3999 19.5366Z" fill="#4680C2"/>
+                  </svg>
+                </a>
+                <a href="#" class="blog__share__icon">
+                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7134 25.9998V15.3652H20.1504L20.6649 11.2206H16.7134V8.57441C16.7134 7.37446 17.0342 6.55675 18.691 6.55675L20.8041 6.55572V2.84884C20.4386 2.79842 19.1843 2.68555 17.725 2.68555C14.6783 2.68555 12.5927 4.61698 12.5927 8.16407V11.2206H9.14697V15.3652H12.5927V25.9998H16.7134Z" fill="#3C5B9A"/>
+                  </svg>
+                </a>
+                <a href="#" class="blog__share__icon">
+                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.3407 8.34511C18.3407 11.2886 15.9444 13.6848 12.9982 13.6848C10.0521 13.6848 7.65585 11.2887 7.65585 8.34248C7.65585 5.39623 10.0521 3 12.9982 3C15.9444 3 18.3407 5.39623 18.3407 8.34511ZM12.9982 6.13217C14.2192 6.13217 15.2111 7.12405 15.2111 8.34511C15.2111 9.56339 14.2192 10.5554 12.9982 10.5554C11.7799 10.5554 10.7852 9.56355 10.7852 8.34511C10.7852 7.12405 11.7799 6.13217 12.9982 6.13217ZM15.16 18.0435C16.2489 17.7954 17.2975 17.3642 18.2625 16.7578C18.993 16.2969 19.214 15.332 18.753 14.5988C18.2921 13.8656 17.3271 13.6446 16.594 14.1055C14.4053 15.4828 11.5886 15.4802 9.39974 14.1055C8.66657 13.6446 7.70159 13.8656 7.24074 14.5988C6.77988 15.3293 7.00088 16.2969 7.73126 16.7578C8.69625 17.3642 9.74484 17.7956 10.8338 18.0435L7.84996 21.03C7.23811 21.6419 7.23811 22.6311 7.84996 23.243C8.15719 23.5476 8.55623 23.7012 8.95511 23.7012C9.35677 23.7012 9.75566 23.5476 10.063 23.243L12.9983 20.3075L15.9338 23.243C16.5456 23.8548 17.5349 23.8548 18.1467 23.243C18.7585 22.6311 18.7585 21.6391 18.1467 21.03L15.16 18.0435Z" fill="#FF9800"/>
+                  </svg>
+                </a>
+                <a href="#" class="blog__share__icon">
+                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.139 1.00781C9.84226 1.00781 9.42883 1.02179 8.13412 1.08086C6.84202 1.13979 5.95963 1.34502 5.18745 1.64512C4.38925 1.95529 3.71224 2.37037 3.0374 3.04521C2.36251 3.7201 1.94748 4.39707 1.63726 5.19527C1.33716 5.96745 1.13198 6.84983 1.073 8.14193C1.01393 9.43669 1 9.85003 1 13.1468C1 16.4436 1.01393 16.857 1.073 18.1517C1.13198 19.4438 1.33716 20.3262 1.63726 21.0984C1.94748 21.8966 2.36251 22.5736 3.0374 23.2484C3.71224 23.9233 4.38925 24.3383 5.18745 24.6486C5.95963 24.9487 6.84202 25.1539 8.13412 25.2129C9.42883 25.2719 9.84226 25.2859 13.139 25.2859C16.4358 25.2859 16.8491 25.2719 18.1439 25.2129C19.436 25.1539 20.3184 24.9487 21.0905 24.6486C21.8888 24.3383 22.5658 23.9233 23.2406 23.2484C23.9155 22.5736 24.3305 21.8966 24.6407 21.0984C24.9408 20.3262 25.1461 19.4438 25.205 18.1517C25.2641 16.857 25.2781 16.4436 25.2781 13.1468C25.2781 9.85008 25.2641 9.43669 25.205 8.14193C25.1461 6.84983 24.9408 5.96745 24.6407 5.19527C24.3305 4.39707 23.9155 3.7201 23.2406 3.04521C22.5658 2.37037 21.8888 1.95529 21.0905 1.64512C20.3184 1.34502 19.436 1.13979 18.1439 1.08086C16.8491 1.02179 16.4358 1.00781 13.139 1.00781ZM13.139 3.19502C16.3803 3.19502 16.7642 3.20736 18.0442 3.26576C19.2277 3.31977 19.8705 3.51753 20.2982 3.68377C20.8648 3.90398 21.2693 4.16703 21.694 4.59179C22.1188 5.01659 22.3818 5.42097 22.6021 5.98759C22.7683 6.41534 22.966 7.05809 23.0201 8.24163C23.0784 9.52164 23.0908 9.90559 23.0908 13.1468C23.0908 16.3881 23.0784 16.772 23.0201 18.052C22.966 19.2356 22.7683 19.8783 22.6021 20.3061C22.3818 20.8727 22.1188 21.2771 21.694 21.7018C21.2693 22.1266 20.8648 22.3897 20.2982 22.6099C19.8705 22.7761 19.2277 22.9739 18.0442 23.0279C16.7644 23.0863 16.3805 23.0987 13.139 23.0987C9.89749 23.0987 9.51364 23.0863 8.23382 23.0279C7.05027 22.9739 6.40747 22.7761 5.97973 22.6099C5.41316 22.3897 5.00873 22.1266 4.58397 21.7018C4.15921 21.2771 3.89612 20.8727 3.67591 20.3061C3.50972 19.8783 3.31196 19.2356 3.25794 18.052C3.19954 16.772 3.18721 16.3881 3.18721 13.1468C3.18721 9.90559 3.19954 9.52164 3.25794 8.24163C3.31196 7.05809 3.50972 6.41534 3.67591 5.98759C3.89612 5.42097 4.15921 5.01659 4.58397 4.59183C5.00873 4.16703 5.41316 3.90398 5.97973 3.68377C6.40747 3.51753 7.05027 3.31977 8.23377 3.26576C9.51383 3.20736 9.89773 3.19502 13.139 3.19502Z" fill="url(#paint0_linear)"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0344 17.0458C10.8189 17.0458 9.02286 15.2498 9.02286 13.0343C9.02286 10.8188 10.8189 9.02286 13.0344 9.02286C15.2498 9.02286 17.0459 10.8188 17.0459 13.0343C17.0459 15.2498 15.2498 17.0458 13.0344 17.0458ZM13.0344 6.85449C9.62133 6.85449 6.85449 9.62128 6.85449 13.0343C6.85449 16.4474 9.62133 19.2142 13.0344 19.2142C16.4474 19.2142 19.2142 16.4474 19.2142 13.0343C19.2142 9.62128 16.4474 6.85449 13.0344 6.85449Z" fill="url(#paint1_linear)"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20.949 6.74635C20.949 7.52478 20.318 8.15579 19.5396 8.15579C18.7612 8.15579 18.1301 7.52478 18.1301 6.74635C18.1301 5.96792 18.7612 5.33691 19.5396 5.33691C20.318 5.33691 20.949 5.96792 20.949 6.74635Z" fill="url(#paint2_linear)"/>
+                    <defs>
+                      <linearGradient id="paint0_linear" x1="25.2781" y1="1.00781" x2="1" y2="25.2859" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#DF0096"/>
+                        <stop offset="1" stop-color="#FFB500"/>
+                      </linearGradient>
+                      <linearGradient id="paint1_linear" x1="25.641" y1="1.20516" x2="0.191615" y2="25.7669" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#DF0096"/>
+                        <stop offset="1" stop-color="#FFB500"/>
+                      </linearGradient>
+                      <linearGradient id="paint2_linear" x1="24.9673" y1="1.78311" x2="0.877806" y2="25.582" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#DF0096"/>
+                        <stop offset="1" stop-color="#FFB500"/>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
-<!--<script>-->
-  <!--const componentsList = {};-->
+<script>
+  const componentsList = {};
 
-  <!--export default {-->
-    <!--name: "VCOD",-->
-    <!--components: componentsList,-->
-    <!--data () {-->
-      <!--return {-->
-        <!--mobileLayout: window.innerWidth <= 767,-->
-        <!--parentArray: [],-->
-        <!--element: null,-->
-        <!--parent: null,-->
-        <!--activeSlideIndex: null,-->
-        <!--nextSlideIndex: 0-->
-      <!--}-->
-    <!--},-->
-    <!--mounted () {-->
-      <!--this.element = document.querySelector('.carousel-card');-->
-      <!--this.parent = this.element.parentNode;-->
-      <!--for(let i = 0; i < this.parent.children.length; i++) {-->
-        <!--if (this.parent.children[i].classList.contains('carousel-card')) {-->
-          <!--this.parentArray.push(this.parent.children[i]);-->
-        <!--}-->
-      <!--}-->
-      <!--window.addEventListener('resize', () => {-->
-        <!--this.mobileLayout = window.innerWidth <= 767-->
-      <!--});-->
-      <!--this.positionCarouselCards();-->
+  export default {
+    name: "VCOD",
+    components: componentsList,
+    data () {
+      return {
 
-      <!--if(this.mobileLayout) {-->
-        <!--this.addPaginator();-->
-        <!--this.fixCardHeightMobile();-->
-        <!--for(let i = 0; i < this.parentArray.length; i++) {-->
-          <!--document.querySelector('.custom-carousel__paginator').children[i].addEventListener('click', (e) => {-->
-            <!--let activePaginatorIndex = this.getChildNumber(e.target);-->
-            <!--this.mobileCarousel(activePaginatorIndex);-->
-          <!--})-->
-        <!--}-->
-      <!--}-->
-
-    <!--},-->
-    <!--methods: {-->
-      <!--addPaginator() {-->
-        <!--for(let i = 0; i < this.parentArray.length; i++) {-->
-          <!--let paginatorItem = document.createElement('div');-->
-          <!--paginatorItem.classList.add('custom-carousel__paginator-item');-->
-          <!--document.querySelector('.custom-carousel__paginator').appendChild(paginatorItem);-->
-          <!--if(i === this.nextSlideIndex) {-->
-            <!--document.querySelector('.custom-carousel__paginator-item').classList.add('custom-carousel__paginator-item&#45;&#45;active');-->
-          <!--}-->
-        <!--}-->
-      <!--},-->
-
-      <!--getChildNumber(node) {-->
-        <!--return Array.prototype.indexOf.call(node.parentNode.childNodes, node);-->
-      <!--},-->
-
-      <!--mobileCarousel(index) {-->
-        <!--let carouselPaginatorWrapper = document.querySelector('.custom-carousel__paginator');-->
-        <!--let slideWidth = document.querySelector('.carousel-card').offsetWidth;-->
-        <!--let carouselWrapperPadding = +window.getComputedStyle(document.querySelector('.custom-carousel')).paddingLeft.replace('px', '')-->
-        <!--for(let i = 0; i < this.parentArray.length; i++) {-->
-          <!--carouselPaginatorWrapper.children[i].classList.remove('custom-carousel__paginator-item&#45;&#45;active');-->
-        <!--}-->
-        <!--carouselPaginatorWrapper.children[index].classList.add('custom-carousel__paginator-item&#45;&#45;active');-->
-        <!--document.querySelector('.custom-carousel').scrollBy({-->
-          <!--top: 0,-->
-          <!--left: (slideWidth * index + (20 * index) - ((window.innerWidth - slideWidth) / 2) + carouselWrapperPadding) - document.querySelector('.custom-carousel').scrollLeft,-->
-          <!--behavior: 'smooth'-->
-        <!--});-->
-      <!--},-->
-
-      <!--positionCarouselCards() {-->
-        <!--if(!this.mobileLayout){-->
-          <!--this.parentArray.forEach((el, i)=>{-->
-            <!--if(((i + 1) < this.nextSlideIndex) || (i - 1) > this.nextSlideIndex) {-->
-              <!--el.classList.remove('carousel-card&#45;&#45;next', 'carousel-card&#45;&#45;previous');-->
-              <!--if(((i - 2) === this.nextSlideIndex)) {-->
-                <!--el.classList.add('carousel-card&#45;&#45;next-via-one');-->
-              <!--} else if(((i + 2) === this.nextSlideIndex)) {-->
-                <!--el.classList.add('carousel-card&#45;&#45;previous-via-one');-->
-              <!--}-->
-            <!--}-->
-            <!--if((i + 1) === this.nextSlideIndex || (this.nextSlideIndex === 0 && i === this.parentArray.length - 1)){-->
-              <!--el.classList.remove('carousel-card&#45;&#45;next-via-one', 'carousel-card&#45;&#45;previous-via-one');-->
-              <!--el.classList.add('carousel-card&#45;&#45;previous');-->
-            <!--}-->
-            <!--if((i - 1) === this.nextSlideIndex || (this.nextSlideIndex === this.parentArray.length - 1 && i === 0)){-->
-              <!--el.classList.remove('carousel-card&#45;&#45;next-via-one', 'carousel-card&#45;&#45;previous-via-one');-->
-              <!--el.classList.add('carousel-card&#45;&#45;next');-->
-            <!--}-->
-          <!--});-->
-        <!--}-->
-      <!--},-->
-
-      <!--nextSlide() {-->
-        <!--if(!this.mobileLayout) {-->
-          <!--for(let i = 0; i < this.parentArray.length; i++){-->
-            <!--if(this.parent.children[i].classList.contains('carousel-card&#45;&#45;active')){-->
-              <!--this.activeSlideIndex = this.parentArray.indexOf(this.parent.children[i]);-->
-              <!--this.nextSlideIndex = (this.activeSlideIndex +  1) % 8 ? this.activeSlideIndex + 1 : 0;-->
-            <!--}-->
-          <!--}-->
-          <!--this.parentArray[this.activeSlideIndex].classList.remove('carousel-card&#45;&#45;active');-->
-          <!--this.parentArray[this.nextSlideIndex].classList.add('carousel-card&#45;&#45;active');-->
-          <!--this.parentArray[this.nextSlideIndex].classList-->
-            <!--.remove('carousel-card&#45;&#45;next', 'carousel-card&#45;&#45;previous', 'carousel-card&#45;&#45;next-via-one', 'carousel-card&#45;&#45;previous-via-one');-->
-          <!--this.positionCarouselCards()-->
-        <!--}-->
-      <!--},-->
-
-      <!--previousSlide() {-->
-        <!--if(!this.mobileLayout) {-->
-          <!--for(let i = 0; i < this.parentArray.length; i++){-->
-            <!--if(this.parent.children[i].classList.contains('carousel-card&#45;&#45;active')){-->
-              <!--this.activeSlideIndex = this.parentArray.indexOf(this.parent.children[i]);-->
-              <!--this.nextSlideIndex = (this.activeSlideIndex -  1) >= 0 ? this.activeSlideIndex - 1 : this.parentArray.length - 1;-->
-            <!--}-->
-          <!--}-->
-          <!--this.parentArray[this.activeSlideIndex].classList.remove('carousel-card&#45;&#45;active');-->
-          <!--this.parentArray[this.nextSlideIndex].classList.add('carousel-card&#45;&#45;active');-->
-          <!--this.parentArray[this.nextSlideIndex].classList-->
-            <!--.remove('carousel-card&#45;&#45;next', 'carousel-card&#45;&#45;previous', 'carousel-card&#45;&#45;next-via-one', 'carousel-card&#45;&#45;previous-via-one');-->
-          <!--this.positionCarouselCards()-->
-        <!--}-->
-      <!--},-->
-
-      <!--fixCardHeightMobile() {-->
-        <!--let maxHeight = 0;-->
-        <!--for(let i = 0; i < this.parentArray.length; i++) {-->
-          <!--let cardHeight = +window.getComputedStyle(document.querySelector('.custom-carousel').children[i]).height.replace('px', '');-->
-          <!--maxHeight = maxHeight < cardHeight ? cardHeight : maxHeight;-->
-        <!--}-->
-        <!--for(let i = 0; i < this.parentArray.length; i++) {-->
-          <!--document.querySelector('.custom-carousel').children[i].style.height = maxHeight + 'px';-->
-        <!--}-->
-      <!--}-->
-    <!--}-->
-  <!--}-->
-<!--</script>-->
+      }
+    },
+    mounted () {
+    },
+    methods: {
+      toggleOpen() {
+        this.$refs.navigationDropdown.classList.toggle('navigation-link-wrapper__button--active')
+      },
+      toggleMobileMenu() {
+        this.$refs.navigationMobile.classList.toggle('navigation-mobile__button--active');
+        document.body.classList.toggle('ovh');
+        document.documentElement.classList.toggle('ovh');
+      }
+    }
+  }
+</script>
