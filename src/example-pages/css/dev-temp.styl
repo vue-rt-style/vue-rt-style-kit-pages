@@ -171,9 +171,15 @@
   &-article__image
     &-body
       max-width 100%
-    &-carousel__item-body
-      width 100%
-      display block
+    &-carousel
+      overflow hidden
+      &__item
+        display none
+        &--active
+          display block
+        &-body
+          width 100%
+          display block
   &__video
     &-block
       width 100%

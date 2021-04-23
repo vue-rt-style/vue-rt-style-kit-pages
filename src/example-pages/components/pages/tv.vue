@@ -121,7 +121,7 @@
                     внимание - то самое, чего они хотели избежать. Но для такого опытного путешественника, как я, переход
                     - пустяк.</p>
                   <div class="blog-article__image-carousel sp-b-2" ref="carousel">
-                    <div class="blog-article__image-carousel__item">
+                    <div class="blog-article__image-carousel__item blog-article__image-carousel__item--active">
                       <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog-article__image-carousel__item-body"/>
                       <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
                         <div class="d-flex d-space-between sp-t-0-2 sp-b-1">
