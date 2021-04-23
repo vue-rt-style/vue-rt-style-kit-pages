@@ -174,9 +174,13 @@
     &-carousel
       overflow hidden
       &__item
-        display none
+        position absolute
+        top 0
+        left 0
+        z-index -9
         &--active
-          display block
+          position relative
+          z-index 1
         &-body
           width 100%
           display block
@@ -186,6 +190,7 @@
       cursor pointer
       &-wrapper
         position relative
+        display flex
     &-play-button
       position absolute
       top 50%
@@ -196,6 +201,12 @@
       pointer-events none
       &--hidden
         opacity 0
+    &-title
+      position absolute
+      bottom 72px
+      left 32px
+      //transform translateY(-100%)
+      max-width calc(100% - 64px)
   &__table
     margin-bottom 40px
     &-title
