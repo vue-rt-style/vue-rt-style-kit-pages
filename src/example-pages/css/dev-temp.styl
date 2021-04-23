@@ -194,22 +194,41 @@
       &-wrapper
         position relative
         display flex
+        &:after
+          position absolute
+          content ''
+          top 0
+          left 0
+          right 0
+          bottom 40px
+          background-color main-color02
+          pointer-events none
+          z-index 1
+        &--no-shadow
+          &:after
+            display none
     &-play-button
       position absolute
-      top 50%
+      top calc(50% - 20px)
       left 50%
       transform translateX(-50%) translateY(-50%)
       width 36px
       height 48px
       pointer-events none
+      transition opacity .2s linear
+      z-index 2
       &--hidden
         opacity 0
     &-title
       position absolute
       bottom 72px
       left 32px
-      //transform translateY(-100%)
       max-width calc(100% - 64px)
+      transition opacity .2s linear
+      z-index 2
+      &--hidden
+        opacity 0
+        pointer-events none
   &__table
     margin-bottom 40px
     &-title

@@ -198,14 +198,15 @@
                     заразности и неизвестных последствий мора можно ожидать, что врачи не успеют найти вовремя лекарство
                     для вас, страдающих. Вся история несчастного человечества ясно показывает: несмотря на попытки контроля
                     и лечения, эпидемии свирепствуют до тех пор, пока не исчерпывают себя.</p>
-                  <div class="blog__video-block-wrapper sp-b-2">
+                  <div class="blog__video-block-wrapper sp-b-2" ref="videoWrapper">
                     <video class="blog__video-block" src="https://moscow.rt.ru/sites/default/files/b2b/BD/BD_New.mp4" ref="video" @click="togglePlay"/>
                     <div class="blog__video-play-button" ref="videoButton">
                       <svg width="36" height="48" viewBox="0 0 36 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M-2.09815e-06 48L36 24L0 -1.57361e-06L-2.09815e-06 48Z" fill="white"/>
                       </svg>
                     </div>
-                    <p class="blog__video-title rt-font-h4 color-white">Роспотребнадзор отправляет туристов на карантин: новые правила въезда в Россию</p>
+                    <p class="blog__video-title rt-font-h4 color-white" ref="videoTitle">Роспотребнадзор отправляет
+                      туристов на карантин</p>
                   </div>
                   <p class="rt-font-paragraph sp-b-1">Кто-то в толпе засмеялся; многие улыбались. Я объяснил это для себя
                     истерией и продолжал:</p>
@@ -520,6 +521,11 @@ export default {
     window.addEventListener('resize', () => {
       this.fixDesignerFuckUp();
     })
+    this.$refs.video.addEventListener('ended', () => {
+      this.$refs.videoButton.classList.remove('blog__video-play-button--hidden')
+      this.$refs.videoTitle.classList.remove('blog__video-title--hidden')
+      this.$refs.videoWrapper.classList.remove('blog__video-block-wrapper--no-shadow')
+    })
   },
   created() {},
   methods: {
@@ -541,7 +547,9 @@ export default {
     },
     togglePlay() {
       this.$refs.video.paused ? this.$refs.video.play() : this.$refs.video.pause();
+      this.$refs.videoWrapper.classList.toggle('blog__video-block-wrapper--no-shadow')
       this.$refs.videoButton.classList.toggle('blog__video-play-button--hidden')
+      this.$refs.videoTitle.classList.toggle('blog__video-title--hidden')
     }
   }
 };
