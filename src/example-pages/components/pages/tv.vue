@@ -120,13 +120,49 @@
                     отчаянно надеясь, что переход выполнен гладко. И неизбежно подобное поведение только привлекает к ним
                     внимание - то самое, чего они хотели избежать. Но для такого опытного путешественника, как я, переход
                     - пустяк.</p>
-                  <div class="blog-article__image-carousel sp-b-2">
+                  <div class="blog-article__image-carousel sp-b-2" ref="carousel">
                     <div class="blog-article__image-carousel__item">
                       <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog-article__image-carousel__item-body"/>
                       <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
                         <div class="d-flex d-space-between sp-t-0-2 sp-b-1">
                           <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
-                          <span class="rt-font-small-paragraph color-main03">10/10</span>
+                          <span class="rt-font-small-paragraph color-main03">1/4</span>
+                        </div>
+                        <p class="rt-font-paragraph sp-b-0-3">Заголовок</p>
+                        <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
+                          каком-нибудь укромном месте, в уединении.</p>
+                      </div>
+                    </div>
+                    <div class="blog-article__image-carousel__item">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog-article__image-carousel__item-body"/>
+                      <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
+                        <div class="d-flex d-space-between sp-t-0-2 sp-b-1">
+                          <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
+                          <span class="rt-font-small-paragraph color-main03">2/4</span>
+                        </div>
+                        <p class="rt-font-paragraph sp-b-0-3">Заголовок</p>
+                        <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
+                          каком-нибудь укромном месте, в уединении.</p>
+                      </div>
+                    </div>
+                    <div class="blog-article__image-carousel__item">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog-article__image-carousel__item-body"/>
+                      <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
+                        <div class="d-flex d-space-between sp-t-0-2 sp-b-1">
+                          <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
+                          <span class="rt-font-small-paragraph color-main03">3/4</span>
+                        </div>
+                        <p class="rt-font-paragraph sp-b-0-3">Заголовок</p>
+                        <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
+                          каком-нибудь укромном месте, в уединении.</p>
+                      </div>
+                    </div>
+                    <div class="blog-article__image-carousel__item">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog-article__image-carousel__item-body"/>
+                      <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
+                        <div class="d-flex d-space-between sp-t-0-2 sp-b-1">
+                          <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
+                          <span class="rt-font-small-paragraph color-main03">4/4</span>
                         </div>
                         <p class="rt-font-paragraph sp-b-0-3">Заголовок</p>
                         <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
@@ -163,7 +199,12 @@
                     для вас, страдающих. Вся история несчастного человечества ясно показывает: несмотря на попытки контроля
                     и лечения, эпидемии свирепствуют до тех пор, пока не исчерпывают себя.</p>
                   <div class="blog__video-block-wrapper">
-                    <video class="blog__video-block sp-b-2" src="https://moscow.rt.ru/sites/default/files/b2b/BD/BD_New.mp4"/>
+                    <video class="blog__video-block sp-b-2" src="https://moscow.rt.ru/sites/default/files/b2b/BD/BD_New.mp4" ref="video" @click="togglePlay"/>
+                    <div class="blog__video-play-button" ref="videoButton">
+                      <svg width="36" height="48" viewBox="0 0 36 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M-2.09815e-06 48L36 24L0 -1.57361e-06L-2.09815e-06 48Z" fill="white"/>
+                      </svg>
+                    </div>
                   </div>
                   <p class="rt-font-paragraph sp-b-1">Кто-то в толпе засмеялся; многие улыбались. Я объяснил это для себя
                     истерией и продолжал:</p>
@@ -467,7 +508,13 @@ const componentsList = {};
 export default {
   name: "AppRadioButton",
   components: componentsList,
+  data() {
+    return {
+      carouselArray: null
+    }
+  },
   mounted() {
+    this.carouselArray = this.$refs.carousel.children;
     this.fixDesignerFuckUp();
     window.addEventListener('resize', () => {
       this.fixDesignerFuckUp();
@@ -490,6 +537,10 @@ export default {
       this.$refs.navigationMobile.classList.toggle('navigation-mobile__button--active');
       document.body.classList.toggle('ovh');
       document.documentElement.classList.toggle('ovh');
+    },
+    togglePlay() {
+      this.$refs.video.paused ? this.$refs.video.play() : this.$refs.video.pause();
+      this.$refs.videoButton.classList.toggle('blog__video-play-button--hidden')
     }
   }
 };

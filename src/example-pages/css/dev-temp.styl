@@ -174,8 +174,22 @@
     &-carousel__item-body
       width 100%
       display block
-  &__video-block
-    width 100%
+  &__video
+    &-block
+      width 100%
+      cursor pointer
+      &-wrapper
+        position relative
+    &-play-button
+      position absolute
+      top 50%
+      left 50%
+      transform translateX(-50%) translateY(-50%)
+      width 36px
+      height 48px
+      pointer-events none
+      &--hidden
+        opacity 0
   &__table
     margin-bottom 40px
     &-title
