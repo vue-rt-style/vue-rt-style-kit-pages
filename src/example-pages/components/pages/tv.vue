@@ -194,10 +194,10 @@
                     <span class="color-red">для начала достаточно.</span>
                   </p>
                   <div class="blog__quote sp-b-2">
-                    <span class="rt-font-h4 rt-font-bold color-block--main-color005 sp-h-0-4 sp-t-0-2 d-inline-block">- Подходите, друзья!
+                    <span class="rt-font-h4 rt-font-bold color-block--main-color005">- Подходите, друзья!
                       - воскликнул я.</span>
                     <br>
-                    <span class="rt-font-h4 rt-font-bold color-block--main-color005 sp-h-0-4 sp-b-0-2 d-inline-block">- Подходите скорей!
+                    <span class="rt-font-h4 rt-font-bold color-block--main-color005">- Подходите скорей!
                       Не упускайте возможность. Не надо смущаться и робеть, подходите ближе и слушайте добрые вести.</span>
                   </div>
                   <p class="rt-font-paragraph sp-b-2">— Славные жители Нью-Йорка! — воззвал я. — Я хочу поговорить о загадочном
@@ -625,7 +625,7 @@ export default {
     setCarouselArrowsPosition() {
       let arrowWrapper = this.$refs.carousel.querySelector('.blog__carousel__navigation');
       let singleSlideHeight = this.$refs.carousel.querySelector('.blog__carousel__item-body').offsetHeight;
-      arrowWrapper.style.height = 'calc(' + singleSlideHeight + 'px / 2)';
+      arrowWrapper.style.top = 'calc(' + singleSlideHeight + 'px / 2)';
     }
   }
 };
