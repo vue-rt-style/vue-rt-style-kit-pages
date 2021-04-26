@@ -120,45 +120,47 @@
                     отчаянно надеясь, что переход выполнен гладко. И неизбежно подобное поведение только привлекает к ним
                     внимание - то самое, чего они хотели избежать. Но для такого опытного путешественника, как я, переход
                     - пустяк.</p>
-                  <div class="blog-article__image-carousel sp-b-2" ref="carousel">
-                    <div class="blog-article__image-carousel__item blog-article__image-carousel__item--active">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog-article__image-carousel__item-body"/>
-                      <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
-                        <div class="d-flex d-space-between sp-t-0-2 sp-b-1">
-                          <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
-                          <span class="rt-font-small-paragraph color-main03">1/4</span>
+                  <div class="blog__carousel sp-b-2" ref="carousel">
+                    <div class="carousel-slides-wrapper" ref="carouselWrapper">
+                      <div class="blog__carousel__item blog__carousel__item--active">
+                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__carousel__item-body"/>
+                        <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
+                          <div class="d-flex d-space-between sp-t-0-2 sp-b-1">
+                            <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
+                            <span class="rt-font-small-paragraph color-main03">1/4</span>
+                          </div>
+                          <p class="rt-font-paragraph sp-b-0-3">Заголовок</p>
+                          <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
+                            каком-нибудь укромном месте, в уединении.</p>
                         </div>
-                        <p class="rt-font-paragraph sp-b-0-3">Заголовок</p>
-                        <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
-                          каком-нибудь укромном месте, в уединении.</p>
                       </div>
-                    </div>
-                    <div class="blog-article__image-carousel__item">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog-article__image-carousel__item-body"/>
-                      <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
-                        <div class="d-flex d-space-between sp-t-0-2 sp-b-1">
-                          <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
-                          <span class="rt-font-small-paragraph color-main03">2/4</span>
+                      <div class="blog__carousel__item">
+                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__carousel__item-body"/>
+                        <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
+                          <div class="d-flex d-space-between sp-t-0-2 sp-b-1">
+                            <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
+                            <span class="rt-font-small-paragraph color-main03">2/4</span>
+                          </div>
+                          <p class="rt-font-paragraph sp-b-0-3">Заголовок</p>
+                          <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
+                            каком-нибудь укромном месте, в уединении. Неопытные путешественники стараются
+                            материализоваться в каком-нибудь укромном месте, в уединении.</p>
                         </div>
-                        <p class="rt-font-paragraph sp-b-0-3">Заголовок</p>
-                        <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
-                          каком-нибудь укромном месте, в уединении.</p>
                       </div>
-                    </div>
-                    <div class="blog-article__image-carousel__item">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog-article__image-carousel__item-body"/>
-                      <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
-                        <div class="d-flex d-space-between sp-t-0-2 sp-b-1">
-                          <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
-                          <span class="rt-font-small-paragraph color-main03">3/4</span>
+                      <div class="blog__carousel__item">
+                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__carousel__item-body"/>
+                        <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
+                          <div class="d-flex d-space-between sp-t-0-2 sp-b-1">
+                            <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
+                            <span class="rt-font-small-paragraph color-main03">3/4</span>
+                          </div>
+                          <p class="rt-font-paragraph sp-b-0-3">Заголовок</p>
+                          <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
+                            каком-нибудь укромном месте, в уединении.</p>
                         </div>
-                        <p class="rt-font-paragraph sp-b-0-3">Заголовок</p>
-                        <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
-                          каком-нибудь укромном месте, в уединении.</p>
                       </div>
-                    </div>
-                    <div class="blog-article__image-carousel__item">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog-article__image-carousel__item-body"/>
+                      <div class="blog__carousel__item">
+                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__carousel__item-body"/>
                       <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
                         <div class="d-flex d-space-between sp-t-0-2 sp-b-1">
                           <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
@@ -167,6 +169,19 @@
                         <p class="rt-font-paragraph sp-b-0-3">Заголовок</p>
                         <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
                           каком-нибудь укромном месте, в уединении.</p>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="blog__carousel__navigation">
+                      <div class="blog__carousel__navigation-arrow blog__carousel__navigation-arrow-left" @click="previousImage">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M26 1L2 25L26 49" stroke="white" stroke-width="2"/>
+                        </svg>
+                      </div>
+                      <div class="blog__carousel__navigation-arrow blog__carousel__navigation-arrow-right" @click="nextImage">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M24 49L48 25L24 1" stroke="white" stroke-width="2"/>
+                        </svg>
                       </div>
                     </div>
                   </div>
@@ -512,20 +527,27 @@ export default {
   components: componentsList,
   data() {
     return {
-      carouselArray: null
+      carouselArray: null,
+      activeSlideIndex: 0,
+      letClick: true,
+      nextSlideIndex: null,
+      previousSlideIndex: null
     }
   },
   mounted() {
-    this.carouselArray = this.$refs.carousel.children;
+    this.carouselArray = this.$refs.carouselWrapper.children;
     this.fixDesignerFuckUp();
+    this.setCarouselArrowsPosition();
     window.addEventListener('resize', () => {
       this.fixDesignerFuckUp();
+      this.setCarouselArrowsPosition();
     })
     this.$refs.video.addEventListener('ended', () => {
       this.$refs.videoButton.classList.remove('blog__video-play-button--hidden')
       this.$refs.videoTitle.classList.remove('blog__video-title--hidden')
       this.$refs.videoWrapper.classList.remove('blog__video-block-wrapper--no-shadow')
     })
+    this.setSlidesPosition()
   },
   created() {},
   methods: {
@@ -550,6 +572,60 @@ export default {
       this.$refs.videoWrapper.classList.toggle('blog__video-block-wrapper--no-shadow')
       this.$refs.videoButton.classList.toggle('blog__video-play-button--hidden')
       this.$refs.videoTitle.classList.toggle('blog__video-title--hidden')
+    },
+    setSlidesPosition() {
+      this.carouselArray[this.activeSlideIndex].classList.add('blog__carousel__item--active');
+      Array.from(this.carouselArray).map(item => {
+        item.classList.add('blog__carousel__item--hidden')
+      })
+      this.nextSlideIndex = this.activeSlideIndex == (this.carouselArray.length - 1) ? 0 : this.activeSlideIndex + 1;
+      this.previousSlideIndex = this.activeSlideIndex == 0 ? this.carouselArray.length - 1 : this.activeSlideIndex - 1;
+      this.carouselArray[this.nextSlideIndex].classList.add('blog__carousel__item--next')
+      this.carouselArray[this.previousSlideIndex].classList.add('blog__carousel__item--previous')
+      this.carouselArray[this.nextSlideIndex].classList.remove('blog__carousel__item--previous')
+      this.carouselArray[this.previousSlideIndex].classList.remove('blog__carousel__item--next')
+      setTimeout(() => {
+        Array.from(this.carouselArray).map(item => {
+          item.classList.remove('blog__carousel__item--hidden')
+        })
+      }, 300)
+    },
+    nextImage() {
+      if(this.letClick) {
+        this.letClick = false;
+        this.carouselArray[this.nextSlideIndex].classList.remove('blog__carousel__item--next')
+        this.carouselArray[this.activeSlideIndex].classList.remove('blog__carousel__item--active');
+        this.carouselArray[this.nextSlideIndex].classList.add('blog__carousel__item--active')
+        this.carouselArray[this.activeSlideIndex].classList.add('blog__carousel__item--previous');
+        this.activeSlideIndex = this.nextSlideIndex;
+        setTimeout(() => {
+          this.setSlidesPosition();
+        }, 300)
+        setTimeout(() => {
+          this.letClick = true;
+        }, 600)
+      }
+    },
+    previousImage() {
+      if(this.letClick) {
+        this.letClick = false;
+        this.carouselArray[this.previousSlideIndex].classList.remove('blog__carousel__item--previous')
+        this.carouselArray[this.activeSlideIndex].classList.remove('blog__carousel__item--active');
+        this.carouselArray[this.previousSlideIndex].classList.add('blog__carousel__item--active')
+        this.carouselArray[this.activeSlideIndex].classList.add('blog__carousel__item--next');
+        this.activeSlideIndex = this.previousSlideIndex;
+        setTimeout(() => {
+          this.setSlidesPosition();
+        }, 300)
+        setTimeout(() => {
+          this.letClick = true;
+        }, 600)
+      }
+    },
+    setCarouselArrowsPosition() {
+      let arrowWrapper = this.$refs.carousel.querySelector('.blog__carousel__navigation');
+      let singleSlideHeight = this.$refs.carousel.querySelector('.blog__carousel__item-body').offsetHeight;
+      arrowWrapper.style.height = 'calc(' + singleSlideHeight + 'px / 2)';
     }
   }
 };

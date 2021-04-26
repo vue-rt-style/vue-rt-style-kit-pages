@@ -44,12 +44,8 @@
               </div>
               <div class="d-none td-d-block">
                 <div class="navigation-mobile">
-                  <div class="navigation-mobile__button" ref="navigationMobile" @click="toggleMobileMenu">
-                    <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="20" height="1" fill="#101828"/>
-                      <rect y="6" width="20" height="1" fill="#101828"/>
-                      <rect y="12" width="20" height="1" fill="#101828"/>
-                    </svg>
+                  <div class="navigation-mobile__button-wrapper" ref="navigationMobile" @click="toggleMobileMenu">
+                    <div class="navigation-mobile__button"/>
                   </div>
                   <div class="navigation-mobile__list sp-v-1 sp-l-1-3 sp-r-3">
                     <a class="navigation-link" href="#">Для меня</a>
@@ -205,7 +201,7 @@
                   </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                         <rt-system-icons name="time small" color="main-color07"/>
@@ -213,7 +209,7 @@
                       </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#образование</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Как помочь ребенку освоить <br>школьную программу</h5>
+                    <a href="#" class="blog__popular__item-title">Как помочь ребенку освоить <br>школьную программу</a>
                   </div>
                 </div>
               </div>
@@ -227,7 +223,7 @@
                   </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -235,7 +231,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#развлечения</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Пять лучших приложений для <br>обработки фотографий</h5>
+                    <a href="#" class="blog__popular__item-title">Пять лучших приложений для <br>обработки фотографий</a>
                   </div>
                   </div>
               </div>
@@ -249,7 +245,7 @@
                   </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -257,7 +253,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Сколько раз можно менять <br>мобильного оператора </h5>
+                    <a href="#" class="blog__popular__item-title">Сколько раз можно менять <br>мобильного оператора </a>
                   </div>
                   </div>
               </div>
@@ -328,47 +324,69 @@
                     <img src="https://spb.rt.ru/sites/default/files/b2b/img-4.png" class="blog__article-tile__image"/>
                   </div>
                 </div>
-                <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                  <p class="rt-font-paragraph rt-font-bold sp-t-0-2 td-sp-t-1 md-sp-t-0-2">Самые популярный тв-каналы по версии Ростелекома</p>
-                  <ul class="sp-t-0-2 color-main07 sp-b-0-3">
-                    <li>• Контроль недвижимости</li>
-                    <li>• Присмотр за детьми</li>
-                    <li>• Наблюдение за животными</li>
-                  </ul>
+                <div class="rt-col-12 rt-col-td-3 rt-col-md-3 d-flex d-space-between flex-column">
+                  <div>
+                    <p class="rt-font-paragraph rt-font-bold sp-t-0-2 td-sp-t-1 md-sp-t-0-2">Самые популярный тв-каналы по версии Ростелекома</p>
+                    <ul class="sp-t-0-2 color-main07 sp-b-0-3">
+                      <li>• Контроль недвижимости</li>
+                      <li>• Присмотр за детьми</li>
+                      <li>• Наблюдение за животными</li>
+                    </ul>
+                  </div>
                   <a class="blog__link-button d-block" href="https://www.rt.ru">Узнать больше на <span class="color-red">rt.ru</span></a>
                 </div>
               </div>
             </div>
             <div class="rt-col-8 rt-col-td-6 td-sp-b-3">
               <div class="blog__hint-carousel">
-                <div class="blog__hint-carousel__item blog__hint-carousel__item--active sp-v-1-4 sp-h-3 rt-font-center td-sp-h-4 md-sp-h-1-2">
-                  <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
-                  <p class="rt-font-h3 sp-b-1">не работает Wi-Fi</p>
-                  <p class="rt-font-paragraph sp-b-1">Создавая «умный дом», можно начать с малого. Например, сначала
-                    установить датчики движения, чтобы свет в комнате включался, только когда в ней кто-то есть. Со
-                    временем можно обзавестись и другим оборудованием, например, системой видеонаблюдения, «умными
-                    замками» и т.д. В целом с каждым годом технологии совершенствуются и становятся доступнее по цене.</p>
-                  <button class="sp-v-0-2 sp-h-1 d-inline-block blog__hint-carousel__refresh">
-                    <div class="flex-center-center">
-                      <rt-system-icons name="refresh"/>
-                      <span class="sp-l-0-2">Другой совет</span>
-                    </div>
-                  </button>
+                <div class="blog__hint-carousel-wrapper" ref="hintWrapper">
+                  <div class="blog__hint-carousel__item blog__hint-carousel__item--active sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 md-sp-h-1-2">
+                    <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
+                    <p class="rt-font-h3 sp-b-1">не работает Wi-Fi</p>
+                    <p class="rt-font-paragraph sp-b-3">Создавая «умный дом», можно начать с малого. Например, сначала
+                      установить датчики движения, чтобы свет в комнате включался, только когда в ней кто-то есть. Со
+                      временем можно обзавестись и другим оборудованием, например, системой видеонаблюдения, «умными
+                      замками» и т.д. В целом с каждым годом технологии совершенствуются и становятся доступнее по цене.</p>
+                  </div>
+                  <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 md-sp-h-1-2">
+                    <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
+                    <p class="rt-font-h3 sp-b-1">не работает Wi-Fi</p>
+                    <p class="rt-font-paragraph sp-b-3">Здесь будут короткие тексты о том, как решить какую-то простую
+                      проблему. Здесь будут короткие тексты о том, как решить какую-то простую проблему. Здесь будут
+                      короткие тексты о том, как решить какую-то простую проблему. Здесь будут короткие тексты о том,
+                      как решить какую-то простую проблему. Здесь будут короткие тексты о том, как решить какую-то
+                      простую проблему. Здесь будут короткие тексты</p>
+                  </div>
+                  <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 md-sp-h-1-2">
+                    <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
+                    <p class="rt-font-h3 sp-b-1">не работает Wi-Fi</p>
+                    <p class="rt-font-paragraph sp-b-3">Здесь будут короткие тексты о том, как решить какую-то простую
+                      проблему. Здесь будут короткие тексты о том, как решить какую-то простую проблему. Здесь будут
+                      короткие тексты о том, как решить какую-то простую проблему.</p>
+                  </div>
+                  <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 md-sp-h-1-2">
+                    <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
+                    <p class="rt-font-h3 sp-b-1">хочется создать в квартире <br>«умный дом» недорого?</p>
+                    <p class="rt-font-paragraph sp-b-3">Здесь будут короткие тексты о том, как решить какую-то простую
+                      проблему. Здесь будут короткие тексты о том, как решить какую-то простую проблему. Здесь будут
+                      короткие тексты о том, как решить какую-то простую проблему. Здесь будут короткие тексты о том,
+                      как решить какую-то простую проблему. Здесь будут короткие тексты о том, как решить какую-то
+                      простую проблему. Здесь будут короткие тексты</p>
+                  </div>
+                  <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 md-sp-h-1-2">
+                    <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
+                    <p class="rt-font-h3 sp-b-1">не работает Wi-Fi</p>
+                    <p class="rt-font-paragraph sp-b-3">Здесь будут короткие тексты о том, как решить какую-то простую
+                      проблему. Здесь будут короткие тексты о том, как решить какую-то простую проблему. Здесь будут
+                      короткие тексты о том, как решить какую-то простую проблему.</p>
+                  </div>
                 </div>
-                <div class="blog__hint-carousel__item sp-v-1-4 sp-h-3 rt-font-center td-sp-h-4 md-sp-h-1-2">
-                  <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
-                  <p class="rt-font-h3 sp-b-1">не работает Wi-Fi</p>
-                  <p class="rt-font-paragraph sp-b-1">Создавая «умный дом», можно начать с малого. Например, сначала
-                    установить датчики движения, чтобы свет в комнате включался, только когда в ней кто-то есть. Со
-                    временем можно обзавестись и другим оборудованием, например, системой видеонаблюдения, «умными
-                    замками» и т.д. В целом с каждым годом технологии совершенствуются и становятся доступнее по цене.</p>
-                  <button class="sp-v-0-2 sp-h-1 d-inline-block blog__hint-carousel__refresh">
-                    <div class="flex-center-center">
-                      <rt-system-icons name="refresh"/>
-                      <span class="sp-l-0-2">Другой совет</span>
-                    </div>
-                  </button>
-                </div>
+                <button class="sp-v-0-2 sp-h-1 d-inline-block blog__hint-carousel__refresh" @click="refreshHint">
+                  <div class="flex-center-center">
+                    <rt-system-icons name="refresh"/>
+                    <span class="sp-l-0-2">Другой совет</span>
+                  </div>
+                </button>
               </div>
             </div>
           </div>
@@ -386,7 +404,7 @@
                   </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -394,7 +412,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Как понять, что ноутбук или телефон устарел</h5>
+                    <a href="#" class="blog__popular__item-title">Как понять, что ноутбук или телефон устарел</a>
                   </div>
                 </div>
               </div>
@@ -408,7 +426,7 @@
                     </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -416,7 +434,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Зачем покупать “красивый” <br>телефонный номер</h5>
+                    <a href="#" class="blog__popular__item-title">Зачем покупать “красивый” <br>телефонный номер</a>
                   </div>
                 </div>
               </div>
@@ -438,7 +456,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#бизнес</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Три важных налоговых нововведения в <br>2021 году</h5>
+                    <a href="#" class="blog__popular__item-title">Три важных налоговых нововведения в <br>2021 году</a>
                   </div>
                 </div>
               </div>
@@ -544,11 +562,17 @@
     components: componentsList,
     data() {
       return {
-        optionsList: [{value: 'all', label: 'Для всех'}, {value: 'b2b', label: 'Для меня'}, {value: 'b2c', label: 'Для бизнеса'}]
+        optionsList: [{value: 'all', label: 'Для всех'}, {value: 'b2b', label: 'Для меня'}, {value: 'b2c', label: 'Для бизнеса'}],
+        hintArray: [],
+        hintCardMaxHeight: 0
       }
     },
     mounted() {
-
+      this.hintArray = Array.from(this.$refs.hintWrapper.children);
+      this.setHintWrapperHeight();
+      window.addEventListener('resize', () => {
+        this.setHintWrapperHeight();
+      })
     },
     created() {},
     methods: {
@@ -556,9 +580,32 @@
         this.$refs.navigationDropdown.classList.toggle('navigation-link-wrapper__button--active')
       },
       toggleMobileMenu() {
-        this.$refs.navigationMobile.classList.toggle('navigation-mobile__button--active');
+        this.$refs.navigationMobile.classList.toggle('navigation-mobile__button-wrapper--active');
         document.body.classList.toggle('ovh');
         document.documentElement.classList.toggle('ovh');
+      },
+      refreshHint() {
+        this.hintArray[0].classList.add('blog__hint-carousel__item--hidden');
+        this.hintArray[0].classList.remove('blog__hint-carousel__item--active');
+        this.hintArray[1].classList.add('blog__hint-carousel__item--active');
+        let lastElem = this.hintArray.shift();
+        this.hintArray.push(lastElem)
+        setTimeout(() => {
+          this.hintArray[this.hintArray.length - 1].classList.remove('blog__hint-carousel__item--hidden');
+        },350)
+      },
+      setHintWrapperHeight() {
+        this.hintArray.map((item, index) => {
+          if(index != 0) {
+            this.hintCardMaxHeight = item.offsetHeight > this.hintCardMaxHeight ? item.offsetHeight : this.hintCardMaxHeight;
+          } else {
+            this.hintCardMaxHeight = item.offsetHeight * 1.1111 > this.hintCardMaxHeight ? item.offsetHeight * 1.1111 : this.hintCardMaxHeight;
+          }
+        })
+        this.$refs.hintWrapper.style.height = this.hintCardMaxHeight + 15 + 'px';
+        this.hintArray.map(item => {
+          item.style.height = 'calc(100% - 15px)'
+        })
       }
     }
   };

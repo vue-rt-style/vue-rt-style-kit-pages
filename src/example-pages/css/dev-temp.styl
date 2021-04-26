@@ -10,9 +10,15 @@
     display flex
     align-items flex-end
     justify-content space-between
+    @media(max-width tablet-upper-limit)
+      padding 16px 0
     &-left
       display flex
       align-items flex-end
+    &-wrapper
+      box-shadow 0 0 4px main-color01
+      position relative
+      z-index 4
   &-footnote
     text-transform uppercase
     letter-spacing 2px
@@ -54,7 +60,7 @@
       position relative
       display block
       object-fit cover
-      max-width 100%
+      width 100%
     &__description
       margin-bottom 8px
     &__label
@@ -90,6 +96,7 @@
       font-size 16px
       line-height 20px
       font-weight 500
+      transition color .2s linear
       &:hover
         color b2c-red
   &__article-tile
@@ -114,6 +121,13 @@
         display flex
   &__promo-block
     border-right 1px solid main-color007-no-opacity
+    @media(max-width tablet-upper-limit)
+      border none
+    .row
+      height 100%
+    .rt-col-12
+      &+&
+        flex-grow 2
   &__link-button
     text-align center
     padding 18px
@@ -123,8 +137,8 @@
   &__hint-carousel
     height 100%
     position relative
-    //@media(max-width tablet-upper-limit)
-    //  min-height 400px
+    &-wrapper
+      position relative
     &__item
       background-color b2c-gray
       position absolute
@@ -133,15 +147,23 @@
       transform translateY(-17px) scale(0.9)
       transition all .3s linear
       top 0
+      height auto
       &--active
         transform translateY(15px)
         z-index 1
         opacity 1
         position relative
+      &--hidden
+        opacity 0
     &__refresh
       background-color b2c-white
       border 2px solid main-color007-no-opacity
       cursor pointer
+      position absolute
+      left 50%
+      transform translateX(-50%)
+      bottom 36px
+      z-index 2
   &__add-article-button
     border 1px solid main-color007-no-opacity
     font-size 14px
@@ -166,27 +188,58 @@
       line-height 20px
       font-weight 500
       display block
+      transition color .2s linear
+      &:hover
+        color b2c-red
   &__frame
     min-height 320px
   &-article__image
     &-body
       max-width 100%
-    &-carousel
-      overflow hidden
-      position relative
-      &__item
-        position absolute
-        top 0
-        left 0
-        z-index -9
+  &__carousel
+    overflow hidden
+    position relative
+    &__item
+      position absolute
+      top 0
+      left 0
+      right 0
+      bottom 0
+      z-index 1
+      opacity 0
+      transition transform .3s linear
+      &--next
+        transform translateX(100%)
+        z-index 2
+        opacity 1
+      &--previous
+        transform translateX(-100%)
+        z-index 2
+        opacity 1
+      &--hidden
         opacity 0
-        &--active
-          position relative
-          z-index 1
-          opacity 1
-        &-body
-          width 100%
-          display block
+        z-index -2
+      &--active
+        position relative
+        z-index 3
+        opacity 1
+        transform translateX(0)
+      &-body
+        width 100%
+        display block
+    &__navigation
+      position absolute
+      top 50%
+      transform translateY(-50%)
+      width 100%
+      justify-content space-between
+      z-index 4
+      display none
+      &-arrow
+        cursor pointer
+        padding 20px
+      .blog__carousel:hover &
+        display flex
   &__video
     &-block
       width 100%
@@ -289,7 +342,9 @@
 
 .blog__title
   .select-v2
-    max-width 120px
+    max-width 140px
+    @media(max-width mobile-upper-limit)
+      max-width 120px
   .select-v2__inner
     border none
     align-items center
@@ -434,9 +489,40 @@
       @media(max-width mobile-upper-limit)
         width 100vw
     &__button
-      &--active
-        &+.navigation-mobile__list
-          transform translateX(0)
+      width 20px
+      height 1px
+      background-color main-color
+      position relative
+      transition all .2s linear
+      &:before,
+      &:after
+        position absolute
+        content ''
+        width 100%
+        height 1px
+        background-color main-color
+        left 0
+        right 0
+        transition all .2s linear
+      &:before
+        top -6px
+      &:after
+        bottom -6px
+      &-wrapper
+        padding 6px 0
+        margin-bottom 4px
+        &--active
+          &+.navigation-mobile__list
+            transform translateX(0)
+          .navigation-mobile__button
+            transform rotate(-135deg)
+            &:before
+              transform rotate(-90deg)
+              top 0
+            &:after
+              transform rotate(90deg)
+              bottom 0
+
 
 
 .blog-container

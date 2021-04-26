@@ -9,7 +9,7 @@
 					<div class="app-row row">
 						<div class="rt-col-5 rt-col-md-3">
 <!--							<span class="rt-font-label flex-fill rt-space-bottom05">simple input</span>-->
-              <rt-input :version="2" placeholder="Это поле ввода. Дерзай!"/>
+              <rt-input :version="2" placeholder="Это поле ввода. Дерзай!" @change="console"/>
               <div class="sp-t-0-3"/>
               <rt-input :version="2" placeholder="Это поле ввода с подсказкой" label="Текст подсказки" :error-message="errorMessage"/>
               <rt-input :version="2" :placeholder="errorText" :has-error="error"
@@ -329,6 +329,9 @@
       togglePhoneCheck() {
         this.checkThis = !!Math.round(Math.random())
         this.showButton = false
+      },
+      console() {
+        console.log('!!!')
       }
     }
   };

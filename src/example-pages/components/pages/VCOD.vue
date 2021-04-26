@@ -122,7 +122,7 @@
                     </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -130,7 +130,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Как понять, что ноутбук или телефон устарел</h5>
+                    <a href="#" class="blog__popular__item-title">Как понять, что ноутбук или телефон устарел</a>
                   </div>
                 </div>
               </div>
@@ -144,7 +144,7 @@
                     </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -152,7 +152,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Зачем покупать “красивый” <br>телефонный номер</h5>
+                    <a href="#" class="blog__popular__item-title">Зачем покупать “красивый” <br>телефонный номер</a>
                   </div>
                 </div>
               </div>
@@ -166,7 +166,7 @@
                     </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -174,7 +174,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#бизнес</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Три важных налоговых нововведения в <br>2021 году</h5>
+                    <a href="#" class="blog__popular__item-title">Три важных налоговых нововведения в <br>2021 году</a>
                   </div>
                 </div>
               </div>
@@ -188,7 +188,7 @@
                     </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -196,7 +196,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Как понять, что ноутбук или телефон устарел</h5>
+                    <a href="#" class="blog__popular__item-title">Как понять, что ноутбук или телефон устарел</a>
                   </div>
                 </div>
               </div>
@@ -210,7 +210,7 @@
                     </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -218,7 +218,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Зачем покупать “красивый” <br>телефонный номер</h5>
+                    <a href="#" class="blog__popular__item-title">Зачем покупать “красивый” <br>телефонный номер</a>
                   </div>
                 </div>
               </div>
@@ -232,7 +232,7 @@
                     </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -240,7 +240,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#бизнес</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Три важных налоговых нововведения в <br>2021 году</h5>
+                    <a href="#" class="blog__popular__item-title">Три важных налоговых нововведения в <br>2021 году</a>
                   </div>
                 </div>
               </div>
@@ -254,7 +254,7 @@
                     </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -262,7 +262,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Как понять, что ноутбук или телефон устарел</h5>
+                    <a href="#" class="blog__popular__item-title">Как понять, что ноутбук или телефон устарел</a>
                   </div>
                 </div>
               </div>
@@ -276,7 +276,7 @@
                     </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -284,7 +284,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Зачем покупать “красивый” <br>телефонный номер</h5>
+                    <a href="#" class="blog__popular__item-title">Зачем покупать “красивый” <br>телефонный номер</a>
                   </div>
                 </div>
               </div>
@@ -298,7 +298,7 @@
                     </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -306,7 +306,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#бизнес</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Три важных налоговых нововведения в <br>2021 году</h5>
+                    <a href="#" class="blog__popular__item-title">Три важных налоговых нововведения в <br>2021 году</a>
                   </div>
                 </div>
               </div>
@@ -320,7 +320,7 @@
                     </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -328,7 +328,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Как понять, что ноутбук или телефон устарел</h5>
+                    <a href="#" class="blog__popular__item-title">Как понять, что ноутбук или телефон устарел</a>
                   </div>
                 </div>
               </div>
@@ -342,7 +342,7 @@
                     </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -350,7 +350,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Зачем покупать “красивый” <br>телефонный номер</h5>
+                    <a href="#" class="blog__popular__item-title">Зачем покупать “красивый” <br>телефонный номер</a>
                   </div>
                 </div>
               </div>
@@ -364,7 +364,7 @@
                     </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-t-0-2">
+                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
                       <span class="blog__weekly-theme__date">12 марта</span>
                       <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
                           <rt-system-icons name="time small" color="main-color07"/>
@@ -372,7 +372,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#бизнес</span>
                     </div>
-                    <h5 class="rt-font-paragraph sp-t-0-2 rt-font-bold">Три важных налоговых нововведения в <br>2021 году</h5>
+                    <a href="#" class="blog__popular__item-title">Три важных налоговых нововведения в <br>2021 году</a>
                   </div>
                 </div>
               </div>
