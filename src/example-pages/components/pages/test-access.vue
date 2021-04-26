@@ -107,7 +107,7 @@
         <div class="rt-col">
           <div class="row">
             <div class="rt-col-8 sp-b-3 rt-col-td-6 md-sp-b-2">
-              <div class="blog__weekly-theme-wrapper">
+              <a href="/tv" class="blog__weekly-theme-wrapper">
                 <img class="blog__weekly-theme__image" src="https://spb.rt.ru/sites/default/files/b2b/blog__theme.png"/>
                 <div class="blog__weekly-theme__label">
                   <div class="tagline color-white d-inline-block sp-v-0-2 sp-h-0-3 color-block--red">тема недели</div>
@@ -124,7 +124,7 @@
                   <h3 class="blog__weekly-theme__title color-white-md-main sp-t-0-3">Домашнее обучение:
                     условия, нюансы, <br class="md-d-none">результаты</h3>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="rt-col-4 sp-b-3 rt-col-td-6 td-sp-b-0-4">
               <div class="flex-start-center sp-b-1">

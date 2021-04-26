@@ -625,7 +625,7 @@ export default {
     setCarouselArrowsPosition() {
       let arrowWrapper = this.$refs.carousel.querySelector('.blog__carousel__navigation');
       let singleSlideHeight = this.$refs.carousel.querySelector('.blog__carousel__item-body').offsetHeight;
-      arrowWrapper.style.height = 'calc(' + singleSlideHeight + 'px / 2)';
+      arrowWrapper.style.top = 'calc(' + singleSlideHeight + 'px / 2)';
     }
   }
 };
