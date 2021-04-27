@@ -158,7 +158,7 @@
               </td>
             </tr>
             <tr class="baza-table__row-clean">
-              <td colspan="2">В макетах встречается как Text M</td>
+              <td colspan="2">В макетах встречается как Text S</td>
             </tr>
           </table>
         </div>
