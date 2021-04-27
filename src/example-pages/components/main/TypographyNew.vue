@@ -149,7 +149,6 @@
             <tr class="baza-table__caption"><td colspan="2">Подпись</td></tr>
             <tr>
               <td>
-                <h4 class="baza-table__row-title">Подпись</h4>
                 <div class="class-name">.font-lb</div>
                 <p>&nbsp;&nbsp;font-weight normal</p>
               </td>
