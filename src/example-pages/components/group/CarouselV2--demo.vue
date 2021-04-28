@@ -6,7 +6,7 @@
       </div>
     </div>
 
-    <section v-if="0" class="sp-v-2">
+    <section class="sp-v-2">
       <div class="rt-container">
         <div class="rt-col-12 rt-col-md-3 sp-b-2">
           <h3>Простой вывод</h3>
@@ -39,7 +39,7 @@
       </rt-carousel-v2>
     </section>
 
-    <section v-if="0" class="rt-container sp-v-2">
+    <section class="rt-container sp-v-2">
       <div class="rt-col-12 rt-col-md-3 sp-b-2">
         <h3>Отображение во вкладках</h3>
       </div>
@@ -144,7 +144,7 @@
       </div>
     </section>
     
-    <section v-if="1" class="sp-v-2">
+    <section class="sp-v-2">
       <div class="rt-container">
         <div class="rt-col-12 rt-col-md-3 sp-b-1">
           <h3>Переход к слайду</h3>
