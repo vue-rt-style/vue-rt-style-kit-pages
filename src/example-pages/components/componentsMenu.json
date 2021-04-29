@@ -352,6 +352,22 @@
           "for_b2c" : true
         },
         {
+          "name" : "Carousels",
+          "title" : "Carousels",
+          "url" : "/carousels",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "CarouselV2",
+          "title" : "CarouselV2",
+          "url" : "/carouselV2",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
           "name" : "row-list",
           "title" : "Row list",
           "url" : "/row-list",
@@ -490,15 +506,6 @@
           "name" : "Jumbotron",
           "title" : "Jumbotron",
           "url" : "/jumbotron",
-          "list_child" : [],
-          "for_b2b" : true,
-          "for_b2c" : true
-        },
-
-        {
-          "name" : "Carousels",
-          "title" : "Carousels",
-          "url" : "/carousels",
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true
