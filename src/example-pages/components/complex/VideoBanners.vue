@@ -17,10 +17,10 @@
             <rt-col>
               <rt-row>
                 <rt-col :size="5" :tablet-size="3" :mobile-size="3" class="color-white">
-                  <p class="sp-b-0-4 rt-font-label rt-font-label-uppercase">Умный дом</p>
+                  <p class="sp-b-0-4 rt-font-label rt-font-label-uppercase color-white05">Умный дом</p>
                   <p class="font-h1 sp-b-0-4">Легко подключить, комфортно жить</p>
                   <p class="font-t-l sp-b-1-2">Готовые решения для умного дома</p>
-                  <rt-button color="orange">Кнопка</rt-button>
+                  <rt-button color="orange" class="rt-button-md--is-block">Кнопка</rt-button>
                 </rt-col>
               </rt-row>
             </rt-col>
@@ -41,10 +41,10 @@
               <rt-col>
                 <rt-row>
                   <rt-col :size="5" :tablet-size="3" :mobile-size="3" class="color-white">
-                    <p class="sp-b-0-4 rt-font-label rt-font-label-uppercase">Умный дом</p>
+                    <p class="sp-b-0-4 rt-font-label rt-font-label-uppercase color-white05">Умный дом</p>
                     <p class="font-h1 sp-b-0-4">Легко подключить, комфортно жить</p>
                     <p class="font-t-l sp-b-1-2">Готовые решения для умного дома</p>
-                    <rt-button color="orange">Кнопка</rt-button>
+                    <rt-button color="orange" class="rt-button-md--is-block">Кнопка</rt-button>
                   </rt-col>
                 </rt-row>
               </rt-col>
@@ -59,10 +59,10 @@
               <rt-col>
                 <rt-row>
                   <rt-col :size="5" :tablet-size="3" :mobile-size="3" class="color-white">
-                    <p class="sp-b-0-4 rt-font-label rt-font-label-uppercase">Умный дом</p>
+                    <p class="sp-b-0-4 rt-font-label rt-font-label-uppercase color-white05">Умный дом</p>
                     <p class="font-h1 sp-b-0-4">Легко подключить, комфортно жить</p>
                     <p class="font-t-l sp-b-1-2">Готовые решения для умного дома</p>
-                    <rt-button color="orange">Кнопка</rt-button>
+                    <rt-button color="orange" class="rt-button-md--is-block">Кнопка</rt-button>
                   </rt-col>
                 </rt-row>
               </rt-col>
