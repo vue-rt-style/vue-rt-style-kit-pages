@@ -1,17 +1,17 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[29],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Popover.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/Popover.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
-/* harmony import */ var _vue_rt_style_kit_molecules_local_components_Popover_docs_index_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/Popover/docs/index.json */ "./src/molecules/components/Popover/docs/index.json");
-var _vue_rt_style_kit_molecules_local_components_Popover_docs_index_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-molecules-local/components/Popover/docs/index.json */ "./src/molecules/components/Popover/docs/index.json", 1);
+/* harmony import */ var _vue_rt_style_kit_molecules_local_components_OptionsList_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/OptionsList/docs/index.json */ "./src/molecules/components/OptionsList/docs/index.json");
+var _vue_rt_style_kit_molecules_local_components_OptionsList_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-molecules-local/components/OptionsList/docs/index.json */ "./src/molecules/components/OptionsList/docs/index.json", 1);
+/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
 //
 //
 //
@@ -167,140 +167,28 @@ var _vue_rt_style_kit_molecules_local_components_Popover_docs_index_json__WEBPAC
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+// const componentsList = {};
 
- // const componentsList = {};
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppTable",
-  components: _componentsList__WEBPACK_IMPORTED_MODULE_0__["default"],
+  name: "AppOptionList",
+  components: _componentsList__WEBPACK_IMPORTED_MODULE_1__["default"],
   data: function data() {
     return {
-      documentation: {},
-      verticalVal: 'top',
-      horizontalVal: 'center'
+      documentation: {}
     };
   },
   mounted: function mounted() {
-    this.documentation = _vue_rt_style_kit_molecules_local_components_Popover_docs_index_json__WEBPACK_IMPORTED_MODULE_1__;
+    this.documentation = _vue_rt_style_kit_molecules_local_components_OptionsList_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Popover.vue?vue&type=template&id=7b7542ac&":
-/*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/Popover.vue?vue&type=template&id=7b7542ac& ***!
-  \*********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=1af46b8f&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=1af46b8f& ***!
+  \*************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -308,24 +196,24 @@ var _vue_rt_style_kit_molecules_local_components_Popover_docs_index_json__WEBPAC
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"app-row row"},[_c('rt-row',{staticClass:"sp-t-2 sp-b-3"},[_c('rt-col',{attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover vertical=\"center\" horizontal=\"top\">\n\t                  <template slot=\"customIcon\">\n\t\t                  <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t                  <circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#101828\" fill-opacity=\"0.03\"/>\n\t\t\t                  <path\n\t\t\t\t\t                  d=\"M14.8531 6.58975C15.2068 5.80342 16.3233 5.80341 16.677 6.58974L18.9833 11.7164L24.6475 12.3833C25.5202 12.4861 25.8456 13.5837 25.1699 14.1454L20.8549 17.7328L22.1721 23.1394C22.379 23.9887 21.4733 24.676 20.711 24.2481L15.765 21.4717L10.8198 24.2478C10.0574 24.6757 9.15161 23.9883 9.35872 23.1389L10.6769 17.7328L6.36188 14.1454C5.68619 13.5836 6.01154 12.486 6.88421 12.3833L12.5469 11.7164L14.8531 6.58975Z\"\n\t\t\t\t\t                  fill=\"#FF4F12\"/>\n\t\t                  </svg>\n\t                  </template>\n\t                  <template slot=\"content\">\n\t\t                  <div>\n\t\t\t                  <p class=\"rt-font-label rt-font-bold sp-b-0-2 color-main07\">Заголовок</p>\n\t\t\t                  <p class=\"rt-font-label color-main07\">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>\n\t\t                  </div>\n\t                  </template>\n                  </rt-popover>"}})],1)]),_vm._v(" "),_c('rt-col',{attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover vertical=\"center\" horizontal=\"top\">\n\t                  <template slot=\"customIcon\">\n\t\t                  <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t                  <circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#101828\" fill-opacity=\"0.03\"/>\n\t\t\t                  <path\n\t\t\t\t\t                  d=\"M14.8531 6.58975C15.2068 5.80342 16.3233 5.80341 16.677 6.58974L18.9833 11.7164L24.6475 12.3833C25.5202 12.4861 25.8456 13.5837 25.1699 14.1454L20.8549 17.7328L22.1721 23.1394C22.379 23.9887 21.4733 24.676 20.711 24.2481L15.765 21.4717L10.8198 24.2478C10.0574 24.6757 9.15161 23.9883 9.35872 23.1389L10.6769 17.7328L6.36188 14.1454C5.68619 13.5836 6.01154 12.486 6.88421 12.3833L12.5469 11.7164L14.8531 6.58975Z\"\n\t\t\t\t\t                  fill=\"#FF4F12\"/>\n\t\t                  </svg>\n\t                  </template>\n\t                  <template slot=\"content\">\n\t\t                  <div>\n\t\t\t                  <p class=\"rt-font-label rt-font-bold sp-b-0-2 color-main07\">Заголовок</p>\n\t\t\t                  <p class=\"rt-font-label color-main07\">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>\n\t\t                  </div>\n\t                  </template>\n                  </rt-popover>"}})],1)]),_vm._v(" "),_c('rt-col',{staticClass:"d-flex flex-end-center",attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover vertical=\"center\" horizontal=\"top\">\n\t                  <template slot=\"customIcon\">\n\t\t                  <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t                  <circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#101828\" fill-opacity=\"0.03\"/>\n\t\t\t                  <path\n\t\t\t\t\t                  d=\"M14.8531 6.58975C15.2068 5.80342 16.3233 5.80341 16.677 6.58974L18.9833 11.7164L24.6475 12.3833C25.5202 12.4861 25.8456 13.5837 25.1699 14.1454L20.8549 17.7328L22.1721 23.1394C22.379 23.9887 21.4733 24.676 20.711 24.2481L15.765 21.4717L10.8198 24.2478C10.0574 24.6757 9.15161 23.9883 9.35872 23.1389L10.6769 17.7328L6.36188 14.1454C5.68619 13.5836 6.01154 12.486 6.88421 12.3833L12.5469 11.7164L14.8531 6.58975Z\"\n\t\t\t\t\t                  fill=\"#FF4F12\"/>\n\t\t                  </svg>\n\t                  </template>\n\t                  <template slot=\"content\">\n\t\t                  <div>\n\t\t\t                  <p class=\"rt-font-label rt-font-bold sp-b-0-2 color-main07\">Заголовок</p>\n\t\t\t                  <p class=\"rt-font-label color-main07\">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>\n\t\t                  </div>\n\t                  </template>\n                  </rt-popover>"}})],1)])],1),_vm._v(" "),_c('rt-row',{staticClass:"sp-t-2 sp-b-3"},[_c('rt-col',{attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover vertical=\"center\" horizontal=\"top\">\n\t                  <template slot=\"customIcon\">\n\t\t                  <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t                  <circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#101828\" fill-opacity=\"0.03\"/>\n\t\t\t                  <path\n\t\t\t\t\t                  d=\"M14.8531 6.58975C15.2068 5.80342 16.3233 5.80341 16.677 6.58974L18.9833 11.7164L24.6475 12.3833C25.5202 12.4861 25.8456 13.5837 25.1699 14.1454L20.8549 17.7328L22.1721 23.1394C22.379 23.9887 21.4733 24.676 20.711 24.2481L15.765 21.4717L10.8198 24.2478C10.0574 24.6757 9.15161 23.9883 9.35872 23.1389L10.6769 17.7328L6.36188 14.1454C5.68619 13.5836 6.01154 12.486 6.88421 12.3833L12.5469 11.7164L14.8531 6.58975Z\"\n\t\t\t\t\t                  fill=\"#FF4F12\"/>\n\t\t                  </svg>\n\t                  </template>\n\t                  <template slot=\"content\">\n\t\t                  <div>\n\t\t\t                  <p class=\"rt-font-label rt-font-bold sp-b-0-2 color-main07\">Заголовок</p>\n\t\t\t                  <p class=\"rt-font-label color-main07\">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>\n\t\t                  </div>\n\t                  </template>\n                  </rt-popover>"}})],1)]),_vm._v(" "),_c('rt-col',{attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover vertical=\"center\" horizontal=\"top\">\n\t                  <template slot=\"customIcon\">\n\t\t                  <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t                  <circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#101828\" fill-opacity=\"0.03\"/>\n\t\t\t                  <path\n\t\t\t\t\t                  d=\"M14.8531 6.58975C15.2068 5.80342 16.3233 5.80341 16.677 6.58974L18.9833 11.7164L24.6475 12.3833C25.5202 12.4861 25.8456 13.5837 25.1699 14.1454L20.8549 17.7328L22.1721 23.1394C22.379 23.9887 21.4733 24.676 20.711 24.2481L15.765 21.4717L10.8198 24.2478C10.0574 24.6757 9.15161 23.9883 9.35872 23.1389L10.6769 17.7328L6.36188 14.1454C5.68619 13.5836 6.01154 12.486 6.88421 12.3833L12.5469 11.7164L14.8531 6.58975Z\"\n\t\t\t\t\t                  fill=\"#FF4F12\"/>\n\t\t                  </svg>\n\t                  </template>\n\t                  <template slot=\"content\">\n\t\t                  <div>\n\t\t\t                  <p class=\"rt-font-label rt-font-bold sp-b-0-2 color-main07\">Заголовок</p>\n\t\t\t                  <p class=\"rt-font-label color-main07\">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>\n\t\t                  </div>\n\t                  </template>\n                  </rt-popover>"}})],1)]),_vm._v(" "),_c('rt-col',{staticClass:"d-flex flex-end-center",attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover vertical=\"center\" horizontal=\"top\">\n            <div>\n              <p class=\"rt-font-label color-main07\">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>\n            </div>\n          </rt-popover>"}})],1)])],1),_vm._v(" "),_c('rt-row',{staticClass:"sp-t-2 sp-b-3"},[_c('rt-col',{attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover vertical=\"center\" horizontal=\"top\">\n            <div>\n              <p class=\"rt-font-label color-main07\">Минимальный размер</p>\n            </div>\n          </rt-popover>"}})],1)]),_vm._v(" "),_c('rt-col',{attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover vertical=\"center\" horizontal=\"top\">\n            <div>\n              <p class=\"rt-font-label color-main07\">Минимальный размер</p>\n            </div>\n          </rt-popover>"}})],1)]),_vm._v(" "),_c('rt-col',{staticClass:"d-flex flex-end-center",attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover vertical=\"center\" horizontal=\"top\">\n            <div>\n              <p class=\"rt-font-label color-main07\">Минимальный размер</p>\n            </div>\n          </rt-popover>"}})],1)])],1)],1),_vm._v(" "),_c('div',{staticClass:"app-row row color-block--orange-high02",attrs:{"id":"wrap"}},[_c('rt-row',{staticClass:"sp-t-2 sp-b-3"},[_c('rt-col',{attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover icon-name=\"bed\" container-id=\"wrap\" vertical=\"center\" horizontal=\"top\">\n            <div>\n              <p class=\"rt-font-label rt-font-bold sp-b-0-2 color-main07\">Заголовок</p>\n              <p class=\"rt-font-label color-main07\">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>\n            </div>\n          </rt-popover>"}})],1)]),_vm._v(" "),_c('rt-col',{attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover icon-name=\"apple fill\" container-id=\"wrap\" vertical=\"center\" horizontal=\"top\">\n            <div>\n              <p class=\"rt-font-label rt-font-bold sp-b-0-2 color-main07\">Заголовок</p>\n              <p class=\"rt-font-label color-main07\">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>\n            </div>\n          </rt-popover>"}})],1)]),_vm._v(" "),_c('rt-col',{staticClass:"d-flex flex-end-center",attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover icon-name=\"android fill\" container-id=\"wrap\" vertical=\"center\" horizontal=\"top\">\n            <div>\n              <p class=\"rt-font-label rt-font-bold sp-b-0-2 color-main07\">Заголовок</p>\n              <p class=\"rt-font-label color-main07\">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>\n            </div>\n          </rt-popover>"}})],1)])],1),_vm._v(" "),_c('rt-row',{staticClass:"sp-t-2 sp-b-3"},[_c('rt-col',{attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover container-id=\"wrap\" vertical=\"center\" horizontal=\"top\">\n            <div>\n              <p class=\"rt-font-label color-main07\">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>\n            </div>\n          </rt-popover>"}})],1)]),_vm._v(" "),_c('rt-col',{attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover container-id=\"wrap\" vertical=\"center\" horizontal=\"top\">\n            <div>\n              <p class=\"rt-font-label color-main07\">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>\n            </div>\n          </rt-popover>"}})],1)]),_vm._v(" "),_c('rt-col',{staticClass:"d-flex flex-end-center",attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover container-id=\"wrap\" vertical=\"center\" horizontal=\"top\">\n            <div>\n              <p class=\"rt-font-label color-main07\">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>\n            </div>\n          </rt-popover>"}})],1)])],1),_vm._v(" "),_c('rt-row',{staticClass:"sp-t-2"},[_c('rt-col',{attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover container-id=\"wrap\" vertical=\"center\" horizontal=\"top\">\n            <div>\n              <p class=\"rt-font-label color-main07\">Минимальный размер</p>\n            </div>\n          </rt-popover>"}})],1)]),_vm._v(" "),_c('rt-col',{attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover container-id=\"wrap\" vertical=\"center\" horizontal=\"top\">\n            <div>\n              <p class=\"rt-font-label color-main07\">Минимальный размер</p>\n            </div>\n          </rt-popover>"}})],1)]),_vm._v(" "),_c('rt-col',{staticClass:"d-flex flex-end-center",attrs:{"size":"4"}},[_c('div',{staticClass:"relative d-inline-block"},[_c('pre-code',{attrs:{"text":"<rt-popover container-id=\"wrap\" vertical=\"center\" horizontal=\"top\">\n            <div>\n              <p class=\"rt-font-label color-main07\">Минимальный размер</p>\n            </div>\n          </rt-popover>"}})],1)])],1)],1)])])]),_vm._v(" "),_c('div',{staticClass:"rt-container rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("\n            Popover\n          ")])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-content"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col-12 rt-col-td-6 rt-col-md-3 is-b2c"},[_c('rt-options-list',{attrs:{"hash":"123","has-star":true}},[_c('template',{slot:"icon"},[_c('svg',{attrs:{"width":"56px","height":"56px","viewBox":"0 0 56 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink"}},[_c('g',{attrs:{"id":"Design","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"1034_mobile/options","transform":"translate(-173.000000, -450.000000)","fill":"#E3E8EC","fill-rule":"nonzero"}},[_c('circle',{attrs:{"id":"Oval-Copy-15","cx":"201","cy":"478","r":"28"}})])])])]),_vm._v(" "),_c('template',{slot:"label"},[_vm._v("День в сети")]),_vm._v(" "),_c('template',{slot:"info"},[_vm._v("Платите только когда пользуетесь.")]),_vm._v(" "),_c('template',{slot:"content"}),_vm._v(" "),_c('template',{slot:"aside"},[_c('span',{staticClass:"rt-space-left rt-md-space-left-none"},[_vm._v("250 мб")]),_vm._v(" "),_c('span',{staticClass:"rt-font-bold rt-space-left rt-md-space-left-none"},[_vm._v("20 руб./мес.")])]),_vm._v(" "),_c('template',{slot:"moreinfo"},[_vm._v("Подробнее")])],2),_vm._v(" "),_c('rt-options-list',{attrs:{"hash":"321"}},[_c('template',{slot:"icon"},[_c('svg',{attrs:{"width":"56px","height":"56px","viewBox":"0 0 56 56","version":"1.1","xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink"}},[_c('g',{attrs:{"id":"Design","stroke":"none","stroke-width":"1","fill":"none","fill-rule":"evenodd"}},[_c('g',{attrs:{"id":"1034_mobile/options","transform":"translate(-173.000000, -450.000000)","fill":"#E3E8EC","fill-rule":"nonzero"}},[_c('circle',{attrs:{"id":"Oval-Copy-15","cx":"201","cy":"478","r":"28"}})])])])]),_vm._v(" "),_c('template',{slot:"label"},[_vm._v("День в сети")]),_vm._v(" "),_c('template',{slot:"info"},[_vm._v("Платите только когда пользуетесь.")]),_vm._v(" "),_c('template',{slot:"content"},[_c('rt-options-list-info-item',[_c('template',{slot:"left"},[_vm._v("Абонентская плата")]),_vm._v(" "),_c('template',{slot:"right"},[_vm._v("99 руб./мес.")])],2),_vm._v(" "),_c('rt-options-list-info-item',[_c('template',{slot:"left"},[_vm._v("Объем трафика")]),_vm._v(" "),_c('template',{slot:"right"},[_vm._v("2 Гб")])],2),_vm._v(" "),_c('rt-options-list-info-item',[_c('template',{slot:"left"},[_vm._v("Неиспользованные Гб интернет-трафика переносятся на следующий месяц")])],2),_vm._v(" "),_c('rt-options-list-info-item',[_c('template',{slot:"left"},[_vm._v("Как отключить")])],2)],1),_vm._v(" "),_c('template',{slot:"aside"},[_c('span',{staticClass:"rt-space-left rt-md-space-left-none"},[_vm._v("250 мб")]),_vm._v(" "),_c('span',{staticClass:"rt-font-bold rt-space-left rt-md-space-left-none"},[_vm._v("20 руб./мес.")])]),_vm._v(" "),_c('template',{slot:"moreinfo"},[_vm._v("Подробнее")]),_vm._v(" "),_c('template',{slot:"content"},[_c('rt-options-list',{attrs:{"name":"test3","need-to-save":true}},[_c('template',{slot:"icon"}),_vm._v(" "),_c('template',{slot:"label"},[_vm._v("День в сети")]),_vm._v(" "),_c('template',{slot:"info"},[_vm._v("Платите только когда пользуетесь.")]),_vm._v(" "),_c('template',{slot:"aside"},[_c('span',{staticClass:"rt-space-left rt-md-space-left-none"},[_vm._v("250 мб")]),_vm._v(" "),_c('span',{staticClass:"rt-font-bold rt-space-left rt-md-space-left-none"},[_vm._v("20 руб./мес.")])]),_vm._v(" "),_c('template',{slot:"moreinfo"},[_vm._v("Подробнее")]),_vm._v(" "),_c('template',{slot:"content"},[_c('p',[_vm._v("Управление услугой доступно в Личном кабинете.")]),_vm._v(" "),_c('p',[_vm._v("Платите только когда пользуетесь.")]),_vm._v(" "),_c('p',[_vm._v("Управление услугой доступно в Личном кабинете.")]),_vm._v(" "),_c('p',[_vm._v("Платите только когда пользуетесь.")]),_vm._v(" "),_c('p',[_vm._v("Управление услугой доступно в Личном кабинете.")]),_vm._v(" "),_c('p',[_vm._v("Платите только когда пользуетесь.")]),_vm._v(" "),_c('p',[_vm._v("Управление услугой доступно в Личном кабинете.")]),_vm._v(" "),_c('p',[_vm._v("Платите только когда пользуетесь.")])])],2)],1)],2),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-options-list hash=\"3212\">\n            <template slot=\"icon\">\n              <svg width=\"56px\" height=\"56px\" viewBox=\"0 0 56 56\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"\n                   xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n                <g id=\"Design\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n                  <g id=\"1034_mobile/options\" transform=\"translate(-173.000000, -450.000000)\" fill=\"#E3E8EC\"\n                     fill-rule=\"nonzero\">\n                    <circle id=\"Oval-Copy-15\" cx=\"201\" cy=\"478\" r=\"28\"></circle>\n                  </g>\n                </g>\n              </svg>\n            </template>\n            <template slot=\"label\">День в сети</template>\n            <template slot=\"info\">Платите только когда пользуетесь.</template>\n            <template slot=\"content\">\n              <div>\n                <p>Управление услугой доступно в Личном кабинете.</p>\n                <p>Платите только когда пользуетесь.</p>\n                <p>Управление услугой доступно в Личном кабинете.</p>\n                <p>Платите только когда пользуетесь.</p>\n                <p>Управление услугой доступно в Личном кабинете.</p>\n                <p>Платите только когда пользуетесь.</p>\n                <p>Управление услугой доступно в Личном кабинете.</p>\n                <p>Платите только когда пользуетесь.</p>\n              </div>\n            </template>\n            <template slot=\"aside\">\n                <span class=\"rt-space-left rt-md-space-left-none\">250 мб</span>\n                <span class=\"rt-font-bold rt-space-left rt-md-space-left-none\">20 руб./мес.</span>\n            </template>\n            <template slot=\"moreinfo\">Подробнее</template>\n            <template slot=\"content\">\n              <rt-options-list name=\"test4\" :need-to-save=\"true\" >\n                <template slot=\"icon\"></template>\n                  <template slot=\"label\">День в сети</template>\n                <template slot=\"info\">Платите только когда пользуетесь.</template>\n                <template slot=\"aside\">\n                    <span class=\"rt-space-left rt-md-space-left-none\">250 мб</span>\n                    <span class=\"rt-font-bold rt-space-left rt-md-space-left-none\">20 руб./мес.</span>\n                </template>\n                <template slot=\"moreinfo\">Подробнее</template>\n                <template slot=\"content\">\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                  <p>Управление услугой доступно в Личном кабинете.</p>\n                  <p>Платите только когда пользуетесь.</p>\n                </template>\n              </rt-options-list>\n            </template>\n          </rt-options-list>"}})],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-container rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col-12 rt-col-td-6 rt-col-md-3"},[_c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("Options List")])])])])}]
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/Popover.vue":
-/*!********************************************************!*\
-  !*** ./src/example-pages/components/group/Popover.vue ***!
-  \********************************************************/
+/***/ "./src/example-pages/components/group/OptionsList.vue":
+/*!************************************************************!*\
+  !*** ./src/example-pages/components/group/OptionsList.vue ***!
+  \************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Popover_vue_vue_type_template_id_7b7542ac___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Popover.vue?vue&type=template&id=7b7542ac& */ "./src/example-pages/components/group/Popover.vue?vue&type=template&id=7b7542ac&");
-/* harmony import */ var _Popover_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Popover.vue?vue&type=script&lang=js& */ "./src/example-pages/components/group/Popover.vue?vue&type=script&lang=js&");
+/* harmony import */ var _OptionsList_vue_vue_type_template_id_1af46b8f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./OptionsList.vue?vue&type=template&id=1af46b8f& */ "./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=1af46b8f&");
+/* harmony import */ var _OptionsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OptionsList.vue?vue&type=script&lang=js& */ "./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -335,9 +223,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Popover_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Popover_vue_vue_type_template_id_7b7542ac___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Popover_vue_vue_type_template_id_7b7542ac___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _OptionsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _OptionsList_vue_vue_type_template_id_1af46b8f___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _OptionsList_vue_vue_type_template_id_1af46b8f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -349,46 +237,46 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/Popover.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************!*\
-  !*** ./src/example-pages/components/group/Popover.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************/
+/***/ "./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Popover_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Popover.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Popover.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Popover_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./OptionsList.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/OptionsList.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/Popover.vue?vue&type=template&id=7b7542ac&":
-/*!***************************************************************************************!*\
-  !*** ./src/example-pages/components/group/Popover.vue?vue&type=template&id=7b7542ac& ***!
-  \***************************************************************************************/
+/***/ "./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=1af46b8f&":
+/*!*******************************************************************************************!*\
+  !*** ./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=1af46b8f& ***!
+  \*******************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Popover_vue_vue_type_template_id_7b7542ac___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Popover.vue?vue&type=template&id=7b7542ac& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Popover.vue?vue&type=template&id=7b7542ac&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Popover_vue_vue_type_template_id_7b7542ac___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_template_id_1af46b8f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./OptionsList.vue?vue&type=template&id=1af46b8f& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/OptionsList.vue?vue&type=template&id=1af46b8f&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_template_id_1af46b8f___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Popover_vue_vue_type_template_id_7b7542ac___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OptionsList_vue_vue_type_template_id_1af46b8f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./src/molecules/components/Popover/docs/index.json":
-/*!**********************************************************!*\
-  !*** ./src/molecules/components/Popover/docs/index.json ***!
-  \**********************************************************/
+/***/ "./src/molecules/components/OptionsList/docs/index.json":
+/*!**************************************************************!*\
+  !*** ./src/molecules/components/OptionsList/docs/index.json ***!
+  \**************************************************************/
 /*! exports provided: items, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-popover\",\"property\":\"vertical\",\"type\":\"String\",\"description\":\"Позиция вертикальной ориентации ['top','center','bottom']\",\"value\":\"\"},{\"name\":\"rt-popover\",\"property\":\"horizontal\",\"type\":\"String\",\"description\":\"Позиция горизонтальной ориентации ['left','center','right']\",\"value\":\"\"},{\"name\":\"rt-popover\",\"property\":\"md-vertical\",\"type\":\"String\",\"description\":\"Позиция вертикальной ориентации для мобильных устройств w<769px ['top','center','bottom']\",\"value\":\"\"},{\"name\":\"rt-popover\",\"property\":\"md-horizontal\",\"type\":\"String\",\"description\":\"Позиция горизонтальной ориентации для мобильных устройств w<769px ['left','center','right']\",\"value\":\"\"},{\"name\":\"rt-popover\",\"property\":\":auto-position\",\"type\":\"Boolean\",\"description\":\"Автоматичекое определение позиции\",\"value\":\"true\"},{\"name\":\"rt-popover\",\"property\":\":stop-auto-on-md\",\"type\":\"Boolean\",\"description\":\"Выключение автоматичекого определения позиции для мобильных устройств\",\"value\":\"false\"},{\"name\":\"rt-popover\",\"property\":\":container-id\",\"type\":\"String\",\"description\":\"id обертки если надо высчитывать не от краев экрана\",\"value\":\"false\"}]}");
+module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-option-list\",\"property\":\"hash\",\"type\":\"String\",\"description\":\"Якорь, используемый для установки активным(развёрнутым) определённого пункта, при переходе по ссылке\",\"value\":\"\"},{\"name\":\"rt-option-list\",\"property\":\"need-to-save\",\"type\":\"Boolean\",\"description\":\"Флаг для сохранения в localStorage развёрнутого пункта\",\"value\":\"false\"},{\"name\":\"rt-option-list\",\"property\":\"name\",\"type\":\"String\",\"description\":\"Имя используемое для сохранения значения в localStorage\",\"value\":\"\"},{\"name\":\"rt-option-list\",\"property\":\":close-other\",\"type\":\"Boolean\",\"description\":\"Флаг, указывающий закрывать остальные вкладки при открытии данной\",\"value\":\"false\"},{\"name\":\"rt-option-list\",\"property\":\"hasStar\",\"type\":\"Boolean\",\"description\":\"Флаг отвечающий за отображение звезды на данном пункте\",\"value\":\"false\"}]}");
 
 /***/ })
 
