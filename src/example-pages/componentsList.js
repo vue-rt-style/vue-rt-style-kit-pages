@@ -129,7 +129,8 @@ import {
   CardBanner,
   CardTileLayout,
   CommentSlider,
-  CommentSliderItem
+  CommentSliderItem,
+  VideoBanner
   
 } from '@vue-rt-style-kit-molecules-local'
 
@@ -275,6 +276,7 @@ addToComponentList(Jumbotron);
 addToComponentList(CardHelp);
 addToComponentList(CardBanner);
 addToComponentList(CardTileLayout);
+addToComponentList(VideoBanner);
 
 // componentsList[PreComponent.name] = PreComponent;
 // componentsList[PreComponentEditor.name] = PreComponentEditor;

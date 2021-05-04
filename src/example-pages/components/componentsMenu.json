@@ -471,6 +471,14 @@
           "for_b2c" : true
         },
         {
+          "name" : "Video Banner",
+          "title" : "Video Banner",
+          "url" : "/video-banner",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
           "name" : "AdBanner",
           "title" : "Ad Banner",
           "url" : "/ad-banner",
