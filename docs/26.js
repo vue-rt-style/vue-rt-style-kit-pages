@@ -1,16 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[26],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Annotation.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/Annotation.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Textarea.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/form/Textarea.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_rt_style_kit_atoms_local_components_Annotation_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-atoms-local/components/Annotation/docs/index.json */ "./src/atoms/components/Annotation/docs/index.json");
-var _vue_rt_style_kit_atoms_local_components_Annotation_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-atoms-local/components/Annotation/docs/index.json */ "./src/atoms/components/Annotation/docs/index.json", 1);
+/* harmony import */ var _vue_rt_style_kit_atoms_local_components_Textarea_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-atoms-local/components/Textarea/docs/index.json */ "./src/atoms/components/Textarea/docs/index.json");
+var _vue_rt_style_kit_atoms_local_components_Textarea_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-atoms-local/components/Textarea/docs/index.json */ "./src/atoms/components/Textarea/docs/index.json", 1);
 /* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
 //
 //
@@ -195,91 +195,25 @@ var _vue_rt_style_kit_atoms_local_components_Annotation_docs_index_json__WEBPACK
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-// const componentsList = {};
 
+ //  const componentsList = {};
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppButtons",
+  name: "AppTextarea",
   components: _componentsList__WEBPACK_IMPORTED_MODULE_1__["default"],
   data: function data() {
     return {
-      documentation: {}
+      checked: false,
+      checked3: false,
+      checked2: false,
+      documentation: {},
+      myModel: 'Sample text here',
+      errorMes: 'error message',
+      maxSize: 0
     };
   },
   mounted: function mounted() {
-    this.documentation = _vue_rt_style_kit_atoms_local_components_Annotation_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
+    this.documentation = _vue_rt_style_kit_atoms_local_components_Textarea_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
   },
   created: function created() {},
   methods: {}
@@ -287,10 +221,10 @@ var _vue_rt_style_kit_atoms_local_components_Annotation_docs_index_json__WEBPACK
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Annotation.vue?vue&type=template&id=1e2c103e&":
-/*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/Annotation.vue?vue&type=template&id=1e2c103e& ***!
-  \************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Textarea.vue?vue&type=template&id=6ee04581&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/form/Textarea.vue?vue&type=template&id=6ee04581& ***!
+  \*********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -298,35 +232,35 @@ var _vue_rt_style_kit_atoms_local_components_Annotation_docs_index_json__WEBPACK
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"row sp-b-2"},[_c('pre-code',{attrs:{"text":"<div class='rt-col-7 rt-col-td-6'>\n            <rt-annotation :scroll-timeout='1000' :v2='true'>\n              <template slot='label'>Что такое ОС Аврора?</template>\n              <template slot='content'>\n                <p class='rt-font-small-paragraph'>ОС Аврора — первая и пока единственная российская операционная система,\n                которая позволяет удаленно контролировать процесс обработки данных на мобильных устройствах.</p>\n              </template>\n            </rt-annotation>\n            <rt-annotation :scroll-timeout='1000' :v2='true'>\n              <template slot='label'>Как происходит управление мобильными устройствами?</template>\n              <template slot='content'>\n                <p class='rt-font-small-paragraph'>ОС Аврора — первая и пока единственная российская операционная система,\n                  которая позволяет удаленно контролировать процесс обработки данных на мобильных устройствах.</p>\n              </template>\n            </rt-annotation>\n            <rt-annotation :scroll-timeout='1000' :v2='true'>\n              <template slot='label'>В чем преимущества работы операционной системы «Аврора» и почему важно\n                формирование доверенной мобильной среды в крупной компании?</template>\n              <template slot='content'>\n                <p class='rt-font-small-paragraph'>У операционной системы «Аврора» есть ряд преимуществ, которые\n                позволяют использовать мобильные устройства как мобильное рабочее место. При этом обеспечить\n                зашифрованный доступ к информационным системам, поддержку работы в системе электронного\n                документооборота и корпоративном облаке с использованием электронной подписи. Основные преимущества ОС Аврора:</p>\n                <ul class='rt-numeric-list sp-v-1'>\n                  <li class='rt-numeric-list__item'>\n                    <p class='rt-font-small-paragraph sp-b-1'>Полная защищенность устройств.</p>\n                    <p class='rt-font-small-paragraph'>Все мобильные устройства и конфиденциальная информация\n                      надёжно защищены от вторжения посторонних лиц в корпоративные системы, информационную среду и\n                      базы данных.</p>\n                  </li>\n                  <li class='rt-numeric-list__item'>\n                    <p class='rt-font-small-paragraph sp-b-1'>Сертификация операционной системы «Аврора».</p>\n                    <p class='rt-font-small-paragraph'>ОС Аврора внесена в единый реестр отечественного программного\n                      обеспечения (№ 1543) ─ Сертификат ФСБ России АК1/КС1 и АК2/КС2, Сертификат ФСТЭК на платформу\n                      управления и Сертификат ФСТЭК А4. Решение соответствует политике импортозамещения.</p>\n                    <p class='rt-font-small-paragraph'>Набор сертификатов позволяет использовать ОС Аврора во всех\n                      информационных системах, обрабатывающих конфиденциальную информацию с высокими требованиями\n                      по защите информации. К ним относятся государственные информационные системы, обрабатывающие\n                      персональные данные, а также особую категорию медицинских данных.</p>\n                    <p class='rt-font-small-paragraph'>Соответствие требованиям уровням доверия ФСТЭК России означает\n                      выполнение со стороны разработчика всех специализированных процедур анализа, тестирования,\n                      документирования, а также проработку вопросов поддержки и обновления ПО.</p>\n                  </li>\n                  <li class='rt-numeric-list__item'>\n                    <p class='rt-font-small-paragraph'>Стандартное мобильное место сотрудника.</p>\n                    <ul class='rt-ordered-list sp-t-1'>\n                      <li class='rt-ordered-list__item rt-font-small-paragraph'>Защищенный доступ с мобильных устройств к ИС и БД</li>\n                      <li class='rt-ordered-list__item rt-font-small-paragraph'>Централизованное управление и администрирование устройств</li>\n                      <li class='rt-ordered-list__item rt-font-small-paragraph'>Удалённая работа с конфиденциальной информацией</li>\n                    </ul>\n                  </li>\n                </ul>\n              </template>\n            </rt-annotation>\n          </div>"}}),_vm._v(" "),_c('div',{staticClass:"rt-col-5"})],1),_vm._v(" "),_c('rt-annotation',{staticClass:"rt-space-top rt-space-bottom",attrs:{"label":"Примечание2"}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-numeric-list"},[_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Услуги Высокоскоростного интернета предоставляются при наличии\n              технической возможности.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Цены указаны в рублях с учетом НДС.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item"},[_vm._v("\n              «По оптической линии» — предоставление доступа к сети Интернет\n              осуществляется по технологии FTTx (англ., fiber to the x —\n              оптическое волокно до точки X) или по технологии PON (англ.\n              Passive Optical Networks — пассивная оптическая сеть до\n              абонента).\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item"},[_vm._v("\n              «По телефонной линии» — предоставление доступа к сети Интернет\n              осуществляется по технологии xDSL (англ., digital subscriber\n              line, цифровая абонентская линия).\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Предоставление доступа к сети Интернет осуществляется по\n              технологии xDSL (англ., digital subscriber line, цифровая\n              абонентская линия).\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Скорость доступа к сети Интернет зависит не только от\n              технических особенностей Услуги, но и от действий третьих сил,\n              организаций и лиц, управляющих сегментами сети Интернет (или\n              оказывающих на них влияние), не принадлежащих ПАО «Ростелеком».\n              Скорость доступа к сети Интернет является величиной\n              неопределенной и зависит от ряда параметров, в том числе,\n              технических характеристик подключения, маршрута и текущей\n              загрузки каналов, характеристиками установленного абонентского\n              оборудования (ПК, смартфон, WiFi-роутер), версией программного\n              обеспечения или используемого стандарта, месторасположением\n              запрашиваемого контента. Все параметры являются переменными и не\n              гарантируются ПАО «Ростелеком» за пределами своей сети.\n              Указанная в тарифном плане скорость является максимально\n              возможной.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Абонентская плата за услугу Интернет списывается с лицевого\n              счета абонента один раз в месяц. В первый месяц пользования\n              услугой Интернет с лицевого счета абонента списывается\n              абонентская плата, рассчитанная пропорционально количеству дней\n              от даты начала оказания услуги до конца месяца.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Оборудование (маршрутизатор или абонентский модем в зависимости\n              от технологии предоставления услуги), необходимое для получения\n              услуг, может быть приобретено отдельно по действующим тарифам.\n              Стоимость оборудования уточняйте по телефону 8-800-100-0-800.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Safe Kids — Сэйф кидс (перевод с англ. — Защищенные дети).\n              Услуга предоставляется на территории Российской Федерации для\n              абонентов-физических лиц при наличии технической возможности.\n              При первом подключении услуги на условиях ежемесячной подписки\n              первые 30 календарных дней с момента активации услуги\n              предоставляются без взимания абонентской платы, далее согласно\n              Базовым тарифам. При первом подключении услуги на условиях\n              годовой подписки абонент пользуется услугой 14 месяцев (420\n              календарных дней) с момента активации, два последних месяца\n              предоставляются без взимания абонентской платы. При прологнации\n              услуги или повторных подключениях на условиях годовой подписки\n              период пользования составляет 360 календарных дней. Подробности\n              об услуге, ПАО «Ростелеком» узнавайте по бесплатному номеру\n              8-800-100-0-800, а также на сайте www.rt.ru.\n            ")])])])],2),_vm._v(" "),_c('rt-annotation',{staticClass:"rt-space-top rt-space-bottom",attrs:{"label":"Примечание3"}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-numeric-list"},[_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Услуги Высокоскоростного интернета предоставляются при наличии\n              технической возможности.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Цены указаны в рублях с учетом НДС.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item"},[_vm._v("\n              «По оптической линии» — предоставление доступа к сети Интернет\n              осуществляется по технологии FTTx (англ., fiber to the x —\n              оптическое волокно до точки X) или по технологии PON (англ.\n              Passive Optical Networks — пассивная оптическая сеть до\n              абонента).\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item"},[_vm._v("\n              «По телефонной линии» — предоставление доступа к сети Интернет\n              осуществляется по технологии xDSL (англ., digital subscriber\n              line, цифровая абонентская линия).\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Предоставление доступа к сети Интернет осуществляется по\n              технологии xDSL (англ., digital subscriber line, цифровая\n              абонентская линия).\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Скорость доступа к сети Интернет зависит не только от\n              технических особенностей Услуги, но и от действий третьих сил,\n              организаций и лиц, управляющих сегментами сети Интернет (или\n              оказывающих на них влияние), не принадлежащих ПАО «Ростелеком».\n              Скорость доступа к сети Интернет является величиной\n              неопределенной и зависит от ряда параметров, в том числе,\n              технических характеристик подключения, маршрута и текущей\n              загрузки каналов, характеристиками установленного абонентского\n              оборудования (ПК, смартфон, WiFi-роутер), версией программного\n              обеспечения или используемого стандарта, месторасположением\n              запрашиваемого контента. Все параметры являются переменными и не\n              гарантируются ПАО «Ростелеком» за пределами своей сети.\n              Указанная в тарифном плане скорость является максимально\n              возможной.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Абонентская плата за услугу Интернет списывается с лицевого\n              счета абонента один раз в месяц. В первый месяц пользования\n              услугой Интернет с лицевого счета абонента списывается\n              абонентская плата, рассчитанная пропорционально количеству дней\n              от даты начала оказания услуги до конца месяца.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Оборудование (маршрутизатор или абонентский модем в зависимости\n              от технологии предоставления услуги), необходимое для получения\n              услуг, может быть приобретено отдельно по действующим тарифам.\n              Стоимость оборудования уточняйте по телефону 8-800-100-0-800.\n            ")]),_vm._v(" "),_c('p',{staticClass:"rt-annotation-item rt-numeric-list__item"},[_vm._v("\n              Safe Kids — Сэйф кидс (перевод с англ. — Защищенные дети).\n              Услуга предоставляется на территории Российской Федерации для\n              абонентов-физических лиц при наличии технической возможности.\n              При первом подключении услуги на условиях ежемесячной подписки\n              первые 30 календарных дней с момента активации услуги\n              предоставляются без взимания абонентской платы, далее согласно\n              Базовым тарифам. При первом подключении услуги на условиях\n              годовой подписки абонент пользуется услугой 14 месяцев (420\n              календарных дней) с момента активации, два последних месяца\n              предоставляются без взимания абонентской платы. При прологнации\n              услуги или повторных подключениях на условиях годовой подписки\n              период пользования составляет 360 календарных дней. Подробности\n              об услуге, ПАО «Ростелеком» узнавайте по бесплатному номеру\n              8-800-100-0-800, а также на сайте www.rt.ru.\n            ")])])])],2),_vm._v(" "),_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("\n          Annotation\n        ")])])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-2 sp-b-2  rt-col-md-3"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.checked),expression:"checked"}],attrs:{"type":"checkbox","id":"error"},domProps:{"checked":Array.isArray(_vm.checked)?_vm._i(_vm.checked,null)>-1:(_vm.checked)},on:{"change":function($event){var $$a=_vm.checked,$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v=null,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.checked=$$a.concat([$$v]))}else{$$i>-1&&(_vm.checked=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.checked=$$c}}}}),_vm._v(" "),_c('label',{attrs:{"for":"error"}},[_vm._v("has error "+_vm._s(_vm.checked))])]),_vm._v(" "),_c('div',{staticClass:"rt-col-2 sp-b-2  rt-col-md-3"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.checked2),expression:"checked2"}],attrs:{"type":"checkbox","id":"checkbox"},domProps:{"checked":Array.isArray(_vm.checked2)?_vm._i(_vm.checked2,null)>-1:(_vm.checked2)},on:{"change":function($event){var $$a=_vm.checked2,$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v=null,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.checked2=$$a.concat([$$v]))}else{$$i>-1&&(_vm.checked2=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.checked2=$$c}}}}),_vm._v(" "),_c('label',{attrs:{"for":"checkbox"}},[_vm._v("is disabled "+_vm._s(_vm.checked2))])]),_vm._v(" "),_c('div',{staticClass:"rt-col-2 sp-b-2  rt-col-md-3"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.checked3),expression:"checked3"}],attrs:{"type":"checkbox","id":"checkbox3"},domProps:{"checked":Array.isArray(_vm.checked3)?_vm._i(_vm.checked3,null)>-1:(_vm.checked3)},on:{"change":function($event){var $$a=_vm.checked3,$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v=null,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.checked3=$$a.concat([$$v]))}else{$$i>-1&&(_vm.checked3=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.checked3=$$c}}}}),_vm._v(" "),_c('label',{attrs:{"for":"checkbox3"}},[_vm._v("stop on oversize "+_vm._s(_vm.checked3))])]),_vm._v(" "),_c('div',{staticClass:"rt-col-2 sp-b-2  rt-col-md-3"},[_vm._v("\n        error message:\n        "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.errorMes),expression:"errorMes"}],domProps:{"value":(_vm.errorMes)},on:{"input":function($event){if($event.target.composing){ return; }_vm.errorMes=$event.target.value}}})]),_vm._v(" "),_c('div',{staticClass:"rt-col-2 sp-b-2  rt-col-md-3"},[_vm._v("\n        max size:\n        "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.maxSize),expression:"maxSize"}],attrs:{"type":"number","min":"0"},domProps:{"value":(_vm.maxSize)},on:{"input":function($event){if($event.target.composing){ return; }_vm.maxSize=$event.target.value}}})])]),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-6  rt-col-md-3"},[_c('rt-textarea',{attrs:{"error-message":_vm.errorMes,"stop-on-oversize":_vm.checked3,"version":2,"has-error":_vm.checked,"disabled":_vm.checked2,"max-size":_vm.maxSize,"placeholder":"Textarea","label":"Введите комментарий:"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6  rt-col-md-3"},[_c('rt-textarea',{attrs:{"resize":true,"error-message":_vm.errorMes,"stop-on-oversize":_vm.checked3,"version":2,"disabled":_vm.checked2,"has-error":_vm.checked,"max-size":_vm.maxSize,"placeholder":"Textarea","label":"Введите комментарий:"}})],1)]),_vm._v(" "),_vm._m(1),_vm._v(" "),_c('div',{staticClass:"app-body"},[_vm._m(2),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-6  rt-col-md-3"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("simple static textarea")]),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-textarea-static placeholder=\"Textarea\" label=\"Введите комментарий:\"></rt-textarea-static>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6  rt-col-md-3 rt-md-space-top"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("static textarea with error")]),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-textarea-static\n            :has-error=\"true\"\n            label=\"Введите комментарий:\"\n            error-message=\"textarea error message\"\n            placeholder=\"Textarea\"\n          ></rt-textarea-static>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"col rt-col-md-3"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("static disabled textarea")]),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-textarea-static\n            :disabled=\"true\"\n            label=\"Введите комментарий:\"\n            error-message=\"textarea error message\"\n            placeholder=\"Textarea\"\n          ></rt-textarea-static>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-4  rt-col-md-2 rt-md-space-top d-flex flex-column"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("dynamic textarea")]),_vm._v(" "),_c('rt-textarea',{attrs:{"auto-resize":false,"placeholder":"Textarea with model"},model:{value:(_vm.myModel),callback:function ($$v) {_vm.myModel=$$v},expression:"myModel"}}),_vm._v(" "),_c('span',{staticClass:"color-main07"},[_vm._v("Result model: "+_vm._s(_vm.myModel))]),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-textarea value=\"sadas\\nd\\nas\\ndas\\n\" placeholder=\"Textarea\" ></rt-textarea>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4  rt-col-md-2 rt-md-space-top d-flex flex-column"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("dynamic textarea with error")]),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-textarea\n            :has-error=\"true\"\n            label=\"Введите комментарий:\"\n            placeholder=\"Textarea\"\n            error-message=\"textarea error message\"\n          ></rt-textarea>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4  rt-col-md-1 rt-md-space-top d-flex flex-column"},[_c('span',{staticClass:"rt-font-label flex-fill rt-space-bottom05"},[_vm._v("dynamic disabled textarea")]),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-textarea\n            :disabled=\"true\"\n            label=\"Введите комментарий:\"\n            placeholder=\"Textarea\"\n            error-message=\"textarea error message\"\n          ></rt-textarea>"}})],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row color-block--light-grey rt-space-bottom rt-space-top"},[_c('div',{staticClass:"rt-col-4  rt-col-md-2 rt-md-space-top"},[_c('pre-code',{attrs:{"text":"<rt-textarea placeholder=\"Textarea\" :is-b2b-textarea=\"true\"/>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4  rt-col-md-2 rt-md-space-top d-flex flex-column"},[_c('pre-code',{attrs:{"text":"<rt-textarea\n            :has-error=\"true\"\n            :is-b2b-textarea=\"true\"\n            placeholder=\"Textarea\"\n            error-message=\"textarea error message\"/>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4  rt-col-md-1 rt-md-space-top d-flex flex-column"},[_c('rt-textarea',{attrs:{"disabled":true,"is-b2b-textarea":true,"placeholder":"Textarea","error-message":"textarea error message"}})],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"rt-col-4 rt-col-md-2 rt-md-space-top"},[_c('pre-code',{attrs:{"text":"<rt-textarea\n            placeholder=\"Textarea\"\n            :is-b2b-textarea=\"true\"\n            :outlined=\"true\"/>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-md-2 rt-md-space-top d-flex flex-column"},[_c('pre-code',{attrs:{"text":"<rt-textarea\n            :has-error=\"true\"\n            :is-b2b-textarea=\"true\"\n            placeholder=\"Textarea\"\n            error-message=\"textarea error message\"\n            :outlined=\"true\"/>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-md-1 rt-md-space-top d-flex flex-column"},[_c('pre-code',{attrs:{"text":"<rt-textarea\n            :disabled=\"true\"\n            :is-b2b-textarea=\"true\"\n            placeholder=\"Textarea\"\n            error-message=\"textarea error message\"\n            :outlined=\"true\"\n          />"}})],1)]),_vm._v(" "),_c('div',{staticClass:"app-row row rt-space-top"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("\n        Textarea v2\n      ")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("\n        Textarea v1 (deprecated)\n      ")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-row row"},[_c('div',{staticClass:"col  rt-col-md-3 "},[_c('p',{staticClass:"rt-font-h3"},[_vm._v("\n            Textarea\n          ")])])])}]
 
 
 
 /***/ }),
 
-/***/ "./src/atoms/components/Annotation/docs/index.json":
-/*!*********************************************************!*\
-  !*** ./src/atoms/components/Annotation/docs/index.json ***!
-  \*********************************************************/
+/***/ "./src/atoms/components/Textarea/docs/index.json":
+/*!*******************************************************!*\
+  !*** ./src/atoms/components/Textarea/docs/index.json ***!
+  \*******************************************************/
 /*! exports provided: items, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-annotation\",\"property\":\"label\",\"type\":\"String\",\"description\":\"Верхний текст примечания\",\"value\":\"null\"},{\"name\":\"rt-annotation\",\"property\":\"has-white-color\",\"type\":\"Boolean\",\"description\":\"Флаг белого цвета\",\"value\":\"null\"},{\"name\":\"rt-annotation\",\"property\":\":open\",\"type\":\"Boolean\",\"description\":\"Задаёт открытое состояние для блока по умолчанию\",\"value\":\"false\"},{\"name\":\"rt-annotation\",\"property\":\"title-font-class\",\"type\":\"String\",\"description\":\"Задаёт шрифт для заголовка примечания\",\"value\":\"rt-font-paragraph\"},{\"name\":\"rt-annotation\",\"property\":\":v2\",\"type\":\"Boolean\",\"description\":\"Флаг установки обновлённого вида и логики компонента\",\"value\":\"false\"},{\"name\":\"rt-annotation\",\"property\":\"ga-label\",\"type\":\"String\",\"description\":\"Текст в атрибуте button для ссылки\",\"value\":\"null\"},{\"name\":\"rt-annotation\",\"property\":\"scroll-timeout\",\"type\":\"Number\",\"description\":\"Устанавливает задержку времени до прокрутки страницы к открытому по умолчанию блоку\",\"value\":\"0\"}]}");
+module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-textarea\",\"property\":\":disabled\",\"type\":\"Boolean\",\"description\":\"Флаг установки неактивного состояния поля ввода\",\"value\":\"false\"},{\"name\":\"rt-textarea\",\"property\":\":auto-resize\",\"type\":\"Boolean\",\"description\":\"Увеличивает высоту поля по мере ввода\",\"value\":\"true\"},{\"name\":\"rt-textarea\",\"property\":\"placeholder\",\"type\":\"String\",\"description\":\"Устанавливает текст выводимый в поле до начала ввода\",\"value\":\"\"},{\"name\":\"rt-textarea\",\"property\":\":has-error\",\"type\":\"Boolean\",\"description\":\"Флаг ошибки\",\"value\":\"false\"},{\"name\":\"rt-textarea\",\"property\":\"error-message\",\"type\":\"String\",\"description\":\"Устанавливает сообщение, выводимое при ошибке\",\"value\":\"\"},{\"name\":\"rt-textarea\",\"property\":\"value\",\"type\":\"String\",\"description\":\"Устанавливает значение атрибута `value`\",\"value\":\"\"},{\"name\":\"rt-textarea\",\"property\":\":is-b2b-textarea\",\"type\":\"Boolean\",\"description\":\"Устанавливает стили отображения сегмента b2b для поля ввода\",\"value\":\"false\"},{\"name\":\"rt-textarea\",\"property\":\":outlined\",\"type\":\"Boolean\",\"description\":\"Устанавливает обводку(границы) вокруг поля ввода\",\"value\":\"false\"},{\"name\":\"rt-textarea\",\"property\":\"color\",\"type\":\"String\",\"description\":\"Задаёт цвет элементам поля ввода. Возможные значения `orange и purple`\",\"value\":\"purple\"},{\"name\":\"rt-textarea\",\"property\":\"field-id\",\"type\":\"String\",\"description\":\"Задаёт идентификатор полю ввода\",\"value\":\"\"}]}");
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/Annotation.vue":
-/*!***********************************************************!*\
-  !*** ./src/example-pages/components/group/Annotation.vue ***!
-  \***********************************************************/
+/***/ "./src/example-pages/components/form/Textarea.vue":
+/*!********************************************************!*\
+  !*** ./src/example-pages/components/form/Textarea.vue ***!
+  \********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Annotation_vue_vue_type_template_id_1e2c103e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Annotation.vue?vue&type=template&id=1e2c103e& */ "./src/example-pages/components/group/Annotation.vue?vue&type=template&id=1e2c103e&");
-/* harmony import */ var _Annotation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Annotation.vue?vue&type=script&lang=js& */ "./src/example-pages/components/group/Annotation.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Textarea_vue_vue_type_template_id_6ee04581___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Textarea.vue?vue&type=template&id=6ee04581& */ "./src/example-pages/components/form/Textarea.vue?vue&type=template&id=6ee04581&");
+/* harmony import */ var _Textarea_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Textarea.vue?vue&type=script&lang=js& */ "./src/example-pages/components/form/Textarea.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -336,9 +270,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Annotation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Annotation_vue_vue_type_template_id_1e2c103e___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Annotation_vue_vue_type_template_id_1e2c103e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Textarea_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Textarea_vue_vue_type_template_id_6ee04581___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Textarea_vue_vue_type_template_id_6ee04581___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -350,33 +284,33 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/Annotation.vue?vue&type=script&lang=js&":
-/*!************************************************************************************!*\
-  !*** ./src/example-pages/components/group/Annotation.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************/
+/***/ "./src/example-pages/components/form/Textarea.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./src/example-pages/components/form/Textarea.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Annotation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Annotation.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Annotation.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Annotation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Textarea_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Textarea.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Textarea.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Textarea_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/Annotation.vue?vue&type=template&id=1e2c103e&":
-/*!******************************************************************************************!*\
-  !*** ./src/example-pages/components/group/Annotation.vue?vue&type=template&id=1e2c103e& ***!
-  \******************************************************************************************/
+/***/ "./src/example-pages/components/form/Textarea.vue?vue&type=template&id=6ee04581&":
+/*!***************************************************************************************!*\
+  !*** ./src/example-pages/components/form/Textarea.vue?vue&type=template&id=6ee04581& ***!
+  \***************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Annotation_vue_vue_type_template_id_1e2c103e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Annotation.vue?vue&type=template&id=1e2c103e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Annotation.vue?vue&type=template&id=1e2c103e&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Annotation_vue_vue_type_template_id_1e2c103e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Textarea_vue_vue_type_template_id_6ee04581___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Textarea.vue?vue&type=template&id=6ee04581& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/form/Textarea.vue?vue&type=template&id=6ee04581&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Textarea_vue_vue_type_template_id_6ee04581___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Annotation_vue_vue_type_template_id_1e2c103e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Textarea_vue_vue_type_template_id_6ee04581___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
