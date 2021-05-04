@@ -1,6 +1,3 @@
-//.app-header
-//  display none
-
 .blog
   padding-top 50px
   @media(max-width tablet-upper-limit)
@@ -29,6 +26,10 @@
       padding 20px 0
     &__inner
       overflow auto
+      -ms-overflow-style none
+      scrollbar-width none
+      &::-webkit-scrollbar
+        display none
       @media(max-width tablet-upper-limit)
         margin 0 -20px
         padding-left 28px
@@ -47,6 +48,12 @@
     cursor pointer
     transition color.2s linear
     word-break keep-all
+    font-size 16px
+    line-height 20px
+    font-weight 500
+    @media(max-width mobile-upper-limit)
+      font-size 14px
+      line-height 16px
     &+&
       margin-left 28px
     &:hover,
@@ -57,6 +64,16 @@
     &-wrapper
       position relative
       display block
+      &:after
+        position absolute
+        content ''
+        top 0
+        left 0
+        right 0
+        bottom 0
+        background linear-gradient(to bottom, rgba(10, 13, 29, 0) 46.29%, rgba(10, 13, 29, 0.478766) 65.43%, #0A0D1D 100%)
+        @media(max-width mobile-upper-limit)
+          display none
     &__image
       position relative
       display block
@@ -65,14 +82,16 @@
     &__description
       margin-bottom 8px
     &__label
-      letter-spacing 2px
       display inline-block
       position absolute
-      top 28px
+      top 0
+      left 0
+      z-index 2
     &__bottom
       position absolute
       bottom 28px
       left 28px
+      z-index 2
       @media(max-width mobile-upper-limit)
         position relative
         bottom auto
@@ -120,6 +139,7 @@
       width 100%
       &-wrapper
         display flex
+        position relative
   &__promo-block
     border-right 1px solid main-color007-no-opacity
     @media(max-width tablet-upper-limit)
@@ -171,10 +191,18 @@
     line-height 16px
     cursor pointer
   &__manual
-    .rt-col-4+.rt-col-4
-      border-left 1px solid main-color007-no-opacity
+    &__item
+      display block
+      flex-basis 20%
+      width 20%
+      flex-grow 2
+      box-sizing content-box
       @media(max-width mobile-upper-limit)
-        border none
+        flex-basis 100%
+      &+.blog__manual__item
+        border-left 1px solid main-color007-no-opacity
+        @media(max-width mobile-upper-limit)
+          border none
     .color-block--main-color003-no-opacity
       @media(max-width tablet-upper-limit)
         background-color transparent
@@ -196,7 +224,8 @@
     min-height 320px
   &-article__image
     &-body
-      max-width 100%
+      width 100%
+      display block
   &__carousel
     overflow hidden
     position relative
@@ -245,9 +274,12 @@
     &-block
       width 100%
       cursor pointer
+      display block
       &-wrapper
         position relative
         display flex
+        @media(max-width mobile-upper-limit)
+          display block
         &:after
           position absolute
           content ''
@@ -258,6 +290,8 @@
           background-color main-color02
           pointer-events none
           z-index 1
+          @media(max-width mobile-upper-limit)
+            bottom 24px
         &--no-shadow
           &:after
             display none
@@ -280,21 +314,41 @@
       max-width calc(100% - 64px)
       transition opacity .2s linear
       z-index 2
+      @media(max-width tablet-upper-limit)
+        bottom 64px
+      @media(max-width mobile-upper-limit)
+        position relative
+        left auto
+        bottom auto
+        display block
+        max-width none
       &--hidden
         opacity 0
         pointer-events none
+        @media(max-width mobile-upper-limit)
+          opacity 1
+          background-color main-color02
   &__table
     margin-bottom 40px
+    @media(max-width tablet-upper-limit)
+      margin-bottom 32px
+    @media(max-width mobile-upper-limit)
+      margin-bottom 24px
     &-title
       text-transform uppercase
       padding 16px 20px
       background-color main-color003
       border-bottom 4px solid b2c-white
+      @media(max-width mobile-upper-limit)
+        padding 8px
     th,
     td
       background-color main-color003
       border 4px solid b2c-white
       padding 16px 8px
+      @media(max-width mobile-upper-limit)
+        border-width 2px
+        padding 8px 4px!important
       &:first-child
         border-left none
         padding-left 20px
@@ -340,6 +394,14 @@
     &__privacy
       font-size 14px
       line-height 20px
+    &-link
+      transition color .2s linear
+      &:hover
+        color b2c-red
+  &-breadcrumbs,
+  .back-link
+    &:hover
+      color b2c-red
 
 .blog__title
   .select-v2
@@ -350,6 +412,7 @@
     border none
     align-items center
     position relative
+    cursor pointer
     &:after
       position absolute
       content ''
@@ -400,16 +463,16 @@
   &+&
     .blog__popular__item
       border-top 1px solid main-color007-no-opacity
-      @media(max-width tablet-upper-limit)
+      @media(max-width tablet-upper-limit) and (min-width tablet-lower-limit)
         border none
-    @media(max-width tablet-upper-limit)
+    @media(max-width tablet-upper-limit) and (min-width tablet-lower-limit)
       &:nth-child(n+3)
         .blog__popular__item
           border-top 1px solid main-color007-no-opacity
 
 .sticky-block
   position sticky
-  top 310px
+  top 110px
   .blog__popular
     border-bottom none
 
@@ -424,6 +487,9 @@
   &-link
     white-space nowrap
     word-break keep-all
+    transition color .2s linear
+    &:hover
+      color b2c-red
     &+&
       margin-left 20px
       @media(max-width tablet-upper-limit)
@@ -524,41 +590,44 @@
               transform rotate(90deg)
               bottom 0
 
-
 .blog__quote
   span
-    padding: 0
-    left: 16px
-    position: relative
-    box-shadow: 16px 0 0 main-color005, -16px 0 0 main-color005
+    padding 0
+    left 0
+    position relative
+    box-shadow 16px 0 0 main-color005, -16px 0 0 main-color005
+    @media (max-width: mobile-upper-limit)
+      padding 1px 0
 
+.blog-sticky-stretcher
+  min-height 100vh
 
 
 .blog-container
   width 100%
-  max-width container-upper-limit
+  max-width 1176px
   margin-left auto
   margin-right auto
-  padding-left horizontal-space * 4.75
-  padding-right horizontal-space * 4.75
+  //padding-left horizontal-space * 4.75
+  //padding-right horizontal-space * 4.75
   @media (max-width: tablet-upper-limit)
-    padding-left horizontal-space * .5
-    padding-right horizontal-space * .5
-  @media (max-width: desktop-lower-limit)
-    padding-left horizontal-space * .5
-    padding-right horizontal-space * .5
-  @media (max-width: mobile-upper-limit)
-    padding-left horizontal-space * .5
-    padding-right horizontal-space * .5
-  @media(min-width laptop-lower-limit)
-    .row
-      margin 0 -20px
+    padding-left 0
+    padding-right 0
+  //@media (max-width: desktop-lower-limit)
+  //  padding-left horizontal-space * .5
+  //  padding-right horizontal-space * .5
+  //@media (max-width: mobile-upper-limit)
+  //  padding-left horizontal-space * .5
+  //  padding-right horizontal-space * .5
+  //@media(min-width laptop-lower-limit)
+  .row
+    margin 0 -20px
 
-    .rt-col
+  .rt-col
+    padding-left 20px
+    padding-right 20px
+
+  for $num in (1..12)
+    .rt-col-{$num}
       padding-left 20px
       padding-right 20px
-
-    for $num in (1..12)
-      .rt-col-{$num}
-        padding-left 20px
-        padding-right 20px

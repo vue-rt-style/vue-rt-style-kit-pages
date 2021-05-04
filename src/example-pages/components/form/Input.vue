@@ -9,26 +9,13 @@
 					<div class="app-row row">
 						<div class="rt-col-5 rt-col-md-3">
 <!--							<span class="rt-font-label flex-fill rt-space-bottom05">simple input</span>-->
-              <rt-input :version="2" placeholder="Это поле ввода. Дерзай!" @change="console"/>
+              <rt-input :version="2" placeholder="Это поле ввода. Дерзай!"
+                        @change="console('change')" @focus="console('focus')" @blur="console('blur')"/>
               <div class="sp-t-0-3"/>
               <rt-input :version="2" placeholder="Это поле ввода с подсказкой" label="Текст подсказки" :error-message="errorMessage"/>
               <rt-input :version="2" :placeholder="errorText" :has-error="error"
                         :error-message='errorMessage' :disabled="disabled" :value="rightValue"/>
               <div class="sp-t-0-3"/>
-              <div v-if="clickCounter < 68">
-                <rt-checkbox @change="toggleError">А можно без ошибки?</rt-checkbox>
-                <span class="sp-l-1-3 rt-font-small-paragraph" v-if="!error">
-                  <span v-if="clickCounter < 2">Конечно!</span>
-                  <span v-else-if="clickCounter < 6">Прикольно, правда?))</span>
-                  <span v-else-if="clickCounter < 16">Серьёзно?!</span>
-                  <span v-else-if="clickCounter < 24">Захотелось поиграть?</span>
-                  <span v-else-if="clickCounter < 34">Ну-ну, наши руки не для скуки. Понятно</span>
-                  <span v-else-if="clickCounter < 40">Не надоело?</span>
-                  <span v-else-if="clickCounter < 56">Прекращай!</span>
-                  <span v-else-if="clickCounter < 64">А то прекращу я!</span>
-                </span>
-              </div>
-              <div v-else class="rt-font-small-paragraph">Ведь я предупреждал...</div>
               <rt-input :version="2" :disabled="true" label="Как-то так" placeholder="Теперь ввод запрещён"/>
               <rt-input :version="2" :disabled="true" label="М - магия))" placeholder="Теперь ввод запрещён"
                         value="Но каким-то магическим образом здесь есть текст"/>
@@ -55,10 +42,10 @@
             <div class="rt-col-5 rt-col-md-3">
               <div class="color-block--light-blue-high sp-v-1">
                 <h4 class="rt-font-h4">Проверка v-model</h4>
-                <input type="text" v-model="inputModel" placeholder="Начните ввод">
+                <input type="text" v-model="newInputModel" placeholder="Начните ввод">
                 <rt-input label="Поле, связанное с обычным элементом input выше"
                           :version="2"
-                          v-model="inputModel"
+                          v-model="newInputModel"
                           type="text"
                           placeholder="Или начните ввод здесь"/>
               </div>
@@ -76,14 +63,11 @@
                         type="text"
                         value="я - пароль, и сейчас ты меня видишь"
                         placeholder="Поле ввода пароля" input-type="password"/>
-              <rt-input input-type="tel" label="Начните вводить номер, маску мы берём на себя" :version="2"
+              <rt-input input-type="tel" label="Начните вводить номер, маску мы берём на себя" :version="2" error-message="Начните вводить номер, маску мы берём на себя"
                         placeholder="Поля ввода номера телефона" :need-verification="true"
-                        :verified="checkThis" v-on:filled="showButtonFn" ref="phoneInput"/>
+                        @change="console('change')" @focus="console('focus')" @blur="console('blur')"
+                        :verified="checkThis" ref="phoneInput" :value="newInputModel"/>
               <div class="sp-t-1"/>
-              <rt-button v-if="showButton"
-                         @click="togglePhoneCheck"
-                         :small='true'
-                         class='rt-button-orange-border'>Да нажми уже. Можно</rt-button>
             </div>
             <div class="rt-col-1 md-d-none"/>
 <!--						<div class="rt-col-4 rt-col-md-2 rt-md-space-top">-->
@@ -287,7 +271,8 @@
       errorText: 'Это поле с ошибкой!',
       errorMessage: 'Текст сообщения об ошибке. К примеру: "тыкни чекбокс подо мной"',
       rightValue: '',
-      showButton: false
+      showButton: false,
+      newInputModel: ''
     }),
     mounted() {
       this.documentation = documentation;
@@ -300,38 +285,15 @@
       openCalendar(e,a,b){
         console.info('openCalendar',e,a,b)
       },
-      toggleError() {
-        this.clickCounter++
-        this.error = !this.error
-        if(this.error) {
-          this.rightValue = ''
-          this.errorText = 'Это поле с ошибкой!'
-        } else {
-          this.rightValue = 'Якобы корректные данные'
-          this.errorText = 'Или с обычным плейсхолдером?)'
-        }
-        if(this.clickCounter > 10) {
-          this.errorMessage = 'А с виду взрослый человек'
-        }
-        if(this.clickCounter >= 68) {
-          this.error = true
-          this.errorText = 'Сломалось((('
-          this.disabled = true
-        }
-      },
-      showButtonFn() {
+      togglePhoneCheck() {
         setTimeout(() => {
           if(this.$refs.phoneInput.$refs.component.$refs.input.localValue.length == 18) {
-            this.showButton = true;
+            this.checkThis = !!Math.round(Math.random())
           }
         }, 5000)
       },
-      togglePhoneCheck() {
-        this.checkThis = !!Math.round(Math.random())
-        this.showButton = false
-      },
-      console() {
-        console.log('!!!')
+      console(e) {
+        console.log('!!!', e)
       }
     }
   };

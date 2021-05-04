@@ -157,6 +157,169 @@
         </div>
       </div>
     </div>
+    <div class="bd-new__section sp-t-5 td-sp-t-4 md-sp-t-3">
+      <div class="rt-container">
+        <div class="rt-col">
+          <div class="row">
+            <div class="rt-col-12">
+              <h3 class="rt-font-h1 rt-font-center sp-b-3">Как это было</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bd-new__carousel-wrapper">
+        <rt-carousel-v2>
+          <rt-carousel-slide-v2>
+            <div class="bd-new__carousel-video" data-source="nttl5WzwkWA" @click="playVideo">
+              <img src="https://moscow.rt.ru/sites/default/files/b2b/BD/Kaliningrad.png" class="bd-new__carousel-video__poster"/>
+              <div class="bd-new__carousel-video__play-button">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 48V16L46 32L22 48Z" fill="white"/>
+                  <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2"/>
+                </svg>
+              </div>
+              <p class="bd-new__carousel-video__title rt-font-h4 color-white">2019: Калининград</p>
+            </div>
+          </rt-carousel-slide-v2>
+          <rt-carousel-slide-v2>
+            <div class="bd-new__carousel-video" data-source="reazA9X9A-0" @click="playVideo">
+              <img src="https://moscow.rt.ru/sites/default/files/b2b/BD/Krasnodar.png" class="bd-new__carousel-video__poster"/>
+              <div class="bd-new__carousel-video__play-button">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 48V16L46 32L22 48Z" fill="white"/>
+                  <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2"/>
+                </svg>
+              </div>
+              <p class="bd-new__carousel-video__title rt-font-h4 color-white">2019: Краснодар</p>
+            </div>
+          </rt-carousel-slide-v2>
+          <rt-carousel-slide-v2>
+            <div class="bd-new__carousel-video" data-source="mp7_fL0Xx0E" @click="playVideo">
+              <img src="https://moscow.rt.ru/sites/default/files/b2b/BD/Krasnoyarsk.png" class="bd-new__carousel-video__poster"/>
+              <div class="bd-new__carousel-video__play-button">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 48V16L46 32L22 48Z" fill="white"/>
+                  <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2"/>
+                </svg>
+              </div>
+              <p class="bd-new__carousel-video__title rt-font-h4 color-white">2019: Красноярск</p>
+            </div>
+          </rt-carousel-slide-v2>
+          <rt-carousel-slide-v2>
+            <div class="bd-new__carousel-video" data-source="uFpXCtVrYEw" @click="playVideo">
+              <img src="https://moscow.rt.ru/sites/default/files/b2b/BD/Omsk.png" class="bd-new__carousel-video__poster"/>
+              <div class="bd-new__carousel-video__play-button">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 48V16L46 32L22 48Z" fill="white"/>
+                  <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2"/>
+                </svg>
+              </div>
+              <p class="bd-new__carousel-video__title rt-font-h4 color-white">2019: Омске</p>
+            </div>
+          </rt-carousel-slide-v2>
+          <rt-carousel-slide-v2>
+            <div class="bd-new__carousel-video" data-source="6GF06h0xV2Q" @click="playVideo">
+              <img src="https://moscow.rt.ru/sites/default/files/b2b/BD/Perm.png" class="bd-new__carousel-video__poster"/>
+              <div class="bd-new__carousel-video__play-button">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 48V16L46 32L22 48Z" fill="white"/>
+                  <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2"/>
+                </svg>
+              </div>
+              <p class="bd-new__carousel-video__title rt-font-h4 color-white">2019: Пермь</p>
+            </div>
+          </rt-carousel-slide-v2>
+          <rt-carousel-slide-v2>
+            <div class="bd-new__carousel-video" data-source="nhkybn3piRo" @click="playVideo">
+              <img src="https://moscow.rt.ru/sites/default/files/b2b/BD/Rostov.png" class="bd-new__carousel-video__poster"/>
+              <div class="bd-new__carousel-video__play-button">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 48V16L46 32L22 48Z" fill="white"/>
+                  <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2"/>
+                </svg>
+              </div>
+              <p class="bd-new__carousel-video__title rt-font-h4 color-white">2019: Ростов-на-Дону</p>
+            </div>
+          </rt-carousel-slide-v2>
+          <rt-carousel-slide-v2>
+            <div class="bd-new__carousel-video" data-source="S25EfkSw3Uk" @click="playVideo">
+              <img src="https://moscow.rt.ru/sites/default/files/b2b/BD/Samara.png" class="bd-new__carousel-video__poster"/>
+              <div class="bd-new__carousel-video__play-button">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 48V16L46 32L22 48Z" fill="white"/>
+                  <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2"/>
+                </svg>
+              </div>
+              <p class="bd-new__carousel-video__title rt-font-h4 color-white">2019: Самара</p>
+            </div>
+          </rt-carousel-slide-v2>
+          <rt-carousel-slide-v2>
+            <div class="bd-new__carousel-video" data-source="ecBpgFH6ibg" @click="playVideo">
+              <img src="https://moscow.rt.ru/sites/default/files/b2b/BD/Saint-Petersburg.png" class="bd-new__carousel-video__poster"/>
+              <div class="bd-new__carousel-video__play-button">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 48V16L46 32L22 48Z" fill="white"/>
+                  <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2"/>
+                </svg>
+              </div>
+              <p class="bd-new__carousel-video__title rt-font-h4 color-white">2019: Санкт-Петербург</p>
+            </div>
+          </rt-carousel-slide-v2>
+          <rt-carousel-slide-v2>
+            <div class="bd-new__carousel-video" data-source="GJqPJ8879ME" @click="playVideo">
+              <img src="https://moscow.rt.ru/sites/default/files/b2b/BD/Tyumen.png" class="bd-new__carousel-video__poster"/>
+              <div class="bd-new__carousel-video__play-button">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 48V16L46 32L22 48Z" fill="white"/>
+                  <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2"/>
+                </svg>
+              </div>
+              <p class="bd-new__carousel-video__title rt-font-h4 color-white">2019: Тюмень</p>
+            </div>
+          </rt-carousel-slide-v2>
+          <rt-carousel-slide-v2>
+            <div class="bd-new__carousel-video" data-source="_Uz4olNVHls" @click="playVideo">
+              <img src="https://moscow.rt.ru/sites/default/files/b2b/BD/Yaroslavl.png" class="bd-new__carousel-video__poster"/>
+              <div class="bd-new__carousel-video__play-button">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 48V16L46 32L22 48Z" fill="white"/>
+                  <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2"/>
+                </svg>
+              </div>
+              <p class="bd-new__carousel-video__title rt-font-h4 color-white">2019: Ярославль</p>
+            </div>
+          </rt-carousel-slide-v2>
+        </rt-carousel-v2>
+        <div class="bd-new__carousel-wrapper__pseudo-arrows">
+          <div class="rt-container">
+            <div class="rt-col-12">
+              <div class="rt-carousel-v2__arrow pseudo-arrow-left pseudo-arrow--hidden" @click="emitClickLeft">
+                <rt-system-icons name="chevron left"></rt-system-icons>
+              </div>
+              <div class="rt-carousel-v2__arrow pseudo-arrow-right" @click="emitClickRight">
+                <rt-system-icons name="chevron right"></rt-system-icons>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bd-new__video-player-wrapper">
+        <div class="rt-container">
+          <div class="rt-col-12">
+            <div class="bd-new__video-player">
+              <div class="bd-new__video-player-body"
+                   id="bd-new__video-player-body"/>
+              <div class="bd-new__video-player__close-button" @click="closeVideo">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" opacity="0.8"
+                        d="M10.9401 12.0006L4.99902 17.9417L6.05968 19.0024L12.0008 13.0612L17.9418 19.0024L19.0025 17.9417L13.0614 12.0006L19.0025 6.0595L17.9418 4.99884L12.0008 10.9399L6.0597 4.99884L4.99904 6.0595L10.9401 12.0006Z"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="experts"/>
     <div class="bd-new__section sp-t-5 td-sp-t-4 md-sp-t-3">
       <div class="rt-container">
@@ -735,14 +898,23 @@
         speakersExpanded: false,
         singleCardHeight: null,
         cardsShownAtFirst: 3,
-        eventsExpanded: false
+        eventsExpanded: false,
+        player: null
       }
     },
     mounted() {
       this.fixFrame();
       this.setSpeakersHeight();
+      this.setSlideHeight();
+      this.setVideoHeight();
+      this.initYTPlayer();
+      document.querySelector('.rt-carousel-v2__inner').addEventListener('scroll', () => {
+        this.countFarPositions();
+      })
       window.addEventListener('resize', () => {
         this.fixFrame();
+        this.setSlideHeight();
+        this.setVideoHeight();
         if(!this.speakersExpanded) {
           this.setSpeakersHeight();
         }
@@ -804,6 +976,97 @@
       getCardHeight() {
         let height = parseFloat(window.getComputedStyle(document.querySelector('.bd-new__card')).height)
         return height;
+      },
+
+      //new
+      setSlideHeight() {
+        let videoSlides = document.querySelectorAll('.bd-new__carousel-video');
+        let slideHeight = videoSlides[0];
+        videoSlides.forEach(item => {
+          item.style.height = slideHeight.offsetWidth / 16 * 10 + 'px';
+        })
+      },
+      setVideoHeight() {
+        let videoHeight = document.querySelector('.bd-new__video-player').offsetWidth / 16 * 10;
+        document.querySelector('.bd-new__video-player').style.height = videoHeight + 'px';
+        document.querySelector('.bd-new__video-player-wrapper').style.padding = '' + (window.innerHeight - videoHeight) / 2 + 'px 0';
+      },
+      playVideo(e) {
+        document.documentElement.style.overflow = 'hidden';
+        document.body.style.overflow = 'hidden';
+        this.createPlayer(e.target.closest('.bd-new__carousel-video').dataset.source);
+        document.querySelector('.bd-new__video-player-wrapper').classList.add('bd-new__video-player-wrapper--active');
+      },
+      closeVideo() {
+        document.documentElement.style.overflow = 'auto';
+        document.body.style.overflow = 'auto';
+        document.querySelector('.bd-new__video-player-wrapper').classList.remove('bd-new__video-player-wrapper--active');
+        this.terminatePlayer();
+      },
+      initYTPlayer() {
+        let apiScript = document.querySelector('script[src$="https://www.youtube.com/iframe_api"]');
+        if (typeof YT === 'undefined' && apiScript === null) {
+          let tag = document.createElement('script');
+          tag.src = 'https://www.youtube.com/iframe_api';
+          tag.onload = this.initYTPlayer;
+          document.getElementsByTagName('body')[0].appendChild(tag);
+        }else{
+          if(typeof YT === 'undefined' || !YT.Player) {
+            setTimeout(()=>{this.initYTPlayer();},100);
+          }
+        }
+      },
+      createPlayer(YTID) {
+        const settings = {
+          height: '100%',
+          width: '100%',
+          playerVars: {
+            "autoplay" :"0",
+            "loop" :"0",
+            "autohide" :"1",
+            "border" :"0",
+            "wmode": "opaque",
+            "enablejsapi" :"1",
+            "modestbranding" :"1",
+            "playsinline":"1",
+            "rel":"0",
+            "showinfo":"0",
+            "controls" :"1",
+            "disablekb": "1",
+            "iv_load_policy": "3"
+          },
+          events: {
+            'onReady': this.setVideoReady
+          }
+        };
+        settings.videoId = YTID;
+        this.player = new YT.Player("bd-new__video-player-body", settings);
+      },
+      setVideoReady() {
+        this.player.unMute();
+        this.player.playVideo();
+      },
+      terminatePlayer() {
+        this.player.destroy();
+      },
+      emitClickLeft() {
+        document.querySelector('.rt-carousel-v2__arrow-left').click();
+      },
+      emitClickRight() {
+        document.querySelector('.rt-carousel-v2__arrow-right').click();
+      },
+      countFarPositions() {
+        let innerCarousel = document.querySelector('.rt-carousel-v2__inner');
+        if(innerCarousel.scrollLeft > 0) {
+          document.querySelector('.pseudo-arrow-left').classList.remove('pseudo-arrow--hidden')
+        } else {
+          document.querySelector('.pseudo-arrow-left').classList.add('pseudo-arrow--hidden')
+        }
+        if(innerCarousel.scrollLeft > innerCarousel.scrollWidth - innerCarousel.offsetWidth - document.querySelector('.rt-carousel-v2').__vue__._data.scrollStep * 0.01) {
+          document.querySelector('.pseudo-arrow-right').classList.add('pseudo-arrow--hidden')
+        } else {
+          document.querySelector('.pseudo-arrow-right').classList.remove('pseudo-arrow--hidden')
+        }
       }
     }
   }
