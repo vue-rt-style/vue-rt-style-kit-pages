@@ -149,16 +149,15 @@
             <tr class="baza-table__caption"><td colspan="2">Подпись</td></tr>
             <tr>
               <td>
-                <h4 class="baza-table__row-title">Подпись</h4>
-                <div class="class-name">.font-lbl</div>
+                <div class="class-name">.font-lb</div>
                 <p>&nbsp;&nbsp;font-weight normal</p>
               </td>
               <td>
-                <div class="font-lbl">Label - <bpname/></div>
+                <div class="font-lb">Label - <bpname/></div>
               </td>
             </tr>
             <tr class="baza-table__row-clean">
-              <td colspan="2">В макетах встречается как Text M</td>
+              <td colspan="2">В макетах встречается как Text S</td>
             </tr>
           </table>
         </div>
