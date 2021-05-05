@@ -130,7 +130,9 @@ import {
   CardTileLayout,
   CommentSlider,
   CommentSliderItem,
-  VideoBanner
+  VideoBanner,
+  CarouselV3,
+  CarouselV3Item
   
 } from '@vue-rt-style-kit-molecules-local'
 
@@ -277,6 +279,8 @@ addToComponentList(CardHelp);
 addToComponentList(CardBanner);
 addToComponentList(CardTileLayout);
 addToComponentList(VideoBanner);
+addToComponentList(CarouselV3);
+addToComponentList(CarouselV3Item);
 
 // componentsList[PreComponent.name] = PreComponent;
 // componentsList[PreComponentEditor.name] = PreComponentEditor;
