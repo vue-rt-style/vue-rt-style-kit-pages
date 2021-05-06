@@ -82,7 +82,7 @@
             </div>
             <div class="rt-col-6 td-d-none"></div>
             <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-end-center md-flex-start-center md-sp-t-1">
-              <a href="/promo/test-access" class="d-flex">
+              <a href="/promo/test-access" class="d-flex back-link rt-sys-icon-hover--red">
                 <rt-system-icons name="chevron left"/>
                 <span class="sp-l-0-2">На главную</span>
               </a>
@@ -96,7 +96,7 @@
         <div class="rt-col">
           <div class="blog__tags-wrapper">
             <div class="blog__tags-wrapper__inner d-flex d-flex-nowrap">
-              <button class="blog__tag">#бизнес</button>
+              <button class="blog__tag blog__tag--active">#бизнес</button>
               <button class="blog__tag">#инструкции</button>
               <button class="blog__tag">#интернет</button>
               <button class="blog__tag">#образование</button>
@@ -109,10 +109,10 @@
         </div>
       </div>
     </div>
-    <div class="blog__page-wrapper sp-t-2 sp-b-3">
+    <div class="blog__page-wrapper sp-t-2 sp-b-3 td-sp-t-0-4 md-sp-t-0-2 md-sp-b-2">
       <div class="blog-container blog__article-tile">
         <div class="rt-col">
-          <div class="row sp-b-3 td-sp-b-2" ref="tile-wrapper">
+          <div class="row sp-b-2 td-sp-b-0-4 md-sp-b-0-2" ref="tile-wrapper">
             <div class="rt-col-4 rt-col-td-6 blog__article-tile">
               <div class="blog__article-tile__item td-sp-v-0-4">
                 <div class="row">
@@ -412,8 +412,8 @@
             <div class="d-flex d-space-between td-flex-column-reverse">
               <div class="color-main05">
                 <p class="blog-footer__privacy">Продолжая использовать наш сайт, вы даете согласие на обработку
-                  файлов <a href="#">Cookies</a> и других <br>пользовательских данных, в соответствии с
-                  <a href="#">Политикой конфиденциальности</a>.
+                  файлов <a href="#" class="blog-footer-link">Cookies</a> и других <br>пользовательских данных, в соответствии с
+                  <a href="#" class="blog-footer-link">Политикой конфиденциальности</a>.
                 </p>
                 <div class="sp-t-0-3 rt-font-label">
                   <span class="sp-r-1">© 2021 ПАО «Ростелеком». 18+</span>

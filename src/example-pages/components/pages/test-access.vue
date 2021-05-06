@@ -66,7 +66,7 @@
         </div>
       </div>
     </div>
-    <div class="blog__title color-block--main-color003-no-opacity sp-v-1-2">
+    <div class="blog__title color-block--main-color003-no-opacity sp-v-1-2 md-sp-t-1-1 md-sp-b-0-3">
       <div class="blog-container">
         <div class="rt-col">
           <div class="row">
@@ -102,14 +102,14 @@
         </div>
       </div>
     </div>
-    <div class="blog__page-wrapper sp-t-2 sp-b-3">
+    <div class="blog__page-wrapper sp-t-2 sp-b-3 td-sp-t-1-3 md-sp-b-2 md-sp-t-1-1">
       <div class="blog-container">
         <div class="rt-col">
           <div class="row">
             <div class="rt-col-8 sp-b-3 rt-col-td-6 md-sp-b-2">
               <a href="/tv" class="blog__weekly-theme-wrapper">
                 <img class="blog__weekly-theme__image" src="https://spb.rt.ru/sites/default/files/b2b/blog__theme.png"/>
-                <div class="blog__weekly-theme__label">
+                <div class="blog__weekly-theme__label sp-t-1-2">
                   <div class="tagline color-white d-inline-block sp-v-0-2 sp-h-0-3 color-block--red">тема недели</div>
                 </div>
                 <div class="blog__weekly-theme__bottom">
@@ -121,13 +121,13 @@
                     </span>
                     <span class="blog__weekly-theme__tag sp-l-0-3">#образование</span>
                   </div>
-                  <h3 class="blog__weekly-theme__title color-white-md-main sp-t-0-3">Домашнее обучение:
+                  <h3 class="blog__weekly-theme__title color-white-md-main sp-t-0-2 md-sp-t-0-1">Домашнее обучение:
                     условия, нюансы, <br class="md-d-none">результаты</h3>
                 </div>
               </a>
             </div>
-            <div class="rt-col-4 sp-b-3 rt-col-td-6 td-sp-b-0-4">
-              <div class="flex-start-center sp-b-1">
+            <div class="rt-col-4 sp-b-3 rt-col-td-6 td-sp-b-0-4 md-sp-b-none">
+              <div class="flex-start-center td-sp-b-0-2 md-sp-b-0-1">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M11.0873 2.58731C11.441 1.80098 12.5575 1.80097 12.9112 2.5873L15.1612 7.58888L20.6859 8.23938C21.5586 8.34213 21.884 9.43972 21.2083 10.0015L17.0001 13.5L18.2847 18.7731C18.4916 19.6224 17.5859 20.3097 16.8236 19.8818L11.9992 17.1736L7.1755 19.8815C6.41314 20.3094 5.50735 19.622 5.71446 18.7726L7.00009 13.5L2.79181 10.0014C2.11612 9.43968 2.44147 8.3421 3.31414 8.23933L8.83735 7.58888L11.0873 2.58731Z" fill="#BC104B"/>
                 </svg>
@@ -191,7 +191,7 @@
               </div>
             </div>
           </div>
-          <div class="row sp-b-3 blog__article-tile md-sp-b-1-1">
+          <div class="row sp-b-3 blog__article-tile td-sp-b-2-1 md-sp-b-1-1">
             <div class="rt-col-4 rt-col-td-6">
               <div class="blog__article-tile__item td-sp-v-0-4">
                 <div class="row">
@@ -268,43 +268,43 @@
               <div class="row blog__manual">
                 <div class="rt-col">
                   <div class="color-block--main-color003-no-opacity sp-v-2 sp-h-2 td-sp-h-none">
-                    <div class="flex-start-center sp-b-1 md-sp-b-none">
+                    <div class="flex-start-center sp-b-0-3 md-sp-b-none">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5 5C5 3.89543 5.89543 3 7 3H17C18.1046 3 19 3.89543 19 5V20.0057C19 20.7569 18.2028 21.2399 17.537 20.8921L12 18L6.46297 20.8921C5.79719 21.2399 5 20.7569 5 20.0057V5Z" fill="#BC104B"/>
                       </svg>
                       <h4 class="rt-font-h4 sp-l-0-2">#Инструкции</h4>
                     </div>
                     <div class="row">
-                      <div class="rt-col-4 rt-col-md-3 md-sp-t-0-4">
-                        <p class="blog__description color-main05 rt-font-label flex-start-center sp-t-0-2">
-                          <span class="blog__weekly-theme__date">12 марта</span>
-                          <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                              <rt-system-icons name="time small" color="main-color05"/>
-                              5 минут чтения
-                            </span>
-                        </p>
-                        <a href="#" class="blog__manual-link sp-t-0-2">Как организовать собственный колл-центр</a>
+                      <div class="blog__manual__item md-sp-t-0-4 sp-r-2-3 sp-l-1 td-sp-h-1">
+                          <p class="blog__description color-main05 rt-font-label flex-start-center sp-t-0-2">
+                            <span class="blog__weekly-theme__date">12 марта</span>
+                            <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                                <rt-system-icons name="time small" color="main-color05"/>
+                                5 минут чтения
+                              </span>
+                          </p>
+                          <a href="#" class="blog__manual-link sp-t-0-2">Как организовать собственный колл-центр</a>
                       </div>
-                      <div class="rt-col-4 rt-col-md-3 md-sp-t-0-4">
-                        <p class="blog__description color-main05 rt-font-label flex-start-center sp-t-0-2">
-                          <span class="blog__weekly-theme__date">12 марта</span>
-                          <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                              <rt-system-icons name="time small" color="main-color05"/>
-                              5 минут чтения
-                            </span>
-                        </p>
-                        <a href="#" class="blog__manual-link sp-t-0-2">Как геймеру стать киберспортсменом и
-                          начать зарабатывать</a>
+                      <div class="blog__manual__item md-sp-t-0-4 sp-h-2-3 td-sp-h-1">
+                          <p class="blog__description color-main05 rt-font-label flex-start-center sp-t-0-2">
+                            <span class="blog__weekly-theme__date">12 марта</span>
+                            <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                                <rt-system-icons name="time small" color="main-color05"/>
+                                5 минут чтения
+                              </span>
+                          </p>
+                          <a href="#" class="blog__manual-link sp-t-0-2">Как геймеру стать киберспортсменом и
+                            начать зарабатывать</a>
                       </div>
-                      <div class="rt-col-4 rt-col-md-3 md-sp-t-0-4">
-                        <p class="blog__description color-main05 rt-font-label flex-start-center sp-t-0-2">
-                          <span class="blog__weekly-theme__date">12 марта</span>
-                          <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                              <rt-system-icons name="time small" color="main-color05"/>
-                              5 минут чтения
-                            </span>
-                        </p>
-                        <a href="#" class="blog__manual-link sp-t-0-2">Как быстро настроить роутер своими руками</a>
+                      <div class="blog__manual__item md-sp-t-0-4 sp-l-2-3 sp-r-1 td-sp-h-1">
+                          <p class="blog__description color-main05 rt-font-label flex-start-center sp-t-0-2">
+                            <span class="blog__weekly-theme__date">12 марта</span>
+                            <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
+                                <rt-system-icons name="time small" color="main-color05"/>
+                                5 минут чтения
+                              </span>
+                          </p>
+                          <a href="#" class="blog__manual-link sp-t-0-2">Как быстро настроить роутер своими руками</a>
                       </div>
                     </div>
                   </div>
@@ -316,28 +316,31 @@
       </div>
       <div class="blog-container">
         <div class="rt-col">
-          <div class="row sp-b-2 td-sp-b-none">
+          <div class="row sp-b-3 td-sp-b-none">
             <div class="blog__promo-block rt-col-4 rt-col-td-6 td-sp-b-3 md-sp-b-1-3">
               <div class="row">
-                <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
+                <div class="rt-col-12 rt-col-td-3 rt-col-md-3 d-flex">
                   <div class="blog__article-tile__image-wrapper">
+                    <div class="blog__weekly-theme__label sp-t-0-3">
+                      <div class="tagline color-white d-inline-block sp-v-0-2 sp-h-0-3 color-block--red">реклама</div>
+                    </div>
                     <img src="https://spb.rt.ru/sites/default/files/b2b/img-4.png" class="blog__article-tile__image"/>
                   </div>
                 </div>
                 <div class="rt-col-12 rt-col-td-3 rt-col-md-3 d-flex d-space-between flex-column">
                   <div>
-                    <p class="rt-font-paragraph rt-font-bold sp-t-0-2 td-sp-t-1 md-sp-t-0-2">Самые популярный тв-каналы по версии Ростелекома</p>
-                    <ul class="sp-t-0-2 color-main07 sp-b-0-3">
+                    <p class="rt-font-paragraph rt-font-bold sp-t-0-2 td-sp-t-0-2 md-sp-t-0-2">Самые популярный тв-каналы по версии Ростелекома</p>
+                    <ul class="sp-t-0-2 color-main07 sp-b-0-3 rt-font-small-paragraph md-sp-t-0-1 md-sp-b-1-1">
                       <li>• Контроль недвижимости</li>
                       <li>• Присмотр за детьми</li>
                       <li>• Наблюдение за животными</li>
                     </ul>
                   </div>
-                  <a class="blog__link-button d-block" href="https://www.rt.ru">Узнать больше на <span class="color-red">rt.ru</span></a>
+                  <a class="blog__link-button d-block rt-font-bold" href="https://www.rt.ru">Узнать больше на <span class="color-red">rt.ru</span></a>
                 </div>
               </div>
             </div>
-            <div class="rt-col-8 rt-col-td-6 td-sp-b-3">
+            <div class="rt-col-8 rt-col-td-6 td-sp-b-2-1 md-sp-b-1-1">
               <div class="blog__hint-carousel">
                 <div class="blog__hint-carousel-wrapper" ref="hintWrapper">
                   <div class="blog__hint-carousel__item blog__hint-carousel__item--active sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 md-sp-h-1-2">
@@ -384,7 +387,7 @@
                 <button class="sp-v-0-2 sp-h-1 d-inline-block blog__hint-carousel__refresh" @click="refreshHint">
                   <div class="flex-center-center">
                     <rt-system-icons name="refresh"/>
-                    <span class="sp-l-0-2">Другой совет</span>
+                    <span class="sp-l-0-2 rt-font-small-paragraph rt-font-bold">Другой совет</span>
                   </div>
                 </button>
               </div>
@@ -394,8 +397,8 @@
       </div>
       <div class="blog-container blog__article-tile-wrapper">
         <div class="rt-col">
-          <div class="row sp-b-3 td-sp-b-2" ref="tile-wrapper">
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+          <div class="row sp-b-2 blog__article-tile td-sp-b-1-1 md-sp-b-0-2" ref="tile-wrapper">
+            <div class="rt-col-4 rt-col-td-6">
               <div class="blog__article-tile__item td-sp-v-0-4">
                 <div class="row">
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
@@ -417,7 +420,7 @@
                 </div>
               </div>
             </div>
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+            <div class="rt-col-4 rt-col-td-6">
               <div class="blog__article-tile__item td-sp-v-0-4">
                 <div class="row">
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
@@ -439,7 +442,7 @@
                 </div>
               </div>
             </div>
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
+            <div class="rt-col-4 rt-col-td-6">
               <div class="blog__article-tile__item td-sp-v-0-4">
                 <div class="row">
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
@@ -464,7 +467,7 @@
           </div>
           <div class="row">
             <div class="rt-col rt-font-center">
-              <div class="blog__add-article-button sp-v-0-4 sp-h-2-1 d-inline-block">Показать больше</div>
+              <div class="blog__add-article-button sp-v-0-4 sp-h-2-1 d-inline-block rt-font-bold">Показать больше</div>
             </div>
           </div>
         </div>
@@ -495,8 +498,8 @@
             <div class="d-flex d-space-between td-flex-column-reverse">
               <div class="color-main05">
                 <p class="blog-footer__privacy">Продолжая использовать наш сайт, вы даете согласие на обработку
-                  файлов <a href="#">Cookies</a> и других <br>пользовательских данных, в соответствии с
-                  <a href="#">Политикой конфиденциальности</a>.
+                  файлов <a href="#" class="blog-footer-link">Cookies</a> и других <br>пользовательских данных, в соответствии с
+                  <a href="#" class="blog-footer-link">Политикой конфиденциальности</a>.
                 </p>
                 <div class="sp-t-0-3 rt-font-label">
                   <span class="sp-r-1">© 2021 ПАО «Ростелеком». 18+</span>
@@ -596,6 +599,7 @@
       },
       setHintWrapperHeight() {
         this.hintArray.map((item, index) => {
+          item.style.height = 'auto';
           if(index != 0) {
             this.hintCardMaxHeight = item.offsetHeight > this.hintCardMaxHeight ? item.offsetHeight : this.hintCardMaxHeight;
           } else {
