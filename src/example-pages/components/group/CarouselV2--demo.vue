@@ -13,13 +13,13 @@
         </div>
         <div class="rt-col-12 rt-space-bottom3 is-b2c">
           <rt-row>
-            <rt-col size="3">
+            <rt-col size="2">
               <p>background</p>
               <select v-model="background">
                 <option v-for="i in colors" :value="i">{{ i }}</option>
               </select>
             </rt-col>
-            <rt-col size="3">
+            <rt-col size="2">
               <p>shadowColor</p>
               <select v-model="shadowColor">
                 <option v-for="i in colors" :value="i">{{ i }}</option>
@@ -37,11 +37,15 @@
               <p>blur not active</p>
               <input type="checkbox" v-model="blurnotactive">
             </rt-col>
+            <rt-col size="2">
+              <p>scrollable on desktop</p>
+              <input type="checkbox" v-model="scrollableondesktop">
+            </rt-col>
           </rt-row>
         </div>
       </div>
 
-      <rt-carousel-v3 active-index="2" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive">
+      <rt-carousel-v3 active-index="2" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :scrollable-on-desktop="scrollableondesktop">
         <rt-carousel-slide-v3
             v-for="i in 20"
             :key="i">
@@ -263,6 +267,7 @@ export default {
       showShadow: true,
       infinitescroll: false,
       blurnotactive: true,
+      scrollableondesktop: true,
       background: "",
       loaderType: skeletonLoader,
       gotoSlideVal: 0,
