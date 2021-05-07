@@ -45,7 +45,7 @@
         </div>
       </div>
 
-      <rt-carousel-v3 active-index="2" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :scrollable-on-desktop="scrollableondesktop">
+      <rt-carousel-v3 :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :scrollable-on-desktop="scrollableondesktop">
         <rt-carousel-slide-v3
             v-for="i in 20"
             :key="i">
