@@ -44,12 +44,8 @@
               </div>
               <div class="d-none td-d-block">
                 <div class="navigation-mobile">
-                  <div class="navigation-mobile__button" ref="navigationMobile" @click="toggleMobileMenu">
-                    <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="20" height="1" fill="#101828"/>
-                      <rect y="6" width="20" height="1" fill="#101828"/>
-                      <rect y="12" width="20" height="1" fill="#101828"/>
-                    </svg>
+                  <div class="navigation-mobile__button-wrapper" ref="navigationMobile" @click="toggleMobileMenu">
+                    <div class="navigation-mobile__button"/>
                   </div>
                   <div class="navigation-mobile__list sp-v-1 sp-l-1-3 sp-r-3">
                     <a class="navigation-link" href="#">Для меня</a>
@@ -380,7 +376,7 @@
           </div>
           <div class="row">
             <div class="rt-col rt-font-center">
-              <div class="blog__add-article-button sp-v-0-4 sp-h-2-1 d-inline-block">Показать больше</div>
+              <rt-button color="gray" class="blog__add-article-button d-inline-block rt-font-bold rt-button-md--is-block">Показать больше</rt-button>
             </div>
           </div>
         </div>
@@ -489,7 +485,7 @@
         this.$refs.navigationDropdown.classList.toggle('navigation-link-wrapper__button--active')
       },
       toggleMobileMenu() {
-        this.$refs.navigationMobile.classList.toggle('navigation-mobile__button--active');
+        this.$refs.navigationMobile.classList.toggle('navigation-mobile__button-wrapper--active');
         document.body.classList.toggle('ovh');
         document.documentElement.classList.toggle('ovh');
       }

@@ -330,7 +330,7 @@
                 <div class="rt-col-12 rt-col-td-3 rt-col-md-3 d-flex d-space-between flex-column">
                   <div>
                     <p class="rt-font-paragraph rt-font-bold sp-t-0-2 td-sp-t-0-2 md-sp-t-0-2">Самые популярный тв-каналы по версии Ростелекома</p>
-                    <ul class="sp-t-0-2 color-main07 sp-b-0-3 rt-font-small-paragraph md-sp-t-0-1 md-sp-b-1-1">
+                    <ul class="sp-t-0-2 color-main07 sp-b-0-3 rt-font-control md-sp-t-0-1 md-sp-b-1-1">
                       <li>• Контроль недвижимости</li>
                       <li>• Присмотр за детьми</li>
                       <li>• Наблюдение за животными</li>
@@ -343,31 +343,31 @@
             <div class="rt-col-8 rt-col-td-6 td-sp-b-2-1 md-sp-b-1-1">
               <div class="blog__hint-carousel">
                 <div class="blog__hint-carousel-wrapper" ref="hintWrapper">
-                  <div class="blog__hint-carousel__item blog__hint-carousel__item--active sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 md-sp-h-1-2">
+                  <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 td-sp-v-2 md-sp-h-1-2 md-sp-t-1-2 md-sp-b-1-3 blog__hint-carousel__item--active ">
                     <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
-                    <p class="rt-font-h3 sp-b-1">не работает Wi-Fi</p>
+                    <p class="rt-font-h3 sp-b-1">не работает Wi-Fi 1</p>
                     <p class="rt-font-paragraph sp-b-3">Создавая «умный дом», можно начать с малого. Например, сначала
                       установить датчики движения, чтобы свет в комнате включался, только когда в ней кто-то есть. Со
                       временем можно обзавестись и другим оборудованием, например, системой видеонаблюдения, «умными
                       замками» и т.д. В целом с каждым годом технологии совершенствуются и становятся доступнее по цене.</p>
                   </div>
-                  <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 md-sp-h-1-2">
+                  <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 td-sp-v-2 md-sp-h-1-2 md-sp-t-1-2 md-sp-b-1-3">
                     <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
-                    <p class="rt-font-h3 sp-b-1">не работает Wi-Fi</p>
+                    <p class="rt-font-h3 sp-b-1">не работает Wi-Fi 2</p>
                     <p class="rt-font-paragraph sp-b-3">Здесь будут короткие тексты о том, как решить какую-то простую
                       проблему. Здесь будут короткие тексты о том, как решить какую-то простую проблему. Здесь будут
                       короткие тексты о том, как решить какую-то простую проблему. Здесь будут короткие тексты о том,
                       как решить какую-то простую проблему. Здесь будут короткие тексты о том, как решить какую-то
                       простую проблему. Здесь будут короткие тексты</p>
                   </div>
-                  <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 md-sp-h-1-2">
+                  <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 td-sp-v-2 md-sp-h-1-2 md-sp-t-1-2 md-sp-b-1-3">
                     <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
-                    <p class="rt-font-h3 sp-b-1">не работает Wi-Fi</p>
+                    <p class="rt-font-h3 sp-b-1">не работает Wi-Fi 3</p>
                     <p class="rt-font-paragraph sp-b-3">Здесь будут короткие тексты о том, как решить какую-то простую
                       проблему. Здесь будут короткие тексты о том, как решить какую-то простую проблему. Здесь будут
                       короткие тексты о том, как решить какую-то простую проблему.</p>
                   </div>
-                  <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 md-sp-h-1-2">
+                  <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 td-sp-v-2 md-sp-h-1-2 md-sp-t-1-2 md-sp-b-1-3">
                     <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
                     <p class="rt-font-h3 sp-b-1">хочется создать в квартире <br>«умный дом» недорого?</p>
                     <p class="rt-font-paragraph sp-b-3">Здесь будут короткие тексты о том, как решить какую-то простую
@@ -376,9 +376,9 @@
                       как решить какую-то простую проблему. Здесь будут короткие тексты о том, как решить какую-то
                       простую проблему. Здесь будут короткие тексты</p>
                   </div>
-                  <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 md-sp-h-1-2">
+                  <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 td-sp-v-2 md-sp-h-1-2 md-sp-t-1-2 md-sp-b-1-3">
                     <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
-                    <p class="rt-font-h3 sp-b-1">не работает Wi-Fi</p>
+                    <p class="rt-font-h3 sp-b-1">не работает Wi-Fi 5</p>
                     <p class="rt-font-paragraph sp-b-3">Здесь будут короткие тексты о том, как решить какую-то простую
                       проблему. Здесь будут короткие тексты о том, как решить какую-то простую проблему. Здесь будут
                       короткие тексты о том, как решить какую-то простую проблему.</p>
@@ -387,7 +387,7 @@
                 <button class="sp-v-0-2 sp-h-1 d-inline-block blog__hint-carousel__refresh" @click="refreshHint">
                   <div class="flex-center-center">
                     <rt-system-icons name="refresh"/>
-                    <span class="sp-l-0-2 rt-font-small-paragraph rt-font-bold">Другой совет</span>
+                    <span class="sp-l-0-2 rt-font-control rt-font-bold">Другой совет</span>
                   </div>
                 </button>
               </div>
@@ -467,7 +467,7 @@
           </div>
           <div class="row">
             <div class="rt-col rt-font-center">
-              <div class="blog__add-article-button sp-v-0-4 sp-h-2-1 d-inline-block rt-font-bold">Показать больше</div>
+              <rt-button color="gray" class="blog__add-article-button d-inline-block rt-font-bold rt-button-md--is-block">Показать больше</rt-button>
             </div>
           </div>
         </div>
@@ -598,18 +598,24 @@
         },350)
       },
       setHintWrapperHeight() {
-        this.hintArray.map((item, index) => {
-          item.style.height = 'auto';
-          if(index != 0) {
+        setTimeout(() => {
+          this.hintCardMaxHeight = 0;
+          this.$refs.hintWrapper.style.height = 'auto'
+          this.hintArray.map(item => {
+            item.style.height = 'auto';
+            console.log(item.offsetHeight)
+            // if(index != 0) {
+            //   this.hintCardMaxHeight = item.offsetHeight > this.hintCardMaxHeight ? item.offsetHeight : this.hintCardMaxHeight;
+            // } else {
             this.hintCardMaxHeight = item.offsetHeight > this.hintCardMaxHeight ? item.offsetHeight : this.hintCardMaxHeight;
-          } else {
-            this.hintCardMaxHeight = item.offsetHeight * 1.1111 > this.hintCardMaxHeight ? item.offsetHeight * 1.1111 : this.hintCardMaxHeight;
-          }
-        })
-        this.$refs.hintWrapper.style.height = this.hintCardMaxHeight + 15 + 'px';
-        this.hintArray.map(item => {
-          item.style.height = 'calc(100% - 15px)'
-        })
+            // }
+            // console.log(this.hintCardMaxHeight)
+          })
+          this.$refs.hintWrapper.style.height = this.hintCardMaxHeight + 15 + 'px';
+          this.hintArray.map(item => {
+            item.style.height = 'calc(100% - 15px)'
+          })
+        }, 250)
       }
     }
   };

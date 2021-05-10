@@ -14,7 +14,7 @@ import {
     SelectV2,
     SelectV2Option,
     Switch,
-    SwitchV2,
+    // SwitchV2,
     SwitchContainer,
     Textarea,
     TextareaStatic,
@@ -170,7 +170,7 @@ addToComponentList(SelectV2)
 addToComponentList(SelectV2Option)
 addToComponentList(Spinner)
 addToComponentList(Switch)
-addToComponentList(SwitchV2)
+// addToComponentList(SwitchV2)
 addToComponentList(SwitchContainer)
 addToComponentList(Textarea)
 addToComponentList(TextareaStatic)

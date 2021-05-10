@@ -44,12 +44,8 @@
               </div>
               <div class="d-none td-d-block">
                 <div class="navigation-mobile">
-                  <div class="navigation-mobile__button" ref="navigationMobile" @click="toggleMobileMenu">
-                    <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="20" height="1" fill="#101828"/>
-                      <rect y="6" width="20" height="1" fill="#101828"/>
-                      <rect y="12" width="20" height="1" fill="#101828"/>
-                    </svg>
+                  <div class="navigation-mobile__button-wrapper" ref="navigationMobile" @click="toggleMobileMenu">
+                    <div class="navigation-mobile__button"/>
                   </div>
                   <div class="navigation-mobile__list sp-v-1 sp-l-1-3 sp-r-3">
                     <a class="navigation-link" href="#">Для меня</a>
@@ -243,8 +239,9 @@
                         <path d="M-2.09815e-06 48L36 24L0 -1.57361e-06L-2.09815e-06 48Z" fill="white"/>
                       </svg>
                     </div>
-                    <p class="blog__video-title rt-font-h4 color-white md-sp-v-0-4 md-sp-r-1-4 md-sp-l-0-3 color-md-main" ref="videoTitle">Роспотребнадзор отправляет
-                      туристов на карантин</p>
+                    <p class="blog__video-title color-white md-sp-v-0-4 md-sp-r-1-4 md-sp-l-0-3 color-md-main" ref="videoTitle">
+                      Роспотребнадзор отправляет туристов на карантин
+                    </p>
                   </div>
                   <p class="rt-font-paragraph sp-b-1 md-sp-b-0-4">Кто-то в толпе засмеялся; многие улыбались. Я объяснил это для себя
                     истерией и продолжал:</p>
@@ -297,7 +294,7 @@
                   <p class="rt-font-paragraph sp-b-1 md-sp-b-0-4">- Врачи не могут защитить вас от Синей Чумы, нет, друзья мои. Но я могу!</p>
                   <p class="rt-font-paragraph sp-b-1 md-sp-b-0-4">Не теряя ни секунды, я раскрыл чемоданчик и зачерпнул пригоршню больших
                     белых таблеток.</p>
-                  <p class="rt-font-paragraph sp-b-2 td-sp-b-2-3">- Вот лекарство, которое усмирит Синюю Чуму! Нет времени объяснять,
+                  <p class="rt-font-paragraph sp-b-2 md-sp-b-1">- Вот лекарство, которое усмирит Синюю Чуму! Нет времени объяснять,
                     откуда оно у меня и как действует. Не буду я нести и научную тарабарщину. Вместо этого я предоставлю
                     конкретные доказательства. Толпа притихла и обратилась в напряженное внимание. - Приведите мне
                     заболевшего! вскричал я. - Приведите десять. И если в них еще теплится жизнь, они встанут на ноги!
@@ -364,22 +361,22 @@
                 <div class="color-block--main-color003-no-opacity blog__form-pseudo-background" ref="pseudoBg"/>
                 <div class="blog__form-body">
                   <h4 class="rt-col-h4 rt-font-bold sp-b-0-3">Остались вопросы? Мы поможем их решить</h4>
-                  <p class="rt-font-paragraph sp-b-2">Здесь будет любой небольшой текст</p>
+                  <p class="rt-font-paragraph sp-b-2 md-sp-b-1-1">Здесь будет любой небольшой текст</p>
                   <div class="row">
-                    <div class="rt-col-6">
+                    <div class="rt-col-6 rt-col-md-3">
                       <rt-input :version="2" placeholder="Имя" type="text"></rt-input>
                     </div>
-                    <div class="rt-col-6">
+                    <div class="rt-col-6 rt-col-md-3 md-sp-t-1">
                       <rt-input :version="2" placeholder="Телефон" input-type="tel"></rt-input>
                     </div>
                   </div>
-                  <div class="sp-t-1-2">
+                  <div class="sp-t-1-2 md-sp-t-1-1">
                     <rt-checkbox :is-orange="true">
                         <span class="rt-font">Даю согласие на обработку персональных данных в&nbsp;соответствии
                           <a href="#" class="rt-link rt-link--orange">с&nbsp;условиями</a>
                         </span>
                     </rt-checkbox>
-                    <div class="sp-t-2">
+                    <div class="sp-t-2 md-sp-t-1-3">
                       <rt-button color="orange">Оставить заявку</rt-button>
                     </div>
                   </div>
@@ -589,7 +586,7 @@ export default {
       this.$refs.navigationDropdown.classList.toggle('navigation-link-wrapper__button--active')
     },
     toggleMobileMenu() {
-      this.$refs.navigationMobile.classList.toggle('navigation-mobile__button--active');
+      this.$refs.navigationMobile.classList.toggle('navigation-mobile__button-wrapper--active');
       document.body.classList.toggle('ovh');
       document.documentElement.classList.toggle('ovh');
     },

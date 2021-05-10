@@ -17,7 +17,7 @@
         <div class="app-row row">
           <div class="rt-col-4">
             <rt-select-v2 :json="optionsList" name="test99" label="Просто выпадающий список"
-                          @change="console('change')" @focus="console('focus')" @blur="console('blur')"/>
+                          @item-select="console" @focus="console('focus')" @blur="console('blur')"/>
           </div>
           <div class="rt-col-4">
             <rt-select-v2 :multiple="true" :json="[
@@ -47,7 +47,7 @@
                           name="test2"
                           label="Выпадающий список с фильтрацией по вводу"
                           :json="optionsListFiltered" @input="filterOnInput"
-                          @change="console('outer change')" @focus="console('outer focus')" @blur="console('outer blur')"/>
+                          @item-select="console" @change="console" @keyup="console"/>
           </div>
           <div class="rt-col-12 sp-t-2"/>
           <div class="rt-col-4">
