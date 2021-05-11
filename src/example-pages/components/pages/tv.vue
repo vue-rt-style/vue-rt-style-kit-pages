@@ -87,7 +87,7 @@
           <div class="row">
             <div class="rt-col-7 rt-col-td-6">
               <div class="row">
-                <div class="rt-col-td-5 rt-col-md-3">
+                <div class="rt-col-12 rt-col-td-5 rt-col-md-3">
                   <div class="blog-breadcrumbs sp-b-1 flex-start-center md-sp-b-0-2">
                     <a class="blog-breadcrumbs__item sp-r-0-2" href="#">Блог</a>
                     <rt-system-icons name="chevron right"/>
