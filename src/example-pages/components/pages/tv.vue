@@ -107,11 +107,11 @@
                   <div class="blog-article__image-wrapper">
                     <img src="https://spb.rt.ru/sites/default/files/b2b/blog__theme.png" class="blog-article__image-body"/>
                   </div>
-                  <p class="blog-article__image-description sp-t-0-2 sp-b-2 rt-font-small-paragraph color-main03 td-sp-b-1-3">Фото: freepik.com</p>
+                  <p class="blog-article__image-description sp-t-0-2 sp-b-2 rt-font-small-paragraph color-main03 td-sp-b-1-3 md-sp-b-1-1">Фото: freepik.com</p>
                   <p class="rt-font-paragraph rt-font-bold sp-b-1 md-sp-b-0-4">Его место назначения – Нью-Йорк в августе 1988 года.
                     Его цель – предотвращение Синей чумы, которая свирепствует в городе. Только одно его настораживает.
                     А именно то, что никто из местных жителей о чуме ни слухом, ни духом!</p>
-                  <p class="rt-font-paragraph sp-b-1">Неопытные путешественники стараются материализоваться в каком-нибудь
+                  <p class="rt-font-paragraph sp-b-1 md-sp-b-1-1">Неопытные путешественники стараются материализоваться в каком-нибудь
                     укромном месте, в уединении. Они возникают на помойках, в складских помещениях, в телефонных будках,
                     отчаянно надеясь, что переход выполнен гладко. И неизбежно подобное поведение только привлекает к ним
                     внимание - то самое, чего они хотели избежать. Но для такого опытного путешественника, как я, переход
