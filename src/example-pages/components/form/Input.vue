@@ -64,7 +64,7 @@
                         placeholder="Поле ввода пароля" input-type="password"/>
               <rt-input input-type="tel" label="Начните вводить номер, маску мы берём на себя" :version="2" error-message="Начните вводить номер, маску мы берём на себя"
                         placeholder="Поля ввода номера телефона" :need-verification="true" @keyup="console" @keydown="console"
-                        :verified="checkThis" ref="phoneInput" :value="inputModel" @input="console"/>
+                        :verified="checkThis" ref="phoneInput" :value="inputModel" @clear="console"/>
               <div class="sp-t-1"/>
             </div>
             <div class="rt-col-1 md-d-none"/>
@@ -274,9 +274,9 @@
     }),
     mounted() {
       this.documentation = documentation;
-      setTimeout(()=> {
-        this.inputModel = '12354';
-      },3000)
+      // setTimeout(()=> {
+      //   this.inputModel = '12354';
+      // },3000)
     },
     created() {},
     methods: {

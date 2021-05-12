@@ -71,7 +71,7 @@
         <div class="rt-col">
           <div class="row">
             <div class="rt-col-4 rt-col-td-4 rt-col-md-3">
-              <a href="#">
+              <a href="#" class="back-link">
                 <h2 class="rt-font-h3 sp-b-0-1">Простые технологии</h2>
                 <p class="tagline">рассказываем просто о сложном</p>
               </a>

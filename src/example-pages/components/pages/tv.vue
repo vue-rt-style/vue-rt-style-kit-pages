@@ -71,7 +71,7 @@
         <div class="rt-col">
           <div class="row">
             <div class="rt-col-4 rt-col-td-4 rt-col-md-3">
-              <a href="#">
+              <a href="#" class="back-link">
                 <h2 class="rt-font-h3 sp-b-0-1">Простые технологии</h2>
                 <p class="tagline">рассказываем просто о сложном</p>
               </a>
@@ -211,7 +211,7 @@
                   <p class="rt-font-paragraph sp-b-1-2 md-sp-b-0-4">- Подождите же, друзья, подходите и внемлите. Это то, чего вы ждали,
                     прекрасная возможность, последний шанс!</p>
                   <p class="rt-font-paragraph sp-b-2 td-sp-b-1-3 md-sp-b-1-1">Вскоре собралось человек тридцать, и я решил, что
-                    <span class="color-red">для начала достаточно.</span>
+                    <a class="back-link color-burgundy" href="#">для начала достаточно.</a>
                   </p>
                   <div class="blog__quote sp-b-2 td-sp-b-1-3 md-sp-b-1-1 sp-h-0-4">
                     <span class="rt-font-h4 rt-font-bold color-block--main-color005">- Подходите, друзья!
@@ -239,7 +239,7 @@
                         <path d="M-2.09815e-06 48L36 24L0 -1.57361e-06L-2.09815e-06 48Z" fill="white"/>
                       </svg>
                     </div>
-                    <p class="blog__video-title color-white md-sp-v-0-4 md-sp-r-1-4 md-sp-l-0-3 color-md-main" ref="videoTitle">
+                    <p class="blog__video-title color-white md-sp-v-0-4 md-sp-r-1-4 md-sp-l-0-3 color-md-main rt-font-bold" ref="videoTitle">
                       Роспотребнадзор отправляет туристов на карантин
                     </p>
                   </div>

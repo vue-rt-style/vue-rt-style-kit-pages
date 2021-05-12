@@ -71,7 +71,7 @@
         <div class="rt-col">
           <div class="row">
             <div class="rt-col-4 rt-col-td-4 rt-col-md-3">
-              <a href="#">
+              <a href="#" class="back-link">
                 <h2 class="rt-font-h3 sp-b-0-1">Простые технологии</h2>
                 <p class="tagline">рассказываем просто о сложном</p>
               </a>
@@ -330,13 +330,13 @@
                 <div class="rt-col-12 rt-col-td-3 rt-col-md-3 d-flex d-space-between flex-column">
                   <div>
                     <p class="rt-font-paragraph rt-font-bold sp-t-0-2 td-sp-t-0-2 md-sp-t-0-2">Самые популярный тв-каналы по версии Ростелекома</p>
-                    <ul class="sp-t-0-2 color-main07 sp-b-0-3 rt-font-control md-sp-t-0-1 md-sp-b-1-1">
+                    <ul class="sp-t-0-2 color-main07 sp-b-0-3 font-t-s md-sp-t-0-1 md-sp-b-1-1">
                       <li>• Контроль недвижимости</li>
                       <li>• Присмотр за детьми</li>
                       <li>• Наблюдение за животными</li>
                     </ul>
                   </div>
-                  <a class="blog__link-button d-block rt-font-bold" href="https://www.rt.ru">Узнать больше на <span class="color-red">rt.ru</span></a>
+                  <rt-button color="gray" class="rt-button--is-block blog__link-button" href="https://www.rt.ru">Узнать больше на<span class="color-red">&nbsp;rt.ru</span></rt-button>
                 </div>
               </div>
             </div>
@@ -384,12 +384,12 @@
                       короткие тексты о том, как решить какую-то простую проблему.</p>
                   </div>
                 </div>
-                <button class="sp-v-0-2 sp-h-1 d-inline-block blog__hint-carousel__refresh" @click="refreshHint">
-                  <div class="flex-center-center">
+                <rt-button class="blog__hint-carousel__refresh" color="gray" @click="refreshHint">
+<!--                  <div class="flex-center-center">-->
                     <rt-system-icons name="refresh"/>
-                    <span class="sp-l-0-2 rt-font-control rt-font-bold">Другой совет</span>
-                  </div>
-                </button>
+                    <span class="sp-l-0-2 font-h-s rt-font-bold">Другой совет</span>
+<!--                  </div>-->
+                </rt-button>
               </div>
             </div>
           </div>
