@@ -232,8 +232,9 @@
                     заразности и неизвестных последствий мора можно ожидать, что врачи не успеют найти вовремя лекарство
                     для вас, страдающих. Вся история несчастного человечества ясно показывает: несмотря на попытки контроля
                     и лечения, эпидемии свирепствуют до тех пор, пока не исчерпывают себя.</p>
-                  <div class="blog__video-block-wrapper sp-b-2 td-sp-b-1-3 md-sp-b-1-1" ref="videoWrapper">
-                    <video class="blog__video-block" src="https://moscow.rt.ru/sites/default/files/b2b/BD/BD_New.mp4" ref="video" @click="togglePlay"/>
+                  <div class="blog__video-block-wrapper sp-b-2 td-sp-b-1-3 md-sp-b-1-1" ref="videoWrapper" @click="togglePlay">
+                    <img class="blog__video-poster" src="https://spb.rt.ru/sites/default/files/b2b/blog_video-poster.png" ref="videoPoster"/>
+                    <video class="blog__video-block" src="https://moscow.rt.ru/sites/default/files/b2b/BD/BD_New.mp4" ref="video" controls/>
                     <div class="blog__video-play-button" ref="videoButton">
                       <svg width="36" height="48" viewBox="0 0 36 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M-2.09815e-06 48L36 24L0 -1.57361e-06L-2.09815e-06 48Z" fill="white"/>
@@ -568,6 +569,7 @@ export default {
     this.$refs.video.addEventListener('ended', () => {
       this.$refs.videoButton.classList.remove('blog__video-play-button--hidden')
       this.$refs.videoTitle.classList.remove('blog__video-title--hidden')
+      this.$refs.videoPoster.classList.remove('blog__video-poster--hidden')
       this.$refs.videoWrapper.classList.remove('blog__video-block-wrapper--no-shadow')
     })
     this.setSlidesPosition()
@@ -590,12 +592,29 @@ export default {
       document.body.classList.toggle('ovh');
       document.documentElement.classList.toggle('ovh');
     },
-    togglePlay() {
-      this.$refs.video.paused ? this.$refs.video.play() : this.$refs.video.pause();
+    togglePlay(e) {
+      setTimeout(() => {
+        e.target.tagName == 'IMG' ? this.$refs.video.play() : this.$refs.video.pause();
+      },0)
       this.$refs.videoWrapper.classList.toggle('blog__video-block-wrapper--no-shadow')
       this.$refs.videoButton.classList.toggle('blog__video-play-button--hidden')
       this.$refs.videoTitle.classList.toggle('blog__video-title--hidden')
+      this.$refs.videoPoster.classList.toggle('blog__video-poster--hidden')
     },
+    // playVideo(){
+    //   this.$refs.video.play();
+    //   this.$refs.videoWrapper.classList.add('blog__video-block-wrapper--no-shadow')
+    //   this.$refs.videoButton.classList.add('blog__video-play-button--hidden')
+    //   this.$refs.videoTitle.classList.add('blog__video-title--hidden')
+    //   this.$refs.videoPoster.classList.add('blog__video-poster--hidden')
+    // },
+    // pauseVideo(){
+    //   this.$refs.video.pause();
+    //   this.$refs.videoWrapper.classList.remove('blog__video-block-wrapper--no-shadow')
+    //   this.$refs.videoButton.classList.remove('blog__video-play-button--hidden')
+    //   this.$refs.videoTitle.classList.remove('blog__video-title--hidden')
+    //   this.$refs.videoPoster.classList.remove('blog__video-poster--hidden')
+    // },
     setSlidesPosition() {
       this.carouselArray[this.activeSlideIndex].classList.add('blog__carousel__item--active');
       Array.from(this.carouselArray).map(item => {
@@ -648,7 +667,13 @@ export default {
     setCarouselArrowsPosition() {
       let arrowWrapper = this.$refs.carousel.querySelector('.blog__carousel__navigation');
       let singleSlideHeight = this.$refs.carousel.querySelector('.blog__carousel__item-body').offsetHeight;
-      arrowWrapper.style.top = 'calc(' + singleSlideHeight + 'px / 2)';
+      if(singleSlideHeight != 0) {
+        arrowWrapper.style.top = 'calc(' + singleSlideHeight + 'px / 2)';
+      } else {
+        setTimeout( ()=> {
+          this.setCarouselArrowsPosition()
+        }, 150)
+      }
     },
     setTableColumnWidth() {
       Array.from(this.$refs.colGroup.children).map((item, index) => {

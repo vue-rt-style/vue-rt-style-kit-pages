@@ -315,7 +315,7 @@
       height 48px
       pointer-events none
       transition opacity .2s linear
-      z-index 2
+      z-index 3
       &--hidden
         opacity 0
     &-title
@@ -324,7 +324,7 @@
       left 32px
       max-width calc(100% - 64px)
       transition opacity .2s linear
-      z-index 2
+      z-index 3
       font-size 22px
       line-height 28px
       @media(max-width tablet-upper-limit)
@@ -345,6 +345,17 @@
         @media(max-width mobile-upper-limit)
           opacity 1
           background-color main-color02
+    &-poster
+      position absolute
+      top 0
+      left 0
+      right 0
+      bottom 0
+      object-fit cover
+      z-index 2
+      &--hidden
+        opacity 0
+        pointer-events none
   &__table
     margin-bottom 40px
     @media(max-width tablet-upper-limit)

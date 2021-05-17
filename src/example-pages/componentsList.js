@@ -106,7 +106,6 @@ import {
   GameArrow,
   Banner,
   BannerItem,
-  BannerVideoGameControl,
   BannerPaginatorItem,
   BannerV2,
   BannerItemV2,
@@ -130,7 +129,7 @@ import {
   CardTileLayout,
   CommentSlider,
   CommentSliderItem,
-  VideoBanner,
+  // VideoBanner,
   CarouselV3,
   CarouselV3Item
   
@@ -278,7 +277,7 @@ addToComponentList(Jumbotron);
 addToComponentList(CardHelp);
 addToComponentList(CardBanner);
 addToComponentList(CardTileLayout);
-addToComponentList(VideoBanner);
+// addToComponentList(VideoBanner);
 addToComponentList(CarouselV3);
 addToComponentList(CarouselV3Item);
 

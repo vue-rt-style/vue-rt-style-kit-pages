@@ -20,7 +20,7 @@
                           @item-select="console" @focus="console('focus')" @blur="console('blur')"/>
           </div>
           <div class="rt-col-4">
-            <rt-select-v2 :multiple="true" :json="[
+            <rt-select-v2 :multiple="true" value="50" :json="[
                 {value:'50', label:'150 минут 150 минут 150 минут 150 минут 150 минут 150 минут 150 минут'},
                 {value:'150', label:'250 минут', sublabel:'80% скидка'},
                 {value:'250', label:'500 минут', sublabel:'95% скидка'},
@@ -47,11 +47,11 @@
                           name="test2"
                           label="Выпадающий список с фильтрацией по вводу"
                           :json="optionsListFiltered" @input="filterOnInput"
-                          @item-select="console" @change="console" @keyup="console"/>
+                          @item-select="console" @change="console" @keyup="console" @keydown="console" @focus="console" @blur="console" :has-error="setError" error-message="Текст с сообщением об ошибке"/>
           </div>
           <div class="rt-col-12 sp-t-2"/>
           <div class="rt-col-4">
-            <rt-select-v2 name="test1" label="Выпадающий список с ошибкой" :has-error="setError" error-message="Текст с сообщением об ошибке">
+            <rt-select-v2 name="test1" label="Выпадающий список с ошибкой" :has-error="setError" error-message="Текст с сообщением об ошибке" >
               <rt-select-v2-option select-name="test1" value="50">150 минут</rt-select-v2-option>
               <rt-select-v2-option select-name="test1" value="150">500 минут</rt-select-v2-option>
               <rt-select-v2-option select-name="test1" label="1000 минут" value="250"></rt-select-v2-option>
@@ -365,9 +365,9 @@
     }),
     mounted() {
       this.documentation = documentation;
-      // setTimeout(() => {
-      //   this.setError = true
-      // }, 2000)
+      setTimeout(() => {
+        this.setError = true
+      }, 2000)
     },
     created() {},
     methods: {
