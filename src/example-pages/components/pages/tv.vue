@@ -672,7 +672,7 @@ export default {
       } else {
         setTimeout( ()=> {
           this.setCarouselArrowsPosition()
-        }, 150)
+        }, 100)
       }
     },
     setTableColumnWidth() {
