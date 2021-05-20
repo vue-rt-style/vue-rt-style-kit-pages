@@ -44,12 +44,8 @@
               </div>
               <div class="d-none td-d-block">
                 <div class="navigation-mobile">
-                  <div class="navigation-mobile__button" ref="navigationMobile" @click="toggleMobileMenu">
-                    <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="20" height="1" fill="#101828"/>
-                      <rect y="6" width="20" height="1" fill="#101828"/>
-                      <rect y="12" width="20" height="1" fill="#101828"/>
-                    </svg>
+                  <div class="navigation-mobile__button-wrapper" ref="navigationMobile" @click="toggleMobileMenu">
+                    <div class="navigation-mobile__button"/>
                   </div>
                   <div class="navigation-mobile__list sp-v-1 sp-l-1-3 sp-r-3">
                     <a class="navigation-link" href="#">Для меня</a>
@@ -75,7 +71,7 @@
         <div class="rt-col">
           <div class="row">
             <div class="rt-col-4 rt-col-td-4 rt-col-md-3">
-              <a href="#">
+              <a href="#" class="back-link">
                 <h2 class="rt-font-h3 sp-b-0-1">Простые технологии</h2>
                 <p class="tagline">рассказываем просто о сложном</p>
               </a>
@@ -91,7 +87,7 @@
           <div class="row">
             <div class="rt-col-7 rt-col-td-6">
               <div class="row">
-                <div class="rt-col-td-5 rt-col-md-3">
+                <div class="rt-col-12 rt-col-td-5 rt-col-md-3">
                   <div class="blog-breadcrumbs sp-b-1 flex-start-center md-sp-b-0-2">
                     <a class="blog-breadcrumbs__item sp-r-0-2" href="#">Блог</a>
                     <rt-system-icons name="chevron right"/>
@@ -111,11 +107,11 @@
                   <div class="blog-article__image-wrapper">
                     <img src="https://spb.rt.ru/sites/default/files/b2b/blog__theme.png" class="blog-article__image-body"/>
                   </div>
-                  <p class="blog-article__image-description sp-t-0-2 sp-b-2 rt-font-small-paragraph color-main03 td-sp-b-1-3">Фото: freepik.com</p>
+                  <p class="blog-article__image-description sp-t-0-2 sp-b-2 rt-font-small-paragraph color-main03 td-sp-b-1-3 md-sp-b-1-1">Фото: freepik.com</p>
                   <p class="rt-font-paragraph rt-font-bold sp-b-1 md-sp-b-0-4">Его место назначения – Нью-Йорк в августе 1988 года.
                     Его цель – предотвращение Синей чумы, которая свирепствует в городе. Только одно его настораживает.
                     А именно то, что никто из местных жителей о чуме ни слухом, ни духом!</p>
-                  <p class="rt-font-paragraph sp-b-1">Неопытные путешественники стараются материализоваться в каком-нибудь
+                  <p class="rt-font-paragraph sp-b-1 md-sp-b-1-1">Неопытные путешественники стараются материализоваться в каком-нибудь
                     укромном месте, в уединении. Они возникают на помойках, в складских помещениях, в телефонных будках,
                     отчаянно надеясь, что переход выполнен гладко. И неизбежно подобное поведение только привлекает к ним
                     внимание - то самое, чего они хотели избежать. Но для такого опытного путешественника, как я, переход
@@ -215,7 +211,7 @@
                   <p class="rt-font-paragraph sp-b-1-2 md-sp-b-0-4">- Подождите же, друзья, подходите и внемлите. Это то, чего вы ждали,
                     прекрасная возможность, последний шанс!</p>
                   <p class="rt-font-paragraph sp-b-2 td-sp-b-1-3 md-sp-b-1-1">Вскоре собралось человек тридцать, и я решил, что
-                    <span class="color-red">для начала достаточно.</span>
+                    <a class="back-link color-burgundy" href="#">для начала достаточно.</a>
                   </p>
                   <div class="blog__quote sp-b-2 td-sp-b-1-3 md-sp-b-1-1 sp-h-0-4">
                     <span class="rt-font-h4 rt-font-bold color-block--main-color005">- Подходите, друзья!
@@ -236,15 +232,17 @@
                     заразности и неизвестных последствий мора можно ожидать, что врачи не успеют найти вовремя лекарство
                     для вас, страдающих. Вся история несчастного человечества ясно показывает: несмотря на попытки контроля
                     и лечения, эпидемии свирепствуют до тех пор, пока не исчерпывают себя.</p>
-                  <div class="blog__video-block-wrapper sp-b-2 td-sp-b-1-3 md-sp-b-1-1" ref="videoWrapper">
-                    <video class="blog__video-block" src="https://moscow.rt.ru/sites/default/files/b2b/BD/BD_New.mp4" ref="video" @click="togglePlay"/>
+                  <div class="blog__video-block-wrapper sp-b-2 td-sp-b-1-3 md-sp-b-1-1" ref="videoWrapper" @click="togglePlay">
+                    <img class="blog__video-poster" src="https://spb.rt.ru/sites/default/files/b2b/blog_video-poster.png" ref="videoPoster"/>
+                    <video class="blog__video-block" src="https://moscow.rt.ru/sites/default/files/b2b/BD/BD_New.mp4" ref="video" controls/>
                     <div class="blog__video-play-button" ref="videoButton">
                       <svg width="36" height="48" viewBox="0 0 36 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M-2.09815e-06 48L36 24L0 -1.57361e-06L-2.09815e-06 48Z" fill="white"/>
                       </svg>
                     </div>
-                    <p class="blog__video-title rt-font-h4 color-white md-sp-v-0-4 md-sp-r-1-4 md-sp-l-0-3 color-md-main" ref="videoTitle">Роспотребнадзор отправляет
-                      туристов на карантин</p>
+                    <p class="blog__video-title color-white md-sp-v-0-4 md-sp-r-1-4 md-sp-l-0-3 color-md-main rt-font-bold" ref="videoTitle">
+                      Роспотребнадзор отправляет туристов на карантин
+                    </p>
                   </div>
                   <p class="rt-font-paragraph sp-b-1 md-sp-b-0-4">Кто-то в толпе засмеялся; многие улыбались. Я объяснил это для себя
                     истерией и продолжал:</p>
@@ -297,7 +295,7 @@
                   <p class="rt-font-paragraph sp-b-1 md-sp-b-0-4">- Врачи не могут защитить вас от Синей Чумы, нет, друзья мои. Но я могу!</p>
                   <p class="rt-font-paragraph sp-b-1 md-sp-b-0-4">Не теряя ни секунды, я раскрыл чемоданчик и зачерпнул пригоршню больших
                     белых таблеток.</p>
-                  <p class="rt-font-paragraph sp-b-2 td-sp-b-2-3">- Вот лекарство, которое усмирит Синюю Чуму! Нет времени объяснять,
+                  <p class="rt-font-paragraph sp-b-2 md-sp-b-1">- Вот лекарство, которое усмирит Синюю Чуму! Нет времени объяснять,
                     откуда оно у меня и как действует. Не буду я нести и научную тарабарщину. Вместо этого я предоставлю
                     конкретные доказательства. Толпа притихла и обратилась в напряженное внимание. - Приведите мне
                     заболевшего! вскричал я. - Приведите десять. И если в них еще теплится жизнь, они встанут на ноги!
@@ -364,22 +362,22 @@
                 <div class="color-block--main-color003-no-opacity blog__form-pseudo-background" ref="pseudoBg"/>
                 <div class="blog__form-body">
                   <h4 class="rt-col-h4 rt-font-bold sp-b-0-3">Остались вопросы? Мы поможем их решить</h4>
-                  <p class="rt-font-paragraph sp-b-2">Здесь будет любой небольшой текст</p>
+                  <p class="rt-font-paragraph sp-b-2 md-sp-b-1-1">Здесь будет любой небольшой текст</p>
                   <div class="row">
-                    <div class="rt-col-6">
+                    <div class="rt-col-6 rt-col-md-3">
                       <rt-input :version="2" placeholder="Имя" type="text"></rt-input>
                     </div>
-                    <div class="rt-col-6">
+                    <div class="rt-col-6 rt-col-md-3 md-sp-t-1">
                       <rt-input :version="2" placeholder="Телефон" input-type="tel"></rt-input>
                     </div>
                   </div>
-                  <div class="sp-t-1-2">
+                  <div class="sp-t-1-2 md-sp-t-1-1">
                     <rt-checkbox :is-orange="true">
                         <span class="rt-font">Даю согласие на обработку персональных данных в&nbsp;соответствии
                           <a href="#" class="rt-link rt-link--orange">с&nbsp;условиями</a>
                         </span>
                     </rt-checkbox>
-                    <div class="sp-t-2">
+                    <div class="sp-t-2 md-sp-t-1-3">
                       <rt-button color="orange">Оставить заявку</rt-button>
                     </div>
                   </div>
@@ -571,6 +569,7 @@ export default {
     this.$refs.video.addEventListener('ended', () => {
       this.$refs.videoButton.classList.remove('blog__video-play-button--hidden')
       this.$refs.videoTitle.classList.remove('blog__video-title--hidden')
+      this.$refs.videoPoster.classList.remove('blog__video-poster--hidden')
       this.$refs.videoWrapper.classList.remove('blog__video-block-wrapper--no-shadow')
     })
     this.setSlidesPosition()
@@ -589,16 +588,33 @@ export default {
       this.$refs.navigationDropdown.classList.toggle('navigation-link-wrapper__button--active')
     },
     toggleMobileMenu() {
-      this.$refs.navigationMobile.classList.toggle('navigation-mobile__button--active');
+      this.$refs.navigationMobile.classList.toggle('navigation-mobile__button-wrapper--active');
       document.body.classList.toggle('ovh');
       document.documentElement.classList.toggle('ovh');
     },
-    togglePlay() {
-      this.$refs.video.paused ? this.$refs.video.play() : this.$refs.video.pause();
+    togglePlay(e) {
+      setTimeout(() => {
+        e.target.tagName == 'IMG' ? this.$refs.video.play() : this.$refs.video.pause();
+      },0)
       this.$refs.videoWrapper.classList.toggle('blog__video-block-wrapper--no-shadow')
       this.$refs.videoButton.classList.toggle('blog__video-play-button--hidden')
       this.$refs.videoTitle.classList.toggle('blog__video-title--hidden')
+      this.$refs.videoPoster.classList.toggle('blog__video-poster--hidden')
     },
+    // playVideo(){
+    //   this.$refs.video.play();
+    //   this.$refs.videoWrapper.classList.add('blog__video-block-wrapper--no-shadow')
+    //   this.$refs.videoButton.classList.add('blog__video-play-button--hidden')
+    //   this.$refs.videoTitle.classList.add('blog__video-title--hidden')
+    //   this.$refs.videoPoster.classList.add('blog__video-poster--hidden')
+    // },
+    // pauseVideo(){
+    //   this.$refs.video.pause();
+    //   this.$refs.videoWrapper.classList.remove('blog__video-block-wrapper--no-shadow')
+    //   this.$refs.videoButton.classList.remove('blog__video-play-button--hidden')
+    //   this.$refs.videoTitle.classList.remove('blog__video-title--hidden')
+    //   this.$refs.videoPoster.classList.remove('blog__video-poster--hidden')
+    // },
     setSlidesPosition() {
       this.carouselArray[this.activeSlideIndex].classList.add('blog__carousel__item--active');
       Array.from(this.carouselArray).map(item => {
@@ -651,7 +667,13 @@ export default {
     setCarouselArrowsPosition() {
       let arrowWrapper = this.$refs.carousel.querySelector('.blog__carousel__navigation');
       let singleSlideHeight = this.$refs.carousel.querySelector('.blog__carousel__item-body').offsetHeight;
-      arrowWrapper.style.top = 'calc(' + singleSlideHeight + 'px / 2)';
+      if(singleSlideHeight != 0) {
+        arrowWrapper.style.top = 'calc(' + singleSlideHeight + 'px / 2)';
+      } else {
+        setTimeout( ()=> {
+          this.setCarouselArrowsPosition()
+        }, 150)
+      }
     },
     setTableColumnWidth() {
       Array.from(this.$refs.colGroup.children).map((item, index) => {

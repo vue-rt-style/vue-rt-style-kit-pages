@@ -9,8 +9,7 @@
 					<div class="app-row row">
 						<div class="rt-col-5 rt-col-md-3">
 <!--							<span class="rt-font-label flex-fill rt-space-bottom05">simple input</span>-->
-              <rt-input :version="2" placeholder="Это поле ввода. Дерзай!"
-                        @change="console('change')" @focus="console('focus')" @blur="console('blur')"/>
+              <rt-input :version="2" placeholder="Это поле ввода. Дерзай!"/>
               <div class="sp-t-0-3"/>
               <rt-input :version="2" placeholder="Это поле ввода с подсказкой" label="Текст подсказки" :error-message="errorMessage"/>
               <rt-input :version="2" :placeholder="errorText" :has-error="error"
@@ -28,7 +27,7 @@
                         :version="2"
                         type="text"
                         value=""
-                        placeholder="Поле с всплывающей подсказкой">
+                        placeholder="Поле с всплывающей подсказкой" @keydown="console('keydown')">
                 <template slot="informer">Здесь могла бы быть Ваша реклама, но мы будем использовать всплывающие
                   подсказки исключительно для сообщения важной информации.<br> Шутка!)) По вопросам сотрудничества
                   пиши в личку</template>
@@ -64,9 +63,7 @@
                         value="я - пароль, и сейчас ты меня видишь"
                         placeholder="Поле ввода пароля" input-type="password"/>
               <rt-input input-type="tel" label="Начните вводить номер, маску мы берём на себя" :version="2" error-message="Начните вводить номер, маску мы берём на себя"
-                        placeholder="Поля ввода номера телефона" :need-verification="true"
-                        @change="console('change')" @focus="console('focus')" @blur="console('blur')"
-                        :verified="checkThis" ref="phoneInput" :value="newInputModel"/>
+                        placeholder="Поля ввода номера телефона" ref="phoneInput" v-model="newInputModel" @clear="console" :need-verification="true" :verified="checkThis"/>
               <div class="sp-t-1"/>
             </div>
             <div class="rt-col-1 md-d-none"/>
@@ -277,8 +274,13 @@
     mounted() {
       this.documentation = documentation;
       // setTimeout(()=> {
-      //   this.error = false;
-      // },10000)
+      //   this.newInputModel = '+7 (123) 456 78 90';
+      // },1500)
+      setTimeout(() => {
+        if(this.$refs.phoneInput.$refs.component.$refs.input.localValue.length == 18) {
+          this.checkThis = !!Math.round(Math.random())
+        }
+      }, 5000)
     },
     created() {},
     methods: {
@@ -295,6 +297,7 @@
       console(e) {
         console.log('!!!', e)
       }
+      // TODO FIX KEYDOWN EMIT
     }
   };
 </script>

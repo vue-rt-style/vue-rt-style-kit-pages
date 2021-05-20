@@ -33,6 +33,8 @@
       @media(max-width tablet-upper-limit)
         margin 0 -20px
         padding-left 28px
+        .blog__page-wrapper &
+          padding-left 20px
     &-stretcher
       @media(max-width tablet-upper-limit)
         min-width 28px
@@ -151,15 +153,17 @@
         flex-grow 2
   &__link-button
     text-align center
-    padding 18px
+    //padding 18px
     font-size 14px
     line-height 16px
     border 1px solid main-color007-no-opacity
+    border-radius 0
   &__hint-carousel
     height 100%
     position relative
     &-wrapper
       position relative
+      min-height 100%
     &__item
       background-color b2c-gray
       position absolute
@@ -185,11 +189,18 @@
       transform translateX(-50%)
       bottom 36px
       z-index 2
+      border-radius 0
+      @media(max-width tablet-upper-limit)
+        bottom 40px
+      @media(max-width mobile-upper-limit)
+        bottom 32px
   &__add-article-button
     border 1px solid main-color007-no-opacity
     font-size 14px
     line-height 16px
-    cursor pointer
+    border-radius 0
+    .ripple
+      padding 0 42px
   &__manual
     &__item
       display block
@@ -287,7 +298,7 @@
           left 0
           right 0
           bottom 40px
-          background-color main-color02
+          background-color main-color005
           pointer-events none
           z-index 1
           @media(max-width mobile-upper-limit)
@@ -304,7 +315,7 @@
       height 48px
       pointer-events none
       transition opacity .2s linear
-      z-index 2
+      z-index 3
       &--hidden
         opacity 0
     &-title
@@ -313,21 +324,38 @@
       left 32px
       max-width calc(100% - 64px)
       transition opacity .2s linear
-      z-index 2
+      z-index 3
+      font-size 22px
+      line-height 28px
       @media(max-width tablet-upper-limit)
         bottom 64px
+        font-size 20px
+        line-height 24px
       @media(max-width mobile-upper-limit)
         position relative
         left auto
         bottom auto
         display block
         max-width none
+        font-size 14px
+        line-height 16px
       &--hidden
         opacity 0
         pointer-events none
         @media(max-width mobile-upper-limit)
           opacity 1
           background-color main-color02
+    &-poster
+      position absolute
+      top 0
+      left 0
+      right 0
+      bottom 0
+      object-fit cover
+      z-index 2
+      &--hidden
+        opacity 0
+        pointer-events none
   &__table
     margin-bottom 40px
     @media(max-width tablet-upper-limit)
@@ -388,6 +416,9 @@
     &-body
       position relative
       z-index 1
+    .rt-button
+      @media(max-width mobile-upper-limit)
+        min-width 100%
   &-footer
     &__top
       border-bottom 1px solid main-color01
@@ -396,6 +427,7 @@
       line-height 20px
     &-link
       transition color .2s linear
+      color main-color
       &:hover
         color b2c-red
   &-breadcrumbs,
@@ -435,6 +467,8 @@
     padding-top 0
     padding-left 20px
     margin-bottom 0
+    &:hover
+      color b2c-red
     @media(max-width mobile-upper-limit)
       padding-left 0
   .select-v2-option--select
@@ -456,8 +490,11 @@
   .select-v2-list-inner
     padding-top 10px
     padding-bottom 10px
-  .select-v2--is-open .select-v2__inner:after
-    transform translateY(-50%) rotate(-180deg)
+  .select-v2--is-open
+    .select-v2__inner:after
+      transform translateY(-50%) rotate(-180deg)
+    .select-v2-value
+      color b2c-red
 
 .rt-col-12
   &+&
@@ -611,23 +648,22 @@
   //padding-left horizontal-space * 4.75
   //padding-right horizontal-space * 4.75
   @media (max-width: tablet-upper-limit)
-    padding-left 0
-    padding-right 0
+    padding 0 10px
   //@media (max-width: desktop-lower-limit)
   //  padding-left horizontal-space * .5
   //  padding-right horizontal-space * .5
   //@media (max-width: mobile-upper-limit)
   //  padding-left horizontal-space * .5
   //  padding-right horizontal-space * .5
-  //@media(min-width laptop-lower-limit)
-  .row
-    margin 0 -20px
+  @media(min-width laptop-lower-limit)
+    .row
+      margin 0 -20px
 
-  .rt-col
-    padding-left 20px
-    padding-right 20px
-
-  for $num in (1..12)
-    .rt-col-{$num}
+    .rt-col
       padding-left 20px
       padding-right 20px
+
+    for $num in (1..12)
+      .rt-col-{$num}
+        padding-left 20px
+        padding-right 20px
