@@ -26,7 +26,8 @@ export default {
           <rt-col size="12">
             <p class="sp-b-2">Элементы вне rt-tabs-slider</p>
             <div>
-            <rt-tabs-slider-item label="Заголовок 1" tabs-slider-name="tabs-slider-1">
+            <rt-tabs-slider-item tabs-slider-name="tabs-slider-1">
+              <template slot="label">Заголовок 1</template>
               <template slot="content">
                 <p class="rt-font-h2">Заголовок блока</p>
                 <p class="sp-t-2 td-sp-t-1 md-sp-t-0-4">На краю дороги стоял дуб. Он был, вероятно, в десять раз старше берез, составлявших
@@ -40,7 +41,8 @@ export default {
                 <img src="https://m1.35photo.pro/photos_main/1005/5025612.jpg"/>
               </template>
             </rt-tabs-slider-item>
-          <rt-tabs-slider-item label="Заголовок пункта 2" tabs-slider-name="tabs-slider-1">
+          <rt-tabs-slider-item tabs-slider-name="tabs-slider-1">
+            <template slot="label">Заголовок пункта 2</template>
             <template slot="content">
               <p class="rt-font-h2">Заголовок блока 2</p>
               <p class="sp-t-2 td-sp-t-1 md-sp-t-0-4">На краю дороги стоял дуб. Он был, вероятно, в десять раз старше берез, составлявших лес,
@@ -57,7 +59,8 @@ export default {
               <img src="https://m1.35photo.pro/photos_main/1007/5039020.jpg"/>
             </template>
           </rt-tabs-slider-item>
-          <rt-tabs-slider-item label="Заголовок пункта 3" tabs-slider-name="tabs-slider-1">
+          <rt-tabs-slider-item tabs-slider-name="tabs-slider-1">
+            <template slot="label">Заголовок пункта 3</template>
             <template slot="content">
               <p class="rt-font-h2">Заголовок блока 3</p>
               <p class="sp-t-2 td-sp-t-1 md-sp-t-0-4">На краю дороги стоял дуб. Он был, вероятно, в десять раз старше берез, составлявших лес,
@@ -115,7 +118,8 @@ export default {
               <img src="https://m1.35photo.pro/photos_main/1005/5026518.jpg"/>
             </template>
           </rt-tabs-slider-item>
-          <rt-tabs-slider-item label="Заголовок пункта 4" tabs-slider-name="tabs-slider-1">
+          <rt-tabs-slider-item tabs-slider-name="tabs-slider-1">
+            <template slot="label">Заголовок пункта 4</template>
             <template slot="content">
               <p class="rt-font-h2">Заголовок блока 4</p>
               <div class="d-flex sp-t-1-3">
@@ -190,7 +194,8 @@ export default {
               <img src="https://m1.35photo.pro/photos_main/1000/5004154.jpg"/>
             </template>
           </rt-tabs-slider-item>
-          <rt-tabs-slider-item label="Заголовок пункта 5" tabs-slider-name="tabs-slider-1">
+          <rt-tabs-slider-item tabs-slider-name="tabs-slider-1">
+            <template slot="label">Заголовок пункта 5</template>
             <template slot="content">
               <p class="rt-font-h2">Заголовок блока 5</p>
               <p class="sp-t-2">На краю дороги стоял дуб. Он был, вероятно, в десять раз старше берез,
@@ -200,7 +205,8 @@ export default {
               <img src="https://m1.35photo.pro/photos_main/999/4999134.jpg"/>
             </template>
           </rt-tabs-slider-item>
-          <rt-tabs-slider-item label="Заголовок пункта 01" sort="0" tabs-slider-name="tabs-slider-1">
+          <rt-tabs-slider-item sort="0" tabs-slider-name="tabs-slider-1">
+            <template slot="label">Заголовок пункта 01</template>
             <template slot="content">
               <p class="rt-font-h2">Заголовок блока 6</p>
               <p class="sp-t-2">На краю дороги стоял дуб. Он был, вероятно, в десять раз старше берез,
@@ -394,7 +400,7 @@ export default {
               <img src="https://m1.35photo.pro/photos_main/999/4999134.jpg"/>
             </template>
           </rt-tabs-slider-item>
-          <rt-tabs-slider-item label="Заголовок пункта 6" tabs-slider-name="tabs-slider-1">
+          <rt-tabs-slider-item label="Заголовок пункта 6" tabs-slider-name="tabs-slider-2">
             <template slot="content">
               <p class="rt-font-h2">Заголовок блока 6</p>
               <p class="sp-t-2">На краю дороги стоял дуб. Он был, вероятно, в десять раз старше берез,

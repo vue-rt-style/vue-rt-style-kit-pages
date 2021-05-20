@@ -16,7 +16,7 @@
         </div>
         <div class="app-row row">
           <div class="rt-col-4">
-            <rt-select-v2 :json="optionsList" name="test99" label="Просто выпадающий список"
+            <rt-select-v2  :json="optionsList" name="test99" label="Просто выпадающий список"
                           @change="console('change')" @focus="console('focus')" @blur="console('blur')"/>
           </div>
           <div class="rt-col-4">
@@ -43,14 +43,20 @@
                            name="test3" label="Выпадающий список с множественным выбором"/>
           </div>
           <div class="rt-col-4">
-            <rt-select-v2 :auto-complete="true"
+            <input type="text" v-model="test">
+
+
+            <rt-select-v2 :auto-complete="true" v-model="test"
                           name="test2"
+                          default-value="Рос"
                           label="Выпадающий список с фильтрацией по вводу"
-                          :json="optionsListFiltered" @input="filterOnInput"
-                          @change="console('outer change')" @focus="console('outer focus')" @blur="console('outer blur')"/>
+                          :json="optionsListFiltered" @change="filterOnInput"
+                           @focus="console('outer focus')" @blur="console('outer blur')"/>
           </div>
           <div class="rt-col-12 sp-t-2"/>
+
           <div class="rt-col-4">
+
             <rt-select-v2 name="test1" label="Выпадающий список с ошибкой" :has-error="setError" error-message="Текст с сообщением об ошибке">
               <rt-select-v2-option select-name="test1" value="50">150 минут</rt-select-v2-option>
               <rt-select-v2-option select-name="test1" value="150">500 минут</rt-select-v2-option>
@@ -273,6 +279,7 @@
     name: "AppSelect",
     components: componentsList,
     data: () => ({
+      test:'3',
       documentation: {},
       inputModelValue: "test",
       optionsList: [
@@ -365,6 +372,7 @@
     }),
     mounted() {
       this.documentation = documentation;
+      this.filterOnInput();
       // setTimeout(() => {
       //   this.setError = true
       // }, 2000)
@@ -375,7 +383,14 @@
         console.info('-->>',val)
       },
       filterOnInput(inputVal) {
-        this.optionsListFiltered = this.optionsList.filter(item => item.label.toLowerCase().includes(inputVal.toLowerCase()));
+        console.info('inputVal',inputVal)
+        if(inputVal && inputVal.length > 0) {
+          this.optionsListFiltered = this.optionsList.filter(item => item.label.toLowerCase().includes(inputVal.toLowerCase()));
+        }else{
+          this.optionsListFiltered = this.optionsList;
+        }
+        console.info('this.optionsListFiltered',this.optionsListFiltered);
+
       },
       console(e) {
         console.log(e)

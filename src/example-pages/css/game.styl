@@ -1,450 +1,167 @@
-.big-number
-  font-size 72px
-  @media(max-width: 1024px)
-    font-size 60px
-    line-height: 60px
-  @media(max-width: 767px)
-    font-size 48px
-    line-height: 48px;
-    width: 34px
-//this 1
-.tabs-slider-reverse
-  text-align center
-  .tab-slider__img
-    padding-left: 0
-    border-radius 16px
-    overflow: hidden;
-
-
-
-    @media(min-width: 1025px)
-      margin-right: 20px
-    img
-      width: 100%
-  .tab-slider__body
-    text-align left
-  .tab-slider__item
-
-    &>.row .rt-col-6+.rt-col-6
-      padding-left: 20px
-      @media(min-width: 1025px)
-        flex: 0 0 41.6667%;
-        max-width: 41.6667%;
-        padding-right: 30px
-      @media(max-width: 767px)
-        padding-right: 20px
-
-  .tab-slider__header-item
-    margin-bottom: 0
-    border-radius 0
-    position: relative;
-    z-index 2
-    background-color: rgba(16,24,40,0.05)
-    margin-left: 0
-    margin-right: 0
-    height: 48px
-    &:before
-      content ''
-      position absolute
-      left: 2px
-      right: 2px
-      top: 2px
-      bottom: 2px
-      border-radius 24px
-    &:first-child
-      border-radius 24px 0 0 24px
-    &:last-child
-      border-radius 0 24px 24px 0
-  .tab-slider__header-text
-    position relative
-    z-index 2
-  .tab-slider__header-item--active
-    color rgba(16,24,40,1)
-    &:before
-      background-color: white;
-      box-shadow: 0px 0px 1px rgba(28, 41, 61, 0.2), 0px 2px 4px rgba(28, 41, 61, 0.12);
-  .tab-slider__header
-    display: inline-flex
-    padding 2px
-    flex-wrap nowrap
-    padding-bottom: 10px
-    position relative
-    width: 100%;
-    right: 0;
-    justify-content center
-    left: 0
-    max-width: calc(100vw - 0px);
-    @media(max-width: 1200px)
-      justify-content flex-start
-    @media(max-width: 1024px)
-      justify-content flex-start
-      display flex
-    @media(max-width: 767px)
-      margin-left: -10px
-      margin-right: -10px
-      width:calc(100% + 20px)
-  .tab-slider__timer
-    display: none!important
-  .row.row-td-reverse
-    flex-direction: row-reverse
-//this 1-end
-.font-video
-  font-size 24px
-  line-height 36px
-  @media(max-width: 1024px)
-    font-size 20px
-    line-height 32px
-  @media(max-width: 767px)
-    font-size 18px
-    line-height 28px
-.font-video2
-  font-size 24px
-  line-height 36px
-  @media(max-width: 1024px)
-    font-size 20px
-    line-height 32px
-  @media(max-width: 767px)
-    font-size 16px
-    line-height 24px
-.prize-card-1
-  overflow hidden
-  .rt-img
-    width: 130px
-.prize-card-2
-  overflow hidden
-  .rt-img
-    width: 207px
-.prize-img
-  .rt-img
-    width: 479px
-    @media(max-width: 1024px)
-      width: 50vw
-  position: absolute
-  bottom: 0
-  right: 0
-.sos-img
-  position: absolute
-  margin-right getCalc(1900,100, 768, 60)
-  right: 0
-  bottom: 0
-  .rt-img
-    width: 309px
-  @media(max-width: 767px)
-
-    .rt-img
-      width: 216px
-    margin-left auto
-    margin-right auto
-    position relative
-
-.video-pattern
-  position: absolute;
-  top: 0
-  left: 0
-  width: 91%
-  .rt-img
-    width: 100%
-@media(max-width: 767px)
-  .md-color-block-white
-      background-color: #fff
-  .md-color-block--main-color005
-    background-color: main-color005
-  .md-round-border
-    border-radius 8px
-  .md-ovh
-    overflow: hidden;
-.video-mobile
+.scroll-slider-body
   position: relative;
-  left: 0
-  right: 0
-  margin-left auto
-  margin-right auto
-  width (181/524*100)%
-  z-index: 2
-  .rt-img
-    width: 100%
 
-.video-device
+.scroll-slider
+  background-color: #fff
+  position: relative;
+  border-bottom 1px solid
+
+.scroll-slider-item
   width: 100%
-  max-width 484px
-  .rt-img
-    width: 100%
-
-.tabs-slider-new
-  .tab-slider__body
-    text-align left
-
-  .tab-slider__header-item
-    margin-bottom: 0
-    border-radius 0
-    position: relative;
-    z-index 2
-    background-color: rgba(16,24,40,0.05)
-    margin-left: 0
-    margin-right: 0
-    height: 48px
-    &:before
-      content ''
-      position absolute
-      left: 2px
-      right: 2px
-      top: 2px
-      bottom: 2px
-      border-radius 24px
-    &:first-child
-      border-radius 24px 0 0 24px
-    &:last-child
-      border-radius 0 24px 24px 0
-  .tab-slider__header-text
-    position relative
-    z-index 2
-  .tab-slider__header-item--active
-    color rgba(16,24,40,1)
-    &:before
-      background-color: white;
-      box-shadow: 0px 0px 1px rgba(28, 41, 61, 0.2), 0px 2px 4px rgba(28, 41, 61, 0.12);
-  .tab-slider__header
-    display: inline-flex
-    padding 2px
-    flex-wrap nowrap
-    padding-bottom: 10px
-    position relative
-    width: 100%;
-    right: 0;
-    left: 0
-    max-width: calc(100vw - 0px);
-    @media(max-width: 1024px)
-      display flex
-    @media(max-width: 767px)
-      margin-left: -10px
-      margin-right: -10px
-      width:calc(100% + 20px)
-  .tab-slider__timer
-    display: none!important
-
-.video-slider
-  .carousel-card--previous
-    transform: translateX(-15%) scale(0.9);
-    opacity: 1
-    z-index 2
-    @media (max-width 1024px)
-      transform: translateX(-7.1%) scale(0.9);
-    @media (max-width 767px)
-      transform: translateX(-7%) scale(0.9);
-  .carousel-card--next
-    transform: translateX(15%) scale(0.9);
-    opacity: 1
-    z-index 2
-    @media (max-width 1024px)
-      transform: translateX(7.1%) scale(0.9);
-    @media (max-width 767px)
-      transform: translateX(7%) scale(0.9);
-  .carousel-card--previous-via-one
-    transform: translateX(-28%) scale(0.8);
-    opacity: 1
-    z-index 1
-    @media (max-width 1024px)
-      transform: translateX(-14%) scale(0.8);
-    @media (max-width 767px)
-      transform: translateX(-13%) scale(0.8);
-  .rt-card__content
-    padding: 0
-    height: 100%
-
-  .carousel-card--next-via-one
-    transform: translateX(28%) scale(0.8);
-    opacity: 1
-    z-index 1
-    @media (max-width 1024px)
-      transform: translateX(14%) scale(0.8);
-    @media (max-width 767px)
-      transform: translateX(13%) scale(0.8);
-
+  top: 0
+  min-height 620px
+  height: 100vh
+  position: relative
+  //opacity 0
   @media (min-width 1025px)
-    .custom-carousel__left
-      left: getCalc(1777,277, 1366, 105)
-    .custom-carousel__right
-      right: getCalc(1777,277, 1366, 105)
-  @media (min-width 1600px)
-    .custom-carousel__left
-      left: calc((100vw - 1196px)/2)
-    .custom-carousel__right
-      right: calc((100vw - 1196px)/2)
-
-
-  .custom-carousel
-    padding-top: 0
-    padding-bottom: 0
-    height: 384px
-    padding-left: 0
-    padding-right:0
-    margin-left:auto
-    margin-right auto
-    width: getCalc(1710,710, 1455, 637)
-    @media (max-width 1450px)
-      width: getCalc(1400,642.5, 1135, 538)
-    @media (max-width 1024px)
-      width: getCalc(964,589, 768, 478)
-    @media (max-width 767px)
-      max-width: 100%
-      width:auto
-
-    @media (max-width 1024px)
-      height: 384px
-      //padding-left: getCalc(768,135, 960, 174)
-    @media (max-width 767px)
-      height: 344px
-      padding-left: 24px;
-      padding-right: 12px;
-  .rt-card__body
-    padding-left: 0
-    padding-right: 0
-  .carousel-card
-
-    height: 384px
-    padding: 0!important
-    max-width 710px
-    .rt-card__background
-      background-color: #e7e7e9
-
-    width: getCalc(1710,710, 1455, 637)
-    @media (max-width 1450px)
-      width: getCalc(1400,642.5, 1135, 538)
-
-
-
-    @media (max-width 1024px)
-      width: getCalc(964,589, 768, 478)
-      height: 360px
-    @media (max-width 767px)
-      height: 324px
-      width: 100%
-      max-width: calc(100% - 44px)
-      position: absolute;
-    &:before
-      content ''
-      position: absolute
-      top: 0
-      left: 0
-      bottom: 0
-      right: 0
-      opacity: 1
-      background-color: main-color01-no-opacity
-      z-index 5
-      transition-timing-function ease-in-out
-      transition-duration 0.2s
-      transition-property  opacity
-  .carousel-card+.carousel-card
-    margin-left: 0!important
-
-
-  .carousel-card--active
-    z-index 10
-    .rt-card__background
-      background-color: #273a64
-    &:before
+    height: 150vh
+  .rt-button
+    @media (min-width 1025px)
       opacity: 0
-      pointer-events none
-  .carousel-card--previous-via-one,
-  .carousel-card--next-via-one
-    &:before
-      background-color: main-color005-no-opacity
-.carousel-card--to-right-bottom
-  position: absolute;
-  bottom: 0
-  right: 0
-.video-slider-index
-  position: absolute;
-  right: 40px
-  top: 40px
+      transition-duration .4s
+      transition-property opacity, transform
+      background-repeat: no-repeat;
+      transform translateY(20px)
+      transition-delay 0.2s
+  @media (max-width 1024px)
+    position relative
+    height auto
+    min-height auto
+  .rt-col
+    @media (min-width 1023px)
+      opacity: 0
+      transition-property opacity
+      transition-duration .3s
+      position: sticky
+      top: 50%;
+      transform: translateY(-50%);
 
+  //.rt-container
+  //  background-color: #fff
 
-  .video-slider .carousel-card--previous {
-    -webkit-transform: translateX(-15%) scale(0.9);
-    -moz-transform: translateX(-15%) scale(0.9);
-    -o-transform: translateX(-15%) scale(0.9);
-    -ms-transform: translateX(-15%) scale(0.9);
-    transform: translateX(-15%) scale(0.9);
-    opacity: 1;
-    z-index: 2;
-  }
+  .rt-img
+    max-width 100%
+    max-height 100%
+    object-fit cover
 
-  @media (max-width: 1024px) {
-    .video-slider .carousel-card--previous {
-      -webkit-transform: translateX(-11%) scale(0.9);
-      -moz-transform: translateX(-11%) scale(0.9);
-      -o-transform: translateX(-11%) scale(0.9);
-      -ms-transform: translateX(-11%) scale(0.9);
-      transform: translateX(-11%) scale(0.9);
-    }
-  }
+.scroll-slider-title
+  @media (min-width 1023px)
+    opacity 0
+    transition-duration .4s
+    transition-property opacity, transform
+    background-repeat: no-repeat;
+    transform translateY(20px)
+.scroll-slider-content
+  @media (min-width 1023px)
+    opacity 0
+    transition-duration .4s
+    transition-property opacity, transform
+    background-repeat: no-repeat;
+    transform translateY(20px)
+    transition-delay 0.1s
+.scroll-slider-item-active
+  @media (min-width 1023px)
+    .rt-col
+      opacity: 1
+    .scroll-slider-title,
+    .scroll-slider-content,
+    .rt-button
+      opacity 1
+      transform translateY(0px)
 
-  @media (max-width: 767px) {
-    .video-slider .carousel-card--previous {
-      -webkit-transform: translateX(-7%) scale(0.9);
-      -moz-transform: translateX(-7%) scale(0.9);
-      -o-transform: translateX(-7%) scale(0.9);
-      -ms-transform: translateX(-7%) scale(0.9);
-      transform: translateX(-7%) scale(0.9);
-    }
-  }
+.td-d-block
+  @media (max-width 1024px)
+    dominant-baseline
+.scroll-slider-image
+  display: none
+  @media (min-width 1023px)
+    display: block
+    position sticky
+    top: 0
+    max-width 100%
+    min-height: 620px;
+    height: 100vh;
+    background-size: contain;
+    background-position: right center;
+    transition-timing-function ease-in-out
+    transition-duration .3s
+    transition-property background
+    background-repeat: no-repeat;
+  
+    img
+      max-width 100%
+      object-fit cover
+.scroll-slider-pseudo
+  display: none
+  @media (max-width 1024px)
+    position: absolute;
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    z-index: 2
+.scroll-slider-pseudo-line
+  display: none
+  @media (max-width 1024px)
+    margin-left: -10px
+    margin-right: -10px
+    display: block
+    position: -webkit-sticky;
+    position: sticky
+    bottom: 0px
+    width: calc(100%+20px)
+    padding-top: 12px
+    padding-bottom: 12px
+    background-color: #fff
+    box-shadow: 0px 0px 5px rgba(16, 24, 40, 0.2);
+    background-position: right center;
+    transition-timing-function ease-in-out
+    transition-duration .3s
+    transition-property box-shadow
+.scroll-slider-pseudo-line-stop
+  box-shadow: 0px 0px 5px rgba(16, 24, 40, 0);
+.tree-block
+  @media (min-width 1280px)
+    min-width: 710px!important
+    max-width: 710px!important
+.tree-block-neighbor
+  @media (min-width 1280px)
+    padding-left: 40px
+  @media (max-width 1279px)
+    min-width: 100%
+    padding-left: 20px
+.tree-block-item+.tree-block-item
+  position: relative;
+  &:before
+    content ''
+    position: absolute;
+    background-color:  rgba(16, 24, 40, 0.1);
+    @media (min-width 768px)
+      left: 0
+      width: 1px
+      height: 100%
+      top: 0
+      bottom: 0
+    @media (max-width 767px)
+      left: 0
+      right: 0
+      width: 100%
+      height: 1px
+      top: 0
 
-  .video-slider .carousel-card--next {
-    -webkit-transform: translateX(15%) scale(0.9);
-    -moz-transform: translateX(15%) scale(0.9);
-    -o-transform: translateX(15%) scale(0.9);
-    -ms-transform: translateX(15%) scale(0.9);
-    transform: translateX(15%) scale(0.9);
-    opacity: 1;
-    z-index: 2;
-  }
-
-  @media (max-width: 1024px) {
-    .video-slider .carousel-card--next {
-      -webkit-transform: translateX(11%) scale(0.9);
-      -moz-transform: translateX(11%) scale(0.9);
-      -o-transform: translateX(11%) scale(0.9);
-      -ms-transform: translateX(11%) scale(0.9);
-      transform: translateX(11%) scale(0.9);
-    }
-  }
-
-  @media (max-width: 767px) {
-    .video-slider .carousel-card--next {
-      -webkit-transform: translateX(7%) scale(0.9);
-      -moz-transform: translateX(7%) scale(0.9);
-      -o-transform: translateX(7%) scale(0.9);
-      -ms-transform: translateX(7%) scale(0.9);
-      transform: translateX(7%) scale(0.9);
-    }
-  }
-
-  .video-slider .carousel-card--previous-via-one {
-    -webkit-transform: translateX(-28%) scale(0.8);
-    -moz-transform: translateX(-28%) scale(0.8);
-    -o-transform: translateX(-28%) scale(0.8);
-    -ms-transform: translateX(-28%) scale(0.8);
-    transform: translateX(-28%) scale(0.8);
-    opacity: 1;
-    z-index: 1;
-  }
-
-  @media (max-width: 1024px) {
-    .video-slider .carousel-card--previous-via-one {
-      -webkit-transform: translateX(-21%) scale(0.8);
-      -moz-transform: translateX(-21%) scale(0.8);
-      -o-transform: translateX(-21%) scale(0.8);
-      -ms-transform: translateX(-21%) scale(0.8);
-      transform: translateX(-21%) scale(0.8);
-    }
-  }
-
-  @media (max-width: 767px) {
-    .video-slider .carousel-card--previous-via-one {
-      -webkit-transform: translateX(-13%) scale(0.8);
-      -moz-transform: translateX(-13%) scale(0.8);
-      -o-transform: translateX(-13%) scale(0.8);
-      -ms-transform: translateX(-13%) scale(0.8);
-      transform: translateX(-13%) scale(0.8);
-    }
-  }
+.old-val
+  color rgba(134, 139, 149, 1)
+  position: relative;
+  &:before
+    content ''
+    width: calc(100% - 1ex)
+    position: absolute;
+    height: 1px
+    background-color: rgba(134, 139, 149, 1)
+    top: 0
+    bottom: 0
+    margin-top auto
+    margin-bottom: auto
+.tree-block-wrapper
+  @media (min-width 1280px)
+    flex-wrap nowrap
