@@ -35,7 +35,7 @@
       <div class="sp-b-5"></div>
       <div class="sp-b-5"></div>
       <div class="sp-b-5"></div>
-      <pre-code text='<rt-video-banner preload-image="https://www.apple.com/v/airpods-max/c/images/overview/design_mesh__cleb6oo85bo2_xlarge.jpg" mobile-image="https://www.apple.com/ru/iphone-12/images/overview/accessories/magsafe__emhukwz2mhiu_large_2x.jpg" src="https://www.apple.com/105/media/ww/iphone-12/2020/7f5b7de7-9f8c-41eb-bf3b-f294773108e6/anim/hero-purple/non-5g/large_2x.mp4">
+      <pre-code text='<rt-video-banner preload-image="https://www.apple.com/v/airpods-max/c/images/overview/design_mesh__cleb6oo85bo2_xlarge.jpg" mobile-image="https://www.apple.com/ru/iphone-12/images/overview/accessories/magsafe__emhukwz2mhiu_large_2x.jpg" src="">
         <template slot="content">
           <div class="md-color-block--dark-slate md-sp-t-1-2 md-sp-b-2 flex-fill">
             <div class="rt-container">

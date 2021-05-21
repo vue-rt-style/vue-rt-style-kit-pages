@@ -2,9 +2,7 @@
   position: relative;
 
 .scroll-slider
-  background-color: #fff
   position: relative;
-  border-bottom 1px solid
 
 .scroll-slider-item
   width: 100%
@@ -18,11 +16,11 @@
   .rt-button
     @media (min-width 1025px)
       opacity: 0
-      transition-duration .4s
+      transition-duration .5s
       transition-property opacity, transform
       background-repeat: no-repeat;
       transform translateY(20px)
-      transition-delay 0.2s
+      transition-delay 0.8s
   @media (max-width 1024px)
     position relative
     height auto
@@ -53,12 +51,19 @@
     transform translateY(20px)
 .scroll-slider-content
   @media (min-width 1023px)
-    opacity 0
-    transition-duration .4s
-    transition-property opacity, transform
-    background-repeat: no-repeat;
-    transform translateY(20px)
-    transition-delay 0.1s
+    &>div
+      opacity 0
+      transition-duration .4s
+      transition-property opacity, transform
+      background-repeat: no-repeat;
+      transform translateY(20px)
+      transition-delay 0.4s
+      transition-duration .5s
+    &>div:first-child
+      transition-delay 0.3s
+    &>div:last-child
+      transition-delay 0.5s
+      transition-duration .6s
 .scroll-slider-item-active
   @media (min-width 1023px)
     .rt-col
@@ -68,6 +73,9 @@
     .rt-button
       opacity 1
       transform translateY(0px)
+      &>*
+        opacity 1
+        transform translateY(0px)
 
 .td-d-block
   @media (max-width 1024px)
@@ -75,22 +83,27 @@
 .scroll-slider-image
   display: none
   @media (min-width 1023px)
+    margin-top: 100px
     display: block
     position sticky
     top: 0
     max-width 100%
     min-height: 620px;
     height: 100vh;
+    opacity 0
     background-size: contain;
     background-position: right center;
     transition-timing-function ease-in-out
-    transition-duration .3s
-    transition-property background
+    transition-duration .5s
+    transition-property background, margin, opacity
     background-repeat: no-repeat;
   
     img
       max-width 100%
       object-fit cover
+.scroll-slider-image-active
+  margin-top: 0
+  opacity 1
 .scroll-slider-pseudo
   display: none
   @media (max-width 1024px)
@@ -103,6 +116,7 @@
 .scroll-slider-pseudo-line
   display: none
   @media (max-width 1024px)
+    opacity 0
     margin-left: -10px
     margin-right: -10px
     display: block
@@ -117,7 +131,9 @@
     background-position: right center;
     transition-timing-function ease-in-out
     transition-duration .3s
-    transition-property box-shadow
+    transition-property box-shadow, opacity
+.scroll-slider-pseudo-line-active
+  opacity: 1
 .scroll-slider-pseudo-line-stop
   box-shadow: 0px 0px 5px rgba(16, 24, 40, 0);
 .tree-block
@@ -152,6 +168,9 @@
 .old-val
   color rgba(134, 139, 149, 1)
   position: relative;
+  font-size 18px
+  @media (max-width 767px)
+    font-size 16px
   &:before
     content ''
     width: calc(100% - 1ex)
