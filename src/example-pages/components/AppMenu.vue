@@ -54,7 +54,7 @@
         this.searchValue = this.$refs.input.$refs.input.value;
       },
       checkKeydown(e){
-        if(e.keyCode === 27){
+        if(e?.keyCode === 27){
           this.$refs.input.$refs.input.value = '';
           this.$refs.input.$refs.input.dispatchEvent(new Event('input'));
         }

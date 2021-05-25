@@ -205,66 +205,74 @@
           </div>
         </div>
       </rt-resize-content-height>
-      <rt-carousel-v2 carousel-name="1" :scrollable-on-desktop="true">
+      <rt-carousel-v2 carousel-name="1" :scrollable-on-desktop="true" :content-to-resize="['.rt-card__body']">
         <rt-carousel-slide-v2 parent-carousel-name="1">
-          <rt-card-rounded :preview-card="true" href="#">
-            <template slot="image">
-              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
+          <rt-card :is-white-color="true" background-color-type="green" :ga="{value:'Новости'}">
+            <template slot="content">
+              <div class="rt-space-top2 rt-space-bottom">
+                <img src="//static-cdn.rt.ru/sites/default/files/img/icon/news-icon.svg"
+                     width="80px"/>
+              </div>
+              <p class="rt-font-paragraph rt-font-bold">Новости</p>
+              <p class="rt-font-paragraph rt-space-top05 rt-space-bottom05">Анонсы акций,
+                изменения в&nbsp;тарифах
+                и&nbsp;новости Ростелеком</p>
             </template>
-            <template slot="image-x2">
-              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
+            <template slot="footer">
+              <rt-button class="rt-button-white rt-button-small rt-space-horizontal">Все
+                новости
+              </rt-button>
             </template>
-            <template slot="image-tablet">
-              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
-            </template>
-            <template slot="label">Для автомобильного бизнеса</template>
-            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
-              вывесками, увеличивайте продажи дополнительных услуг на 30%
-            </template>
-          </rt-card-rounded>
+          </rt-card>
         </rt-carousel-slide-v2>
         <rt-carousel-slide-v2 parent-carousel-name="1">
-          <rt-card-rounded :preview-card="true">
-            <template slot="image">
-              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
+          <rt-card :is-white-color="true" background-color-type="green" :ga="{value:'Новости'}">
+            <template slot="content">
+              <div class="rt-space-top2 rt-space-bottom">
+                <img src="//static-cdn.rt.ru/sites/default/files/img/icon/news-icon.svg"
+                     width="80px"/>
+              </div>
+              <p class="rt-font-paragraph rt-font-bold">Новости</p>
+              <p class="rt-font-paragraph rt-space-top05 rt-space-bottom05">Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы  Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы Анонсы АнонсыАнонсы АнонсыАнонсы АнонсыАнонсы АнонсыАнонсы АнонсыАнонсы Анонсы Анонсы Анонсы</p>
             </template>
-            <template slot="label">Для</template>
-            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
-              вывесками, увеличивайте продажи дополнительных услуг на 30%
+            <template slot="footer">
+              <rt-button class="rt-button-white rt-button-small rt-space-horizontal">Все
+                новости
+              </rt-button>
             </template>
-          </rt-card-rounded>
+          </rt-card>
         </rt-carousel-slide-v2>
-        <rt-carousel-slide-v2 parent-carousel-name="1">
-          <rt-card-rounded :preview-card="true">
-            <template slot="image">
-              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
-            </template>
-            <template slot="label">Для автомобильного бизнеса</template>
-            <template slot="content-large-space">Привлекайте на 70%</template>
-          </rt-card-rounded>
-        </rt-carousel-slide-v2>
-        <rt-carousel-slide-v2 parent-carousel-name="1">
-          <rt-card-rounded :preview-card="true">
-            <template slot="image">
-              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
-            </template>
-            <template slot="label">Для автомобильного бизнеса</template>
-            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
-              вывесками, увеличивайте продажи дополнительных услуг на 30%
-            </template>
-          </rt-card-rounded>
-        </rt-carousel-slide-v2>
-        <rt-carousel-slide-v2 parent-carousel-name="1">
-          <rt-card-rounded :preview-card="true">
-            <template slot="image">
-              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>
-            </template>
-            <template slot="label">Для автомобильного бизнеса</template>
-            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными
-              вывесками, увеличивайте продажи дополнительных услуг на 30%
-            </template>
-          </rt-card-rounded>
-        </rt-carousel-slide-v2>
+<!--        <rt-carousel-slide-v2 parent-carousel-name="1">-->
+<!--          <rt-card :preview-card="true">-->
+<!--            <template slot="image">-->
+<!--              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>-->
+<!--            </template>-->
+<!--            <template slot="label">Для автомобильного бизнеса</template>-->
+<!--            <template slot="content-large-space">Привлекайте на 70%</template>-->
+<!--          </rt-card>-->
+<!--        </rt-carousel-slide-v2>-->
+<!--        <rt-carousel-slide-v2 parent-carousel-name="1">-->
+<!--          <rt-card :preview-card="true">-->
+<!--            <template slot="image">-->
+<!--              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>-->
+<!--            </template>-->
+<!--            <template slot="label">Для автомобильного бизнеса</template>-->
+<!--            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными-->
+<!--              вывесками, увеличивайте продажи дополнительных услуг на 30%-->
+<!--            </template>-->
+<!--          </rt-card>-->
+<!--        </rt-carousel-slide-v2>-->
+<!--        <rt-carousel-slide-v2 parent-carousel-name="1">-->
+<!--          <rt-card :preview-card="true">-->
+<!--            <template slot="image">-->
+<!--              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>-->
+<!--            </template>-->
+<!--            <template slot="label">Для автомобильного бизнеса</template>-->
+<!--            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными-->
+<!--              вывесками, увеличивайте продажи дополнительных услуг на 30%-->
+<!--            </template>-->
+<!--          </rt-card>-->
+<!--        </rt-carousel-slide-v2>-->
       </rt-carousel-v2>
       <div class="sp-t-2"/>
       <rt-carousel-v2 :scrollable-on-desktop="false" carousel-name="2">

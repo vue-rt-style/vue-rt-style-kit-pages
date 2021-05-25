@@ -117,34 +117,52 @@
                     внимание - то самое, чего они хотели избежать. Но для такого опытного путешественника, как я, переход
                     - пустяк.</p>
                   <div class="blog__carousel sp-b-2 td-sp-b-1-3 md-sp-b-1-1" ref="carousel">
-                    <div class="carousel-slides-wrapper" ref="carouselWrapper">
-                      <div class="blog__carousel__item blog__carousel__item--active">
-                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__carousel__item-body"/>
+                    <div class="carousel-slides-wrapper" ref="slidesWrapper" @scroll="checkScrollEnd">
+                      <div class="blog__carousel__slide" data-index="0">
+                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__carousel__slide-body"/>
+                      </div>
+                      <div class="blog__carousel__slide" data-index="1">
+                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-1.jpg" class="blog__carousel__slide-body"/>
+                      </div>
+                      <div class="blog__carousel__slide" data-index="2">
+                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-1.png" class="blog__carousel__slide-body"/>
+                      </div>
+                      <div class="blog__carousel__slide" data-index="3">
+                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4.png" class="blog__carousel__slide-body"/>
+                      </div>
+                      <div class="blog__carousel__slide" data-index="4">
+                        <img src="https://spb.rt.ru/sites/default/files/b2b/img.jpg" class="blog__carousel__slide-body"/>
+                      </div>
+                      <div class="blog__carousel__slide" data-index="5">
+                        <img src="https://spb.rt.ru/sites/default/files/b2b/internet1.jpg" class="blog__carousel__slide-body"/>
+                      </div>
+                    </div>
+                    <div class="carousel-texts-wrapper" ref="textsWrapper">
+                      <div class="blog__carousel__text">
                         <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
                           <div class="d-flex d-space-between sp-b-1 td-sp-b-0-4 md-sp-b-0-3">
                             <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
                             <span class="rt-font-small-paragraph color-main03">1/6</span>
                           </div>
                           <p class="rt-font-paragraph rt-font-bold sp-b-0-2">Заголовок</p>
-                          <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
-                            каком-нибудь укромном месте, в уединении.</p>
+                          <p class="rt-font-small-paragraph">И неизбежно подобное поведение только привлекает к ним
+                            внимание - то самое, чего они хотели избежать. Но для такого опытного путешественника,
+                            как я, переход - пустяк.</p>
                         </div>
                       </div>
-                      <div class="blog__carousel__item">
-                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__carousel__item-body"/>
+                      <div class="blog__carousel__text">
                         <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
                           <div class="d-flex d-space-between sp-b-1 td-sp-b-0-4 md-sp-b-0-3">
                             <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
                             <span class="rt-font-small-paragraph color-main03">2/6</span>
                           </div>
-                          <p class="rt-font-paragraph rt-font-bold sp-b-0-2">Заголовок</p>
+                          <p class="rt-font-paragraph rt-font-bold sp-b-0-2">Заголовок Заголовок</p>
                           <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
                             каком-нибудь укромном месте, в уединении. Неопытные путешественники стараются
                             материализоваться в каком-нибудь укромном месте, в уединении.</p>
                         </div>
                       </div>
-                      <div class="blog__carousel__item">
-                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__carousel__item-body"/>
+                      <div class="blog__carousel__text">
                         <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
                           <div class="d-flex d-space-between sp-b-1 td-sp-b-0-4 md-sp-b-0-3">
                             <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
@@ -155,8 +173,7 @@
                             каком-нибудь укромном месте, в уединении.</p>
                         </div>
                       </div>
-                      <div class="blog__carousel__item">
-                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__carousel__item-body"/>
+                      <div class="blog__carousel__text">
                         <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
                           <div class="d-flex d-space-between sp-b-1 td-sp-b-0-4 md-sp-b-0-3">
                             <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
@@ -164,11 +181,11 @@
                           </div>
                           <p class="rt-font-paragraph rt-font-bold sp-b-0-2">Заголовок</p>
                           <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
+                            каком-нибудь укромном месте, в уединении. Неопытные путешественники стараются материализоваться в
                             каком-нибудь укромном месте, в уединении.</p>
                         </div>
                       </div>
-                      <div class="blog__carousel__item">
-                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__carousel__item-body"/>
+                      <div class="blog__carousel__text">
                         <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
                           <div class="d-flex d-space-between sp-b-1 td-sp-b-0-4 md-sp-b-0-3">
                             <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
@@ -179,8 +196,7 @@
                             каком-нибудь укромном месте, в уединении.</p>
                         </div>
                       </div>
-                      <div class="blog__carousel__item">
-                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__carousel__item-body"/>
+                      <div class="blog__carousel__text">
                         <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
                           <div class="d-flex d-space-between sp-b-1 td-sp-b-0-4 md-sp-b-0-3">
                             <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
@@ -542,6 +558,8 @@
 </template>
 
 <script>
+import smoothscroll from 'smoothscroll-polyfill';
+
 const componentsList = {};
 
 export default {
@@ -553,26 +571,34 @@ export default {
       activeSlideIndex: 0,
       letClick: true,
       nextSlideIndex: null,
-      previousSlideIndex: null
+      previousSlideIndex: null,
+      carouselTextArray: null,
+      slideWidth: 0,
+      isScrolling: () => {},
+      firstIndex: null,
+      lastIndex: null,
+      sourceCarouselArray: null
     }
   },
   mounted() {
-    this.carouselArray = this.$refs.carouselWrapper.children;
+    smoothscroll.polyfill()
+    this.carouselArray = this.$refs.slidesWrapper.children;
+    this.sourceCarouselArray = this.$refs.slidesWrapper.children;
+    this.carouselTextArray = this.$refs.textsWrapper.children;
     this.fixDesignerFuckUp();
     this.setCarouselArrowsPosition();
     this.setTableColumnWidth();
+    this.setSlideWidth();
     window.addEventListener('resize', () => {
       this.fixDesignerFuckUp();
       this.setCarouselArrowsPosition();
       this.setTableColumnWidth();
+      this.setSlideWidth();
+      this.setSlidesPosition();
     })
-    this.$refs.video.addEventListener('ended', () => {
-      this.$refs.videoButton.classList.remove('blog__video-play-button--hidden')
-      this.$refs.videoTitle.classList.remove('blog__video-title--hidden')
-      this.$refs.videoPoster.classList.remove('blog__video-poster--hidden')
-      this.$refs.videoWrapper.classList.remove('blog__video-block-wrapper--no-shadow')
-    })
-    this.setSlidesPosition()
+    this.setSlidesPosition();
+    this.setSlideWidth();
+    this.addListenerMulti(this.$refs.video, 'ended pause', this.pauseVideo)
   },
   created() {},
   methods: {
@@ -601,72 +627,77 @@ export default {
       this.$refs.videoTitle.classList.toggle('blog__video-title--hidden')
       this.$refs.videoPoster.classList.toggle('blog__video-poster--hidden')
     },
-    // playVideo(){
-    //   this.$refs.video.play();
-    //   this.$refs.videoWrapper.classList.add('blog__video-block-wrapper--no-shadow')
-    //   this.$refs.videoButton.classList.add('blog__video-play-button--hidden')
-    //   this.$refs.videoTitle.classList.add('blog__video-title--hidden')
-    //   this.$refs.videoPoster.classList.add('blog__video-poster--hidden')
-    // },
-    // pauseVideo(){
-    //   this.$refs.video.pause();
-    //   this.$refs.videoWrapper.classList.remove('blog__video-block-wrapper--no-shadow')
-    //   this.$refs.videoButton.classList.remove('blog__video-play-button--hidden')
-    //   this.$refs.videoTitle.classList.remove('blog__video-title--hidden')
-    //   this.$refs.videoPoster.classList.remove('blog__video-poster--hidden')
-    // },
+    addListenerMulti(element, listenerList, func) {
+      listenerList.split(' ').forEach(listener => element.addEventListener(listener, func));
+    },
+    pauseVideo(){
+      this.$refs.video.pause();
+      this.$refs.videoWrapper.classList.remove('blog__video-block-wrapper--no-shadow')
+      this.$refs.videoButton.classList.remove('blog__video-play-button--hidden')
+      this.$refs.videoTitle.classList.remove('blog__video-title--hidden')
+      this.$refs.videoPoster.classList.remove('blog__video-poster--hidden')
+    },
     setSlidesPosition() {
-      this.carouselArray[this.activeSlideIndex].classList.add('blog__carousel__item--active');
-      Array.from(this.carouselArray).map(item => {
-        item.classList.add('blog__carousel__item--hidden')
-      })
+      this.carouselTextArray[this.activeSlideIndex].classList.add('blog__carousel__text--active');
       this.nextSlideIndex = this.activeSlideIndex == (this.carouselArray.length - 1) ? 0 : this.activeSlideIndex + 1;
       this.previousSlideIndex = this.activeSlideIndex == 0 ? this.carouselArray.length - 1 : this.activeSlideIndex - 1;
-      this.carouselArray[this.nextSlideIndex].classList.add('blog__carousel__item--next')
-      this.carouselArray[this.previousSlideIndex].classList.add('blog__carousel__item--previous')
-      this.carouselArray[this.nextSlideIndex].classList.remove('blog__carousel__item--previous')
-      this.carouselArray[this.previousSlideIndex].classList.remove('blog__carousel__item--next')
-      setTimeout(() => {
-        Array.from(this.carouselArray).map(item => {
-          item.classList.remove('blog__carousel__item--hidden')
+      if(window.innerWidth <= 1024) {
+        let sourceArray = Array.from(this.carouselArray).sort((a, b) => {
+          if (a.dataset.index > b.dataset.index) {
+            return 1;
+          }
+          if (a.dataset.index < b.dataset.index) {
+            return -1;
+          }
         })
-      }, 300)
+        this.$refs.slidesWrapper.innerHTML = '';
+        sourceArray.map(item => {
+          this.$refs.slidesWrapper.insertAdjacentHTML('beforeend', item.outerHTML)
+        })
+        this.$refs.slidesWrapper.scrollLeft = this.slideWidth * this.activeSlideIndex;
+      }
     },
     nextImage() {
-      if(this.letClick) {
-        this.letClick = false;
-        this.carouselArray[this.nextSlideIndex].classList.remove('blog__carousel__item--next')
-        this.carouselArray[this.activeSlideIndex].classList.remove('blog__carousel__item--active');
-        this.carouselArray[this.nextSlideIndex].classList.add('blog__carousel__item--active')
-        this.carouselArray[this.activeSlideIndex].classList.add('blog__carousel__item--previous');
-        this.activeSlideIndex = this.nextSlideIndex;
-        setTimeout(() => {
-          this.setSlidesPosition();
-        }, 300)
-        setTimeout(() => {
-          this.letClick = true;
-        }, 600)
+      this.carouselTextArray[this.activeSlideIndex].classList.remove('blog__carousel__text--active');
+      this.carouselTextArray[this.nextSlideIndex].classList.add('blog__carousel__text--active')
+      let wrapper = this.$refs.slidesWrapper;
+      if(this.$refs.slidesWrapper.scrollLeft == this.$refs.slidesWrapper.scrollWidth - this.carouselArray[this.carouselArray.length - 1].offsetWidth) {
+        this.spliceSlides(wrapper, true)
       }
+      setTimeout(() => {
+        wrapper.scrollTo({
+          left: wrapper.scrollLeft + this.slideWidth,
+          behavior: "smooth"
+        });
+      },10)
+      this.activeSlideIndex = this.nextSlideIndex;
+      this.setSlidesPosition();
     },
     previousImage() {
-      if(this.letClick) {
-        this.letClick = false;
-        this.carouselArray[this.previousSlideIndex].classList.remove('blog__carousel__item--previous')
-        this.carouselArray[this.activeSlideIndex].classList.remove('blog__carousel__item--active');
-        this.carouselArray[this.previousSlideIndex].classList.add('blog__carousel__item--active')
-        this.carouselArray[this.activeSlideIndex].classList.add('blog__carousel__item--next');
-        this.activeSlideIndex = this.previousSlideIndex;
-        setTimeout(() => {
-          this.setSlidesPosition();
-        }, 300)
-        setTimeout(() => {
-          this.letClick = true;
-        }, 600)
+      this.carouselTextArray[this.activeSlideIndex].classList.remove('blog__carousel__text--active');
+      this.carouselTextArray[this.previousSlideIndex].classList.add('blog__carousel__text--active')
+      let wrapper = this.$refs.slidesWrapper;
+      if(this.$refs.slidesWrapper.scrollLeft == 0) {
+        this.spliceSlides(wrapper, false)
       }
+      setTimeout(() => {
+        wrapper.scrollTo({
+          left: wrapper.scrollLeft - this.slideWidth,
+          behavior: "smooth"
+        });
+      },10)
+      this.activeSlideIndex = this.previousSlideIndex;
+      this.setSlidesPosition();
+    },
+    spliceSlides(wrapper, direction) {
+      let targetSlide = direction ? this.carouselArray[0].outerHTML : this.carouselArray[this.carouselArray.length - 1].outerHTML;
+      direction ? this.carouselArray[0].remove() : this.carouselArray[this.carouselArray.length - 1].remove()
+      let insertPoint = direction ? 'beforeend' : 'afterbegin';
+      wrapper.insertAdjacentHTML(insertPoint, targetSlide)
     },
     setCarouselArrowsPosition() {
       let arrowWrapper = this.$refs.carousel.querySelector('.blog__carousel__navigation');
-      let singleSlideHeight = this.$refs.carousel.querySelector('.blog__carousel__item-body').offsetHeight;
+      let singleSlideHeight = this.$refs.carousel.querySelector('.blog__carousel__slide-body').offsetHeight;
       if(singleSlideHeight != 0) {
         arrowWrapper.style.top = 'calc(' + singleSlideHeight + 'px / 2)';
       } else {
@@ -691,6 +722,25 @@ export default {
           }
         }
       })
+    },
+    setSlideWidth() {
+      // if(window.innerWidth <= 1024) {
+      this.slideWidth = this.carouselArray[0].offsetWidth;
+      // }
+    },
+    changeText() {
+      if(window.innerWidth <= 1024) {
+        this.carouselTextArray[this.activeSlideIndex].classList.remove('blog__carousel__text--active');
+        let newIndex = Math.floor(this.$refs.slidesWrapper.scrollLeft / this.slideWidth);
+        this.carouselTextArray[newIndex].classList.add('blog__carousel__text--active');
+        this.activeSlideIndex = newIndex;
+      }
+    },
+    checkScrollEnd() {
+      window.clearTimeout(this.isScrolling);
+      this.isScrolling = setTimeout(() => {
+        this.changeText();
+      }, 50);
     }
   }
 };

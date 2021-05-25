@@ -346,7 +346,7 @@
                   <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 td-sp-v-2 md-sp-h-1-2 md-sp-t-1-2 md-sp-b-1-3 blog__hint-carousel__item--active ">
                     <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
                     <p class="rt-font-h3 sp-b-1">не работает Wi-Fi 1</p>
-                    <p class="rt-font-paragraph sp-b-3">Создавая «умный дом», можно начать с малого. Например, сначала
+                    <p class="rt-font-paragraph sp-b-3-3">Создавая «умный дом», можно начать с малого. Например, сначала
                       установить датчики движения, чтобы свет в комнате включался, только когда в ней кто-то есть. Со
                       временем можно обзавестись и другим оборудованием, например, системой видеонаблюдения, «умными
                       замками» и т.д. В целом с каждым годом технологии совершенствуются и становятся доступнее по цене.</p>
@@ -354,7 +354,7 @@
                   <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 td-sp-v-2 md-sp-h-1-2 md-sp-t-1-2 md-sp-b-1-3">
                     <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
                     <p class="rt-font-h3 sp-b-1">не работает Wi-Fi 2</p>
-                    <p class="rt-font-paragraph sp-b-3">Здесь будут короткие тексты о том, как решить какую-то простую
+                    <p class="rt-font-paragraph sp-b-3-3">Здесь будут короткие тексты о том, как решить какую-то простую
                       проблему. Здесь будут короткие тексты о том, как решить какую-то простую проблему. Здесь будут
                       короткие тексты о том, как решить какую-то простую проблему. Здесь будут короткие тексты о том,
                       как решить какую-то простую проблему. Здесь будут короткие тексты о том, как решить какую-то
@@ -363,14 +363,14 @@
                   <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 td-sp-v-2 md-sp-h-1-2 md-sp-t-1-2 md-sp-b-1-3">
                     <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
                     <p class="rt-font-h3 sp-b-1">не работает Wi-Fi 3</p>
-                    <p class="rt-font-paragraph sp-b-3">Здесь будут короткие тексты о том, как решить какую-то простую
+                    <p class="rt-font-paragraph sp-b-3-3">Здесь будут короткие тексты о том, как решить какую-то простую
                       проблему. Здесь будут короткие тексты о том, как решить какую-то простую проблему. Здесь будут
                       короткие тексты о том, как решить какую-то простую проблему.</p>
                   </div>
                   <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 td-sp-v-2 md-sp-h-1-2 md-sp-t-1-2 md-sp-b-1-3">
                     <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
                     <p class="rt-font-h3 sp-b-1">хочется создать в квартире <br>«умный дом» недорого?</p>
-                    <p class="rt-font-paragraph sp-b-3">Здесь будут короткие тексты о том, как решить какую-то простую
+                    <p class="rt-font-paragraph sp-b-3-3">Здесь будут короткие тексты о том, как решить какую-то простую
                       проблему. Здесь будут короткие тексты о том, как решить какую-то простую проблему. Здесь будут
                       короткие тексты о том, как решить какую-то простую проблему. Здесь будут короткие тексты о том,
                       как решить какую-то простую проблему. Здесь будут короткие тексты о том, как решить какую-то
@@ -379,7 +379,7 @@
                   <div class="blog__hint-carousel__item sp-v-1-4 sp-h-2-4 rt-font-center td-sp-h-4 td-sp-v-2 md-sp-h-1-2 md-sp-t-1-2 md-sp-b-1-3">
                     <p class="tagline sp-b-0-2 color-main07">что делать, если</p>
                     <p class="rt-font-h3 sp-b-1">не работает Wi-Fi 5</p>
-                    <p class="rt-font-paragraph sp-b-3">Здесь будут короткие тексты о том, как решить какую-то простую
+                    <p class="rt-font-paragraph sp-b-3-3">Здесь будут короткие тексты о том, как решить какую-то простую
                       проблему. Здесь будут короткие тексты о том, как решить какую-то простую проблему. Здесь будут
                       короткие тексты о том, как решить какую-то простую проблему.</p>
                   </div>
@@ -603,13 +603,7 @@
           this.$refs.hintWrapper.style.height = 'auto'
           this.hintArray.map(item => {
             item.style.height = 'auto';
-            console.log(item.offsetHeight)
-            // if(index != 0) {
-            //   this.hintCardMaxHeight = item.offsetHeight > this.hintCardMaxHeight ? item.offsetHeight : this.hintCardMaxHeight;
-            // } else {
             this.hintCardMaxHeight = item.offsetHeight > this.hintCardMaxHeight ? item.offsetHeight : this.hintCardMaxHeight;
-            // }
-            // console.log(this.hintCardMaxHeight)
           })
           this.$refs.hintWrapper.style.height = this.hintCardMaxHeight + 15 + 'px';
           this.hintArray.map(item => {
