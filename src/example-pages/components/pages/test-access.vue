@@ -145,7 +145,7 @@
                       </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#образование</span>
                     </div>
-                    <a href="#" class="blog__popular__item-title font-h-l">Видеонаблюдение в офисе: плюсы,<br> минусы, подводные камни</a>
+                    <a href="#" class="blog__popular__item-title">Видеонаблюдение в офисе: плюсы,<br> минусы, подводные камни</a>
                   </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
@@ -158,7 +158,7 @@
                       </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#интернет</span>
                     </div>
-                    <a href="#" class="blog__popular__item-title font-h-l">Взлом веб-камер: мифы и реальность</a>
+                    <a href="#" class="blog__popular__item-title">Взлом веб-камер: мифы и реальность</a>
                   </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
@@ -171,7 +171,7 @@
                       </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
                     </div>
-                    <a href="#" class="blog__popular__item-title font-h-l">Как 5G влияет на наше здоровье</a>
+                    <a href="#" class="blog__popular__item-title">Как 5G влияет на наше здоровье</a>
                   </div>
                   </div>
                   <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
@@ -184,7 +184,7 @@
                     </span>
                     <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
                   </div>
-                  <a href="#" class="blog__popular__item-title font-h-l">Сколько на самом деле стоит<br> мобильная связь</a>
+                  <a href="#" class="blog__popular__item-title">Сколько на самом деле стоит<br> мобильная связь</a>
                 </div>
                   </div>
                 </div>
@@ -209,7 +209,7 @@
                       </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#образование</span>
                     </div>
-                    <a href="#" class="blog__popular__item-title font-h-l">Как помочь ребенку освоить <br>школьную программу</a>
+                    <a href="#" class="font-h-l">Как помочь ребенку освоить <br>школьную программу</a>
                   </div>
                 </div>
               </div>
@@ -231,7 +231,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#развлечения</span>
                     </div>
-                    <a href="#" class="blog__popular__item-title font-h-l">Пять лучших приложений для <br>обработки фотографий</a>
+                    <a href="#" class="font-h-l">Пять лучших приложений для <br>обработки фотографий</a>
                   </div>
                   </div>
               </div>
@@ -253,7 +253,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
                     </div>
-                    <a href="#" class="blog__popular__item-title font-h-l">Сколько раз можно менять <br>мобильного оператора </a>
+                    <a href="#" class="font-h-l">Сколько раз можно менять <br>мобильного оператора </a>
                   </div>
                   </div>
               </div>
@@ -415,7 +415,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
                     </div>
-                    <a href="#" class="blog__popular__item-title font-h-l">Как понять, что ноутбук или телефон устарел</a>
+                    <a href="#" class="font-h-l">Как понять, что ноутбук или телефон устарел</a>
                   </div>
                 </div>
               </div>
@@ -437,7 +437,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
                     </div>
-                    <a href="#" class="blog__popular__item-title font-h-l">Зачем покупать “красивый” <br>телефонный номер</a>
+                    <a href="#" class="font-h-l">Зачем покупать “красивый” <br>телефонный номер</a>
                   </div>
                 </div>
               </div>
@@ -459,7 +459,7 @@
                         </span>
                       <span class="blog__weekly-theme__tag sp-l-0-3">#бизнес</span>
                     </div>
-                    <a href="#" class="blog__popular__item-title font-h-l">Три важных налоговых нововведения в <br>2021 году</a>
+                    <a href="#" class="font-h-l">Три важных налоговых нововведения в <br>2021 году</a>
                   </div>
                 </div>
               </div>
