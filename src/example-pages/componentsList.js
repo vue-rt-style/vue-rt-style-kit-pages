@@ -77,6 +77,7 @@ import {
   Youtube,
   Sticky,
   ResizeContentHeight,
+  
   SlideContent,
   SlideContentDottedContent,
   SlideContentDottedHeader,
@@ -131,7 +132,8 @@ import {
   CommentSliderItem,
   // VideoBanner,
   CarouselV3,
-  CarouselV3Item
+  CarouselV3Item,
+  ResizeContentHeightDirective
   
 } from '@vue-rt-style-kit-molecules-local'
 
@@ -195,6 +197,7 @@ addToComponentList(Card)
 addToComponentList(CardRounded)
 addToComponentList(CardB2o)
 addToComponentList(CardBuy)
+addToComponentList(ResizeContentHeightDirective)
 addToComponentList(CardImage)
 addToComponentList(CardImageList)
 addToComponentList(ShowOn)

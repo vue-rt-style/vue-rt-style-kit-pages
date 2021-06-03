@@ -46,9 +46,9 @@
       </div>
 
       <rt-carousel-v3 :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :scrollable-on-desktop="scrollableondesktop">
-        <rt-carousel-slide-v3
-            v-for="i in 20"
-            :key="i">
+        <pre-timeout v-for="i in 10" :time="i*1000" :key="i">
+        <rt-carousel-slide-v3>
+          <div>
           <div
               style="
               background-size: cover;
@@ -68,7 +68,36 @@
               "
                 v-text="i"/>
           </div>
+
+          </div>
         </rt-carousel-slide-v3>
+        </pre-timeout>
+      </rt-carousel-v3>
+      <rt-carousel-v3 :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :scrollable-on-desktop="scrollableondesktop">
+          <rt-carousel-slide-v3 v-for="i in 10" :time="i*1000" :key="i">
+            <div>
+              <div
+                  style="
+              background-size: cover;
+              border-radius: 8px;
+              height: 300px;
+              position: relative;
+            "
+                  :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">
+                <div
+                    style="
+                background-color: black;
+                color: white;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding: 0 10px;
+              "
+                    v-text="i"/>
+              </div>
+
+            </div>
+          </rt-carousel-slide-v3>
       </rt-carousel-v3>
       <rt-carousel-v2>
         <rt-carousel-slide-v2

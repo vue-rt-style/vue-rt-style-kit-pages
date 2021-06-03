@@ -16,11 +16,12 @@
         </div>
         <div class="app-row row">
           <div class="rt-col-4">
+            <input v-model="test2"/>
             <rt-select-v2 :json="optionsList" name="test99" label="Просто выпадающий список"
                           @item-select="console" @focus="console('focus')" @blur="console('blur')"/>
           </div>
           <div class="rt-col-4">
-            <rt-select-v2 :multiple="true" value="50" :json="[
+            <rt-select-v2 :multiple="true" v-model="test2"  value="50" :json="[
                 {value:'50', label:'150 минут 150 минут 150 минут 150 минут 150 минут 150 минут 150 минут'},
                 {value:'150', label:'250 минут', sublabel:'80% скидка'},
                 {value:'250', label:'500 минут', sublabel:'95% скидка'},
@@ -45,13 +46,16 @@
           <div class="rt-col-4">
             <input type="text" v-model="test">
 
-
+            {{test}}
             <rt-select-v2 :auto-complete="true" v-model="test"
+                          :join-value="true"
                           name="test2"
                           default-value="Рос"
                           label="Выпадающий список с фильтрацией по вводу"
-                          :json="optionsListFiltered" @change="filterOnInput"
-                          @focus="console('outer focus')" @blur="console('outer blur')"/>
+                          :json="optionsListFiltered" @input="filterOnInput"
+                          @change="console('change')"
+                          @focus="console('outer focus')"
+                          @blur="console('outer blur')"/>
           </div>
           <div class="rt-col-12 sp-t-2"/>
 
@@ -278,6 +282,7 @@
     name: "AppSelect",
     components: componentsList,
     data: () => ({
+      test2: '3',
       test:'3',
       documentation: {},
       inputModelValue: "test",
@@ -381,18 +386,22 @@
         console.info('-->>',val)
       },
       filterOnInput(inputVal) {
-        console.info('inputVal',inputVal)
+        console.info('inputVal',inputVal);
+        inputVal = Array.isArray(inputVal) ? inputVal[0] : inputVal
         if(inputVal && inputVal.length > 0) {
-          this.optionsListFiltered = this.optionsList.filter(item => item.label.toLowerCase().includes(inputVal.toLowerCase()));
+          this.optionsListFiltered = this.optionsList.filter((item) => {
+            return true
+          });
+
         }else{
           this.optionsListFiltered = this.optionsList;
         }
-        console.info('this.optionsListFiltered',this.optionsListFiltered);
+        // console.info('this.optionsListFiltered',this.optionsListFiltered);
 
       },
       console(e) {
         console.log(e)
-      }
+      },
     }
   };
 </script>

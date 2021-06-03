@@ -11,9 +11,6 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _vue_rt_style_kit_molecules_local_components_TabsSlider_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/TabsSlider/docs/index.json */ "./src/molecules/components/TabsSlider/docs/index.json");
 var _vue_rt_style_kit_molecules_local_components_TabsSlider_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-molecules-local/components/TabsSlider/docs/index.json */ "./src/molecules/components/TabsSlider/docs/index.json", 1);
-//
-//
-//
  // import componentsList from "../../componentsList";
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -27,7 +24,7 @@ var _vue_rt_style_kit_molecules_local_components_TabsSlider_docs_index_json__WEB
   },
   methods: {},
   render: function render(h) {
-    return h("div", {
+    return h("div", [h("div", {
       "class": "rt-container"
     }, [h("div", {
       "class": "app-content rt-col-12 rt-col-md-3"
@@ -49,7 +46,11 @@ var _vue_rt_style_kit_molecules_local_components_TabsSlider_docs_index_json__WEB
       }
     }, [h("template", {
       slot: "label"
-    }, ["\u0417\u0430\u0433\u043E\u043B\u043E\u0432\u043E\u043A 1"]), h("template", {
+    }, ["!!", h("rt-system-icons", {
+      attrs: {
+        name: "android fill"
+      }
+    }), "!! \u0417\u0430\u0433\u043E\u043B\u043E\u0432\u043E\u043A!! 1"]), h("template", {
       slot: "content"
     }, [h("p", {
       "class": "rt-font-h2"
@@ -358,11 +359,13 @@ var _vue_rt_style_kit_molecules_local_components_TabsSlider_docs_index_json__WEB
       attrs: {
         src: "https://m1.35photo.pro/photos_main/995/4977757.jpg"
       }
-    })])]), h("rt-tabs-slider", {
+    })])])])])])])]), h("div", {
+      "class": "app-content"
+    }, [h("rt-tabs-slider", {
       attrs: {
         name: "tabs-slider-1"
       }
-    })]), h("div", {
+    }), h("div", {
       "class": "sp-b-5"
     }), h("div", {
       "class": "sp-b-5"
@@ -380,12 +383,14 @@ var _vue_rt_style_kit_molecules_local_components_TabsSlider_docs_index_json__WEB
       "class": "sp-b-5"
     }), h("div", {
       "class": "sp-b-5"
-    })])])]), h("documentation-builder", {
+    })]), h("div", {
+      "class": "rt-container"
+    }, [h("rt-col", [h("documentation-builder", {
       attrs: {
         json: _vue_rt_style_kit_molecules_local_components_TabsSlider_docs_index_json__WEBPACK_IMPORTED_MODULE_0__,
         type: "components"
       }
-    })]);
+    })])])]);
   }
 });
 
