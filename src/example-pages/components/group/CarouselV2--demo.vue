@@ -41,11 +41,18 @@
               <p>scrollable on desktop</p>
               <input type="checkbox" v-model="scrollableondesktop">
             </rt-col>
+            <rt-col size="2">
+              <p>col in row</p>
+              <input type="number" v-model="colInRow">
+            </rt-col>
+            <rt-col size="2">
+              <p>laptop col in row</p>
+              <input type="number" v-model="laptopColInRow">
+            </rt-col>
           </rt-row>
         </div>
       </div>
-
-      <rt-carousel-v3 :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :scrollable-on-desktop="scrollableondesktop">
+      <rt-carousel-v3 :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
         <pre-timeout v-for="i in 10" :time="i*1000" :key="i">
         <rt-carousel-slide-v3>
           <div>
@@ -300,6 +307,8 @@ export default {
       background: "",
       loaderType: skeletonLoader,
       gotoSlideVal: 0,
+      colInRow: 3,
+      laptopColInRow: 3,
       waitTime: this.getRandomNumberFromRange(3,15)*1000,
     }
   },

@@ -1,6 +1,7 @@
 <template>
   <div class="color-block--main-color005">
     <div class="wc-inline">
+
     <rt-video-banner preload-image="/sites/default/files/img/quality/mainBg.jpg"
                      full-src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
                      src="">
@@ -21,6 +22,14 @@
         </div>
       </template>
     </rt-video-banner>
+      !!@@@
+      <show-on>
+        <template slot="ios">ios</template>
+        <template slot="android">android</template>
+        <template slot="huawei">huawei</template>
+        <template slot="pc">pc</template>
+      </show-on>
+      @@@!!
     </div>
     <div class="wc-inline">
       <div class="color-block--white">
