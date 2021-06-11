@@ -6,7 +6,7 @@
       </div>
     </div>
 
-    <section class="sp-v-2">
+    <div class="sp-v-2">
       <div class="rt-container">
         <div class="rt-col-12 rt-col-md-3 sp-b-2">
           <h3>Простой вывод</h3>
@@ -106,173 +106,173 @@
             </div>
           </rt-carousel-slide-v3>
       </rt-carousel-v3>
-      <rt-carousel-v2>
-        <rt-carousel-slide-v2
-          v-for="i in 7"
-          :key="i">
-          <div
-            style="
-              background-size: cover;
-              border-radius: 8px;
-              height: 300px;
-              position: relative;
-            "
-            :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">
-            <div
-              style="
-                background-color: black;
-                color: white;
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                padding: 0 10px;
-              "
-              v-text="i"/>
-          </div>
-        </rt-carousel-slide-v2>
-      </rt-carousel-v2>
-    </section>
+<!--      <rt-carousel-v2>-->
+<!--        <rt-carousel-slide-v2-->
+<!--          v-for="i in 7"-->
+<!--          :key="i">-->
+<!--          <div-->
+<!--            style="-->
+<!--              background-size: cover;-->
+<!--              border-radius: 8px;-->
+<!--              height: 300px;-->
+<!--              position: relative;-->
+<!--            "-->
+<!--            :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">-->
+<!--            <div-->
+<!--              style="-->
+<!--                background-color: black;-->
+<!--                color: white;-->
+<!--                position: absolute;-->
+<!--                bottom: 0;-->
+<!--                right: 0;-->
+<!--                padding: 0 10px;-->
+<!--              "-->
+<!--              v-text="i"/>-->
+<!--          </div>-->
+<!--        </rt-carousel-slide-v2>-->
+<!--      </rt-carousel-v2>-->
+    </div>
 
-    <section class="rt-container sp-v-2">
-      <div class="rt-col-12 rt-col-md-3 sp-b-2">
-        <h3>Отображение во вкладках</h3>
-      </div>
-      <div class="rt-col-12 rtk-fo__case">
-        <rt-tabs>
-          <template slot="navigation">
-            <rt-tabs-nav-item :remove-base-tag="true" name="one">Демо-карточки</rt-tabs-nav-item>
-            <rt-tabs-nav-item :remove-base-tag="true" name="two">С фоновым изображением</rt-tabs-nav-item>
-          </template>
-          <template slot="content">
-            <rt-tabs-content-item name="one">
-              <template v-if="loaderType !== 'spinner'">
-                config:
-                <input class="d-inline-block" style="width:20px" v-model="configLoaderRows" title="строк (rows)" type="number" />
-              </template>
-                waitTime: {{ waitTime / 1000 }}s
-              <rt-button @click="reCreate">reCreate list</rt-button>
-              {{ slidesList }}
-              <div class="area">
-                <div v-if="!slidesList.length" class="sk-contain">
-                  <div class="sk-card rt-carousel-slide-v2"
-                    v-for="(n,key) in configLoaderCount" :key="key"
-                  >
-                    <div class="rt-skeleton__card">
-                      <div class="rt-skeleton__card-top rt-skeleton__wave"></div>
-                      <div class="rt-skeleton__card-row"
-                        v-for="(row,rowKey) in configLoaderRows" :key="rowKey"
-                      >
-                        <i></i> <div><p class="rt-skeleton__wave"></p> <p></p></div>
-                      </div>
-                      <hr>
-                      <div class="rt-skeleton__card-row"><div><p></p> <p></p></div></div>
-                      <hr>
-                      <div class="rt-skeleton__card-end">
-                        <div class="rt-skeleton__card-price"></div> <div class="rt-skeleton__card-btn rt-skeleton__wave"></div> <div class="rt-skeleton__card-more"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <rt-carousel-v2
-                  v-else
-                  :class="[ slidesList > 4 ? 'carousel--fit-slides' : null ]"
-                  :content-to-resize="['.cctv-sc__carousel-slide']"
-                  :scrollable-on-desktop="true"
-                  :container-me="false"
-                  :width="5"
-                >
-                  <rt-carousel-slide-v2
-                    v-for="i in slidesList"
-                    :key="i"
-                  >
-                    <div
-                      style="
-                        align-content: center;
-                        border-radius: 8px;
-                        border: 2px solid;
-                        display: flex;
-                        flex-flow: wrap;
-                        font-size: 150px;
-                        justify-content: center;
-                        height: 450px;
-                      "
-                      :style="`border-color: rgb(${177-i*0.6},${255/10+i},${i*15});`"
-                      v-text="i"/>
-                  </rt-carousel-slide-v2>
-                </rt-carousel-v2>
-              </div>
-            </rt-tabs-content-item>
-            <rt-tabs-content-item name="two">
-              <div class="sp-t-2-3">
-                <rt-carousel-v2
-                  :container-me="false"
-                >
-                  <rt-carousel-slide-v2
-                    v-for="i in 15"
-                    :key="i">
-                    <div
-                      style="
-                        background-size: cover;
-                        border-radius: 8px;
-                        height: 300px;
-                        position: relative;
-                      "
-                      :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">
-                      <div
-                        style="
-                          background-color: black;
-                          color: white;
-                          position: absolute;
-                          bottom: 0;
-                          right: 0;
-                          padding: 0 10px;
-                        "
-                        v-text="i"/>
-                    </div>
-                  </rt-carousel-slide-v2>
-                </rt-carousel-v2>
-              </div>
-            </rt-tabs-content-item>
-          </template>
-        </rt-tabs>
-      </div>
-    </section>
-    
-    <section class="sp-v-2">
-      <div class="rt-container">
-        <div class="rt-col-12 rt-col-md-3 sp-b-1">
-          <h3>Переход к слайду</h3>
-        </div>
-        <div class="rt-col-12 rt-col-md-3 sp-b-2">
-          <p>Перейти к <input class="d-inline-block" style="width:20px" v-model="gotoSlideModel" title="Можно ввести номер слайда от 0 до 7" type="number" /> слайду</p>
-        </div>
-      </div>
-      <rt-carousel-v2 ref="carouselEl">
-        <rt-carousel-slide-v2
-          v-for="i in 7"
-          :key="i">
-          <div
-            style="
-              background-size: cover;
-              border-radius: 8px;
-              height: 300px;
-              position: relative;
-            "
-            :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">
-            <div
-              style="
-                background-color: black;
-                color: white;
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                padding: 0 10px;
-              "
-              v-text="i - 1"/>
-          </div>
-        </rt-carousel-slide-v2>
-      </rt-carousel-v2>
-    </section>
+<!--    <div class="rt-container sp-v-2">-->
+<!--      <div class="rt-col-12 rt-col-md-3 sp-b-2">-->
+<!--        <h3>Отображение во вкладках</h3>-->
+<!--      </div>-->
+<!--      <div class="rt-col-12 rtk-fo__case">-->
+<!--        <rt-tabs>-->
+<!--          <template slot="navigation">-->
+<!--            <rt-tabs-nav-item :remove-base-tag="true" name="one">Демо-карточки</rt-tabs-nav-item>-->
+<!--            <rt-tabs-nav-item :remove-base-tag="true" name="two">С фоновым изображением</rt-tabs-nav-item>-->
+<!--          </template>-->
+<!--          <template slot="content">-->
+<!--            <rt-tabs-content-item name="one">-->
+<!--              <template v-if="loaderType !== 'spinner'">-->
+<!--                config:-->
+<!--                <input class="d-inline-block" style="width:20px" v-model="configLoaderRows" title="строк (rows)" type="number" />-->
+<!--              </template>-->
+<!--                waitTime: {{ waitTime / 1000 }}s-->
+<!--              <rt-button @click="reCreate">reCreate list</rt-button>-->
+<!--              {{ slidesList }}-->
+<!--              <div class="area">-->
+<!--                <div v-if="!slidesList.length" class="sk-contain">-->
+<!--                  <div class="sk-card rt-carousel-slide-v2"-->
+<!--                    v-for="(n,key) in configLoaderCount" :key="key"-->
+<!--                  >-->
+<!--                    <div class="rt-skeleton__card">-->
+<!--                      <div class="rt-skeleton__card-top rt-skeleton__wave"></div>-->
+<!--                      <div class="rt-skeleton__card-row"-->
+<!--                        v-for="(row,rowKey) in configLoaderRows" :key="rowKey"-->
+<!--                      >-->
+<!--                        <i></i> <div><p class="rt-skeleton__wave"></p> <p></p></div>-->
+<!--                      </div>-->
+<!--                      <hr>-->
+<!--                      <div class="rt-skeleton__card-row"><div><p></p> <p></p></div></div>-->
+<!--                      <hr>-->
+<!--                      <div class="rt-skeleton__card-end">-->
+<!--                        <div class="rt-skeleton__card-price"></div> <div class="rt-skeleton__card-btn rt-skeleton__wave"></div> <div class="rt-skeleton__card-more"></div>-->
+<!--                      </div>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--                <rt-carousel-v2-->
+<!--                  v-else-->
+<!--                  :class="[ slidesList > 4 ? 'carousel&#45;&#45;fit-slides' : null ]"-->
+<!--                  :content-to-resize="['.cctv-sc__carousel-slide']"-->
+<!--                  :scrollable-on-desktop="true"-->
+<!--                  :container-me="false"-->
+<!--                  :width="5"-->
+<!--                >-->
+<!--                  <rt-carousel-slide-v2-->
+<!--                    v-for="i in slidesList"-->
+<!--                    :key="i"-->
+<!--                  >-->
+<!--                    <div-->
+<!--                      style="-->
+<!--                        align-content: center;-->
+<!--                        border-radius: 8px;-->
+<!--                        border: 2px solid;-->
+<!--                        display: flex;-->
+<!--                        flex-flow: wrap;-->
+<!--                        font-size: 150px;-->
+<!--                        justify-content: center;-->
+<!--                        height: 450px;-->
+<!--                      "-->
+<!--                      :style="`border-color: rgb(${177-i*0.6},${255/10+i},${i*15});`"-->
+<!--                      v-text="i"/>-->
+<!--                  </rt-carousel-slide-v2>-->
+<!--                </rt-carousel-v2>-->
+<!--              </div>-->
+<!--            </rt-tabs-content-item>-->
+<!--            <rt-tabs-content-item name="two">-->
+<!--              <div class="sp-t-2-3">-->
+<!--                <rt-carousel-v2-->
+<!--                  :container-me="false"-->
+<!--                >-->
+<!--                  <rt-carousel-slide-v2-->
+<!--                    v-for="i in 15"-->
+<!--                    :key="i">-->
+<!--                    <div-->
+<!--                      style="-->
+<!--                        background-size: cover;-->
+<!--                        border-radius: 8px;-->
+<!--                        height: 300px;-->
+<!--                        position: relative;-->
+<!--                      "-->
+<!--                      :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">-->
+<!--                      <div-->
+<!--                        style="-->
+<!--                          background-color: black;-->
+<!--                          color: white;-->
+<!--                          position: absolute;-->
+<!--                          bottom: 0;-->
+<!--                          right: 0;-->
+<!--                          padding: 0 10px;-->
+<!--                        "-->
+<!--                        v-text="i"/>-->
+<!--                    </div>-->
+<!--                  </rt-carousel-slide-v2>-->
+<!--                </rt-carousel-v2>-->
+<!--              </div>-->
+<!--            </rt-tabs-content-item>-->
+<!--          </template>-->
+<!--        </rt-tabs>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    -->
+<!--    <div class="sp-v-2">-->
+<!--      <div class="rt-container">-->
+<!--        <div class="rt-col-12 rt-col-md-3 sp-b-1">-->
+<!--          <h3>Переход к слайду</h3>-->
+<!--        </div>-->
+<!--        <div class="rt-col-12 rt-col-md-3 sp-b-2">-->
+<!--          <p>Перейти к <input class="d-inline-block" style="width:20px" v-model="gotoSlideModel" title="Можно ввести номер слайда от 0 до 7" type="number" /> слайду</p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <rt-carousel-v2 ref="carouselEl">-->
+<!--        <rt-carousel-slide-v2-->
+<!--          v-for="i in 7"-->
+<!--          :key="i">-->
+<!--          <div-->
+<!--            style="-->
+<!--              background-size: cover;-->
+<!--              border-radius: 8px;-->
+<!--              height: 300px;-->
+<!--              position: relative;-->
+<!--            "-->
+<!--            :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">-->
+<!--            <div-->
+<!--              style="-->
+<!--                background-color: black;-->
+<!--                color: white;-->
+<!--                position: absolute;-->
+<!--                bottom: 0;-->
+<!--                right: 0;-->
+<!--                padding: 0 10px;-->
+<!--              "-->
+<!--              v-text="i - 1"/>-->
+<!--          </div>-->
+<!--        </rt-carousel-slide-v2>-->
+<!--      </rt-carousel-v2>-->
+<!--    </div>-->
 
     <div class="rt-container">
 <!--      <documentation-builder :json="docProps" type="props" class="sp-t-2-1" />-->
@@ -307,8 +307,8 @@ export default {
       background: "",
       loaderType: skeletonLoader,
       gotoSlideVal: 0,
-      colInRow: 3,
-      laptopColInRow: 3,
+      colInRow: 4 ,
+      laptopColInRow: 4,
       waitTime: this.getRandomNumberFromRange(3,15)*1000,
     }
   },
