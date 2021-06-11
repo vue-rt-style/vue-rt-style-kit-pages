@@ -57,8 +57,8 @@
         </div>
       </div>
       <rt-carousel-v3 :active-index-init="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
-        <pre-timeout v-for="i in 10" :time="i*1000" :key="i">
-        <rt-carousel-slide-v3>
+<!--        <pre-timeout  :time="i*1000" >-->
+        <rt-carousel-slide-v3 v-for="i in 15" :key="i">
           <div>
           <div
               style="
@@ -82,10 +82,10 @@
 
           </div>
         </rt-carousel-slide-v3>
-        </pre-timeout>
+<!--        </pre-timeout>-->
       </rt-carousel-v3>
       <rt-carousel-v3 :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :scrollable-on-desktop="scrollableondesktop">
-          <rt-carousel-slide-v3 v-for="i in 10" :time="i*1000" :key="i">
+          <rt-carousel-slide-v3 v-for="i in 5" :time="i*1000" :key="i">
             <div>
               <div
                   style="
