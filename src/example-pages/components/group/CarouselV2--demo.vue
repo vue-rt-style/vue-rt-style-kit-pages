@@ -13,46 +13,50 @@
         </div>
         <div class="rt-col-12 rt-space-bottom3 is-b2c">
           <rt-row>
-            <rt-col size="2">
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
               <p>background</p>
               <select v-model="background">
                 <option v-for="i in colors" :value="i">{{ i }}</option>
               </select>
             </rt-col>
-            <rt-col size="2">
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
               <p>shadowColor</p>
               <select v-model="shadowColor">
                 <option v-for="i in colors" :value="i">{{ i }}</option>
               </select>
             </rt-col>
-            <rt-col size="2">
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
               <p>show shadow</p>
               <input type="checkbox" v-model="showShadow">
             </rt-col>
-            <rt-col size="2">
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
               <p>infinite scroll</p>
               <input type="checkbox" v-model="infinitescroll">
             </rt-col>
-            <rt-col size="2">
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
               <p>blur not active</p>
               <input type="checkbox" v-model="blurnotactive">
             </rt-col>
-            <rt-col size="2">
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
               <p>scrollable on desktop</p>
               <input type="checkbox" v-model="scrollableondesktop">
             </rt-col>
-            <rt-col size="2">
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
               <p>col in row</p>
               <input type="number" v-model="colInRow">
             </rt-col>
-            <rt-col size="2">
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
               <p>laptop col in row</p>
               <input type="number" v-model="laptopColInRow">
+            </rt-col>
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
+              <p>active index</p>
+              <input type="number" v-model="activeIndex">
             </rt-col>
           </rt-row>
         </div>
       </div>
-      <rt-carousel-v3 :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
+      <rt-carousel-v3 :active-index-init="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
         <pre-timeout v-for="i in 10" :time="i*1000" :key="i">
         <rt-carousel-slide-v3>
           <div>
@@ -297,6 +301,7 @@ export default {
     return {
       // docProps,
       // docEvents,
+      activeIndex: 0,
       slidesList: [],
       colors: ["black", "black085", "black085-no-opacity", "purple", "purple-button-hover", "purple-button-active", "purple01", "purple005", "purple-low", "purple-high", "purple-night", "white", "red", "red-low", "red-high", "gray", "dark-blue", "dark-blue-low", "dark-blue-high", "light-blue", "light-blue-low", "light-blue-high", "yellow", "yellow-low", "yellow-high", "orange", "orange-night", "orange-button-hover", "orange-button-active", "orange-low", "orange-high", "orange-super", "pink", "pink-low", "pink-high", "green", "green-low", "green-high", "cool-grey", "cool-grey07", "cool-grey05", "cool-grey03", "cool-grey05-no-opacity", "purple-high05", "purple-high02", "orange-high05", "orange-high02", "orange03", "orange01", "orange005", "slate", "dark-slate", "burgundy", "white09", "white08", "white07", "white06", "white05", "white04", "white03", "white025", "white02", "white01", "white005", "main-color", "main-color09", "main-color08", "main-color07", "main-color06", "main-color05", "main-color04", "main-color03", "main-color02", "main-color01", "main-color007", "main-color005", "main-color003", "main-color09-no-opacity", "main-color085-no-opacity", "main-color07-no-opacity", "main-color05-no-opacity", "main-color03-no-opacity", "main-color01-no-opacity", "main-color007-no-opacity", "main-color005-no-opacity", "main-color003-no-opacity"],
       shadowColor: "white",
