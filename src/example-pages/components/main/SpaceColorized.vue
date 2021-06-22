@@ -40,7 +40,7 @@ CSS-классы реализованы по формату:
           </div>
           <div class="preview-css">
             <span class="preview-css-val" v-html="`.sp-v-${key}`" @click="copyCode"></span>
-            Отступ по-вертикале
+            Отступ сверху и снизу
           </div>
         </div>
 
