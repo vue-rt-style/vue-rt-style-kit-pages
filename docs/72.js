@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[72],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/vip.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/vip.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/game.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/game.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -410,197 +410,391 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-// https://www.rt.ru/sites/default/files/img/videocontrol.04.2021/prize1.jpg
-//     https://www.rt.ru/sites/default/files/img/videocontrol.04.2021/prize2.jpg
-//         https://www.rt.ru/sites/default/files/img/videocontrol.04.2021/prize3.png
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var componentsList = {};
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "AppPromoVip",
   components: componentsList,
-  data: function data() {
-    return {
-      coords: [{
-        c: [208, 230],
-        label: 'Датчик дыма',
-        text: 'Фиксирует задымление в помещении <br/><br/>Датчик мгновенно обнаружит задымление и моментально отправит уведомление.',
-        image: 'https://rt-static.rt.ru/sites/default/files/img/sensors/PHI_PSG01.jpg',
-        button: 'Выбрать датчики',
-        scrollTo: 'form'
-      }, {
-        c: [47, 626],
-        label: 'Датчик протечки Philio',
-        text: 'Фиксирует задымление в помещении <br/><br/>Датчик мгновенно обнаружит задымление и моментально отправит уведомление.',
-        image: 'https://rt-static.rt.ru/sites/default/files/img/sensors/aa.jpg',
-        button: 'Хочу!',
-        scrollTo: 'form'
-      }, {
-        c: [267, 326],
-        label: 'Датчик дыма',
-        text: 'Фиксирует задымление в помещении <br/><br/>Датчик мгновенно обнаружит задымление и моментально отправит уведомление.',
-        image: 'https://rt-static.rt.ru/sites/default/files/img/sensors/PHI_PSG01.jpg',
-        button: 'Выбрать датчики',
-        scrollTo: 'form'
-      }, {
-        c: [328, 429],
-        label: 'Датчик дыма',
-        text: 'Фиксирует задымление в помещении <br/><br/>Датчик мгновенно обнаружит задымление и моментально отправит уведомление.',
-        image: 'https://rt-static.rt.ru/sites/default/files/img/sensors/PHI_PSG01.jpg',
-        button: 'Выбрать датчики',
-        scrollTo: 'form'
-      }, {
-        c: [444, 590],
-        label: 'Датчик дыма',
-        text: 'Фиксирует задымление в помещении <br/><br/>Датчик мгновенно обнаружит задымление и моментально отправит уведомление.',
-        image: 'https://rt-static.rt.ru/sites/default/files/img/sensors/PHI_PSG01.jpg',
-        button: 'Выбрать датчики',
-        scrollTo: 'form'
-      }, {
-        c: [663, 582],
-        label: 'Датчик дыма',
-        text: 'Фиксирует задымление в помещении <br/><br/>Датчик мгновенно обнаружит задымление и моментально отправит уведомление.',
-        image: 'https://rt-static.rt.ru/sites/default/files/img/sensors/PHI_PSG01.jpg',
-        button: 'Выбрать датчики',
-        scrollTo: 'form'
-      }, {
-        c: [706, 472],
-        label: 'Датчик дыма',
-        text: 'Фиксирует задымление в помещении <br/><br/>Датчик мгновенно обнаружит задымление и моментально отправит уведомление.',
-        image: 'https://rt-static.rt.ru/sites/default/files/img/sensors/PHI_PSG01.jpg',
-        button: 'Выбрать датчики',
-        scrollTo: 'form'
-      }, {
-        c: [731, 280],
-        label: 'Датчик дыма',
-        text: 'Фиксирует задымление в помещении <br/><br/>Датчик мгновенно обнаружит задымление и моментально отправит уведомление.',
-        image: 'https://rt-static.rt.ru/sites/default/files/img/sensors/PHI_PSG01.jpg',
-        button: 'Выбрать датчики',
-        scrollTo: 'form'
-      }, {
-        c: [798, 173],
-        label: 'Датчик дыма',
-        text: 'Фиксирует задымление в помещении <br/><br/>Датчик мгновенно обнаружит задымление и моментально отправит уведомление.',
-        image: 'https://rt-static.rt.ru/sites/default/files/img/sensors/PHI_PSG01.jpg',
-        button: 'Выбрать датчики',
-        scrollTo: 'form'
-      }, {
-        c: [888, 460],
-        label: 'Датчик дыма',
-        text: 'Фиксирует задымление в помещении <br/><br/>Датчик мгновенно обнаружит задымление и моментально отправит уведомление.',
-        image: 'https://rt-static.rt.ru/sites/default/files/img/sensors/PHI_PSG01.jpg',
-        button: 'Выбрать датчики',
-        scrollTo: 'form'
-      }, {
-        c: [1306, 353],
-        label: 'Датчик дыма',
-        text: 'Фиксирует задымление в помещении <br/><br/>Датчик мгновенно обнаружит задымление и моментально отправит уведомление.',
-        image: 'https://rt-static.rt.ru/sites/default/files/img/sensors/PHI_PSG01.jpg',
-        button: 'Выбрать датчики',
-        scrollTo: 'form'
-      }, {
-        c: [1319, 521],
-        label: 'Датчик дыма',
-        text: 'Фиксирует задымление в помещении <br/><br/>Датчик мгновенно обнаружит задымление и моментально отправит уведомление.',
-        image: 'https://rt-static.rt.ru/sites/default/files/img/sensors/PHI_PSG01.jpg',
-        button: 'Выбрать датчики',
-        scrollTo: 'form'
-      }],
-      width: 1440,
-      height: 839
-    };
-  },
   mounted: function mounted() {
-    var clickOutSide = function clickOutSide(e) {
-      setTimeout(function () {
-        if (e.target.classList && e.target.classList.contains('buble-active') || e.target.closest('.buble-active')) {
-          if (document.querySelector('.buble-active')) {
-            bindOutSideClick();
-          }
-        } else {
-          document.querySelector('.buble-active').classList.remove('buble-active');
-        }
-      }, 10);
-    };
-
-    var keyPress = function keyPress(e) {
-      if (e.code == 'Escape' && document.querySelector('.buble-active')) {
-        document.querySelector('.buble-active').classList.remove('buble-active');
-      }
-    };
-
-    var bindOutSideClick = function bindOutSideClick() {
-      document.addEventListener('click', clickOutSide, {
-        once: true
-      });
-    };
-
-    var unbindOutSideClick = function unbindOutSideClick() {
-      document.removeEventListener('click', clickOutSide);
-    };
-
-    document.addEventListener('keydown', keyPress);
-    document.querySelectorAll('.buble').forEach(function (item) {
-      item.addEventListener('mouseleave', function (e) {
-        if (!item.classList.contains('buble-blur') && !item.classList.contains('buble-active')) {
-          item.classList.add('buble-blur');
-          setTimeout(function () {
-            item.classList.remove('buble-blur');
-          }, 400);
-        } else {}
-      });
-      item.addEventListener('click', function (e) {
-        if (item.classList.contains('buble-active') && e.target.classList.contains('buble__icon') || e.target.classList.contains('buble-active') || e.target.classList.contains('buble-button') || e.target.closest('.buble-button')) {
-          item.classList.remove('buble-active');
-          unbindOutSideClick();
-        } else {
-          var anyB = document.querySelector('.buble-active');
-
-          if (anyB) {
-            anyB.classList.remove('buble-active');
-          }
-
-          item.classList.add('buble-active');
-          setTimeout(function () {
-            bindOutSideClick();
-          });
-        }
-      });
-    });
-    document.querySelectorAll('.homescript-slider-link').forEach(function (item, index) {
-      item.addEventListener('click', function (e) {
-        if ((e.target.classList.contains('homescript-slider-go-back') || e.target.classList && e.target.closest('.homescript-slider-go-back')) && document.querySelector('.homescript-image-main--hide') && e.target.closest('.homescript-slider-block--active')) {
-          document.querySelector('.homescript-image-main').classList.remove('homescript-image-main--hide');
-          document.querySelector('.homescript-image--active').classList.remove('homescript-image--active');
-          document.querySelector('.homescript-slider-block--active').classList.remove('homescript-slider-block--active');
-          document.querySelector('.homescript-slider').classList.remove('homescript-slider--active');
-        } else {
-          document.querySelector('.homescript-image-main').classList.add('homescript-image-main--hide');
-          var activeBlock = document.querySelector('.homescript-slider-block--active');
-
-          if (activeBlock) {
-            activeBlock.classList.remove('homescript-slider-block--active');
-          }
-
-          var activeImage = document.querySelector('.homescript-image--active');
-          document.querySelector('.homescript-slider').classList.add('homescript-slider--active');
-
-          if (activeImage) {
-            activeImage.classList.remove('homescript-image--active');
-          }
-
-          document.querySelectorAll('.homescript-slider-block')[index].classList.add('homescript-slider-block--active');
-          document.querySelectorAll('.homescript-image')[index].classList.add('homescript-image--active');
-        }
-      });
-    });
+    document.querySelector('.app-header').remove();
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=417fa9e2&":
-/*!***********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=417fa9e2& ***!
-  \***********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/game.vue?vue&type=template&id=39b90ff8&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/pages/promo/game.vue?vue&type=template&id=39b90ff8& ***!
+  \************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -608,24 +802,24 @@ var componentsList = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{},[_c('div',{staticClass:"wc-inline"},[_c('rt-video-banner',{attrs:{"preload-image":"/sites/default/files/img/quality/mainBg.jpg","full-src":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4","src":""}},[_c('template',{slot:"content"},[_c('div',{staticClass:"md-color-block--dark-slate md-sp-t-1-2 md-sp-b-2 flex-fill"},[_c('div',{staticClass:"rt-container"},[_c('rt-col',[_c('rt-row',[_c('rt-col',{staticClass:"color-white",attrs:{"size":5,"tablet-size":3,"mobile-size":3}},[_c('p',{staticClass:"sp-b-0-4 md-sp-b-0-3 rt-font-label rt-font-label-uppercase color-white05"},[_vm._v("ИНТЕРНЕТ")]),_vm._v(" "),_c('p',{staticClass:"font-h1 sp-b-0-4 md-sp-b-0-3"},[_vm._v("Нагружайте интернет по-полной")]),_vm._v(" "),_c('p',{staticClass:"font-t-l sp-b-1-2 md-sp-b-1-1"},[_vm._v("Стабильный интернет со скоростью "),_c('span',{staticClass:"nowrap"},[_vm._v("до 1 Гбит/с")])]),_vm._v(" "),_c('rt-button',{staticClass:"rt-button-md--is-block",attrs:{"color":"orange"}},[_c('span',{staticClass:"font-t-m"},[_vm._v("Проверить возможность подключения")])])],1)],1)],1)],1)])])],2),_vm._v("\n      !!@@@\n      "),_c('show-on',[_c('template',{slot:"ios"},[_vm._v("ios")]),_vm._v(" "),_c('template',{slot:"android"},[_vm._v("android")]),_vm._v(" "),_c('template',{slot:"huawei"},[_vm._v("huawei")]),_vm._v(" "),_c('template',{slot:"pc"},[_vm._v("pc")])],2),_vm._v("\n      @@@!!\n    ")],1),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"color-block--white"},[_c('div',{staticClass:"rt-container"},[_c('rt-col',[_c('rt-row',{staticClass:"border-b"},[_c('rt-col',{staticClass:"sp-b-4 td-sp-b-3-1 md-sp-b-2 ",attrs:{"size":8,"tablet-size":6}},[_c('h2',{staticClass:"font-h2 sp-b-2 sp-t-4 td-sp-t-3-1 td-sp-b-2 md-sp-t-2 md-sp-b-1-3"},[_vm._v("Представляем технологию,\n                которая гарантирует "),_c('span',{staticClass:"color-orange"},[_vm._v("самое\n            высокое качество передачи сигнала")]),_vm._v(" и увеличивает пропускную способность домашней сети интернет до\n                "),_c('span',{staticClass:"color-orange"},[_vm._v(" 1 Гбит/с")]),_vm._v(". С\n                персональным гигабитным оптическим каналом от Ростелекома в вашей квартире или доме всегда будет\n                стабильный\n                высокоскоростной с возможностью подключения любых ваших устройств без потери качества сигнала")]),_vm._v(" "),_c('rt-button',{staticClass:"rt-button-md--is-block",attrs:{"color":"gray"}},[_vm._v("Подробнее о скорости")])],1)],1),_vm._v(" "),_c('rt-resize-content-height',{staticClass:"row",attrs:{"mobile-not-resize":true,"tablet-not-resize":true,"query-selectors-names":['.shadow-card']}},[_c('rt-col',{attrs:{"size":12}},[_c('h2',{staticClass:"font-h2 sp-t-4 sp-b-2 td-sp-b-none md-sp-t-2 md-sp-b-1-3 td-sp-t-3-1"},[_vm._v("Наслаждайтесь "),_c('span',{staticClass:"color-orange"},[_vm._v("качественной связью")])])]),_vm._v(" "),_c('rt-col',{staticClass:"sp-t-2 md-sp-t-none",attrs:{"size":4,"tablet-size":6}},[_c('div',{staticClass:"round-border shadow-card"},[_c('div',{staticClass:"flex-center-center flex-column sp-h-0-3 td-flex-row md-flex-column md-d-flex sp-v-2 md-sp-v-1-3 td-sp-b-1"},[_c('img',{attrs:{"src":"/sites/default/files/img/quality/1.svg","alt":""}}),_vm._v(" "),_c('div',{staticClass:"td-sp-l-1-2 md-sp-l-none"},[_c('h3',{staticClass:"font-h3 sp-t-1 sp-b-1 td-sp-b-0-3 rt-font-center-md rt-font-center"},[_vm._v("Лучшие\n                        технологии")]),_vm._v(" "),_c('p',{staticClass:"font-t-m rt-font-center rt-td-font-left rt-font-center-md"},[_vm._v("Ростелеком использует самые\n                        передовые технологии передачи\n                        данных,\n                        обеспечивая высочайшее качество сигнала своим клиентам")])])])])]),_vm._v(" "),_c('rt-col',{staticClass:"sp-t-2 td-sp-t-1",attrs:{"size":4,"tablet-size":6}},[_c('div',{staticClass:"round-border shadow-card"},[_c('div',{staticClass:"flex-center-center flex-column sp-h-0-3 td-flex-row md-flex-column md-d-flex sp-v-2"},[_c('img',{attrs:{"src":"/sites/default/files/img/quality/2.svg","alt":""}}),_vm._v(" "),_c('div',{staticClass:"td-sp-l-1-2 md-sp-l-none"},[_c('h3',{staticClass:"font-h3 sp-t-1 sp-b-1 td-sp-b-0-3 rt-font-center-md rt-font-center"},[_vm._v("Максимальная\n                        скорость")]),_vm._v(" "),_c('p',{staticClass:"font-t-m rt-font-center rt-td-font-left rt-font-center-md"},[_vm._v("Оптоволоконный интернет от\n                        Ростелеком имеет одно важное\n                        преимущество\n                        — огромную пропускную способность сети. Она может намного превышать 1 Гбит/с.")])])])])]),_vm._v(" "),_c('rt-col',{staticClass:"sp-t-2 td-sp-t-1",attrs:{"size":4,"tablet-size":6}},[_c('div',{staticClass:"round-border shadow-card"},[_c('div',{staticClass:"flex-center-center flex-column sp-h-0-3 td-flex-row md-flex-column md-d-flex sp-v-2"},[_c('img',{attrs:{"src":"/sites/default/files/img/quality/3.svg","alt":""}}),_vm._v(" "),_c('div',{staticClass:"td-sp-l-1-2 md-sp-l-none"},[_c('h3',{staticClass:"font-h3 sp-t-1 sp-b-1 td-sp-b-0-3 rt-font-center-md rt-font-center"},[_vm._v("Стабильное\n                        соединение")]),_vm._v(" "),_c('p',{staticClass:"font-t-m rt-font-center rt-td-font-left rt-font-center-md"},[_vm._v("Оптоволоконные сети проложены\n                        под землей, защищенные от\n                        погодных\n                        условий и вандализма. Не подвержены электромагнитным или радиочастотным помехам")])])])])])],1)],1)],1)])]),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"color-block--white"},[_c('div',{staticClass:"rt-container sp-v-5 td-sp-t-3 md-sp-t-3-1"},[_c('rt-col',[_c('rt-row',[_c('rt-col',{attrs:{"size":7,"tablet-size":6}},[_c('h2',{staticClass:"font-h2"},[_vm._v("Интернет на скорости, которая подходит под "),_c('span',{staticClass:"color-orange"},[_vm._v("современный ритм жизни")])]),_vm._v(" "),_c('p',{staticClass:"sp-v-1-3 md-sp-v-1-2"},[_vm._v("Став клиентом Ростелекома вы получите быстрый и надежный домашний\n                  интернет для всей\n                  вашей семьи, который сможет единовременно справится с любой нагрузкой и с любым количеством\n                  подключенных к нему устройств")]),_vm._v(" "),_c('p',{staticClass:"d-flex"},[_c('rt-system-icons',{attrs:{"name":"check small","color":"orange"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2"},[_vm._v("Смотрите фильмы онлайн без подгрузок и в нужном вам разрешении 4K или HD\n")])],1),_vm._v(" "),_c('p',{staticClass:"d-flex sp-t-0-4"},[_c('rt-system-icons',{attrs:{"name":"check small","color":"orange"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2"},[_vm._v("Играйте с минимальным пингом и без дисконектов")])],1),_vm._v(" "),_c('p',{staticClass:"d-flex sp-t-0-4"},[_c('rt-system-icons',{attrs:{"name":"check small","color":"orange"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2"},[_vm._v("Загружайте и выкладывайте контент в мессенджерах, инстаграм, тик-ток, торрентах и соц.сетях в любое время суток\n")])],1)]),_vm._v(" "),_c('rt-col',{attrs:{"size":1,"t-hide":true}}),_vm._v(" "),_c('rt-col',{attrs:{"size":4,"tablet-size":6}},[_c('div',{staticClass:"d-flex sp-t-1-3 td-sp-t-1-4 md-sp-t-1-3 height-fill"},[_c('div',{staticClass:"animated-block sp-t-0-4 flex-fill d-flex flex-column"},[_c('div',{staticClass:"animated-block-label rt-font-label-uppercase color-main05 rt-font-center sp-b-1"},[_vm._v("\n                      Интернет "),_c('br'),_vm._v("от\n                      Ростелекома\n                    ")]),_vm._v(" "),_c('div',{staticClass:"animated-block-line relative sp-t-1-4 flex-fill"},[_c('div',{staticClass:"animated-block-circle animated-block-circle-fast"},[_c('svg',{attrs:{"width":"40","height":"40","viewBox":"0 0 40 40","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('circle',{attrs:{"cx":"20","cy":"20","r":"14","fill":"#FF4F12"}}),_vm._v(" "),_c('circle',{attrs:{"opacity":"0.2","cx":"20","cy":"20","r":"20","fill":"#FF4F12"}})])])])]),_vm._v(" "),_c('div',{staticClass:"animated-block sp-t-0-4 flex-fill d-flex flex-column"},[_c('div',{staticClass:"animated-block-label rt-font-label-uppercase color-main05 rt-font-center sp-b-1"},[_vm._v("\n                      Обычный "),_c('br'),_vm._v("\n                      Интернет\n                    ")]),_vm._v(" "),_c('div',{staticClass:"animated-block-line relative sp-t-1-4 flex-fill"},[_c('div',{staticClass:"animated-block-circle animated-block-circle-slow"},[_c('svg',{attrs:{"width":"40","height":"40","viewBox":"0 0 40 40","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('circle',{attrs:{"opacity":"0.2","cx":"20","cy":"20","r":"20","fill":"#7B939B"}}),_vm._v(" "),_c('circle',{attrs:{"cx":"20","cy":"20","r":"14","fill":"#7B939B"}})])])])])])])],1)],1)],1)])]),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"color-block--white"},[_c('div',{staticClass:"rt-container sp-v-5  td-sp-v-4 md-sp-v-3-1"},[_c('rt-col',[_c('h2',{staticClass:"font-h2 sp-b-2-2 md-sp-b-1-3 td-sp-b-2"},[_vm._v("Подключить интренет — просто")]),_vm._v(" "),_c('div',{staticClass:"d-flex md-d-block"},[_c('div',{staticClass:"number-block"},[_c('div',{staticClass:"relative"},[_c('div',{staticClass:"number-block-int"},[_vm._v("01")]),_vm._v(" "),_c('div',{staticClass:"font-t-m number-block-text sp-t-2-1"},[_vm._v("Выделяем персонального менеджера для быстрой и\n                    качественной коммуникации\n                  ")])])]),_vm._v(" "),_c('div',{staticClass:"number-block sp-l-2 md-sp-l-none md-sp-t-1-3"},[_c('div',{staticClass:"relative"},[_c('div',{staticClass:"number-block-int"},[_vm._v("02")]),_vm._v(" "),_c('div',{staticClass:"font-t-m number-block-text sp-t-2-1"},[_vm._v("Модернизируем существующую или создаем\n                    необходимую\n                    инфраструктуру\n                  ")])])]),_vm._v(" "),_c('div',{staticClass:"number-block sp-l-2 md-sp-l-none md-sp-t-1-3"},[_c('div',{staticClass:"relative"},[_c('div',{staticClass:"number-block-int"},[_vm._v("03")]),_vm._v(" "),_c('div',{staticClass:"font-t-m number-block-text sp-t-2-1"},[_vm._v("Согласовываем и контролируем метрики, при\n                    необходимости\n                    начинаем с пилотного проекта\n                  ")])])])])])],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-container sp-b-5"},[_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"rt-col"},[_c('div',{staticClass:"intetior"},[_c('img',{staticClass:"intetior-image",attrs:{"src":"/static/images/smart/Intetior.jpg","alt":""}}),_vm._v(" "),_vm._l((_vm.coords),function(coor){return _c('div',{class:['buble', (coor.c[0]/_vm.width*100 < 55 ? 'buble-right' : 'buble-left')],style:({left: coor.c[0]/_vm.width*100+'%',top: coor.c[1]/_vm.height*100+'%'})},[_c('rt-system-icons',{staticClass:"buble__icon",attrs:{"name":"close large","color":"white"}}),_vm._v(" "),_c('div',{staticClass:"buble-popup sp-h-1 sp-v-1-1 round-border color-block--white rt-font-center"},[_c('img',{staticClass:"buble-popup-image",attrs:{"src":coor.image,"alt":""}}),_vm._v(" "),_c('div',{staticClass:"sp-b-1"},[_c('p',{staticClass:"rt-font-h4 sp-b-0-3 sp-t-1"},[_vm._v(_vm._s(coor.label))]),_vm._v(" "),_c('p',{staticClass:"font-t-m color-main05-no-opacity",domProps:{"innerHTML":_vm._s(coor.text)}})]),_vm._v(" "),_c('rt-button',{staticClass:"buble-button",attrs:{"v-rt-scroll-to-on-click":{ 'scrollToId' : coor.scrollTo },"is-block":true,"color":"orange","small":true}},[_vm._v(_vm._s(coor.button)+"\n                ")])],1)],1)})],2)])]),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"homescript"},[_c('div',{staticClass:"rt-container sp-t-5"},[_c('h2',{staticClass:"sp-t-1-3 rt-font-h2 sp-b-1"},[_vm._v("Сценарии Умного дома")]),_vm._v(" "),_c('p',{staticClass:"font-t-l"},[_vm._v("Задавайте любые сценарии действий Умному дому.")]),_vm._v(" "),_c('p',{staticClass:"font-t-l sp-b-2"},[_vm._v("Устройства и датчики будут выполнять все ваши команды так, как удобно вам.")]),_vm._v(" "),_c('div',{staticClass:"d-flex sp-b-3"},[_c('div',{staticClass:"d-flex flex-v-center"},[_c('svg',{attrs:{"width":"80","height":"80","viewBox":"0 0 80 80","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80Z","fill":"#E3E8EC"}}),_vm._v(" "),_c('path',{attrs:{"d":"M54 38.25L54.0175 59.25L26 59.2675V40V38.25V36.5H24.25V59.2675C24.25 60.23 25.02 61 25.9825 61H54.035C54.98 61 55.7675 60.23 55.7675 59.2675V36.5H54.0175V38.25H54Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"d":"M40.0004 19.0176L19.3154 36.0976L20.4354 37.4451L40.0004 21.2751L59.5654 37.4451L60.6854 36.0976L40.0004 19.0176Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"d":"M43.64 46.7375C42.695 45.81 41.4175 45.25 40 45.25C38.5475 45.25 37.235 45.845 36.29 46.79L37.5325 48.0325C38.1625 47.385 39.0375 47 40 47C40.9275 47 41.785 47.3675 42.3975 47.9625L43.64 46.7375Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"d":"M38.7578 49.2573L39.9303 50.4298L41.1553 49.2048C40.8578 48.9248 40.4553 48.7498 40.0003 48.7498C39.5103 48.7498 39.0728 48.9423 38.7578 49.2573Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"d":"M46.1257 44.2525C44.5332 42.7125 42.3807 41.75 40.0007 41.75C37.5857 41.75 35.3982 42.73 33.8057 44.305L35.0482 45.5475C36.3257 44.2875 38.0757 43.5 40.0007 43.5C41.8907 43.5 43.6232 44.27 44.8832 45.495L46.1257 44.2525Z","fill":"#101828"}})]),_vm._v(" "),_vm._m(0)]),_vm._v(" "),_c('div',{staticClass:"d-flex flex-v-center sp-l-1"},[_c('svg',{attrs:{"width":"81","height":"80","viewBox":"0 0 81 80","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M40.5 80C62.5914 80 80.5 62.0914 80.5 40C80.5 17.9086 62.5914 0 40.5 0C18.4086 0 0.5 17.9086 0.5 40C0.5 62.0914 18.4086 80 40.5 80Z","fill":"#E3E8EC"}}),_vm._v(" "),_c('path',{attrs:{"d":"M54.5 38.25V40V59.25H26.5V40V38.25V36.5H24.75V59.25C24.75 60.2125 25.5375 61 26.5 61H54.5C55.4625 61 56.25 60.2125 56.25 59.25V36.5H54.5V38.25Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"d":"M40.5004 19.0176L19.8154 36.0976L20.9354 37.4451L40.5004 21.2751L60.0654 37.4451L61.1854 36.0976L40.5004 19.0176Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M30 44.6551C30 44.2001 30.315 43.7976 30.7525 43.6751L32.625 43.1676C32.8175 42.4676 33.0975 41.7851 33.4475 41.1726L32.485 39.5101C32.2575 39.1076 32.3275 38.6176 32.6425 38.2851L33.5175 37.4101C33.71 37.2176 33.9725 37.1126 34.235 37.1126C34.41 37.1126 34.585 37.1651 34.7425 37.2526L36.4225 38.2151C37.035 37.8651 37.7175 37.5851 38.4175 37.3926L38.9075 35.5201C39.03 35.0826 39.4325 34.7676 39.8875 34.7676H41.13C41.585 34.7676 41.9875 35.0826 42.11 35.5201L42.6175 37.3751C43.3175 37.5676 44 37.8476 44.6125 38.1976L46.275 37.2351C46.4325 37.1476 46.6075 37.0951 46.7825 37.0951C47.045 37.0951 47.3075 37.2001 47.5 37.3926L48.375 38.2676C48.69 38.6001 48.76 39.0901 48.5325 39.4926L47.57 41.1551C47.9375 41.7676 48.2175 42.4326 48.41 43.1501L50.265 43.6401C50.7025 43.7626 51.0175 44.1651 51.0175 44.6201V45.8626C51.0175 46.3176 50.7025 46.7201 50.265 46.8426L48.41 47.3326C48.2175 48.0501 47.955 48.7151 47.5875 49.3451L48.55 51.0076C48.7775 51.4101 48.7075 51.9001 48.3925 52.2326L47.5175 53.1076C47.325 53.3001 47.0625 53.4051 46.8 53.4051C46.625 53.4051 46.45 53.3526 46.2925 53.2651L44.63 52.3026C44 52.6701 43.335 52.9501 42.6175 53.1426L42.1275 54.9976C42.005 55.4351 41.6025 55.7501 41.1475 55.7501H39.905C39.45 55.7501 39.0475 55.4351 38.925 54.9976L38.4175 53.1426C37.7 52.9501 37.035 52.6876 36.405 52.3201L34.7425 53.2826C34.585 53.3701 34.41 53.4226 34.235 53.4226C33.9725 53.4226 33.71 53.3176 33.5175 53.1251L32.6425 52.2501C32.3275 51.9176 32.2575 51.4276 32.485 51.0251L33.4475 49.3626C33.0975 48.7501 32.8175 48.0676 32.625 47.3676L30.7525 46.8776C30.315 46.7551 30 46.3526 30 45.8976V44.6551ZM34.1825 43.5701L33.9375 44.4801L33.045 44.7776L31.6275 45.1626V45.4776L33.045 45.8451L33.955 46.0901L34.2 47.0001C34.3575 47.5601 34.5675 48.1026 34.865 48.5926L35.3375 49.3976L34.865 50.2026L34.13 51.4626L34.3575 51.6901L35.6175 50.9551L36.4225 50.4826L37.2275 50.9551C37.735 51.2526 38.2775 51.4626 38.8375 51.6201L39.7475 51.8651L39.9925 52.7751L40.3775 54.1751H40.6925L41.06 52.7751L41.305 51.8651L42.215 51.6201C42.7925 51.4801 43.3175 51.2526 43.825 50.9551L44.63 50.4826L45.435 50.9551L46.695 51.6726L46.9225 51.4451L46.1875 50.1851L45.715 49.3801L46.1875 48.5751C46.485 48.0676 46.695 47.5251 46.8525 46.9651L47.0975 46.0551L48.0075 45.8101L49.4075 45.4251V45.1101L47.99 44.7426L47.08 44.4976L46.835 43.5876C46.695 43.0101 46.4675 42.4851 46.17 41.9776L45.6975 41.1726L46.17 40.3676L46.905 39.1076L46.6775 38.8801L45.4175 39.6151L44.6125 40.0876L43.8075 39.6151C43.3 39.3176 42.7575 39.0901 42.1975 38.9501L41.2875 38.7051L41.0425 37.7951L40.6575 36.3776H40.3425L39.975 37.7951L39.73 38.7051L38.82 38.9501C38.26 39.1076 37.7175 39.3176 37.2275 39.6151L36.4225 40.0876L35.6175 39.6151L34.34 38.8801L34.1125 39.1076L34.8475 40.3676L35.32 41.1726L34.8475 41.9776C34.55 42.4676 34.3225 43.0101 34.1825 43.5701Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M44.5954 45.2504C44.5954 47.5079 42.7754 49.3454 40.5179 49.3454C38.2604 49.3454 36.4229 47.5254 36.4229 45.2679C36.4229 43.0104 38.2429 41.1729 40.5004 41.1729C42.7579 41.1729 44.5954 42.9929 44.5954 45.2504ZM42.9679 45.2504C42.9679 43.8854 41.8654 42.7829 40.5004 42.7829C39.1354 42.7829 38.0329 43.9029 38.0329 45.2504C38.0329 46.6154 39.1354 47.7179 40.5004 47.7179C41.8654 47.7179 42.9679 46.6154 42.9679 45.2504Z","fill":"#101828"}})]),_vm._v(" "),_vm._m(1)]),_vm._v(" "),_c('div',{staticClass:"d-flex flex-v-center sp-l-1"},[_c('svg',{attrs:{"width":"80","height":"80","viewBox":"0 0 80 80","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80Z","fill":"#E3E8EC"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M27.8375 19H52.1625C53.1775 19 54 19.8225 54 20.8375V59.1625C54 60.1775 53.1775 61 52.1625 61H27.8375C26.8225 61 26 60.1775 26 59.1625V20.8375C26 19.8225 26.8225 19 27.8375 19ZM52.25 20.8375C52.25 20.785 52.215 20.75 52.1625 20.75H27.8375C27.785 20.75 27.75 20.785 27.75 20.8375V59.1625C27.75 59.215 27.785 59.25 27.8375 59.25H52.1625C52.215 59.25 52.25 59.215 52.25 59.1625V20.8375Z","fill":"#101828"}}),_vm._v(" "),_c('path',{attrs:{"d":"M40 57.5C40.4725 57.5 40.875 57.115 40.875 56.625C40.875 56.135 40.4725 55.75 40 55.75C39.5275 55.75 39.125 56.135 39.125 56.625C39.125 57.115 39.5275 57.5 40 57.5Z","fill":"#101828"}}),_vm._v(" "),_c('rect',{attrs:{"x":"26","y":"52.25","width":"28","height":"1.75","fill":"#101828"}})]),_vm._v(" "),_vm._m(2)])]),_vm._v(" "),_c('div',{staticClass:"homescript-slider"},[_c('div',{staticClass:"homescript-slider-images"},[_c('img',{staticClass:"homescript-image-main",attrs:{"id":"img1","src":"/static/images/smart/img1.jpg","alt":""}}),_vm._v(" "),_c('img',{staticClass:"homescript-image",attrs:{"id":"img2","src":"/static/images/smart/img2.jpg","alt":""}}),_vm._v(" "),_c('img',{staticClass:"homescript-image",attrs:{"id":"img3","src":"/static/images/smart/img3.jpg","alt":""}}),_vm._v(" "),_c('img',{staticClass:"homescript-image",attrs:{"id":"img4","src":"/static/images/smart/img4.jpg","alt":""}}),_vm._v(" "),_c('img',{staticClass:"homescript-image",attrs:{"id":"img5","src":"/static/images/smart/img5.jpg","alt":""}}),_vm._v(" "),_c('div',{staticClass:"homescript-slider-nav d-flex"},[_c('div',{staticClass:"homescript-slider-block flex-fill"},[_c('div',{staticClass:"homescript-slider-link"},[_c('div',{staticClass:"homescript-header"},[_c('p',{staticClass:"font-h3"},[_vm._v("Я просыпаюсь")]),_vm._v(" "),_c('rt-system-icons',{staticClass:"homescript-slider-back",attrs:{"name":"arrow right","color":"white"}})],1),_vm._v(" "),_c('div',{staticClass:"homescript-body"},[_c('p',{staticClass:"sp-t-1-2 homescript-body-text"},[_vm._v("Каждое утро в указанное время по сценарию Умного дома\n                          с помощью датчика реле открываются шторы, включается умная розетка кофемашины, а умная\n                          колонка «Маруся» включает музыку из вашего плейлиста.")]),_vm._v(" "),_c('div',{staticClass:"homescript-slider-go-back rt-sys-icon-hover--orange"},[_c('rt-system-icons',{attrs:{"name":"arrow left","color":"white"}})],1)])])]),_vm._v(" "),_c('div',{staticClass:"homescript-slider-block flex-fill"},[_c('div',{staticClass:"homescript-slider-link"},[_c('div',{staticClass:"homescript-header"},[_c('p',{staticClass:"font-h3"},[_vm._v("Я смотрю кино")]),_vm._v(" "),_c('rt-system-icons',{staticClass:"homescript-slider-back",attrs:{"name":"arrow right","color":"white"}})],1),_vm._v(" "),_c('div',{staticClass:"homescript-body"},[_c('p',{staticClass:"sp-t-1-2 homescript-body-text"},[_vm._v("Каждое утро в указанное время по сценарию Умного дома\n                          с помощью датчика реле открываются шторы, включается умная розетка кофемашины, а умная\n                          колонка «Маруся» включает музыку из вашего плейлиста.")]),_vm._v(" "),_c('div',{staticClass:"homescript-slider-go-back rt-sys-icon-hover--orange"},[_c('rt-system-icons',{attrs:{"name":"arrow left","color":"white"}})],1)])])]),_vm._v(" "),_c('div',{staticClass:"homescript-slider-block flex-fill"},[_c('div',{staticClass:"homescript-slider-link"},[_c('div',{staticClass:"homescript-header"},[_c('p',{staticClass:"font-h3"},[_vm._v("Я дома")]),_vm._v(" "),_c('rt-system-icons',{staticClass:"homescript-slider-back",attrs:{"name":"arrow right","color":"white"}})],1),_vm._v(" "),_c('div',{staticClass:"homescript-body"},[_c('p',{staticClass:"sp-t-1-2 homescript-body-text"},[_vm._v("Каждое утро в указанное время по сценарию Умного дома\n                          с помощью датчика реле открываются шторы, включается умная розетка кофемашины, а умная\n                          колонка «Маруся» включает музыку из вашего плейлиста.")]),_vm._v(" "),_c('div',{staticClass:"homescript-slider-go-back rt-sys-icon-hover--orange"},[_c('rt-system-icons',{attrs:{"name":"arrow left","color":"white"}})],1)])])]),_vm._v(" "),_c('div',{staticClass:"homescript-slider-block flex-fill"},[_c('div',{staticClass:"homescript-slider-link"},[_c('div',{staticClass:"homescript-header"},[_c('p',{staticClass:"font-h3"},[_vm._v("Я в отпуске")]),_vm._v(" "),_c('rt-system-icons',{staticClass:"homescript-slider-back",attrs:{"name":"arrow right","color":"white"}})],1),_vm._v(" "),_c('div',{staticClass:"homescript-body"},[_c('p',{staticClass:"sp-t-1-2 homescript-body-text"},[_vm._v("Каждое утро в указанное время по сценарию Умного дома\n                          с помощью датчика реле открываются шторы, включается умная розетка кофемашины, а умная\n                          колонка «Маруся» включает музыку из вашего плейлиста.")]),_vm._v(" "),_c('div',{staticClass:"homescript-slider-go-back rt-sys-icon-hover--orange"},[_c('rt-system-icons',{attrs:{"name":"arrow left","color":"white"}})],1)])])])])])])])])])])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',{staticClass:"sp-l-1-1 font-t-m color-main085-no-opacity"},[_vm._v("Настройте Умный дом под режим дня и "),_c('br'),_vm._v("\n                  привычки")])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',{staticClass:"sp-l-1-1 font-t-m color-main085-no-opacity"},[_vm._v("Система запоминает все сценарии "),_c('br'),_vm._v(" действий\n                ")])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',{staticClass:"sp-l-1-1 font-t-m color-main085-no-opacity"},[_vm._v("Создавайте любые варианты "),_c('br'),_vm._v(" сценариев ")])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"ld-mygame color-white"},[_c('div',{staticClass:"block"},[_c('div',{staticClass:"game-slider  relative"},[_c('div',{staticClass:"game-slider-line-wrapper game-slider-padding"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-3 rt-col-td-3 rt-col-md-3"},[_c('h1',{staticClass:"rt-font-h1"},[_vm._v("Технологии победы")]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('div',{staticClass:"d-flex rt-dark-theme flex-v-center"},[_c('rt-price',{staticClass:"nowrap",attrs:{"v2":true,"value":750.2}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-3 sp-r-0-3"},[_c('svg',{attrs:{"width":"24","height":"37","viewBox":"0 0 24 37","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M2 35.641L22 1","stroke":"white","stroke-width":"3"}})])]),_vm._v(" "),_c('rt-price',{staticClass:"nowrap",attrs:{"v2":true,"value":750.2,"currency":"Мбит","time-interval":"сек"}})],1),_vm._v(" "),_c('div',{staticClass:"sp-t-2 td-sp-t-1-1"},[_c('rt-button',{directives:[{name:"rt-scroll-to-on-click",rawName:"v-rt-scroll-to-on-click",value:({scrollToId: 'form'}),expression:"{scrollToId: 'form'}"}],attrs:{"color":"orange"}},[_vm._v("Подключить\n                      ")])],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-1"}),_vm._v(" "),_c('div',{staticClass:"rt-col-8"})])]),_vm._v(" "),_vm._m(1),_vm._v(" "),_c('div',{staticClass:"game-slider-line1"},[_c('svg',{staticClass:"td-d-none",attrs:{"width":"100%","height":"100%","viewBox":"0 0 1956 870","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M1108.5 753.5L1000.5 861.5H705.5L341 497H246H84.5L-82 330.5H-287H-535.5L-611 255H-921.5","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M560.5 810L341 590.5H-174L-317 733.5H-709.5L-969.5 473.5","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M1955 701L1610.5 356.5H1134.5L926 148H219L102.5 31.5H-119.5L-196 -45H-526.5L-576 -94.5H-707.5","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M769 762L983 762","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M769 785L919 785","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M252 716H640.5L732.5 808","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M762 248L451.175 248L307 104L107.5 104L-120.5 104L-205.5 189L-417.5 189L-566 40.5","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M725 862H914L922 870H733L725 862Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M527 248L519 240H511L519 248H527Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M532 240L540 248H532L524 240H532Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M537 240H545L553 248H545L537 240Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M558 248L550 240H558L566 248H558Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M571 240H563L571 248H579L571 240Z","fill":"#FF4F12"}}),_vm._v(" "),_c('rect',{attrs:{"x":"755","y":"754.5","width":"8","height":"8","fill":"#FF4F12"}}),_vm._v(" "),_c('rect',{attrs:{"x":"735","y":"754.5","width":"16","height":"8","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M423 183H320V191H415L423 183Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M427 183L419 191H627L635 183H427Z","fill":"#FF4F12"}})]),_vm._v(" "),_c('svg',{staticClass:"d-none td-d-block md-d-none",attrs:{"width":"100%","height":"100%","viewBox":"0 0 301 460","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M41.8889 78.7683L37.5657 74.4479H33.2424L37.5657 78.7683H41.8889Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M44.5909 74.4479L48.9141 78.7683H44.5909L40.2677 74.4479H44.5909Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M47.2929 74.4479H51.6162L55.9394 78.7683H51.6162L47.2929 74.4479Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M58.6414 78.7683L54.3182 74.4479H58.6414L62.9646 78.7683H58.6414Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M65.6667 74.4479H61.3434L65.6667 78.7683H69.9899L65.6667 74.4479Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M168.884 78.7683L0.912593 78.7684L-77 1.00001","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M-166.409 257.708H-115.071L81.9064 454.559H241.326L299.689 396.233","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M116.222 415.051L231.868 415.051","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M116.222 427.472L197.282 427.472","stroke":"#FF4F12"}}),_vm._v(" "),_c('rect',{attrs:{"x":"108.656","y":"411","width":"4.32323","height":"4.32047","fill":"#FF4F12"}}),_vm._v(" "),_c('rect',{attrs:{"x":"97.8483","y":"411","width":"8.64646","height":"4.32047","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M92.4443 454.829H194.581L198.904 459.15H96.7676L92.4443 454.829Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M-14.3132 43.6646H-69.9747V47.985H-18.6364L-14.3132 43.6646Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M-12.1515 43.6646L-16.4748 47.985H95.9292L100.252 43.6646H-12.1515Z","fill":"#FF4F12"}})]),_vm._v(" "),_c('svg',{staticClass:"md-d-block d-none",attrs:{"width":"100%","height":"100%","viewBox":"0 0 360 303","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('mask',{attrs:{"id":"mask0","mask-type":"alpha","maskUnits":"userSpaceOnUse","x":"0","y":"0","width":"360","height":"303"}},[_c('rect',{attrs:{"width":"360","height":"303","fill":"#C4C4C4"}})]),_vm._v(" "),_c('g',{attrs:{"mask":"url(#mask0)"}},[_c('path',{attrs:{"d":"M-329 110.281H-290.546L-143.005 257.728H-23.5957L20.1202 214.04","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M227.164 276.706L230.402 273.47H233.64L230.402 276.706H227.164Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M225.14 273.47L221.902 276.706H225.14L228.378 273.47H225.14Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M223.116 273.47H219.878L216.64 276.706H219.878L223.116 273.47Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M214.616 276.706L217.854 273.47H214.616L211.377 276.706H214.616Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M209.354 273.47H212.592L209.354 276.706H206.115L209.354 273.47Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M339.287 161.419L423.683 245.761H616.357","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M458.549 263.964H527.103V267.605H460.058L424.64 303H272.904L276.142 299.359H423.131L458.549 263.964Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M272.904 2.64511H423.885L459.303 -32.7502H527.103","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M400.292 253.759H336.289L330.033 247.986H185.471","stroke":"#FF4F12","stroke-width":"1.02519","stroke-miterlimit":"10"}}),_vm._v(" "),_c('path',{attrs:{"d":"M162.399 273.47L299.619 273.47","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M93.1736 26.2506L-32.6413 26.2506L-91 -32","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M-44.0459 -0.0430546H-85.7379V3.19309H-47.2841L-44.0459 -0.0430546Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M-42.4268 -0.0430546L-45.665 3.19309H38.5286L41.7669 -0.0430546H-42.4268Z","fill":"#FF4F12"}})])])]),_vm._v(" "),_c('div',{staticClass:"game-slider-line2 md-d-none"},[_c('svg',{attrs:{"width":"100%","height":"100%","viewBox":"0 0 780 831","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M160 766L168 758H176L168 766H160Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M155 758L147 766H155L163 758H155Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M150 758H142L134 766H142L150 758Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M129 766L137 758H129L121 766H129Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M116 758H124L116 766H108L116 758Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M437 481L645.5 689.5H1121.5","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M731.636 734.5H901V743.5H735.364L647.864 831H273L281 822H644.136L731.636 734.5Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M273 88.5H646L733.5 1H901","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M587.714 709.273H429.594L414.14 695H57","stroke":"#FF4F12","stroke-width":"1.02519","stroke-miterlimit":"10"}}),_vm._v(" "),_c('path',{attrs:{"d":"M0 758L339 758","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M613 365H1001.5","stroke":"#FF4F12"}})])])])])])])])]),_vm._v(" "),_vm._m(2),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"sp-t-5-4  td-sp-t-4 md-sp-t-3 block sp-b-0-1 td-sp-b-none rt-dark-theme"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col"},[_c('div',{staticClass:"row"},[_vm._m(3),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-td-6"},[_c('div',{staticClass:"game-image"},[_c('div',{staticClass:"game-image-wrapper"},[_c('rt-img',{staticClass:"game-image-tag-pseudo",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image1.jpg","td-src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image1-td.jpg","md-src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image1-md.jpg","alt":""}}),_vm._v(" "),_c('rt-img',{staticClass:"game-image-tag",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image1.jpg","td-src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image1-td.jpg","md-src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image1-md.jpg","alt":""}}),_vm._v(" "),_c('svg',{staticClass:"game-image-line",attrs:{"height":"8","viewBox":"0 0 467 8","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M156.5 4L160.5 0H306.5L310.5 4H467V8H0V4H156.5Z"}})]),_vm._v(" "),_c('div',{staticClass:"game-image-content rt-font-small-paragraph"},[_c('div',[_c('img',{staticClass:"game-image-logo",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/logo1.png"}}),_vm._v(" "),_c('div',{staticClass:"sp-t-1-2 md-sp-t-1"},[_vm._m(4),_vm._v(" "),_c('span',{staticClass:"dot d-none td-d-inline-flex md-d-none sp-h-0-4 md-sp-h-0-3"}),_vm._v(" "),_vm._m(5),_vm._v(" "),_c('div',{staticClass:"game-image-footer"},[_c('a',{attrs:{"target":"_blank","href":"/my.games"}},[_c('rt-button',{attrs:{"color":"full-white"}},[_vm._v("Узнать больше")])],1)])])])])],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-td-6 td-sp-t-1-3 md-sp-t-1-1"},[_c('div',{staticClass:"game-image"},[_c('div',{staticClass:"game-image-wrapper"},[_c('rt-img',{staticClass:"game-image-tag-pseudo",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image2.jpg","td-src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image2-td.jpg","md-src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image2-md.jpg","alt":""}}),_vm._v(" "),_c('rt-img',{staticClass:"game-image-tag",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image2.jpg","td-src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image2-td.jpg","md-src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image2-md.jpg","alt":""}}),_vm._v(" "),_c('svg',{staticClass:"game-image-line",attrs:{"height":"8","viewBox":"0 0 467 8","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M156.5 4L160.5 0H306.5L310.5 4H467V8H0V4H156.5Z"}})]),_vm._v(" "),_c('div',{staticClass:"game-image-content rt-font-small-paragraph"},[_c('div',[_c('img',{staticClass:"game-image-logo",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/logo2.png"}}),_vm._v(" "),_c('div',{staticClass:"sp-t-1-2 md-sp-t-1"},[_vm._m(6),_vm._v(" "),_c('span',{staticClass:"dot d-none td-d-inline-flex md-d-none sp-h-0-4 md-sp-h-0-3"}),_vm._v(" "),_vm._m(7),_vm._v(" "),_c('div',{staticClass:"game-image-footer"},[_c('a',{attrs:{"target":"_blank","href":"/wargaming"}},[_c('rt-button',{attrs:{"color":"full-white"}},[_vm._v("Узнать больше")])],1)])])])])],1)])]),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-td-6 td-sp-t-1-3 md-sp-t-1-1"},[_c('div',{staticClass:"game-image"},[_c('div',{staticClass:"game-image-wrapper"},[_c('rt-img',{staticClass:"game-image-tag-pseudo",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image3.jpg","td-src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image3-td.jpg","md-src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image3-md.jpg","alt":""}}),_vm._v(" "),_c('rt-img',{staticClass:"game-image-tag",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image3.jpg","td-src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image3-td.jpg","md-src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/image3-md.jpg","alt":""}}),_vm._v(" "),_c('svg',{staticClass:"game-image-line",attrs:{"height":"8","viewBox":"0 0 467 8","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M156.5 4L160.5 0H306.5L310.5 4H467V8H0V4H156.5Z"}})]),_vm._v(" "),_c('div',{staticClass:"game-image-content rt-font-small-paragraph"},[_c('div',[_c('img',{staticClass:"game-image-logo",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/logo3.png"}}),_vm._v(" "),_c('div',{staticClass:"sp-t-1-2 md-sp-t-1"},[_vm._m(8),_vm._v(" "),_c('span',{staticClass:"dot d-none td-d-inline-flex md-d-none sp-h-0-4 md-sp-h-0-3"}),_vm._v(" "),_vm._m(9),_vm._v(" "),_c('div',{staticClass:"game-image-footer"},[_c('a',{attrs:{"target":"_blank","href":"/4game"}},[_c('rt-button',{attrs:{"color":"full-white"}},[_vm._v("Узнать больше")])],1)])])])])],1)])])])])])])]),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"block rt-dark-theme sp-t-5-4 td-sp-t-4 md-sp-t-3 sp-b-0-1 td-sp-b-none"},[_c('div',{staticClass:"game-form",attrs:{"id":"form"}},[_c('div',{staticClass:"game-slider-line-wrapper"},[_c('div',{staticClass:"game-form-line td-d-none"},[_c('svg',{attrs:{"width":"1685","height":"688","viewBox":"0 0 1685 688","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M472 24L464 16H456L464 24H472Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M477 16L485 24H477L469 16H477Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M482 16H490L498 24H490L482 16Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M503 24L495 16H503L511 24H503Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M516 16H508L516 24H524L516 16Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M299 597.372L316.697 597.372L316.697 590.019L299 590.019L299 597.372Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M338.855 595.255L366.749 595.255L366.749 590.019L338.855 590.019L338.855 595.255Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M392.313 601.298L478.183 601.298L478.183 590L392.313 590L392.313 601.298Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M379.829 601.298L387.429 601.298L387.429 590L379.829 590L379.829 601.298Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M0 150L18 150L18 143L6.11959e-07 143L0 150Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M61.5 538H568.129L717.538 687.306H949.5L1003 633.806H1522.5","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M136.5 375H697.188L828.717 243H1278L1347 174H1581.5L1585 176","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M249.5 24H810.188L941.717 156H1282.5L1414.5 24H1684.5","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M-1.45122e-05 150L98.5 150L264.502 316L1128 316L1247 197L1670 197","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M804.5 488L419.5 488","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M520.5 637.5L567 591L708 591L770 529L1108 529L1231.5 405.5L1536 405.5","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M949 430H630","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M687.5 211H344L277.5 277.5","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M560 255.5L626.5 189H1104L1191 102H1516.5L1617.5 1","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M363 203H552L560 211H371L363 203Z","fill":"#FF4F12"}}),_vm._v(" "),_c('rect',{attrs:{"x":"829.5","y":"235.5","width":"57","height":"7","fill":"#FF4F12","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M594.207 374.5L587.207 367.5H696.5V374.5H594.207Z","fill":"#FF4F12","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M697.5 373.793V367.207L828.5 236.207V242.793L697.5 373.793Z","fill":"#FF4F12","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M811 537L803 537L795 529H803L811 537Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M824 537L816 537L808 529H816L824 537Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M829 537L837 537L829 529H821L829 537Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M850 537L842 537L834 529H842L850 537Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M855 537L863 537L855 529H847L855 537Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M699 104H592L600 112H707L699 104Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M703 104L711 112H835L827 104H703Z","fill":"#FF4F12"}})])])]),_vm._v(" "),_c('div',{staticClass:"rt-container rt-layer-level-3 relative"},[_c('div',{staticClass:"rt-col"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-td-6"},[_c('h2',{staticClass:"rt-font-h2 sp-b-1-3"},[_vm._v("Заявка на подключение")]),_vm._v(" "),_c('order-form',{staticClass:"rt-md-reverse-left-half",attrs:{"lcs":"active","scope":"form-3","offer-id":[{offerIds: [406154643890, 413844976190, 401926242990, 403877433490, 406718142390, 403794182990, 405392333590, 405721511590, 414606512732, 401908075090]}],"prevent-send":[{ regionIds: _vm.mrfCenter, preventSend: true }]}},[_c('rt-checkbox-tabs',[_c('rt-template',{attrs:{"slot":"label"},slot:"label"},[_c('span',[_vm._v("У меня уже есть Домашний интернет от Ростелекома")])]),_vm._v(" "),_c('rt-template',{attrs:{"slot":"content"},slot:"content"},[_c('form',{attrs:{"data-vv-scope":"form-3"},on:{"submit":function($event){$event.preventDefault();}}},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3"},[_c('full-name',{staticClass:"text-field--orange"})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 md-sp-t-1-3"},[_c('client-phone',{staticClass:"text-field--orange"})],1)]),_vm._v(" "),_c('div',{staticClass:"sp-t-2 md-sp-t-1-3 d-flex"},[_c('span',{staticClass:"rt-font-h4 rt-font-bold"},[_vm._v("Ваш город   ")]),_vm._v(" "),_c('location')],1),_vm._v(" "),_c('div',{staticClass:"sp-t-1-3 md-sp-t-1-2"},[_c('street',{staticClass:"text-field--orange"})],1),_vm._v(" "),_c('div',{staticClass:"sp-t-1-3 row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3"},[_c('house',{staticClass:"text-field--orange"})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 md-sp-t-1-3"},[_c('apartment',{staticClass:"text-field--orange"})],1)]),_vm._v(" "),_c('div',{staticClass:"sp-t-2"},[_c('agree',{staticClass:"checkbox-orange"})],1),_vm._v(" "),_c('div',{staticClass:"sp-t-2"},[_c('div',{staticClass:"d-flex flex-v-center"},[_c('submit-button',{staticClass:"rt-button rt-button-orange"},[_vm._v("Подключить")]),_vm._v(" "),_c('div',{staticClass:"sp-l-1"},[_c('rt-price',{staticClass:"nowrap",attrs:{"v2":true,"value":750.2}})],1)],1)])])]),_vm._v(" "),_c('rt-template',{attrs:{"slot":"content"},slot:"content"},[_c('div',{staticClass:"rt-space-top2"},[_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Подключите тариф и активируйте игровую опцию в Личном\n                          кабинете")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2"},[_c('a',{staticClass:"button-link-game",attrs:{"target":"_blank","href":"http://lk.rt.ru/"}},[_c('rt-button',{staticClass:"rt-button-full-white"},[_vm._v("Войти")])],1)])])])],1)],1)],1)])])])])])]),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"block rt-dark-theme sp-t-5-4 td-sp-t-4 md-sp-t-3 sp-b-0-1 td-sp-b-none"},[_c('div',{staticClass:"game-form",attrs:{"id":"form"}},[_c('div',{staticClass:"game-form-line td-d-none"},[_c('svg',{attrs:{"width":"1685","height":"688","viewBox":"0 0 1685 688","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M472 24L464 16H456L464 24H472Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M477 16L485 24H477L469 16H477Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M482 16H490L498 24H490L482 16Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M503 24L495 16H503L511 24H503Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M516 16H508L516 24H524L516 16Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M299 597.372L316.697 597.372L316.697 590.019L299 590.019L299 597.372Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M338.855 595.255L366.749 595.255L366.749 590.019L338.855 590.019L338.855 595.255Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M392.313 601.298L478.183 601.298L478.183 590L392.313 590L392.313 601.298Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M379.829 601.298L387.429 601.298L387.429 590L379.829 590L379.829 601.298Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M0 150L18 150L18 143L6.11959e-07 143L0 150Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M61.5 538H568.129L717.538 687.306H949.5L1003 633.806H1522.5","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M136.5 375H697.188L828.717 243H1278L1347 174H1581.5L1585 176","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M249.5 24H810.188L941.717 156H1282.5L1414.5 24H1684.5","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M-1.45122e-05 150L98.5 150L264.502 316L1128 316L1247 197L1670 197","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M804.5 488L419.5 488","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M520.5 637.5L567 591L708 591L770 529L1108 529L1231.5 405.5L1536 405.5","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M949 430H630","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M687.5 211H344L277.5 277.5","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M560 255.5L626.5 189H1104L1191 102H1516.5L1617.5 1","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M363 203H552L560 211H371L363 203Z","fill":"#FF4F12"}}),_vm._v(" "),_c('rect',{attrs:{"x":"829.5","y":"235.5","width":"57","height":"7","fill":"#FF4F12","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M594.207 374.5L587.207 367.5H696.5V374.5H594.207Z","fill":"#FF4F12","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M697.5 373.793V367.207L828.5 236.207V242.793L697.5 373.793Z","fill":"#FF4F12","stroke":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M811 537L803 537L795 529H803L811 537Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M824 537L816 537L808 529H816L824 537Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M829 537L837 537L829 529H821L829 537Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M850 537L842 537L834 529H842L850 537Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M855 537L863 537L855 529H847L855 537Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M699 104H592L600 112H707L699 104Z","fill":"#FF4F12"}}),_vm._v(" "),_c('path',{attrs:{"d":"M703 104L711 112H835L827 104H703Z","fill":"#FF4F12"}})])]),_vm._v(" "),_c('div',{staticClass:"rt-container rt-layer-level-3 relative"},[_c('div',{staticClass:"rt-col"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-td-6"},[_c('h2',{staticClass:"rt-font-h2 sp-b-1-3"},[_vm._v("Заявка на подключение")]),_vm._v(" "),_c('onlime-order-form',{staticClass:"rt-md-reverse-left-half",attrs:{"lcs":"active","scope":"form-3","offer-id":[{offerIds: [415327537002]}]}},[_c('rt-checkbox-tabs',[_c('rt-template',{attrs:{"slot":"label"},slot:"label"},[_c('span',[_vm._v("У меня уже есть Домашний интернет от Ростелекома")])]),_vm._v(" "),_c('rt-template',{attrs:{"slot":"content"},slot:"content"},[_c('form',{attrs:{"data-vv-scope":"form-3"},on:{"submit":function($event){$event.preventDefault();}}},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3"},[_c('full-name',{staticClass:"text-field--orange"})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 md-sp-t-1-3"},[_c('client-phone',{staticClass:"text-field--orange"})],1)]),_vm._v(" "),_c('div'),_vm._v(" "),_c('div',{staticClass:"sp-t-2 md-sp-t-1-3 d-flex"},[_c('span',{staticClass:"rt-font-h4 rt-font-bold"},[_vm._v("Ваш город   ")]),_vm._v(" "),_c('location')],1),_vm._v(" "),_c('try-another-address'),_vm._v(" "),_c('div',{staticClass:"sp-t-1-3"},[_c('street',{staticClass:"text-field--orange"})],1),_vm._v(" "),_c('div',{staticClass:"sp-t-1-3 row"},[_c('div',{staticClass:"rt-col-6 rt-col-md-3"},[_c('house',{staticClass:"text-field--orange"})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 md-sp-t-1-3"},[_c('floor',{staticClass:"text-field--purple"})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 sp-t-1-3"},[_c('entrance',{staticClass:"text-field--purple"})],1),_vm._v(" "),_c('div',{staticClass:"rt-col-6 rt-col-md-3 sp-t-1-3"},[_c('apartment',{staticClass:"text-field--orange"})],1)]),_vm._v(" "),_c('div',{staticClass:"sp-t-2"},[_c('agree',{staticClass:"checkbox-orange"})],1),_vm._v(" "),_c('div',{staticClass:"sp-t-2"},[_c('div',{staticClass:"d-flex flex-v-center"},[_c('submit-button',{staticClass:"rt-button rt-button-orange"},[_vm._v("Подключить")]),_vm._v(" "),_c('div',{staticClass:"sp-l-1"},[_c('rt-price',{staticClass:"nowrap",attrs:{"v2":true,"value":750.2}})],1)],1)])],1)]),_vm._v(" "),_c('rt-template',{attrs:{"slot":"content"},slot:"content"},[_c('div',{staticClass:"rt-space-top2"},[_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Подключите тариф и активируйте игровую опцию в Личном\n                          кабинете")]),_vm._v(" "),_c('div',{staticClass:"rt-space-top2"},[_c('a',{staticClass:"button-link-game",attrs:{"target":"_blank","href":"http://lk.rt.ru/"}},[_c('rt-button',{staticClass:"rt-button-full-white"},[_vm._v("Войти")])],1)])])])],1)],1)],1)])])])])])]),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"block sp-b-4 md-sp-t-3 td-sp-t-4"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col"},[_c('div',{staticClass:"row"},[_vm._m(10),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-td-6"},[_c('div',{staticClass:"game-border-card"},[_c('svg',{staticClass:"game-border-card-lines",attrs:{"width":"243","height":"289","viewBox":"0 0 243 289"}},[_c('g',{staticStyle:{"mix-blend-mode":"soft-light"}},[_c('path',{attrs:{"d":"M185.951 262.474L183.27 265.155H180.09L182.771 262.474H98V261.474H320.683L371.882 210.092H222.118L219.437 212.772H144.304L146.984 210.092H136.543L109.961 183.51L110.668 182.802L136.958 209.092H233.734L208.151 183.51L208.859 182.802L235.148 209.092H372.878L372.97 209H401.316V210H376.263V210.092H373.294L321.098 262.474H206.622L203.942 265.155H200.762L203.442 262.474H201.454L198.774 265.155H195.594L198.274 262.474H196.287L193.606 265.155H190.426L193.106 262.474H191.119L188.438 265.155H185.258L187.938 262.474H185.951Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M0 227.878H7.03496L7.03495 225.595L39.3639 225.595L105.355 159.605L297.853 159.605L329.553 191.305H352.61V188.625H374.673V187.625H329.648L301.728 159.605H383.816V158.605H300.732L277.361 135.151H54.263V136.151H235.634L232.953 138.832H277.079L296.853 158.605L104.941 158.605L38.9497 224.595L2.47485e-05 224.595L0 227.878Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M190.093 45.6907H155.957L155.957 50.1822H190.093V45.6907Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M118.862 47.2517H125.897V50.1744H118.862V47.2517Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M134.706 48.093H145.794V50.1743H134.706V48.093Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M150.994 45.6907H154.015V50.1822H150.994V45.6907Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M232.194 36.3536H31V37.3536H232.608L292.002 -22H384.007V-23H291.588L232.194 36.3536Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M297.989 91.23H319.814V90.23H296.989L275.098 68.3387H219.046L200.707 50L200 50.7071L218.632 69.3387H274.684L295.575 90.23L166.764 90.23V91.23L296.575 91.23L299.33 93.9857H366.72L366.72 92.9857H299.745L297.989 91.23Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M250.444 114.287H377.257V113.287H250.444V114.287Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M319.217 71.2512H322.397L319.217 74.4315H316.037L319.217 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M327.565 71.2512H324.385L321.205 74.4315H324.385L327.565 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M329.553 71.2512H332.733L329.553 74.4315H326.373L329.553 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M337.901 71.2512H334.721L331.541 74.4315H334.721L337.901 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M343.069 71.2512H339.889L336.709 74.4315H339.889L343.069 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M183 251.18H225.536L228.716 248H186.18L183 251.18Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M230.306 248L227.126 251.18H276.42L279.6 248H230.306Z"}})])]),_vm._v(" "),_c('div',{staticClass:"d-flex flex-v-center height-fill sp-l-1-4 sp-r-1-4 game-border-card-content"},[_c('div',{staticClass:"d-block td-d-flex flex-v-center md-d-block"},[_vm._m(11),_vm._v(" "),_c('a',{attrs:{"href":"https://rtx.rt.ru/","target":"_blank"}},[_c('rt-button',{attrs:{"color":"full-white"}},[_vm._v("Подробнее")])],1)])])])]),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-td-6 td-sp-t-2 md-sp-t-1-1"},[_c('div',{staticClass:"game-border-card"},[_c('svg',{staticClass:"game-border-card-lines",attrs:{"width":"243","height":"289","viewBox":"0 0 243 289"}},[_c('g',{staticStyle:{"mix-blend-mode":"soft-light"}},[_c('path',{attrs:{"d":"M185.951 262.474L183.27 265.155H180.09L182.771 262.474H98V261.474H320.683L371.882 210.092H222.118L219.437 212.772H144.304L146.984 210.092H136.543L109.961 183.51L110.668 182.802L136.958 209.092H233.734L208.151 183.51L208.859 182.802L235.148 209.092H372.878L372.97 209H401.316V210H376.263V210.092H373.294L321.098 262.474H206.622L203.942 265.155H200.762L203.442 262.474H201.454L198.774 265.155H195.594L198.274 262.474H196.287L193.606 265.155H190.426L193.106 262.474H191.119L188.438 265.155H185.258L187.938 262.474H185.951Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M0 227.878H7.03496L7.03495 225.595L39.3639 225.595L105.355 159.605L297.853 159.605L329.553 191.305H352.61V188.625H374.673V187.625H329.648L301.728 159.605H383.816V158.605H300.732L277.361 135.151H54.263V136.151H235.634L232.953 138.832H277.079L296.853 158.605L104.941 158.605L38.9497 224.595L2.47485e-05 224.595L0 227.878Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M190.093 45.6907H155.957L155.957 50.1822H190.093V45.6907Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M118.862 47.2517H125.897V50.1744H118.862V47.2517Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M134.706 48.093H145.794V50.1743H134.706V48.093Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M150.994 45.6907H154.015V50.1822H150.994V45.6907Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M232.194 36.3536H31V37.3536H232.608L292.002 -22H384.007V-23H291.588L232.194 36.3536Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M297.989 91.23H319.814V90.23H296.989L275.098 68.3387H219.046L200.707 50L200 50.7071L218.632 69.3387H274.684L295.575 90.23L166.764 90.23V91.23L296.575 91.23L299.33 93.9857H366.72L366.72 92.9857H299.745L297.989 91.23Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M250.444 114.287H377.257V113.287H250.444V114.287Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M319.217 71.2512H322.397L319.217 74.4315H316.037L319.217 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M327.565 71.2512H324.385L321.205 74.4315H324.385L327.565 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M329.553 71.2512H332.733L329.553 74.4315H326.373L329.553 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M337.901 71.2512H334.721L331.541 74.4315H334.721L337.901 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M343.069 71.2512H339.889L336.709 74.4315H339.889L343.069 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M183 251.18H225.536L228.716 248H186.18L183 251.18Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M230.306 248L227.126 251.18H276.42L279.6 248H230.306Z"}})])]),_vm._v(" "),_c('div',{staticClass:"d-flex flex-v-center height-fill sp-l-1-4 sp-r-1-4 game-border-card-content"},[_c('div',{staticClass:"d-block td-d-flex flex-v-center md-d-block"},[_vm._m(12),_vm._v(" "),_c('a',{attrs:{"href":"https://gfn.rt.ru/","target":"_blank"}},[_c('rt-button',{attrs:{"color":"full-white"}},[_vm._v("Подробнее")])],1)])])])]),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-td-6 td-sp-t-2 md-sp-t-1-1"},[_c('div',{staticClass:"game-border-card"},[_c('svg',{staticClass:"game-border-card-lines",attrs:{"width":"243","height":"289","viewBox":"0 0 243 289"}},[_c('g',{staticStyle:{"mix-blend-mode":"soft-light"}},[_c('path',{attrs:{"d":"M185.951 262.474L183.27 265.155H180.09L182.771 262.474H98V261.474H320.683L371.882 210.092H222.118L219.437 212.772H144.304L146.984 210.092H136.543L109.961 183.51L110.668 182.802L136.958 209.092H233.734L208.151 183.51L208.859 182.802L235.148 209.092H372.878L372.97 209H401.316V210H376.263V210.092H373.294L321.098 262.474H206.622L203.942 265.155H200.762L203.442 262.474H201.454L198.774 265.155H195.594L198.274 262.474H196.287L193.606 265.155H190.426L193.106 262.474H191.119L188.438 265.155H185.258L187.938 262.474H185.951Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M0 227.878H7.03496L7.03495 225.595L39.3639 225.595L105.355 159.605L297.853 159.605L329.553 191.305H352.61V188.625H374.673V187.625H329.648L301.728 159.605H383.816V158.605H300.732L277.361 135.151H54.263V136.151H235.634L232.953 138.832H277.079L296.853 158.605L104.941 158.605L38.9497 224.595L2.47485e-05 224.595L0 227.878Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M190.093 45.6907H155.957L155.957 50.1822H190.093V45.6907Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M118.862 47.2517H125.897V50.1744H118.862V47.2517Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M134.706 48.093H145.794V50.1743H134.706V48.093Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M150.994 45.6907H154.015V50.1822H150.994V45.6907Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M232.194 36.3536H31V37.3536H232.608L292.002 -22H384.007V-23H291.588L232.194 36.3536Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M297.989 91.23H319.814V90.23H296.989L275.098 68.3387H219.046L200.707 50L200 50.7071L218.632 69.3387H274.684L295.575 90.23L166.764 90.23V91.23L296.575 91.23L299.33 93.9857H366.72L366.72 92.9857H299.745L297.989 91.23Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M250.444 114.287H377.257V113.287H250.444V114.287Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M319.217 71.2512H322.397L319.217 74.4315H316.037L319.217 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M327.565 71.2512H324.385L321.205 74.4315H324.385L327.565 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M329.553 71.2512H332.733L329.553 74.4315H326.373L329.553 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M337.901 71.2512H334.721L331.541 74.4315H334.721L337.901 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M343.069 71.2512H339.889L336.709 74.4315H339.889L343.069 71.2512Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M183 251.18H225.536L228.716 248H186.18L183 251.18Z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M230.306 248L227.126 251.18H276.42L279.6 248H230.306Z"}})])]),_vm._v(" "),_c('div',{staticClass:"d-flex flex-v-center height-fill sp-l-1-4 sp-r-1-4 game-border-card-content"},[_c('div',{staticClass:"d-block td-d-flex flex-v-center md-d-block"},[_vm._m(13),_vm._v(" "),_c('a',{attrs:{"href":"https://market.rt.ru/","target":"_blank"}},[_c('rt-button',{attrs:{"color":"full-white"}},[_vm._v("Подробнее")])],1)])])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"block rt-dark-theme"},[_c('rt-banner-v2',{attrs:{"name":"test9393"}},[_c('rt-banner-item-v2',{attrs:{"banner-name":"test9393","color-type":"main-color","show-url-on-tablet":true,"url":"http://rt.ru"}},[_c('template',{slot:"label"},[_vm._v("Онлайн-игра «Тройная удача»")]),_vm._v(" "),_c('template',{slot:"description"},[_vm._v("Играй, получай впечатления и призы от Ростелекома и партнеров программы\n            «Бонус»\n          ")]),_vm._v(" "),_c('template',{slot:"footer"},[_c('rt-button',{attrs:{"color":"full-white"}},[_vm._v("Подробнее")])],1),_vm._v(" "),_c('template',{slot:"image"},[_c('rt-img',{attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/banner1.jpg","alt":""}})],1)],2),_vm._v(" "),_c('rt-banner-item-v2',{attrs:{"banner-name":"test9393","color-type":"main-color","show-url-on-tablet":true,"url":"http://rt.ru"}},[_c('template',{slot:"label"},[_vm._v("Онлайн-игра «Тройная удача»")]),_vm._v(" "),_c('template',{slot:"description"},[_vm._v("Играй, получай впечатления и призы от Ростелекома и партнеров программы\n            «Бонус»\n          ")]),_vm._v(" "),_c('template',{slot:"footer"},[_c('rt-button',{attrs:{"color":"full-white"}},[_vm._v("Подробнее")])],1),_vm._v(" "),_c('template',{slot:"image"},[_c('rt-img',{attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/banner1.jpg","alt":""}})],1)],2)],1)],1)]),_vm._v(" "),_c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"sp-v-4 td-sp-v-3 rt-dark-theme"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col"},[_c('rt-annotation',{attrs:{"label":"Подробнее"}},[_c('template',{slot:"content"},[_c('div',{staticClass:"rt-numeric-list"},[_c('p',{staticClass:"rt-annotation-item"},[_vm._v("«Игровой» - Тариф услуги «Домашний интернет» с опциями «Игры Wargaming\n                  (Варгейминг)», «Фогейм» и «MY.GAMES (МАЙ.ГЕЙМС)» (Опции). Предоставление и состав Опций определяют\n                  Партнеры – WARGAMING, ООО «Иннова Дистрибьюшен» и OOO «Мейл.ру». Стоимость Опций включена в\n                  Тариф.")])])])],2)],1)])])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',{staticClass:"rt-font-paragraph sp-t-0-4 sp-b-0-4"},[_vm._v("Высокоскоростной интернет "),_c('br'),_vm._v("\n                      и уникальные игровые бонусы")])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"game-slider-line-wrapper-mobile md-sp-b-5"},[_c('div',{staticClass:"game-slider-image"},[_c('div',{staticClass:"slider-user"},[_c('img',{attrs:{"src":"https://moscow.rt.ru/sites/default/files/img/games-2021/KV_rostelecom_fin-1.png","width":"100%","alt":""}})]),_vm._v(" "),_c('div',{},[_c('img',{attrs:{"width":"100%","src":"https://moscow.rt.ru/sites/default/files/img/games-2021/slider-1.png","alt":""}})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"wc-inline"},[_c('div',{staticClass:"sp-t-4 td-sp-t-3 td-sp-b-none sp-b-0-1 block md-sp-t-none"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-12 sp-b-2 td-sp-b-1-3 md-sp-b-1-1"},[_c('h2',{staticClass:"rt-font-h2"},[_vm._v("Интернет для геймеров от Ростелекома")])]),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-md-3 md-d-flex"},[_c('img',{staticClass:"game-list-icon",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/icon1.png","alt":""}}),_vm._v(" "),_c('div',{staticClass:"md-sp-l-1-2"},[_c('h4',{staticClass:"rt-font-h4 sp-t-1-1 td-sp-t-1 td-sp-b-0-3 sp-b-0-4 md-sp-t-none md-sp-b-0-2"},[_vm._v("Высокая\n                  скорость")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Интернет для игр")])])]),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-md-3 md-d-flex md-sp-t-1-1"},[_c('img',{staticClass:"game-list-icon",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/icon2.png","alt":""}}),_vm._v(" "),_c('div',{staticClass:"md-sp-l-1-2"},[_c('h4',{staticClass:"rt-font-h4 sp-t-1-1 td-sp-t-1 td-sp-b-0-3 sp-b-0-4 md-sp-t-none md-sp-b-0-2"},[_vm._v("\n                  Преимущества")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Бонусы и игровые преимущества")])])]),_vm._v(" "),_c('div',{staticClass:"rt-col-4 rt-col-md-3 md-d-flex md-sp-t-1-1"},[_c('img',{staticClass:"game-list-icon",attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/img/games-2021/icon3.png","alt":""}}),_vm._v(" "),_c('div',{staticClass:"md-sp-l-1-2"},[_c('h4',{staticClass:"rt-font-h4 sp-t-1-1 td-sp-t-1 td-sp-b-0-3 sp-b-0-4 md-sp-t-none md-sp-b-0-2"},[_vm._v("Любимые\n                  игры")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Возможность менять игру раз "),_c('span',{staticClass:"d-none td-d-block md-d-none"}),_vm._v(" в 24 часа")])])])])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-col-12 sp-b-2 td-sp-b-1-3 md-sp-b-1-1"},[_c('h2',{staticClass:"rt-font-h2"},[_vm._v("Познакомьтесь с играми от наших партнеров")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"d-block td-d-inline-block game-image-content-line"},[_c('p',{staticClass:"game-image-list"},[_vm._v("WARFACE")]),_vm._v(" "),_c('p',{staticClass:"game-image-list"},[_c('span',{staticClass:"dot sp-h-0-4 md-sp-h-0-3"}),_vm._v("\n                            LOSTARK\n                          ")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"d-block td-d-inline-block game-image-content-line"},[_c('p',{staticClass:"game-image-list "},[_vm._v("CROSSFIRE")]),_vm._v(" "),_c('p',{staticClass:"game-image-list"},[_c('span',{staticClass:"dot sp-h-0-4 md-sp-h-0-3"}),_vm._v("\n                            ARCHEAGE\n                          ")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"d-block td-d-inline-block game-image-content-line"},[_c('p',{staticClass:"game-image-list"},[_vm._v("WORLD OF TANKS")]),_vm._v(" "),_c('p',{staticClass:"game-image-list"},[_c('span',{staticClass:"dot sp-h-0-4 md-sp-h-0-3"}),_vm._v("\n                            WORLD OF WARSHIPS\n                          ")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"d-block td-d-inline-block game-image-content-line"},[_c('p',{staticClass:"game-image-list "},[_vm._v("WORLD OF WARPLANES")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"d-block td-d-inline-block md-d-block game-image-content-line"},[_c('p',{staticClass:"game-image-list"},[_vm._v("BLADE&SOUL")]),_vm._v(" "),_c('p',{staticClass:"game-image-list"},[_c('span',{staticClass:"dot sp-h-0-4 md-sp-h-0-3"}),_vm._v("\n                            POINT BLANK\n                          ")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"d-block td-d-inline-block game-image-content-line"},[_c('p',{staticClass:"game-image-list "},[_vm._v("LINEAGE 2")]),_vm._v(" "),_c('p',{staticClass:"game-image-list"},[_c('span',{staticClass:"dot sp-h-0-4 md-sp-h-0-3"}),_vm._v("\n                            AION\n                          ")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-col-12 sp-b-3 td-sp-b-2"},[_c('h2',{staticClass:"rt-font-h2 sp-b-0-2 td-sp-b-none"},[_vm._v("Больше предложений от Ростелекома")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"td-sp-r-4 md-sp-r-none"},[_c('h4',{staticClass:"rt-font-h4"},[_vm._v("Игровой роутер RT-X")]),_vm._v(" "),_c('p',{staticClass:"sp-t-0-4 sp-b-1-2"},[_vm._v("Мощный роутер с приоритизацией игрового трафика")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"td-sp-r-4 md-sp-r-none"},[_c('h4',{staticClass:"rt-font-h4"},[_vm._v("Облачные игры NVIDIA GeForce")]),_vm._v(" "),_c('p',{staticClass:"sp-t-0-4 sp-b-1-2"},[_vm._v("Любимые игры на максимальных\n                        настройках графики")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"td-sp-r-4 md-sp-r-none"},[_c('h4',{staticClass:"rt-font-h4"},[_vm._v("Покупка игр на особых условиях")]),_vm._v(" "),_c('p',{staticClass:"sp-t-0-4 sp-b-1-2"},[_vm._v("Более 2 000 компьютерных игр от 48 издателей")])])}]
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/promo/vip.vue":
-/*!**********************************************************!*\
-  !*** ./src/example-pages/components/pages/promo/vip.vue ***!
-  \**********************************************************/
+/***/ "./src/example-pages/components/pages/promo/game.vue":
+/*!***********************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/game.vue ***!
+  \***********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vip_vue_vue_type_template_id_417fa9e2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vip.vue?vue&type=template&id=417fa9e2& */ "./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=417fa9e2&");
-/* harmony import */ var _vip_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./vip.vue?vue&type=script&lang=js& */ "./src/example-pages/components/pages/promo/vip.vue?vue&type=script&lang=js&");
+/* harmony import */ var _game_vue_vue_type_template_id_39b90ff8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./game.vue?vue&type=template&id=39b90ff8& */ "./src/example-pages/components/pages/promo/game.vue?vue&type=template&id=39b90ff8&");
+/* harmony import */ var _game_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./game.vue?vue&type=script&lang=js& */ "./src/example-pages/components/pages/promo/game.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -635,9 +829,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _vip_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _vip_vue_vue_type_template_id_417fa9e2___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _vip_vue_vue_type_template_id_417fa9e2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _game_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _game_vue_vue_type_template_id_39b90ff8___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _game_vue_vue_type_template_id_39b90ff8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -649,33 +843,33 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/promo/vip.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************!*\
-  !*** ./src/example-pages/components/pages/promo/vip.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************/
+/***/ "./src/example-pages/components/pages/promo/game.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/game.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib!../../../../../node_modules/vue-loader/lib??vue-loader-options!./vip.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/vip.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib!../../../../../node_modules/vue-loader/lib??vue-loader-options!./game.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/game.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=417fa9e2&":
-/*!*****************************************************************************************!*\
-  !*** ./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=417fa9e2& ***!
-  \*****************************************************************************************/
+/***/ "./src/example-pages/components/pages/promo/game.vue?vue&type=template&id=39b90ff8&":
+/*!******************************************************************************************!*\
+  !*** ./src/example-pages/components/pages/promo/game.vue?vue&type=template&id=39b90ff8& ***!
+  \******************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_template_id_417fa9e2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./vip.vue?vue&type=template&id=417fa9e2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/vip.vue?vue&type=template&id=417fa9e2&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_template_id_417fa9e2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_template_id_39b90ff8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./game.vue?vue&type=template&id=39b90ff8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/pages/promo/game.vue?vue&type=template&id=39b90ff8&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_template_id_39b90ff8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vip_vue_vue_type_template_id_417fa9e2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_template_id_39b90ff8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

@@ -1,291 +1,483 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[9],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/main/colors/ColorsList.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=script&lang=js&":
 /*!****************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/main/colors/ColorsList.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=script&lang=js& ***!
   \****************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
-/* harmony import */ var _ColorsListItem_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ColorsListItem.vue */ "./src/example-pages/components/main/colors/ColorsListItem.vue");
-/* harmony import */ var _vue_rt_style_kit_atoms_local_colorFullDocs_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @vue-rt-style-kit-atoms-local/colorFullDocs.json */ "./src/atoms/colorFullDocs.json");
-var _vue_rt_style_kit_atoms_local_colorFullDocs_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-atoms-local/colorFullDocs.json */ "./src/atoms/colorFullDocs.json", 1);
-/* harmony import */ var _colorListSettings_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./colorListSettings.json */ "./src/example-pages/components/main/colors/colorListSettings.json");
-var _colorListSettings_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./colorListSettings.json */ "./src/example-pages/components/main/colors/colorListSettings.json", 1);
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
 
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
 
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-
-var componentsList = {};
-componentsList[_ColorsListItem_vue__WEBPACK_IMPORTED_MODULE_1__["default"].name] = _ColorsListItem_vue__WEBPACK_IMPORTED_MODULE_1__["default"];
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// import docProps from '@vue-rt-style-kit-molecules-local/components/CarouselV2/docs/props.json'
+// import docEvents from '@vue-rt-style-kit-molecules-local/components/CarouselV2/docs/events.json'
+var defaultLoaderType = 'spinner';
+var skeletonLoader = {
+  type: 'skeleton',
+  count: 4,
+  rows: 2
+};
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppColors",
-  components: componentsList,
   data: function data() {
     return {
-      colorsSettingsArray: [],
-      colors: {}
+      // docProps,
+      // docEvents,
+      activeIndex: 0,
+      slidesList: [],
+      colors: ["black", "black085", "black085-no-opacity", "purple", "purple-button-hover", "purple-button-active", "purple01", "purple005", "purple-low", "purple-high", "purple-night", "white", "red", "red-low", "red-high", "gray", "dark-blue", "dark-blue-low", "dark-blue-high", "light-blue", "light-blue-low", "light-blue-high", "yellow", "yellow-low", "yellow-high", "orange", "orange-night", "orange-button-hover", "orange-button-active", "orange-low", "orange-high", "orange-super", "pink", "pink-low", "pink-high", "green", "green-low", "green-high", "cool-grey", "cool-grey07", "cool-grey05", "cool-grey03", "cool-grey05-no-opacity", "purple-high05", "purple-high02", "orange-high05", "orange-high02", "orange03", "orange01", "orange005", "slate", "dark-slate", "burgundy", "white09", "white08", "white07", "white06", "white05", "white04", "white03", "white025", "white02", "white01", "white005", "main-color", "main-color09", "main-color08", "main-color07", "main-color06", "main-color05", "main-color04", "main-color03", "main-color02", "main-color01", "main-color007", "main-color005", "main-color003", "main-color09-no-opacity", "main-color085-no-opacity", "main-color07-no-opacity", "main-color05-no-opacity", "main-color03-no-opacity", "main-color01-no-opacity", "main-color007-no-opacity", "main-color005-no-opacity", "main-color003-no-opacity"],
+      shadowColor: "white",
+      showShadow: true,
+      infinitescroll: false,
+      blurnotactive: true,
+      scrollableondesktop: true,
+      background: "",
+      loaderType: skeletonLoader,
+      gotoSlideVal: 0,
+      colInRow: 4,
+      laptopColInRow: 4,
+      waitTime: this.getRandomNumberFromRange(3, 15) * 1000
     };
   },
-  mounted: function mounted() {
-    var _this = this;
-
-    this.colors = _vue_rt_style_kit_atoms_local_colorFullDocs_json__WEBPACK_IMPORTED_MODULE_2__;
-    Object.keys(_colorListSettings_json__WEBPACK_IMPORTED_MODULE_3__).map(function (key) {
-      var item = _colorListSettings_json__WEBPACK_IMPORTED_MODULE_3__[key];
-      _this.colorsSettingsArray[item.index] = key;
-    });
-    this.colorsSettingsArray[1] = "icon";
-    Object.keys(this.colors).forEach(function (key) {
-      // console.info(key,Object.keys(this.colors))
-      var color = _this.colors[key]; // console.info('color',color);
-
-      _this.createColorsParams(color);
-    });
-    this.$set(this, "colors", _objectSpread({}, this.colors));
+  computed: {
+    configLoaderCount: {
+      get: function get() {
+        return this.loaderType !== defaultLoaderType ? this.loaderType.count : skeletonLoader.count;
+      },
+      set: function set(val) {
+        this.loaderType.count = +val;
+      }
+    },
+    configLoaderRows: {
+      get: function get() {
+        return this.loaderType !== defaultLoaderType ? this.loaderType.rows : skeletonLoader.rows;
+      },
+      set: function set(val) {
+        this.loaderType.rows = +val;
+      }
+    },
+    gotoSlideModel: {
+      get: function get() {
+        return this.gotoSlideVal;
+      },
+      set: function set(val) {
+        this.gotoSlideVal = +val;
+        this.$refs.carouselEl.moveTo(this.gotoSlideVal);
+      }
+    }
+  },
+  created: function created() {
+    this.reCreate();
   },
   methods: {
-    createColorsParams: function createColorsParams(color) {
-      if (color.value[0] === "#") {
-        color.hex = color.value.substr(1);
-        color.rgba = this.convertHexToRGBA(color.hex);
-      } else {
-        if (color.value.search(/^rgba/) === 0) {
-          color.hex = this.convertToRGBAToHex(color.value);
-          color.rgba = this.rgbaToObject(color.value);
-        }
-      }
+    reCreate: function reCreate() {
+      var _this = this;
+
+      this.slidesList = [];
+      setTimeout(function () {
+        _this.slidesList = _toConsumableArray(Array(_this.getRandomNumberFromRange(2, 17)).keys());
+      }, this.waitTime);
     },
-    convertToRGBAToHex: function convertToRGBAToHex(rgba) {
-      var color = rgba.replace(/(rgba\()|(\))|( )/g, "").split(",").map(function (number) {
-        number = number - 0;
-
-        if (number % 1 === 0) {
-          number = number.toString(16).toUpperCase();
-          return number.toString(16).toUpperCase();
-        } else {
-          number = (Math.round(number * 255) + 0x10000).toString(16).substr(-2).toUpperCase();
-        }
-
-        if (number.length === 1) {
-          number += number;
-        }
-
-        return number;
-      });
-      return color.join("");
+    setLoaderType: function setLoaderType() {
+      this.loaderType = this.loaderType === defaultLoaderType ? skeletonLoader : defaultLoaderType;
     },
-    rgbaToObject: function rgbaToObject(rgba) {
-      var colors = rgba.replace(/(rgba\()|(\))/g, "").split(",").map(function (i) {
-        return i - 0;
-      });
-      return {
-        red: colors[0],
-        blue: colors[1],
-        green: colors[2],
-        alpha: colors[3]
-      };
-    },
-    convertHexToRGBA: function convertHexToRGBA(hex) {
-      var colors = hex.match(/([a-z0-9][a-z0-9])/gi).map(function (number) {
-        return parseInt(number, 16);
-      });
-
-      if (colors.length > 3) {
-        colors[3] = colors[3] / 255;
-        colors[3] = parseInt(colors[3]);
-      }
-
-      return {
-        red: colors[0],
-        blue: colors[1],
-        green: colors[2],
-        alpha: colors[3] !== undefined ? colors[3] : 1
-      };
+    getRandomNumberFromRange: function getRandomNumberFromRange(min, max) {
+      return Math.round(Math.random() * (max - min) + min, 10);
     }
-  },
-  render: function render(h) {
-    var _this2 = this;
-
-    var colorMap = Object.keys(this.colors).map(function (key) {
-      var colorItem = _this2.colors[key];
-
-      if (colorItem.hex) {
-        return h("app-colors-item", {
-          attrs: {
-            colorsIndexArray: _this2.colorsSettingsArray,
-            settings: _colorListSettings_json__WEBPACK_IMPORTED_MODULE_3__,
-            color: colorItem
-          }
-        });
-      } else {
-        console.info('-->>', colorItem);
-        return null;
-      }
-    }); // const header = (() => {
-    //   return this.labels.map(item => {
-    //     return <rt-table-head-item>{item.label}</rt-table-head-item>;
-    //   });
-    // })();
-
-    var header = function () {
-      return _this2.colorsSettingsArray.map(function (key) {
-        if (_colorListSettings_json__WEBPACK_IMPORTED_MODULE_3__[key]) {
-          return h("rt-table-head-item", [_colorListSettings_json__WEBPACK_IMPORTED_MODULE_3__[key].name]);
-        } else {
-          return h("rt-table-head-item", ["\u0426\u0432\u0435\u0442"]);
-        }
-      });
-    }();
-
-    if (header.length > 0) {
-      return h("div", {
-        "class": "rt-container"
-      }, [h("div", {
-        "class": "app-content rt-col-12 rt-col-md-3"
-      }, [h("div", {
-        "class": "app-title"
-      }, [h("h1", {
-        "class": "rt-font-hero"
-      }, ["Colors"])]), h("div", {
-        "class": "app-body"
-      }, [h("div", {
-        "class": "row"
-      }, [h("div", {
-        "class": "rt-col-12"
-      }, [h("rt-table", [h("template", {
-        slot: "header"
-      }, [header]), h("template", {
-        slot: "body"
-      }, [colorMap])])])])])])]);
-    }
-
-    return null;
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/main/colors/ColorsListItem.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/main/colors/ColorsListItem.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************************************************************************/
-/*! exports provided: default */
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/stylus-loader/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=style&index=0&lang=stylus&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/stylus-loader!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=style&index=0&lang=stylus& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".sk-contain {\n  margin: 0 -10px -20px;\n  padding-bottom: 20px;\n  overflow: hidden;\n  flex-wrap: nowrap;\n  display: flex;\n}\n.rt-container .sk-contain {\n  padding-left: 0;\n  padding-right: 0;\n}\n.sk-card {\n  flex: 0 0 338px;\n  padding: 0 10px;\n}\n.rt-code-viewer .rt-carousel,\n.rt-code-viewer .rt-carousel__slide {\n  z-index: auto;\n}\n@media (max-width: 1024px) {\n.rtk-fo__case .rt-carousel-slide-v2 {\n    max-width: 288px;\n}\n.rt-container .rtk-fo__case .rt-carousel-v2.rt-container {\n    margin: 0 -20px;\n    width: 100vw;\n}\n}\n@media (min-width: 1025px) {\n.rt-container .rtk-fo__case .rt-carousel-v2.rt-container {\n    margin: 0 -10px;\n    padding: 0;\n}\n}\n@media (max-width: 359px) {\n.rtk-fo__case .rt-carousel-v2:not(.rt-carousel--fit-slides) .rt-carousel-slide-v2 {\n    max-width: 252px;\n}\n}\n@media (min-width: 360px) and (max-width: 1279px) {\n.rtk-fo__case .rt-carousel-v2:not(.rt-carousel--fit-slides) .rt-carousel-slide-v2 {\n    max-width: 316px;\n}\n}\n@media (min-width: 1025px) and (max-width: 1279px) {\n.rtk-fo__case .rt-carousel-v2.rt-carousel--fit-slides .rt-carousel-slide-v2 {\n    max-width: 352px;\n}\n}\n@media (min-width: 1025px) and (max-width: 1366px) {\n.rtk-fo__case .rt-carousel-slide-v2--5 {\n    flex: 0 0 400px;\n    max-width: initial;\n}\n}\n@media (max-width: 1279px) {\n.rtk-fo__case .rt-carousel-slide-v2--5 {\n    width: 352px !important;\n    flex-basis: 352px !important;\n}\n}\n@media (min-width: 1280px) {\n.rtk-fo__case .rt-carousel-v2:not(.rt-carousel--fit-slides) .rt-carousel-slide-v2 {\n    max-width: 336px;\n}\n}\n@media (min-width: 1280px) {\n.rtk-fo__case .rt-carousel-v2.rt-carousel--fit-slides .rt-carousel-slide-v2--1,\n  .rtk-fo__case .rt-carousel-v2.rt-carousel--fit-slides .rt-carousel-slide-v2--2 {\n    width: 365px !important;\n    flex-basis: 365px !important;\n}\n}\n@media (min-width: 1367px) {\n.rtk-fo__case .rt-carousel-v2.rt-carousel--fit-slides .rt-carousel-slide-v2--5 {\n    max-width: 336px;\n}\n}\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/stylus-loader/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=style&index=0&lang=stylus&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/stylus-loader!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=style&index=0&lang=stylus& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/stylus-loader!../../../../node_modules/vue-loader/lib??vue-loader-options!./CarouselV2--demo.vue?vue&type=style&index=0&lang=stylus& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/stylus-loader/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=style&index=0&lang=stylus&");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=3925a5d9&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=3925a5d9& ***!
+  \******************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
-/* harmony import */ var vue_property_decorator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-property-decorator */ "./node_modules/vue-property-decorator/lib/vue-property-decorator.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"sp-v-2"},[_c('div',{staticClass:"rt-container"},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"rt-col-12 rt-space-bottom3 is-b2c"},[_c('rt-row',[_c('rt-col',{attrs:{"size":"2","tablet-size":"3","mobile-size":"3","mobile-top":"20","tablet-top":"12"}},[_c('p',[_vm._v("background")]),_vm._v(" "),_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.background),expression:"background"}],on:{"change":function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.background=$event.target.multiple ? $$selectedVal : $$selectedVal[0]}}},_vm._l((_vm.colors),function(i){return _c('option',{domProps:{"value":i}},[_vm._v(_vm._s(i))])}),0)]),_vm._v(" "),_c('rt-col',{attrs:{"size":"2","tablet-size":"3","mobile-size":"3","mobile-top":"20","tablet-top":"12"}},[_c('p',[_vm._v("shadowColor")]),_vm._v(" "),_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.shadowColor),expression:"shadowColor"}],on:{"change":function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.shadowColor=$event.target.multiple ? $$selectedVal : $$selectedVal[0]}}},_vm._l((_vm.colors),function(i){return _c('option',{domProps:{"value":i}},[_vm._v(_vm._s(i))])}),0)]),_vm._v(" "),_c('rt-col',{attrs:{"size":"2","tablet-size":"3","mobile-size":"3","mobile-top":"20","tablet-top":"12"}},[_c('p',[_vm._v("show shadow")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.showShadow),expression:"showShadow"}],attrs:{"type":"checkbox"},domProps:{"checked":Array.isArray(_vm.showShadow)?_vm._i(_vm.showShadow,null)>-1:(_vm.showShadow)},on:{"change":function($event){var $$a=_vm.showShadow,$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v=null,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.showShadow=$$a.concat([$$v]))}else{$$i>-1&&(_vm.showShadow=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.showShadow=$$c}}}})]),_vm._v(" "),_c('rt-col',{attrs:{"size":"2","tablet-size":"3","mobile-size":"3","mobile-top":"20","tablet-top":"12"}},[_c('p',[_vm._v("infinite scroll")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.infinitescroll),expression:"infinitescroll"}],attrs:{"type":"checkbox"},domProps:{"checked":Array.isArray(_vm.infinitescroll)?_vm._i(_vm.infinitescroll,null)>-1:(_vm.infinitescroll)},on:{"change":function($event){var $$a=_vm.infinitescroll,$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v=null,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.infinitescroll=$$a.concat([$$v]))}else{$$i>-1&&(_vm.infinitescroll=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.infinitescroll=$$c}}}})]),_vm._v(" "),_c('rt-col',{attrs:{"size":"2","tablet-size":"3","mobile-size":"3","mobile-top":"20","tablet-top":"12"}},[_c('p',[_vm._v("blur not active")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.blurnotactive),expression:"blurnotactive"}],attrs:{"type":"checkbox"},domProps:{"checked":Array.isArray(_vm.blurnotactive)?_vm._i(_vm.blurnotactive,null)>-1:(_vm.blurnotactive)},on:{"change":function($event){var $$a=_vm.blurnotactive,$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v=null,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.blurnotactive=$$a.concat([$$v]))}else{$$i>-1&&(_vm.blurnotactive=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.blurnotactive=$$c}}}})]),_vm._v(" "),_c('rt-col',{attrs:{"size":"2","tablet-size":"3","mobile-size":"3","mobile-top":"20","tablet-top":"12"}},[_c('p',[_vm._v("scrollable on desktop")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.scrollableondesktop),expression:"scrollableondesktop"}],attrs:{"type":"checkbox"},domProps:{"checked":Array.isArray(_vm.scrollableondesktop)?_vm._i(_vm.scrollableondesktop,null)>-1:(_vm.scrollableondesktop)},on:{"change":function($event){var $$a=_vm.scrollableondesktop,$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v=null,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.scrollableondesktop=$$a.concat([$$v]))}else{$$i>-1&&(_vm.scrollableondesktop=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.scrollableondesktop=$$c}}}})]),_vm._v(" "),_c('rt-col',{attrs:{"size":"2","tablet-size":"3","mobile-size":"3","mobile-top":"20","tablet-top":"12"}},[_c('p',[_vm._v("col in row")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.colInRow),expression:"colInRow"}],attrs:{"type":"number"},domProps:{"value":(_vm.colInRow)},on:{"input":function($event){if($event.target.composing){ return; }_vm.colInRow=$event.target.value}}})]),_vm._v(" "),_c('rt-col',{attrs:{"size":"2","tablet-size":"3","mobile-size":"3","mobile-top":"20","tablet-top":"12"}},[_c('p',[_vm._v("laptop col in row")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.laptopColInRow),expression:"laptopColInRow"}],attrs:{"type":"number"},domProps:{"value":(_vm.laptopColInRow)},on:{"input":function($event){if($event.target.composing){ return; }_vm.laptopColInRow=$event.target.value}}})]),_vm._v(" "),_c('rt-col',{attrs:{"size":"2","tablet-size":"3","mobile-size":"3","mobile-top":"20","tablet-top":"12"}},[_c('p',[_vm._v("active index")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.activeIndex),expression:"activeIndex"}],attrs:{"type":"number"},domProps:{"value":(_vm.activeIndex)},on:{"input":function($event){if($event.target.composing){ return; }_vm.activeIndex=$event.target.value}}})])],1)],1)]),_vm._v(" "),_c('rt-carousel-v3',{attrs:{"active-index-init":_vm.activeIndex,"background":_vm.background,"shadow-color":_vm.shadowColor,"show-shadow":_vm.showShadow,"infinite-scroll":_vm.infinitescroll,"blur-not-active":_vm.blurnotactive,"col-in-row":_vm.colInRow,"laptop-col-in-row":_vm.laptopColInRow,"scrollable-on-desktop":_vm.scrollableondesktop}},_vm._l((15),function(i){return _c('rt-carousel-slide-v3',{key:i},[_c('div',[_c('div',{staticStyle:{"background-size":"cover","border-radius":"8px","height":"300px","position":"relative"},style:(("background: url(https://picsum.photos/500/300?getForId=" + i + ")"))},[_c('div',{staticStyle:{"background-color":"black","color":"white","position":"absolute","bottom":"0","right":"0","padding":"0 10px"},domProps:{"textContent":_vm._s(i)}})])])])}),1),_vm._v(" "),_c('rt-carousel-v3',{attrs:{"background":_vm.background,"shadow-color":_vm.shadowColor,"show-shadow":_vm.showShadow,"infinite-scroll":_vm.infinitescroll,"blur-not-active":_vm.blurnotactive,"scrollable-on-desktop":_vm.scrollableondesktop}},_vm._l((5),function(i){return _c('rt-carousel-slide-v3',{key:i,attrs:{"time":i*1000}},[_c('div',[_c('div',{staticStyle:{"background-size":"cover","border-radius":"8px","height":"300px","position":"relative"},style:(("background: url(https://picsum.photos/500/300?getForId=" + i + ")"))},[_c('div',{staticStyle:{"background-color":"black","color":"white","position":"absolute","bottom":"0","right":"0","padding":"0 10px"},domProps:{"textContent":_vm._s(i)}})])])])}),1)],1),_vm._v(" "),_c('div',{staticClass:"rt-container"})])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("CarouselV2")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-col-12 rt-col-md-3 sp-b-2"},[_c('h3',[_vm._v("Простой вывод")])])}]
 
 
-var componentsList = {};
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppColorsItem",
-  components: componentsList,
-  props: {
-    color: {
-      type: Object,
-      "default": {}
-    },
-    colorsIndexArray: {
-      type: Array,
-      "default": []
-    },
-    settings: {
-      type: Object,
-      "default": {}
-    }
-  },
-  render: function render(h) {
-    var _this = this;
-
-    var renderItems = this.colorsIndexArray.map(function (key) {
-      switch (key) {
-        case 'hex':
-          return h("rt-table-item", [h("p", ["#", _this.color.hex])]);
-          break;
-
-        case 'rgba':
-          return h("rt-table-item", [_this.color.rgba.red, " ", _this.color.rgba.blue, " ", _this.color.rgba.green, " ", _this.color.rgba.alpha * 100]);
-          break;
-
-        case 'icon':
-          var color = '#' + _this.color.hex;
-
-          if (color.length % 2 == 0) {
-            color += '0';
-          }
-
-          var style = {
-            backgroundColor: color
-          };
-          return h("rt-table-item", [h("div", {
-            "class": "app-color-cube",
-            style: style
-          })]);
-          break;
-
-        case 'code_variable_name':
-          return h("rt-table-item", [h("p", [_this.color.code_variable_name])]);
-          break;
-
-        case 'label':
-          return h("rt-table-item", [h("p", [_this.color.label])]);
-          break;
-
-        default:
-          return h("rt-table-item");
-      }
-    });
-    return h("rt-table-row", [renderItems]);
-  }
-});
 
 /***/ }),
 
-/***/ "./src/atoms/colorFullDocs.json":
-/*!**************************************!*\
-  !*** ./src/atoms/colorFullDocs.json ***!
-  \**************************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("[{\"code_variable_name\":\"b2c-purple\",\"label\":\"Rostelecom Purple\",\"value\":\"#7700FF\"},{\"code_variable_name\":\"b2c-purple-night\",\"label\":\"\",\"value\":\"#9466FF\"},{\"code_variable_name\":\"b2c-purple-button-hover\",\"label\":\"Rostelecom Purple Hover\",\"value\":\"#5B09C0\"},{\"code_variable_name\":\"b2c-purple-button-active\",\"label\":\"Rostelecom Purple Active\",\"value\":\"#3F028C\"},{\"code_variable_name\":\"b2c-purple01\",\"label\":\"Rostelecom Purple 10%\",\"value\":\"rgba(119, 0, 255, 0.1)\"},{\"code_variable_name\":\"b2c-purple005\",\"label\":\"Rostelecom Purple 5%\",\"value\":\"rgba(119, 0, 255, 0.05)\"},{\"code_variable_name\":\"b2c-purple-low\",\"label\":\"Rostelecom Purple Low\",\"value\":\"#6605C6\"},{\"code_variable_name\":\"b2c-purple-high\",\"label\":\"Rostelecom Purple High\",\"value\":\"#8348FC\"},{\"code_variable_name\":\"b2c-red\",\"label\":\"Rostelecom Red\",\"value\":\"#BC104B\"},{\"code_variable_name\":\"b2c-red-low\",\"label\":\"Rostelecom Red Low\",\"value\":\"#910046\"},{\"code_variable_name\":\"b2c-red-high\",\"label\":\"Rostelecom Red Ligh\",\"value\":\"#E22E65\"},{\"code_variable_name\":\"b2c-dark-blue\",\"label\":\"Rostelecom Dark Blue\",\"value\":\"#273A64\"},{\"code_variable_name\":\"b2c-dark-blue-low\",\"label\":\"Rostelecom Dark Blue Low\",\"value\":\"#001C45\"},{\"code_variable_name\":\"b2c-dark-blue-high\",\"label\":\"Rostelecom Dark Blue High\",\"value\":\"#275392\"},{\"code_variable_name\":\"b2c-light-blue\",\"label\":\"Rostelecom Light Blue\",\"value\":\"#65BBDF\"},{\"code_variable_name\":\"b2c-light-blue-low\",\"label\":\"Rostelecom Light Blue Low\",\"value\":\"#4897DF\"},{\"code_variable_name\":\"b2c-light-blue-high\",\"label\":\"Rostelecom Light Blue High\",\"value\":\"#65DEED\"},{\"code_variable_name\":\"b2c-yellow\",\"label\":\"Rostelecom Yellow\",\"value\":\"#FFBE08\"},{\"code_variable_name\":\"b2c-yellow-low\",\"label\":\"Rostelecom Yellow Low\",\"value\":\"#FFA307\"},{\"code_variable_name\":\"b2c-yellow-high\",\"label\":\"Rostelecom Yellow High\",\"value\":\"#FFD800\"},{\"code_variable_name\":\"b2c-orange\",\"label\":\"Rostelecom Orange\",\"value\":\"#FF4F12\"},{\"code_variable_name\":\"b2c-orange03\",\"label\":\"Rostelecom Orange 30%\",\"value\":\"rgba(255, 79, 18, 0.3)\"},{\"code_variable_name\":\"b2c-orange01\",\"label\":\"Rostelecom Orange 10%\",\"value\":\"rgba(255, 79, 18, 0.1)\"},{\"code_variable_name\":\"b2c-orange005\",\"label\":\"Rostelecom Orange  5%\",\"value\":\"rgba(255, 79, 18, 0.05)\"},{\"code_variable_name\":\"b2c-orange-low\",\"label\":\"Rostelecom Orange Low\",\"value\":\"#D33706\"},{\"code_variable_name\":\"b2c-orange-high\",\"label\":\"Rostelecom Orange High\",\"value\":\"#FF8218\"},{\"code_variable_name\":\"b2c-pink\",\"label\":\"Rostelecom Pink\",\"value\":\"#FFBFC3\"},{\"code_variable_name\":\"b2c-pink-low\",\"label\":\"Rostelecom Pink Low\",\"value\":\"#FFA0A7\"},{\"code_variable_name\":\"b2c-pink-high\",\"label\":\"Rostelecom Pink High\",\"value\":\"#FFD2DD\"},{\"code_variable_name\":\"b2c-green\",\"label\":\"Rostelecom Green\",\"value\":\"#57D9B7\"},{\"code_variable_name\":\"b2c-green-low\",\"label\":\"Rostelecom Green Low\",\"value\":\"#3BBC9E\"},{\"code_variable_name\":\"b2c-green-high\",\"label\":\"Rostelecom Green High\",\"value\":\"#81EBD6\"},{\"code_variable_name\":\"main-color\",\"label\":\"Rostelecom Black\",\"value\":\"#101828\"},{\"code_variable_name\":\"main-color09\",\"label\":\"Rostelecom Black 90%\",\"value\":\"rgba(16,24,40,0.9)\"},{\"code_variable_name\":\"main-color08\",\"label\":\"Rostelecom Black 80%\",\"value\":\"rgba(16,24,40,0.8)\"},{\"code_variable_name\":\"main-color07\",\"label\":\"Rostelecom Black 70%\",\"value\":\"rgba(16,24,40,0.7)\"},{\"code_variable_name\":\"main-color06\",\"label\":\"Rostelecom Black 60%\",\"value\":\"rgba(16,24,40,0.6)\"},{\"code_variable_name\":\"main-color05\",\"label\":\"Rostelecom Black 50%\",\"value\":\"rgba(16,24,40,0.5)\"},{\"code_variable_name\":\"main-color04\",\"label\":\"Rostelecom Black 40%\",\"value\":\"rgba(16,24,40,0.4)\"},{\"code_variable_name\":\"main-color03\",\"label\":\"Rostelecom Black 30%\",\"value\":\"rgba(16,24,40,0.3)\"},{\"code_variable_name\":\"main-color02\",\"label\":\"Rostelecom Black 20%\",\"value\":\"rgba(16,24,40,0.2)\"},{\"code_variable_name\":\"main-color01\",\"label\":\"Rostelecom Black 10%\",\"value\":\"rgba(16,24,40,0.1)\"},{\"code_variable_name\":\"main-color005\",\"label\":\"Rostelecom Black 5%\",\"value\":\"rgba(16,24,40,0.05)\"},{\"code_variable_name\":\"main-color003\",\"label\":\"Rostelecom Black 3%\",\"value\":\"rgba(16,24,40,0.03)\"},{\"code_variable_name\":\"main-color09-no-opacity\",\"label\":\"Rostelecom Black 90%\",\"value\":\"#272F3D\"},{\"code_variable_name\":\"main-color07-no-opacity\",\"label\":\"Rostelecom Black 70%\",\"value\":\"#575D68\"},{\"code_variable_name\":\"main-color05-no-opacity\",\"label\":\"Rostelecom Black 50%\",\"value\":\"#868B95\"},{\"code_variable_name\":\"main-color03-no-opacity\",\"label\":\"Rostelecom Black 30%\",\"value\":\"#B8B9C0\"},{\"code_variable_name\":\"main-color01-no-opacity\",\"label\":\"Rostelecom Black 10%\",\"value\":\"#B8B9C0\"},{\"code_variable_name\":\"main-color005-no-opacity\",\"label\":\"Rostelecom Black 5%\",\"value\":\"#F3F3F4\"},{\"code_variable_name\":\"main-color003-no-opacity\",\"label\":\"Rostelecom Black 3%\",\"value\":\"#E7E7E9\"},{\"code_variable_name\":\"b2c-cool-grey\",\"label\":\"Rostelecom Cool Grey\",\"value\":\"#E3E8EC\"},{\"code_variable_name\":\"b2c-cool-grey07\",\"label\":\"Rostelecom Cool Grey 70%\",\"value\":\"rgba(227,232,236,0.7)\"},{\"code_variable_name\":\"b2c-cool-grey05\",\"label\":\"Rostelecom Cool Grey 50%\",\"value\":\"rgba(227,232,236,0.5)\"},{\"code_variable_name\":\"b2c-cool-grey03\",\"label\":\"Rostelecom Cool Grey 30%\",\"value\":\"rgba(227,232,236,0.3)\"},{\"code_variable_name\":\"b2b-cool-grey05-no-opacity\",\"label\":\"Rostelecom Cool Grey 50%\",\"value\":\"#F1F3F5\"},{\"code_variable_name\":\"b2c-purple-high05\",\"label\":\"Rostelecom Purple High 50%\",\"value\":\"rgba(131,72,252,0.5)\"},{\"code_variable_name\":\"b2c-purple-high02\",\"label\":\"Rostelecom Purple High 20%\",\"value\":\"rgba(131,72,252,0.2)\"},{\"code_variable_name\":\"b2c-orange-high05\",\"label\":\"Rostelecom Purple High 50%\",\"value\":\"rgba(255,130,24,0.5)\"},{\"code_variable_name\":\"b2c-orange-high02\",\"label\":\"Rostelecom Purple High 20%\",\"value\":\"rgba(255,130,24,0.2)\"},{\"code_variable_name\":\"b2b-slate\",\"label\":\"Rostelecom Slate\",\"value\":\"#7B939B\"},{\"code_variable_name\":\"b2b-dark-slate\",\"label\":\"Rostelecom Dark Slate\",\"value\":\"#313A49\"},{\"code_variable_name\":\"b2b-burgundy\",\"label\":\"Rostelecom Burgundy\",\"value\":\"#431625\"},{\"code_variable_name\":\"b2c-white\",\"label\":\"Rostelecom White\",\"value\":\"#ffffff\"},{\"code_variable_name\":\"b2c-white09\",\"label\":\"Rostelecom White 90%\",\"value\":\"rgba(255,255,255, 0.9)\"},{\"code_variable_name\":\"b2c-white08\",\"label\":\"Rostelecom White 80%\",\"value\":\"rgba(255,255,255, 0.8)\"},{\"code_variable_name\":\"b2c-white07\",\"label\":\"Rostelecom White 70%\",\"value\":\"rgba(255,255,255, 0.7)\"},{\"code_variable_name\":\"b2c-white06\",\"label\":\"Rostelecom White 60%\",\"value\":\"rgba(255,255,255, 0.6)\"},{\"code_variable_name\":\"b2c-white05\",\"label\":\"Rostelecom White 50%\",\"value\":\"rgba(255,255,255, 0.5)\"},{\"code_variable_name\":\"b2c-white04\",\"label\":\"Rostelecom White 40%\",\"value\":\"rgba(255,255,255, 0.4)\"},{\"code_variable_name\":\"b2c-white03\",\"label\":\"Rostelecom White 30%\",\"value\":\"rgba(255,255,255, 0.3)\"},{\"code_variable_name\":\"b2c-white02\",\"label\":\"Rostelecom White 20%\",\"value\":\"rgba(255,255,255, 0.2)\"},{\"code_variable_name\":\"b2c-white01\",\"label\":\"Rostelecom White 10%\",\"value\":\"rgba(255,255,255, 0.1)\"},{\"code_variable_name\":\"dark-card-background\",\"label\":\"\",\"value\":\"rgba(0,0,0,0.8)\"},{\"code_variable_name\":\"disable-button-color\",\"label\":\"\",\"value\":\"#e6e6e6\"},{\"code_variable_name\":\"disable-button-color-dark-theme\",\"label\":\"\",\"value\":\"rgba(255,255,255,0.1)\"},{\"code_variable_name\":\"card-list-border\",\"label\":\"\",\"value\":\"#E5E5E5\"},{\"code_variable_name\":\"default-wive-color\",\"label\":\"\",\"value\":\"#808080\"},{\"code_variable_name\":\"error-color\",\"label\":\"\",\"value\":\"#eb3728\"},{\"code_variable_name\":\"error-color-night\",\"label\":\"\",\"value\":\"#FF4747\"},{\"code_variable_name\":\"box-shadow-background\",\"label\":\"\",\"value\":\"rgba(16,24,40,0.1)\"},{\"code_variable_name\":\"dark-theme-dropdown-background\",\"label\":\"\",\"value\":\"#202432\"},{\"code_variable_name\":\"light-grey\",\"label\":\"\",\"value\":\"#fafafa\"},{\"code_variable_name\":\"card-shadow\",\"label\":\"\",\"value\":\"0 0 5px rgba(16,24,40,0.15)\"},{\"code_variable_name\":\"card-shadow--hovered\",\"label\":\"\",\"value\":\"0 5px 5px rgba(16,24,40,0.15)\"}]");
-
-/***/ }),
-
-/***/ "./src/example-pages/components/main/colors/ColorsList.vue":
+/***/ "./src/example-pages/components/group/CarouselV2--demo.vue":
 /*!*****************************************************************!*\
-  !*** ./src/example-pages/components/main/colors/ColorsList.vue ***!
+  !*** ./src/example-pages/components/group/CarouselV2--demo.vue ***!
   \*****************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ColorsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ColorsList.vue?vue&type=script&lang=js& */ "./src/example-pages/components/main/colors/ColorsList.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-var render, staticRenderFns
+/* harmony import */ var _CarouselV2_demo_vue_vue_type_template_id_3925a5d9___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CarouselV2--demo.vue?vue&type=template&id=3925a5d9& */ "./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=3925a5d9&");
+/* harmony import */ var _CarouselV2_demo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CarouselV2--demo.vue?vue&type=script&lang=js& */ "./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _CarouselV2_demo_vue_vue_type_style_index_0_lang_stylus___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CarouselV2--demo.vue?vue&type=style&index=0&lang=stylus& */ "./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=style&index=0&lang=stylus&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
 
 
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  _ColorsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"],
-  render,
-  staticRenderFns,
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _CarouselV2_demo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CarouselV2_demo_vue_vue_type_template_id_3925a5d9___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CarouselV2_demo_vue_vue_type_template_id_3925a5d9___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -297,75 +489,51 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/main/colors/ColorsList.vue?vue&type=script&lang=js&":
+/***/ "./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=script&lang=js&":
 /*!******************************************************************************************!*\
-  !*** ./src/example-pages/components/main/colors/ColorsList.vue?vue&type=script&lang=js& ***!
+  !*** ./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=script&lang=js& ***!
   \******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_ColorsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ColorsList.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/main/colors/ColorsList.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_ColorsList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./CarouselV2--demo.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/main/colors/ColorsListItem.vue":
-/*!*********************************************************************!*\
-  !*** ./src/example-pages/components/main/colors/ColorsListItem.vue ***!
-  \*********************************************************************/
-/*! exports provided: default */
+/***/ "./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=style&index=0&lang=stylus&":
+/*!*****************************************************************************************************!*\
+  !*** ./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=style&index=0&lang=stylus& ***!
+  \*****************************************************************************************************/
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ColorsListItem_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ColorsListItem.vue?vue&type=script&lang=js& */ "./src/example-pages/components/main/colors/ColorsListItem.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-var render, staticRenderFns
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_stylus_loader_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_style_index_0_lang_stylus___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/stylus-loader!../../../../node_modules/vue-loader/lib??vue-loader-options!./CarouselV2--demo.vue?vue&type=style&index=0&lang=stylus& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/stylus-loader/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=style&index=0&lang=stylus&");
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_stylus_loader_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_style_index_0_lang_stylus___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_stylus_loader_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_style_index_0_lang_stylus___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_stylus_loader_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_style_index_0_lang_stylus___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_stylus_loader_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_style_index_0_lang_stylus___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  _ColorsListItem_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"],
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./src/example-pages/components/main/colors/ColorsListItem.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************!*\
-  !*** ./src/example-pages/components/main/colors/ColorsListItem.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************/
-/*! exports provided: default */
+/***/ "./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=3925a5d9&":
+/*!************************************************************************************************!*\
+  !*** ./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=3925a5d9& ***!
+  \************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_ColorsListItem_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ColorsListItem.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/main/colors/ColorsListItem.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_ColorsListItem_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_template_id_3925a5d9___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./CarouselV2--demo.vue?vue&type=template&id=3925a5d9& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=3925a5d9&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_template_id_3925a5d9___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/***/ }),
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_template_id_3925a5d9___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
-/***/ "./src/example-pages/components/main/colors/colorListSettings.json":
-/*!*************************************************************************!*\
-  !*** ./src/example-pages/components/main/colors/colorListSettings.json ***!
-  \*************************************************************************/
-/*! exports provided: code_variable_name, label, hex, rgba, default */
-/***/ (function(module) {
 
-module.exports = JSON.parse("{\"code_variable_name\":{\"index\":\"4\",\"name\":\"Название в коде\"},\"label\":{\"index\":\"0\",\"name\":\"Название\"},\"hex\":{\"index\":\"2\",\"name\":\"HEX\"},\"rgba\":{\"name\":\"RGBA\",\"index\":\"3\"}}");
 
 /***/ })
 
