@@ -40,6 +40,14 @@
           "for_b2c" : true
         },
         {
+          "name" : "space-colorized",
+          "title" : "SpaceColorized",
+          "url" : "/space-colorized",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
           "name" : "grid",
           "title" : "Grid",
           "url" : "/grid",

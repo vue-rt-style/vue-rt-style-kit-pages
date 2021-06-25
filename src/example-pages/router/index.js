@@ -5,6 +5,7 @@ const index = [
   { path: "/rt-img", name: "app-rt-img", component: () => import("../components/main/RtImg.vue") },
   { path: "/colors", name: "app-colors", component: () => import("../components/main/colors/ColorsList.vue") },
   { path: "/space", name: "app-grid", component: () => import("../components/main/SpaceClassElements.vue") },
+  { path: "/space-colorized", name: "app-grid", component: () => import("../components/main/SpaceColorized.vue") },
   { path: "/grid", name: "app-grid", component: () => import("../components/main/Grid.vue") },
   { path: "/grid_component", name: "grid component", component: () => import("../components/main/GridComponent.vue") },
   { path: "/system_icons", name: "system icons", component: () => import("../components/simple/SystemIcons.vue") },

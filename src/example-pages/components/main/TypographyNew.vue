@@ -21,7 +21,7 @@
                 <p>&nbsp;&nbsp;font-weight <b>bold</b></p>
               </td>
               <td>
-                <div class="font-h1">H1 - <bpname/></div>
+                <div class="font-h1">H1 - <span class="bpname"></span></div>
               </td>
             </tr>
             <tr class="baza-table__row-clean">
@@ -34,7 +34,7 @@
                 <p>&nbsp;&nbsp;font-weight <b>bold</b></p>
               </td>
               <td>
-                <div class="font-h2">H2 - <bpname/></div>
+                <div class="font-h2">H2 - <span class="bpname"></span></div>
               </td>
             </tr>
             <tr>
@@ -44,7 +44,7 @@
                 <p>&nbsp;&nbsp;font-weight <b>bold</b></p>
               </td>
               <td>
-                <div class="font-h3">H3 - <bpname/></div>
+                <div class="font-h3">H3 - <span class="bpname"></span></div>
               </td>
             </tr>
             <tr>
@@ -54,7 +54,7 @@
                 <p>&nbsp;&nbsp;font-weight <b>bold</b></p>
               </td>
               <td>
-                <div class="font-h4">H4 - <bpname/></div>
+                <div class="font-h4">H4 - <span class="bpname"></span></div>
               </td>
             </tr>
 
@@ -66,7 +66,7 @@
                 <p>&nbsp;&nbsp;font-weight <b>bold</b></p>
               </td>
               <td>
-                <div class="font-h-l">Headline L - <bpname/></div>
+                <div class="font-h-l">Headline L - <span class="bpname"></span></div>
               </td>
             </tr>
             <tr>
@@ -76,7 +76,7 @@
                 <p>&nbsp;&nbsp;font-weight normal</p>
               </td>
               <td>
-                <div class="font-t-l">Text L - <bpname/></div>
+                <div class="font-t-l">Text L - <span class="bpname"></span></div>
               </td>
             </tr>
 
@@ -88,7 +88,7 @@
                 <p>&nbsp;&nbsp;font-weight <b>bold</b></p>
               </td>
               <td>
-                <div class="font-h-m">Headline M - <bpname/></div>
+                <div class="font-h-m">Headline M - <span class="bpname"></span></div>
               </td>
             </tr>
             <tr>
@@ -98,7 +98,7 @@
                 <p>&nbsp;&nbsp;font-weight normal</p>
               </td>
               <td>
-                <div class="font-t-m">Text M - <bpname/></div>
+                <div class="font-t-m">Text M - <span class="bpname"></span></div>
               </td>
             </tr>
 
@@ -110,7 +110,7 @@
                 <p>&nbsp;&nbsp;font-weight <b>bold</b></p>
               </td>
               <td>
-                <div class="font-h-s">Headline S - <bpname/></div>
+                <div class="font-h-s">Headline S - <span class="bpname"></span></div>
               </td>
             </tr>
             <tr>
@@ -120,7 +120,7 @@
                 <p>&nbsp;&nbsp;font-weight normal</p>
               </td>
               <td>
-                <div class="font-t-s">Text S - <bpname/></div>
+                <div class="font-t-s">Text S - <span class="bpname"></span></div>
               </td>
             </tr>
 
@@ -132,7 +132,7 @@
                 <p>&nbsp;&nbsp;font-weight <b>bold</b></p>
               </td>
               <td>
-                <div class="font-h-xs">Headline XS - <bpname/></div>
+                <div class="font-h-xs">Headline XS - <span class="bpname"></span></div>
               </td>
             </tr>
             <tr>
@@ -142,7 +142,7 @@
                 <p>&nbsp;&nbsp;font-weight normal</p>
               </td>
               <td>
-                <div class="font-t-xs">Text XS - <bpname/></div>
+                <div class="font-t-xs">Text XS - <span class="bpname"></span></div>
               </td>
             </tr>
 
@@ -153,7 +153,7 @@
                 <p>&nbsp;&nbsp;font-weight normal</p>
               </td>
               <td>
-                <div class="font-lb">Label - <bpname/></div>
+                <div class="font-lb">Label - <span class="bpname"></span></div>
               </td>
             </tr>
             <tr class="baza-table__row-clean">
@@ -223,7 +223,7 @@ bg = #F3F3F4
     margin-left -20px
     margin-right -20px
 
-bpname
+.bpname
   display inline-block
   @media (max-width: 767px)
     &:before
