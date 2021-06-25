@@ -35,6 +35,10 @@
               <input type="checkbox" v-model="infinitescroll">
             </rt-col>
             <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
+              <p>scroll step</p>
+              <input  v-model="scrollStep">
+            </rt-col>
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
               <p>blur not active</p>
               <input type="checkbox" v-model="blurnotactive">
             </rt-col>
@@ -57,7 +61,7 @@
           </rt-row>
         </div>
       </div>
-      <rt-carousel-v3 :active-index-init="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
+      <rt-carousel-v3 :scroll-step="scrollStep" :active-index-init="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
 <!--        <pre-timeout  :time="i*1000" >-->
         <rt-carousel-slide-v3 v-for="i in 15" :key="i">
           <div>
@@ -87,6 +91,32 @@
       </rt-carousel-v3>
       <rt-carousel-v3 :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :scrollable-on-desktop="scrollableondesktop">
           <rt-carousel-slide-v3 v-for="i in 5" :time="i*1000" :key="i">
+            <div>
+              <div
+                  style="
+              background-size: cover;
+              border-radius: 8px;
+              height: 300px;
+              position: relative;
+            "
+                  :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">
+                <div
+                    style="
+                background-color: black;
+                color: white;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding: 0 10px;
+              "
+                    v-text="i"/>
+              </div>
+
+            </div>
+          </rt-carousel-slide-v3>
+      </rt-carousel-v3>
+      <rt-carousel-v3 :background="background" :col-in-row="4" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :scrollable-on-desktop="scrollableondesktop">
+          <rt-carousel-slide-v3 v-for="i in 8" :time="i*1000" :key="i">
             <div>
               <div
                   style="
@@ -315,6 +345,7 @@ export default {
       gotoSlideVal: 0,
       colInRow: 4 ,
       laptopColInRow: 4,
+      scrollStep: 1,
       waitTime: this.getRandomNumberFromRange(3,15)*1000,
     }
   },
