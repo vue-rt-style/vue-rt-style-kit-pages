@@ -16,13 +16,13 @@
           <rt-row>
             <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
               <p>background</p>
-              <select v-model="background">
+              <select v-model="background" style="width: 100%">
                 <option v-for="i in colors" :value="i">{{ i }}</option>
               </select>
             </rt-col>
             <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
               <p>shadowColor</p>
-              <select v-model="shadowColor">
+              <select v-model="shadowColor" style="width: 100%">
                 <option v-for="i in colors" :value="i">{{ i }}</option>
               </select>
             </rt-col>
@@ -37,6 +37,18 @@
             <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
               <p>scroll step</p>
               <input  v-model="scrollStep">
+            </rt-col>
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
+              <p>laptop scroll step</p>
+              <input  v-model="laptopScrollStep">
+            </rt-col>
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
+              <p>tablet scroll step</p>
+              <input  v-model="tdScrollStep">
+            </rt-col>
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
+              <p>mobile scroll step</p>
+              <input  v-model="mdScrollStep">
             </rt-col>
             <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
               <p>blur not active</p>
@@ -61,7 +73,10 @@
           </rt-row>
         </div>
       </div>
-      <rt-carousel-v3 :scroll-step="scrollStep" :active-index-init="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
+      <rt-carousel-v3 :scroll-step="scrollStep"
+                      :laptop-scroll-step="laptopScrollStep"
+                      :td-scroll-step="tdScrollStep"
+                      :md-scroll-step="mdScrollStep" :active-index-init="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
 <!--        <pre-timeout  :time="i*1000" >-->
         <rt-carousel-slide-v3 v-for="i in 15" :key="i">
           <div>
@@ -346,6 +361,9 @@ export default {
       colInRow: 4 ,
       laptopColInRow: 4,
       scrollStep: 1,
+      laptopScrollStep:1,
+      tdScrollStep:1,
+      mdScrollStep:1,
       waitTime: this.getRandomNumberFromRange(3,15)*1000,
     }
   },
