@@ -149,7 +149,7 @@ bg = #F3F3F4
         font-weight 500
         line-height 28px
       // Color-sheme
-      &-gray
+      &-grey
         background #7B939B
       &-darkpurple
         background #3F028C
