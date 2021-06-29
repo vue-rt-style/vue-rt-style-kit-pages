@@ -6,7 +6,6 @@
       </div>
     </div>
 
-
     <div class="sp-v-2">
       <div class="rt-container">
         <div class="rt-col-12 rt-col-md-3 sp-b-2">
@@ -73,12 +72,20 @@
           </rt-row>
         </div>
       </div>
+
+      <rt-tabs :version="2" :show-as-tags="true" background="main-color03" :bright="true" :small="true" :wrap-navigation="true" >
+        <template slot="navigation">
+          <rt-tabs-nav-item anchor="ready!" name="1">1</rt-tabs-nav-item>
+          <rt-tabs-nav-item anchor="ready!" name="2">2</rt-tabs-nav-item>
+        </template>
+        <template slot="content">
+          <rt-tabs-content-item name="1">
       <rt-carousel-v3 :scroll-step="scrollStep"
                       :laptop-scroll-step="laptopScrollStep"
                       :td-scroll-step="tdScrollStep"
                       :md-scroll-step="mdScrollStep" :active-index-init="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
 <!--        <pre-timeout  :time="i*1000" >-->
-        <rt-carousel-slide-v3 v-for="i in 15" :key="i">
+        <rt-carousel-slide-v3 v-for="i in 15" :key="i+'$'">
           <div>
           <div
               style="
@@ -87,7 +94,7 @@
               height: 300px;
               position: relative;
             "
-              :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">
+              :style="`background: url(https://picsum.photos/500/300?getForId=${i+100})`">
             <div
                 style="
                 background-color: black;
@@ -97,12 +104,85 @@
                 right: 0;
                 padding: 0 10px;
               "
-                v-text="i"/>
+                v-text="'1-'+i"/>
           </div>
 
           </div>
         </rt-carousel-slide-v3>
 <!--        </pre-timeout>-->
+      </rt-carousel-v3>
+
+
+
+
+          </rt-tabs-content-item>
+          <rt-tabs-content-item name="2">
+            <rt-carousel-v3 :scroll-step="scrollStep"
+                            :laptop-scroll-step="laptopScrollStep"
+                            :td-scroll-step="tdScrollStep"
+                            :md-scroll-step="mdScrollStep" :active-index-init="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
+              <!--        <pre-timeout  :time="i*1000" >-->
+              <rt-carousel-slide-v3 v-for="i in 15" :key="i+'$$'">
+                <div>
+                  <div
+                      style="
+              background-size: cover;
+              border-radius: 8px;
+              height: 300px;
+              position: relative;
+            "
+                      :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">
+                    <div
+                        style="
+                background-color: black;
+                color: white;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding: 0 10px;
+              "
+                        v-text="'2-'+i"/>
+                  </div>
+
+                </div>
+              </rt-carousel-slide-v3>
+              <!--        </pre-timeout>-->
+            </rt-carousel-v3>
+
+
+          </rt-tabs-content-item>
+        </template>
+      </rt-tabs>
+      <rt-carousel-v3 :scroll-step="scrollStep"
+                      :laptop-scroll-step="laptopScrollStep"
+                      :td-scroll-step="tdScrollStep"
+                      :md-scroll-step="mdScrollStep" :active-index-init="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
+        <!--        <pre-timeout  :time="i*1000" >-->
+        <rt-carousel-slide-v3 v-for="i in 15" :key="i">
+          <div>
+            <div
+                style="
+              background-size: cover;
+              border-radius: 8px;
+              height: 300px;
+              position: relative;
+            "
+                :style="`background: url(https://picsum.photos/500/300?getForId=${i+35})`">
+              <div
+                  style="
+                background-color: black;
+                color: white;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding: 0 10px;
+              "
+                  v-text="'2-'+i"/>
+            </div>
+
+          </div>
+        </rt-carousel-slide-v3>
+        <!--        </pre-timeout>-->
       </rt-carousel-v3>
       <rt-carousel-v3 :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :scrollable-on-desktop="scrollableondesktop">
           <rt-carousel-slide-v3 v-for="i in 5" :time="i*1000" :key="i">
