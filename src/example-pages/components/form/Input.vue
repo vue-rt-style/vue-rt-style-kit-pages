@@ -24,10 +24,9 @@
                 </template>
               </rt-input>
               <rt-input label="А эта иконка делает))"
-                        :version="2"
                         type="text"
                         value=""
-                        placeholder="Поле с всплывающей подсказкой" @keydown="console('keydown')">
+                        placeholder="Поле с всплывающей подсказкой" @keydown.enter="test">
                 <template slot="informer">Здесь могла бы быть Ваша реклама, но мы будем использовать всплывающие
                   подсказки исключительно для сообщения важной информации.<br> Шутка!)) По вопросам сотрудничества
                   пиши в личку</template>
@@ -293,6 +292,9 @@
             this.checkThis = !!Math.round(Math.random())
           }
         }, 5000)
+      },
+      test(e){
+        console.info(e)
       },
       console(e) {
         console.log('!!!', e)

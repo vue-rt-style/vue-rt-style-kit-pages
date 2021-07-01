@@ -47,12 +47,15 @@
             <input type="text" v-model="test">
 
             {{test}}
-            <rt-select-v2 :auto-complete="true" v-model="test"
+            <rt-autocomplete :auto-complete="true" v-model="test"
                           :join-value="true"
                           name="test2"
+                          @itemSelect="selectItem"
+                             @item-select="selectItem"
                           default-value="Рос"
                           label="Выпадающий список с фильтрацией по вводу"
-                          :json="optionsListFiltered" @input="filterOnInput"
+                          :json="optionsListFiltered"
+                          @input="filterOnInput"
                           @change="console('change')"
                           @focus="console('outer focus')"
                           @blur="console('outer blur')"/>
@@ -398,6 +401,9 @@
         }
         // console.info('this.optionsListFiltered',this.optionsListFiltered);
 
+      },
+      selectItem(e){
+        console.info(e)
       },
       console(e) {
         console.log(e)
