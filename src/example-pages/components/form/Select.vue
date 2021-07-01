@@ -47,7 +47,8 @@
             <input type="text" v-model="test">
 
             {{test}}
-            <rt-autocomplete :auto-complete="true" v-model="test"
+            <button @click="clear">click me</button>
+            <rt-autocomplete ref="auto" :auto-complete="true" v-model="test"
                           :join-value="true"
                           name="test2"
                           @itemSelect="selectItem"
@@ -408,6 +409,10 @@
       console(e) {
         console.log(e)
       },
+      clear(){
+        console.info('!!')
+        this.$refs.auto.clearValue()
+      }
     }
   };
 </script>
