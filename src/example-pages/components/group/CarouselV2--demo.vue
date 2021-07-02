@@ -405,14 +405,14 @@
 <!--    </div>-->
 
     <div class="rt-container">
-<!--      <documentation-builder :json="docProps" type="props" class="sp-t-2-1" />-->
+      <documentation-builder :json="docProps" type="props" class="sp-t-2-1" />
 <!--      <documentation-builder :json="docEvents" type="events" class="sp-t-2-1" />-->
     </div>
   </div>
 </template>
 
 <script>
-// import docProps from '@vue-rt-style-kit-molecules-local/components/CarouselV2/docs/props.json'
+import docProps from '@vue-rt-style-kit-molecules-local/components/CarouselV3/docs/index.json'
 // import docEvents from '@vue-rt-style-kit-molecules-local/components/CarouselV2/docs/events.json'
 
 const defaultLoaderType = 'spinner'
@@ -425,7 +425,7 @@ const skeletonLoader = {
 export default {
   data() {
     return {
-      // docProps,
+      docProps,
       // docEvents,
       activeIndex: 0,
       slidesList: [],
