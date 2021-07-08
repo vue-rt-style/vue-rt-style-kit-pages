@@ -1,598 +1,161 @@
-.buble
-  position: absolute;
-  width: 38px
-  height: 38px
-  border-radius 50%
-  border 1px solid #FF4F12
-  cursor: pointer;
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.6s;
-  transition-property: background, border ;
-  display: flex
-  justify-content center
-  align-items center
-  transform translate(-50%, -50%)
-  @media (max-width 1600px)
-    width: 27px
-    height: 27px
-  &:before
-    content ''
-    border 1px solid rgba(255, 79, 18, 0.5)
-    transform translate(-50%,-50%)
-    border-radius 50%
-    position: absolute
-    width: 0
-    height: 0
-    top: 50%
-    left: 50%
-    animation 1.5s animateBb linear infinite
-    transition-timing-function: ease-in-out;
-    transition-duration: 0.4s;
-    transition-property: width, height, box-shadow, background, border ;
-    box-shadow: 0 0 0 200px inset rgba(255, 79, 18, 0);
-    pointer-events none
-  &:after
-    content ''
-    width: 0
-    height: 0
-    border 1px solid rgba(255, 79, 18, 0.25)
-    transform translate(-50%,-50%)
-    border-radius 50%
-    position: absolute
-    top: 50%
-    left: 50%
-    animation 1.5s animateBa linear infinite
-    transition-timing-function: ease-in-out;
-    transition-duration: 0.4s;
-    transition-property: width, height, box-shadow, background, border ;
-    box-shadow: 0 0 0 200px inset rgba(255, 79, 18, 0);
-    pointer-events none
-  &:hover
-    &:after,
-    &:before
-      animation none
-    &:before
-      width: 150%
-      height: 150%
-      animation 0.8s animateBbHover linear
-    &:after
-      width: 200%
-      height: 200%
-      animation 0.8s animateBaHover linear
-.buble__icon
-  position: relative;
-  z-index: 10
-  opacity: 0
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.4s;
-  transition-property: opacity;
-.buble-active
-  background-color: rgba(255, 79, 18, 0.55)
-  border-color rgba(255, 79, 18, 0)
-  z-index 100
-  &:hover
-    background-color: rgba(211, 55, 6, 1)
-    &:before
-      box-shadow: 0 0 0 200px inset rgba(211, 55, 6, 0.15);
-    &:after
-      box-shadow: 0 0 0 200px inset rgba(211, 55, 6, 0.1);
-  .buble__icon
-    opacity: 1
-  &:hover
-    &:after,
-    &:before
-      animation none
-
-  &:after,
-  &:before
-    animation none
-    border-color rgba(255, 79, 18, 0)
-  &:before
-    width: 150%
-    height: 150%
-    box-shadow: 0 0 0 200px inset rgba(255, 79, 18, 0.15);
-  &:after
-    width: 200%
-    height: 200%
-    box-shadow: 0 0 0 200px inset rgba(255, 79, 18, 0.1);
-
-.buble-blur
-  &:after
-    animation 0.4s animateBaBlur linear
-  &:before
-    animation 0.4s animateBbBlur linear
-
-@keyframes animateBb {
-  0% {
-    width: 100%
-    height: 100%
-    opacity:1
-  }
-
-  100%{
-    width: 150%
-    height: 150%
-    opacity: 0
-  }
-}
-@keyframes animateBbHover {
-  0% {
-    width: 100%
-    height: 100%
-    opacity:1
-  }
-
-  100%{
-    width: 150%
-    height: 150%
-    opacity: 1
-  }
-}
-@keyframes animateBbBlur {
-  0% {
-    width: 150%
-    height: 150%
-    opacity:1
-  }
-
-  100%{
-    width: 100%
-    height: 100%
-    opacity: 0
-  }
-}
-
-
-@keyframes animateBa {
-  0% {
-    width: 100%
-    height: 100%
-    opacity:1
-  }
-
-  100%{
-    width: 200%
-    height: 200%
-    opacity:0
-  }
-
-}
-@keyframes animateBaHover {
-  0% {
-    width: 100%
-    height: 100%
-  }
-
-  100%{
-    width: 200%
-    height: 200%
-  }
-
-}
-@keyframes animateBaBlur {
-  0% {
-    width: 200%
-    height: 200%
-    opacity:1
-  }
-
-  100%{
-    width: 100%
-    height: 100%
-    opacity: 1
-  }
-
-}
-
-.buble-popup
-  opacity: 0
-  position: absolute;
-  width: 324px
-  min-width 324px
-  max-width 324px
-  top: 50%
-  pointer-events none
-  transform translate(0%, -50%)
-  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.08);
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.2s;
-  transition-property: opacity, right, left, transform;
-.color-orange .rt-price-v2__info-item
-  color b2c-orange
-.smart-phone-img
-  @media(max-width tablet-upper-limit)
-    position: absolute;
-    bottom: 0
-    right: 0
-    top: 110px
-  @media(max-width mobile-upper-limit)
-    position: relative;
-    margin-top: -24px
-    top: 0
-
-.smart-line
-  position: relative;
-  &:before
-    content ''
-    position: absolute;
-    right: 0
-    top: 0
-    bottom: 0
-    width: 1px
-    background-color: rgba(16, 24, 40, 0.5)
-
-
-.buble-right
-  .buble-popup
-    transform translate(90%, -50%)
-    right: -30px
-    &:before
-      content ''
-      position: absolute;
-      top: 0
-      bottom: 0
-      left: -6px
-      margin-top:auto
-      margin-bottom auto
-      display: inline-block;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 6px 6px 6px 0;
-      border-color: transparent #fff transparent transparent;
-.buble-left
-  .buble-popup
-    transform translate(-90%, -50%)
-    left: -30px
-    &:before
-      content ''
-      position: absolute;
-      top: 0
-      bottom: 0
-      right: -6px
-      margin-top:auto
-      margin-bottom auto
-      display: inline-block;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 6px 0 6px 6px;
-      border-color: transparent transparent transparent #fff;
-.buble-right.buble-active
-  .buble-popup
-    transform translate(100%, -50%)
-
-    opacity: 1
-    pointer-events auto
-.buble-left.buble-active
-  .buble-popup
-    transform translate(-100%, -50%)
-
-    opacity: 1
-    pointer-events auto
-.buble-popup-image
-  width: 180px
-.intetior
-  position: relative;
-  @media (max-width 1279px)
-    display: none
-.intetior-image
-  display: block
-  width: 100%
-.homescript-slider
-  @media(max-width laptop-upper-limit)
-    margin-left: -20px
-    margin-right: -20px
-    width: calc(100% + 40px)
-.homescript-slider-images
-  height: 46%
-  min-height: 46%
-  position: relative;
-  @media(max-width mobile-upper-limit)
-    min-height auto
-    height: auto
-    top: 0
-    bottom: 0
-
-.homescript-image
-  position: absolute;
-  top: 0
-  left: 0
-  right: 0
-  width: 100%
-  height: 100%
-  opacity: 0
-  filter: blur(10px) grayscale(1);
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.8s;
-  transition-property: filter, opacity;
-  .rt-img
-    width: 100%
-    height: 100%
-    object-fit: cover;
-    object-position left center
-  @media(max-width mobile-upper-limit)
-    object-fit: cover;
-    object-position left center
-
-.homescript-image--active
-  position: absolute;
-  top: 0
-  left: 0
-  right: 0
-  width: 100%
-  opacity: 1;
-  filter: blur(0px) grayscale(0);
-.homescript-slider-link
-  background-color: main-color05
-  display: flex
-  flex-direction column
-  color white
-  padding-left: 40px
-  padding-right: 40px
-  max-height: 150px
-  min-height: 150px;
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.8s;
-  transition-property: background, max-height, min-height, padding;
-  cursor: pointer;
-  flex 1
-  padding-top: 0
-
-  @media(max-width laptop-upper-limit)
-
-    min-height 100%
-    max-height 100%
-    min-width 100%
-
-  path
-    transition-timing-function: ease-in-out;
-    transition-duration: 0.8s;
-    transition-property: fill
-  &:hover
-    background-color rgba(16,24,40,0.85)
-    .homescript-slider-back
-      path
-        fill b2c-orange
-.homescript-slider-go-back
-  display: none
-  .rt-sys-icon
-    display: block
-.homescript-slider-back
-  animation 1s showArrow linear
-.homescript-slider-block--active
-  .homescript-slider-go-back
-    position: absolute;
-    left: 0px
-    bottom: 63px
-    cursor: pointer;
-    display: block
-    animation 0.5s showArrow linear
-  .homescript-header
-    min-height 0
-
-  .homescript-slider-back
-    display: none
-
-
-  .homescript-slider-link
-    padding-top: 80px
-    background-color: rgba(16,24,40,0.85)
-    min-height 100%
-    max-height 100%
-    cursor: default;
-    @media(max-width mobile-upper-limit)
-      padding-bottom: 100px
-      min-height 100vh
-  .homescript-body-text
-    opacity: 1
-  .homescript-body
-    max-height: 800px;
-    min-height: 100%;
-.homescript-slider
-  .homescript-slider-block
-    @media(max-width laptop-upper-limit)
-      transition-property: height;
-      transition-duration: 0s
-  .homescript-slider-link
-    @media(max-width laptop-upper-limit)
-      transition-property: background, padding;
-
-
-  &.homescript-slider--active
-
-    .homescript-slider-block
-      @media(max-width mobile-upper-limit)
-        height: 0
-      @media(max-width laptop-upper-limit)
-        transition-property: none;
-        transition-duration: 0.4s
-
-    .homescript-slider-block--active
-      @media(max-width mobile-upper-limit)
-        height: auto
-    .homescript-slider-link
-      @media(max-width laptop-upper-limit)
-        transition-property: background, max-height, min-height, padding;
-      @media(max-width mobile-upper-limit)
-        transition-property none
-.homescript-body
-  position: relative;
+.image-block-wrap
   overflow: hidden;
-  max-height 0
-  flex: 1;
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.4s;
-  transition-property: max-height
-  @media(max-width laptop-upper-limit)
-    transition-property none
-.homescript-body-text
-  position: absolute;
-  top: 0px
-  left: 0
-  right: 0
-  opacity: 0
-  pointer-events none
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.2s;
-  transition-property: opacity
-  @media(max-width mobile-upper-limit)
-    position relative
-
-.homescript-slider-block
-  height: 100%
-  display: flex
-  align-items flex-end
-  min-width 25%
-  max-width 25%
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.4s;
-  transition-property: height
-  .homescript-slider--active &
-
-    @media(max-width laptop-upper-limit)
-      opacity: 0
-      pointer-events none
-  @media(max-width laptop-upper-limit)
-    max-width 100%
-    min-width 100%
-
-    flex-direction column
-
-  &+&
-    border-left: 1px solid b2c-white07
-    @media(max-width laptop-upper-limit)
-      border-left-width 0
-.homescript-slider:not(.homescript-slider--active) .homescript-slider-block
-  @media(max-width laptop-upper-limit)
-    height: 25%
-  @media(max-width mobile-upper-limit)
-    height: 130px
-.homescript-header
-  display: flex
-  justify-content space-between
-  align-items center
-  min-height: 150px
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.8s;
-  transition-property: min-height
-  @media(max-width laptop-upper-limit)
-    min-height 100%
-    transition-property: none
-
-.homescript-image-main
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.8s;
-  transition-property: opacity;
   width: 100%
+  max-width 100%
+  position: relative;
+  height: 300px
+  @media (max-width: tablet-upper-limit)
+    height: 200px
+  @media (max-width: mobile-upper-limit)
+    height: 120px
+
+.image-block
+  width: 300px
+  height: 300px
+  min-width 300px
+  margin-left: 10px
+  margin-right: 10px
+  @media (max-width: tablet-upper-limit)
+    width: 200px
+    height: 200px
+    min-width 200px
+  @media (max-width: mobile-upper-limit)
+    width: 120px
+    height: 120px
+    min-width 120px
+    margin-left: 6px
+    margin-right: 6px
+
+.image-block-image
+  width: 100%
+  height: 100%
   display: block
-  .rt-img
-    width: 100%
-    @media(max-width mobile-upper-limit)
-      object-fit: cover;
-      height: 100%
-  @media(max-width mobile-upper-limit)
-    position: absolute;
-    top: 0
-    bottom: 0
-    left: 0
-    right: 0
-    height: 100%
-
-.homescript-image-main--hide
-  opacity: 0
-
-.homescript-slider-nav
-  position: absolute;
-  z-index 3
-  top: 0
-  bottom: 0
-  bottom: 0
-  left: 0
-  right: 0
-  align-items flex-end
-  @media(max-width laptop-upper-limit)
-    width: 50%
-    align-items flex-start
-    flex-direction column
-  @media(max-width mobile-upper-limit)
-    position: relative
-    width: 100%
-@keyframes showArrow {
-  0% {
-    opacity:0
-  }
-  80%{
-    opacity:0
-  }
-
-  100%{
-    opacity: 1
-  }
-}
-.smart-icon
-  width: 80px
-  height: 80px
-  @media(max-width mobile-upper-limit)
-    width: 56px
-    height: 56px
-.homescript-slider-block--active
-
-  @media(max-width laptop-upper-limit)
-    height: 100%
-    position: absolute;
-    top: 0
-    left: 0
-    right: 0
-  @media(max-width mobile-upper-limit)
-    position relative
-  .homescript-slider--active &
-    @media(max-width laptop-upper-limit)
-      opacity: 1
-      pointer-events auto
-.tablet-border
-  position: relative;
-  @media(max-width tablet-upper-limit)
-    &:before
-      content ''
-      position: absolute;
-      bottom: 0
-      left: 20px
-      right: 20px
-      height: 2px
-      background-color: b2c-gray
-@media(max-width tablet-upper-limit) and (min-width tablet-lower-limit)
-  .smart-phone-block
-    overflow-x: hidden;
-    overflow-y visible
-.smart-phone-wrapper
-  position: relative;
-  @media(max-width tablet-upper-limit)
-    position static
-.smart-pseudo
-  position: absolute;
-  left: 0
-  top: 0
-  bottom: 0
-  background-color: #fff
-  border-radius 16px
-.smart-phone
-  top: -40px
-  position absolute
-  width: 87%
   object-fit cover
-  object-position left
-  @media(max-width tablet-upper-limit)
-    position: relative;
-    top: 0
-    width: 137%
-  @media(max-width mobile-upper-limit)
-    width: 100%
-    top: 48px
-.intetior-label{
+.image-block-line
+  display: flex
+  flex-wrap nowrap
   position: absolute;
-  text-align: center;
-  margin-top: 20px
-  left: 0;
-  right: 0;
-}
+  top: 0
+  left: -10px
+  right: -10px
+  transform  translateX(-300px)
+  animation-timing-function linear
+  @media (max-width: tablet-upper-limit)
+    transform  translateX(-200px)
+  @media (max-width: mobile-upper-limit)
+    transform  translateX(-120px)
+    left: -6px
+    right: -6px
+.image-block-pseudo
+  width: 300px
+  height: 300px
+  animation-timing-function linear
+  @media (max-width: tablet-upper-limit)
+    width: 200px
+    height: 200px
+  @media (max-width: mobile-upper-limit)
+    width: 120px
+    height: 120px
+  .image-block-line-invert &
+    width: 0
+
+.image-block-anim
+  animation-name stepLine
+  animation-duration inherit
+  animation-duration 5s
+  @media (max-width: tablet-upper-limit)
+    animation-name stepLineTd
+  @media (max-width: mobile-upper-limit)
+    animation-name stepLineMd
+  .image-block-pseudo
+    animation-name stepPseudo
+    @media (max-width: tablet-upper-limit)
+      animation-name stepPseudoTd
+    @media (max-width: mobile-upper-limit)
+      animation-name stepPseudoMd
+  &.image-block-line-invert
+    animation-name stepLineInv
+    @media (max-width: tablet-upper-limit)
+      animation-name stepLineInvTd
+    @media (max-width: mobile-upper-limit)
+      animation-name stepLineInvMd
+    .image-block-pseudo
+      animation-name stepPseudoInv
+      @media (max-width: tablet-upper-limit)
+        animation-name stepPseudoInvTd
+      @media (max-width: mobile-upper-limit)
+        animation-name stepPseudoInvMd
+
+  //.image-block-pseudo
+  //  animation-name stepPseudo
+  //  animation-duration inherit
+  //  animation-duration 1s
+
+@keyframes stepLine
+  0%
+    transform  translateX(-300px)
+  100%
+    transform  translateX(-620px)
+@keyframes stepLineTd
+  0%
+    transform  translateX(-200px)
+  100%
+    transform  translateX(-420px)
+@keyframes stepLineMd
+  0%
+    transform  translateX(-120px)
+  100%
+    transform  translateX(-252px)
+
+@keyframes stepLineInv
+  0%
+    transform  translateX(-300px)
+  100%
+    transform  translateX(20px)
+@keyframes stepLineInvTd
+  0%
+    transform  translateX(-200px)
+  100%
+    transform  translateX(20px)
+@keyframes stepLineInvMd
+  0%
+    transform  translateX(-120px)
+  100%
+    transform  translateX(12px)
+
+@keyframes stepPseudo
+  0%
+    width  300px
+  100%
+    width: 0
+
+@keyframes stepPseudoInv
+  0%
+    width  0px
+  100%
+    width: 300px
+
+@keyframes stepPseudoTd
+  0%
+    width  200px
+  100%
+    width: 0
+
+@keyframes stepPseudoMd
+  0%
+    width  120px
+  100%
+    width: 0
+
+@keyframes stepPseudoInvTd
+  0%
+    width  0px
+  100%
+    width: 200px
+
+@keyframes stepPseudoInvMd
+  0%
+    width  0px
+  100%
+    width: 120px
+

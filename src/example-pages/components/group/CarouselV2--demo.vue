@@ -80,6 +80,7 @@
         </template>
         <template slot="content">
           <rt-tabs-content-item name="1">
+            {{shadowColor}}
       <rt-carousel-v3 :scroll-step="scrollStep"
                       :laptop-scroll-step="laptopScrollStep"
                       :td-scroll-step="tdScrollStep"
@@ -236,6 +237,7 @@
             </div>
           </rt-carousel-slide-v3>
       </rt-carousel-v3>
+      <rt-circle-number value="1" size="2"></rt-circle-number>
 <!--      <rt-carousel-v2>-->
 <!--        <rt-carousel-slide-v2-->
 <!--          v-for="i in 7"-->
