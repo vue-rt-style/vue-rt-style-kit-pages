@@ -31,6 +31,7 @@ const index = [
   { path: "/message-box", name: "message-box", component: () => import("../components/simple/MessageBox.vue") },
   { path: "/opacity", name: "app-opacity", component: () => import("../components/simple/OpacityClassElements.vue") },
   { path: "/color-line-text", name: "app-color-line-text", component: () => import("../components/simple/ColorLineText.vue") },
+  { path: "/lines", name: "app-lines", component: () => import("../components/simple/Lines.vue") },
   { path: "/sticky-header-line", name: "Sticky Header Line", component: () => import("../components/simple/StickyHeaderLine.vue") },
   { path: "/sticky-bottom-line", name: "Sticky Bottom Line", component: () => import("../components/simple/StickyBottomLine.vue") },
   { path: "/ussd", name: "app-ussd", component: () => import("../components/simple/Ussd.vue") },

@@ -248,6 +248,14 @@
           "for_b2c" : true
         },
         {
+          "name" : "Lines Hr",
+          "title" : "Lines Hr",
+          "url" : "/lines",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
           "name" : "Sticky Header Line",
           "title" : "StickyHeaderLine",
           "url" : "/sticky-header-line",
