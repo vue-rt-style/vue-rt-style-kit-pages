@@ -25,8 +25,8 @@
               Попап 3
             </rt-button>
 
-          <rt-popup hash="popup1" name="filter" :ga="{test:1}">
-            <p class="rt-font-h3 sp-b-0-4">Проверьте тип подключения</p>
+          <rt-popup hash="popup1" name="filter" :ga="{test:1, event: 'b2b'}" :ga-close="{test:1, event: 'b2b', value: 'close_popup'}" >
+            <p class="rt-font-h3 sp-b-0-4">!!@-->>Проверьте тип подключения</p>
             <p class="rt-font-paragraph">Подойдите к вашему роутеру, предварительно убедитесь, что ничего не скачиваете
               или играете. Проверьте основной провод провайдера или гнездо разъема и сравните с изображениями ниже.</p>
             <div class="d-flex">

@@ -28,8 +28,9 @@ import {
     Image,
     Hint,
     HintBody,
+    Line,
 } from '@vue-rt-style-kit-atoms-local'
-
+console.info('Line -->>>' ,Line)
 
 import {
   ScrollTabs,
@@ -224,6 +225,7 @@ addToComponentList(Youtube)
 addToComponentList(Sticky)
 addToComponentList(ResizeContentHeight)
 // addToComponentList(Popover)
+addToComponentList(Line)
 addToComponentList(Popup)
 addToComponentList(PopupTriggerDirective)
 addToComponentList(SlideContent);
