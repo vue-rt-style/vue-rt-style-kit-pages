@@ -18,6 +18,10 @@
       <div class="sp-t-2">
         <rt-line :height="height" :color="color"></rt-line>
       </div>
+
+        <div class="sp-t-3">
+        <rt-line></rt-line>
+      </div>
       </div>
     </div>
   </div>
