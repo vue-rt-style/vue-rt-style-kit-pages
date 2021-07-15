@@ -52,5 +52,10 @@ export default function () {
         return - 1
       return a.val.search(b.val)
     });
+    style.define('parseInt', function (a){
+      if(a.val){
+        return parseInt(a.val)
+      }
+    })
   }
 }

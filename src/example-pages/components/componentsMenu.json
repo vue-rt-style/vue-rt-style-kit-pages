@@ -80,6 +80,14 @@
           "for_b2c" : true
         },
         {
+          "name" : "circle number",
+          "title" : "Circle Number",
+          "url" : "/circle_number",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
           "name" : "img",
           "title" : "Rt-Img",
           "url" : "/rt-img",
@@ -355,6 +363,14 @@
           "name" : "List elements",
           "title" : "List elements",
           "url" : "/list",
+          "list_child" : [],
+          "for_b2b" : true,
+          "for_b2c" : true
+        },
+        {
+          "name" : "privilege",
+          "title" : "Privilege",
+          "url" : "/privilege",
           "list_child" : [],
           "for_b2b" : true,
           "for_b2c" : true

@@ -29,8 +29,8 @@ import {
     Hint,
     HintBody,
     Line,
+    CircleNumber
 } from '@vue-rt-style-kit-atoms-local'
-console.info('Line -->>>' ,Line)
 
 import {
   ScrollTabs,
@@ -134,7 +134,8 @@ import {
   // VideoBanner,
   CarouselV3,
   CarouselV3Item,
-  ResizeContentHeightDirective
+  ResizeContentHeightDirective,
+  Privilege,
   
 } from '@vue-rt-style-kit-molecules-local'
 
@@ -224,6 +225,7 @@ addToComponentList(FilterSetterV2)
 addToComponentList(Youtube)
 addToComponentList(Sticky)
 addToComponentList(ResizeContentHeight)
+addToComponentList(Privilege)
 // addToComponentList(Popover)
 addToComponentList(Line)
 addToComponentList(Popup)
@@ -246,6 +248,7 @@ addToComponentList(RealPopup);
 addToComponentList(UseCase);
 addToComponentList(BenefitBlock);
 addToComponentList(BenefitItem);
+addToComponentList(CircleNumber);
 addToComponentList(PortraitTile);
 addToComponentList(PortraitTileItem);
 addToComponentList(Timeline);

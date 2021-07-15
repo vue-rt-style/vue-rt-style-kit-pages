@@ -1,677 +1,17 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[30],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Carousels.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/Carousels.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/BenefitBlock.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/BenefitBlock.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_rt_style_kit_molecules_local_components_Carousel_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/Carousel/docs/index.json */ "./src/molecules/components/Carousel/docs/index.json");
-var _vue_rt_style_kit_molecules_local_components_Carousel_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-molecules-local/components/Carousel/docs/index.json */ "./src/molecules/components/Carousel/docs/index.json", 1);
+/* harmony import */ var _vue_rt_style_kit_molecules_local_components_BenefitBlock_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/BenefitBlock/docs/index.json */ "./src/molecules/components/BenefitBlock/docs/index.json");
+var _vue_rt_style_kit_molecules_local_components_BenefitBlock_docs_index_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @vue-rt-style-kit-molecules-local/components/BenefitBlock/docs/index.json */ "./src/molecules/components/BenefitBlock/docs/index.json", 1);
 /* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
-function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
-
-function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
-
-function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -882,81 +222,25 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 //
 
 
-var defaultLoaderType = 'spinner';
-var skeletonLoader = {
-  type: 'skeleton',
-  count: 4,
-  rows: 2,
-  sub: 1
-};
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AppCarousel",
+  name: "AppBenefitBlock",
   components: _componentsList__WEBPACK_IMPORTED_MODULE_1__["default"],
   data: function data() {
     return {
-      slidesList: [],
-      loaderType: skeletonLoader,
-      documentation: _vue_rt_style_kit_molecules_local_components_Carousel_docs_index_json__WEBPACK_IMPORTED_MODULE_0__,
-      waitTime: this.getRandomNumberFromRange(3, 15) * 1000,
-      showSlideNmb: '0'
+      documentation: {}
     };
   },
-  computed: {
-    configLoaderCount: {
-      get: function get() {
-        return this.loaderType !== defaultLoaderType ? this.loaderType.count : skeletonLoader.count;
-      },
-      set: function set(val) {
-        this.loaderType.count = +val;
-      }
-    },
-    configLoaderRows: {
-      get: function get() {
-        return this.loaderType !== defaultLoaderType ? this.loaderType.rows : skeletonLoader.rows;
-      },
-      set: function set(val) {
-        this.loaderType.rows = +val;
-      }
-    },
-    configLoaderSub: {
-      get: function get() {
-        return this.loaderType !== defaultLoaderType ? this.loaderType.sub : skeletonLoader.sub;
-      },
-      set: function set(val) {
-        this.loaderType.sub = +val;
-      }
-    }
-  },
-  created: function created() {
-    this.reCreate();
-  },
-  methods: {
-    reCreate: function reCreate() {
-      var _this = this;
-
-      this.slidesList = [];
-      setTimeout(function () {
-        _this.slidesList = _toConsumableArray(Array(_this.getRandomNumberFromRange(2, 17)).keys());
-      }, this.waitTime);
-    },
-    setLoaderType: function setLoaderType() {
-      this.loaderType = this.loaderType === defaultLoaderType ? skeletonLoader : defaultLoaderType;
-    },
-    goToSlide: function goToSlide() {
-      if (this.showSlideNmb) this.$refs.carouselEl.moveTo(this.showSlideNmb);
-    },
-    getRandomNumberFromRange: function getRandomNumberFromRange(min, max) {
-      return Math.round(Math.random() * (max - min) + min, 10);
-    }
+  mounted: function mounted() {
+    this.documentation = _vue_rt_style_kit_molecules_local_components_BenefitBlock_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Carousels.vue?vue&type=template&id=99a3ae9a&":
-/*!***********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/Carousels.vue?vue&type=template&id=99a3ae9a& ***!
-  \***********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/BenefitBlock.vue?vue&type=template&id=61a24654&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/group/BenefitBlock.vue?vue&type=template&id=61a24654& ***!
+  \**************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -964,24 +248,24 @@ var skeletonLoader = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._m(0),_vm._v(" "),_c('div',[_c('div',{staticClass:"rt-container is-b2c"},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"rt-col-12 rt-space-bottom3"},[_c('rt-tabs',[_c('template',{slot:"navigation"},[_c('rt-tabs-nav-item',{attrs:{"remove-base-tag":true,"name":"one"}},[_vm._v("Демо-карточки")]),_vm._v(" "),_c('rt-tabs-nav-item',{attrs:{"remove-base-tag":true,"name":"two"}},[_vm._v("С фоновым изображением")])],1),_vm._v(" "),_c('template',{slot:"content"},[_c('rt-tabs-content-item',{attrs:{"name":"one"}},[_c('rt-button',{on:{"click":_vm.setLoaderType}},[_vm._v("changeLoader")]),_vm._v(" "),(_vm.loaderType !== 'spinner')?[_vm._v("\n                  config:\n                  "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.configLoaderCount),expression:"configLoaderCount"}],staticClass:"d-inline-block",staticStyle:{"width":"20px"},attrs:{"title":"карточек (count)","type":"number"},domProps:{"value":(_vm.configLoaderCount)},on:{"input":function($event){if($event.target.composing){ return; }_vm.configLoaderCount=$event.target.value}}}),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.configLoaderRows),expression:"configLoaderRows"}],staticClass:"d-inline-block",staticStyle:{"width":"20px"},attrs:{"title":"строк (rows)","type":"number"},domProps:{"value":(_vm.configLoaderRows)},on:{"input":function($event){if($event.target.composing){ return; }_vm.configLoaderRows=$event.target.value}}}),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.configLoaderSub),expression:"configLoaderSub"}],staticClass:"d-inline-block",staticStyle:{"width":"20px"},attrs:{"title":"подстрок (sub)","type":"number"},domProps:{"value":(_vm.configLoaderSub)},on:{"input":function($event){if($event.target.composing){ return; }_vm.configLoaderSub=$event.target.value}}})]:_vm._e(),_vm._v("\n                 waitTime: "+_vm._s(_vm.waitTime / 1000)+"s\n                "),_c('rt-button',{on:{"click":_vm.reCreate}},[_vm._v("reCreate list")]),_vm._v("\n                "+_vm._s(_vm.slidesList)+"\n                "),_c('div',{staticClass:"area"},[_c('rt-carousel',{attrs:{"debug":true,"loader":_vm.loaderType,"loaded":_vm.slidesList.length > 0}},_vm._l((_vm.slidesList),function(i){return _c('rt-carousel-slide',{key:i},[_c('div',{staticStyle:{"align-content":"center","border-radius":"8px","border":"2px solid","display":"flex","flex-flow":"wrap","font-size":"150px","justify-content":"center","height":"450px"},style:(("border-color: rgb(" + (177-i*0.6) + "," + (255/10+i) + "," + (i*15) + ");")),domProps:{"textContent":_vm._s(i)}})])}),1)],1)],2),_vm._v(" "),_c('rt-tabs-content-item',{attrs:{"name":"two"}},[_c('div',{staticClass:"area rt-space-top"},[_c('rt-carousel',{attrs:{"navs-pos-end":144}},_vm._l((15),function(i){return _c('rt-carousel-slide',{key:i},[_c('div',{staticStyle:{"background-size":"cover","border-radius":"8px","height":"300px","position":"relative"},style:(("background: url(https://picsum.photos/300/300?getForId=" + i + ")"))},[_c('div',{staticStyle:{"background-color":"black","color":"white","position":"absolute","bottom":"0","right":"0","padding":"0 10px"},domProps:{"textContent":_vm._s(i)}})])])}),1)],1)])],1)],2)],1)])]),_vm._v(" "),_c('div',[_c('pre-code',{attrs:{"text":"\n      <rt-carousel :hide-arrows=\"true\" slides-classes=\"rt-col-4 rt-col-md-2 rt-col-td-3\">\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <img width=\"175px\" class=\"rt-card__headeremitSelectedData__image\" src=\"/static/images/homeinternet/homeinternet-image18.jpg\" />\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Kaspersky Internet Security 4</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Одна лицензия на&nbsp;все&nbsp;«детские» Android-устройства</p>\n            </template>\n            <template slot=\"bottom-list\">\n              <div class=\"rt-card-list rt-space-bottom2\">\n                  <div class=\"rt-card-list__item\">\n                    <div class=\"rt-card-list__icon\">\n                      <img src=\"/static/images/medium-icon.svg\" />\n                    </div>\n                    <div class=\"rt-card-list__name\">\n                      <p class=\"rt-font-small-paragraph color-main05\">Защищает 2 устройства одновременно</p>\n                    </div>\n                  </div>\n                  <div class=\"rt-card-list__item\">\n                    <div class=\"rt-card-list__icon\">\n                      <div class=\"rt-space-left15\">\n                        <img src=\"/static/images/small-icon.svg\" />\n                      </div>\n                    </div>\n                    <div class=\"rt-card-list__name\">\n                      <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                    </div>\n                  </div>\n                  <div class=\"rt-card-list__item\">\n                    <div class=\"rt-card-list__icon\">\n                      <div class=\"rt-space-left15\">\n                        <img src=\"/static/images/small-icon.svg\" />\n                      </div>\n                    </div>\n                    <div class=\"rt-card-list__name\">\n                      <p class=\"rt-font-small-paragraph color-main05\">Контроль интернет-сайтов</p>\n                    </div>\n                  </div>\n                  <div class=\"rt-card-list__item\">\n                    <div class=\"rt-card-list__icon\">\n                      <div class=\"rt-space-left15\">\n                        <img src=\"/static/images/small-icon.svg\" />\n                      </div>\n                    </div>\n                    <div class=\"rt-card-list__name\">\n                      <p class=\"rt-font-small-paragraph color-main05\">Игровой формат и&nbsp;простые настройки</p>\n                    </div>\n                  </div>\n                  <div class=\"rt-card-list__item\">\n                    <div class=\"rt-card-list__icon\">\n                      <div class=\"rt-space-left15\">\n                        <img src=\"/static/images/small-icon.svg\" />\n                      </div>\n                    </div>\n                    <div class=\"rt-card-list__name\">\n                      <p class=\"rt-font-small-paragraph color-main05\">Определение местоположения</p>\n                    </div>\n                  </div>\n                  <div class=\"rt-card-list__item\">\n                    <div class=\"rt-card-list__icon\">\n                      <div class=\"rt-space-left15\">\n                        <img src=\"/static/images/small-icon.svg\" />\n                      </div>\n                    </div>\n                    <div class=\"rt-card-list__name\">\n                      <p class=\"rt-font-small-paragraph color-main05\">Сообщения ребенку</p>\n                    </div>\n                  </div>\n                  <div class=\"rt-card-list__item\">\n                    <div class=\"rt-card-list__icon\">\n                      <div class=\"rt-space-left15\">\n                        <img src=\"/static/images/small-icon.svg\" />\n                      </div>\n                    </div>\n                    <div class=\"rt-card-list__name\">\n                      <p class=\"rt-font-small-paragraph color-main05\">Контроль приложений и&nbsp;времени</p>\n                    </div>\n                  </div>\n              </div>\n            </template>\n\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"1600\" :old-value=\"1800\" time-interval=\"год.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <rt-logo height=\"70\"></rt-logo>\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Предложение из прод каталога 1</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Краткое описание из продуктового каталога</p>\n              <p>&nbsp;</p>\n              <div class=\"rt-card-list__item\">\n                <div class=\"rt-card-list__icon\">\n                  <div class=\"rt-space-left15\">\n                    <img src=\"/static/images/small-icon.svg\" />\n                  </div>\n                </div>\n                <div class=\"rt-card-list__name\">\n                  <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                </div>\n              </div>\n              <p>&nbsp;</p>\n            </template>\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"1000\" :old-value=\"1800\" time-interval=\"мес.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <rt-logo height=\"70\"></rt-logo>\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Предложение из прод каталога 2</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Краткое описание из продуктового каталога</p>\n              <p>&nbsp;</p>\n              <div class=\"rt-card-list__item\">\n                <div class=\"rt-card-list__icon\">\n                  <div class=\"rt-space-left15\">\n                    <img src=\"/static/images/small-icon.svg\" />\n                  </div>\n                </div>\n                <div class=\"rt-card-list__name\">\n                  <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                </div>\n              </div>\n              <p>&nbsp;</p>\n            </template>\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"1000\" :old-value=\"1800\" time-interval=\"мес.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <rt-logo height=\"70\"></rt-logo>\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Предложение из прод каталога 3</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Краткое описание из продуктового каталога</p>\n              <p>&nbsp;</p>\n              <div class=\"rt-card-list__item\">\n                <div class=\"rt-card-list__icon\">\n                  <div class=\"rt-space-left15\">\n                    <img src=\"/static/images/small-icon.svg\" />\n                  </div>\n                </div>\n                <div class=\"rt-card-list__name\">\n                  <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                </div>\n              </div>\n              <p>&nbsp;</p>\n            </template>\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"700\" time-interval=\"мес.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <rt-logo height=\"70\"></rt-logo>\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Предложение из прод каталога 4</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Краткое описание из продуктового каталога</p>\n              <p>&nbsp;</p>\n              <div class=\"rt-card-list__item\">\n                <div class=\"rt-card-list__icon\">\n                  <div class=\"rt-space-left15\">\n                    <img src=\"/static/images/small-icon.svg\" />\n                  </div>\n                </div>\n                <div class=\"rt-card-list__name\">\n                  <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                </div>\n              </div>\n              <p>&nbsp;</p>\n            </template>\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"450\" time-interval=\"мес.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <rt-logo height=\"70\"></rt-logo>\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Предложение из прод каталога 5</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Краткое описание из продуктового каталога</p>\n              <p>&nbsp;</p>\n              <div class=\"rt-card-list__item\">\n                <div class=\"rt-card-list__icon\">\n                  <div class=\"rt-space-left15\">\n                    <img src=\"/static/images/small-icon.svg\" />\n                  </div>\n                </div>\n                <div class=\"rt-card-list__name\">\n                  <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                </div>\n              </div>\n              <p>&nbsp;</p>\n            </template>\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"300\" time-interval=\"мес.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <rt-logo height=\"70\"></rt-logo>\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Предложение из прод каталога 6</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Краткое описание из продуктового каталога</p>\n              <p>&nbsp;</p>\n              <div class=\"rt-card-list__item\">\n                <div class=\"rt-card-list__icon\">\n                  <div class=\"rt-space-left15\">\n                    <img src=\"/static/images/small-icon.svg\" />\n                  </div>\n                </div>\n                <div class=\"rt-card-list__name\">\n                  <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                </div>\n              </div>\n              <p>&nbsp;</p>\n            </template>\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"650\" time-interval=\"мес.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n\n        <rt-carousel-slide>\n          <rt-card>\n            <template slot=\"header\">\n              <rt-logo height=\"70\"></rt-logo>\n            </template>\n            <template slot=\"content\">\n              <p class=\"rt-font-paragraph color-main07 rt-font-bold rt-space-top2\">Предложение из прод каталога 7</p>\n              <p class=\"rt-space-top color-main07 rt-space-right2\">Краткое описание из продуктового каталога</p>\n              <p>&nbsp;</p>\n              <div class=\"rt-card-list__item\">\n                <div class=\"rt-card-list__icon\">\n                  <div class=\"rt-space-left15\">\n                    <img src=\"/static/images/small-icon.svg\" />\n                  </div>\n                </div>\n                <div class=\"rt-card-list__name\">\n                  <p class=\"rt-font-small-paragraph color-main05\">Первый месяц в&nbsp;подарок</p>\n                </div>\n              </div>\n              <p>&nbsp;</p>\n            </template>\n            <template slot=\"content-without-wrapper\">\n              <div class=\"rt-card__border-content\">\n                <div class=\"rt-col-12 flex-end-center rt-space-top\">\n                  <rt-price :value=\"777\" time-interval=\"мес.\"></rt-price>\n                </div>\n                <div class=\"rt-space-top05\">\n                  <rt-button class=\"rt-button-orange rt-button--is-block\">Подключить</rt-button>\n                </div>\n              </div>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n      </rt-carousel>\n    </div>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top5"},[_c('pre-code',{attrs:{"text":"\n      <rt-carousel slides-classes=\"rt-col-3 rt-col-md-3 rt-space-top rt-font-hypnens-off is-b2c\">\n        <rt-carousel-slide>\n          <rt-card-image\n            :is-white-color=\"true\"\n            :col-size=\"2\"\n            background-color-type=\"light-blue\"\n            card-image=\"/static/images/cardImage1.jpg\"\n          >\n            <template slot=\"body\">\n              <p class=\"rt-font-paragraph rt-font-bold\">\n                Headstone\n              </p>\n              <p class=\"rt-font-label-uppercase rt-space-vertical05\">\n                игровой интернет\n              </p>\n              <p>Получай подарки в лучших играх Headstone!</p>\n            </template>\n          </rt-card-image>\n        </rt-carousel-slide>\n        <rt-carousel-slide>\n          <rt-card-image\n            :is-white-color=\"true\"\n            :col-size=\"2\"\n            background-color-type=\"light-blue\"\n            card-image=\"/static/images/cardImage2.jpg\"\n          >\n            <template slot=\"body\">\n              <p class=\"rt-font-paragraph rt-font-bold\">\n                Headstone\n              </p>\n              <p class=\"rt-font-label-uppercase rt-space-vertical05\">\n                игровой интернет\n              </p>\n              <p>Получай подарки в лучших играх Headstone!</p>\n            </template>\n          </rt-card-image>\n        </rt-carousel-slide>\n        <rt-carousel-slide>\n          <rt-card-image\n            :is-white-color=\"true\"\n            :col-size=\"2\"\n            background-color-type=\"light-blue\"\n            card-image=\"/static/images/cardImage3.jpg\"\n          >\n            <template slot=\"body\">\n              <p class=\"rt-font-paragraph rt-font-bold\">\n                Headstone\n              </p>\n              <p class=\"rt-font-label-uppercase rt-space-vertical05\">\n                игровой интернет\n              </p>\n              <p>Получай подарки в лучших играх Headstone!</p>\n            </template>\n          </rt-card-image>\n        </rt-carousel-slide>\n        <rt-carousel-slide :loaded=\"false\">\n          <rt-card-image\n            :is-white-color=\"true\"\n            :col-size=\"2\"\n            background-color-type=\"light-blue\"\n            card-image=\"/static/images/cardImage1.jpg\"\n          >\n            <template slot=\"body\">\n              <p class=\"rt-font-paragraph rt-font-bold\">\n                Headstone (not-loaded demo)\n              </p>\n              <p class=\"rt-font-label-uppercase rt-space-vertical05\">\n                игровой интернет\n              </p>\n              <p>Получай подарки в лучших играх Headstone!</p>\n            </template>\n          </rt-card-image>\n        </rt-carousel-slide>\n        <rt-carousel-slide>\n          <rt-card-image\n            :is-white-color=\"true\"\n            :col-size=\"2\"\n            background-color-type=\"light-blue\"\n            card-image=\"/static/images/cardImage2.jpg\"\n          >\n            <template slot=\"body\">\n              <p class=\"rt-font-paragraph rt-font-bold\">\n                Headstone\n              </p>\n              <p class=\"rt-font-label-uppercase rt-space-vertical05\">\n                игровой интернет\n              </p>\n              <p>Получай подарки в лучших играх Headstone!</p>\n            </template>\n          </rt-card-image>\n        </rt-carousel-slide>\n      </rt-carousel>\n    </div>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top5"},[_c('pre-code',{attrs:{"text":"\n      <rt-carousel>\n        <rt-carousel-slide slide-classes=\"rt-col-4 in-plus-card higher-z\">\n          <rt-card\n            :equal-padding=\"true\"\n            :has-discount=\"true\"\n            :discount-lines=\"1\"\n            :is-b2b-package=\"true\">\n            <template slot=\"header\">\n              <h3 class=\"rt-space-bottom rt-font-bold\">\n                Пакет S\n              </h3>\n            </template>\n            <template slot=\"content\">\n              <div class=\"rtb-card__section\">\n                <p class=\"tagline color-main03 rt-space-bottom05\">\n                  Интернет\n                </p>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    10 Мбит/с\n                  </p>\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    по проводу или мобильный\n                  </p>\n                </div>\n              </div>\n              <div class=\"rtb-card__section\">\n                <p class=\"tagline color-main03 rt-space-bottom05\">\n                  Мобильная связь\n                </p>\n                <div class=\"rtb-card__description__row\">\n                  <span class=\"rt-font-paragraph rt-font-bold\">1 сим-карта</span>\n                  <rt-hint :simple-tool-tip=\"true\">\n                    <slot>\n                      Это всё что угодно,<br >но не адрес электронной почты\n                      Это всё что угодно,<br >но не адрес электронной почты\n                      Это всё что угодно,<br >но не адрес электронной почты\n                    </slot>\n                  </rt-hint>\n                </div>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    300 минут\n                  </p>\n                  <p class=\"rt-font-small-paragraph color-main025\">\n                    на номера домашнего региона\n                  </p>\n                </div>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    3 Гб\n                  </p>\n                  <p class=\"rt-font-small-paragraph color-main025\">\n                    интернета по России\n                  </p>\n                </div>\n                <div class=\"rtb-card__description__row\">\n\n                </div>\n                <div class=\"rtb-card__description__row rt-space-top05\">\n                  <a href=\"#\" class=\"rt-font-control rt-link rt-link--purple\">Условия тарифа «Вызов 250»</a>\n                </div>\n              </div>\n            </template>\n            <template slot=\"footer\">\n              <div class=\"rt-space-bottom\" />\n              <div class=\"rtb-card__cost\">\n                <rt-price\n                  :value=\"2500\"\n                  :is-option=\"false\"\n                  currency=\"₽\"\n                  :b2b-price=\"true\"\n                  time-interval=\"в месяц\"/>\n              </div>\n              <div class=\"rtb-card__description__row\">\n                <p class=\"rt-font-small-paragraph color-main025\">\n                  Цена за услуги вне пакета\n                  <rt-price\n                    :value=\"6000\"\n                    :is-option=\"false\"\n                    currency=\"₽\"\n                    :b2b-price=\"true\"\n                    time-interval=\"\"\n                    :darkened=\"true\"/>\n                </p>\n              </div>\n              <a href=\"#\">\n                <button class=\"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05\">\n                  Выбрать\n                </button>\n              </a>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n        <rt-carousel-slide slide-classes=\"rt-col-4 in-plus-card higher-z\">\n          <rt-card\n            :equal-padding=\"true\"\n            :has-discount=\"true\"\n            :discount-lines=\"2\"\n            :is-b2b-package=\"true\">\n            <template slot=\"header\">\n              <h3 class=\"rt-space-bottom rt-font-bold\">\n                Пакет S\n              </h3>\n            </template>\n            <template slot=\"content\">\n              <div class=\"rtb-card__section\">\n                <p class=\"tagline color-main03 rt-space-bottom05\">\n                  Интернет\n                </p>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    10 Мбит/с\n                  </p>\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    по проводу или мобильный\n                  </p>\n                </div>\n              </div>\n              <div class=\"rtb-card__section\">\n                <p class=\"tagline color-main03 rt-space-bottom05\">\n                  Мобильная связь\n                </p>\n                <div class=\"rtb-card__description__row\">\n                  <span class=\"rt-font-paragraph rt-font-bold\">1 сим-карта</span>\n                  <rt-hint :simple-tool-tip=\"true\">\n                    <slot>\n                      Это всё что угодно,<br >но не адрес электронной почты\n                      Это всё что угодно,<br >но не адрес электронной почты\n                      Это всё что угодно,<br >но не адрес электронной почты\n                    </slot>\n                  </rt-hint>\n                </div>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    300 минут\n                  </p>\n                  <p class=\"rt-font-small-paragraph color-main025\">\n                    на номера домашнего региона\n                  </p>\n                </div>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    3 Гб\n                  </p>\n                  <p class=\"rt-font-small-paragraph color-main025\">\n                    интернета по России\n                  </p>\n                </div>\n                <div class=\"rtb-card__description__row\">\n\n                </div>\n                <div class=\"rtb-card__description__row rt-space-top05\">\n                  <a href=\"#\" class=\"rt-font-control rt-link rt-link--purple\">Условия тарифа «Вызов 250»</a>\n                </div>\n              </div>\n            </template>\n            <template slot=\"footer\">\n              <div class=\"rt-space-bottom\" />\n              <div class=\"rtb-card__cost\">\n                <rt-price\n                  :value=\"2500\"\n                  :is-option=\"false\"\n                  currency=\"₽\"\n                  :b2b-price=\"true\"\n                  time-interval=\"в месяц\"/>\n              </div>\n              <div class=\"rtb-card__description__row\">\n                <p class=\"rt-font-small-paragraph color-main025\">\n                  Цена за услуги вне пакета\n                  <rt-price\n                    :value=\"6000\"\n                    :is-option=\"false\"\n                    currency=\"₽\"\n                    :b2b-price=\"true\"\n                    time-interval=\"\"\n                    :darkened=\"true\"/>\n                </p>\n              </div>\n              <a href=\"#\">\n                <button class=\"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05\">\n                  Выбрать\n                </button>\n              </a>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n        <rt-carousel-slide slide-classes=\"rt-col-4 in-plus-card higher-z\">\n          <rt-card\n            :equal-padding=\"true\"\n            :has-discount=\"true\"\n            :discount-lines=\"3\"\n            :is-b2b-package=\"true\">\n            <template slot=\"header\">\n              <h3 class=\"rt-space-bottom rt-font-bold\">\n                Пакет S\n              </h3>\n            </template>\n            <template slot=\"content\">\n              <div class=\"rtb-card__section\">\n                <p class=\"tagline color-main03 rt-space-bottom05\">\n                  Интернет\n                </p>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    10 Мбит/с\n                  </p>\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    по проводу или мобильный\n                  </p>\n                </div>\n              </div>\n              <div class=\"rtb-card__section\">\n                <p class=\"tagline color-main03 rt-space-bottom05\">\n                  Мобильная связь\n                </p>\n                <div class=\"rtb-card__description__row\">\n                  <span class=\"rt-font-paragraph rt-font-bold\">1 сим-карта</span>\n                  <rt-hint :simple-tool-tip=\"true\">\n                    <slot>\n                      Это всё что угодно,<br >но не адрес электронной почты\n                      Это всё что угодно,<br >но не адрес электронной почты\n                      Это всё что угодно,<br >но не адрес электронной почты\n                    </slot>\n                  </rt-hint>\n                </div>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    300 минут\n                  </p>\n                  <p class=\"rt-font-small-paragraph color-main025\">\n                    на номера домашнего региона\n                  </p>\n                </div>\n                <div class=\"rtb-card__description__row\">\n                  <p class=\"rt-font-paragraph rt-font-bold\">\n                    3 Гб\n                  </p>\n                  <p class=\"rt-font-small-paragraph color-main025\">\n                    интернета по России\n                  </p>\n                </div>\n                <div class=\"rtb-card__description__row\">\n\n                </div>\n                <div class=\"rtb-card__description__row rt-space-top05\">\n                  <a href=\"#\" class=\"rt-font-control rt-link rt-link--purple\">Условия тарифа «Вызов 250»</a>\n                </div>\n              </div>\n            </template>\n            <template slot=\"footer\">\n              <div class=\"rt-space-bottom\" />\n              <div class=\"rtb-card__cost\">\n                <rt-price\n                  :value=\"2500\"\n                  :is-option=\"false\"\n                  currency=\"₽\"\n                  :b2b-price=\"true\"\n                  time-interval=\"в месяц\"/>\n              </div>\n              <div class=\"rtb-card__description__row\">\n                <p class=\"rt-font-small-paragraph color-main025\">\n                  Цена за услуги вне пакета\n                  <rt-price\n                    :value=\"6000\"\n                    :is-option=\"false\"\n                    currency=\"₽\"\n                    :b2b-price=\"true\"\n                    time-interval=\"\"\n                    :darkened=\"true\"/>\n                </p>\n              </div>\n              <a href=\"#\">\n                <button class=\"rt-button rt-button-small rt-button-purple-border rt-space-horizontal05\">\n                  Выбрать\n                </button>\n              </a>\n            </template>\n          </rt-card>\n        </rt-carousel-slide>\n      </rt-carousel>"}})],1),_vm._v(" "),_c('div',{staticClass:"rt-space-top5 is-b2c"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col-3 rt-space-bottom2"},[_c('rt-input',{attrs:{"insert-type":"number","label":"Перейти к слайду"},on:{"change":_vm.goToSlide},model:{value:(_vm.showSlideNmb),callback:function ($$v) {_vm.showSlideNmb=$$v},expression:"showSlideNmb"}})],1)]),_vm._v(" "),_c('rt-carousel',{ref:"carouselEl",attrs:{"debug":true,"scroll-on-click":true}},_vm._l((17),function(i){return _c('rt-carousel-slide',{key:i},[_c('div',{staticClass:"rt-space-horizontal05"},[_c('h2',[_vm._v("Слайд "+_vm._s(i - 1))]),_vm._v(" "),_c('rt-row-list',_vm._l((3),function(ir){return _c('rt-row-list-item',{key:ir},[_c('template',{slot:"option"},[_c('div',{staticClass:"d-flex flex-row"},[_c('div',[_c('p',[_vm._v("Антивирус")]),_vm._v(" "),_c('p',{staticClass:"color-main05"},[_vm._v("Kaspersky Internet Security, месяц в подарок")])])])])],2)}),1),_vm._v(" "),_c('rt-price',{staticClass:"rt-space-vertical",attrs:{"time-interval":"мес","is-option":"","value":i * 1000}}),_vm._v(" "),_c('rt-button',{staticClass:"rt-button-orange",attrs:{"value":"Подключить"}},[_vm._v("Подключить")])],1)])}),1)],1),_vm._v(" "),_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("Carousel 3.0")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-col-12 rt-col-md-3 rt-space-bottom"},[_c('h3',[_vm._v("Carousel in Tabs")])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-content"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col"},[_c('div',{staticClass:"app-title"},[_c('h1',{directives:[{name:"tooltip",rawName:"v-tooltip",value:({'text':'Добавить в избранное'}),expression:"{'text':'Добавить в избранное'}"}],staticClass:"rt-font-hero"},[_vm._v("\n          BenefitBlock\n        ")])])])]),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"app-row"},[_c('rt-resize-content-height',{attrs:{"query-selectors-names":['.rt-font-bold']}},[_c('rt-benefit-block',{attrs:{"columns-quantity":3,"swiper-on-mobile":true}},[_c('rt-benefit-item',[_c('template',{slot:"description"},[_c('div',{staticClass:"rt-benefit-item__text-icon rt-va-top"},[_c('svg',{staticClass:"rt-benefit-item__text-icon-svg",attrs:{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 77 78"}},[_c('g',{attrs:{"fill":"none","fill-rule":"evenodd"}},[_c('path',{attrs:{"fill":"#000","fill-rule":"nonzero","d":"M38.163 9.813c-6.054 0-10.979 4.925-10.979 10.979v4.688h2.742v-4.691c0-4.541 3.693-8.234 8.234-8.234 4.54 0 8.234 3.693 8.234 8.234v4.691h2.742v-4.691c.003-6.051-4.918-10.976-10.973-10.976z"}}),_vm._v(" "),_c('path',{attrs:{"fill":"#000","fill-rule":"nonzero","d":"M47.763 27.944l.007 17.168-19.207.006-.006-17.174h19.206m.01-3.2H28.56a3.194 3.194 0 0 0-3.194 3.19v17.184a3.194 3.194 0 0 0 3.194 3.194h19.213a3.194 3.194 0 0 0 3.193-3.194V27.934a3.194 3.194 0 0 0-3.193-3.19"}}),_vm._v(" "),_c('path',{attrs:{"fill":"#000","fill-rule":"nonzero","d":"M38.163 33.886a1.6 1.6 0 0 0-1.6 1.6v3.204a1.6 1.6 0 0 0 3.2 0v-3.204c0-.883-.713-1.6-1.6-1.6z"}}),_vm._v(" "),_c('path',{attrs:{"fill":"#000","fill-rule":"nonzero","d":"M38.166 77.09l-.65-.288C2.126 61.074.315 15.234.299 14.77L.25 13.122H1.9c6.295 0 11.412-5.12 11.412-11.412V.11h49.706v1.6c0 6.292 5.12 11.412 11.41 11.412h1.652l-.051 1.648c-.016.464-1.824 46.304-37.216 62.028l-.647.292zM3.6 16.222c.653 7.908 5.206 43.821 34.566 57.357C67.562 60.027 72.09 24.126 72.733 16.222 66 15.438 60.646 10.06 59.907 3.31H16.426c-.74 6.75-6.093 12.128-12.826 12.912z"}}),_vm._v(" "),_c('path',{attrs:{"d":"M-2-1h80v80H-2z"}})])])]),_vm._v(" "),_c('h4',{staticClass:"rt-font-bold rt-space-bottom05 d-inline-block"},[_vm._v("Помощь в математике")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("OneNote справится с любым уравнением и покажет алгоритм решения задачи.")])])],2),_vm._v(" "),_c('rt-benefit-item',[_c('template',{slot:"description"},[_c('h4',{staticClass:"rt-font-bold rt-space-bottom05"},[_vm._v("Планирование бюджета")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Excel поможет эффективно управлять финансами.")])])],2),_vm._v(" "),_c('rt-benefit-item',[_c('template',{slot:"description"},[_c('h4',{staticClass:"rt-font-bold rt-space-bottom05"},[_vm._v("Выявление программ-шантажистов")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("Даже после атаки программы-шантажиста вы сможете легко восстановить все файлы в OneDrive.")])])],2),_vm._v(" "),_c('rt-benefit-item',[_c('template',{slot:"description"},[_c('h4',{staticClass:"rt-font-bold rt-space-bottom05"},[_vm._v("Помощь в математике")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("OneNote справится с любым уравнением и покажет алгоритм решения задачи.")])])],2)],1)],1),_vm._v(" "),_c('rt-benefit-block',{attrs:{"columns-quantity":4,"step":true,"step-title":"этап","three-column-tablet":true}},[_c('rt-benefit-item',[_c('template',{slot:"description"},[_c('h4',{directives:[{name:"tooltip",rawName:"v-tooltip",value:({'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}),expression:"{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}"}],staticClass:"rt-font-bold rt-space-bottom05"},[_vm._v("Помощь в математике")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("OneNote справится с любым уравнением и покажет алгоритм решения задачи.")])])],2),_vm._v(" "),_c('rt-benefit-item',[_c('template',{slot:"description"},[_c('h4',{directives:[{name:"tooltip",rawName:"v-tooltip",value:({'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}),expression:"{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}"}],staticClass:"rt-font-bold rt-space-bottom05"},[_vm._v("Помощь в математике")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("OneNote справится с любым уравнением и покажет алгоритм решения задачи.")])])],2),_vm._v(" "),_c('rt-benefit-item',[_c('template',{slot:"description"},[_c('h4',{directives:[{name:"tooltip",rawName:"v-tooltip",value:({'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}),expression:"{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}"}],staticClass:"rt-font-bold rt-space-bottom05"},[_vm._v("Помощь в математике")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("OneNote справится с любым уравнением и покажет алгоритм решения задачи.")])])],2),_vm._v(" "),_c('rt-benefit-item',[_c('template',{slot:"description"},[_c('h4',{directives:[{name:"tooltip",rawName:"v-tooltip",value:({'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}),expression:"{'text':'Tooltip желательно должен умешаться в одну коруткую строку, но при необходимости может расширяться'}"}],staticClass:"rt-font-bold rt-space-bottom05"},[_vm._v("Помощь в математике")]),_vm._v(" "),_c('p',{staticClass:"rt-font-small-paragraph"},[_vm._v("OneNote справится с любым уравнением и покажет алгоритм решения задачи.")])])],2)],1),_vm._v(" "),_c('pre-code',{attrs:{"text":"\n          <rt-benefit-block :columns-quantity=\"2\" :has-icon=\"true\" icon-size=\"80px\" background-color-class=\"black\" class=\"color-white\">\n            <rt-benefit-item>\n              <template slot=\"image\">\n                <svg viewBox=\"0 0 56 56\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n                  <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n                    <g id=\"internet\" transform=\"translate(-209.000000, -8438.000000)\">\n                      <g id=\"Fill-35\" transform=\"translate(209.000000, 8438.000000)\">\n                        <path d=\"M55.3521,28.4589 C55.3521,43.6469 43.0391,55.9589 27.8521,55.9589 C12.6641,55.9589 0.3521,43.6469 0.3521,28.4589 C0.3521,13.2709 12.6641,0.9589 27.8521,0.9589 C43.0391,0.9589 55.3521,13.2709 55.3521,28.4589\" fill=\"#FF5F4B\"></path>\n                        <path d=\"M26.8521,46.1113 C26.8521,46.1113 14.7431,42.7103 14.7431,32.3643 L14.7431,15.4923 L18.1061,16.0093 C24.4941,16.9923 30.9951,17.0003 37.3851,16.0333 L40.9611,15.4923 L40.9611,32.2943 C40.9611,42.7103 28.8521,46.1113 28.8521,46.1113 L26.8521,46.1113 Z\" id=\"Stroke-167\" stroke=\"#FFFFFF\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                        <path d=\"M40.6899,34.8915 L14.7429,20.3755\" id=\"Stroke-168\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\"></path>\n                        <path d=\"M38.7627,39.2968 L14.7427,25.4628\" id=\"Stroke-169\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\"></path>\n                      </g>\n                    </g>\n                  </g>\n                </svg>\n              </template>\n              <template slot=\"description\">\n                <h4 class=\"rt-font-bold rt-space-bottom05\">Помощь в математике</h4>\n                <p class=\"rt-font-small-paragraph\">OneNote справится с любым уравнением и покажет алгоритм решения задачи.</p>\n              </template>\n            </rt-benefit-item>\n            <rt-benefit-item>\n              <template slot=\"image\">\n                <svg viewBox=\"0 0 56 56\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n                  <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n                    <g id=\"internet\" transform=\"translate(-209.000000, -8438.000000)\">\n                      <g id=\"Fill-35\" transform=\"translate(209.000000, 8438.000000)\">\n                        <path d=\"M55.3521,28.4589 C55.3521,43.6469 43.0391,55.9589 27.8521,55.9589 C12.6641,55.9589 0.3521,43.6469 0.3521,28.4589 C0.3521,13.2709 12.6641,0.9589 27.8521,0.9589 C43.0391,0.9589 55.3521,13.2709 55.3521,28.4589\" fill=\"#FF5F4B\"></path>\n                        <path d=\"M26.8521,46.1113 C26.8521,46.1113 14.7431,42.7103 14.7431,32.3643 L14.7431,15.4923 L18.1061,16.0093 C24.4941,16.9923 30.9951,17.0003 37.3851,16.0333 L40.9611,15.4923 L40.9611,32.2943 C40.9611,42.7103 28.8521,46.1113 28.8521,46.1113 L26.8521,46.1113 Z\" id=\"Stroke-167\" stroke=\"#FFFFFF\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                        <path d=\"M40.6899,34.8915 L14.7429,20.3755\" id=\"Stroke-168\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\"></path>\n                        <path d=\"M38.7627,39.2968 L14.7427,25.4628\" id=\"Stroke-169\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\"></path>\n                      </g>\n                    </g>\n                  </g>\n                </svg>\n              </template>\n              <template slot=\"description\">\n                <h4 class=\"rt-font-bold rt-space-bottom05\">Помощь в математике</h4>\n                <p class=\"rt-font-small-paragraph\">OneNote справится с любым уравнением и покажет алгоритм решения задачи.</p>\n              </template>\n            </rt-benefit-item>\n            <rt-benefit-item>\n              <template slot=\"image\">\n                <svg viewBox=\"0 0 56 56\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n                  <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n                    <g id=\"internet\" transform=\"translate(-209.000000, -8438.000000)\">\n                      <g id=\"Fill-35\" transform=\"translate(209.000000, 8438.000000)\">\n                        <path d=\"M55.3521,28.4589 C55.3521,43.6469 43.0391,55.9589 27.8521,55.9589 C12.6641,55.9589 0.3521,43.6469 0.3521,28.4589 C0.3521,13.2709 12.6641,0.9589 27.8521,0.9589 C43.0391,0.9589 55.3521,13.2709 55.3521,28.4589\" fill=\"#FF5F4B\"></path>\n                        <path d=\"M26.8521,46.1113 C26.8521,46.1113 14.7431,42.7103 14.7431,32.3643 L14.7431,15.4923 L18.1061,16.0093 C24.4941,16.9923 30.9951,17.0003 37.3851,16.0333 L40.9611,15.4923 L40.9611,32.2943 C40.9611,42.7103 28.8521,46.1113 28.8521,46.1113 L26.8521,46.1113 Z\" id=\"Stroke-167\" stroke=\"#FFFFFF\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                        <path d=\"M40.6899,34.8915 L14.7429,20.3755\" id=\"Stroke-168\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\"></path>\n                        <path d=\"M38.7627,39.2968 L14.7427,25.4628\" id=\"Stroke-169\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\"></path>\n                      </g>\n                    </g>\n                  </g>\n                </svg>\n              </template>\n              <template slot=\"description\">\n                <h4 class=\"rt-font-bold rt-space-bottom05\">Помощь в математике</h4>\n                <p class=\"rt-font-small-paragraph\">OneNote справится с любым уравнением и покажет алгоритм решения задачи.</p>\n              </template>\n            </rt-benefit-item>\n            <rt-benefit-item>\n              <template slot=\"image\">\n                <svg viewBox=\"0 0 56 56\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n                  <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n                    <g id=\"internet\" transform=\"translate(-209.000000, -8438.000000)\">\n                      <g id=\"Fill-35\" transform=\"translate(209.000000, 8438.000000)\">\n                        <path d=\"M55.3521,28.4589 C55.3521,43.6469 43.0391,55.9589 27.8521,55.9589 C12.6641,55.9589 0.3521,43.6469 0.3521,28.4589 C0.3521,13.2709 12.6641,0.9589 27.8521,0.9589 C43.0391,0.9589 55.3521,13.2709 55.3521,28.4589\" fill=\"#FF5F4B\"></path>\n                        <path d=\"M26.8521,46.1113 C26.8521,46.1113 14.7431,42.7103 14.7431,32.3643 L14.7431,15.4923 L18.1061,16.0093 C24.4941,16.9923 30.9951,17.0003 37.3851,16.0333 L40.9611,15.4923 L40.9611,32.2943 C40.9611,42.7103 28.8521,46.1113 28.8521,46.1113 L26.8521,46.1113 Z\" id=\"Stroke-167\" stroke=\"#FFFFFF\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                        <path d=\"M40.6899,34.8915 L14.7429,20.3755\" id=\"Stroke-168\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\"></path>\n                        <path d=\"M38.7627,39.2968 L14.7427,25.4628\" id=\"Stroke-169\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\"></path>\n                      </g>\n                    </g>\n                  </g>\n                </svg>\n              </template>\n              <template slot=\"description\">\n                <h4 class=\"rt-font-bold rt-space-bottom05\">Помощь в математике</h4>\n                <p class=\"rt-font-small-paragraph\">OneNote справится с любым уравнением и покажет алгоритм решения задачи.</p>\n              </template>\n            </rt-benefit-item>\n          </rt-benefit-block>\n      "}}),_vm._v(" "),_c('rt-benefit-block',{attrs:{"columns-quantity":4,"has-image":true,"no-transparency-description":true}},[_c('rt-benefit-item',[_c('template',{slot:"image"},[_c('img',{attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/b2b/VATS/how%20it%20works_new/1.svg"}})]),_vm._v(" "),_c('template',{slot:"description"},[_c('p',{directives:[{name:"tooltip",rawName:"v-tooltip",value:({'text':'Добавить в избранное'}),expression:"{'text':'Добавить в избранное'}"}],staticClass:"rt-font-paragraph"},[_vm._v("Мобильный или SIP-телефон")])])],2),_vm._v(" "),_c('rt-benefit-item',[_c('template',{slot:"image"},[_c('img',{attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/b2b/VATS/how%20it%20works_new/2.svg"}})]),_vm._v(" "),_c('template',{slot:"description"},[_c('p',{staticClass:"rt-font-paragraph"},[_c('rt-replacement-link',{attrs:{"link-text":"специальная программа","macos-link":"https://apps.apple.com/us/app/telefon-rostelekom/id1033204349?mt=12","windows-link":"https://moscow.rt.ru/sites/default/files/b2b/instruction_vats/Svetets_Telephone-Rostelecom_3.8.67.zip","pre-link-text":"или ","post-link-text":" на компьютере или ноутбуке"}})],1)])],2),_vm._v(" "),_c('rt-benefit-item',[_c('template',{slot:"image"},[_c('img',{attrs:{"src":"https://static-cdn.rt.ru/sites/default/files/b2b/VATS/how%20it%20works_new/3.svg"}})]),_vm._v(" "),_c('template',{slot:"description"},[_c('p',{directives:[{name:"tooltip",rawName:"v-tooltip",value:({'text':'Добавить в избранное'}),expression:"{'text':'Добавить в избранное'}"}],staticClass:"rt-font-paragraph"},[_vm._v("Интернет от любого провайдера")])])],2)],1)],1),_vm._v(" "),_c('div',{staticClass:"rt-container rt-space-top25"},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)])])}
+var staticRenderFns = []
 
 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/Carousels.vue":
-/*!**********************************************************!*\
-  !*** ./src/example-pages/components/group/Carousels.vue ***!
-  \**********************************************************/
+/***/ "./src/example-pages/components/group/BenefitBlock.vue":
+/*!*************************************************************!*\
+  !*** ./src/example-pages/components/group/BenefitBlock.vue ***!
+  \*************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Carousels_vue_vue_type_template_id_99a3ae9a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Carousels.vue?vue&type=template&id=99a3ae9a& */ "./src/example-pages/components/group/Carousels.vue?vue&type=template&id=99a3ae9a&");
-/* harmony import */ var _Carousels_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Carousels.vue?vue&type=script&lang=js& */ "./src/example-pages/components/group/Carousels.vue?vue&type=script&lang=js&");
+/* harmony import */ var _BenefitBlock_vue_vue_type_template_id_61a24654___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BenefitBlock.vue?vue&type=template&id=61a24654& */ "./src/example-pages/components/group/BenefitBlock.vue?vue&type=template&id=61a24654&");
+/* harmony import */ var _BenefitBlock_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BenefitBlock.vue?vue&type=script&lang=js& */ "./src/example-pages/components/group/BenefitBlock.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -991,9 +275,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Carousels_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Carousels_vue_vue_type_template_id_99a3ae9a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Carousels_vue_vue_type_template_id_99a3ae9a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _BenefitBlock_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _BenefitBlock_vue_vue_type_template_id_61a24654___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _BenefitBlock_vue_vue_type_template_id_61a24654___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1005,46 +289,46 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/Carousels.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************!*\
-  !*** ./src/example-pages/components/group/Carousels.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************/
+/***/ "./src/example-pages/components/group/BenefitBlock.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************!*\
+  !*** ./src/example-pages/components/group/BenefitBlock.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousels_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./Carousels.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Carousels.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousels_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_BenefitBlock_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./BenefitBlock.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/BenefitBlock.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_BenefitBlock_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/Carousels.vue?vue&type=template&id=99a3ae9a&":
-/*!*****************************************************************************************!*\
-  !*** ./src/example-pages/components/group/Carousels.vue?vue&type=template&id=99a3ae9a& ***!
-  \*****************************************************************************************/
+/***/ "./src/example-pages/components/group/BenefitBlock.vue?vue&type=template&id=61a24654&":
+/*!********************************************************************************************!*\
+  !*** ./src/example-pages/components/group/BenefitBlock.vue?vue&type=template&id=61a24654& ***!
+  \********************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousels_vue_vue_type_template_id_99a3ae9a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Carousels.vue?vue&type=template&id=99a3ae9a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/Carousels.vue?vue&type=template&id=99a3ae9a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousels_vue_vue_type_template_id_99a3ae9a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BenefitBlock_vue_vue_type_template_id_61a24654___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./BenefitBlock.vue?vue&type=template&id=61a24654& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/group/BenefitBlock.vue?vue&type=template&id=61a24654&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BenefitBlock_vue_vue_type_template_id_61a24654___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousels_vue_vue_type_template_id_99a3ae9a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BenefitBlock_vue_vue_type_template_id_61a24654___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./src/molecules/components/Carousel/docs/index.json":
-/*!***********************************************************!*\
-  !*** ./src/molecules/components/Carousel/docs/index.json ***!
-  \***********************************************************/
+/***/ "./src/molecules/components/BenefitBlock/docs/index.json":
+/*!***************************************************************!*\
+  !*** ./src/molecules/components/BenefitBlock/docs/index.json ***!
+  \***************************************************************/
 /*! exports provided: items, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-carousel\",\"property\":\"auto-scrolling\",\"type\":[\"Boolean\"],\"description\":\"Доводчик свайпинга / скроллинга\",\"value\":\"true\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"loaded\",\"type\":[\"Boolean\"],\"description\":\"Флаг для активации лоадера. Если loaded=true лоадер не отображается\",\"value\":\"true\",\"version\":\"0.3.2\"},{\"name\":\"rt-carousel\",\"property\":\"loader\",\"type\":[\"String, {type: String, count: Number, rows: Number, sub: Number}\"],\"description\":\"Настройки лоадера. \\b\\nЗдесь можно задать скелет карточек. \\b\\ncount - количество карточек, rows - количество строк, sub - количество подстрок\",\"value\":\"spinner\",\"version\":\"0.3.2\"},{\"name\":\"rt-carousel\",\"property\":\"loaded\",\"type\":[\"Boolean\"],\"description\":\"Флаг для активации лоадера\",\"value\":\"false\",\"version\":\"0.3.2\"},{\"name\":\"rt-carousel\",\"property\":\"disabled-scrolling\",\"type\":[\"Boolean\"],\"description\":\"Позволяет заблокировать горизонтальный свайпинг и скроллинг карусели\",\"value\":\"false\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"duration\",\"type\":[\"Number\"],\"description\":\"Длительность анимации навигации зоны просмотра и автодоводчика, если он включен\",\"value\":\"500\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"hide-arrows\",\"type\":[\"Boolean\"],\"description\":\"Отображение навигационных стрелочек на PC (на мобиле они всегда выключены, т.к работает обычный скролл)\",\"value\":\"false\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"navs-pos-start\",\"type\":[\"Number\"],\"description\":\"Позиция стрелочек навигации сверху\",\"value\":\"113\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"navs-pos-end\",\"type\":[\"Number\"],\"description\":\"Позиция стрелочек навигации снизу\",\"value\":\"200\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"offset-top\",\"type\":[\"Number\"],\"description\":\"Отступ сверху\",\"value\":\"20\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"offset-bottom\",\"type\":[\"Number\"],\"description\":\"Отступ снизу\",\"value\":\"20\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"slides-classes\",\"type\":[\"String\"],\"description\":\"Классы для слайдов\",\"value\":\"rt-col-3 rt-col-md-2 rt-col-td-3\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"transition-function\",\"type\":[\"String\"],\"description\":\"Эффект перехода анимации при перемещении зоны просмотра (PC)\",\"value\":\"easeInOutCubic\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel\",\"property\":\"navigation-сontainer\",\"type\":[\"String\"],\"description\":\"Контейнер, в который будет помещена навигация карусели. Если пусто, навигация перемещена не будет\",\"value\":\"\",\"version\":\"0.1.25\"},{\"name\":\"rt-carousel-slide\",\"property\":\"slide-classes\",\"type\":[\"String\"],\"description\":\"Классы для слайда\",\"value\":\"rt-col-3 rt-col-md-2 rt-col-td-3\",\"version\":\"0.1.25\"},{\"name\":\"rt-slide\",\"property\":\"loaded\",\"type\":[\"Boolean\"],\"description\":\"\",\"value\":\"false\",\"version\":\"0.1.25\"}]}");
+module.exports = JSON.parse("{\"items\":[{\"name\":\"rt-benefit-block\",\"property\":\":columns-quantity\",\"type\":\"Number\",\"description\":\"Устанавливает во сколько колонок будут располагаться дочерние элементы\",\"value\":\"null\"},{\"name\":\"rt-benefit-block\",\"property\":\"(:)icon-size\",\"type\":\"Number | String\",\"description\":\"Устанавливает размер иконок дочерних элементов\",\"value\":\"null\"},{\"name\":\"rt-benefit-block\",\"property\":\":align-center\",\"type\":\"Boolean\",\"description\":\"Устанавливает горизонтальное выравнивание текста и картинок в дочерних элементах по центру\",\"value\":\"false\"},{\"name\":\"rt-benefit-block\",\"property\":\"background-color-class\",\"type\":\"String\",\"description\":\"Устанавливает класс для задания фонового цвета блока. Используются классы из `color-block--...`\",\"value\":\"\"},{\"name\":\"rt-benefit-block\",\"property\":\"has-icon\",\"type\":\"Boolean\",\"description\":\"Флаг установки иконки\",\"value\":\"false\"},{\"name\":\"rt-benefit-block\",\"property\":\"step\",\"type\":\"Boolean\",\"description\":\"Флаг установки нумерации дочерних элементов\",\"value\":\"false\"},{\"name\":\"rt-benefit-block\",\"property\":\"step-title\",\"type\":\"String\",\"description\":\"Устанавливает подпись для нумерации дочерних элементов\",\"value\":\"шаг\"},{\"name\":\"rt-benefit-block\",\"property\":\"has-image\",\"type\":\"Boolean\",\"description\":\"Флаг установки изображения\",\"value\":\"false\"},{\"name\":\"rt-benefit-block\",\"property\":\"inline-layout\",\"type\":\"Boolean\",\"description\":\"Флаг установки расположения в строку иконки/изображения и текста в дочерних элементах\",\"value\":\"false\"},{\"name\":\"rt-benefit-block\",\"property\":\"icon-backing-color\",\"type\":\"String\",\"description\":\"Устанавливает цвет подложки для иконок\",\"value\":\"\"},{\"name\":\"rt-benefit-block\",\"property\":\"icon-backing-size\",\"type\":\"Number | String\",\"description\":\"Устанавливает размер подложки под иконкой\",\"value\":\"null\"},{\"name\":\"rt-benefit-block\",\"property\":\"swiper-on-mobile\",\"type\":\"Boolean\",\"description\":\"Флаг отвечающий за оборачивание дочерних элементов в компонент `rt-swiper` в мобильной версии\",\"value\":\"false\"},{\"name\":\"rt-benefit-block\",\"property\":\"no-transparency-description\",\"type\":\"Boolean\",\"description\":\"Флаг установки непрозрачности для текста описания в дочерних элементах\",\"value\":\"false\"},{\"name\":\"rt-benefit-block\",\"property\":\"three-column-tablet\",\"type\":\"Boolean\",\"description\":\"Флаг отвечающий за распределение контента в 3 колонки в планшетном разрешении\",\"value\":\"false\"},{\"name\":\"rt-benefit-block\",\"property\":\"is-nested\",\"type\":\"Boolean\",\"description\":\"Флаг, указывающий, что компонент используется внутри другого компонента и занимает половину ширины экрана\",\"value\":\"false\"}]}");
 
 /***/ })
 
