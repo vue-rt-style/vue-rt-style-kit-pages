@@ -15,13 +15,9 @@
             <rt-col size="3"><rt-checkbox :native="true"  v-model="isSmall"><p class="font-t-s">is small</p></rt-checkbox></rt-col>
           </rt-row>
           <rt-circle-number :is-small="isSmall" :value="value" :size="size">{{text}}</rt-circle-number>
-          <rt-row>
-          <rt-col :size="2"><rt-circle-number  :value="100" :size="100">{{text}}</rt-circle-number></rt-col>
-          <rt-col :size="2"><rt-circle-number :value="50"  :size="100">{{text}}</rt-circle-number></rt-col>
-            <rt-col :size="2"><rt-circle-number :value="30"  :size="100">{{text}}</rt-circle-number></rt-col>
-              <rt-col :size="2"><rt-circle-number :is-small="true" :value="100"  :size="100">{{text}}</rt-circle-number></rt-col>
-                <rt-col :size="2"><rt-circle-number :is-small="true" :value="50"  :size="100">{{text}}</rt-circle-number></rt-col>
-                  <rt-col :size="2"><rt-circle-number :is-small="true" :value="30"  :size="100">{{text}}</rt-circle-number></rt-col>
+          <rt-row class="sp-t-2">
+          <rt-col :size="2"><pre-code text='<rt-circle-number :is-small="true" :value="50" :size="100"><p class="font-h2 color-main07-no-opacity">2</p></rt-circle-number>'></pre-code></rt-col>
+          <rt-col :size="2"><pre-code text='<rt-circle-number :value="35" :size="100"><p class="font-t-s color-main07-no-opacity">на<span class="font-h2">35%</span> </p></rt-circle-number>'></pre-code></rt-col>
           </rt-row>
         </div>
       </div>
@@ -33,7 +29,7 @@
 </template>
 
 <script>
-import documentation from "@vue-rt-style-kit-atoms-local/components/Line/docs/index.json";
+import documentation from "@vue-rt-style-kit-atoms-local/components/CircleNumber/docs/index.json";
 
 export default {
   name: "AppColorLineText",
