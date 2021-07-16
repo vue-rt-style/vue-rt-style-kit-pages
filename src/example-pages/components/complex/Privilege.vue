@@ -10,7 +10,7 @@
         <div class="app-body">
           <div class="app-row row">
             <rt-col>
-              <rt-row>
+              <pre-code text='<rt-row>
                 <rt-col :size="3" :tablet-size="6">
                   <rt-privilege :mobile-dropdown="true">
                     <template slot="icon">
@@ -48,8 +48,9 @@
                       телеканалов и фильмов</p></template>
                   </rt-privilege>
                 </rt-col>
-              </rt-row>
-              <rt-row>
+              </rt-row>'></pre-code>
+
+              <pre-code text='<rt-row>
                 <rt-col :size="3" :tablet-size="6">
                   <rt-privilege>
                     <template slot="icon">
@@ -87,8 +88,8 @@
                       телеканалов и фильмов</p></template>
                   </rt-privilege>
                 </rt-col>
-              </rt-row>
-              <rt-row class="sp-t-1">
+              </rt-row>'></pre-code>
+              <pre-code text='<rt-row class="sp-t-1">
                 <rt-col :size="3" :tablet-size="6" >
                   <rt-privilege :in-line="true">
                     <template slot="icon">
@@ -126,8 +127,8 @@
                       телеканалов и фильмов</p></template>
                   </rt-privilege>
                 </rt-col>
-              </rt-row>
-              <rt-row class="sp-t-1" v-rt-resize-content-height="{querySelectorsNames:['.font-h4']}">
+              </rt-row>'></pre-code>
+              <pre-code text='<rt-row class="sp-t-1" v-rt-resize-content-height="{querySelectorsNames:[&apos;.font-h4&apos;]}">
                 <rt-col :size="3" :tablet-size="6" >
                   <rt-privilege :with-circle="true">
                     <template slot="icon">
@@ -166,9 +167,9 @@
                   </rt-privilege>
                 </rt-col>
 
-              </rt-row>
+              </rt-row>'></pre-code>
 
-              <rt-row class="sp-t-3">
+              <pre-code text='<rt-row class="sp-t-3">
                 <rt-col :size="4" :tablet-size="6" >
                   <rt-privilege :with-circle="true">
                     <template slot="icon">
@@ -196,7 +197,7 @@
                 </rt-col>
 
 
-              </rt-row>
+              </rt-row>'></pre-code>
             </rt-col>
           </div>
         </div>
@@ -212,7 +213,7 @@
 <script>
 
 import componentsList from "../../componentsList";
-import documentation from "@vue-rt-style-kit-molecules-local/components/Popover/docs/index.json";
+import documentation from "@vue-rt-style-kit-molecules-local/components/Privilege/docs/index.json";
 // const componentsList = {};
 export default {
   name: "AppTable",
