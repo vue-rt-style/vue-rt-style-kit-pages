@@ -237,7 +237,7 @@
             </div>
           </rt-carousel-slide-v3>
       </rt-carousel-v3>
-      <rt-circle-number value="1" size="2"></rt-circle-number>
+
 <!--      <rt-carousel-v2>-->
 <!--        <rt-carousel-slide-v2-->
 <!--          v-for="i in 7"-->

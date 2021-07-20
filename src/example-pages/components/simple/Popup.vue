@@ -25,7 +25,7 @@
               Попап 3
             </rt-button>
 
-          <rt-popup hash="popup1" name="filter" :ga="{test:1, event: 'b2b'}" :ga-close="{test:1, event: 'b2b', value: 'close_popup'}" >
+          <rt-popup hash="popup1" name="filter" :ga="{test:1, event: 'b2b'}" :ga-close="{test:1, event: 'b2b', value: 'close_popup'}" v-on:closed="onClose">
             <p class="rt-font-h3 sp-b-0-4">!!@-->>Проверьте тип подключения</p>
             <p class="rt-font-paragraph">Подойдите к вашему роутеру, предварительно убедитесь, что ничего не скачиваете
               или играете. Проверьте основной провод провайдера или гнездо разъема и сравните с изображениями ниже.</p>
@@ -188,7 +188,7 @@
               </div>
             </div>
           </div>
-          <rt-real-popup :position-bottom="true" trigger-element-class="popupButton" main-wrapper-class="app" class="first-popup">
+          <rt-real-popup :position-bottom="true" trigger-element-class="popupButton"  main-wrapper-class="app" class="first-popup">
             <div class="popup-content"></div>
           </rt-real-popup>
           <rt-real-popup :position-center="true" trigger-element-class="new-vats-popup-button" main-wrapper-class="app" class="second-popup">
@@ -216,6 +216,10 @@
       this.documentation = documentation;
     },
     created() {},
-    methods: {}
+    methods: {
+      onClose(e){
+        console.info('-->>><><><>>>',e)
+      }
+    }
   };
 </script>
