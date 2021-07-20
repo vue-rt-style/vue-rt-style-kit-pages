@@ -173,7 +173,7 @@
                 <rt-col :size="4" :tablet-size="6" >
                   <rt-privilege :with-circle="true">
                     <template slot="icon">
-                      <rt-circle-number :value="35" :size="100"><p class="font-t-s color-main07-no-opacity">на<span class="font-h2">35%</span> </p></rt-circle-number>
+                      <rt-circle-number :value="35" :size="100"><p class="font-t-s color-main07-no-opacity">на<span class="font-h1-tab">35%</span> </p></rt-circle-number>
                     </template>
                     <template slot="content"><p class="color-main085-no-opacity">Сокращение затрат за счет контроля нецелевого использования авто</p></template>
                   </rt-privilege>
@@ -181,7 +181,7 @@
                 <rt-col :size="4" :tablet-size="6" class="td-sp-t-3-1">
                   <rt-privilege :with-circle="true">
                     <template slot="icon">
-                      <rt-circle-number :value="25" :size="100"><p class="font-t-s color-main07-no-opacity">на<span class="font-h2">25%</span> </p></rt-circle-number>
+                      <rt-circle-number :value="25" :size="100"><p class="font-t-s color-main07-no-opacity">на<span class="font-h1-tab">25%</span> </p></rt-circle-number>
                     </template>
                     <template slot="content"><p class="color-main085-no-opacity">Тариф подразумевает
                       ежемесячную плата за пользование сервисом</p></template>
@@ -190,7 +190,7 @@
                 <rt-col :size="4" :tablet-size="6"  class="td-sp-t-3-1">
                   <rt-privilege :with-circle="true">
                     <template slot="icon">
-                      <rt-circle-number :value="20" :size="100"><p class="font-t-s color-main07-no-opacity">на<span class="font-h2">20%</span> </p></rt-circle-number>
+                      <rt-circle-number :value="20" :size="100"><p class="font-t-s color-main07-no-opacity">на<span class="font-h1-tab">20%</span> </p></rt-circle-number>
                     </template>
                     <template slot="content"><p class="color-main085-no-opacity">Сокращение затрат за счет контроля качества вождения водителей и своевременного ТО</p></template>
                   </rt-privilege>
