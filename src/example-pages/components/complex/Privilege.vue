@@ -128,7 +128,9 @@
                   </rt-privilege>
                 </rt-col>
               </rt-row>'></pre-code>
-              <pre-code text='<rt-row class="sp-t-1" v-rt-resize-content-height="{querySelectorsNames:[&apos;.font-h4&apos;]}">
+
+              <rt-row class="sp-t-1" v-rt-resize-content-height="{querySelectorsNames:['.font-h4']}">
+
                 <rt-col :size="3" :tablet-size="6" >
                   <rt-privilege :with-circle="true">
                     <template slot="icon">
@@ -167,7 +169,7 @@
                   </rt-privilege>
                 </rt-col>
 
-              </rt-row>'></pre-code>
+              </rt-row>
 
               <pre-code text='<rt-row class="sp-t-3">
                 <rt-col :size="4" :tablet-size="6" >
