@@ -129,7 +129,7 @@
                 </rt-col>
               </rt-row>'></pre-code>
 
-              <rt-row class="sp-t-1" v-rt-resize-content-height="{querySelectorsNames:['.font-h4']}">
+              <rt-row class="sp-t-1" v-rt-resize-content-height="{querySelectorsNames:['.font-h4'], mobileNotResize:true}">
 
                 <rt-col :size="3" :tablet-size="6" >
                   <rt-privilege :with-circle="true">
