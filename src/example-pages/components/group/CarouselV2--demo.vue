@@ -14,6 +14,9 @@
         <div class="rt-col-12 rt-space-bottom3 is-b2c">
           <rt-row>
             <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
+              <rt-input :version="2"  placeholder="number" type="number" v-model="num"/>
+            </rt-col>
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
               <p>background</p>
               <select v-model="background" style="width: 100%">
                 <option v-for="i in colors" :value="i">{{ i }}</option>
@@ -95,7 +98,7 @@
               height: 300px;
               position: relative;
             "
-              :style="`background: url(https://picsum.photos/500/300?getForId=${i+100})`">
+              :style="`background: url(https://picsum.photos/500/300?getForId=${i+100+num})`">
             <div
                 style="
                 background-color: black;
@@ -427,6 +430,7 @@ const skeletonLoader = {
 export default {
   data() {
     return {
+      num: 1,
       docProps,
       // docEvents,
       activeIndex: 0,
