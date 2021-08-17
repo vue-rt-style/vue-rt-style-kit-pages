@@ -11,7 +11,7 @@
 <!--							<span class="rt-font-label flex-fill rt-space-bottom05">simple input</span>-->
               <rt-input :version="2" placeholder="Это поле ввода. Дерзай!"/>
               <div class="sp-t-0-3"/>
-              <rt-input :version="2" placeholder="Это поле ввода с подсказкой" label="Текст подсказки" :error-message="errorMessage"/>
+              <rt-input :version="2" v-model="newInputModel" placeholder="Это поле ввода с подсказкой" label="Текст подсказки" :error-message="errorMessage"/>
               <rt-input :version="2" :placeholder="errorText" :has-error="error"
                         :error-message='errorMessage' :disabled="disabled" :value="rightValue"/>
               <div class="sp-t-0-3"/>
