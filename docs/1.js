@@ -101,7 +101,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 
 var componentsList = {};
@@ -110,12 +109,10 @@ var componentsList = {};
   components: componentsList,
   data: function data() {
     return {
-      documentation: {}
+      documentation: {},
+      imgs: []
     };
   },
-  mounted: function mounted() {// this.documentation = documentation;
-  },
-  created: function created() {},
   methods: {}
 });
 
@@ -209,9 +206,9 @@ var componentsList = {};
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Jumbotron.vue?vue&type=template&id=65793892&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Jumbotron.vue?vue&type=template&id=24167a41&":
 /*!*************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/Jumbotron.vue?vue&type=template&id=65793892& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/example-pages/components/complex/Jumbotron.vue?vue&type=template&id=24167a41& ***!
   \*************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -220,7 +217,7 @@ var componentsList = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{},[_vm._m(0),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-jumbotron background='main-color' flag-scroll-to-id='test' flag-background='orange'  color='white' description-color='main'>\n    <template slot='flag-text'>Акция</template>\n    <template slot='label'><p>Кибербезопасность <br>123 </p></template>\n    <template slot='description'>Комплексные сервисы защиты цифровых систем</template>\n    <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner'>Защита каналов связи</rt-arrow-anchor></template>\n    <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner2'>Мониторинг и управление ИБ</rt-arrow-anchor></template>\n    <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner3'>Единая платформа сервисов безопасности</rt-arrow-anchor></template>\n    <template slot='image'><rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light.png'\n                                   x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png'\n    ></rt-img></template>\n  </rt-jumbotron>"}}),_vm._v(" "),_c('pre-code',{attrs:{"id":"test","text":"<rt-jumbotron id='idBanner' background='dark-slate' color='white' description-color='white'>\n    <template slot='header'>\n      <p class='rt-font-label-uppercase rt-font-label color-white07'>ВИДЕОСЕРВИС WINK</p>\n    </template>\n\n\n    <template slot='label'>Эксклюзивный игровой комплект</template>\n    <template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит.</template>\n\n    <template slot='footer'>\n      <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>\n    </template>\n\n    <template slot='image'>\n    <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark.png'\n                                   x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark.png'\n                                   td-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png'\n                                   md-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png'\n    ></rt-img>\n    </template>\n  </rt-jumbotron>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-jumbotron id='idBanner2' background='purple-button-active' color='white' description-color='white'>\n    <template slot='header'>\n      <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.svg' alt='' width='126'>\n    </template>\n    <template slot='tablet-header'>\n      <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.png' alt='' width='103' height='32'>\n    </template>\n    <template slot='mobile-header'>\n      <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.png' alt='' width='103' height='32' >\n    </template>\n    <template slot='label'>Эксклюзивный игровой комплект в кредит</template>\n    <template slot='footer'>\n      <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>\n    </template>\n    <template slot='image'>\n    <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/purple.png'\n                                   x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/purple-2x.png'\n    ></rt-img>\n  </template>\n  </rt-jumbotron>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-jumbotron id='idBanner3' background='orange' color='white' description-color='white'>\n\n    <template slot='label'>Эксклюзивный игровой комплект</template>\n    <template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит.</template>\n    <template slot='body-html'><rt-price :bright='true' :v2='true' :is-option='true' :value='1100' :only-price='true'/></template>\n\n    <template slot='footer'>\n      <rt-button class='rt-button-md--is-block' :bright='true' color='full-white'>Заказать</rt-button>\n    </template>\n\n    <template slot='image'>      <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/orange.png'\n                                   x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/orange-2x.png'></rt-img>\n\n    </template>\n\n  </rt-jumbotron>"}}),_vm._v(" "),_c('div',{staticClass:"rt-container rt-space-top25"},[_c('rt-col',{attrs:{"size":"12"}},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)],1)],1)}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{},[_vm._m(0),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-jumbotron background='main-color' flag-scroll-to-id='test' flag-background='orange'  color='white' description-color='main'>\n    <template slot='flag-text'>Акция</template>\n    <template slot='label'><p>Кибербезопасность <br>123 </p></template>\n    <template slot='description'>Комплексные сервисы защиты цифровых систем</template>\n    <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner'>Защита каналов связи</rt-arrow-anchor></template>\n    <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner2'>Мониторинг и управление ИБ</rt-arrow-anchor></template>\n    <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner3'>Единая платформа сервисов безопасности</rt-arrow-anchor></template>\n    <template slot='image'><rt-img src='https://picsum.photos/5000/2000?getForId=10'\n    ></rt-img></template>\n  </rt-jumbotron>"}}),_vm._v(" "),_c('pre-code',{attrs:{"id":"test","text":"<rt-jumbotron id='idBanner' background='dark-slate' color='white' description-color='white'>\n    <template slot='header'>\n      <p class='rt-font-label-uppercase rt-font-label color-white07'>ВИДЕОСЕРВИС WINK</p>\n    </template>\n\n\n    <template slot='label'>Эксклюзивный игровой комплект</template>\n    <template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит.</template>\n\n    <template slot='footer'>\n      <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>\n    </template>\n\n    <template slot='image'>\n    <rt-img src='https://picsum.photos/5000/2000?getForId=101'\n                                   x2-src='https://picsum.photos/5000/2000?getForId=103'\n                                   td-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png'\n                                   md-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png'\n    ></rt-img>\n    </template>\n  </rt-jumbotron>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-jumbotron id='idBanner2' background='purple-button-active' color='white' description-color='white'>\n    <template slot='header'>\n      <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.svg' alt='' width='126'>\n    </template>\n    <template slot='tablet-header'>\n      <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.png' alt='' width='103' height='32'>\n    </template>\n    <template slot='mobile-header'>\n      <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.png' alt='' width='103' height='32' >\n    </template>\n    <template slot='label'>Эксклюзивный игровой комплект в кредит</template>\n    <template slot='footer'>\n      <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>\n    </template>\n    <template slot='image'>\n    <rt-img src='https://picsum.photos/5000/2000?getForId=1030'\n                                   x2-src='https://picsum.photos/5000/2000?getForId=1031'\n    ></rt-img>\n  </template>\n  </rt-jumbotron>"}}),_vm._v(" "),_c('pre-code',{attrs:{"text":"<rt-jumbotron id='idBanner3' background='orange' color='white' description-color='white'>\n\n    <template slot='label'>Эксклюзивный игровой комплект</template>\n    <template slot='description'>Здесь вы можете приобрести эксклюзивные комплекты в кредит.</template>\n    <template slot='body-html'><rt-price :bright='true' :v2='true' :is-option='true' :value='1100' :only-price='true'/></template>\n\n    <template slot='footer'>\n      <rt-button class='rt-button-md--is-block' :bright='true' color='full-white'>Заказать</rt-button>\n    </template>\n\n    <template slot='image'>      <rt-img src='https://picsum.photos/5000/2000?getForId=1039'\n                                   x2-src='https://picsum.photos/5000/2000?getForId=1032'></rt-img>\n\n    </template>\n\n  </rt-jumbotron>"}}),_vm._v(" "),_c('div',{staticClass:"rt-container rt-space-top25"},[_c('rt-col',{attrs:{"size":"12"}},[_c('documentation-builder',{attrs:{"json":_vm.documentation,"type":"components"}})],1)],1)],1)}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_c('div',{staticClass:"app-title"},[_c('div',{staticClass:"row"},[_c('h1',{staticClass:"rt-font-hero rt-col"},[_vm._v("Jumbotron")])])])])])}]
 
 
@@ -272,7 +269,7 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Jumbotron_vue_vue_type_template_id_65793892___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Jumbotron.vue?vue&type=template&id=65793892& */ "./src/example-pages/components/complex/Jumbotron.vue?vue&type=template&id=65793892&");
+/* harmony import */ var _Jumbotron_vue_vue_type_template_id_24167a41___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Jumbotron.vue?vue&type=template&id=24167a41& */ "./src/example-pages/components/complex/Jumbotron.vue?vue&type=template&id=24167a41&");
 /* harmony import */ var _Jumbotron_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Jumbotron.vue?vue&type=script&lang=js& */ "./src/example-pages/components/complex/Jumbotron.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
@@ -284,8 +281,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _Jumbotron_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Jumbotron_vue_vue_type_template_id_65793892___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Jumbotron_vue_vue_type_template_id_65793892___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Jumbotron_vue_vue_type_template_id_24167a41___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Jumbotron_vue_vue_type_template_id_24167a41___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -311,19 +308,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/example-pages/components/complex/Jumbotron.vue?vue&type=template&id=65793892&":
+/***/ "./src/example-pages/components/complex/Jumbotron.vue?vue&type=template&id=24167a41&":
 /*!*******************************************************************************************!*\
-  !*** ./src/example-pages/components/complex/Jumbotron.vue?vue&type=template&id=65793892& ***!
+  !*** ./src/example-pages/components/complex/Jumbotron.vue?vue&type=template&id=24167a41& ***!
   \*******************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Jumbotron_vue_vue_type_template_id_65793892___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Jumbotron.vue?vue&type=template&id=65793892& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Jumbotron.vue?vue&type=template&id=65793892&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Jumbotron_vue_vue_type_template_id_65793892___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Jumbotron_vue_vue_type_template_id_24167a41___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Jumbotron.vue?vue&type=template&id=24167a41& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/example-pages/components/complex/Jumbotron.vue?vue&type=template&id=24167a41&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Jumbotron_vue_vue_type_template_id_24167a41___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Jumbotron_vue_vue_type_template_id_65793892___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Jumbotron_vue_vue_type_template_id_24167a41___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

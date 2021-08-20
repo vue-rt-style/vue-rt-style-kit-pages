@@ -121,10 +121,10 @@ componentsList[_ColorsListItem_vue__WEBPACK_IMPORTED_MODULE_1__["default"].name]
 
       if (colorItem.hex) {
         return h("app-colors-item", {
-          attrs: {
-            colorsIndexArray: _this2.colorsSettingsArray,
-            settings: _colorListSettings_json__WEBPACK_IMPORTED_MODULE_3__,
-            color: colorItem
+          "attrs": {
+            "colorsIndexArray": _this2.colorsSettingsArray,
+            "settings": _colorListSettings_json__WEBPACK_IMPORTED_MODULE_3__,
+            "color": colorItem
           }
         });
       } else {
@@ -163,9 +163,9 @@ componentsList[_ColorsListItem_vue__WEBPACK_IMPORTED_MODULE_1__["default"].name]
       }, [h("div", {
         "class": "rt-col-12"
       }, [h("rt-table", [h("template", {
-        slot: "header"
+        "slot": "header"
       }, [header]), h("template", {
-        slot: "body"
+        "slot": "body"
       }, [colorMap])])])])])])]);
     }
 
@@ -231,7 +231,7 @@ var componentsList = {};
           };
           return h("rt-table-item", [h("div", {
             "class": "app-color-cube",
-            style: style
+            "style": style
           })]);
           break;
 

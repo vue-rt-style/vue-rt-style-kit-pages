@@ -87,7 +87,7 @@
       <rt-carousel-v3 :scroll-step="scrollStep"
                       :laptop-scroll-step="laptopScrollStep"
                       :td-scroll-step="tdScrollStep"
-                      :md-scroll-step="mdScrollStep" :active-index-init="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
+                      :md-scroll-step="mdScrollStep" :active-index="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
 <!--        <pre-timeout  :time="i*1000" >-->
         <rt-carousel-slide-v3 v-for="i in 15" :key="i+'$'">
           <div>
@@ -121,10 +121,11 @@
 
           </rt-tabs-content-item>
           <rt-tabs-content-item name="2">
+            <div class="color-block--green sp-v-2">11122</div>
             <rt-carousel-v3 :scroll-step="scrollStep"
                             :laptop-scroll-step="laptopScrollStep"
                             :td-scroll-step="tdScrollStep"
-                            :md-scroll-step="mdScrollStep" :active-index-init="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
+                            :md-scroll-step="mdScrollStep" :active-index="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
               <!--        <pre-timeout  :time="i*1000" >-->
               <rt-carousel-slide-v3 v-for="i in 15" :key="i+'$$'">
                 <div>
@@ -152,7 +153,7 @@
               </rt-carousel-slide-v3>
               <!--        </pre-timeout>-->
             </rt-carousel-v3>
-
+            <div class="color-block--red sp-v-2"></div>
 
           </rt-tabs-content-item>
         </template>
@@ -160,7 +161,7 @@
       <rt-carousel-v3 :scroll-step="scrollStep"
                       :laptop-scroll-step="laptopScrollStep"
                       :td-scroll-step="tdScrollStep"
-                      :md-scroll-step="mdScrollStep" :active-index-init="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
+                      :md-scroll-step="mdScrollStep" :active-index="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
         <!--        <pre-timeout  :time="i*1000" >-->
         <rt-carousel-slide-v3 v-for="i in 15" :key="i">
           <div>

@@ -16,8 +16,7 @@
       <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner'>Защита каналов связи</rt-arrow-anchor></template>
       <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner2'>Мониторинг и управление ИБ</rt-arrow-anchor></template>
       <template slot='anchor'><rt-arrow-anchor icon-color='white' scroll-to-id='idBanner3'>Единая платформа сервисов безопасности</rt-arrow-anchor></template>
-      <template slot='image'><rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light.png'
-                                     x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/light-2x.png'
+      <template slot='image'><rt-img src='https://picsum.photos/5000/2000?getForId=10'
       ></rt-img></template>
     </rt-jumbotron>"></pre-code>
 
@@ -35,8 +34,8 @@
       </template>
 
       <template slot='image'>
-      <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark.png'
-                                     x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark.png'
+      <rt-img src='https://picsum.photos/5000/2000?getForId=101'
+                                     x2-src='https://picsum.photos/5000/2000?getForId=103'
                                      td-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png'
                                      md-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png'
       ></rt-img>
@@ -58,8 +57,8 @@
         <rt-button class='rt-button-md--is-block' color='orange'>Заказать</rt-button>
       </template>
       <template slot='image'>
-      <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/purple.png'
-                                     x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/purple-2x.png'
+      <rt-img src='https://picsum.photos/5000/2000?getForId=1030'
+                                     x2-src='https://picsum.photos/5000/2000?getForId=1031'
       ></rt-img>
     </template>
     </rt-jumbotron>"></pre-code>
@@ -74,8 +73,8 @@
         <rt-button class='rt-button-md--is-block' :bright='true' color='full-white'>Заказать</rt-button>
       </template>
 
-      <template slot='image'>      <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/orange.png'
-                                     x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/orange-2x.png'></rt-img>
+      <template slot='image'>      <rt-img src='https://picsum.photos/5000/2000?getForId=1039'
+                                     x2-src='https://picsum.photos/5000/2000?getForId=1032'></rt-img>
 
       </template>
 
@@ -99,13 +98,13 @@ export default {
   name: "AppJumbotron",
   components: componentsList,
   data: () => ({
-    documentation: {}
+    documentation: {},
+    imgs: []
   }),
-  mounted() {
-    // this.documentation = documentation;
-  },
-  created() {
-  },
-  methods: {}
+
+
+  methods: {
+
+  }
 };
 </script>

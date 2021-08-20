@@ -40,8 +40,8 @@ var componentsList = {};
       return _vue_rt_style_kit_atoms_local_components_SystemIcons_docs_names_json__WEBPACK_IMPORTED_MODULE_0__.map(function (i) {
         var code = '<rt-system-icons name="' + i.name + '"></rt-system-icons>';
         return h("rt-table-row", [h("rt-table-item", [h("pre-code", {
-          attrs: {
-            text: code
+          "attrs": {
+            "text": code
           }
         })]), h("rt-table-item", [i.name]), h("rt-table-item", [i.label])]);
       });
@@ -63,32 +63,32 @@ var componentsList = {};
     }, [h("div", {
       "class": "app-row row"
     }, [h("rt-col", {
-      attrs: {
-        size: "12"
+      "attrs": {
+        "size": "12"
       }
     }, [h("rt-table", {
       "class": "rt-font-label"
     }, [h("template", {
-      slot: "header"
+      "slot": "header"
     }, [h("rt-table-head-item", ["icon"]), h("rt-table-head-item", ["name"]), h("rt-table-head-item", ["label"])]), h("template", {
-      slot: "body"
+      "slot": "body"
     }, [this.renderList])])])]), h("div", {
       "class": "app-row row"
     }, [h("rt-col", {
-      attrs: {
-        size: "12"
+      "attrs": {
+        "size": "12"
       }
     }, [h("pre-code", {
-      attrs: {
-        text: '<rt-button color="purple-border rt-sys-icon-hover--orange"><rt-system-icons color="purple" name="add large"></rt-system-icons> <span class="sp-l-1">свойство</span></rt-button>'
+      "attrs": {
+        "text": '<rt-button color="purple-border rt-sys-icon-hover--orange"><rt-system-icons color="purple" name="add large"></rt-system-icons> <span class="sp-l-1">свойство</span></rt-button>'
       }
     })])]), h("documentation-builder", {
-      attrs: {
-        json: this.documentation,
-        type: "props"
+      "attrs": {
+        "json": this.documentation,
+        "type": "props"
       }
     }), h("documentation-builder", {
-      attrs: {
+      "attrs": {
         "labels-json": [{
           label: 'class name',
           name: 'name'
@@ -96,8 +96,8 @@ var componentsList = {};
           label: 'description',
           name: 'description'
         }],
-        json: this.classnames,
-        type: "outher class affect"
+        "json": this.classnames,
+        "type": "outher class affect"
       }
     })])])]);
   }
