@@ -31,7 +31,7 @@ import {
     Line,
     CircleNumber
 } from '@vue-rt-style-kit-atoms-local'
-
+//
 import {
   ScrollTabs,
   TabsSlider,
@@ -78,7 +78,7 @@ import {
   Youtube,
   Sticky,
   ResizeContentHeight,
-  
+
   SlideContent,
   SlideContentDottedContent,
   SlideContentDottedHeader,
@@ -136,7 +136,7 @@ import {
   CarouselV3Item,
   ResizeContentHeightDirective,
   Privilege,
-  
+
 } from '@vue-rt-style-kit-molecules-local'
 
 import {
@@ -147,7 +147,7 @@ import {
 } from '@vue-rt-style-kit-icons-local'
 
 import AppMenu from "./components/AppMenu.vue";
-
+//
 const componentsList = {};
 const addToComponentList = (possibleComponent)=>{
   if(possibleComponent?.name){

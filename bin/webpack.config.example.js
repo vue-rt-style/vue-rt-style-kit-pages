@@ -30,7 +30,8 @@ const config = {
     splitChunks: {
       chunks: `all`
     },
-  },
+    moduleIds: 'named'
+},
   devtool: false,
   resolve: {
     symlinks: false,
@@ -53,6 +54,7 @@ const config = {
       {
         test: /\.vue$/,
         use: [
+          
           {
             loader: "vue-loader"
           },
@@ -68,9 +70,14 @@ const config = {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
         include: include(),
+        
         use: [
           {loader:`babel-loader`},
-          {loader:`ts-loader`}]
+          {loader:`ts-loader`,
+            options: {
+              transpileOnly:true
+            }
+          }]
         },
       {
         test: /\.css$/,
@@ -84,9 +91,13 @@ const config = {
         loader: `babel-loader`,
         exclude: /node_modules/,
         include: include(),
+        type: "javascript/auto",
+        resolve: {
+          fullySpecified: false
+        }
       },
       {
-        test: /\.styl/,
+        test: /\.styl(us)?$/,
         use: [
           {
             loader: `style-loader`,
@@ -95,10 +106,12 @@ const config = {
           {
             loader: `stylus-loader`,
             options: {
-              imports: [path.resolve(__dirname, '../', 'node_modules/nib/lib/nib/index.styl')],
-              use: [nib(),customPlugins()],
-            },
-          },
+              stylusOptions: {
+                imports: [path.resolve(__dirname, '../', 'node_modules/nib/lib/nib/index.styl')],
+                use: [nib(), customPlugins()],
+              }
+            }
+          }
         ],
       },
       {
@@ -110,6 +123,11 @@ const config = {
         },
       },
     ],
+  },
+  watchOptions: {
+    followSymlinks: true,
+    ignored: ['**/node_modules'],
+  
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -129,19 +147,7 @@ const config = {
 config.entry.app.unshift('webpack-hot-middleware/client');
 config.plugins.push(
     new VueLoaderPlugin.VueLoaderPlugin(),
-    new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
-    new filewatcherPlugin({watchFileRegex: [
-        '../../vue-rt-style-kit-atoms/**/*.js',
-        '../../vue-rt-style-kit-atoms/**/*.vue',
-        '../../vue-rt-style-kit-atoms/**/*.styl',
-        '../../vue-rt-style-kit-molecules/**/*.js',
-        '../../vue-rt-style-kit-molecules/**/*.vue',
-        '../../vue-rt-style-kit-molecules/**/*.styl',
-        '../../vue-rt-style-kit-icons/**/*.js',
-        '../../vue-rt-style-kit-icons/**/*.vue',
-        '../../vue-rt-style-kit-icons/**/*.styl'
-      ]})
+    new webpack.HotModuleReplacementPlugin()
 );
 
 export default config;

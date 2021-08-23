@@ -1,14 +1,9 @@
 
 
 <script type="text/jsx">
-  import componentsMenu from "./componentsMenu.json";
-  import componentsList from "../componentsList";
-
-
-
+import componentsMenu from "./componentsMenu.json";
   export default {
     name: "AppMenu",
-    components: componentsList,
     props: {
       showMenu: {
         type: Boolean,

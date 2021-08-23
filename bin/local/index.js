@@ -1,17 +1,18 @@
-'use strict';
+
 import config from '../../build/config/index.js'
 if (!process.env.NODE_ENV) {
   process.env.NODE_ENV = 'develop';
 }
 import "@babel/polyfill";
-import opn from 'opn';
 import path from 'path';
 import express from 'express';
 import connectHistoryApiFallback from 'connect-history-api-fallback';
-import webpackHotMiddleware from 'webpack-hot-middleware';
+
 import webpack from 'webpack';
-import proxyMiddleware from 'http-proxy-middleware';
+import { createProxyMiddleware } from 'http-proxy-middleware';
 import webpackConfig from '../webpack.config.example.js';
+import webpackDevMiddleware from 'webpack-dev-middleware';
+import webpackHotMiddleware from 'webpack-hot-middleware';
 
 
 const __dirname = path.resolve()
@@ -22,10 +23,9 @@ const port = process.env.PORT || config.dev.port;
 const proxyTable = config.dev.proxyTable;
 
 const app = express();
-console.log('config',webpackConfig)
+// console.log('config',webpackConfig)
 const compiler = webpack(webpackConfig);
-import webpackDevMiddleware from 'webpack-dev-middleware'
-const devMiddleware = webpackDevMiddleware(compiler, {
+const hotMiddleware = webpackHotMiddleware(compiler, {
   path: '/__webpack_hmr',
   quiet: true,
   log: console.log,
@@ -51,11 +51,12 @@ const devMiddleware = webpackDevMiddleware(compiler, {
   }
 });
 let spinner;
-const hotMiddleware = webpackHotMiddleware(compiler, {
-  log: function(text){
-    console.info('webpack-hot-middleware : '+(new Date())+' '+text);
-  }
-});
+
+// const hotMiddleware = webpackHotMiddleware(compiler, {
+//   log: function(text){
+//     console.info('webpack-hot-middleware : '+(new Date())+' '+text);
+//   }
+// });
 webpackConfig.entry.app.unshift('webpack-hot-middleware/client');
 // webpackConfig.plugins.push(
 //   new webpack.HotModuleReplacementPlugin()
@@ -69,11 +70,12 @@ Object.keys(proxyTable).forEach(function (context) {
   if (typeof options === 'string') {
     options = { target: options };
   }
-  app.use(proxyMiddleware(options.filter || context, options));
+  app.use(createProxyMiddleware(options.filter || context, options));
 });
 
 app.use(connectHistoryApiFallback());
-
+const devMiddleware = webpackDevMiddleware(compiler);
+app.use(hotMiddleware);
 app.use(devMiddleware);
 
 const staticPath = path.posix.join(config.dev.assetsPublicPath, config.dev.assetsSubDirectory);
@@ -94,7 +96,6 @@ devMiddleware.waitUntilValid(() => {
   
   console.info('webpack-hot-middleware : start')
   
-  opn(url);
   _resolve();
 });
 
