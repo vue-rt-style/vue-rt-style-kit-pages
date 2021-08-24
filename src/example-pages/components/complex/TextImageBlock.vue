@@ -10,7 +10,7 @@
             </div>
             <div class="app-body">
                 <pre-code text="
-                    <rt-text-image-block title='28 символов с пробелами' image='https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg' bg-color='b2c-green'>
+                    <rt-text-image-block title='28 символов с пробелами' image='https://rt-static.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg' bg-color='b2c-green'>
                         <template slot='upper-content'>
                             <p class='rt-font-small-paragraph sp-t-1 sp-b-2'>На краю дороги стоял дуб. Он был, вероятно, в
                             десять раз старше берез, составлявших лес, в десять раз толще и в два раза выше каждой березы.
@@ -23,7 +23,7 @@
                     </rt-text-image-block>"
                 />
                 <pre-code text="
-                    <rt-text-image-block title='28 символов с пробелами' image='https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg' :reversed='true'>
+                    <rt-text-image-block title='28 символов с пробелами' image='https://rt-static.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg' :reversed='true'>
                         <template slot='upper-content'>
                             <p class='rt-font-small-paragraph sp-t-1'>На краю дороги стоял дуб. Он был, вероятно,
                             в десять раз старше берез, составлявших лес, в десять раз толще и в два раза выше каждой
@@ -41,7 +41,7 @@
                     </rt-text-image-block>"
                 />
                 <pre-code text="
-                    <rt-text-image-block image='https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg' bg-color='b2c-yellow' :tight-text='true'>
+                    <rt-text-image-block image='https://rt-static.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg' bg-color='b2c-yellow' :tight-text='true'>
                         <template slot='title'>Максимум 60 символов <br>с пробелами для заголовка <br>в 3 строки</template>
                         <template slot='upper-content'>
                             <p class='rt-font-small-paragraph sp-t-1'>На краю дороги стоял дуб. Он был, вероятно, в десять раз
@@ -58,7 +58,7 @@
                     </rt-text-image-block>"
                 />
                 <pre-code text="
-                    <rt-text-image-block image='https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg' :reversed='true' :tight-text='true'>
+                    <rt-text-image-block image='https://rt-static.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg' :reversed='true' :tight-text='true'>
                         <template slot='title'>Заголовок</template>
                         <template slot='upper-content'>
                             <p class='rt-font-small-paragraph sp-t-1'>Этот дуб как будто говорил: «Весна, и любовь, и счастье!
@@ -120,7 +120,7 @@
                         </template>
                     </rt-text-image-block>"
                 />
-                <rt-text-image-block title="Блок с видео" image="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" bg-color="b2c-pink" video="D406lgoxLxY">
+                <rt-text-image-block title="Блок с видео" image="https://rt-static.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" bg-color="b2c-pink" video="D406lgoxLxY">
                     <template slot="upper-content">
                         <p class="rt-font-small-paragraph sp-t-2 sp-b-0-4">Много-много-много-много-много-много-много-много-много-много-много-много-много-много-много очень-очень много текста</p>
                         <p class="rt-font-small-paragraph sp-b-2">Много-много-много-много-много-много-много-много очень-очень много текста</p>

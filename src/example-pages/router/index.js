@@ -95,6 +95,7 @@ const index = [
   { path: "/tariff-cards2", name: "app-tariff-card", component: () => import("../components/complex/TariffCard2.vue") },
   { path: "/tariff-cards3", name: "app-tariff-card", component: () => import("../components/complex/TariffCard3.vue") },
   { path: "/video-banner", name: "app-video-banner", component: () => import("../components/complex/VideoBanners.vue") },
+  { path: "/minibanner", name: "app-minibanner", component: () => import("../components/complex/Minibanner.vue") },
   // { path: "/promo/tvtv", name: "promoTv", component: PromoTvTV },
   // { path: "/promo/mobile", name: "promoMobile", component: PromoMobile },
   // { path: "/promo/smart-house", name: "smartHouse", component: smartHouse },

@@ -4,14 +4,14 @@
       <div class="ld-key">
         <div class="lg-sp-b-4">
           <rt-jumbotron background='main-color003-no-opacity' color="main" description-color="main" :desktop-column-size="5">
-            <template slot='header'><img src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/Logo.svg" class="ld-key-logo" alt="">
+            <template slot='header'><img src="https://rt-static.rt.ru/sites/default/files/img/rt-key/Logo.svg" class="ld-key-logo" alt="">
             </template>
             <template slot='label'><h1>Технологии, <br>открывающие новые <br>возможности дома</h1></template>
             <template slot='description'><p class="sp-r-2">Удобный и многофункциональный сервис управления и контроля за
               домом и придомовой территорией</p></template>
             <template slot='image'>
-              <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/banner-2.jpg'
-                      x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/banner-2-x2.jpg'
+              <rt-img src='https://rt-static.rt.ru/sites/default/files/img/rt-key/banner-2.jpg'
+                      x2-src='https://rt-static.rt.ru/sites/default/files/img/rt-key/banner-2-x2.jpg'
               ></rt-img>
             </template>
             <template slot="footer">
@@ -115,20 +115,20 @@
                         <div class="d-flex sp-t-2 md-d-block md-sp-t-1-1">
                           <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/010.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/010.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Управление доступом </p>
                           </div>
                           <div
                               class="flex-fill md-d-flex td-flex-v-center sp-l-1 md-sp-l-none md-sp-v-1 td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/008.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/008.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Фото- и видеофиксация </p>
                           </div>
                           <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/267.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/267.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Архив посещений </p>
                           </div>
@@ -153,8 +153,8 @@
                       <div label="Умный домофон — новые возможности комфорта вашего дома"
                            data-tab-index="0"
                            class="rt-col-6  rt-col-td-5 rt-font-center rt-col-td-2 rt-col-md-3 ld-key-tabs-imgs static">
-                        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/1.png'
-                                x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/1-2x.png'
+                        <rt-img src='https://rt-static.rt.ru/sites/default/files/img/rt-key/1.png'
+                                x2-src='https://rt-static.rt.ru/sites/default/files/img/rt-key/1-2x.png'
                         ></rt-img>
 
 
@@ -176,20 +176,20 @@
                         <div class="d-flex sp-t-2 md-d-block md-sp-t-1-1">
                           <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/186.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/186.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Видеоконтроль </p>
                           </div>
                           <div
                               class="flex-fill md-d-flex td-flex-v-center sp-l-1 md-sp-l-none md-sp-v-1 td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/111.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/111.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Детекция событий </p>
                           </div>
                           <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/008.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/008.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Видеоаналитика </p>
                           </div>
@@ -219,8 +219,8 @@
                       <div label="Комплексное видеонаблюдение — новые возможности безопасности для вашего дома"
                            data-tab-index="0"
                            class="rt-col-6  rt-col-td-5 rt-font-center rt-col-td-2 rt-col-md-3 ld-key-tabs-imgs static">
-                        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/2.png'
-                                x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/2-2x.png'
+                        <rt-img src='https://rt-static.rt.ru/sites/default/files/img/rt-key/2.png'
+                                x2-src='https://rt-static.rt.ru/sites/default/files/img/rt-key/2-2x.png'
                         ></rt-img>
 
 
@@ -242,20 +242,20 @@
                         <div class="d-flex sp-t-2 md-d-block md-sp-t-1-1">
                           <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/186.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/186.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Удаленное управление </p>
                           </div>
                           <div
                               class="flex-fill md-d-flex td-flex-v-center sp-l-1 md-sp-l-none md-sp-v-1 td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/008.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/008.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Видеофиксация событий </p>
                           </div>
                           <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/133.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/133.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Автоматический пропуск <br>экстренных служб </p>
                           </div>
@@ -281,8 +281,8 @@
                       <div label="Умный домофон — новые возможности удобства для вашего дома"
                            data-tab-index="0"
                            class="rt-col-6  rt-col-td-5 rt-font-center rt-col-td-2 rt-col-md-3 ld-key-tabs-imgs static">
-                        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/2.png'
-                                x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/2-2x.png'
+                        <rt-img src='https://rt-static.rt.ru/sites/default/files/img/rt-key/2.png'
+                                x2-src='https://rt-static.rt.ru/sites/default/files/img/rt-key/2-2x.png'
                         ></rt-img>
 
 
@@ -303,20 +303,20 @@
                         <div class="d-flex sp-t-2 md-d-block md-sp-t-1-1">
                           <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/266.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/266.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Автоматический сбор <br>показаний </p>
                           </div>
                           <div
                               class="flex-fill md-d-flex td-flex-v-center sp-l-1 md-sp-l-none md-sp-v-1 td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/186.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/186.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Управление потреблением</p>
                           </div>
                           <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/241.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/241.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Удобный доступ к <br>статистике</p>
                           </div>
@@ -343,8 +343,8 @@
                       <div label="Умные счетчики — новые возможности вашего контроля"
                            data-tab-index="0"
                            class="rt-col-6  rt-col-td-5 rt-font-center rt-col-td-2 rt-col-md-3 ld-key-tabs-imgs static">
-                        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/3.png'
-                                x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/3-2x.png'
+                        <rt-img src='https://rt-static.rt.ru/sites/default/files/img/rt-key/3.png'
+                                x2-src='https://rt-static.rt.ru/sites/default/files/img/rt-key/3-2x.png'
                         ></rt-img>
 
 
@@ -366,20 +366,20 @@
                         <div class="d-flex sp-t-2 md-d-block md-sp-t-1-1">
                           <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/269.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/269.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Бесконтактный ключ</p>
                           </div>
                           <div
                               class="flex-fill md-d-flex td-flex-v-center sp-l-1 md-sp-l-none md-sp-v-1 td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/225.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/225.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Управление доступом на <br>территорию</p>
                           </div>
                           <div class="flex-fill md-d-flex td-flex-v-center td-flex-v-center">
                             <img class="d-block ld-key-icon"
-                                 src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/008.svg"
+                                 src="https://rt-static.rt.ru/sites/default/files/img/rt-key/008.svg"
                                  alt="">
                             <p class="sp-t-0-4 md-sp-t-none md-sp-l-0-4">Фото- и видеофиксация </p>
                           </div>
@@ -406,8 +406,8 @@
                       <div label="Умный доступ (СКУД) — новые возможности управления доступом"
                            data-tab-index="0"
                            class="rt-col-6  rt-col-td-5 rt-font-center rt-col-td-2 rt-col-md-3 ld-key-tabs-imgs static">
-                        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/4.png'
-                                x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/4-2x.png'
+                        <rt-img src='https://rt-static.rt.ru/sites/default/files/img/rt-key/4.png'
+                                x2-src='https://rt-static.rt.ru/sites/default/files/img/rt-key/4-2x.png'
                         ></rt-img>
 
 
@@ -449,18 +449,18 @@
               <rt-col :size="2" :t-hide="true"></rt-col>
               <rt-col :size="4" :tablet-size="3" :mobile-size="3" class="md-sp-t-2 d-flex td-d-block flex-v-center ">
                 <div>
-                  <img src="https://static-cdn.rt.ru/sites/default/files/img/rt-key/Logo.svg" alt="">
+                  <img src="https://rt-static.rt.ru/sites/default/files/img/rt-key/Logo.svg" alt="">
                   <p class="rt-font-h3 sp-t-1-2 sp-b-2 td-sp-b-1-2">Вам понадобится приложение <br>«Ростелеком Ключ»</p>
                   <div class="d-flex td-d-block">
                     <div class="flex-fill sp-r-0-2 td-sp-r-none">
                       <rt-button class="rt-button--is-block" href="#" color="black">
-                        <img src="https://static-cdn.rt.ru/sites/default/files/img/ad_unit_component/appStore.svg"
+                        <img src="https://rt-static.rt.ru/sites/default/files/img/ad_unit_component/appStore.svg"
                              alt=""/>
                       </rt-button>
                     </div>
                     <div class="flex-fill sp-l-0-2 td-sp-l-none td-sp-t-1">
                       <rt-button class="rt-button--is-block" href="#" color="black">
-                        <img src="https://static-cdn.rt.ru/sites/default/files/img/ad_unit_component/googlePlay.svg"
+                        <img src="https://rt-static.rt.ru/sites/default/files/img/ad_unit_component/googlePlay.svg"
                              alt=""/>
                       </rt-button>
                     </div>
@@ -485,8 +485,8 @@
                     <div class="ld-key-card rt-sys-icon-hover--orange">
                       <rt-row>
                         <div class="rt-col-persent-5 md-d-none d-flex">
-                          <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/card-1.jpg'
-                                  x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/card-1-x2.jpg'
+                          <rt-img src='https://rt-static.rt.ru/sites/default/files/img/rt-key/card-1.jpg'
+                                  x2-src='https://rt-static.rt.ru/sites/default/files/img/rt-key/card-1-x2.jpg'
                           ></rt-img>
                         </div>
                         <div class="rt-col-persent-5 relative rt-col-md-3 d-flex">
@@ -511,8 +511,8 @@
                     <div class="ld-key-card rt-sys-icon-hover--orange">
                       <rt-row>
                         <div class="rt-col-persent-5 md-d-none">
-                          <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/card-2.jpg'
-                                  x2-src='https://static-cdn.rt.ru/sites/default/files/img/rt-key/card-2-x2.jpg'
+                          <rt-img src='https://rt-static.rt.ru/sites/default/files/img/rt-key/card-2.jpg'
+                                  x2-src='https://rt-static.rt.ru/sites/default/files/img/rt-key/card-2-x2.jpg'
                           ></rt-img>
                         </div>
                         <div class="rt-col-persent-5 relative rt-col-md-3 d-flex">

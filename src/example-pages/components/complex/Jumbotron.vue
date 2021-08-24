@@ -36,21 +36,21 @@
       <template slot='image'>
       <rt-img src='https://picsum.photos/5000/2000?getForId=101'
                                      x2-src='https://picsum.photos/5000/2000?getForId=103'
-                                     td-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png'
-                                     md-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png'
+                                     td-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png'
+                                     md-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/dark-2x.png'
       ></rt-img>
       </template>
     </rt-jumbotron>"></pre-code>
 
     <pre-code text="<rt-jumbotron id='idBanner2' background='purple-button-active' color='white' description-color='white'>
       <template slot='header'>
-        <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.svg' alt='' width='126'>
+        <img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.svg' alt='' width='126'>
       </template>
       <template slot='tablet-header'>
-        <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.png' alt='' width='103' height='32'>
+        <img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.png' alt='' width='103' height='32'>
       </template>
       <template slot='mobile-header'>
-        <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.png' alt='' width='103' height='32' >
+        <img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/wink-white.png' alt='' width='103' height='32' >
       </template>
       <template slot='label'>Эксклюзивный игровой комплект в кредит</template>
       <template slot='footer'>

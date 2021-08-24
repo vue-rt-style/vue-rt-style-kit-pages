@@ -16,7 +16,7 @@
             <p class='tagline rt-font-label-uppercase rt-font-bold color-white05'>Это текст вместо лог!!о</p>
           </template>
           <template slot='mobile-header'>
-            <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' height='32px'
+            <img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' height='32px'
                  alt=''>
           </template>
           <template slot='label'>Легко подключить,<br> комфортно жить</template>
@@ -24,9 +24,9 @@
             <rt-button color='orange'>Подробнее</rt-button>
           </template>
           <template slot='image'>
-            <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12.jpg'
+            <rt-img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/12.jpg'
                     lazy-src='https://www.apple.com/v/home/q/images/logos/holiday-2020/logo__dcojfwkzna2q_large_2x.png'
-                    x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12-x2.jpg' alt=''></rt-img>
+                    x2-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/12-x2.jpg' alt=''></rt-img>
           </template>
         </rt-banner-item-v2>
       </rt-banner-v2>
@@ -36,35 +36,35 @@
 			<p class='tagline rt-font-label-uppercase rt-font-bold color-white05'>Это текст вместо лого</p>
 		</template>
 		<template slot='mobile-header'>
-			<img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' height='32px' alt=''>
+			<img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' height='32px' alt=''>
 		</template>
 		<template slot='label'>Легко подключить,<br> комфортно жить</template>
 		<template slot='footer'><rt-button color='orange'>Подробнее</rt-button></template>
 
-		<template slot='image'><rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12.jpg' x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/12-x2.jpg' alt=''></rt-img></template>
+		<template slot='image'><rt-img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/12.jpg' x2-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/12-x2.jpg' alt=''></rt-img></template>
 	</rt-banner-item-v2>
 </rt-banner-v2>"/>
       <pre-code text="<rt-banner-v2 name='test9393' >
       <rt-banner-item-v2 banner-name='test9393' :ga='{name:&quot;Смотрим вместе&quot;,section:&quot;2&quot;}' :show-url-on-tablet='true' url='http://rt.ru'>
         <template slot='header'>
-          <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' alt=''>
+          <img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' alt=''>
         </template>
         <template slot='mobile-header'>
-          <img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' height='32px' alt=''>
+          <img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' height='32px' alt=''>
         </template>
         <template slot='label'>Легко подключить,<br> комфортно жить</template>
         <template slot='footer'><rt-button color='orange'>Подробнее</rt-button></template>
         <template slot='image'>
-        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage.jpg'
-                x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-x2.jpg'
-                td-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-tablet.jpg'
-                md-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-mobile.jpg' alt=''></rt-img>
+        <rt-img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage.jpg'
+                x2-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-x2.jpg'
+                td-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-tablet.jpg'
+                md-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-mobile.jpg' alt=''></rt-img>
         </template>
 
       </rt-banner-item-v2>
       <rt-banner-item-v2 :ga='{name:&quot;test1&quot;,section:&quot;2&quot;}' ga-banner-name='banner_first' color-type='red' banner-name='test9393' :is-active='true' :show-url-on-desktop='true' url='http://rt.ru'>
         <template slot='header'>
-          <img class='d-block' src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/logowink.svg' alt=''>
+          <img class='d-block' src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/logowink.svg' alt=''>
         </template>
         <template slot='mobile-header'>
           <svg width='32' height='40' viewBox='0 0 32 40' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -75,8 +75,8 @@
         <template slot='description'>Абонемент «Киноман» Скидка на все фильмы и сериалы </template>
         <template slot='footer'><rt-button color='full-white' >Подробнее</rt-button></template>
         <template slot='image'>
-        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange.jpg'
-                x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange-x2.jpg'
+        <rt-img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange.jpg'
+                x2-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange-x2.jpg'
                 ></rt-img>
         </template>
       </rt-banner-item-v2>
@@ -85,10 +85,10 @@
         <template slot='description'>Соберите сами свой пакет фильмов и каналов.</template>
         <template slot='footer'><a href='#'><rt-button  color='orange' >Подробнее</rt-button></a></template>
         <template slot='image'>
-        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage.jpg'
-                x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-x2.jpg'
-                td-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-tablet.jpg'
-                md-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-mobile.jpg' alt=''></rt-img>
+        <rt-img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage.jpg'
+                x2-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-x2.jpg'
+                td-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-tablet.jpg'
+                md-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-mobile.jpg' alt=''></rt-img>
         </template>
       </rt-banner-item-v2>
       <rt-banner-item-v2  color-type='dark-slate' banner-name='test9393'>
@@ -96,9 +96,9 @@
         <template slot='description'>Соберите сами свой пакет фильмов и каналов.</template>
         <template slot='footer'><rt-button  color='orange' >Подробнее</rt-button></template>
         <template slot='image'>
-        <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack.jpg'
-                x2-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack-2x.jpg'
-                md-src='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack-mobile.jpg' alt=''></rt-img>
+        <rt-img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack.jpg'
+                x2-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack-2x.jpg'
+                md-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack-mobile.jpg' alt=''></rt-img>
         </template>
       </rt-banner-item-v2>
       </rt-banner-v2>"></pre-code>
@@ -172,10 +172,10 @@
     <pre-code
         text="<rt-banner :set-stop-on-click='true'
                        :sleep-time='20000'
-                       bannerLogo='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/Logo.svg'
+                       bannerLogo='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/Logo.svg'
                        content-mobile-min-height='80vh'
                        content-mobile-height='300px'>
-      <rt-banner-item background-image='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground1.jpg'
+      <rt-banner-item background-image='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground1.jpg'
                       :is-white-color='true'
                       content-mobile-min-height='80vh'
                       content-mobile-height='200px'
@@ -186,7 +186,7 @@
           возможностьпользоваться из любой точки мира <br> и ни одного пропущенного звонка клиента</p>
         <rt-button class='rt-button-orange'>Подробнее</rt-button>
       </rt-banner-item>
-      <rt-banner-item ancor-get-params-link='utm-source=vova-privet' ancor-hash-link='testBannerHash' background-color='yellow' background-image='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground2.jpg'><p
+      <rt-banner-item ancor-get-params-link='utm-source=vova-privet' ancor-hash-link='testBannerHash' background-color='yellow' background-image='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground2.jpg'><p
         class='rt-font-banner-label'>Помогаем бизнесу <br> экономить</p>
         <p class='rt-space-top rt-space-bottom15'>Цифровые сервисы и технологии по выгодным ценам для среднего и
           малогобизнеса </p>
@@ -197,7 +197,7 @@
     <div class="is-b2c">
       <pre-code
           text="<rt-banner :is-fullscreen-image='true'
-                         bannerLogo='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/Logo.svg'
+                         bannerLogo='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/Logo.svg'
                          :resize-query-selectors-names='[&quot;.content-test&quot;]'
                          content-height='100vh'
                          content-mobile-min-height='100vh'
@@ -237,7 +237,7 @@
                        content-mobile-height='300px'
                        content-height='600px'
                        content-min-height='300px'>
-        <rt-banner-item background-image='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground1.jpg'
+        <rt-banner-item background-image='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground1.jpg'
                         :is-white-color='true'
                         background-color='dark-slate'
                         content-mobile-min-height='100px'
@@ -250,7 +250,7 @@
           <p class='rt-space-top rt-space-bottom15'>Быстрое подключение без трат на оборудование,<br> возможностьпользоваться из любой точки мира <br> и ни одного пропущенного звонка клиента</p>
           <rt-button class='rt-button-orange'>Подробнее</rt-button>
         </rt-banner-item>
-        <rt-banner-item background-color='yellow' background-image='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground2.jpg'>
+        <rt-banner-item background-color='yellow' background-image='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground2.jpg'>
         <p class='rt-font-banner-label'>Помогаем бизнесу <br> экономить</p>
         <p class='rt-space-top rt-space-bottom15'>Цифровые сервисы и технологии по выгодным ценам для среднего и малогобизнеса </p>
         <rt-button class='rt-button-orange'>Подробнее</rt-button>
@@ -404,7 +404,7 @@
         <rt-button class='rt-button-orange'>Подробнее</rt-button>
       </rt-banner-item>
       <rt-banner-item background-color='yellow'
-                      background-image='https://static-cdn.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground2.jpg'
+                      background-image='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/banerBackground2.jpg'
                       :slide-time='2000'
                       content-mobile-min-height='100px'
                       content-tablet-height='500px'

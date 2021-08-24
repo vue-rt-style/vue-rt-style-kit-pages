@@ -210,7 +210,7 @@
           <rt-card :is-white-color="true" background-color-type="green" :ga="{value:'Новости'}">
             <template slot="content">
               <div class="rt-space-top2 rt-space-bottom">
-                <img src="//static-cdn.rt.ru/sites/default/files/img/icon/news-icon.svg"
+                <img src="//rt-static.rt.ru/sites/default/files/img/icon/news-icon.svg"
                      width="80px"/>
               </div>
               <p class="rt-font-paragraph rt-font-bold">Новости</p>
@@ -229,7 +229,7 @@
           <rt-card :is-white-color="true" background-color-type="green" :ga="{value:'Новости'}">
             <template slot="content">
               <div class="rt-space-top2 rt-space-bottom">
-                <img src="//static-cdn.rt.ru/sites/default/files/img/icon/news-icon.svg"
+                <img src="//rt-static.rt.ru/sites/default/files/img/icon/news-icon.svg"
                      width="80px"/>
               </div>
               <p class="rt-font-paragraph rt-font-bold">Новости</p>
@@ -245,7 +245,7 @@
 <!--        <rt-carousel-slide-v2 parent-carousel-name="1">-->
 <!--          <rt-card :preview-card="true">-->
 <!--            <template slot="image">-->
-<!--              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>-->
+<!--              <img src="https://rt-static.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>-->
 <!--            </template>-->
 <!--            <template slot="label">Для автомобильного бизнеса</template>-->
 <!--            <template slot="content-large-space">Привлекайте на 70%</template>-->
@@ -254,7 +254,7 @@
 <!--        <rt-carousel-slide-v2 parent-carousel-name="1">-->
 <!--          <rt-card :preview-card="true">-->
 <!--            <template slot="image">-->
-<!--              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>-->
+<!--              <img src="https://rt-static.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>-->
 <!--            </template>-->
 <!--            <template slot="label">Для автомобильного бизнеса</template>-->
 <!--            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными-->
@@ -265,7 +265,7 @@
 <!--        <rt-carousel-slide-v2 parent-carousel-name="1">-->
 <!--          <rt-card :preview-card="true">-->
 <!--            <template slot="image">-->
-<!--              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>-->
+<!--              <img src="https://rt-static.rt.ru/sites/default/files/b2b/800_svg/Ddos-attacks1.jpg" alt=""/>-->
 <!--            </template>-->
 <!--            <template slot="label">Для автомобильного бизнеса</template>-->
 <!--            <template slot="content-large-space">Привлекайте на 70% больше клиентов яркими и динамичными рекламными-->
@@ -356,10 +356,10 @@
 <!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
 <!--            <a href='#' class='spasibo-card' target='_blank'>-->
 <!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
+<!--                <template slot='image'><img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
 <!--                                            alt=''/></template>-->
 <!--                <template slot='logo'>-->
-<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
+<!--                  <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
 <!--                </template>-->
 <!--                <template slot='label'>lalala1 от <br> Додо Пицца</template>-->
 <!--                <template slot='content'>Обменяйте бонусы на промокод-->
@@ -374,10 +374,10 @@
 <!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
 <!--            <a href='#' class='spasibo-card' target='_blank'>-->
 <!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
+<!--                <template slot='image'><img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
 <!--                                            alt=''/></template>-->
 <!--                <template slot='logo'>-->
-<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
+<!--                  <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
 <!--                </template>-->
 <!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
 <!--                <template slot='content'>Обменяйте бонусы на промокод-->
@@ -392,10 +392,10 @@
 <!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
 <!--            <a href='#' class='spasibo-card' target='_blank'>-->
 <!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
+<!--                <template slot='image'><img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
 <!--                                            alt=''/></template>-->
 <!--                <template slot='logo'>-->
-<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
+<!--                  <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
 <!--                </template>-->
 <!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
 <!--                <template slot='content'>Обменяйте бонусы на промокод-->
@@ -410,10 +410,10 @@
 <!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
 <!--            <a href='#' class='spasibo-card' target='_blank'>-->
 <!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
+<!--                <template slot='image'><img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
 <!--                                            alt=''/></template>-->
 <!--                <template slot='logo'>-->
-<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
+<!--                  <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
 <!--                </template>-->
 <!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
 <!--                <template slot='content'>Обменяйте бонусы на промокод-->
@@ -428,10 +428,10 @@
 <!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
 <!--            <a href='#' class='spasibo-card' target='_blank'>-->
 <!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
+<!--                <template slot='image'><img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
 <!--                                            alt=''/></template>-->
 <!--                <template slot='logo'>-->
-<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
+<!--                  <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
 <!--                </template>-->
 <!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
 <!--                <template slot='content'>Обменяйте бонусы на промокод-->
@@ -446,10 +446,10 @@
 <!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
 <!--            <a href='#' class='spasibo-card' target='_blank'>-->
 <!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
+<!--                <template slot='image'><img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
 <!--                                            alt=''/></template>-->
 <!--                <template slot='logo'>-->
-<!--                  <img src='https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
+<!--                  <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
 <!--                </template>-->
 <!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
 <!--                <template slot='content'>Обменяйте бонусы на промокод-->
@@ -473,10 +473,10 @@
             <pre-code text='<rt-row>
             <rt-col size="3" tablet-size="2" mobile-size="3">
               <rt-card-rounded color="white" background-color="orange">
-                <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                <template slot="image"><img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png"
                                             alt=""/></template>
                 <template slot="logo">
-                  <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                  <img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
                 </template>
                 <template slot="label">Подарок от <br> Додо Пицца</template>
                 <template slot="content">Обменяйте бонусы на промокод
@@ -487,10 +487,10 @@
             </rt-col>
             <rt-col size="3" tablet-size="2" mobile-size="3">
               <rt-card-rounded color="white" background-color="red">
-                <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                <template slot="image"><img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png"
                                             alt=""/></template>
                 <template slot="logo">
-                  <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                  <img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
                 </template>
                 <template slot="label">Подарок от <br> Додо Пицца</template>
                 <template slot="content">Обменяйте бонусы на промокод
@@ -501,10 +501,10 @@
             </rt-col>
             <rt-col size="3" tablet-size="2" mobile-size="3">
               <rt-card-rounded color="white" background-color="red">
-                <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                <template slot="image"><img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png"
                                             alt=""/></template>
                 <template slot="logo">
-                  <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                  <img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
                 </template>
                 <template slot="headerHtml">
                   <p class="rt-font-h2 sp-t-0-3 sp-b-0-2">28 <span class="rt-font-h4">бонусов</span></p>
@@ -517,10 +517,10 @@
             </rt-col>
             <rt-col size="3" tablet-size="2" mobile-size="3">
               <rt-card-rounded color="white" background-color="purple">
-                <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/1forstory.png"
+                <template slot="image"><img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png"
                                             alt=""/></template>
                 <template slot="logo">
-                  <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                  <img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
                 </template>
                 <template slot="label">Подарок от <br> Додо Пицца</template>
                 <template slot="content">Обменяйте бонусы на промокод
@@ -535,10 +535,10 @@
             <pre-code text='<rt-row class="sp-t-1">
               <rt-col size="3" tablet-size="2" mobile-size="3">
                 <rt-card-rounded>
-                  <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"
+                  <template slot="image"><img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/7.png"
                                               alt=""/></template>
                   <template slot="logo">
-                    <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                    <img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
                   </template>
                   <template slot="label">Подарок от <br> Додо Пицца</template>
                   <template slot="content">Обменяйте бонусы на промокод
@@ -549,10 +549,10 @@
               </rt-col>
               <rt-col size="3" tablet-size="2" mobile-size="3">
                 <rt-card-rounded>
-                  <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"
+                  <template slot="image"><img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/7.png"
                                               alt=""/></template>
                   <template slot="logo">
-                    <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                    <img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
                   </template>
                   <template slot="label">Подарок от <br> Додо Пицца</template>
                   <template slot="content">Обменяйте бонусы на промокод
@@ -564,10 +564,10 @@
               </rt-col>
               <rt-col size="3" tablet-size="2" mobile-size="3">
                 <rt-card-rounded :need-resize="2000">
-                  <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"
+                  <template slot="image"><img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/7.png"
                                               alt=""/></template>
                   <template slot="logo">
-                    <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                    <img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
                   </template>
                   <template slot="headerHtml">
                     <p class="rt-font-h2 sp-t-0-3 sp-b-0-2">28 <span class="rt-font-h4">бонусов</span></p>
@@ -581,10 +581,10 @@
               </rt-col>
               <rt-col size="3" tablet-size="2" mobile-size="3">
                 <rt-card-rounded>
-                  <template slot="image"><img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/7.png"
+                  <template slot="image"><img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/7.png"
                                               alt=""/></template>
                   <template slot="logo">
-                    <img src="https://static-cdn.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
+                    <img src="https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png" alt="">
                   </template>
                   <template slot="label">Подарок от <br> Додо Пицца</template>
                   <template slot="content">Обменяйте бонусы на промокод
@@ -1112,7 +1112,7 @@
                   <rt-card :is-white-color="true" background-color-type="green" :ga="{value:'Новости'}">
                     <template slot="content">
                       <div class="rt-space-top2 rt-space-bottom">
-                        <img src="//static-cdn.rt.ru/sites/default/files/img/icon/news-icon.svg"
+                        <img src="//rt-static.rt.ru/sites/default/files/img/icon/news-icon.svg"
                              width="80px"/>
                       </div>
                       <p class="rt-font-paragraph rt-font-bold">Новости</p>

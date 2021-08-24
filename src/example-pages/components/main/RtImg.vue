@@ -7,9 +7,9 @@
       <div class="app-body">
         <div class="row rt-space-top5">
           <pre-code text='<rt-img
-              x2-src="https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2c/1480x840-promo-licey__proj.jpg"
-              td-src="https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2c/litres_740x420_md__proj.jpg"
-              md-src="https://static-cdn.rt.ru/sites/default/files/rti_lazy_files/banner_4in1_740kh420__proj.jpg"
+              x2-src="https://rt-static.rt.ru/sites/default/files/rti_lazy_files/b2c/1480x840-promo-licey__proj.jpg"
+              td-src="https://rt-static.rt.ru/sites/default/files/rti_lazy_files/b2c/litres_740x420_md__proj.jpg"
+              md-src="https://rt-static.rt.ru/sites/default/files/rti_lazy_files/banner_4in1_740kh420__proj.jpg"
             ></rt-img>'></pre-code>
           </div>
         </div>

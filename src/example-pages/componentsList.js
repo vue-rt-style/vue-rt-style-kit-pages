@@ -136,6 +136,7 @@ import {
   CarouselV3Item,
   ResizeContentHeightDirective,
   Privilege,
+  Minibanner
 
 } from '@vue-rt-style-kit-molecules-local'
 
@@ -220,6 +221,7 @@ addToComponentList(Filter)
 addToComponentList(FilterWatcher)
 addToComponentList(FilterCaller)
 addToComponentList(FilterV2)
+addToComponentList(Minibanner)
 addToComponentList(FilterItemV2)
 addToComponentList(FilterSetterV2)
 addToComponentList(Youtube)

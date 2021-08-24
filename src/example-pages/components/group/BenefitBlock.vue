@@ -168,7 +168,7 @@
         <rt-benefit-block :columns-quantity="4" :has-image="true" :no-transparency-description="true">
           <rt-benefit-item>
             <template slot="image">
-              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/VATS/how%20it%20works_new/1.svg">
+              <img src="https://rt-static.rt.ru/sites/default/files/b2b/VATS/how%20it%20works_new/1.svg">
             </template>
             <template slot="description">
               <p class="rt-font-paragraph" v-tooltip="{'text':'Добавить в избранное'}">Мобильный или SIP-телефон</p>
@@ -176,7 +176,7 @@
           </rt-benefit-item>
           <rt-benefit-item>
             <template slot="image">
-              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/VATS/how%20it%20works_new/2.svg">
+              <img src="https://rt-static.rt.ru/sites/default/files/b2b/VATS/how%20it%20works_new/2.svg">
             </template>
             <template slot="description">
               <p class="rt-font-paragraph">
@@ -190,7 +190,7 @@
           </rt-benefit-item>
           <rt-benefit-item>
             <template slot="image">
-              <img src="https://static-cdn.rt.ru/sites/default/files/b2b/VATS/how%20it%20works_new/3.svg">
+              <img src="https://rt-static.rt.ru/sites/default/files/b2b/VATS/how%20it%20works_new/3.svg">
             </template>
             <template slot="description">
               <p class="rt-font-paragraph" v-tooltip="{'text':'Добавить в избранное'}">Интернет от любого провайдера</p>

@@ -158,7 +158,7 @@
               </div>
               <div class="rt-col-4 rt-col-md-3 md-d-flex">
                 <img class="game-list-icon"
-                     src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/icon1.png" alt="">
+                     src="https://rt-static.rt.ru/sites/default/files/img/games-2021/icon1.png" alt="">
                 <div class="md-sp-l-1-2">
                   <h4 class="rt-font-h4 sp-t-1-1 td-sp-t-1 td-sp-b-0-3 sp-b-0-4 md-sp-t-none md-sp-b-0-2">Высокая
                     скорость</h4>
@@ -167,7 +167,7 @@
               </div>
               <div class="rt-col-4 rt-col-md-3 md-d-flex md-sp-t-1-1">
                 <img class="game-list-icon"
-                     src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/icon2.png" alt="">
+                     src="https://rt-static.rt.ru/sites/default/files/img/games-2021/icon2.png" alt="">
                 <div class="md-sp-l-1-2">
                   <h4 class="rt-font-h4 sp-t-1-1 td-sp-t-1 td-sp-b-0-3 sp-b-0-4 md-sp-t-none md-sp-b-0-2">
                     Преимущества</h4>
@@ -176,7 +176,7 @@
               </div>
               <div class="rt-col-4 rt-col-md-3 md-d-flex md-sp-t-1-1">
                 <img class="game-list-icon"
-                     src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/icon3.png" alt="">
+                     src="https://rt-static.rt.ru/sites/default/files/img/games-2021/icon3.png" alt="">
                 <div class="md-sp-l-1-2">
                   <h4 class="rt-font-h4 sp-t-1-1 td-sp-t-1 td-sp-b-0-3 sp-b-0-4 md-sp-t-none md-sp-b-0-2">Любимые
                     игры</h4>
@@ -201,14 +201,14 @@
                 <div class="game-image">
                   <div class="game-image-wrapper">
                     <rt-img class="game-image-tag-pseudo"
-                            src='https://static-cdn.rt.ru/sites/default/files/img/games-2021/image1.jpg'
-                            td-src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/image1-td.jpg"
-                            md-src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/image1-md.jpg"
+                            src='https://rt-static.rt.ru/sites/default/files/img/games-2021/image1.jpg'
+                            td-src="https://rt-static.rt.ru/sites/default/files/img/games-2021/image1-td.jpg"
+                            md-src="https://rt-static.rt.ru/sites/default/files/img/games-2021/image1-md.jpg"
                             alt=''></rt-img>
                     <rt-img class="game-image-tag"
-                            src='https://static-cdn.rt.ru/sites/default/files/img/games-2021/image1.jpg'
-                            td-src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/image1-td.jpg"
-                            md-src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/image1-md.jpg"
+                            src='https://rt-static.rt.ru/sites/default/files/img/games-2021/image1.jpg'
+                            td-src="https://rt-static.rt.ru/sites/default/files/img/games-2021/image1-td.jpg"
+                            md-src="https://rt-static.rt.ru/sites/default/files/img/games-2021/image1-md.jpg"
                             alt=''></rt-img>
                     <svg height="8" viewBox="0 0 467 8" fill="none" xmlns="http://www.w3.org/2000/svg"
                          class="game-image-line">
@@ -217,7 +217,7 @@
                     <div class="game-image-content rt-font-small-paragraph">
                       <div>
                         <img class="game-image-logo"
-                             src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/logo1.png"/>
+                             src="https://rt-static.rt.ru/sites/default/files/img/games-2021/logo1.png"/>
                         <div class="sp-t-1-2 md-sp-t-1">
                           <div class="d-block td-d-inline-block game-image-content-line">
                             <p class="game-image-list">WARFACE</p>
@@ -250,14 +250,14 @@
                 <div class="game-image">
                   <div class="game-image-wrapper">
                     <rt-img class="game-image-tag-pseudo"
-                            src='https://static-cdn.rt.ru/sites/default/files/img/games-2021/image2.jpg'
-                            td-src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/image2-td.jpg"
-                            md-src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/image2-md.jpg"
+                            src='https://rt-static.rt.ru/sites/default/files/img/games-2021/image2.jpg'
+                            td-src="https://rt-static.rt.ru/sites/default/files/img/games-2021/image2-td.jpg"
+                            md-src="https://rt-static.rt.ru/sites/default/files/img/games-2021/image2-md.jpg"
                             alt=''></rt-img>
                     <rt-img class="game-image-tag"
-                            src='https://static-cdn.rt.ru/sites/default/files/img/games-2021/image2.jpg'
-                            td-src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/image2-td.jpg"
-                            md-src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/image2-md.jpg"
+                            src='https://rt-static.rt.ru/sites/default/files/img/games-2021/image2.jpg'
+                            td-src="https://rt-static.rt.ru/sites/default/files/img/games-2021/image2-td.jpg"
+                            md-src="https://rt-static.rt.ru/sites/default/files/img/games-2021/image2-md.jpg"
                             alt=''></rt-img>
                     <svg height="8" viewBox="0 0 467 8" fill="none" xmlns="http://www.w3.org/2000/svg"
                          class="game-image-line">
@@ -266,7 +266,7 @@
                     <div class="game-image-content rt-font-small-paragraph">
                       <div>
                         <img class="game-image-logo"
-                             src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/logo2.png"/>
+                             src="https://rt-static.rt.ru/sites/default/files/img/games-2021/logo2.png"/>
                         <div class="sp-t-1-2 md-sp-t-1">
                           <div class="d-block td-d-inline-block game-image-content-line">
                             <p class="game-image-list">WORLD OF TANKS</p>
@@ -295,14 +295,14 @@
                 <div class="game-image">
                   <div class="game-image-wrapper">
                     <rt-img class="game-image-tag-pseudo"
-                            src='https://static-cdn.rt.ru/sites/default/files/img/games-2021/image3.jpg'
-                            td-src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/image3-td.jpg"
-                            md-src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/image3-md.jpg"
+                            src='https://rt-static.rt.ru/sites/default/files/img/games-2021/image3.jpg'
+                            td-src="https://rt-static.rt.ru/sites/default/files/img/games-2021/image3-td.jpg"
+                            md-src="https://rt-static.rt.ru/sites/default/files/img/games-2021/image3-md.jpg"
                             alt=''></rt-img>
                     <rt-img class="game-image-tag"
-                            src='https://static-cdn.rt.ru/sites/default/files/img/games-2021/image3.jpg'
-                            td-src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/image3-td.jpg"
-                            md-src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/image3-md.jpg"
+                            src='https://rt-static.rt.ru/sites/default/files/img/games-2021/image3.jpg'
+                            td-src="https://rt-static.rt.ru/sites/default/files/img/games-2021/image3-td.jpg"
+                            md-src="https://rt-static.rt.ru/sites/default/files/img/games-2021/image3-md.jpg"
                             alt=''></rt-img>
                     <svg height="8" viewBox="0 0 467 8" fill="none" xmlns="http://www.w3.org/2000/svg"
                          class="game-image-line">
@@ -311,7 +311,7 @@
                     <div class="game-image-content rt-font-small-paragraph">
                       <div>
                         <img class="game-image-logo"
-                             src="https://static-cdn.rt.ru/sites/default/files/img/games-2021/logo3.png"/>
+                             src="https://rt-static.rt.ru/sites/default/files/img/games-2021/logo3.png"/>
                         <div class="sp-t-1-2 md-sp-t-1">
                           <div class="d-block td-d-inline-block md-d-block game-image-content-line">
                             <p class="game-image-list">BLADE&SOUL</p>
@@ -722,7 +722,7 @@
               <rt-button color="full-white">Подробнее</rt-button>
             </template>
             <template slot='image'>
-              <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/games-2021/banner1.jpg' alt=''></rt-img>
+              <rt-img src='https://rt-static.rt.ru/sites/default/files/img/games-2021/banner1.jpg' alt=''></rt-img>
             </template>
 
           </rt-banner-item-v2>
@@ -736,7 +736,7 @@
               <rt-button color="full-white">Подробнее</rt-button>
             </template>
             <template slot='image'>
-              <rt-img src='https://static-cdn.rt.ru/sites/default/files/img/games-2021/banner1.jpg' alt=''></rt-img>
+              <rt-img src='https://rt-static.rt.ru/sites/default/files/img/games-2021/banner1.jpg' alt=''></rt-img>
             </template>
 
           </rt-banner-item-v2>
