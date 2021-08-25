@@ -6,6 +6,7 @@ const MiniCssExtractPlugin = require(`mini-css-extract-plugin`);
 const nib = require('nib');
 const stylusLoader = require('stylus-loader');
 const OptimizeCSSAssetsPlugin = require(`optimize-css-assets-webpack-plugin`);
+const customPlugins = require("../src/example-pages/css/plugins");
 const env = process.env.NODE_ENV;
 const local_dirname = path.join(__dirname,'..');
 
@@ -13,6 +14,7 @@ const config = {
   entry: {
     'vue-rt-style-kit-atoms':[path.join(local_dirname, `src`, `index.js`)],
   },
+  
   externals:'vue',
   mode: env,
   output: {
@@ -38,6 +40,10 @@ const config = {
       {
         test: /\.ts$/,
         loader: 'babel-loader!ts-loader',
+        type: "javascript/auto",
+        resolve: {
+          fullySpecified: false
+        }
 
       },
       {
@@ -52,8 +58,8 @@ const config = {
       {
         test: /\.css$/,
         use: [
-          MiniCssExtractPlugin.loader,
-          "css-loader",
+          {loader:'style-loader'},
+          {loader: `css-loader`},
             ],
       },
       {
@@ -62,12 +68,22 @@ const config = {
         include: [path.join(local_dirname, `src`)],
       },
       {
-        test: /\.styl$/,
+        test: /\.styl(us)?$/,
         use: [
-          MiniCssExtractPlugin.loader,
-          'css-loader',
-          'stylus-loader'
-        ]
+          {
+            loader: `style-loader`,
+          },
+          {loader: `css-loader`},
+          {
+            loader: `stylus-loader`,
+            options: {
+              stylusOptions: {
+                imports: [path.resolve(__dirname, '../', 'node_modules/nib/lib/nib/index.styl')],
+                use: [nib(), customPlugins()],
+              }
+            }
+          }
+        ],
       },
       {
         test: /\.(jpg|png|webp|gif|otf|ttf|woff|woff2|ani|eot|svg)$/,
@@ -80,10 +96,10 @@ const config = {
     ],
   },
   optimization: {
-    minimizer: [
-      new UglifyJsPlugin(),
-      new OptimizeCSSAssetsPlugin({})
-    ]
+    splitChunks: {
+      chunks: `all`
+    },
+    moduleIds: 'named'
   },
   plugins: [
     new webpack.LoaderOptionsPlugin({
