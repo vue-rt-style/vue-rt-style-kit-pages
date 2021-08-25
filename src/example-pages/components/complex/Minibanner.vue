@@ -1,5 +1,6 @@
 <template>
   <div class="">
+
     <div class="rt-container">
 
       <div class="app-content rt-col-12 rt-col-md-3">
@@ -7,6 +8,48 @@
           <div class="row"><h1 class="rt-font-hero rt-col">Minibanner</h1></div>
         </div>
       </div>
+    </div>
+    <div class="color-block--black sp-v-3">
+      <rt-minibanner>
+        <template slot="label">Аналитика речи</template>
+        <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
+        <template slot="html"><rt-button color="orange">Подробнее</rt-button></template>
+        <template slot="image">
+
+          <rt-img src="/static/example-images/minibanner/minib.png"
+                  td-src="/static/example-images/minibanner/td-minib.png"
+                  md-src="/static/example-images/minibanner/md-minib.png"></rt-img>
+        </template>
+
+      </rt-minibanner>
+    </div>
+    <div class="color-block--main-color01 sp-v-3">
+      <rt-minibanner background="dark-slate" shadow-color="dark-slate" color="white">
+        <template slot="label">Аналитика речи</template>
+        <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
+        <template slot="html"><rt-button color="orange">Подробнее</rt-button></template>
+        <template slot="image">
+
+          <rt-img src="/static/example-images/minibanner/minib2.png"
+                  td-src="/static/example-images/minibanner/td-minib2-1.png"
+                  md-src="/static/example-images/minibanner/md-minib2.png"></rt-img>
+        </template>
+
+      </rt-minibanner>
+    </div>
+    <div class="color-block--main-color01 sp-v-3">
+      <rt-minibanner background="dark-slate" shadow-color="dark-slate" color="white" :tablet-in-line="true">
+        <template slot="label">Аналитика речи</template>
+        <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
+        <template slot="html"><rt-button color="orange">Подробнее</rt-button></template>
+        <template slot="image">
+
+          <rt-img src="/static/example-images/minibanner/minib2.png"
+                  td-src="/static/example-images/minibanner/td-minib2-2.png"
+                  md-src="/static/example-images/minibanner/md-minib2.png"></rt-img>
+        </template>
+
+      </rt-minibanner>
     </div>
 
     <rt-minibanner>
