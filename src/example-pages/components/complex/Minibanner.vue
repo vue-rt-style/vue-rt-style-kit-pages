@@ -16,9 +16,9 @@
         <template slot="html"><rt-button color="orange">Подробнее</rt-button></template>
         <template slot="image">
 
-          <rt-img src="/static/example-images/minibanner/minib.png"
-                  td-src="/static/example-images/minibanner/td-minib.png"
-                  md-src="/static/example-images/minibanner/md-minib.png"></rt-img>
+          <rt-img src="https://rt-static.rt.ru/sites/default/files/img/minibanner/minib.png"
+                  td-src="https://rt-static.rt.ru/sites/default/files/img/minibanner/td-minib.png"
+                  md-src="https://rt-static.rt.ru/sites/default/files/img/minibanner/md-minib.png"></rt-img>
         </template>
 
       </rt-minibanner>
@@ -30,9 +30,9 @@
         <template slot="html"><rt-button color="orange">Подробнее</rt-button></template>
         <template slot="image">
 
-          <rt-img src="/static/example-images/minibanner/minib2.png"
-                  td-src="/static/example-images/minibanner/td-minib2-1.png"
-                  md-src="/static/example-images/minibanner/md-minib2.png"></rt-img>
+          <rt-img src="https://rt-static.rt.ru/sites/default/files/img/minibanner/minib2.png"
+                  td-src="https://rt-static.rt.ru/sites/default/files/img/minibanner/td-minib2-1.png"
+                  md-src="https://rt-static.rt.ru/sites/default/files/img/minibanner/md-minib2.png"></rt-img>
         </template>
 
       </rt-minibanner>
@@ -44,9 +44,9 @@
         <template slot="html"><rt-button color="orange">Подробнее</rt-button></template>
         <template slot="image">
 
-          <rt-img src="/static/example-images/minibanner/minib2.png"
-                  td-src="/static/example-images/minibanner/td-minib2-2.png"
-                  md-src="/static/example-images/minibanner/md-minib2.png"></rt-img>
+          <rt-img src="https://rt-static.rt.ru/sites/default/files/img/minibanner/minib2.png"
+                  td-src="https://rt-static.rt.ru/sites/default/files/img/minibanner/td-minib2-2.png"
+                  md-src="https://rt-static.rt.ru/sites/default/files/img/minibanner/md-minib2.png"></rt-img>
         </template>
 
       </rt-minibanner>
