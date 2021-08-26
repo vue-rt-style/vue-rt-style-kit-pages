@@ -171,19 +171,20 @@
 </template>
 
 <script>
-
-import AppTariffCarsIcons from "./TariffCardIcons.vue";
-import AppTariffCarsText from "./TariffCardText.vue";
+// vue-rt-style-kit-molecules/src/components/
+import documentation from "@vue-rt-style-kit-molecules-local/components/Minibanner/docs/index.json";
 
 const componentsList = {};
 export default {
-  name: "AppJumbotron",
+  name: "AppMinibanner",
   components: componentsList,
   data: () => ({
     documentation: {},
     imgs: []
   }),
-
+  mounted() {
+    this.documentation = documentation
+  },
 
   methods: {
 
