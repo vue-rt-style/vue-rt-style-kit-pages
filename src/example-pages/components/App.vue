@@ -32,8 +32,8 @@
         },
         mounted() {
             this.getOptions();
-            console.info('***&***')
-            console.info('***&***')
+            // console.info('***&***')
+            // console.info('***&***')
         },
         computed: {
             appClasses() {
