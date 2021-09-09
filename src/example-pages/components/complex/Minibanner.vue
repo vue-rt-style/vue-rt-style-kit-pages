@@ -35,7 +35,6 @@
           <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7281 0L0 10.5615L9.07759 19.4982L0 28.4385L10.7281 39L30.5374 19.4982L10.7281 0Z" fill="#FF4F12"/>
         </svg>
         </template>
-        <template slot="label">Аналитика речи</template>
         <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
         <template slot="html"><a href="#" class="rt-link rt-link--orange" color="orange">Подробнее</a></template>
         <template slot="image">
