@@ -67,7 +67,7 @@ const index = [
   { path: "/cards", name: "app-cards", component: () => import("../components/complex/Cards.vue") },
   { path: "/product-cards", name: "app-product-card", component: () => import("../components/complex/ProductCard.vue") },
   { path: "/tariff-cards", name: "tariff-cards", component: () => import("../components/complex/TariffCard--demo.vue") },
-  { path: "/cards-with-forms", name: "app-cards", component: () => import("../components/complex/CardsWithForms.vue") },
+  
   { path: "/banners", name: "app-banners", component: () => import("../components/complex/Banners.vue") },
   { path: "/ad-banner", name: "app-add-banner", component: () => import("../components/complex/AdBanners.vue") },
   { path: "/preview-banner", name: "app-preview-banner", component: () => import("../components/complex/PreviewBanners.vue") },
