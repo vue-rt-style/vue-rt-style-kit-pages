@@ -412,6 +412,9 @@ __webpack_require__.r(__webpack_exports__);
       "attrs": {
         "name": "tabs-slider-1",
         "shadow-color": this.shadowColor
+      },
+      "on": {
+        "click-stop-play": false
       }
     }), h("div", {
       "class": "sp-b-5"

@@ -269,7 +269,7 @@ export default {
           <div class="rt-container">
             <rt-col>{selectRender()}</rt-col>
           </div>
-          <rt-tabs-slider name="tabs-slider-1" shadow-color={this.shadowColor}>
+          <rt-tabs-slider name="tabs-slider-1" on-click-stop-play={false} shadow-color={this.shadowColor}>
           </rt-tabs-slider>
 
           <div class="sp-b-5"></div>
