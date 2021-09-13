@@ -72,11 +72,13 @@ __webpack_require__.r(__webpack_exports__);
       }
     }, [h("template", {
       "slot": "label"
-    }, ["!!", h("rt-system-icons", {
+    }, [h("div", {
+      "class": "d-flex flex-v-center"
+    }, [h("rt-system-icons", {
       "attrs": {
         "name": "android fill"
       }
-    }), "!! \u0417\u0430\u0433\u043E\u043B\u043E\u0432\u043E\u043A!! 1"]), h("template", {
+    }), "!! \u0417\u0430\u0433\u043E\u043B\u043E\u0432\u043E\u043A!! 1"])]), h("template", {
       "slot": "content"
     }, [h("p", {
       "class": "rt-font-h2"

@@ -11,7 +11,7 @@
     </div>
     <div class="color-block--black sp-v-3">
 
-      <rt-minibanner>
+      <rt-minibanner :tablet-in-line="true">
         <template slot="label">Аналитика речи</template>
         <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
         <template slot="html">
@@ -41,7 +41,7 @@
 
 
     <div class="color-block--main-color01 sp-v-3">
-      <rt-minibanner background="dark-slate" shadow-color="dark-slate" color="white">
+      <rt-minibanner background="dark-slate" shadow-color="dark-slate" color="white" :tablet-in-line="true">
 
         <template slot="icon">
           <div>
