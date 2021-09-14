@@ -138,14 +138,14 @@ import {
   Privilege,
   Minibanner
 
-} from '@vue-rt-style-kit-molecules-local'
+} from '@vue-rt-style-kit-molecules-local/components'
 
 import {
   Logo,
   LogoCoBranding,
   Icon,
   ValidationIcon
-} from '@vue-rt-style-kit-icons-local'
+} from '@vue-rt-style-kit-icons-local/components'
 
 import AppMenu from "./components/AppMenu.vue";
 //
