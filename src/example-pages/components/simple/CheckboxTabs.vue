@@ -11,7 +11,7 @@
 
           <div class="rt-col-12 rt-space-bottom2">
             <pre-code
-              text='<rt-checkbox-tabs>
+              text='<rt-checkbox-tabs :is-active="true">
               <template slot="label">
                   <span>Я являюсь клиентом данной организации</span>
               </template>

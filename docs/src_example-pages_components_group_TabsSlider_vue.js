@@ -412,6 +412,7 @@ __webpack_require__.r(__webpack_exports__);
       "class": "rt-container"
     }, [h("rt-col", [selectRender()])]), h("rt-tabs-slider", {
       "attrs": {
+        "autoplay": false,
         "name": "tabs-slider-1",
         "shadow-color": this.shadowColor
       },
