@@ -54,7 +54,6 @@ import {
   CardImageList,
   Carousel,
   CarouselSlide,
-  FullscreenImage,
   RowList,
   OptionsList,
   OptionsListInfoItem,
@@ -205,7 +204,6 @@ addToComponentList(CardImage)
 addToComponentList(CardImageList)
 addToComponentList(ShowOn)
 addToComponentList(CardSkeleton)
-addToComponentList(FullscreenImage)
 addToComponentList(RowList)
 addToComponentList(RowListItem)
 addToComponentList(Table)

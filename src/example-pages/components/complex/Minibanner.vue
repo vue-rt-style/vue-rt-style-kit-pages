@@ -11,7 +11,7 @@
     </div>
     <div class="color-block--black sp-v-3">
 
-      <rt-minibanner :tablet-in-line="true">
+      <pre-code text='<rt-minibanner :tablet-in-line="true">
         <template slot="label">Аналитика речи</template>
         <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
         <template slot="html">
@@ -21,11 +21,10 @@
 
           <rt-img src="https://rt-static.rt.ru/sites/default/files/img/minibanner/2.png"></rt-img>
         </template>
-
-      </rt-minibanner>
+      </rt-minibanner>'></pre-code>
     </div>
     <div class="sp-v-1">
-      <rt-minibanner :reverse="true">
+      <pre-code text='<rt-minibanner :reverse="true">
         <template slot="label">Аналитика речи</template>
         <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
         <template slot="html">
@@ -36,12 +35,12 @@
           <rt-img src="https://rt-static.rt.ru/sites/default/files/img/minibanner/1.png"></rt-img>
         </template>
 
-      </rt-minibanner>
+      </rt-minibanner>'></pre-code>
     </div>
 
 
     <div class="color-block--main-color01 sp-v-3">
-      <rt-minibanner background="dark-slate" shadow-color="dark-slate" color="white" :tablet-in-line="true">
+      <pre-code text='<rt-minibanner background="dark-slate" shadow-color="dark-slate" color="white" :tablet-in-line="true">
 
         <template slot="icon">
           <div>
@@ -77,10 +76,10 @@
                   md-src="https://rt-static.rt.ru/sites/default/files/img/minibanner/md-minib2.png"></rt-img>
         </template>
 
-      </rt-minibanner>
+      </rt-minibanner>'></pre-code>
     </div>
     <div class="color-block--main-color01 sp-v-3">
-      <rt-minibanner :reverse="true" background="orange" shadow-color="orange" color="white">
+      <pre-code text='<rt-minibanner :reverse="true" background="orange" shadow-color="orange" color="white">
         <template slot="label">Аналитика речи</template>
         <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
         <template slot="html">
@@ -96,10 +95,10 @@
         </template>
 
 
-      </rt-minibanner>
+      </rt-minibanner>'></pre-code>
     </div>
     <div class="color-block--main-color01 sp-v-3">
-      <rt-minibanner background="purple" shadow-color="purple" color="white">
+      <pre-code text='<rt-minibanner background="purple" shadow-color="purple" color="white">
         <template slot="label">Аналитика речи</template>
         <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
         <template slot="image">
@@ -107,10 +106,10 @@
         </template>
 
 
-      </rt-minibanner>
+      </rt-minibanner>'></pre-code>
     </div>
     <div class="color-block--main-color01 sp-v-3">
-      <rt-minibanner background="dark-slate" :reverse="true" shadow-color="dark-slate" color="white">
+      <pre-code text='<rt-minibanner background="dark-slate" :reverse="true" shadow-color="dark-slate" color="white">
         <template slot="icon">
           <p class="color-white05 rt-font-label-uppercase">ВИДЕОСЕРВИС WINK</p>
         </template>
@@ -141,11 +140,11 @@
         </template>
 
 
-      </rt-minibanner>
+      </rt-minibanner>'></pre-code>
     </div>
 
 
-    <rt-minibanner background="orange" shadow-color="orange" color="white" :tablet-in-line="true" :reverse="true">
+    <pre-code text='<rt-minibanner background="orange" shadow-color="orange" color="white" :tablet-in-line="true" :reverse="true">
       <template slot="icon">
         <svg class="d-block" width="91" height="29" viewBox="0 0 91 29" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
@@ -168,11 +167,11 @@
       <template slot="label">Аналитика речи</template>
       <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
       <template slot="image">
-        <rt-img src='https://picsum.photos/5000/2000?getForId=333'
-                alt=''></rt-img>
+        <rt-img src="https://picsum.photos/5000/2000?getForId=333"
+                alt=""></rt-img>
       </template>
-    </rt-minibanner>
-    <rt-minibanner background="purple" shadow-color="purple" color="white" :tablet-in-line="true">
+    </rt-minibanner>'></pre-code>
+    <pre-code text='<rt-minibanner background="purple" shadow-color="purple" color="white" :tablet-in-line="true">
       <template slot="icon">
         <svg class="d-block" width="91" height="29" viewBox="0 0 91 29" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
@@ -195,11 +194,11 @@
       <template slot="label">Аналитика речи</template>
       <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
       <template slot="image">
-        <rt-img src='https://picsum.photos/5000/2000?getForId=133'
-                alt=''></rt-img>
+        <rt-img src="https://picsum.photos/5000/2000?getForId=133"
+                alt=""></rt-img>
       </template>
-    </rt-minibanner>
-    <rt-minibanner :fix-image="true" background="gray" :has-shadow="false">
+    </rt-minibanner>'></pre-code>
+    <pre-code text='<rt-minibanner :fix-image="true" background="gray" :has-shadow="false">
       <template slot="html">
         <rt-button class="rt-button-md--is-block" color="orange">Подробнее</rt-button>
       </template>
@@ -208,7 +207,7 @@
       <template slot="image">
         <rt-img src="https://rt-static.rt.ru/sites/default/files/img/minibanner/1.png"></rt-img>
       </template>
-    </rt-minibanner>
+    </rt-minibanner>'></pre-code>
 
 
     <div class="rt-container rt-space-top25">

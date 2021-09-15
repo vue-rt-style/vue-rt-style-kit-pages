@@ -11,7 +11,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _vue_rt_style_kit_molecules_local_components_FullscreenImage_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/FullscreenImage/docs/index.json */ "./src/molecules/components/FullscreenImage/docs/index.json");
+Object(function webpackMissingModule() { var e = new Error("Cannot find module '@vue-rt-style-kit-molecules-local/components/FullscreenImage/docs/index.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 /* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
 //
 //
@@ -131,7 +131,7 @@ __webpack_require__.r(__webpack_exports__);
     };
   },
   mounted: function mounted() {
-    this.documentation = _vue_rt_style_kit_molecules_local_components_FullscreenImage_docs_index_json__WEBPACK_IMPORTED_MODULE_0__;
+    this.documentation = Object(function webpackMissingModule() { var e = new Error("Cannot find module '@vue-rt-style-kit-molecules-local/components/FullscreenImage/docs/index.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
   },
   created: function created() {},
   methods: {}
@@ -220,16 +220,6 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"app-content rt-col-12 rt-col-md-3"},[_c('div',{staticClass:"app-title"},[_c('h1',{staticClass:"rt-font-hero"},[_vm._v("\n          FullscreenImage\n        ")])]),_vm._v(" "),_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"is-b2c"},[_c('p',{staticClass:"rt-space-top"},[_vm._v("\n            Предел функции небезынтересно поддерживает равновероятный полином.\n            Наибольший Общий Делитель (НОД) основан на тщательном анализе.\n            Очевидно проверяется, что нормаль к поверхности накладывает\n            анормальный ротор векторного поля.\n          ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top"},[_vm._v("\n            Разрыв функции, в первом приближении, основан на тщательном анализе.\n            Прямоугольная матрица, исключая очевидный случай, поддерживает\n            действительный полином, явно демонстрируя всю чушь вышесказанного.\n            Дисперсия естественно упорядочивает скачок функции, явно\n            демонстрируя всю чушь вышесказанного. Функция многих переменных,\n            очевидно, последовательно масштабирует косвенный многочлен.\n          ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top"},[_vm._v("\n            Первообразная функция определяет степенной ряд, что известно даже\n            школьникам. Собственное подмножество непредсказуемо. Поэтому целое\n            число расточительно проецирует ротор векторного поля. График функции\n            многих переменных непосредственно стабилизирует возрастающий\n            полином, явно демонстрируя всю чушь вышесказанного. Связное\n            множество традиционно поддерживает разрыв функц\n          ")])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"is-b2c"},[_c('div',{staticClass:"app-body"},[_c('div',{staticClass:"rt-container"},[_c('div',{staticClass:"rt-col-12 rt-col-md-3"},[_c('p',{staticClass:"rt-space-top"},[_vm._v("\n            Предел функции небезынтересно поддерживает равновероятный полином.\n            Наибольший Общий Делитель (НОД) основан на тщательном анализе.\n            Очевидно проверяется, что нормаль к поверхности накладывает\n            анормальный ротор векторного поля.\n          ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top"},[_vm._v("\n            Разрыв функции, в первом приближении, основан на тщательном анализе.\n            Прямоугольная матрица, исключая очевидный случай, поддерживает\n            действительный полином, явно демонстрируя всю чушь вышесказанного.\n            Дисперсия естественно упорядочивает скачок функции, явно\n            демонстрируя всю чушь вышесказанного. Функция многих переменных,\n            очевидно, последовательно масштабирует косвенный многочлен.\n          ")]),_vm._v(" "),_c('p',{staticClass:"rt-space-top"},[_vm._v("\n            Первообразная функция определяет степенной ряд, что известно даже\n            школьникам. Собственное подмножество непредсказуемо. Поэтому целое\n            число расточительно проецирует ротор векторного поля. График функции\n            многих переменных непосредственно стабилизирует возрастающий\n            полином, явно демонстрируя всю чушь вышесказанного. Связное\n            множество традиционно поддерживает разрыв функц\n          ")])])])])])}]
 
 
-
-/***/ }),
-
-/***/ "./src/molecules/components/FullscreenImage/docs/index.json":
-/*!******************************************************************!*\
-  !*** ./src/molecules/components/FullscreenImage/docs/index.json ***!
-  \******************************************************************/
-/***/ ((module) => {
-
-module.exports = JSON.parse('{"items":[{"name":"rt-fullscreen-image","property":"background-image","type":"String","description":"URL-адрес фонового изображения","value":""},{"name":"rt-fullscreen-image","property":"background-position","type":"String","description":"Задаёт позиционирование фонового изображения, принимает любое значение, применимое к `background-position`","value":""}]}');
 
 /***/ })
 

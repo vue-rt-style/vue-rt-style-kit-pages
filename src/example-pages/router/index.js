@@ -40,7 +40,6 @@ const index = [
   { path: "/inline-dropdown", name: "app-inline-dropdown", component: () => import("../components/simple/InlineDropdown.vue") },
   { path: "/price", name: "app-price", component: () => import("../components/simple/Price.vue") },
   { path: "/checkbox-tabs", name: "app-checkbox-tabs", component: () => import("../components/simple/CheckboxTabs.vue") },
-  { path: "/fullscreen", name: "app-fullscreen", component: () => import("../components/simple/FullscreenImage.vue") },
   { path: "/download-content", name: "app-download-content", component: () => import("../components/simple/DownloadContent.vue") },
   { path: "/use-case", name: "useCase", component: () => import("../components/simple/UseCase.vue") },
   { path: "/slide-content", name: "app-slide-content", component: () => import("../components/simple/SlideContent.vue") },
