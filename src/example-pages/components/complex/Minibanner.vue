@@ -15,7 +15,7 @@
         <template slot="label">Аналитика речи</template>
         <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
         <template slot="html">
-          <rt-button color="orange">Подробнее</rt-button>
+          <rt-button class="rt-button-md--is-block" color="orange">Подробнее</rt-button>
         </template>
         <template slot="image">
 
@@ -29,7 +29,7 @@
         <template slot="label">Аналитика речи</template>
         <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
         <template slot="html">
-          <rt-button color="orange">Подробнее</rt-button>
+          <rt-button class="rt-button-md--is-block" color="orange">Подробнее</rt-button>
         </template>
         <template slot="image">
 
@@ -45,7 +45,7 @@
 
         <template slot="icon">
           <div>
-            <svg width="126" height="39" viewBox="0 0 126 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="d-block" width="126" height="39" viewBox="0 0 126 39" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M38.126 6.20898H43.4284L47.6629 22.8104C47.6629 22.8104 48.1222 24.7256 48.3126 25.6667C48.503 24.7293 48.9623 22.7736 48.9623 22.7736L53.3125 6.20898H58.5029L62.8532 22.7736C62.8532 22.7736 63.3125 24.7256 63.5029 25.6667C63.6933 24.7293 64.1526 22.8104 64.1526 22.8104L68.3871 6.20898H73.6895L66.3259 32.5006H60.9077L55.9115 13.4215L50.9153 32.5006H45.4971L38.126 6.20898Z"
                     fill="white"/>
@@ -84,9 +84,11 @@
         <template slot="label">Аналитика речи</template>
         <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
         <template slot="html">
-          <div class="d-flex">
-            <rt-button color="full-white">Подробнее</rt-button>
-            <rt-button color="white">Подробнее</rt-button>
+          <div class="d-flex md-d-block">
+            <rt-button class="rt-button-md--is-block" color="full-white">Подробнее</rt-button>
+            <div class="md-sp-t-1 sp-l-1 md-sp-l-none">
+              <rt-button class="rt-button-md--is-block" color="white">Подробнее</rt-button>
+            </div>
           </div>
         </template>
         <template slot="image">
@@ -109,16 +111,29 @@
     </div>
     <div class="color-block--main-color01 sp-v-3">
       <rt-minibanner background="dark-slate" :reverse="true" shadow-color="dark-slate" color="white">
+        <template slot="icon">
+          <p class="color-white05 rt-font-label-uppercase">ВИДЕОСЕРВИС WINK</p>
+        </template>
         <template slot="label">Аналитика речи</template>
         <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
         <template slot="html">
           <div class="d-flex flex-v-start">
+            <show-on>
+              <template slot="desctop">
             <img width="105" src="https://rt-static.rt.ru/sites/default/files/img/minibanner/QR.png" alt=""/>
             <div class="sp-l-0-4 font-t-m color-white05">
               Наведите камеру <br>
               на QR-код, чтобы <br>
               скачать приложение
             </div>
+              </template>
+              <template slot="ios">
+                <p>ios content</p>
+              </template>
+              <template slot="android">
+                <p>android content</p>
+              </template>
+            </show-on>
           </div>
         </template>
         <template slot="image">
@@ -132,7 +147,7 @@
 
     <rt-minibanner background="orange" shadow-color="orange" color="white" :tablet-in-line="true" :reverse="true">
       <template slot="icon">
-        <svg width="91" height="29" viewBox="0 0 91 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="d-block" width="91" height="29" viewBox="0 0 91 29" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M27.4885 4.53516H31.3116L34.3647 16.6615C34.3647 16.6615 34.6958 18.0604 34.8331 18.7478C34.9704 18.0631 35.3016 16.6346 35.3016 16.6346L38.4381 4.53516H42.1804L45.317 16.6346C45.317 16.6346 45.6481 18.0604 45.7854 18.7478C45.9228 18.0631 46.2539 16.6615 46.2539 16.6615L49.307 4.53516H53.1301L47.8208 23.7396H43.9143L40.312 9.80349L36.7097 23.7396H32.8031L27.4885 4.53516Z"
                 fill="#101828"/>
@@ -159,7 +174,7 @@
     </rt-minibanner>
     <rt-minibanner background="purple" shadow-color="purple" color="white" :tablet-in-line="true">
       <template slot="icon">
-        <svg width="91" height="29" viewBox="0 0 91 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="d-block" width="91" height="29" viewBox="0 0 91 29" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M27.4885 4.53516H31.3116L34.3647 16.6615C34.3647 16.6615 34.6958 18.0604 34.8331 18.7478C34.9704 18.0631 35.3016 16.6346 35.3016 16.6346L38.4381 4.53516H42.1804L45.317 16.6346C45.317 16.6346 45.6481 18.0604 45.7854 18.7478C45.9228 18.0631 46.2539 16.6615 46.2539 16.6615L49.307 4.53516H53.1301L47.8208 23.7396H43.9143L40.312 9.80349L36.7097 23.7396H32.8031L27.4885 4.53516Z"
                 fill="#101828"/>
@@ -186,7 +201,7 @@
     </rt-minibanner>
     <rt-minibanner :fix-image="true" background="gray" :has-shadow="false">
       <template slot="html">
-        <rt-button color="orange">Подробнее</rt-button>
+        <rt-button class="rt-button-md--is-block" color="orange">Подробнее</rt-button>
       </template>
       <template slot="label">Аналитика речи</template>
       <template slot="content">Первые 30 дней бесплатно при подключении до 13 августа</template>
