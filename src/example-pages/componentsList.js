@@ -288,7 +288,6 @@ addToComponentList(CardTileLayout);
 // addToComponentList(VideoBanner);
 addToComponentList(CarouselV3);
 addToComponentList(CarouselV3Item);
-
 // componentsList[PreComponent.name] = PreComponent;
 // componentsList[PreComponentEditor.name] = PreComponentEditor;
 // componentsList[DocumentationBuilder.name] = DocumentationBuilder;

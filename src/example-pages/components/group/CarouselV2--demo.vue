@@ -427,6 +427,7 @@ const skeletonLoader = {
   count: 4,
   rows: 2
 }
+import componentsList from "../../componentsList";
 
 export default {
   data() {
@@ -454,6 +455,7 @@ export default {
       waitTime: this.getRandomNumberFromRange(3,15)*1000,
     }
   },
+  components: componentsList,
   computed: {
     configLoaderCount: {
       get() {

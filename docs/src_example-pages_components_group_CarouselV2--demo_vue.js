@@ -12,6 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _vue_rt_style_kit_molecules_local_components_CarouselV3_docs_index_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue-rt-style-kit-molecules-local/components/CarouselV3/docs/index.json */ "./src/molecules/components/CarouselV3/docs/index.json");
+/* harmony import */ var _componentsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../componentsList */ "./src/example-pages/componentsList.js");
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 
 function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -451,6 +452,7 @@ var skeletonLoader = {
   count: 4,
   rows: 2
 };
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -477,6 +479,7 @@ var skeletonLoader = {
       waitTime: this.getRandomNumberFromRange(3, 15) * 1000
     };
   },
+  components: _componentsList__WEBPACK_IMPORTED_MODULE_1__.default,
   computed: {
     configLoaderCount: {
       get: function get() {
@@ -614,7 +617,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _CarouselV2_demo_vue_vue_type_template_id_35bc20c9___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CarouselV2--demo.vue?vue&type=template&id=35bc20c9& */ "./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=35bc20c9&");
+/* harmony import */ var _CarouselV2_demo_vue_vue_type_template_id_3ccf10f2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CarouselV2--demo.vue?vue&type=template&id=3ccf10f2& */ "./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=3ccf10f2&");
 /* harmony import */ var _CarouselV2_demo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CarouselV2--demo.vue?vue&type=script&lang=js& */ "./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=script&lang=js&");
 /* harmony import */ var _CarouselV2_demo_vue_vue_type_style_index_0_lang_stylus___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CarouselV2--demo.vue?vue&type=style&index=0&lang=stylus& */ "./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=style&index=0&lang=stylus&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
@@ -628,8 +631,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
   _CarouselV2_demo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
-  _CarouselV2_demo_vue_vue_type_template_id_35bc20c9___WEBPACK_IMPORTED_MODULE_0__.render,
-  _CarouselV2_demo_vue_vue_type_template_id_35bc20c9___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  _CarouselV2_demo_vue_vue_type_template_id_3ccf10f2___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CarouselV2_demo_vue_vue_type_template_id_3ccf10f2___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
   null,
@@ -668,25 +671,25 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=35bc20c9&":
+/***/ "./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=3ccf10f2&":
 /*!************************************************************************************************!*\
-  !*** ./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=35bc20c9& ***!
+  !*** ./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=3ccf10f2& ***!
   \************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_template_id_35bc20c9___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_template_id_35bc20c9___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_template_id_3ccf10f2___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_template_id_3ccf10f2___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_template_id_35bc20c9___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CarouselV2--demo.vue?vue&type=template&id=35bc20c9& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=35bc20c9&");
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CarouselV2_demo_vue_vue_type_template_id_3ccf10f2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CarouselV2--demo.vue?vue&type=template&id=3ccf10f2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=3ccf10f2&");
 
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=35bc20c9&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=3ccf10f2&":
 /*!***************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=35bc20c9& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/group/CarouselV2--demo.vue?vue&type=template&id=3ccf10f2& ***!
   \***************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
