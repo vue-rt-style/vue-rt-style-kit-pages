@@ -135,7 +135,8 @@ import {
   CarouselV3Item,
   ResizeContentHeightDirective,
   Privilege,
-  Minibanner
+  Minibanner,
+  TextImageBlock
 
 } from '@vue-rt-style-kit-molecules-local/components'
 
@@ -159,6 +160,7 @@ addToComponentList(Image)
 addToComponentList(GridColumn)
 addToComponentList(Button)
 addToComponentList(Calendar)
+addToComponentList(TextImageBlock)
 addToComponentList(Checkbox)
 addToComponentList(CheckboxContainer)
 addToComponentList(Input)
