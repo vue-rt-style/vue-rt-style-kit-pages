@@ -220,7 +220,7 @@
 
 <script>
 // vue-rt-style-kit-molecules/src/components/
-import documentation from "@vue-rt-style-kit-molecules-local/components/Minibanner/docs/index.json";
+// import documentation from "@vue-rt-style-kit-molecules-local/components/Minibanner/docs/index.json";
 
 const componentsList = {};
 export default {
@@ -231,7 +231,6 @@ export default {
     imgs: []
   }),
   mounted() {
-    this.documentation = documentation
   },
 
   methods: {}
