@@ -1,7 +1,7 @@
 cd src/
-ln -s ../../vue-rt-style-kit-atoms atoms
-ln -s ../../vue-rt-style-kit-molecules molecules
-ln -s ../../vue-rt-style-kit-icons icons
+ln -s ../../vue-rt-style-kit-atoms/src atoms
+ln -s ../../vue-rt-style-kit-molecules/src molecules
+ln -s ../../vue-rt-style-kit-icons/src icons
 mkdir projectsJsons
 cd projectsJsons
 ln -s ../../../vue-rt-style-kit-atoms/package.json atoms.json
