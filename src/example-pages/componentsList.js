@@ -51,7 +51,6 @@ import {
   TariffCard,
   CardBuy,
   CardImage,
-  CardImageList,
   Carousel,
   CarouselSlide,
   RowList,
@@ -83,7 +82,7 @@ import {
   SlideContentDottedHeader,
   Popup,
   Popover,
-  PopupTriggerDirective,
+  
   LinksBlock,
   Pattern,
   Swiper,
@@ -95,15 +94,10 @@ import {
   UseCase,
   BenefitBlock,
   BenefitItem,
-  PortraitTile,
-  Timeline,
   ScrollBar,
   VerticalScrollBar,
-  TimelineItem,
-  PortraitTileItem,
   ReplacementLink,
   CardCarousel,
-  CardLayout,
   GameArrow,
   Banner,
   BannerItem,
@@ -122,22 +116,22 @@ import {
   Jumbotron,
   CarouselV2,
   CarouselSlideV2,
-  AdBanner,
   PreviewBanner,
   ShowOn,
-  CardHelp,
-  CardBanner,
   CardTileLayout,
   CommentSlider,
   CommentSliderItem,
   // VideoBanner,
   CarouselV3,
   CarouselV3Item,
-  ResizeContentHeightDirective,
   Privilege,
   Minibanner
 
 } from '@vue-rt-style-kit-molecules-local/components'
+import {
+  PopupTriggerDirective,
+      ResizeContentHeightDirective,
+} from '@vue-rt-style-kit-molecules-local'
 
 import {
   Logo,
@@ -201,7 +195,6 @@ addToComponentList(CardB2o)
 addToComponentList(CardBuy)
 addToComponentList(ResizeContentHeightDirective)
 addToComponentList(CardImage)
-addToComponentList(CardImageList)
 addToComponentList(ShowOn)
 addToComponentList(CardSkeleton)
 addToComponentList(RowList)
@@ -249,15 +242,10 @@ addToComponentList(UseCase);
 addToComponentList(BenefitBlock);
 addToComponentList(BenefitItem);
 addToComponentList(CircleNumber);
-addToComponentList(PortraitTile);
-addToComponentList(PortraitTileItem);
-addToComponentList(Timeline);
-addToComponentList(TimelineItem);
 addToComponentList(ScrollBar);
 addToComponentList(VerticalScrollBar);
 addToComponentList(ReplacementLink);
 addToComponentList(CardCarousel);
-addToComponentList(CardLayout);
 addToComponentList(Ussd);
 addToComponentList(GalleryCarousel);
 addToComponentList(GalleryCarouselItem);
@@ -271,7 +259,6 @@ addToComponentList(CarouselSlideV2);
 // addToComponentList(VideoPlayer);
 
 addToComponentList(Slider);
-addToComponentList(AdBanner);
 addToComponentList(PreviewBanner);
 addToComponentList(SliderItem);
 
@@ -282,8 +269,6 @@ addToComponentList(Jumbotron);
 
 
 
-addToComponentList(CardHelp);
-addToComponentList(CardBanner);
 addToComponentList(CardTileLayout);
 // addToComponentList(VideoBanner);
 addToComponentList(CarouselV3);

@@ -14,6 +14,7 @@ const local_dirname = path.join(__dirname, '..')
 import pathSettings from './pathSettings.js'
 import customPlugins from "../src/example-pages/css/plugins.js";
 
+
 const baseDir = process.env.NODE_ENV_PATH || 'vue-rt-style-kit-pages'
 const contour = process.env.NODE_CONTOUR || 'production'
 
@@ -125,6 +126,9 @@ const config = {
                 use: [nib(), customPlugins()],
               }
             }
+            //             json("../variables.json")
+// json("../color.json")
+// json("../styleOptions.json")
           }
         ],
       },

@@ -3,6 +3,13 @@ import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import webpack from'webpack';
 import filewatcherPlugin from "filewatcher-webpack-plugin";
+// import variables from '../src/atoms/variables.json'
+import fs from 'fs'
+// console.info('fs',fs.readFileSync('../src/atoms/variables.json'))
+// const variables = JSON.parse(fs.readFileSync('./src/atoms/variables.json'))
+// const colors = JSON.parse(fs.readFileSync('./src/atoms/color.json'))
+
+// console.info('variables',variables);
 import nib from 'nib'
 import customPlugins from '../src/example-pages/css/plugins.js'
 const baseDir = process.env.NODE_ENV_PATH || ''
@@ -10,7 +17,6 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename)
 const local_dirname = path.join(__dirname, '..')
-
 function include () {
   return [
     path.join(local_dirname, `src`),
@@ -107,9 +113,10 @@ const config = {
             loader: `stylus-loader`,
             options: {
               stylusOptions: {
-                imports: [path.resolve(__dirname, '../', 'node_modules/nib/lib/nib/index.styl')],
-                use: [nib(), customPlugins()],
-              }
+                imports: [path.resolve(__dirname, '../', 'node_modules/nib/lib/nib/index.styl'),path.resolve(__dirname, '../', 'src/atoms/css/config.styl'),],
+                use: [nib(), customPlugins()]
+              },
+              
             }
           }
         ],

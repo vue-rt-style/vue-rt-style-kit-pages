@@ -179,32 +179,7 @@
 <!--        </rt-card-banner>-->
 <!--      </rt-card-tile-layout>-->
 <!--      <div class="sp-t-2"/>-->
-      <rt-resize-content-height :query-selectors-names="['.rt-card-help']">
-        <div class="rt-container">
-          <div class="rt-col">
-            <div class="row">
-              <div class="rt-col-6 rt-col-td-6 sp-b-1-3 md-sp-b-1">
-                <rt-card-help :dual-width="true" :is-white-font="true" src="https://moscow.rt.ru/sites/default/files/b2b/help/credit-card.png">
-                  <template slot="title">Оплата услуг</template>
-                  <template slot="description">Способы оплаты, счета, перенос <br class="md-d-none">платежа и другие вопросы</template>
-                </rt-card-help>
-              </div>
-              <div class="rt-col-3 rt-col-td-3 rt-col-md-3 sp-b-1-3 md-sp-b-1">
-                <rt-card-help :is-white-font="true" src="https://moscow.rt.ru/sites/default/files/b2b/help/cellphone.png">
-                  <template slot="title">Личный кабинет</template>
-                  <template slot="description">Авторизация, подключенные услуги, история платежей</template>
-                </rt-card-help>
-              </div>
-              <div class="rt-col-3 rt-col-td-3 rt-col-md-3 sp-b-1-3 md-sp-b-1">
-                <rt-card-help :is-white-font="true" src="https://moscow.rt.ru/sites/default/files/b2b/help/folder.png">
-                  <template slot="title">Документы</template>
-                  <template slot="description">Архив документов и оферт с условиями акций, соглашения</template>
-                </rt-card-help>
-              </div>
-            </div>
-          </div>
-        </div>
-      </rt-resize-content-height>
+
       <rt-carousel-v2 carousel-name="1" :scrollable-on-desktop="true" :content-to-resize="['.rt-card__body']">
         <rt-carousel-slide-v2 parent-carousel-name="1">
           <rt-card :is-white-color="true" background-color-type="green" :ga="{value:'Новости'}">
