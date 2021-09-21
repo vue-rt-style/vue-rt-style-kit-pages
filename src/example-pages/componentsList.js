@@ -87,8 +87,6 @@ import {
   Pattern,
   Swiper,
   Slide,
-  Opportunity,
-  OpportunityItem,
   UnWrapper,
   RealPopup,
   UseCase,
@@ -104,8 +102,6 @@ import {
   BannerPaginatorItem,
   BannerV2,
   BannerItemV2,
-  GalleryCarousel,
-  GalleryCarouselItem,
   CountdownTimer,
   StickyBottomLine,
   StickyHeaderLine,
@@ -234,8 +230,6 @@ addToComponentList(Pattern);
 addToComponentList(Logo.component);
 addToComponentList(Swiper);
 addToComponentList(Slide);
-addToComponentList(Opportunity);
-addToComponentList(OpportunityItem);
 addToComponentList(UnWrapper);
 addToComponentList(RealPopup);
 addToComponentList(UseCase);
@@ -247,8 +241,6 @@ addToComponentList(VerticalScrollBar);
 addToComponentList(ReplacementLink);
 addToComponentList(CardCarousel);
 addToComponentList(Ussd);
-addToComponentList(GalleryCarousel);
-addToComponentList(GalleryCarouselItem);
 addToComponentList(CheckboxTabs);
 addToComponentList(CountdownTimer);
 addToComponentList(StickyBottomLine);
