@@ -55,8 +55,8 @@
         <template slot='description'>Абонемент «Киноман» Скидка на все фильмы и сериалы </template>
         <template slot='footer'><rt-button color='full-white' >Подробнее</rt-button></template>
         <template slot='image'>
-        <rt-img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange.jpg'
-                x2-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageOrange-x2.jpg'
+        <rt-img src='http://rt-static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2c/obmen_filma_new_1480x840__proj.jpg'
+                x2-src='http://rt-static-cdn.rt.ru/sites/default/files/rti_lazy_files/b2c/obmen_filma_new_1480x840__proj.jpg'
                 ></rt-img>
         </template>
       </rt-banner-item-v2>
@@ -65,10 +65,10 @@
         <template slot='description'>Соберите сами свой пакет фильмов и каналов.</template>
         <template slot='footer'><a href='#'><rt-button  color='orange' >Подробнее</rt-button></a></template>
         <template slot='image'>
-        <rt-img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage.jpg'
-                x2-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-x2.jpg'
-                td-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-tablet.jpg'
-                md-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage-mobile.jpg' alt=''></rt-img>
+        <rt-img src='https://rt-static.rt.ru/sites/default/files/rti_lazy_files/marusya_1480x840__proj.jpg'
+                x2-src='https://rt-static.rt.ru/sites/default/files/rti_lazy_files/marusya_1480x840__proj.jpg'
+                td-src='https://rt-static.rt.ru/sites/default/files/rti_lazy_files/marusya_1480x840__proj.jpg'
+                md-src='https://rt-static.rt.ru/sites/default/files/rti_lazy_files/marusya_1480x840__proj.jpg' alt=''></rt-img>
         </template>
       </rt-banner-item-v2>
       <rt-banner-item-v2  color-type='dark-slate' banner-name='test9393'>

@@ -121,7 +121,8 @@ import {
   CarouselV3,
   CarouselV3Item,
   Privilege,
-  Minibanner
+  Minibanner,
+  ArrowBlock
 
 } from '@vue-rt-style-kit-molecules-local/components'
 import {
@@ -144,6 +145,7 @@ const addToComponentList = (possibleComponent)=>{
     componentsList[possibleComponent.name] = possibleComponent
   }
 }
+addToComponentList(ArrowBlock)
 addToComponentList(GridRow)
 addToComponentList(Image)
 addToComponentList(GridColumn)

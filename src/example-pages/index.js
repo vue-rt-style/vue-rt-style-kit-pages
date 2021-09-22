@@ -7,6 +7,7 @@ import VueRtStyleMolecules from "@vue-rt-style-kit-molecules-local";
 import VueRtDevStyle from "../develover-lib/index";
 import routes from "./router";
 import RootPage from "./components/App.vue";
+
 // import nib from 'nib/lib/nib/index.styl'
 import appStyles from './css/index.styl'
 import Global from "@vue-rt-style-kit-atoms-local/variables.json";
@@ -41,3 +42,7 @@ const App = new Vue({
   name: "App",
   render: h => h(RootPage)
 });
+
+import stylesAtoms from "../atoms/css/vue-rt-style-atoms.styl";
+import stylesMolecules from "../molecules/css/vue-rt-style-kit-molecules.styl";
+import stylesIcons from "../icons/css/vue-rt-style-kit-icons.styl";

@@ -7,9 +7,7 @@ import Project from "../package.json";
 import 'element-closest-polyfill';
 import 'nodelist-foreach-polyfill';
 import 'element-remove';
-import stylesAtoms from "./atoms/css/vue-rt-style-atoms.styl";
-import stylesMolecules from "./molecules/css/vue-rt-style-kit-molecules.styl";
-import stylesIcons from "./icons/css/vue-rt-style-kit-icons.styl";
+
 
 const VueRtStyle = {
     install(Vue, config) {
