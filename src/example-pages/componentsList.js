@@ -14,7 +14,7 @@ import {
     SelectV2,
     SelectV2Option,
     Switch,
-    // SwitchV2,
+    SwitchV2,
     SwitchContainer,
     Textarea,
     TextareaStatic,
@@ -29,7 +29,7 @@ import {
     Hint,
     HintBody,
     Line,
-    CircleNumber
+    CircleNumber,
 } from '@vue-rt-style-kit-atoms-local'
 //
 import {
@@ -76,7 +76,7 @@ import {
   Youtube,
   Sticky,
   ResizeContentHeight,
-
+  MessageBox,
   SlideContent,
   SlideContentDottedContent,
   SlideContentDottedHeader,
@@ -117,7 +117,7 @@ import {
   CardTileLayout,
   CommentSlider,
   CommentSliderItem,
-  // VideoBanner,
+  VideoBanner,
   CarouselV3,
   CarouselV3Item,
   Privilege,
@@ -141,10 +141,13 @@ import AppMenu from "./components/AppMenu.vue";
 //
 const componentsList = {};
 const addToComponentList = (possibleComponent)=>{
+  
   if(possibleComponent?.name){
     componentsList[possibleComponent.name] = possibleComponent
   }
 }
+
+
 addToComponentList(ArrowBlock)
 addToComponentList(GridRow)
 addToComponentList(Image)
@@ -165,7 +168,7 @@ addToComponentList(SelectV2)
 addToComponentList(SelectV2Option)
 addToComponentList(Spinner)
 addToComponentList(Switch)
-// addToComponentList(SwitchV2)
+addToComponentList(SwitchV2)
 addToComponentList(SwitchContainer)
 addToComponentList(Textarea)
 addToComponentList(TextareaStatic)
@@ -180,6 +183,8 @@ addToComponentList(MicrotabsNavigation)
 addToComponentList(MicrotabsContent)
 addToComponentList(Annotation)
 addToComponentList(ColorLineText)
+addToComponentList(OptionsList)
+addToComponentList(OptionsListInfoItem)
 addToComponentList(BannerV2)
 addToComponentList(BannerItemV2)
 addToComponentList(Banner)
@@ -217,7 +222,7 @@ addToComponentList(Youtube)
 addToComponentList(Sticky)
 addToComponentList(ResizeContentHeight)
 addToComponentList(Privilege)
-// addToComponentList(Popover)
+addToComponentList(Popover)
 addToComponentList(Line)
 addToComponentList(Popup)
 addToComponentList(PopupTriggerDirective)
@@ -250,6 +255,7 @@ addToComponentList(StickyHeaderLine);
 addToComponentList(PhoneNumberInput);
 addToComponentList(CarouselV2);
 addToComponentList(CarouselSlideV2);
+addToComponentList(MessageBox);
 // addToComponentList(VideoPlayer);
 
 addToComponentList(Slider);
@@ -264,10 +270,11 @@ addToComponentList(Jumbotron);
 
 
 addToComponentList(CardTileLayout);
-// addToComponentList(VideoBanner);
+addToComponentList(VideoBanner);
 addToComponentList(CarouselV3);
 addToComponentList(CarouselV3Item);
 // componentsList[PreComponent.name] = PreComponent;
 // componentsList[PreComponentEditor.name] = PreComponentEditor;
 // componentsList[DocumentationBuilder.name] = DocumentationBuilder;
+console.info('componentsList',componentsList)
 export default {...componentsList};
