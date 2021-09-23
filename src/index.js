@@ -61,5 +61,4 @@ if (settingsKey) {
 // @Deprecated
 window.RTK_STYLE_VER = version;
 VueRtStyle.version = version;
-
 export default VueRtStyle;
