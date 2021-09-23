@@ -49,7 +49,9 @@ import {
   CardSkeleton,
   ProductCard,
   TariffCard,
+  CardBanner,
   CardBuy,
+  CardHelp,
   CardImage,
   Carousel,
   CarouselSlide,
@@ -195,7 +197,9 @@ addToComponentList(CarouselSlide)
 addToComponentList(Card)
 addToComponentList(CardRounded)
 addToComponentList(CardB2o)
+addToComponentList(CardBanner)
 addToComponentList(CardBuy)
+addToComponentList(CardHelp)
 addToComponentList(ResizeContentHeightDirective)
 addToComponentList(CardImage)
 addToComponentList(ShowOn)
