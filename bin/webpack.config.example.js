@@ -137,37 +137,37 @@ const config = {
                   //
                 }
               },
-              additionalData: (content, loaderContext) => {
-                const {resourcePath, rootContext} = loaderContext;
-                const relativePath = path.relative(rootContext, resourcePath);
-                // console.info('content',content);
-                if (resourcePath.search('.styl') >= 0 ) {
-                  if(!config.step) {
-                    config.step = 1
-                  }
-                  if(config.step == 1){
-                    content = content+'\n@require "../../atoms/css/vue-rt-style-atoms.styl"\n'
-                  }
-                  
-                  // if(config.step == 3){
-                  //   // content = content.replace('support-for-ie = false','support-for-ie = false\n@require "../../atoms/css/vue-rt-style-atoms.styl"\n@require "../../molecules/css/vue-rt-style-kit-molecules.styl\n')
-                  //   // content = content.replace('support-for-ie = false','support-for-ie = false\n@require "../../atoms/css/vue-rt-style-atoms.styl"\n@require "../../molecules/css/vue-rt-style-kit-molecules.styl\n')
-                  //   content+='\n@require "../../atoms/css/vue-rt-style-atoms.styl"\n@require "../../molecules/css/vue-rt-style-kit-molecules.styl"\n'
-                  // }
-                  
-                  // console.info('content',content)
-                  // importsArr.push(path.resolve(__dirname, '../', 'src/atoms/css/vue-rt-style-atoms.styl'))
-                }
-                config.step += 1
-                
-                // if(relativePath.search('vue-rt-style-kit-molecules.styl')>=0){
-                // //   // molecules
-                //   return '@require "../../atoms/vue-rt-style-kit-atoms.styl \n'+content
-                // }
-                // vue-rt-style-kit-molecules.styl
-                
-                return content
-              }
+              // additionalData: (content, loaderContext) => {
+              //   const {resourcePath, rootContext} = loaderContext;
+              //   const relativePath = path.relative(rootContext, resourcePath);
+              //   // console.info('content',content);
+              //   if (resourcePath.search('.styl') >= 0 ) {
+              //     if(!config.step) {
+              //       config.step = 1
+              //     }
+              //     if(config.step == 1){
+              //       content = content+'\n@require "../../atoms/css/vue-rt-style-atoms.styl"\n'
+              //     }
+              //
+              //     // if(config.step == 3){
+              //     //   // content = content.replace('support-for-ie = false','support-for-ie = false\n@require "../../atoms/css/vue-rt-style-atoms.styl"\n@require "../../molecules/css/vue-rt-style-kit-molecules.styl\n')
+              //     //   // content = content.replace('support-for-ie = false','support-for-ie = false\n@require "../../atoms/css/vue-rt-style-atoms.styl"\n@require "../../molecules/css/vue-rt-style-kit-molecules.styl\n')
+              //     //   content+='\n@require "../../atoms/css/vue-rt-style-atoms.styl"\n@require "../../molecules/css/vue-rt-style-kit-molecules.styl"\n'
+              //     // }
+              //
+              //     // console.info('content',content)
+              //     // importsArr.push(path.resolve(__dirname, '../', 'src/atoms/css/vue-rt-style-atoms.styl'))
+              //   }
+              //   config.step += 1
+              //
+              //   // if(relativePath.search('vue-rt-style-kit-molecules.styl')>=0){
+              //   // //   // molecules
+              //   //   return '@require "../../atoms/vue-rt-style-kit-atoms.styl \n'+content
+              //   // }
+              //   // vue-rt-style-kit-molecules.styl
+              //
+              //   return content
+              // }
             }
           }
         ],
