@@ -150,6 +150,7 @@ const addToComponentList = (possibleComponent)=>{
 }
 
 
+addToComponentList(ProductCard)
 addToComponentList(ArrowBlock)
 addToComponentList(GridRow)
 addToComponentList(Image)

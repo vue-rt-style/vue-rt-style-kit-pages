@@ -13,9 +13,9 @@
         <div class="rt-space-bottom is-b2c">
           <pre-code
             text='<rt-product-card
-            background-image="https://techcrunch.com/wp-content/uploads/2017/01/messaging-apps.jpg?w=730&crop=1"
-            tablet-background-image="https://speedupmacbook.com/wp-content/uploads/man-with-macbook-coffee.jpg"
-            mobile-background-image="http://8c58e64aa1a7874c55b4-be3e3aa1b17f89aab5ecca1936c616df.r83.cf3.rackcdn.com/wp-content/uploads/2014/08/MacBook-Pro-HDMI-to-VGA-not-working-e1410348485493.jpg"
+            background-image="https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage.jpg"
+            tablet-background-image="https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage.jpg"
+            mobile-background-image="https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImage.jpg"
             :fixed-image-height="true">
             <slot>
               <div class="rt-product-card__content">
