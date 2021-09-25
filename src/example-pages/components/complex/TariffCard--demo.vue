@@ -117,8 +117,11 @@
 </template>
 
 <script>
+import componentsList from "../../componentsList";
+
 export default {
   name: 'TariffsCards',
+  components: componentsList,
   computed: {
     cardBase(){
       return `

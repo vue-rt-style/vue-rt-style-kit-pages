@@ -48,7 +48,6 @@ import {
   CardB2o,
   CardSkeleton,
   ProductCard,
-  TariffCard,
   CardBanner,
   CardBuy,
   CardHelp,
@@ -84,7 +83,7 @@ import {
   SlideContentDottedHeader,
   Popup,
   Popover,
-  
+  TextImageBlock,
   LinksBlock,
   Pattern,
   Swiper,
@@ -94,11 +93,8 @@ import {
   UseCase,
   BenefitBlock,
   BenefitItem,
-  ScrollBar,
-  VerticalScrollBar,
   ReplacementLink,
   CardCarousel,
-  GameArrow,
   Banner,
   BannerItem,
   BannerPaginatorItem,
@@ -129,7 +125,7 @@ import {
 } from '@vue-rt-style-kit-molecules-local/components'
 import {
   PopupTriggerDirective,
-      ResizeContentHeightDirective,
+  ResizeContentHeightDirective,
 } from '@vue-rt-style-kit-molecules-local'
 
 import {
@@ -149,7 +145,7 @@ const addToComponentList = (possibleComponent)=>{
   }
 }
 
-
+addToComponentList(TextImageBlock)
 addToComponentList(ProductCard)
 addToComponentList(ArrowBlock)
 addToComponentList(GridRow)
@@ -185,6 +181,7 @@ addToComponentList(Microtabs)
 addToComponentList(MicrotabsNavigation)
 addToComponentList(MicrotabsContent)
 addToComponentList(Annotation)
+addToComponentList(AnnotationV2)
 addToComponentList(ColorLineText)
 addToComponentList(OptionsList)
 addToComponentList(OptionsListInfoItem)
@@ -248,8 +245,6 @@ addToComponentList(UseCase);
 addToComponentList(BenefitBlock);
 addToComponentList(BenefitItem);
 addToComponentList(CircleNumber);
-addToComponentList(ScrollBar);
-addToComponentList(VerticalScrollBar);
 addToComponentList(ReplacementLink);
 addToComponentList(CardCarousel);
 addToComponentList(Ussd);
@@ -262,18 +257,13 @@ addToComponentList(CarouselV2);
 addToComponentList(CarouselSlideV2);
 addToComponentList(MessageBox);
 // addToComponentList(VideoPlayer);
-
 addToComponentList(Slider);
 addToComponentList(PreviewBanner);
 addToComponentList(SliderItem);
-
+addToComponentList(LinksBlock);
 addToComponentList(CommentSlider);
 addToComponentList(CommentSliderItem);
-
 addToComponentList(Jumbotron);
-
-
-
 addToComponentList(CardTileLayout);
 addToComponentList(VideoBanner);
 addToComponentList(CarouselV3);
