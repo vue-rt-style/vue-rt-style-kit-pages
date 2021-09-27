@@ -1109,11 +1109,10 @@
             <rt-resize-content-height
                 :query-selectors-names="['.rt-card__bottom-list', '.rt-card__footer', '.rt-card__body']"
                 class="rt-col-12">
-              <rt-fullscreen-image
-                  background-image="https://rt.ru/sites/default/files/img/widget/DSGN-930_PControl_1920%D1%851080.jpg"
-                  background-position="top">
-                <div class="rt-md-space-top2 rt-space-top5">
-                  <div class="row row--mobile-scroll rt-space-top4 rt-font-hypnens-off">
+<!--              <rt-fullscreen-image-->
+<!--                  background-image="https://rt.ru/sites/default/files/img/widget/DSGN-930_PControl_1920%D1%851080.jpg"-->
+<!--                  background-position="top">-->
+                <div class="row row--mobile-scroll rt-space-top4 rt-font-hypnens-off">
                     <div class="rt-col-4 rt-col-md-3 d-md-flex-column is-b2c">
                       <rt-card>
                         <template slot="header">
@@ -1467,8 +1466,7 @@
                       </rt-card>
                     </div>
                   </div>
-                </div>
-              </rt-fullscreen-image>
+<!--              </rt-fullscreen-image>-->
             </rt-resize-content-height>
           </div>
           <div class="row">

@@ -10,25 +10,16 @@
       </div>
     </div>
     <div class="app-body is-b2c">
-
-      <pre-code
-        text='
-      <div class="rt-space-top8 relative"><rt-game-arrow></rt-game-arrow></div>'></pre-code>
+      <pre-code text='<div class="rt-space-top8 relative"><rt-game-arrow></rt-game-arrow></div>'></pre-code>
     </div>
   </div>
-  <!--</div>-->
 </template>
 
 <script>
-  //  import documentation from "../../../lib/components/InlineDropdown/docs/index.json";
   export default {
     name: "AppBenefitBlock",
     components: {},
-    data: () => ({
-//      documentation: {}
-    }),
-    mounted() {
-//      this.documentation = documentation;
-    }
+    data: () => ({}),
+    mounted() {}
   };
 </script>
