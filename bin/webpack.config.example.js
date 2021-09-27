@@ -127,12 +127,10 @@ const config = {
             loader: `stylus-loader`,
             options: {
               stylusOptions: (loaderContext) => {
-                // const {resourcePath, rootContext} = loaderContext;
                 const importsArr = [path.resolve(__dirname, '../', 'node_modules/nib/lib/nib/index.styl'),path.resolve(__dirname, '../', 'src/atoms/css/config.styl')]
                 
                 return {
                   imports: importsArr,
-                  // include: [path.resolve(__dirname, '../', 'src/atoms/css/vue-rt-style-atoms.styl')],
                   use: [nib(), customPlugins()]
                   //
                 }

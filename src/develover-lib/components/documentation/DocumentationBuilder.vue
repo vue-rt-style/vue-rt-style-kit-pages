@@ -5,7 +5,7 @@
         TableRow,
         TableCol,
         TableHeadItem
-    } from "@vue-rt-style-kit-molecules-local";
+    } from "@vue-rt-style-kit-molecules-local/components";
     import {markdown} from 'markdown';
 
     const componentsList = {};

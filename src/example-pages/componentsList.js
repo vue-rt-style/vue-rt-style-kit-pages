@@ -34,8 +34,7 @@ import {
 //
 import {
   ScrollTabs,
-  TabsSlider,
-  TabsSliderItem,
+  
   Tabs,
   CheckboxTabs,
   TabsNavigationItem,
@@ -124,8 +123,9 @@ import {
   CarouselV3Item,
   Privilege,
   Minibanner,
-  ArrowBlock
-
+  ArrowBlock,
+  TabsSlider,
+  TabsSliderItem,
 } from '@vue-rt-style-kit-molecules-local/components'
 import {
   PopupTriggerDirective,
@@ -143,12 +143,10 @@ import AppMenu from "./components/AppMenu.vue";
 //
 const componentsList = {};
 const addToComponentList = (possibleComponent)=>{
-  
   if(possibleComponent?.name){
     componentsList[possibleComponent.name] = possibleComponent
   }
 }
-
 
 addToComponentList(ProductCard)
 addToComponentList(ArrowBlock)
@@ -281,5 +279,4 @@ addToComponentList(CarouselV3Item);
 // componentsList[PreComponent.name] = PreComponent;
 // componentsList[PreComponentEditor.name] = PreComponentEditor;
 // componentsList[DocumentationBuilder.name] = DocumentationBuilder;
-console.info('componentsList',componentsList)
 export default {...componentsList};
