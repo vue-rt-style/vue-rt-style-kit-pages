@@ -152,7 +152,7 @@ export const getAllDynamic = (possibleComponentArray, AppVue)=>{
       const possibleComponent = possibleComponentArray[key];
       if(possibleComponent) {
         AppVue.component(key, possibleComponent)
-        AppVue.use(possibleComponent)
+        // AppVue.use(possibleComponent)
       }
     }
   })
@@ -164,7 +164,7 @@ export const getAllDirectivesDynamic = (possibleComponentArray, AppVue)=>{
       const possibleComponent = possibleComponentArray[key];
       if(possibleComponent) {
         AppVue.directive(key, possibleComponent)
-        AppVue.use(possibleComponent)
+        // AppVue.use(possibleComponent)
       }
     }
   })
