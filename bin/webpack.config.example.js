@@ -37,6 +37,13 @@ const config = {
   output: {
     publicPath: '/'
   },
+  experiments: {
+    asyncWebAssembly: true,
+    buildHttp: true,
+    layers: true,
+    syncWebAssembly: true,
+    topLevelAwait: true,
+  },
   optimization: {
     splitChunks: {
       chunks: `all`

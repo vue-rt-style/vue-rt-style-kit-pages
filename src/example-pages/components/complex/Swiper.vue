@@ -591,7 +591,8 @@
 
 <script>
 import documentation from "@vue-rt-style-kit-molecules-local/components/Swiper/docs/index.json";
-import componentsList from "../../componentsList";
+const componentsList = {}
+// import componentsList from "../../componentsList";
 
 export default {
   name: "AppSwiper",

@@ -42,7 +42,8 @@
 <script>
   import PreComponentEditor from "./PreComponentEditor.vue";
 
-  import componentsList from "../../../example-pages/componentsList";
+ const componentsList = {}
+  // import componentsList from "../../../example-pages/componentsList";
 
   componentsList[PreComponentEditor.name] = PreComponentEditor;
 
