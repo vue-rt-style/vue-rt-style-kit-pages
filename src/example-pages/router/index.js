@@ -37,7 +37,6 @@ const index = [
   { path: "/sticky-header-line", name: "Sticky Header Line", component: () => import("../components/simple/StickyHeaderLine.vue") },
   { path: "/sticky-bottom-line", name: "Sticky Bottom Line", component: () => import("../components/simple/StickyBottomLine.vue") },
   { path: "/ussd", name: "app-ussd", component: () => import("../components/simple/Ussd.vue") },
-  { path: "/inline-dropdown", name: "app-inline-dropdown", component: () => import("../components/simple/InlineDropdown.vue") },
   { path: "/price", name: "app-price", component: () => import("../components/simple/Price.vue") },
   { path: "/checkbox-tabs", name: "app-checkbox-tabs", component: () => import("../components/simple/CheckboxTabs.vue") },
   { path: "/download-content", name: "app-download-content", component: () => import("../components/simple/DownloadContent.vue") },
