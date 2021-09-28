@@ -163,7 +163,7 @@ export const getAllDirectivesDynamic = (possibleComponentArray, AppVue)=>{
     if(key && possibleComponentArray[key]){
       const possibleComponent = possibleComponentArray[key];
       if(possibleComponent) {
-        AppVue.directive(key, possibleComponent)
+        AppVue.directive(possibleComponent.name, possibleComponent)
         // AppVue.use(possibleComponent)
       }
     }
