@@ -25,8 +25,8 @@ AppVue.use(VueRtDevStyle);
 AppVue.use(VueRtStyleIcons);
 // AppVue.use(VueRtStyleMolecules);
 getAllDynamic((await import('@vue-rt-style-kit-atoms-local/index-for-dynamic')).default,AppVue)
-getAllDynamic((await import('@vue-rt-style-kit-molecules-local/index-for-dynamic2')).default,AppVue)
-getAllDirectivesDynamic((await import('@vue-rt-style-kit-molecules-local/index-for-dynamic2')).directives,AppVue)
+getAllDynamic((await import('@vue-rt-style-kit-molecules-local/index-for-dynamic')).default,AppVue)
+getAllDirectivesDynamic((await import('@vue-rt-style-kit-molecules-local/index-for-dynamic')).directives,AppVue)
 
 if(globalVars?.PAGES_BASE_DIR)
   routes.routes.forEach((r) => r.path = `/${globalVars.PAGES_BASE_DIR}${r.path}`)

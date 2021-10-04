@@ -3,6 +3,8 @@ import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import CopyPlugin from 'copy-webpack-plugin'
 import webpack from 'webpack';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
 import fs from 'fs';
 import nib from 'nib';
 import stylusLoader from 'stylus-loader';
@@ -43,6 +45,9 @@ const config = {
   entry: {
     main: [path.join(local_dirname, `src`, `example-pages`, `index.js`)],
   },
+  experiments: {
+    topLevelAwait: true,
+  },
   mode: 'development',
   optimization: {
     splitChunks: {
@@ -52,9 +57,23 @@ const config = {
   },
   devtool: false,
   resolve: {
+    modules: [
+      path.join(__dirname, 'node_modules')
+    ],
+    fallback: {
+      "path": require.resolve("path-browserify"),
+      "crypto": require.resolve("crypto-browserify"),
+      "fs": false,
+      "stream": require.resolve("stream-browserify"),
+      "stylus": require.resolve("stylus"),
+      "events": require.resolve("events/"),
+      "util": false,
+      "url": require.resolve("url/")
+    },
     symlinks: false,
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
+      'vue-rt-style-kit-atoms\/src': pathSettings.atoms,
       '@vue-rt-style-kit-atoms-local': pathSettings.atoms,
       '@vue-rt-style-kit-molecules-local': pathSettings.molecules,
       '@vue-rt-style-kit-icons-local': pathSettings.icons,
@@ -118,17 +137,22 @@ const config = {
             loader: `style-loader`,
           },
           {loader: `css-loader`},
+          
           {
             loader: `stylus-loader`,
             options: {
-              stylusOptions: {
-                imports: [path.resolve(__dirname, '../', 'node_modules/nib/lib/nib/index.styl')],
-                use: [nib(), customPlugins()],
-              }
-            }
-            //             json("../variables.json")
+              stylusOptions: (loaderContext) => {
+                const importsArr = [path.resolve(__dirname, '../', 'node_modules/nib/lib/nib/index.styl'), path.resolve(__dirname, '../', 'src/atoms/css/config.styl')]
+                return {
+                  imports: importsArr,
+                  use: [nib(), customPlugins()]
+                  //
+                }
+              },
+              //             json("../variables.json")
 // json("../color.json")
 // json("../styleOptions.json")
+            }
           }
         ],
       },
@@ -143,7 +167,6 @@ const config = {
     ],
   },
   plugins: [
-    
     new HtmlWebpackPlugin({
       filename: `index.html`,
       template: path.join(local_dirname, `static`, `index.html`),
@@ -163,6 +186,7 @@ config.plugins.push(
       })
     })
 );
+console.info('baseDir',baseDir);
 
 if (contour === 'test') {
   config.plugins.push(

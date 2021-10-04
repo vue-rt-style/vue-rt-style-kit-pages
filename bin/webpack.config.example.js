@@ -15,7 +15,10 @@ import fs from 'fs'
 import nib from 'nib'
 import customPlugins from '../src/example-pages/css/plugins.js'
 
-const baseDir = process.env.NODE_ENV_PATH || ''
+let baseDir = process.env.NODE_ENV_PATH || ''
+if(process.env.NODE_ENV == 'production') {
+  baseDir = process.env.NODE_ENV_PATH || 'vue-rt-style-kit-pages'
+}
 import {fileURLToPath} from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -35,7 +38,8 @@ const config = {
   },
   mode: 'development',
   output: {
-    publicPath: '/'
+    publicPath: '/',
+    filename: '[name].bundle.js',
   },
   experiments: {
     asyncWebAssembly: true,
@@ -59,6 +63,7 @@ const config = {
       // Symlinks
       
       '@vue-rt-style-kit-atoms-local': path.join(local_dirname, 'src', 'atoms'),
+      'vue-rt-style-kit-atoms/src': path.join(local_dirname, 'src', 'atoms'),
       'vue-rt-style-kit-atoms': path.join(local_dirname, 'src', 'atoms'),
       '@vue-rt-style-kit-molecules-local': path.join(local_dirname, 'src', 'molecules'),
       '@vue-rt-style-kit-icons-local': path.join(local_dirname, 'src', 'icons'),

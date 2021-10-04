@@ -5,7 +5,7 @@
   "main": "lib/vue-rt-style-kit-atoms.js",
   "scripts": {
     "start": "node  bin/local/index.js",
-    "build": "cross-env NODE_ENV=production webpack --config ./bin/webpack.config.lib.js",
+    "build": "cross-env NODE_ENV=production node bin/local/index.js",
     "build:docs": "cross-env NODE_ENV=production webpack --config ./bin/webpack.config.docs.js",
     "build:test": "cross-env NODE_ENV=production webpack --config ./bin/webpack.config.docs.js",
     "build:icons": "npx vsvg -s ./src/icons/components/Icon/generator/svg -t ./static/icons --tpl ./src/icons/components/Icon/generator/icon-tpl.js"
@@ -85,6 +85,7 @@
     "html-webpack-plugin": "^5.3.2",
     "mini-css-extract-plugin": "^2.3.0",
     "nib": "^1.1.2",
+    "path-browserify": "^1.0.1",
     "raw-loader": "^4.0.2",
     "regenerator-runtime": "^0.13.9",
     "style-loader": "^3.3.0",
