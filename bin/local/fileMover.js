@@ -1,7 +1,7 @@
 import {execSync} from "child_process";
 
 export const fileMover = function(){
-  execSync('git checkout gh-pages')
+  execSync('git checkout master')
   execSync('rm -rf ./docs')
   execSync('mkdir ./docs')
   execSync('cp -R ./dist/* ./docs')
