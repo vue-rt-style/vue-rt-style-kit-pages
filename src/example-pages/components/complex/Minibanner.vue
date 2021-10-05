@@ -119,11 +119,13 @@
           <div class="d-flex flex-v-start">
             <show-on>
               <template slot="pc">
+              <div>
                 <img width="105" src="https://rt-static.rt.ru/sites/default/files/img/minibanner/QR.png" alt=""/>
                 <div class="sp-l-0-4 font-t-m color-white05">
                   Наведите камеру <br>
                   на QR-код, чтобы <br>
                   скачать приложение
+                </div>
                 </div>
               </template>
               <template slot="ios">
