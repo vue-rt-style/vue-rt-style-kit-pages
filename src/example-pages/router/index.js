@@ -73,7 +73,6 @@ const index = [
   { path: "/gallery-carousel", name: "gallary-carousel", component: () => import("../components/complex/GallaryCarousel.vue") },
   { path: "/swiper", name: "swiper", component: () => import("../components/complex/Swiper.vue") },
   { path: "/youtube", name: "app-youtube", component: () => import("../components/complex/Youtube.vue") },
-  { path: "/filter", name: "app-filter", component: () => import("../components/complex/Filter.vue") },
   { path: "/text_image", name: "textImage", component: () => import("../components/complex/TextImageBlock.vue") },
   { path: "/phonenumber__input", name: "phoneNumberInput", component: () => import("../components/complex/PhoneNumberInput.vue") },
 
