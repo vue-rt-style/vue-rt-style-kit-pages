@@ -8,9 +8,6 @@
 
     <div class="sp-v-2">
       <div class="rt-container">
-        <div class="rt-col-12 rt-col-md-3 sp-b-2">
-          <h3>Простой вывод</h3>
-        </div>
         <div class="rt-col-12 rt-space-bottom3 is-b2c">
           <rt-row>
             <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
@@ -132,6 +129,7 @@
           </div>
         </rt-carousel-slide-v3>
 <!--        </pre-timeout>-->
+
       </rt-carousel-v3>
 
 
@@ -148,6 +146,7 @@
               <rt-carousel-slide-v3 v-for="i in 15" :key="i+'$$'">
                 <div>
                   <div
+                      class="d-flex flex-v-end"
                       style="
               background-size: cover;
               border-radius: 8px;
@@ -155,6 +154,7 @@
               position: relative;
             "
                       :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">
+
                     <div
                         style="
                 background-color: black;
@@ -181,7 +181,7 @@
                       :td-scroll-step="tdScrollStep"
                       :md-scroll-step="mdScrollStep" :active-index="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
         <!--        <pre-timeout  :time="i*1000" >-->
-        <rt-carousel-slide-v3 v-for="i in 15" :key="i">
+        <rt-carousel-slide-v3 v-for="i in 15" :key="i" :id="'slide-2-'+i">
           <div>
             <div
                 style="
@@ -190,7 +190,24 @@
               height: 300px;
               position: relative;
             "
+                class="d-flex flex-v-end"
                 :style="`background: url(https://picsum.photos/500/300?getForId=${i+35})`">
+              <div class="d-flex flex-end-center flex-v-center">Это текст {{i}} <rt-popover :enable-horizontal-value-calculation="true" :container-id="'slide-2-'+i">
+                <template slot="customIcon">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="16" cy="16" r="16" fill="#101828" fill-opacity="0.03"/>
+                    <path
+                        d="M14.8531 6.58975C15.2068 5.80342 16.3233 5.80341 16.677 6.58974L18.9833 11.7164L24.6475 12.3833C25.5202 12.4861 25.8456 13.5837 25.1699 14.1454L20.8549 17.7328L22.1721 23.1394C22.379 23.9887 21.4733 24.676 20.711 24.2481L15.765 21.4717L10.8198 24.2478C10.0574 24.6757 9.15161 23.9883 9.35872 23.1389L10.6769 17.7328L6.36188 14.1454C5.68619 13.5836 6.01154 12.486 6.88421 12.3833L12.5469 11.7164L14.8531 6.58975Z"
+                        fill="#FF4F12"/>
+                  </svg>
+                </template>
+                <template slot="content">
+                  <div>
+                    <p class="rt-font-label rt-font-bold sp-b-0-2 color-main07">Заголовок</p>
+                    <p class="rt-font-label color-main07">Высота тултипа подстраивается под контент. Ширина сохранятеся</p>
+                  </div>
+                </template>
+              </rt-popover></div>
               <div
                   style="
                 background-color: black;
