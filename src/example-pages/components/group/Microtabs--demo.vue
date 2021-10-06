@@ -289,52 +289,52 @@ export default {
   <template slot="cnt">
     <rt-microtabs-cnt>
       <ul>
-        <li class="rt-checked-list__item rt-checked-list__item--orange sp-l-0-4" style="margin-top:0">
+        <li class="rt-checked-list__item rt-checked-list__item--orange" style="margin-top:0">
           <div>Интернет</div>
           <ul>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Интерактивное телевидение</li>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">
+            <li class="rt-checked-list__item" style="margin-top:0">Интерактивное телевидение</li>
+            <li class="rt-checked-list__item" style="margin-top:0">
               <div>VPN</div>
               <ul>
-                <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Видеонаблюдение и умный дом</li>
-                <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Умная колонка "Маруся"</li>
+                <li class="rt-checked-list__item" style="margin-top:0">Видеонаблюдение и умный дом</li>
+                <li class="rt-checked-list__item" style="margin-top:0">Умная колонка "Маруся"</li>
               </ul>
             </li>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Облачные услуги</li>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Доступ к банковским услугам на труднодоступных территориях</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Облачные услуги</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Доступ к банковским услугам на труднодоступных территориях</li>
           </ul>
         </li>
-        <li class="rt-checked-list__item rt-checked-list__item--orange sp-l-0-4" style="margin-top:0">
+        <li class="rt-checked-list__item rt-checked-list__item--orange" style="margin-top:0">
           <div>Связь</div>
           <ul>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Местная телефонная связь</li>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Сотовая связь</li>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Совместные проекты на базе инфраструктуры сотовых операторов</li>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Универсальные услуги связи (УУС)</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Местная телефонная связь</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Сотовая связь</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Совместные проекты на базе инфраструктуры сотовых операторов</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Универсальные услуги связи (УУС)</li>
           </ul>
         </li>
-        <li class="rt-checked-list__item rt-checked-list__item--orange sp-l-0-4" style="margin-top:0">
+        <li class="rt-checked-list__item rt-checked-list__item--orange" style="margin-top:0">
           <div>Интеграция цифровых технологий</div>
           <ul>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Электронные цифровые сервисы для медицины</li>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Электронные цифровые сервисы для образования</li>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Развитие проектов «Цифровой регион» («Умный город»)</li>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Другие сервисы</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Электронные цифровые сервисы для медицины</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Электронные цифровые сервисы для образования</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Развитие проектов «Цифровой регион» («Умный город»)</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Другие сервисы</li>
           </ul>
         </li>
-        <li class="rt-checked-list__item rt-checked-list__item--orange sp-l-0-4" style="margin-top:0">
+        <li class="rt-checked-list__item rt-checked-list__item--orange" style="margin-top:0">
           <div>Обеспечение безопасности</div>
           <ul>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Системы видеонаблюдения</li>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Обеспечение кибербезопасности</li>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Криптошифрование и квантовая защита данных</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Системы видеонаблюдения</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Обеспечение кибербезопасности</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Криптошифрование и квантовая защита данных</li>
           </ul>
         </li>
-        <li class="rt-checked-list__item rt-checked-list__item--orange sp-l-0-4" style="margin-top:0">
+        <li class="rt-checked-list__item rt-checked-list__item--orange" style="margin-top:0">
           <div>Цифровые государственные услуги</div>
           <ul>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Единый портал государственных услуг</li>
-            <li class="rt-checked-list__item sp-l-0-4" style="margin-top:0">Национальная биометрическая система</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Единый портал государственных услуг</li>
+            <li class="rt-checked-list__item" style="margin-top:0">Национальная биометрическая система</li>
           </ul>
         </li>
       </ul>

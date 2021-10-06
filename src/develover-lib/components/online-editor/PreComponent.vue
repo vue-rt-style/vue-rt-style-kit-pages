@@ -42,15 +42,14 @@
 <script>
   import PreComponentEditor from "./PreComponentEditor.vue";
 
-  import componentsList from "../../../example-pages/componentsList";
+ const componentsList = {}
+  // import componentsList from "../../../example-pages/componentsList";
 
   componentsList[PreComponentEditor.name] = PreComponentEditor;
-  import Vue from "vue/dist/vue.js";
 
   export default {
     name: "PreCode",
-    comments: componentsList,
-    components: componentsList,
+    // components: componentsList,
     props: {
       text: {
         type: String,

@@ -180,11 +180,7 @@
             </template>
             <template slot="description">
               <p class="rt-font-paragraph">
-                <rt-replacement-link link-text="специальная программа"
-                                     macos-link="https://apps.apple.com/us/app/telefon-rostelekom/id1033204349?mt=12"
-                                     windows-link="https://moscow.rt.ru/sites/default/files/b2b/instruction_vats/Svetets_Telephone-Rostelecom_3.8.67.zip"
-                                     pre-link-text="или "
-                                     post-link-text=" на компьютере или ноутбуке"/>
+
               </p>
             </template>
           </rt-benefit-item>

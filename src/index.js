@@ -3,13 +3,9 @@ import Project from "../package.json";
 
 // import {} from "./components";
 
-// console.info('OptionsList',OptionsList)
 import 'element-closest-polyfill';
 import 'nodelist-foreach-polyfill';
 import 'element-remove';
-import stylesAtoms from "./atoms/css/vue-rt-style-atoms.styl";
-import stylesMolecules from "./molecules/css/vue-rt-style-kit-molecules.styl";
-import stylesIcons from "./icons/css/vue-rt-style-kit-icons.styl";
 
 const VueRtStyle = {
     install(Vue, config) {
@@ -63,5 +59,4 @@ if (settingsKey) {
 // @Deprecated
 window.RTK_STYLE_VER = version;
 VueRtStyle.version = version;
-
 export default VueRtStyle;

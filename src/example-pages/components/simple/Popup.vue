@@ -12,18 +12,17 @@
         <h1 class="sp-b-3">Попапчики</h1>
         <div>
 
-            <rt-button v-popup-trigger="{name:'filter'}"  color="orange">
-              Попап 1
-            </rt-button>
-
+          <rt-button v-popup-trigger="{name:'filter'}"  color="orange">
+            Попап 1
+          </rt-button>
 
           <rt-button v-popup-trigger="{name:'filter2'}"  color="orange">
-              Попап 2
-            </rt-button>
+            Попап 2
+          </rt-button>
 
           <rt-button v-popup-trigger="{name:'filter3'}"  color="orange">
-              Попап 3
-            </rt-button>
+            Попап 3
+          </rt-button>
 
           <rt-popup hash="popup1" name="filter" :ga="{test:1, event: 'b2b'}" :ga-close="{test:1, event: 'b2b', value: 'close_popup'}" v-on:closed="onClose">
             <p class="rt-font-h3 sp-b-0-4">!!@-->>Проверьте тип подключения</p>

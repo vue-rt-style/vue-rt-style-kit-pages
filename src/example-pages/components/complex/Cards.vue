@@ -179,32 +179,7 @@
 <!--        </rt-card-banner>-->
 <!--      </rt-card-tile-layout>-->
 <!--      <div class="sp-t-2"/>-->
-      <rt-resize-content-height :query-selectors-names="['.rt-card-help']">
-        <div class="rt-container">
-          <div class="rt-col">
-            <div class="row">
-              <div class="rt-col-6 rt-col-td-6 sp-b-1-3 md-sp-b-1">
-                <rt-card-help :dual-width="true" :is-white-font="true" src="https://moscow.rt.ru/sites/default/files/b2b/help/credit-card.png">
-                  <template slot="title">Оплата услуг</template>
-                  <template slot="description">Способы оплаты, счета, перенос <br class="md-d-none">платежа и другие вопросы</template>
-                </rt-card-help>
-              </div>
-              <div class="rt-col-3 rt-col-td-3 rt-col-md-3 sp-b-1-3 md-sp-b-1">
-                <rt-card-help :is-white-font="true" src="https://moscow.rt.ru/sites/default/files/b2b/help/cellphone.png">
-                  <template slot="title">Личный кабинет</template>
-                  <template slot="description">Авторизация, подключенные услуги, история платежей</template>
-                </rt-card-help>
-              </div>
-              <div class="rt-col-3 rt-col-td-3 rt-col-md-3 sp-b-1-3 md-sp-b-1">
-                <rt-card-help :is-white-font="true" src="https://moscow.rt.ru/sites/default/files/b2b/help/folder.png">
-                  <template slot="title">Документы</template>
-                  <template slot="description">Архив документов и оферт с условиями акций, соглашения</template>
-                </rt-card-help>
-              </div>
-            </div>
-          </div>
-        </div>
-      </rt-resize-content-height>
+
       <rt-carousel-v2 carousel-name="1" :scrollable-on-desktop="true" :content-to-resize="['.rt-card__body']">
         <rt-carousel-slide-v2 parent-carousel-name="1">
           <rt-card :is-white-color="true" background-color-type="green" :ga="{value:'Новости'}">
@@ -315,158 +290,160 @@
       </rt-carousel-v2>
       <div class="sp-t-2"/>
 <!--      <pre-code text="-->
-<!--      <div>-->
-<!--        <div class='rt-container sp-b-1'>-->
-<!--          <rt-col>-->
-<!--            <div class='rt-tag-n-wrapper'>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala1&quot;]'>lalala1-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;test&quot;]'>lalala2-->
-<!--              </rt-filter-n-setter>-->
-<!--              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n&#45;&#45;purple' :filter-tags='[&quot;lalala&quot;]'>lalala3-->
-<!--              </rt-filter-n-setter>-->
-<!--            </div>-->
-<!--          </rt-col>-->
-<!--        </div>-->
-<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;,&quot;lalala1&quot;]'>-->
-<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
-<!--            <a href='#' class='spasibo-card' target='_blank'>-->
-<!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
-<!--                                            alt=''/></template>-->
-<!--                <template slot='logo'>-->
-<!--                  <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
-<!--                </template>-->
-<!--                <template slot='label'>lalala1 от <br> Додо Пицца</template>-->
-<!--                <template slot='content'>Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
+      <div class='rt-container sp-b-1'>
+        <rt-col>
+          <div class='rt-tag-n-wrapper d-flex'>
+            <div class="rt-tag-n-inner d-flex">
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["lalala1"]'>lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["test"]'>lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["lalala"]'>lalala3
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["lalala1"]'>lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["test"]'>lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["lalala"]'>lalala3
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["lalala1"]'>lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["test"]'>lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["lalala"]'>lalala3
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["lalala1"]'>lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["test"]'>lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["lalala"]'>lalala3
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["lalala1"]'>lalala1
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["test"]'>lalala2
+              </rt-filter-n-setter>
+              <rt-filter-n-setter filter-name='test' custom-class='rt-tag-n--purple' :filter-tags='["lalala"]'>lalala3
+              </rt-filter-n-setter>
+            </div>
+          </div>
+        </rt-col>
+      </div>
+      <rt-filter-n-item filter-name='test' :filter-tags='["filter","test","lalala","lalala1"]'>
+        <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
+          <a href='#' class='spasibo-card' target='_blank'>
+            <rt-card-rounded color='white' background-color='orange'>
+              <template slot='image'>
+                <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png' alt=''/>
+              </template>
+              <template slot='logo'>
+                <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
+              </template>
+              <template slot='label'>lalala1 от <br> Додо Пицца</template>
+              <template slot='content'>Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+      </rt-filter-n-item>
+      <rt-filter-n-item filter-name='test' :filter-tags='["filter","test","lalala"]'>
+        <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
+          <a href='#' class='spasibo-card' target='_blank'>
+            <rt-card-rounded color='white' background-color='orange'>
+              <template slot='image'><img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png'
+                                          alt=''/></template>
+              <template slot='logo'>
+                <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
+              </template>
+              <template slot='label'>Подарок от <br> Додо Пицца</template>
+              <template slot='content'>Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
 
-<!--              </rt-card-rounded>-->
-<!--            </a>-->
-<!--          </rt-carousel-slide>-->
-<!--        </rt-filter-n-item>-->
-<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
-<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
-<!--            <a href='#' class='spasibo-card' target='_blank'>-->
-<!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
-<!--                                            alt=''/></template>-->
-<!--                <template slot='logo'>-->
-<!--                  <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
-<!--                </template>-->
-<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
-<!--                <template slot='content'>Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
-
-<!--              </rt-card-rounded>-->
-<!--            </a>-->
-<!--          </rt-carousel-slide>-->
-<!--        </rt-filter-n-item>-->
-<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
-<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
-<!--            <a href='#' class='spasibo-card' target='_blank'>-->
-<!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
-<!--                                            alt=''/></template>-->
-<!--                <template slot='logo'>-->
-<!--                  <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
-<!--                </template>-->
-<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
-<!--                <template slot='content'>Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
-
-<!--              </rt-card-rounded>-->
-<!--            </a>-->
-<!--          </rt-carousel-slide>-->
-<!--        </rt-filter-n-item>-->
-<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
-<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
-<!--            <a href='#' class='spasibo-card' target='_blank'>-->
-<!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
-<!--                                            alt=''/></template>-->
-<!--                <template slot='logo'>-->
-<!--                  <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
-<!--                </template>-->
-<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
-<!--                <template slot='content'>Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
-
-<!--              </rt-card-rounded>-->
-<!--            </a>-->
-<!--          </rt-carousel-slide>-->
-<!--        </rt-filter-n-item>-->
-<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
-<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
-<!--            <a href='#' class='spasibo-card' target='_blank'>-->
-<!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
-<!--                                            alt=''/></template>-->
-<!--                <template slot='logo'>-->
-<!--                  <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
-<!--                </template>-->
-<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
-<!--                <template slot='content'>Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
-
-<!--              </rt-card-rounded>-->
-<!--            </a>-->
-<!--          </rt-carousel-slide>-->
-<!--        </rt-filter-n-item>-->
-<!--        <rt-filter-n-item filter-name='test' :filter-tags='[&quot;filter&quot;,&quot;test&quot;,&quot;lalala&quot;]'>-->
-<!--          <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>-->
-<!--            <a href='#' class='spasibo-card' target='_blank'>-->
-<!--              <rt-card-rounded color='white' background-color='orange'>-->
-<!--                <template slot='image'><img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png'-->
-<!--                                            alt=''/></template>-->
-<!--                <template slot='logo'>-->
-<!--                  <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>-->
-<!--                </template>-->
-<!--                <template slot='label'>Подарок от <br> Додо Пицца</template>-->
-<!--                <template slot='content'>Обменяйте бонусы на промокод-->
-<!--                  <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок-->
-<!--                </template>-->
-
-<!--              </rt-card-rounded>-->
-<!--            </a>-->
-<!--          </rt-carousel-slide>-->
-<!--        </rt-filter-n-item>-->
-<!--        <rt-carousel :deep-slide-load='2' :decorated='true'>-->
-<!--          <rt-col size='12'>-->
-<!--            <rt-filter-n :has-carousel='true' :carousel-up='2' custom-class='row row-nowrap'-->
-<!--                         filter-name='test'></rt-filter-n>-->
-<!--          </rt-col>-->
-<!--        </rt-carousel>-->
-<!--      </div>"></pre-code>-->
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+      </rt-filter-n-item>
+      <rt-filter-n-item filter-name='test' :filter-tags='["filter","test","lalala"]'>
+        <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
+          <a href='#' class='spasibo-card' target='_blank'>
+            <rt-card-rounded color='white' background-color='orange'>
+              <template slot='image'>
+                <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png' alt=''/>
+              </template>
+              <template slot='logo'>
+                <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
+              </template>
+              <template slot='label'>Подарок от <br> Додо Пицца</template>
+              <template slot='content'>Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+      </rt-filter-n-item>
+      <rt-filter-n-item filter-name='test' :filter-tags='["filter","test","lalala"]'>
+        <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
+          <a href='#' class='spasibo-card' target='_blank'>
+            <rt-card-rounded color='white' background-color='orange'>
+              <template slot='image'>
+                <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png' alt=''/>
+              </template>
+              <template slot='logo'>
+                <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
+              </template>
+              <template slot='label'>Подарок от <br> Додо Пицца</template>
+              <template slot='content'>Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+      </rt-filter-n-item>
+      <rt-filter-n-item filter-name='test' :filter-tags='["filter","test","lalala"]'>
+        <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
+          <a href='#' class='spasibo-card' target='_blank'>
+            <rt-card-rounded color='white' background-color='orange'>
+              <template slot='image'>
+                <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png' alt=''/>
+              </template>
+              <template slot='logo'>
+                <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
+              </template>
+              <template slot='label'>Подарок от <br> Додо Пицца</template>
+              <template slot='content'>Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+      </rt-filter-n-item>
+      <rt-filter-n-item filter-name='test' :filter-tags='["filter","test","lalala"]'>
+        <rt-carousel-slide class='rt-col-3 rt-col-td-3 rt-col-md-2'>
+          <a href='#' class='spasibo-card' target='_blank'>
+            <rt-card-rounded color='white' background-color='orange'>
+              <template slot='image'>
+                <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/1forstory.png' alt=''/>
+              </template>
+              <template slot='logo'>
+                <img src='https://rt-static.rt.ru/sites/default/files/img/spasibo/dodo_pizza.png' alt=''>
+              </template>
+              <template slot='label'>Подарок от <br> Додо Пицца</template>
+              <template slot='content'>Обменяйте бонусы на промокод
+                <br>При заказе, получите пиццу 25 см «Ветчина и грибы» в подарок
+              </template>
+            </rt-card-rounded>
+          </a>
+        </rt-carousel-slide>
+      </rt-filter-n-item>
+      <rt-carousel :deep-slide-load='2' :decorated='true'>
+        <rt-col size='12'>
+          <rt-filter-n :has-carousel='true' :carousel-up='2' custom-class='row row-nowrap'
+                       filter-name='test'>
+          </rt-filter-n>
+        </rt-col>
+      </rt-carousel>
+<!--      "></pre-code>-->
       <div class="rt-container">
         <div class="rt-col">
           <rt-resize-content-height :query-selectors-names="['.rt-card-round__content']">
@@ -1134,11 +1111,10 @@
             <rt-resize-content-height
                 :query-selectors-names="['.rt-card__bottom-list', '.rt-card__footer', '.rt-card__body']"
                 class="rt-col-12">
-              <rt-fullscreen-image
-                  background-image="https://rt.ru/sites/default/files/img/widget/DSGN-930_PControl_1920%D1%851080.jpg"
-                  background-position="top">
-                <div class="rt-md-space-top2 rt-space-top5">
-                  <div class="row row--mobile-scroll rt-space-top4 rt-font-hypnens-off">
+<!--              <rt-fullscreen-image-->
+<!--                  background-image="https://rt.ru/sites/default/files/img/widget/DSGN-930_PControl_1920%D1%851080.jpg"-->
+<!--                  background-position="top">-->
+                <div class="row row--mobile-scroll rt-space-top4 rt-font-hypnens-off">
                     <div class="rt-col-4 rt-col-md-3 d-md-flex-column is-b2c">
                       <rt-card>
                         <template slot="header">
@@ -1492,8 +1468,7 @@
                       </rt-card>
                     </div>
                   </div>
-                </div>
-              </rt-fullscreen-image>
+<!--              </rt-fullscreen-image>-->
             </rt-resize-content-height>
           </div>
           <div class="row">
@@ -2325,312 +2300,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="rt-space-top2 is-b2b">
-        <rt-card-layout :swiper-on-mobile="true" :width="6">
-          <template slot="cards">
-            <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide">
-              <rt-card>
-                <template slot="header">
-                  <p class="rt-font-paragraph rt-space-bottom rt-font-bold">Тариф 1</p>
-                </template>
-                <template slot="content">
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">до 650 Мбит/</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">4 антенны</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Авторизация через СМС</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Защита роутера</p>
-                  </div>
-                </template>
-                <template slot="footer">
-                  <div class="rt-space-bottom"/>
-                  <div class="rtb-card__cost rt-space-bottom">
-                    <rt-price :value="500"
-                              :is-option="false"
-                              currency="₽"
-                              :b2b-price="true"
-                              time-interval="в месяц"
-                              :is-time-interval-bottom="true"/>
-                  </div>
-                  <a href="#">
-                    <rt-button
-                        class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
-                      Выбрать
-                    </rt-button>
-                  </a>
-                </template>
-              </rt-card>
-            </div>
-            <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide">
-              <rt-card>
-                <template slot="header">
-                  <p class="rt-font-paragraph rt-space-bottom rt-font-bold">Тариф 1</p>
-                </template>
-                <template slot="content">
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">до 650 Мбит/</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">4 антенны</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Авторизация через СМС</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Защита роутера</p>
-                  </div>
-                </template>
-                <template slot="footer">
-                  <div class="rt-space-bottom"/>
-                  <div class="rtb-card__cost rt-space-bottom">
-                    <rt-price :value="500"
-                              :is-option="false"
-                              currency="₽"
-                              :b2b-price="true"
-                              time-interval="в месяц"
-                              :is-time-interval-bottom="true"/>
-                  </div>
-                  <a href="#">
-                    <rt-button
-                        class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
-                      Выбрать
-                    </rt-button>
-                  </a>
-                </template>
-              </rt-card>
-            </div>
-            <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide">
-              <rt-card>
-                <template slot="header">
-                  <p class="rt-font-paragraph rt-space-bottom rt-font-bold">Тариф 1</p>
-                </template>
-                <template slot="content">
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">до 650 Мбит/</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">4 антенны</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Авторизация через СМС</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Защита роутера</p>
-                  </div>
-                </template>
-                <template slot="footer">
-                  <div class="rt-space-bottom"/>
-                  <div class="rtb-card__cost rt-space-bottom">
-                    <rt-price :value="500"
-                              :is-option="false"
-                              currency="₽"
-                              :b2b-price="true"
-                              time-interval="в месяц"
-                              :is-time-interval-bottom="true"/>
-                  </div>
-                  <a href="#">
-                    <rt-button
-                        class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
-                      Выбрать
-                    </rt-button>
-                  </a>
-                </template>
-              </rt-card>
-            </div>
-            <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide">
-              <rt-card>
-                <template slot="header">
-                  <p class="rt-font-paragraph rt-space-bottom rt-font-bold">Тариф 1</p>
-                </template>
-                <template slot="content">
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">до 650 Мбит/</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">4 антенны</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Авторизация через СМС</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Защита роутера</p>
-                  </div>
-                </template>
-                <template slot="footer">
-                  <div class="rt-space-bottom"/>
-                  <div class="rtb-card__cost rt-space-bottom">
-                    <rt-price :value="500"
-                              :is-option="false"
-                              currency="₽"
-                              :b2b-price="true"
-                              time-interval="в месяц"
-                              :is-time-interval-bottom="true"/>
-                  </div>
-                  <a href="#">
-                    <rt-button
-                        class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
-                      Выбрать
-                    </rt-button>
-                  </a>
-                </template>
-              </rt-card>
-            </div>
-          </template>
-          <template slot="side-text">
-            <div class="rtb-card__description__row">
-              <p class="rt-font-paragraph ">до 650 Мбит/</p>
-            </div>
-            <div class="rtb-card__description__row">
-              <p class="rt-font-paragraph ">4 антенны</p>
-            </div>
-            <div class="rtb-card__description__row">
-              <p class="rt-font-paragraph color-main025">Авторизация через СМС</p>
-            </div>
-            <div class="rtb-card__description__row">
-              <p class="rt-font-paragraph color-main025">Защита роутера</p>
-            </div>
-          </template>
-        </rt-card-layout>
-      </div>
-      <div class="rt-space-top2 is-b2b">
-        <rt-card-layout :swiper-on-mobile="true" :width="9" :single-row="true">
-          <template slot="cards">
-            <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide">
-              <rt-card>
-                <template slot="header">
-                  <p class="rt-font-paragraph rt-space-bottom rt-font-bold">Тариф 1</p>
-                </template>
-                <template slot="content">
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">до 650 Мбит/</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">4 антенны</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Авторизация через СМС</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Защита роутера</p>
-                  </div>
-                </template>
-                <template slot="footer">
-                  <div class="rt-space-bottom"/>
-                  <div class="rtb-card__cost rt-space-bottom">
-                    <rt-price :value="500"
-                              :is-option="false"
-                              currency="₽"
-                              :b2b-price="true"
-                              time-interval="в месяц"
-                              :is-time-interval-bottom="true"/>
-                  </div>
-                  <a href="#">
-                    <rt-button
-                        class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
-                      Выбрать
-                    </rt-button>
-                  </a>
-                </template>
-              </rt-card>
-            </div>
-            <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide">
-              <rt-card>
-                <template slot="header">
-                  <p class="rt-font-paragraph rt-space-bottom rt-font-bold">Тариф 1</p>
-                </template>
-                <template slot="content">
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">до 650 Мбит/</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">4 антенны</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Авторизация через СМС</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Защита роутера</p>
-                  </div>
-                </template>
-                <template slot="footer">
-                  <div class="rt-space-bottom"/>
-                  <div class="rtb-card__cost rt-space-bottom">
-                    <rt-price :value="500"
-                              :is-option="false"
-                              currency="₽"
-                              :b2b-price="true"
-                              time-interval="в месяц"
-                              :is-time-interval-bottom="true"/>
-                  </div>
-                  <a href="#">
-                    <rt-button
-                        class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
-                      Выбрать
-                    </rt-button>
-                  </a>
-                </template>
-              </rt-card>
-            </div>
-            <div class="rt-col-3 rt-col-td-3 rt-col-md-3 rt-space-top rt-carousel__slide">
-              <rt-card>
-                <template slot="header">
-                  <p class="rt-font-paragraph rt-space-bottom rt-font-bold">Тариф 1</p>
-                </template>
-                <template slot="content">
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">до 650 Мбит/</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph ">4 антенны</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Авторизация через СМС</p>
-                  </div>
-                  <div class="rtb-card__description__row">
-                    <p class="rt-font-paragraph color-main025">Защита роутера</p>
-                  </div>
-                </template>
-                <template slot="footer">
-                  <div class="rt-space-bottom"/>
-                  <div class="rtb-card__cost rt-space-bottom">
-                    <rt-price :value="500"
-                              :is-option="false"
-                              currency="₽"
-                              :b2b-price="true"
-                              time-interval="в месяц"
-                              :is-time-interval-bottom="true"/>
-                  </div>
-                  <a href="#">
-                    <rt-button
-                        class="rt-button rt-button-small rt-button-purple-border rt-space-horizontal05">
-                      Выбрать
-                    </rt-button>
-                  </a>
-                </template>
-              </rt-card>
-            </div>
-          </template>
-          <template slot="side-text">
-            <div class="rtb-card__description__row">
-              <p class="rt-font-paragraph ">до 650 Мбит/</p>
-            </div>
-            <div class="rtb-card__description__row">
-              <p class="rt-font-paragraph ">4 антенны</p>
-            </div>
-            <div class="rtb-card__description__row">
-              <p class="rt-font-paragraph color-main025">Авторизация через СМС</p>
-            </div>
-            <div class="rtb-card__description__row">
-              <p class="rt-font-paragraph color-main025">Защита роутера</p>
-            </div>
-          </template>
-        </rt-card-layout>
       </div>
       <div class="rt-space-top2 is-b2b">
         <div class="rt-container">

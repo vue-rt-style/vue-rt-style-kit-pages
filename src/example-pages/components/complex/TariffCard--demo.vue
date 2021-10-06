@@ -8,7 +8,7 @@
       </div>
 
 
-      <rt-carousel-v2 class="rtk-fo__case">
+      <rt-carousel-v2 class="rtk-fo__case" :content-to-resize="['.rt-tariff__line']">
         <!-- Базовая -->
         <rt-carousel-slide-v2 _theme="cardBase">
           <pre-code :text="cardBase"></pre-code>
@@ -117,8 +117,11 @@
 </template>
 
 <script>
+import componentsList from "../../componentsList";
+
 export default {
   name: 'TariffsCards',
+  components: componentsList,
   computed: {
     cardBase(){
       return `

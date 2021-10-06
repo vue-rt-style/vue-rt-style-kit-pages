@@ -118,13 +118,15 @@
         <template slot="html">
           <div class="d-flex flex-v-start">
             <show-on>
-              <template slot="desctop">
-            <img width="105" src="https://rt-static.rt.ru/sites/default/files/img/minibanner/QR.png" alt=""/>
-            <div class="sp-l-0-4 font-t-m color-white05">
-              Наведите камеру <br>
-              на QR-код, чтобы <br>
-              скачать приложение
-            </div>
+              <template slot="pc">
+              <div>
+                <img width="105" src="https://rt-static.rt.ru/sites/default/files/img/minibanner/QR.png" alt=""/>
+                <div class="sp-l-0-4 font-t-m color-white05">
+                  Наведите камеру <br>
+                  на QR-код, чтобы <br>
+                  скачать приложение
+                </div>
+                </div>
               </template>
               <template slot="ios">
                 <p>ios content</p>
@@ -138,8 +140,6 @@
         <template slot="image">
           <rt-img src="https://rt-static.rt.ru/sites/default/files/img/minibanner/6.png"></rt-img>
         </template>
-
-
       </rt-minibanner>'></pre-code>
     </div>
 
@@ -220,7 +220,7 @@
 
 <script>
 // vue-rt-style-kit-molecules/src/components/
-import documentation from "@vue-rt-style-kit-molecules-local/components/Minibanner/docs/index.json";
+// import documentation from "@vue-rt-style-kit-molecules-local/components/Minibanner/docs/index.json";
 
 const componentsList = {};
 export default {
@@ -231,7 +231,6 @@ export default {
     imgs: []
   }),
   mounted() {
-    this.documentation = documentation
   },
 
   methods: {}
