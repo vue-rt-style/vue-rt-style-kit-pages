@@ -55,7 +55,7 @@
                                 {name: "name", label: "event name"},
                                 {name: "description", label: "description"},
                                 {name: "component", label: "component tag"},
-                                {name: "params", label: "params<Type>"},
+                                // {name: "params", label: "params<Type>"},
                                 {name: "return", label: "return value"},
                             ]
                         };

@@ -18,7 +18,8 @@
           <template slot="boolets">Компактное оборудование размером с карточку</template>
           <template slot="boolets">Прием цифрового эфирного телевидения без дополнительных
             проводов</template>
-          <template slot="image"><img src="//rt-static.rt.ru/sites/default/files/img/tv-equip-1.jpg" />
+          <template slot="image">
+            <img src="//rt-static.rt.ru/sites/default/files/img/tv-equip-1.jpg"/>
           </template>
         </rt-slider-item>
         <rt-slider-item>
@@ -40,8 +41,8 @@
       </rt-slider>
       </rt-col>
 			<div class="rt-col">
-				<pre-code
-						text='<rt-slider>
+<!--				<pre-code text='-->
+				<rt-slider>
           <rt-slider-item>
             <template slot="label">Вы получаете</template>
             <template slot="title">Синхронизация на разных устройствах</template>
@@ -80,7 +81,8 @@
             <template slot="image-tablet"><img src="https://rt-static.rt.ru/sites/default/files/img/domofon/main-td.jpg" alt=""/></template>
             <template slot="image-mobile"><img src="https://rt-static.rt.ru/sites/default/files/img/domofon/main-mb.jpg" alt=""/></template>
           </rt-slider-item>
-        </rt-slider>'></pre-code>
+        </rt-slider>
+<!--        '></pre-code>-->
 			</div>
 		</div>
     <div class="rt-container rt-space-top25">

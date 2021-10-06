@@ -27,18 +27,20 @@
 			<rt-row class="sp-v-1">
 			<rt-col size="6">
 				<pre-code text='
-				<rt-help-block :on-click="alert">
-					<template slot="content">К сожалению, Ваш дом еще не подключен к сети. Заявка будет предварительной</template>
-					<template slot="action-text">Проверить другой адрес</template>
-				</rt-help-block>'></pre-code>
+          <rt-help-block :on-click="alert">
+            <template slot="content">К сожалению, Ваш дом еще не подключен к сети. Заявка будет предварительной</template>
+            <template slot="action-text">Проверить другой адрес</template>
+          </rt-help-block>
+        '></pre-code>
 			</rt-col>
 			<rt-col size="1"></rt-col>
 			<rt-col size="3">
 				<pre-code text='
-				<rt-help-block :on-click="alert" :hide-icon="true">
-					<template slot="content">К сожалению, Ваш дом еще не подключен к сети. Заявка будет предварительной</template>
-					<template slot="action-text">Проверить другой адрес</template>
-				</rt-help-block>'></pre-code>
+          <rt-help-block :on-click="alert" :hide-icon="true">
+            <template slot="content">К сожалению, Ваш дом еще не подключен к сети. Заявка будет предварительной</template>
+            <template slot="action-text">Проверить другой адрес</template>
+          </rt-help-block>
+        '></pre-code>
 			</rt-col>
 			</rt-row>
 		</div>
@@ -59,21 +61,23 @@
 						</rt-help-block>
 					</rt-col>
 				</rt-row>
-				<rt-row  class="sp-t-1">
+				<rt-row class="sp-t-1">
 					<rt-col size="6">
 						<pre-code text='
-				<rt-help-block :bright="true" :on-click="alert">
-					<template slot="content">К сожалению, Ваш дом еще не подключен к сети. Заявка будет предварительной</template>
-					<template slot="action-text">Проверить другой адрес</template>
-				</rt-help-block>'></pre-code>
+              <rt-help-block :bright="true" :on-click="alert">
+                <template slot="content">К сожалению, Ваш дом еще не подключен к сети. Заявка будет предварительной</template>
+                <template slot="action-text">Проверить другой адрес</template>
+              </rt-help-block>
+            '></pre-code>
 					</rt-col>
 					<rt-col size="1"></rt-col>
 					<rt-col size="3">
 						<pre-code text='
-				<rt-help-block :bright="true" :on-click="alert" :hide-icon="true">
-					<template slot="content">К сожалению, Ваш дом еще не подключен к сети. Заявка будет предварительной</template>
-					<template slot="action-text">Проверить другой адрес</template>
-				</rt-help-block>'></pre-code>
+              <rt-help-block :bright="true" :on-click="alert" :hide-icon="true">
+                <template slot="content">К сожалению, Ваш дом еще не подключен к сети. Заявка будет предварительной</template>
+                <template slot="action-text">Проверить другой адрес</template>
+              </rt-help-block>
+            '></pre-code>
 					</rt-col>
 				</rt-row>
 			</div>
