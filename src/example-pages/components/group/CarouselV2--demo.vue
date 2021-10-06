@@ -277,31 +277,31 @@
           </rt-carousel-slide-v3>
       </rt-carousel-v3>
 
-<!--      <rt-carousel-v2>-->
-<!--        <rt-carousel-slide-v2-->
-<!--          v-for="i in 7"-->
-<!--          :key="i">-->
-<!--          <div-->
-<!--            style="-->
-<!--              background-size: cover;-->
-<!--              border-radius: 8px;-->
-<!--              height: 300px;-->
-<!--              position: relative;-->
-<!--            "-->
-<!--            :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">-->
-<!--            <div-->
-<!--              style="-->
-<!--                background-color: black;-->
-<!--                color: white;-->
-<!--                position: absolute;-->
-<!--                bottom: 0;-->
-<!--                right: 0;-->
-<!--                padding: 0 10px;-->
-<!--              "-->
-<!--              v-text="i"/>-->
-<!--          </div>-->
-<!--        </rt-carousel-slide-v2>-->
-<!--      </rt-carousel-v2>-->
+      <rt-carousel-v2>
+        <rt-carousel-slide-v2
+          v-for="i in 7"
+          :key="i">
+          <div
+            style="
+              background-size: cover;
+              border-radius: 8px;
+              height: 300px;
+              position: relative;
+            "
+            :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">
+            <div
+              style="
+                background-color: black;
+                color: white;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding: 0 10px;
+              "
+              v-text="i"/>
+          </div>
+        </rt-carousel-slide-v2>
+      </rt-carousel-v2>
     </div>
 
 <!--    <div class="rt-container sp-v-2">-->
