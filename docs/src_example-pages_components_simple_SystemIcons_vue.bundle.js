@@ -25,30 +25,53 @@ var componentsList = {};
   data: function data() {
     return {
       documentation: {},
-      classnames: {}
+      classnames: {},
+      names: []
     };
   },
   mounted: function mounted() {
     this.documentation = _vue_rt_style_kit_atoms_local_components_SystemIcons_docs_index_json__WEBPACK_IMPORTED_MODULE_2__;
     this.classnames = _vue_rt_style_kit_atoms_local_components_SystemIcons_docs_classnames_json__WEBPACK_IMPORTED_MODULE_1__;
+    this.names = _vue_rt_style_kit_atoms_local_components_SystemIcons_docs_names_json__WEBPACK_IMPORTED_MODULE_0__;
   },
   methods: {},
   computed: {
-    renderList: function renderList() {
-      var h = this.$createElement;
-      return _vue_rt_style_kit_atoms_local_components_SystemIcons_docs_names_json__WEBPACK_IMPORTED_MODULE_0__.map(function (i) {
+    renderTable: function renderTable() {}
+  },
+  render: function render() {
+    var _this = this;
+
+    var h = arguments[0];
+
+    var renderList = function renderList() {
+      return _this.names.map(function (i) {
         var code = '<rt-system-icons name="' + i.name + '"></rt-system-icons>';
         return h("rt-table-row", [h("rt-table-item", [h("pre-code", {
           "attrs": {
             "text": code
           }
         })]), h("rt-table-item", [i.name]), h("rt-table-item", [i.label])]);
+      }).filter(function (i) {
+        return i.tag;
       });
-    },
-    renderTable: function renderTable() {}
-  },
-  render: function render() {
-    var h = arguments[0];
+    };
+
+    var renderListNode = renderList();
+
+    var renderTable = function renderTable() {
+      if (renderListNode.length > 0) {
+        return h("rt-table", {
+          "class": "rt-font-label"
+        }, [h("template", {
+          "slot": "header"
+        }, [h("rt-table-head-item", ["icon"]), h("rt-table-head-item", ["name"]), h("rt-table-head-item", ["label"])]), h("template", {
+          "slot": "body"
+        }, [renderListNode])]);
+      }
+
+      return null;
+    };
+
     return h("div", {
       "class": "rt-container"
     }, [h("div", {
@@ -65,13 +88,7 @@ var componentsList = {};
       "attrs": {
         "size": "12"
       }
-    }, [h("rt-table", {
-      "class": "rt-font-label"
-    }, [h("template", {
-      "slot": "header"
-    }, [h("rt-table-head-item", ["icon"]), h("rt-table-head-item", ["name"]), h("rt-table-head-item", ["label"])]), h("template", {
-      "slot": "body"
-    }, [this.renderList])])])]), h("div", {
+    }, [renderTable()])]), h("div", {
       "class": "app-row row"
     }, [h("rt-col", {
       "attrs": {

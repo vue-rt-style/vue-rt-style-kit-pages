@@ -98,31 +98,26 @@ var load = function load(cmpDecorator, fileLocation) {
  * Экспериментальный компонент скелета
  * @param {Array} heights - список высот для точек слома (md, td, dd)
  */
+// const skeleton = heights => {
+//   const normalizeBpSize = bp => parseInt(variables[bp], 10)
+//   const breakpoints = [
+//     normalizeBpSize('tablet-lower-limit'),
+//     normalizeBpSize('laptop-lower-limit')
+//   ]
+//   const bpKey = breakpoints.find(bp => window.innerWidth <= bp) || 2
+//   return {
+//     render (h) {
+//       return <div style={`height: ${heights[bpKey]}px`}></div>
+//     }
+//   }
+// }
 
-
-var skeleton = function skeleton(heights) {
-  var normalizeBpSize = function normalizeBpSize(bp) {
-    return parseInt(vue_rt_style_kit_atoms_src_variables__WEBPACK_IMPORTED_MODULE_0__[bp], 10);
-  };
-
-  var breakpoints = [normalizeBpSize('tablet-lower-limit'), normalizeBpSize('laptop-lower-limit')];
-  var bpKey = breakpoints.find(function (bp) {
-    return window.innerWidth <= bp;
-  }) || 2;
-  return {
-    render: function render(h) {
-      return h("div", {
-        "style": "height: ".concat(heights[bpKey], "px")
-      });
-    }
-  };
-};
 /**
  * @info использовать через Vue.component(cmpDecorator, cmp), без use метода
  */
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread({}, load('RtTag', 'Tag/Tag.vue')), load('RtTagList', 'Tag/TagsList.vue')), load('RtArrowBlock', 'ArrowBlock/ArrowBlock.vue')), load('RtBenefitBlock', 'BenefitBlock/BenefitBlock.vue')), load('RtBenefitItem', 'BenefitBlock/BenefitItem.vue')), load('RtCarousel', 'Carousel/Carousel.vue')), load('RtCarouselSlide', 'Carousel/CarouselSlide.vue')), load('RtCarouselV2', 'CarouselV2/Carousel.vue')), load('RtCarouselSlideV2', 'CarouselV2/CarouselSlide.vue')), load('RtCarouselV3', 'CarouselV3/CarouselV3.vue')), load('RtCarouselSlideV3', 'CarouselV3/CarouselV3Item.vue')), load('RtPrivilege', 'Privilege/Privilege.vue')), load('RtTable', 'Table/Table.vue')), load('RtTableCol', 'Table/TableCol.vue')), load('RtTableHeadItem', 'Table/TableHeadItem.vue')), load('RtTableItem', 'Table/TableItem.vue')), load('RtTableRow', 'Table/TableRow.vue')), load('RtTabs', 'Tabs/Tabs.vue')), load('RtTabsContentItem', 'Tabs/TabsContentItem.vue')), load('RtTabsNavItem', 'Tabs/TabsNavigationItem.vue')), load('RtMicrotabs', 'Microtabs/Microtabs.vue')), load('RtMicrotabsCnt', 'Microtabs/MicrotabsContent.vue')), load('RtMicrotabsNav', 'Microtabs/MicrotabsNavigation.vue')), load('RtOptionsList', 'OptionsList/OptionsList.vue')), load('RtOptionsListInfoItem', 'OptionsList/OptionsListInfoItem.vue')), load('RtPrivilege', 'Privilege/Privilege.vue')), load('RtRowList', 'RowList/RowList.vue')), load('RtRowListItem', 'RowList/RowListItem.vue')), load('RtScrollTabs', 'ScrollTabs/ScrollTabs.vue')), load('RtCountdownTimer', 'CountdownTimer/CountdownTimer.vue')), load('RtPopover', 'Popover/Popover.vue')), load('RtUseCase', 'Card/UseCase/UseCase.vue')), load('RtCheckboxTabs', 'CheckboxTabs/CheckboxTabs.vue')), load('RtDownloadContent', 'DownloadContent/DownloadContent.vue')), load('RtHelpBlock', 'HelpBlock/HelpBlock.vue')), load('RtMessageBox', 'MessageBox/MessageBox.vue')), load('RtPattern', 'Pattern/Pattern.vue')), load('RtPopup', 'Popup/Popup.vue')), load('RtRealPopup', 'Popup/RealPopup.vue')), load('RtSlideContent', 'SlideContent/SlideContent.vue')), load('RtSlideContentDottedContent', 'SlideContent/SlideContentDottedContent.vue')), load('RtSlideContentDottedHeader', 'SlideContent/SlideContentDottedHeader.vue')), load('RtSticky', 'Sticky/Sticky.vue')), load('RtStickyBottomLine', 'StickyBottomLine/StickyBottomLine.vue')), load('RtStickyHeaderLine', 'StickyHeaderLine/StickyHeaderLine.vue')), load('RtBanner', 'Banner/Banner.vue')), load('RtBannerItem', 'Banner/BannerItem.vue')), load('RtBannerPaginatorItem', 'Banner/BannerPaginatorItem.vue')), load('RtBannerV2', 'BannerV2/Banner.vue')), load('RtBannerItemV2', 'BannerV2/BannerItem.vue')), load('RtBannerSkeleton', 'BannerV2/BannerSkeleton.vue')), load('RtCard', 'Card/Card/Card.vue')), load('RtCardB2o', 'Card/CardB2o/CardB2o.vue')), load('RtCardBanner', 'Card/CardBanner/CardBanner.vue')), load('RtCardTileLayout', 'Card/CardBanner/CardTileLayout.vue')), load('RtCardCarousel', 'Card/CardCarousel/CardCarousel.vue')), load('RtCardHelp', 'Card/CardHelp/CardHelp.vue')), load('RtCardImage', 'Card/CardImage/CardImage.vue')), load('RtCardRounded', 'Card/CardRounded/CardRounded.vue')), load('RtCardSkeleton', 'Card/CardSkeleton/CardSkeleton.vue')), load('LinksBlock', 'Card/Card/LinksBlock.vue')), load('RtCommentSlider', 'CommentSlider/CommentSlider.vue')), load('RtCommentSliderItem', 'CommentSlider/CommentSliderItem.vue')), load('RtFilterN', 'FilterV2/Filter.vue')), load('RtFilterNItem', 'FilterV2/FilterItem.vue')), load('RtFilterNSetter', 'FilterV2/FilterSetter.vue')), load('RtJumbotron', 'Jumbotron/Jumbotron.vue', skeleton([450, 380, 520]))), load('RtMinibanner', 'Minibanner/Minibanner.vue')), load('RtPhoneNumberInput', 'PhoneNumberInput/PhoneNumberInput.vue')), load('RtPreviewBanner', 'PreviewBanner/PreviewBanner.vue')), load('RtProductCard', 'ProductCard/ProductCard.vue')), load('RtResizeContentHeight', 'ResizeContentHeight/ResizeContentHeight.vue')), load('RtSlider', 'Slider/Slider.vue')), load('RtSliderItem', 'Slider/SliderItem.vue')), load('RtSwiper', 'Swiper/Swiper.vue')), load('RtSlide', 'Swiper/Slide.vue')), load('RtTabsSlider', 'TabsSlider/TabsSlider.vue')), load('RtTabsSliderItem', 'TabsSlider/TabsSliderItem.vue')), load('RtTextImageBlock', 'TextImageBlock/TextImageBlock.vue')), load('RtVideoBanner', 'VideoBanner/VideoBanner.vue')), load('RtYoutube', 'Youtube/Youtube.vue')), load('ShowOn', 'ShowOn/ShowOn.vue')), load('RtUnWrapper', 'MobileExpandWrapper/UnWrapper.vue')));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread({}, load('RtTag', 'Tag/Tag.vue')), load('RtTagList', 'Tag/TagsList.vue')), load('RtArrowBlock', 'ArrowBlock/ArrowBlock.vue')), load('RtBenefitBlock', 'BenefitBlock/BenefitBlock.vue')), load('RtBenefitItem', 'BenefitBlock/BenefitItem.vue')), load('RtCarousel', 'Carousel/Carousel.vue')), load('RtCarouselSlide', 'Carousel/CarouselSlide.vue')), load('RtCarouselV2', 'CarouselV2/Carousel.vue')), load('RtCarouselSlideV2', 'CarouselV2/CarouselSlide.vue')), load('RtCarouselV3', 'CarouselV3/CarouselV3.vue')), load('RtCarouselSlideV3', 'CarouselV3/CarouselV3Item.vue')), load('RtPrivilege', 'Privilege/Privilege.vue')), load('RtTable', 'Table/Table.vue')), load('RtTableCol', 'Table/TableCol.vue')), load('RtTableHeadItem', 'Table/TableHeadItem.vue')), load('RtTableItem', 'Table/TableItem.vue')), load('RtTableRow', 'Table/TableRow.vue')), load('RtTabs', 'Tabs/Tabs.vue')), load('RtTabsContentItem', 'Tabs/TabsContentItem.vue')), load('RtTabsNavItem', 'Tabs/TabsNavigationItem.vue')), load('RtMicrotabs', 'Microtabs/Microtabs.vue')), load('RtMicrotabsCnt', 'Microtabs/MicrotabsContent.vue')), load('RtMicrotabsNav', 'Microtabs/MicrotabsNavigation.vue')), load('RtOptionsList', 'OptionsList/OptionsList.vue')), load('RtOptionsListInfoItem', 'OptionsList/OptionsListInfoItem.vue')), load('RtPrivilege', 'Privilege/Privilege.vue')), load('RtRowList', 'RowList/RowList.vue')), load('RtRowListItem', 'RowList/RowListItem.vue')), load('RtScrollTabs', 'ScrollTabs/ScrollTabs.vue')), load('RtCountdownTimer', 'CountdownTimer/CountdownTimer.vue')), load('RtPopover', 'Popover/Popover.vue')), load('RtUseCase', 'Card/UseCase/UseCase.vue')), load('RtCheckboxTabs', 'CheckboxTabs/CheckboxTabs.vue')), load('RtDownloadContent', 'DownloadContent/DownloadContent.vue')), load('RtHelpBlock', 'HelpBlock/HelpBlock.vue')), load('RtMessageBox', 'MessageBox/MessageBox.vue')), load('RtPattern', 'Pattern/Pattern.vue')), load('RtPopup', 'Popup/Popup.vue')), load('RtRealPopup', 'Popup/RealPopup.vue')), load('RtSlideContent', 'SlideContent/SlideContent.vue')), load('RtSlideContentDottedContent', 'SlideContent/SlideContentDottedContent.vue')), load('RtSlideContentDottedHeader', 'SlideContent/SlideContentDottedHeader.vue')), load('RtSticky', 'Sticky/Sticky.vue')), load('RtStickyBottomLine', 'StickyBottomLine/StickyBottomLine.vue')), load('RtStickyHeaderLine', 'StickyHeaderLine/StickyHeaderLine.vue')), load('RtBanner', 'Banner/Banner.vue')), load('RtBannerItem', 'Banner/BannerItem.vue')), load('RtBannerPaginatorItem', 'Banner/BannerPaginatorItem.vue')), load('RtBannerV2', 'BannerV2/Banner.vue')), load('RtBannerItemV2', 'BannerV2/BannerItem.vue')), load('RtBannerSkeleton', 'BannerV2/BannerSkeleton.vue')), load('RtCard', 'Card/Card/Card.vue')), load('RtCardB2o', 'Card/CardB2o/CardB2o.vue')), load('RtCardBanner', 'Card/CardBanner/CardBanner.vue')), load('RtCardTileLayout', 'Card/CardBanner/CardTileLayout.vue')), load('RtCardCarousel', 'Card/CardCarousel/CardCarousel.vue')), load('RtCardHelp', 'Card/CardHelp/CardHelp.vue')), load('RtCardImage', 'Card/CardImage/CardImage.vue')), load('RtCardRounded', 'Card/CardRounded/CardRounded.vue')), load('RtCardSkeleton', 'Card/CardSkeleton/CardSkeleton.vue')), load('LinksBlock', 'Card/Card/LinksBlock.vue')), load('RtCommentSlider', 'CommentSlider/CommentSlider.vue')), load('RtCommentSliderItem', 'CommentSlider/CommentSliderItem.vue')), load('RtFilterN', 'FilterV2/Filter.vue')), load('RtFilterNItem', 'FilterV2/FilterItem.vue')), load('RtFilterNSetter', 'FilterV2/FilterSetter.vue')), load('RtJumbotron', 'Jumbotron/Jumbotron.vue')), load('RtMinibanner', 'Minibanner/Minibanner.vue')), load('RtPhoneNumberInput', 'PhoneNumberInput/PhoneNumberInput.vue')), load('RtPreviewBanner', 'PreviewBanner/PreviewBanner.vue')), load('RtProductCard', 'ProductCard/ProductCard.vue')), load('RtResizeContentHeight', 'ResizeContentHeight/ResizeContentHeight.vue')), load('RtSlider', 'Slider/Slider.vue')), load('RtSliderItem', 'Slider/SliderItem.vue')), load('RtSwiper', 'Swiper/Swiper.vue')), load('RtSlide', 'Swiper/Slide.vue')), load('RtTabsSlider', 'TabsSlider/TabsSlider.vue')), load('RtTabsSliderItem', 'TabsSlider/TabsSliderItem.vue')), load('RtTextImageBlock', 'TextImageBlock/TextImageBlock.vue')), load('RtVideoBanner', 'VideoBanner/VideoBanner.vue')), load('RtYoutube', 'Youtube/Youtube.vue')), load('ShowOn', 'ShowOn/ShowOn.vue')), load('RtUnWrapper', 'MobileExpandWrapper/UnWrapper.vue')));
 
 /***/ }),
 
@@ -583,6 +578,10 @@ var map = {
 		"./src/molecules/components/DownloadContent/docs/index.json",
 		3,
 		"src_molecules_components_DownloadContent_docs_index_json"
+	],
+	"./FilterV2/Filter.styl": [
+		"./src/molecules/components/FilterV2/Filter.styl",
+		9
 	],
 	"./FilterV2/Filter.vue": [
 		"./src/molecules/components/FilterV2/Filter.vue",
@@ -1238,6 +1237,10 @@ var map = {
 	],
 	"./Table/TableRow.vue": [
 		"./src/molecules/components/Table/TableRow.vue",
+		9
+	],
+	"./Tabs/Tabs.styl": [
+		"./src/molecules/components/Tabs/Tabs.styl",
 		9
 	],
 	"./Tabs/Tabs.vue": [
