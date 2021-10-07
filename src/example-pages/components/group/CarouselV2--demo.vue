@@ -192,7 +192,7 @@
             "
                 class="d-flex flex-v-end"
                 :style="`background: url(https://picsum.photos/500/300?getForId=${i+35})`">
-              <div class="d-flex flex-end-center flex-v-center">Это текст {{i}} <rt-popover :enable-horizontal-value-calculation="true" :container-id="'slide-2-'+i">
+              <div class="d-flex flex-end-center flex-v-center">Это текст {{i}} <rt-popover :enable-append-to-body="true" :container-id="'slide-2-'+i">
                 <template slot="customIcon">
                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="16" cy="16" r="16" fill="#101828" fill-opacity="0.03"/>
