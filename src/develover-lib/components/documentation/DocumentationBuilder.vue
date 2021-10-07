@@ -27,7 +27,7 @@
                 default: "components"
             },
             labelsJson: {
-                type: Object,
+                type: [Object, Array],
                 default: null
             },
             json: {

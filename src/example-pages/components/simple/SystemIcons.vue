@@ -12,17 +12,26 @@ export default {
   },
   data: () => ({
     documentation: {},
-    classnames: {}
+    classnames: {},
+    names: []
   }),
   mounted() {
     this.documentation = documentation;
     this.classnames = classnames;
+    this.names = names
+
   },
   methods: {},
   computed: {
-    renderList() {
+    renderTable() {
 
-      return names.map((i) => {
+    },
+
+  },
+  render() {
+    const renderList = ()=> {
+
+      return this.names.map((i) => {
         const code = '<rt-system-icons name="' + i.name + '"></rt-system-icons>'
         return <rt-table-row>
           <rt-table-item>
@@ -35,14 +44,22 @@ export default {
             {i.label}
           </rt-table-item>
         </rt-table-row>
-      })
-    },
-    renderTable() {
-
-    },
-
-  },
-  render() {
+      }).filter(i => i.tag)
+    }
+    const renderListNode = renderList()
+    const renderTable = ()=>{
+      if(renderListNode.length > 0){
+        return <rt-table class="rt-font-label">
+          <template slot="header">
+            <rt-table-head-item>icon</rt-table-head-item>
+            <rt-table-head-item>name</rt-table-head-item>
+            <rt-table-head-item>label</rt-table-head-item>
+          </template>
+          <template slot="body">{renderListNode}</template>
+        </rt-table>
+      }
+      return null
+    }
     return <div class="rt-container">
       <div class="app-content rt-col-12 rt-col-md-3">
         <div class="app-title">
@@ -53,14 +70,7 @@ export default {
         <div class="app-body">
           <div class="app-row row">
             <rt-col size="12">
-              <rt-table class="rt-font-label">
-                <template slot="header">
-                  <rt-table-head-item>icon</rt-table-head-item>
-                  <rt-table-head-item>name</rt-table-head-item>
-                  <rt-table-head-item>label</rt-table-head-item>
-                </template>
-                <template slot="body">{this.renderList}</template>
-              </rt-table>
+              {renderTable()}
             </rt-col>
           </div>
           <div class="app-row row">
