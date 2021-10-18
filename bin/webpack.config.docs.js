@@ -149,9 +149,6 @@ const config = {
                   //
                 }
               },
-              //             json("../variables.json")
-// json("../color.json")
-// json("../styleOptions.json")
             }
           }
         ],
@@ -160,7 +157,7 @@ const config = {
         test: /\.(jpg|png|webp|gif|otf|ttf|woff|woff2|ani|eot|svg)$/,
         loader: `url-loader`,
         options: {
-          name: `[name].[hash:20].[ext]`,
+          name: `[name].[ext]`,
           limit: 10000,
         },
       },

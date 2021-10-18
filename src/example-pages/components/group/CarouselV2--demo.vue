@@ -69,6 +69,14 @@
               <p>active index</p>
               <input type="number" v-model="activeIndex">
             </rt-col>
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
+              <p>enable custom time</p>
+              <input type="checkbox" v-model="enableCustomTime">
+            </rt-col>
+            <rt-col size="2" tablet-size="3" mobile-size="3" mobile-top="20" tablet-top="12">
+              <p>custom time</p>
+              <input type="text" v-model="customTime">
+            </rt-col>
           </rt-row>
         </div>
       </div>
@@ -81,12 +89,15 @@
         <template slot="content">
           <rt-tabs-content-item name="1">
             {{shadowColor}}
+            !
       <rt-carousel-v3 :scroll-step="scrollStep"
                       :laptop-scroll-step="laptopScrollStep"
                       :td-scroll-step="tdScrollStep"
+                      :custom-time="customTime"
+                      :enable-custom-time="enableCustomTime"
                       :md-scroll-step="mdScrollStep" :active-index="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
 <!--        <pre-timeout  :time="i*1000" >-->
-        <rt-carousel-slide-v3 v-for="i in 15" :key="i+'$'" :id="'slide-'+i">
+        <rt-carousel-slide-v3 v-for="i in 8" :key="i+'$'" :id="'slide-'+i">
           <div>
           <div
               style="
@@ -136,6 +147,7 @@
 
 
           </rt-tabs-content-item>
+
           <rt-tabs-content-item name="2">
             <div class="color-block--green sp-v-2">11122</div>
             <rt-carousel-v3 :scroll-step="scrollStep"
@@ -225,7 +237,7 @@
         <!--        </pre-timeout>-->
       </rt-carousel-v3>
       <rt-carousel-v3 :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :scrollable-on-desktop="scrollableondesktop">
-          <rt-carousel-slide-v3 v-for="i in 5" :time="i*1000" :key="i">
+          <rt-carousel-slide-v3 v-for="i in 8" :time="i*1000" :key="i">
             <div>
               <div
                   style="
@@ -277,31 +289,31 @@
           </rt-carousel-slide-v3>
       </rt-carousel-v3>
 
-      <rt-carousel-v2>
-        <rt-carousel-slide-v2
-          v-for="i in 7"
-          :key="i">
-          <div
-            style="
-              background-size: cover;
-              border-radius: 8px;
-              height: 300px;
-              position: relative;
-            "
-            :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">
-            <div
-              style="
-                background-color: black;
-                color: white;
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                padding: 0 10px;
-              "
-              v-text="i"/>
-          </div>
-        </rt-carousel-slide-v2>
-      </rt-carousel-v2>
+<!--      <rt-carousel-v2>-->
+<!--        <rt-carousel-slide-v2-->
+<!--          v-for="i in 7"-->
+<!--          :key="i">-->
+<!--          <div-->
+<!--            style="-->
+<!--              background-size: cover;-->
+<!--              border-radius: 8px;-->
+<!--              height: 300px;-->
+<!--              position: relative;-->
+<!--            "-->
+<!--            :style="`background: url(https://picsum.photos/500/300?getForId=${i})`">-->
+<!--            <div-->
+<!--              style="-->
+<!--                background-color: black;-->
+<!--                color: white;-->
+<!--                position: absolute;-->
+<!--                bottom: 0;-->
+<!--                right: 0;-->
+<!--                padding: 0 10px;-->
+<!--              "-->
+<!--              v-text="i"/>-->
+<!--          </div>-->
+<!--        </rt-carousel-slide-v2>-->
+<!--      </rt-carousel-v2>-->
     </div>
 
 <!--    <div class="rt-container sp-v-2">-->
@@ -488,6 +500,8 @@ export default {
       tdScrollStep:1,
       mdScrollStep:1,
       waitTime: this.getRandomNumberFromRange(3,15)*1000,
+      enableCustomTime: false,
+      customTime: 0.3
     }
   },
   components: componentsList,
