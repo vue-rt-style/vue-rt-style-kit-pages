@@ -12,7 +12,7 @@
             <rt-row class="sp-t-2 sp-b-3">
               <rt-col size="4">
                 <div class="relative d-inline-block">
-                  <pre-code text='<rt-popover vertical="center" horizontal="top">
+                  <pre-code text='<rt-popover :enable-ga-push="true" ga-value="test message" vertical="center" horizontal="top">
 	                  <template slot="customIcon">
 		                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 			                  <circle cx="16" cy="16" r="16" fill="#101828" fill-opacity="0.03"/>
