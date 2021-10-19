@@ -8,7 +8,7 @@ const index = [
   { path: "/space-colorized", name: "app-grid", component: () => import("../components/main/SpaceColorized.vue") },
   { path: "/grid", name: "app-grid", component: () => import("../components/main/Grid.vue") },
   { path: "/grid_component", name: "grid component", component: () => import("../components/main/GridComponent.vue") },
-  { path: "/system_icons", name: "system icons", component: () => import("../components/simple/SystemIcons.vue") },
+  // { path: "/system_icons", name: "system icons", component: () => import("../components/simple/SystemIcons.vue") },
 
   // form
   { path: "/buttons", name: "app-buttons", component: () => import("../components/form/Buttons.vue") },
@@ -24,7 +24,7 @@ const index = [
   // simple
   { path: "/tooltip", name: "app-tooltip", component: () => import("../components/simple/Tooltip.vue") },
   { path: "/logo", name: "app-logo", component: () => import("../components/simple/Logo.vue") },
-  { path: "/icons", name: "app-icons", component: () => import("../components/simple/Icons.vue") },
+  // { path: "/icons", name: "app-icons", component: () => import("../components/simple/Icons.vue") },
   { path: "/spinner", name: "app-spinner", component: () => import("../components/simple/Spinner.vue") },
   { path: "/popup", name: "realPopup", component: () => import("../components/simple/Popup.vue") },
   { path: "/popover", name: "popover", component: () => import("../components/group/Popover.vue") },
