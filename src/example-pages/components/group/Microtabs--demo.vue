@@ -200,7 +200,7 @@ export default {
   computed:{
     sampleView(){
       return `
-<div style="width:200px">
+<div style="max-width:200px">
   <rt-microtabs class="color-block--white sp-h-1 sp-v-0-3">
     <template slot="nav">
       <rt-microtabs-nav theme="flat"><rt-system-icons name="speed 8x" color="main-color"></rt-system-icons></rt-microtabs-nav>
@@ -219,9 +219,11 @@ export default {
   <template slot="nav">
     <rt-microtabs-nav theme="purple">Акция</rt-microtabs-nav>
     <rt-microtabs-nav>Сервисы</rt-microtabs-nav>
-    <rt-microtabs-nav>Длинотекст</rt-microtabs-nav>
+    <rt-microtabs-nav>Мультирум</rt-microtabs-nav>
+
     <rt-microtabs-nav>Антивирус</rt-microtabs-nav>
     <rt-microtabs-nav>Яндекс Диск</rt-microtabs-nav>
+    <rt-microtabs-nav>Просмотр на 5 устройствах</rt-microtabs-nav>
   </template>
   <template slot="cnt">
     <rt-microtabs-cnt>
@@ -244,6 +246,9 @@ export default {
     </rt-microtabs-cnt>
     <rt-microtabs-cnt>
       <p>5 ГБ Яндекс.Диск +</p>
+    </rt-microtabs-cnt>
+    <rt-microtabs-cnt>
+      <p>Kaspersky Internet Security 2 устройства</p>
     </rt-microtabs-cnt>
   </template>
 </rt-microtabs>
