@@ -11,6 +11,7 @@
         <rt-row class="app-row sp-t-2">
           <rt-col size="5" mobile-size="3">
             <h3 class="sp-b-1">Упрощенный режим (без контента)</h3>
+            <pre-code :text="sampleView"></pre-code>
           </rt-col>
 
           <rt-col size="12">
@@ -20,6 +21,148 @@
             <pre-code :text="spacesView"></pre-code>
           </rt-col>
           <rt-col size="6" mobile-size="3">
+            <pre-code :text="themesView"></pre-code>
+          </rt-col>
+
+          <rt-col size="12">
+            <h3 class="sp-t-2 sp-b-1">Режим без ограничения высоты контента</h3>
+          </rt-col>
+          <rt-col size="12" mobile-size="3" class="md-sp-b-2">
+            <pre-code :text="noFitView"></pre-code>
+          </rt-col>
+
+          <rt-col size="6" mobile-size="3">
+            <h3 class="sp-t-3 sp-b-1">Инверсия цвета (dark тема карточек)</h3>
+            <pre-code :text="inverseBlackViewA" class="sp-b-2"></pre-code>
+            <pre-code :text="inverseBlackViewB"></pre-code>
+          </rt-col>
+          <rt-col size="6" mobile-size="3">
+            <h3 class="sp-t-3 sp-b-1  md-sp-t-2">Инверсия цвета (yadisk тема карточек)</h3>
+            <pre-code :text="inverseBlueViewA" class="sp-b-2"></pre-code>
+            <pre-code :text="inverseBlueViewB"></pre-code>
+          </rt-col>
+
+          <rt-col size="12">
+            <h3 class="sp-t-3 sp-b-1">Требования и дизайн-система</h3>
+          </rt-col>
+          <rt-col size="3" tablet-size="3" mobile-size="3">
+            <p class="sp-b-1">Нельзя размещать всю палитру раскрашенных microtabs-nav в ряд</p>
+            <div class="dont-use" style="max-width:280px">
+              <rt-microtabs>
+                <template slot="nav">
+                  <rt-microtabs-nav theme="purple">Цвет A</rt-microtabs-nav>
+                  <rt-microtabs-nav theme="orange">Цвет B</rt-microtabs-nav>
+                  <rt-microtabs-nav>Обычный цвет</rt-microtabs-nav>
+                </template>
+                <template slot="cnt">
+                  <rt-microtabs-cnt>
+                    <p>Описание вкладки в одну строку</p>
+                  </rt-microtabs-cnt>
+                  <rt-microtabs-cnt>
+                    <p>Описание вкладки в одну строку</p>
+                    <p>Описание вкладки во вторую строку</p>
+                  </rt-microtabs-cnt>
+                  <rt-microtabs-cnt>
+                    <p>Описание вкладки в одну строку</p>
+                    <p>Описание вкладки во вторую строку</p>
+                  </rt-microtabs-cnt>
+                </template>
+              </rt-microtabs>
+            </div>
+          </rt-col>
+          <rt-col size="3" tablet-size="3" mobile-size="3">
+            <p class="sp-b-1  md-sp-t-2">Нельзя размещать различный по высоте контент в microtabs-cnt</p>
+            <div class="dont-use">
+              <rt-microtabs :fit="false" style="border:2px solid #f00">
+                <template slot="nav">
+                  <rt-microtabs-nav>Вкладка A</rt-microtabs-nav>
+                  <rt-microtabs-nav>Вкладка B</rt-microtabs-nav>
+                  <rt-microtabs-nav>Вкладка C</rt-microtabs-nav>
+                </template>
+                <template slot="cnt">
+                  <rt-microtabs-cnt>
+                    <p>Описание вкладки в одну строку</p>
+                  </rt-microtabs-cnt>
+                  <rt-microtabs-cnt>
+                    <p>Описание вкладки в одну строку</p>
+                    <p>Описание вкладки во вторую строку</p>
+                    <p>Описание вкладки в третью строку</p>
+                    <p>Описание вкладки в четвертую строку</p>
+                    <p>Описание вкладки в пятую строку</p>
+                    <p>Описание вкладки в шестую строку</p>
+                    <p>Описание вкладки в седьмую строку</p>
+                    <p>Описание вкладки в восьмую строку</p>
+                    <p>и так до бесконечности...</p>
+                  </rt-microtabs-cnt>
+                  <rt-microtabs-cnt>
+                    <p>Описание вкладки в одну строку</p>
+                  </rt-microtabs-cnt>
+                </template>
+              </rt-microtabs>
+            </div>
+          </rt-col>
+
+          <rt-col size="12">
+            <h4 class="sp-t-2 sp-b-1">Tester</h4>
+          </rt-col>
+          <rt-col size="5" mobile-size="3">
+            <div class="sp-b-1 d-flex">
+              <input type="range" min="250" max="780" v-model="testBlockWidth">
+              &nbsp;width: {{ testBlockWidth }}px
+            </div>
+            <div class="sp-b-1">
+              <a @click="() => cloneShown = !cloneShown" href="javascript:void(0)">Clone toggle</a>
+            </div>
+            <!-- @TODO - Reactive list -->
+            <!-- <div class="sp-b-1">
+              <a @click="() => {
+                if (!testList.length) return
+                testListHidden.push(testList[0])
+                testList.splice(0, 1)
+              }" href="javascript:void(0)">List less</a>
+            </div>
+            <div class="sp-b-1">
+              <a @click="() => {
+                if (!testListHidden.length) return
+                testList.push(testListHidden[0])
+                testListHidden.splice(0, 1)
+              }" href="javascript:void(0)">List more</a>
+            </div> -->
+          </rt-col>
+          <rt-col size="7" mobile-size="3">
+            <rt-microtabs
+                class="test-list test-list--accent sp-v-0-3"
+                :style="`width:${testBlockWidth}px`"
+            >
+              <template slot="nav">
+                <rt-microtabs-nav v-for="(nav, key) in testList" :key="key">
+                  <div v-html="nav.nav"></div>
+                </rt-microtabs-nav>
+              </template>
+              <template slot="cnt">
+                <rt-microtabs-cnt
+                    v-for="(cnt, key) in testList" :key="key"
+                    v-html="cnt.cnt"
+                ></rt-microtabs-cnt>
+              </template>
+            </rt-microtabs>
+            <rt-microtabs
+                v-if="cloneShown"
+                class="test-list sp-v-0-3"
+                :style="`width:${testBlockWidth}px`"
+            >
+              <template slot="nav">
+                <rt-microtabs-nav v-for="(nav, key) in testList" :key="key">
+                  <div v-html="nav.nav"></div>
+                </rt-microtabs-nav>
+              </template>
+              <template slot="cnt">
+                <rt-microtabs-cnt
+                    v-for="(cnt, key) in testList" :key="key"
+                    v-html="cnt.cnt"
+                ></rt-microtabs-cnt>
+              </template>
+            </rt-microtabs>
           </rt-col>
 
         </rt-row>
@@ -392,3 +535,4 @@ export default {
     .rt-microtabs-cnt__item:nth-child(4)
       background #f0f6
 </style>
+
