@@ -10,7 +10,7 @@
         <div class="row">
           <div class="rt-col-12">
             <pre-code
-              text="<rt-download-content >Приложения для мобильных устройств</rt-download-content>"
+              text="<rt-download-content :has-border='true'>Приложения для мобильных устройств</rt-download-content>"
             />
           </div>
         </div>

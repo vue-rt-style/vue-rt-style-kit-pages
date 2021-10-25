@@ -7,7 +7,7 @@
   \******************************************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"items":[{"name":"rt-download-content","property":"expansion","type":"String","description":"Указывает формат скачиваемого файла","value":""},{"name":"rt-download-content","property":"file-size","type":"String","description":"Указывает размер скачиваемого файла","value":""},{"name":"rt-download-content","property":"expansion","type":"String","description":"Ссылка на файл для скачивания","value":""}]}');
+module.exports = JSON.parse('{"items":[{"name":"rt-download-content","property":"expansion","type":"String","description":"Указывает формат скачиваемого файла","value":""},{"name":"rt-download-content","property":"file-size","type":"String","description":"Указывает размер скачиваемого файла","value":""},{"name":"rt-download-content","property":"expansion","type":"String","description":"Ссылка на файл для скачивания","value":""},{"name":"rt-download-content","property":"has-border","type":"Boolean","description":"флаг включения фиолетового бордера","value":""}]}');
 
 /***/ })
 
