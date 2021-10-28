@@ -11,7 +11,7 @@
             <div class="app-body">
                 <pre-code text='
                 <div>
-                <rt-row top="20">
+                <rt-row top="20" >
                     <rt-col size="1" tablet-size="1" mobile-size="1" class="app-col-fill">
                         <p class="app-col-fill__text td-d-none d-inline">
                             rt-col-1
