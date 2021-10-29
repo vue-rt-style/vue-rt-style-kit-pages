@@ -61,9 +61,8 @@
                 </rt-row>'></pre-code>
 
                 <pre-code
-                        text='<rt-row top="120">123</rt-row>'></pre-code>
-                <pre-code
-                        text='<rt-row top="120">123</rt-row>'></pre-code>
+                        text='<rt-row :top-adaptive="true" top="120">120 вверх адаптива</rt-row>'></pre-code>
+
                 <div class="rt-space-top25">
                     <documentation-builder :json="documentation" type="components"/>
                 </div>
