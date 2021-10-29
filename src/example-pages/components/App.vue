@@ -2,7 +2,7 @@
 
     import componentsList from "../componentsList";
     import variables from "@vue-rt-style-kit-atoms-local/variables.json";
-
+    import '../../css/app.styl'
 
     export default {
         name: "App",
@@ -37,7 +37,7 @@
         },
         computed: {
             appClasses() {
-                const classes = ['app'];
+                const classes = ['app','rt-body'];
                 if (this.showMenu) {
                     classes.push('app--hide-scroll');
                     classes.push('app--has-open-menu');
