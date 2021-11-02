@@ -10,7 +10,8 @@
       </div>
       <div class="app-body">
         <div class="row sp-b-2">
-            <pre-code text="<div class='rt-col-7 rt-col-td-6'>
+          <pre-code text="
+            <div class='rt-col-7 rt-col-td-6'>
               <rt-annotation :scroll-timeout='1000' :v2='true'>
                 <template slot='label'>Что такое ОС Аврора?</template>
                 <template slot='content'>
@@ -64,8 +65,8 @@
                   </ul>
                 </template>
               </rt-annotation>
-            </div>"
-            />
+            </div>
+          "/>
           <div class="rt-col-5"/>
         </div>
         <rt-annotation label="Примечание2" class="rt-space-top rt-space-bottom">
