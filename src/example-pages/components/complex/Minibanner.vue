@@ -76,6 +76,9 @@
 
       </rt-minibanner>'></pre-code>
     </div>
+
+
+
     <div class="color-block--main-color01 sp-v-3">
       <pre-code text='<rt-minibanner :reverse="true" background="orange" shadow-color="orange" color="white">
         <template slot="label">Аналитика речи</template>
