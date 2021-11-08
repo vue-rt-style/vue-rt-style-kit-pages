@@ -29,10 +29,10 @@ var componentsList = {};
   data: function data() {
     return {
       navigation: [{
-        link: 'help-main',
+        link: 'vue-rt-style-kit-pages/help-main',
         title: 'Активные мероприятия'
       }, {
-        link: 'game-arrows',
+        link: 'vue-rt-style-kit-pages/game-arrows',
         title: 'Архив мероприятий'
       }],
       isDesktop: false,
