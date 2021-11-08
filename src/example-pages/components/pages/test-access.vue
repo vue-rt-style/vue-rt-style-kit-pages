@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="rt-container td-sp-r-none">
-      <div class="rt-col ovh">
+      <div class="rt-col ovs">
         <div class="events-admin__event-item__table">
           <div class="events-admin__event-item__table-head">
             <div class="events-admin__event-item__table-row flex-center-center">
