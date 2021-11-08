@@ -88,6 +88,16 @@ var componentsList = {};
     },
     determineDeviceType: function determineDeviceType() {
       this.isDesktop = window.innerWidth > parseInt(_variables_json__WEBPACK_IMPORTED_MODULE_1__["tablet-upper-limit"]);
+    },
+    positionPopup: function positionPopup() {
+      var _this = this;
+
+      setTimeout(function () {
+        var activePopup = document.querySelector('.rt-popup-wrapper--is-active').querySelector('.rt-popup');
+        document.querySelector('.rt-popup-wrapper--is-active').addEventListener('click', _this.preventTransfer);
+        console.log(_this.$refs.edit);
+        activePopup.style.top = _this.$refs.edit.$el.getBoundingClientRect().top - activePopup.getBoundingClientRect().top + 'px';
+      }, 100);
     }
   }
 });
@@ -326,7 +336,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _actionButtons_vue_vue_type_template_id_58e0a708___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./actionButtons.vue?vue&type=template&id=58e0a708& */ "./src/example-pages/components/pages/actionButtons.vue?vue&type=template&id=58e0a708&");
+/* harmony import */ var _actionButtons_vue_vue_type_template_id_41d992b4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./actionButtons.vue?vue&type=template&id=41d992b4& */ "./src/example-pages/components/pages/actionButtons.vue?vue&type=template&id=41d992b4&");
 /* harmony import */ var _actionButtons_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./actionButtons.vue?vue&type=script&lang=js& */ "./src/example-pages/components/pages/actionButtons.vue?vue&type=script&lang=js&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
@@ -338,8 +348,8 @@ __webpack_require__.r(__webpack_exports__);
 ;
 var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _actionButtons_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _actionButtons_vue_vue_type_template_id_58e0a708___WEBPACK_IMPORTED_MODULE_0__.render,
-  _actionButtons_vue_vue_type_template_id_58e0a708___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  _actionButtons_vue_vue_type_template_id_41d992b4___WEBPACK_IMPORTED_MODULE_0__.render,
+  _actionButtons_vue_vue_type_template_id_41d992b4___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
   null,
@@ -465,18 +475,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/actionButtons.vue?vue&type=template&id=58e0a708&":
+/***/ "./src/example-pages/components/pages/actionButtons.vue?vue&type=template&id=41d992b4&":
 /*!*********************************************************************************************!*\
-  !*** ./src/example-pages/components/pages/actionButtons.vue?vue&type=template&id=58e0a708& ***!
+  !*** ./src/example-pages/components/pages/actionButtons.vue?vue&type=template&id=41d992b4& ***!
   \*********************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_actionButtons_vue_vue_type_template_id_58e0a708___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_actionButtons_vue_vue_type_template_id_58e0a708___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_actionButtons_vue_vue_type_template_id_41d992b4___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_actionButtons_vue_vue_type_template_id_41d992b4___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_actionButtons_vue_vue_type_template_id_58e0a708___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./actionButtons.vue?vue&type=template&id=58e0a708& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/pages/actionButtons.vue?vue&type=template&id=58e0a708&");
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_actionButtons_vue_vue_type_template_id_41d992b4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./actionButtons.vue?vue&type=template&id=41d992b4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/pages/actionButtons.vue?vue&type=template&id=41d992b4&");
 
 
 /***/ }),
@@ -497,9 +507,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/pages/actionButtons.vue?vue&type=template&id=58e0a708&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/pages/actionButtons.vue?vue&type=template&id=41d992b4&":
 /*!************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/pages/actionButtons.vue?vue&type=template&id=58e0a708& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/pages/actionButtons.vue?vue&type=template&id=41d992b4& ***!
   \************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -508,7 +518,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.isDesktop)?_c('div',{staticClass:"event-item__action-buttons flex-center-center"},[_c('div',{staticClass:"upload-participants-list"},[_c('input',{ref:"upload",attrs:{"type":"file","id":"upload"},on:{"change":_vm.uploadFile}}),_vm._v(" "),_c('rt-button',{attrs:{"color":"full-white"},on:{"click":_vm.selectFile}},[_c('rt-system-icons',{attrs:{"name":"upload","color":"main-color07"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2 color-main07 button-text"},[_vm._v("Загрузить список участников")])],1)],1),_vm._v(" "),_c('div',{staticClass:"sp-h-1 td-sp-h-none"},[_c('rt-button',{attrs:{"color":"full-white"}},[_c('rt-system-icons',{attrs:{"name":"download","color":"main-color07"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2 color-main07 button-text"},[_vm._v("Скачать отчет")])],1)],1),_vm._v(" "),_c('rt-button',{directives:[{name:"popup-trigger",rawName:"v-popup-trigger",value:({name:'editEvent'}),expression:"{name:'editEvent'}"}],attrs:{"color":"full-white"}},[_c('rt-system-icons',{attrs:{"name":"edit","color":"main-color07"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2 color-main07 button-text"},[_vm._v("Редактировать мероприятие")])],1)],1):_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-td-2 rt-col-md-3"},[_c('div',{staticClass:"upload-participants-list"},[_c('input',{ref:"upload",attrs:{"type":"file","id":"upload"},on:{"change":_vm.uploadFile}}),_vm._v(" "),_c('rt-button',{staticClass:"rt-button-td--is-block rt-font-md-left",attrs:{"color":"full-white"},on:{"click":_vm.selectFile}},[_c('rt-system-icons',{attrs:{"name":"upload","color":"main-color07"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2 color-main07 button-text"},[_vm._v("Загрузить список участников")])],1)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-td-2 rt-col-md-3 md-sp-t-0-2"},[_c('div',{staticClass:"sp-h-1 td-sp-h-none"},[_c('rt-button',{staticClass:"rt-button-td--is-block rt-font-md-left",attrs:{"color":"full-white"}},[_c('rt-system-icons',{attrs:{"name":"download","color":"main-color07"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2 color-main07 button-text"},[_vm._v("Скачать отчет")])],1)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-td-2 rt-col-md-3 md-sp-t-0-2"},[_c('rt-button',{directives:[{name:"popup-trigger",rawName:"v-popup-trigger",value:({name:'editEvent'}),expression:"{name:'editEvent'}"}],staticClass:"rt-button-td--is-block rt-font-md-left",attrs:{"color":"full-white"}},[_c('rt-system-icons',{attrs:{"name":"edit","color":"main-color07"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2 color-main07 button-text"},[_vm._v("Редактировать мероприятие")])],1)],1)])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.isDesktop)?_c('div',{staticClass:"event-item__action-buttons flex-center-center"},[_c('div',{staticClass:"upload-participants-list"},[_c('input',{ref:"upload",attrs:{"type":"file","id":"upload"},on:{"change":_vm.uploadFile}}),_vm._v(" "),_c('rt-button',{attrs:{"color":"full-white"},on:{"click":_vm.selectFile}},[_c('rt-system-icons',{attrs:{"name":"upload","color":"main-color07"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2 color-main07 button-text"},[_vm._v("Загрузить список участников")])],1)],1),_vm._v(" "),_c('div',{staticClass:"sp-h-1 td-sp-h-none"},[_c('rt-button',{attrs:{"color":"full-white"}},[_c('rt-system-icons',{attrs:{"name":"download","color":"main-color07"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2 color-main07 button-text"},[_vm._v("Скачать отчет")])],1)],1),_vm._v(" "),_c('rt-button',{directives:[{name:"popup-trigger",rawName:"v-popup-trigger",value:({name:'editEvent'}),expression:"{name:'editEvent'}"}],ref:"edit",attrs:{"color":"full-white"},on:{"click":_vm.positionPopup}},[_c('rt-system-icons',{attrs:{"name":"edit","color":"main-color07"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2 color-main07 button-text"},[_vm._v("Редактировать мероприятие")])],1)],1):_c('div',{staticClass:"row"},[_c('div',{staticClass:"rt-col-td-2 rt-col-md-3"},[_c('div',{staticClass:"upload-participants-list"},[_c('input',{ref:"upload",attrs:{"type":"file","id":"upload"},on:{"change":_vm.uploadFile}}),_vm._v(" "),_c('rt-button',{staticClass:"rt-button-td--is-block rt-font-md-left",attrs:{"color":"full-white"},on:{"click":_vm.selectFile}},[_c('rt-system-icons',{attrs:{"name":"upload","color":"main-color07"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2 color-main07 button-text"},[_vm._v("Загрузить список участников")])],1)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-td-2 rt-col-md-3 md-sp-t-0-2"},[_c('div',{staticClass:"sp-h-1 td-sp-h-none"},[_c('rt-button',{staticClass:"rt-button-td--is-block rt-font-md-left",attrs:{"color":"full-white"}},[_c('rt-system-icons',{attrs:{"name":"download","color":"main-color07"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2 color-main07 button-text"},[_vm._v("Скачать отчет")])],1)],1)]),_vm._v(" "),_c('div',{staticClass:"rt-col-td-2 rt-col-md-3 md-sp-t-0-2"},[_c('rt-button',{directives:[{name:"popup-trigger",rawName:"v-popup-trigger",value:({name:'editEvent'}),expression:"{name:'editEvent'}"}],staticClass:"rt-button-td--is-block rt-font-md-left",attrs:{"color":"full-white"}},[_c('rt-system-icons',{attrs:{"name":"edit","color":"main-color07"}}),_vm._v(" "),_c('span',{staticClass:"sp-l-0-2 color-main07 button-text"},[_vm._v("Редактировать мероприятие")])],1)],1)])}
 var staticRenderFns = []
 
 

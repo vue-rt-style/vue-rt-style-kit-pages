@@ -132,7 +132,7 @@ var componentsList = {};
           "class": "events-header__navigation"
         }, [pageLinks(), h("a", {
           "attrs": {
-            "href": "#"
+            "href": "/vcod"
           },
           "class": "rt-vam sp-l-4"
         }, [h("span", {
