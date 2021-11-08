@@ -61,8 +61,6 @@
               <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M10.7281 0L0 10.5615L9.07759 19.4982L0 28.4385L10.7281 39L30.5374 19.4982L10.7281 0Z"
                     fill="#FF4F12"/>
-              <br>
-
             </svg>
           </div>
         </template>
@@ -78,6 +76,9 @@
 
       </rt-minibanner>'></pre-code>
     </div>
+
+
+
     <div class="color-block--main-color01 sp-v-3">
       <pre-code text='<rt-minibanner :reverse="true" background="orange" shadow-color="orange" color="white">
         <template slot="label">Аналитика речи</template>
