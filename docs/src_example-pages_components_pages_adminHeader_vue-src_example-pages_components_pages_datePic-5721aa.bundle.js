@@ -167,7 +167,7 @@ var componentsList = {};
           "class": "events-header__navigation"
         }, [pageLinks(), h("a", {
           "attrs": {
-            "href": "#"
+            "href": "/vue-rt-style-kit-pages/vcod"
           },
           "class": "rt-vam sp-l-4 td-sp-l-none"
         }, [h("span", {
