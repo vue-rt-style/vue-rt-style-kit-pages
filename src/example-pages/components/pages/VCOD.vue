@@ -33,7 +33,7 @@
                 <div class="sp-t-mint"></div>
                 <rt-input :version="2" placeholder="Пароль" type="password"></rt-input>
                 <div class="sp-t-darkblue">
-                  <rt-button color="orange" :is-block="true" href="/help-main" target="_self">Войти</rt-button>
+                  <rt-button color="orange" :is-block="true" href="/vue-rt-style-kit-pages/help-main" target="_self">Войти</rt-button>
                 </div>
               </div>
             </div>

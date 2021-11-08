@@ -132,7 +132,7 @@ var componentsList = {};
           "class": "events-header__navigation"
         }, [pageLinks(), h("a", {
           "attrs": {
-            "href": "/vcod"
+            "href": "/vue-rt-style-kit-pages/vcod"
           },
           "class": "rt-vam sp-l-4"
         }, [h("span", {

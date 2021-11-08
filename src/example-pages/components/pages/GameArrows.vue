@@ -19,35 +19,35 @@
       <div class="rt-col events-list-wrapper">
         <div class="events-list-wrapper__inner sp-r-1-3 td-sp-r-none sp-b-1">
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
           <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург"
-                           event-link="test-access" :is-upcoming="false"/>
+                           event-link="vue-rt-style-kit-pages/test-access" :is-upcoming="false"/>
         </div>
       </div>
     </div>
