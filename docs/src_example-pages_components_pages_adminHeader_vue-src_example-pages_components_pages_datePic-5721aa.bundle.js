@@ -43,6 +43,7 @@ var componentsList = {};
   mounted: function mounted() {
     this.determineDeviceType();
     window.addEventListener('resize', debounce__WEBPACK_IMPORTED_MODULE_1___default()(this.determineDeviceType, 35));
+    document.querySelector('.app-header').style.display = 'none';
   },
   created: function created() {},
   methods: {

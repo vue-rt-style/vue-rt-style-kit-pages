@@ -1,6 +1,3 @@
-.app-header
-  display none
-
 .events-admin
   background-color #f8f8f8
   position relative
@@ -233,6 +230,7 @@
         padding-right 20px
     &__table-cell
       width calc(100% / 7)
+      position relative
       @media (max-width tablet-upper-limit)
         width 164px
         flex-shrink 0
@@ -254,7 +252,16 @@
           height 2px
           background-color #B8B9C0
     &__table-head
-      border-bottom 2px solid b2c-orange
+      position relative
+      padding-bottom 2px
+      &:after
+        position absolute
+        content ''
+        height 2px
+        background-color b2c-orange
+        left 20px
+        right 20px
+        bottom 0
       .events-admin__event-item__table-row
         padding-top 20px 0 16px
         border-top-right-radius 8px
@@ -405,3 +412,29 @@
 
 .select-v2-arrow.rt-sys-icon
   z-index 3
+
+.status-check
+  position absolute
+  display none
+  background-color #fff
+  z-index 1
+  box-shadow 0 1px 0 rgba(28, 41, 61, 0.1), 0 36px 36px rgba(28, 41, 61, 0.1)
+  border-radius 4px
+  top calc(100% + 20px)
+  left -12px
+  &--active
+    display block
+  .checkbox
+    word-break keep-all
+    white-space nowrap
+    display block
+    &+.checkbox
+      margin-top 12px
+
+.filter-icon
+  transition transform .2s linear
+  &--active
+    transform rotate(180deg)
+
+.events-admin__event-item__table-cell.d-flex.d-space-between
+  cursor pointer
