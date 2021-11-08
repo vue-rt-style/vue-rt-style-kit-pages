@@ -1,465 +1,43 @@
 <template>
-  <div class="blog blog-category">
-    <div class="blog__header-wrapper">
-      <div class="rt-container">
-        <div class="rt-col">
-          <div class="blog__header">
-            <div class="blog__header-left">
-              <div class="logo">
-                <svg class="d-block" width="140" height="36" viewBox="0 0 140 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8441 36.0011C9.88521 30.2409 6.9057 27.361 6.90557 27.3611L1.07766 33.1211C0.478143 33.9111 0.633048 35.0372 1.42365 35.6363C1.73597 35.873 2.11719 36.0011 2.50916 36.0011C2.51894 36.0011 2.52872 36.0011 2.5385 36.0011C6.9737 36.0011 11.4089 36.0011 15.8441 36.0011Z" fill="#FF4F12"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6154 12.96L8.64616 0L1.40521 7.53728C0.503521 8.47587 0 9.72655 0 11.0276L0 33.12C0 34.7106 1.29034 36 2.88205 36C1.89594 36 1.09653 35.2012 1.09653 34.2158C1.09653 33.7414 1.28558 33.2865 1.6219 32.9517" fill="#7700FF"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M114.014 22.4419H110.895L107.169 26.2067V22.4419H104.532V32.816H107.169V28.5284L110.958 32.816H114.139L109.241 27.2524L114.014 22.4419Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M30.3372 25.135H26.5277V20.5336H30.3372C32.2626 20.5336 33.1418 21.4537 33.1418 22.8342C33.1418 24.2146 32.2626 25.135 30.3372 25.135ZM30.4208 18.0654H23.765V32.7064H26.5277V27.6029H30.4208C33.7279 27.6029 35.9047 25.9089 35.9047 22.8342C35.9047 19.7595 33.7279 18.0654 30.4208 18.0654Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M42.1346 30.6451C40.5859 30.6451 39.1416 29.5365 39.1416 27.6331C39.1416 25.7299 40.5859 24.6215 42.1346 24.6215C43.6835 24.6215 45.1277 25.7299 45.1277 27.6331C45.1277 29.5365 43.6835 30.6451 42.1346 30.6451ZM42.1346 22.1533C39.2882 22.1533 36.4624 23.994 36.4624 27.6331C36.4624 31.2727 39.2882 33.113 42.1346 33.113C44.9813 33.113 47.8069 31.2727 47.8069 27.6331C47.8069 23.994 44.9813 22.1533 42.1346 22.1533Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M54.5338 30.6451C52.9431 30.6451 51.771 29.4947 51.771 27.6331C51.771 25.7926 52.9849 24.6215 54.5338 24.6215C55.4757 24.6215 56.292 25.0606 56.9408 26.0437L59.2012 24.7468C58.4479 23.1362 56.8152 22.1533 54.5547 22.1533C51.6035 22.1533 49.0918 24.3285 49.0918 27.6331C49.0918 30.9378 51.478 33.113 54.5547 33.113C56.7733 33.113 58.2593 32.1093 59.306 30.3315L57.1292 29.1393C56.5013 30.0176 55.8314 30.6451 54.5338 30.6451Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M82.6201 28.3192C82.4947 29.9086 82.1803 30.2644 81.636 30.2644C81.2643 30.2644 81.0895 30.2232 80.835 30.1565L80.8482 32.8413C80.8482 32.8413 81.176 32.9413 81.783 32.9413C84.0225 32.9413 84.8597 31.4982 85.0691 28.4237L85.3202 24.8054H88.2922V32.7951H90.9296V22.4419H83.0596L82.6201 28.3192Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M72.2737 26.2528C72.6504 25.0815 73.6969 24.1612 75.0783 24.1612C76.5436 24.1612 77.5273 24.956 77.7784 26.2528H72.2737ZM75.1622 22.1533C72.1482 22.1533 69.6992 24.3494 69.6992 27.6331C69.6992 30.9169 72.1482 33.113 75.0365 33.113C77.318 33.113 78.7622 32.2556 79.8087 30.4777L77.7155 29.432C77.0667 30.2477 76.4807 30.854 75.0783 30.854C73.5296 30.854 72.3993 29.8503 72.2318 28.2607H80.2272V27.3404C80.2272 24.3076 78.1343 22.1533 75.1622 22.1533Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M94.9863 26.2528C95.3631 25.0815 96.4096 24.1612 97.791 24.1612C99.2561 24.1612 100.24 24.956 100.491 26.2528H94.9863ZM97.8748 22.1533C94.8607 22.1533 92.4119 24.3494 92.4119 27.6331C92.4119 30.9169 94.8607 33.113 97.7492 33.113C100.031 33.113 101.475 32.2556 102.521 30.4777L100.428 29.432C99.7794 30.2477 99.1933 30.854 97.791 30.854C96.2421 30.854 95.1118 29.8503 94.9445 28.2607H102.94V27.3404C102.94 24.3076 100.847 22.1533 97.8748 22.1533Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M60.1255 24.7425H63.2233V32.816H65.8603V24.7425H68.9583V22.4419H60.1255V24.7425Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M119.371 30.6451C117.822 30.6451 116.378 29.5365 116.378 27.6331C116.378 25.7299 117.822 24.6215 119.371 24.6215C120.92 24.6215 122.364 25.7299 122.364 27.6331C122.364 29.5365 120.92 30.6451 119.371 30.6451ZM119.371 22.1533C116.524 22.1533 113.699 23.9938 113.699 27.6331C113.699 31.2725 116.524 33.113 119.371 33.113C122.217 33.113 125.043 31.2725 125.043 27.6331C125.043 23.9938 122.217 22.1533 119.371 22.1533Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M135.567 22.4419L132.705 29.7074L129.843 22.4419H126.396V32.7972H128.902V26.2415L131.681 32.7972H133.729L136.507 26.2415V32.7972H139.014V22.4419H135.567Z" fill="#101828"/>
+  <div class="events-admin events-admin__auth">
+    <div class="rt-container">
+      <div class="rt-col relative">
+        <div class="row">
+          <div class="rt-col sp-t-orange">
+            <div class="header-logo flex-start-bottom">
+              <div class="header-logo__image">
+                <svg viewBox="0 0 31 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24.5534 51.6228H3.56819C2.05198 51.6228 1.16016 50.2631 1.16016 49.0747C1.16016 48.3716 1.44406 47.7346 1.90386 47.2731L11.0618 38.0811L24.5534 51.6228Z" fill="#FF4F12"/>
+                  <path d="M3.56829 51.6232C1.98316 51.6232 0.00303568 50.3512 0.00303568 47.8227V19.5053C0.00303568 15.679 -0.191377 12.9874 2.53142 10.2544L12.7468 0L30.8621 18.2116L1.90396 47.2734C1.44416 47.7349 1.16025 48.3709 1.16025 49.0751C1.16025 50.2634 2.05208 51.6232 3.56829 51.6232Z" fill="#7B939B"/>
                 </svg>
               </div>
-              <div class="navigation sp-l-1-2 td-d-none">
-                <a class="navigation-link" href="#">Для меня</a>
-                <a class="navigation-link" href="#">Для бизнеса</a>
-                <a class="navigation-link" href="#">Для операторов</a>
-                <a class="navigation-link" href="#">Для инвесторов</a>
-                <div class="navigation-link-wrapper">
-                  <div class="navigation-link-wrapper__button sp-r-0-4" ref="navigationDropdown" @click="toggleOpen">Ещё</div>
-                  <div class="navigation-link-wrapper__inner">
-                    <a class="navigation-link" href="#">О компании</a>
-                    <a class="navigation-link" href="#">Для инвесторов</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="blog__header-right">
-              <div class="navigation td-d-none">
-                <a class="navigation-link" href="#">Помощь</a>
-                <a class="navigation-link" href="#">Оплата</a>
-                <a class="navigation-link" href="#">Бонус</a>
-                <a class="navigation-link" href="#">Офисы</a>
-              </div>
-              <div class="d-none td-d-block">
-                <div class="navigation-mobile">
-                  <div class="navigation-mobile__button-wrapper" ref="navigationMobile" @click="toggleMobileMenu">
-                    <div class="navigation-mobile__button"/>
-                  </div>
-                  <div class="navigation-mobile__list sp-v-1 sp-l-1-3 sp-r-3">
-                    <a class="navigation-link" href="#">Для меня</a>
-                    <a class="navigation-link" href="#">Для бизнеса</a>
-                    <a class="navigation-link" href="#">Для операторов</a>
-                    <a class="navigation-link" href="#">Для инвесторов</a>
-                    <a class="navigation-link" href="#">О компании</a>
-                    <a class="navigation-link" href="#">Для инвесторов</a>
-                    <a class="navigation-link" href="#">Помощь</a>
-                    <a class="navigation-link" href="#">Оплата</a>
-                    <a class="navigation-link" href="#">Бонус</a>
-                    <a class="navigation-link" href="#">Офисы</a>
-                  </div>
-                </div>
+              <div class="header-logo__text">
+                <svg viewBox="0 0 146 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M108.521 12.4764L114.691 19.5168H110.683L105.91 14.0912V19.5168H102.587V6.38904H105.91V11.1539L110.604 6.38904H114.533L108.521 12.4764ZM9.09254 9.93555C11.5191 9.93555 12.6259 8.77094 12.6259 7.02401C12.6259 5.27708 11.5181 4.11246 9.09254 4.11246H4.29292V9.93555H9.09254ZM9.19849 0.989258C13.3645 0.989258 16.1078 3.13265 16.1078 7.02401C16.1078 10.9154 13.3655 13.0588 9.19849 13.0588H4.29292V19.5168H0.812012V0.989258H9.19849ZM23.9646 16.7643C25.9159 16.7643 27.7356 15.3611 27.7356 12.9524C27.7356 10.5437 25.9159 9.14159 23.9646 9.14159C22.0133 9.14159 20.1936 10.5447 20.1936 12.9524C20.1936 15.3622 22.0133 16.7643 23.9646 16.7643ZM23.9646 6.01839C27.5514 6.01839 31.1115 8.34762 31.1115 12.9534C31.1115 17.5593 27.5514 19.8885 23.9646 19.8885C20.3777 19.8885 16.8186 17.5593 16.8186 12.9534C16.8186 8.34762 20.3777 6.01839 23.9646 6.01839ZM39.5937 16.7643C37.5899 16.7643 36.1128 15.3085 36.1128 12.9524C36.1128 10.6232 37.6424 9.14056 39.5937 9.14056C40.7807 9.14056 41.8094 9.69602 42.6261 10.9401L45.4744 9.29852C44.526 7.26044 42.4687 6.01632 39.6204 6.01632C35.9019 6.01632 32.7378 8.76887 32.7378 12.9514C32.7378 17.1329 35.7445 19.8864 39.6204 19.8864C42.4152 19.8864 44.2874 18.6155 45.6061 16.3657L42.8637 14.8573C42.0727 15.9703 41.2292 16.7643 39.5937 16.7643ZM74.9726 13.8269C74.8142 15.8381 74.4182 16.2883 73.7331 16.2883C73.2651 16.2883 73.0439 16.2367 72.724 16.152L72.7405 19.5488C72.7405 19.5488 73.154 19.6758 73.9183 19.6758C76.7398 19.6758 77.7952 17.8494 78.0585 13.9591L78.3754 9.38009H82.1196V19.491H85.4431V6.38904H75.5271L74.9726 13.8269ZM68.844 11.2065C68.5272 9.5649 67.2877 8.55928 65.4423 8.55928C63.7019 8.55928 62.3831 9.7239 61.9089 11.2065H68.844ZM65.5483 6.01839C69.2925 6.01839 71.9299 8.74512 71.9299 12.5828V13.7474H61.8565C62.0673 15.7597 63.492 17.0296 65.4433 17.0296C67.2105 17.0296 67.9481 16.2625 68.7658 15.23L71.4033 16.5536C70.0845 18.8034 68.2649 19.8885 65.3909 19.8885C61.7516 19.8885 58.6667 17.1091 58.6667 12.9534C58.6667 8.79778 61.7505 6.01839 65.5483 6.01839ZM97.4802 11.2065C97.1634 9.5649 95.9239 8.55928 94.0785 8.55928C92.3381 8.55928 91.0194 9.7239 90.5452 11.2065H97.4802ZM94.1845 6.01839C97.9287 6.01839 100.566 8.74512 100.566 12.5828V13.7474H90.4927C90.7036 15.7597 92.1272 17.0296 94.0796 17.0296C95.8468 17.0296 96.5843 16.2625 97.4021 15.23L100.039 16.5536C98.7208 18.8034 96.9011 19.8885 94.0271 19.8885C90.3878 19.8885 87.3029 17.1091 87.3029 12.9534C87.3029 8.79778 90.3868 6.01839 94.1845 6.01839ZM46.6399 9.30059H50.5425V19.5178H53.865V9.30059H57.7676V6.38904H46.6399V9.30059ZM121.288 16.7653C123.239 16.7653 125.059 15.3622 125.059 12.9534C125.059 10.5447 123.239 9.14159 121.288 9.14159C119.337 9.14159 117.517 10.5447 117.517 12.9534C117.517 15.3611 119.337 16.7653 121.288 16.7653ZM121.288 6.01839C124.875 6.01839 128.435 8.34762 128.435 12.9534C128.435 17.5593 124.875 19.8875 121.288 19.8875C117.701 19.8875 114.141 17.5582 114.141 12.9534C114.141 8.34762 117.701 6.01839 121.288 6.01839ZM141.655 6.38594L138.049 15.58L134.443 6.38594H130.1V19.491H133.259V11.1952L136.761 19.491H139.341L142.841 11.1952V19.491H146V6.38594H141.655ZM4.29292 41.5062V36.2128H8.32723C10.5686 36.2128 11.5973 37.2184 11.5973 38.86C11.5973 40.5016 10.5686 41.5073 8.32723 41.5073H4.29292V41.5062ZM0.812012 44.6294H8.59159C12.3626 44.6294 15.0792 42.485 15.0792 38.859C15.0792 35.233 12.3626 33.1422 8.59159 33.1422H4.29292V29.1724H13.7595V26.1008H0.812012V44.6294ZM17.1735 44.6294H20.602L26.2975 35.9743V44.6294H29.4616V31.5006H26.0332L20.3376 40.1558V31.5006H17.1735V44.6294ZM42.7002 40.8176C42.7002 39.1501 41.5666 38.1445 39.9578 37.6944C41.3033 37.1647 42.1735 36.2118 42.1735 34.6507C42.1735 32.6394 40.6964 31.13 37.2947 31.13C33.9722 31.13 32.1001 32.8769 32.1001 34.9676C32.1001 35.4704 32.205 35.8679 32.3634 36.2912L35.185 35.3383C35.1325 35.2061 35.1057 35.0729 35.1057 34.8613C35.1057 34.2263 35.9503 33.7225 37.2679 33.7225C38.5075 33.7225 39.0876 34.2521 39.0876 35.0461C39.0876 35.8927 38.4807 36.475 37.0571 36.475H36.0552V39.1223H37.1363C38.6134 39.1223 39.4836 39.7046 39.4836 40.6844C39.4836 41.69 38.5866 42.4045 36.9789 42.4045C35.871 42.4045 34.7642 41.8222 34.7642 40.737C34.7642 40.4727 34.8167 40.26 34.8959 40.0752L32.1011 39.1749C31.9427 39.5187 31.7843 40.1537 31.7843 40.7628C31.7843 43.1716 33.6039 44.998 36.9789 44.998C40.6696 45.0001 42.7002 43.3058 42.7002 40.8176ZM44.9498 44.6294H48.2723V39.3091H53.7045V44.6294H57.027V31.5006H53.7045V36.3976H48.2723V31.5006H44.9498V44.6294ZM62.1702 36.3181C62.6444 34.8355 63.9631 33.6709 65.7036 33.6709C67.55 33.6709 68.7895 34.6765 69.1053 36.3181H62.1702ZM65.7036 42.1412C63.7523 42.1412 62.3286 40.8702 62.1167 38.859H72.1902V37.6944C72.1902 33.8567 69.5527 31.13 65.8085 31.13C62.0108 31.13 58.9259 33.9094 58.9259 38.065C58.9259 42.2207 62.0118 45.0001 65.6501 45.0001C68.5251 45.0001 70.3438 43.915 71.6625 41.6652L69.0251 40.3416C68.2083 41.3741 67.4697 42.1412 65.7036 42.1412ZM80.8667 45.0001C83.6615 45.0001 85.5347 43.7291 86.8524 41.4794L84.11 39.9709C83.319 41.0829 82.4745 41.8769 80.84 41.8769C78.8362 41.8769 77.3591 40.4211 77.3591 38.065C77.3591 35.7358 78.8876 34.2542 80.84 34.2542C82.027 34.2542 83.0557 34.8097 83.8724 36.0538L86.7207 34.4122C85.7713 32.3741 83.714 31.13 80.8667 31.13C77.1482 31.13 73.9841 33.8825 73.9841 38.064C73.9841 42.2475 76.9898 45.0001 80.8667 45.0001Z" fill="#101828"/>
+                </svg>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="blog__title color-block--main-color003-no-opacity sp-v-1-2">
-      <div class="blog-container">
+    <div class="pos-abs">
+      <div class="rt-container">
         <div class="rt-col">
           <div class="row">
+            <div class="rt-col-4 rt-col-td-1 md-d-none"></div>
             <div class="rt-col-4 rt-col-td-4 rt-col-md-3">
-              <a href="#" class="back-link">
-                <h2 class="rt-font-h3 sp-b-0-1">Простые технологии</h2>
-                <p class="tagline">рассказываем просто о сложном</p>
-              </a>
-            </div>
-            <div class="rt-col-6 td-d-none"></div>
-            <div class="rt-col-2 rt-col-td-2 rt-col-md-3 flex-end-center md-flex-start-center md-sp-t-1">
-              <a href="/promo/test-access" class="d-flex back-link rt-sys-icon-hover--red">
-                <rt-system-icons name="chevron left"/>
-                <span class="sp-l-0-2">На главную</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="blog__tags">
-      <div class="blog-container tablet-fullwidth">
-        <div class="rt-col">
-          <div class="blog__tags-wrapper">
-            <div class="blog__tags-wrapper__inner d-flex d-flex-nowrap">
-              <button class="blog__tag blog__tag--active">#бизнес</button>
-              <button class="blog__tag">#инструкции</button>
-              <button class="blog__tag">#интернет</button>
-              <button class="blog__tag">#образование</button>
-              <button class="blog__tag">#развлечения</button>
-              <button class="blog__tag">#телефония</button>
-              <button class="blog__tag">#технологии</button>
-              <div class="blog__tags-wrapper-stretcher"/>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="blog__page-wrapper sp-t-2 sp-b-3 td-sp-t-0-4 md-sp-t-0-2 md-sp-b-2">
-      <div class="blog-container blog__article-tile">
-        <div class="rt-col">
-          <div class="row sp-b-2 td-sp-b-0-4 md-sp-b-0-2" ref="tile-wrapper">
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
-              <div class="blog__article-tile__item td-sp-v-0-4">
-                <div class="row">
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__article-tile__image-wrapper">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4.png" class="blog__article-tile__image"/>
-                    </div>
-                  </div>
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
-                      <span class="blog__weekly-theme__date">12 марта</span>
-                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                          <rt-system-icons name="time small" color="main-color07"/>
-                          5 минут чтения
-                        </span>
-                      <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
-                    </div>
-                    <a href="#" class="blog__popular__item-title">Как понять, что ноутбук или телефон устарел</a>
-                  </div>
+              <div class="auth-form-wrapper">
+                <h1 class="font-h1 rt-font-center sp-b-darkblue">Вход</h1>
+                <rt-input :version="2" placeholder="Логин"></rt-input>
+                <div class="sp-t-mint"></div>
+                <rt-input :version="2" placeholder="Пароль" type="password"></rt-input>
+                <div class="sp-t-darkblue">
+                  <rt-button color="orange" :is-block="true">Войти</rt-button>
                 </div>
               </div>
             </div>
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
-              <div class="blog__article-tile__item td-sp-v-0-4">
-                <div class="row">
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__article-tile__image-wrapper">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-1.png" class="blog__article-tile__image"/>
-                    </div>
-                  </div>
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
-                      <span class="blog__weekly-theme__date">12 марта</span>
-                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                          <rt-system-icons name="time small" color="main-color07"/>
-                          5 минут чтения
-                        </span>
-                      <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
-                    </div>
-                    <a href="#" class="blog__popular__item-title">Зачем покупать “красивый” <br>телефонный номер</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
-              <div class="blog__article-tile__item td-sp-v-0-4">
-                <div class="row">
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__article-tile__image-wrapper">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__article-tile__image"/>
-                    </div>
-                  </div>
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
-                      <span class="blog__weekly-theme__date">12 марта</span>
-                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                          <rt-system-icons name="time small" color="main-color07"/>
-                          5 минут чтения
-                        </span>
-                      <span class="blog__weekly-theme__tag sp-l-0-3">#бизнес</span>
-                    </div>
-                    <a href="#" class="blog__popular__item-title">Три важных налоговых нововведения в <br>2021 году</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
-              <div class="blog__article-tile__item td-sp-v-0-4">
-                <div class="row">
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__article-tile__image-wrapper">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4.png" class="blog__article-tile__image"/>
-                    </div>
-                  </div>
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
-                      <span class="blog__weekly-theme__date">12 марта</span>
-                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                          <rt-system-icons name="time small" color="main-color07"/>
-                          5 минут чтения
-                        </span>
-                      <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
-                    </div>
-                    <a href="#" class="blog__popular__item-title">Как понять, что ноутбук или телефон устарел</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
-              <div class="blog__article-tile__item td-sp-v-0-4">
-                <div class="row">
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__article-tile__image-wrapper">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-1.png" class="blog__article-tile__image"/>
-                    </div>
-                  </div>
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
-                      <span class="blog__weekly-theme__date">12 марта</span>
-                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                          <rt-system-icons name="time small" color="main-color07"/>
-                          5 минут чтения
-                        </span>
-                      <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
-                    </div>
-                    <a href="#" class="blog__popular__item-title">Зачем покупать “красивый” <br>телефонный номер</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
-              <div class="blog__article-tile__item td-sp-v-0-4">
-                <div class="row">
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__article-tile__image-wrapper">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__article-tile__image"/>
-                    </div>
-                  </div>
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
-                      <span class="blog__weekly-theme__date">12 марта</span>
-                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                          <rt-system-icons name="time small" color="main-color07"/>
-                          5 минут чтения
-                        </span>
-                      <span class="blog__weekly-theme__tag sp-l-0-3">#бизнес</span>
-                    </div>
-                    <a href="#" class="blog__popular__item-title">Три важных налоговых нововведения в <br>2021 году</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
-              <div class="blog__article-tile__item td-sp-v-0-4">
-                <div class="row">
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__article-tile__image-wrapper">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4.png" class="blog__article-tile__image"/>
-                    </div>
-                  </div>
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
-                      <span class="blog__weekly-theme__date">12 марта</span>
-                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                          <rt-system-icons name="time small" color="main-color07"/>
-                          5 минут чтения
-                        </span>
-                      <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
-                    </div>
-                    <a href="#" class="blog__popular__item-title">Как понять, что ноутбук или телефон устарел</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
-              <div class="blog__article-tile__item td-sp-v-0-4">
-                <div class="row">
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__article-tile__image-wrapper">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-1.png" class="blog__article-tile__image"/>
-                    </div>
-                  </div>
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
-                      <span class="blog__weekly-theme__date">12 марта</span>
-                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                          <rt-system-icons name="time small" color="main-color07"/>
-                          5 минут чтения
-                        </span>
-                      <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
-                    </div>
-                    <a href="#" class="blog__popular__item-title">Зачем покупать “красивый” <br>телефонный номер</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
-              <div class="blog__article-tile__item td-sp-v-0-4">
-                <div class="row">
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__article-tile__image-wrapper">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__article-tile__image"/>
-                    </div>
-                  </div>
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
-                      <span class="blog__weekly-theme__date">12 марта</span>
-                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                          <rt-system-icons name="time small" color="main-color07"/>
-                          5 минут чтения
-                        </span>
-                      <span class="blog__weekly-theme__tag sp-l-0-3">#бизнес</span>
-                    </div>
-                    <a href="#" class="blog__popular__item-title">Три важных налоговых нововведения в <br>2021 году</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
-              <div class="blog__article-tile__item td-sp-v-0-4">
-                <div class="row">
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__article-tile__image-wrapper">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4.png" class="blog__article-tile__image"/>
-                    </div>
-                  </div>
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
-                      <span class="blog__weekly-theme__date">12 марта</span>
-                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                          <rt-system-icons name="time small" color="main-color07"/>
-                          5 минут чтения
-                        </span>
-                      <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
-                    </div>
-                    <a href="#" class="blog__popular__item-title">Как понять, что ноутбук или телефон устарел</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
-              <div class="blog__article-tile__item td-sp-v-0-4">
-                <div class="row">
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__article-tile__image-wrapper">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-1.png" class="blog__article-tile__image"/>
-                    </div>
-                  </div>
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
-                      <span class="blog__weekly-theme__date">12 марта</span>
-                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                          <rt-system-icons name="time small" color="main-color07"/>
-                          5 минут чтения
-                        </span>
-                      <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
-                    </div>
-                    <a href="#" class="blog__popular__item-title">Зачем покупать “красивый” <br>телефонный номер</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="rt-col-4 rt-col-td-6 blog__article-tile">
-              <div class="blog__article-tile__item td-sp-v-0-4">
-                <div class="row">
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__article-tile__image-wrapper">
-                      <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__article-tile__image"/>
-                    </div>
-                  </div>
-                  <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                    <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
-                      <span class="blog__weekly-theme__date">12 марта</span>
-                      <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                          <rt-system-icons name="time small" color="main-color07"/>
-                          5 минут чтения
-                        </span>
-                      <span class="blog__weekly-theme__tag sp-l-0-3">#бизнес</span>
-                    </div>
-                    <a href="#" class="blog__popular__item-title">Три важных налоговых нововведения в <br>2021 году</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="rt-col rt-font-center">
-              <rt-button color="gray" class="blog__add-article-button d-inline-block rt-font-bold rt-button-md--is-block">Показать больше</rt-button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <div class="blog-footer color-block--main-color005-no-opacity">
-      <div class="blog-footer__top sp-t-1-1 sp-b-0-3 td-sp-t-1-3 td-sp-b-1 md-sp-t-1-2">
-        <div class="blog-container">
-          <div class="rt-col">
-            <div class="d-flex d-space-between d-md-flex-column">
-              <div class="blog-footer__navigation color-main085 rt-font-control flex-end-bottom sp-b-0-1 d-md-flex-column md-flex-start-top md-sp-b-1-1">
-                <a class="navigation-link" href="#">Для меня</a>
-                <a class="navigation-link" href="#">Для бизнеса</a>
-                <a class="navigation-link" href="#">Для операторов</a>
-                <a class="navigation-link" href="#">Для инвесторов</a>
-              </div>
-              <div class="flex-end-bottom d-md-flex-column md-flex-start-top">
-                <div class="rt-font-control d-inline-block sp-r-0-3 sp-b-0-1 color-main05">Отдел продаж</div>
-                <a href="tel:88007078000" class="rt-font-h3">8 800 707 80 00</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="blog-footer__bottom sp-t-1-1 sp-b-1-4 td-sp-v-1-3 md-sp-v-1-2">
-        <div class="blog-container">
-          <div class="rt-col">
-            <div class="d-flex d-space-between td-flex-column-reverse">
-              <div class="color-main05">
-                <p class="blog-footer__privacy">Продолжая использовать наш сайт, вы даете согласие на обработку
-                  файлов <a href="#" class="blog-footer-link">Cookies</a> и других <br>пользовательских данных, в соответствии с
-                  <a href="#" class="blog-footer-link">Политикой конфиденциальности</a>.
-                </p>
-                <div class="sp-t-0-3 rt-font-label">
-                  <span class="sp-r-1">© 2021 ПАО «Ростелеком». 18+</span>
-                  <a href="#">RSS</a>
-                </div>
-              </div>
-              <div class="blog-footer__social-media d-flex td-sp-b-1">
-                <a href="#" class="blog__share__icon">
-                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M25.8367 5.93152C24.9429 6.3216 23.9838 6.58615 22.9761 6.70425C24.005 6.09742 24.7927 5.1349 25.1659 3.99151C24.2008 4.55348 23.1354 4.96153 22.0003 5.18274C21.0913 4.22768 19.7983 3.63281 18.3641 3.63281C15.6128 3.63281 13.382 5.8299 13.382 8.53815C13.382 8.92226 13.426 9.29741 13.511 9.65614C9.37104 9.45135 5.70004 7.4979 3.24309 4.52956C2.81361 5.25297 2.56928 6.0959 2.56928 6.99569C2.56928 8.69808 3.44948 10.2002 4.78496 11.079C3.96849 11.0521 3.20059 10.8309 2.52833 10.4632V10.5245C2.52833 12.9009 4.24623 14.8843 6.52409 15.3357C6.10675 15.4463 5.66667 15.5076 5.21139 15.5076C4.88968 15.5076 4.57857 15.4762 4.27353 15.4164C4.90786 17.3669 6.74718 18.7852 8.92643 18.8241C7.22219 20.1394 5.07329 20.9211 2.73928 20.9211C2.33714 20.9211 1.94103 20.8972 1.55103 20.8538C3.75607 22.2483 6.37389 23.0614 9.18747 23.0614C18.3521 23.0614 23.3616 15.5853 23.3616 9.10164L23.3449 8.46644C24.3237 7.77886 25.1705 6.91499 25.8367 5.93152Z" fill="#1DA1F2"/>
-                  </svg>
-                </a>
-                <a href="#" class="blog__share__icon">
-                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12.3999 19.5366H13.81C13.81 19.5366 14.2359 19.4906 14.4537 19.2613C14.6538 19.0504 14.6474 18.6545 14.6474 18.6545C14.6474 18.6545 14.6198 16.8012 15.4979 16.5281C16.3638 16.2592 17.4754 18.3194 18.6535 19.1116C19.5445 19.7109 20.2216 19.5797 20.2216 19.5797L23.3722 19.5365C23.3722 19.5365 25.0202 19.4368 24.2387 18.1676C24.1747 18.064 23.7834 17.2287 21.8961 15.5127C19.9203 13.7166 20.1853 14.0072 22.565 10.9004C24.0142 9.00842 24.5935 7.85323 24.4124 7.35872C24.2399 6.88746 23.1739 7.01188 23.1739 7.01188L19.6267 7.03333C19.6267 7.03333 19.3636 6.99818 19.1687 7.11253C18.978 7.22424 18.8557 7.48527 18.8557 7.48527C18.8557 7.48527 18.2941 8.94935 17.5455 10.1945C15.9659 12.8217 15.3342 12.9608 15.076 12.7974C14.4753 12.4171 14.6253 11.2701 14.6253 10.455C14.6253 7.90884 15.0197 6.8472 13.8575 6.57231C13.472 6.48123 13.1879 6.42083 12.2018 6.4111C10.9361 6.39856 9.8649 6.41489 9.25831 6.70596C8.8547 6.89951 8.5434 7.33083 8.73307 7.35575C8.96756 7.38627 9.49835 7.49616 9.77983 7.87122C10.1435 8.35583 10.1307 9.44354 10.1307 9.44354C10.1307 9.44354 10.3396 12.4408 9.64288 12.8131C9.16482 13.0685 8.50886 12.5471 7.10061 10.1634C6.37913 8.94242 5.83436 7.59269 5.83436 7.59269C5.83436 7.59269 5.72941 7.34057 5.54209 7.20543C5.31485 7.04191 4.99715 6.9901 4.99715 6.9901L1.6261 7.01171C1.6261 7.01171 1.12007 7.02557 0.934266 7.24107C0.768846 7.43297 0.921127 7.82931 0.921127 7.82931C0.921127 7.82931 3.56009 13.8772 6.54842 16.925C9.2888 19.72 12.3999 19.5366 12.3999 19.5366Z" fill="#4680C2"/>
-                  </svg>
-                </a>
-                <a href="#" class="blog__share__icon">
-                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7134 25.9998V15.3652H20.1504L20.6649 11.2206H16.7134V8.57441C16.7134 7.37446 17.0342 6.55675 18.691 6.55675L20.8041 6.55572V2.84884C20.4386 2.79842 19.1843 2.68555 17.725 2.68555C14.6783 2.68555 12.5927 4.61698 12.5927 8.16407V11.2206H9.14697V15.3652H12.5927V25.9998H16.7134Z" fill="#3C5B9A"/>
-                  </svg>
-                </a>
-                <a href="#" class="blog__share__icon">
-                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.3407 8.34511C18.3407 11.2886 15.9444 13.6848 12.9982 13.6848C10.0521 13.6848 7.65585 11.2887 7.65585 8.34248C7.65585 5.39623 10.0521 3 12.9982 3C15.9444 3 18.3407 5.39623 18.3407 8.34511ZM12.9982 6.13217C14.2192 6.13217 15.2111 7.12405 15.2111 8.34511C15.2111 9.56339 14.2192 10.5554 12.9982 10.5554C11.7799 10.5554 10.7852 9.56355 10.7852 8.34511C10.7852 7.12405 11.7799 6.13217 12.9982 6.13217ZM15.16 18.0435C16.2489 17.7954 17.2975 17.3642 18.2625 16.7578C18.993 16.2969 19.214 15.332 18.753 14.5988C18.2921 13.8656 17.3271 13.6446 16.594 14.1055C14.4053 15.4828 11.5886 15.4802 9.39974 14.1055C8.66657 13.6446 7.70159 13.8656 7.24074 14.5988C6.77988 15.3293 7.00088 16.2969 7.73126 16.7578C8.69625 17.3642 9.74484 17.7956 10.8338 18.0435L7.84996 21.03C7.23811 21.6419 7.23811 22.6311 7.84996 23.243C8.15719 23.5476 8.55623 23.7012 8.95511 23.7012C9.35677 23.7012 9.75566 23.5476 10.063 23.243L12.9983 20.3075L15.9338 23.243C16.5456 23.8548 17.5349 23.8548 18.1467 23.243C18.7585 22.6311 18.7585 21.6391 18.1467 21.03L15.16 18.0435Z" fill="#FF9800"/>
-                  </svg>
-                </a>
-                <a href="#" class="blog__share__icon">
-                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.139 1.00781C9.84226 1.00781 9.42883 1.02179 8.13412 1.08086C6.84202 1.13979 5.95963 1.34502 5.18745 1.64512C4.38925 1.95529 3.71224 2.37037 3.0374 3.04521C2.36251 3.7201 1.94748 4.39707 1.63726 5.19527C1.33716 5.96745 1.13198 6.84983 1.073 8.14193C1.01393 9.43669 1 9.85003 1 13.1468C1 16.4436 1.01393 16.857 1.073 18.1517C1.13198 19.4438 1.33716 20.3262 1.63726 21.0984C1.94748 21.8966 2.36251 22.5736 3.0374 23.2484C3.71224 23.9233 4.38925 24.3383 5.18745 24.6486C5.95963 24.9487 6.84202 25.1539 8.13412 25.2129C9.42883 25.2719 9.84226 25.2859 13.139 25.2859C16.4358 25.2859 16.8491 25.2719 18.1439 25.2129C19.436 25.1539 20.3184 24.9487 21.0905 24.6486C21.8888 24.3383 22.5658 23.9233 23.2406 23.2484C23.9155 22.5736 24.3305 21.8966 24.6407 21.0984C24.9408 20.3262 25.1461 19.4438 25.205 18.1517C25.2641 16.857 25.2781 16.4436 25.2781 13.1468C25.2781 9.85008 25.2641 9.43669 25.205 8.14193C25.1461 6.84983 24.9408 5.96745 24.6407 5.19527C24.3305 4.39707 23.9155 3.7201 23.2406 3.04521C22.5658 2.37037 21.8888 1.95529 21.0905 1.64512C20.3184 1.34502 19.436 1.13979 18.1439 1.08086C16.8491 1.02179 16.4358 1.00781 13.139 1.00781ZM13.139 3.19502C16.3803 3.19502 16.7642 3.20736 18.0442 3.26576C19.2277 3.31977 19.8705 3.51753 20.2982 3.68377C20.8648 3.90398 21.2693 4.16703 21.694 4.59179C22.1188 5.01659 22.3818 5.42097 22.6021 5.98759C22.7683 6.41534 22.966 7.05809 23.0201 8.24163C23.0784 9.52164 23.0908 9.90559 23.0908 13.1468C23.0908 16.3881 23.0784 16.772 23.0201 18.052C22.966 19.2356 22.7683 19.8783 22.6021 20.3061C22.3818 20.8727 22.1188 21.2771 21.694 21.7018C21.2693 22.1266 20.8648 22.3897 20.2982 22.6099C19.8705 22.7761 19.2277 22.9739 18.0442 23.0279C16.7644 23.0863 16.3805 23.0987 13.139 23.0987C9.89749 23.0987 9.51364 23.0863 8.23382 23.0279C7.05027 22.9739 6.40747 22.7761 5.97973 22.6099C5.41316 22.3897 5.00873 22.1266 4.58397 21.7018C4.15921 21.2771 3.89612 20.8727 3.67591 20.3061C3.50972 19.8783 3.31196 19.2356 3.25794 18.052C3.19954 16.772 3.18721 16.3881 3.18721 13.1468C3.18721 9.90559 3.19954 9.52164 3.25794 8.24163C3.31196 7.05809 3.50972 6.41534 3.67591 5.98759C3.89612 5.42097 4.15921 5.01659 4.58397 4.59183C5.00873 4.16703 5.41316 3.90398 5.97973 3.68377C6.40747 3.51753 7.05027 3.31977 8.23377 3.26576C9.51383 3.20736 9.89773 3.19502 13.139 3.19502Z" fill="url(#paint0_linear)"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0344 17.0458C10.8189 17.0458 9.02286 15.2498 9.02286 13.0343C9.02286 10.8188 10.8189 9.02286 13.0344 9.02286C15.2498 9.02286 17.0459 10.8188 17.0459 13.0343C17.0459 15.2498 15.2498 17.0458 13.0344 17.0458ZM13.0344 6.85449C9.62133 6.85449 6.85449 9.62128 6.85449 13.0343C6.85449 16.4474 9.62133 19.2142 13.0344 19.2142C16.4474 19.2142 19.2142 16.4474 19.2142 13.0343C19.2142 9.62128 16.4474 6.85449 13.0344 6.85449Z" fill="url(#paint1_linear)"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20.949 6.74635C20.949 7.52478 20.318 8.15579 19.5396 8.15579C18.7612 8.15579 18.1301 7.52478 18.1301 6.74635C18.1301 5.96792 18.7612 5.33691 19.5396 5.33691C20.318 5.33691 20.949 5.96792 20.949 6.74635Z" fill="url(#paint2_linear)"/>
-                    <defs>
-                      <linearGradient id="paint0_linear" x1="25.2781" y1="1.00781" x2="1" y2="25.2859" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#DF0096"/>
-                        <stop offset="1" stop-color="#FFB500"/>
-                      </linearGradient>
-                      <linearGradient id="paint1_linear" x1="25.641" y1="1.20516" x2="0.191615" y2="25.7669" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#DF0096"/>
-                        <stop offset="1" stop-color="#FFB500"/>
-                      </linearGradient>
-                      <linearGradient id="paint2_linear" x1="24.9673" y1="1.78311" x2="0.877806" y2="25.582" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#DF0096"/>
-                        <stop offset="1" stop-color="#FFB500"/>
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </a>
-              </div>
-            </div>
+            <div class="rt-col-4 rt-col-td-1 md-d-none"></div>
           </div>
         </div>
       </div>
@@ -478,17 +56,9 @@
 
       }
     },
-    mounted () {
-    },
+    mounted () {},
     methods: {
-      toggleOpen() {
-        this.$refs.navigationDropdown.classList.toggle('navigation-link-wrapper__button--active')
-      },
-      toggleMobileMenu() {
-        this.$refs.navigationMobile.classList.toggle('navigation-mobile__button-wrapper--active');
-        document.body.classList.toggle('ovh');
-        document.documentElement.classList.toggle('ovh');
-      }
+
     }
   }
 </script>

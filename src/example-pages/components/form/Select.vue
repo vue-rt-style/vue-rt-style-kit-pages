@@ -21,7 +21,7 @@
                           @item-select="console" @focus="console('focus')" @blur="console('blur')"/>
           </div>
           <div class="rt-col-4">
-            <rt-select-v2 :multiple="true" v-model="test2" value="50" :json="[
+            <rt-select-v2 :multiple="true" value="50" :json="[
                 {value:'50', label:'150 минут 150 минут 150 минут 150 минут 150 минут 150 минут 150 минут'},
                 {value:'150', label:'250 минут', sublabel:'80% скидка'},
                 {value:'250', label:'500 минут', sublabel:'95% скидка'},
@@ -399,7 +399,7 @@ export default {
         setTimeout(() => {
           this.optionsListFiltered = this.optionsList.filter(item => item.label.toLowerCase().includes(inputVal.toLowerCase()));
 
-        }, 1000)
+        }, 1)
 
       } else {
         this.optionsListFiltered = this.optionsList;

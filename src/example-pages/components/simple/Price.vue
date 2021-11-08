@@ -5,7 +5,7 @@
         <div class="app-title row"><h1 class="col rt-font-hero">Price</h1></div>
         <div class="app-body">
           <div>
-            <pre-code text='<rt-price :v2="true" :is-small="true" option-label="От"  :is-option="true" :value="750.2" currency="руб."></rt-price>'></pre-code>
+            <pre-code text='<rt-price :v2="true" :is-small="true" option-label="От"  :is-option="true" :value="750.2" currency="руб." :only-price="true"></rt-price>'></pre-code>
           </div>
           <div>
             <pre-code text='<rt-price :v2="true" :is-option="true" option-label="до" :value="750.2" time-interval="год" currency="$"></rt-price>'></pre-code>

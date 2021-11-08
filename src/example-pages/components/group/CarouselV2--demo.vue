@@ -95,9 +95,9 @@
                       :td-scroll-step="tdScrollStep"
                       :custom-time="customTime"
                       :enable-custom-time="enableCustomTime"
-                      :md-scroll-step="mdScrollStep" :active-index="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
-<!--        <pre-timeout  :time="i*1000" >-->
-        <rt-carousel-slide-v3 v-for="i in 8" :key="i+'$'" :id="'slide-'+i">
+                            :md-scroll-step="mdScrollStep" :active-index="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
+      <!--        <pre-timeout  :time="i*1000" >-->
+              <rt-carousel-slide-v3 v-for="i in 8" :key="i+'$'" :id="'slide-'+i">
           <div>
           <div
               style="
@@ -142,9 +142,6 @@
 <!--        </pre-timeout>-->
 
       </rt-carousel-v3>
-
-
-
 
           </rt-tabs-content-item>
 

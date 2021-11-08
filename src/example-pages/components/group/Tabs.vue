@@ -57,40 +57,134 @@
         </div>
       </div>
       <div :class="'rt-container sp-t-2 sp-b-2 color-block--'+colorBlockClass" >
-
-          <div class="rt-col-12 rt-space-bottom3 is-b2c">
-
-              <rt-tabs :version="2" :background="background" :shadow-color="shadowColor" :small="small"
-                     :show-bottom-line="showBottomLine" :bottom-line-white="bottomLineWhite" :bright="bright" :show-as-tags="asTag">
-              <template slot="navigation">
-                <rt-tabs-nav-item v-ga-click='{data:{"event":"b2c","type":"main_tab","value":"packages"}}'
-                                  anchor="ready!" name="tabs9911">
-                  <rt-system-icons name="achievement"></rt-system-icons>
-                  <span class="sp-l-0-2">Готов!!</span>
+        <div class="rt-col-12 rt-space-bottom3 is-b2c">
+          <rt-tabs :version="2" :background="background" :shadow-color="shadowColor" :small="small"
+                   :show-bottom-line="showBottomLine" :bottom-line-white="bottomLineWhite" :bright="bright" :show-as-tags="asTag">
+            <template slot="navigation">
+              <rt-tabs-nav-item v-ga-click='{data:{"event":"b2c","type":"main_tab","value":"packages"}}'
+                                anchor="ready!" name="tabs9911">
+                <rt-system-icons name="achievement"></rt-system-icons>
+                <span class="sp-l-0-2">Готов!!</span>
+              </rt-tabs-nav-item>
+              <rt-tabs-nav-item anchor="hello" name="tabs22">Смысл kdka;ld ada da d
+              </rt-tabs-nav-item>
+              <rt-tabs-nav-item anchor="world" name="tabs23">Значимость
+              </rt-tabs-nav-item>
+              <rt-tabs-nav-item anchor="ready!" name="1tabs9911">Готов da d ad a da
+              </rt-tabs-nav-item>
+              <rt-tabs-nav-item anchor="0hello" name="1tabs22">Смысл dad da a da da
+              </rt-tabs-nav-item>
+              <rt-tabs-nav-item anchor="0world" name="1tabs23">Значимость dad ad ad a
+              </rt-tabs-nav-item>
+              <rt-tabs-nav-item anchor="0ready!" name="12tabs9911">Готов dad ad a da d
+              </rt-tabs-nav-item>
+              <rt-tabs-nav-item anchor="1hello" name="12tabs22">Смысл dad ad a da
+              </rt-tabs-nav-item>
+              <rt-tabs-nav-item anchor="1world" name="12tabs23">Значимость
+              </rt-tabs-nav-item>
+            </template>
+            <template slot="content">
+              <rt-tabs-content-item name="tabs9911">
+                <h1>TEST</h1>
+              </rt-tabs-content-item>
+              <rt-tabs-content-item name="tabs22"><p class="rt-font-h1">Смысл сайта</p>
+                <p class="rt-font-paragraph">Повседневная практика показывает, что консультация
+                  с широким активом
+                  представляет собой интересный эксперимент проверки позиций, занимаемых
+                  участниками в отношении
+                  поставленных задач. Равным образом консультация с широким активом влечет за
+                  собой процесс внедрения
+                  и модернизации форм развития. Повседневная практика показывает, что
+                  консультация с широким активом
+                  обеспечивает широкому кругу (специалистов) участие в формировании
+                  соответствующий условий
+                  активизации. С другой стороны новая модель оргоганизационной деятельности
+                  позволяет оценить значение
+                  новых предложений. Не следует, однако забывать, что рамки и место обучения
+                  кадров требуют от нас
+                  анализа новых предложений. Идейные соображения высшего порядка, а также
+                  реализация намеченных
+                  плановых заданий обеспечивает широкому кругу (специалистов) участие в
+                  формировании позиций,
+                  занимаемых участниками в отношении поставленных задач.</p>
+                <p class="rt-font-paragraph">Идейные соображения высшего порядка, а также
+                  постоянное
+                  информационно-пропагандистское обеспечение нашей деятельности в значительной
+                  степени обуславливает
+                  создание существенных финансовых и административных условий. С другой
+                  стороны постоянный
+                  количественный рост и сфера нашей активности позволяет выполнять важные
+                  задания по разработке
+                  существенных финансовых и административных условий. Таким образом
+                  консультация с широким активом
+                  влечет за собой процесс внедрения и модернизации форм развития. С другой
+                  стороны сложившаяся
+                  структура организации требуют определения и уточнения системы обучения
+                  кадров, соответствует
+                  насущным потребностям. Товарищи! рамки и место обучения кадров представляет
+                  собой интересный
+                  эксперимент проверки направлений прогрессивного развития.</p>
+              </rt-tabs-content-item>
+              <rt-tabs-content-item name="tabs23"><p class="rt-font-h1">Значимость</p>
+                <p class="rt-font-paragraph">Значимость этих проблем настолько очевидна, что
+                  консультация с широким
+                  активом позволяет выполнять важные задания по разработке позиций, занимаемых
+                  участниками в отношении
+                  поставленных задач. Задача организации, в особенности же рамки и место
+                  обучения кадров требуют от
+                  нас анализа направлений прогрессивного развития. Повседневная практика
+                  показывает, что сложившаяся
+                  структура организации представляет собой интересный эксперимент проверки
+                  форм развития. Значимость
+                  этих проблем настолько очевидна, что укрепление и развитие структуры
+                  позволяет оценить значение
+                  систем массового участия.</p>
+                <p class="rt-font-paragraph">Разнообразный и богатый опыт рамки и место обучения
+                  кадров способствует
+                  подготовки и реализации соответствующий условий активизации. Повседневная
+                  практика показывает, что
+                  дальнейшее развитие различных форм деятельности представляет собой
+                  интересный эксперимент проверки
+                  существенных финансовых и административных условий. Идейные соображения
+                  высшего порядка, а также
+                  укрепление и развитие структуры обеспечивает широкому кругу (специалистов)
+                  участие в формировании
+                  форм развития.</p></rt-tabs-content-item>
+            </template>
+          </rt-tabs>
+        </div>
+      </div>
+      <div class="rt-container" >
+        <div class="rt-col">
+<!--          <pre-code text="-->
+            <rt-tabs :version='2' background='white' :show-as-tags='true' ga="b2b" ga-type="ITV_chose_top">
+              <template slot='navigation'>
+                <rt-tabs-nav-item anchor='ready!' name='tabs21'>
+                  <rt-system-icons name='achievement'></rt-system-icons> Готов!!
                 </rt-tabs-nav-item>
-                <rt-tabs-nav-item anchor="hello" name="tabs22">Смысл kdka;ld ada da d
+                <rt-tabs-nav-item anchor='hello' name='tabs22'>Смысл kdka;ld ada da d
                 </rt-tabs-nav-item>
-                <rt-tabs-nav-item anchor="world" name="tabs23">Значимость
+                <rt-tabs-nav-item anchor='world' name='tabs23'>Значимость
                 </rt-tabs-nav-item>
-                <rt-tabs-nav-item anchor="ready!" name="1tabs9911">Готов da d ad a da
+                <rt-tabs-nav-item anchor='ready!' name='1tabs21'>Готов da d ad a da
                 </rt-tabs-nav-item>
-                <rt-tabs-nav-item anchor="0hello" name="1tabs22">Смысл dad da a da da
+                <rt-tabs-nav-item anchor='0hello' name='1tabs22'>Смысл dad da a da da
                 </rt-tabs-nav-item>
-                <rt-tabs-nav-item anchor="0world" name="1tabs23">Значимость dad ad ad a
+                <rt-tabs-nav-item anchor='0world' name='1tabs23'>Значимость dad ad ad a
                 </rt-tabs-nav-item>
-                <rt-tabs-nav-item anchor="0ready!" name="12tabs9911">Готов dad ad a da d
+                <rt-tabs-nav-item anchor='0ready!' name='12tabs21'>Готов dad ad a da d
                 </rt-tabs-nav-item>
-                <rt-tabs-nav-item anchor="1hello" name="12tabs22">Смысл dad ad a da
+                <rt-tabs-nav-item anchor='1hello' name='12tabs22'>Смысл dad ad a da
                 </rt-tabs-nav-item>
-                <rt-tabs-nav-item anchor="1world" name="12tabs23">Значимость
+                <rt-tabs-nav-item anchor='1world' name='12tabs23'>Значимость
                 </rt-tabs-nav-item>
               </template>
-              <template slot="content">
-                <rt-tabs-content-item name="tabs9911">
+              <template slot='content'>
+                <rt-tabs-content-item name='tabs21'>
                   <h1>TEST</h1>
                 </rt-tabs-content-item>
-                <rt-tabs-content-item name="tabs22"><p class="rt-font-h1">Смысл сайта</p>
-                  <p class="rt-font-paragraph">Повседневная практика показывает, что консультация
+                <rt-tabs-content-item name='tabs22'><p class='rt-font-h1'>Смысл сайта</p>
+                  <p class='rt-font-paragraph'>Повседневная практика показывает, что консультация
                     с широким активом
                     представляет собой интересный эксперимент проверки позиций, занимаемых
                     участниками в отношении
@@ -109,7 +203,7 @@
                     плановых заданий обеспечивает широкому кругу (специалистов) участие в
                     формировании позиций,
                     занимаемых участниками в отношении поставленных задач.</p>
-                  <p class="rt-font-paragraph">Идейные соображения высшего порядка, а также
+                  <p class='rt-font-paragraph'>Идейные соображения высшего порядка, а также
                     постоянное
                     информационно-пропагандистское обеспечение нашей деятельности в значительной
                     степени обуславливает
@@ -127,8 +221,8 @@
                     собой интересный
                     эксперимент проверки направлений прогрессивного развития.</p>
                 </rt-tabs-content-item>
-                <rt-tabs-content-item name="tabs23"><p class="rt-font-h1">Значимость</p>
-                  <p class="rt-font-paragraph">Значимость этих проблем настолько очевидна, что
+                <rt-tabs-content-item name='tabs23'><p class='rt-font-h1'>Значимость</p>
+                  <p class='rt-font-paragraph'>Значимость этих проблем настолько очевидна, что
                     консультация с широким
                     активом позволяет выполнять важные задания по разработке позиций, занимаемых
                     участниками в отношении
@@ -141,7 +235,7 @@
                     этих проблем настолько очевидна, что укрепление и развитие структуры
                     позволяет оценить значение
                     систем массового участия.</p>
-                  <p class="rt-font-paragraph">Разнообразный и богатый опыт рамки и место обучения
+                  <p class='rt-font-paragraph'>Разнообразный и богатый опыт рамки и место обучения
                     кадров способствует
                     подготовки и реализации соответствующий условий активизации. Повседневная
                     практика показывает, что
@@ -155,101 +249,7 @@
               </template>
             </rt-tabs>
           </div>
-      </div>
-      <div class="rt-container" >
-        <div class="rt-col">
-          <pre-code text="
-            <rt-tabs  :version=&quot;2&quot; background=&quot;white&quot; :show-as-tags=&quot;true&quot;>
-            <template slot=&quot;navigation&quot;>
-              <rt-tabs-nav-item v-ga-click='{data:{&quot;event&quot;:&quot;b2c&quot;,&quot;type&quot;:&quot;main_tab&quot;,&quot;value&quot;:&quot;packages&quot;}}' anchor=&quot;ready!&quot; name=&quot;tabs21&quot;>
-          <rt-system-icons name=&quot;achievement&quot;></rt-system-icons> Готов!!
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;hello&quot; name=&quot;tabs22&quot;>Смысл kdka;ld ada da d
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;world&quot; name=&quot;tabs23&quot;>Значимость
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;ready!&quot; name=&quot;1tabs21&quot;>Готов da d ad a da
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;0hello&quot; name=&quot;1tabs22&quot;>Смысл dad da a da da
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;0world&quot; name=&quot;1tabs23&quot;>Значимость dad ad ad a
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;0ready!&quot; name=&quot;12tabs21&quot;>Готов dad ad a da d
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;1hello&quot; name=&quot;12tabs22&quot;>Смысл dad ad a da
-          </rt-tabs-nav-item>
-          <rt-tabs-nav-item anchor=&quot;1world&quot; name=&quot;12tabs23&quot;>Значимость
-          </rt-tabs-nav-item>
-</template>
-<template slot=&quot;content&quot;>
-  <rt-tabs-content-item name=&quot;tabs21&quot;>
-    <h1>TEST</h1>
-  </rt-tabs-content-item>
-  <rt-tabs-content-item name=&quot;tabs22&quot;><p class=&quot;rt-font-h1&quot;>Смысл сайта</p>
-    <p class=&quot;rt-font-paragraph&quot;>Повседневная практика показывает, что консультация
-      с широким активом
-      представляет собой интересный эксперимент проверки позиций, занимаемых
-      участниками в отношении
-      поставленных задач. Равным образом консультация с широким активом влечет за
-      собой процесс внедрения
-      и модернизации форм развития. Повседневная практика показывает, что
-      консультация с широким активом
-      обеспечивает широкому кругу (специалистов) участие в формировании
-      соответствующий условий
-      активизации. С другой стороны новая модель оргоганизационной деятельности
-      позволяет оценить значение
-      новых предложений. Не следует, однако забывать, что рамки и место обучения
-      кадров требуют от нас
-      анализа новых предложений. Идейные соображения высшего порядка, а также
-      реализация намеченных
-      плановых заданий обеспечивает широкому кругу (специалистов) участие в
-      формировании позиций,
-      занимаемых участниками в отношении поставленных задач.</p>
-    <p class=&quot;rt-font-paragraph&quot;>Идейные соображения высшего порядка, а также
-      постоянное
-      информационно-пропагандистское обеспечение нашей деятельности в значительной
-      степени обуславливает
-      создание существенных финансовых и административных условий. С другой
-      стороны постоянный
-      количественный рост и сфера нашей активности позволяет выполнять важные
-      задания по разработке
-      существенных финансовых и административных условий. Таким образом
-      консультация с широким активом
-      влечет за собой процесс внедрения и модернизации форм развития. С другой
-      стороны сложившаяся
-      структура организации требуют определения и уточнения системы обучения
-      кадров, соответствует
-      насущным потребностям. Товарищи! рамки и место обучения кадров представляет
-      собой интересный
-      эксперимент проверки направлений прогрессивного развития.</p>
-  </rt-tabs-content-item>
-  <rt-tabs-content-item name=&quot;tabs23&quot;><p class=&quot;rt-font-h1&quot;>Значимость</p>
-    <p class=&quot;rt-font-paragraph&quot;>Значимость этих проблем настолько очевидна, что
-      консультация с широким
-      активом позволяет выполнять важные задания по разработке позиций, занимаемых
-      участниками в отношении
-      поставленных задач. Задача организации, в особенности же рамки и место
-      обучения кадров требуют от
-      нас анализа направлений прогрессивного развития. Повседневная практика
-      показывает, что сложившаяся
-      структура организации представляет собой интересный эксперимент проверки
-      форм развития. Значимость
-      этих проблем настолько очевидна, что укрепление и развитие структуры
-      позволяет оценить значение
-      систем массового участия.</p>
-    <p class=&quot;rt-font-paragraph&quot;>Разнообразный и богатый опыт рамки и место обучения
-      кадров способствует
-      подготовки и реализации соответствующий условий активизации. Повседневная
-      практика показывает, что
-      дальнейшее развитие различных форм деятельности представляет собой
-      интересный эксперимент проверки
-      существенных финансовых и административных условий. Идейные соображения
-      высшего порядка, а также
-      укрепление и развитие структуры обеспечивает широкому кругу (специалистов)
-      участие в формировании
-      форм развития.</p></rt-tabs-content-item>
-</template>
-</rt-tabs></div>"></pre-code>
+<!--          "></pre-code>-->
           <pre-code text='
                   <rt-tabs :version="2">
                     <template slot="navigation">

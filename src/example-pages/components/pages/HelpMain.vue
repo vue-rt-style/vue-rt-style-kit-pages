@@ -1,150 +1,87 @@
 <template>
-  <div class="app-content rt-col-12 rt-col-md-3">
+  <div class="events-admin events-admin__events-list">
+    <admin-header :active-index="0">активные <br/>мероприятия</admin-header>
     <div class="rt-container">
-      <div class="row">
-        <div class="rt-col-12 rt-col-td-6 rt-col-md-3">
-          <div class="app-title ">
-            <h1 class="rt-font-hero">Help Main Page</h1>
+      <div class="rt-col sp-t-green sp-b-purple">
+        <div class="row">
+          <div class="d-none td-d-flex rt-col-md-3 flex-end-center td-sp-b-2 md-sp-b-1">
+            <rt-button color="orange" class="rt-button-md--is-block"
+                       v-popup-trigger="{name:'createEvent' + _uid}">Создать мероприятие</rt-button>
           </div>
-        </div>
-
-        <div class="rt-col-12 rt-col-td-6 rt-col-md-3 is-b2b">
-          <div class="rt-space-bottom2 rt-td-space-bottom">
-            <h1 class="rt-font-bold rt-space-bottom5">Помощь и поддержка</h1>
-            <rt-row-list :is-help-block="true" class="rt-font-left">
-              <rt-row-list-item icon="/static/images/B2B/ATS.svg">
-                <template slot="option">
-                  <a href="#"><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Виртуальная АТС</p></a>
-                  <a href="#"><p class="rt-font-small-paragraph rt-space-bottom05">Настройка переадресации вызовов</p>
-                  </a>
-                  <a href="#"><p class="rt-font-small-paragraph rt-space-bottom05">Как перевести звонок другому
-                    абоненту</p></a>
-                  <a href="#"><p class="rt-font-small-paragraph">Как настроить короткие номера</p></a>
-                </template>
-              </rt-row-list-item>
-              <rt-row-list-item icon="/static/images/B2B/help2.svg">
-                <template slot="option">
-                  <a href="#"><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">8 800</p></a>
-                  <a href="#"><p class="rt-font-small-paragraph rt-space-bottom05">В Ростелеком со своим номером</p>
-                  </a>
-                  <a href="#"><p class="rt-font-small-paragraph rt-space-bottom05">Как проверить баланс в
-                    роуминге?</p></a>
-                  <a href="#"><p class="rt-font-small-paragraph">Интернет в роуминге</p></a>
-                </template>
-              </rt-row-list-item>
-              <rt-row-list-item icon="/static/images/B2B/help3.svg">
-                <template slot="option">
-                  <a href="#"><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Видеонаблюдение</p></a>
-                  <a href="#"><p class="rt-font-small-paragraph rt-space-bottom05">Как перейти в Ростелеком со своим
-                    номером?</p></a>
-                  <a href="#"><p class="rt-font-small-paragraph rt-space-bottom05">Как проверить баланс в
-                    роуминге?</p></a>
-                  <a href="#"><p class="rt-font-small-paragraph">Как подключить интернет в роуминге?</p></a>
-                </template>
-              </rt-row-list-item>
-              <rt-row-list-item icon="/static/images/B2B/mobile-call.svg">
-                <template slot="option">
-                  <a href="#"><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Виртуальная АТС</p></a>
-                  <a href="#"><p class="rt-font-small-paragraph rt-space-bottom05">Настройка переадресации вызовов</p>
-                  </a>
-                  <a href="#"><p class="rt-font-small-paragraph rt-space-bottom05">Как перевести звонок другому
-                    абоненту</p></a>
-                  <a href="#"><p class="rt-font-small-paragraph">Как настроить короткие номера</p></a>
-                </template>
-              </rt-row-list-item>
-              <rt-row-list-item icon="/static/images/B2B/help5.svg">
-                <template slot="option">
-                  <a href="#"><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">8 800</p></a>
-                  <a href="#"><p class="rt-font-small-paragraph rt-space-bottom05">В Ростелеком со своим номером</p>
-                  </a>
-                  <a href="#"><p class="rt-font-small-paragraph rt-space-bottom05">Как проверить баланс в
-                    роуминге?</p></a>
-                  <a href="#"><p class="rt-font-small-paragraph">Интернет в роуминге</p></a>
-                </template>
-              </rt-row-list-item>
-              <rt-row-list-item icon="/static/images/B2B/help6.svg">
-                <template slot="option">
-                  <a href="#"><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Видеонаблюдение</p></a>
-                  <a href="#"><p class="rt-font-small-paragraph rt-space-bottom05">Как перейти в Ростелеком со своим
-                    номером?</p></a>
-                  <a href="#"><p class="rt-font-small-paragraph rt-space-bottom05">Как проверить баланс в
-                    роуминге?</p></a>
-                  <a href="#"><p class="rt-font-small-paragraph">Как подключить интернет в роуминге?</p></a>
-                </template>
-              </rt-row-list-item>
-            </rt-row-list>
+          <div class="rt-col-3 rt-col-td-2 rt-col-md-3">
+            <event-select/>
           </div>
-          <h3 class="rt-font-bold rt-space-bottom2 rt-td-space-bottom">Все сервисы</h3>
-          <div class="row rt-space-bottom5 rt-td-space-bottom25 rt-md-space-bottom-none">
-            <div class="rt-col-12 rt-col-td-6 rt-col-md-3">
-              <rt-un-wrapper unwrap-button-text="показать все">
-                <template slot="short-content">
-                  <div class="rt-col-4 rt-col-td-3 rt-col-md-3">
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Он-лайн касса</p></a>
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">M2M</p></a>
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">СМС-реклама</p></a>
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Телевидение</p></a>
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Аренда сетевого
-                      оборудования</p></a>
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Защита от DDoS-атак</p></a>
-                  </div>
-                </template>
-                <template slot="full-content">
-                  <div class="rt-col-4 rt-col-td-3 rt-col-md-3">
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Аренда сетевого
-                      оборудования</p></a>
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Защита от DDoS-атак</p></a>
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Виртуальное хранилище</p>
-                    </a>
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Виртуальный ЦОД</p></a>
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Он-лайн касса</p></a>
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">M2M</p></a>
-                  </div>
-                  <div class="rt-col-4 rt-col-td-3 rt-col-md-3">
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Телевидение</p></a>
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Облачные сервисы</p></a>
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Видеоконференция</p></a>
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Аудиоконференция</p></a>
-                    <a href=""><p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Телевидение</p></a>
-                  </div>
-                </template>
-              </rt-un-wrapper>
-            </div>
+          <div class="rt-col-2 rt-col-td-2 rt-col-md-3">
+            <a-c-date-picker/>
           </div>
-        </div>
-        <div class="rt-col-12 rt-col-td-6 rt-col-md-3 is-b2b">
-          <h3 class="rt-font-bold rt-space-bottom2 rt-td-space-bottom rt-md-space-top25">Не нашли что искали? Свяжитесь с нами</h3>
-          <rt-row-list :is-help-block="true" class="rt-font-left">
-            <rt-row-list-item icon="/static/images/B2B/help7.svg">
-              <template slot="option">
-                <p class="rt-font-paragraph rt-font-bold rt-space-bottom05">Заявкой на сайте</p>
-                <p class="rt-font-paragraph"><a href="#" class="rt-link">Заполните форму</a> и в ближайшее время 
-                  наши специалисты перезвонят</p>
-              </template>
-            </rt-row-list-item>
-            <rt-row-list-item icon="/static/images/B2B/help8.svg" :button-in-mobile="true" phone-number="13451435134">
-              <template slot="option">
-                <p class="rt-font-paragraph rt-font-bold rt-space-bottom05">По телефону 8 800 200 30 00</p>
-                <p class="rt-font-paragraph">Наши менеджеры помогут Вам  с решением проблемы</p>
-              </template>
-            </rt-row-list-item>
-            <rt-row-list-item icon="/static/images/B2B/help9.svg">
-              <template slot="option">
-                <p class="rt-font-paragraph rt-font-bold rt-space-bottom05">В офисе продаж</p>
-                <p class="rt-font-paragraph">Приходите в <a href="#" class="rt-link">наши офисы</a>, узнавайте новости, тестируйте услуги, задавайте вопросы</p>
-              </template>
-            </rt-row-list-item>
-          </rt-row-list>
+          <div class="rt-col-3 rt-col-td-2 rt-col-md-3">
+            <location-select/>
+          </div>
+          <div class="rt-col-1 td-d-none"></div>
+          <div class="rt-col-3 td-d-none flex-end-center">
+            <rt-button color="orange" v-popup-trigger="{name:'createEvent' + _uid}">Создать мероприятие</rt-button>
+          </div>
         </div>
       </div>
     </div>
+    <div class="rt-container">
+      <div class="rt-col events-list-wrapper">
+        <div class="events-list-wrapper__inner sp-r-1-3 td-sp-r-none sp-b-1">
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+          <event-list-item title="Клуб бизнес-экспертов" date="13.11.2021" location="Санкт-Петербург" event-link="test-access"/>
+        </div>
+      </div>
+    </div>
+    <rt-popup :name="'createEvent' + _uid" :size="3" class="create-event">
+      <div class="font-h4 sp-b-0-2">Создание <br/>мероприятия</div>
+      <div class="sp-t-0-3">
+        <rt-select-v2 label="Тип мероприятия"></rt-select-v2>
+      </div>
+      <div class="sp-t-0-3">
+        <rt-input :version="2" placeholder="Дата">
+          <template slot="icon">
+            <rt-system-icons name="calendar"></rt-system-icons>
+          </template>
+        </rt-input>
+      </div>
+      <div class="sp-t-0-3">
+        <rt-select-v2 label="Город"></rt-select-v2>
+      </div>
+      <div class="sp-t-2">
+        <rt-button color="orange" :small="true" :is-block="true">Создать</rt-button>
+      </div>
+    </rt-popup>
   </div>
-
 </template>
 <script>
   import componentsList from "../../componentsList";
+  import adminHeader from "./adminHeader.vue";
+  import eventListItem from "./eventListItem.vue";
+  import locationSelect from "./locationSelect.vue";
+  import eventSelect from './eventSelect.vue'
+  import ACDatePicker from "./datePicker/ACDatePicker.vue";
   export default {
     name: "AppHelpMain",
-    components: componentsList
+    components: {
+      componentsList,
+      adminHeader,
+      eventListItem,
+      locationSelect,
+      eventSelect,
+      ACDatePicker
+    }
   };
 </script>

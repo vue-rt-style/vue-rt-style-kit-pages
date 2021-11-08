@@ -1,553 +1,331 @@
 <template>
-  <div class="blog blog-article">
-    <div class="blog__header-wrapper">
+  <div class="academy academy-program-page">
+    <div class="academy__header d-flex sp-v-mint">
       <div class="rt-container">
         <div class="rt-col">
-          <div class="blog__header">
-            <div class="blog__header-left">
-              <div class="logo">
-                <svg class="d-block" width="140" height="36" viewBox="0 0 140 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8441 36.0011C9.88521 30.2409 6.9057 27.361 6.90557 27.3611L1.07766 33.1211C0.478143 33.9111 0.633048 35.0372 1.42365 35.6363C1.73597 35.873 2.11719 36.0011 2.50916 36.0011C2.51894 36.0011 2.52872 36.0011 2.5385 36.0011C6.9737 36.0011 11.4089 36.0011 15.8441 36.0011Z" fill="#FF4F12"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6154 12.96L8.64616 0L1.40521 7.53728C0.503521 8.47587 0 9.72655 0 11.0276L0 33.12C0 34.7106 1.29034 36 2.88205 36C1.89594 36 1.09653 35.2012 1.09653 34.2158C1.09653 33.7414 1.28558 33.2865 1.6219 32.9517" fill="#7700FF"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M114.014 22.4419H110.895L107.169 26.2067V22.4419H104.532V32.816H107.169V28.5284L110.958 32.816H114.139L109.241 27.2524L114.014 22.4419Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M30.3372 25.135H26.5277V20.5336H30.3372C32.2626 20.5336 33.1418 21.4537 33.1418 22.8342C33.1418 24.2146 32.2626 25.135 30.3372 25.135ZM30.4208 18.0654H23.765V32.7064H26.5277V27.6029H30.4208C33.7279 27.6029 35.9047 25.9089 35.9047 22.8342C35.9047 19.7595 33.7279 18.0654 30.4208 18.0654Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M42.1346 30.6451C40.5859 30.6451 39.1416 29.5365 39.1416 27.6331C39.1416 25.7299 40.5859 24.6215 42.1346 24.6215C43.6835 24.6215 45.1277 25.7299 45.1277 27.6331C45.1277 29.5365 43.6835 30.6451 42.1346 30.6451ZM42.1346 22.1533C39.2882 22.1533 36.4624 23.994 36.4624 27.6331C36.4624 31.2727 39.2882 33.113 42.1346 33.113C44.9813 33.113 47.8069 31.2727 47.8069 27.6331C47.8069 23.994 44.9813 22.1533 42.1346 22.1533Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M54.5338 30.6451C52.9431 30.6451 51.771 29.4947 51.771 27.6331C51.771 25.7926 52.9849 24.6215 54.5338 24.6215C55.4757 24.6215 56.292 25.0606 56.9408 26.0437L59.2012 24.7468C58.4479 23.1362 56.8152 22.1533 54.5547 22.1533C51.6035 22.1533 49.0918 24.3285 49.0918 27.6331C49.0918 30.9378 51.478 33.113 54.5547 33.113C56.7733 33.113 58.2593 32.1093 59.306 30.3315L57.1292 29.1393C56.5013 30.0176 55.8314 30.6451 54.5338 30.6451Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M82.6201 28.3192C82.4947 29.9086 82.1803 30.2644 81.636 30.2644C81.2643 30.2644 81.0895 30.2232 80.835 30.1565L80.8482 32.8413C80.8482 32.8413 81.176 32.9413 81.783 32.9413C84.0225 32.9413 84.8597 31.4982 85.0691 28.4237L85.3202 24.8054H88.2922V32.7951H90.9296V22.4419H83.0596L82.6201 28.3192Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M72.2737 26.2528C72.6504 25.0815 73.6969 24.1612 75.0783 24.1612C76.5436 24.1612 77.5273 24.956 77.7784 26.2528H72.2737ZM75.1622 22.1533C72.1482 22.1533 69.6992 24.3494 69.6992 27.6331C69.6992 30.9169 72.1482 33.113 75.0365 33.113C77.318 33.113 78.7622 32.2556 79.8087 30.4777L77.7155 29.432C77.0667 30.2477 76.4807 30.854 75.0783 30.854C73.5296 30.854 72.3993 29.8503 72.2318 28.2607H80.2272V27.3404C80.2272 24.3076 78.1343 22.1533 75.1622 22.1533Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M94.9863 26.2528C95.3631 25.0815 96.4096 24.1612 97.791 24.1612C99.2561 24.1612 100.24 24.956 100.491 26.2528H94.9863ZM97.8748 22.1533C94.8607 22.1533 92.4119 24.3494 92.4119 27.6331C92.4119 30.9169 94.8607 33.113 97.7492 33.113C100.031 33.113 101.475 32.2556 102.521 30.4777L100.428 29.432C99.7794 30.2477 99.1933 30.854 97.791 30.854C96.2421 30.854 95.1118 29.8503 94.9445 28.2607H102.94V27.3404C102.94 24.3076 100.847 22.1533 97.8748 22.1533Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M60.1255 24.7425H63.2233V32.816H65.8603V24.7425H68.9583V22.4419H60.1255V24.7425Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M119.371 30.6451C117.822 30.6451 116.378 29.5365 116.378 27.6331C116.378 25.7299 117.822 24.6215 119.371 24.6215C120.92 24.6215 122.364 25.7299 122.364 27.6331C122.364 29.5365 120.92 30.6451 119.371 30.6451ZM119.371 22.1533C116.524 22.1533 113.699 23.9938 113.699 27.6331C113.699 31.2725 116.524 33.113 119.371 33.113C122.217 33.113 125.043 31.2725 125.043 27.6331C125.043 23.9938 122.217 22.1533 119.371 22.1533Z" fill="#101828"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M135.567 22.4419L132.705 29.7074L129.843 22.4419H126.396V32.7972H128.902V26.2415L131.681 32.7972H133.729L136.507 26.2415V32.7972H139.014V22.4419H135.567Z" fill="#101828"/>
+          <div class="d-flex d-space-between">
+            <div class="academy__header__logo">
+              <svg width="100%" height="100%" viewBox="0 0 91 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.107132 0H12.7708V2.98225H3.496V6.81657H7.70533C11.3796 6.81657 14.055 8.84023 14.055 12.355C14.055 15.8698 11.4152 17.9645 7.70533 17.9645H0.107132V0ZM7.45562 14.9467C9.63163 14.9467 10.6661 13.9882 10.6661 12.3905C10.6661 10.7929 9.66731 9.83432 7.45562 9.83432H3.496V14.9822H7.45562V14.9467Z" fill="#273A64"/>
+                <path d="M17.3726 5.25443H20.4761V13.6686L26.0409 5.25443H29.3941V18H26.2907V9.58579L20.7258 17.9645H17.3726V5.25443Z" fill="#273A64"/>
+                <path d="M43.556 14.2722C43.556 16.6864 41.5584 18.3195 37.9555 18.3195C34.638 18.3195 32.89 16.5444 32.89 14.2012C32.89 13.5976 33.0327 12.9941 33.2111 12.6746L35.9578 13.5621C35.8865 13.7396 35.8151 13.9527 35.8151 14.2012C35.8151 15.2663 36.8853 15.8343 37.9912 15.8343C39.5607 15.8343 40.4525 15.1243 40.4525 14.1657C40.4525 13.2071 39.5964 12.6391 38.1695 12.6391H37.0993V10.0828H38.0625C39.4537 10.0828 40.0602 9.5148 40.0602 8.69823C40.0602 7.91717 39.4894 7.42012 38.2765 7.42012C36.9923 7.42012 36.1719 7.91717 36.1719 8.52072C36.1719 8.73373 36.2075 8.84024 36.2432 8.98225L33.4964 9.90533C33.3538 9.47929 33.2467 9.12427 33.2467 8.62722C33.2467 6.60356 35.066 4.89941 38.3122 4.89941C41.6297 4.89941 43.0923 6.35503 43.0923 8.3077C43.0923 9.83432 42.2362 10.7574 40.9163 11.2544C42.4502 11.6805 43.556 12.6746 43.556 14.2722Z" fill="#273A64"/>
+                <path d="M46.8734 5.25443H50.1196V10.0118H55.4348V5.25443H58.681V18H55.4348V12.8166H50.1196V17.9645H46.8734V5.25443Z" fill="#273A64"/>
+                <path d="M68.5265 15.5503C70.2388 15.5503 70.9879 14.8047 71.7727 13.8107L74.3411 15.0888C73.0569 17.2544 71.2733 18.3195 68.4552 18.3195C64.888 18.3195 61.8915 15.6213 61.8915 11.6095C61.8915 7.59764 64.9236 4.89941 68.6335 4.89941C72.3078 4.89941 74.8762 7.52663 74.8762 11.2544V12.3905H65.0306C65.209 14.3432 66.6002 15.5503 68.5265 15.5503ZM65.0663 9.90533H71.844C71.523 8.3077 70.3101 7.34912 68.5265 7.34912C66.8143 7.34912 65.5301 8.48521 65.0663 9.90533Z" fill="#273A64"/>
+                <path d="M84.0798 18.3195C80.2985 18.3195 77.3377 15.6568 77.3377 11.6095C77.3377 7.56214 80.4412 4.89941 84.0798 4.89941C86.8622 4.89941 88.8955 6.10651 89.823 8.09468L87.0406 9.69231C86.2558 8.48521 85.2213 7.95267 84.0798 7.95267C82.1891 7.95267 80.6909 9.40829 80.6909 11.645C80.6909 13.9172 82.1535 15.3373 84.0798 15.3373C85.685 15.3373 86.5055 14.5562 87.2903 13.4911L89.9657 14.9467C88.6458 17.1124 86.7909 18.3195 84.0798 18.3195Z" fill="#273A64"/>
+                <path d="M0 51.8343H1.42689C1.96198 50.8758 2.39004 49.7042 2.49706 47.3965L2.81811 42.0355H12.842V51.8343H14.7683V57.7278H11.8432V54.7456H2.92513V57.7278H0V51.8343ZM9.59585 51.8343V44.9468H5.5292L5.38652 47.503C5.24383 49.8817 5.02979 50.8758 4.49471 51.8343H9.59585Z" fill="#273A64"/>
+                <path d="M21.0823 42.0355V43.8462C21.9384 42.6036 23.5793 41.6805 25.5056 41.6805C28.7161 41.6805 31.3916 44.1657 31.3916 48.3905C31.3916 52.4734 28.6448 55.1006 25.2203 55.1006C23.401 55.1006 22.0097 54.3195 21.0823 53.1834V60H17.8361V42.0355H21.0823ZM20.8682 48.3905C20.8682 50.4852 22.4021 52.0828 24.4711 52.0828C26.5758 52.0828 28.074 50.4497 28.074 48.3905C28.074 46.2959 26.5401 44.6982 24.4711 44.6982C22.4021 44.6982 20.8682 46.3314 20.8682 48.3905Z" fill="#273A64"/>
+                <path d="M42.557 52.7219C41.6652 54.3195 40.0956 55.1006 38.2763 55.1006C35.7436 55.1006 33.96 53.5385 33.96 51.1243C33.96 48.5325 35.9219 47.3609 38.526 47.0059L42.3786 46.4734V45.8343C42.3786 44.5917 41.5938 43.9171 39.9886 43.9171C38.5617 43.9171 37.7412 44.5562 37.7412 45.3728C37.7412 45.4793 37.7412 45.6213 37.7769 45.7278L34.7091 46.0473C34.6734 45.8343 34.6734 45.5503 34.6734 45.3728C34.6734 43.3846 36.6711 41.645 40.0243 41.645C43.5915 41.645 45.6605 43.1716 45.6605 46.2603V51.5858C45.6605 52.9704 45.8032 53.858 46.0885 54.7456H42.878C42.664 54.2485 42.557 53.574 42.557 52.7219ZM42.3786 48.9586V48.71L39.2751 49.1361C37.8839 49.3491 37.1348 49.8461 37.1348 50.9467C37.1348 51.9763 37.9553 52.4734 38.9541 52.4734C40.8447 52.5089 42.3786 51.4083 42.3786 48.9586Z" fill="#273A64"/>
+                <path d="M49.4417 42.0355H52.5452V50.4142L58.1101 42H61.4633V54.7456H58.3598V46.3669L52.7949 54.7456H49.4417V42.0355ZM52.5095 37.9527H54.4715C54.4715 38.5562 54.8282 39.0533 55.4703 39.0533C56.0768 39.0533 56.4335 38.5562 56.4335 37.9527H58.3955C58.3955 39.6213 57.2183 40.8639 55.4703 40.8639C53.7224 40.8639 52.5095 39.6213 52.5095 37.9527Z" fill="#273A64"/>
+                <path d="M65.3515 42.0355H71.3088C74.1983 42.0355 75.7678 43.4201 75.7678 45.1953C75.7678 46.6864 75.0187 47.4675 73.8772 48.0355C75.2328 48.4261 76.2673 49.3846 76.2673 51.0533C76.2673 53.29 74.2696 54.7811 71.6299 54.7811H65.3872V42.0355H65.3515ZM71.0234 46.8994C72.1649 46.8994 72.7 46.5799 72.7 45.6923C72.7 44.8048 72.1649 44.4852 71.0234 44.4852H68.562V46.8994H71.0234ZM71.1661 52.2959C72.5217 52.2959 73.0211 51.6923 73.0211 50.8048C73.0211 49.9172 72.5217 49.3491 71.1661 49.3491H68.562V52.2604H71.1661V52.2959Z" fill="#273A64"/>
+                <path d="M90.4292 23.4675C89.9655 23.1124 89.2877 23.1834 88.6099 23.1834C84.5076 23.3255 80.441 23.3965 76.3743 23.3965C73.4849 23.3965 70.5954 23.645 67.706 23.645C60.9639 23.645 54.2575 24.0355 47.5511 24.1065C41.5225 24.142 35.4582 24.355 29.3939 24.355C25.47 24.355 21.5817 23.9645 17.6578 24.142C14.3402 23.858 11.0227 24.071 7.7052 24.1775C5.74322 24.2485 3.7099 24 1.7836 24.355C0.463723 24.6391 0.285362 25.2781 0.24969 25.9527C0.214017 26.5562 0.428051 27.1953 0.24969 27.7988C-0.249722 29.574 0.285362 31.3491 0.142673 33.0888C0.107001 33.3728 0.0356561 33.6568 0.107001 33.9408C0.285362 34.9349 0.713429 35.0769 2.71108 34.8284C2.85377 34.8284 2.99645 34.7929 3.17482 34.7929C10.452 34.4379 17.6934 34.2959 24.9706 34.5089C30.2501 34.6509 35.4939 34.7574 40.7734 34.5089C44.0909 34.3669 47.4084 34.2604 50.726 34.1539C56.4692 33.9408 62.2481 34.0473 67.9913 33.3728C71.8083 32.9468 75.8036 32.7692 79.7275 32.5562C81.5825 32.4497 83.3661 32.1657 85.114 31.7752C85.5064 31.7752 86.1485 31.7041 86.1129 31.5976C85.9702 30.8876 87.3614 30.9586 87.7538 30.5325C89.5731 29.929 90.4292 29.0769 90.3222 27.9053C90.2865 27.5148 90.6432 27.0888 90.7146 26.6627C90.9643 25.6331 91.321 24.497 90.4292 23.4675Z" fill="#FF4F12"/>
+              </svg>
+            </div>
+            <div class="academy__header__links flex-center-center td-pos-abs">
+              <a class="academy__header__links__item" href="#for-whom">Для кого</a>
+              <a class="academy__header__links__item" href="#benefits">Наши преимущества</a>
+              <a class="academy__header__links__item" href="#tabs">Что вы узнаете</a>
+              <a class="academy__header__links__item" href="#carousel">Преподаватели</a>
+              <a class="academy__header__links__item" href="#program">Программа</a>
+              <a class="academy__header__links__item" href="#concept">Как устроен курс</a>
+            </div>
+            <div class="academy__header__button flex-center-center td-d-none">
+              <rt-button color="orange-border" href="#">Войти на платформу</rt-button>
+            </div>
+            <div class="d-none td-d-flex flex-center-center">
+              <div class="academy__header__button flex-center-center">
+                <rt-button color="orange-border" href="#">Войти на платформу</rt-button>
+              </div>
+              <div class="academy__header__mobile-menu">
+                <div class="academy__header__mobile-menu__body"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sp-t-4 td-sp-t-3-1 md-sp-t-none"></div>
+    <div class="academy__program relative">
+      <div class="rt-container">
+        <div class="rt-col">
+          <div class="color-block--cool-grey sp-v-orange">
+            <div class="row">
+              <div class="rt-col-1 td-d-none"></div>
+              <div class="rt-col-10 rt-col-td-6">
+                <p class="tagline sp-b-x4">Бизнес драйв Академия</p>
+                <h2 class="rt-font-h1 sp-b-1 td-sp-b-0-4 md-sp-b-1">Программа курса</h2>
+                <p class="font-t-l program-custom-color sp-b-1">Ознакомьтесь с программой, основными темами курса и начните учиться бесплатно.</p>
+                <div class="d-flex d-space-between sp-b-4 md-flex-column-reverse md-d-inline-flex md-sp-b-2">
+                  <rt-button color="orange">Начать учиться бесплатно</rt-button>
+                  <ul class="rt-checked-list academy__benefits md-sp-b-1">
+                    <li class="rt-checked-list__item rt-font-h4">13 модулей</li>
+                    <li class="rt-checked-list__item rt-font-h4">25 уроков</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="rt-col-1 td-d-none"></div>
+            </div>
+            <div class="row">
+              <div class="rt-col-1 td-d-none"></div>
+              <div class="rt-col-10 rt-col-td-6">
+                <div class="academy__program__item color-block--white sp-v-purple td-sp-h-1">
+                  <div class="row td-relative">
+                    <div class="rt-col-persent-1 td-d-none"></div>
+                    <div class="rt-col-persent-2 rt-col-td-2 pos-abs-2 rt-col-md-2">
+                      <div class="relative rt-font-td-right">
+                        <span class="academy__program__item__digit color-main01">01</span>
+                        <div class="academy__program__item__title color-orange">МИССИЯ</div>
+                      </div>
+                    </div>
+                    <div class="rt-col-persent-1 td-d-none"></div>
+                    <div class="rt-col-persent-5 d-flex rt-col-td-6 td-flex-column">
+                      <div class="d-inline-block td-d-flex sp-b-1">
+                        <img class="academy__program__item__photo" src="https://msk.rt.ru/sites/default/files/b2b/business_drive/academy/speaker.png"/>
+                      </div>
+                      <div class="d-inline-block sp-l-2 td-sp-l-none">
+                        <h4 class="rt-font-h4 sp-b-darkpurple">Андрей Шапенко</h4>
+                        <p class="font-t-s color-main07 sp-b-purple">Доцент, академический директор программы МВА,
+                          Московская школа управления СКОЛКОВО</p>
+                        <p class="font-h-l sp-b-darkpurple">Если я знаю миссию — я знаю, кто я такой</p>
+                        <p class="font-t-m color-main07 sp-b-mint">Про то, что если у вас есть цель, смысл жизни и путь
+                          достижения, — это вовсе не связано со счастьем. Эта часть курса поможет вам сориентироваться,
+                          какое дело вам лучше выбрать, и в какой области бизнеса развиваться</p>
+                        <p class="academy__program__item__question sp-b-blue">
+                          <span class="font-h-l color-white relative">Зачем?</span>
+                        </p>
+                        <p class="font-t-m color-main07">Понять, то ли вы делаете, и что вам подходит.</p>
+                      </div>
+                    </div>
+                    <div class="rt-col-persent-1 td-d-none"></div>
+                  </div>
+                </div>
+                <div class="academy__program__item color-block--white sp-v-purple td-sp-h-1">
+                  <div class="row td-relative">
+                    <div class="rt-col-persent-1 td-d-none"></div>
+                    <div class="rt-col-persent-2 rt-col-td-2 pos-abs-2 rt-col-md-2">
+                      <div class="relative rt-font-td-right">
+                        <span class="academy__program__item__digit color-main01">02</span>
+                        <div class="academy__program__item__title color-orange">ИДЕЯ БИЗНЕСА И&nbsp;ИДЕЯ ПРОДУКТА</div>
+                      </div>
+                    </div>
+                    <div class="rt-col-persent-1 td-d-none"></div>
+                    <div class="rt-col-persent-5 d-flex rt-col-td-6 td-flex-column">
+                      <div class="d-inline-block td-d-flex sp-b-1">
+                        <img class="academy__program__item__photo" src="https://msk.rt.ru/sites/default/files/b2b/business_drive/academy/speaker.png"/>
+                      </div>
+                      <div class="d-inline-block sp-l-2 td-sp-l-none">
+                        <h4 class="rt-font-h4 sp-b-darkpurple">Андрей Шапенко</h4>
+                        <p class="font-t-s color-main07 sp-b-purple">Доцент, академический директор программы МВА,
+                          Московская школа управления СКОЛКОВО</p>
+                        <p class="font-h-l sp-b-darkpurple">Если я знаю миссию — я знаю, кто я такой</p>
+                        <p class="font-t-m color-main07 sp-b-mint">Про то, что если у вас есть цель, смысл жизни и путь
+                          достижения, — это вовсе не связано со счастьем. Эта часть курса поможет вам сориентироваться,
+                          какое дело вам лучше выбрать, и в какой области бизнеса развиваться</p>
+                        <p class="academy__program__item__question sp-b-blue">
+                          <span class="font-h-l color-white relative">Зачем?</span>
+                        </p>
+                        <p class="font-t-m color-main07">Понять, то ли вы делаете, и что вам подходит.</p>
+                      </div>
+                    </div>
+                    <div class="rt-col-persent-1 td-d-none"></div>
+                  </div>
+                </div>
+                <div class="academy__program__item color-block--white sp-v-purple td-sp-h-1">
+                  <div class="row td-relative">
+                    <div class="rt-col-persent-1 td-d-none"></div>
+                    <div class="rt-col-persent-2 rt-col-td-2 pos-abs-2 rt-col-md-2">
+                      <div class="relative rt-font-td-right">
+                        <span class="academy__program__item__digit color-main01">03</span>
+                        <div class="academy__program__item__title color-orange">Современный предприниматель</div>
+                      </div>
+                    </div>
+                    <div class="rt-col-persent-1 td-d-none"></div>
+                    <div class="rt-col-persent-5 d-flex rt-col-td-6 td-flex-column">
+                      <div class="d-inline-block td-d-flex sp-b-1">
+                        <img class="academy__program__item__photo" src="https://msk.rt.ru/sites/default/files/b2b/business_drive/academy/speaker.png"/>
+                      </div>
+                      <div class="d-inline-block sp-l-2 td-sp-l-none">
+                        <h4 class="rt-font-h4 sp-b-darkpurple">Андрей Шапенко</h4>
+                        <p class="font-t-s color-main07 sp-b-purple">Доцент, академический директор программы МВА,
+                          Московская школа управления СКОЛКОВО</p>
+                        <p class="font-h-l sp-b-darkpurple">Если я знаю миссию — я знаю, кто я такой</p>
+                        <p class="font-t-m color-main07 sp-b-mint">Про то, что если у вас есть цель, смысл жизни и путь
+                          достижения, — это вовсе не связано со счастьем. Эта часть курса поможет вам сориентироваться,
+                          какое дело вам лучше выбрать, и в какой области бизнеса развиваться</p>
+                        <p class="academy__program__item__question sp-b-blue">
+                          <span class="font-h-l color-white relative">Зачем?</span>
+                        </p>
+                        <p class="font-t-m color-main07">Понять, то ли вы делаете, и что вам подходит.</p>
+                      </div>
+                    </div>
+                    <div class="rt-col-persent-1 td-d-none"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="rt-col-1 td-d-none"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="custom-padding-top custom-padding-bottom">
+      <div class="rt-container">
+        <div class="rt-col">
+          <div class="row sp-b-2-2">
+            <div class="rt-col-12">
+              <h2 class="rt-font-h2 sp-b-2 rt-font-center">Как в Академии устроен <span class="underline">процесс обучения</span></h2>
+            </div>
+            <div class="rt-col-3 rt-col-td-3 rt-col-md-3">
+              <div class="academy__concept__item sp-r-1">
+                <div class="academy__concept__item__icon">
+                  <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M69.3333 40.6667C69.3333 56.4988 56.4988 69.3333 40.6667 69.3333C24.8345 69.3333 12 56.4988 12 40.6667C12 24.8345 24.8345 12 40.6667 12C56.4988 12 69.3333 24.8345 69.3333 40.6667Z" fill="#FA6C3B"/>
+                    <rect x="39.291" y="9.3335" width="5.16491" height="1.29123" transform="rotate(90 39.291 9.3335)" fill="white"/>
+                    <rect x="39.291" y="61.5649" width="5.16491" height="1.29123" transform="rotate(90 39.291 61.5649)" fill="white"/>
+                    <rect x="10" y="36.7197" width="5.16491" height="1.29123" fill="white"/>
+                    <rect x="62.2317" y="36.7197" width="5.16491" height="1.29123" fill="white"/>
+                    <rect x="53.7881" y="13.3057" width="5.16491" height="1.29123" transform="rotate(119.661 53.7881 13.3057)" fill="white"/>
+                    <rect x="27.9404" y="58.6929" width="5.16491" height="1.29123" transform="rotate(119.661 27.9404 58.6929)" fill="white"/>
+                    <rect x="63.3142" y="23.7832" width="5.16491" height="1.29123" transform="rotate(149.879 63.3142 23.7832)" fill="white"/>
+                    <rect x="18.1357" y="49.9946" width="5.16491" height="1.29123" transform="rotate(149.879 18.1357 49.9946)" fill="white"/>
+                    <rect x="63.3281" y="53.103" width="5.16491" height="1.29123" transform="rotate(-148.652 63.3281 53.103)" fill="white"/>
+                    <rect x="18.7214" y="25.9302" width="5.16491" height="1.29123" transform="rotate(-148.652 18.7214 25.9302)" fill="white"/>
+                    <rect x="52.2087" y="63.3003" width="5.16491" height="1.29123" transform="rotate(-119.385 52.2087 63.3003)" fill="white"/>
+                    <rect x="26.5798" y="17.7886" width="5.16491" height="1.29123" transform="rotate(-119.385 26.5798 17.7886)" fill="white"/>
+                    <circle cx="38.6667" cy="38.0002" r="28.6667" stroke="white" stroke-width="2"/>
+                    <rect x="29.3684" y="31.27" width="12.0788" height="1.29123" transform="rotate(32.9286 29.3684 31.27)" fill="white"/>
+                    <rect x="53.3699" y="30.4468" width="17.4061" height="1.29123" transform="rotate(149.585 53.3699 30.4468)" fill="white"/>
+                    <circle cx="39.0279" cy="38.3402" r="2.33333" fill="white"/>
+                  </svg>
+                </div>
+                <h4 class="rt-font-h4 sp-t-darkorange">13 тем и 25 уроков</h4>
+                <p class="sp-t-blue font-t-m color-main07">Программа состоит из 13 тем и 25 уроков. Каждый урок –
+                  это 20-30 минут вашего внимания.  Уделяйте каждый день комфортное время на обучение</p>
+              </div>
+            </div>
+            <div class="rt-col-3 rt-col-td-3 rt-col-md-3">
+              <div class="academy__concept__item sp-r-1">
+                <div class="academy__concept__item__icon">
+                  <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M63.0438 63.3333H18.2895C13.7113 63.3333 10 59.622 10 55.0438H13.8983V24C13.8983 20.6863 16.5846 18 19.8983 18H60.9153C64.229 18 66.9153 20.6863 66.9153 24V55.0438H71.3333C71.3333 59.622 67.622 63.3333 63.0438 63.3333Z" fill="#FA6C3B"/>
+                    <rect x="31.3333" y="26.6665" width="27.3333" height="1.33333" fill="white"/>
+                    <rect x="31.3333" y="34.6665" width="27.3333" height="1.33333" fill="white"/>
+                    <rect x="31.3333" y="42.6665" width="27.3333" height="1.33333" fill="white"/>
+                    <path d="M11.8983 53.0438H8V53.3333C8 57.7516 11.5817 61.3333 16 61.3333H61.3333C65.7516 61.3333 69.3333 57.7516 69.3333 53.3333V53.0438H64.9153M11.8983 53.0438H31.9096L35.2881 56.4114H42.0452L45.4237 53.0438H64.9153M11.8983 53.0438V24C11.8983 19.5817 15.48 16 19.8983 16H56.9153C61.3335 16 64.9153 19.5817 64.9153 24V53.0438" stroke="white" stroke-width="2"/>
+                    <path d="M19.3333 25.6668L21.9999 28.3335L26.6666 23.3335" stroke="white" stroke-width="2"/>
+                    <path d="M19.3333 33.6668L21.9999 36.3335L26.6666 31.3335" stroke="white" stroke-width="2"/>
+                    <path d="M19.3333 41.6668L21.9999 44.3335L26.6666 39.3335" stroke="white" stroke-width="2"/>
+                  </svg>
+                </div>
+                <h4 class="rt-font-h4 sp-t-darkorange">Закрепление материала</h4>
+                <p class="sp-t-blue font-t-m color-main07">В конце каждой темы вы найдете краткий конспект с
+                  основной информацией и несколько вопросов для закрепления материала.</p>
+              </div>
+            </div>
+            <div class="rt-col-3 rt-col-td-3 rt-col-md-3 sp-t-mint">
+              <div class="academy__concept__item sp-r-1">
+                <div class="academy__concept__item__icon">
+                  <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="10" y="19.3335" width="54.6667" height="35.3333" rx="6" fill="#FA6C3B"/>
+                    <rect x="16" y="25.3335" width="38.6667" height="1.33333" fill="white"/>
+                    <rect x="16" y="41.3335" width="23.3333" height="1.33333" fill="white"/>
+                    <rect x="16" y="33.3335" width="28" height="1.33333" fill="white"/>
+                    <rect x="8" y="17.3335" width="54.6667" height="35.3333" rx="8" stroke="white" stroke-width="2"/>
+                    <circle cx="55.6667" cy="47" r="15" fill="white"/>
+                    <path d="M71.9994 48.9524C71.9994 57.2629 65.2624 63.9999 56.9519 63.9999C48.6413 63.9999 41.9043 57.2629 41.9043 48.9524C41.9043 40.6418 48.6413 33.9048 56.9519 33.9048C65.2624 33.9048 71.9994 40.6418 71.9994 48.9524Z" fill="#FA6C3B"/>
+                    <circle cx="55.6667" cy="47" r="15" stroke="white" stroke-width="2"/>
+                    <path d="M59.8333 46.8006C60.4999 47.1855 60.4999 48.1478 59.8333 48.5327L54.3333 51.7081C53.6666 52.093 52.8333 51.6119 52.8333 50.8421L52.8333 44.4912C52.8333 43.7214 53.6666 43.2403 54.3333 43.6252L59.8333 46.8006Z" fill="white" stroke="white" stroke-width="2"/>
+                  </svg>
+                </div>
+                <h4 class="rt-font-h4 sp-t-darkorange">Видео или текст</h4>
+                <p class="sp-t-blue font-t-m color-main07">Вы можете смотреть видео или читать текст, в
+                  зависимости от того, что вам удобней.</p>
+              </div>
+            </div>
+            <div class="rt-col-3 rt-col-td-3 rt-col-md-3 sp-t-mint">
+              <div class="academy__concept__item sp-r-1">
+                <div class="academy__concept__item__icon">
+                  <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M58.4419 53.9998H17.5581C13.3839 53.9998 10 50.616 10 46.4417H13.5593V18.6665C13.5593 15.3528 16.2456 12.6665 19.5593 12.6665H55.9661C59.2798 12.6665 61.9661 15.3528 61.9661 18.6665V46.4417H66C66 50.616 62.6161 53.9998 58.4419 53.9998Z" fill="#FA6C3B"/>
+                    <path d="M11.5593 44.4417H8V44.4417C8 48.616 11.3839 51.9998 15.5581 51.9998H56.4419C60.6161 51.9998 64 48.616 64 44.4417V44.4417H59.9661M11.5593 44.4417H29.8305L32.9153 47.5122H39.0847L42.1695 44.4417H59.9661M11.5593 44.4417V18.6665C11.5593 14.2482 15.141 10.6665 19.5593 10.6665H51.9661C56.3844 10.6665 59.9661 14.2482 59.9661 18.6665V44.4417" stroke="white" stroke-width="2"/>
+                    <rect x="44.6667" y="68" width="39.3333" height="22.6667" rx="6" transform="rotate(-90 44.6667 68)" fill="white"/>
+                    <path d="M54.6667 70C50.2485 70 46.6667 66.4183 46.6667 62L46.6667 36.6667C46.6667 33.353 49.353 30.6667 52.6667 30.6667H61.3334C65.7517 30.6667 69.3334 34.2484 69.3334 38.6667V62C69.3334 66.4183 65.7517 70 61.3334 70H54.6667Z" fill="#FA6C3B"/>
+                    <rect x="44.6667" y="68" width="39.3333" height="22.6667" rx="8" transform="rotate(-90 44.6667 68)" stroke="white" stroke-width="2"/>
+                    <circle cx="56.0001" cy="62.6668" r="1.33333" fill="white"/>
+                    <circle cx="16.6667" cy="16.0002" r="0.666667" fill="white"/>
+                    <circle cx="19.3334" cy="16.0002" r="0.666667" fill="white"/>
+                    <circle cx="21.9999" cy="16.0002" r="0.666667" fill="white"/>
+                    <rect x="16" y="18.667" width="44" height="1.33333" fill="white"/>
+                  </svg>
+                </div>
+                <h4 class="rt-font-h4 sp-t-darkorange">В приложении или на сайте</h4>
+                <p class="sp-t-blue font-t-m color-main07">Вы сами выбираете свой формат: пройти обучение
+                  <a href="#" class="rt-link--orange">в приложении</a> или
+                  <a href="#" class="rt-link--orange">на сайте</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="rt-col">
+              <div class="rt-font-center">
+                <rt-button color="orange" href="#">Начать учиться бесплатно</rt-button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <rt-sticky class="rt-sticky-bottom">
+      <div class="rt-container">
+        <div class="rt-col flex-end-center">
+          <div class="up-button relative flex-center-center sp-v-0-2 sp-h-0-2 up-button--hidden">
+            <span class="font-t-l sp-r-0-2">Наверх</span>
+            <rt-system-icons name="arrow up" color="dark-blue"></rt-system-icons>
+          </div>
+        </div>
+      </div>
+    </rt-sticky>
+    <div class="academy__footer">
+      <div class="rt-container sp-v-2">
+        <div class="rt-col">
+          <div class="row flex-center-center td-flex-column-reverse">
+            <div class="academy__footer__copyright rt-col-6 rt-col-td-6 td-sp-t-1">
+              <p class="font-t-s color-main07 sp-b-0-3">Продолжая использовать наш сайт, вы даете
+                <a href="#" class="color-main">согласие на обработку файлов Cookies</a> и других пользовательских
+                данных, в соответствии с <a href="#" class="color-main">Политикой конфиденциальности</a>.</p>
+              <p class="font-t-s color-main07">© 2021 ПАО «Ростелеком». 18+</p>
+            </div>
+            <div class="rt-col-4 td-d-none"></div>
+            <div class="academy__footer__links flex-end-center rt-col-2 rt-col-td-6 td-flex-start-center">
+              <div class="academy__footer__links__item">
+                <svg class="d-flex" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.8029 35.6058C27.6352 35.6058 35.6058 27.6352 35.6058 17.8029C35.6058 7.97063 27.6352 0 17.8029 0C7.97063 0 0 7.97063 0 17.8029C0 27.6352 7.97063 35.6058 17.8029 35.6058Z" fill="#101828" fill-opacity="0.85"/>
+                  <path d="M17.3688 24.9306H18.7577C18.7577 24.9306 19.1771 24.8853 19.3916 24.6594C19.5888 24.4517 19.5824 24.0618 19.5824 24.0618C19.5824 24.0618 19.5552 22.2364 20.4201 21.9675C21.2729 21.7025 22.3678 23.7317 23.5282 24.512C24.4057 25.1023 25.0727 24.9731 25.0727 24.9731L28.1758 24.9305C28.1758 24.9305 29.7989 24.8323 29.0292 23.5822C28.9662 23.4802 28.5808 22.6575 26.7219 20.9673C24.7759 19.1983 25.0369 19.4845 27.3807 16.4245C28.8081 14.561 29.3786 13.4233 29.2003 12.9362C29.0304 12.472 27.9805 12.5946 27.9805 12.5946L24.4867 12.6157C24.4867 12.6157 24.2275 12.5811 24.0356 12.6937C23.8477 12.8037 23.7273 13.0608 23.7273 13.0608C23.7273 13.0608 23.1741 14.5029 22.4368 15.7292C20.881 18.3168 20.2589 18.4538 20.0045 18.2929C19.4129 17.9183 19.5607 16.7887 19.5607 15.9858C19.5607 13.478 19.9491 12.4324 18.8045 12.1616C18.4247 12.0719 18.145 12.0124 17.1737 12.0029C15.927 11.9905 14.872 12.0066 14.2745 12.2933C13.877 12.4839 13.5704 12.9087 13.7572 12.9333C13.9882 12.9633 14.511 13.0716 14.7882 13.441C15.1464 13.9183 15.1338 14.9896 15.1338 14.9896C15.1338 14.9896 15.3395 17.9417 14.6533 18.3084C14.1825 18.5599 13.5364 18.0464 12.1494 15.6987C11.4387 14.496 10.9022 13.1666 10.9022 13.1666C10.9022 13.1666 10.7988 12.9183 10.6143 12.7852C10.3905 12.6242 10.0776 12.5731 10.0776 12.5731L6.75733 12.5944C6.75733 12.5944 6.25893 12.6081 6.07593 12.8203C5.913 13.0093 6.06299 13.3997 6.06299 13.3997C6.06299 13.3997 8.66219 19.3564 11.6055 22.3583C14.3046 25.1112 17.3688 24.9306 17.3688 24.9306Z" fill="white" fill-opacity="0.9"/>
                 </svg>
               </div>
-              <div class="navigation sp-l-1-2 td-d-none">
-                <a class="navigation-link" href="#">Для меня</a>
-                <a class="navigation-link" href="#">Для бизнеса</a>
-                <a class="navigation-link" href="#">Для операторов</a>
-                <a class="navigation-link" href="#">Для инвесторов</a>
-                <div class="navigation-link-wrapper">
-                  <div class="navigation-link-wrapper__button sp-r-0-4" ref="navigationDropdown" @click="toggleOpen">Ещё</div>
-                  <div class="navigation-link-wrapper__inner">
-                    <a class="navigation-link" href="#">О компании</a>
-                    <a class="navigation-link" href="#">Для инвесторов</a>
-                  </div>
-                </div>
+              <div class="academy__footer__links__item">
+                <svg class="d-flex" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36">
+                    <path d="M17.6909 36C27.3848 36 35.2432 28.1416 35.2432 18.4478C35.2432 8.75392 27.3848 0.895508 17.6909 0.895508C7.99708 0.895508 0.138672 8.75392 0.138672 18.4478C0.138672 28.1416 7.99708 36 17.6909 36Z" fill="white"/>
+                  </mask>
+                  <g mask="url(#mask0)">
+                    <path d="M17.6909 36C27.3848 36 35.2432 28.1416 35.2432 18.4478C35.2432 8.75392 27.3848 0.895508 17.6909 0.895508C7.99708 0.895508 0.138672 8.75392 0.138672 18.4478C0.138672 28.1416 7.99708 36 17.6909 36Z" fill="#101828" fill-opacity="0.85"/>
+                  </g>
+                  <mask id="mask1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="13" y="6" width="15" height="30">
+                    <path d="M22.6416 35.9998V22.7064H26.9378L27.581 17.5257H22.6416V14.218C22.6416 12.7181 23.0426 11.6959 25.1136 11.6959L27.755 11.6947V7.06105C27.2981 6.99803 25.7302 6.85693 23.9061 6.85693C20.0978 6.85693 17.4907 9.27123 17.4907 13.7051V17.5257H13.1836V22.7064H17.4907V35.9998H22.6416Z" fill="white"/>
+                  </mask>
+                  <g mask="url(#mask1)">
+                    <path d="M22.6416 35.9998V22.7064H26.9378L27.581 17.5257H22.6416V14.218C22.6416 12.7181 23.0426 11.6959 25.1136 11.6959L27.755 11.6947V7.06105C27.2981 6.99803 25.7302 6.85693 23.9061 6.85693C20.0978 6.85693 17.4907 9.27123 17.4907 13.7051V17.5257H13.1836V22.7064H17.4907V35.9998H22.6416Z" fill="white" fill-opacity="0.9"/>
+                  </g>
+                </svg>
               </div>
-            </div>
-            <div class="blog__header-right">
-              <div class="navigation td-d-none">
-                <a class="navigation-link" href="#">Помощь</a>
-                <a class="navigation-link" href="#">Оплата</a>
-                <a class="navigation-link" href="#">Бонус</a>
-                <a class="navigation-link" href="#">Офисы</a>
-              </div>
-              <div class="d-none td-d-block">
-                <div class="navigation-mobile">
-                  <div class="navigation-mobile__button-wrapper" ref="navigationMobile" @click="toggleMobileMenu">
-                    <div class="navigation-mobile__button"/>
-                  </div>
-                  <div class="navigation-mobile__list sp-v-1 sp-l-1-3 sp-r-3">
-                    <a class="navigation-link" href="#">Для меня</a>
-                    <a class="navigation-link" href="#">Для бизнеса</a>
-                    <a class="navigation-link" href="#">Для операторов</a>
-                    <a class="navigation-link" href="#">Для инвесторов</a>
-                    <a class="navigation-link" href="#">О компании</a>
-                    <a class="navigation-link" href="#">Для инвесторов</a>
-                    <a class="navigation-link" href="#">Помощь</a>
-                    <a class="navigation-link" href="#">Оплата</a>
-                    <a class="navigation-link" href="#">Бонус</a>
-                    <a class="navigation-link" href="#">Офисы</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="blog__title color-block--main-color003-no-opacity sp-v-1-2">
-      <div class="blog-container">
-        <div class="rt-col">
-          <div class="row">
-            <div class="rt-col-4 rt-col-td-4 rt-col-md-3">
-              <a href="#" class="back-link">
-                <h2 class="rt-font-h3 sp-b-0-1">Простые технологии</h2>
-                <p class="tagline">рассказываем просто о сложном</p>
-              </a>
-            </div>
-            <div class="rt-col-8 rt-col-td-2 md-d-none"/>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="blog__page-wrapper sp-t-2 td-sp-t-1-3 md-sp-t-1-1">
-      <div class="blog-container">
-        <div class="rt-col">
-          <div class="row">
-            <div class="rt-col-7 rt-col-td-6">
-              <div class="row">
-                <div class="rt-col-12 rt-col-td-5 rt-col-md-3">
-                  <div class="blog-breadcrumbs sp-b-1 flex-start-center md-sp-b-0-2">
-                    <a class="blog-breadcrumbs__item sp-r-0-2" href="#">Блог</a>
-                    <rt-system-icons name="chevron right"/>
-                    <a class="blog-breadcrumbs__item sp-l-0-2" href="#">Для меня</a>
-                  </div>
-                  <div class="blog__description color-main07 rt-font-label flex-start-center sp-v-0-2">
-                    <span class="blog__weekly-theme__date">12 марта</span>
-                    <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                      <rt-system-icons name="time small" color="main-color07"/>
-                      5 минут чтения
-                    </span>
-                    <span class="blog__weekly-theme__tag sp-l-0-3">#образование</span>
-                  </div>
-                  <h3 class="rt-font-h3 rt-font-bold sp-b-0-3 td-sp-b-0-2">Как геймеру стать киберспортсменом и начать зарабатывать</h3>
-                  <p class="rt-font-paragraph sp-b-2 td-sp-b-1-3 md-sp-b-1-1">Подзаголовок статьи, раскрывающий тему более широко. Обычно 100-200
-                    символов.</p>
-                  <div class="blog-article__image-wrapper">
-                    <img src="https://spb.rt.ru/sites/default/files/b2b/blog__theme.png" class="blog-article__image-body"/>
-                  </div>
-                  <p class="blog-article__image-description sp-t-0-2 sp-b-2 rt-font-small-paragraph color-main03 td-sp-b-1-3 md-sp-b-1-1">Фото: freepik.com</p>
-                  <p class="rt-font-paragraph rt-font-bold sp-b-1 md-sp-b-0-4">Его место назначения – Нью-Йорк в августе 1988 года.
-                    Его цель – предотвращение Синей чумы, которая свирепствует в городе. Только одно его настораживает.
-                    А именно то, что никто из местных жителей о чуме ни слухом, ни духом!</p>
-                  <p class="rt-font-paragraph sp-b-1 md-sp-b-1-1">Неопытные путешественники стараются материализоваться в каком-нибудь
-                    укромном месте, в уединении. Они возникают на помойках, в складских помещениях, в телефонных будках,
-                    отчаянно надеясь, что переход выполнен гладко. И неизбежно подобное поведение только привлекает к ним
-                    внимание - то самое, чего они хотели избежать. Но для такого опытного путешественника, как я, переход
-                    - пустяк.</p>
-                  <div class="blog__carousel sp-b-2 td-sp-b-1-3 md-sp-b-1-1" ref="carousel">
-                    <div class="carousel-slides-wrapper" ref="slidesWrapper" @scroll="checkScrollEnd">
-                      <div class="blog__carousel__slide" data-index="0">
-                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-2.png" class="blog__carousel__slide-body"/>
-                      </div>
-                      <div class="blog__carousel__slide" data-index="1">
-                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-1.jpg" class="blog__carousel__slide-body"/>
-                      </div>
-                      <div class="blog__carousel__slide" data-index="2">
-                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4-1.png" class="blog__carousel__slide-body"/>
-                      </div>
-                      <div class="blog__carousel__slide" data-index="3">
-                        <img src="https://spb.rt.ru/sites/default/files/b2b/img-4.png" class="blog__carousel__slide-body"/>
-                      </div>
-                      <div class="blog__carousel__slide" data-index="4">
-                        <img src="https://spb.rt.ru/sites/default/files/b2b/img.jpg" class="blog__carousel__slide-body"/>
-                      </div>
-                      <div class="blog__carousel__slide" data-index="5">
-                        <img src="https://spb.rt.ru/sites/default/files/b2b/internet1.jpg" class="blog__carousel__slide-body"/>
-                      </div>
-                    </div>
-                    <div class="carousel-texts-wrapper" ref="textsWrapper">
-                      <div class="blog__carousel__text">
-                        <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
-                          <div class="d-flex d-space-between sp-b-1 td-sp-b-0-4 md-sp-b-0-3">
-                            <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
-                            <span class="rt-font-small-paragraph color-main03">1/6</span>
-                          </div>
-                          <p class="rt-font-paragraph rt-font-bold sp-b-0-2">Заголовок</p>
-                          <p class="rt-font-small-paragraph">И неизбежно подобное поведение только привлекает к ним
-                            внимание - то самое, чего они хотели избежать. Но для такого опытного путешественника,
-                            как я, переход - пустяк.</p>
-                        </div>
-                      </div>
-                      <div class="blog__carousel__text">
-                        <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
-                          <div class="d-flex d-space-between sp-b-1 td-sp-b-0-4 md-sp-b-0-3">
-                            <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
-                            <span class="rt-font-small-paragraph color-main03">2/6</span>
-                          </div>
-                          <p class="rt-font-paragraph rt-font-bold sp-b-0-2">Заголовок Заголовок</p>
-                          <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
-                            каком-нибудь укромном месте, в уединении. Неопытные путешественники стараются
-                            материализоваться в каком-нибудь укромном месте, в уединении.</p>
-                        </div>
-                      </div>
-                      <div class="blog__carousel__text">
-                        <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
-                          <div class="d-flex d-space-between sp-b-1 td-sp-b-0-4 md-sp-b-0-3">
-                            <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
-                            <span class="rt-font-small-paragraph color-main03">3/6</span>
-                          </div>
-                          <p class="rt-font-paragraph rt-font-bold sp-b-0-2">Заголовок</p>
-                          <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
-                            каком-нибудь укромном месте, в уединении.</p>
-                        </div>
-                      </div>
-                      <div class="blog__carousel__text">
-                        <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
-                          <div class="d-flex d-space-between sp-b-1 td-sp-b-0-4 md-sp-b-0-3">
-                            <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
-                            <span class="rt-font-small-paragraph color-main03">4/6</span>
-                          </div>
-                          <p class="rt-font-paragraph rt-font-bold sp-b-0-2">Заголовок</p>
-                          <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
-                            каком-нибудь укромном месте, в уединении. Неопытные путешественники стараются материализоваться в
-                            каком-нибудь укромном месте, в уединении.</p>
-                        </div>
-                      </div>
-                      <div class="blog__carousel__text">
-                        <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
-                          <div class="d-flex d-space-between sp-b-1 td-sp-b-0-4 md-sp-b-0-3">
-                            <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
-                            <span class="rt-font-small-paragraph color-main03">5/6</span>
-                          </div>
-                          <p class="rt-font-paragraph rt-font-bold sp-b-0-2">Заголовок</p>
-                          <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
-                            каком-нибудь укромном месте, в уединении.</p>
-                        </div>
-                      </div>
-                      <div class="blog__carousel__text">
-                        <div class="color-block--main-color005 sp-h-1 sp-t-0-2 sp-b-1">
-                          <div class="d-flex d-space-between sp-b-1 td-sp-b-0-4 md-sp-b-0-3">
-                            <span class="rt-font-small-paragraph color-main03">Фото: freepik.com</span>
-                            <span class="rt-font-small-paragraph color-main03">6/6</span>
-                          </div>
-                          <p class="rt-font-paragraph rt-font-bold sp-b-0-2">Заголовок</p>
-                          <p class="rt-font-small-paragraph">Неопытные путешественники стараются материализоваться в
-                            каком-нибудь укромном месте, в уединении.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="blog__carousel__navigation">
-                      <div class="blog__carousel__navigation-arrow blog__carousel__navigation-arrow-left" @click="previousImage">
-                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M26 1L2 25L26 49" stroke="white" stroke-width="2"/>
-                        </svg>
-                      </div>
-                      <div class="blog__carousel__navigation-arrow blog__carousel__navigation-arrow-right" @click="nextImage">
-                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M24 49L48 25L24 1" stroke="white" stroke-width="2"/>
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="rt-font-paragraph sp-b-1-2 md-sp-b-0-4">Стала собираться маленькая толпа. Ко мне обратился молодой парень:</p>
-                  <p class="rt-font-paragraph sp-b-1-2 md-sp-b-0-4">- Эй, что вы продаете?</p>
-                  <p class="rt-font-paragraph sp-b-1-2 md-sp-b-0-4">Я улыбнулся ему, но не ответил. Мне нужна большая аудитория.</p>
-                  <p class="rt-font-paragraph sp-b-1-2 md-sp-b-0-4">- Подождите же, друзья, подходите и внемлите. Это то, чего вы ждали,
-                    прекрасная возможность, последний шанс!</p>
-                  <p class="rt-font-paragraph sp-b-2 td-sp-b-1-3 md-sp-b-1-1">Вскоре собралось человек тридцать, и я решил, что
-                    <a class="back-link color-burgundy" href="#">для начала достаточно.</a>
-                  </p>
-                  <div class="blog__quote sp-b-2 td-sp-b-1-3 md-sp-b-1-1 sp-h-0-4">
-                    <span class="rt-font-h4 rt-font-bold color-block--main-color005">- Подходите, друзья!
-                      - воскликнул я.</span>
-                    <br>
-                    <span class="rt-font-h4 rt-font-bold color-block--main-color005">- Подходите скорей! Не упускайте возможность. Не надо смущаться и робеть, подходите ближе и слушайте добрые вести.</span>
-                  </div>
-                  <p class="rt-font-paragraph sp-b-2 td-sp-b-1-3 md-sp-b-1-1">— Славные жители Нью-Йорка! — воззвал я. — Я хочу поговорить о загадочном
-                    заболевании, неожиданно вошедшем в ваши жизни, об эпидемии, попросту называемой Синей Чумой. Сейчас
-                    вы уже знаете что спасения от этого безжалостного убийцы нет. Конечно, врачи продолжают заверять вас,
-                    что ведутся исследования, что скоро, дескать, будет найден ключ и определена радикальная терапия.</p>
-                  <div class="color-block--cool-grey blog__frame flex-center-center">
-                    <p class="rt-font-paragraph color-main05">ФРЕЙМ</p>
-                  </div>
-                  <p class="sp-v-2 rt-font-paragraph td-sp-v-1-3 md-sp-v-1-1">Но на самом деле у них нет ни сыворотки, ни антител — ничего. Да и
-                    откуда? Ученые не в состоянии даже выяснить причины заболевания! Пока они наработали лишь пустые и
-                    противоречивые теории. Из-за жуткой активности и быстрого распространения возбудителя, чрезвычайной
-                    заразности и неизвестных последствий мора можно ожидать, что врачи не успеют найти вовремя лекарство
-                    для вас, страдающих. Вся история несчастного человечества ясно показывает: несмотря на попытки контроля
-                    и лечения, эпидемии свирепствуют до тех пор, пока не исчерпывают себя.</p>
-                  <div class="blog__video-block-wrapper sp-b-2 td-sp-b-1-3 md-sp-b-1-1" ref="videoWrapper" @click="togglePlay">
-                    <img class="blog__video-poster" src="https://spb.rt.ru/sites/default/files/b2b/blog_video-poster.png" ref="videoPoster"/>
-                    <video class="blog__video-block" src="https://moscow.rt.ru/sites/default/files/b2b/BD/BD_New.mp4" ref="video" controls/>
-                    <div class="blog__video-play-button" ref="videoButton">
-                      <svg width="36" height="48" viewBox="0 0 36 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M-2.09815e-06 48L36 24L0 -1.57361e-06L-2.09815e-06 48Z" fill="white"/>
-                      </svg>
-                    </div>
-                    <p class="blog__video-title color-white md-sp-v-0-4 md-sp-r-1-4 md-sp-l-0-3 color-md-main rt-font-bold" ref="videoTitle">
-                      Роспотребнадзор отправляет туристов на карантин
-                    </p>
-                  </div>
-                  <p class="rt-font-paragraph sp-b-1 md-sp-b-0-4">Кто-то в толпе засмеялся; многие улыбались. Я объяснил это для себя
-                    истерией и продолжал:</p>
-                  <p class="rt-font-paragraph sp-b-1 md-sp-b-0-4">- Что же делать? Останетесь ли пассивными жертвами чумы, обманутые
-                    напускным спокойствием правителей? Или осмелитесь использовать что-то новое, не отмеченное штампом
-                    согласия дискредитировавших себя политико-медицинских властей?</p>
-                  <p class="rt-font-paragraph">К тому времени толпа разрослась человек до пятидесяти. Я быстро
-                    окончил свою речь.</p>
-                  <div class="sp-t-2 td-sp-t-1-3 md-sp-t-1-1">
-                    <table class="blog__table">
-                      <caption class="blog__table-title rt-font-paragraph rt-font-bold">Таблица для макета блога</caption>
-                      <colgroup ref="colGroup">
-                        <col span="1" style="width: 40%;">
-                        <col span="1" style="width: 20%;">
-                        <col span="1" style="width: 20%;">
-                        <col span="1" style="width: 20%;">
-                      </colgroup>
-                      <tr>
-                        <th>Тариф</th>
-                        <th>Домашний интернет</th>
-                        <th>Интерактивное ТВ Wink</th>
-                        <th>Онлайн-кинотеатр Wink</th>
-                      </tr>
-                      <tr>
-                        <td>2 в 1 Апгрейд 500</td>
-                        <td>500 Мбит/с</td>
-                        <td>127 каналов</td>
-                        <td>Не входит</td>
-                      </tr>
-                      <tr>
-                        <td>Технологии развлечения</td>
-                        <td>300 Мбит/с</td>
-                        <td>175 каналов</td>
-                        <td>10000 фильмов и сериалов</td>
-                      </tr>
-                      <tr>
-                        <td>Игровой</td>
-                        <td>890 Мбит/с</td>
-                        <td>175 каналов</td>
-                        <td>10000 фильмов и сериалов</td>
-                      </tr>
-                      <tr>
-                        <td>Облачный</td>
-                        <td>100 Мбит/с</td>
-                        <td>175 каналов</td>
-                        <td>10000 фильмов и сериалов</td>
-                      </tr>
-                    </table>
-                  </div>
-                  <p class="rt-font-paragraph sp-b-1 md-sp-b-0-4">- Врачи не могут защитить вас от Синей Чумы, нет, друзья мои. Но я могу!</p>
-                  <p class="rt-font-paragraph sp-b-1 md-sp-b-0-4">Не теряя ни секунды, я раскрыл чемоданчик и зачерпнул пригоршню больших
-                    белых таблеток.</p>
-                  <p class="rt-font-paragraph sp-b-2 md-sp-b-1">- Вот лекарство, которое усмирит Синюю Чуму! Нет времени объяснять,
-                    откуда оно у меня и как действует. Не буду я нести и научную тарабарщину. Вместо этого я предоставлю
-                    конкретные доказательства. Толпа притихла и обратилась в напряженное внимание. - Приведите мне
-                    заболевшего! вскричал я. - Приведите десять. И если в них еще теплится жизнь, они встанут на ноги!
-                    Ведите их ко мне, друзья! Я вылечу любого - мужчину, женщину или ребенка - страдающего от Синей Чумы!</p>
-                  <div class="blog__tags-wrapper blog__tags-wrapper--no-scroll">
-                    <div class="blog__tags-wrapper__inner">
-                      <button class="blog__tag">#бизнес</button>
-                      <button class="blog__tag">#инструкции</button>
-                      <button class="blog__tag">#интернет</button>
-                      <button class="blog__tag">#образование</button>
-                      <button class="blog__tag">#развлечения</button>
-                      <button class="blog__tag">#телефония</button>
-                      <button class="blog__tag">#технологии</button>
-                    </div>
-                  </div>
-                  <div class="blog__share sp-t-1-2 flex-start-center sp-b-3 td-sp-t-1-1 md-d-block md-sp-b-2 md-sp-t-0-4">
-                    <span class="rt-font-paragraph sp-r-1-2 md-d-block md-sp-b-0-2">Поделитесь с друзьями</span>
-                    <a href="#" class="blog__share__icon">
-                      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M25.8367 5.93152C24.9429 6.3216 23.9838 6.58615 22.9761 6.70425C24.005 6.09742 24.7927 5.1349 25.1659 3.99151C24.2008 4.55348 23.1354 4.96153 22.0003 5.18274C21.0913 4.22768 19.7983 3.63281 18.3641 3.63281C15.6128 3.63281 13.382 5.8299 13.382 8.53815C13.382 8.92226 13.426 9.29741 13.511 9.65614C9.37104 9.45135 5.70004 7.4979 3.24309 4.52956C2.81361 5.25297 2.56928 6.0959 2.56928 6.99569C2.56928 8.69808 3.44948 10.2002 4.78496 11.079C3.96849 11.0521 3.20059 10.8309 2.52833 10.4632V10.5245C2.52833 12.9009 4.24623 14.8843 6.52409 15.3357C6.10675 15.4463 5.66667 15.5076 5.21139 15.5076C4.88968 15.5076 4.57857 15.4762 4.27353 15.4164C4.90786 17.3669 6.74718 18.7852 8.92643 18.8241C7.22219 20.1394 5.07329 20.9211 2.73928 20.9211C2.33714 20.9211 1.94103 20.8972 1.55103 20.8538C3.75607 22.2483 6.37389 23.0614 9.18747 23.0614C18.3521 23.0614 23.3616 15.5853 23.3616 9.10164L23.3449 8.46644C24.3237 7.77886 25.1705 6.91499 25.8367 5.93152Z" fill="#1DA1F2"/>
-                      </svg>
-                    </a>
-                    <a href="#" class="blog__share__icon">
-                      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.3999 19.5366H13.81C13.81 19.5366 14.2359 19.4906 14.4537 19.2613C14.6538 19.0504 14.6474 18.6545 14.6474 18.6545C14.6474 18.6545 14.6198 16.8012 15.4979 16.5281C16.3638 16.2592 17.4754 18.3194 18.6535 19.1116C19.5445 19.7109 20.2216 19.5797 20.2216 19.5797L23.3722 19.5365C23.3722 19.5365 25.0202 19.4368 24.2387 18.1676C24.1747 18.064 23.7834 17.2287 21.8961 15.5127C19.9203 13.7166 20.1853 14.0072 22.565 10.9004C24.0142 9.00842 24.5935 7.85323 24.4124 7.35872C24.2399 6.88746 23.1739 7.01188 23.1739 7.01188L19.6267 7.03333C19.6267 7.03333 19.3636 6.99818 19.1687 7.11253C18.978 7.22424 18.8557 7.48527 18.8557 7.48527C18.8557 7.48527 18.2941 8.94935 17.5455 10.1945C15.9659 12.8217 15.3342 12.9608 15.076 12.7974C14.4753 12.4171 14.6253 11.2701 14.6253 10.455C14.6253 7.90884 15.0197 6.8472 13.8575 6.57231C13.472 6.48123 13.1879 6.42083 12.2018 6.4111C10.9361 6.39856 9.8649 6.41489 9.25831 6.70596C8.8547 6.89951 8.5434 7.33083 8.73307 7.35575C8.96756 7.38627 9.49835 7.49616 9.77983 7.87122C10.1435 8.35583 10.1307 9.44354 10.1307 9.44354C10.1307 9.44354 10.3396 12.4408 9.64288 12.8131C9.16482 13.0685 8.50886 12.5471 7.10061 10.1634C6.37913 8.94242 5.83436 7.59269 5.83436 7.59269C5.83436 7.59269 5.72941 7.34057 5.54209 7.20543C5.31485 7.04191 4.99715 6.9901 4.99715 6.9901L1.6261 7.01171C1.6261 7.01171 1.12007 7.02557 0.934266 7.24107C0.768846 7.43297 0.921127 7.82931 0.921127 7.82931C0.921127 7.82931 3.56009 13.8772 6.54842 16.925C9.2888 19.72 12.3999 19.5366 12.3999 19.5366Z" fill="#4680C2"/>
-                      </svg>
-                    </a>
-                    <a href="#" class="blog__share__icon">
-                      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7134 25.9998V15.3652H20.1504L20.6649 11.2206H16.7134V8.57441C16.7134 7.37446 17.0342 6.55675 18.691 6.55675L20.8041 6.55572V2.84884C20.4386 2.79842 19.1843 2.68555 17.725 2.68555C14.6783 2.68555 12.5927 4.61698 12.5927 8.16407V11.2206H9.14697V15.3652H12.5927V25.9998H16.7134Z" fill="#3C5B9A"/>
-                      </svg>
-                    </a>
-                    <a href="#" class="blog__share__icon">
-                      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.3407 8.34511C18.3407 11.2886 15.9444 13.6848 12.9982 13.6848C10.0521 13.6848 7.65585 11.2887 7.65585 8.34248C7.65585 5.39623 10.0521 3 12.9982 3C15.9444 3 18.3407 5.39623 18.3407 8.34511ZM12.9982 6.13217C14.2192 6.13217 15.2111 7.12405 15.2111 8.34511C15.2111 9.56339 14.2192 10.5554 12.9982 10.5554C11.7799 10.5554 10.7852 9.56355 10.7852 8.34511C10.7852 7.12405 11.7799 6.13217 12.9982 6.13217ZM15.16 18.0435C16.2489 17.7954 17.2975 17.3642 18.2625 16.7578C18.993 16.2969 19.214 15.332 18.753 14.5988C18.2921 13.8656 17.3271 13.6446 16.594 14.1055C14.4053 15.4828 11.5886 15.4802 9.39974 14.1055C8.66657 13.6446 7.70159 13.8656 7.24074 14.5988C6.77988 15.3293 7.00088 16.2969 7.73126 16.7578C8.69625 17.3642 9.74484 17.7956 10.8338 18.0435L7.84996 21.03C7.23811 21.6419 7.23811 22.6311 7.84996 23.243C8.15719 23.5476 8.55623 23.7012 8.95511 23.7012C9.35677 23.7012 9.75566 23.5476 10.063 23.243L12.9983 20.3075L15.9338 23.243C16.5456 23.8548 17.5349 23.8548 18.1467 23.243C18.7585 22.6311 18.7585 21.6391 18.1467 21.03L15.16 18.0435Z" fill="#FF9800"/>
-                      </svg>
-                    </a>
-                    <a href="#" class="blog__share__icon">
-                      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.139 1.00781C9.84226 1.00781 9.42883 1.02179 8.13412 1.08086C6.84202 1.13979 5.95963 1.34502 5.18745 1.64512C4.38925 1.95529 3.71224 2.37037 3.0374 3.04521C2.36251 3.7201 1.94748 4.39707 1.63726 5.19527C1.33716 5.96745 1.13198 6.84983 1.073 8.14193C1.01393 9.43669 1 9.85003 1 13.1468C1 16.4436 1.01393 16.857 1.073 18.1517C1.13198 19.4438 1.33716 20.3262 1.63726 21.0984C1.94748 21.8966 2.36251 22.5736 3.0374 23.2484C3.71224 23.9233 4.38925 24.3383 5.18745 24.6486C5.95963 24.9487 6.84202 25.1539 8.13412 25.2129C9.42883 25.2719 9.84226 25.2859 13.139 25.2859C16.4358 25.2859 16.8491 25.2719 18.1439 25.2129C19.436 25.1539 20.3184 24.9487 21.0905 24.6486C21.8888 24.3383 22.5658 23.9233 23.2406 23.2484C23.9155 22.5736 24.3305 21.8966 24.6407 21.0984C24.9408 20.3262 25.1461 19.4438 25.205 18.1517C25.2641 16.857 25.2781 16.4436 25.2781 13.1468C25.2781 9.85008 25.2641 9.43669 25.205 8.14193C25.1461 6.84983 24.9408 5.96745 24.6407 5.19527C24.3305 4.39707 23.9155 3.7201 23.2406 3.04521C22.5658 2.37037 21.8888 1.95529 21.0905 1.64512C20.3184 1.34502 19.436 1.13979 18.1439 1.08086C16.8491 1.02179 16.4358 1.00781 13.139 1.00781ZM13.139 3.19502C16.3803 3.19502 16.7642 3.20736 18.0442 3.26576C19.2277 3.31977 19.8705 3.51753 20.2982 3.68377C20.8648 3.90398 21.2693 4.16703 21.694 4.59179C22.1188 5.01659 22.3818 5.42097 22.6021 5.98759C22.7683 6.41534 22.966 7.05809 23.0201 8.24163C23.0784 9.52164 23.0908 9.90559 23.0908 13.1468C23.0908 16.3881 23.0784 16.772 23.0201 18.052C22.966 19.2356 22.7683 19.8783 22.6021 20.3061C22.3818 20.8727 22.1188 21.2771 21.694 21.7018C21.2693 22.1266 20.8648 22.3897 20.2982 22.6099C19.8705 22.7761 19.2277 22.9739 18.0442 23.0279C16.7644 23.0863 16.3805 23.0987 13.139 23.0987C9.89749 23.0987 9.51364 23.0863 8.23382 23.0279C7.05027 22.9739 6.40747 22.7761 5.97973 22.6099C5.41316 22.3897 5.00873 22.1266 4.58397 21.7018C4.15921 21.2771 3.89612 20.8727 3.67591 20.3061C3.50972 19.8783 3.31196 19.2356 3.25794 18.052C3.19954 16.772 3.18721 16.3881 3.18721 13.1468C3.18721 9.90559 3.19954 9.52164 3.25794 8.24163C3.31196 7.05809 3.50972 6.41534 3.67591 5.98759C3.89612 5.42097 4.15921 5.01659 4.58397 4.59183C5.00873 4.16703 5.41316 3.90398 5.97973 3.68377C6.40747 3.51753 7.05027 3.31977 8.23377 3.26576C9.51383 3.20736 9.89773 3.19502 13.139 3.19502Z" fill="url(#paint0_linear)"/>
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0344 17.0458C10.8189 17.0458 9.02286 15.2498 9.02286 13.0343C9.02286 10.8188 10.8189 9.02286 13.0344 9.02286C15.2498 9.02286 17.0459 10.8188 17.0459 13.0343C17.0459 15.2498 15.2498 17.0458 13.0344 17.0458ZM13.0344 6.85449C9.62133 6.85449 6.85449 9.62128 6.85449 13.0343C6.85449 16.4474 9.62133 19.2142 13.0344 19.2142C16.4474 19.2142 19.2142 16.4474 19.2142 13.0343C19.2142 9.62128 16.4474 6.85449 13.0344 6.85449Z" fill="url(#paint1_linear)"/>
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20.949 6.74635C20.949 7.52478 20.318 8.15579 19.5396 8.15579C18.7612 8.15579 18.1301 7.52478 18.1301 6.74635C18.1301 5.96792 18.7612 5.33691 19.5396 5.33691C20.318 5.33691 20.949 5.96792 20.949 6.74635Z" fill="url(#paint2_linear)"/>
-                        <defs>
-                          <linearGradient id="paint0_linear" x1="25.2781" y1="1.00781" x2="1" y2="25.2859" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#DF0096"/>
-                            <stop offset="1" stop-color="#FFB500"/>
-                          </linearGradient>
-                          <linearGradient id="paint1_linear" x1="25.641" y1="1.20516" x2="0.191615" y2="25.7669" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#DF0096"/>
-                            <stop offset="1" stop-color="#FFB500"/>
-                          </linearGradient>
-                          <linearGradient id="paint2_linear" x1="24.9673" y1="1.78311" x2="0.877806" y2="25.582" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#DF0096"/>
-                            <stop offset="1" stop-color="#FFB500"/>
-                          </linearGradient>
-                        </defs>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="d-none rt-col-td-1 md-d-none"/>
-              </div>
-              <div class="blog__form sp-v-3 md-sp-v-2" ref="pseudoBgParent">
-                <div class="color-block--main-color003-no-opacity blog__form-pseudo-background" ref="pseudoBg"/>
-                <div class="blog__form-body">
-                  <h4 class="rt-col-h4 rt-font-bold sp-b-0-3">Остались вопросы? Мы поможем их решить</h4>
-                  <p class="rt-font-paragraph sp-b-2 md-sp-b-1-1">Здесь будет любой небольшой текст</p>
-                  <div class="row">
-                    <div class="rt-col-6 rt-col-md-3">
-                      <rt-input :version="2" placeholder="Имя" type="text"></rt-input>
-                    </div>
-                    <div class="rt-col-6 rt-col-md-3 md-sp-t-1">
-                      <rt-input :version="2" placeholder="Телефон" input-type="tel"></rt-input>
-                    </div>
-                  </div>
-                  <div class="sp-t-1-2 md-sp-t-1-1">
-                    <rt-checkbox :is-orange="true">
-                        <span class="rt-font">Даю согласие на обработку персональных данных в&nbsp;соответствии
-                          <a href="#" class="rt-link rt-link--orange">с&nbsp;условиями</a>
-                        </span>
-                    </rt-checkbox>
-                    <div class="sp-t-2 md-sp-t-1-3">
-                      <rt-button color="orange">Оставить заявку</rt-button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="rt-col-1 rt-col-td-1 md-d-none"/>
-            <div class="rt-col-4 rt-col-td-6">
-              <div class="blog-sticky-stretcher td-d-none"/>
-              <div class="sticky-block td-sp-t-3 td-sp-b-2-1 md-sp-b-1-1 md-sp-t-2" ref="stickyBlock">
-                <div class="flex-start-center td-sp-b-0-2 md-sp-b-0-1">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="12" cy="12" r="10" fill="#BC104B"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5612 9.1768L11.0613 15.5704C10.7481 15.8784 10.2452 15.8763 9.93457 15.5657L6.93457 12.5657L8.06594 11.4343L10.5049 13.8733L16.4392 8.03613L17.5612 9.1768Z" fill="white"/>
-                  </svg>
-                  <span class="rt-font-h4 sp-l-0-2">Читайте также</span>
-                </div>
-                <div class="blog__popular">
-                  <div class="row">
-                    <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                      <div class="blog__popular__item sp-v-0-4">
-                        <div class="blog__description flex-start-center color-main05 sp-b-0-1 rt-font-label">
-                          <span class="blog__weekly-theme__date">12 марта</span>
-                          <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                            <rt-system-icons name="time small" color="main-color05"/>
-                            5 минут чтения
-                          </span>
-                          <span class="blog__weekly-theme__tag sp-l-0-3">#образование</span>
-                        </div>
-                        <a href="#" class="blog__popular__item-title">Видеонаблюдение в офисе: плюсы,<br> минусы, подводные камни</a>
-                      </div>
-                    </div>
-                    <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                      <div class="blog__popular__item sp-v-0-4">
-                        <div class="blog__description flex-start-center color-main05 sp-b-0-1 rt-font-label">
-                          <span class="blog__weekly-theme__date">12 марта</span>
-                          <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                            <rt-system-icons name="time small" color="main-color05"/>
-                            5 минут чтения
-                          </span>
-                          <span class="blog__weekly-theme__tag sp-l-0-3">#интернет</span>
-                        </div>
-                        <a href="#" class="blog__popular__item-title">Взлом веб-камер: мифы и реальность</a>
-                      </div>
-                    </div>
-                    <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                      <div class="blog__popular__item sp-v-0-4">
-                        <div class="blog__description flex-start-center color-main05 sp-b-0-1 rt-font-label">
-                          <span class="blog__weekly-theme__date">12 марта</span>
-                          <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                            <rt-system-icons name="time small" color="main-color05"/>
-                            5 минут чтения
-                          </span>
-                          <span class="blog__weekly-theme__tag sp-l-0-3">#технологии</span>
-                        </div>
-                        <a href="#" class="blog__popular__item-title">Как 5G влияет на наше здоровье</a>
-                      </div>
-                    </div>
-                    <div class="rt-col-12 rt-col-td-3 rt-col-md-3">
-                      <div class="blog__popular__item sp-v-0-4">
-                        <div class="blog__description flex-start-center color-main05 sp-b-0-1 rt-font-label">
-                          <span class="blog__weekly-theme__date">12 марта</span>
-                          <span class="blog__weekly-theme__ttr flex-center-center sp-l-0-3">
-                            <rt-system-icons name="time small" color="main-color05"/>
-                            5 минут чтения
-                          </span>
-                          <span class="blog__weekly-theme__tag sp-l-0-3">#телефония</span>
-                        </div>
-                        <a href="#" class="blog__popular__item-title">Сколько на самом деле стоит<br> мобильная связь</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="blog-footer color-block--main-color005-no-opacity">
-      <div class="blog-footer__top sp-t-1-1 sp-b-0-3 td-sp-t-1-3 td-sp-b-1 md-sp-t-1-2">
-        <div class="blog-container">
-          <div class="rt-col">
-            <div class="d-flex d-space-between d-md-flex-column">
-              <div class="blog-footer__navigation color-main085 rt-font-control flex-end-bottom sp-b-0-1 d-md-flex-column md-flex-start-top md-sp-b-1-1">
-                <a class="navigation-link" href="#">Для меня</a>
-                <a class="navigation-link" href="#">Для бизнеса</a>
-                <a class="navigation-link" href="#">Для операторов</a>
-                <a class="navigation-link" href="#">Для инвесторов</a>
-              </div>
-              <div class="flex-end-bottom d-md-flex-column md-flex-start-top">
-                <div class="rt-font-control d-inline-block sp-r-0-3 sp-b-0-1 color-main05">Отдел продаж</div>
-                <a href="tel:88007078000" class="rt-font-h3">8 800 707 80 00</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="blog-footer__bottom sp-t-1-1 sp-b-1-4 td-sp-v-1-3 md-sp-v-1-2">
-        <div class="blog-container">
-          <div class="rt-col">
-            <div class="d-flex d-space-between td-flex-column-reverse">
-              <div class="color-main05">
-                <p class="blog-footer__privacy">Продолжая использовать наш сайт, вы даете согласие на обработку
-                  файлов <a href="#" class="blog-footer-link">Cookies</a> и других <br>пользовательских данных, в соответствии с
-                  <a href="#" class="blog-footer-link">Политикой конфиденциальности</a>.
-                </p>
-                <div class="sp-t-0-3 rt-font-label">
-                  <span class="sp-r-1">© 2021 ПАО «Ростелеком». 18+</span>
-                  <a href="#">RSS</a>
-                </div>
-              </div>
-              <div class="blog-footer__social-media d-flex td-sp-b-1">
-                <a href="#" class="blog__share__icon">
-                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M25.8367 5.93152C24.9429 6.3216 23.9838 6.58615 22.9761 6.70425C24.005 6.09742 24.7927 5.1349 25.1659 3.99151C24.2008 4.55348 23.1354 4.96153 22.0003 5.18274C21.0913 4.22768 19.7983 3.63281 18.3641 3.63281C15.6128 3.63281 13.382 5.8299 13.382 8.53815C13.382 8.92226 13.426 9.29741 13.511 9.65614C9.37104 9.45135 5.70004 7.4979 3.24309 4.52956C2.81361 5.25297 2.56928 6.0959 2.56928 6.99569C2.56928 8.69808 3.44948 10.2002 4.78496 11.079C3.96849 11.0521 3.20059 10.8309 2.52833 10.4632V10.5245C2.52833 12.9009 4.24623 14.8843 6.52409 15.3357C6.10675 15.4463 5.66667 15.5076 5.21139 15.5076C4.88968 15.5076 4.57857 15.4762 4.27353 15.4164C4.90786 17.3669 6.74718 18.7852 8.92643 18.8241C7.22219 20.1394 5.07329 20.9211 2.73928 20.9211C2.33714 20.9211 1.94103 20.8972 1.55103 20.8538C3.75607 22.2483 6.37389 23.0614 9.18747 23.0614C18.3521 23.0614 23.3616 15.5853 23.3616 9.10164L23.3449 8.46644C24.3237 7.77886 25.1705 6.91499 25.8367 5.93152Z" fill="#1DA1F2"/>
-                  </svg>
-                </a>
-                <a href="#" class="blog__share__icon">
-                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12.3999 19.5366H13.81C13.81 19.5366 14.2359 19.4906 14.4537 19.2613C14.6538 19.0504 14.6474 18.6545 14.6474 18.6545C14.6474 18.6545 14.6198 16.8012 15.4979 16.5281C16.3638 16.2592 17.4754 18.3194 18.6535 19.1116C19.5445 19.7109 20.2216 19.5797 20.2216 19.5797L23.3722 19.5365C23.3722 19.5365 25.0202 19.4368 24.2387 18.1676C24.1747 18.064 23.7834 17.2287 21.8961 15.5127C19.9203 13.7166 20.1853 14.0072 22.565 10.9004C24.0142 9.00842 24.5935 7.85323 24.4124 7.35872C24.2399 6.88746 23.1739 7.01188 23.1739 7.01188L19.6267 7.03333C19.6267 7.03333 19.3636 6.99818 19.1687 7.11253C18.978 7.22424 18.8557 7.48527 18.8557 7.48527C18.8557 7.48527 18.2941 8.94935 17.5455 10.1945C15.9659 12.8217 15.3342 12.9608 15.076 12.7974C14.4753 12.4171 14.6253 11.2701 14.6253 10.455C14.6253 7.90884 15.0197 6.8472 13.8575 6.57231C13.472 6.48123 13.1879 6.42083 12.2018 6.4111C10.9361 6.39856 9.8649 6.41489 9.25831 6.70596C8.8547 6.89951 8.5434 7.33083 8.73307 7.35575C8.96756 7.38627 9.49835 7.49616 9.77983 7.87122C10.1435 8.35583 10.1307 9.44354 10.1307 9.44354C10.1307 9.44354 10.3396 12.4408 9.64288 12.8131C9.16482 13.0685 8.50886 12.5471 7.10061 10.1634C6.37913 8.94242 5.83436 7.59269 5.83436 7.59269C5.83436 7.59269 5.72941 7.34057 5.54209 7.20543C5.31485 7.04191 4.99715 6.9901 4.99715 6.9901L1.6261 7.01171C1.6261 7.01171 1.12007 7.02557 0.934266 7.24107C0.768846 7.43297 0.921127 7.82931 0.921127 7.82931C0.921127 7.82931 3.56009 13.8772 6.54842 16.925C9.2888 19.72 12.3999 19.5366 12.3999 19.5366Z" fill="#4680C2"/>
-                  </svg>
-                </a>
-                <a href="#" class="blog__share__icon">
-                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7134 25.9998V15.3652H20.1504L20.6649 11.2206H16.7134V8.57441C16.7134 7.37446 17.0342 6.55675 18.691 6.55675L20.8041 6.55572V2.84884C20.4386 2.79842 19.1843 2.68555 17.725 2.68555C14.6783 2.68555 12.5927 4.61698 12.5927 8.16407V11.2206H9.14697V15.3652H12.5927V25.9998H16.7134Z" fill="#3C5B9A"/>
-                  </svg>
-                </a>
-                <a href="#" class="blog__share__icon">
-                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.3407 8.34511C18.3407 11.2886 15.9444 13.6848 12.9982 13.6848C10.0521 13.6848 7.65585 11.2887 7.65585 8.34248C7.65585 5.39623 10.0521 3 12.9982 3C15.9444 3 18.3407 5.39623 18.3407 8.34511ZM12.9982 6.13217C14.2192 6.13217 15.2111 7.12405 15.2111 8.34511C15.2111 9.56339 14.2192 10.5554 12.9982 10.5554C11.7799 10.5554 10.7852 9.56355 10.7852 8.34511C10.7852 7.12405 11.7799 6.13217 12.9982 6.13217ZM15.16 18.0435C16.2489 17.7954 17.2975 17.3642 18.2625 16.7578C18.993 16.2969 19.214 15.332 18.753 14.5988C18.2921 13.8656 17.3271 13.6446 16.594 14.1055C14.4053 15.4828 11.5886 15.4802 9.39974 14.1055C8.66657 13.6446 7.70159 13.8656 7.24074 14.5988C6.77988 15.3293 7.00088 16.2969 7.73126 16.7578C8.69625 17.3642 9.74484 17.7956 10.8338 18.0435L7.84996 21.03C7.23811 21.6419 7.23811 22.6311 7.84996 23.243C8.15719 23.5476 8.55623 23.7012 8.95511 23.7012C9.35677 23.7012 9.75566 23.5476 10.063 23.243L12.9983 20.3075L15.9338 23.243C16.5456 23.8548 17.5349 23.8548 18.1467 23.243C18.7585 22.6311 18.7585 21.6391 18.1467 21.03L15.16 18.0435Z" fill="#FF9800"/>
-                  </svg>
-                </a>
-                <a href="#" class="blog__share__icon">
-                  <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.139 1.00781C9.84226 1.00781 9.42883 1.02179 8.13412 1.08086C6.84202 1.13979 5.95963 1.34502 5.18745 1.64512C4.38925 1.95529 3.71224 2.37037 3.0374 3.04521C2.36251 3.7201 1.94748 4.39707 1.63726 5.19527C1.33716 5.96745 1.13198 6.84983 1.073 8.14193C1.01393 9.43669 1 9.85003 1 13.1468C1 16.4436 1.01393 16.857 1.073 18.1517C1.13198 19.4438 1.33716 20.3262 1.63726 21.0984C1.94748 21.8966 2.36251 22.5736 3.0374 23.2484C3.71224 23.9233 4.38925 24.3383 5.18745 24.6486C5.95963 24.9487 6.84202 25.1539 8.13412 25.2129C9.42883 25.2719 9.84226 25.2859 13.139 25.2859C16.4358 25.2859 16.8491 25.2719 18.1439 25.2129C19.436 25.1539 20.3184 24.9487 21.0905 24.6486C21.8888 24.3383 22.5658 23.9233 23.2406 23.2484C23.9155 22.5736 24.3305 21.8966 24.6407 21.0984C24.9408 20.3262 25.1461 19.4438 25.205 18.1517C25.2641 16.857 25.2781 16.4436 25.2781 13.1468C25.2781 9.85008 25.2641 9.43669 25.205 8.14193C25.1461 6.84983 24.9408 5.96745 24.6407 5.19527C24.3305 4.39707 23.9155 3.7201 23.2406 3.04521C22.5658 2.37037 21.8888 1.95529 21.0905 1.64512C20.3184 1.34502 19.436 1.13979 18.1439 1.08086C16.8491 1.02179 16.4358 1.00781 13.139 1.00781ZM13.139 3.19502C16.3803 3.19502 16.7642 3.20736 18.0442 3.26576C19.2277 3.31977 19.8705 3.51753 20.2982 3.68377C20.8648 3.90398 21.2693 4.16703 21.694 4.59179C22.1188 5.01659 22.3818 5.42097 22.6021 5.98759C22.7683 6.41534 22.966 7.05809 23.0201 8.24163C23.0784 9.52164 23.0908 9.90559 23.0908 13.1468C23.0908 16.3881 23.0784 16.772 23.0201 18.052C22.966 19.2356 22.7683 19.8783 22.6021 20.3061C22.3818 20.8727 22.1188 21.2771 21.694 21.7018C21.2693 22.1266 20.8648 22.3897 20.2982 22.6099C19.8705 22.7761 19.2277 22.9739 18.0442 23.0279C16.7644 23.0863 16.3805 23.0987 13.139 23.0987C9.89749 23.0987 9.51364 23.0863 8.23382 23.0279C7.05027 22.9739 6.40747 22.7761 5.97973 22.6099C5.41316 22.3897 5.00873 22.1266 4.58397 21.7018C4.15921 21.2771 3.89612 20.8727 3.67591 20.3061C3.50972 19.8783 3.31196 19.2356 3.25794 18.052C3.19954 16.772 3.18721 16.3881 3.18721 13.1468C3.18721 9.90559 3.19954 9.52164 3.25794 8.24163C3.31196 7.05809 3.50972 6.41534 3.67591 5.98759C3.89612 5.42097 4.15921 5.01659 4.58397 4.59183C5.00873 4.16703 5.41316 3.90398 5.97973 3.68377C6.40747 3.51753 7.05027 3.31977 8.23377 3.26576C9.51383 3.20736 9.89773 3.19502 13.139 3.19502Z" fill="url(#paint0_linear)"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0344 17.0458C10.8189 17.0458 9.02286 15.2498 9.02286 13.0343C9.02286 10.8188 10.8189 9.02286 13.0344 9.02286C15.2498 9.02286 17.0459 10.8188 17.0459 13.0343C17.0459 15.2498 15.2498 17.0458 13.0344 17.0458ZM13.0344 6.85449C9.62133 6.85449 6.85449 9.62128 6.85449 13.0343C6.85449 16.4474 9.62133 19.2142 13.0344 19.2142C16.4474 19.2142 19.2142 16.4474 19.2142 13.0343C19.2142 9.62128 16.4474 6.85449 13.0344 6.85449Z" fill="url(#paint1_linear)"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20.949 6.74635C20.949 7.52478 20.318 8.15579 19.5396 8.15579C18.7612 8.15579 18.1301 7.52478 18.1301 6.74635C18.1301 5.96792 18.7612 5.33691 19.5396 5.33691C20.318 5.33691 20.949 5.96792 20.949 6.74635Z" fill="url(#paint2_linear)"/>
-                    <defs>
-                      <linearGradient id="paint0_linear" x1="25.2781" y1="1.00781" x2="1" y2="25.2859" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#DF0096"/>
-                        <stop offset="1" stop-color="#FFB500"/>
-                      </linearGradient>
-                      <linearGradient id="paint1_linear" x1="25.641" y1="1.20516" x2="0.191615" y2="25.7669" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#DF0096"/>
-                        <stop offset="1" stop-color="#FFB500"/>
-                      </linearGradient>
-                      <linearGradient id="paint2_linear" x1="24.9673" y1="1.78311" x2="0.877806" y2="25.582" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#DF0096"/>
-                        <stop offset="1" stop-color="#FFB500"/>
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </a>
+              <div class="academy__footer__links__item">
+                <svg class="d-flex" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.8029 35.6058C27.6352 35.6058 35.6058 27.6352 35.6058 17.8029C35.6058 7.97063 27.6352 0 17.8029 0C7.97063 0 0 7.97063 0 17.8029C0 27.6352 7.97063 35.6058 17.8029 35.6058Z" fill="#101828" fill-opacity="0.85"/>
+                  <path d="M17.8029 35.6058C27.6352 35.6058 35.6058 27.6352 35.6058 17.8029C35.6058 7.97063 27.6352 0 17.8029 0C7.97063 0 0 7.97063 0 17.8029C0 27.6352 7.97063 35.6058 17.8029 35.6058Z" fill="#101828" fill-opacity="0.85"/>
+                  <path d="M14.1437 18.0001C14.1437 15.87 15.8701 14.1427 18.0004 14.1427C20.1306 14.1427 21.858 15.87 21.858 18.0001C21.858 20.1303 20.1306 21.8576 18.0004 21.8576C15.8701 21.8576 14.1437 20.1303 14.1437 18.0001ZM12.0583 18.0001C12.0583 21.2818 14.7186 23.9419 18.0004 23.9419C21.2821 23.9419 23.9424 21.2818 23.9424 18.0001C23.9424 14.7185 21.2821 12.0584 18.0004 12.0584C14.7186 12.0584 12.0583 14.7185 12.0583 18.0001ZM22.789 11.8228C22.7889 12.0974 22.8702 12.3659 23.0227 12.5943C23.1752 12.8227 23.392 13.0008 23.6457 13.106C23.8994 13.2112 24.1786 13.2388 24.448 13.1853C24.7174 13.1318 24.9649 12.9997 25.1591 12.8056C25.3534 12.6115 25.4858 12.3641 25.5395 12.0948C25.5931 11.8254 25.5658 11.5462 25.4608 11.2924C25.3558 11.0387 25.1779 10.8217 24.9496 10.6691C24.7213 10.5164 24.4528 10.4348 24.1782 10.4347H24.1776C23.8095 10.4349 23.4565 10.5812 23.1961 10.8414C22.9357 11.1017 22.7893 11.4546 22.789 11.8228ZM13.3253 27.419C12.1971 27.3676 11.5839 27.1797 11.1764 27.0209C10.6361 26.8106 10.2506 26.5601 9.84532 26.1554C9.44003 25.7507 9.18915 25.3656 8.97975 24.8253C8.82089 24.418 8.63296 23.8046 8.58167 22.6765C8.52557 21.4568 8.51437 21.0904 8.51437 18.0002C8.51437 14.9101 8.5265 14.5447 8.58167 13.324C8.63305 12.1958 8.82237 11.5836 8.97975 11.1751C9.19008 10.6349 9.44058 10.2494 9.84532 9.84413C10.2501 9.43886 10.6352 9.18799 11.1764 8.97859C11.5837 8.81974 12.1971 8.63182 13.3253 8.58053C14.5451 8.52444 14.9115 8.51323 18.0004 8.51323C21.0892 8.51323 21.456 8.52536 22.6768 8.58053C23.805 8.63191 24.4172 8.82122 24.8257 8.97859C25.366 9.18799 25.7515 9.43941 26.1568 9.84413C26.5621 10.2489 26.812 10.6349 27.0224 11.1751C27.1812 11.5824 27.3692 12.1958 27.4204 13.324C27.4765 14.5447 27.4877 14.9101 27.4877 18.0002C27.4877 21.0904 27.4765 21.4557 27.4204 22.6765C27.3691 23.8046 27.1802 24.4178 27.0224 24.8253C26.812 25.3656 26.5615 25.7511 26.1568 26.1554C25.752 26.5598 25.366 26.8106 24.8257 27.0209C24.4184 27.1798 23.805 27.3677 22.6768 27.419C21.457 27.4751 21.0906 27.4863 18.0004 27.4863C14.9101 27.4863 14.5447 27.4751 13.3253 27.419ZM13.2295 6.49879C11.9976 6.55489 11.1558 6.75021 10.4207 7.03626C9.65934 7.33165 9.01483 7.72795 8.37079 8.37095C7.72674 9.01395 7.33144 9.65945 7.03604 10.4208C6.74998 11.1563 6.55465 11.9976 6.49855 13.2295C6.44152 14.4633 6.42847 14.8577 6.42847 18.0001C6.42847 21.1426 6.44152 21.537 6.49855 22.7708C6.55465 24.0027 6.74998 24.8439 7.03604 25.5795C7.33144 26.3404 7.72683 26.9866 8.37079 27.6293C9.01474 28.2721 9.65934 28.6678 10.4207 28.964C11.1572 29.2501 11.9976 29.4454 13.2295 29.5015C14.464 29.5576 14.8578 29.5716 18.0004 29.5716C21.1429 29.5716 21.5374 29.5585 22.7712 29.5015C24.0032 29.4454 24.8444 29.2501 25.58 28.964C26.3409 28.6678 26.9859 28.2723 27.6299 27.6293C28.274 26.9863 28.6684 26.3404 28.9647 25.5795C29.2507 24.8439 29.447 24.0027 29.5022 22.7708C29.5583 21.5361 29.5713 21.1426 29.5713 18.0001C29.5713 14.8577 29.5583 14.4633 29.5022 13.2295C29.4461 11.9975 29.2507 11.1559 28.9647 10.4208C28.6684 9.65992 28.273 9.01497 27.6299 8.37095C26.9869 7.72693 26.3409 7.33165 25.581 7.03626C24.8444 6.75021 24.0031 6.55396 22.7721 6.49879C21.5383 6.44269 21.1438 6.42871 18.0013 6.42871C14.8587 6.42871 14.464 6.44176 13.2295 6.49879Z" fill="white" fill-opacity="0.9"/>
+                  <path d="M14.1437 18.0001C14.1437 15.87 15.8701 14.1427 18.0004 14.1427C20.1306 14.1427 21.858 15.87 21.858 18.0001C21.858 20.1303 20.1306 21.8576 18.0004 21.8576C15.8701 21.8576 14.1437 20.1303 14.1437 18.0001ZM12.0583 18.0001C12.0583 21.2818 14.7186 23.9419 18.0004 23.9419C21.2821 23.9419 23.9424 21.2818 23.9424 18.0001C23.9424 14.7185 21.2821 12.0584 18.0004 12.0584C14.7186 12.0584 12.0583 14.7185 12.0583 18.0001ZM22.789 11.8228C22.7889 12.0974 22.8702 12.3659 23.0227 12.5943C23.1752 12.8227 23.392 13.0008 23.6457 13.106C23.8994 13.2112 24.1786 13.2388 24.448 13.1853C24.7174 13.1318 24.9649 12.9997 25.1591 12.8056C25.3534 12.6115 25.4858 12.3641 25.5395 12.0948C25.5931 11.8254 25.5658 11.5462 25.4608 11.2924C25.3558 11.0387 25.1779 10.8217 24.9496 10.6691C24.7213 10.5164 24.4528 10.4348 24.1782 10.4347H24.1776C23.8095 10.4349 23.4565 10.5812 23.1961 10.8414C22.9357 11.1017 22.7893 11.4546 22.789 11.8228ZM13.3253 27.419C12.1971 27.3676 11.5839 27.1797 11.1764 27.0209C10.6361 26.8106 10.2506 26.5601 9.84532 26.1554C9.44003 25.7507 9.18915 25.3656 8.97975 24.8253C8.82089 24.418 8.63296 23.8046 8.58167 22.6765C8.52557 21.4568 8.51437 21.0904 8.51437 18.0002C8.51437 14.9101 8.5265 14.5447 8.58167 13.324C8.63305 12.1958 8.82237 11.5836 8.97975 11.1751C9.19008 10.6349 9.44058 10.2494 9.84532 9.84413C10.2501 9.43886 10.6352 9.18799 11.1764 8.97859C11.5837 8.81974 12.1971 8.63182 13.3253 8.58053C14.5451 8.52444 14.9115 8.51323 18.0004 8.51323C21.0892 8.51323 21.456 8.52536 22.6768 8.58053C23.805 8.63191 24.4172 8.82122 24.8257 8.97859C25.366 9.18799 25.7515 9.43941 26.1568 9.84413C26.5621 10.2489 26.812 10.6349 27.0224 11.1751C27.1812 11.5824 27.3692 12.1958 27.4204 13.324C27.4765 14.5447 27.4877 14.9101 27.4877 18.0002C27.4877 21.0904 27.4765 21.4557 27.4204 22.6765C27.3691 23.8046 27.1802 24.4178 27.0224 24.8253C26.812 25.3656 26.5615 25.7511 26.1568 26.1554C25.752 26.5598 25.366 26.8106 24.8257 27.0209C24.4184 27.1798 23.805 27.3677 22.6768 27.419C21.457 27.4751 21.0906 27.4863 18.0004 27.4863C14.9101 27.4863 14.5447 27.4751 13.3253 27.419ZM13.2295 6.49879C11.9976 6.55489 11.1558 6.75021 10.4207 7.03626C9.65934 7.33165 9.01483 7.72795 8.37079 8.37095C7.72674 9.01395 7.33144 9.65945 7.03604 10.4208C6.74998 11.1563 6.55465 11.9976 6.49855 13.2295C6.44152 14.4633 6.42847 14.8577 6.42847 18.0001C6.42847 21.1426 6.44152 21.537 6.49855 22.7708C6.55465 24.0027 6.74998 24.8439 7.03604 25.5795C7.33144 26.3404 7.72683 26.9866 8.37079 27.6293C9.01474 28.2721 9.65934 28.6678 10.4207 28.964C11.1572 29.2501 11.9976 29.4454 13.2295 29.5015C14.464 29.5576 14.8578 29.5716 18.0004 29.5716C21.1429 29.5716 21.5374 29.5585 22.7712 29.5015C24.0032 29.4454 24.8444 29.2501 25.58 28.964C26.3409 28.6678 26.9859 28.2723 27.6299 27.6293C28.274 26.9863 28.6684 26.3404 28.9647 25.5795C29.2507 24.8439 29.447 24.0027 29.5022 22.7708C29.5583 21.5361 29.5713 21.1426 29.5713 18.0001C29.5713 14.8577 29.5583 14.4633 29.5022 13.2295C29.4461 11.9975 29.2507 11.1559 28.9647 10.4208C28.6684 9.65992 28.273 9.01497 27.6299 8.37095C26.9869 7.72693 26.3409 7.33165 25.581 7.03626C24.8444 6.75021 24.0031 6.55396 22.7721 6.49879C21.5383 6.44269 21.1438 6.42871 18.0013 6.42871C14.8587 6.42871 14.464 6.44176 13.2295 6.49879Z" fill="white" fill-opacity="0.9"/>
+                </svg>
               </div>
             </div>
           </div>
@@ -558,8 +336,6 @@
 </template>
 
 <script>
-import smoothscroll from 'smoothscroll-polyfill';
-
 const componentsList = {};
 
 export default {
@@ -567,181 +343,35 @@ export default {
   components: componentsList,
   data() {
     return {
-      carouselArray: null,
-      activeSlideIndex: 0,
-      letClick: true,
-      nextSlideIndex: null,
-      previousSlideIndex: null,
-      carouselTextArray: null,
-      slideWidth: 0,
-      isScrolling: () => {},
-      firstIndex: null,
-      lastIndex: null,
-      sourceCarouselArray: null
+
     }
   },
   mounted() {
-    smoothscroll.polyfill()
-    this.carouselArray = this.$refs.slidesWrapper.children;
-    this.sourceCarouselArray = this.$refs.slidesWrapper.children;
-    this.carouselTextArray = this.$refs.textsWrapper.children;
-    this.fixDesignerFuckUp();
-    this.setCarouselArrowsPosition();
-    this.setTableColumnWidth();
-    this.setSlideWidth();
-    window.addEventListener('resize', () => {
-      this.fixDesignerFuckUp();
-      this.setCarouselArrowsPosition();
-      this.setTableColumnWidth();
-      this.setSlideWidth();
-      this.setSlidesPosition();
+    window.addEventListener('resize', function() {
+      if(window.innerWidth <= 1024) {
+        document.querySelector('.academy__header__mobile-menu').addEventListener('click', toggleMenu)
+      } else {
+        document.querySelector('.academy__header__mobile-menu').removeEventListener('click', toggleMenu)
+      }
     })
-    this.setSlidesPosition();
-    this.setSlideWidth();
-    this.addListenerMulti(this.$refs.video, 'ended pause', this.pauseVideo)
+    if(window.innerWidth <= 1024) {
+      document.querySelector('.academy__header__mobile-menu').addEventListener('click', toggleMenu)
+    }
+    window.addEventListener('scroll', function() {
+      if(window.pageYOffset > 1000) {
+        document.querySelector('.up-button').classList.remove('up-button--hidden')
+      } else {
+        document.querySelector('.up-button').classList.add('up-button--hidden')
+      }
+    })
+    function toggleMenu() {
+      document.querySelector('.academy__header__mobile-menu__body').classList.toggle('academy__header__mobile-menu__body--active')
+      document.querySelector('.academy__header__links').classList.toggle('academy__header__links--active')
+      document.documentElement.classList.toggle('ovh')
+      document.body.classList.toggle('ovh')
+    }
   },
   created() {},
-  methods: {
-    fixDesignerFuckUp() {
-      this.$refs.pseudoBg.style.left = -this.$refs.pseudoBgParent.getBoundingClientRect().left + 'px';
-      if(window.innerWidth > 1024) {
-        this.$refs.stickyBlock.style.paddingBottom =  this.$refs.pseudoBgParent.getBoundingClientRect().height + 44 + 'px';
-      } else {
-        this.$refs.stickyBlock.removeAttribute('style');
-      }
-    },
-    toggleOpen() {
-      this.$refs.navigationDropdown.classList.toggle('navigation-link-wrapper__button--active')
-    },
-    toggleMobileMenu() {
-      this.$refs.navigationMobile.classList.toggle('navigation-mobile__button-wrapper--active');
-      document.body.classList.toggle('ovh');
-      document.documentElement.classList.toggle('ovh');
-    },
-    togglePlay(e) {
-      setTimeout(() => {
-        e.target.tagName == 'IMG' ? this.$refs.video.play() : this.$refs.video.pause();
-      },0)
-      this.$refs.videoWrapper.classList.toggle('blog__video-block-wrapper--no-shadow')
-      this.$refs.videoButton.classList.toggle('blog__video-play-button--hidden')
-      this.$refs.videoTitle.classList.toggle('blog__video-title--hidden')
-      this.$refs.videoPoster.classList.toggle('blog__video-poster--hidden')
-    },
-    addListenerMulti(element, listenerList, func) {
-      listenerList.split(' ').forEach(listener => element.addEventListener(listener, func));
-    },
-    pauseVideo(){
-      this.$refs.video.pause();
-      this.$refs.videoWrapper.classList.remove('blog__video-block-wrapper--no-shadow')
-      this.$refs.videoButton.classList.remove('blog__video-play-button--hidden')
-      this.$refs.videoTitle.classList.remove('blog__video-title--hidden')
-      this.$refs.videoPoster.classList.remove('blog__video-poster--hidden')
-    },
-    setSlidesPosition() {
-      this.carouselTextArray[this.activeSlideIndex].classList.add('blog__carousel__text--active');
-      this.nextSlideIndex = this.activeSlideIndex == (this.carouselArray.length - 1) ? 0 : this.activeSlideIndex + 1;
-      this.previousSlideIndex = this.activeSlideIndex == 0 ? this.carouselArray.length - 1 : this.activeSlideIndex - 1;
-      if(window.innerWidth <= 1024) {
-        let sourceArray = Array.from(this.carouselArray).sort((a, b) => {
-          if (a.dataset.index > b.dataset.index) {
-            return 1;
-          }
-          if (a.dataset.index < b.dataset.index) {
-            return -1;
-          }
-        })
-        this.$refs.slidesWrapper.innerHTML = '';
-        sourceArray.map(item => {
-          this.$refs.slidesWrapper.insertAdjacentHTML('beforeend', item.outerHTML)
-        })
-        this.$refs.slidesWrapper.scrollLeft = this.slideWidth * this.activeSlideIndex;
-      }
-    },
-    nextImage() {
-      this.carouselTextArray[this.activeSlideIndex].classList.remove('blog__carousel__text--active');
-      this.carouselTextArray[this.nextSlideIndex].classList.add('blog__carousel__text--active')
-      let wrapper = this.$refs.slidesWrapper;
-      if(this.$refs.slidesWrapper.scrollLeft == this.$refs.slidesWrapper.scrollWidth - this.carouselArray[this.carouselArray.length - 1].offsetWidth) {
-        this.spliceSlides(wrapper, true)
-      }
-      setTimeout(() => {
-        wrapper.scrollTo({
-          left: wrapper.scrollLeft + this.slideWidth,
-          behavior: "smooth"
-        });
-      },10)
-      this.activeSlideIndex = this.nextSlideIndex;
-      this.setSlidesPosition();
-    },
-    previousImage() {
-      this.carouselTextArray[this.activeSlideIndex].classList.remove('blog__carousel__text--active');
-      this.carouselTextArray[this.previousSlideIndex].classList.add('blog__carousel__text--active')
-      let wrapper = this.$refs.slidesWrapper;
-      if(this.$refs.slidesWrapper.scrollLeft == 0) {
-        this.spliceSlides(wrapper, false)
-      }
-      setTimeout(() => {
-        wrapper.scrollTo({
-          left: wrapper.scrollLeft - this.slideWidth,
-          behavior: "smooth"
-        });
-      },10)
-      this.activeSlideIndex = this.previousSlideIndex;
-      this.setSlidesPosition();
-    },
-    spliceSlides(wrapper, direction) {
-      let targetSlide = direction ? this.carouselArray[0].outerHTML : this.carouselArray[this.carouselArray.length - 1].outerHTML;
-      direction ? this.carouselArray[0].remove() : this.carouselArray[this.carouselArray.length - 1].remove()
-      let insertPoint = direction ? 'beforeend' : 'afterbegin';
-      wrapper.insertAdjacentHTML(insertPoint, targetSlide)
-    },
-    setCarouselArrowsPosition() {
-      let arrowWrapper = this.$refs.carousel.querySelector('.blog__carousel__navigation');
-      let singleSlideHeight = this.$refs.carousel.querySelector('.blog__carousel__slide-body').offsetHeight;
-      if(singleSlideHeight != 0) {
-        arrowWrapper.style.top = 'calc(' + singleSlideHeight + 'px / 2)';
-      } else {
-        setTimeout( ()=> {
-          this.setCarouselArrowsPosition()
-        }, 150)
-      }
-    },
-    setTableColumnWidth() {
-      Array.from(this.$refs.colGroup.children).map((item, index) => {
-        if(window.innerWidth < 768) {
-          if(index == 0) {
-            item.style.width = '28%'
-          } else {
-            item.style.width = '24%'
-          }
-        } else {
-          if(index == 0) {
-            item.style.width = '40%'
-          } else {
-            item.style.width = '20%'
-          }
-        }
-      })
-    },
-    setSlideWidth() {
-      // if(window.innerWidth <= 1024) {
-      this.slideWidth = this.carouselArray[0].offsetWidth;
-      // }
-    },
-    changeText() {
-      if(window.innerWidth <= 1024) {
-        this.carouselTextArray[this.activeSlideIndex].classList.remove('blog__carousel__text--active');
-        let newIndex = Math.floor(this.$refs.slidesWrapper.scrollLeft / this.slideWidth);
-        this.carouselTextArray[newIndex].classList.add('blog__carousel__text--active');
-        this.activeSlideIndex = newIndex;
-      }
-    },
-    checkScrollEnd() {
-      window.clearTimeout(this.isScrolling);
-      this.isScrolling = setTimeout(() => {
-        this.changeText();
-      }, 50);
-    }
-  }
+  methods: {}
 };
 </script>

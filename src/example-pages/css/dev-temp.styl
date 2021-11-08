@@ -1,639 +1,103 @@
-.blog
-  padding-top 50px
-  @media(max-width tablet-upper-limit)
-    overflow hidden
-  &__header
-    padding 12px 0 10px
-    display flex
-    align-items flex-end
-    justify-content space-between
-    @media(max-width tablet-upper-limit)
-      padding 16px 0
-    &-left
-      display flex
-      align-items flex-end
-    &-wrapper
-      box-shadow 0 0 4px main-color01
-      position relative
-      z-index 4
-  &-footnote
-    text-transform uppercase
-    letter-spacing 2px
-  &__tags-wrapper
-    padding 20px 8px
-    border-bottom 1px solid main-color007-no-opacity
-    @media(max-width tablet-upper-limit)
-      padding 20px 0
-    &__inner
-      overflow auto
-      -ms-overflow-style none
-      scrollbar-width none
-      &::-webkit-scrollbar
-        display none
-      @media(max-width tablet-upper-limit)
-        margin 0 -20px
-        padding-left 28px
-        .blog__page-wrapper &
-          padding-left 20px
-    &-stretcher
-      @media(max-width tablet-upper-limit)
-        min-width 28px
-    &--no-scroll
-      border none
-      padding 8px 0
-      .blog__tag
-        margin-right 28px
-        margin-top 12px
-        &+.blog__tag
-          margin-left 0!important
-  &__tag
-    cursor pointer
-    transition color.2s linear
-    word-break keep-all
-    font-size 16px
-    line-height 20px
-    font-weight 500
-    @media(max-width mobile-upper-limit)
-      font-size 14px
-      line-height 16px
-    &+&
-      margin-left 28px
-    &:hover,
-    &--active
-      color b2c-red
-  &__weekly-theme
-    min-height 438px
-    &-wrapper
-      position relative
-      display block
-      &:after
-        position absolute
-        content ''
-        top 0
-        left 0
-        right 0
-        bottom 0
-        background linear-gradient(to bottom, rgba(10, 13, 29, 0) 46.29%, rgba(10, 13, 29, 0.478766) 65.43%, #0A0D1D 100%)
-        @media(max-width mobile-upper-limit)
-          display none
-    &__image
-      position relative
-      display block
-      object-fit cover
-      width 100%
-    &__description
-      margin-bottom 8px
-    &__label
-      display inline-block
-      position absolute
-      top 0
-      left 0
-      z-index 2
-    &__bottom
-      position absolute
-      bottom 28px
-      left 28px
-      z-index 2
-      @media(max-width mobile-upper-limit)
-        position relative
-        bottom auto
-        left auto
-    &__title
-      min-height 64px
-      font-size 24px
-      line-height 32px
-      @media(max-width mobile-upper-limit)
-        font-size 16px
-        line-height 20px
-        min-height auto
-    &__ttr
-      .rt-sys-icon
-        //fill b2c-white07
-        @media(max-width mobile-upper-limit)
-          fill main-color05
-  &__popular
-    @media(max-width tablet-upper-limit)
-      border-bottom 1px solid main-color007-no-opacity
-    &__item-title
-      font-weight 500
-      font-size 16px
-      line-height 20px
-      transition color .2s linear
-      &:hover
-        color b2c-red
-  &__article-tile
-    &:nth-child(n+4)
-      margin-top 60px
-      @media(max-width tablet-upper-limit)
-        margin-top 0
-    .rt-col-4
-      &:not(:nth-child(3n + 1))
-        border-left 1px solid main-color007-no-opacity
-        @media(max-width tablet-upper-limit)
-          border-left none
-      &:not(:first-child)
-        @media(max-width tablet-upper-limit)
-          .blog__article-tile__item
-            border-top 1px solid main-color007-no-opacity
-    &__image
-      min-height 207px
-      object-fit cover
-      width 100%
-      &-wrapper
-        display flex
-        position relative
-  &__promo-block
-    border-right 1px solid main-color007-no-opacity
-    @media(max-width tablet-upper-limit)
-      border none
-    .row
-      height 100%
-    .rt-col-12
-      &+&
-        flex-grow 2
-  &__link-button
-    text-align center
-    font-weight 500
-    font-size 14px
-    line-height 16px
-    border 1px solid main-color007-no-opacity
-    border-radius 0
-  &__hint-carousel
-    height 100%
-    position relative
-    &-wrapper
-      position relative
-      min-height 100%
-    &__item
-      background-color b2c-gray
-      position absolute
-      z-index -1
-      opacity .3
-      transform translateY(-17px) scale(0.9)
-      transition all .3s linear
-      top 0
-      height auto
-      &--active
-        transform translateY(15px)
-        z-index 1
-        opacity 1
-        position relative
-      &--hidden
-        opacity 0
-    &__refresh
-      background-color b2c-white
-      border 2px solid main-color007-no-opacity
-      cursor pointer
-      position absolute
-      left 50%
-      transform translateX(-50%)
-      bottom 36px
-      z-index 2
-      border-radius 0
-      @media(max-width tablet-upper-limit)
-        bottom 40px
-      @media(max-width mobile-upper-limit)
-        bottom 32px
-  &__add-article-button
-    border 1px solid main-color007-no-opacity
-    font-size 14px
-    line-height 16px
-    border-radius 0
-    .ripple
-      padding 0 42px
-  &__manual
-    &__item
-      display block
-      flex-basis 20%
-      width 20%
-      flex-grow 2
-      box-sizing content-box
-      @media(max-width mobile-upper-limit)
-        flex-basis 100%
-      &+.blog__manual__item
-        border-left 1px solid main-color007-no-opacity
-        @media(max-width mobile-upper-limit)
-          border none
-    .color-block--main-color003-no-opacity
-      @media(max-width tablet-upper-limit)
-        background-color transparent
-    &-wrapper
-      @media(max-width tablet-upper-limit)
-        background-color #F8F8F8
-    .rt-sys-icon
-      @media(max-width tablet-upper-limit) and (min-width tablet-lower-limit)
-        fill main-color05
-    &-link
-      font-size 16px
-      line-height 20px
-      font-weight 500
-      display block
-      transition color .2s linear
-      &:hover
-        color b2c-red
-  &__frame
-    min-height 320px
-  &-article__image
-    &-body
-      width 100%
-      display block
-  &__carousel
-    overflow hidden
-    position relative
-    &__slide
-      position absolute
-      top 0
-      left 0
-      right 0
-      bottom 0
-      z-index 1
-      opacity 0
-      transition transform .3s linear
-      //@media (max-width: tablet-upper-limit)
-      position relative
-      flex-basis 100%
-      min-width 100%
-      top auto
-      left auto
-      right auto
-      bottom auto
-      transform none
-      opacity 1
-      scroll-snap-align start
-      //&--next
-      //  transform translateX(100%)
-      //  z-index 2
-      //  opacity 1
-      //&--previous
-      //  transform translateX(-100%)
-      //  z-index 2
-      //  opacity 1
-      //&--hidden
-      //  opacity 0
-      //  z-index -2
-      &--active
-        position relative
-        z-index 3
-        opacity 1
-        transform translateX(0)
-      //&--next,
-      //&--previous,
-      //&--hidden,
-      //&--active
-      //  @media (max-width: tablet-upper-limit)
-      //    transform none
-      //    z-index 1
-      //    opacity 1
-      &-body
-        width 100%
-        height 100%
-        display block
-        object-fit cover
-    &__text
-      position absolute
-      opacity 0
-      top 0
-      right 0
-      left 0
-      transition opacity .3s linear
-      &--active
-        position relative
-        opacity 1
-    &__navigation
-      position absolute
-      top 50%
-      transform translateY(-50%)
-      width 100%
-      justify-content space-between
-      z-index 4
-      display none
-      pointer-events none
-      &-arrow
-        cursor pointer
-        padding 20px
-        pointer-events all
-      .blog__carousel:hover &
-        display flex
-        @media (max-width: tablet-upper-limit)
-          display none
-  &__video
-    &-block
-      width 100%
-      cursor pointer
-      display block
-      &-wrapper
-        position relative
-        display flex
-        @media(max-width mobile-upper-limit)
-          display block
-        &:after
-          position absolute
-          content ''
-          top 0
-          left 0
-          right 0
-          bottom 40px
-          background-color main-color005
-          pointer-events none
-          z-index 1
-          @media(max-width mobile-upper-limit)
-            bottom 24px
-        &--no-shadow
-          &:after
-            display none
-    &-play-button
-      position absolute
-      top calc(50% - 20px)
-      left 50%
-      transform translateX(-50%) translateY(-50%)
-      width 36px
-      height 48px
-      pointer-events none
-      transition opacity .2s linear
-      z-index 3
-      &--hidden
-        opacity 0
-    &-title
-      position absolute
-      bottom 72px
-      left 32px
-      max-width calc(100% - 64px)
-      transition opacity .2s linear
-      z-index 3
-      font-size 22px
-      line-height 28px
-      @media(max-width tablet-upper-limit)
-        bottom 64px
-        font-size 20px
-        line-height 24px
-      @media(max-width mobile-upper-limit)
-        position relative
-        left auto
-        bottom auto
-        display block
-        max-width none
-        font-size 14px
-        line-height 16px
-      &--hidden
-        opacity 0
-        pointer-events none
-        @media(max-width mobile-upper-limit)
-          opacity 1
-          background-color main-color005
-    &-poster
-      position absolute
-      top 0
-      left 0
-      right 0
-      bottom 0
-      object-fit cover
-      z-index 2
-      max-width 100%
-      &--hidden
-        opacity 0
-        pointer-events none
-  &__table
-    margin-bottom 40px
-    @media(max-width tablet-upper-limit)
-      margin-bottom 32px
-    @media(max-width mobile-upper-limit)
-      margin-bottom 24px
-    &-title
-      text-transform uppercase
-      padding 16px 20px
-      background-color main-color003
-      border-bottom 4px solid b2c-white
-      @media(max-width mobile-upper-limit)
-        padding 8px
-    th,
-    td
-      background-color main-color003
-      border 4px solid b2c-white
-      padding 16px 8px
-      @media(max-width mobile-upper-limit)
-        border-width 2px
-        padding 8px 4px!important
-      &:first-child
-        border-left none
-        padding-left 20px
-      &:last-child
-        border-right none
-    td
-      font-size 14px
-      line-height 20px
-      @media(max-width mobile-upper-limit)
-        font-size 12px
-        line-height 16px
-    th,
-    td:first-child
-      font-size 14px
-      line-height 16px
-      font-weight 500
-      @media(max-width mobile-upper-limit)
-        font-size 12px
-  &__share__icon
-    filter brightness(0)
-    opacity .7
-    transition all .1s linear
-    display inline-flex
-    &:hover
-      filter brightness(1)
-      opacity 1
-    &+&
-      margin-left 16px
-  &__form
-    position relative
-    &-pseudo-background
-      position absolute
-      top 0
-      bottom 0
-      width 100vw
-      z-index 0
-    &-body
-      position relative
-      z-index 1
-    .rt-button
-      @media(max-width mobile-upper-limit)
-        min-width 100%
-  &-footer
-    &__top
-      border-bottom 1px solid main-color01
-    &__privacy
-      font-size 14px
-      line-height 20px
-    &-link
-      transition color .2s linear
-      color main-color
-      &:hover
-        color b2c-red
-  &-breadcrumbs,
-  .back-link
-    &:hover
-      color b2c-red
+.app-header
+  display none
 
-.blog__title
-  .select-v2
-    max-width 140px
-    @media(max-width mobile-upper-limit)
-      max-width 120px
-  .select-v2__inner
-    border none
-    align-items center
-    position relative
-    cursor pointer
+.events-admin
+  background-color #f8f8f8
+  position relative
+  min-height 100vh
+  min-width 100vw
+  color b2c-dark-slate
+  &__auth
     &:after
       position absolute
       content ''
-      background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7 10L17 10L12.5512 14.7559C12.2468 15.0814 11.7532 15.0814 11.4488 14.7559L7 10Z' fill='%23101828'/%3E%3C/svg%3E%0A");
-      width 24px
-      height 24px
-      background-repeat no-repeat
-      top 50%
-      transform translateY(-50%)
       right 0
-      background-color transparent
-      bottom auto
-      left auto
-      transition transform .2s linear
-  .select-v2__container:after,
-  .select-v2-arrow,
-  .select-v2:hover .select-v2__inner:before
-    display none
-  .select-v2-value
-    padding-top 0
-    padding-left 20px
-    margin-bottom 0
-    &:hover
-      color b2c-red
-    @media(max-width mobile-upper-limit)
-      padding-left 0
-  .select-v2-option--select
-    transition color .1s linear
-    color main-color
-  .select-v2-option.select-v2-option--focus
-    transition color .1s linear
-    background-color transparent
-    color b2c-red
-  .select-v2-value,
-  .select-v2-option .rt-font-control
-    font-size 16px
-    line-height 20px
-  .select-v2-list
-    padding-left 12px
-    @media(max-width mobile-upper-limit)
-      width calc(100% + 20px)
-      left -20px
-  .select-v2-list-inner
-    padding-top 10px
-    padding-bottom 10px
-  .select-v2--is-open
-    .select-v2__inner:after
-      transform translateY(-50%) rotate(-180deg)
-    .select-v2-value
-      color b2c-red
+      bottom 0
+      background-image url("data:image/svg+xml,%3Csvg viewBox='0 0 358 294' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M357.843 0C357.782 89.1043 295.977 155.316 201.466 196.966L358 121.224L357.843 0Z' fill='%23FF4F12'/%3E%3Cpath d='M358 151.483L357.88 99.9316C347.03 123.534 326.029 135.889 311.631 143.415L0 294.001H357.856V151.52C357.952 151.496 358 151.483 358 151.483Z' fill='%237B939B'/%3E%3C/svg%3E%0A")
+      width 358px
+      height 294px
+      @media (max-width tablet-upper-limit)
+        size(262px, 216px)
+      @media (max-width mobile-upper-limit)
+        size(182px, 150px)
+  &__events-list
+    max-height 100vh
 
-.rt-col-12
-  &+&
-    .blog__popular__item
-      border-top 1px solid main-color007-no-opacity
-      @media(max-width tablet-upper-limit) and (min-width tablet-lower-limit)
-        border none
-    @media(max-width tablet-upper-limit) and (min-width tablet-lower-limit)
-      &:nth-child(n+3)
-        .blog__popular__item
-          border-top 1px solid main-color007-no-opacity
-
-.sticky-block
-  position sticky
-  top 110px
-  .blog__popular
-    border-bottom none
-
-.navigation
+.header-logo
   display flex
-  align-items center
-  font-size 14px
-  line-height 16px
-  color main-color07
-  @media(max-width tablet-upper-limit)
-    display none
-  &-link
-    white-space nowrap
-    word-break keep-all
-    transition color .2s linear
-    &:hover
-      color b2c-red
-    &+&
-      margin-left 20px
-      @media(max-width tablet-upper-limit)
-        display block
-        margin-left 0
-        margin-top 20px
-    .blog-footer &+&
-      @media(max-width tablet-upper-limit)
-        margin-left 16px
-        margin-top 0
-      @media (max-width: mobile-upper-limit)
-        margin-left 0
-        margin-top 16px
-    &-wrapper
-      position relative
-      margin-left 20px
-      &__inner
-        position absolute
-        height 0
-        top calc(100% + 12px)
-        left 50%
-        transform translateX(-50%)
-        overflow hidden
-        box-shadow 0 0 5px 0 rgba(main-color, .2)
-        z-index 9
-        .navigation-link
-          display block
-          &+.navigation-link
-            margin-left 0
-            margin-top 20px
-      &__button
-        position relative
-        cursor pointer
-        &:after
-          position absolute
-          content ''
-          width 8px
-          height 4px
-          transition transform .2s linear
-          top calc((100% - 4px) / 2)
-          right 0
-          background-image url("data:image/svg+xml,%3Csvg width='9' height='5' viewBox='0 0 9 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 0.5L4.5 4L8 0.5' stroke='%23101828' stroke-opacity='0.7'/%3E%3C/svg%3E%0A")
-        &--active
-          &:after
-            transform rotate(-180deg)
-          &+.navigation-link-wrapper__inner
-            height auto
-            padding 12px
-            background-color b2c-white
-  &-mobile
-    position relative
-    &__list
-      position absolute
-      top calc(100% + 10px)
-      right -20px
-      overflow hidden
-      background-color b2c-white
-      transform translateX(100%)
-      transition transform .2s linear
-      z-index 3
-      width 50vw
-      height 100vh
-      box-shadow -8px 0 8px -8px rgba(main-color, .2)
-      @media(max-width mobile-upper-limit)
-        width 100vw
-    &__button
+  &__image
+    width 31px
+    height 52px
+    @media (max-width tablet-upper-limit)
+      size(29px, 48px)
+    @media (max-width mobile-upper-limit)
+      size(16px, 27px)
+  &__text
+    width 146px
+    height 45px
+    margin-left 6px
+    @media (max-width tablet-upper-limit)
+      size(134px, 41px)
+    @media (max-width mobile-upper-limit)
+      size(75px, 23px)
+
+.pos-abs
+  position absolute
+  top 50%
+  transform translateY(-50%)
+  width 100vw
+
+.auth-form-wrapper
+  width 75%
+  margin 0 auto
+  @media (max-width mobile-upper-limit)
+    width 100%
+
+.events-header
+  border-bottom 1px solid #B8B9C0
+  &__logo-text
+    font-size 24px
+    line-height 26px
+    font-weight 600
+    text-transform uppercase
+    font-feature-settings 'tnum' on, 'lnum' on
+    margin-left 30px
+    @media (max-width desktop-upper-limit)
+      font-size 22px
+      line-height 23px
+      margin-left 26px
+    @media (max-width mobile-upper-limit)
+      font-size 10px
+      line-height 10px
+      margin-left 12px
+  &__navigation
+    @media (max-width tablet-upper-limit)
+      background-color #f8f8f8
+      display flex
+      flex-direction column
+      padding 20px
+      a
+        padding 20px 0
+    &__link
+      padding-bottom 2px
+      border-bottom 2px solid transparent
+      @media (max-width tablet-upper-limit)
+        border-bottom 1px solid main-color01
+      &+&
+        margin-left 40px
+        @media (max-width tablet-upper-limit)
+          margin-left 0
+      &--active
+        border-bottom-color b2c-orange
+        font-weight 600
+        @media (max-width tablet-upper-limit)
+          border-bottom-color main-color01
+    &-button
       width 20px
       height 1px
       background-color main-color
       position relative
-      transition all .2s linear
+      transition transform .3s linear
       &:before,
       &:after
         position absolute
@@ -643,80 +107,292 @@
         background-color main-color
         left 0
         right 0
-        transition all .2s linear
+        transition all .3s linear
       &:before
-        top -6px
+        top -5px
       &:after
-        bottom -6px
+        bottom -5px
+      &--active
+        transform rotate(135deg)
+        &:before
+          transform rotate(90deg)
+          top 0
+        &:after
+          transform rotate(360deg)
+          bottom 0
       &-wrapper
-        padding 6px 0
-        margin-bottom 4px
+        padding 12px 2px
+    &-wrapper
+      position relative
+    &-inner
+      @media (max-width tablet-upper-limit)
+        position absolute
+        top 44px
+        right -20px
+        width 100vw
+        overflow hidden
+        max-height 0
+        transition max-height .2s linear
+        z-index 10
         &--active
-          &+.navigation-mobile__list
-            transform translateX(0)
-          .navigation-mobile__button
-            transform rotate(-135deg)
-            &:before
-              transform rotate(-90deg)
-              top 0
-            &:after
-              transform rotate(90deg)
-              bottom 0
+          max-height 300px
+      @media (max-width mobile-upper-limit)
+        top 39px
+    &-shadow
+      @media (max-width tablet-upper-limit)
+        display none
+        position fixed
+        top 116px
+        right 0
+        width 100vw
+        height calc(100vh - 116px)
+        background-color main-color03
+        z-index 9
+        &--active
+          display block
+      @media (max-width mobile-upper-limit)
+        top 81px
+        height calc(100vh - 81px)
 
-.blog__quote
-  span
-    padding 0
-    left 0
-    position relative
-    box-shadow 16px 0 0 main-color005, -16px 0 0 main-color005
-    @media (max-width mobile-upper-limit)
-      padding 1px 0
 
-.blog-sticky-stretcher
-  min-height 100vh
-
-.carousel-slides-wrapper
-  height calc(((1136px - 11 * 40px) / 12 * 7 + (40px * 6)) * 0.62)
-  flex-direction row
-  display flex
-  overflow auto
-  scroll-snap-type x mandatory
-  pointer-events none
+.events-list-wrapper
+  overflow hidden
+  height calc(100vh - 293px)
   @media (max-width tablet-upper-limit)
-    pointer-events auto
-    height calc((83.333vw - 40px) * .62)
+    height calc(100vh - 341px)
   @media (max-width mobile-upper-limit)
-    height calc((100vw - 40px) * .62)
-  &::-webkit-scrollbar
-    display none
+    height calc(100vh - 368px)
+  &__inner
+    overflow-y scroll
+    max-height 100%
+    @media (max-width tablet-upper-limit)
+      overflow-y auto
+      overflow-x hidden
 
-.carousel-texts-wrapper
+.event-list-item
+  background-color #fff
+  border-radius 8px
+  display block
+  &:hover
+    box-shadow 3px 3px 4px #C8C8C8
+  &+&
+    margin-top 12px
+  &__title
+    text-transform uppercase
+
+.md-pos-abs
+  @media (max-width mobile-upper-limit)
+    position absolute
+    top 12px
+    right 12px
+
+.create-event
+  .rt-popup-inner
+    align-items flex-start
+    .row
+      top 160px
+      justify-content flex-end
+
+.event-item
+  &__counters
+    &__item
+      &+&
+        margin-left 12px
+      .digit
+        min-width 100px
+        border-radius 8px
+  &__action-buttons
+    .rt-button:not([disabled]):hover
+      background-color b2c-white
+      .button-text
+        color b2c-orange
+      .rt-sys-icon
+        fill b2c-orange
+    .rt-button-full-white[disabled]
+      color main-color07
+      background-color b2c-white05
+      opacity .5
+
+#upload
+  display none
+
+.button-text
+  transition color .2s linear
+  font-size 14px
+  line-height 20px
+  @media (max-width tablet-upper-limit)
+    font-size 12px
+    line-height 16px
+
+.events-admin
+  &__event-item
+    &__table
+      @media (max-width tablet-upper-limit)
+        width fit-content
+        overflow auto
+        padding-right 20px
+    &__table-cell
+      width calc(100% / 7)
+      @media (max-width tablet-upper-limit)
+        width 164px
+        flex-shrink 0
+      &+&
+        margin-left 8px
+    &__table-row
+      padding 14px 20px
+      background-color b2c-white
+      @media (max-width tablet-upper-limit)
+        justify-content flex-start
+      &+&
+        position relative
+        &:before
+          position absolute
+          content ''
+          top 0
+          left 20px
+          right 20px
+          height 2px
+          background-color #B8B9C0
+    &__table-head
+      border-bottom 2px solid b2c-orange
+      .events-admin__event-item__table-row
+        padding-top 20px 0 16px
+        border-top-right-radius 8px
+        border-top-left-radius 8px
+    &__table-body
+      position relative
+      &:before
+        content ''
+        position absolute
+        height 4px
+        top 0
+        left 0
+        right 0
+        background-color b2c-white
+      .events-admin__event-item__table-row
+        &:first-child
+          padding-top 20px
+        &:last-child
+          border-bottom-left-radius 8px
+          border-bottom-right-radius 8px
+      &-wrapper
+        padding-bottom 20px
+        max-height calc(100vh - 351px)
+        overflow auto
+        @media (max-width tablet-upper-limit)
+          max-height calc(100vh - 302px)
+        @media (max-width tablet-upper-limit)
+          max-height calc(100vh - 376px)
+
+.ac-datepicker
+  &__wrapper
+    position relative
+  &__body
+    position relative
+    width 100%
+    height 48px
+    outline none
+    border none
+    border-bottom 2px solid main-color01
+    line-height 46px
+    padding 16px 0 0
+    background-color transparent
+  &__calendar-icon
+    background-image: -webkit-image-set(url('data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMThweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMTggMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBpZD0i0L7RgdC90L7QstC90YvQtSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTg3Ny4wMDAwMDAsIC0xNTIuMDAwMDAwKSI+CiAgICAgICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDc0MC4wMDAwMDAsIDEzMi4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzNi4wMDAwMDAsIDIwLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxwb2x5Z29uIHBvaW50cz0iMCAwIDIwIDAgMjAgMjAgMCAyMCI+PC9wb2x5Z29uPgogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xNi42NjY2NjY3LDIuNSBMMTUuODMzMzMzMywyLjUgTDE1LjgzMzMzMzMsMC44MzMzMzMzMzMgTDE0LjE2NjY2NjcsMC44MzMzMzMzMzMgTDE0LjE2NjY2NjcsMi41IEw1LjgzMzMzMzMzLDIuNSBMNS44MzMzMzMzMywwLjgzMzMzMzMzMyBMNC4xNjY2NjY2NywwLjgzMzMzMzMzMyBMNC4xNjY2NjY2NywyLjUgTDMuMzMzMzMzMzMsMi41IEMyLjQxNjY2NjY3LDIuNSAxLjY2NjY2NjY3LDMuMjUgMS42NjY2NjY2Nyw0LjE2NjY2NjY3IEwxLjY2NjY2NjY3LDE3LjUgQzEuNjY2NjY2NjcsMTguNDE2NjY2NyAyLjQxNjY2NjY3LDE5LjE2NjY2NjcgMy4zMzMzMzMzMywxOS4xNjY2NjY3IEwxNi42NjY2NjY3LDE5LjE2NjY2NjcgQzE3LjU4MzMzMzMsMTkuMTY2NjY2NyAxOC4zMzMzMzMzLDE4LjQxNjY2NjcgMTguMzMzMzMzMywxNy41IEwxOC4zMzMzMzMzLDQuMTY2NjY2NjcgQzE4LjMzMzMzMzMsMy4yNSAxNy41ODMzMzMzLDIuNSAxNi42NjY2NjY3LDIuNSBaIE0xNi42NjY2NjY3LDE3LjUgTDMuMzMzMzMzMzMsMTcuNSBMMy4zMzMzMzMzMyw4LjMzMzMzMzMzIEwxNi42NjY2NjY3LDguMzMzMzMzMzMgTDE2LjY2NjY2NjcsMTcuNSBaIE0xNi42NjY2NjY3LDYuNjY2NjY2NjcgTDMuMzMzMzMzMzMsNi42NjY2NjY2NyBMMy4zMzMzMzMzMyw0LjE2NjY2NjY3IEwxNi42NjY2NjY3LDQuMTY2NjY2NjcgTDE2LjY2NjY2NjcsNi42NjY2NjY2NyBaIiBmaWxsPSIjNTc1RDY4IiBmaWxsLXJ1bGU9Im5vbnplcm8iPjwvcGF0aD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+') 1x)
+    position absolute
+    top 12px
+    right 3px
+    width 20px
+    height 20px
+    background-position 50% 50%
+    background-repeat no-repeat
+    cursor pointer
+  &__delete-icon
+    position absolute
+    top 20px
+    right 48px
+    width 20px
+    height 20px
+    cursor pointer
+    display none
+  &__pseudo-placeholder
+    position absolute
+    top 12px
+    left 0
+    font-size 16px
+    color main-color07
+    transition top .2s ease, color .2s ease, font-size .2s ease
+    &--active
+      color b2c-purple
+      font-size 12px
+      top 0
+
+.single-date-picker__calendar-month-header
   position relative
 
-.blog-container
-  width 100%
-  max-width 1176px
-  margin-left auto
-  margin-right auto
-  //padding-left horizontal-space * 4.75
-  //padding-right horizontal-space * 4.75
-  @media (max-width: tablet-upper-limit)
-    padding 0// 20px
-  //@media (max-width: desktop-lower-limit)
-  //  padding-left horizontal-space * .5
-  //  padding-right horizontal-space * .5
-  //@media (max-width: mobile-upper-limit)
-  //  padding-left horizontal-space * .5
-  //  padding-right horizontal-space * .5
-  //@media(min-width laptop-lower-limit)
+.single-date-picker__cell.single-date-picker__selected,
+.single-date-picker__cell:hover
+  border-radius 2px
+  background-color b2c-purple
+  color b2c-white
+  font-weight 500
+  opacity 1!important
+
+.single-date-picker__calendar-view
+  min-width none
+  position absolute
+  top 64px
+  left 50%
+  right auto
+  transform translateX(-50%)
+  box-shadow 0 2px 6px 1px main-color05
+  border-radius 4px
+  overflow hidden
+
+.single-date-picker__calendar-month-header
+  background-color b2c-white
+  color main-color
+  display flex
+  justify-content space-between
+  padding 12px 20px
+
+.ac-datepicker-wrapper
+  position relative
+  z-index 4
+
+.single-date-picker__calendar-month
+  width calc((36px * 7) + (14px * 2))
+  padding 12px 14px
+  background-color b2c-white
+  th
+    text-align center
+
+.single-date-picker__calendar-week-header
+  //font-weight 500
+  font-size 12px
+  line-height 16px
+  color main-color03
+
+.single-date-picker__date,
+.single-date-picker__arrow
+  cursor pointer
+
+.single-date-picker__cell
+  width 36px
+  height 36px
+  text-align center
+
+.single-date-picker__year
+  text-transform capitalize
+
+.rt-col.ovh
+  @media (max-width tablet-upper-limit)
+    overflow auto
+    padding-right 0
+
+.edit-event,
+.delete-event
   .row
-    margin 0 -20px
-
-  .rt-col
-    padding-left 20px
-    padding-right 20px
-
-  for $num in (1..12)
-    .rt-col-{$num}
-      padding-left 20px
-      padding-right 20px
+    @media (min-width laptop-lower-limit)
+      justify-content flex-end
+      padding-right 32px
