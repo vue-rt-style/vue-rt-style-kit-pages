@@ -4,7 +4,7 @@
       <rt-system-icons name="chevron left"></rt-system-icons>
     </div>
     <div class="single-date-picker__year">
-      {{ fullMonth }} {{ year }}
+      {{ fullMonth }} <span class="color-main05">{{ year }}</span>
     </div>
     <div class="single-date-picker__arrow right" @click="toggleMonth(1)">
       <rt-system-icons name="chevron right"></rt-system-icons>

@@ -254,7 +254,9 @@ var componentsList = {};
     return {
       selectedDate: (_this$value = this.value) !== null && _this$value !== void 0 && _this$value.length ? this.value.split('-').reverse().join('.') : '',
       hasInputFocus: false,
-      localValue: this.value
+      localValue: this.value,
+      datePickerShown: false,
+      showCalendar: false
     };
   },
   watch: {},
@@ -266,6 +268,10 @@ var componentsList = {};
         classList += ' ac-datepicker__pseudo-placeholder--active';
       }
 
+      if (this.datePickerShown) {
+        classList += ' ac-datepicker__pseudo-placeholder--focus';
+      }
+
       return classList;
     }
   },
@@ -273,7 +279,13 @@ var componentsList = {};
   created: function created() {},
   methods: {
     toggleCalendar: function toggleCalendar() {
-      this.$refs.calendar.$el.classList.toggle('d-none');
+      this.showCalendar = !this.showCalendar;
+
+      if (this.showCalendar) {
+        this.$refs.input.focus();
+      } else {
+        this.$refs.input.blur();
+      }
     },
     chooseDate: function chooseDate() {// console.log(this.$refs.input.value)
     },
@@ -287,7 +299,8 @@ var componentsList = {};
       localDate.push(month);
       localDate.push(day);
       this.localValue = localDate.join('-');
-      this.$refs.calendar.$el.classList.toggle('d-none');
+      this.showCalendar = !this.showCalendar;
+      this.datePickerShown = !this.datePickerShown;
       this.hasInputFocus = true; // console.log(new Date(calendarData.year, (month - 1), day))
     },
     fixInputValue: function fixInputValue($event) {
@@ -362,27 +375,36 @@ var componentsList = {};
     clearDate: function clearDate() {
       this.selectedDate = null;
       this.hasInputFocus = false;
-      this.$refs.calendar.$el.classList.add('d-none');
+      this.showCalendar = false;
       this.$refs.calendar._data.selectedDate = null;
     },
     liftPlaceholder: function liftPlaceholder() {
       this.hasInputFocus = true;
+      this.showCalendar = true;
+      this.$refs.wrapper.classList.add('ac-datepicker-wrapper--focused');
     },
     lowerPlaceholder: function lowerPlaceholder() {
+      var _this = this;
+
       if (!this.selectedDate) {
         this.hasInputFocus = false;
       }
+
+      setTimeout(function () {
+        _this.showCalendar = false;
+      }, 10);
+      this.$refs.wrapper.classList.remove('ac-datepicker-wrapper--focused');
     }
   },
   render: function render(h) {
-    var _this = this;
+    var _this2 = this;
 
     var clearButton = function clearButton() {
-      if (_this.selectedDate) {
+      if (_this2.selectedDate) {
         return h("div", {
           "class": "ac-datepicker__delete-icon",
           "on": {
-            "click": _this.clearDate
+            "click": _this2.clearDate
           }
         }, [h("svg", {
           "attrs": {
@@ -403,8 +425,25 @@ var componentsList = {};
       }
     };
 
+    var calendar = function calendar() {
+      if (_this2.showCalendar) {
+        return h("calendar-view", {
+          "attrs": {
+            "first-day-of-week": 1
+          },
+          "on": {
+            "selectDate": _this2.pickDate
+          },
+          "ref": "calendar"
+        });
+      }
+
+      return null;
+    };
+
     return h("div", {
-      "class": "ac-datepicker-wrapper"
+      "class": "ac-datepicker-wrapper",
+      "ref": "wrapper"
     }, [h("input", {
       "attrs": {
         "type": "text",
@@ -427,19 +466,11 @@ var componentsList = {};
       "ref": "placeholder"
     }, ["\u0414\u0430\u0442\u0430"]), h("div", {
       "class": "ac-datepicker__calendar-icon",
+      "ref": "icon",
       "on": {
         "click": this.toggleCalendar
       }
-    }), clearButton(), h("calendar-view", {
-      "attrs": {
-        "first-day-of-week": 1
-      },
-      "on": {
-        "selectDate": this.pickDate
-      },
-      "ref": "calendar",
-      "class": "d-none"
-    })]);
+    }), calendar()]);
   }
 });
 
@@ -1210,7 +1241,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _CalendarMonthHeader_vue_vue_type_template_id_761356a6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarMonthHeader.vue?vue&type=template&id=761356a6& */ "./src/example-pages/components/pages/datePicker/CalendarMonthHeader.vue?vue&type=template&id=761356a6&");
+/* harmony import */ var _CalendarMonthHeader_vue_vue_type_template_id_79598039___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarMonthHeader.vue?vue&type=template&id=79598039& */ "./src/example-pages/components/pages/datePicker/CalendarMonthHeader.vue?vue&type=template&id=79598039&");
 /* harmony import */ var _CalendarMonthHeader_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarMonthHeader.vue?vue&type=script&lang=js& */ "./src/example-pages/components/pages/datePicker/CalendarMonthHeader.vue?vue&type=script&lang=js&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
@@ -1222,8 +1253,8 @@ __webpack_require__.r(__webpack_exports__);
 ;
 var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _CalendarMonthHeader_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _CalendarMonthHeader_vue_vue_type_template_id_761356a6___WEBPACK_IMPORTED_MODULE_0__.render,
-  _CalendarMonthHeader_vue_vue_type_template_id_761356a6___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  _CalendarMonthHeader_vue_vue_type_template_id_79598039___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CalendarMonthHeader_vue_vue_type_template_id_79598039___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
   null,
@@ -1590,18 +1621,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/example-pages/components/pages/datePicker/CalendarMonthHeader.vue?vue&type=template&id=761356a6&":
+/***/ "./src/example-pages/components/pages/datePicker/CalendarMonthHeader.vue?vue&type=template&id=79598039&":
 /*!**************************************************************************************************************!*\
-  !*** ./src/example-pages/components/pages/datePicker/CalendarMonthHeader.vue?vue&type=template&id=761356a6& ***!
+  !*** ./src/example-pages/components/pages/datePicker/CalendarMonthHeader.vue?vue&type=template&id=79598039& ***!
   \**************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMonthHeader_vue_vue_type_template_id_761356a6___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMonthHeader_vue_vue_type_template_id_761356a6___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMonthHeader_vue_vue_type_template_id_79598039___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMonthHeader_vue_vue_type_template_id_79598039___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMonthHeader_vue_vue_type_template_id_761356a6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CalendarMonthHeader.vue?vue&type=template&id=761356a6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/pages/datePicker/CalendarMonthHeader.vue?vue&type=template&id=761356a6&");
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMonthHeader_vue_vue_type_template_id_79598039___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CalendarMonthHeader.vue?vue&type=template&id=79598039& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/pages/datePicker/CalendarMonthHeader.vue?vue&type=template&id=79598039&");
 
 
 /***/ }),
@@ -1691,9 +1722,9 @@ var staticRenderFns = []
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/pages/datePicker/CalendarMonthHeader.vue?vue&type=template&id=761356a6&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/pages/datePicker/CalendarMonthHeader.vue?vue&type=template&id=79598039&":
 /*!*****************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/pages/datePicker/CalendarMonthHeader.vue?vue&type=template&id=761356a6& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/example-pages/components/pages/datePicker/CalendarMonthHeader.vue?vue&type=template&id=79598039& ***!
   \*****************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1702,7 +1733,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"single-date-picker__calendar-month-header"},[_c('div',{staticClass:"single-date-picker__arrow left",on:{"click":function($event){return _vm.toggleMonth(-1)}}},[_c('rt-system-icons',{attrs:{"name":"chevron left"}})],1),_vm._v(" "),_c('div',{staticClass:"single-date-picker__year"},[_vm._v("\n    "+_vm._s(_vm.fullMonth)+" "+_vm._s(_vm.year)+"\n  ")]),_vm._v(" "),_c('div',{staticClass:"single-date-picker__arrow right",on:{"click":function($event){return _vm.toggleMonth(1)}}},[_c('rt-system-icons',{attrs:{"name":"chevron right"}})],1)])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"single-date-picker__calendar-month-header"},[_c('div',{staticClass:"single-date-picker__arrow left",on:{"click":function($event){return _vm.toggleMonth(-1)}}},[_c('rt-system-icons',{attrs:{"name":"chevron left"}})],1),_vm._v(" "),_c('div',{staticClass:"single-date-picker__year"},[_vm._v("\n    "+_vm._s(_vm.fullMonth)+" "),_c('span',{staticClass:"color-main05"},[_vm._v(_vm._s(_vm.year))])]),_vm._v(" "),_c('div',{staticClass:"single-date-picker__arrow right",on:{"click":function($event){return _vm.toggleMonth(1)}}},[_c('rt-system-icons',{attrs:{"name":"chevron right"}})],1)])}
 var staticRenderFns = []
 
 
