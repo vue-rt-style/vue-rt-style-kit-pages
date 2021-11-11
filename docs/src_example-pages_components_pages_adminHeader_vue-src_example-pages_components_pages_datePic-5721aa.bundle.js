@@ -135,7 +135,7 @@ var componentsList = {};
           "attrs": {
             "href": "/vue-rt-style-kit-pages/vcod"
           },
-          "class": "rt-vam sp-l-4"
+          "class": "rt-vam sp-l-4 rt-sys-icon-hover--main-color"
         }, [h("span", {
           "class": "color-main05 rt-vam"
         }, ["\u0412\u044B\u0445\u043E\u0434"]), h("div", {
@@ -169,7 +169,7 @@ var componentsList = {};
           "attrs": {
             "href": "/vue-rt-style-kit-pages/vcod"
           },
-          "class": "rt-vam sp-l-4 td-sp-l-none"
+          "class": "rt-vam sp-l-4 td-sp-l-none rt-sys-icon-hover--main-color"
         }, [h("span", {
           "class": "color-main05 rt-vam"
         }, ["\u0412\u044B\u0445\u043E\u0434"]), h("div", {

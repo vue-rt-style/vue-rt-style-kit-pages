@@ -78,6 +78,8 @@
     &__link
       padding-bottom 2px
       border-bottom 2px solid transparent
+      &:hover
+        text-shadow .5px 0 0 main-color
       @media (max-width tablet-upper-limit)
         border-bottom 1px solid main-color01
       &+&
@@ -87,6 +89,8 @@
       &--active
         border-bottom-color b2c-orange
         font-weight 600
+        &:hover
+          text-shadow none
         @media (max-width tablet-upper-limit)
           border-bottom-color main-color01
     &-button
@@ -150,7 +154,10 @@
       @media (max-width mobile-upper-limit)
         top 81px
         height calc(100vh - 81px)
-
+  .rt-vam
+    transition color .2s linear
+    &:hover
+      color main-color
 
 .events-list-wrapper
   overflow hidden
@@ -249,8 +256,8 @@
           top 0
           left 20px
           right 20px
-          height 2px
-          background-color #B8B9C0
+          height 1px
+          background-color main-color01-no-opacity
     &__table-head
       position relative
       padding-bottom 2px

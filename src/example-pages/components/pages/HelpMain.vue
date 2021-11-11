@@ -48,17 +48,13 @@
     <rt-popup :name="'createEvent' + _uid" :size="3" class="create-event">
       <div class="font-h4 sp-b-0-2">Создание <br/>мероприятия</div>
       <div class="sp-t-0-3">
-        <rt-select-v2 label="Тип мероприятия"></rt-select-v2>
+        <event-select/>
       </div>
       <div class="sp-t-0-3">
-        <rt-input :version="2" placeholder="Дата">
-          <template slot="icon">
-            <rt-system-icons name="calendar"></rt-system-icons>
-          </template>
-        </rt-input>
+        <a-c-date-picker/>
       </div>
       <div class="sp-t-0-3">
-        <rt-select-v2 label="Город"></rt-select-v2>
+        <location-select/>
       </div>
       <div class="sp-t-2">
         <rt-button color="orange" :small="true" :is-block="true">Создать</rt-button>

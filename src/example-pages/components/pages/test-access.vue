@@ -64,13 +64,13 @@
     <rt-popup name="editEvent" :size="3" class="edit-event">
       <div class="font-h4 sp-b-0-2">Настройка мероприятия</div>
       <div class="sp-t-0-3">
-        <event-select/>
+        <event-select event="Клуб бизнес-экспертов"/>
       </div>
       <div class="sp-t-0-3">
-        <a-c-date-picker/>
+        <a-c-date-picker value="12.11.2020"/>
       </div>
       <div class="sp-t-0-3">
-        <location-select/>
+        <location-select location="Москва"/>
       </div>
       <div class="sp-t-2">
         <rt-button color="orange" :small="true" :is-block="true">Сохранить</rt-button>
