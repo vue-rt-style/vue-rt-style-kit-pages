@@ -1,14 +1,7 @@
 <template>
   <td class="single-date-picker__cell">
-    <div
-      v-show="date"
-      class="single-date-picker__date"
-      :class="{'single-date-picker__today': isToday,
-               'single-date-picker__selected': isSelected}"
-      @click="selectDate"
-    >
-      {{ date }}
-    </div>
+    <button :class="{'single-date-picker__today': isToday, 'single-date-picker__selected': isSelected}"
+      v-show="date" class="single-date-picker__date" @click="selectDate">{{ date }}</button>
   </td>
 </template>
 

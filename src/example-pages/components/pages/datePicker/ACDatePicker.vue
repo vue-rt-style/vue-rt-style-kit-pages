@@ -23,7 +23,7 @@
         hasInputFocus: false,
         localValue: this.value,
         datePickerShown: false,
-        showCalendar: false
+        showCalendar: false,
       }
     },
     watch: {},
@@ -44,10 +44,13 @@
     methods: {
       toggleCalendar() {
         this.showCalendar = !this.showCalendar
+        this.datePickerShown = this.showCalendar;
         if(this.showCalendar) {
-          this.$refs.input.focus()
+          this.$refs.input.focus();
+          this.liftPlaceholder();
         } else {
           this.$refs.input.blur()
+          this.lowerPlaceholder();
         }
       },
       chooseDate() {
@@ -64,9 +67,8 @@
         localDate.push(day);
         this.localValue = localDate.join('-');
         this.showCalendar = !this.showCalendar
-        this.datePickerShown = !this.datePickerShown;
+        this.datePickerShown = this.showCalendar;
         this.hasInputFocus = true;
-        // console.log(new Date(calendarData.year, (month - 1), day))
       },
       fixInputValue($event) {
         if(this.mayInput) {
@@ -143,9 +145,9 @@
         if(!this.selectedDate) {
           this.hasInputFocus = false;
         }
-        setTimeout(() => {
-          this.showCalendar = false
-        },10)
+        // setTimeout(() => {
+        //   this.showCalendar = false
+        // },10)
         this.$refs.wrapper.classList.remove('ac-datepicker-wrapper--focused')
       }
     },
@@ -162,18 +164,23 @@
         }
       };
       const calendar = () => {
+        const chooseDate = (e) => {
+          this.pickDate()
+        }
         if(this.showCalendar) {
-          return <calendar-view first-day-of-week={1} onSelectDate={this.pickDate} ref="calendar"/>
+          return <calendar-view first-day-of-week={1} onSelectDate={chooseDate} ref="calendar"/>
         }
         return null
       }
-      return <div class="ac-datepicker-wrapper" ref="wrapper">
+      return <div class="ac-datepicker-wrapper rt-sys-icon-hover--main-color07" ref="wrapper">
         <input type="text" class="ac-datepicker__body" ref="input"
                onMouseup={this.getSelection} value={this.selectedDate} maxlength="10"
                onKeydown={this.fixInputValue} onKeyup={this.formatMask} onFocus={this.liftPlaceholder}
                onBlur={this.lowerPlaceholder}/>
         <div class={this.placeholderClasses} ref="placeholder">Дата</div>
-        <div class="ac-datepicker__calendar-icon" ref="icon" onClick={this.toggleCalendar}/>
+        <div class="ac-datepicker__calendar-icon" ref="icon" onClick={this.toggleCalendar}>
+          <rt-system-icons name="calendar" color="main-color05"></rt-system-icons>
+        </div>
         {calendar()}
       </div>
     }

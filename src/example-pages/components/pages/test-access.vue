@@ -36,8 +36,8 @@
                     <rt-system-icons name="chevron down" color="main-color05-no-opacity"></rt-system-icons>
                   </div>
                   <div class="status-check sp-v-0-3 sp-h-0-3">
-                    <rt-checkbox name="present" :checked="true" @update:checked="showPresent">На мероприятии</rt-checkbox>
-                    <rt-checkbox name="absent" :checked="true" @update:checked="showAbsent">Отсутствует</rt-checkbox>
+                    <rt-checkbox name="present" :checked="true" :is-orange="true" @update:checked="showPresent">На мероприятии</rt-checkbox>
+                    <rt-checkbox name="absent" :checked="true" :is-orange="true" @update:checked="showAbsent">Отсутствует</rt-checkbox>
                   </div>
                 </div>
               </div>
