@@ -24,6 +24,7 @@ const app = express();
 // console.log('config',webpackConfig)
 if(isProductionBuuild){
   webpackConfig.output.publicPath = './'
+  webpackConfig.output.assetModuleFilename =  'vue-rt-style-kit-pages/static/[name][ext]'
 }
 const compiler = webpack(webpackConfig);
 let devMiddleware;
