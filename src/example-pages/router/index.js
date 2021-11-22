@@ -77,9 +77,6 @@ const index = [
   { path: "/phonenumber__input", name: "phoneNumberInput", component: () => import("../components/complex/PhoneNumberInput.vue") },
 
   // pages
-  { path: "/game-arrows", name: "AppGameArrows", component: () => import("../components/pages/GameArrows.vue") },
-  { path: "/test-access", name: "testAccess", component: () => import("../components/pages/test-access.vue") },
-  { path: "/help-main", name: "helpMain", component: () => import("../components/pages/HelpMain.vue") },
   { path: "/unwrapper", name: "unWrapper", component: () => import("../components/pages/UnWrapper.vue") },
   { path: "/tariff-cards2", name: "app-tariff-card", component: () => import("../components/complex/TariffCard2.vue") },
   { path: "/tariff-cards3", name: "app-tariff-card", component: () => import("../components/complex/TariffCard3.vue") },
