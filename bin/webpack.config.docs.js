@@ -153,14 +153,14 @@ const config = {
           }
         ],
       },
-      {
-        test: /\.(jpg|png|webp|gif|otf|ttf|woff|woff2|ani|eot|svg)$/,
-        loader: `url-loader`,
-        options: {
-          name: `[name].[ext]`,
-          limit: 10000,
-        },
-      },
+      // {
+      //   test: /\.(jpg|png|webp|gif|otf|ttf|woff|woff2|ani|eot|svg)$/,
+      //   loader: `url-loader`,
+      //   options: {
+      //     name: `[name].[ext]`,
+      //     limit: 10000,
+      //   },
+      // },
     ],
   },
   plugins: [

@@ -22,7 +22,7 @@ export default {
     env: devEnv,
     port: 8080,
     autoOpenBrowser: true,
-    assetsSubDirectory: '',
+    assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {},
     cssSourceMap: true

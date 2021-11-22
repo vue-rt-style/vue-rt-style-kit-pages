@@ -70,6 +70,7 @@ const config = {
       '@projectAtoms': path.join(local_dirname, 'src', 'projectsJsons', 'atoms.json'),
       '@projectMolecules': path.join(local_dirname, 'src', 'projectsJsons', 'molecules.json'),
       '@projectIcons': path.join(local_dirname, 'src', 'projectsJsons', 'icons.json'),
+      "src": path.resolve(__dirname, 'static')
     },
   },
   module: {
@@ -182,14 +183,14 @@ const config = {
           }
         ],
       },
-      {
-        test: /\.(jpg|png|webp|gif|otf|ttf|woff|woff2|ani|eot|svg)$/,
-        loader: `url-loader`,
-        options: {
-          name: `[name].[hash:20].[ext]`,
-          limit: 10000,
-        },
-      },
+      // {
+      //   test: /\.(jpg|png|webp|gif|otf|ttf|woff|woff2|ani|eot|svg)$/,
+      //   loader: `url-loader`,
+      //   options: {
+      //     name: `[name].[hash:20].[ext]`,
+      //     limit: 10000,
+      //   },
+      // },
     ],
   },
   watchOptions: {
