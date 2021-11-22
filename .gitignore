@@ -24,6 +24,8 @@ e2e/*.map
 .DS_Store
 
 # Build files
+webpack.lock
+webpack.lock.data/
 src/assets/images/map.svg
 libs/
 

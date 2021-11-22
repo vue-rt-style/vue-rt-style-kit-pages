@@ -2,7 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 // import VueRtStyleAtoms from "@vue-rt-style-kit-atoms-local";
 import {Price} from "@vue-rt-style-kit-atoms-local";
-import VueRtStyleIcons from "@vue-rt-style-kit-icons-local";
+// import VueRtStyleIcons from "@vue-rt-style-kit-icons-local";
 // import VueRtStyleMolecules from "@vue-rt-style-kit-molecules-local";
 import VueRtDevStyle from "../develover-lib/index";
 import routes from "./router";
@@ -22,7 +22,7 @@ if (!window[Global.globalSettingsKey]) window[Global.globalSettingsKey] = {}
 
 AppVue.use(VueRtDevStyle);
 // AppVue.use(VueRtStyleAtoms);
-AppVue.use(VueRtStyleIcons);
+// AppVue.use(VueRtStyleIcons);
 // AppVue.use(VueRtStyleMolecules);
 getAllDynamic((await import('@vue-rt-style-kit-atoms-local/index-for-dynamic')).default,AppVue)
 getAllDynamic((await import('@vue-rt-style-kit-molecules-local/index-for-dynamic')).default,AppVue)

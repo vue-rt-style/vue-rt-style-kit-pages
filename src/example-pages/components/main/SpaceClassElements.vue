@@ -12,6 +12,9 @@
         <div class="rt-col-12">
           <rt-tabs>
             <template slot="navigation">
+              <rt-tabs-nav-item name="xd">
+                Extra-large devices
+              </rt-tabs-nav-item>
               <rt-tabs-nav-item name="lg">
                 Large devices
               </rt-tabs-nav-item>
@@ -26,11 +29,18 @@
               </rt-tabs-nav-item>
             </template>
             <template slot="content">
+              <rt-tabs-content-item name="xd">
+                <documentation-builder
+                  :json="xdJson"
+                  type="classStyle"
+                  :label="'min-width: '+variables['large-desktop-lower-limit']"
+                />
+              </rt-tabs-content-item>
               <rt-tabs-content-item name="lg">
                 <documentation-builder
                   :json="largeeJson"
                   type="classStyle"
-                  :label="'min-width: '+variables['laptop-upper-limit']"
+                  :label="'min-width: '+variables['desktop-lower-limit']"
                 />
               </rt-tabs-content-item>
               <rt-tabs-content-item name="all">
@@ -71,6 +81,9 @@ export default {
   data() {
     return {
       variables: variables,
+      xdJson: {
+        items: []
+      },
       largeeJson: {
         items: []
       },
@@ -92,7 +105,7 @@ export default {
       'padding-left': [0, 0, 1, 0, 1, 0],
       'padding-right': [0, 0, 0, 1, 1, 0],
     };
-        ['lg', null, 'td', 'md'].forEach(($type) => {
+        ['xd', 'lg', null, 'td', 'md'].forEach(($type) => {
       (new Array(6).fill(null).map((i, index) => index)).forEach(($i) => {
         (new Array(5).fill(null).map((i, index) => index)).forEach(($j) => {
           ['t', 'b', 'l', 'r', 'h', 'v'].forEach((direction,directionIndex) => {
@@ -133,6 +146,9 @@ export default {
                 description: cssRules.join(' \n')
               }
               switch ($type) {
+                case 'xd':
+                  this.xdJson.items.push(data);
+                  break;
                 case 'lg':
                   this.largeeJson.items.push(data);
                   break;
