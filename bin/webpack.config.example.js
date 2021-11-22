@@ -40,6 +40,7 @@ const config = {
   output: {
     publicPath: '/',
     filename: '[name].bundle.js',
+    assetModuleFilename: 'static/[name][ext]'
   },
   experiments: {
     asyncWebAssembly: true,
@@ -183,14 +184,11 @@ const config = {
           }
         ],
       },
-      // {
-      //   test: /\.(jpg|png|webp|gif|otf|ttf|woff|woff2|ani|eot|svg)$/,
-      //   loader: `url-loader`,
-      //   options: {
-      //     name: `[name].[hash:20].[ext]`,
-      //     limit: 10000,
-      //   },
-      // },
+      {
+        test: /\.(jpg|png|webp|gif|otf|ttf|woff|woff2|ani|eot|svg)$/,
+        type: 'asset/source',
+        
+      },
     ],
   },
   watchOptions: {
