@@ -185,9 +185,7 @@ const config = {
         ],
       },
       {
-        test: /\.(jpg|png|webp|gif|otf|ttf|woff|woff2|ani|eot|svg)$/,
-        type: 'asset/source',
-        
+        test: /\.(jpg|png|webp|gif|otf|ttf|woff|woff2|ani|eot|svg)$/
       },
     ],
   },
