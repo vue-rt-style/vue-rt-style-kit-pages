@@ -89,7 +89,7 @@
         <template slot="content">
           <rt-tabs-content-item name="1">
             {{shadowColor}}
-            !
+
       <rt-carousel-v3 :scroll-step="scrollStep"
                       :laptop-scroll-step="laptopScrollStep"
                       :td-scroll-step="tdScrollStep"
@@ -97,7 +97,7 @@
                       :enable-custom-time="enableCustomTime"
                             :md-scroll-step="mdScrollStep" :active-index="activeIndex" :background="background" :shadow-color="shadowColor" :show-shadow="showShadow" :infinite-scroll="infinitescroll" :blur-not-active="blurnotactive" :col-in-row="colInRow" :laptop-col-in-row="laptopColInRow" :scrollable-on-desktop="scrollableondesktop">
       <!--        <pre-timeout  :time="i*1000" >-->
-              <rt-carousel-slide-v3 v-for="i in 8" :key="i+'$'" :id="'slide-'+i">
+              <rt-carousel-slide-v3 v-for="i in 5" :key="i+'$'" :id="'slide-'+i">
           <div>
           <div
               style="
@@ -483,7 +483,7 @@ export default {
       slidesList: [],
       colors: ["black", "black085", "black085-no-opacity", "purple", "purple-button-hover", "purple-button-active", "purple01", "purple005", "purple-low", "purple-high", "purple-night", "white", "red", "red-low", "red-high", "gray", "dark-blue", "dark-blue-low", "dark-blue-high", "light-blue", "light-blue-low", "light-blue-high", "yellow", "yellow-low", "yellow-high", "orange", "orange-night", "orange-button-hover", "orange-button-active", "orange-low", "orange-high", "orange-super", "pink", "pink-low", "pink-high", "green", "green-low", "green-high", "cool-grey", "cool-grey07", "cool-grey05", "cool-grey03", "cool-grey05-no-opacity", "purple-high05", "purple-high02", "orange-high05", "orange-high02", "orange03", "orange01", "orange005", "slate", "dark-slate", "burgundy", "white09", "white08", "white07", "white06", "white05", "white04", "white03", "white025", "white02", "white01", "white005", "main-color", "main-color09", "main-color08", "main-color07", "main-color06", "main-color05", "main-color04", "main-color03", "main-color02", "main-color01", "main-color007", "main-color005", "main-color003", "main-color09-no-opacity", "main-color085-no-opacity", "main-color07-no-opacity", "main-color05-no-opacity", "main-color03-no-opacity", "main-color01-no-opacity", "main-color007-no-opacity", "main-color005-no-opacity", "main-color003-no-opacity"],
       shadowColor: "white",
-      showShadow: false,
+      showShadow: true,
       infinitescroll: false,
       blurnotactive: true,
       scrollableondesktop: true,
@@ -491,7 +491,7 @@ export default {
       loaderType: skeletonLoader,
       gotoSlideVal: 0,
       colInRow: 4 ,
-      laptopColInRow: 4,
+      laptopColInRow: 3,
       scrollStep: 1,
       laptopScrollStep:1,
       tdScrollStep:1,
