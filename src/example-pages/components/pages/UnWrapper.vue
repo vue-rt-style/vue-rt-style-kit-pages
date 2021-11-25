@@ -8,6 +8,7 @@
           </div>
         </div>
 
+
         <div class="rt-col-12 rt-col-td-6 rt-col-md-3">
           <rt-un-wrapper unwrap-button-text="показать все">
             <template slot="short-content">
