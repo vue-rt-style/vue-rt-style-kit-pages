@@ -26,6 +26,8 @@ e2e/*.map
 # Build files
 src/assets/images/map.svg
 libs/
+webpack.lock
+webpack.lock.data/
 
 # Test coverage
 coverage
