@@ -68,7 +68,7 @@ var load = function load(cmpDecorator, fileLocation) {
  */
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread({}, load('RtRow', 'Grid/GridRow.vue')), load('RtCol', 'Grid/GridColumn.vue')), load('RtImg', 'Image/Image.vue')), load('RtLine', 'Line/Line.vue')), load('RtRipple', 'Ripple/Ripple.vue')), load('RtCircleNumber', 'CircleNumber/CircleNumber.vue')), load('RtButton', 'Button/Button.vue')), load('RtCalendar', 'Calendar/Calendar.vue')), load('RtCheckbox', 'Checkbox/Checkbox.vue')), load('RtCheckboxContainer', 'Checkbox/CheckboxContainer.vue')), load('RtInput', 'Input/Input.vue')), load('RtRadioButton', 'RadioButton/RadioButton.vue')), load('RtRadioButtonContainer', 'RadioButton/RadioButtonContainer.vue')), load('RtAutocomplete', 'Select/Autocomplete.vue')), load('RtSelect', 'Select/Select.vue')), load('RtSelectOption', 'Select/SelectOption.vue')), load('RtSelectV2', 'Select/SelectV2.vue')), load('RtSelectV2Option', 'Select/SelectV2Option.vue')), load('RtSwitch', 'Switch/Switch.vue')), load('RtSwitchContainer', 'Switch/SwitchContainer.vue')), load('RtSwitchV2', 'Switch/SwitchV2.vue')), load('RtTextarea', 'Textarea/Textarea.vue')), load('RtTextareaStatic', 'Textarea/TextareaStatic.vue')), load('RtTextareaV2', 'Textarea/TextareaV2.vue')), load('RtAnnotation', 'Annotation/Annotation.vue')), load('RtAnnotationV2', 'Annotation/AnnotationV2.vue')), load('RtArrowAnchor', 'ArrowAnchor/ArrowAnchor.vue')), load('RtColorLineText', 'ColorLineText/ColorLineText.vue')), load('RtHint', 'Hint/Hint.vue')), load('RtHintBody', 'Hint/HintBody.vue')), load('RtPrice', 'Price/Price.vue')), load('RtSpinner', 'Spinner/Spinner.vue')), load('RtSystemIcons', 'SystemIcons/SystemIcons.vue')), load('RtUssd', 'Ussd/Ussd.vue')), load('RtVideoPlayer', 'VideoPlayer/VideoPlayer.vue')));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSpread({}, load('RtRow', 'Grid/GridRow.vue')), load('RtCol', 'Grid/GridColumn.vue')), load('RtImg', 'Image/Image.vue')), load('RtLine', 'Line/Line.vue')), load('RtRipple', 'Ripple/Ripple.vue')), load('RtCircleNumber', 'CircleNumber/CircleNumber.vue')), load('RtButton', 'Button/Button.vue')), load('RtCalendar', 'Calendar/Calendar.vue')), load('RtCheckbox', 'Checkbox/Checkbox.vue')), load('RtCheckboxContainer', 'Checkbox/CheckboxContainer.vue')), load('RtInput', 'Input/Input.vue')), load('RtRadioButton', 'RadioButton/RadioButton.vue')), load('RtRadioButtonContainer', 'RadioButton/RadioButtonContainer.vue')), load('RtAutocomplete', 'Select/Autocomplete.vue')), load('RtSelect', 'Select/Select.vue')), load('RtSelectOption', 'Select/SelectOption.vue')), load('RtSelectV2', 'Select/SelectV2.vue')), load('RtSelectV2Option', 'Select/SelectV2Option.vue')), load('RtSwitch', 'Switch/Switch.vue')), load('RtSwitchContainer', 'Switch/SwitchContainer.vue')), load('RtSwitchV2', 'Switch/SwitchV2.vue')), load('RtTextarea', 'Textarea/Textarea.vue')), load('RtTextareaStatic', 'Textarea/TextareaStatic.vue')), load('RtTextareaV2', 'Textarea/TextareaV2.vue')), load('RtAnnotation', 'Annotation/Annotation.vue')), load('RtAnnotationV2', 'Annotation/AnnotationV2.vue')), load('RtArrowAnchor', 'ArrowAnchor/ArrowAnchor.vue')), load('RtColorLineText', 'ColorLineText/ColorLineText.vue')), load('RtHint', 'Hint/Hint.vue')), load('RtHintBody', 'Hint/HintBody.vue')), load('RtPrice', 'Price/Price.vue')), load('RtSpinner', 'Spinner/Spinner.vue')), load('RtSystemIcons', 'SystemIcons/SystemIcons.vue')), load('RtInfoIcons', 'InfoIcons/InfoIcons.vue')), load('RtUssd', 'Ussd/Ussd.vue')), load('RtVideoPlayer', 'VideoPlayer/VideoPlayer.vue')));
 
 /***/ }),
 
@@ -344,6 +344,54 @@ var map = {
 		"./src/atoms/components/Image/docs/index.json",
 		3,
 		"src_atoms_components_Image_docs_index_json"
+	],
+	"./InfoIcons/InfoIcons.styl": [
+		"./src/atoms/components/InfoIcons/InfoIcons.styl",
+		9
+	],
+	"./InfoIcons/InfoIcons.vue": [
+		"./src/atoms/components/InfoIcons/InfoIcons.vue",
+		9
+	],
+	"./InfoIcons/docs": [
+		"./src/atoms/components/InfoIcons/docs/index.json",
+		3,
+		"src_atoms_components_InfoIcons_docs_index_json"
+	],
+	"./InfoIcons/docs/": [
+		"./src/atoms/components/InfoIcons/docs/index.json",
+		3,
+		"src_atoms_components_InfoIcons_docs_index_json"
+	],
+	"./InfoIcons/docs/classnames": [
+		"./src/atoms/components/InfoIcons/docs/classnames.json",
+		3,
+		"src_atoms_components_InfoIcons_docs_classnames_json"
+	],
+	"./InfoIcons/docs/classnames.json": [
+		"./src/atoms/components/InfoIcons/docs/classnames.json",
+		3,
+		"src_atoms_components_InfoIcons_docs_classnames_json"
+	],
+	"./InfoIcons/docs/index": [
+		"./src/atoms/components/InfoIcons/docs/index.json",
+		3,
+		"src_atoms_components_InfoIcons_docs_index_json"
+	],
+	"./InfoIcons/docs/index.json": [
+		"./src/atoms/components/InfoIcons/docs/index.json",
+		3,
+		"src_atoms_components_InfoIcons_docs_index_json"
+	],
+	"./InfoIcons/docs/names": [
+		"./src/atoms/components/InfoIcons/docs/names.json",
+		3,
+		"src_atoms_components_InfoIcons_docs_names_json"
+	],
+	"./InfoIcons/docs/names.json": [
+		"./src/atoms/components/InfoIcons/docs/names.json",
+		3,
+		"src_atoms_components_InfoIcons_docs_names_json"
 	],
 	"./Input/Input.styl": [
 		"./src/atoms/components/Input/Input.styl",
