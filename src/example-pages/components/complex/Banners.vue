@@ -1,31 +1,33 @@
-<template>
-  <div>
-    <div class="rt-container">
-      <div class="grid-center"/>
-      <div class="app-content rt-col-12 rt-col-md-3">
-        <div class="app-title">
-          <div class="row"><h1 class="rt-font-hero rt-col">Banners</h1></div>
+<script type="text/jsx">
+import documentation from '@vue-rt-style-kit-molecules-local/components/Banner/docs/index.json';
+import Banner from '@vue-rt-style-kit-molecules-local/components/BannerV2/Banner.vue';
+import componentsList from '../../componentsList';
+
+export default {
+  name: 'AppBanners',
+  components: componentsList,
+  data: () => ({
+    documentation: {}
+  }),
+  mounted() {
+    this.documentation = documentation;
+  },
+  created() {
+  },
+  methods: {},
+  render(h) {
+
+    return <div>
+      <div class="rt-container">
+        <div class="grid-center"/>
+        <div class="app-content rt-col-12 rt-col-md-3">
+          <div class="app-title">
+            <div class="row"><h1 class="rt-font-hero rt-col">Banners</h1></div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="sp-b-2">
-<!--      -->
-<!--      <pre-code text="<rt-banner-v2>-->
-<!--	<rt-banner-item-v2 color-type='purple' :ga='{name:&quot;Смотрим вместе&quot;,section:&quot;2&quot;}'>-->
-<!--		<template slot='header'>-->
-<!--			<p class='tagline rt-font-label-uppercase rt-font-bold color-white05'>Это текст вместо лого</p>-->
-<!--		</template>-->
-<!--		<template slot='mobile-header'>-->
-<!--			<img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' height='32px' alt=''>-->
-<!--		</template>-->
-<!--		<template slot='label'>Легко подключить,<br> комфортно жить</template>-->
-<!--		<template slot='footer'><rt-button color='orange'>Подробнее</rt-button></template>-->
-
-<!--		<template slot='image'><rt-img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/12.jpg' x2-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/12-x2.jpg' alt=''></rt-img></template>-->
-<!--	</rt-banner-item-v2>-->
-<!--</rt-banner-v2>"/>-->
-      <pre-code text="<rt-banner-v2 name='test9393' >
-      <rt-banner-item-v2 banner-name='test9393' :ga='{name:&quot;Смотрим вместе&quot;,section:&quot;2&quot;}' :show-url-on-tablet='true' url='http://rt.ru'>
+      <div class="sp-b-2">
+        <setting-render wrap-menu={true} component={Banner} componentProps={{name: 'test9393'}} html={`<rt-banner-item-v2 banner-name='test9393' :ga='{name:"Смотрим вместе",section:"2"}' :show-url-on-tablet='true' url='http://rt.ru'>
         <template slot='header'>
           <img src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/headerbtc1460.svg' alt=''>
         </template>
@@ -42,7 +44,7 @@
         </template>
 
       </rt-banner-item-v2>
-      <rt-banner-item-v2 :ga='{name:&quot;test1&quot;,section:&quot;2&quot;}' ga-banner-name='banner_first' color-type='red' banner-name='test9393' :is-active='true' :show-url-on-desktop='true' url='http://rt.ru'>
+      <rt-banner-item-v2 :ga='{name:"test1",section:"2"}' ga-banner-name='banner_first' color-type='red' banner-name='test9393' :is-active='true' :show-url-on-desktop='true' url='http://rt.ru'>
         <template slot='header'>
           <img class='d-block' src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/logowink.svg' alt=''>
         </template>
@@ -60,7 +62,7 @@
                 ></rt-img>
         </template>
       </rt-banner-item-v2>
-      <rt-banner-item-v2 :ga='{name:&quot;test1&quot;,section:&quot;2&quot;}' ga-banner-name='banner_ulala' banner-name='test9393' url='http://rt.ru'>
+      <rt-banner-item-v2 :ga='{name:"test1",section:"2"}' ga-banner-name='banner_ulala' banner-name='test9393' url='http://rt.ru'>
         <template slot='label'>Виртуа!!льная АТС <br> и 1 000 минут бесплатно</template>
         <template slot='description'>Соберите сами свой пакет фильмов и каналов.</template>
         <template slot='footer'><a href='#'><rt-button  color='orange' >Подробнее</rt-button></a></template>
@@ -80,35 +82,16 @@
                 x2-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack-2x.jpg'
                 md-src='https://rt-static.rt.ru/sites/default/files/img/ui-kit-demo/bannerImageBlack-mobile.jpg' alt=''></rt-img>
         </template>
-      </rt-banner-item-v2>
-      </rt-banner-v2>"></pre-code>
+      </rt-banner-item-v2>`}>
+        </setting-render>
 
+
+      </div>
+      <div class="rt-container rt-space-top25">
+        <documentation-builder json={this.documentation} type="components"/>
+      </div>
     </div>
+  }
 
-
-
-
-    <div class="rt-container rt-space-top25">
-      <documentation-builder :json="documentation" type="components"/>
-    </div>
-  </div>
-</template>
-
-<script>
-import documentation from "@vue-rt-style-kit-molecules-local/components/Banner/docs/index.json";
-import componentsList from "../../componentsList";
-// const componentsList = {};
-export default {
-  name: "AppBanners",
-  components: componentsList,
-  data: () => ({
-    documentation: {}
-  }),
-  mounted() {
-    this.documentation = documentation;
-  },
-  created() {
-  },
-  methods: {}
 };
 </script>

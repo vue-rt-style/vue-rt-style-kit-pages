@@ -77,15 +77,19 @@ if(!isProductionBuuild) {
   class setSrcScripts {
     apply(compiler) {
       compiler.hooks.compilation.tap('MyPlugin', (compilation) => {
+        console.info("compilation", compilation);
         HtmlWebpackPlugin.getHooks(compilation).beforeEmit.tapAsync(
-            'setSrcScripts',
-            (data, cb) => {
-              data.html = data.html
-                  .replace(/stylesheet\" href=\"(?!http)/g, `stylesheet" href="./${baseDir}/`)
-                  .replace(/script\ src=\"(?!http)/g, `script src="./${baseDir}/`)
-              cb(null, data)
-            }
-        )
+          "setSrcScripts",
+          (data, cb) => {
+            data.html = data.html
+              .replace(
+                /stylesheet\" href=\"(?!http)/g,
+                `stylesheet" href="./${baseDir}/`
+              )
+              .replace(/script\ src=\"(?!http)/g, `script src="./${baseDir}/`);
+            cb(null, data);
+          }
+        );
       })
     }
   }
