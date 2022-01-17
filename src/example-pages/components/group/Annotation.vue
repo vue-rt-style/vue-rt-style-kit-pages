@@ -30,7 +30,8 @@ export default {
         <div class="app-body">
           <div class="sp-b-2">
 
-            <setting-render component={Annotation} componentProps={{scrollTimeout: 1000, isOnlyOneOpen: false}} html={`<template slot='label'>Что такое ОС Аврора?</template>
+            <setting-render docs={this.documentation.items} component={Annotation}
+                            componentProps={{scrollTimeout: 1000, isOnlyOneOpen: false}} html={`<template slot='label'>Что такое ОС Аврора?</template>
                 <template slot='content'>
                   <p class='rt-font-small-paragraph'>ОС Аврора — первая и пока единственная российская операционная система,
                   которая позволяет удаленно контролировать процесс обработки данных на мобильных устройствах.</p>
@@ -147,7 +148,7 @@ export default {
                 </template>
               </rt-annotation>
             </div>
-          <div class=" rt-col-5`}></pre-code>
+          `}></pre-code>
           </div>
           <rt-annotation label=" Примечание2" class=" rt-space-top rt-space-bottom">
             <template slot=" content">

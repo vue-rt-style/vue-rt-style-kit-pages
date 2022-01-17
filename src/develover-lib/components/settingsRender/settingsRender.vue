@@ -12,6 +12,10 @@ export default {
   name: 'settingRender',
   components: componentsList,
   props: {
+    docs: {
+      type: Array,
+      default: () => []
+    },
     component: {
       default: null
     },
@@ -78,6 +82,14 @@ export default {
   mounted() {
   },
   methods: {
+    getDocsProps(key) {
+      const label = this.camelToKebab(key);
+      const item = this.docs.find(i => i.property.replace(':', '').search(label) == 0);
+      if (item && item.variants) {
+        return item.variants
+      }
+      return []
+    },
     camelToKebab(text = '') {
       return text.replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase()
     },
@@ -119,16 +131,9 @@ export default {
     }
   },
   render: function (h) {
-    // console.info(this.localHtml.replace(/(\r\n|\n|\r)/gm, '').replace(/\s+/g, ' ').replace(/> </g, /></))
-
-    // console.info('JSSoup', parse(this.localHtml.replace(/(\r\n|\n|\r)/gm, '').replace(/\s+/g, ' ').replace(/> </g, '><')));
-    // console.info('this.localHtml', JSSoup(this.localHtml));
     const renderEl = () => {
 
-      // if (this.localHtml.search(/\<[a-z0-9\- '"=]*>/gi) >= 0) {
-      // console.info('-->>', this.html.trim().search('<template'));
       let slots = [];
-      let templates = [];
       if (this.parsedHtml.length > 0) {
         this.parsedHtml.forEach((node) => {
           if (node.type == 'element') {
@@ -138,12 +143,10 @@ export default {
               )
             } else {
               const slotName = node.attributes.filter(i => i.key == 'slot')
-              console.info('node -->>  ', node);
               const slotOptions = {}
               if (slotName) {
                 slotOptions.slot = slotName[0].value
               }
-              // console.info(stringify(node.children))
               node.children.forEach((childNode) => {
                 const parseChildNode = parse(childNode.content)[0]
                 if (parseChildNode.type == 'element') {
@@ -152,7 +155,6 @@ export default {
                   slots.push(h('template', slotOptions, stringify([parseChildNode])))
                 }
               })
-              // slots.push(h('template', slotOptions, [h({template: stringify(node.children)})]))
             }
 
           } else {
@@ -162,49 +164,18 @@ export default {
           }
         })
       }
-      // console.info(slots)
       return h(this.component, {props: this.componentDynamicProps}, slots)
-      //   if (html.search('<template') == 0) {
-      //     slots = []
-      //     html.split('</template>').forEach((i, key) => {
-      //
-      //       let name = i.match(/(<template slot=)(['"a-z0-9 ]*)(>)/gi);
-      //       if (name) {
-      //         name = name[0]
-      //         name = name.replace(/(<template slot=)/gi, '').replace(/['">]*/gi, '')
-      //         const componentHtml = i.replace(/<template slot=[a-z="'0-9_]*>/gi, '')
-      //         if (componentHtml.search(/\<[a-z0-9\- '"=]*>/gi) >= 0) {
-      //           slots.push(h('template', {slot: name}, [h({template: componentHtml})]))
-      //         } else {
-      //           slots.push(h('template', {slot: name}, componentHtml))
-      //         }
-      //         console.info(slots);
-      //       }
-      //     })
-      //
-      //     return h(this.component, {
-      //       props: this.componentDynamicProps,
-      //       slots: {label: <p>heelo</p>},
-      //     }, [slots])
-      //
-      //
-      //   } else {
-      //     return h(this.component, {props: this.componentDynamicProps}, [h({
-      //       template: this.localHtml
-      //     })])
-      //   }
-      // } else {
-      //   return h(this.component, {props: this.componentDynamicProps}, this.localHtml)
-      // }
     }
     const renderItem = (type, key) => {
-      const i = this.componentPropsSettings[key]
 
       const changeVal = (value) => {
         this.changeVal(key, value)
         this.$forceUpdate()
       }
-      return <settingsRenderItem onChange={changeVal} name={key} default={i.default}
+      const variants = this.getDocsProps(key)
+      return <settingsRenderItem onChange={changeVal} name={this.camelToKebab(key)}
+                                 default={this.componentDynamicProps[key]}
+                                 variants={variants}
                                  type={type}></settingsRenderItem>
     }
 
