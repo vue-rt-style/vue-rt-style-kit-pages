@@ -97,12 +97,17 @@ export default {
       const componentName = this.camelToKebab(this.component.name)
       const props = this.getProps();
       const attrs = [];
-      Object.keys((props)).forEach((key) => {
-        if (props[key].type == 'String') {
-          attrs.push(this.camelToKebab(key) + '="' + props[key].value + '"');
 
-        } else {
-          attrs.push(':' + this.camelToKebab(key) + '="' + props[key].value + '"');
+      Object.keys((props)).forEach((key) => {
+        switch (true) {
+          case props[key].type == 'String':
+            attrs.push(this.camelToKebab(key) + '="' + props[key].value + '"');
+            break
+          case props[key].type == 'Object':
+            attrs.push(':' + this.camelToKebab(key) + '=\'' + JSON.stringify(props[key].value) + '\'');
+            break
+          default:
+            attrs.push(':' + this.camelToKebab(key) + '="' + props[key].value + '"');
         }
       })
       return ['<' + componentName + ' ' + attrs.join(' ') + '>', '</' + componentName + '>']

@@ -32,7 +32,11 @@ export default {
     }
   },
   created() {
-    this.localValue = this.default
+    if (this.type == 'Object') {
+      this.localValue = JSON.parse(this.default) || '{}'
+    } else {
+      this.localValue = this.default
+    }
   },
   methods: {
     setNewValue(e) {
@@ -47,6 +51,17 @@ export default {
           this.$emit('change', e.target.checked)
           this.localValue = e.target.checked
           break;
+        case this.type == 'Number':
+          this.$emit('change', e - 0)
+          this.localValue = e - 0
+          break;
+        case this.type == 'Object':
+          try {
+            this.$emit('change', JSON.parse(e.replace(/'/g, '"')))
+          } catch (error) {
+            this.$emit('change', {})
+          }
+          break
         default:
           this.$emit('change', e)
           this.localValue = e
@@ -61,6 +76,10 @@ export default {
         case this.variants.length > 0:
           return <rt-select-v2 json={this.variantsArray} label={this.name} value={this.localValue}
                                onInput={this.setNewValue}/>
+          break
+        case this.type == 'Object':
+          return <rt-textarea version={2} placeholder={this.name} type="text" onInput={this.setNewValue}
+                              value={this.localValue}/>
           break
         case this.type == 'String':
           return <rt-input version={2} placeholder={this.name} type="text" onInput={this.setNewValue}
