@@ -182,7 +182,7 @@ export default {
     const renderItemsRows = () => {
       return Object.keys(this.grouppedArrayProps).map((type) => {
         return <rt-row bottom={20}>
-          <rt-col><p class="font-t-m color-main05 sp-b-0-2">type: {type}</p></rt-col>
+          <rt-col bottom={8} mobile-bottom={4}><p class="font-t-m color-main05">type: {type}</p></rt-col>
           {this.grouppedArrayProps[type].map(i => renderItem(type, i.key))}
         </rt-row>
       })

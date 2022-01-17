@@ -80,7 +80,7 @@ export default {
           return <p>unknown type: {this.type}</p>
       }
     }
-    return <rt-col size="2" bottom={20} class="settings-render-item">
+    return <rt-col size={2} tablet-size={3} mobile-size={3} bottom={20} mobile-bottom={4} class="settings-render-item">
 
       {renderInput()}
     </rt-col>
