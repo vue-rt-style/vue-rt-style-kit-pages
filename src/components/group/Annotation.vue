@@ -1,12 +1,12 @@
 <script type="text/jsx">
 // const componentsList = {};
 import documentation from '@vue-rt-style-kit-atoms-local/components/Annotation/docs/index.json';
-import componentsList from '../../componentsList';
+// import componentsList from '../../componentsList';
 import Annotation from '@vue-rt-style-kit-atoms-local/components/Annotation/AnnotationV2.vue';
 
 export default {
   name: 'AppButtons',
-  components: componentsList,
+  // components: componentsList,
   data: () => ({
     documentation: {}
   }),

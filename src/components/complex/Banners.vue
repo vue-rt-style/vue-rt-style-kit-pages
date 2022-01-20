@@ -1,11 +1,11 @@
 <script type="text/jsx">
 import documentation from '@vue-rt-style-kit-molecules-local/components/Banner/docs/index.json';
 import Banner from '@vue-rt-style-kit-molecules-local/components/BannerV2/Banner.vue';
-import componentsList from '../../componentsList';
+// import componentsList from '../../componentsList';
 
 export default {
   name: 'AppBanners',
-  components: componentsList,
+  // components: componentsList,
   data: () => ({
     documentation: {}
   }),
@@ -16,7 +16,6 @@ export default {
   },
   methods: {},
   render(h) {
-
     return <div>
       <div class="rt-container">
         <div class="grid-center"/>

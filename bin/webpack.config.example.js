@@ -1,46 +1,46 @@
 import VueLoaderPlugin from 'vue-loader';
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-import webpack from 'webpack';
-import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+import webpack from "webpack";
+import MiniCssExtractPlugin from "mini-css-extract-plugin";
 
 import filewatcherPlugin from "filewatcher-webpack-plugin";
 // import variables from '../src/atoms/variables.json'
-import fs from 'fs'
+import fs from "fs";
 // console.info('fs',fs.readFileSync('../src/atoms/variables.json'))
 // const variables = JSON.parse(fs.readFileSync('./src/atoms/variables.json'))
 // const colors = JSON.parse(fs.readFileSync('./src/atoms/color.json'))
 
 // console.info('variables',variables);
-import nib from 'nib'
-import customPlugins from '../src/example-pages/css/plugins.js'
+import nib from "nib";
+import customPlugins from "../src/css/plugins.js";
 
-let baseDir = process.env.NODE_ENV_PATH || ''
-if(process.env.NODE_ENV == 'production') {
-  baseDir = process.env.NODE_ENV_PATH || 'vue-rt-style-kit-pages'
+let baseDir = process.env.NODE_ENV_PATH || "";
+if (process.env.NODE_ENV == "production") {
+  baseDir = process.env.NODE_ENV_PATH || "vue-rt-style-kit-pages";
 }
-import {fileURLToPath} from 'url';
+import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename)
-const local_dirname = path.join(__dirname, '..')
+const __dirname = path.dirname(__filename);
+const local_dirname = path.join(__dirname, "..");
 
 function include() {
   return [
     path.join(local_dirname, `src`),
-    path.join(local_dirname, '..', 'vue-rt-style-kit-atoms', `src`)
-  ]
+    path.join(local_dirname, "..", "vue-rt-style-kit-atoms", `src`),
+  ];
 }
 
 const config = {
   entry: {
-    app: [path.join(local_dirname, `src`, `example-pages`, `index.js`)],
+    app: [path.join(local_dirname, `src`, `index.js`)],
   },
-  mode: 'development',
+  mode: "development",
   output: {
-    publicPath: '/',
-    filename: '[name].bundle.js',
-    assetModuleFilename: 'static/[name][ext]'
+    publicPath: "/",
+    filename: "[name].bundle.js",
+    assetModuleFilename: "static/[name][ext]",
   },
   experiments: {
     asyncWebAssembly: true,
@@ -51,27 +51,51 @@ const config = {
   },
   optimization: {
     splitChunks: {
-      chunks: `all`
+      chunks: `all`,
     },
-    moduleIds: 'named'
+    moduleIds: "named",
   },
   devtool: false,
   resolve: {
     symlinks: false,
     alias: {
-      
-      'vue$': 'vue/dist/vue.esm.js',
+      "@pages": path.resolve(local_dirname, "src/pages"),
+      "@components": path.resolve(local_dirname, "src/components"),
+      "@states": path.resolve(local_dirname, "src/states"),
+      "@css": path.resolve(local_dirname, "src/css"),
+      "@state": path.resolve(local_dirname, "src/state"),
+
+      vue$: "vue/dist/vue.esm.js",
       // Symlinks
-      
-      '@vue-rt-style-kit-atoms-local': path.join(local_dirname, 'src', 'atoms'),
-      'vue-rt-style-kit-atoms/src': path.join(local_dirname, 'src', 'atoms'),
-      'vue-rt-style-kit-atoms': path.join(local_dirname, 'src', 'atoms'),
-      '@vue-rt-style-kit-molecules-local': path.join(local_dirname, 'src', 'molecules'),
-      '@vue-rt-style-kit-icons-local': path.join(local_dirname, 'src', 'icons'),
-      '@projectAtoms': path.join(local_dirname, 'src', 'projectsJsons', 'atoms.json'),
-      '@projectMolecules': path.join(local_dirname, 'src', 'projectsJsons', 'molecules.json'),
-      '@projectIcons': path.join(local_dirname, 'src', 'projectsJsons', 'icons.json'),
-      "src": path.resolve(__dirname, 'static')
+
+      "@vue-rt-style-kit-atoms-local": path.join(local_dirname, "src", "atoms"),
+      "vue-rt-style-kit-atoms/src": path.join(local_dirname, "src", "atoms"),
+      "vue-rt-style-kit-atoms": path.join(local_dirname, "src", "atoms"),
+      "@vue-rt-style-kit-molecules-local": path.join(
+        local_dirname,
+        "src",
+        "molecules"
+      ),
+      "@vue-rt-style-kit-icons-local": path.join(local_dirname, "src", "icons"),
+      "@projectAtoms": path.join(
+        local_dirname,
+        "src",
+        "projectsJsons",
+        "atoms.json"
+      ),
+      "@projectMolecules": path.join(
+        local_dirname,
+        "src",
+        "projectsJsons",
+        "molecules.json"
+      ),
+      "@projectIcons": path.join(
+        local_dirname,
+        "src",
+        "projectsJsons",
+        "icons.json"
+      ),
+      src: path.resolve(__dirname, "static"),
     },
   },
   module: {
@@ -79,44 +103,41 @@ const config = {
       {
         test: /\.vue$/,
         use: [
-          
           {
             loader: "vue-loader",
             options: {
               shadowMode: true,
               hotReload: true,
-            }
+            },
           },
         ],
         include: include(),
       },
       {
         test: /\.html$/,
-        use: 'raw-loader',
+        use: "raw-loader",
         include: include(),
       },
       {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
         include: include(),
-        
+
         use: [
-          {loader: `babel-loader`},
+          { loader: `babel-loader` },
           {
             loader: `ts-loader`,
             options: {
-              transpileOnly: true
-            }
-          }]
+              transpileOnly: true,
+            },
+          },
+        ],
       },
       {
         test: /\.css$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          {loader: `css-loader`},
-        ],
+        use: [MiniCssExtractPlugin.loader, { loader: `css-loader` }],
       },
-      
+
       {
         test: /\.js$/,
         loader: `babel-loader`,
@@ -124,8 +145,8 @@ const config = {
         include: include(),
         type: "javascript/auto",
         resolve: {
-          fullySpecified: false
-        }
+          fullySpecified: false,
+        },
       },
       {
         test: /\.styl(us)?$/,
@@ -141,13 +162,20 @@ const config = {
             loader: `stylus-loader`,
             options: {
               stylusOptions: (loaderContext) => {
-                const importsArr = [path.resolve(__dirname, '../', 'node_modules/nib/lib/nib/index.styl'),path.resolve(__dirname, '../', 'src/atoms/css/config.styl')]
-                
+                const importsArr = [
+                  path.resolve(
+                    __dirname,
+                    "../",
+                    "node_modules/nib/lib/nib/index.styl"
+                  ),
+                  path.resolve(__dirname, "../", "src/atoms/css/config.styl"),
+                ];
+
                 return {
                   imports: importsArr,
-                  use: [nib(), customPlugins()]
+                  use: [nib(), customPlugins()],
                   //
-                }
+                };
               },
               // additionalData: (content, loaderContext) => {
               //   const {resourcePath, rootContext} = loaderContext;
@@ -180,21 +208,19 @@ const config = {
               //
               //   return content
               // }
-            }
-          }
+            },
+          },
         ],
       },
       {
         test: /\.(jpg|png|webp|gif|otf|ttf|woff|woff2|ani|eot|svg)$/,
-        type: 'asset/resource',
-        
+        type: "asset/resource",
       },
     ],
   },
   watchOptions: {
     followSymlinks: true,
-    ignored: ['**/node_modules'],
-    
+    ignored: ["**/node_modules"],
   },
   // path.resolve(__dirname, '../', 'src/atoms/css/vue-rt-style-atoms.styl')
   plugins: [
@@ -203,13 +229,13 @@ const config = {
       template: path.join(local_dirname, `static`, `index.html`),
       inject: true,
     }),
-    
+
     new webpack.DefinePlugin({
-      'globalVars': JSON.stringify({
-        PAGES_BASE_DIR: baseDir
-      })
-    })
-  ]
+      globalVars: JSON.stringify({
+        PAGES_BASE_DIR: baseDir,
+      }),
+    }),
+  ],
 };
 
 

@@ -1,62 +1,59 @@
-import Global from "./variables.json";
-import Project from "../package.json";
+import Vue from "vue";
+import VueRouter from "vue-router";
+// import VueRtStyleAtoms from "@vue-rt-style-kit-atoms-local";
+import { Price } from "@vue-rt-style-kit-atoms-local";
+import VueRtStyleIcons from "@vue-rt-style-kit-icons-local";
+// import VueRtStyleMolecules from "@vue-rt-style-kit-molecules-local";
+import VueRtDevStyle from "./develover-lib/index";
+import routes from "./router";
+import RootPage from "@pages/wrapper/index.vue";
+import appStyles from "./css/index.styl";
+// import stylesAtoms from "../atoms/css/vue-rt-style-atoms.styl";
+import stylesIcons from "./icons/css/vue-rt-style-kit-icons.styl";
+// import stylesMolecules from "../molecules/css/vue-rt-style-kit-molecules.styl";
+import Global from "@vue-rt-style-kit-atoms-local/variables.json";
+import { getAllDirectivesDynamic, getAllDynamic } from "./componentsList";
 
-// import {} from "./components";
+const AppVue = Vue;
+AppVue.use(VueRouter);
 
-import 'element-closest-polyfill';
-import 'nodelist-foreach-polyfill';
-import 'element-remove';
+if (!window[Global.globalSettingsKey]) window[Global.globalSettingsKey] = {};
 
-const VueRtStyle = {
-    install(Vue, config) {
-        // if (!Vue.RtStyleAtoms) {
-        //     Vue.component(Button.name, Button);
-        //     Vue.component(Checkbox.name, Checkbox);
-        //     Vue.component(CheckboxContainer.name, CheckboxContainer);
-        //     Vue.component(Input.name, Input);
-        //     Vue.component(InputWithoutJs.name, InputWithoutJs);
-        //     Vue.component(Price.name, Price);
-        //     Vue.component(RadioButton.name, RadioButton);
-        //     Vue.component(RadioButtonContainer.name, RadioButtonContainer);
-        //     Vue.component(Ripple.name, Ripple);
-        //     Vue.component(RippleWihoutJs.name, RippleWihoutJs);
-        //     Vue.component(Select.name, Select);
-        //     Vue.component(SelectOption.name, SelectOption);
-        //     Vue.component(SelectWithoutJs.name, SelectWithoutJs);
-        //     Vue.component(Switch.name, Switch);
-        //     Vue.component(SwitchContainer.name, SwitchContainer);
-        //     Vue.component(Textarea.name, Textarea);
-        //     Vue.component(TextareaStatic.name, TextareaStatic);
-        //     Vue.component(CheckboxTabs.name, CheckboxTabs);
-        //     Vue.component(Annotation.name, Annotation);
-        //     Vue.component(ColorLineText.name, ColorLineText);
-        //     Vue.component(Ussd.name, Ussd);
-        //     Vue.RtStyleAtoms = true;
-        // }
-    }
-};
-// VueRtStyle.directives = { SwipeLeft, SwipeRight, OutsideClickDirective, FilterCallerDirective};
-// VueRtStyle.directives = {SwipeLeft, SwipeRight, OutsideClickDirective};
+AppVue.use(VueRtDevStyle);
+// AppVue.use(VueRtStyleAtoms);
+AppVue.use(VueRtStyleIcons);
+// AppVue.use(VueRtStyleMolecules);
+getAllDynamic(
+  (await import("@vue-rt-style-kit-atoms-local/index-for-dynamic")).default,
+  AppVue
+);
+getAllDynamic(
+  (await import("@vue-rt-style-kit-molecules-local/index-for-dynamic")).default,
+  AppVue
+);
+getAllDirectivesDynamic(
+  (await import("@vue-rt-style-kit-molecules-local/index-for-dynamic"))
+    .directives,
+  AppVue
+);
 
-// if(localStorage && localStorage.getItem('dev_mode')){
-//   localStorage.setItem('dev_mode__version',version);
-// }
+if (globalVars?.PAGES_BASE_DIR)
+  routes.routes.forEach(
+    (r) => (r.path = `/${globalVars.PAGES_BASE_DIR}${r.path}`)
+  );
 
-/**
- * Глобальные настройки библиотеки
- * -Для добавления своих настроек, создайте объект
- * с названием из Global.globalSettingsKey и положите перед подключением либы
- *
- *
-const settingsKey = Global.globalSettingsKey;
-const version = Project.version;
-if (settingsKey) {
-    if (!window[settingsKey]) window[settingsKey] = {}
-    if (!window[settingsKey].segment) window[settingsKey].segment = Global.defaultSegment
-    window[settingsKey].version = version;
-}
- */
-// @Deprecated
-window.RTK_STYLE_VER = version;
-VueRtStyle.version = version;
-export default VueRtStyle;
+const router = new VueRouter({
+  mode: "history",
+  routes: routes.routes,
+});
+
+const App = new AppVue({
+  el: "#app",
+  router,
+  name: "App",
+  render: (h) => h(RootPage),
+});
+
+export { AppVue };
+
+// import stylesAtoms from "../atoms/css/vue-rt-style-atoms.styl";

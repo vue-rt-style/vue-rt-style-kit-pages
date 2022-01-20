@@ -1,11 +1,10 @@
 <script type="text/jsx">
 import documentation from '@vue-rt-style-kit-atoms-local/components/Button/docs/index.json';
-import componentsList from '../../componentsList';
+// import componentsList from '../../componentsList';
 import Button from '@vue-rt-style-kit-atoms-local/components/Button/Button.vue';
 
 export default {
   name: 'AppButtons',
-  components: componentsList,
   data: () => ({
     documentation: {}
   }),

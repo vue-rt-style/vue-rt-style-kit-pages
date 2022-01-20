@@ -203,13 +203,7 @@
                         >
 
                             <div class="rt-space-left">
-                                <rt-logo
-                                    width="30px"
-                                    english-theme="true"
-                                    show-text="true"
-                                    color="#ffffff"
-                                    height="42px"
-                                />
+                              <rt-logo show-text="true" width="9px" height="16px"/>
                             </div>
                         </app-menu>
                     </div>
