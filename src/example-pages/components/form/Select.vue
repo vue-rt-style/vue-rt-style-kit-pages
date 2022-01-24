@@ -17,7 +17,7 @@
         <div class="app-row row">
           <div class="rt-col-4">
             <input v-model="test2"/>
-            <rt-select-v2 :json="optionsList" name="test99" label="Просто выпадающий список"
+            <rt-select-v2 :json="optionsListFiltered" name="test99" label="Просто выпадающий список"
                           @item-select="console" @focus="console('focus')" @blur="console('blur')"/>
           </div>
           <div class="rt-col-4">

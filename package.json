@@ -49,6 +49,7 @@
     "prismjs": "^1.26.0",
     "reset-css": "^5.0.1",
     "smoothscroll-polyfill": "^0.4.4",
+    "vue-class-component": "^7.2.6",
     "vue-fragment": "^1.5.2",
     "vue-router": "^3.5.2",
     "vue-rt-style-kit-atoms": "^0.3.50",

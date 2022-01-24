@@ -8,9 +8,8 @@ const index = [
   { path: "/space-colorized", name: "app-grid", component: () => import("../components/main/SpaceColorized.vue") },
   { path: "/grid", name: "app-grid", component: () => import("../components/main/Grid.vue") },
   { path: "/grid_component", name: "grid component", component: () => import("../components/main/GridComponent.vue") },
-  { path: "/info_icons", name: "info icons", component: () => import("../components/simple/InfoIcons.vue") },
+  // { path: "/info_icons", name: "info icons", component: () => import("../components/simple/InfoIcons.vue") },
   { path: "/system_icons", name: "system icons", component: () => import("../components/simple/SystemIcons.vue") },
-  { path: "/info_icons", name: "info icons", component: () => import("../components/simple/InfoIcons.vue") },
 
   // form
   { path: "/buttons", name: "app-buttons", component: () => import("../components/form/Buttons.vue") },
